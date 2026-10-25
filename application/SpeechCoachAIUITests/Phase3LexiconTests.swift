@@ -84,11 +84,11 @@ final class Phase3LexiconTests: XCTestCase {
     func testGroupSwitchesAndLargeText() {
         let app = launch(largeText: true)
         openLexicon(app)
-        let work = app.switches["lexicon.group.work-office"]
-        XCTAssertTrue(work.waitForExistence(timeout: 5))
-        XCTAssertEqual(work.value as? String, "0")
-        work.tap()
-        XCTAssertEqual(work.value as? String, "1")
+        let people = app.switches["lexicon.group.a1-people-places"]
+        XCTAssertTrue(people.waitForExistence(timeout: 5))
+        XCTAssertEqual(people.value as? String, "0")
+        people.tap()
+        XCTAssertEqual(people.value as? String, "1")
         capture(app, "large-text")
     }
 }

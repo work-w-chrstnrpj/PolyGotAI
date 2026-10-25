@@ -525,7 +525,7 @@ struct CommunicationPracticeLauncher: View {
                 Text("Practice linked to a lesson").font(.headline)
                 Text("Opening the same lesson version from Learn or Speech Lab resumes the same saved communication practice. Course progress stays separate.")
                     .foregroundStyle(Kit.secondary)
-                ForEach(Array((install.lessons + install.archivedLessons).filter(\.isReady).enumerated()), id: \.offset) { _, lesson in
+                ForEach(Array(install.lessons.filter(\.isReady).enumerated()), id: \.offset) { _, lesson in
                     NavigationLink {
                         CommunicationPracticeHost(storage: storage, entry: .speechLab,
                             source: CommunicationSource(lessonID: lesson.id, contentVersion: lesson.contentVersion,

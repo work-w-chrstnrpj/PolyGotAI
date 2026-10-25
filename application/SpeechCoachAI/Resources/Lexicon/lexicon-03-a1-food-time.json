@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-food-time",
+    "title": "Food and time",
+    "level": "A1",
+    "tagline": "Meals, days and actions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "breakfast",
+      "pos": "noun",
+      "meaning": "The first meal of the day.",
+      "examples": [
+        "I eat {breakfast} at seven o’clock."
+      ],
+      "wrong": [
+        "Breakfast is the meal we eat at midnight."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "dinner",
+      "pos": "noun",
+      "meaning": "The main meal of the day, usually in the evening.",
+      "examples": [
+        "We have {dinner} with our family at six."
+      ],
+      "wrong": [
+        "Dinner is the first meal of the morning."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "coffee",
+      "pos": "noun",
+      "meaning": "A hot brown drink made from beans.",
+      "examples": [
+        "He drinks a cup of {coffee} every morning."
+      ],
+      "wrong": [
+        "Coffee is a cold white food you cut with a knife."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "milk",
+      "pos": "noun",
+      "meaning": "A white drink that comes from cows.",
+      "examples": [
+        "The children drink a glass of {milk} at breakfast."
+      ],
+      "wrong": [
+        "Milk is a hard yellow stone."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "bread",
+      "pos": "noun",
+      "meaning": "A food made from flour and baked in an oven.",
+      "examples": [
+        "We buy fresh {bread} every morning."
+      ],
+      "wrong": [
+        "Bread is a drink made from fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "rice",
+      "pos": "noun",
+      "meaning": "Small white or brown grains that people cook and eat.",
+      "examples": [
+        "We eat {rice} with fish for dinner."
+      ],
+      "wrong": [
+        "Rice is a very cold drink."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "fruit",
+      "pos": "noun",
+      "meaning": "A sweet food that grows on trees or plants, such as an apple.",
+      "examples": [
+        "I eat {fruit} every day."
+      ],
+      "wrong": [
+        "Fruit is a kind of meat from a cow."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "egg",
+      "pos": "noun",
+      "meaning": "An oval food that comes from a hen.",
+      "examples": [
+        "I had a boiled {egg} for breakfast."
+      ],
+      "wrong": [
+        "An egg is a vegetable that grows under the ground."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "fish",
+      "pos": "noun",
+      "meaning": "An animal that lives in water, or the meat of this animal.",
+      "examples": [
+        "We had grilled {fish} for dinner."
+      ],
+      "wrong": [
+        "A fish is an animal that lives only on mountains."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "cheese",
+      "pos": "noun",
+      "meaning": "A food made from milk, often yellow or white.",
+      "examples": [
+        "He put {cheese} on his sandwich."
+      ],
+      "wrong": [
+        "Cheese is a drink we pour into a glass."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "sugar",
+      "pos": "noun",
+      "meaning": "A sweet white food that you put in tea or cakes.",
+      "examples": [
+        "Do you want {sugar} in your tea?"
+      ],
+      "wrong": [
+        "Sugar is a salty food that comes from the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "salt",
+      "pos": "noun",
+      "meaning": "A white substance that makes food taste salty.",
+      "examples": [
+        "Add a little {salt} to the soup."
+      ],
+      "wrong": [
+        "Salt is a sweet drink."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "vegetable",
+      "pos": "noun",
+      "meaning": "A plant that you eat, such as a carrot.",
+      "examples": [
+        "A carrot is a {vegetable}."
+      ],
+      "wrong": [
+        "A vegetable is a large animal."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "hot",
+      "pos": "adjective",
+      "meaning": "Having a high temperature.",
+      "examples": [
+        "The soup is very {hot}, so be careful."
+      ],
+      "wrong": [
+        "The ice is hot and makes my hand freeze."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "cold",
+      "pos": "adjective",
+      "meaning": "Having a low temperature.",
+      "examples": [
+        "I need a coat because it is {cold} outside."
+      ],
+      "wrong": [
+        "The soup is cold and burns my tongue."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "small",
+      "pos": "adjective",
+      "meaning": "Not big in size.",
+      "examples": [
+        "A mouse is a {small} animal."
+      ],
+      "wrong": [
+        "An elephant is a very small animal."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "new",
+      "pos": "adjective",
+      "meaning": "Not old; made or bought a short time ago.",
+      "examples": [
+        "I bought a {new} phone yesterday."
+      ],
+      "wrong": [
+        "My new shoes are twenty years old."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "old",
+      "pos": "adjective",
+      "meaning": "Having lived or existed for a long time.",
+      "examples": [
+        "My grandfather is eighty years {old}."
+      ],
+      "wrong": [
+        "The new baby is eighty years old."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "week",
+      "pos": "noun",
+      "meaning": "A period of seven days.",
+      "examples": [
+        "I go swimming once a {week}."
+      ],
+      "wrong": [
+        "A week has twelve days."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "month",
+      "pos": "noun",
+      "meaning": "One of the twelve parts of a year, such as May.",
+      "examples": [
+        "My birthday is next {month}."
+      ],
+      "wrong": [
+        "A month has seven hours."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "year",
+      "pos": "noun",
+      "meaning": "A period of twelve months.",
+      "examples": [
+        "I started this job last {year}."
+      ],
+      "wrong": [
+        "A year has seven days."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "morning",
+      "pos": "noun",
+      "meaning": "The early part of the day, before noon.",
+      "examples": [
+        "I drink coffee every {morning}."
+      ],
+      "wrong": [
+        "The morning is the dark part of the day after midnight."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "evening",
+      "pos": "noun",
+      "meaning": "The part of the day between the afternoon and night.",
+      "examples": [
+        "We eat dinner in the {evening}."
+      ],
+      "wrong": [
+        "The evening is the time when the sun is highest."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "night",
+      "pos": "noun",
+      "meaning": "The time of day when it is dark.",
+      "examples": [
+        "The stars are bright at {night}."
+      ],
+      "wrong": [
+        "Night is the time when the sun is very high."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "today",
+      "pos": "adverb",
+      "meaning": "On this day.",
+      "examples": [
+        "I am very busy {today}."
+      ],
+      "wrong": [
+        "I met her today last Friday."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "tomorrow",
+      "pos": "adverb",
+      "meaning": "On the day after today.",
+      "examples": [
+        "We have a test {tomorrow}."
+      ],
+      "wrong": [
+        "I went to the beach tomorrow last year."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "yesterday",
+      "pos": "adverb",
+      "meaning": "On the day before today.",
+      "examples": [
+        "I saw Anna {yesterday}."
+      ],
+      "wrong": [
+        "I will go to the shop yesterday."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "always",
+      "pos": "adverb",
+      "meaning": "Every time; at all times.",
+      "examples": [
+        "She {always} says thank you."
+      ],
+      "wrong": [
+        "I always eat lunch only on Mondays."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "never",
+      "pos": "adverb",
+      "meaning": "At no time; not ever.",
+      "examples": [
+        "I {never} eat meat."
+      ],
+      "wrong": [
+        "I never go to school, and I go every day."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "often",
+      "pos": "adverb",
+      "meaning": "Many times; frequently.",
+      "examples": [
+        "We {often} play football on Saturdays."
+      ],
+      "wrong": [
+        "I often go to the beach one time in my whole life."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "open",
+      "pos": "verb",
+      "meaning": "To move something so that it is not closed.",
+      "examples": [
+        "Please {open} the door for me."
+      ],
+      "wrong": [
+        "I open the door by closing it."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "close",
+      "pos": "verb",
+      "meaning": "To shut something.",
+      "examples": [
+        "Please {close} the window; it is cold."
+      ],
+      "wrong": [
+        "I close the door by opening it wide."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "start",
+      "pos": "verb",
+      "meaning": "To begin to do something.",
+      "examples": [
+        "The class will {start} at nine."
+      ],
+      "wrong": [
+        "The film starts after it ends."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "finish",
+      "pos": "verb",
+      "meaning": "To come to the end of something.",
+      "examples": [
+        "I will {finish} my homework before dinner."
+      ],
+      "wrong": [
+        "I finish my work before I begin it."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "drink",
+      "pos": "verb",
+      "meaning": "To take liquid into your mouth and swallow it.",
+      "examples": [
+        "I {drink} a glass of water every morning."
+      ],
+      "wrong": [
+        "I drink a piece of bread with a fork."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "walk",
+      "pos": "verb",
+      "meaning": "To move on foot at a normal speed.",
+      "examples": [
+        "I {walk} to school every day."
+      ],
+      "wrong": [
+        "I walk to school by plane in five minutes."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "run",
+      "pos": "verb",
+      "meaning": "To move on foot very quickly.",
+      "examples": [
+        "The children {run} across the field."
+      ],
+      "wrong": [
+        "I run to the shop very slowly and sit down all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "play",
+      "pos": "verb",
+      "meaning": "To take part in a game or to make music.",
+      "examples": [
+        "The boys {play} football in the park."
+      ],
+      "wrong": [
+        "I play a book with a pencil."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "read",
+      "pos": "verb",
+      "meaning": "To look at words and understand them.",
+      "examples": [
+        "I {read} a book before I sleep."
+      ],
+      "wrong": [
+        "I read a book with my ears only."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "wait",
+      "pos": "verb",
+      "meaning": "To stay in a place until something happens.",
+      "examples": [
+        "Please {wait} here for a moment."
+      ],
+      "wrong": [
+        "I wait for the bus by leaving at once."
+      ],
+      "cefr": "A1",
+      "register": "everyday"
+    }
+  ]
+}

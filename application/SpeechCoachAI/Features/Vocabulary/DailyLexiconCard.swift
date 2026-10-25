@@ -55,7 +55,8 @@ struct DailyLexiconCard: View {
             let state = try repository.lexiconState()
             let stages = try repository.lexiconStages(bank: bank)
             let today = DailyLexicon.dayString(Date())
-            guard let pick = DailyLexicon.pick(bank: bank, state: state, stages: stages, day: today) else { return }
+            let level = storage.levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1"
+            guard let pick = DailyLexicon.pick(bank: bank, state: state, stages: stages, day: today, maxLevel: level) else { return }
             if pick.state != state { try repository.saveLexiconState(pick.state) }
             added = try repository.vocabularyEnrollments().contains { $0.itemId == pick.word.itemId }
             word = pick.word

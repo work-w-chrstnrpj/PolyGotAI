@@ -357,17 +357,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Which phrase signals the end?",
-          "answer": "To sum up,",
+          "answer": "To sum up",
           "exercise": {
             "type": "choice",
             "options": [
-              "To sum up,",
-              "First,",
-              "Next,",
-              "Let me begin."
+              "To sum up",
+              "First",
+              "Next",
+              "Let me begin"
             ],
             "accepted": [
-              "To sum up,"
+              "To sum up"
             ]
           }
         },
@@ -1209,15 +1209,15 @@
           "id": "ps-pause-02",
           "kind": "grammar",
           "required": true,
-          "prompt": "Which word should you stress in “We need action today, not tomorrow”?",
+          "prompt": "To contrast with “tomorrow,” which word should you stress in “We need action today, not tomorrow”?",
           "answer": "today",
           "exercise": {
             "type": "choice",
             "options": [
               "today",
               "need",
-              "the",
-              "We"
+              "We",
+              "not"
             ],
             "accepted": [
               "today"
@@ -1404,8 +1404,7 @@
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "important",
-              "key"
+              "important"
             ]
           }
         },

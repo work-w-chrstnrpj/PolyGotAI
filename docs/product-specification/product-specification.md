@@ -12,7 +12,7 @@ The owner's biggest difficulties: finding words while speaking, building correct
 
 | Tab | Purpose | Contents |
 | --- | --- | --- |
-| **Today** | The next thing to do | One "continue" card, the Daily Lexicon (word of the day), words due for review, streak and XP |
+| **Today** | The next thing to do | One "continue" card, the Daily Lexicon (one word a day), words due for review, streak and XP |
 | **Lexicon** | Words | Spaced-repetition word training, Lexicon in Action, Specialized Lexicon Training ([lexicon.md](lexicon.md)) |
 | **Lesson** | Structured lessons | **Course**: CEFR A1–C2, hosted by the Teacher. **Coaches**: 10 specialist tracks ([coach-tracks.md](coach-tracks.md)) |
 | **Speech Lab** | Speaking and sound | Introduction recording, Conversation, Interview, Communication practice, plus Phonetics, Articulation, Dictation, Voice ([speech-lab.md](speech-lab.md)) |

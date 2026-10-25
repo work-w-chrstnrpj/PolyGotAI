@@ -94,7 +94,8 @@ struct LexiconTrainingView: View {
         do {
             let state = try repository.lexiconState()
             let enrollments = try repository.vocabularyEnrollments()
-            let fresh = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: enrollments, now: Date())
+            let level = storage.levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1"
+            let fresh = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: enrollments, now: Date(), startLevel: level)
             try repository.startLexiconWords(fresh, bankVersion: LexiconBankLoader.bankVersion)
             let plan = try ReviewSessionPlan(queue: repository.reviewQueue(), settings: repository.reviewSettings(), open: nil)
             cards = plan.cards

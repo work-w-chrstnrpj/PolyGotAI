@@ -202,13 +202,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Build the sentence.",
-          "answer": "I work in the sales team.",
+          "answer": "I work on the sales team.",
           "exercise": {
             "type": "wordBank",
             "options": [
               "I",
               "work",
-              "in",
+              "on",
               "the",
               "sales",
               "team.",
@@ -216,7 +216,7 @@
               "play"
             ],
             "accepted": [
-              "I work in the sales team."
+              "I work on the sales team."
             ]
           }
         },
@@ -2160,21 +2160,21 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each SBI part with an example.",
-          "answer": "Situation → In Tuesday’s meeting, | Behavior → you interrupted Ana twice, | Impact → and she stopped sharing ideas.",
+          "answer": "Situation → In Tuesday’s meeting | Behavior → you interrupted Ana twice | Impact → she stopped sharing ideas",
           "exercise": {
             "type": "match",
             "pairs": [
               [
                 "Situation",
-                "In Tuesday’s meeting,"
+                "In Tuesday’s meeting"
               ],
               [
                 "Behavior",
-                "you interrupted Ana twice,"
+                "you interrupted Ana twice"
               ],
               [
                 "Impact",
-                "and she stopped sharing ideas."
+                "she stopped sharing ideas"
               ]
             ]
           }

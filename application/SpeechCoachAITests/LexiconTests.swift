@@ -35,13 +35,57 @@ struct LexiconTests {
 
     // MARK: Bank
 
-    @Test func theBankHasThreeGroupsOfFortyValidWords() throws {
-        #expect(bank.groups.map(\.id) == ["everyday-a1", "work-office", "academic-basics"])
-        #expect(bank.groups.allSatisfy { $0.words.count == 40 })
+    @Test func theBankHasEighteenCefrGroupsOfAboutFortyValidWords() throws {
+        let levelGroups = bank.groups.filter { !$0.isField }
+        #expect(levelGroups.count == 18)
         #expect(bank.skipped == 0)
-        #expect(Set(bank.words.map(\.id)).count == 120)
+        #expect(levelGroups.map(\.level) == ["A1", "A1", "A1", "A2", "A2", "A2", "B1", "B1", "B1", "B2", "B2", "B2", "C1", "C1", "C1", "C2", "C2", "C2"])
+        #expect(levelGroups.allSatisfy { (39...41).contains($0.words.count) })
+        #expect((850...1000).contains(bank.words.count), "\(bank.words.count) words")
+        #expect(Set(bank.words.map(\.id)).count == bank.words.count)
         #expect(bank.words.allSatisfy { $0.problem() == nil && !$0.parsedExamples.isEmpty && !$0.wrong.isEmpty })
-        #expect(bank.words.allSatisfy { !$0.groupId.isEmpty && $0.id.hasPrefix($0.groupId + ".") })
+        #expect(bank.words.allSatisfy { LevelGate.levels.contains($0.cefr) && LexiconWord.registers.contains($0.register) })
+        #expect(bank.words.allSatisfy { !$0.groupId.isEmpty && bank.group(id: $0.groupId)?.words.contains($0) == true })
+    }
+
+    @Test func fieldPacksAreOptInAndNeverTheDefault() throws {
+        let packs = bank.groups.filter(\.isField)
+        #expect(packs.map(\.id) == ["field-business", "field-tech", "field-health", "field-travel", "field-law"])
+        #expect(packs.allSatisfy { (25...35).contains($0.words.count) && $0.words.allSatisfy { ["term", "jargon", "formal", "informal"].contains($0.register) } })
+        for level in ["A1", "B2", "C2"] {
+            #expect(LexiconState().activeGroups(in: bank, startLevel: level).allSatisfy { !$0.isField })
+        }
+        // Finishing every level group never suggests a field pack.
+        let allStarted = Dictionary(uniqueKeysWithValues: bank.words.map { ($0.id, LexiconStage.learning) })
+        #expect(LexiconSuggestion.nextGroup(bank: bank, state: LexiconState(), stages: allStarted, startLevel: "C2") == nil)
+        // The daily word skips a field pack until it is switched on.
+        let state = LexiconState()
+        let everyLevelWordEasy = Dictionary(uniqueKeysWithValues: bank.groups.filter { !$0.isField }.flatMap(\.words).map { ($0.id, LexiconStage.easy) })
+        #expect(DailyLexicon.pick(bank: bank, state: state, stages: everyLevelWordEasy, day: "2026-10-26") == nil)
+        var withLaw = LexiconState()
+        withLaw.setActive(try #require(bank.group(id: "field-law")), true, in: bank, startLevel: "A1")
+        let pick = try #require(DailyLexicon.pick(bank: bank, state: withLaw, stages: everyLevelWordEasy, day: "2026-10-26"))
+        #expect(pick.word.groupId == "field-law")
+    }
+
+    @Test func everyWordSitsInAGroupOfItsOwnLevel() {
+        for group in bank.groups { #expect(group.words.allSatisfy { $0.cefr == group.level }, "\(group.id)") }
+    }
+
+    @Test func wordsThatMovedKeepTheirIdsAndTheirTwoWrongSentences() throws {
+        let schedule = try #require(bank.word(id: "work-office.schedule"))
+        #expect(schedule.groupId == "a2-work-basics" && schedule.cefr == "A2" && schedule.wrong.count == 2)
+        let analyze = try #require(bank.word(id: "academic-basics.analyze"))
+        #expect(analyze.groupId == "b2-academic" && analyze.cefr == "B2")
+        #expect(try #require(bank.word(id: "everyday-a1.happy")).groupId == "everyday-a1")
+    }
+
+    @Test func registersAreTagged() {
+        let counts = Dictionary(grouping: bank.words, by: \.register).mapValues(\.count)
+        #expect(counts["everyday"] ?? 0 > 200 && counts["formal"] ?? 0 > 100 && counts["term"] ?? 0 > 50)
+        #expect(counts["informal"] ?? 0 >= 15 && counts["slang"] ?? 0 >= 5 && counts["literary"] ?? 0 >= 30)
+        #expect(bank.word(id: "c2-idioms.vibe")?.register == "slang")
+        #expect(bank.word(id: "b2-work-terms.stakeholder")?.register == "jargon")
     }
 
     @Test func exampleMarkersSplitIntoPlainBlankAndForm() throws {
@@ -149,11 +193,48 @@ struct LexiconTests {
         #expect(words.count == 10)
         #expect(words.allSatisfy { $0.groupId == "everyday-a1" })
         state.setActive(bank.groups[1], true, in: bank)
-        #expect(state.activeGroupIDs == ["everyday-a1", "work-office"])
+        #expect(state.activeGroupIDs == ["everyday-a1", "a1-people-places"])
         state.newPerDay = 45
         let many = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: [], now: day1)
         #expect(many.count == 45)
-        #expect(many[40].groupId == "work-office")
+        #expect(many[40].groupId == "a1-people-places")
+    }
+
+    @Test func theStartGroupFollowsTheLearnersLevel() {
+        let state = LexiconState()
+        #expect(state.activeGroups(in: bank).map(\.id) == ["everyday-a1"])
+        #expect(state.activeGroups(in: bank, startLevel: "B1").map(\.id) == ["b1-work"])
+        #expect(state.activeGroups(in: bank, startLevel: "C2").map(\.id) == ["c2-precision"])
+        let b1Words = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: [], now: day1, startLevel: "B1")
+        #expect(b1Words.allSatisfy { $0.cefr == "B1" })
+        var chosen = LexiconState()
+        chosen.setActive(bank.groups[0], true, in: bank, startLevel: "B1")
+        #expect(chosen.activeGroups(in: bank, startLevel: "B1").map(\.id) == ["everyday-a1", "b1-work"])
+    }
+
+    @Test func theNextGroupIsSuggestedOnceTheActiveOnesAreFinished() throws {
+        let state = LexiconState()
+        let none = LexiconSuggestion.nextGroup(bank: bank, state: state, stages: [:], startLevel: "A1")
+        #expect(none == nil, "the active group is not finished")
+        let started = Dictionary(uniqueKeysWithValues: try #require(bank.group(id: "everyday-a1")).words.map { ($0.id, LexiconStage.learning) })
+        let next = LexiconSuggestion.nextGroup(bank: bank, state: state, stages: started, startLevel: "A1")
+        #expect(next?.id == "a1-people-places")
+        // Groups above the learner's level are not suggested.
+        let allA1 = Dictionary(uniqueKeysWithValues: bank.groups.filter { $0.level == "A1" }.flatMap(\.words).map { ($0.id, LexiconStage.review) })
+        var everyA1Active = LexiconState()
+        everyA1Active.activeGroupIDs = bank.groups.filter { $0.level == "A1" }.map(\.id)
+        #expect(LexiconSuggestion.nextGroup(bank: bank, state: everyA1Active, stages: allA1, startLevel: "A1") == nil)
+        #expect(LexiconSuggestion.nextGroup(bank: bank, state: everyA1Active, stages: allA1, startLevel: "A2")?.level == "A2")
+    }
+
+    @Test func theDailyWordNeverAboveTheLearnersLevel() throws {
+        for level in ["A1", "B1", "C2"] {
+            let pick = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: [:], day: "2026-10-26", maxLevel: level))
+            #expect((LevelGate.levels.firstIndex(of: pick.word.cefr) ?? 99) <= (LevelGate.levels.firstIndex(of: level) ?? 0))
+        }
+        // Every A1 word Easy: an A1 learner gets no daily word rather than a C2 one.
+        let easy = Dictionary(uniqueKeysWithValues: bank.words.filter { $0.cefr == "A1" }.map { ($0.id, LexiconStage.easy) })
+        #expect(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: easy, day: "2026-10-26", maxLevel: "A1") == nil)
     }
 
     @Test func wordsAlreadyStartedTodayUseUpTheLimit() {

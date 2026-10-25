@@ -375,7 +375,7 @@
               "Many experts say so.",
               "The city counted 1,200 users in May.",
               "A survey of 300 students found 70 percent agree.",
-              "The report was published in 2024."
+              "The report found 640 visitors in June."
             ],
             "accepted": [
               "Many experts say so."
@@ -424,7 +424,7 @@
           "id": "db-evidence-06",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Our town should build a new library. The old library has only 200 seats, but 1,500 people visit each week. A survey of 400 residents found that 78 percent want more study space. Which sentence is evidence from a survey?",
+          "prompt": "Read this. Our town should build a new library. The old library has only 200 seats, but 1,500 people visit each week. A survey of 400 residents found that 78 percent want more study space. Which sentence is evidence?",
           "answer": "A survey of 400 residents found that 78 percent want more study space.",
           "exercise": {
             "type": "choice",
@@ -937,7 +937,7 @@
           "id": "db-phrases-06",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill the gap: ___, I think cities need more parks.",
+          "prompt": "Fill the gap: ___, cities need more parks.",
           "answer": "In my opinion",
           "exercise": {
             "type": "choice",
@@ -1491,7 +1491,7 @@
           "id": "db-fallacy-people-06",
           "kind": "grammar",
           "required": true,
-          "prompt": "Match each term with its meaning.",
+          "prompt": "Match each item with its clue.",
           "answer": "Straw man → misrepresents the argument | Ad hominem → attacks the person | Rebuttal → answers the argument fairly",
           "exercise": {
             "type": "match",
@@ -1738,7 +1738,7 @@
           "id": "db-fallacy-logic-06",
           "kind": "grammar",
           "required": true,
-          "prompt": "Match each fallacy with its clue.",
+          "prompt": "Match each item with its clue.",
           "answer": "False dilemma → only two choices are offered | Slippery slope → a small step leads to disaster | Fair argument → real reasons and evidence",
           "exercise": {
             "type": "match",

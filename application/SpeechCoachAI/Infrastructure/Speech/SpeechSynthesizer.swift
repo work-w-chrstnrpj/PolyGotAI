@@ -37,6 +37,18 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
         synthesizer.speak(utterance)
     }
 
+    /// IPA notation gives sound-chart cues a specified American English pronunciation.
+    func speakPronunciation(_ text: String, ipa: String, slow: Bool = false) {
+        guard !text.isEmpty, !ipa.isEmpty else { speak(text, slow: slow); return }
+        stop(); prepareAudioSession()
+        let attributed = NSAttributedString(string: text, attributes: [NSAttributedString.Key(AVSpeechSynthesisIPANotationAttribute): ipa])
+        let utterance = AVSpeechUtterance(attributedString: attributed)
+        utterance.voice = Self.preferredVoice()
+        utterance.rate = slow ? AVSpeechUtteranceDefaultSpeechRate * 0.7 : AVSpeechUtteranceDefaultSpeechRate
+        isSpeaking = true
+        synthesizer.speak(utterance)
+    }
+
     func stop() {
         if synthesizer.isSpeaking { synthesizer.stopSpeaking(at: .immediate) }
         isSpeaking = false

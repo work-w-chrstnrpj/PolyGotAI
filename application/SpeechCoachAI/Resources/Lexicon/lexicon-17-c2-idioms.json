@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-idioms",
+    "title": "Idioms and informal English",
+    "level": "C2",
+    "tagline": "How people really talk",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "bummer",
+      "pos": "noun",
+      "meaning": "Something disappointing or unlucky.",
+      "examples": [
+        "It’s a {bummer} that the concert is cancelled."
+      ],
+      "wrong": [
+        "It’s a bummer, so let’s celebrate this great news with a party."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "hang out",
+      "pos": "phrase",
+      "meaning": "To spend time relaxing with someone.",
+      "examples": [
+        "We usually {hang out} at the park on weekends."
+      ],
+      "wrong": [
+        "We hang out by studying alone in a locked room all day."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "binge-watch",
+      "pos": "verb",
+      "meaning": "To watch many episodes of a show in one session.",
+      "examples": [
+        "We plan to {binge-watch} the whole series on Saturday."
+      ],
+      "wrong": [
+        "I binge-watched one short episode for two minutes and then stopped."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "chill out",
+      "pos": "phrase",
+      "meaning": "To relax and stop worrying.",
+      "examples": [
+        "Just {chill out}; there’s plenty of time."
+      ],
+      "wrong": [
+        "He told me to chill out, so I ran around in a panic shouting."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "freak out",
+      "pos": "phrase",
+      "meaning": "To become suddenly very upset or afraid.",
+      "examples": [
+        "Don’t {freak out}; it’s only a small mistake."
+      ],
+      "wrong": [
+        "She freaked out by staying perfectly calm and smiling."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "mess up",
+      "pos": "phrase",
+      "meaning": "To make a mistake or spoil something.",
+      "examples": [
+        "I don’t want to {mess up} the interview."
+      ],
+      "wrong": [
+        "I messed up the test, so I got every answer right."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "figure out",
+      "pos": "phrase",
+      "meaning": "To understand something or find a solution.",
+      "examples": [
+        "I can’t {figure out} how this app works."
+      ],
+      "wrong": [
+        "I figured out the answer, so I still have no idea what it is."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "sort out",
+      "pos": "phrase",
+      "meaning": "To deal with a problem and solve it.",
+      "examples": [
+        "I need to {sort out} my schedule for next week."
+      ],
+      "wrong": [
+        "I sorted out the problem, so it became worse and nothing changed."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "no-brainer",
+      "pos": "noun",
+      "meaning": "A decision that is very easy to make.",
+      "examples": [
+        "Taking the free upgrade was a {no-brainer}."
+      ],
+      "wrong": [
+        "Choosing between ten difficult plans was a no-brainer that took a month."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "ballpark",
+      "pos": "noun",
+      "meaning": "A rough estimate.",
+      "examples": [
+        "Give me a {ballpark} figure for the cost."
+      ],
+      "wrong": [
+        "A ballpark figure is an exact number measured to the last cent."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "hustle",
+      "pos": "verb",
+      "meaning": "To work hard and fast to earn money or succeed.",
+      "examples": [
+        "She has to {hustle} to pay the rent."
+      ],
+      "wrong": [
+        "He hustled all day by lying in bed and doing nothing."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "vibe",
+      "pos": "noun",
+      "meaning": "The mood or feeling of a place or person.",
+      "examples": [
+        "This café has a really relaxed {vibe}."
+      ],
+      "wrong": [
+        "The vibe in the crowded, noisy room was silent and completely dead, so it felt busy."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "sketchy",
+      "pos": "adjective",
+      "meaning": "Suspicious or not safe.",
+      "examples": [
+        "That website looks {sketchy}; I won’t enter my card."
+      ],
+      "wrong": [
+        "I trusted the sketchy shop because everything about it was perfectly safe and clear."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "flaky",
+      "pos": "adjective",
+      "meaning": "Not reliable; likely to cancel plans.",
+      "examples": [
+        "My friend is {flaky}; he cancels half the time."
+      ],
+      "wrong": [
+        "She is so flaky that she has never missed an appointment in ten years."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "nitpick",
+      "pos": "verb",
+      "meaning": "To complain about very small faults.",
+      "examples": [
+        "Stop trying to {nitpick} every little detail."
+      ],
+      "wrong": [
+        "She nitpicked by praising the whole report without noticing any detail."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "wing it",
+      "pos": "phrase",
+      "meaning": "To do something without preparing.",
+      "examples": [
+        "I didn’t prepare, so I’ll just {wing it}."
+      ],
+      "wrong": [
+        "He winged it by rehearsing the speech for ten full days."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "ghost",
+      "pos": "verb",
+      "meaning": "To suddenly stop answering someone’s messages.",
+      "examples": [
+        "He {ghosted} me after the second date."
+      ],
+      "wrong": [
+        "He ghosted me by replying to every message within a minute."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "cringe",
+      "pos": "verb",
+      "meaning": "To feel very embarrassed.",
+      "examples": [
+        "I {cringe} when I hear my old voice recordings."
+      ],
+      "wrong": [
+        "I cringe at my old photos because I think they are perfect and proud."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "salty",
+      "pos": "adjective",
+      "meaning": "Annoyed or bitter about something.",
+      "examples": [
+        "He’s still {salty} about losing the game."
+      ],
+      "wrong": [
+        "She is salty about her win, so she is overjoyed and not bitter."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "shady",
+      "pos": "adjective",
+      "meaning": "Dishonest or not to be trusted.",
+      "examples": [
+        "The deal sounded {shady}, so I said no."
+      ],
+      "wrong": [
+        "The shady businessman is known as the most honest man in town."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "wiped out",
+      "pos": "phrase",
+      "meaning": "Extremely tired.",
+      "examples": [
+        "I’m completely {wiped out} after the trip."
+      ],
+      "wrong": [
+        "He was wiped out after a long sleep and felt full of energy."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "bummed",
+      "pos": "adjective",
+      "meaning": "Disappointed or sad.",
+      "examples": [
+        "I’m really {bummed} that you can’t come."
+      ],
+      "wrong": [
+        "She was bummed because her team won everything and she felt delighted."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "stoked",
+      "pos": "adjective",
+      "meaning": "Very excited and happy.",
+      "examples": [
+        "I’m so {stoked} about the trip!"
+      ],
+      "wrong": [
+        "I am stoked about the cancelled trip and feel miserable."
+      ],
+      "cefr": "C2",
+      "register": "slang"
+    },
+    {
+      "lemma": "broke",
+      "pos": "adjective",
+      "meaning": "Having no money.",
+      "examples": [
+        "I can’t go out because I’m {broke}."
+      ],
+      "wrong": [
+        "He is broke, so he bought a new car with cash."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "hit the sack",
+      "pos": "phrase",
+      "meaning": "To go to bed.",
+      "examples": [
+        "I’m exhausted; I’m going to {hit the sack}."
+      ],
+      "wrong": [
+        "I hit the sack, so I stayed up all night and never lay down."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "call it a day",
+      "pos": "phrase",
+      "meaning": "To stop working for the day.",
+      "examples": [
+        "We’ve done enough; let’s {call it a day}."
+      ],
+      "wrong": [
+        "At nine in the morning they called it a day and went home to sleep for the week, though they had only just started."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "touch base",
+      "pos": "phrase",
+      "meaning": "To contact someone briefly to share news.",
+      "examples": [
+        "Let’s {touch base} on Friday about the project."
+      ],
+      "wrong": [
+        "We touch base by never speaking to each other again."
+      ],
+      "cefr": "C2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "run-of-the-mill",
+      "pos": "adjective",
+      "meaning": "Ordinary and not special.",
+      "examples": [
+        "It was a {run-of-the-mill} film that I soon forgot."
+      ],
+      "wrong": [
+        "The run-of-the-mill hotel was so unique that nobody had ever seen anything like it."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "up in the air",
+      "pos": "phrase",
+      "meaning": "Not yet decided.",
+      "examples": [
+        "Our holiday plans are still {up in the air}."
+      ],
+      "wrong": [
+        "Our plans are up in the air, so everything is fixed and settled."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "break the ice",
+      "pos": "phrase",
+      "meaning": "To make people feel more relaxed when they first meet.",
+      "examples": [
+        "A joke can {break the ice} at a party."
+      ],
+      "wrong": [
+        "He broke the ice by making everyone feel tense and silent."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "under the weather",
+      "pos": "phrase",
+      "meaning": "Slightly ill.",
+      "examples": [
+        "I’m feeling a bit {under the weather} today."
+      ],
+      "wrong": [
+        "He is under the weather, so he runs a marathon and feels great."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "pull strings",
+      "pos": "phrase",
+      "meaning": "To use your influence to get something done.",
+      "examples": [
+        "He {pulled strings} to get her the job."
+      ],
+      "wrong": [
+        "He pulled strings by having no friends and no influence."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "red tape",
+      "pos": "noun",
+      "meaning": "Official rules that cause delay.",
+      "examples": [
+        "Starting a business involves a lot of {red tape}."
+      ],
+      "wrong": [
+        "The red tape made the process fast and simple, with no forms at all."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "a blessing in disguise",
+      "pos": "phrase",
+      "meaning": "Something that seems bad but turns out good.",
+      "examples": [
+        "Losing that job was {a blessing in disguise}."
+      ],
+      "wrong": [
+        "The lucky win was a blessing in disguise because it clearly seemed wonderful and stayed wonderful."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "the last straw",
+      "pos": "phrase",
+      "meaning": "The final problem that makes you lose patience.",
+      "examples": [
+        "When he forgot again, that was {the last straw}."
+      ],
+      "wrong": [
+        "The last straw was the very first small problem of a whole new day."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "once in a blue moon",
+      "pos": "phrase",
+      "meaning": "Very rarely.",
+      "examples": [
+        "We only eat out {once in a blue moon}."
+      ],
+      "wrong": [
+        "He visits us once in a blue moon, so he comes every single day."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "bite the bullet",
+      "pos": "phrase",
+      "meaning": "To do something difficult that you have been avoiding.",
+      "examples": [
+        "I decided to {bite the bullet} and call the dentist."
+      ],
+      "wrong": [
+        "She bit the bullet by running away from the hard task for another year."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "on a shoestring",
+      "pos": "phrase",
+      "meaning": "With very little money.",
+      "examples": [
+        "They built the whole company {on a shoestring}."
+      ],
+      "wrong": [
+        "They built the palace on a shoestring with millions of dollars of gold."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "spill the beans",
+      "pos": "phrase",
+      "meaning": "To reveal a secret.",
+      "examples": [
+        "Who {spilled the beans} about the surprise party?"
+      ],
+      "wrong": [
+        "She spilled the beans by keeping the secret perfectly and telling nobody."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    },
+    {
+      "lemma": "cut corners",
+      "pos": "phrase",
+      "meaning": "To do something in a cheap or careless way.",
+      "examples": [
+        "The builders {cut corners} and the roof leaked."
+      ],
+      "wrong": [
+        "A careful builder cuts corners to make everything perfect and safe."
+      ],
+      "cefr": "C2",
+      "register": "informal"
+    }
+  ]
+}

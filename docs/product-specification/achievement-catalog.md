@@ -26,7 +26,7 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 | Communication and public speaking | 6 |
 | Articulation and expression | 3 |
 | Creative writing and storytelling | 3 |
-| All seven specialist trainers | 14 |
+| All coach tracks (ten) | 14 |
 | **Total** | **68** |
 
 ## Common eligibility rules
@@ -36,7 +36,7 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 - For this adopted catalog, learning badges apply the source objective’s unfamiliar-task and delayed criteria, normally day 7 ±2/day 28 ±3 from initial teaching. Record actual practice and delay; source-specific criteria take precedence. If the source has no reviewed numeric rubric or delayed-task design, that badge remains blocked pending definition rather than auto-awarded. Initial numbers are operational proposals, not validated CEFR cutoffs.
 - A one-time task success may appear as a progress observation before a retained-learning badge is eligible. Course completion, retained ability and improvement are different claims. Baseline-to-comparison improvement additionally requires reviewed comparable evidence; no extra generic “English mastered” badge is defined.
 - Fixed one-time badge identity uses family/rule version and learner; parameterized badges add objective/content-set identity; tier awards add threshold. Currency/reward identity remains linked to the original eligible event, not the number of badges. Cross-entry/trainer repeats cannot pay twice.
-- All seven coaches preserve the fixed CEFR course. Trainer-completion/skill badges below apply only to explicit specialist practice; coach choice cannot become a course prerequisite.
+- All ten coaches preserve the fixed CEFR course. Trainer-completion/skill badges below apply only to explicit specialist practice; coach choice cannot become a course prerequisite.
 - Awards do not create gold bonuses, locked coaches, paid AI requirements, levels or new available content. Private progress, opt-in evidence retention and the existing no-leaderboard/no-auto-share policy remain unchanged.
 
 ## Participation and first completions
@@ -143,7 +143,9 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 | AW-WR-02 | Purposeful Revision — {objective} | Learning badge | Independently revise a fresh draft to meet two reviewed meaning/clarity goals while preserving intended voice/facts, then repeat on delayed material; accepting a generated rewrite alone is insufficient. | Added in v1 |
 | AW-WR-03 | Story Retold — {objective} | Learning badge | Retell or change perspective coherently while preserving the chosen story/source facts in new and delayed tasks; scripted read-aloud is not unaided retelling. | Added in v1 |
 
-## All seven specialist trainers
+## All coach tracks
+
+Adopted artwork exists for seven of the ten coaches; the three newer coaches have no signature yet.
 
 | ID | Name / family | Type | Adopted condition / activation prerequisite | Provenance |
 | --- | --- | --- | --- | --- |

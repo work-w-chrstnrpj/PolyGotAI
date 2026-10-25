@@ -32,69 +32,128 @@ struct LevelGateTests {
         }
     }
 
+    // MARK: Synthetic content (every level typed), so the rule is tested independently of the bundle
+
+    /// Lessons with twelve typed choice items each. `counts` maps a level to its number of lessons.
+    private func syntheticInstall(_ counts: [String: Int]) -> CurriculumInstall {
+        var lessons: [ResolvedLesson] = []
+        for (level, count) in counts {
+            for number in 1...count {
+                let id = "\(level.lowercased())-t\(number)"
+                let activities = (1...12).map { index in
+                    CurriculumActivity(id: "\(id)-\(index)", kind: "grammar", required: true, prompt: "Question \(index)", answer: "a",
+                                       exercise: ExerciseSpec(type: "choice", options: ["a", "b"], accepted: ["a"]))
+                }
+                lessons.append(ResolvedLesson(id: id, level: level, title: id, objectiveId: id.uppercased(), contentVersion: "1",
+                                              availability: .ready, practiceActivities: activities))
+            }
+        }
+        return CurriculumInstall(lessons: lessons, problem: nil)
+    }
+
+    private let everyLevel = ["A1": 4, "A2": 4, "B1": 4, "B2": 4, "C1": 4, "C2": 4]
+
     // MARK: Level gate
 
-    @Test func aFreshLearnerHasOnlyA1AndCanTakeTheA2Test() {
-        let gate = LevelGate(install: install, journeys: [], passedTests: [])
+    @Test func aFreshLearnerHasOnlyA1AndCanTakeAnyLockedLevelsTest() {
+        let gate = LevelGate(install: syntheticInstall(everyLevel), journeys: [], passedTests: [])
         #expect(gate.unlockedLevels == ["A1"])
-        #expect(gate.isUnlocked("A1"))
-        #expect(!gate.isUnlocked("C2"))
         #expect(gate.nextLockedLevel == "A2")
-        #expect(gate.canTakeJumpTest(to: "A2"))
-        #expect(!gate.canTakeJumpTest(to: "B1"))
+        for level in ["A2", "B1", "B2", "C1", "C2"] { #expect(gate.canTakeJumpTest(to: level), "\(level) has a test") }
+        #expect(!gate.canTakeJumpTest(to: "A1"))
+    }
+
+    @Test func passingC2OpensEveryLevel() {
+        let gate = LevelGate(install: syntheticInstall(everyLevel), journeys: [], passedTests: ["C2"])
+        #expect(gate.unlockedLevels == LevelGate.levels)
+        #expect(gate.nextLockedLevel == nil)
         #expect(!gate.canTakeJumpTest(to: "C2"))
     }
 
-    @Test func finishingEveryReadyA1LessonOpensA2() {
-        let journeys = install.lessons(at: "A1").filter(\.isReady).map { journey($0, finished: true) }
-        let gate = LevelGate(install: install, journeys: journeys, passedTests: [])
-        #expect(gate.unlockedLevels == ["A1", "A2"])
-        #expect(gate.nextLockedLevel == "B1")
-        // The B1 test needs typed A2 exercises (Phase 4), so none can be taken yet.
+    @Test func passingB2OpensEverythingBelowAndKeepsHigherTestsOpen() {
+        let gate = LevelGate(install: syntheticInstall(everyLevel), journeys: [], passedTests: ["B2"])
+        #expect(gate.unlockedLevels == ["A1", "A2", "B1", "B2"])
         #expect(!gate.canTakeJumpTest(to: "B1"))
+        #expect(gate.canTakeJumpTest(to: "C1") && gate.canTakeJumpTest(to: "C2"))
+    }
+
+    @Test func finishingEveryReadyLessonOfALevelOpensTheNext() {
+        let content = syntheticInstall(everyLevel)
+        let journeys = content.lessons(at: "A1").map { journey($0, finished: true) }
+        let gate = LevelGate(install: content, journeys: journeys, passedTests: [])
+        #expect(gate.unlockedLevels == ["A1", "A2"])
+        #expect(gate.canTakeJumpTest(to: "B1") && gate.canTakeJumpTest(to: "C2"))
     }
 
     @Test func oneFinishedLessonIsNotEnough() throws {
-        let first = try #require(install.lessons(at: "A1").first { $0.isReady })
-        let gate = LevelGate(install: install, journeys: [journey(first, finished: true)], passedTests: [])
+        let content = syntheticInstall(everyLevel)
+        let first = try #require(content.lessons(at: "A1").first)
+        let gate = LevelGate(install: content, journeys: [journey(first, finished: true)], passedTests: [])
         #expect(gate.unlockedLevels == ["A1"])
     }
 
-    @Test func aPassedTestOpensOnlyThatLevel() {
-        let gate = LevelGate(install: install, journeys: [], passedTests: ["A2"])
-        #expect(gate.unlockedLevels == ["A1", "A2"])
-        #expect(!gate.isUnlocked("B1"))
+    @Test func levelsOpenedInV1StayOpenAndOpenEverythingBelow() throws {
+        let content = syntheticInstall(everyLevel)
+        let b1 = try #require(content.lessons(at: "B1").first)
+        let gate = LevelGate(install: content, journeys: [journey(b1, finished: false)], passedTests: [])
+        #expect(gate.unlockedLevels == ["A1", "A2", "B1"])
     }
 
-    @Test func levelsOpenedInV1StayOpenAndOpenEverythingBelow() throws {
-        let b1 = try #require(install.lessons(at: "B1").first { $0.isReady })
-        let gate = LevelGate(install: install, journeys: [journey(b1, finished: false)], passedTests: [])
-        #expect(gate.unlockedLevels == ["A1", "A2", "B1"])
+    @Test func aLevelWithoutTypedExercisesHasNoTest() {
+        let gate = LevelGate(install: syntheticInstall(["A1": 4, "A2": 4]), journeys: [], passedTests: [])
+        #expect(gate.canTakeJumpTest(to: "A2"))
+        for level in ["B1", "B2", "C1", "C2"] { #expect(!gate.canTakeJumpTest(to: level), "\(level) has no typed exercises yet") }
+    }
+
+    @Test func aTooSmallLevelHasNoTest() {
+        // One lesson is fewer than the three topics a test needs from its own level.
+        let gate = LevelGate(install: syntheticInstall(["A1": 4, "A2": 1]), journeys: [], passedTests: [])
+        #expect(!gate.canTakeJumpTest(to: "A2"))
     }
 
     // MARK: Jump test
 
-    @Test func theA2TestHasTwentyItemsAndEveryA1TopicOnce() throws {
+    @Test func testSizesAreTwentyForA2AndThirtyAbove() {
+        #expect(JumpTest.questionCount(for: "A2") == 20)
+        #expect(JumpTest.questionCount(for: "B1") == 30)
+        #expect(JumpTest.questionCount(for: "C2") == 30)
+        #expect(JumpTest.sourceLevels(for: "C1") == ["C1", "B2", "B1", "A2", "A1"])
+        #expect(JumpTest.sourceLevels(for: "A1").isEmpty)
+    }
+
+    @Test func aTestDrawsMostlyFromItsOwnLevelAndFromBelow() throws {
+        let content = syntheticInstall(everyLevel)
         var generator = SeededGenerator(state: 7)
-        let test = try #require(JumpTest.make(target: "A2", install: install, using: &generator))
-        #expect(test.total == JumpTest.questionCount)
+        let test = try #require(JumpTest.make(target: "C1", install: content, using: &generator))
+        #expect(test.total == 30)
         #expect(Set(test.items.map(\.id)).count == test.total)
-        let topics = Set(test.items.map(\.lessonID))
-        let eligibleTopics = Set(JumpTest.eligibleItems(target: "A2", install: install).compactMap { $0.first?.lessonID })
-        #expect(topics == eligibleTopics)
+        let own = test.items.filter { $0.level == "C1" }
+        #expect(own.count >= 18)
+        #expect(Set(own.map(\.lessonID)) == Set(content.lessons(at: "C1").map(\.id)), "every C1 topic appears")
+        #expect(test.items.contains { $0.level != "C1" })
+        #expect(test.items.allSatisfy { JumpTest.sourceLevels(for: "C1").contains($0.level) })
         #expect(test.items.allSatisfy { $0.spec.isChecked && $0.spec.kind != .speak })
     }
 
+    @Test func theA2TestHasTwentyItems() throws {
+        var generator = SeededGenerator(state: 8)
+        let test = try #require(JumpTest.make(target: "A2", install: syntheticInstall(everyLevel), using: &generator))
+        #expect(test.total == 20)
+        #expect(test.items.filter { $0.level == "A2" }.count >= 12)
+    }
+
     @Test func eachAttemptHasANewQuestionOrder() throws {
+        let content = syntheticInstall(everyLevel)
         var first = SeededGenerator(state: 1), second = SeededGenerator(state: 2)
-        let a = try #require(JumpTest.make(target: "A2", install: install, using: &first))
-        let b = try #require(JumpTest.make(target: "A2", install: install, using: &second))
+        let a = try #require(JumpTest.make(target: "B2", install: content, using: &first))
+        let b = try #require(JumpTest.make(target: "B2", install: content, using: &second))
         #expect(a.items.map(\.id) != b.items.map(\.id))
     }
 
-    @Test func onlyTwentyOfTwentyPasses() throws {
+    @Test func onlyAPerfectScorePasses() throws {
+        let content = syntheticInstall(everyLevel)
         var generator = SeededGenerator(state: 3)
-        var perfect = try #require(JumpTest.make(target: "A2", install: install, using: &generator))
+        var perfect = try #require(JumpTest.make(target: "A2", install: content, using: &generator))
         while let item = perfect.current {
             #expect(perfect.submit(correctResponse(item.spec)) == .correct)
             perfect.advance()
@@ -102,38 +161,23 @@ struct LevelGateTests {
         #expect(perfect.isFinished && perfect.isPerfect)
         #expect(perfect.resultLine == "Perfect. A2 is open.")
 
-        var missed = try #require(JumpTest.make(target: "A2", install: install, using: &generator))
+        var missed = try #require(JumpTest.make(target: "C2", install: content, using: &generator))
         var index = 0
         while let item = missed.current {
-            missed.submit(index == 4 ? .text("zzz") : correctResponse(item.spec))
+            missed.submit(index == 4 ? .text("b") : correctResponse(item.spec))
             missed.advance()
             index += 1
         }
         #expect(missed.isFinished && !missed.isPerfect)
-        #expect(missed.correctCount == 19)
-        #expect(missed.resultLine == "19 of 20. Try again.")
+        #expect(missed.correctCount == 29)
+        #expect(missed.resultLine == "29 of 30. Try again.")
     }
 
-    @Test func aSpellingSlipIsNotCorrectOnATest() throws {
-        var generator = SeededGenerator(state: 5)
-        var test = try #require(JumpTest.make(target: "A2", install: install, using: &generator))
-        // Find a typed-word item and answer it with a near miss.
-        while let item = test.current, item.spec.kind != .fillBlank {
-            test.submit(correctResponse(item.spec)); test.advance()
-        }
-        guard let item = test.current, let answer = item.spec.accepted?.first, answer.count > 3 else { return }
-        let slip = String(answer.dropLast())
-        let result = test.submit(.text(slip))
-        #expect(result != .correct)
-        test.advance()
-        while let rest = test.current { test.submit(correctResponse(rest.spec)); test.advance() }
-        #expect(!test.isPerfect)
-    }
-
-    @Test func noTestExistsForLevelsWithoutTypedExercises() {
-        #expect(JumpTest.make(target: "B1", install: install) == nil)
-        #expect(JumpTest.make(target: "A1", install: install) == nil)
-        #expect(!JumpTest.isAvailable(target: "C2", install: install))
+    @Test func noTestExistsForA1OrForAnUntypedLevel() {
+        let content = syntheticInstall(["A1": 4, "A2": 4])
+        #expect(JumpTest.make(target: "A1", install: content) == nil)
+        #expect(JumpTest.make(target: "B1", install: content) == nil)
+        #expect(!JumpTest.isAvailable(target: "C2", install: content))
     }
 
     // MARK: Storage

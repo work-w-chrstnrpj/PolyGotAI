@@ -105,17 +105,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Hi Mia! I’m in Lisbon with my family. The weather is warm and the food is great. Yesterday we visited an old castle. See you next week. Love, Ben. What is the gist of this message?",
-          "answer": "Ben tells Mia about his holiday",
+          "answer": "Ben tells Mia about his vacation",
           "exercise": {
             "type": "choice",
             "options": [
-              "Ben tells Mia about his holiday",
+              "Ben tells Mia about his vacation",
               "Ben asks Mia for help",
               "Ben says he is sick",
               "Ben invites Mia to dinner"
             ],
             "accepted": [
-              "Ben tells Mia about his holiday"
+              "Ben tells Mia about his vacation"
             ]
           }
         },
@@ -143,19 +143,19 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen. What is the gist?",
-          "answer": "Information about a museum",
+          "answer": "Opening times and tickets for visitors",
           "exercise": {
             "type": "choice",
             "options": [
-              "Information about a museum",
-              "A story about a child",
+              "Opening times and tickets for visitors",
+              "A story about a lost child",
               "A weather report",
               "A shopping list"
             ],
             "accepted": [
-              "Information about a museum"
+              "Opening times and tickets for visitors"
             ],
-            "audioText": "Welcome to the city museum. The museum is open every day from nine to five. Tickets are free for children."
+            "audioText": "Welcome to the city museum. We are open every day from nine to five. Tickets are free for children, and the gift shop is on the second floor."
           }
         },
         {
@@ -426,7 +426,7 @@
             "accepted": [
               "Platform four"
             ],
-            "audioText": "The train to Boston leaves from platform four at ten past nine. Please have your ticket ready."
+            "audioText": "The train to Boston leaves from platform four at nine ten. Please have your ticket ready."
           }
         },
         {
@@ -434,19 +434,19 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen. What time does the train leave?",
-          "answer": "Ten past nine",
+          "answer": "Nine ten",
           "exercise": {
             "type": "choice",
             "options": [
-              "Ten past nine",
-              "Ten to nine",
+              "Nine ten",
+              "Eight fifty",
               "Nine thirty",
               "Four o’clock"
             ],
             "accepted": [
-              "Ten past nine"
+              "Nine ten"
             ],
-            "audioText": "The train to Boston leaves from platform four at ten past nine. Please have your ticket ready."
+            "audioText": "The train to Boston leaves from platform four at nine ten. Please have your ticket ready."
           }
         },
         {
@@ -707,18 +707,18 @@
           "id": "rl-scan-facts-08",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Spring Market. Saturday 14 April. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. On which day is the market?",
-          "answer": "Saturday 14 April",
+          "prompt": "Read this. Spring Market. Saturday, April 14. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. On which day is the market?",
+          "answer": "Saturday, April 14",
           "exercise": {
             "type": "choice",
             "options": [
-              "Saturday 14 April",
-              "Sunday 14 April",
-              "Saturday 4 April",
-              "Friday 14 April"
+              "Saturday, April 14",
+              "Sunday, April 14",
+              "Saturday, April 4",
+              "Friday, April 14"
             ],
             "accepted": [
-              "Saturday 14 April"
+              "Saturday, April 14"
             ]
           }
         },
@@ -726,7 +726,7 @@
           "id": "rl-scan-facts-09",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Spring Market. Saturday 14 April. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. Where is the free parking?",
+          "prompt": "Read this. Spring Market. Saturday, April 14. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. Where is the free parking?",
           "answer": "At the Town Hall",
           "exercise": {
             "type": "choice",
@@ -1162,18 +1162,18 @@
           "id": "rl-main-idea-02",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Walking is a good way to stay healthy. It is free, and you can do it anywhere. A short walk each day helps your heart and your mood. You do not need special shoes or a gym. Which sentence gives the main idea, not a detail?",
-          "answer": "Walking is a good way to stay healthy.",
+          "prompt": "Read this. Maria brings her camera to the market every Saturday. She takes pictures of the flowers, the fruit and the people. She hangs the best pictures in her kitchen. Photography is her favorite hobby. Which sentence gives the main idea, not a detail?",
+          "answer": "Photography is her favorite hobby.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Walking is a good way to stay healthy.",
-              "It is free, and you can do it anywhere.",
-              "A short walk each day helps your heart and your mood.",
-              "You do not need special shoes or a gym."
+              "Photography is her favorite hobby.",
+              "She brings her camera on Saturday.",
+              "She takes pictures of flowers and fruit.",
+              "She hangs the best pictures in her kitchen."
             ],
             "accepted": [
-              "Walking is a good way to stay healthy."
+              "Photography is her favorite hobby."
             ]
           }
         },
@@ -1251,7 +1251,7 @@
             "accepted": [
               "Good sleep helps students"
             ],
-            "audioText": "Good sleep is important for students. When you sleep well, you remember more and feel happier. Try to go to bed at the same time every night."
+            "audioText": "Many students stay up late. They feel tired in class and forget what they learned. When you sleep well, you remember more and feel happier. Try to go to bed at the same time every night."
           }
         },
         {
@@ -1471,7 +1471,7 @@
           "id": "rl-context-meaning-05",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. It was a gloomy morning. The sky was dark and grey, and everyone felt sad. What does “gloomy” mean?",
+          "prompt": "Read this. It was a gloomy morning. The sky was dark and gray, and everyone felt sad. What does “gloomy” mean?",
           "answer": "Dark and sad",
           "exercise": {
             "type": "choice",
@@ -1518,7 +1518,7 @@
               "I burned my tongue",
               "The soup",
               "My",
-              "Was"
+              "was"
             ],
             "accepted": [
               "I burned my tongue"
@@ -1649,7 +1649,7 @@
           "id": "rl-signal-words-01",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill the gap: I was tired, ___ I went to bed early.",
+          "prompt": "Fill the gap to show a result: I was tired, ___ I went to bed early.",
           "answer": "so",
           "exercise": {
             "type": "choice",

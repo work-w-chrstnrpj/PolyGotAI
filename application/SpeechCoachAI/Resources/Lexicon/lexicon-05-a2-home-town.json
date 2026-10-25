@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-home-town",
+    "title": "Home and town",
+    "level": "A2",
+    "tagline": "Where you live",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "apartment",
+      "pos": "noun",
+      "meaning": "A set of rooms for living in, in a larger building.",
+      "examples": [
+        "They live in a small {apartment} on the third floor."
+      ],
+      "wrong": [
+        "An apartment is a field where cows eat grass."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "furniture",
+      "pos": "noun",
+      "meaning": "Things like tables, chairs and beds.",
+      "examples": [
+        "We bought new {furniture} for the living room."
+      ],
+      "wrong": [
+        "Furniture is a kind of vegetable."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "sofa",
+      "pos": "noun",
+      "meaning": "A long soft seat for two or three people.",
+      "examples": [
+        "We watched television on the {sofa}."
+      ],
+      "wrong": [
+        "A sofa is a place where you wash your hands."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "fridge",
+      "pos": "noun",
+      "meaning": "A machine that keeps food cold.",
+      "examples": [
+        "Put the milk in the {fridge}."
+      ],
+      "wrong": [
+        "A fridge is a machine that keeps food very hot."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "oven",
+      "pos": "noun",
+      "meaning": "A closed box that heats food.",
+      "examples": [
+        "Bake the cake in the {oven} for forty minutes."
+      ],
+      "wrong": [
+        "An oven is a machine that makes food cold."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "shelf",
+      "pos": "noun",
+      "meaning": "A flat board on a wall where you put things.",
+      "examples": [
+        "Put the books on the {shelf}."
+      ],
+      "wrong": [
+        "A shelf is a kind of window."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "carpet",
+      "pos": "noun",
+      "meaning": "A thick cover for a floor.",
+      "examples": [
+        "The children play on the soft {carpet}."
+      ],
+      "wrong": [
+        "A carpet is a thin cover for a window."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "lamp",
+      "pos": "noun",
+      "meaning": "A light that you can move.",
+      "examples": [
+        "He turned on the {lamp} to read."
+      ],
+      "wrong": [
+        "A lamp is a machine that keeps food cold."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "floor",
+      "pos": "noun",
+      "meaning": "The surface you walk on inside a room.",
+      "examples": [
+        "The cat sleeps on the {floor}."
+      ],
+      "wrong": [
+        "The floor is the top part of a room."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "ceiling",
+      "pos": "noun",
+      "meaning": "The surface above your head in a room.",
+      "examples": [
+        "There is a big light on the {ceiling}."
+      ],
+      "wrong": [
+        "The ceiling is the surface that you walk on."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "wall",
+      "pos": "noun",
+      "meaning": "A side of a room or a building.",
+      "examples": [
+        "A picture hangs on the {wall}."
+      ],
+      "wrong": [
+        "A wall is a flat piece of wood on the floor."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "balcony",
+      "pos": "noun",
+      "meaning": "A small platform outside an upstairs window.",
+      "examples": [
+        "We have breakfast on the {balcony}."
+      ],
+      "wrong": [
+        "A balcony is a room under the ground."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "stairs",
+      "pos": "noun",
+      "meaning": "Steps that go from one floor to another.",
+      "examples": [
+        "I walked up the {stairs} to the fourth floor."
+      ],
+      "wrong": [
+        "Stairs is a machine that carries people up and down by itself."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "elevator",
+      "pos": "noun",
+      "meaning": "A machine that carries people up and down in a building.",
+      "examples": [
+        "We took the {elevator} to the tenth floor."
+      ],
+      "wrong": [
+        "An elevator is a staircase made of glass."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "landlord",
+      "pos": "noun",
+      "meaning": "A person who owns a house and rents it to others.",
+      "examples": [
+        "Our {landlord} fixed the broken door."
+      ],
+      "wrong": [
+        "A landlord is a person who rents a house from someone else."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "rent",
+      "pos": "noun",
+      "meaning": "Money you pay to live in a place that belongs to someone else.",
+      "examples": [
+        "The {rent} for this flat is $800 a month."
+      ],
+      "wrong": [
+        "Rent is the money a landlord pays to the tenant."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "repair",
+      "pos": "verb",
+      "meaning": "To fix something that is broken.",
+      "examples": [
+        "He will {repair} my bicycle tomorrow."
+      ],
+      "wrong": [
+        "I repair a toy by throwing it away."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "electricity",
+      "pos": "noun",
+      "meaning": "Power that makes lights and machines work.",
+      "examples": [
+        "The {electricity} went off during the storm."
+      ],
+      "wrong": [
+        "Electricity is a hot drink."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "noise",
+      "pos": "noun",
+      "meaning": "A sound, especially a loud or unpleasant one.",
+      "examples": [
+        "The {noise} from the street kept me awake."
+      ],
+      "wrong": [
+        "Noise is the quiet feeling you have in an empty room."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "quiet",
+      "pos": "adjective",
+      "meaning": "Making little or no noise.",
+      "examples": [
+        "The library is very {quiet}."
+      ],
+      "wrong": [
+        "The market was quiet because hundreds of people were shouting."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "crowded",
+      "pos": "adjective",
+      "meaning": "Full of people.",
+      "examples": [
+        "The train was too {crowded}, so I stood."
+      ],
+      "wrong": [
+        "The beach was crowded, and I was alone with nobody there."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "traffic",
+      "pos": "noun",
+      "meaning": "Cars and other vehicles moving along a road.",
+      "examples": [
+        "There was a lot of {traffic} on the way to work."
+      ],
+      "wrong": [
+        "Traffic is a kind of food you eat at lunch."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "sidewalk",
+      "pos": "noun",
+      "meaning": "A path at the side of a road where people walk.",
+      "examples": [
+        "Please walk on the {sidewalk}."
+      ],
+      "wrong": [
+        "A sidewalk is the middle part of the road for cars."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "corner",
+      "pos": "noun",
+      "meaning": "The place where two streets or two walls meet.",
+      "examples": [
+        "The bakery is on the {corner}."
+      ],
+      "wrong": [
+        "A corner is a long straight road."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "supermarket",
+      "pos": "noun",
+      "meaning": "A large shop that sells food and other things for the home.",
+      "examples": [
+        "I buy milk at the {supermarket}."
+      ],
+      "wrong": [
+        "A supermarket is a small shop that sells only stamps."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "address",
+      "pos": "noun",
+      "meaning": "The details of where someone lives or works.",
+      "examples": [
+        "Please write your {address} on the form."
+      ],
+      "wrong": [
+        "An address is a person who lives near you."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "package",
+      "pos": "noun",
+      "meaning": "Something wrapped up to be sent or carried.",
+      "examples": [
+        "A {package} arrived this morning."
+      ],
+      "wrong": [
+        "A package is an empty room without a door."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "neighborhood",
+      "pos": "noun",
+      "meaning": "An area of a town and the people who live there.",
+      "examples": [
+        "I like my quiet {neighborhood}."
+      ],
+      "wrong": [
+        "A neighborhood is a large country with many cities."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "comfortable",
+      "pos": "adjective",
+      "meaning": "Pleasant to sit in or wear; relaxed.",
+      "examples": [
+        "This bed is very {comfortable}."
+      ],
+      "wrong": [
+        "This chair is comfortable because it hurts my back."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "modern",
+      "pos": "adjective",
+      "meaning": "Of the present time; new in style.",
+      "examples": [
+        "They live in a {modern} house with a large kitchen."
+      ],
+      "wrong": [
+        "The castle is modern because it was built a thousand years ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "cozy",
+      "pos": "adjective",
+      "meaning": "Warm and comfortable in a pleasant, small way.",
+      "examples": [
+        "We spent a {cozy} evening by the fire."
+      ],
+      "wrong": [
+        "The cold, empty room felt very cozy."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "noisy",
+      "pos": "adjective",
+      "meaning": "Making a lot of sound.",
+      "examples": [
+        "The classroom was {noisy} before the teacher came."
+      ],
+      "wrong": [
+        "The library is noisy because everyone is silent."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "safe",
+      "pos": "adjective",
+      "meaning": "Not in danger; not likely to cause harm.",
+      "examples": [
+        "It is {safe} to walk here at night."
+      ],
+      "wrong": [
+        "The road is safe because cars drive very fast and no one looks."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "dirty",
+      "pos": "adjective",
+      "meaning": "Not clean.",
+      "examples": [
+        "Your shoes are {dirty}; please wash them."
+      ],
+      "wrong": [
+        "The towel is dirty, so it is clean."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "tidy",
+      "pos": "adjective",
+      "meaning": "Neat; with everything in its place.",
+      "examples": [
+        "Her room is always {tidy}."
+      ],
+      "wrong": [
+        "The room is tidy because things are on the floor."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "move",
+      "pos": "verb",
+      "meaning": "To go to live in a different place.",
+      "examples": [
+        "We will {move} to a new house in May."
+      ],
+      "wrong": [
+        "We move when we stay in the same house for ten years."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "decorate",
+      "pos": "verb",
+      "meaning": "To make a place look nice with paint or objects.",
+      "examples": [
+        "We will {decorate} the room with pictures."
+      ],
+      "wrong": [
+        "I decorate the room by taking everything away."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "garage",
+      "pos": "noun",
+      "meaning": "A building where you keep a car.",
+      "examples": [
+        "He parks the car in the {garage}."
+      ],
+      "wrong": [
+        "A garage is a place where you cook dinner."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "bathroom",
+      "pos": "noun",
+      "meaning": "A room with a bath or shower.",
+      "examples": [
+        "She is washing her hands in the {bathroom}."
+      ],
+      "wrong": [
+        "A bathroom is a room where we cook breakfast."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    },
+    {
+      "lemma": "towel",
+      "pos": "noun",
+      "meaning": "A piece of cloth for drying your body.",
+      "examples": [
+        "Use a clean {towel} after your shower."
+      ],
+      "wrong": [
+        "A towel is a thing that you wear on your feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday"
+    }
+  ]
+}

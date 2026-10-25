@@ -275,7 +275,7 @@
             "options": [
               "A moment when the speaker forgot a speech",
               "A long career",
-              "A holiday",
+              "A vacation",
               "A cooking class"
             ],
             "accepted": [
@@ -648,17 +648,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Which detail should you cut?",
-          "answer": "The color of the tablecloth, if it does not matter to the story",
+          "answer": "The color of the tablecloth",
           "exercise": {
             "type": "choice",
             "options": [
-              "The color of the tablecloth, if it does not matter to the story",
+              "The color of the tablecloth",
               "The sound of the door slamming right before the crash",
               "The name of the person who helped",
               "The broken umbrella that saved her"
             ],
             "accepted": [
-              "The color of the tablecloth, if it does not matter to the story"
+              "The color of the tablecloth"
             ]
           }
         },
@@ -1581,7 +1581,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Build the sentence.",
-          "answer": "My mother looked at me and said.",
+          "answer": "My mother looked at me and smiled.",
           "exercise": {
             "type": "wordBank",
             "options": [
@@ -1591,12 +1591,12 @@
               "at",
               "me",
               "and",
-              "said.",
+              "smiled.",
               "never",
               "shouted"
             ],
             "accepted": [
-              "My mother looked at me and said."
+              "My mother looked at me and smiled."
             ]
           }
         },
@@ -1636,7 +1636,7 @@
             "accepted": [
               "With a quiet quote and a short fact"
             ],
-            "audioText": "My grandfather looked at the sky and said, quietly, rain by noon. He was never wrong."
+            "audioText": "My grandfather looked at the sky and said quietly, “Rain by noon.” He was never wrong."
           }
         },
         {
@@ -2110,7 +2110,7 @@
           "id": "st-trim-10",
           "kind": "grammar",
           "required": true,
-          "prompt": "Type the missing word: Time your story ___.",
+          "prompt": "Type the missing word: Tell your story ___ and time it.",
           "answer": "aloud",
           "exercise": {
             "type": "fillBlank",

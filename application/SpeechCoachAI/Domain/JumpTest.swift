@@ -1,18 +1,24 @@
 import Foundation
 
-/// The test that opens the next CEFR level early. Twenty auto-checked items from the level below, every topic
-/// at least once. Wrong items are not asked again, "almost" does not count, and only 20 of 20 passes.
+/// The test that opens a locked CEFR level (owner rule, 2026-10-25: any locked level, even C2 from A1). Auto-checked
+/// items from the target level and the levels below it, every topic of the target level at least once. Wrong items are
+/// not asked again, "almost" does not count, and only a perfect score passes. A pass opens that level and all below.
 struct JumpTest: Equatable {
     struct Item: Equatable, Identifiable {
         /// "lessonID/activityID"
         var id: String
         var lessonID: String
+        /// The CEFR level of the lesson the item comes from.
+        var level: String
         var activity: CurriculumActivity
         var spec: ExerciseSpec { activity.resolvedExercise }
     }
 
-    static let questionCount = 20
-    private static let minimumTopics = 5
+    /// 20 items for A2, 30 for B1 and above.
+    static func questionCount(for target: String) -> Int { target.uppercased() == "A2" ? 20 : 30 }
+    /// The target level must supply at least this many topics and items of its own.
+    private static let minimumTargetTopics = 3
+    private static let minimumTargetItems = 10
 
     let target: String
     let items: [Item]
@@ -50,44 +56,57 @@ struct JumpTest: Equatable {
 
     // MARK: Building
 
-    /// The level whose lessons feed the test for `target` (A2 draws from A1).
-    static func sourceLevel(for target: String) -> String? {
-        guard let index = LevelGate.levels.firstIndex(of: target.uppercased()), index > 0 else { return nil }
-        return LevelGate.levels[index - 1]
+    /// The target level and every level below it, highest first (C1 draws from C1, B2, B1, A2 and A1).
+    static func sourceLevels(for target: String) -> [String] {
+        guard let index = LevelGate.levels.firstIndex(of: target.uppercased()), index > 0 else { return [] }
+        return Array(LevelGate.levels[0...index].reversed())
     }
 
-    /// Auto-checked, non-speaking items from the source level's ready lessons, grouped by lesson.
-    static func eligibleItems(target: String, install: CurriculumInstall) -> [[Item]] {
-        guard let source = sourceLevel(for: target) else { return [] }
-        return install.lessons(at: source).filter(\.isReady).compactMap { lesson in
+    /// Auto-checked, non-speaking items grouped by lesson, for one level's ready lessons.
+    static func eligibleItems(level: String, install: CurriculumInstall) -> [[Item]] {
+        install.lessons(at: level).filter(\.isReady).compactMap { lesson in
             let items = lesson.sessionActivities.compactMap { activity -> Item? in
                 guard activity.exercise != nil, let kind = activity.resolvedExercise.kind,
                       activity.resolvedExercise.isChecked, kind != .speak else { return nil }
-                return Item(id: "\(lesson.id)/\(activity.id)", lessonID: lesson.id, activity: activity)
+                return Item(id: "\(lesson.id)/\(activity.id)", lessonID: lesson.id, level: level.uppercased(), activity: activity)
             }
             return items.isEmpty ? nil : items
         }
     }
 
-    /// A test exists once the source level has typed exercises: enough items across several topics.
+    /// A test exists once the target level has typed exercises of its own and the pool is large enough.
     static func isAvailable(target: String, install: CurriculumInstall) -> Bool {
-        let groups = eligibleItems(target: target, install: install)
-        return groups.count >= minimumTopics && groups.reduce(0) { $0 + $1.count } >= questionCount
+        let own = eligibleItems(level: target, install: install)
+        guard own.count >= minimumTargetTopics, own.reduce(0, { $0 + $1.count }) >= minimumTargetItems else { return false }
+        let pool = sourceLevels(for: target).reduce(0) { $0 + eligibleItems(level: $1, install: install).reduce(0) { $0 + $1.count } }
+        return pool >= questionCount(for: target)
     }
 
-    /// A fresh test with a new question order each time; nil when no test exists for `target`.
+    /// A fresh test with a new question order each time; nil when no test exists for `target`. At least 60 percent of the
+    /// items come from the target level (every one of its topics once, first); the rest come from the levels below.
     static func make<G: RandomNumberGenerator>(target: String, install: CurriculumInstall, using generator: inout G) -> JumpTest? {
-        let groups = eligibleItems(target: target, install: install)
         guard isAvailable(target: target, install: install) else { return nil }
+        let count = questionCount(for: target)
+        let ownTarget = Int((Double(count) * 0.6).rounded(.up))
         var chosen: [Item] = []
-        var pool: [Item] = []
-        for group in groups.shuffled(using: &generator) {
+        var ownPool: [Item] = []
+        for group in eligibleItems(level: target, install: install).shuffled(using: &generator) {
             var shuffled = group.shuffled(using: &generator)
-            if chosen.count < questionCount { chosen.append(shuffled.removeFirst()) }
-            pool.append(contentsOf: shuffled)
+            if chosen.count < ownTarget { chosen.append(shuffled.removeFirst()) }
+            ownPool.append(contentsOf: shuffled)
         }
-        pool.shuffle(using: &generator)
-        chosen.append(contentsOf: pool.prefix(max(0, questionCount - chosen.count)))
+        ownPool.shuffle(using: &generator)
+        chosen.append(contentsOf: ownPool.prefix(max(0, ownTarget - chosen.count)))
+        var lowerPool: [Item] = []
+        for level in sourceLevels(for: target).dropFirst() {
+            lowerPool.append(contentsOf: eligibleItems(level: level, install: install).flatMap { $0 })
+        }
+        lowerPool.shuffle(using: &generator)
+        chosen.append(contentsOf: lowerPool.prefix(max(0, count - chosen.count)))
+        // Short of lower-level items: top up from the unused target-level items.
+        let used = Set(chosen.map(\.id))
+        chosen.append(contentsOf: ownPool.filter { !used.contains($0.id) }.prefix(max(0, count - chosen.count)))
+        guard chosen.count == count else { return nil }
         return JumpTest(target: target.uppercased(), items: chosen.shuffled(using: &generator))
     }
 

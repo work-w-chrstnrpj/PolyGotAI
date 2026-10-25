@@ -13,6 +13,7 @@ struct LexiconBankLoader {
             var level: String
             var tagline: String
             var sources: [String]
+            var kind: String?
         }
         var group: Header
         var words: [LexiconWord]
@@ -40,11 +41,14 @@ struct LexiconBankLoader {
             for var word in parsed.words {
                 let key = "\(LexiconKey.normalize(word.lemma))|\(word.pos)"
                 guard word.problem() == nil, seenKeys.insert(key).inserted else { bank.skipped += 1; continue }
-                word.id = "\(parsed.group.id).\(LexiconKey.slug(word.lemma))"
+                if word.id.isEmpty { word.id = "\(parsed.group.id).\(LexiconKey.slug(word.lemma))" }
+                word.groupId = parsed.group.id
+                if word.cefr.isEmpty { word.cefr = parsed.group.level }
                 words.append(word)
             }
             bank.groups.append(LexiconGroup(id: parsed.group.id, title: parsed.group.title, level: parsed.group.level,
-                                            tagline: parsed.group.tagline, sources: parsed.group.sources, words: words))
+                                            tagline: parsed.group.tagline, sources: parsed.group.sources, words: words,
+                                            isField: parsed.group.kind == "field"))
         }
         return bank
     }

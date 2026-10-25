@@ -45,7 +45,7 @@ LESSONS = [
      [
          C("Which sentence gives the audience a map?", "I will make three points: cost, time and safety.", "Um, let me think.", "Okay.", "This is a topic."),
          C("Which phrase starts the second point?", "My second point is about time.", "To sum up,", "Hello everyone.", "Thank you."),
-         C("Which phrase signals the end?", "To sum up,", "First,", "Next,", "Let me begin."),
+         C("Which phrase signals the end?", "To sum up", "First", "Next", "Let me begin"),
          C("Which phrase shows a change of topic?", "Now let's turn to cost.", "As I said,", "In the end,", "Once upon a time,"),
          C("Why do speakers use signposts?", "Listeners cannot go back and re-read", "To make the talk longer", "To hide mistakes", "To avoid eye contact"),
          M("Match each signpost with its job.", [["First,", "starts the first point"], ["Next,", "moves to the second point"], ["Finally,", "introduces the last point"], ["To sum up,", "begins the summary"]]),
@@ -100,7 +100,7 @@ LESSONS = [
      "A pause is a tool. Pause before an important word to build attention, and after it to let it sink in. Stress the key word: “We need ACTION” means something different from “WE need action.” Short pauses also give you time to breathe and think.",
      [
          C("Where is a pause most powerful?", "Before or after the key point", "In the middle of every word", "Never", "Only at the very end"),
-         C("Which word should you stress in “We need action today, not tomorrow”?", "today", "need", "the", "We"),
+         C("To contrast with “tomorrow,” which word should you stress in “We need action today, not tomorrow”?", "today", "need", "We", "not"),
          C("A speaker rushes and never pauses. What happens?", "The audience gets tired and misses key points", "The audience hears every word clearly", "The talk is always more exciting", "Nothing changes"),
          C("Which marks a pause in a script?", "A slash, like: We can win / together.", "A bold name", "A page number", "A title"),
          C("A speaker pauses for two seconds after a key sentence. Why?", "To let the idea sink in", "Because they forgot", "To confuse the audience", "To end the talk"),
@@ -110,7 +110,7 @@ LESSONS = [
          M("Match each tool with its effect.", [["Pause", "builds attention"], ["Stress", "highlights a key word"], ["Rushing", "hides your point"]]),
          TF("True or false: Pauses give you time to breathe.", "True"),
          TF("True or false: You should stress every word equally.", "False"),
-         F("Type the missing word: Pause before an ___ word.", "important", "key"),
+         F("Type the missing word: Pause before an ___ word.", "important"),
          LISTEN("We need more time. Not more rules. More time.", "Which idea does the speaker repeat for emphasis?", "More time", "More rules", "Less time", "No time"),
          YOUR("Write two sentences for a talk. Mark the pauses with / and underline the word you will stress."),
      ]),

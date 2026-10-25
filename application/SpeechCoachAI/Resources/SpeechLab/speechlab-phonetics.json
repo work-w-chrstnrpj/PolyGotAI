@@ -1,0 +1,858 @@
+{
+  "version": 1,
+  "credits": "Original SpeechCoachAI tips and exercises, 2026-10-25. IPA follows common General American conventions; vowel inventories vary by speaker. Qualified phonetics and device voice review pending.",
+  "items": [
+    {
+      "id": "sound-i",
+      "title": "Fleece",
+      "ipa": "i",
+      "group": "Vowels",
+      "examples": [
+        "sheep",
+        "see",
+        "green"
+      ],
+      "tip": "Keep the tongue high and the lips relaxed.",
+      "partner": null,
+      "choices": [
+        "sheep",
+        "ship",
+        "boat"
+      ],
+      "cue": "sheep",
+      "cueIPA": "ʃip"
+    },
+    {
+      "id": "sound-ih",
+      "title": "Kit",
+      "ipa": "ɪ",
+      "group": "Vowels",
+      "examples": [
+        "ship",
+        "sit",
+        "fish"
+      ],
+      "tip": "Relax the tongue slightly below a high front position.",
+      "partner": null,
+      "choices": [
+        "ship",
+        "sheep",
+        "boat"
+      ],
+      "cue": "ship",
+      "cueIPA": "ʃɪp"
+    },
+    {
+      "id": "sound-eh",
+      "title": "Dress",
+      "ipa": "ɛ",
+      "group": "Vowels",
+      "examples": [
+        "bed",
+        "red",
+        "ten"
+      ],
+      "tip": "Open the mouth gently with the tongue forward.",
+      "partner": null,
+      "choices": [
+        "bed",
+        "bad",
+        "boat"
+      ],
+      "cue": "bed",
+      "cueIPA": "bɛd"
+    },
+    {
+      "id": "sound-ae",
+      "title": "Trap",
+      "ipa": "æ",
+      "group": "Vowels",
+      "examples": [
+        "cat",
+        "bag",
+        "map"
+      ],
+      "tip": "Lower the jaw and keep the tongue forward.",
+      "partner": null,
+      "choices": [
+        "cat",
+        "cut",
+        "boat"
+      ],
+      "cue": "cat",
+      "cueIPA": "kæt"
+    },
+    {
+      "id": "sound-ah",
+      "title": "Palm",
+      "ipa": "ɑ",
+      "group": "Vowels",
+      "examples": [
+        "father",
+        "calm",
+        "palm"
+      ],
+      "tip": "Open the jaw and keep the tongue low and back.",
+      "partner": null,
+      "choices": [
+        "calm",
+        "cup",
+        "boat"
+      ],
+      "cue": "calm",
+      "cueIPA": "kɑm"
+    },
+    {
+      "id": "sound-aw",
+      "title": "Thought",
+      "ipa": "ɔ",
+      "group": "Vowels",
+      "examples": [
+        "law",
+        "saw",
+        "talk"
+      ],
+      "tip": "Round the lips with the tongue low and back.",
+      "partner": null,
+      "choices": [
+        "law",
+        "low",
+        "boat"
+      ],
+      "cue": "law",
+      "cueIPA": "lɔ"
+    },
+    {
+      "id": "sound-uh",
+      "title": "Strut",
+      "ipa": "ʌ",
+      "group": "Vowels",
+      "examples": [
+        "cup",
+        "bus",
+        "sun"
+      ],
+      "tip": "Keep the lips relaxed and the tongue central.",
+      "partner": null,
+      "choices": [
+        "cup",
+        "cap",
+        "boat"
+      ],
+      "cue": "cup",
+      "cueIPA": "kʌp"
+    },
+    {
+      "id": "sound-schwa",
+      "title": "Schwa",
+      "ipa": "ə",
+      "group": "Vowels",
+      "examples": [
+        "about",
+        "sofa",
+        "ago"
+      ],
+      "tip": "Relax the mouth for a short unstressed vowel.",
+      "partner": null,
+      "choices": [
+        "about",
+        "above",
+        "boat"
+      ],
+      "cue": "about",
+      "cueIPA": "əˈbaʊt"
+    },
+    {
+      "id": "sound-oo-short",
+      "title": "Foot",
+      "ipa": "ʊ",
+      "group": "Vowels",
+      "examples": [
+        "book",
+        "good",
+        "foot"
+      ],
+      "tip": "Round the lips loosely and relax the tongue.",
+      "partner": null,
+      "choices": [
+        "book",
+        "boot",
+        "boat"
+      ],
+      "cue": "book",
+      "cueIPA": "bʊk"
+    },
+    {
+      "id": "sound-oo",
+      "title": "Goose",
+      "ipa": "u",
+      "group": "Vowels",
+      "examples": [
+        "food",
+        "blue",
+        "moon"
+      ],
+      "tip": "Round the lips and raise the back of the tongue.",
+      "partner": null,
+      "choices": [
+        "food",
+        "full",
+        "boat"
+      ],
+      "cue": "food",
+      "cueIPA": "fud"
+    },
+    {
+      "id": "sound-ay",
+      "title": "Face",
+      "ipa": "eɪ",
+      "group": "Diphthongs",
+      "examples": [
+        "day",
+        "rain",
+        "late"
+      ],
+      "tip": "Move from a mid front vowel toward a higher one.",
+      "partner": null,
+      "choices": [
+        "day",
+        "die",
+        "boat"
+      ],
+      "cue": "day",
+      "cueIPA": "deɪ"
+    },
+    {
+      "id": "sound-eye",
+      "title": "Price",
+      "ipa": "aɪ",
+      "group": "Diphthongs",
+      "examples": [
+        "time",
+        "my",
+        "light"
+      ],
+      "tip": "Start open and glide toward a high front vowel.",
+      "partner": null,
+      "choices": [
+        "time",
+        "toy",
+        "boat"
+      ],
+      "cue": "time",
+      "cueIPA": "taɪm"
+    },
+    {
+      "id": "sound-oy",
+      "title": "Choice",
+      "ipa": "ɔɪ",
+      "group": "Diphthongs",
+      "examples": [
+        "boy",
+        "coin",
+        "choice"
+      ],
+      "tip": "Start with rounded lips and glide forward.",
+      "partner": null,
+      "choices": [
+        "boy",
+        "buy",
+        "boat"
+      ],
+      "cue": "boy",
+      "cueIPA": "bɔɪ"
+    },
+    {
+      "id": "sound-ow",
+      "title": "Mouth",
+      "ipa": "aʊ",
+      "group": "Diphthongs",
+      "examples": [
+        "now",
+        "house",
+        "cloud"
+      ],
+      "tip": "Start open and finish with rounded lips.",
+      "partner": null,
+      "choices": [
+        "now",
+        "no",
+        "boat"
+      ],
+      "cue": "now",
+      "cueIPA": "naʊ"
+    },
+    {
+      "id": "sound-oh",
+      "title": "Goat",
+      "ipa": "oʊ",
+      "group": "Diphthongs",
+      "examples": [
+        "go",
+        "home",
+        "road"
+      ],
+      "tip": "Glide from a rounded mid vowel toward a higher one.",
+      "partner": null,
+      "choices": [
+        "go",
+        "got",
+        "boat"
+      ],
+      "cue": "go",
+      "cueIPA": "ɡoʊ"
+    },
+    {
+      "id": "sound-er",
+      "title": "Nurse",
+      "ipa": "ɝ",
+      "group": "R-colored vowels",
+      "examples": [
+        "bird",
+        "turn",
+        "learn"
+      ],
+      "tip": "Draw the tongue back without touching the roof.",
+      "partner": null,
+      "choices": [
+        "bird",
+        "bed",
+        "boat"
+      ],
+      "cue": "bird",
+      "cueIPA": "bɝd"
+    },
+    {
+      "id": "sound-er-weak",
+      "title": "Letter",
+      "ipa": "ɚ",
+      "group": "R-colored vowels",
+      "examples": [
+        "teacher",
+        "water",
+        "letter"
+      ],
+      "tip": "Keep a relaxed unstressed vowel with an r sound.",
+      "partner": null,
+      "choices": [
+        "teacher",
+        "later",
+        "boat"
+      ],
+      "cue": "teacher",
+      "cueIPA": "ˈtitʃɚ"
+    },
+    {
+      "id": "sound-ar",
+      "title": "Start",
+      "ipa": "ɑr",
+      "group": "R-colored vowels",
+      "examples": [
+        "car",
+        "park",
+        "star"
+      ],
+      "tip": "Move from an open vowel into the r sound.",
+      "partner": null,
+      "choices": [
+        "car",
+        "cat",
+        "boat"
+      ],
+      "cue": "car",
+      "cueIPA": "kɑr"
+    },
+    {
+      "id": "sound-or",
+      "title": "North",
+      "ipa": "ɔr",
+      "group": "R-colored vowels",
+      "examples": [
+        "door",
+        "short",
+        "north"
+      ],
+      "tip": "Round the lips before moving into the r sound.",
+      "partner": null,
+      "choices": [
+        "door",
+        "dot",
+        "boat"
+      ],
+      "cue": "door",
+      "cueIPA": "dɔr"
+    },
+    {
+      "id": "sound-c0-a",
+      "title": "p, voiceless",
+      "ipa": "p",
+      "group": "Consonants",
+      "examples": [
+        "pen",
+        "paper",
+        "cap"
+      ],
+      "tip": "Close both lips, then release air. Keep the voice off.",
+      "partner": "b",
+      "choices": [
+        "pen",
+        "bed",
+        "boat"
+      ],
+      "cue": "pen",
+      "cueIPA": "pɛn"
+    },
+    {
+      "id": "sound-c0-b",
+      "title": "b, voiced",
+      "ipa": "b",
+      "group": "Consonants",
+      "examples": [
+        "bed",
+        "baby",
+        "cab"
+      ],
+      "tip": "Close both lips, then release air. Turn the voice on.",
+      "partner": "p",
+      "choices": [
+        "bed",
+        "pen",
+        "boat"
+      ],
+      "cue": "bed",
+      "cueIPA": "bɛd"
+    },
+    {
+      "id": "sound-c1-a",
+      "title": "t, voiceless",
+      "ipa": "t",
+      "group": "Consonants",
+      "examples": [
+        "tea",
+        "top",
+        "cat"
+      ],
+      "tip": "Touch the ridge behind the upper teeth, then release. Keep the voice off.",
+      "partner": "d",
+      "choices": [
+        "tea",
+        "day",
+        "boat"
+      ],
+      "cue": "tea",
+      "cueIPA": "ti"
+    },
+    {
+      "id": "sound-c1-b",
+      "title": "d, voiced",
+      "ipa": "d",
+      "group": "Consonants",
+      "examples": [
+        "day",
+        "dog",
+        "red"
+      ],
+      "tip": "Touch the ridge behind the upper teeth, then release. Turn the voice on.",
+      "partner": "t",
+      "choices": [
+        "day",
+        "tea",
+        "boat"
+      ],
+      "cue": "day",
+      "cueIPA": "deɪ"
+    },
+    {
+      "id": "sound-c2-a",
+      "title": "k, voiceless",
+      "ipa": "k",
+      "group": "Consonants",
+      "examples": [
+        "key",
+        "coat",
+        "back"
+      ],
+      "tip": "Lift the back of the tongue, then release. Keep the voice off.",
+      "partner": "ɡ",
+      "choices": [
+        "key",
+        "go",
+        "boat"
+      ],
+      "cue": "key",
+      "cueIPA": "ki"
+    },
+    {
+      "id": "sound-c2-b",
+      "title": "ɡ, voiced",
+      "ipa": "ɡ",
+      "group": "Consonants",
+      "examples": [
+        "go",
+        "game",
+        "bag"
+      ],
+      "tip": "Lift the back of the tongue, then release. Turn the voice on.",
+      "partner": "k",
+      "choices": [
+        "go",
+        "key",
+        "boat"
+      ],
+      "cue": "go",
+      "cueIPA": "ɡoʊ"
+    },
+    {
+      "id": "sound-c3-a",
+      "title": "f, voiceless",
+      "ipa": "f",
+      "group": "Consonants",
+      "examples": [
+        "fan",
+        "fine",
+        "leaf"
+      ],
+      "tip": "Rest the upper teeth lightly on the lower lip. Keep the voice off.",
+      "partner": "v",
+      "choices": [
+        "fan",
+        "van",
+        "boat"
+      ],
+      "cue": "fan",
+      "cueIPA": "fæn"
+    },
+    {
+      "id": "sound-c3-b",
+      "title": "v, voiced",
+      "ipa": "v",
+      "group": "Consonants",
+      "examples": [
+        "van",
+        "very",
+        "leave"
+      ],
+      "tip": "Rest the upper teeth lightly on the lower lip. Turn the voice on.",
+      "partner": "f",
+      "choices": [
+        "van",
+        "fan",
+        "boat"
+      ],
+      "cue": "van",
+      "cueIPA": "væn"
+    },
+    {
+      "id": "sound-c4-a",
+      "title": "θ, voiceless",
+      "ipa": "θ",
+      "group": "Consonants",
+      "examples": [
+        "thin",
+        "think",
+        "bath"
+      ],
+      "tip": "Place the tongue tip lightly between the teeth. Keep the voice off.",
+      "partner": "ð",
+      "choices": [
+        "thin",
+        "this",
+        "boat"
+      ],
+      "cue": "thin",
+      "cueIPA": "θɪn"
+    },
+    {
+      "id": "sound-c4-b",
+      "title": "ð, voiced",
+      "ipa": "ð",
+      "group": "Consonants",
+      "examples": [
+        "this",
+        "that",
+        "them"
+      ],
+      "tip": "Place the tongue tip lightly between the teeth. Turn the voice on.",
+      "partner": "θ",
+      "choices": [
+        "this",
+        "thin",
+        "boat"
+      ],
+      "cue": "this",
+      "cueIPA": "ðɪs"
+    },
+    {
+      "id": "sound-c5-a",
+      "title": "s, voiceless",
+      "ipa": "s",
+      "group": "Consonants",
+      "examples": [
+        "sip",
+        "sun",
+        "rice"
+      ],
+      "tip": "Send air along a narrow groove in the tongue. Keep the voice off.",
+      "partner": "z",
+      "choices": [
+        "sip",
+        "zip",
+        "boat"
+      ],
+      "cue": "sip",
+      "cueIPA": "sɪp"
+    },
+    {
+      "id": "sound-c5-b",
+      "title": "z, voiced",
+      "ipa": "z",
+      "group": "Consonants",
+      "examples": [
+        "zip",
+        "zoo",
+        "rise"
+      ],
+      "tip": "Send air along a narrow groove in the tongue. Turn the voice on.",
+      "partner": "s",
+      "choices": [
+        "zip",
+        "sip",
+        "boat"
+      ],
+      "cue": "zip",
+      "cueIPA": "zɪp"
+    },
+    {
+      "id": "sound-c6-a",
+      "title": "ʃ, voiceless",
+      "ipa": "ʃ",
+      "group": "Consonants",
+      "examples": [
+        "ship",
+        "shoe",
+        "wish"
+      ],
+      "tip": "Round the lips slightly and let air flow. Keep the voice off.",
+      "partner": "ʒ",
+      "choices": [
+        "ship",
+        "measure",
+        "boat"
+      ],
+      "cue": "ship",
+      "cueIPA": "ʃɪp"
+    },
+    {
+      "id": "sound-c6-b",
+      "title": "ʒ, voiced",
+      "ipa": "ʒ",
+      "group": "Consonants",
+      "examples": [
+        "measure",
+        "vision",
+        "leisure"
+      ],
+      "tip": "Round the lips slightly and let air flow. Turn the voice on.",
+      "partner": "ʃ",
+      "choices": [
+        "measure",
+        "ship",
+        "boat"
+      ],
+      "cue": "measure",
+      "cueIPA": "ˈmɛʒɚ"
+    },
+    {
+      "id": "sound-c7-a",
+      "title": "tʃ, voiceless",
+      "ipa": "tʃ",
+      "group": "Consonants",
+      "examples": [
+        "chip",
+        "chair",
+        "watch"
+      ],
+      "tip": "Stop the air briefly, then release it with friction. Keep the voice off.",
+      "partner": "dʒ",
+      "choices": [
+        "chip",
+        "jam",
+        "boat"
+      ],
+      "cue": "chip",
+      "cueIPA": "tʃɪp"
+    },
+    {
+      "id": "sound-c7-b",
+      "title": "dʒ, voiced",
+      "ipa": "dʒ",
+      "group": "Consonants",
+      "examples": [
+        "jam",
+        "job",
+        "bridge"
+      ],
+      "tip": "Stop the air briefly, then release it with friction. Turn the voice on.",
+      "partner": "tʃ",
+      "choices": [
+        "jam",
+        "chip",
+        "boat"
+      ],
+      "cue": "jam",
+      "cueIPA": "dʒæm"
+    },
+    {
+      "id": "sound-h",
+      "title": "h",
+      "ipa": "h",
+      "group": "Consonants",
+      "examples": [
+        "hat",
+        "home",
+        "behind"
+      ],
+      "tip": "Let air flow freely through the open throat.",
+      "partner": null,
+      "choices": [
+        "hat",
+        "boat"
+      ],
+      "cue": "hat",
+      "cueIPA": "hæt"
+    },
+    {
+      "id": "sound-m",
+      "title": "m",
+      "ipa": "m",
+      "group": "Consonants",
+      "examples": [
+        "moon",
+        "map",
+        "home"
+      ],
+      "tip": "Close the lips and hum through the nose.",
+      "partner": null,
+      "choices": [
+        "moon",
+        "boat"
+      ],
+      "cue": "moon",
+      "cueIPA": "mun"
+    },
+    {
+      "id": "sound-n",
+      "title": "n",
+      "ipa": "n",
+      "group": "Consonants",
+      "examples": [
+        "name",
+        "nine",
+        "sun"
+      ],
+      "tip": "Touch the tongue to the upper ridge and hum.",
+      "partner": null,
+      "choices": [
+        "name",
+        "boat"
+      ],
+      "cue": "name",
+      "cueIPA": "neɪm"
+    },
+    {
+      "id": "sound-ng",
+      "title": "ŋ",
+      "ipa": "ŋ",
+      "group": "Consonants",
+      "examples": [
+        "sing",
+        "long",
+        "ring"
+      ],
+      "tip": "Lift the back of the tongue and hum through the nose.",
+      "partner": null,
+      "choices": [
+        "sing",
+        "boat"
+      ],
+      "cue": "sing",
+      "cueIPA": "sɪŋ"
+    },
+    {
+      "id": "sound-l",
+      "title": "l",
+      "ipa": "l",
+      "group": "Consonants",
+      "examples": [
+        "light",
+        "low",
+        "feel"
+      ],
+      "tip": "Touch the tongue tip to the upper ridge.",
+      "partner": null,
+      "choices": [
+        "light",
+        "boat"
+      ],
+      "cue": "light",
+      "cueIPA": "laɪt"
+    },
+    {
+      "id": "sound-r",
+      "title": "ɹ",
+      "ipa": "ɹ",
+      "group": "Consonants",
+      "examples": [
+        "right",
+        "red",
+        "road"
+      ],
+      "tip": "Curl or bunch the tongue without touching the roof.",
+      "partner": null,
+      "choices": [
+        "right",
+        "boat"
+      ],
+      "cue": "right",
+      "cueIPA": "ɹaɪt"
+    },
+    {
+      "id": "sound-w",
+      "title": "w",
+      "ipa": "w",
+      "group": "Consonants",
+      "examples": [
+        "we",
+        "wet",
+        "away"
+      ],
+      "tip": "Round the lips, then open into the vowel.",
+      "partner": null,
+      "choices": [
+        "we",
+        "boat"
+      ],
+      "cue": "we",
+      "cueIPA": "wi"
+    },
+    {
+      "id": "sound-y",
+      "title": "j",
+      "ipa": "j",
+      "group": "Consonants",
+      "examples": [
+        "yes",
+        "yellow",
+        "young"
+      ],
+      "tip": "Raise the tongue toward the front of the roof.",
+      "partner": null,
+      "choices": [
+        "yes",
+        "boat"
+      ],
+      "cue": "yes",
+      "cueIPA": "jɛs"
+    }
+  ]
+}

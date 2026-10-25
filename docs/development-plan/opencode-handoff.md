@@ -34,3 +34,41 @@ Over `docs/**/*.md` **except** `docs/history/`:
 3. Statements that say "nothing is locked" about the CEFR course (now levels are locked; coaches are not).
 
 Report each hit with file, line and the suggested wording. Do not edit.
+
+---
+
+## Round 2 (2026-10-25) — three more report-only jobs
+
+Same rules as above (report files only, American spelling, small batches, quote exact text, say where you stopped). Run `python3 tools/curriculum/validate.py` first and paste its last line at the top of each report. Do the jobs in order.
+
+## Job 3 — Proofread the Lexicon 2 word bank
+
+Files: `application/SpeechCoachAI/Resources/Lexicon/lexicon-01-*.json` to `lexicon-18-*.json` (722 words, 18 groups, three per CEFR level). One batch per three files.
+
+Check each word:
+1. `meaning`: accurate, plain, at most 140 characters, no circular definition (the word inside its own meaning).
+2. `examples`: natural English; the `{marked}` form is the word in a correct form; the sentence suits the group's CEFR level (A1 sentences use simple words).
+3. `wrong`: each sentence must actually be wrong or nonsensical *for that word*. Flag any that is correct English. Words new in Lexicon 2 have one wrong sentence; flag the ones that are weak (too obvious, or only wrong by accident of grammar).
+4. `cefr` equals the group's level. Flag words that look clearly too easy or too hard for the level.
+5. `register` fits the word: everyday, formal, term, jargon, slang, informal, literary. Flag clear mismatches.
+6. Typos, British spelling, and words that appear twice with the same meaning.
+
+Output: `docs/reviews/opencode-lexicon2-<date>.md`.
+
+## Job 4 — Proofread the A2–C2 course lessons
+
+Files: `application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json`, lessons with `contentVersion` "3" (levels A2 to C2, 44 lessons). Use the same checks as Job 1 (items 1 to 6) and also:
+- Any `choice` item with two defensible answers, or with an answer that can be found by matching one word with no reading.
+- Any `fillBlank` or `listenType` item whose accepted list misses a common correct variant (contractions, American spelling).
+- A `tip` that teaches something wrong or that the exercises do not use.
+
+Output: `docs/reviews/opencode-course-a2c2-<date>.md`.
+
+## Job 5 — Check the docs against the code
+
+Compare these claims with the source files and list every mismatch with file, line, what the doc says and what the code does (do not guess; open the code):
+- `docs/product-specification/lexicon.md` (group count, word count, ids, stages, wait days, daily limits) against `Domain/Lexicon.swift`, `Domain/LexiconPractice.swift`, `Resources/Lexicon/`.
+- `docs/product-specification/speech-lab.md` against `Features/SpeechLab/` and `Domain/SpeechLab*.swift` (entries on the Lab home, what is stored).
+- `docs/product-specification/product-specification.md` course rules (level lock, tests, question counts) against `Domain/LevelGate.swift` and `Domain/JumpTest.swift`.
+
+Output: `docs/reviews/opencode-doc-code-check-<date>.md`.

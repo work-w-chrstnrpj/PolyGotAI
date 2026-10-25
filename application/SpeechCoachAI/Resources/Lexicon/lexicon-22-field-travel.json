@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "field-travel",
+    "title": "Travel",
+    "level": "B1",
+    "tagline": "Trips, airports and hotels",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ],
+    "kind": "field"
+  },
+  "words": [
+    {
+      "lemma": "itinerary",
+      "pos": "noun",
+      "meaning": "A detailed plan of a trip, with places and times.",
+      "examples": [
+        "Our {itinerary} includes three cities in five days."
+      ],
+      "wrong": [
+        "An itinerary is a bag that you carry on a plane."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "boarding pass",
+      "pos": "noun",
+      "meaning": "A document that allows you to get on a plane.",
+      "examples": [
+        "Show your {boarding pass} at the gate."
+      ],
+      "wrong": [
+        "A boarding pass is a ticket for a meal in a hotel."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "layover",
+      "pos": "noun",
+      "meaning": "A short stop between two flights on a long journey.",
+      "examples": [
+        "We had a three-hour {layover} in Dubai."
+      ],
+      "wrong": [
+        "A layover is the last night of a trip at home."
+      ],
+      "cefr": "B1",
+      "register": "informal"
+    },
+    {
+      "lemma": "visa",
+      "pos": "noun",
+      "meaning": "An official stamp or document that allows you to enter or stay in a country.",
+      "examples": [
+        "You need a {visa} to work in that country."
+      ],
+      "wrong": [
+        "A visa is a card that you use to rent a hotel room for free."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "accommodation",
+      "pos": "noun",
+      "meaning": "A place to stay, such as a hotel or an apartment.",
+      "examples": [
+        "The price includes {accommodation} and breakfast."
+      ],
+      "wrong": [
+        "Accommodation is the food that you eat on a flight."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "check-in",
+      "pos": "noun",
+      "meaning": "The process of reporting your arrival at an airport or a hotel.",
+      "examples": [
+        "{Check-in} opens two hours before the flight."
+      ],
+      "wrong": [
+        "Check-in is the final step before you leave a hotel."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "sightseeing",
+      "pos": "noun",
+      "meaning": "Visiting interesting places as a tourist.",
+      "examples": [
+        "We spent the day {sightseeing} in the old town."
+      ],
+      "wrong": [
+        "Sightseeing is the act of sleeping in a hotel all day."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "currency",
+      "pos": "noun",
+      "meaning": "The money used in a particular country.",
+      "examples": [
+        "The local {currency} is the euro."
+      ],
+      "wrong": [
+        "Currency is a document that gives you permission to travel."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "exchange rate",
+      "pos": "noun",
+      "meaning": "The value of one country’s money compared with another’s.",
+      "examples": [
+        "The {exchange rate} changes every day."
+      ],
+      "wrong": [
+        "An exchange rate is the price of a train ticket."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "fare",
+      "pos": "noun",
+      "meaning": "The money you pay to travel on a bus, train or plane.",
+      "examples": [
+        "The bus {fare} is two dollars."
+      ],
+      "wrong": [
+        "A fare is a fast train that does not stop."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "excursion",
+      "pos": "noun",
+      "meaning": "A short trip taken for pleasure, often with a group.",
+      "examples": [
+        "We took an {excursion} to the island."
+      ],
+      "wrong": [
+        "An excursion is a long delay at an airport."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "hostel",
+      "pos": "noun",
+      "meaning": "A cheap place to stay where guests often share rooms.",
+      "examples": [
+        "We stayed in a {hostel} near the station."
+      ],
+      "wrong": [
+        "A hostel is an expensive restaurant on the top of a hill."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "round trip",
+      "pos": "noun",
+      "meaning": "A journey to a place and back again.",
+      "examples": [
+        "A {round trip} ticket is cheaper than two single tickets."
+      ],
+      "wrong": [
+        "A round trip is a journey that only goes in one direction."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "one-way",
+      "pos": "adjective",
+      "meaning": "Allowing travel in only one direction.",
+      "examples": [
+        "I bought a {one-way} ticket to Chicago."
+      ],
+      "wrong": [
+        "A one-way ticket is a ticket for a trip there and back."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "transfer",
+      "pos": "noun",
+      "meaning": "A change from one vehicle or route to another during a journey.",
+      "examples": [
+        "The trip needs a {transfer} at the central station."
+      ],
+      "wrong": [
+        "A transfer is a trip that never stops anywhere."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "terminal",
+      "pos": "noun",
+      "meaning": "A building at an airport where passengers begin or end a flight.",
+      "examples": [
+        "Our flight leaves from {terminal} two."
+      ],
+      "wrong": [
+        "A terminal is a small bag for carrying your passport."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "jet lag",
+      "pos": "noun",
+      "meaning": "Tiredness caused by flying across several time zones.",
+      "examples": [
+        "It took me three days to recover from {jet lag}."
+      ],
+      "wrong": [
+        "Jet lag is a kind of delay caused by bad weather."
+      ],
+      "cefr": "B1",
+      "register": "informal"
+    },
+    {
+      "lemma": "guidebook",
+      "pos": "noun",
+      "meaning": "A book with information for people visiting a place.",
+      "examples": [
+        "The {guidebook} lists the best cafes in town."
+      ],
+      "wrong": [
+        "A guidebook is a ticket for the last train of the night."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "landmark",
+      "pos": "noun",
+      "meaning": "A building or place that is easy to recognize and well known.",
+      "examples": [
+        "The tower is the city’s most famous {landmark}."
+      ],
+      "wrong": [
+        "A landmark is a small bag that tourists carry."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "insurance",
+      "pos": "noun",
+      "meaning": "An arrangement to receive money if something is lost, damaged or stolen.",
+      "examples": [
+        "Travel {insurance} covers lost luggage."
+      ],
+      "wrong": [
+        "Insurance is a ticket that lets you skip the line at an airport."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "timetable",
+      "pos": "noun",
+      "meaning": "A list of the times when trains, buses or flights leave and arrive.",
+      "examples": [
+        "Check the {timetable} before you go to the station."
+      ],
+      "wrong": [
+        "A timetable is a ticket that lets you enter a museum."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "carry-on",
+      "pos": "noun",
+      "meaning": "A small bag that you take with you on a plane.",
+      "examples": [
+        "My {carry-on} fits under the seat."
+      ],
+      "wrong": [
+        "A carry-on is a bag that you must give to the airline staff before you board."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "vacancy",
+      "pos": "noun",
+      "meaning": "A room in a hotel that is free for guests.",
+      "examples": [
+        "The sign said there was no {vacancy} on Friday."
+      ],
+      "wrong": [
+        "A vacancy is a hotel room that is full of guests."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "voyage",
+      "pos": "noun",
+      "meaning": "A long journey, especially by sea.",
+      "examples": [
+        "The {voyage} to the island took six days."
+      ],
+      "wrong": [
+        "A voyage is a short walk to the shop on the corner."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "cruise",
+      "pos": "noun",
+      "meaning": "A holiday on a large ship that visits several places.",
+      "examples": [
+        "They took a {cruise} around the Caribbean."
+      ],
+      "wrong": [
+        "A cruise is a trip on a plane that never lands."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "resort",
+      "pos": "noun",
+      "meaning": "A place where people go for a holiday, with hotels and activities.",
+      "examples": [
+        "We stayed at a beach {resort} for a week."
+      ],
+      "wrong": [
+        "A resort is an office where tourists pay for their visas."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "cabin",
+      "pos": "noun",
+      "meaning": "A small room on a ship, or the passenger area of a plane.",
+      "examples": [
+        "Our {cabin} had two small beds."
+      ],
+      "wrong": [
+        "A cabin is a large hall where the whole crew sleeps."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "checkout",
+      "pos": "noun",
+      "meaning": "The time by which guests must leave a hotel room.",
+      "examples": [
+        "{Checkout} is at eleven in the morning."
+      ],
+      "wrong": [
+        "Checkout is the moment when you first enter your hotel room."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    },
+    {
+      "lemma": "tour guide",
+      "pos": "noun",
+      "meaning": "A person who shows visitors around a place and explains it.",
+      "examples": [
+        "The {tour guide} told us about the history of the castle."
+      ],
+      "wrong": [
+        "A tour guide is a tourist who gets lost on purpose."
+      ],
+      "cefr": "B1",
+      "register": "term"
+    }
+  ]
+}

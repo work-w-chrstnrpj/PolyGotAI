@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "field-tech",
+    "title": "Technology",
+    "level": "B2",
+    "tagline": "Computers, apps and networks",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ],
+    "kind": "field"
+  },
+  "words": [
+    {
+      "lemma": "algorithm",
+      "pos": "noun",
+      "meaning": "A set of steps that a computer follows to solve a problem.",
+      "examples": [
+        "The search {algorithm} sorts the results by relevance."
+      ],
+      "wrong": [
+        "An algorithm is a kind of cable that connects two computers."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "bandwidth",
+      "pos": "noun",
+      "meaning": "The amount of data that a connection can carry at one time.",
+      "examples": [
+        "Video calls need a lot of {bandwidth}."
+      ],
+      "wrong": [
+        "Bandwidth is the width of a computer screen."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "firewall",
+      "pos": "noun",
+      "meaning": "Software or hardware that blocks unwanted access to a network.",
+      "examples": [
+        "The {firewall} stopped the unknown connection."
+      ],
+      "wrong": [
+        "A firewall is a wall that protects a building from a fire."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "encryption",
+      "pos": "noun",
+      "meaning": "The process of turning information into a code so others cannot read it.",
+      "examples": [
+        "{Encryption} keeps our messages private."
+      ],
+      "wrong": [
+        "Encryption is the process of making a file larger on purpose."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "cloud",
+      "pos": "noun",
+      "meaning": "Computers on the internet that store data and run programs for you.",
+      "examples": [
+        "I saved the photos to the {cloud}."
+      ],
+      "wrong": [
+        "The cloud is a folder that exists only on one broken laptop."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "database",
+      "pos": "noun",
+      "meaning": "An organized collection of data stored so that it can be found quickly.",
+      "examples": [
+        "The customer’s address is stored in the {database}."
+      ],
+      "wrong": [
+        "A database is a program for editing photographs."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "interface",
+      "pos": "noun",
+      "meaning": "The part of a program that a person sees and uses.",
+      "examples": [
+        "The app has a clean and simple {interface}."
+      ],
+      "wrong": [
+        "An interface is a battery that powers the device."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "update",
+      "pos": "verb",
+      "meaning": "To make software newer by adding changes or fixes.",
+      "examples": [
+        "Please {update} the app before you log in."
+      ],
+      "wrong": [
+        "You update an app by deleting it from the phone."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "backup",
+      "pos": "noun",
+      "meaning": "A copy of data kept in case the original is lost.",
+      "examples": [
+        "Make a {backup} before you reinstall the system."
+      ],
+      "wrong": [
+        "A backup is the original file that you must never copy."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "debug",
+      "pos": "verb",
+      "meaning": "To find and remove errors in a program.",
+      "examples": [
+        "It took two days to {debug} the code."
+      ],
+      "wrong": [
+        "To debug a program, you add as many errors as possible."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "deploy",
+      "pos": "verb",
+      "meaning": "To put software into use so that people can run it.",
+      "examples": [
+        "The team will {deploy} the new version tonight."
+      ],
+      "wrong": [
+        "You deploy a program by switching off the computer for good."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "server",
+      "pos": "noun",
+      "meaning": "A computer that stores data or services for other computers to use.",
+      "examples": [
+        "The website went down when the {server} crashed."
+      ],
+      "wrong": [
+        "A server is a person who brings food in a restaurant, not a computer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "network",
+      "pos": "noun",
+      "meaning": "A group of computers and devices that are connected to share information.",
+      "examples": [
+        "The office {network} is down again."
+      ],
+      "wrong": [
+        "A network is one single device that is not connected to anything."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "browser",
+      "pos": "noun",
+      "meaning": "A program used to look at pages on the internet.",
+      "examples": [
+        "Open the link in your {browser}."
+      ],
+      "wrong": [
+        "A browser is a machine that prints documents."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "upload",
+      "pos": "verb",
+      "meaning": "To send a file from your device to the internet.",
+      "examples": [
+        "Please {upload} your photo to the form."
+      ],
+      "wrong": [
+        "You upload a file by saving it only on your own device."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "malware",
+      "pos": "noun",
+      "meaning": "Software made to damage a computer or steal information.",
+      "examples": [
+        "The email contained {malware}."
+      ],
+      "wrong": [
+        "Malware is a helpful program that cleans your computer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "phishing",
+      "pos": "noun",
+      "meaning": "Sending false messages to trick people into giving away private information.",
+      "examples": [
+        "The email was a {phishing} attempt to steal my password."
+      ],
+      "wrong": [
+        "Phishing is a sport in which people catch fish with a net."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "latency",
+      "pos": "noun",
+      "meaning": "The delay between sending a signal and getting a response.",
+      "examples": [
+        "High {latency} makes online games feel slow."
+      ],
+      "wrong": [
+        "Latency is the speed at which a printer prints a page."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "open-source",
+      "pos": "adjective",
+      "meaning": "Describing software whose code anyone may read, use and change.",
+      "examples": [
+        "The tool is {open-source}, so anyone can improve it."
+      ],
+      "wrong": [
+        "Open-source software has code that no one is allowed to see."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "prototype",
+      "pos": "noun",
+      "meaning": "An early model of a product used to test an idea.",
+      "examples": [
+        "The team built a {prototype} before making the final app."
+      ],
+      "wrong": [
+        "A prototype is the last version that customers receive."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "sync",
+      "pos": "verb",
+      "meaning": "To make data on different devices match each other.",
+      "examples": [
+        "Your notes {sync} between your phone and your laptop."
+      ],
+      "wrong": [
+        "Two devices sync when each one deletes all of its files."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "plugin",
+      "pos": "noun",
+      "meaning": "A small program that adds a feature to a larger program.",
+      "examples": [
+        "I installed a {plugin} to check my spelling."
+      ],
+      "wrong": [
+        "A plugin is the largest part of the program, and nothing works without it."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "authentication",
+      "pos": "noun",
+      "meaning": "The process of proving who you are before you are allowed in.",
+      "examples": [
+        "Two-step {authentication} protects your account."
+      ],
+      "wrong": [
+        "Authentication is the process of deleting an old account."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "cache",
+      "pos": "noun",
+      "meaning": "A place where a device stores data so it can load faster next time.",
+      "examples": [
+        "Clear your {cache} if the page looks wrong."
+      ],
+      "wrong": [
+        "A cache is a tool that stops a device from storing any data."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "script",
+      "pos": "noun",
+      "meaning": "A short program that automates a simple task.",
+      "examples": [
+        "I wrote a {script} to rename all the files."
+      ],
+      "wrong": [
+        "A script is a screen that stops the computer from working."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "hardware",
+      "pos": "noun",
+      "meaning": "The physical parts of a computer, such as the screen and keyboard.",
+      "examples": [
+        "We bought new {hardware} for the office."
+      ],
+      "wrong": [
+        "Hardware is the set of programs that run inside a computer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "artificial intelligence",
+      "pos": "noun",
+      "meaning": "Computer systems that do tasks that normally need human thinking.",
+      "examples": [
+        "{Artificial intelligence} can translate speech into text."
+      ],
+      "wrong": [
+        "Artificial intelligence is a person who repairs computers by hand."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "dashboard",
+      "pos": "noun",
+      "meaning": "A screen that shows the most important information in one place.",
+      "examples": [
+        "The {dashboard} shows sales for each region."
+      ],
+      "wrong": [
+        "A dashboard is the password you type to open a program."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "software",
+      "pos": "noun",
+      "meaning": "Programs that tell a computer what to do.",
+      "examples": [
+        "The {software} lets you edit photos."
+      ],
+      "wrong": [
+        "Software is the set of physical parts inside a computer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "wireless",
+      "pos": "adjective",
+      "meaning": "Working without wires or cables.",
+      "examples": [
+        "We use a {wireless} connection at the office."
+      ],
+      "wrong": [
+        "A wireless mouse must be connected with a long cable."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    }
+  ]
+}

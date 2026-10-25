@@ -1,14 +1,15 @@
 import Foundation
 
-/// Which CEFR levels the learner may open. Levels unlock in order (owner rule, 2026-10-25): finish the
-/// previous level's lessons, or pass the next level's jump test with a perfect score. Lessons inside an
-/// unlocked level stay open in any order, and coach tracks are never gated.
+/// Which CEFR levels the learner may open (owner rule, 2026-10-25). A level opens when the learner finishes the
+/// previous level's lessons, or passes that level's test with a perfect score: any locked level has its own test,
+/// even C2 from A1, and a pass opens that level and every level below it. Lessons inside an unlocked level stay open
+/// in any order, and coach tracks are never gated.
 struct LevelGate: Equatable {
     static let levels = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
     /// Unlocked levels in order; always starts with A1.
     let unlockedLevels: [String]
-    /// Levels whose jump test can be taken now (the first locked level, when its test content exists).
+    /// Locked levels whose test can be taken now (every locked level whose test content exists).
     private let jumpTestTargets: Set<String>
 
     init(install: CurriculumInstall, journeys: [LessonJourney], passedTests: Set<String>) {
@@ -29,11 +30,7 @@ struct LevelGate: Equatable {
             if passedTests.contains(level) || opened.contains(level) || finished(previous) { highest = index }
         }
         unlockedLevels = Array(Self.levels[0...highest])
-        if highest + 1 < Self.levels.count, JumpTest.isAvailable(target: Self.levels[highest + 1], install: install) {
-            jumpTestTargets = [Self.levels[highest + 1]]
-        } else {
-            jumpTestTargets = []
-        }
+        jumpTestTargets = Set(Self.levels.dropFirst(highest + 1).filter { JumpTest.isAvailable(target: $0, install: install) })
     }
 
     func isUnlocked(_ level: String) -> Bool { unlockedLevels.contains(level.uppercased()) }
@@ -41,6 +38,6 @@ struct LevelGate: Equatable {
     /// The first level the learner cannot open yet; nil when all six are open.
     var nextLockedLevel: String? { Self.levels.first { !isUnlocked($0) } }
 
-    /// True only for the level right after the highest unlocked one, and only when its test exists.
+    /// True for every locked level whose test exists.
     func canTakeJumpTest(to level: String) -> Bool { jumpTestTargets.contains(level.uppercased()) }
 }

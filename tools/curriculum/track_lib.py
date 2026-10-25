@@ -99,10 +99,10 @@ def build_manifest(coach_id: str, coach: str, stages: list, lessons: list, level
     }
 
 
-def register_rewards(lesson_ids: list) -> int:
+def register_rewards(lesson_ids: list, version: str = VERSION) -> int:
     """Make sure every award list that holds the A1 v4 lessons also holds these lessons (a lesson earns nothing otherwise)."""
     text = AWARDS.read_text(encoding="utf-8")
-    wanted = [f"{lesson}@{VERSION}" for lesson in lesson_ids]
+    wanted = [f"{lesson}@{version}" for lesson in lesson_ids]
     touched = 0
 
     def patch(match: re.Match) -> str:

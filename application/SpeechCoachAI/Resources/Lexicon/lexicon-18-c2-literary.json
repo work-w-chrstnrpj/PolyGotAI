@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-literary",
+    "title": "Literary language",
+    "level": "C2",
+    "tagline": "Words from stories and poems",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "melancholy",
+      "pos": "noun",
+      "meaning": "A deep, quiet sadness.",
+      "examples": [
+        "A feeling of {melancholy} settled over her in autumn."
+      ],
+      "wrong": [
+        "The wedding filled him with melancholy, and he danced with great joy."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "solitude",
+      "pos": "noun",
+      "meaning": "The state of being alone, often by choice.",
+      "examples": [
+        "He enjoyed the {solitude} of the mountain cabin."
+      ],
+      "wrong": [
+        "He sought solitude in the most crowded square of the busy city."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "serene",
+      "pos": "adjective",
+      "meaning": "Calm and peaceful.",
+      "examples": [
+        "The lake looked {serene} at dawn."
+      ],
+      "wrong": [
+        "The serene sea crashed and roared during the storm."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "tranquil",
+      "pos": "adjective",
+      "meaning": "Quiet and calm.",
+      "examples": [
+        "They spent a {tranquil} evening by the fire."
+      ],
+      "wrong": [
+        "The tranquil street was full of loud traffic and shouting."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "luminous",
+      "pos": "adjective",
+      "meaning": "Shining or full of light.",
+      "examples": [
+        "The moon was {luminous} above the sea."
+      ],
+      "wrong": [
+        "The luminous room was so dark that nobody could see anything."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "ominous",
+      "pos": "adjective",
+      "meaning": "Suggesting that something bad will happen.",
+      "examples": [
+        "Dark clouds gave the sky an {ominous} look."
+      ],
+      "wrong": [
+        "An ominous sign promised a bright and happy future."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "wistful",
+      "pos": "adjective",
+      "meaning": "Sadly longing for something past or unreachable.",
+      "examples": [
+        "She gave a {wistful} smile at the old photograph."
+      ],
+      "wrong": [
+        "He felt wistful for the future that had not happened and that he did not want."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "languid",
+      "pos": "adjective",
+      "meaning": "Slow and relaxed, with little energy.",
+      "examples": [
+        "She waved a {languid} hand in the afternoon heat."
+      ],
+      "wrong": [
+        "The languid runner sprinted fast and full of energy."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "ardent",
+      "pos": "adjective",
+      "meaning": "Full of strong feeling.",
+      "examples": [
+        "He was an {ardent} supporter of the club."
+      ],
+      "wrong": [
+        "She was an ardent fan who felt no interest in the team at all."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "bleak",
+      "pos": "adjective",
+      "meaning": "Cold, empty and without hope.",
+      "examples": [
+        "The {bleak} landscape stretched to the horizon."
+      ],
+      "wrong": [
+        "The bleak scene was warm, rich and full of hope."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "desolate",
+      "pos": "adjective",
+      "meaning": "Empty and lonely.",
+      "examples": [
+        "The village was {desolate} after the storm."
+      ],
+      "wrong": [
+        "The desolate square was crowded with happy visitors."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "eerie",
+      "pos": "adjective",
+      "meaning": "Strange and frightening.",
+      "examples": [
+        "An {eerie} silence filled the empty house."
+      ],
+      "wrong": [
+        "The eerie music was cheerful and made us all laugh comfortably."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "forlorn",
+      "pos": "adjective",
+      "meaning": "Sad and lonely.",
+      "examples": [
+        "A {forlorn} dog waited by the door."
+      ],
+      "wrong": [
+        "The forlorn child was surrounded by friends and felt delighted."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "grandeur",
+      "pos": "noun",
+      "meaning": "Impressive beauty and size.",
+      "examples": [
+        "They admired the {grandeur} of the mountains."
+      ],
+      "wrong": [
+        "The grandeur of the tiny, plain hut amazed all the visitors."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "haunting",
+      "pos": "adjective",
+      "meaning": "Beautiful or sad in a way that stays in your mind.",
+      "examples": [
+        "The song has a {haunting} melody."
+      ],
+      "wrong": [
+        "The haunting tune was forgotten the moment it ended."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "reverie",
+      "pos": "noun",
+      "meaning": "A state of pleasant dreaming while awake.",
+      "examples": [
+        "He sat in a {reverie}, watching the clouds."
+      ],
+      "wrong": [
+        "She spoke sharply from her reverie, wide awake and fully alert."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "tempestuous",
+      "pos": "adjective",
+      "meaning": "Full of strong and sudden emotion, or stormy.",
+      "examples": [
+        "They had a {tempestuous} relationship."
+      ],
+      "wrong": [
+        "Their tempestuous friendship was always calm and without a single quarrel."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "wane",
+      "pos": "verb",
+      "meaning": "To become weaker or smaller.",
+      "examples": [
+        "Public interest began to {wane}."
+      ],
+      "wrong": [
+        "The moon waned until it grew larger and brighter each night."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "linger",
+      "pos": "verb",
+      "meaning": "To stay a little longer than expected.",
+      "examples": [
+        "The smell of bread will {linger} in the kitchen."
+      ],
+      "wrong": [
+        "He lingered by leaving the room at once without waiting."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "murmur",
+      "pos": "noun",
+      "meaning": "A soft, low sound.",
+      "examples": [
+        "A {murmur} of voices came from the next room."
+      ],
+      "wrong": [
+        "A murmur is a very loud shout that can be heard from far away."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "glimmer",
+      "pos": "noun",
+      "meaning": "A faint light or a small sign.",
+      "examples": [
+        "There was a {glimmer} of hope in her eyes."
+      ],
+      "wrong": [
+        "A glimmer is a very strong light that blinds everyone."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "shroud",
+      "pos": "noun",
+      "meaning": "Something that covers or hides.",
+      "examples": [
+        "A {shroud} of mist covered the valley."
+      ],
+      "wrong": [
+        "A shroud is a bright sign that makes everything clear and visible."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "solace",
+      "pos": "noun",
+      "meaning": "Comfort when you are sad.",
+      "examples": [
+        "She found {solace} in music."
+      ],
+      "wrong": [
+        "The news of the loss gave him great solace by making him more upset."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "yearn",
+      "pos": "verb",
+      "meaning": "To want something very much.",
+      "examples": [
+        "He began to {yearn} for home."
+      ],
+      "wrong": [
+        "I yearn for a thing that I dislike and never think about."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "nostalgia",
+      "pos": "noun",
+      "meaning": "A warm, sentimental feeling for the past.",
+      "examples": [
+        "The old songs filled him with {nostalgia}."
+      ],
+      "wrong": [
+        "Nostalgia is the longing for a future that has not come yet."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "labyrinth",
+      "pos": "noun",
+      "meaning": "A complicated network of paths in which it is easy to get lost.",
+      "examples": [
+        "We got lost in the {labyrinth} of narrow streets."
+      ],
+      "wrong": [
+        "A labyrinth is one straight road with no turns."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "vestige",
+      "pos": "noun",
+      "meaning": "A small trace of something that once existed.",
+      "examples": [
+        "Only a {vestige} of the old wall remains."
+      ],
+      "wrong": [
+        "A vestige is a huge new building that everyone sees."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "elegy",
+      "pos": "noun",
+      "meaning": "A sad poem or song for someone who has died.",
+      "examples": [
+        "The poet wrote an {elegy} for her friend."
+      ],
+      "wrong": [
+        "An elegy is a funny song for a birthday party."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "dusk",
+      "pos": "noun",
+      "meaning": "The time in the evening just before it gets dark.",
+      "examples": [
+        "We walked home at {dusk}."
+      ],
+      "wrong": [
+        "Dusk is the time at noon when the sun is at its highest."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "twilight",
+      "pos": "noun",
+      "meaning": "The soft light just after the sun has gone down.",
+      "examples": [
+        "The garden looked silver in the {twilight}."
+      ],
+      "wrong": [
+        "Twilight is the bright light of the middle of the day."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "tapestry",
+      "pos": "noun",
+      "meaning": "A large piece of cloth with a picture woven into it, or a rich mixture.",
+      "examples": [
+        "The city is a {tapestry} of cultures."
+      ],
+      "wrong": [
+        "A tapestry is a metal tool for cutting wood."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "sanctuary",
+      "pos": "noun",
+      "meaning": "A place of safety.",
+      "examples": [
+        "The forest was a {sanctuary} for rare birds."
+      ],
+      "wrong": [
+        "A sanctuary is a dangerous place where nobody is protected."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "wander",
+      "pos": "verb",
+      "meaning": "To walk slowly without a clear aim.",
+      "examples": [
+        "We like to {wander} through the old streets."
+      ],
+      "wrong": [
+        "I wander by following a map and walking quickly to one exact point."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "drift",
+      "pos": "verb",
+      "meaning": "To move slowly without control.",
+      "examples": [
+        "The boat began to {drift} out to sea."
+      ],
+      "wrong": [
+        "The boat drifted by the strong motor driving it straight to the port."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "fade",
+      "pos": "verb",
+      "meaning": "To lose color, strength or brightness slowly.",
+      "examples": [
+        "The colors will {fade} in the sun."
+      ],
+      "wrong": [
+        "The photograph faded and became brighter and sharper each day."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "veil",
+      "pos": "noun",
+      "meaning": "A thin cover that hides something.",
+      "examples": [
+        "A {veil} of cloud hid the mountain."
+      ],
+      "wrong": [
+        "A veil is a heavy iron door that shows everything."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "ember",
+      "pos": "noun",
+      "meaning": "A small piece of glowing coal or wood in a dying fire.",
+      "examples": [
+        "The last {ember} glowed in the grate."
+      ],
+      "wrong": [
+        "An ember is a cold piece of ice in a freezer."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "hush",
+      "pos": "noun",
+      "meaning": "A sudden silence.",
+      "examples": [
+        "A {hush} fell over the room."
+      ],
+      "wrong": [
+        "A hush is a loud burst of noise that fills a crowded room."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "radiance",
+      "pos": "noun",
+      "meaning": "Bright light or great happiness that shows.",
+      "examples": [
+        "Her face glowed with {radiance}."
+      ],
+      "wrong": [
+        "Radiance is the deep dark of a room with no light."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    },
+    {
+      "lemma": "stillness",
+      "pos": "noun",
+      "meaning": "A state of quiet and no movement.",
+      "examples": [
+        "The {stillness} of the night was complete."
+      ],
+      "wrong": [
+        "Stillness is the sound of a busy road with constant movement."
+      ],
+      "cefr": "C2",
+      "register": "literary"
+    }
+  ]
+}

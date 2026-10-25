@@ -6,6 +6,8 @@ import Foundation
 /// for example "She felt {happy} today."; `wrong` sentences use the word incorrectly (for Lexicon in Action).
 struct LexiconWord: Codable, Equatable, Identifiable {
     static let partsOfSpeech: Set<String> = ["noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "phrase"]
+    /// How a word is used: everyday speech, formal writing, a field term, jargon, slang, informal talk or literary writing.
+    static let registers: Set<String> = ["everyday", "formal", "term", "jargon", "slang", "informal", "literary"]
     static let senseId = "1"
 
     var lemma: String
@@ -13,13 +15,43 @@ struct LexiconWord: Codable, Equatable, Identifiable {
     var meaning: String
     var examples: [String]
     var wrong: [String]
-    /// "<groupId>.<slug>", assigned by the loader.
+    /// CEFR level of the word (A1 to C2). Filled from the group's level when the file does not give one.
+    var cefr: String = ""
+    var register: String = "everyday"
+    /// "<groupId>.<slug>", or the explicit id a word kept when it moved between groups.
     var id: String = ""
+    /// The group the word sits in now; set by the loader.
+    var groupId: String = ""
 
-    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong }
+    init(lemma: String, pos: String, meaning: String, examples: [String], wrong: [String],
+         cefr: String = "", register: String = "everyday", id: String = "", groupId: String = "") {
+        self.lemma = lemma; self.pos = pos; self.meaning = meaning; self.examples = examples; self.wrong = wrong
+        self.cefr = cefr; self.register = register; self.id = id; self.groupId = groupId
+    }
+
+    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong, cefr, register, id }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        lemma = try container.decode(String.self, forKey: .lemma)
+        pos = try container.decode(String.self, forKey: .pos)
+        meaning = try container.decode(String.self, forKey: .meaning)
+        examples = try container.decode([String].self, forKey: .examples)
+        wrong = try container.decode([String].self, forKey: .wrong)
+        cefr = try container.decodeIfPresent(String.self, forKey: .cefr) ?? ""
+        register = try container.decodeIfPresent(String.self, forKey: .register) ?? "everyday"
+        id = try container.decodeIfPresent(String.self, forKey: .id) ?? ""
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(lemma, forKey: .lemma); try container.encode(pos, forKey: .pos)
+        try container.encode(meaning, forKey: .meaning); try container.encode(examples, forKey: .examples)
+        try container.encode(wrong, forKey: .wrong); try container.encode(cefr, forKey: .cefr)
+        try container.encode(register, forKey: .register); try container.encode(id, forKey: .id)
+    }
 
     var itemId: String { "lex.\(id)" }
-    var groupId: String { String(id.split(separator: ".", maxSplits: 1).first ?? "") }
 
     /// A marked example split into the plain sentence, the blanked sentence and the marked form.
     struct Example: Equatable {
@@ -46,6 +78,8 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         if blank(meaning) || meaning.count > 140 { return "meaning missing or too long" }
         if examples.isEmpty || parsedExamples.count != examples.count { return "each example needs exactly one {marked} form" }
         if wrong.isEmpty || wrong.contains(where: { blank($0) || $0.contains("{") || $0.contains("}") }) { return "needs wrong-usage sentences without braces" }
+        if !cefr.isEmpty, !LevelGate.levels.contains(cefr) { return "unknown CEFR level \(cefr)" }
+        if !Self.registers.contains(register) { return "unknown register \(register)" }
         return nil
     }
 }
@@ -57,6 +91,8 @@ struct LexiconGroup: Equatable, Identifiable {
     var tagline: String
     var sources: [String]
     var words: [LexiconWord]
+    /// A field pack (business, technology, health, travel, law): opt-in, never the default group or the "Next" suggestion.
+    var isField = false
 }
 
 struct LexiconBank: Equatable {

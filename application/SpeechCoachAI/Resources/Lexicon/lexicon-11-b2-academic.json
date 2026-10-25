@@ -1,12 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "group": {
-    "id": "academic-basics",
+    "id": "b2-academic",
     "title": "Academic basics",
-    "level": "B1-B2",
+    "level": "B2",
     "tagline": "Words for study and reports",
     "sources": [
-      "Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
     ]
   },
   "words": [
@@ -20,19 +21,10 @@
       "wrong": [
         "I analyze the report without reading it.",
         "She analyzed to the data."
-      ]
-    },
-    {
-      "lemma": "argue",
-      "pos": "verb",
-      "meaning": "To give reasons to show that something is true or false.",
-      "examples": [
-        "Some people {argue} that homework is helpful."
       ],
-      "wrong": [
-        "He argues the table with milk.",
-        "I argued of the idea."
-      ]
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.analyze"
     },
     {
       "lemma": "assume",
@@ -44,19 +36,10 @@
       "wrong": [
         "I assumed the answer after I checked every fact twice.",
         "She assumes to know it."
-      ]
-    },
-    {
-      "lemma": "benefit",
-      "pos": "noun",
-      "meaning": "A good result or advantage.",
-      "examples": [
-        "One {benefit} of exercise is better sleep."
       ],
-      "wrong": [
-        "One benefit of the storm is that it destroyed our roof.",
-        "He benefits of a lot."
-      ]
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.assume"
     },
     {
       "lemma": "concept",
@@ -68,7 +51,10 @@
       "wrong": [
         "My concept is a warm sandwich.",
         "She concepts the lesson."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.concept"
     },
     {
       "lemma": "consequence",
@@ -80,7 +66,10 @@
       "wrong": [
         "The consequence came before the action.",
         "He consequences of the choice."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.consequence"
     },
     {
       "lemma": "contrast",
@@ -92,7 +81,10 @@
       "wrong": [
         "There is a big contrast because the two cities are exactly the same.",
         "She contrast two ideas."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.contrast"
     },
     {
       "lemma": "define",
@@ -104,7 +96,10 @@
       "wrong": [
         "I define the table to the moon.",
         "She defined to the word."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.define"
     },
     {
       "lemma": "evidence",
@@ -116,7 +111,10 @@
       "wrong": [
         "Evidence is a person who tells stories.",
         "The evidences are on the desk."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.evidence"
     },
     {
       "lemma": "factor",
@@ -128,7 +126,10 @@
       "wrong": [
         "A factor is a result that has no cause.",
         "She factors the decision."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.factor"
     },
     {
       "lemma": "function",
@@ -140,7 +141,10 @@
       "wrong": [
         "The function of a key is to cut bread.",
         "He functions of the machine."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.function"
     },
     {
       "lemma": "impact",
@@ -152,7 +156,10 @@
       "wrong": [
         "The law had a big impact, but nothing changed.",
         "She impacts of the law."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.impact"
     },
     {
       "lemma": "indicate",
@@ -164,7 +171,10 @@
       "wrong": [
         "The results indicate nothing, so we know exactly what happened.",
         "He indicated to the sign."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.indicate"
     },
     {
       "lemma": "individual",
@@ -176,7 +186,10 @@
       "wrong": [
         "An individual is a big group of people.",
         "She individual of the group."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.individual"
     },
     {
       "lemma": "interpret",
@@ -188,7 +201,10 @@
       "wrong": [
         "I interpret the poem by not reading it.",
         "He interpreted of the sign."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.interpret"
     },
     {
       "lemma": "issue",
@@ -200,7 +216,10 @@
       "wrong": [
         "An issue is something no one talks about or thinks about.",
         "She issues of the city."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.issue"
     },
     {
       "lemma": "method",
@@ -212,7 +231,10 @@
       "wrong": [
         "The method is the final answer of the test.",
         "He methods the research."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.method"
     },
     {
       "lemma": "obtain",
@@ -224,7 +246,10 @@
       "wrong": [
         "I obtained a permit by giving it away.",
         "She obtains from a license."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.obtain"
     },
     {
       "lemma": "occur",
@@ -236,7 +261,10 @@
       "wrong": [
         "The event occurred, but nothing happened.",
         "He occurs to the street."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.occur"
     },
     {
       "lemma": "principle",
@@ -248,19 +276,10 @@
       "wrong": [
         "A principle is the person who runs a school.",
         "She principles of the club."
-      ]
-    },
-    {
-      "lemma": "process",
-      "pos": "noun",
-      "meaning": "A series of steps that lead to a result.",
-      "examples": [
-        "Making cheese is a long {process}."
       ],
-      "wrong": [
-        "The process has no steps and no end.",
-        "He process the milk for cheese."
-      ]
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.principle"
     },
     {
       "lemma": "require",
@@ -272,7 +291,10 @@
       "wrong": [
         "The job requires nothing, so you must bring many documents.",
         "She requires to have a license."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.require"
     },
     {
       "lemma": "research",
@@ -284,7 +306,10 @@
       "wrong": [
         "I did research by guessing without looking at any facts.",
         "He researches are on the shelf."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.research"
     },
     {
       "lemma": "respond",
@@ -296,7 +321,10 @@
       "wrong": [
         "I responded the email yesterday.",
         "She responds the letter."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.respond"
     },
     {
       "lemma": "role",
@@ -308,7 +336,10 @@
       "wrong": [
         "A role is a kind of bread.",
         "He roles in the project."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.role"
     },
     {
       "lemma": "significant",
@@ -320,7 +351,10 @@
       "wrong": [
         "The change was significant because it was too small to notice.",
         "She significants a result."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.significant"
     },
     {
       "lemma": "source",
@@ -332,7 +366,10 @@
       "wrong": [
         "The report’s source is a kind of soup.",
         "He sources of the river."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.source"
     },
     {
       "lemma": "structure",
@@ -344,7 +381,10 @@
       "wrong": [
         "The essay has no structure, so every part is in perfect order.",
         "She structure the paragraph."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.structure"
     },
     {
       "lemma": "survey",
@@ -356,7 +396,10 @@
       "wrong": [
         "The survey asked only one person and no questions.",
         "He surveys of the class."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.survey"
     },
     {
       "lemma": "theory",
@@ -368,7 +411,10 @@
       "wrong": [
         "A theory is a fact that nobody can explain.",
         "She theory the results."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.theory"
     },
     {
       "lemma": "trend",
@@ -380,7 +426,10 @@
       "wrong": [
         "A trend is something that happens only once.",
         "He trends of the market."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.trend"
     },
     {
       "lemma": "variety",
@@ -392,7 +441,10 @@
       "wrong": [
         "The store has a wide variety, so every product is the same.",
         "She varieties of cakes."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.variety"
     },
     {
       "lemma": "version",
@@ -404,19 +456,10 @@
       "wrong": [
         "This version is exactly the same as every other one.",
         "He versions the app."
-      ]
-    },
-    {
-      "lemma": "compare",
-      "pos": "verb",
-      "meaning": "To look at things to see how they are alike or different.",
-      "examples": [
-        "Let’s {compare} the two phones before we buy one."
       ],
-      "wrong": [
-        "I compare one phone without looking at the other.",
-        "She compares at the prices."
-      ]
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.version"
     },
     {
       "lemma": "conclude",
@@ -428,19 +471,10 @@
       "wrong": [
         "I concluded the answer before I knew any facts.",
         "He concludes to the idea."
-      ]
-    },
-    {
-      "lemma": "create",
-      "pos": "verb",
-      "meaning": "To make something new.",
-      "examples": [
-        "Artists {create} new things every day."
       ],
-      "wrong": [
-        "I created a painting that already existed.",
-        "She creates of a song."
-      ]
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.conclude"
     },
     {
       "lemma": "estimate",
@@ -452,7 +486,10 @@
       "wrong": [
         "I estimate the exact number after I measure it.",
         "He estimates to the cost."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.estimate"
     },
     {
       "lemma": "focus",
@@ -464,7 +501,10 @@
       "wrong": [
         "I focus on ten different things at the same time.",
         "She focuses at the work."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.focus"
     },
     {
       "lemma": "involve",
@@ -476,7 +516,10 @@
       "wrong": [
         "The plan involves nobody and nothing.",
         "He involves to the group."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.involve"
     },
     {
       "lemma": "maintain",
@@ -488,7 +531,75 @@
       "wrong": [
         "We maintain the road by letting it break.",
         "She maintains of the house."
-      ]
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "id": "academic-basics.maintain"
+    },
+    {
+      "lemma": "hypothesis",
+      "pos": "noun",
+      "meaning": "An idea that you test to see if it is true.",
+      "examples": [
+        "The scientist tested her {hypothesis} with an experiment."
+      ],
+      "wrong": [
+        "A hypothesis is a fact that everyone already knows is true."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "assess",
+      "pos": "verb",
+      "meaning": "To judge the quality or value of something.",
+      "examples": [
+        "Teachers {assess} students with tests."
+      ],
+      "wrong": [
+        "We assess a thing when we do not think about it at all."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "bias",
+      "pos": "noun",
+      "meaning": "An unfair preference for one side.",
+      "examples": [
+        "The report shows a clear {bias} toward one group."
+      ],
+      "wrong": [
+        "Bias is a fair view that treats everyone equally."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "criterion",
+      "pos": "noun",
+      "meaning": "A standard used to judge something.",
+      "examples": [
+        "Price is one important {criterion} for choosing a phone."
+      ],
+      "wrong": [
+        "A criterion is a type of fruit."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "evaluate",
+      "pos": "verb",
+      "meaning": "To decide how good or useful something is.",
+      "examples": [
+        "We need to {evaluate} the results carefully."
+      ],
+      "wrong": [
+        "We evaluate a plan when we ignore it completely."
+      ],
+      "cefr": "B2",
+      "register": "term"
     }
   ]
 }

@@ -160,6 +160,9 @@ def main() -> int:
 
     # Lexicon bank: lexicon-*.json = {group:{id,title,level,tagline,sources}, words:[{lemma,pos,meaning,examples,wrong}]}
     pos_ok = {"noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "phrase"}
+    register_ok = {"everyday", "formal", "term", "jargon", "slang", "informal", "literary"}
+    cefr_ok = {"A1", "A2", "B1", "B2", "C1", "C2"}
+    lexicon_groups = 0
     seen_words: dict[str, str] = {}
     lexicon_words = 0
     for path in sorted(glob.glob(os.path.join(RES, "Lexicon", "lexicon-*.json"))):
@@ -169,6 +172,9 @@ def main() -> int:
         group = data.get("group", {})
         if not group.get("id") or blank(group.get("sources")):
             errors.append(f"{name}: group needs an id and sources")
+        lexicon_groups += 1
+        if group.get("level") not in cefr_ok:
+            errors.append(f"{name}: group level {group.get('level')!r} is not a CEFR level")
         for word in data.get("words", []):
             lexicon_words += 1
             lemma = word.get("lemma", "")
@@ -176,6 +182,10 @@ def main() -> int:
             if key in seen_words:
                 errors.append(f"{name}: duplicate word {lemma!r} ({word.get('pos')}), also in {seen_words[key]}")
             seen_words[key] = name
+            if word.get("cefr") != group.get("level"):
+                errors.append(f"{name}: {lemma}: cefr {word.get('cefr')!r} differs from the group level {group.get('level')!r}")
+            if word.get("register") not in register_ok:
+                errors.append(f"{name}: {lemma}: unknown register {word.get('register')!r}")
             if word.get("pos") not in pos_ok:
                 errors.append(f"{name}: {lemma}: unknown part of speech {word.get('pos')!r}")
             if not (word.get("meaning") or "").strip() or len(word.get("meaning", "")) > 140:
@@ -190,6 +200,8 @@ def main() -> int:
             if not wrong or any(("{" in w or "}" in w or not w.strip()) for w in wrong):
                 errors.append(f"{name}: {lemma}: needs wrong-usage sentences without braces")
     counts["lexicon"] = lexicon_words
+    if lexicon_groups != 23:
+        errors.append(f"Lexicon: expected 18 CEFR groups and 5 field packs, found {lexicon_groups} groups")
 
     if "--quiet" not in sys.argv:
         print(f"lexicon words: {counts.get('lexicon', 0)}")

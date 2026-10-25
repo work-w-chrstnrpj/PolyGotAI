@@ -1,12 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "group": {
     "id": "everyday-a1",
     "title": "Everyday A1",
     "level": "A1",
     "tagline": "Words for daily life",
     "sources": [
-      "Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
     ]
   },
   "words": [
@@ -20,7 +21,10 @@
       "wrong": [
         "I am happy because my dog is very sick.",
         "Yesterday she happy to see us."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.happy"
     },
     {
       "lemma": "buy",
@@ -32,7 +36,10 @@
       "wrong": [
         "I buy a new coat, so the shop pays me money.",
         "Yesterday I buy a new phone."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.buy"
     },
     {
       "lemma": "kitchen",
@@ -44,7 +51,10 @@
       "wrong": [
         "We take a hot shower in the kitchen.",
         "A kitchen is a person who cooks."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.kitchen"
     },
     {
       "lemma": "window",
@@ -56,7 +66,10 @@
       "wrong": [
         "Please close the window so the fresh air can come in.",
         "She cut the bread with a window."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.window"
     },
     {
       "lemma": "quickly",
@@ -68,7 +81,10 @@
       "wrong": [
         "He walked quickly, so he arrived after a very long hour.",
         "She is a very quickly runner."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.quickly"
     },
     {
       "lemma": "tired",
@@ -80,7 +96,10 @@
       "wrong": [
         "I slept ten hours, so I am very tired and full of energy.",
         "She tired very much last night."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.tired"
     },
     {
       "lemma": "friend",
@@ -92,7 +111,10 @@
       "wrong": [
         "A friend is someone you do not know at all.",
         "He friend me a book yesterday."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.friend"
     },
     {
       "lemma": "cook",
@@ -104,7 +126,10 @@
       "wrong": [
         "I cooked dinner with cold water and no heat.",
         "She cooks the television for dinner."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.cook"
     },
     {
       "lemma": "weather",
@@ -116,7 +141,10 @@
       "wrong": [
         "The weather is my brother’s name.",
         "The weathers are sunny today."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.weather"
     },
     {
       "lemma": "street",
@@ -128,7 +156,10 @@
       "wrong": [
         "We drive on the street from the kitchen to the bedroom.",
         "I sat on the streets and read a street."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.street"
     },
     {
       "lemma": "early",
@@ -140,7 +171,10 @@
       "wrong": [
         "I arrived early, so I missed the beginning of the film.",
         "She comes early than me."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.early"
     },
     {
       "lemma": "market",
@@ -152,7 +186,10 @@
       "wrong": [
         "The market is a room where we sleep.",
         "He markets yesterday to buy apples."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.market"
     },
     {
       "lemma": "wash",
@@ -164,7 +201,10 @@
       "wrong": [
         "I wash my hands with dirty sand.",
         "He washes his car yesterday."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.wash"
     },
     {
       "lemma": "library",
@@ -176,7 +216,10 @@
       "wrong": [
         "We buy bread at the library.",
         "A library is a kind of soup."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.library"
     },
     {
       "lemma": "ticket",
@@ -188,7 +231,10 @@
       "wrong": [
         "A ticket is a kind of soup.",
         "The ticket was cheap, so it cost one thousand dollars."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.ticket"
     },
     {
       "lemma": "borrow",
@@ -200,7 +246,10 @@
       "wrong": [
         "I borrow my sister a pen.",
         "Please borrow me your pen and keep it forever."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.borrow"
     },
     {
       "lemma": "birthday",
@@ -212,7 +261,10 @@
       "wrong": [
         "My birthday is every day of the week.",
         "Today is my birthday of the winter."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.birthday"
     },
     {
       "lemma": "lunch",
@@ -224,7 +276,10 @@
       "wrong": [
         "I eat lunch while I sleep.",
         "She lunches a letter."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.lunch"
     },
     {
       "lemma": "careful",
@@ -236,7 +291,10 @@
       "wrong": [
         "He was very careful, so he fell down three times.",
         "She is careful at the stairs of."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.careful"
     },
     {
       "lemma": "lose",
@@ -248,7 +306,10 @@
       "wrong": [
         "I lose my keys, so I know exactly where they are.",
         "He lose his wallet yesterday."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.lose"
     },
     {
       "lemma": "bedroom",
@@ -260,7 +321,10 @@
       "wrong": [
         "We cook dinner in the bedroom oven.",
         "He bedroomed a cold shower."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.bedroom"
     },
     {
       "lemma": "answer",
@@ -272,7 +336,10 @@
       "wrong": [
         "I answer a question before anyone asks me.",
         "She answers to the question of the teacher."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.answer"
     },
     {
       "lemma": "cheap",
@@ -284,7 +351,10 @@
       "wrong": [
         "The shoes were cheap, so they cost a lot of money.",
         "This is the most cheap shop."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.cheap"
     },
     {
       "lemma": "visit",
@@ -296,7 +366,10 @@
       "wrong": [
         "I visit my aunt and I never see her.",
         "She visits to her aunt on Sundays."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.visit"
     },
     {
       "lemma": "neighbor",
@@ -308,7 +381,10 @@
       "wrong": [
         "My neighbor lives on the moon and has never been near my house.",
         "She neighbors very kind."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.neighbor"
     },
     {
       "lemma": "bottle",
@@ -320,7 +396,10 @@
       "wrong": [
         "I put the milk in a bottle made of paper with no lid and no bottom.",
         "She bottles of water on the table."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.bottle"
     },
     {
       "lemma": "listen",
@@ -332,7 +411,10 @@
       "wrong": [
         "I listen the radio with my eyes.",
         "He listens a book on the shelf."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.listen"
     },
     {
       "lemma": "ready",
@@ -344,7 +426,10 @@
       "wrong": [
         "I am ready, so I need one more hour to start.",
         "She readies for school."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.ready"
     },
     {
       "lemma": "empty",
@@ -356,7 +441,10 @@
       "wrong": [
         "The glass is empty and full of juice.",
         "He emptys the bottle yesterday."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.empty"
     },
     {
       "lemma": "enjoy",
@@ -368,7 +456,10 @@
       "wrong": [
         "I enjoy going to the dentist because I hate it.",
         "She enjoys to swim."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.enjoy"
     },
     {
       "lemma": "bridge",
@@ -380,7 +471,10 @@
       "wrong": [
         "We swam under the bridge to the top of the sky.",
         "A bridge is a kind of fruit."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.bridge"
     },
     {
       "lemma": "sleep",
@@ -392,7 +486,10 @@
       "wrong": [
         "I sleep with my eyes open and talk all night.",
         "He sleeped well last night."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.sleep"
     },
     {
       "lemma": "jacket",
@@ -404,7 +501,10 @@
       "wrong": [
         "She ate a jacket for breakfast.",
         "He jacket his coat on the chair."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.jacket"
     },
     {
       "lemma": "hungry",
@@ -416,7 +516,10 @@
       "wrong": [
         "I am hungry because I just ate three big meals.",
         "She is hungry of a sandwich."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.hungry"
     },
     {
       "lemma": "carry",
@@ -428,7 +531,10 @@
       "wrong": [
         "I carry the weather in my hand.",
         "He carried the bag to he home."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.carry"
     },
     {
       "lemma": "village",
@@ -440,7 +546,10 @@
       "wrong": [
         "The village has two million people and a huge airport.",
         "She villages to work by bus."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.village"
     },
     {
       "lemma": "repeat",
@@ -452,7 +561,10 @@
       "wrong": [
         "I repeat the word for the first time.",
         "He repeat the song again."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.repeat"
     },
     {
       "lemma": "beautiful",
@@ -464,7 +576,10 @@
       "wrong": [
         "The garden looks very beautiful and ugly.",
         "She sings beautiful."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.beautiful"
     },
     {
       "lemma": "plan",
@@ -476,7 +591,10 @@
       "wrong": [
         "I put my plan in the oven for ten minutes.",
         "He plans of the dog a shoe."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.plan"
     },
     {
       "lemma": "clean",
@@ -488,7 +606,10 @@
       "wrong": [
         "The floor is clean because it is covered with mud.",
         "He is clean the room now."
-      ]
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "id": "everyday-a1.clean"
     }
   ]
 }

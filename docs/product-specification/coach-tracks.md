@@ -2,7 +2,7 @@
 
 > Owner direction 2026-10-25. Replaces the v1 "seven specialized trainers" ([history](../history/v1/product-specification/specialized-trainers.md)).
 
-Each coach is a **track** in Learn: units, then lessons, then exercises. Tracks use the same exercise engine as the CEFR course ([tdd](../tdd/tdd.md#exercise-engine)). The Teacher hosts the CEFR course and is not one of the ten.
+Each coach is a **track** in the Lesson tab: units, then lessons, then exercises. Tracks use the same exercise engine as the CEFR course ([tdd](../tdd/tdd.md#exercise-engine)). The Teacher hosts the CEFR course and is not one of the ten.
 
 ## Track structure
 

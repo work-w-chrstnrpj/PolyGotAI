@@ -32,7 +32,7 @@ This builds the app and runs all hosted unit tests and UI tests on the iPhone 18
 
 | Phase | Must-have tests |
 | --- | --- |
-| 0 | Existing suite green; no "unavailable/not scored/coming later" strings on Today, Learn or Speech Lab (UI test reads static texts) |
+| 0 | Existing suite green; no "unavailable/not scored/coming later" strings on Today, the Lesson tab or Speech Lab (UI test reads static texts) |
 | 1 | `AnswerChecker` (normalization, contractions, almost-matches, alternatives); each exercise type's check; `ExerciseSession` re-queue and accuracy; legacy activity mapping; A1 content validation; UI: complete one A1 lesson with mixed types |
 | 2 | Track loading and validation; unique lesson ids across course and tracks; new coach cases decode; UI: open a coach and start a lesson |
 | 3 | All track files validate; source credits present |

@@ -50,12 +50,23 @@ final class Phase2LessonTests: XCTestCase {
         selectLevel("C2", in: app)
         XCTAssertTrue(app.descendants(matching: .any)["level.locked.C2"].firstMatch.waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "learn.open.")).firstMatch.exists)
-        XCTAssertFalse(app.buttons["level.test.C2"].exists)
+        // Owner rule (2026-10-25): any locked level can be unlocked by its own test, even C2 from A1.
+        XCTAssertTrue(app.buttons["level.test.C2"].waitForExistence(timeout: 5))
         capture(app, "course-locked")
         selectLevel("A2", in: app)
         XCTAssertTrue(app.buttons["level.test.A2"].waitForExistence(timeout: 5))
         selectLevel("A1", in: app)
         XCTAssertTrue(app.buttons["learn.open.a1-greetings"].exists)
+    }
+
+    @MainActor
+    func testC2CanBeAttemptedByTestFromAFreshLearner() {
+        let app = launch()
+        selectLevel("C2", in: app)
+        app.buttons["level.test.C2"].tap()
+        XCTAssertTrue(app.navigationBars["C2 test"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["exercise.prompt"].waitForExistence(timeout: 5))
+        capture(app, "c2-test-question")
     }
 
     @MainActor

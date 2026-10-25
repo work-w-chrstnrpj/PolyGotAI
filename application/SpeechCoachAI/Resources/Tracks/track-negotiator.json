@@ -200,14 +200,14 @@
           "id": "ng-appeals-09",
           "kind": "grammar",
           "required": true,
-          "prompt": "Type the missing word: Logos means facts and ___.",
-          "answer": "logic",
+          "prompt": "Type the missing word: Logos uses facts and ___.",
+          "answer": "reasons",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "logic",
               "reasons",
-              "reason"
+              "reason",
+              "logic"
             ]
           }
         },
@@ -779,7 +779,7 @@
           "id": "ng-pitch-13",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Our town has no safe place to skate. We want to build a small skate park near the river. Young people will have a place to exercise and meet friends. Please vote yes on Tuesday. Which sentence is the call to action?",
+          "prompt": "Read this. Our town has no safe place to skate. We want to build a small skate park near the river. Young people will have a place to exercise and meet friends. Please vote yes on Tuesday. Which sentence is the next step?",
           "answer": "Please vote yes on Tuesday.",
           "exercise": {
             "type": "choice",
@@ -1510,7 +1510,8 @@
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "Would"
+              "Would",
+              "Will"
             ]
           }
         },
@@ -1879,17 +1880,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Which softening word starts a polite refusal?",
-          "answer": "Unfortunately,",
+          "answer": "Unfortunately",
           "exercise": {
             "type": "choice",
             "options": [
-              "Unfortunately,",
-              "Obviously,",
-              "Never,",
-              "Stop,"
+              "Unfortunately",
+              "Obviously",
+              "Never",
+              "Stop"
             ],
             "accepted": [
-              "Unfortunately,"
+              "Unfortunately"
             ]
           }
         },

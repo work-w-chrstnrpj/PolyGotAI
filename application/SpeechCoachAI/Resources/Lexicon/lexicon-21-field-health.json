@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "field-health",
+    "title": "Health and medicine",
+    "level": "B2",
+    "tagline": "Doctors, illness and care",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ],
+    "kind": "field"
+  },
+  "words": [
+    {
+      "lemma": "symptom",
+      "pos": "noun",
+      "meaning": "A sign that a person has an illness.",
+      "examples": [
+        "A cough is a common {symptom} of a cold."
+      ],
+      "wrong": [
+        "A symptom is the medicine that a doctor gives you."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "diagnosis",
+      "pos": "noun",
+      "meaning": "A doctor’s decision about what illness a person has.",
+      "examples": [
+        "The doctor gave her a quick {diagnosis}."
+      ],
+      "wrong": [
+        "A diagnosis is the bill that you pay after a visit."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "prescription",
+      "pos": "noun",
+      "meaning": "A written order from a doctor for a medicine.",
+      "examples": [
+        "You need a {prescription} to buy this medicine."
+      ],
+      "wrong": [
+        "A prescription is a free bottle of water at the clinic."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "dose",
+      "pos": "noun",
+      "meaning": "The amount of a medicine that you take at one time.",
+      "examples": [
+        "Do not take more than one {dose} a day."
+      ],
+      "wrong": [
+        "A dose is a room where patients wait for the doctor."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "infection",
+      "pos": "noun",
+      "meaning": "An illness caused by germs entering the body.",
+      "examples": [
+        "The cut became an {infection}."
+      ],
+      "wrong": [
+        "An infection is a vitamin that keeps the body healthy."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "vaccine",
+      "pos": "noun",
+      "meaning": "A medicine that protects the body against a disease.",
+      "examples": [
+        "The {vaccine} protects children from measles."
+      ],
+      "wrong": [
+        "A vaccine is a treatment that causes a disease on purpose."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "chronic",
+      "pos": "adjective",
+      "meaning": "Lasting a long time or coming back again and again.",
+      "examples": [
+        "She has {chronic} back pain."
+      ],
+      "wrong": [
+        "A chronic illness goes away after one day."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "acute",
+      "pos": "adjective",
+      "meaning": "Sudden and severe, but usually lasting a short time.",
+      "examples": [
+        "He went to the hospital with {acute} stomach pain."
+      ],
+      "wrong": [
+        "Acute pain is a very mild feeling that lasts for years."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "recovery",
+      "pos": "noun",
+      "meaning": "The process of getting well again after an illness or injury.",
+      "examples": [
+        "Her {recovery} took six weeks."
+      ],
+      "wrong": [
+        "Recovery is the moment when an illness first begins."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "referral",
+      "pos": "noun",
+      "meaning": "A letter from a doctor sending you to see a specialist.",
+      "examples": [
+        "My doctor gave me a {referral} to a heart specialist."
+      ],
+      "wrong": [
+        "A referral is a medicine that you take with a glass of water."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "surgery",
+      "pos": "noun",
+      "meaning": "Medical treatment in which a doctor cuts into the body.",
+      "examples": [
+        "He needed {surgery} on his knee."
+      ],
+      "wrong": [
+        "Surgery is a kind of medicine you can buy without a prescription."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "therapy",
+      "pos": "noun",
+      "meaning": "Treatment to help a person recover from a physical or mental problem.",
+      "examples": [
+        "She goes to {therapy} to help her stress."
+      ],
+      "wrong": [
+        "Therapy is a machine that measures how tall a person is."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "nutrition",
+      "pos": "noun",
+      "meaning": "The food a body needs to stay healthy, and the study of it.",
+      "examples": [
+        "Good {nutrition} helps children grow."
+      ],
+      "wrong": [
+        "Nutrition is a sport that people play on a hard court."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "fatigue",
+      "pos": "noun",
+      "meaning": "Extreme tiredness.",
+      "examples": [
+        "Long hours at work caused her {fatigue}."
+      ],
+      "wrong": [
+        "Fatigue is the feeling you have when you are full of energy."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "inflammation",
+      "pos": "noun",
+      "meaning": "Redness, swelling and pain in a part of the body.",
+      "examples": [
+        "Ice can reduce the {inflammation} in your ankle."
+      ],
+      "wrong": [
+        "Inflammation is a feeling of being very cold."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "blood pressure",
+      "pos": "noun",
+      "meaning": "The force of blood pushing against the walls of the blood vessels.",
+      "examples": [
+        "The nurse checked my {blood pressure}."
+      ],
+      "wrong": [
+        "Blood pressure is the amount of blood you give to a hospital."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "immune system",
+      "pos": "noun",
+      "meaning": "The body’s natural defense against germs and disease.",
+      "examples": [
+        "Sleep helps your {immune system} fight infections."
+      ],
+      "wrong": [
+        "The immune system is the part of the body that digests food."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "antibiotic",
+      "pos": "noun",
+      "meaning": "A medicine that kills bacteria and treats infections.",
+      "examples": [
+        "The doctor gave me an {antibiotic} for the infection."
+      ],
+      "wrong": [
+        "An antibiotic is a medicine that makes a cold start."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "dehydration",
+      "pos": "noun",
+      "meaning": "A harmful lack of water in the body.",
+      "examples": [
+        "Hot weather can cause {dehydration}."
+      ],
+      "wrong": [
+        "Dehydration happens when you drink too much water at once."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "checkup",
+      "pos": "noun",
+      "meaning": "A routine medical examination to make sure you are healthy.",
+      "examples": [
+        "I have a {checkup} with my doctor every year."
+      ],
+      "wrong": [
+        "A checkup is an emergency visit after a serious accident."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "outpatient",
+      "pos": "noun",
+      "meaning": "A patient who visits a hospital for treatment but does not stay overnight.",
+      "examples": [
+        "As an {outpatient}, she went home the same day."
+      ],
+      "wrong": [
+        "An outpatient is a patient who sleeps at the hospital for a month."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "mental health",
+      "pos": "noun",
+      "meaning": "A person’s emotional and psychological well-being.",
+      "examples": [
+        "Regular exercise is good for your {mental health}."
+      ],
+      "wrong": [
+        "Mental health is the strength of a person’s muscles."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "rehabilitation",
+      "pos": "noun",
+      "meaning": "Treatment and exercise that help you regain health or strength after an injury.",
+      "examples": [
+        "{Rehabilitation} helped him walk again after the accident."
+      ],
+      "wrong": [
+        "Rehabilitation is the first test to decide whether you are ill."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "side effect",
+      "pos": "noun",
+      "meaning": "An unwanted effect of a medicine, in addition to its main effect.",
+      "examples": [
+        "Sleepiness is a common {side effect} of this pill."
+      ],
+      "wrong": [
+        "A side effect is the main reason that a doctor gives a medicine."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "contagious",
+      "pos": "adjective",
+      "meaning": "Able to pass from one person to another.",
+      "examples": [
+        "The flu is highly {contagious}."
+      ],
+      "wrong": [
+        "A contagious illness cannot spread to anyone else."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "wellness",
+      "pos": "noun",
+      "meaning": "The state of being in good health, especially as a deliberate aim.",
+      "examples": [
+        "The company runs a {wellness} program for its staff."
+      ],
+      "wrong": [
+        "Wellness is a serious illness that needs surgery."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "sprain",
+      "pos": "noun",
+      "meaning": "An injury to a joint caused by twisting it suddenly.",
+      "examples": [
+        "She has a {sprain} in her ankle."
+      ],
+      "wrong": [
+        "A sprain is a medicine used to treat a headache."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "emergency",
+      "pos": "noun",
+      "meaning": "A sudden serious situation that needs immediate action.",
+      "examples": [
+        "Call an ambulance in an {emergency}."
+      ],
+      "wrong": [
+        "An emergency is a planned visit that you book a month ahead."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-feelings",
+    "title": "Feelings and character",
+    "level": "B1",
+    "tagline": "How people feel and act",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "anxious",
+      "pos": "adjective",
+      "meaning": "Worried and nervous about something.",
+      "examples": [
+        "She felt {anxious} before the exam."
+      ],
+      "wrong": [
+        "He was anxious because everything was perfect and he had nothing to worry about."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "confident",
+      "pos": "adjective",
+      "meaning": "Sure of yourself or of what you can do.",
+      "examples": [
+        "He felt {confident} about the interview."
+      ],
+      "wrong": [
+        "She felt confident because she was sure she would fail."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "curious",
+      "pos": "adjective",
+      "meaning": "Eager to learn or know something.",
+      "examples": [
+        "The children were {curious} about the box."
+      ],
+      "wrong": [
+        "She was curious about nothing and wanted to know nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "disappointed",
+      "pos": "adjective",
+      "meaning": "Sad because something was not as good as you hoped.",
+      "examples": [
+        "I was {disappointed} with my test result."
+      ],
+      "wrong": [
+        "She was disappointed because the result was better than she dreamed."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "embarrassed",
+      "pos": "adjective",
+      "meaning": "Feeling shy or uncomfortable in front of other people.",
+      "examples": [
+        "He felt {embarrassed} when he forgot her name."
+      ],
+      "wrong": [
+        "He was embarrassed because everyone praised him and he loved it."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "excited",
+      "pos": "adjective",
+      "meaning": "Very happy and full of energy about something.",
+      "examples": [
+        "The children are {excited} about the trip."
+      ],
+      "wrong": [
+        "She was excited, so she fell asleep at once and did not care."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "frustrated",
+      "pos": "adjective",
+      "meaning": "Annoyed because you cannot do or change something.",
+      "examples": [
+        "I felt {frustrated} when the computer froze."
+      ],
+      "wrong": [
+        "She was frustrated because everything went smoothly."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "grateful",
+      "pos": "adjective",
+      "meaning": "Feeling thankful for something kind that someone did.",
+      "examples": [
+        "I am {grateful} for your help."
+      ],
+      "wrong": [
+        "I am grateful, so I never say thank you."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "jealous",
+      "pos": "adjective",
+      "meaning": "Unhappy because you want what someone else has.",
+      "examples": [
+        "He was {jealous} of his friend’s new car."
+      ],
+      "wrong": [
+        "She was jealous because she was glad for her friend and wanted nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "lonely",
+      "pos": "adjective",
+      "meaning": "Sad because you have no friends or company.",
+      "examples": [
+        "She felt {lonely} in the big city."
+      ],
+      "wrong": [
+        "He felt lonely because there were fifty friends around him all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "nervous",
+      "pos": "adjective",
+      "meaning": "A little afraid or worried about something that will happen.",
+      "examples": [
+        "I always feel {nervous} before a presentation."
+      ],
+      "wrong": [
+        "I felt nervous because I was sure everything would be fine and I was fully calm."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "proud",
+      "pos": "adjective",
+      "meaning": "Pleased about something you or someone else has done.",
+      "examples": [
+        "Her parents were very {proud} of her."
+      ],
+      "wrong": [
+        "He was proud because he had done something shameful."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "relieved",
+      "pos": "adjective",
+      "meaning": "Happy because something bad did not happen.",
+      "examples": [
+        "I felt {relieved} when the test was over."
+      ],
+      "wrong": [
+        "She felt relieved when the bad news got worse."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "stressed",
+      "pos": "adjective",
+      "meaning": "Feeling worried and tired because of too much pressure.",
+      "examples": [
+        "He felt {stressed} before the deadline."
+      ],
+      "wrong": [
+        "She is stressed because she has nothing to do and is fully relaxed."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "surprised",
+      "pos": "adjective",
+      "meaning": "Feeling that something was not expected.",
+      "examples": [
+        "I was {surprised} to see her there."
+      ],
+      "wrong": [
+        "I was surprised because I knew everything in advance."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "upset",
+      "pos": "adjective",
+      "meaning": "Unhappy or worried because of something that has happened.",
+      "examples": [
+        "He was {upset} about the news."
+      ],
+      "wrong": [
+        "She was upset, so she laughed and sang all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "annoyed",
+      "pos": "adjective",
+      "meaning": "Slightly angry about something.",
+      "examples": [
+        "She was {annoyed} when he arrived late."
+      ],
+      "wrong": [
+        "He was annoyed because the bus came early and was delighted."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "amazed",
+      "pos": "adjective",
+      "meaning": "Very surprised, often in a good way.",
+      "examples": [
+        "We were {amazed} by the size of the castle."
+      ],
+      "wrong": [
+        "She was amazed by the small building she had seen a hundred times."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "cheerful",
+      "pos": "adjective",
+      "meaning": "Happy and positive.",
+      "examples": [
+        "The waiter was {cheerful} all day."
+      ],
+      "wrong": [
+        "She is cheerful because she is very sad and cries."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "calm",
+      "pos": "adjective",
+      "meaning": "Quiet and relaxed; not worried.",
+      "examples": [
+        "Stay {calm} and speak slowly."
+      ],
+      "wrong": [
+        "He stayed calm by shouting and running around."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "generous",
+      "pos": "adjective",
+      "meaning": "Happy to give money, time or help.",
+      "examples": [
+        "He is very {generous} with his time."
+      ],
+      "wrong": [
+        "She is generous because she never gives anything to anyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "honest",
+      "pos": "adjective",
+      "meaning": "Telling the truth; not cheating.",
+      "examples": [
+        "She is an {honest} person."
+      ],
+      "wrong": [
+        "He is honest because he always tells lies."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "polite",
+      "pos": "adjective",
+      "meaning": "Having good manners.",
+      "examples": [
+        "It is {polite} to say please and thank you."
+      ],
+      "wrong": [
+        "He is polite because he shouts at his friends."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "rude",
+      "pos": "adjective",
+      "meaning": "Not polite.",
+      "examples": [
+        "It is {rude} to talk with your mouth full."
+      ],
+      "wrong": [
+        "He is rude because he always says please and thanks."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "shy",
+      "pos": "adjective",
+      "meaning": "Nervous or uncomfortable with other people.",
+      "examples": [
+        "He is {shy} and does not speak in class."
+      ],
+      "wrong": [
+        "He is shy because he loves speaking to a huge crowd."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "selfish",
+      "pos": "adjective",
+      "meaning": "Caring only about yourself.",
+      "examples": [
+        "It was {selfish} of him to take all the cake."
+      ],
+      "wrong": [
+        "He is selfish because he shares everything with others."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "stubborn",
+      "pos": "adjective",
+      "meaning": "Refusing to change your mind.",
+      "examples": [
+        "He is too {stubborn} to say sorry."
+      ],
+      "wrong": [
+        "She is stubborn because she always changes her mind at once."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "ambitious",
+      "pos": "adjective",
+      "meaning": "Wanting to be very successful.",
+      "examples": [
+        "She is an {ambitious} young lawyer."
+      ],
+      "wrong": [
+        "He is ambitious because he wants nothing in his life."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "creative",
+      "pos": "adjective",
+      "meaning": "Good at thinking of new ideas.",
+      "examples": [
+        "She is very {creative} and paints beautiful pictures."
+      ],
+      "wrong": [
+        "He is creative because he copies every idea exactly."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "reliable",
+      "pos": "adjective",
+      "meaning": "Someone or something you can trust to work well.",
+      "examples": [
+        "She is a {reliable} friend."
+      ],
+      "wrong": [
+        "He is reliable because he forgets everything and is often late."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "sensitive",
+      "pos": "adjective",
+      "meaning": "Easily hurt or upset by what people say.",
+      "examples": [
+        "He is very {sensitive} to criticism."
+      ],
+      "wrong": [
+        "She is sensitive because nothing ever upsets her."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "trust",
+      "pos": "verb",
+      "meaning": "To believe that someone is honest and will not hurt you.",
+      "examples": [
+        "I {trust} my best friend."
+      ],
+      "wrong": [
+        "I trust him because he lied to me many times."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "forgive",
+      "pos": "verb",
+      "meaning": "To stop being angry with someone who did something wrong.",
+      "examples": [
+        "I can {forgive} him for forgetting my birthday."
+      ],
+      "wrong": [
+        "I forgive her when I am still very angry and will not talk."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "apologize",
+      "pos": "verb",
+      "meaning": "To say that you are sorry.",
+      "examples": [
+        "I want to {apologize} for being late."
+      ],
+      "wrong": [
+        "I apologize when I want to blame the other person."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "complain",
+      "pos": "verb",
+      "meaning": "To say that you are unhappy about something.",
+      "examples": [
+        "Customers often {complain} about the long wait."
+      ],
+      "wrong": [
+        "I complain when I am happy with the service and tell everyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "compliment",
+      "pos": "noun",
+      "meaning": "A kind thing you say to praise someone.",
+      "examples": [
+        "She gave me a nice {compliment} on my English."
+      ],
+      "wrong": [
+        "A compliment is a rude thing you say to hurt someone."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "admire",
+      "pos": "verb",
+      "meaning": "To respect and like someone for what they do.",
+      "examples": [
+        "I {admire} her courage."
+      ],
+      "wrong": [
+        "I admire him because I find him boring and weak."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "regret",
+      "pos": "verb",
+      "meaning": "To feel sorry about something you did.",
+      "examples": [
+        "I {regret} saying those words."
+      ],
+      "wrong": [
+        "I regret it, so I am glad that I did it."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "patient",
+      "pos": "adjective",
+      "meaning": "Able to wait calmly without getting angry.",
+      "examples": [
+        "The teacher is very {patient} with young children."
+      ],
+      "wrong": [
+        "He is patient because he shouts when he waits for one minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "mood",
+      "pos": "noun",
+      "meaning": "The way you feel at a particular time.",
+      "examples": [
+        "She is in a good {mood} today."
+      ],
+      "wrong": [
+        "A mood is a place where you buy clothes."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    },
+    {
+      "lemma": "emotion",
+      "pos": "noun",
+      "meaning": "A strong feeling such as love, fear or anger.",
+      "examples": [
+        "She showed no {emotion} when she heard the news."
+      ],
+      "wrong": [
+        "An emotion is a machine that makes toast."
+      ],
+      "cefr": "B1",
+      "register": "everyday"
+    }
+  ]
+}

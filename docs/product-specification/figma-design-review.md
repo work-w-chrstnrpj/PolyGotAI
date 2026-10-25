@@ -98,7 +98,7 @@ Before handoff, inspect the consolidated Page 1 reference, shared normal/empty/e
 Twenty screen frames plus a foundations board and a reusable-components area are visible in the layer panel:
 
 - Today: Creative Academy, Goals and discoveries, Adventure Atlas, Mixed-Media Studio, Creative Academy dark.
-- Learn: Open levels.
+- Lesson: Open levels.
 - Lesson: Explanation, Choose an answer, Gentle retry.
 - Speech Lab: Modes, Recording, Take review, Confirm transcript, AI feedback, Save sheet.
 - Vocabulary: Your words.

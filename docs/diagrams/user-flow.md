@@ -5,7 +5,7 @@
 ```mermaid
 flowchart LR
   T[Today] -->|Continue| LP[Lesson player]
-  T -->|Daily Lexicon| DL[Word of the day]
+  T -->|Daily Lexicon| DL[Daily Lexicon]
   X[Lexicon] --> VR[Daily Training: spaced review]
   X --> LA[Lexicon in Action]
   X --> SL[Specialized Lexicon: AI]

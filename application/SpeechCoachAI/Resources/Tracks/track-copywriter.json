@@ -92,7 +92,7 @@
             "options": [
               "Your things stay dry in any weather.",
               "The bag is made of plastic.",
-              "The bag has two zips.",
+              "The bag has two zippers.",
               "The bag is gray."
             ],
             "accepted": [
@@ -666,7 +666,7 @@
             "type": "choice",
             "options": [
               "The best product ever",
-              "Fix a leaking tap in ten minutes",
+              "Fix a leaking faucet in ten minutes",
               "Save 20 percent this week",
               "Learn English in your lunch break"
             ],
@@ -754,7 +754,7 @@
           "id": "cp-headline-09",
           "kind": "grammar",
           "required": true,
-          "prompt": "True or false: “Best product ever” is a strong headline with no proof.",
+          "prompt": "True or false: “Best product ever” is a strong headline.",
           "answer": "False",
           "exercise": {
             "type": "choice",
@@ -1373,7 +1373,7 @@
             "options": [
               "Imagine leaving home right on time",
               "Download it free today",
-              "Never miss a bus again",
+              "The app is free",
               "It tells you when the bus arrives"
             ],
             "accepted": [
@@ -1438,9 +1438,9 @@
             "type": "choice",
             "options": [
               "Join",
-              "Perhaps",
-              "Possibly",
-              "Eventually"
+              "Consider",
+              "Think",
+              "Perhaps"
             ],
             "accepted": [
               "Join"

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "credits": "Original SpeechCoachAI tips and exercises, 2026-10-25. IPA follows common General American conventions; vowel inventories vary by speaker. Qualified phonetics and device voice review pending.",
+  "items": [
+    {
+      "id": "stress-photograph",
+      "title": "Photograph",
+      "kind": "stress",
+      "text": "photograph",
+      "ipa": "ˈfoʊtəɡræf",
+      "options": [
+        "PHO",
+        "to",
+        "graph"
+      ],
+      "answer": "PHO",
+      "tip": "The first syllable is strongest: PHOtograph."
+    },
+    {
+      "id": "stress-photography",
+      "title": "Photography",
+      "kind": "stress",
+      "text": "photography",
+      "ipa": "fəˈtɑɡrəfi",
+      "options": [
+        "pho",
+        "TO",
+        "gra",
+        "phy"
+      ],
+      "answer": "TO",
+      "tip": "The second syllable is strongest: phoTOgraphy."
+    },
+    {
+      "id": "stress-banana",
+      "title": "Banana",
+      "kind": "stress",
+      "text": "banana",
+      "ipa": "bəˈnænə",
+      "options": [
+        "ba",
+        "NA",
+        "na"
+      ],
+      "answer": "NA",
+      "tip": "The middle syllable is strongest: baNAna."
+    },
+    {
+      "id": "stress-sentence",
+      "title": "Sentence stress",
+      "kind": "stress",
+      "text": "I wanted the blue bag.",
+      "ipa": "aɪ ˈwɑntɪd ðə ˈblu ˌbæɡ",
+      "options": [
+        "I",
+        "blue",
+        "the"
+      ],
+      "answer": "blue",
+      "tip": "Emphasize BLUE to contrast it with another color."
+    },
+    {
+      "id": "intonation-question",
+      "title": "Rising question",
+      "kind": "intonation",
+      "text": "You're ready?",
+      "ipa": "jʊr ˈrɛdi",
+      "options": [
+        "Question",
+        "Statement"
+      ],
+      "answer": "Question",
+      "tip": "Let the voice rise at the end of this checking question."
+    },
+    {
+      "id": "intonation-statement",
+      "title": "Falling statement",
+      "kind": "intonation",
+      "text": "You're ready.",
+      "ipa": "jʊr ˈrɛdi",
+      "options": [
+        "Question",
+        "Statement"
+      ],
+      "answer": "Statement",
+      "tip": "Let the voice settle at the end of the statement."
+    }
+  ]
+}

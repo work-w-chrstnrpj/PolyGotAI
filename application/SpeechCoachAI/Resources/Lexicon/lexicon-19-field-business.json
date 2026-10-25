@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "field-business",
+    "title": "Business and finance",
+    "level": "B2",
+    "tagline": "Money, deals and companies",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ],
+    "kind": "field"
+  },
+  "words": [
+    {
+      "lemma": "acquire",
+      "pos": "verb",
+      "meaning": "To get or buy something, especially a company or an asset.",
+      "examples": [
+        "The firm plans to {acquire} a smaller competitor."
+      ],
+      "wrong": [
+        "A company acquires another company by selling it for nothing."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "overhead",
+      "pos": "noun",
+      "meaning": "The regular costs of running a business, such as rent and power.",
+      "examples": [
+        "High {overhead} made it hard for the cafe to make money."
+      ],
+      "wrong": [
+        "Overhead is the extra money a customer gives as a tip."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "asset",
+      "pos": "noun",
+      "meaning": "Something of value that a person or company owns.",
+      "examples": [
+        "The building is the company’s biggest {asset}."
+      ],
+      "wrong": [
+        "An asset is a debt that you must pay back next week."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "liability",
+      "pos": "noun",
+      "meaning": "A debt or legal duty that a person or company must pay or meet.",
+      "examples": [
+        "The loan is a {liability} on the company’s books."
+      ],
+      "wrong": [
+        "A liability is a valuable thing that makes the company richer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "quarter",
+      "pos": "noun",
+      "meaning": "A period of three months in a company’s financial year.",
+      "examples": [
+        "Sales rose sharply in the fourth {quarter}."
+      ],
+      "wrong": [
+        "A quarter is a meeting that lasts for fifteen minutes."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "benchmark",
+      "pos": "noun",
+      "meaning": "A standard used to compare how well something is doing.",
+      "examples": [
+        "The industry average is our {benchmark} for customer service."
+      ],
+      "wrong": [
+        "A benchmark is a bench in front of the office."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "margin",
+      "pos": "noun",
+      "meaning": "The difference between the cost of something and the price it sells for.",
+      "examples": [
+        "The shop has a low {margin} on each sale."
+      ],
+      "wrong": [
+        "A margin is the blank space where you sign a contract."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "incentive",
+      "pos": "noun",
+      "meaning": "Something that encourages a person to act in a certain way.",
+      "examples": [
+        "The bonus is a strong {incentive} to finish early."
+      ],
+      "wrong": [
+        "An incentive is a punishment for finishing early."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "procurement",
+      "pos": "noun",
+      "meaning": "The process of finding and buying goods or services for an organization.",
+      "examples": [
+        "{Procurement} checks every supplier before a contract is signed."
+      ],
+      "wrong": [
+        "Procurement is the process of selling goods to customers."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "compliance",
+      "pos": "noun",
+      "meaning": "Following the rules, laws or standards that apply to you.",
+      "examples": [
+        "The audit checks the firm’s {compliance} with safety rules."
+      ],
+      "wrong": [
+        "Compliance means choosing to ignore the rules."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "scalable",
+      "pos": "adjective",
+      "meaning": "Able to grow bigger without a large increase in cost or effort.",
+      "examples": [
+        "The software is {scalable}, so it can serve a million users."
+      ],
+      "wrong": [
+        "A scalable plan only works for exactly one customer."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "leverage",
+      "pos": "verb",
+      "meaning": "To use something you have in order to get a better result.",
+      "examples": [
+        "We can {leverage} our reputation to win new clients."
+      ],
+      "wrong": [
+        "You leverage an advantage by throwing it away."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "pivot",
+      "pos": "verb",
+      "meaning": "To make a major change in the direction of a business or plan.",
+      "examples": [
+        "The start-up had to {pivot} when its first product failed."
+      ],
+      "wrong": [
+        "A company pivots by doing exactly the same thing forever."
+      ],
+      "cefr": "B2",
+      "register": "jargon"
+    },
+    {
+      "lemma": "startup",
+      "pos": "noun",
+      "meaning": "A new company, often in technology, that is just beginning to grow.",
+      "examples": [
+        "She left her job to launch a {startup}."
+      ],
+      "wrong": [
+        "A startup is a company that has existed for a hundred years."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "subscription",
+      "pos": "noun",
+      "meaning": "A regular payment that gives you access to a service or product.",
+      "examples": [
+        "I pay a monthly {subscription} for the news app."
+      ],
+      "wrong": [
+        "A subscription is a single payment that you can never cancel or repeat."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "retail",
+      "pos": "noun",
+      "meaning": "The selling of goods to the public, usually in shops or online.",
+      "examples": [
+        "She works in {retail} and serves customers all day."
+      ],
+      "wrong": [
+        "Retail means selling goods only to other companies in huge amounts."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "dividend",
+      "pos": "noun",
+      "meaning": "A share of a company’s profit paid to the people who own its shares.",
+      "examples": [
+        "The company paid a {dividend} to every shareholder."
+      ],
+      "wrong": [
+        "A dividend is a fee that a customer pays to join a company."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "cash flow",
+      "pos": "noun",
+      "meaning": "The movement of money into and out of a business.",
+      "examples": [
+        "Late payments caused a {cash flow} problem."
+      ],
+      "wrong": [
+        "Cash flow is the total number of workers a company employs."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "expenditure",
+      "pos": "noun",
+      "meaning": "The total amount of money that a person or organization spends.",
+      "examples": [
+        "Government {expenditure} rose again this year."
+      ],
+      "wrong": [
+        "Expenditure is the money that a company earns from sales."
+      ],
+      "cefr": "B2",
+      "register": "formal"
+    },
+    {
+      "lemma": "inflation",
+      "pos": "noun",
+      "meaning": "A general rise in prices over time.",
+      "examples": [
+        "{Inflation} made groceries more expensive."
+      ],
+      "wrong": [
+        "Inflation is a fall in the prices of all goods."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "recession",
+      "pos": "noun",
+      "meaning": "A period when a country’s economy shrinks and many people lose jobs.",
+      "examples": [
+        "Many shops closed during the {recession}."
+      ],
+      "wrong": [
+        "A recession is a period when every business grows quickly."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "tariff",
+      "pos": "noun",
+      "meaning": "A tax on goods that come into a country.",
+      "examples": [
+        "The {tariff} made imported cars more expensive."
+      ],
+      "wrong": [
+        "A tariff is a discount that a shop gives to a regular customer."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "franchise",
+      "pos": "noun",
+      "meaning": "A business that sells the right to use its name and methods.",
+      "examples": [
+        "She bought a {franchise} of a famous burger chain."
+      ],
+      "wrong": [
+        "A franchise is a business that has no name and no customers."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "shipment",
+      "pos": "noun",
+      "meaning": "A load of goods sent from one place to another.",
+      "examples": [
+        "The {shipment} arrived at the port on Monday."
+      ],
+      "wrong": [
+        "A shipment is a meeting where the managers vote."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "payroll",
+      "pos": "noun",
+      "meaning": "The list of employees and the money paid to them.",
+      "examples": [
+        "The company has fifty people on its {payroll}."
+      ],
+      "wrong": [
+        "Payroll is the money that customers pay to a company."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "brand",
+      "pos": "noun",
+      "meaning": "A name and image that make a product easy to recognize.",
+      "examples": [
+        "The {brand} is known for its simple design."
+      ],
+      "wrong": [
+        "A brand is a mistake in a company’s accounts."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    },
+    {
+      "lemma": "consumer",
+      "pos": "noun",
+      "meaning": "A person who buys goods or services for their own use.",
+      "examples": [
+        "Each {consumer} has a right to clear prices."
+      ],
+      "wrong": [
+        "A consumer is a company that makes and sells the goods."
+      ],
+      "cefr": "B2",
+      "register": "term"
+    }
+  ]
+}

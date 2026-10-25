@@ -16,27 +16,52 @@ struct LexiconActionProgress: Codable, Equatable {
 
 struct LexiconState: Codable, Equatable {
     static let defaultNewPerDay = 10
-    /// nil means the default: the first bank group only.
+    /// nil means the default: the first group of the learner's level (see `startLevel`).
     var activeGroupIDs: [String]? = nil
     var newPerDay = LexiconState.defaultNewPerDay
     var daily: LexiconDailyRecord?
     var shownDailyWordIDs: [String] = []
     var action: [String: LexiconActionProgress] = [:]
 
-    func activeGroups(in bank: LexiconBank) -> [LexiconGroup] {
+    /// The groups being trained. Until the learner chooses, it is the first group of `startLevel`
+    /// (the highest CEFR level they have unlocked), or the first group of the bank when that level has none.
+    func activeGroups(in bank: LexiconBank, startLevel: String = "A1") -> [LexiconGroup] {
         if let ids = activeGroupIDs { return bank.groups.filter { ids.contains($0.id) } }
-        return Array(bank.groups.prefix(1))
+        let levelGroups = bank.groups.filter { !$0.isField }
+        if let first = levelGroups.first(where: { $0.level == startLevel.uppercased() }) ?? levelGroups.first { return [first] }
+        return []
     }
 
-    func isActive(_ group: LexiconGroup, in bank: LexiconBank) -> Bool {
-        activeGroups(in: bank).contains { $0.id == group.id }
+    func isActive(_ group: LexiconGroup, in bank: LexiconBank, startLevel: String = "A1") -> Bool {
+        activeGroups(in: bank, startLevel: startLevel).contains { $0.id == group.id }
     }
 
-    mutating func setActive(_ group: LexiconGroup, _ active: Bool, in bank: LexiconBank) {
-        var ids = activeGroups(in: bank).map(\.id)
+    mutating func setActive(_ group: LexiconGroup, _ active: Bool, in bank: LexiconBank, startLevel: String = "A1") {
+        var ids = activeGroups(in: bank, startLevel: startLevel).map(\.id)
         ids.removeAll { $0 == group.id }
         if active { ids.append(group.id) }
         activeGroupIDs = bank.groups.map(\.id).filter(ids.contains)
+    }
+}
+
+// MARK: Suggested group
+
+enum LexiconSuggestion {
+    /// A group is finished when every one of its words has been started.
+    static func isFinished(_ group: LexiconGroup, stages: [String: LexiconStage]) -> Bool {
+        group.words.allSatisfy { (stages[$0.id] ?? .new) != .new }
+    }
+
+    /// The next group to start: the first group at or below `startLevel` that is not active and not finished,
+    /// offered once every active group is finished or none is active. Nil otherwise.
+    static func nextGroup(bank: LexiconBank, state: LexiconState, stages: [String: LexiconStage], startLevel: String) -> LexiconGroup? {
+        let ceiling = LevelGate.levels.firstIndex(of: startLevel.uppercased()) ?? 0
+        let active = state.activeGroups(in: bank, startLevel: startLevel)
+        guard active.allSatisfy({ isFinished($0, stages: stages) }) else { return nil }
+        return bank.groups.first { group in
+            !group.isField && (LevelGate.levels.firstIndex(of: group.level) ?? 0) <= ceiling
+                && !active.contains { $0.id == group.id } && !isFinished(group, stages: stages)
+        }
     }
 }
 
@@ -48,12 +73,17 @@ enum DailyLexicon {
         return String(format: "%04d-%02d-%02d", parts.year ?? 0, parts.month ?? 0, parts.day ?? 0)
     }
 
-    /// The word of the day. It stays the same all day. A new day takes the next bank word the learner has not rated Easy
+    /// The word of the day, never above `maxLevel`. It stays the same all day. A new day takes the next bank word the learner has not rated Easy
     /// and has not been shown yet; when every word has been shown the cycle starts again. Returns nil for an empty bank
     /// or when every word is Easy. Showing a word schedules nothing.
-    static func pick(bank: LexiconBank, state: LexiconState, stages: [String: LexiconStage], day: String) -> (word: LexiconWord, state: LexiconState)? {
+    static func pick(bank: LexiconBank, state: LexiconState, stages: [String: LexiconStage], day: String,
+                     maxLevel: String = "C2") -> (word: LexiconWord, state: LexiconState)? {
         if let record = state.daily, record.day == day, let word = bank.word(id: record.wordID) { return (word, state) }
-        let candidates = bank.words.filter { stages[$0.id] != .easy }
+        let ceiling = LevelGate.levels.firstIndex(of: maxLevel.uppercased()) ?? LevelGate.levels.count - 1
+        let activeFields = Set((state.activeGroupIDs ?? []).filter { bank.group(id: $0)?.isField == true })
+        let candidates = bank.groups.filter { !$0.isField || activeFields.contains($0.id) }.flatMap { group in
+            group.words.filter { stages[$0.id] != .easy && (group.isField || (LevelGate.levels.firstIndex(of: $0.cefr) ?? 0) <= ceiling) }
+        }
         guard !candidates.isEmpty else { return nil }
         var next = state
         var pool = candidates.filter { !state.shownDailyWordIDs.contains($0.id) }
@@ -78,12 +108,12 @@ enum LexiconTrainingPlan {
     /// New words to start today: the next words of the active groups, in bank order, that are not enrolled yet,
     /// up to the daily limit minus the Lexicon words already started today.
     static func newWords(bank: LexiconBank, state: LexiconState, enrollments: [VocabularyEnrollment],
-                         now: Date, calendar: Calendar = .current) -> [LexiconWord] {
+                         now: Date, calendar: Calendar = .current, startLevel: String = "A1") -> [LexiconWord] {
         let enrolled = Set(enrollments.map(\.itemId))
         let startedToday = enrollments.filter { $0.lessonID.hasPrefix("lexicon:") && calendar.isDate($0.enrolledAt, inSameDayAs: now) }.count
         let room = max(0, state.newPerDay - startedToday)
         guard room > 0 else { return [] }
-        let candidates = state.activeGroups(in: bank).flatMap(\.words).filter { !enrolled.contains($0.itemId) }
+        let candidates = state.activeGroups(in: bank, startLevel: startLevel).flatMap(\.words).filter { !enrolled.contains($0.itemId) }
         return Array(candidates.prefix(room))
     }
 }

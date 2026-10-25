@@ -48,13 +48,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each question word with what it asks for.",
-          "answer": "Who → a person or group | Where → a place | When → a time or date | Why → a reason",
+          "answer": "Who → a person or group | What → a thing or an event | Where → a place | When → a time or date | Why → a reason | How → the way it happened",
           "exercise": {
             "type": "match",
             "pairs": [
               [
                 "Who",
                 "a person or group"
+              ],
+              [
+                "What",
+                "a thing or an event"
               ],
               [
                 "Where",
@@ -67,6 +71,10 @@
               [
                 "Why",
                 "a reason"
+              ],
+              [
+                "How",
+                "the way it happened"
               ]
             ]
           }
@@ -133,17 +141,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Why did the fire start, according to officials?",
-          "answer": "They think an electrical problem caused it",
+          "answer": "Officials think an electrical problem caused it",
           "exercise": {
             "type": "choice",
             "options": [
-              "They think an electrical problem caused it",
+              "Officials think an electrical problem caused it",
               "A storm hit the store",
               "A car hit the building",
               "The cause is known for sure"
             ],
             "accepted": [
-              "They think an electrical problem caused it"
+              "Officials think an electrical problem caused it"
             ]
           }
         },
@@ -458,13 +466,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each question with the answer it usually gets.",
-          "answer": "Is the store open? → a short yes or no | Why did you open the store? → a longer answer with reasons | What happened on your first day? → a story",
+          "answer": "Is the store open? → a short yes-or-no answer | Why did you open the store? → a longer answer with reasons | What happened on your first day? → a story",
           "exercise": {
             "type": "match",
             "pairs": [
               [
                 "Is the store open?",
-                "a short yes or no"
+                "a short yes-or-no answer"
               ],
               [
                 "Why did you open the store?",
@@ -815,7 +823,7 @@
       "objectiveId": "JN-F-04",
       "trackId": "journalist",
       "unitId": "questions",
-      "tip": "A quote uses a person’s exact words inside quotation marks. Attribution says who said them: “said Maria Lopez.” Use “said” most of the time. Never change the words inside the quotation marks. If you change them, it is a paraphrase, not a quote.",
+      "tip": "A quote uses a person’s exact words inside quotation marks. Attribution says who said them: “said Maria Lopez”. Use “said” most of the time. Never change the words inside the quotation marks. If you change them, it is a paraphrase, not a quote.",
       "sources": [
         "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
         "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
@@ -1175,7 +1183,7 @@
               "A school bus caught fire near Pine Park on Tuesday morning.",
               "The bus was 12 years old.",
               "The driver called for help.",
-              "All 24 children got off safely."
+              "The bus route is number 14."
             ],
             "accepted": [
               "A school bus caught fire near Pine Park on Tuesday morning."
@@ -1555,13 +1563,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Put the steps in order.",
-          "answer": "Find the main news | Write a short headline | Write a lede with the key facts",
+          "answer": "Find the main news | Write a lede with the key facts | Write a short headline",
           "exercise": {
             "type": "order",
             "items": [
               "Find the main news",
-              "Write a short headline",
-              "Write a lede with the key facts"
+              "Write a lede with the key facts",
+              "Write a short headline"
             ]
           }
         },
@@ -1889,15 +1897,15 @@
           "id": "jn-summarize-03",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. The city council voted on Monday to build a new bike lane on Pine Street. The lane will cost 300,000 dollars. Supporters say it will make the street safer. Some shop owners worry that they will lose parking spaces. Which detail is a key fact for a short summary?",
+          "prompt": "Read this. The city council voted on Monday to build a new bike lane on Pine Street. The lane will cost 300,000 dollars. Supporters say it will make the street safer. Some shop owners worry that they will lose parking spaces. Which detail is the key fact for a one-sentence summary?",
           "answer": "The council voted to build a bike lane.",
           "exercise": {
             "type": "choice",
             "options": [
               "The council voted to build a bike lane.",
-              "The meeting began at six.",
-              "The room was warm.",
-              "A man wore a hat."
+              "The vote was on Monday.",
+              "The lane will be on Pine Street.",
+              "Some shop owners worry about parking."
             ],
             "accepted": [
               "The council voted to build a bike lane."
@@ -1908,7 +1916,7 @@
           "id": "jn-summarize-04",
           "kind": "grammar",
           "required": true,
-          "prompt": "A summary should be...",
+          "prompt": "A summary should be…",
           "answer": "much shorter than the original",
           "exercise": {
             "type": "choice",

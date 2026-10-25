@@ -25,9 +25,9 @@ Daily practice targets 20–25 minutes during work breaks on iPhone or iPad. Pub
 
 ## Navigation and daily journey
 
-Main navigation: Today, Learn, Vocabulary, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Phonetics, Articulation, Dictation, Voice; interview and business practice moved to Learn → Coaches.)
+Main navigation: Today, Lexicon, Lesson, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Phonetics, Articulation, Dictation, Voice; interview and business practice moved to Lesson → Coaches.)
 
-Today prioritizes an automatically proposed connected lesson plan based on path and due reviews, with optional detours and activity replacement. Show daily active-time/activity goals, due reviews, Word of the Day and achievements. Offer resume or start something else. Goals are separate; plan completion earns the daily reward without requiring the full time target. Quiet practice is selected each session, counts fully toward daily completion/streaks, and replaces unsuitable speaking/audio tasks.
+Today prioritizes an automatically proposed connected lesson plan based on path and due reviews, with optional detours and activity replacement. Show daily active-time/activity goals, due reviews, Daily Lexicon and achievements. Offer resume or start something else. Goals are separate; plan completion earns the daily reward without requiring the full time target. Quiet practice is selected each session, counts fully toward daily completion/streaks, and replaces unsuitable speaking/audio tasks.
 
 Connected lessons interleave objectives, concise explanations, examples, varied exercises and applied speaking/quiet practice. Exercise types include multiple choice, sentence building, missing-word typing, correction, listening/answering, reading aloud and open responses. Variation stays within reviewed objective/level and available capabilities; random selection does not replace curriculum design. Skip explanations, request examples, repeat, go back and leave/resume. Skipped core exercises remain unfinished with a comparable replacement offered. Immediate correction gives a brief explanation and retry before answer reveal; exact reveal threshold remains open. Difficulty increases ask first. The exact fallback after repeated mistakes (hint, simpler example or refresher) remains open; gentler coach tone is approved.
 

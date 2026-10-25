@@ -11,6 +11,7 @@ struct LexiconHome: View {
     @State private var actionCount = 0
     @State private var wordCount = 0
     @State private var loaded = false
+    @State private var startLevel = "A1"
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -56,18 +57,29 @@ struct LexiconHome: View {
     private var groupsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Groups").font(.title3.bold())
-            ForEach(bank.groups) { group in
-                KitCard {
-                    Toggle(isOn: binding(for: group)) {
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(group.title).font(.headline)
-                            Text("\(started(in: group)) of \(group.words.count) started · \(group.tagline)")
-                                .font(.subheadline).foregroundStyle(Kit.secondary)
-                        }
+            ForEach(bank.groups.filter { !$0.isField }) { group in groupCard(group) }
+            if bank.groups.contains(where: \.isField) {
+                Text("Field packs").font(.title3.bold()).padding(.top, 8)
+                ForEach(bank.groups.filter(\.isField)) { group in groupCard(group) }
+            }
+        }
+    }
+
+    private func groupCard(_ group: LexiconGroup) -> some View {
+        KitCard {
+            Toggle(isOn: binding(for: group)) {
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack(spacing: 8) {
+                        Text(group.title).font(.headline)
+                        Text(group.isField ? "Field" : group.level).font(.caption.weight(.semibold)).padding(.horizontal, 8).padding(.vertical, 2)
+                            .background(Kit.soft, in: Capsule())
+                        if suggested?.id == group.id { Text("Next").font(.caption.weight(.semibold)).foregroundStyle(Kit.accent) }
                     }
-                    .accessibilityIdentifier("lexicon.group.\(group.id)")
+                    Text("\(started(in: group)) of \(group.words.count) started · \(group.tagline)")
+                        .font(.subheadline).foregroundStyle(Kit.secondary)
                 }
             }
+            .accessibilityIdentifier("lexicon.group.\(group.id)")
         }
     }
 
@@ -89,13 +101,17 @@ struct LexiconHome: View {
         }
     }
 
+    private var suggested: LexiconGroup? {
+        LexiconSuggestion.nextGroup(bank: bank, state: state, stages: stages, startLevel: startLevel)
+    }
+
     private func started(in group: LexiconGroup) -> Int {
         group.words.filter { (stages[$0.id] ?? .new) != .new }.count
     }
 
     private func binding(for group: LexiconGroup) -> Binding<Bool> {
-        Binding(get: { state.isActive(group, in: bank) }, set: { active in
-            state.setActive(group, active, in: bank)
+        Binding(get: { state.isActive(group, in: bank, startLevel: startLevel) }, set: { active in
+            state.setActive(group, active, in: bank, startLevel: startLevel)
             try? storage.repository?.saveLexiconState(state)
             refresh()
         })
@@ -104,12 +120,13 @@ struct LexiconHome: View {
     private func refresh() {
         guard let repository = storage.repository else { return }
         let now = Date()
+        startLevel = storage.levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1"
         state = (try? repository.lexiconState()) ?? LexiconState()
         stages = (try? repository.lexiconStages(bank: bank)) ?? [:]
         let enrollments = (try? repository.vocabularyEnrollments()) ?? []
         wordCount = enrollments.count
         due = (try? repository.reviewQueue().due.count) ?? 0
-        newCount = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: enrollments, now: now).count
+        newCount = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: enrollments, now: now, startLevel: startLevel).count
         actionCount = LexiconActionBuilder.eligible(bank: bank, stages: stages, state: state, now: now).count
         loaded = true
     }

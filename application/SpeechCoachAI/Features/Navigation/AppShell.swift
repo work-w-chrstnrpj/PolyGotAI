@@ -304,28 +304,44 @@ struct SpeechLabContent: View {
         } else {
             HStack(spacing: 14) { CoachArtwork(name: "SpeakerWelcome").frame(width: 64, height: 68); heading }
         }
-        Button(action: openRecording) {
-            KitCard { KitContentRow(symbol: "mic", title: "Record an introduction", detail: "Record, replay, review", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.record")
         NavigationLink {
-            ConversationPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
+            SpeechLabDictationView(storage: storage)
         } label: {
-            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Conversation", detail: "Talk through a scenario", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.conversation")
+            KitCard { KitContentRow(symbol: "headphones", title: "Dictation", detail: "Listen and write", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.dictation")
+        NavigationLink {
+            SpeechLabPronunciationView(storage: storage)
+        } label: {
+            KitCard { KitContentRow(symbol: "character.phonetic", title: "Pronunciation", detail: "Sounds and clear speech", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.pronunciation")
+        NavigationLink {
+            SpeechLabVoiceView(storage: storage)
+        } label: {
+            KitCard { KitContentRow(symbol: "waveform.path", title: "Speaking", detail: "Pace, pauses and volume", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.speaking")
         NavigationLink {
             InterviewPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
         } label: {
             KitCard { KitContentRow(symbol: "person.2", title: "Interview", detail: "Answer common questions", showsChevron: true) }
         }.buttonStyle(.plain).accessibilityIdentifier("speech.interview")
         NavigationLink {
+            ConversationPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
+        } label: {
+            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Conversation", detail: "Talk through a scenario", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.conversation")
+        NavigationLink {
             CommunicationPracticeLauncher(storage: storage)
         } label: {
             KitCard { KitContentRow(symbol: "text.bubble", title: "Communication", detail: "Structure what you say", showsChevron: true) }
         }.buttonStyle(.plain).accessibilityIdentifier("speech.communication")
+        Button(action: openRecording) {
+            KitCard { KitContentRow(symbol: "mic", title: "Record an introduction", detail: "Record, replay, review", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.record")
         NavigationLink("Saved practice") {
             ScrollView { PracticeHistoryContent(storage: storage).padding(20) }.navigationTitle("Your practice")
         }
         .onAppear { if context == nil { context = PracticeSessionContext(defaults: storage.preferences) } }
+        SpeechLabInfoButton()
     }
     private var heading: some View {
         VStack(alignment: .leading, spacing: 8) {

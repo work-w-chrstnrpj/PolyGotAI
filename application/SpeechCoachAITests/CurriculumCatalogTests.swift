@@ -55,7 +55,7 @@ struct CurriculumCatalogTests {
         let install = CurriculumCatalogLoader().loadBundled()
         let ready = try #require(install.lessons.first { $0.id == "intro-01" })
         #expect(intro.contentVersion == "4")
-        #expect(manifest.lessons.filter { $0.level != "A1" }.allSatisfy { $0.contentVersion == "2" })
+        #expect(manifest.lessons.filter { $0.level != "A1" }.allSatisfy { $0.contentVersion == "3" })
         #expect(manifest.contentVersion == "3")
         let asset = try #require(manifest.assets.first { $0.id == "intro-01-listen-alex" })
         #expect(asset.relativePath == "intro-01-alex.wav")
@@ -309,7 +309,7 @@ struct A1CurriculumDeliveryTests {
     @Test func previewsKeepAllLevelsAndExactOldVersionsAvailable() throws {
         let catalog = install()
         #expect(catalog.lessons.count == 57)
-        #expect(catalog.archivedLessons.count == 26)
+        #expect(catalog.archivedLessons.count == 70)   // 13 A1 v2 + 13 A1 v3 + 44 A2-C2 v2
         for current in catalog.lessons(at: "A1") where current.id != "intro-01" {
             #expect(current.contentVersion == "4")
             let v3 = try #require(catalog.lesson(id: current.id, version: "3"))

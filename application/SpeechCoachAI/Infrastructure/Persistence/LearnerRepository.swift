@@ -1115,6 +1115,36 @@ final class LearnerRepository {
         try write(stored)
     }
 
+    // MARK: Speech Lab (v2) — optional JSON field, unchanged SwiftData schema
+
+    func speechLabState() throws -> SpeechLabState { try document().speechLab ?? SpeechLabState() }
+
+    func setSpeechLabStrictDictation(_ strict: Bool) throws {
+        var stored = try document()
+        var state = stored.speechLab ?? SpeechLabState()
+        state.strictDictation = strict; stored.speechLab = state
+        try write(stored)
+    }
+
+    func recordSpeechLabAttempt(_ attempt: SpeechLabAttempt) throws {
+        guard attempt.isValid else { throw LearnerStorageError.invalidContent }
+        if let recordingID = attempt.recordingID {
+            guard try self.attempt(recordingID).audio.state == .saved else { throw LearnerStorageError.invalidState }
+        }
+        var stored = try document()
+        var state = stored.speechLab ?? SpeechLabState()
+        state.record(attempt); stored.speechLab = state
+        try write(stored)
+    }
+
+    func removeSpeechLabAttempt(_ id: UUID) throws {
+        var stored = try document()
+        var state = stored.speechLab ?? SpeechLabState()
+        state.remove(id)
+        stored.speechLab = state
+        try write(stored)
+    }
+
     // MARK: Lexicon (v2)
 
     func lexiconState() throws -> LexiconState { try document().lexicon ?? LexiconState() }
@@ -1406,6 +1436,7 @@ final class LearnerRepository {
         var passedJumpTests: [String]? = nil
         /// v2: Lexicon groups, daily word and Lexicon in Action progress.
         var lexicon: LexiconState? = nil
+        var speechLab: SpeechLabState? = nil
 
         init(preferences: LearnerPreferences, lessonJourneys: [LessonJourney] = [],
              vocabularyEnrollments: [VocabularyEnrollment] = [], vocabularyExposures: [VocabularyExposure] = [],
@@ -1429,7 +1460,7 @@ final class LearnerRepository {
         }
 
         private enum CodingKeys: String, CodingKey {
-            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon
+            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon, speechLab
         }
 
         init(from decoder: Decoder) throws {
@@ -1455,6 +1486,7 @@ final class LearnerRepository {
             rewards = try container.decodeIfPresent(RewardLedger.self, forKey: .rewards)
             passedJumpTests = try container.decodeIfPresent([String].self, forKey: .passedJumpTests)
             lexicon = try container.decodeIfPresent(LexiconState.self, forKey: .lexicon)
+            speechLab = try container.decodeIfPresent(SpeechLabState.self, forKey: .speechLab)
         }
 
         func encode(to encoder: Encoder) throws {
@@ -1480,6 +1512,7 @@ final class LearnerRepository {
             try container.encodeIfPresent(rewards, forKey: .rewards)
             try container.encodeIfPresent(passedJumpTests, forKey: .passedJumpTests)
             try container.encodeIfPresent(lexicon, forKey: .lexicon)
+            try container.encodeIfPresent(speechLab, forKey: .speechLab)
         }
 
         func customLibrary() -> CustomVocabularyLibrary {

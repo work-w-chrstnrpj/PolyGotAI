@@ -1,6 +1,6 @@
 # American English Curriculum Outline: A1–C2
 
-> v2 (2026-10-25): this is the topic outline for the **CEFR course** in Learn. Lessons now use the auto-checked [exercise engine](../tdd/tdd.md#exercise-engine) and start with a coach tip. Specialist skills (debate, journalism, copywriting, …) live in the [coach tracks](coach-tracks.md), not here. Sections about v1 trainers, tickets and publication gates are history.
+> v2 (2026-10-25): this is the topic outline for the **CEFR course** in the Lesson tab. Lessons now use the auto-checked [exercise engine](../tdd/tdd.md#exercise-engine) and start with a coach tip. Specialist skills (debate, journalism, copywriting, …) live in the [coach tracks](coach-tracks.md), not here. Sections about v1 trainers, tickets and publication gates are history.
 
 ## Scope and interpretation
 

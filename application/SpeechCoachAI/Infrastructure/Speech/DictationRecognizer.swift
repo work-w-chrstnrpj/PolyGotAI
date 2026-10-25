@@ -11,6 +11,7 @@ final class DictationRecognizer {
     private(set) var state: State = .idle
     /// Everything recognized in the current session (replaced as recognition refines).
     private(set) var transcript = ""
+    private(set) var wordTimings: [SpeechLabWordTiming] = []
 
     private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private let engine = AVAudioEngine()
@@ -31,7 +32,7 @@ final class DictationRecognizer {
         guard !isListening else { return }
         guard await Self.authorized() else { state = .denied; return }
         guard let recognizer, recognizer.isAvailable, Self.isSupported else { state = .unavailable; return }
-        transcript = ""
+        transcript = ""; wordTimings = []
         let request = SFSpeechAudioBufferRecognitionRequest()
         request.requiresOnDeviceRecognition = true
         request.shouldReportPartialResults = true
@@ -60,8 +61,8 @@ final class DictationRecognizer {
         teardown()
     }
 
-    private func handle(text: String?, finished: Bool) {
-        if let text, state == .listening { transcript = text }
+    private func handle(text: SpeechLabTranscript?, finished: Bool) {
+        if let text, state == .listening { transcript = text.text; wordTimings = text.words }
         if finished { teardown() }
     }
 
@@ -97,10 +98,14 @@ final class DictationRecognizer {
 
     private nonisolated static func makeTask(
         recognizer: SFSpeechRecognizer, request: UncheckedRequest,
-        onResult: @escaping @Sendable (String?, Bool) -> Void
+        onResult: @escaping @Sendable (SpeechLabTranscript?, Bool) -> Void
     ) -> SFSpeechRecognitionTask {
         recognizer.recognitionTask(with: request.value) { result, error in
-            onResult(result?.bestTranscription.formattedString, result?.isFinal == true || error != nil)
+            let recognized = result.map { value in
+                SpeechLabTranscript(text: value.bestTranscription.formattedString,
+                    words: value.bestTranscription.segments.map { .init(word: $0.substring, start: $0.timestamp, duration: $0.duration) })
+            }
+            onResult(recognized, result?.isFinal == true || error != nil)
         }
     }
 }
