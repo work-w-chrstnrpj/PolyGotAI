@@ -153,3 +153,13 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **For others:** to reinstall: build with the command above, then `xcrun devicectl device install app --device 00008120-0014354C112B601E <path>/SpeechCoachAI.app` and `xcrun devicectl device process launch --device 00008120-0014354C112B601E com.personal.SpeechCoachAI`. Keep the iPad unlocked. The development profile expires 2026-10-28 (per the v1 deployment notes). Never delete the app or reset learner data to "fix" something.
 **Open items:** owner play-test of Phase 1 on the iPad; owner approval of Phase 1.
 **Docs/tracker updated:** `progress.md` session log.
+
+### LOG-0006 · 2026-10-25 11:21 · Claude · CHANGE
+**Phase:** — · **Status:** DONE
+**Summary:** At the owner's request, created the Git repository and pushed the project to **https://github.com/work-w-chrstnrpj/PolyGotAI** (branch `main`). The repo was empty and is **public**. Initial commit `a13b284` has 1,375 files (about 189 MB). Excluded via `.gitignore`: `application/.build/` (7.6 GB), the root `.build/`, the stray empty `Untitled/` folder (it contained its own `.git`), `.DS_Store`, Xcode user data.
+**Files:** `.gitignore` (added `/.build/`, `Untitled/`); `AGENTS.md` and `docs/development-plan/development-plan.md` (Git rules replaced: repo exists, commit/push only when the owner asks).
+**Verification:** checked before pushing: no files over 20 MB, no private keys, provisioning files, `.env` files or key-like strings; no real email addresses in files. `gh repo view` confirms `main` and the push time.
+**Not verified:** nothing built from a fresh clone.
+**For others:** files in the public repo contain the owner's Mac username in local paths (`/Users/chrixcrusher/...`, in docs and a few config files), the Apple team ID `LMHJKZ2N43`, and device and simulator UDIDs in docs and evidence. Treat the repo as public: never commit credentials, learner data, recordings or provider keys. Do not commit or push unless the owner asks. The vendored FSRS library (`application/Vendor/swift-fsrs`) is MIT-licensed, and the third-party skills under `.agents/skills/` keep their upstream licence files.
+**Open items:** owner may want to make the repo private, or scrub local paths and UDIDs.
+**Docs/tracker updated:** `AGENTS.md`, `development-plan.md`.

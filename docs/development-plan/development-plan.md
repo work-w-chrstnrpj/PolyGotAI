@@ -33,7 +33,7 @@ Only one phase is active at a time.
 - No two people edit the same file in the same phase. If a change is needed in the other lane's file, ask for it in the report or handoff.
 - `project.pbxproj`: Claude only, until the project uses folder-synchronized groups (Phase 0). After that, new files need no registration.
 - Builds don't share state. Codex uses `bash tools/native/verify.sh 7535AD2C-F655-4F05-8C36-FE5E0A614902` (iPhone 18 Pro, `application/.build/DerivedData`). Claude uses the iPhone 18 Pro Max simulator (`29BC0B67-0669-4B64-8691-5C1509075E6E`) with `-derivedDataPath application/.build/ClaudeDerivedData`.
-- No Git repository exists. Don't initialize one unless the owner asks. Back up a file before a risky rewrite (copy it to `application/.build/backup/`).
+- Git: the repo is `https://github.com/work-w-chrstnrpj/PolyGotAI` (public, branch `main`). Commit and push only when the owner asks. Back up a file before a risky rewrite (copy it to `application/.build/backup/`).
 - Handoffs stay under one page. Reports stay under one page. Evidence is the test summary plus 3–6 screenshots in `phases/phase-N/evidence/`.
 - No new ticket IDs. This file's status table is the tracker.
 

@@ -89,7 +89,7 @@ Update this map whenever the project structure changes.
 
 ## Git And PR Rules
 
-- There is no Git repository. Do not initialize one unless the owner asks.
+- The project is a Git repository: `https://github.com/work-w-chrstnrpj/PolyGotAI` (branch `main`, **public**). Commit only when the owner asks. Never commit secrets, keys, learner data, `application/.build/` or signing files. Push only when the owner asks; don't force-push or rewrite history.
 - Back up a file before a risky rewrite (copy it to `application/.build/backup/`).
 - Do not revert other people's changes unless explicitly asked.
 - Avoid destructive operations without explicit approval.
