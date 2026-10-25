@@ -1145,6 +1145,36 @@ final class LearnerRepository {
         try write(stored)
     }
 
+    // MARK: Online feedback results (Phase 6a)
+
+    func labFeedbackHistory(mode: LabFeedbackMode? = nil) throws -> [StoredLabFeedback] {
+        let all = try document().labFeedback ?? []
+        return mode.map { wanted in all.filter { $0.mode == wanted } } ?? all
+    }
+
+    func saveLabFeedback(_ record: StoredLabFeedback) throws {
+        guard record.isValid else { throw LearnerStorageError.invalidContent }
+        var stored = try document()
+        var list = stored.labFeedback ?? []
+        guard !list.contains(where: { $0.id == record.id }) else { return }
+        list.append(record)
+        if list.count > StoredLabFeedback.maximumCount { list.removeFirst(list.count - StoredLabFeedback.maximumCount) }
+        stored.labFeedback = list
+        try write(stored)
+    }
+
+    func removeLabFeedback(_ id: UUID) throws {
+        var stored = try document()
+        stored.labFeedback = (stored.labFeedback ?? []).filter { $0.id != id }
+        try write(stored)
+    }
+
+    func clearLabFeedback() throws {
+        var stored = try document()
+        stored.labFeedback = nil
+        try write(stored)
+    }
+
     // MARK: Lexicon (v2)
 
     func lexiconState() throws -> LexiconState { try document().lexicon ?? LexiconState() }
@@ -1437,6 +1467,8 @@ final class LearnerRepository {
         /// v2: Lexicon groups, daily word and Lexicon in Action progress.
         var lexicon: LexiconState? = nil
         var speechLab: SpeechLabState? = nil
+        /// v2 Phase 6a: saved online feedback results (newest last, capped).
+        var labFeedback: [StoredLabFeedback]? = nil
 
         init(preferences: LearnerPreferences, lessonJourneys: [LessonJourney] = [],
              vocabularyEnrollments: [VocabularyEnrollment] = [], vocabularyExposures: [VocabularyExposure] = [],
@@ -1460,7 +1492,7 @@ final class LearnerRepository {
         }
 
         private enum CodingKeys: String, CodingKey {
-            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon, speechLab
+            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon, speechLab, labFeedback
         }
 
         init(from decoder: Decoder) throws {
@@ -1487,6 +1519,7 @@ final class LearnerRepository {
             passedJumpTests = try container.decodeIfPresent([String].self, forKey: .passedJumpTests)
             lexicon = try container.decodeIfPresent(LexiconState.self, forKey: .lexicon)
             speechLab = try container.decodeIfPresent(SpeechLabState.self, forKey: .speechLab)
+            labFeedback = try container.decodeIfPresent([StoredLabFeedback].self, forKey: .labFeedback)
         }
 
         func encode(to encoder: Encoder) throws {
@@ -1513,6 +1546,7 @@ final class LearnerRepository {
             try container.encodeIfPresent(passedJumpTests, forKey: .passedJumpTests)
             try container.encodeIfPresent(lexicon, forKey: .lexicon)
             try container.encodeIfPresent(speechLab, forKey: .speechLab)
+            try container.encodeIfPresent(labFeedback, forKey: .labFeedback)
         }
 
         func customLibrary() -> CustomVocabularyLibrary {
