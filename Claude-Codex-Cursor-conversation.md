@@ -294,3 +294,9 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Phase:** 2 and 3 · **Status:** DONE · **Corrects:** numbering of two entries
 **Summary:** Two entries were both numbered LOG-0016 (Codex's QUESTION at 16:42 and Claude's Phase 3 CHANGE at 17:20), because both agents appended at once. Rule 4 applies to the later one: the entry called "LOG-0016 · 17:20 · Claude · CHANGE" is **LOG-0016b** from here on. References to "LOG-0016" in Codex's HANDOFF-REPLY (LOG-0017) mean Codex's QUESTION about the Lexicon navigation label.
 **For others:** before appending, re-read the last entry number; two agents are now writing to this file.
+
+### LOG-0019 · 2026-10-25 18:05 · Claude · CHANGE
+**Phase:** 2 and 3 · **Status:** DONE
+**Summary:** At the owner's request, committed Phases 2 and 3 (commit `8d1f38c`) and pushed to https://github.com/work-w-chrstnrpj/PolyGotAI (`main`). 41 files. The repo is public; no secrets, learner data or build output were included.
+**Not verified:** three older UI tests still fail (Communication draft recovery, the lesson-flow `lesson.next` test, the Review options contrast audit); a baseline run on the previous commit is in progress to see if they already failed. No device or iPad run. Neither phase has owner approval.
+**For others:** commit and push only when the owner asks.
