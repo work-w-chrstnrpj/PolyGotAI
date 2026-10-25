@@ -9,7 +9,7 @@ Each coach is a **track** in the Lesson tab: units, then lessons, then exercises
 - **Stages** (owner approved 2026-10-25): Foundation (≈ A2–B1), Intermediate (≈ B1–B2), Advanced (≈ C1–C2). Grammarian and Reading & Listening add a fourth, **Starter** stage (A1).
 - **Unit** = one skill (e.g. "Inverted pyramid"). 4–6 lessons.
 - **Lesson** = coach tip → 8–15 auto-checked exercises → one open "Your turn" task → finish.
-- **First delivery:** 2 units × 4 lessons per coach, then expand.
+- **Delivery:** first delivery 2 units × 4 lessons per coach (Foundation, or Starter for Grammarian and Reading & Listening); 2026-10-25 added Intermediate for all ten coaches and Foundation for Grammarian and Reading & Listening (176 coach lessons). Advanced was added the same day for all ten coaches, so every coach has three stages (Grammarian and Reading & Listening have four) and the packs hold 256 coach lessons. New stages are added with `tools/curriculum/stages/<coach>_<stage>.py`, which never rebuilds earlier stages.
 - Nothing is locked. Learners can open any unit. The level lock applies to the CEFR course only ([Course rules](product-specification.md#course-cefr-a1c2)); stages are a suggested order, never a gate.
 
 ## How coaches are presented (owner approved 2026-10-25)

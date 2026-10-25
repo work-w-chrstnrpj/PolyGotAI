@@ -25,4 +25,5 @@ Current direction: **v2** (since 2026-10-25). See [history-version.md](history-v
 | [Commands](commands/commands.md) | Build, test and validate |
 | [Deployment](deployment/deployment.md) | Current delivery and what's missing |
 | [Project structure](project-structure/project-structure.md) · [Diagrams](diagrams/README.md) · [AI guidelines](guidelines/ai-structure-guidelines.md) · [Getting started](getting-started.md) | Orientation |
+| [Reviews](reviews/) | OpenCode read-only proofreading and audit reports (2026-10-25) |
 | [History (v1)](history/v1/) | Archived tickets, milestones, evidence, old spec/TDD; reference only |

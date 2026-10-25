@@ -26,7 +26,7 @@ Settings (profile button): appearance, background, default coach, reminders, rew
 
 Every lesson, in the course or a coach track, follows the same pattern:
 
-1. **Coach tip.** 2–4 sentences that teach one idea, with an example.
+1. **Coach tip.** 2–6 sentences that teach one idea, with an example.
 2. **Exercises (8–15).** Auto-checked and quick: multiple choice, tap words to build a sentence, fill in the blank, match pairs, listen and type, speak the sentence.
 3. **Instant feedback** after each answer: ✅ correct, 🟡 almost (spelling or a small slip), ❌ not quite, followed by the correct answer and a one-line reason.
 4. **Your turn.** One open task (write or speak) using the lesson's skill. You review it yourself now, and an AI coach can review it online later.

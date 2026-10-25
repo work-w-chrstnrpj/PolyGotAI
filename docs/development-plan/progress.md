@@ -1,6 +1,6 @@
 # Progress tracker
 
-> The basis for every progress report. Updated by Claude at the end of each working session. Status values: ✅ done · 🔄 in progress · ⏳ planned · ⏸ blocked · ❌ dropped. Last updated: 2026-10-25.
+> The basis for every progress report. Updated by Claude at the end of each working session. Status values: ✅ done · 🔄 in progress · ⏳ planned · ⏸ blocked · ❌ dropped. Last updated: 2026-10-25 (round 3 split).
 
 ## Overall
 
@@ -8,18 +8,60 @@
 | --- | --- | --- | --- |
 | 0 | Declutter + setup | ✅ done: Today, Learn, Speech Lab and lesson screens decluttered; iPad navigation; tab order; one-line taglines | Not yet |
 | 1 | Exercise engine + dictation button | ✅ done on iPad simulator; owner to play an A1 lesson and test dictation on a device | Not yet |
-| 2 | Lesson restructure (Course + 10 coaches, level lock) | 🔄 built by Claude (API, content) and Codex (screens); Claude verifying ([phase 2](phases/phase-2/README.md)) | Not yet |
+| 2 | Lesson restructure (Course + 10 coaches, level lock) | ✅ built and verified: Course | Coaches tabs, any-level lock with perfect-score tests for A2–C2 (390 unit tests; Phase 2 UI tests pass); owner to play-test ([phase 2](phases/phase-2/README.md)) | Not yet |
 | 3 | Lexicon (Daily Lexicon, Daily Training, Lexicon in Action) | ✅ built and tested ([phase 3](phases/phase-3/README.md)); try it on your device | Not yet |
-| 4 | Coach content (10 tracks) + A2–C2 fixes | 🔄 Claude writes all of it: **all 10 coaches written** (first delivery: 2 units × 4 lessons each, 80 lessons); A2–C2 conversion and its jump tests to go; OpenCode proofread of batches 2–4 pending | — |
+| 4 | Coach content (10 tracks) + A2–C2 conversion | ✅ all 10 coaches (80 lessons) and all 44 A2–C2 lessons written and proofread once by OpenCode; round-2 fixes to the A2–C2 lessons and True/False balance are next (see Round 3) | — |
 | 5 | Lab on-device base: Dictation, Pronunciation (Phonetics + Articulation), Speaking (was Voice) | ✅ built by Codex, finished and merged by Claude after Codex's usage limit; 377 unit tests and 8 Speech Lab UI tests pass on iPhone 18 Pro Max; real-device audio and recognition not yet tried ([brief](phases/phase-5/README.md)) | Not yet |
-| 5b | Interview v2 (offline hands-free voice) | ⏳ after Phase 5 | — |
-| 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | ⏳ later; research gate done 2026-10-25 (decision 9 findings), owner to confirm | — |
+| 5b | Interview v2 (offline hands-free voice) | 🔄 core done 2026-10-25 (turn-taking rules, 39-question bank in three sets, follow-up rule, session and summary; 14 unit tests); Interview screen is Codex's X5 | — |
+| 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | 🔄 cores built and tested with a fake transport (2026-10-26): 6a transcription, feedback, stored results, owner-local switch-on; 6b per-mode requests, rubrics, history; 6c AI follow-ups for the Interview; 6d coach review and generated vocabulary with saving. Screens are Codex's X3 and X5. Stays off until the owner installs the verification file and runs the live check. Decision 9 still awaits the owner | — |
+
+## Round 3 — who does what (2026-10-25)
+
+State: commit `f4b5abc`. 390 unit tests pass. The last full UI run had 6 failures of 48; since then 3 were repaired and 3 old v1 lesson-player tests skip (so a clean full run is expected but not yet confirmed). OpenCode has filed six reports in `docs/reviews/`. Codex is back. Nothing is pushed.
+
+| Lane | Jobs, in order |
+| --- | --- |
+| **Claude** (core, content, docs) | R3-C1 ✅ apply the A2–C2 lesson proofread: rebalance True/False (43 of 44 keys are False), American words (film, flat, holiday, bill), apostrophes, untypeable "…" templates, `b1-technology-read`, truncated options. R3-C2 ✅ apply the Lexicon proofread (American English, field-pack items, register of layover/jet lag, `franchise`, `server`) and the docs-versus-code mismatches. R3-C3 ✅ Phase 5b core: turn-taking rules, question bank, session model, tests (no screens). R3-C4 ✅ Phase 6a core with a fake transport (built on the user's go-ahead; nothing is enabled). R3-C5 review Codex's work and keep this tracker current |
+| **Codex** (screens, UI tests) | See [Codex handoff, round 3](phases/round-3/codex-handoff.md): X1 rewrite the three skipped UI tests for the exercise player; X2 coach lesson intro screen (Teacher plus "Communication practice" chip) and polish; X3 iPad Lexicon navigation label under large Dynamic Type; X4 saved communication practice linked to archived lesson versions stays reachable; X5 Phase 5b Interview screen after Claude's R3-C3 lands |
+| **OpenCode** (read-only reports) | Round 3 in [opencode-handoff.md](opencode-handoff.md): Job 6 proofread the 13 A1 lessons; Job 7 proofread the Speech Lab content (`Resources/SpeechLab`); Job 8 give-away audit across tracks and course (longest-option bias, prompt-word matches, True/False balance); Job 9 re-check that the earlier findings are fixed |
+
+Rules for this round: Claude owns `tools/curriculum/`, `Resources/`, `Domain/`, `Infrastructure/`, docs and the Xcode project; Codex owns `Features/` views and `SpeechCoachAIUITests/`; `AppShell.swift` only by region and only with a note in the log. One `xcodebuild` per simulator at a time. Each agent logs every change set.
+
+## Completion audit — are all planned phases done? (2026-10-25)
+
+Checked against the plan, the code and the tests. "Built" means it exists and its tests pass; a phase is only **complete** when its open items are closed and the owner has approved it ([phase gates](development-plan.md#phase-gates-what-done-means-for-every-phase)).
+
+| Phase | Built | Open items before it counts as complete |
+| --- | --- | --- |
+| 0 Declutter | ✅ | Owner approval; device check of the iPad layout |
+| 1 Exercise engine, dictation | ✅ built (mic buttons added, Codex LOG-0048) | (a) `intro-01` "Introduce yourself" stays a guided-production lesson on purpose (its own checks, baseline and self-review); it now has a coach tip. The 12 topic lessons are the typed A1 set. (b) The microphone button is missing on about eight free-text fields: Progress note, online review text, resource notes and title, vocabulary discovery fields, custom topic name, subtopic, word and meaning. (c) Dictation on the owner's device (in test now) |
+| 2 Lessons and level lock | ✅ | Owner approval. Level tests exist for A2–C2; the first full pass of all five tests on a device is untried |
+| 3 Lexicon, modes 1–3 | ✅ | Owner approval. Mode 4 (Specialized Lexicon) belongs to 6d |
+| 4 Coach content | ✅ written (needs OpenCode proofread and owner approval) | (a) Every coach now has Foundation and Intermediate (2 units × 4 lessons each); Grammarian and Reading & Listening also have Starter and a new Foundation, so the packs hold 176 lessons in all; the **Advanced stage (C1–C2) is now written for every coach** (256 coach lessons in all). (b) Placeholder art for the new coaches and per-track progress (Codex lane). (c) OpenCode's give-away audit findings are not yet acted on. (d) No phase brief exists for Phase 4 |
+| 5 Lab base | ✅ | Evidence folder empty; recognition on a device (owner testing); iPad check |
+| 5b Interview v2 | 🔄 core and screen built (Codex LOG-0045) | Claude's review of the screen, then device test. Hands-free sessions are not stored (summary is shown, nothing saved) |
+| 6a AI foundation | 🔄 partial | Built: client with fake transport, consent line, strict reply checks. Missing: Settings key and workspace test flow wired to it, cost-and-privacy sheet, "AI feedback" button and result card, the recording → transcript step, the bundled verification file that switches it on, one approved live check |
+| 6b AI across the Lab | ⏳ not started | Per-mode prompts and rubrics, result cards, history |
+| 6c Voice Interview online | ⏳ not started | Qwen speech loop, AI follow-ups, screen |
+| 6d Other online AI | ⏳ not started | Coach "Your turn" review, Specialized Lexicon generation |
+
+Gates still open for every phase: a clean full `verify.sh` run on the current tree (last full UI run was before Round 3), the iPad pass, and owner approval. No phase has been formally approved yet.
+
+## Round 4 — close-out (2026-10-25)
+
+Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [codex-handoff.md](phases/round-4/codex-handoff.md). OpenCode jobs 10–14: [opencode-handoff.md](opencode-handoff.md). Round 3 is implemented (LOG-0045).
+
+| Lane | Wave A (now) | Wave B |
+| --- | --- | --- |
+| **Claude** | R4-C1 ✅ `intro-01` tip (stays guided); R4-C2 ✅ Intermediate stage for 10 coaches (and Foundation for Grammarian and Reading & Listening); R4-C3 ✅ review Round 3 and update specs; R4-C4 ✅ 6a core (recording → transcript → feedback, stored results, owner-local switch-on) | R4-C2 ✅ Advanced stage (80 lessons); R4-C5 ✅ cores for 6b prompts, rubrics and history, 6c AI follow-ups, 6d coach review and Specialized Lexicon (screens are R4-X5) |
+| **Codex** | R4-X1 ✅ mic buttons on remaining fields (LOG-0048); R4-X2 coach placeholders, per-track progress, three-stage coach screen; R4-X3 online feedback screens (hidden until enabled) | R4-X4 full verify, iPad, Dark Mode, VoiceOver, evidence; R4-X5 6b–6d screens |
+| **OpenCode** | Job 10 proofread new content as it lands; Job 11 UI copy audit | Job 12 tracker check; Job 13 test gaps; Job 14 repeat audits |
 
 ## Blockers and decisions
 
 | Item | Status |
 | --- | --- |
-| Codex has no usage right now | ⏸ Claude has done the Codex-lane work for Phases 0 and 1. Phases 2–5 screens will wait for Codex or be done by Claude |
+| Codex is available again (2026-10-25) | Round 3 split below; Codex works on the iPhone 18 Pro simulator, Claude on the 18 Pro Max |
 | Dictation can't be checked on the simulator | The permission prompt and recognition don't show there. Please try the mic button on your iPhone or iPad and tell me what happens |
 | One UI test fails on the iPhone 18 Pro Max simulator | `testA1PreviewResumesV2AndExplicitlyStartsV3`: the recording stop button never appears, so it looks like a microphone/simulator issue. Not yet confirmed on iPhone 18 Pro, where these tests passed before |
 | Open decisions (coach levels, on-device speech, new characters, rewards on Today) | Recommendations in the [development plan](development-plan.md#open-decisions); owner has not yet answered |
@@ -71,7 +113,7 @@
 | 2.6 | Locked level picker (lock icon, "Take the A2 test") and jump-test screen; UI test that C2 cannot be opened from A1 | Codex | ✅ built; failed test + retry + relaunch lock verified; perfect-pass path unit-tested only |
 | 2.7 | **Level-lock change (owner, 2026-10-25):** any locked level can be unlocked by its test, even C2 from A1. `LevelGate.canTakeJumpTest(to:)` true for every locked level that has a test; `JumpTest` draws from the target level and the levels below; a pass opens that level and all below; tests per level; unit tests | Claude | ✅ 377 unit tests (20 level-gate tests on synthetic content) |
 | 2.8 | Locked level picker shows "Take the X test" on every locked level; UI test: C2 reachable by test from a fresh learner | Codex | ✅ already generic: the picker shows the test button for any locked level that has a test; the UI test for C2 from A1 follows the A2–C2 conversion |
-| 2.9 | Test content: each level's test becomes available when its typed exercises exist (A1 now; A2–C2 with the Phase 4 conversion) | Claude | ⏳ with Phase 4 |
+| 2.9 | Test content: each level's test becomes available when its typed exercises exist (A1 now; A2–C2 with the Phase 4 conversion) | Claude | ✅ 2026-10-25 (every locked level has a test) |
 
 ## Phase 3 — Lexicon
 
@@ -110,8 +152,8 @@
 | Business & Professional | 2 / 2 | ✅ Foundation stage: 8 lessons, 116 activities (`build_business.py`); OpenCode proofread fixes applied 2026-10-25 |
 | Storytelling | 2 / 2 | ✅ Foundation stage: 8 lessons, 112 activities (`build_storyteller.py`); OpenCode proofread fixes applied 2026-10-25 |
 | Advertising & Copywriting | 2 / 2 | ✅ Foundation stage: 8 lessons, 113 activities (`build_copywriter.py`); OpenCode proofread fixes applied 2026-10-25 |
-| CEFR course A2–C2 fixes and typed exercises | 0 / 43 lessons | ⏳ |
-| Jump tests A2 → B1, B1 → B2, B2 → C1, C1 → C2 (one per converted level) | 0 / 4 | ⏳ |
+| CEFR course A2–C2 fixes and typed exercises | 44 / 44 lessons (content v3) | ✅ |
+| Level tests for A2, B1, B2, C1, C2 (any locked level, perfect score) | 5 / 5 | ✅ |
 
 ## Phase 5 — Speech Lab additions
 

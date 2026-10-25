@@ -1,6 +1,6 @@
 # UI Screen and State Inventory
 
-> v2 (2026-10-25): visual state reference. Speech Lab families for conversation, interview and communication now belong to Lesson → Coaches; new Speech Lab screens (Phonetics, Articulation, Dictation, Voice) reuse existing card, list, recorder and feedback patterns.
+> v2 (2026-10-25): visual state reference. Speech Lab keeps conversation, interview and communication; the new sound-and-voice screens (Dictation, Pronunciation with Phonetics and Articulation, Speaking) reuse existing card, list, recorder and feedback patterns.
 
 > Current readiness and remaining-choice authority: [consolidated readiness review](../history/v1/development-plan/readiness-review.md). Dated earlier pending statements are historical where superseded by recorded approvals; they are not additional start gates.
 > Status: IN_PROGRESS — updated 2026-10-17. The 70 families track behavior and QA; prior dedicated Page 2 drafts are removed. Shared Page 1 pattern references are current in the JSON inventory. Full state/prototype coverage, visual refinement, open decisions and runtime acceptance remain incomplete. No application code or new implementation ticket.
@@ -59,7 +59,7 @@ Interview trace: `R1-Q03`, `R2-Q05`, `R2-Q06`, `R3-Q07`, `R3-Q08`, `R3-Q12`, `R4
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **LR-01 · Level, units and lessons** | Lesson → unlocked levels and level tests → illustrated unit header → structured lesson list. | Available, unstarted, partial, completed, content absent/outdated, Coming later; public launch still requires complete path. | SEEN: Learn · Open levels |
+| **LR-01 · Level, units and lessons** | Lesson → unlocked levels and level tests → illustrated unit header → structured lesson list. | Available, unstarted, partial, completed, content absent/outdated, Coming later; public launch still requires complete path. | SEEN: Lesson · Open levels |
 | **LR-02 · Skip-ahead confirmation** | Later lesson selected → explain suggested order → continue or cancel. | No prerequisite lock, cancel preserves location; avoid repeated confirmation policy until decided. | GAP |
 | **LR-03 · Lesson objective and explanation** | Open lesson → objective/examples → Skip/Continue/Another example/back. | First/revisit, example audio unavailable, offline, long content, related vocabulary, original versus validated AI variant. | SEEN: Lesson · Explanation |
 | **LR-04 · Lesson continuation and completion** | Core steps → application/self-review → completion → retry/next/Today. | Skipped core replacement, partial, offline completed, AI optional, resume position, distinct completion versus mastery; exact core criteria OPEN. | GAP |
@@ -102,7 +102,7 @@ Interview trace: `R4-Q07`, `R4-Q08`, `R4-Q09`, `R4-Q10`, `R4-Q11`, `R4-Q12`, `R5
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **SP-01 · Mode hub** | Speech Lab tab → AI conversation (free/scenario), interview, everyday/pronunciation/business/spontaneous/communication/articulation setup; honest text/recorded/live availability. | No recent attempts, suggestions, offline, unsupported capabilities clearly explained. | SEEN: Speech Lab · Modes; full mode coverage needs review |
+| **SP-01 · Mode hub** | Speech Lab tab → Dictation, Pronunciation, Speaking, Interview, Conversation, Communication, Record an introduction, Saved practice. (v1 mode list superseded by [speech-lab.md](speech-lab.md).) | No recent attempts, suggestions, offline, unsupported capabilities clearly explained. | SEEN: Speech Lab · Modes; full mode coverage needs review |
 | **SP-02 · Everyday, spontaneous and presentation setup** | Mode → level/purpose/topic/prompt and optional scaffold → record. | Reviewed/fresh prompt, sample hidden, optional talking points/countdown, retry comparable prompt; duration cap OPEN. | PARTIAL: shared recording prompt, dedicated setup absent |
 | **SP-03 · Interview and business setup** | Select role/audience/scenario/focus → objective-linked prompt → recording. | Software-engineering default from product, configurable role, optional technical coaching, factual sample stories, no employer achievements invented. | GAP |
 | **SP-04 · Pronunciation and articulation setup** | Choose sound/reference or expression/word-retrieval focus → reviewed example → shared practice. | Target/reference, speed/repetitions/scaffold, reference missing, acoustic assessment unavailable, quiet fallback; no clinical claims. | GAP |

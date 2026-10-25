@@ -72,3 +72,51 @@ Compare these claims with the source files and list every mismatch with file, li
 - `docs/product-specification/product-specification.md` course rules (level lock, tests, question counts) against `Domain/LevelGate.swift` and `Domain/JumpTest.swift`.
 
 Output: `docs/reviews/opencode-doc-code-check-<date>.md`.
+
+---
+
+## Round 3 (2026-10-25) — four more report-only jobs
+
+Same rules as above. Run `python3 tools/curriculum/validate.py` first and paste its last line at the top of each report. Do the jobs in order; stop and say where you stopped if you run out of budget.
+
+## Job 6 — Proofread the 13 A1 lessons
+
+Files: `application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json`, lessons with `level` "A1" and `contentVersion` "4" (`a1-*` and `intro-01`). Same checks as Job 4 (including: two defensible answers, answers findable by matching one word, accepted lists missing common variants, tips that teach something the exercises do not use, American spelling, apostrophe style). Output: `docs/reviews/opencode-course-a1-<date>.md`.
+
+## Job 7 — Proofread the Speech Lab content
+
+Files: `application/SpeechCoachAI/Resources/SpeechLab/speechlab-*.json` (dictation sentences, minimal pairs, tongue twisters, passages, sound chart). Check: typos and American spelling; minimal pairs that are not actually a minimal pair; IPA that does not match the example words; example words that do not contain the sound; tongue twisters with grammar errors; dictation sentences whose numbers, dates or names are ambiguous when spoken aloud; passages whose length does not match the stated level. Output: `docs/reviews/opencode-speechlab-<date>.md`.
+
+## Job 8 — Give-away audit across all lessons
+
+Files: `Resources/Tracks/track-*.json` and the A1–C2 lessons in `CurriculumCatalog.json`. Report counts and the worst offenders (id list) for each pattern: (1) the correct option is the longest of the options; (2) the correct option is the only one that shares a content word with the prompt or audio text; (3) True/False key balance per track and per level; (4) two options that differ only in capitalization or punctuation; (5) `fillBlank` items where `accepted` has exactly one entry and the answer is a function word. This is a data report: do not suggest rewrites except for the ten worst items per pattern. Output: `docs/reviews/opencode-giveaway-audit-<date>.md`.
+
+## Job 9 — Regression check of the earlier findings
+
+Re-read `docs/reviews/opencode-proofread-batches2-4-2026-10-25.md` and, for each row, check the current file text: write FIXED, STILL OPEN or CHANGED (with the current text) per row. Do the same for `opencode-docs-sweep-2026-10-25.md`. Claude applied most of the first and all of the second on 2026-10-25 (LOG-0037). Output: `docs/reviews/opencode-regression-<date>.md`.
+
+---
+
+## Round 4 (2026-10-25) — validation jobs while the close-out runs
+
+Same rules as above (report files only under `docs/reviews/`, American spelling, small batches, exact quotes, say where you stopped). Run `python3 tools/curriculum/validate.py` first and paste its last line.
+
+## Job 10 — Proofread new content as it lands (rolling)
+
+Claude adds `intro-01` (typed), then Intermediate and Advanced stages to the ten `Resources/Tracks/track-*.json` files, two coaches at a time (the log says which). For each batch Claude names, run the Job 1 checks plus: two defensible answers, answers findable by one matching word, `accepted` lists missing obvious variants, tips that teach something the exercises do not use, and stage fit (Intermediate about B1–B2, Advanced about C1–C2: flag lessons that read too easy or too hard). One report per batch: `docs/reviews/opencode-stages-<coaches>-<date>.md`. Also proofread `intro-01` in `CurriculumCatalog.json` once.
+
+## Job 11 — UI copy audit
+
+Read `application/SpeechCoachAI/Features/**/*.swift` (strings only; do not edit). List: any visible text that says something is unavailable, not scored, not assessed, coming later or explains what the app cannot do; button labels longer than three words; more than one helper line under a title; inconsistent names for the same thing (Lesson/Learn, Lexicon/Vocabulary, Speaking/Voice, Pronunciation/Phonetics); error messages longer than one sentence. Output: `docs/reviews/opencode-ui-copy-<date>.md` with file, line, text, suggested fix.
+
+## Job 12 — Check the tracker against the code
+
+Open `docs/development-plan/progress.md` and `development-plan.md`. For each row marked done, find the file or test that proves it and list rows whose claim you cannot confirm, with what is missing. Output: `docs/reviews/opencode-tracker-check-<date>.md`.
+
+## Job 13 — Test-gap list
+
+For each type in `application/SpeechCoachAI/Domain/` list whether a test in `application/SpeechCoachAITests/` exercises it (name the test file), and list public functions with no test. Do not write tests. Output: `docs/reviews/opencode-test-gaps-<date>.md`, sorted by risk (answer checking, level gate, scoring, rewards, persistence first).
+
+## Job 14 — Repeat the give-away audit and doc-code check after wave B
+
+Run Jobs 8 and 5 again on the new content and docs once Claude logs "wave B content done". Outputs: `opencode-giveaway-audit-2-<date>.md`, `opencode-doc-code-check-2-<date>.md`.

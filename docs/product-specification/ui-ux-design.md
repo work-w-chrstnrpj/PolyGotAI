@@ -4,7 +4,7 @@
 
 ## v2 overrides — 2026-10-25
 
-- **Navigation, in this order:** Today | Lexicon | Lesson | Speech Lab | Progress. Profile opens Settings. Lesson = Course + Coaches. Lexicon = the former Vocabulary tab ([lexicon.md](lexicon.md)). Speech Lab keeps Conversation, Interview and Communication and adds Phonetics, Articulation, Dictation and Voice. iPad: bottom tab bar in portrait, sidebar in landscape.
+- **Navigation, in this order:** Today | Lexicon | Lesson | Speech Lab | Progress. Profile opens Settings. Lesson = Course + Coaches. Lexicon = the former Vocabulary tab ([lexicon.md](lexicon.md)). Speech Lab keeps Conversation, Interview and Communication and adds Dictation, Pronunciation (Phonetics and Articulation) and Speaking. iPad: bottom tab bar in portrait, sidebar in landscape.
 - **Taglines are one line.** Never wrap a tagline over two lines.
 - **Typing fields have a microphone button** for on-device speech-to-text.
 - **Today:** one continue card, words due, streak and XP. No preference forms, alternatives lists or placeholder rows.
@@ -25,13 +25,13 @@ Daily practice targets 20–25 minutes during work breaks on iPhone or iPad. Pub
 
 ## Navigation and daily journey
 
-Main navigation: Today, Lexicon, Lesson, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Phonetics, Articulation, Dictation, Voice; interview and business practice moved to Lesson → Coaches.)
+Main navigation: Today, Lexicon, Lesson, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Dictation · Pronunciation (Phonetics and Articulation together) · Speaking · Interview · Conversation · Communication.)
 
 Today prioritizes an automatically proposed connected lesson plan based on path and due reviews, with optional detours and activity replacement. Show daily active-time/activity goals, due reviews, Daily Lexicon and achievements. Offer resume or start something else. Goals are separate; plan completion earns the daily reward without requiring the full time target. Quiet practice is selected each session, counts fully toward daily completion/streaks, and replaces unsuitable speaking/audio tasks.
 
 Connected lessons interleave objectives, concise explanations, examples, varied exercises and applied speaking/quiet practice. Exercise types include multiple choice, sentence building, missing-word typing, correction, listening/answering, reading aloud and open responses. Variation stays within reviewed objective/level and available capabilities; random selection does not replace curriculum design. Skip explanations, request examples, repeat, go back and leave/resume. Skipped core exercises remain unfinished with a comparable replacement offered. Immediate correction gives a brief explanation and retry before answer reveal; exact reveal threshold remains open. Difficulty increases ask first. The exact fallback after repeated mistakes (hint, simpler example or refresher) remains open; gentler coach tone is approved.
 
-**v2 override (2026-10-25):** levels are locked in order; the level picker shows a lock on levels not yet unlocked, with a "Take the C1 test" action on **every** locked level (not only the next one; perfect score required; see the [Course rules](product-specification.md#course-cefr-a1c2)). Lessons inside an unlocked level are still open in any order. (Unreleased content is hidden, not labeled.) Path presentation: illustrated unit headers and structured lessons inside.
+**v2 override (2026-10-25):** levels are locked in order; the level picker shows a lock on levels not yet unlocked, with a "Take the A2 test"-style action (the level's own name) on **every** locked level (not only the next one; perfect score required; see the [Course rules](product-specification.md#course-cefr-a1c2)). Lessons inside an unlocked level are still open in any order. (Unreleased content is hidden, not labeled.) Path presentation: illustrated unit headers and structured lessons inside.
 
 ## Onboarding and coaches
 

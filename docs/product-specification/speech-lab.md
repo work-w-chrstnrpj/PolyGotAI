@@ -48,6 +48,14 @@ The first group already exists on the Speech Lab screen. The second group is bui
 - **Warm-ups:** breathing, humming and lip trills as short guided cards (text plus timer).
 - **Practice passages:** short American English passages to read aloud, graded by level.
 
+## Interview, hands-free (Phase 5b, built 2026-10-25)
+
+The Interview entry opens a spoken, offline conversation. The learner picks a question set (Get to know you, Job interview, Study interview) and a level, then taps Start. The phone asks each question aloud, listens, and ends a turn when the learner stops speaking for about two seconds (or after 90 seconds); if nothing is said it says "Take your time" twice and then offers Repeat or Skip. A core question gets one fixed follow-up chosen by answer length; the opening and closing questions get none. The screen shows an orb (tap to pause or resume), the question, "We heard" with the live caption, and Repeat, Skip and Done. The summary counts answers, skipped questions, pace in words a minute, the longest answer and filler words; it never scores. Sessions are not stored; the earlier typed practice stays under "Written practice". Questions come from `Resources/SpeechLab/speechlab-interview.json` (39 questions, no AI); the rules are in `Domain/HandsFreeInterview.swift`.
+
+## AI follow-up questions for the Interview (Phase 6c core, 2026-10-26)
+
+When online feedback is on, each answer to a core question may get an AI-written follow-up instead of the scripted one: one short question about a detail in the answer. It is checked (one sentence, up to 25 words, ends with a question mark, shares a word with the answer) and replaced by the scripted follow-up if it is slow (6 seconds), fails or is rejected. The learner agreed once, before the interview, to the line that says what is sent.
+
 ## AI evaluation (Phase 6, owner direction 2026-10-25)
 
 With the learner's Alibaba/Qwen key, every speaking activity gets AI feedback: **Pronunciation** (sounds, words, stress), **Speaking** (free talk), **Interview**, **Conversation** and **Communication**. **Dictation** is checked by the app and needs no AI. The learner taps one "AI feedback" button; the recording and transcript are sent only then, after a cost and privacy line. The result is labelled as AI feedback, not a score or a certificate. Without a key the button is hidden and the on-device "We heard" and pace tools keep working. Pronunciation feedback from a transcript alone is weak, so it depends on a Qwen model that accepts audio (to be confirmed in the research gate).

@@ -6,7 +6,7 @@
 
 ## Purpose and entry paths
 
-Teach how English works, from word types to connected sentences, and connect each concept to useful communication. English Foundations lives within the Lesson tab, accessible through focused grammar practice and contextual links from CEFR lessons and feedback. It is not a separate navigation tab, mandatory placement course or prerequisite lock. Learners can skip familiar explanations, revisit a foundation and return to their current lesson; levels unlock in order (see the course rules in the product specification), and inside an unlocked level learners remain free. Planned foundations stay visibly unavailable until reviewed content/assets exist.
+Teach how English works, from word types to connected sentences, and connect each concept to useful communication. English Foundations lives within the Lesson tab, accessible through focused grammar practice and contextual links from CEFR lessons and feedback. It is not a separate navigation tab, mandatory placement course or prerequisite lock. Learners can skip familiar explanations, revisit a foundation and return to their current lesson; levels unlock in order (see the course rules in the product specification), and inside an unlocked level learners remain free to open any lesson in any order. Planned foundations stay visibly unavailable until reviewed content/assets exist.
 
 Foundations and CEFR lessons reference shared versioned grammar objectives, examples and evidence rather than maintaining duplicate courses or completion records. A learner may understand a grammar label yet struggle to use the structure, or use it well without remembering its label. Show those results separately; terminology is not a requirement for passing a communicative task.
 
