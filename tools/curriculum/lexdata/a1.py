@@ -55,7 +55,7 @@ FOOD_TIME = [
     ("fish", "noun", "An animal that lives in water, or the meat of this animal.", "We had grilled {fish} for dinner.", "A fish is an animal that lives only on mountains.", "She fish a big dog in the river."),
     ("cheese", "noun", "A food made from milk, often yellow or white.", "He put {cheese} on his sandwich.", "Cheese is a drink we pour into a glass.", "I cheese the bread at the shop."),
     ("sugar", "noun", "A sweet white food that you put in tea or cakes.", "Do you want {sugar} in your tea?", "Sugar is a salty food that comes from the sea.", "She sugars a cup of coffee on the table."),
-    ("salt", "noun", "A white substance that makes food taste salty.", "Add a little {salt} to the soup.", "Salt is a sweet drink.", "I salt of the soup bowl very fast."),
+    ("salt", "noun", "A white powder used to give food flavor.", "Add a little {salt} to the soup.", "Salt is a sweet drink.", "I salt of the soup bowl very fast."),
     ("vegetable", "noun", "A plant that you eat, such as a carrot.", "A carrot is a {vegetable}.", "A vegetable is a large animal.", "She eats vegetable for lunch every days."),
     ("hot", "adjective", "Having a high temperature.", "The soup is very {hot}, so be careful.", "The ice is hot and makes my hand freeze.", "It is hots in the room today."),
     ("cold", "adjective", "Having a low temperature.", "I need a coat because it is {cold} outside.", "The soup is cold and burns my tongue.", "She colds the water in the glass."),

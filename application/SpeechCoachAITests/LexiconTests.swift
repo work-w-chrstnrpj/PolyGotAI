@@ -68,8 +68,17 @@ struct LexiconTests {
         #expect(pick.word.groupId == "field-law")
     }
 
-    @Test func everyWordSitsInAGroupOfItsOwnLevel() {
-        for group in bank.groups { #expect(group.words.allSatisfy { $0.cefr == group.level }, "\(group.id)") }
+    @Test func noWordSitsAboveItsGroupLevel() {
+        func rank(_ level: String) -> Int { LevelGate.levels.firstIndex(of: level) ?? 99 }
+        for group in bank.groups { #expect(group.words.allSatisfy { rank($0.cefr) <= rank(group.level) }, "\(group.id)") }
+    }
+
+    @Test func easierIdiomsAndLiteraryWordsKeepTheirOwnLevel() throws {
+        #expect(try #require(bank.word(id: "c2-idioms.hang-out")).cefr == "B1")
+        #expect(try #require(bank.word(id: "c2-literary.veil")).cefr == "C1")
+        let b1Pick = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: Dictionary(uniqueKeysWithValues: bank.words.filter { $0.cefr != "B1" }.map { ($0.id, LexiconStage.easy) }), day: "2026-10-27", maxLevel: "B1"))
+        #expect(b1Pick.word.cefr == "B1")
+        #expect(try #require(bank.word(id: "b2-opinion.disagree")).register == "everyday")
     }
 
     @Test func wordsThatMovedKeepTheirIdsAndTheirTwoWrongSentences() throws {

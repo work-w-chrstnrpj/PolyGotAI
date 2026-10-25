@@ -93,9 +93,9 @@ WORK = [
     ("attach", "verb", "To fix one thing to another, such as a file to an email.", "Please {attach} the document to your email.", "I attach the document by deleting it from the email.", "He attached with the file."),
     ("submit", "verb", "To give a document or work to someone for a decision.", "You must {submit} the form by noon.", "I submit the form by throwing it away.", "She submitted for the report."),
     ("review", "verb", "To look at something again to check it.", "I will {review} your report tonight.", "I review the report before I write it.", "He reviews to the document."),
-    ("apply", "verb", "To ask formally for a job or a place.", "She decided to {apply} for the new position.", "I apply a new job, so they ask me to leave.", "He applied to the a job."),
+    ("apply", "verb", "To ask formally for a job or a place.", "She decided to {apply} for the new position.", "I apply a new job, so they ask me to leave.", "He applied to a job."),
     ("hire", "verb", "To give someone a job.", "The company will {hire} three new workers.", "The company hired him, so he lost his job.", "They hires many workers."),
-    ("shift", "noun", "A set period of time when a person works.", "He works the night {shift} at the hospital.", "My shift is a week of holidays.", "She shift every night."),
+    ("shift", "noun", "A set period of time when a person works.", "He works the night {shift} at the hospital.", "My shift is a week of vacations.", "She shift every night."),
     ("overtime", "noun", "Extra hours of work after the normal day.", "I worked two hours of {overtime} last night.", "I left work early, so I did a lot of overtime.", "He overtimes yesterday."),
     ("agenda", "noun", "A list of things to talk about at a meeting.", "The {agenda} has five items.", "The agenda lists what we did last year, not what we will discuss.", "She agendas many things."),
     ("feedback", "noun", "Comments that tell you how well you did something.", "I asked my boss for {feedback} on my presentation.", "I gave my boss feedback by saying nothing at all.", "He feedbacks us."),
@@ -264,6 +264,38 @@ FIELD_GROUPS = [
 ]
 
 
+# Per-word fixes from the Lexicon proofread: neutral words in formal/term groups are everyday, and easier idioms and
+# literary words keep their own (lower) CEFR level inside the C2 group, so a B1 or B2 learner meets them in the daily word.
+EVERYDAY_WORDS = {
+    "disagree", "support", "suggest", "advantage", "disadvantage", "attitude", "debate",
+    "vague", "thorough", "trivial", "deliberate", "notorious", "obsolete", "mundane", "versatile",
+    "role", "issue", "individual", "respond", "occur", "require", "focus", "involve",
+    "challenge", "priority", "resource", "approve", "propose", "objective", "efficient",
+}
+LOWER_LEVEL_WORDS = {
+    "broke": "B1", "hang out": "B1", "figure out": "B1", "mess up": "B1", "chill out": "B1",
+    "break the ice": "B2", "under the weather": "B2", "hit the sack": "B2", "spill the beans": "B2",
+    "once in a blue moon": "B2", "the last straw": "B2",
+    "wander": "B1", "fade": "B1", "drift": "B2", "dusk": "B2", "stillness": "B2", "murmur": "B2",
+    "hush": "C1", "veil": "C1", "glimmer": "C1", "ember": "C1",
+}
+
+
+def apply_word_fixes() -> None:
+    seen_everyday, seen_level = set(), set()
+    for _, _, _, level, _, rows in GROUPS:
+        for row in rows:
+            if row["lemma"] in EVERYDAY_WORDS and row["register"] in {"formal", "term"}:
+                row["register"] = "everyday"
+                seen_everyday.add(row["lemma"])
+            if row["lemma"] in LOWER_LEVEL_WORDS and level == "C2":
+                row["cefr"] = LOWER_LEVEL_WORDS[row["lemma"]]
+                seen_level.add(row["lemma"])
+    missing = (EVERYDAY_WORDS - seen_everyday) | (set(LOWER_LEVEL_WORDS) - seen_level)
+    if missing:
+        print("WARNING: word fixes not applied to:", sorted(missing))
+
+
 def curl(value):
     """Use typographic apostrophes in every learner-facing string."""
     if isinstance(value, str):
@@ -276,6 +308,7 @@ def curl(value):
 
 
 def build() -> None:
+    apply_word_fixes()
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("lexicon-*.json"):
         old.unlink()

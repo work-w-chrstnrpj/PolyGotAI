@@ -2,7 +2,7 @@
 
 WORK_EXTRA = [
     ("promotion", "noun", "A move to a more important job.", "She got a {promotion} after two years.", "A promotion is a move to a less important job.", "He received the promotion of the better job."),
-    ("qualification", "noun", "A certificate or exam result that shows you can do something.", "You need a {qualification} in nursing for this job.", "A qualification is a kind of holiday from work.", "She has many qualification for this job."),
+    ("qualification", "noun", "A certificate or exam result that shows you can do something.", "You need a {qualification} in nursing for this job.", "A qualification is a kind of vacation from work.", "She has many qualification for this job."),
     ("experience", "noun", "Knowledge or skill that you get from doing something for a time.", "He has five years of {experience} in sales.", "Experience is something you can buy in a shop for ten dollars in one minute.", "I have much experiences with children."),
     ("career", "noun", "The series of jobs that a person has in their working life.", "She has had a long {career} in teaching.", "A career is a short break between two meals.", "I made a career to my job in the bank."),
     ("skill", "noun", "The ability to do something well.", "Typing is a useful {skill}.", "A skill is something that you cannot learn.", "He has good skill at to cook."),

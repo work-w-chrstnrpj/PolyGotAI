@@ -25,7 +25,7 @@ NUANCE = [
     ("elaborate", "adjective", "Having many details; complicated.", "They made an {elaborate} plan for the party.", "An elaborate plan is simple and has only one step.", "It is an elaborate of design at the clothes."),
     ("notorious", "adjective", "Famous for something bad.", "The street is {notorious} for its traffic.", "A notorious person is famous for being very kind and good.", "The town is notorious of its food."),
     ("obsolete", "adjective", "No longer used because something better exists.", "Typewriters are now {obsolete}.", "An obsolete machine is the newest model that everyone wants.", "This phone is obsolete at the new one."),
-    ("redundant", "adjective", "No longer needed; unnecessary.", "Many workers were made {redundant} when the factory closed.", "A redundant word is the most important word in a sentence.", "He is redundant from the team of the job."),
+    ("redundant", "adjective", "No longer needed; unnecessary.", "Once the new system started, the old weekly report became {redundant}.", "A redundant word is the most important word in a sentence.", "He is redundant from the team of the job."),
     ("ubiquitous", "adjective", "Seeming to be everywhere.", "Smartphones are now {ubiquitous}.", "A ubiquitous object is one that can be found nowhere.", "Smartphones are ubiquitous to the world."),
     ("versatile", "adjective", "Able to do many different things.", "She is a {versatile} actor who can play any role.", "A versatile tool can do only one single job.", "The tool is versatile of use."),
     ("meticulous", "adjective", "Very careful about small details.", "He is {meticulous} about keeping records.", "A meticulous worker is careless about details.", "She is meticulous with her work of the notes."),

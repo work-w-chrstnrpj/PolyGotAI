@@ -71,7 +71,7 @@ OPINION = [
     ("valid", "adjective", "Reasonable, or allowed by the rules.", "That is a {valid} point.", "A valid ticket is a ticket that is not good any more.", "The ticket is valid in the Monday."),
     ("weakness", "noun", "A fault or a lack of strength.", "Lack of time is the main {weakness} of this plan.", "A weakness is the best part of a plan.", "She has a weakness on sweets."),
     ("advantage", "noun", "Something that helps you do better than others.", "Speaking two languages is a big {advantage}.", "An advantage is a problem that makes your job harder.", "It has the advantage to the other plans."),
-    ("disadvantage", "noun", "Something that makes things more difficult.", "The main {disadvantage} of the flat is the noise.", "A disadvantage is a benefit that helps you win.", "It has a disadvantage on the cost."),
+    ("disadvantage", "noun", "Something that makes things more difficult.", "The main {disadvantage} of the apartment is the noise.", "A disadvantage is a benefit that helps you win.", "It has a disadvantage on the cost."),
     ("debate", "noun", "A discussion in which people give different opinions.", "There was a long {debate} about the new road.", "A debate is a meeting where nobody speaks.", "We made a debate to the topic of the school."),
     ("consensus", "noun", "General agreement among a group.", "The team reached a {consensus} after a long talk.", "A consensus is a fight in which nobody agrees on anything.", "The consensus of a decision are made."),
     ("compromise", "noun", "An agreement in which each side gives up something.", "We found a {compromise} on the price.", "A compromise is a decision in which one side wins everything.", "They made a compromise to the price on the Friday."),

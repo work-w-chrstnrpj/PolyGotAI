@@ -49,7 +49,7 @@
         "A layover is the last night of a trip at home."
       ],
       "cefr": "B1",
-      "register": "informal"
+      "register": "term"
     },
     {
       "lemma": "visa",
@@ -173,7 +173,7 @@
       "pos": "noun",
       "meaning": "A journey to a place and back again.",
       "examples": [
-        "A {round trip} ticket is cheaper than two single tickets."
+        "A {round trip} ticket is cheaper than two one-way tickets."
       ],
       "wrong": [
         "A round trip is a journey that only goes in one direction."
@@ -231,7 +231,7 @@
         "Jet lag is a kind of delay caused by bad weather."
       ],
       "cefr": "B1",
-      "register": "informal"
+      "register": "term"
     },
     {
       "lemma": "guidebook",
@@ -327,7 +327,7 @@
     {
       "lemma": "cruise",
       "pos": "noun",
-      "meaning": "A holiday on a large ship that visits several places.",
+      "meaning": "A vacation on a large ship that visits several places.",
       "examples": [
         "They took a {cruise} around the Caribbean."
       ],
@@ -340,7 +340,7 @@
     {
       "lemma": "resort",
       "pos": "noun",
-      "meaning": "A place where people go for a holiday, with hotels and activities.",
+      "meaning": "A place where people go for a vacation, with hotels and activities.",
       "examples": [
         "We stayed at a beach {resort} for a week."
       ],
@@ -364,14 +364,14 @@
       "register": "term"
     },
     {
-      "lemma": "checkout",
+      "lemma": "check-out",
       "pos": "noun",
       "meaning": "The time by which guests must leave a hotel room.",
       "examples": [
-        "{Checkout} is at eleven in the morning."
+        "{Check-out} is at eleven in the morning."
       ],
       "wrong": [
-        "Checkout is the moment when you first enter your hotel room."
+        "Check-out is the moment when you first enter your hotel room."
       ],
       "cefr": "B1",
       "register": "term"
