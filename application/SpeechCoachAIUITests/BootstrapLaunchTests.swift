@@ -103,7 +103,19 @@ final class BootstrapLaunchTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["exercise.answer"].exists)
         screenshot(app, "typed-exercise-wrong")
         app.buttons["exercise.continue"].tap()
-        // Grammar: pick, then build a sentence from tiles.
+        // True or false.
+        app.buttons["exercise.choice.False"].firstMatch.tap()
+        app.buttons["exercise.check"].tap()
+        XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
+        app.buttons["exercise.continue"].tap()
+        // Listen and write.
+        let field = app.descendants(matching: .any)["exercise.field"].firstMatch
+        XCTAssertTrue(field.waitForExistence(timeout: 5))
+        field.tap(); field.typeText("It is hot and sunny.")
+        app.buttons["exercise.check"].tap()
+        XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
+        app.buttons["exercise.continue"].tap()
+        // Grammar: fill the blank, then build a sentence from tiles.
         app.buttons["exercise.choice.is"].firstMatch.tap()
         app.buttons["exercise.check"].tap()
         XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))

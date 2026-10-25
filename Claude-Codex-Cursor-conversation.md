@@ -163,3 +163,32 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **For others:** files in the public repo contain the owner's Mac username in local paths (`/Users/chrixcrusher/...`, in docs and a few config files), the Apple team ID `LMHJKZ2N43`, and device and simulator UDIDs in docs and evidence. Treat the repo as public: never commit credentials, learner data, recordings or provider keys. Do not commit or push unless the owner asks. The vendored FSRS library (`application/Vendor/swift-fsrs`) is MIT-licensed, and the third-party skills under `.agents/skills/` keep their upstream licence files.
 **Open items:** owner may want to make the repo private, or scrub local paths and UDIDs.
 **Docs/tracker updated:** `AGENTS.md`, `development-plan.md`.
+
+### LOG-0007 · 2026-10-25 11:22 · Owner (recorded by Claude) · DECISION
+**Phase:** — · **Status:** DONE
+**Summary:** The owner decided to keep https://github.com/work-w-chrstnrpj/PolyGotAI **public**. No scrubbing of local paths, team ID or device IDs was requested.
+**For others:** treat everything committed as public. Do not commit credentials, provider keys, learner data or recordings. Commit and push only when the owner asks.
+**Open items:** none.
+
+### LOG-0008 · 2026-10-25 11:39 · Claude · CHANGE
+**Phase:** 1 · **Status:** DONE
+**Summary:** Fixes after the owner tried the iPad. (1) The owner saw the **old** lesson screens ("Read this…" on one line, "Save my answer", no feedback): those were unfinished version-3 lessons, which reopen as they were. Added a banner "A new version of this lesson is ready → Switch to the new version" to old-version lesson screens. (2) **XP and gold were not awarded for v4 lessons** (they were missing from the rewards catalog's content targets, and typed answers were not marked as reviewed): fixed in `AwardCatalog.json` (+120 `@4` targets) and by revealing on submit; the feedback bar shows "+10 XP · +2 gold". (3) The reading passage now sits in its own card above the question. (4) More question variety: true/false and a listen-and-write per lesson (phone voice reads a short sentence), typed words for single-word recall, and fill-in-the-blank shown as a sentence with a blank and word tiles. A1 v4 now has 168 typed exercises (14 per lesson).
+**Files:**
+- `application/SpeechCoachAI/Features/Learn/Exercises/ExerciseActivityView.swift` — passage card, cloze view and tiles, reward line slot
+- `application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift` — view split into smaller parts, switch-version banner, reveal on submit
+- `application/SpeechCoachAI/Features/Rewards/RewardCelebrationView.swift` — `RewardEarnedLine`
+- `application/SpeechCoachAI/Resources/Rewards/AwardCatalog.json` — v4 content targets (file was re-serialized, so the diff is large)
+- `application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json`, `tools/curriculum/convert_a1_v4.py` — regenerated from the v3 backup (`application/.build/backup/CurriculumCatalog.v3.json`)
+- `application/SpeechCoachAITests/CurriculumCatalogTests.swift`, `application/SpeechCoachAIUITests/BootstrapLaunchTests.swift`
+**Verification:** 315 unit tests passed; UI tests passed: typed exercises (now true/false, listen-and-write, fill-in-the-blank, tiles), connected lesson flow, launch/all destinations. Checked on the iPad simulator: switch banner, passage card, +XP line. Rebuilt, installed and launched on the owner's iPad.
+**Not verified:** on the real iPad (owner play-test); listening-clip wording; dictation; the phone voice reading the listen-and-write sentence on a device.
+**For others:** reward credit needs BOTH (a) `lessonID@version` in `AwardCatalog.json` `contentTargetIDs` of AW-P-01 and (b) `answerRevealed` on the response. Any new lesson version must add its targets or it earns nothing. Keep `LessonPlayerView.body` small: the Swift compiler times out on one large view expression.
+**Open items:** a matching exercise and spot-the-error have no A1 content yet; A2–C2 lessons still use the old format; per-answer XP wording and amounts are the existing economy (first try that day 10 XP + 2 gold, a repeat half, then none).
+**Docs/tracker updated:** `progress.md`, `phases/phase-1/README.md`.
+
+### LOG-0009 · 2026-10-25 11:43 · Claude · CHANGE
+**Phase:** 1 · **Status:** DONE
+**Summary:** At the owner's request, committed and pushed LOG-0007 and LOG-0008's changes (switch-version banner, v4 rewards fix, reading passage card, true/false, listen-and-write, fill-in-the-blank tiles, A1 content regenerated) to https://github.com/work-w-chrstnrpj/PolyGotAI (`main`).
+**Verification:** `git push` succeeded. Tests were run before the commit (315 unit tests and key UI tests passed).
+**Not verified:** nothing built from a fresh clone.
+**For others:** the repo is public; commit and push only when the owner asks.

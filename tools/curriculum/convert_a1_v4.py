@@ -189,6 +189,40 @@ LESSONS: dict[str, dict] = {
 }
 
 
+# lesson id -> (statement, is_true, why). One True/False question after the listening question.
+TRUE_FALSE: dict[str, tuple[str, bool, str]] = {
+    "a1-greetings": ("Mina says “Good morning” to her coworker.", False, "She says “Good evening,” because it is night."),
+    "a1-alphabet": ("Ben’s name starts with B.", True, "Ben is spelled B, E, N."),
+    "a1-numbers": ("Mina buys twelve apples.", False, "She buys fifteen apples."),
+    "a1-dates": ("Mina’s class is on Monday.", True, "The class is on Monday in March."),
+    "family-01": ("Lina is Mina’s brother.", False, "Lina is Mina’s sister."),
+    "a1-home": ("The bathroom is downstairs.", False, "The bathroom is upstairs."),
+    "routine-01": ("Mina cooks in the morning.", False, "She studies in the morning and cooks at night."),
+    "food-01": ("The sandwich is five dollars.", False, "The sandwich is three dollars."),
+    "a1-shopping": ("Mina looks at hats.", False, "She looks at shoes."),
+    "a1-places": ("The library is on the left.", False, "The library is on the right."),
+    "a1-hobbies": ("Mina plays the piano on Sunday.", True, "She plays the piano on Sunday."),
+    "a1-weather": ("It is cold and rainy.", False, "It is hot and sunny."),
+}
+
+
+# lesson id -> a short sentence from the lesson's reading, read aloud by the phone's voice for "listen and write".
+DICTATION: dict[str, str] = {
+    "a1-greetings": "Good evening. How are you?",
+    "a1-alphabet": "Ben spells his name.",
+    "a1-numbers": "Mina buys fifteen apples.",
+    "a1-dates": "The class is on Monday.",
+    "family-01": "Mina has a sister.",
+    "a1-home": "The bathroom is upstairs.",
+    "routine-01": "Mina gets up at six.",
+    "food-01": "I would like tea and a sandwich.",
+    "a1-shopping": "I will take the shoes.",
+    "a1-places": "The library is on the right.",
+    "a1-hobbies": "Mina plays the piano on Sunday.",
+    "a1-weather": "It is hot and sunny.",
+}
+
+
 def norm(text: str) -> str:
     text = text.lower().replace("’", "'").replace("-", " ")
     return " ".join(w.strip(".,!?;:\"") for w in text.split())
@@ -244,12 +278,37 @@ def convert(lesson: dict) -> dict:
         activity["exercise"] = built
         check_answer(lesson["id"], activity, built)
 
+    statement, is_true, why = TRUE_FALSE[lesson["id"]]
+    answer = "True" if is_true else "False"
+    true_false = {
+        "id": f"{lesson['id']}-tf", "kind": "reading", "required": True,
+        "prompt": f"True or false: {statement}", "answer": answer, "explanation": why,
+        "exercise": {"type": "choice", "options": ["True", "False"], "accepted": [answer]},
+    }
+    acts.insert(acts.index(listening) + 1, true_false)
+    sentence = DICTATION[lesson["id"]]
+    dictation = {
+        "id": f"{lesson['id']}-dictation", "kind": "grammar", "required": True,
+        "prompt": "Listen, then write the sentence.", "answer": sentence,
+        "explanation": "Listen for each word, then check the spelling.",
+        "exercise": {"type": "listenType", "audioText": sentence, "accepted": [sentence]},
+    }
+    acts.insert(acts.index(true_false) + 1, dictation)
+
     lemmas = [s["lemma"] for s in lesson["senses"]]
     for index, activity in enumerate(recall):
         correct = lemmas[index]
         others = [lemmas[(index + step) % 5] for step in (1, 2, 3)]
-        activity["prompt"] = RECALL_OVERRIDES.get((lesson["id"], index)) or recall_prompt(activity["prompt"])
-        activity["exercise"] = {"type": "choice", "options": [correct] + others, "accepted": [correct]}
+        if " " not in correct:
+            # One word: type it (spelling practice; the microphone button can dictate it).
+            accepted = [correct]
+            original = activity["answer"].strip(". ")
+            if norm(original) != norm(correct):
+                accepted.append(original)
+            activity["exercise"] = {"type": "fillBlank", "accepted": accepted}
+        else:
+            activity["prompt"] = RECALL_OVERRIDES.get((lesson["id"], index)) or recall_prompt(activity["prompt"])
+            activity["exercise"] = {"type": "choice", "options": [correct] + others, "accepted": [correct]}
     return lesson
 
 

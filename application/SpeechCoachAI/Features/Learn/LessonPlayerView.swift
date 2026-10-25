@@ -42,6 +42,21 @@ struct LessonPlayerView: View {
     }
     private var isComplete: Bool { session?.journey.completedAt != nil }
     private var isIntroduction: Bool { presentedLesson.objectiveId == "INTRO-01" }
+    /// An older saved version is open while the current version has the quick-feedback exercises.
+    private var newerVersionReady: Bool {
+        origin == nil && !isComplete && lesson.hasCheckedExercises && presentedLesson.contentVersion != lesson.contentVersion
+    }
+    @ViewBuilder private var versionBanner: some View {
+        if newerVersionReady {
+            KitCard {
+                Text("A new version of this lesson is ready").font(.headline)
+                Text("Quick questions with instant feedback. Your saved answers stay.").foregroundStyle(Kit.secondary)
+                Button("Switch to the new version") { startCurrentVersion() }
+                    .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lesson.switch-version")
+            }
+        }
+    }
+
     /// The current activity when it is an auto-checked exercise shown by the exercise flow.
     private var typedActivity: CurriculumActivity? {
         guard !showIntroduction, !isComplete, !isIntroduction, session != nil,
@@ -50,50 +65,7 @@ struct LessonPlayerView: View {
     }
 
     var body: some View {
-        Group {
-        if let typed = typedActivity, let session {
-            ExerciseActivityView(
-                activity: typed, progress: Double(position) / Double(max(1, session.activities.count)),
-                positionText: "\(position + 1) of \(session.activities.count)", isLast: position == session.activities.count - 1,
-                storedResponse: session.response(for: typed.id).flatMap { $0.firstResponseText ?? $0.unaidedText ?? $0.assistedText },
-                message: message, canGoBack: position > 0, onBack: { move(-1) },
-                onPlayClip: { play($0) },
-                onSubmit: { stored in submitExercise(typed.id, stored) },
-                onContinue: { if position == session.activities.count - 1 { finish() } else { move(1) } })
-                .id(typed.id)
-        } else {
-        ScrollViewReader { scroll in
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    Color.clear.frame(height: 0).id("top")
-                    if session == nil {
-                        AvailabilityCard(title: "Lesson unavailable", detail: message ?? "Opening your saved practice…", symbol: "book")
-                    } else if isComplete {
-                        completion
-                    } else if showIntroduction {
-                        introduction
-                    } else if let activity, let session {
-                        progress(session)
-                        activityContent(activity, session: session)
-                    }
-                    if let preserved {
-                        Text("Your saved work from version \(preserved.contentVersion) is preserved. Use Saved versions to open it.")
-                            .font(.footnote).foregroundStyle(Kit.secondary)
-                    }
-                    if let message {
-                        Text(message).font(.callout).foregroundStyle(Kit.secondary)
-                            .accessibilityIdentifier("lesson.message")
-                    }
-                }
-                .frame(maxWidth: 640, alignment: .leading)
-                .padding(24)
-                .frame(maxWidth: .infinity)
-            }
-            .onChange(of: activity?.id) { _, _ in scroll.scrollTo("top", anchor: .top) }
-            .onChange(of: isComplete) { _, _ in scroll.scrollTo("top", anchor: .top) }
-        }
-        }
-        }
+        mainContent
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .controlSize(.large)
@@ -195,6 +167,62 @@ struct LessonPlayerView: View {
         .onDisappear { draftSave?.cancel(); saveDrafts(); stopAudio() }
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { draftSave?.cancel(); saveDrafts(); stopAudio() }
+        }
+    }
+
+    @ViewBuilder private var mainContent: some View {
+        if let typed = typedActivity, let session {
+            exerciseScreen(typed, session)
+        } else {
+            legacyScroll
+        }
+    }
+
+    private func exerciseScreen(_ typed: CurriculumActivity, _ session: LessonSession) -> some View {
+            ExerciseActivityView(
+                activity: typed, progress: Double(position) / Double(max(1, session.activities.count)),
+                positionText: "\(position + 1) of \(session.activities.count)", isLast: position == session.activities.count - 1,
+                storedResponse: session.response(for: typed.id).flatMap { $0.firstResponseText ?? $0.unaidedText ?? $0.assistedText },
+                message: message,
+                rewardSummary: AnyView(RewardEarnedLine(storage: storage, source: "lesson/\(session.journey.id)/\(typed.id)")),
+                canGoBack: position > 0, onBack: { move(-1) },
+                onPlayClip: { play($0) },
+                onSubmit: { stored in submitExercise(typed.id, stored) },
+                onContinue: { if position == session.activities.count - 1 { finish() } else { move(1) } })
+                .id(typed.id)
+    }
+
+    private var legacyScroll: some View {
+        ScrollViewReader { scroll in
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                    Color.clear.frame(height: 0).id("top")
+                    versionBanner
+                    if session == nil {
+                        AvailabilityCard(title: "Lesson unavailable", detail: message ?? "Opening your saved practice…", symbol: "book")
+                    } else if isComplete {
+                        completion
+                    } else if showIntroduction {
+                        introduction
+                    } else if let activity, let session {
+                        progress(session)
+                        activityContent(activity, session: session)
+                    }
+                    if let preserved {
+                        Text("Your saved work from version \(preserved.contentVersion) is preserved. Use Saved versions to open it.")
+                            .font(.footnote).foregroundStyle(Kit.secondary)
+                    }
+                    if let message {
+                        Text(message).font(.callout).foregroundStyle(Kit.secondary)
+                            .accessibilityIdentifier("lesson.message")
+                    }
+                }
+                .frame(maxWidth: 640, alignment: .leading)
+                .padding(24)
+                .frame(maxWidth: .infinity)
+            }
+            .onChange(of: activity?.id) { _, _ in scroll.scrollTo("top", anchor: .top) }
+            .onChange(of: isComplete) { _, _ in scroll.scrollTo("top", anchor: .top) }
         }
     }
 
@@ -677,6 +705,8 @@ struct LessonPlayerView: View {
         guard session != nil else { return false }
         drafts[id] = stored
         record(id, assisted: false)
+        // Checking an answer is the comparison step: it earns XP and gold the same way a revealed example does.
+        if message == nil { reveal(id) }
         return message == nil
     }
 

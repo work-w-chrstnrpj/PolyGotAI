@@ -11,6 +11,8 @@ struct ExerciseActivityView: View {
     /// The first answer already saved for this activity, shown again when the learner returns to it.
     var storedResponse: String? = nil
     var message: String? = nil
+    /// XP and gold earned by this answer, shown under the feedback.
+    var rewardSummary: AnyView? = nil
     var canGoBack = false
     var onBack: () -> Void = {}
     var onPlayClip: (String) -> Void = { _ in }
@@ -49,9 +51,7 @@ struct ExerciseActivityView: View {
             topBar
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    Text(activity.prompt ?? "Choose the answer.")
-                        .font(.title2.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
-                        .accessibilityIdentifier("exercise.prompt")
+                    promptView
                     audioControls
                     exerciseBody.allowsHitTesting(!locked)
                     if let message { Text(message).font(.callout).foregroundStyle(Kit.error) }
@@ -75,6 +75,68 @@ struct ExerciseActivityView: View {
             Text(positionText).font(.subheadline.weight(.semibold)).foregroundStyle(Kit.secondary)
         }
         .padding(.horizontal, 24).padding(.top, 8).frame(maxWidth: 688)
+    }
+
+    // MARK: Question
+
+    /// Reading questions arrive as "Read this. <passage> <question>?". Show the passage in its own card.
+    private var parts: (passage: String?, question: String) {
+        let text = activity.prompt ?? "Choose the answer."
+        guard activity.kind == "reading", text.hasPrefix("Read this."), let end = text.lastIndex(of: "?") else {
+            return (nil, text.replacingOccurrences(of: "Play the recording. ", with: ""))
+        }
+        let body = String(text[text.index(text.startIndex, offsetBy: 10)...end]).trimmingCharacters(in: .whitespaces)
+        let head = body.dropLast()
+        if let boundary = head.range(of: ". ", options: .backwards) ?? head.range(of: "? ", options: .backwards) {
+            let passage = String(head[..<boundary.upperBound]).trimmingCharacters(in: .whitespaces)
+            let question = String(head[boundary.upperBound...]).trimmingCharacters(in: .whitespaces) + "?"
+            return (passage, question)
+        }
+        return (nil, body)
+    }
+
+    /// "Complete: It ___ cold today." shows the sentence with a blank that the chosen word fills.
+    private var cloze: (instruction: String, before: String, after: String)? {
+        guard spec.kind == .choice, let prompt = activity.prompt, prompt.contains("___") else { return nil }
+        var instruction = "Fill in the blank"
+        var sentence = prompt
+        if let colon = prompt.range(of: ": "), prompt.distance(from: prompt.startIndex, to: colon.lowerBound) < 60 {
+            let lead = String(prompt[..<colon.lowerBound])
+            if lead != "Complete" { instruction = lead }
+            sentence = String(prompt[colon.upperBound...])
+        }
+        guard let blank = sentence.range(of: "___") else { return nil }
+        return (instruction, String(sentence[..<blank.lowerBound]), String(sentence[blank.upperBound...]))
+    }
+
+    private func clozeView(_ cloze: (instruction: String, before: String, after: String)) -> some View {
+        let filled = selection ?? "      "
+        let tint: Color = result == nil ? Kit.accent : (result == .incorrect ? Kit.error : Self.rightColor)
+        return VStack(alignment: .leading, spacing: 10) {
+            Text(cloze.instruction).font(.subheadline.weight(.semibold)).foregroundStyle(Kit.secondary)
+            (Text(cloze.before) + Text(filled).bold().underline().foregroundColor(tint) + Text(cloze.after))
+                .font(.title.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
+                .accessibilityIdentifier("exercise.prompt")
+        }
+    }
+
+    private var promptView: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            if let cloze { clozeView(cloze) }
+            if cloze == nil {
+            if let passage = parts.passage {
+                HStack(alignment: .top, spacing: 12) {
+                    Image(systemName: "text.book.closed").foregroundStyle(Kit.accent).padding(.top, 4)
+                    Text(passage).font(.title3).fixedSize(horizontal: false, vertical: true)
+                        .accessibilityIdentifier("exercise.passage")
+                }
+                .padding(16).frame(maxWidth: .infinity, alignment: .leading)
+                .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
+            }
+            Text(parts.question).font(.title2.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
+                .accessibilityIdentifier("exercise.prompt")
+            }
+        }
     }
 
     // MARK: Audio
@@ -105,7 +167,33 @@ struct ExerciseActivityView: View {
         }
     }
 
-    private var choiceBody: some View {
+    @ViewBuilder private var choiceBody: some View {
+        if cloze != nil { clozeOptions } else { choiceList }
+    }
+
+    /// Word tiles for a fill-in-the-blank sentence. Tap one and it drops into the blank.
+    private var clozeOptions: some View {
+        FlowLayout(spacing: 10) {
+            ForEach(choiceOptions, id: \.self) { option in
+                let isPicked = selection == option
+                let isRight = locked && (spec.accepted ?? []).contains(option)
+                let isWrong = locked && isPicked && !isRight
+                Button { selection = option } label: {
+                    Text(option).font(.title3.weight(.medium)).foregroundStyle(Kit.ink)
+                        .padding(.horizontal, 18).padding(.vertical, 12).frame(minHeight: 48)
+                        .background(isPicked && !locked ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 12))
+                        .overlay(RoundedRectangle(cornerRadius: 12).stroke(
+                            isRight ? Self.rightColor : isWrong ? Kit.error : isPicked ? Kit.accent : Kit.secondary.opacity(0.35),
+                            lineWidth: isPicked || isRight ? 2 : 1))
+                }
+                .buttonStyle(.plain)
+                .accessibilityAddTraits(isPicked ? .isSelected : [])
+                .accessibilityIdentifier("exercise.choice.\(option)")
+            }
+        }
+    }
+
+    private var choiceList: some View {
         VStack(spacing: 12) {
             ForEach(choiceOptions, id: \.self) { option in
                 let isPicked = selection == option
@@ -302,6 +390,7 @@ struct ExerciseActivityView: View {
             if let explanation = activity.explanation {
                 Text(explanation).font(.callout).foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
             }
+            if let rewardSummary { rewardSummary }
             Button(action: onContinue) { Text(isLast ? "Finish" : "Continue") }
                 .buttonStyle(KitPrimaryButtonStyle())
                 .accessibilityIdentifier("exercise.continue")

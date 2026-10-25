@@ -49,11 +49,13 @@
 | 1.3 | `ExerciseSpec` + `ExerciseSession` (queue, re-queue wrong items, accuracy) + tests | Claude | ✅ 312/312 unit tests pass (29 new) |
 | 1.4 | `SpeechSynthesizer` wrapper (TTS) | Claude | ✅ builds; no screen uses it yet, so not yet tested by ear |
 | 1.5 | `tools/curriculum/validate.py` | Claude | ✅ runs clean on the current catalog |
-| 1.6 | Convert the 12 A1 topic lessons to typed exercises (content v4; v3 archived so saved work reopens) | Claude | ✅ 144 typed exercises, a coach tip per lesson, `tools/curriculum/convert_a1_v4.py`, `validate.py` clean. INTRO-01 left as is |
+| 1.6 | Convert the 12 A1 topic lessons to typed exercises (content v4; v3 archived so saved work reopens) | Claude | ✅ 168 typed exercises (14 per lesson: multiple choice, true/false, listen-and-write, sentence building, fill-in-the-blank with word tiles, typed words), a coach tip per lesson, `tools/curriculum/convert_a1_v4.py`, `validate.py` clean. INTRO-01 left as is |
 | 1.7 | Exercise views: choice, word bank, fill blank, match, order, listen & type | Claude (Codex has no usage) | ✅ `Features/Learn/Exercises/`; spot error and speak use the typed-answer field for now |
 | 1.8 | Feedback bar, coach tip screen, accuracy on the finish screen, "try the ones you missed"; integrated into `LessonPlayerView` | Claude | ✅ |
 | 1.9 | UI test for typed exercises (tip, right, wrong, tiles) | Claude | ✅ `testTypedExercisesGiveInstantFeedbackAndAccuracy`; match, order and listen-and-type have unit tests only |
 | 1.10 | `DictationRecognizer` (on-device speech-to-text) and `DictationButton` component | Claude | ✅ built; fixed a crash found on the simulator; **real dictation not yet verified, needs a device** |
+| 1.12 | XP and gold for typed lessons (reward targets for v4, answer counts as reviewed, "+10 XP · +2 gold" in the feedback bar) | Claude | ✅ fixed a gap: v4 lessons earned nothing at first |
+| 1.13 | Banner to switch from an old saved lesson version; reading passage shown apart from its question; fill-in-the-blank shows the sentence with a blank | Claude | ✅ |
 | 1.11 | Add the microphone button to every typing field | Claude (existing fields) / Codex (new exercise fields) | ✅ existing fields done: lesson answers, intro practice, recall, Conversation, Interview, Communication, self-review, Lexicon word and meaning. ⏳ new exercise fields (Codex) |
 
 ## Phase 2 — Lesson restructure

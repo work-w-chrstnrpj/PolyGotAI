@@ -333,7 +333,7 @@ struct A1CurriculumDeliveryTests {
         for lesson in catalog.lessons(at: "A1") where lesson.id != "intro-01" {
             #expect(lesson.hasCheckedExercises && lesson.tip?.isEmpty == false)
             let typed = lesson.practiceActivities.filter { $0.exercise != nil }
-            #expect(typed.count == 12, "\(lesson.id) typed activities")
+            #expect(typed.count == 14, "\(lesson.id) typed activities")
             #expect(typed.map(\.kind).filter { $0 == "recall" }.count == 5)
             for activity in typed {
                 let spec = activity.resolvedExercise
@@ -341,12 +341,12 @@ struct A1CurriculumDeliveryTests {
                 // The first accepted answer must be buildable and must check as correct.
                 let answer = try #require(spec.modelAnswer)
                 switch spec.kind {
-                case .choice, .fillBlank: #expect(spec.evaluate(.text(answer)) == .correct, "\(activity.id)")
+                case .choice, .fillBlank, .listenType: #expect(spec.evaluate(.text(answer)) == .correct, "\(activity.id)")
                 case .wordBank: #expect(spec.evaluate(.sequence(answer.split(separator: " ").map(String.init))) == .correct, "\(activity.id)")
                 default: Issue.record("unexpected type in \(activity.id)")
                 }
                 // Something else must be wrong, so the question is not trivially satisfied.
-                if spec.kind == .choice { #expect((spec.options ?? []).count >= 3, "\(activity.id)") }
+                if spec.kind == .choice { #expect((spec.options ?? []).count >= 2, "\(activity.id)") }
             }
             // The stored form re-checks to the same result: this is how accuracy survives a restart.
             let first = try #require(typed.first)

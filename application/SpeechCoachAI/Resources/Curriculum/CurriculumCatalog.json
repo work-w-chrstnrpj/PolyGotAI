@@ -494,6 +494,39 @@
           }
         },
         {
+          "id": "a1-greetings-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina says “Good morning” to her coworker.",
+          "answer": "False",
+          "explanation": "She says “Good evening,” because it is night.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-greetings-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Good evening. How are you?",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Good evening. How are you?",
+            "accepted": [
+              "Good evening. How are you?"
+            ]
+          }
+        },
+        {
           "id": "a1-greetings-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -622,16 +655,10 @@
           "id": "a1-greetings-recall-hello",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose a first word you can say to someone you meet.",
+          "prompt": "Write a first word you can say to someone you meet.",
           "answer": "Hello.",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "Hello",
-              "Good morning",
-              "How are you?",
-              "I am fine"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "Hello"
             ]
@@ -698,16 +725,10 @@
           "id": "a1-greetings-recall-bye",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose a word for leaving.",
+          "prompt": "Write a word for leaving.",
           "answer": "Goodbye.",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "Goodbye",
-              "Hello",
-              "Good morning",
-              "How are you?"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "Goodbye"
             ]
@@ -1141,6 +1162,39 @@
           }
         },
         {
+          "id": "a1-alphabet-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Ben’s name starts with B.",
+          "answer": "True",
+          "explanation": "Ben is spelled B, E, N.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "a1-alphabet-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Ben spells his name.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Ben spells his name.",
+            "accepted": [
+              "Ben spells his name."
+            ]
+          }
+        },
+        {
           "id": "a1-alphabet-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -1265,16 +1319,10 @@
           "id": "a1-alphabet-recall-spell",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the verb for saying the letters of a word.",
+          "prompt": "Write the verb for saying the letters of a word.",
           "answer": "spell",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "spell",
-              "letter",
-              "capital letter",
-              "How do you spell"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "spell"
             ]
@@ -1284,16 +1332,10 @@
           "id": "a1-alphabet-recall-letter",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for A, B, or C.",
+          "prompt": "Write the word for A, B, or C.",
           "answer": "letter",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "letter",
-              "capital letter",
-              "How do you spell",
-              "My name is"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "letter"
             ]
@@ -1536,6 +1578,39 @@
           }
         },
         {
+          "id": "a1-numbers-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina buys twelve apples.",
+          "answer": "False",
+          "explanation": "She buys fifteen apples.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-numbers-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Mina buys fifteen apples.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Mina buys fifteen apples.",
+            "accepted": [
+              "Mina buys fifteen apples."
+            ]
+          }
+        },
+        {
           "id": "a1-numbers-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -1651,16 +1726,10 @@
           "id": "a1-numbers-recall-one",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the number for a single thing.",
+          "prompt": "Write the number for a single thing.",
           "answer": "one",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "one",
-              "twelve",
-              "twenty",
-              "How many"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "one"
             ]
@@ -1670,16 +1739,10 @@
           "id": "a1-numbers-recall-twelve",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for 12.",
+          "prompt": "Write the word for 12.",
           "answer": "twelve",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "twelve",
-              "twenty",
-              "How many",
-              "dollars"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "twelve"
             ]
@@ -1689,16 +1752,10 @@
           "id": "a1-numbers-recall-twenty",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for 20.",
+          "prompt": "Write the word for 20.",
           "answer": "twenty",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "twenty",
-              "How many",
-              "dollars",
-              "one"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "twenty"
             ]
@@ -1727,16 +1784,10 @@
           "id": "a1-numbers-recall-dollars",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word you put after a price in the United States.",
+          "prompt": "Write the word you put after a price in the United States.",
           "answer": "dollars",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "dollars",
-              "one",
-              "twelve",
-              "twenty"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "dollars"
             ]
@@ -1918,6 +1969,39 @@
             ],
             "accepted": [
               "On Friday at three."
+            ]
+          }
+        },
+        {
+          "id": "a1-dates-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina’s class is on Monday.",
+          "answer": "True",
+          "explanation": "The class is on Monday in March.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "a1-dates-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The class is on Monday.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The class is on Monday.",
+            "accepted": [
+              "The class is on Monday."
             ]
           }
         },
@@ -2127,16 +2211,10 @@
           "id": "a1-dates-recall-today",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for this day.",
+          "prompt": "Write the word for this day.",
           "answer": "today",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "today",
-              "on Friday",
-              "at three",
-              "in March"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "today"
             ]
@@ -2318,6 +2396,39 @@
             ],
             "accepted": [
               "Sam is the speaker’s brother."
+            ]
+          }
+        },
+        {
+          "id": "family-01-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Lina is Mina’s brother.",
+          "answer": "False",
+          "explanation": "Lina is Mina’s sister.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "family-01-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Mina has a sister.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Mina has a sister.",
+            "accepted": [
+              "Mina has a sister."
             ]
           }
         },
@@ -2716,6 +2827,39 @@
           }
         },
         {
+          "id": "a1-home-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: The bathroom is downstairs.",
+          "answer": "False",
+          "explanation": "The bathroom is upstairs.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-home-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The bathroom is upstairs.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The bathroom is upstairs.",
+            "accepted": [
+              "The bathroom is upstairs."
+            ]
+          }
+        },
+        {
           "id": "a1-home-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -2839,16 +2983,10 @@
           "id": "a1-home-recall-kitchen",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the name of the room where people cook.",
+          "prompt": "Write the name of the room where people cook.",
           "answer": "kitchen",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "kitchen",
-              "bedroom",
-              "next to",
-              "upstairs"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "kitchen"
             ]
@@ -2858,16 +2996,10 @@
           "id": "a1-home-recall-bedroom",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the name of the room where people sleep.",
+          "prompt": "Write the name of the room where people sleep.",
           "answer": "bedroom",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "bedroom",
-              "next to",
-              "upstairs",
-              "There is"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "bedroom"
             ]
@@ -2896,16 +3028,10 @@
           "id": "a1-home-recall-upstairs",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for the floor above.",
+          "prompt": "Write the word for the floor above.",
           "answer": "upstairs",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "upstairs",
-              "There is",
-              "kitchen",
-              "bedroom"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "upstairs"
             ]
@@ -3106,6 +3232,39 @@
             ],
             "accepted": [
               "The speaker starts work at nine."
+            ]
+          }
+        },
+        {
+          "id": "routine-01-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina cooks in the morning.",
+          "answer": "False",
+          "explanation": "She studies in the morning and cooks at night.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "routine-01-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Mina gets up at six.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Mina gets up at six.",
+            "accepted": [
+              "Mina gets up at six."
             ]
           }
         },
@@ -3509,6 +3668,39 @@
           }
         },
         {
+          "id": "food-01-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: The sandwich is five dollars.",
+          "answer": "False",
+          "explanation": "The sandwich is three dollars.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "food-01-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "I would like tea and a sandwich.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "I would like tea and a sandwich.",
+            "accepted": [
+              "I would like tea and a sandwich."
+            ]
+          }
+        },
+        {
           "id": "food-01-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -3675,18 +3867,13 @@
           "id": "recall-water",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the drink you ask for here: Can I have ___?",
+          "prompt": "Write a sentence that asks for water.",
           "answer": "Can I have water?",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "water",
-              "the menu",
-              "Can I have",
-              "I would like"
-            ],
+            "type": "fillBlank",
             "accepted": [
-              "water"
+              "water",
+              "Can I have water?"
             ]
           }
         },
@@ -3908,6 +4095,39 @@
           }
         },
         {
+          "id": "a1-shopping-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina looks at hats.",
+          "answer": "False",
+          "explanation": "She looks at shoes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-shopping-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "I will take the shoes.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "I will take the shoes.",
+            "accepted": [
+              "I will take the shoes."
+            ]
+          }
+        },
+        {
           "id": "a1-shopping-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -4111,16 +4331,10 @@
           "id": "a1-shopping-recall-cash",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for paying with bills and coins.",
+          "prompt": "Write the word for paying with bills and coins.",
           "answer": "cash",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "cash",
-              "How much is this",
-              "a receipt",
-              "too big"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "cash"
             ]
@@ -4302,6 +4516,39 @@
             ],
             "accepted": [
               "On the left, past the bank."
+            ]
+          }
+        },
+        {
+          "id": "a1-places-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: The library is on the left.",
+          "answer": "False",
+          "explanation": "The library is on the right.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-places-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The library is on the right.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The library is on the right.",
+            "accepted": [
+              "The library is on the right."
             ]
           }
         },
@@ -4701,6 +4948,39 @@
           }
         },
         {
+          "id": "a1-hobbies-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: Mina plays the piano on Sunday.",
+          "answer": "True",
+          "explanation": "She plays the piano on Sunday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "a1-hobbies-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Mina plays the piano on Sunday.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Mina plays the piano on Sunday.",
+            "accepted": [
+              "Mina plays the piano on Sunday."
+            ]
+          }
+        },
+        {
           "id": "a1-hobbies-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -4888,16 +5168,10 @@
           "id": "a1-hobbies-recall-hobby",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for something you do for fun.",
+          "prompt": "Write the word for something you do for fun.",
           "answer": "hobby",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "hobby",
-              "free time",
-              "I play",
-              "I like"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "hobby"
             ]
@@ -5102,6 +5376,39 @@
           }
         },
         {
+          "id": "a1-weather-tf",
+          "kind": "reading",
+          "required": true,
+          "prompt": "True or false: It is cold and rainy.",
+          "answer": "False",
+          "explanation": "It is hot and sunny.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "a1-weather-dictation",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "It is hot and sunny.",
+          "explanation": "Listen for each word, then check the spelling.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "It is hot and sunny.",
+            "accepted": [
+              "It is hot and sunny."
+            ]
+          }
+        },
+        {
           "id": "a1-weather-production-v3-1",
           "kind": "grammar",
           "required": true,
@@ -5266,16 +5573,10 @@
           "id": "a1-weather-recall-rainy",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for weather with rain.",
+          "prompt": "Write the word for weather with rain.",
           "answer": "rainy",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "rainy",
-              "a coat",
-              "today",
-              "It is sunny"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "rainy"
             ]
@@ -5304,16 +5605,10 @@
           "id": "a1-weather-recall-today",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the word for this day.",
+          "prompt": "Write the word for this day.",
           "answer": "today",
           "exercise": {
-            "type": "choice",
-            "options": [
-              "today",
-              "It is sunny",
-              "It is cold",
-              "rainy"
-            ],
+            "type": "fillBlank",
             "accepted": [
               "today"
             ]

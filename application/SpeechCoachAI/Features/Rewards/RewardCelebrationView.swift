@@ -39,6 +39,26 @@ struct RewardCelebrationView: View {
     }
 }
 
+/// "+10 XP · +2 gold" for one answer, or nothing when it earned none.
+struct RewardEarnedLine: View {
+    var storage: LearnerStorageController
+    var source: String
+    @State private var ledger: RewardLedger?
+    var body: some View {
+        let rows = ledger?.transactions.filter { $0.source == source } ?? []
+        let xp = rows.reduce(0) { $0 + $1.xp }, gold = rows.reduce(0) { $0 + $1.gold }
+        Group {
+            if xp > 0 || gold > 0 {
+                Label("+\(xp) XP · +\(gold) gold", systemImage: "star.circle.fill")
+                    .font(.headline).foregroundStyle(Kit.accent)
+                    .accessibilityIdentifier("exercise.reward")
+            }
+        }
+        .onAppear { ledger = try? storage.repository?.rewardLedger() }
+        .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in ledger = try? storage.repository?.rewardLedger() }
+    }
+}
+
 struct RewardSummary: View {
     var storage: LearnerStorageController
     var sourcePrefix: String? = nil
