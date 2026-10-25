@@ -31,6 +31,11 @@ def validate(root=ROOT):
                     assert item['level'] in ['A1','A2','B1','B2','C1','C2'] and len(item['text'].split()) >= 50
                 if 'warmups' in path.name:
                     assert item['text'].strip() and 5 <= item['seconds'] <= 60
+                if 'interview' in path.name:
+                    assert item['set'] in ['general','job','study'] and item['setTitle'].strip()
+                    assert item['stage'] in ['opening','core','closing'] and item['level'] in ['A1','A2','B1','B2','C1','C2']
+                    assert item['text'].strip().endswith(('?','.')) and item['followUpShort'].strip() and item['followUpLong'].strip()
+                    assert item['followUpShort'] != item['followUpLong']
                 if 'dictation' in path.name:
                     assert item['text'].strip() and item['spoken'].strip()
                     assert item['category'] in ['Sentences','Numbers','Dates','Names','Spelling']
@@ -38,6 +43,12 @@ def validate(root=ROOT):
             if path.name == 'speechlab-voice.json':
                 assert len(data['items']) >= 8
                 assert set(x['level'] for x in data['items']) == {'A1','A2','B1','B2','C1','C2'}
+            if 'interview' in path.name:
+                for set_id in ['general','job','study']:
+                    rows = [x for x in data['items'] if x['set'] == set_id]
+                    assert all(any(x['stage'] == s for x in rows) for s in ['opening','core','closing'])
+                    assert sum(x['stage'] == 'core' for x in rows) >= 6
+                    assert any(x['level'] in ['A1','A2'] for x in rows if x['stage'] == 'core')
             if 'warmups' in path.name:
                 assert len(data['items']) >= 3
             if 'phonetics' in path.name:

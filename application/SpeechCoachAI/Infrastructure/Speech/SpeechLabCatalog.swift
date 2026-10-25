@@ -8,6 +8,7 @@ struct SpeechLabCatalog {
     var articulation: [SpeechLabArticulationItem] = []
     var passages: [SpeechLabPassage] = []
     var warmups: [SpeechLabWarmup] = []
+    var interview: [InterviewQuestionItem] = []
 
     init(bundle: Bundle = .main) {
         dictation = Self.read("dictation", bundle: bundle, as: SpeechLabDictationItem.self)
@@ -16,6 +17,7 @@ struct SpeechLabCatalog {
         articulation = Self.read("articulation", bundle: bundle, as: SpeechLabArticulationItem.self)
         passages = Self.read("voice", bundle: bundle, as: SpeechLabPassage.self)
         warmups = Self.read("warmups", bundle: bundle, as: SpeechLabWarmup.self)
+        interview = Self.read("interview", bundle: bundle, as: InterviewQuestionItem.self)
     }
     func title(for attempt: SpeechLabAttempt) -> String {
         let base = attempt.itemID.replacingOccurrences(of: "-listen", with: "").replacingOccurrences(of: "-say", with: "")

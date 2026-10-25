@@ -43,13 +43,12 @@ struct InterviewPracticeView: View {
             VStack(alignment: .leading, spacing: textSize.isAccessibilitySize ? 20 : 16) {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Practice an interview").font(.title2.bold())
-                    Text("Suggested presenter: Tiger Business Professional. You can keep the presenter you already chose. This practice does not complete a course.")
+                    Text("Prepare your answers, then practise them.")
                         .foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
                 }
                 if let storage {
                     SpeakingPracticePersistence(storage: storage, archive: archive, restore: restore)
                 }
-                AvailabilityCard(title: TurnModality.realtimeTitle, detail: TurnModality.realtimeDetail, symbol: "waveform.slash")
                 setup.disabled(session.retention.applied)
                 preparationCard.disabled(session.retention.applied)
                 if session.phase != .preparing { interviewLoop }
