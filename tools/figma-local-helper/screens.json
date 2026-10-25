@@ -1,0 +1,4905 @@
+[
+  {
+    "id": "ON-01",
+    "title": "Make English yours",
+    "sub": "A little practice. A little more confidence.",
+    "cards": [
+      [
+        "hero",
+        "Your next chapter",
+        "Grammar, words and speaking, connected."
+      ],
+      [
+        "field",
+        "What should we call you?",
+        "You can change this anytime.",
+        "Alex"
+      ],
+      [
+        "option",
+        "Speak with confidence",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "Improve grammar and vocabulary"
+      ]
+    ],
+    "primary": [
+      "Continue",
+      "ON-02"
+    ]
+  },
+  {
+    "id": "ON-02",
+    "title": "Your starting point",
+    "sub": "Choose freely. We’ll recommend a path.",
+    "cards": [
+      [
+        "chips",
+        "English level",
+        "Every released level is available.",
+        "A1|A2|B1|B2|C1|C2",
+        "LR-01"
+      ],
+      [
+        "option",
+        "B1 · Intermediate",
+        "Build clarity in everyday situations.",
+        "selected"
+      ],
+      [
+        "field",
+        "Daily active learning",
+        "Suggested for a work break.",
+        "25 minutes"
+      ],
+      [
+        "field",
+        "Activities per day",
+        "A separate goal from active time.",
+        "3 activities"
+      ]
+    ],
+    "primary": [
+      "Continue",
+      "ON-03"
+    ]
+  },
+  {
+    "id": "ON-03",
+    "title": "Meet your coach",
+    "sub": "All six are available. Switch anytime.",
+    "cards": [
+      [
+        "option",
+        "Elephant · Teacher",
+        "Patient guidance and practical examples.",
+        "selected"
+      ],
+      [
+        "option",
+        "Fox · Journalist",
+        "Curious questions and clear stories."
+      ],
+      [
+        "option",
+        "Owl · Grammarian",
+        "Patterns and precise explanations."
+      ],
+      [
+        "option",
+        "Bear · Librarian",
+        "Thoughtful words and reading."
+      ],
+      [
+        "option",
+        "Tiger · Business Professional",
+        "Confident workplace communication."
+      ],
+      [
+        "option",
+        "Parrot · Speaker",
+        "Expressive speaking and delivery."
+      ]
+    ],
+    "primary": [
+      "Choose Teacher",
+      "ON-04"
+    ]
+  },
+  {
+    "id": "ON-04",
+    "title": "Let’s hear your story",
+    "sub": "An introduction, at your pace.",
+    "cards": [
+      [
+        "hero",
+        "Introduce yourself",
+        "Tell us what you do and why you’re learning English."
+      ],
+      [
+        "item",
+        "You’re in control",
+        "Record, replay and try again before requesting any AI feedback."
+      ],
+      [
+        "item",
+        "Keep only what you choose",
+        "Saving your voice and saving learning notes are separate choices."
+      ]
+    ],
+    "primary": [
+      "Start introduction",
+      "SP-02"
+    ],
+    "secondary": [
+      "Explore Today first",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "TD-01",
+    "title": "Today",
+    "sub": "YOUR PERSONAL LEARNING PLAN",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Your next step is ready. Let’s build on it."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities completed",
+        "0.48"
+      ],
+      [
+        "item",
+        "01 · Describe your routine",
+        "Grammar · 6 min · Resume",
+        "",
+        "LR-03"
+      ],
+      [
+        "item",
+        "02 · Find your words",
+        "8 due reviews · 5 min",
+        "",
+        "VO-02"
+      ],
+      [
+        "item",
+        "03 · Tell your story",
+        "Speaking or quiet practice · 10 min",
+        "",
+        "TD-03"
+      ],
+      [
+        "item",
+        "Word of the day · articulate",
+        "Express an idea clearly.",
+        "",
+        "VO-04"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Choose something else",
+      "TD-02"
+    ],
+    "tab": "Today"
+  },
+  {
+    "id": "TD-02",
+    "title": "Make this break yours",
+    "sub": "Replace an activity without losing your work.",
+    "cards": [
+      [
+        "option",
+        "Recommended connected plan",
+        "Grammar → vocabulary → speaking",
+        "selected"
+      ],
+      [
+        "option",
+        "Focus on vocabulary",
+        "Review due words, then explore a topic."
+      ],
+      [
+        "option",
+        "Focus on speaking",
+        "Choose a Speech Lab prompt.",
+        "",
+        "SP-01"
+      ],
+      [
+        "item",
+        "Continue where you paused",
+        "Your lesson remains available on Today."
+      ]
+    ],
+    "primary": [
+      "Use this plan",
+      "TD-01"
+    ],
+    "secondary": [
+      "Cancel",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "TD-03",
+    "title": "How will you practice?",
+    "sub": "Choose for this session.",
+    "cards": [
+      [
+        "option",
+        "Quiet practice",
+        "Read and type. No microphone or automatic audio.",
+        "selected"
+      ],
+      [
+        "option",
+        "Speaking practice",
+        "Record when you tap Start."
+      ],
+      [
+        "item",
+        "Your effort counts fully",
+        "Quiet practice earns eligible rewards and supports your daily streak."
+      ]
+    ],
+    "primary": [
+      "Start quiet practice",
+      "EX-08"
+    ],
+    "secondary": [
+      "Start speaking practice",
+      "SP-02"
+    ]
+  },
+  {
+    "id": "TD-04",
+    "title": "Your break, your pace",
+    "sub": "The session timer is optional.",
+    "cards": [
+      [
+        "hero",
+        "18:42 remaining",
+        "25-minute break timer"
+      ],
+      [
+        "toggle",
+        "Session timer",
+        "Separate from active learning time.",
+        "on"
+      ],
+      [
+        "item",
+        "Paused lesson",
+        "Describe your routine · Exercise 3 of 7"
+      ],
+      [
+        "item",
+        "When the timer ends",
+        "Choose to finish the exercise or save your place."
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "EX-01"
+    ],
+    "secondary": [
+      "Save and leave",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "LR-01",
+    "title": "Your English path",
+    "sub": "Choose any released level.",
+    "cards": [
+      [
+        "chips",
+        "Level",
+        "Recommended starting point: B1",
+        "A1|A2|B1|B2|C1|C2",
+        "LR-02"
+      ],
+      [
+        "hero",
+        "B1 · Make yourself understood",
+        "Grammar · Vocabulary · Speaking · Listening · Reading"
+      ],
+      [
+        "item",
+        "Unit 1 · Everyday connections",
+        "Lesson 2 · Describe your routine · In progress",
+        "",
+        "LR-03"
+      ],
+      [
+        "item",
+        "Unit 2 · Tell a story",
+        "Recommended next",
+        "",
+        "LR-02"
+      ],
+      [
+        "item",
+        "Optional detour · Interview practice",
+        "Apply your English to work",
+        "",
+        "SP-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": null,
+    "tab": "Learn"
+  },
+  {
+    "id": "LR-02",
+    "title": "Try this lesson now?",
+    "sub": "The path order is a recommendation.",
+    "cards": [
+      [
+        "hero",
+        "Tell a story",
+        "B1 · Past events and sequencing"
+      ],
+      [
+        "item",
+        "Before you begin",
+        "This lesson uses past-tense patterns. You can return to an earlier explanation anytime."
+      ],
+      [
+        "item",
+        "Your current lesson stays saved",
+        "Describe your routine · Exercise 3 of 7"
+      ]
+    ],
+    "primary": [
+      "Start this lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Keep my current lesson",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "LR-03",
+    "title": "Describe your routine",
+    "sub": "B1 · Grammar and everyday speaking",
+    "cards": [
+      [
+        "hero",
+        "Small habits, clear sentences",
+        "Use the simple present for routines."
+      ],
+      [
+        "item",
+        "A useful pattern",
+        "I start work at nine.\nShe starts work at nine."
+      ],
+      [
+        "item",
+        "Notice the verb",
+        "With he, she or it, often add -s. Use the base verb after I, you, we or they."
+      ],
+      [
+        "item",
+        "Another example",
+        "He walks to the office.",
+        "",
+        "EX-09"
+      ]
+    ],
+    "primary": [
+      "Practice this pattern",
+      "EX-01"
+    ],
+    "secondary": [
+      "Skip explanation",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "LR-04",
+    "title": "Look what you practiced",
+    "sub": "Your lesson is complete.",
+    "cards": [
+      [
+        "hero",
+        "Everyday routines",
+        "You practiced grammar, words and an applied response."
+      ],
+      [
+        "item",
+        "Rewards earned",
+        "Exercise rewards are included here, once.\n+70 XP · +14 gold"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Tell someone about a typical workday."
+      ],
+      [
+        "progress",
+        "Daily activities · 2 of 3",
+        "You’re building a steady rhythm.",
+        "0.67"
+      ]
+    ],
+    "primary": [
+      "Continue my plan",
+      "TD-01"
+    ],
+    "secondary": [
+      "Repeat a useful exercise",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "LR-05",
+    "title": "Let’s make it click",
+    "sub": "We can take a gentler next step.",
+    "cards": [
+      [
+        "option",
+        "Try a simpler example",
+        "Practice the same idea with more support.",
+        "selected"
+      ],
+      [
+        "option",
+        "Revisit the explanation",
+        "Free, whenever you need it.",
+        "",
+        "LR-03"
+      ],
+      [
+        "option",
+        "Try a harder challenge",
+        "Only if you feel ready."
+      ]
+    ],
+    "primary": [
+      "Try the simpler example",
+      "EX-01"
+    ],
+    "secondary": [
+      "Keep this difficulty",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "LR-06",
+    "title": "Something looks wrong?",
+    "sub": "Help us improve this activity.",
+    "cards": [
+      [
+        "option",
+        "Answer or explanation is incorrect",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "Audio or wording is unclear"
+      ],
+      [
+        "field",
+        "What did you notice?",
+        "Optional. Avoid private details.",
+        "The explanation needs another example."
+      ],
+      [
+        "item",
+        "Your progress is safe",
+        "You can skip this activity and try a comparable replacement."
+      ]
+    ],
+    "primary": [
+      "Save report",
+      "LR-06-saved"
+    ],
+    "secondary": [
+      "Cancel",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "EX-01",
+    "title": "Choose the missing word",
+    "sub": "Describe your routine · 3 of 7",
+    "cards": [
+      [
+        "hero",
+        "She ___ work at nine.",
+        "Choose the verb that fits."
+      ],
+      [
+        "option",
+        "start"
+      ],
+      [
+        "option",
+        "starts",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "starting"
+      ]
+    ],
+    "primary": [
+      "Check answer",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "Help me think",
+      "EX-09"
+    ]
+  },
+  {
+    "id": "EX-02",
+    "title": "Build a sentence",
+    "sub": "Describe your routine · 4 of 7",
+    "cards": [
+      [
+        "hero",
+        "A regular morning",
+        "Tap words in order. Tap a word again to remove it."
+      ],
+      [
+        "chips",
+        "Your sentence",
+        "",
+        "I|walk|to|work",
+        "EX-02"
+      ],
+      [
+        "chips",
+        "Available words",
+        "You can also use an accessible list.",
+        "every|morning|walk|work",
+        "EX-02"
+      ],
+      [
+        "item",
+        "Need another way?",
+        "Choose words from a numbered list.",
+        "",
+        "EX-02-list"
+      ]
+    ],
+    "primary": [
+      "Check sentence",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "View explanation",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-03",
+    "title": "Find the missing word",
+    "sub": "Describe your routine · 5 of 7",
+    "cards": [
+      [
+        "hero",
+        "He ___ the bus to work.",
+        "Type the verb in its correct form."
+      ],
+      [
+        "field",
+        "Your answer",
+        "",
+        "takes"
+      ],
+      [
+        "item",
+        "Keep going at your pace",
+        "You can request a hint or revisit the explanation."
+      ]
+    ],
+    "primary": [
+      "Check answer",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "Get a hint",
+      "EX-09"
+    ]
+  },
+  {
+    "id": "EX-04",
+    "title": "Make it sound right",
+    "sub": "Describe your routine · 6 of 7",
+    "cards": [
+      [
+        "hero",
+        "She walk to work every day.",
+        "Correct the verb. Keep the meaning."
+      ],
+      [
+        "field",
+        "Your correction",
+        "",
+        "She walks to work every day."
+      ],
+      [
+        "item",
+        "Focus on the pattern",
+        "Who is doing the action?"
+      ]
+    ],
+    "primary": [
+      "Check correction",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "View explanation",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-05",
+    "title": "Listen for the routine",
+    "sub": "Listening · Audio plays only when you choose.",
+    "cards": [
+      [
+        "wave",
+        "A typical morning",
+        "Reference audio · 0:18"
+      ],
+      [
+        "item",
+        "▶ Play reference",
+        "Playback speed · 1×",
+        "",
+        "EX-05-playing"
+      ],
+      [
+        "hero",
+        "How does Maya get to work?",
+        "Listen, then choose an answer."
+      ],
+      [
+        "option",
+        "She takes the bus.",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "She walks."
+      ]
+    ],
+    "primary": [
+      "Check answer",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "Switch to quiet practice",
+      "TD-03"
+    ]
+  },
+  {
+    "id": "EX-06",
+    "title": "Read for the details",
+    "sub": "Reading · Everyday routines",
+    "cards": [
+      [
+        "item",
+        "Maya’s morning",
+        "Maya starts work at nine. She usually takes the bus. On Fridays, she walks with her friend."
+      ],
+      [
+        "hero",
+        "When does Maya walk?",
+        "Choose the detail from the passage."
+      ],
+      [
+        "option",
+        "On Fridays.",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "Every morning."
+      ]
+    ],
+    "primary": [
+      "Check answer",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "Read another example",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-07",
+    "title": "Read it your way",
+    "sub": "Speaking · Your microphone starts only on tap.",
+    "cards": [
+      [
+        "hero",
+        "“I usually walk to work.”",
+        "Read naturally. You can try again."
+      ],
+      [
+        "item",
+        "▶ Hear a reference",
+        "Playback speed · 1×",
+        "",
+        "EX-05-playing"
+      ],
+      [
+        "wave",
+        "Ready to record",
+        "Nothing is recording yet."
+      ],
+      [
+        "item",
+        "No automatic sound score",
+        "You can replay and self-review, or request supported feedback online."
+      ]
+    ],
+    "primary": [
+      "Start recording",
+      "SP-06"
+    ],
+    "secondary": [
+      "Choose quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "EX-08",
+    "title": "Tell us about your day",
+    "sub": "Open response · Quiet practice",
+    "cards": [
+      [
+        "hero",
+        "What is your morning like?",
+        "Write two or three sentences about your routine."
+      ],
+      [
+        "field",
+        "Your response",
+        "",
+        "I start work at nine. I usually walk to the office."
+      ],
+      [
+        "item",
+        "Before you finish",
+        "Read your sentences once. Check the verbs and the message."
+      ],
+      [
+        "item",
+        "Optional AI coaching",
+        "Available online after you choose to submit.",
+        "",
+        "ST-06"
+      ]
+    ],
+    "primary": [
+      "Finish self-review",
+      "LR-04"
+    ],
+    "secondary": [
+      "Get AI feedback",
+      "ST-06"
+    ]
+  },
+  {
+    "id": "EX-09",
+    "title": "A little support",
+    "sub": "Free explanations are always available.",
+    "cards": [
+      [
+        "hero",
+        "Think about “she”",
+        "In a routine sentence, the verb often ends in -s."
+      ],
+      [
+        "item",
+        "Hint · Free today",
+        "2 of 3 daily free hints remaining."
+      ],
+      [
+        "item",
+        "Extra worked example · 4 gold",
+        "Review cost before spending.",
+        "",
+        "EX-09-buy"
+      ],
+      [
+        "item",
+        "Revisit the explanation · Free",
+        "Practice stays available with no gold.",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Try again",
+      "EX-01"
+    ],
+    "secondary": [
+      "View explanation",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "VO-01",
+    "title": "Your words",
+    "sub": "Keep useful words close.",
+    "cards": [
+      [
+        "field",
+        "Search words or collections",
+        "",
+        "routine"
+      ],
+      [
+        "hero",
+        "8 words ready to review",
+        "A few minutes can make them easier to recall."
+      ],
+      [
+        "item",
+        "Workday English",
+        "24 words · 8 due",
+        "",
+        "VO-07"
+      ],
+      [
+        "item",
+        "Word of the day · articulate",
+        "Express an idea clearly.",
+        "",
+        "VO-04"
+      ],
+      [
+        "item",
+        "Build a topic",
+        "Create manually or generate online.",
+        "",
+        "VO-05"
+      ]
+    ],
+    "primary": [
+      "Review due words",
+      "VO-02"
+    ],
+    "secondary": [
+      "Add a word",
+      "VO-04"
+    ],
+    "tab": "Vocabulary"
+  },
+  {
+    "id": "VO-02",
+    "title": "Bring the word to mind",
+    "sub": "Workday English · 1 of 8",
+    "cards": [
+      [
+        "hero",
+        "Express an idea clearly",
+        "Which verb means this?"
+      ],
+      [
+        "field",
+        "Optional typed recall",
+        "Or think of the answer silently.",
+        ""
+      ],
+      [
+        "item",
+        "Take a moment",
+        "Reveal when you’re ready. You’ll rate your own recall afterward."
+      ]
+    ],
+    "primary": [
+      "Reveal answer",
+      "VO-03"
+    ],
+    "secondary": [
+      "Finish for now",
+      "VO-03-summary"
+    ]
+  },
+  {
+    "id": "VO-03",
+    "title": "How did recall feel?",
+    "sub": "Workday English · 1 of 8",
+    "cards": [
+      [
+        "hero",
+        "articulate",
+        "Express an idea clearly.\n“She articulated the problem well.”"
+      ],
+      [
+        "option",
+        "Again · I didn’t recall it",
+        "",
+        "",
+        "VO-02"
+      ],
+      [
+        "option",
+        "Hard · I needed effort",
+        "",
+        "",
+        "VO-02"
+      ],
+      [
+        "option",
+        "Good · I recalled it",
+        "",
+        "selected",
+        "VO-02"
+      ],
+      [
+        "option",
+        "Easy · It came quickly",
+        "",
+        "",
+        "VO-02"
+      ]
+    ],
+    "primary": [
+      "Rate Good and continue",
+      "VO-02"
+    ],
+    "secondary": [
+      "Finish review",
+      "VO-03-summary"
+    ]
+  },
+  {
+    "id": "VO-04",
+    "title": "A word worth keeping",
+    "sub": "Save to a collection and review separately.",
+    "cards": [
+      [
+        "field",
+        "Word or phrase",
+        "",
+        "articulate"
+      ],
+      [
+        "field",
+        "Meaning",
+        "",
+        "Express an idea clearly"
+      ],
+      [
+        "field",
+        "Example",
+        "",
+        "She articulated the problem well."
+      ],
+      [
+        "item",
+        "Collection · Workday English",
+        "Keep the word organized."
+      ],
+      [
+        "toggle",
+        "Add to review",
+        "Include it in scheduled recall.",
+        "off"
+      ]
+    ],
+    "primary": [
+      "Save word",
+      "VO-04-saved"
+    ],
+    "secondary": [
+      "Cancel",
+      "VO-01"
+    ]
+  },
+  {
+    "id": "VO-05",
+    "title": "Build a useful topic",
+    "sub": "Manual creation works offline.",
+    "cards": [
+      [
+        "field",
+        "Topic",
+        "",
+        "Workplace conversations"
+      ],
+      [
+        "chips",
+        "Narrow it down",
+        "Optional subtopic.",
+        "Meetings|Updates|Feedback",
+        "VO-05"
+      ],
+      [
+        "field",
+        "Level and word count",
+        "",
+        "B1 · 10 words"
+      ],
+      [
+        "field",
+        "Purpose",
+        "",
+        "Give clearer project updates"
+      ]
+    ],
+    "primary": [
+      "Preview generated words",
+      "ST-06"
+    ],
+    "secondary": [
+      "Add words manually",
+      "VO-04"
+    ]
+  },
+  {
+    "id": "VO-06",
+    "title": "Choose your words",
+    "sub": "Preview before saving or adding to review.",
+    "cards": [
+      [
+        "option",
+        "articulate",
+        "Express an idea clearly.",
+        "selected",
+        "VO-04"
+      ],
+      [
+        "option",
+        "clarify",
+        "Make something easier to understand.",
+        "selected",
+        "VO-04"
+      ],
+      [
+        "option",
+        "follow up",
+        "Take further action after a conversation.",
+        "selected",
+        "VO-04"
+      ],
+      [
+        "toggle",
+        "Add selected words to review",
+        "Saving to a collection is separate.",
+        "off"
+      ],
+      [
+        "item",
+        "3 words selected",
+        "Workplace conversations · B1"
+      ]
+    ],
+    "primary": [
+      "Save selected words",
+      "VO-07"
+    ],
+    "secondary": [
+      "Edit a word",
+      "VO-04"
+    ]
+  },
+  {
+    "id": "VO-07",
+    "title": "Workday English",
+    "sub": "Your personal collection · 24 words",
+    "cards": [
+      [
+        "item",
+        "8 due for recall",
+        "Review only when you’re ready.",
+        "",
+        "VO-02"
+      ],
+      [
+        "item",
+        "articulate",
+        "Express an idea clearly.",
+        "",
+        "VO-04"
+      ],
+      [
+        "item",
+        "clarify",
+        "Make something easier to understand.",
+        "",
+        "VO-04"
+      ],
+      [
+        "item",
+        "Rename collection",
+        "Keep a title that works for you.",
+        "",
+        "VO-07-edit"
+      ],
+      [
+        "item",
+        "Manage review enrollment",
+        "Remove a word from review separately from this collection.",
+        "",
+        "VO-07-edit"
+      ]
+    ],
+    "primary": [
+      "Review this collection",
+      "VO-02"
+    ],
+    "secondary": [
+      "Add a word",
+      "VO-04"
+    ]
+  },
+  {
+    "id": "TD-05",
+    "title": "A small speaking routine",
+    "sub": "Optional. Choose what helps today.",
+    "cards": [
+      [
+        "option",
+        "Clarify one idea",
+        "Say it in a single clear sentence.",
+        "selected",
+        "SP-05"
+      ],
+      [
+        "option",
+        "Summarize a story",
+        "Explain the point in your own words.",
+        "selected",
+        "SP-02"
+      ],
+      [
+        "option",
+        "Find a missing word",
+        "Describe what you mean.",
+        "",
+        "SP-13"
+      ]
+    ],
+    "primary": [
+      "Start selected practice",
+      "SP-05"
+    ],
+    "secondary": [
+      "Skip for today",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "SP-01",
+    "title": "Speech Lab",
+    "sub": "A space to try, listen and grow.",
+    "cards": [
+      [
+        "hero",
+        "What would you like to practice?",
+        "Start independently or continue your daily plan."
+      ],
+      [
+        "item",
+        "Everyday speaking",
+        "Introductions, stories and spontaneous prompts.",
+        "",
+        "SP-02"
+      ],
+      [
+        "item",
+        "Pronunciation & articulation",
+        "Sounds, clear expression and word retrieval.",
+        "",
+        "SP-04"
+      ],
+      [
+        "item",
+        "Interview & business",
+        "Role-focused answers and workplace scenarios.",
+        "",
+        "SP-03"
+      ],
+      [
+        "item",
+        "Communication techniques",
+        "Clarity, listening and difficult conversations.",
+        "",
+        "SP-05"
+      ]
+    ],
+    "primary": [
+      "Choose a prompt",
+      "SP-02"
+    ],
+    "secondary": null,
+    "tab": "Speech Lab"
+  },
+  {
+    "id": "SP-02",
+    "title": "Tell your story",
+    "sub": "Everyday speaking · B1",
+    "cards": [
+      [
+        "hero",
+        "Introduce yourself",
+        "What do you do, and what do you enjoy about it?"
+      ],
+      [
+        "toggle",
+        "Show talking points",
+        "Your role · a typical day · an interest",
+        "on"
+      ],
+      [
+        "item",
+        "Preview a sample",
+        "Hidden until you choose it.",
+        "",
+        "SP-02-sample"
+      ],
+      [
+        "toggle",
+        "Three-second countdown",
+        "Start recording after a short count-in.",
+        "off"
+      ],
+      [
+        "item",
+        "Change prompt or level",
+        "Choose a topic that feels useful today.",
+        "",
+        "SP-02-edit"
+      ]
+    ],
+    "primary": [
+      "Ready to record",
+      "SP-06"
+    ],
+    "secondary": [
+      "Quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SP-03",
+    "title": "Practice for work",
+    "sub": "Interview & business communication",
+    "cards": [
+      [
+        "field",
+        "Role and audience",
+        "",
+        "Software engineer · Hiring manager"
+      ],
+      [
+        "field",
+        "Scenario",
+        "",
+        "Explain a project decision"
+      ],
+      [
+        "option",
+        "Clear, structured answer",
+        "Situation → action → result",
+        "selected"
+      ],
+      [
+        "toggle",
+        "Technical coaching",
+        "Optional. Focus on your reasoning.",
+        "off"
+      ],
+      [
+        "item",
+        "Use your own experience",
+        "Samples help structure an answer. Keep achievements factual."
+      ]
+    ],
+    "primary": [
+      "Practice this question",
+      "SP-06"
+    ],
+    "secondary": [
+      "Choose business scenario",
+      "SP-03-business"
+    ]
+  },
+  {
+    "id": "SP-04",
+    "title": "Make your message clear",
+    "sub": "Pronunciation & articulation",
+    "cards": [
+      [
+        "option",
+        "Sound practice",
+        "/θ/ in think and thought",
+        "selected"
+      ],
+      [
+        "option",
+        "Clear expression",
+        "Say one idea with fewer words."
+      ],
+      [
+        "option",
+        "Word retrieval",
+        "Describe the word you’re looking for.",
+        "",
+        "SP-13"
+      ],
+      [
+        "item",
+        "▶ Play reference · 1×",
+        "Audio plays only on tap.",
+        "",
+        "SP-04-reference"
+      ],
+      [
+        "item",
+        "Replay and self-review",
+        "Sound assessment appears only when a supported service provides it."
+      ]
+    ],
+    "primary": [
+      "Start practice",
+      "SP-06"
+    ],
+    "secondary": [
+      "Practice quietly",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SP-05",
+    "title": "One clear idea",
+    "sub": "Communication techniques",
+    "cards": [
+      [
+        "hero",
+        "Point → reason → example",
+        "A simple scaffold for a concise response."
+      ],
+      [
+        "item",
+        "See it in action",
+        "“I prefer walking. It helps me reset. Yesterday I arrived feeling focused.”"
+      ],
+      [
+        "option",
+        "Use this scaffold",
+        "Talking points stay visible.",
+        "selected"
+      ],
+      [
+        "option",
+        "Practice without a framework"
+      ],
+      [
+        "item",
+        "Explore other techniques",
+        "Listen and respond · Persuasion · Difficult conversations",
+        "",
+        "SP-05-techniques"
+      ]
+    ],
+    "primary": [
+      "Try it yourself",
+      "SP-06"
+    ],
+    "secondary": [
+      "Return to Today",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "SP-06",
+    "title": "Your story, your voice",
+    "sub": "Recording · Tap Stop when you’re finished.",
+    "cards": [
+      [
+        "hero",
+        "Introduce yourself",
+        "What do you do, and what do you enjoy about it?"
+      ],
+      [
+        "wave",
+        "00:42 · Recording",
+        "Built-in microphone"
+      ],
+      [
+        "item",
+        "Talking points",
+        "Your role · a typical day · an interest"
+      ],
+      [
+        "item",
+        "Pause anytime",
+        "Recording is explicit. Your take stays available for review."
+      ]
+    ],
+    "primary": [
+      "Stop and review",
+      "SP-07"
+    ],
+    "secondary": [
+      "Pause",
+      "SP-06-paused"
+    ]
+  },
+  {
+    "id": "SP-07",
+    "title": "Listen to your take",
+    "sub": "Take 1 · Introduction · 0:42",
+    "cards": [
+      [
+        "wave",
+        "▶ Play recording",
+        "0:00 / 0:42 · Playback speed 1×"
+      ],
+      [
+        "item",
+        "Try another take",
+        "Your current take stays until you accept a replacement.",
+        "",
+        "SP-07-replace"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Self-review works offline. AI feedback starts only when you submit."
+      ]
+    ],
+    "primary": [
+      "Get AI feedback",
+      "ST-06"
+    ],
+    "secondary": [
+      "Finish with self-review",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SP-08",
+    "title": "Did we hear you right?",
+    "sub": "Review the transcript before coaching.",
+    "cards": [
+      [
+        "item",
+        "▶ Replay your take",
+        "0:42 · Audio remains available during this session.",
+        "",
+        "SP-07"
+      ],
+      [
+        "field",
+        "Recognized transcript",
+        "Original recognition is kept separate from edits.",
+        "I work as a software engineer. I enjoy solving problems with my team."
+      ],
+      [
+        "item",
+        "Check uncertain words",
+        "Confirm the meaning before you continue."
+      ]
+    ],
+    "primary": [
+      "Confirm and get feedback",
+      "SP-09"
+    ],
+    "secondary": [
+      "Edit transcript",
+      "SP-08-edit"
+    ]
+  },
+  {
+    "id": "SP-09",
+    "title": "A clearer next try",
+    "sub": "Teacher · Feedback on your confirmed text",
+    "cards": [
+      [
+        "hero",
+        "You made your role clear",
+        "Your introduction explains what you do in a direct, friendly way."
+      ],
+      [
+        "item",
+        "1 · Make the idea more specific",
+        "Add a concrete example of the problems you enjoy solving."
+      ],
+      [
+        "item",
+        "2 · Connect your thoughts",
+        "Try: “I enjoy solving problems, especially when I can work with my team.”"
+      ],
+      [
+        "item",
+        "Your retry task",
+        "Give a new introduction with one specific example.",
+        "",
+        "SP-06"
+      ],
+      [
+        "item",
+        "See examples and transcript highlights",
+        "Text feedback is separate from sound assessment.",
+        "",
+        "SP-09-detail"
+      ]
+    ],
+    "primary": [
+      "Try once more",
+      "SP-06"
+    ],
+    "secondary": [
+      "Finish session",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-10",
+    "title": "What did you notice?",
+    "sub": "Self-review · Works offline",
+    "cards": [
+      [
+        "option",
+        "My message was easy to follow",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "I want to try a clearer example"
+      ],
+      [
+        "field",
+        "A note for next time",
+        "Optional.",
+        "Pause between ideas."
+      ],
+      [
+        "item",
+        "Practice still counts",
+        "Eligible participation rewards don’t depend on successful AI feedback."
+      ]
+    ],
+    "primary": [
+      "Finish self-review",
+      "SP-11"
+    ],
+    "secondary": [
+      "Try again",
+      "SP-06"
+    ]
+  },
+  {
+    "id": "SP-11",
+    "title": "Keep what helps you",
+    "sub": "Saving your voice is always optional.",
+    "cards": [
+      [
+        "toggle",
+        "Keep this recording",
+        "Save the accepted take on this device.",
+        "off"
+      ],
+      [
+        "toggle",
+        "Keep transcript and feedback",
+        "Keep learning notes without keeping your voice.",
+        "on"
+      ],
+      [
+        "item",
+        "Your current choices",
+        "Text notes will be saved. The temporary recording will be removed after pending requests settle."
+      ],
+      [
+        "item",
+        "Nothing uploads automatically",
+        "Saving locally is separate from requesting online feedback."
+      ]
+    ],
+    "primary": [
+      "Save selected",
+      "PG-04"
+    ],
+    "secondary": [
+      "Don’t save anything",
+      "SP-11-discard"
+    ]
+  },
+  {
+    "id": "SP-12",
+    "title": "See what changed",
+    "sub": "Introduction · Comparable retry",
+    "cards": [
+      [
+        "item",
+        "Earlier · Take 1",
+        "Text notes saved · Recording not retained."
+      ],
+      [
+        "item",
+        "Latest · Take 2",
+        "▶ Play · 0:48 · Text notes saved"
+      ],
+      [
+        "hero",
+        "A more specific example",
+        "Your latest introduction names a problem you enjoy solving."
+      ],
+      [
+        "item",
+        "View side-by-side notes",
+        "Compare the task and feedback context.",
+        "",
+        "SP-12-detail"
+      ],
+      [
+        "item",
+        "Export or delete this attempt",
+        "You control what stays saved.",
+        "",
+        "PR-02"
+      ]
+    ],
+    "primary": [
+      "Try this prompt again",
+      "SP-06"
+    ],
+    "secondary": [
+      "Return to history",
+      "PG-02"
+    ]
+  },
+  {
+    "id": "SP-13",
+    "title": "Find the word you mean",
+    "sub": "Describe it in English.",
+    "cards": [
+      [
+        "field",
+        "What are you trying to say?",
+        "",
+        "Making an idea easier to understand"
+      ],
+      [
+        "item",
+        "Try “clarify”",
+        "“Could you clarify the next step?”"
+      ],
+      [
+        "item",
+        "Another possibility · explain",
+        "Use it when giving more detail."
+      ],
+      [
+        "item",
+        "Keep your own voice",
+        "Suggestions won’t replace your draft."
+      ]
+    ],
+    "primary": [
+      "Use “clarify”",
+      "EX-08"
+    ],
+    "secondary": [
+      "Back to my draft",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "PG-01",
+    "title": "Your learning rhythm",
+    "sub": "Private progress · This week",
+    "cards": [
+      [
+        "hero",
+        "You showed up on 4 days",
+        "A steady rhythm grows one session at a time."
+      ],
+      [
+        "progress",
+        "Grammar · 8 activities",
+        "Practice evidence, not a proficiency score.",
+        "0.55"
+      ],
+      [
+        "item",
+        "Vocabulary · 24 rated reviews",
+        "Speaking · 3 self-reviewed attempts"
+      ],
+      [
+        "item",
+        "Listening · 2 activities",
+        "Reading · 4 activities"
+      ],
+      [
+        "item",
+        "Suggested focus · Speaking",
+        "Try one concise answer this week.",
+        "",
+        "SP-05"
+      ],
+      [
+        "item",
+        "Achievements & history",
+        "640 XP · Level 4 · View evidence",
+        "",
+        "PG-02"
+      ]
+    ],
+    "primary": [
+      "Explore achievements",
+      "PG-03"
+    ],
+    "secondary": null,
+    "tab": "Progress"
+  },
+  {
+    "id": "PG-02",
+    "title": "Your activity history",
+    "sub": "All skills · This week",
+    "cards": [
+      [
+        "chips",
+        "Filter",
+        "Choose a skill or activity.",
+        "All|Words|Speech|Lessons",
+        "PG-02"
+      ],
+      [
+        "item",
+        "Introduction · Today",
+        "Self-review · Text retained · +30 XP / +6 gold",
+        "",
+        "SP-12"
+      ],
+      [
+        "item",
+        "Describe your routine · Yesterday",
+        "Grammar practice · 7 exercises",
+        "",
+        "LR-04"
+      ],
+      [
+        "item",
+        "Workday English · Yesterday",
+        "8 rated reviews",
+        "",
+        "VO-03-summary"
+      ],
+      [
+        "item",
+        "Speaking detail",
+        "3 attempts with reflection this week.",
+        "",
+        "SP-12"
+      ]
+    ],
+    "primary": [
+      "Practice again",
+      "SP-01"
+    ],
+    "secondary": [
+      "View storage",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PG-03",
+    "title": "Small steps, earned",
+    "sub": "Your achievements are private.",
+    "cards": [
+      [
+        "hero",
+        "Finding your rhythm",
+        "Practice on four days in one week."
+      ],
+      [
+        "item",
+        "Earned · This week",
+        "Based on recorded study participation, not an English level."
+      ],
+      [
+        "item",
+        "Next milestone · Make yourself heard",
+        "Complete five speaking tasks with self-review.\n3 of 5 completed."
+      ],
+      [
+        "item",
+        "Your evidence",
+        "View the activities behind this milestone.",
+        "",
+        "PG-02"
+      ]
+    ],
+    "primary": [
+      "Keep practicing",
+      "TD-01"
+    ],
+    "secondary": [
+      "View streak tools",
+      "PG-06"
+    ]
+  },
+  {
+    "id": "PG-04",
+    "title": "You made time to grow",
+    "sub": "Session complete",
+    "cards": [
+      [
+        "hero",
+        "One more step forward",
+        "You practiced your introduction and reflected on it."
+      ],
+      [
+        "item",
+        "Speaking + self-review",
+        "Reward once · +30 XP · +6 gold"
+      ],
+      [
+        "item",
+        "Your progress is yours",
+        "A useful retry is a new chance to improve."
+      ],
+      [
+        "progress",
+        "2 of 3 daily activities",
+        "Keep going when it suits your day.",
+        "0.67"
+      ]
+    ],
+    "primary": [
+      "Continue",
+      "TD-01"
+    ],
+    "secondary": [
+      "See my progress",
+      "PG-01"
+    ]
+  },
+  {
+    "id": "PG-05",
+    "title": "Your gold",
+    "sub": "Earned through practice. No money purchases.",
+    "cards": [
+      [
+        "hero",
+        "120 gold",
+        "Use it for optional tools and extra support."
+      ],
+      [
+        "item",
+        "Freeze · 20 gold",
+        "Protect one missed day.",
+        "",
+        "PG-06"
+      ],
+      [
+        "item",
+        "Repair · 30 gold per missed day",
+        "Restore a gap of up to seven days.",
+        "",
+        "PG-07"
+      ],
+      [
+        "item",
+        "Learning support",
+        "3 daily free hints, then 2 gold. Extra example: 4 gold.",
+        "",
+        "EX-09-buy"
+      ],
+      [
+        "item",
+        "Reward history",
+        "Speaking +6 · Reviews +16 · Plan bonus +10"
+      ]
+    ],
+    "primary": [
+      "View streak tools",
+      "PG-06"
+    ],
+    "secondary": [
+      "Back to progress",
+      "PG-01"
+    ]
+  },
+  {
+    "id": "PG-06",
+    "title": "Protect your rhythm",
+    "sub": "Freeze inventory",
+    "cards": [
+      [
+        "hero",
+        "3 Freezes available",
+        "One Freeze protects one missed day."
+      ],
+      [
+        "toggle",
+        "Use a Freeze automatically",
+        "One per missed day, while stock lasts.",
+        "on"
+      ],
+      [
+        "item",
+        "Buy one Freeze",
+        "Cost: 20 gold · Balance after purchase: 100"
+      ],
+      [
+        "item",
+        "Your history",
+        "Last Freeze used · One missed day protected."
+      ]
+    ],
+    "primary": [
+      "Buy for 20 gold",
+      "PG-06-confirm"
+    ],
+    "secondary": [
+      "View Repair",
+      "PG-07"
+    ]
+  },
+  {
+    "id": "PG-07",
+    "title": "Continue your streak",
+    "sub": "2 missed days · Eligible for Repair",
+    "cards": [
+      [
+        "hero",
+        "Restore your continuity",
+        "Your previous streak can continue."
+      ],
+      [
+        "item",
+        "Repair cost · 60 gold",
+        "30 gold × 2 missed days\nBalance after purchase: 60 gold"
+      ],
+      [
+        "item",
+        "Study history stays truthful",
+        "Repair preserves continuity without adding completed study days."
+      ],
+      [
+        "item",
+        "You can start fresh",
+        "Beyond seven missed days, begin a new streak."
+      ]
+    ],
+    "primary": [
+      "Repair for 60 gold",
+      "PG-07-confirm"
+    ],
+    "secondary": [
+      "Start a new streak",
+      "PG-01"
+    ]
+  },
+  {
+    "id": "ST-01",
+    "title": "Your preferences",
+    "sub": "Make practice feel right for you.",
+    "cards": [
+      [
+        "item",
+        "Learning profile",
+        "Alex · B1 · 25 minutes · 3 activities",
+        "",
+        "ON-02"
+      ],
+      [
+        "item",
+        "Your coach",
+        "Elephant Teacher · All six unlocked",
+        "",
+        "ON-03"
+      ],
+      [
+        "item",
+        "Appearance",
+        "Background style · Light / Dark / System",
+        "",
+        "ST-02"
+      ],
+      [
+        "item",
+        "Sound & voice",
+        "Music · Effects · Coach speech · Haptics",
+        "",
+        "ST-03"
+      ],
+      [
+        "item",
+        "Reminders",
+        "Choose days, time and goal condition",
+        "",
+        "ST-04"
+      ],
+      [
+        "item",
+        "AI providers & privacy",
+        "Keys · Submission disclosure · Storage",
+        "",
+        "ST-05"
+      ],
+      [
+        "item",
+        "Manage learning data",
+        "Saved recordings, notes and exports",
+        "",
+        "PR-01"
+      ]
+    ],
+    "primary": [
+      "Done",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "ST-02",
+    "title": "Make it feel like you",
+    "sub": "All backgrounds are free.",
+    "cards": [
+      [
+        "option",
+        "Creative Academy",
+        "Warm paper and calm green accents.",
+        "selected",
+        "AX-01"
+      ],
+      [
+        "option",
+        "Adventure Atlas",
+        "Blue skies, maps and coral accents.",
+        "",
+        "AX-01-atlas"
+      ],
+      [
+        "option",
+        "Mixed-Media Studio",
+        "Paper, ink and playful collage.",
+        "",
+        "AX-01-studio"
+      ],
+      [
+        "chips",
+        "Appearance",
+        "Independent of background and coach.",
+        "Light|Dark|System",
+        "AX-01-dark"
+      ],
+      [
+        "item",
+        "Preview before applying",
+        "Your coach and learning progress stay with you."
+      ]
+    ],
+    "primary": [
+      "Apply preview",
+      "TD-01"
+    ],
+    "secondary": [
+      "Cancel",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "ST-03",
+    "title": "Sound & voice",
+    "sub": "Keep feedback comfortable.",
+    "cards": [
+      [
+        "toggle",
+        "Music",
+        "Background music, when available.",
+        "off"
+      ],
+      [
+        "toggle",
+        "Sound effects",
+        "Optional reward and interaction sounds.",
+        "on"
+      ],
+      [
+        "toggle",
+        "Coach speech",
+        "Tap to play. Never required.",
+        "off"
+      ],
+      [
+        "toggle",
+        "Haptics",
+        "Tactile feedback, where supported.",
+        "on"
+      ],
+      [
+        "item",
+        "Voice and playback speed",
+        "Preset voice · 1× · Preview on tap",
+        "",
+        "ST-03-voice"
+      ],
+      [
+        "item",
+        "Quiet session override",
+        "Silences automatic audio for that session."
+      ]
+    ],
+    "primary": [
+      "Save preferences",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "ST-04",
+    "title": "A reminder that fits",
+    "sub": "Your device timezone",
+    "cards": [
+      [
+        "toggle",
+        "Study reminders",
+        "You choose when.",
+        "on"
+      ],
+      [
+        "chips",
+        "Days",
+        "Selected: Monday, Wednesday, Friday",
+        "M|T|W|T|F|S|S",
+        "ST-04"
+      ],
+      [
+        "field",
+        "Reminder time",
+        "",
+        "12:30 PM"
+      ],
+      [
+        "toggle",
+        "Only if my daily goal is unfinished",
+        "No repeated nudges after an ignored reminder.",
+        "on"
+      ],
+      [
+        "item",
+        "Lock-screen preview",
+        "“Ready for a little English practice?”"
+      ],
+      [
+        "item",
+        "Notification access",
+        "Ask after you save these preferences.",
+        "",
+        "ST-04-permission"
+      ]
+    ],
+    "primary": [
+      "Save reminder",
+      "ST-04-permission"
+    ],
+    "secondary": [
+      "Turn reminders off",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "ST-05",
+    "title": "Connect AI when ready",
+    "sub": "Basic learning and self-review work offline.",
+    "cards": [
+      [
+        "field",
+        "Provider and capability",
+        "",
+        "Qwen-compatible · Speech & text"
+      ],
+      [
+        "field",
+        "API key",
+        "Stored in Apple Keychain on your device.",
+        "••••••••••••••••"
+      ],
+      [
+        "item",
+        "Your provider account pays",
+        "Provider usage may incur charges. Testing is an explicit online request."
+      ],
+      [
+        "item",
+        "Remove or replace a key",
+        "Removing locally does not revoke it with the provider.",
+        "",
+        "ST-05-remove"
+      ]
+    ],
+    "primary": [
+      "Test connection",
+      "ST-05-testing"
+    ],
+    "secondary": [
+      "Continue without AI",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "ST-06",
+    "title": "Before you send",
+    "sub": "Online feedback is optional.",
+    "cards": [
+      [
+        "hero",
+        "You choose what to submit",
+        "To the provider you selected."
+      ],
+      [
+        "item",
+        "Transcription",
+        "Your selected recording is sent to recognize speech. Review the text afterward."
+      ],
+      [
+        "item",
+        "Coaching",
+        "Your confirmed transcript and practice context are sent for feedback."
+      ],
+      [
+        "item",
+        "Provider usage charges may apply",
+        "A retry is another request. Requests don’t start automatically on reconnect."
+      ],
+      [
+        "item",
+        "Prefer to stay local?",
+        "Replay and self-review without sending this take."
+      ]
+    ],
+    "primary": [
+      "Send recording for transcript",
+      "SP-08"
+    ],
+    "secondary": [
+      "Keep practicing offline",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "PR-01",
+    "title": "What you’ve kept",
+    "sub": "Stored learning data on this device",
+    "cards": [
+      [
+        "hero",
+        "42 MB saved",
+        "3 recordings · 12 text-only attempts"
+      ],
+      [
+        "item",
+        "Saved recordings",
+        "Choose items to replay, export or remove.",
+        "",
+        "SP-12"
+      ],
+      [
+        "item",
+        "Transcript and feedback notes",
+        "Audio retention is separate.",
+        "",
+        "PG-02"
+      ],
+      [
+        "item",
+        "Recently Deleted",
+        "Restore saved items for up to 30 days.",
+        "",
+        "PR-03"
+      ],
+      [
+        "item",
+        "Export selected data",
+        "API keys are always excluded.",
+        "",
+        "PR-02"
+      ],
+      [
+        "item",
+        "Delete all learning data",
+        "Review scope before confirming.",
+        "",
+        "PR-04"
+      ]
+    ],
+    "primary": [
+      "Manage saved items",
+      "PG-02"
+    ],
+    "secondary": [
+      "Done",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "PR-02",
+    "title": "Export what you choose",
+    "sub": "Provider keys are excluded.",
+    "cards": [
+      [
+        "toggle",
+        "Recordings",
+        "Only audio you chose to retain.",
+        "off"
+      ],
+      [
+        "toggle",
+        "Transcript and feedback",
+        "Saved learning notes.",
+        "on"
+      ],
+      [
+        "option",
+        "Introduction · Today",
+        "Text retained · Audio not saved",
+        "selected"
+      ],
+      [
+        "option",
+        "Introduction · Previous attempt",
+        "Audio and text retained"
+      ],
+      [
+        "item",
+        "Preview export",
+        "Review selected contents before opening the system share sheet."
+      ]
+    ],
+    "primary": [
+      "Prepare selected export",
+      "PR-02-ready"
+    ],
+    "secondary": [
+      "Cancel",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PR-03",
+    "title": "Recently Deleted",
+    "sub": "Saved items can be restored for 30 days.",
+    "cards": [
+      [
+        "item",
+        "Introduction · Audio and notes",
+        "27 days remaining",
+        "",
+        "PR-03-restore"
+      ],
+      [
+        "item",
+        "Vocabulary note",
+        "18 days remaining",
+        "",
+        "PR-03-restore"
+      ],
+      [
+        "item",
+        "Your unsaved recordings",
+        "Recordings you declined to keep don’t appear here."
+      ],
+      [
+        "danger",
+        "Permanent deletion",
+        "Review the item before deleting it permanently.",
+        "",
+        "PR-03-purge"
+      ]
+    ],
+    "primary": [
+      "Restore selected item",
+      "PR-03-restore"
+    ],
+    "secondary": [
+      "Back to storage",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PR-04",
+    "title": "Delete learning data?",
+    "sub": "Review exactly what will be removed.",
+    "cards": [
+      [
+        "danger",
+        "All learning records",
+        "Saved recordings, transcripts, feedback, collections and learning history."
+      ],
+      [
+        "item",
+        "Provider keys are separate",
+        "Your saved provider keys are not included in this learning-data action."
+      ],
+      [
+        "item",
+        "Export first, if you want",
+        "Keep a copy of selected saved data.",
+        "",
+        "PR-02"
+      ],
+      [
+        "field",
+        "Confirm your choice",
+        "Type DELETE to enable deletion.",
+        ""
+      ]
+    ],
+    "primary": [
+      "Review final confirmation",
+      "PR-04-confirm"
+    ],
+    "secondary": [
+      "Keep my data",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "RS-01",
+    "title": "Useful references",
+    "sub": "Learn · Supporting resources",
+    "cards": [
+      [
+        "item",
+        "Your bookmarked video",
+        "Title and notes you supplied · Opens externally",
+        "",
+        "RS-01-external"
+      ],
+      [
+        "item",
+        "Notes for this lesson",
+        "Notice how routines use the simple present."
+      ],
+      [
+        "item",
+        "Save a useful link",
+        "Add a title, topic and your own notes.",
+        "",
+        "RS-02"
+      ],
+      [
+        "item",
+        "Offline?",
+        "Saved notes remain available. External videos need a connection."
+      ]
+    ],
+    "primary": [
+      "Add bookmark",
+      "RS-02"
+    ],
+    "secondary": [
+      "Return to lesson",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "RS-02",
+    "title": "Keep a useful reference",
+    "sub": "Your notes stay with the bookmark.",
+    "cards": [
+      [
+        "field",
+        "Link",
+        "A valid external URL.",
+        "https://www.youtube.com/"
+      ],
+      [
+        "field",
+        "Title",
+        "",
+        "Simple present practice"
+      ],
+      [
+        "field",
+        "Topic",
+        "",
+        "Everyday routines"
+      ],
+      [
+        "field",
+        "Your notes",
+        "We don’t infer what the video contains.",
+        "Listen for third-person verbs."
+      ]
+    ],
+    "primary": [
+      "Save bookmark",
+      "RS-01"
+    ],
+    "secondary": [
+      "Cancel",
+      "RS-01"
+    ]
+  },
+  {
+    "id": "SY-01",
+    "title": "Feedback is in progress",
+    "sub": "You can continue learning while you wait.",
+    "cards": [
+      [
+        "hero",
+        "Preparing your coaching",
+        "We’ll show the result when the provider responds."
+      ],
+      [
+        "item",
+        "Your work is preserved",
+        "The confirmed transcript and selected take stay available."
+      ],
+      [
+        "item",
+        "Cancel this request",
+        "Cancellation may not prevent provider processing or charges."
+      ]
+    ],
+    "primary": [
+      "Return to learning",
+      "TD-01"
+    ],
+    "secondary": [
+      "Cancel request",
+      "SY-01-cancelled"
+    ]
+  },
+  {
+    "id": "SY-02",
+    "title": "Recording interrupted",
+    "sub": "Your microphone is no longer recording.",
+    "cards": [
+      [
+        "hero",
+        "Your partial take is safe",
+        "A phone call interrupted this session."
+      ],
+      [
+        "item",
+        "▶ Review partial take",
+        "0:42 · Available temporarily",
+        "",
+        "SP-07"
+      ],
+      [
+        "item",
+        "Start a fresh recording",
+        "Capture won’t restart automatically."
+      ]
+    ],
+    "primary": [
+      "Restart recording",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Switch to quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SY-03",
+    "title": "Your draft is here",
+    "sub": "Let’s pick up gently.",
+    "cards": [
+      [
+        "hero",
+        "Continue your introduction",
+        "A recoverable draft was found after the app closed."
+      ],
+      [
+        "item",
+        "Review before continuing",
+        "Your partial take and available notes can be checked."
+      ],
+      [
+        "item",
+        "Save failed?",
+        "Keep the draft available and free storage before trying again.",
+        "",
+        "SY-03-storage"
+      ]
+    ],
+    "primary": [
+      "Review recovered draft",
+      "SP-07"
+    ],
+    "secondary": [
+      "Start something else",
+      "TD-02"
+    ]
+  },
+  {
+    "id": "SY-04",
+    "title": "A consistent place to learn",
+    "sub": "Navigation and feedback specimen",
+    "cards": [
+      [
+        "option",
+        "Selected answer",
+        "Selection is shown by shape and text.",
+        "selected"
+      ],
+      [
+        "toggle",
+        "Quiet practice",
+        "A visible label accompanies the control.",
+        "on"
+      ],
+      [
+        "item",
+        "Saved successfully",
+        "A calm inline confirmation."
+      ],
+      [
+        "danger",
+        "Check this field",
+        "Explain how to fix the error."
+      ],
+      [
+        "item",
+        "No items yet",
+        "A useful next action remains available."
+      ]
+    ],
+    "primary": [
+      "Continue",
+      "TD-01"
+    ],
+    "secondary": [
+      "View accessible layout",
+      "AX-02"
+    ]
+  },
+  {
+    "id": "AX-01",
+    "title": "Today",
+    "sub": "CREATIVE ACADEMY · LIGHT",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Preview dark appearance",
+      "AX-01-dark"
+    ],
+    "tab": "Today"
+  },
+  {
+    "id": "AX-02",
+    "title": "Choose the missing word",
+    "sub": "Larger text · Reflow specimen",
+    "cards": [
+      [
+        "hero",
+        "She ___ work at nine.",
+        "Choose the verb that fits."
+      ],
+      [
+        "option",
+        "start"
+      ],
+      [
+        "option",
+        "starts",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "starting"
+      ]
+    ],
+    "primary": [
+      "Check answer",
+      "EX-01-correct"
+    ],
+    "secondary": [
+      "View explanation",
+      "LR-03"
+    ],
+    "big": true
+  },
+  {
+    "id": "AX-03",
+    "title": "Your learning space",
+    "sub": "iPad · Regular width",
+    "cards": [
+      [
+        "hero",
+        "Describe your routine",
+        "Keep your lesson and useful references side by side."
+      ],
+      [
+        "item",
+        "Lesson navigation",
+        "Objective → Example → Practice → Self-review",
+        "",
+        "LR-03"
+      ],
+      [
+        "item",
+        "Current exercise",
+        "She ___ work at nine.",
+        "",
+        "EX-01"
+      ],
+      [
+        "item",
+        "Reference",
+        "I start. She starts. Use the base verb after I, you, we or they."
+      ]
+    ],
+    "primary": [
+      "Continue practice",
+      "EX-01"
+    ],
+    "secondary": [
+      "View compact layout",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "LR-06-saved",
+    "title": "Report saved",
+    "sub": "Thank you for helping improve this activity.",
+    "cards": [
+      [
+        "hero",
+        "Your place is safe",
+        "Try a comparable exercise or return to your lesson."
+      ]
+    ],
+    "primary": [
+      "Try a replacement",
+      "EX-01"
+    ],
+    "secondary": [
+      "Return to lesson",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-01-correct",
+    "title": "That’s the pattern",
+    "sub": "Describe your routine · Answer checked",
+    "cards": [
+      [
+        "hero",
+        "✓ She starts work at nine.",
+        "With she, use starts for a routine."
+      ],
+      [
+        "item",
+        "Keep it in mind",
+        "I start. She starts.\n+10 XP · +2 gold earned once."
+      ]
+    ],
+    "primary": [
+      "Continue",
+      "EX-02"
+    ],
+    "secondary": [
+      "Repeat exercise",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "EX-01-retry",
+    "title": "Almost there",
+    "sub": "Let’s take a gentler look.",
+    "cards": [
+      [
+        "hero",
+        "Try the verb once more",
+        "Who is doing the action?"
+      ],
+      [
+        "item",
+        "Think about “she”",
+        "In this routine, the verb needs the third-person form."
+      ],
+      [
+        "item",
+        "No penalty for a mistake",
+        "Your practice still matters."
+      ]
+    ],
+    "primary": [
+      "Try again",
+      "EX-01"
+    ],
+    "secondary": [
+      "See a simpler example",
+      "LR-05"
+    ]
+  },
+  {
+    "id": "EX-01-empty",
+    "title": "Choose the missing word",
+    "sub": "No answer selected",
+    "cards": [
+      [
+        "hero",
+        "She ___ work at nine.",
+        "Choose a verb before checking."
+      ],
+      [
+        "option",
+        "start",
+        "",
+        "",
+        "EX-01"
+      ],
+      [
+        "option",
+        "starts",
+        "",
+        "",
+        "EX-01"
+      ],
+      [
+        "option",
+        "starting",
+        "",
+        "",
+        "EX-01"
+      ]
+    ],
+    "primary": null,
+    "secondary": [
+      "View explanation",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-02-list",
+    "title": "Choose words in order",
+    "sub": "An alternative to dragging",
+    "cards": [
+      [
+        "item",
+        "1 · I",
+        "Tap to select the first word.",
+        "",
+        "EX-02"
+      ],
+      [
+        "item",
+        "2 · walk",
+        "Tap to add this word.",
+        "",
+        "EX-02"
+      ],
+      [
+        "item",
+        "3 · to",
+        "Tap to add this word.",
+        "",
+        "EX-02"
+      ],
+      [
+        "item",
+        "4 · work",
+        "Tap to add this word.",
+        "",
+        "EX-02"
+      ]
+    ],
+    "primary": [
+      "Use this sentence",
+      "EX-02"
+    ],
+    "secondary": [
+      "Back to word tiles",
+      "EX-02"
+    ]
+  },
+  {
+    "id": "EX-05-playing",
+    "title": "Listen for the routine",
+    "sub": "Reference audio · Playing",
+    "cards": [
+      [
+        "wave",
+        "00:06 / 00:18",
+        "▶ Audio playback"
+      ],
+      [
+        "item",
+        "Playback speed",
+        "0.75× · 1× · 1.25×"
+      ],
+      [
+        "item",
+        "Audio unavailable?",
+        "Try reading practice or choose a quiet session."
+      ]
+    ],
+    "primary": [
+      "Pause reference",
+      "EX-05"
+    ],
+    "secondary": [
+      "Quiet alternative",
+      "EX-06"
+    ]
+  },
+  {
+    "id": "EX-09-buy",
+    "title": "Use extra support?",
+    "sub": "Review the cost first.",
+    "cards": [
+      [
+        "hero",
+        "Extra worked example",
+        "Cost: 4 gold"
+      ],
+      [
+        "item",
+        "Your balance",
+        "120 gold → 116 gold"
+      ],
+      [
+        "item",
+        "A free option remains",
+        "Revisit the explanation and try again without spending."
+      ]
+    ],
+    "primary": [
+      "Get example for 4 gold",
+      "EX-09-example"
+    ],
+    "secondary": [
+      "Use free explanation",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-09-example",
+    "title": "Another way to see it",
+    "sub": "Extra worked example",
+    "cards": [
+      [
+        "hero",
+        "He cooks dinner.",
+        "She cooks dinner too."
+      ],
+      [
+        "item",
+        "The pattern",
+        "With he or she, add -s to cook when describing a routine."
+      ]
+    ],
+    "primary": [
+      "Try again",
+      "EX-01"
+    ],
+    "secondary": [
+      "Back to lesson",
+      "LR-03"
+    ]
+  },
+  {
+    "id": "EX-09-no-gold",
+    "title": "Keep practicing freely",
+    "sub": "Not enough gold for this extra example.",
+    "cards": [
+      [
+        "hero",
+        "Your explanation is free",
+        "You can review it and retry as often as you need."
+      ],
+      [
+        "item",
+        "Earn gold through practice",
+        "Completed eligible activities earn rewards."
+      ]
+    ],
+    "primary": [
+      "View explanation",
+      "LR-03"
+    ],
+    "secondary": [
+      "Try again",
+      "EX-01"
+    ]
+  },
+  {
+    "id": "VO-03-summary",
+    "title": "Words revisited",
+    "sub": "Review complete",
+    "cards": [
+      [
+        "hero",
+        "8 words, a little stronger",
+        "You rated recall after revealing each answer."
+      ],
+      [
+        "item",
+        "Rewards earned",
+        "8 rated reviews · +80 XP · +16 gold"
+      ],
+      [
+        "item",
+        "What’s next?",
+        "Return when more scheduled reviews are due, or explore another topic."
+      ]
+    ],
+    "primary": [
+      "Back to my words",
+      "VO-01"
+    ],
+    "secondary": [
+      "Build a topic",
+      "VO-05"
+    ]
+  },
+  {
+    "id": "VO-04-saved",
+    "title": "Word saved",
+    "sub": "Workday English",
+    "cards": [
+      [
+        "hero",
+        "articulate",
+        "Kept in your collection."
+      ],
+      [
+        "item",
+        "Review is separate",
+        "This word has not been enrolled for scheduled recall."
+      ]
+    ],
+    "primary": [
+      "Add to review",
+      "VO-02"
+    ],
+    "secondary": [
+      "Done",
+      "VO-01"
+    ]
+  },
+  {
+    "id": "VO-07-edit",
+    "title": "Manage this collection",
+    "sub": "Workday English",
+    "cards": [
+      [
+        "field",
+        "Collection title",
+        "",
+        "Workday English"
+      ],
+      [
+        "toggle",
+        "Review this word",
+        "Unenrolling stops scheduled recall; the saved word remains.",
+        "on"
+      ],
+      [
+        "item",
+        "Remove a word",
+        "Review the choice before removing it from this collection.",
+        "",
+        "VO-07-remove"
+      ]
+    ],
+    "primary": [
+      "Save changes",
+      "VO-07"
+    ],
+    "secondary": [
+      "Cancel",
+      "VO-07"
+    ]
+  },
+  {
+    "id": "VO-07-remove",
+    "title": "Remove this saved word?",
+    "sub": "Collection and review are separate.",
+    "cards": [
+      [
+        "hero",
+        "articulate",
+        "Remove from Workday English."
+      ],
+      [
+        "item",
+        "Choose what changes",
+        "You can keep scheduled review or unenroll the review card separately."
+      ],
+      [
+        "toggle",
+        "Also stop scheduled review",
+        "",
+        "off"
+      ]
+    ],
+    "primary": [
+      "Remove from collection",
+      "VO-07"
+    ],
+    "secondary": [
+      "Keep word",
+      "VO-04"
+    ]
+  },
+  {
+    "id": "SP-02-sample",
+    "title": "One possible introduction",
+    "sub": "Use the structure, keep your own story.",
+    "cards": [
+      [
+        "hero",
+        "“I’m a software engineer…”",
+        "“…and I enjoy making everyday tasks simpler. Outside work, I like reading.”"
+      ],
+      [
+        "item",
+        "Try your own version",
+        "Share your role, one specific interest and a natural ending."
+      ]
+    ],
+    "primary": [
+      "Ready to record",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Hide sample",
+      "SP-02"
+    ]
+  },
+  {
+    "id": "SP-02-edit",
+    "title": "Choose your prompt",
+    "sub": "Everyday, spontaneous or presentation",
+    "cards": [
+      [
+        "option",
+        "Everyday introduction",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "Spontaneous · A useful habit"
+      ],
+      [
+        "option",
+        "Presentation · Explain an idea"
+      ],
+      [
+        "field",
+        "Level",
+        "",
+        "B1"
+      ],
+      [
+        "toggle",
+        "Talking points",
+        "",
+        "on"
+      ]
+    ],
+    "primary": [
+      "Use this prompt",
+      "SP-02"
+    ],
+    "secondary": [
+      "Cancel",
+      "SP-02"
+    ]
+  },
+  {
+    "id": "SP-03-business",
+    "title": "Practice a work conversation",
+    "sub": "Business communication",
+    "cards": [
+      [
+        "option",
+        "Give a project update",
+        "Point → progress → next step",
+        "selected"
+      ],
+      [
+        "option",
+        "Ask for clarification"
+      ],
+      [
+        "option",
+        "Give constructive feedback"
+      ],
+      [
+        "field",
+        "Audience",
+        "",
+        "My team"
+      ]
+    ],
+    "primary": [
+      "Practice scenario",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Back to interview setup",
+      "SP-03"
+    ]
+  },
+  {
+    "id": "SP-04-reference",
+    "title": "Listen, then try",
+    "sub": "Pronunciation reference",
+    "cards": [
+      [
+        "hero",
+        "think · thought · three",
+        "Listen for the target sound."
+      ],
+      [
+        "wave",
+        "Reference · 0:08",
+        "Playback starts only on tap."
+      ],
+      [
+        "item",
+        "Speed · 0.75× / 1×",
+        "Replay at a comfortable pace."
+      ]
+    ],
+    "primary": [
+      "Play reference",
+      "EX-05-playing"
+    ],
+    "secondary": [
+      "Try it myself",
+      "SP-06-ready"
+    ]
+  },
+  {
+    "id": "SP-05-techniques",
+    "title": "Choose a useful technique",
+    "sub": "Communication practice",
+    "cards": [
+      [
+        "item",
+        "Be concise",
+        "Point → reason → example",
+        "",
+        "SP-05"
+      ],
+      [
+        "item",
+        "Listen and respond",
+        "Acknowledge → clarify → respond",
+        "",
+        "SP-05"
+      ],
+      [
+        "item",
+        "Persuade with care",
+        "Viewpoint → evidence → invitation",
+        "",
+        "SP-05"
+      ],
+      [
+        "item",
+        "A difficult conversation",
+        "Observation → impact → request",
+        "",
+        "SP-05"
+      ]
+    ],
+    "primary": [
+      "Practice clarity",
+      "SP-05"
+    ],
+    "secondary": [
+      "Back to Speech Lab",
+      "SP-01"
+    ]
+  },
+  {
+    "id": "SP-06-ready",
+    "title": "Ready when you are",
+    "sub": "No audio is being recorded.",
+    "cards": [
+      [
+        "hero",
+        "Introduce yourself",
+        "What do you do, and what do you enjoy about it?"
+      ],
+      [
+        "item",
+        "Microphone · Built-in",
+        "Recording begins only after you tap Start."
+      ],
+      [
+        "toggle",
+        "Three-second countdown",
+        "",
+        "off"
+      ]
+    ],
+    "primary": [
+      "Start recording",
+      "SP-06"
+    ],
+    "secondary": [
+      "Quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SP-06-paused",
+    "title": "Take a breath",
+    "sub": "Recording paused",
+    "cards": [
+      [
+        "wave",
+        "00:42 · Paused",
+        "No audio is being captured."
+      ],
+      [
+        "hero",
+        "Your prompt is still here",
+        "Introduce yourself in your own way."
+      ]
+    ],
+    "primary": [
+      "Resume recording",
+      "SP-06"
+    ],
+    "secondary": [
+      "Stop and review",
+      "SP-07"
+    ]
+  },
+  {
+    "id": "SP-06-countdown",
+    "title": "A moment to get ready",
+    "sub": "Countdown enabled",
+    "cards": [
+      [
+        "hero",
+        "3",
+        "Recording will start after the count-in."
+      ],
+      [
+        "item",
+        "Your prompt",
+        "Introduce yourself."
+      ]
+    ],
+    "primary": [
+      "Continue to recording",
+      "SP-06"
+    ],
+    "secondary": [
+      "Cancel countdown",
+      "SP-06-ready"
+    ]
+  },
+  {
+    "id": "SP-06-leave",
+    "title": "Leave this recording?",
+    "sub": "Recording is paused while you decide.",
+    "cards": [
+      [
+        "hero",
+        "Keep your place",
+        "Review the partial take or return to recording."
+      ],
+      [
+        "item",
+        "Leaving ends this capture",
+        "You can decide what to keep afterward."
+      ]
+    ],
+    "primary": [
+      "Stop and review",
+      "SP-07"
+    ],
+    "secondary": [
+      "Return to recording",
+      "SP-06-paused"
+    ]
+  },
+  {
+    "id": "SP-07-replace",
+    "title": "Try another take",
+    "sub": "Your previous take stays safe.",
+    "cards": [
+      [
+        "hero",
+        "Take 1 · 0:42",
+        "It won’t be replaced just by starting again."
+      ],
+      [
+        "item",
+        "After the new take",
+        "Compare, accept the replacement or keep the earlier take."
+      ]
+    ],
+    "primary": [
+      "Record Take 2",
+      "SP-06"
+    ],
+    "secondary": [
+      "Keep Take 1",
+      "SP-07"
+    ]
+  },
+  {
+    "id": "SP-07-accept",
+    "title": "Choose your take",
+    "sub": "Take 1 and Take 2",
+    "cards": [
+      [
+        "wave",
+        "Take 2 · 0:48",
+        "▶ Play new take"
+      ],
+      [
+        "item",
+        "Earlier take · 0:42",
+        "▶ Play earlier take"
+      ],
+      [
+        "toggle",
+        "Also keep the earlier take",
+        "Optional extra saved recording.",
+        "off"
+      ]
+    ],
+    "primary": [
+      "Accept Take 2",
+      "SP-07"
+    ],
+    "secondary": [
+      "Keep Take 1",
+      "SP-07"
+    ]
+  },
+  {
+    "id": "SP-08-edit",
+    "title": "Make the text accurate",
+    "sub": "Your edits are separate from recognition.",
+    "cards": [
+      [
+        "field",
+        "Edited transcript",
+        "",
+        "I work as a software engineer. I enjoy solving problems with my team."
+      ],
+      [
+        "item",
+        "Original recognition",
+        "Available for comparison. Audio-backed edits are identified as learner changes."
+      ]
+    ],
+    "primary": [
+      "Save transcript edits",
+      "SP-08"
+    ],
+    "secondary": [
+      "Cancel edits",
+      "SP-08"
+    ]
+  },
+  {
+    "id": "SP-08-uncertain",
+    "title": "Check these words",
+    "sub": "Some speech was unclear.",
+    "cards": [
+      [
+        "field",
+        "Recognized text",
+        "Review the uncertain phrase.",
+        "I enjoy [unclear] with my team."
+      ],
+      [
+        "item",
+        "▶ Replay the moment",
+        "Listen before editing or confirming."
+      ]
+    ],
+    "primary": [
+      "Edit uncertain words",
+      "SP-08-edit"
+    ],
+    "secondary": [
+      "Use self-review instead",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SP-09-detail",
+    "title": "Feedback, with context",
+    "sub": "Introduction · Confirmed text",
+    "cards": [
+      [
+        "item",
+        "Your words",
+        "“I enjoy solving problems with my team.”"
+      ],
+      [
+        "item",
+        "Suggested expansion",
+        "“I enjoy solving usability problems with my team.”"
+      ],
+      [
+        "item",
+        "Why it helps",
+        "A specific example makes your introduction more memorable."
+      ],
+      [
+        "item",
+        "Sound observations",
+        "Not available for this text-only coaching result."
+      ]
+    ],
+    "primary": [
+      "Retry this task",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Back to feedback",
+      "SP-09"
+    ]
+  },
+  {
+    "id": "SP-09-no-correction",
+    "title": "Your message came through",
+    "sub": "Feedback on your confirmed text",
+    "cards": [
+      [
+        "hero",
+        "A clear introduction",
+        "No priority grammar correction was identified in this response."
+      ],
+      [
+        "item",
+        "Try one stretch",
+        "Add a specific example and keep your ending concise."
+      ]
+    ],
+    "primary": [
+      "Try a new version",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Finish",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-11-discard",
+    "title": "Finish without saving?",
+    "sub": "Your choice applies to this session.",
+    "cards": [
+      [
+        "hero",
+        "Keep nothing from this take",
+        "No audio, transcript or feedback notes will be retained."
+      ],
+      [
+        "item",
+        "Temporary cleanup",
+        "Temporary session files are removed after pending requests settle. This does not delete provider-side data."
+      ]
+    ],
+    "primary": [
+      "Finish without saving",
+      "PG-04"
+    ],
+    "secondary": [
+      "Back to save choices",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-11-audio",
+    "title": "Keep your voice",
+    "sub": "Audio only",
+    "cards": [
+      [
+        "toggle",
+        "Keep this recording",
+        "",
+        "on"
+      ],
+      [
+        "toggle",
+        "Keep transcript and feedback",
+        "",
+        "off"
+      ],
+      [
+        "item",
+        "Your choices",
+        "Only the accepted recording will be saved locally."
+      ]
+    ],
+    "primary": [
+      "Save recording only",
+      "PG-04"
+    ],
+    "secondary": [
+      "Change choices",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-11-both",
+    "title": "Keep this practice",
+    "sub": "Audio and learning notes",
+    "cards": [
+      [
+        "toggle",
+        "Keep this recording",
+        "",
+        "on"
+      ],
+      [
+        "toggle",
+        "Keep transcript and feedback",
+        "",
+        "on"
+      ],
+      [
+        "item",
+        "Your choices",
+        "The accepted recording and available text notes will be saved locally."
+      ]
+    ],
+    "primary": [
+      "Save both",
+      "PG-04"
+    ],
+    "secondary": [
+      "Change choices",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-11-none",
+    "title": "Choose what to keep",
+    "sub": "Nothing selected",
+    "cards": [
+      [
+        "toggle",
+        "Keep this recording",
+        "",
+        "off"
+      ],
+      [
+        "toggle",
+        "Keep transcript and feedback",
+        "",
+        "off"
+      ],
+      [
+        "item",
+        "Nothing selected",
+        "You can finish without saving, or turn on either choice."
+      ]
+    ],
+    "primary": [
+      "Finish without saving",
+      "SP-11-discard"
+    ],
+    "secondary": [
+      "Keep text notes",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "SP-12-detail",
+    "title": "Two ways you told it",
+    "sub": "Comparable introduction retries",
+    "cards": [
+      [
+        "item",
+        "Earlier",
+        "“I enjoy solving problems.”"
+      ],
+      [
+        "item",
+        "Latest",
+        "“I enjoy solving usability problems with my team.”"
+      ],
+      [
+        "item",
+        "What changed",
+        "The latest answer is more specific. These notes compare the task context, not a proficiency score."
+      ],
+      [
+        "item",
+        "Audio not retained for earlier take",
+        "Your text comparison is still available."
+      ]
+    ],
+    "primary": [
+      "Try a new take",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Back to attempt",
+      "SP-12"
+    ]
+  },
+  {
+    "id": "PG-06-confirm",
+    "title": "Freeze added",
+    "sub": "20 gold spent",
+    "cards": [
+      [
+        "hero",
+        "4 Freezes available",
+        "Your balance is now 100 gold."
+      ],
+      [
+        "item",
+        "Automatic protection",
+        "One Freeze can be used per missed day when auto-use is enabled."
+      ]
+    ],
+    "primary": [
+      "Done",
+      "PG-06"
+    ],
+    "secondary": [
+      "Back to wallet",
+      "PG-05"
+    ]
+  },
+  {
+    "id": "PG-07-confirm",
+    "title": "Your streak continues",
+    "sub": "Repair complete",
+    "cards": [
+      [
+        "hero",
+        "Continuity restored",
+        "Your balance is now 60 gold."
+      ],
+      [
+        "item",
+        "History stays accurate",
+        "Two missed days remain visible as missed study days."
+      ]
+    ],
+    "primary": [
+      "Continue learning",
+      "TD-01"
+    ],
+    "secondary": [
+      "View history",
+      "PG-02"
+    ]
+  },
+  {
+    "id": "PG-07-expired",
+    "title": "A fresh start is ready",
+    "sub": "More than seven days missed",
+    "cards": [
+      [
+        "hero",
+        "Repair isn’t available for this gap",
+        "You can begin a new streak today."
+      ],
+      [
+        "item",
+        "Your progress remains",
+        "Your lessons, saved words and achievements are still here."
+      ]
+    ],
+    "primary": [
+      "Start today’s plan",
+      "TD-01"
+    ],
+    "secondary": [
+      "View my progress",
+      "PG-01"
+    ]
+  },
+  {
+    "id": "ST-03-voice",
+    "title": "A voice that feels right",
+    "sub": "Tap to preview",
+    "cards": [
+      [
+        "option",
+        "Teacher · Warm and measured",
+        "",
+        "selected"
+      ],
+      [
+        "option",
+        "Text only",
+        "Always available."
+      ],
+      [
+        "chips",
+        "Playback speed",
+        "",
+        "0.75×|1×|1.25×",
+        "ST-03-voice"
+      ],
+      [
+        "item",
+        "Voice availability varies",
+        "If your selected service can’t provide the voice, use text or choose an available preset."
+      ]
+    ],
+    "primary": [
+      "Preview voice",
+      "SY-01"
+    ],
+    "secondary": [
+      "Save choice",
+      "ST-03"
+    ]
+  },
+  {
+    "id": "ST-04-permission",
+    "title": "Allow study reminders?",
+    "sub": "We’ll ask iOS after you choose to enable.",
+    "cards": [
+      [
+        "hero",
+        "Your schedule, your choice",
+        "Monday, Wednesday, Friday · 12:30 PM"
+      ],
+      [
+        "item",
+        "A gentle reminder",
+        "“Ready for a little English practice?”\nOnly if your goal is unfinished."
+      ]
+    ],
+    "primary": [
+      "Enable reminders",
+      "ST-04-allowed"
+    ],
+    "secondary": [
+      "Not now",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "ST-04-allowed",
+    "title": "Your reminder is set",
+    "sub": "Notification access allowed",
+    "cards": [
+      [
+        "hero",
+        "A little nudge, at your time",
+        "Monday, Wednesday, Friday · 12:30 PM"
+      ],
+      [
+        "item",
+        "Change it anytime",
+        "Edit or turn off reminders in Settings."
+      ]
+    ],
+    "primary": [
+      "Done",
+      "ST-01"
+    ],
+    "secondary": [
+      "Edit schedule",
+      "ST-04"
+    ]
+  },
+  {
+    "id": "ST-04-denied",
+    "title": "Reminders are off",
+    "sub": "Notification access wasn’t granted.",
+    "cards": [
+      [
+        "hero",
+        "You can still practice anytime",
+        "Today keeps your plan ready."
+      ],
+      [
+        "item",
+        "Enable later if you want",
+        "Allow SpeechCoach notifications in iOS Settings."
+      ]
+    ],
+    "primary": [
+      "Return to preferences",
+      "ST-01"
+    ],
+    "secondary": [
+      "Review reminder schedule",
+      "ST-04"
+    ]
+  },
+  {
+    "id": "ST-05-testing",
+    "title": "Testing your connection",
+    "sub": "Online request started explicitly",
+    "cards": [
+      [
+        "hero",
+        "Checking selected capability",
+        "Your provider account may charge for this test."
+      ],
+      [
+        "item",
+        "Your key stays masked",
+        "We’ll show success or a useful error."
+      ]
+    ],
+    "primary": [
+      "View successful result",
+      "ST-05-connected"
+    ],
+    "secondary": [
+      "Cancel test",
+      "ST-05"
+    ]
+  },
+  {
+    "id": "ST-05-connected",
+    "title": "You’re connected",
+    "sub": "Selected capability is available.",
+    "cards": [
+      [
+        "hero",
+        "Ready when you choose",
+        "No recording uploads automatically."
+      ],
+      [
+        "item",
+        "Key stored securely",
+        "Apple Keychain · Masked in Settings · Excluded from export"
+      ]
+    ],
+    "primary": [
+      "Back to practice",
+      "SP-07"
+    ],
+    "secondary": [
+      "Manage provider",
+      "ST-05"
+    ]
+  },
+  {
+    "id": "ST-05-remove",
+    "title": "Remove this local key?",
+    "sub": "Provider access is separate.",
+    "cards": [
+      [
+        "hero",
+        "Remove from this device",
+        "Online requests will need a key again."
+      ],
+      [
+        "item",
+        "Provider key remains active remotely",
+        "Revoke or rotate it in the provider account if you want."
+      ]
+    ],
+    "primary": [
+      "Remove local key",
+      "ST-05"
+    ],
+    "secondary": [
+      "Keep key",
+      "ST-01"
+    ]
+  },
+  {
+    "id": "ST-06-vocabulary",
+    "title": "Generate useful words?",
+    "sub": "Optional online vocabulary generation",
+    "cards": [
+      [
+        "item",
+        "What will be sent",
+        "Your topic, level, word count and learning purpose."
+      ],
+      [
+        "item",
+        "To your chosen provider",
+        "Usage charges may apply. Generated words are previewed before saving."
+      ],
+      [
+        "item",
+        "Manual creation is available",
+        "Add your own words offline."
+      ]
+    ],
+    "primary": [
+      "Generate and preview",
+      "VO-06"
+    ],
+    "secondary": [
+      "Add manually",
+      "VO-04"
+    ]
+  },
+  {
+    "id": "ST-06-text",
+    "title": "Request text coaching?",
+    "sub": "Optional online feedback",
+    "cards": [
+      [
+        "item",
+        "What will be sent",
+        "Your typed response, practice objective and relevant context."
+      ],
+      [
+        "item",
+        "To your chosen provider",
+        "Usage charges may apply. No audio is part of this request."
+      ]
+    ],
+    "primary": [
+      "Send for text feedback",
+      "SP-09"
+    ],
+    "secondary": [
+      "Finish self-review",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "PR-02-ready",
+    "title": "Your export is ready",
+    "sub": "Review before sharing.",
+    "cards": [
+      [
+        "item",
+        "Included",
+        "2 selected transcript and feedback notes."
+      ],
+      [
+        "item",
+        "Excluded",
+        "Audio not selected. Provider keys never included."
+      ],
+      [
+        "item",
+        "Choose a destination",
+        "The iOS share sheet opens after tapping Share."
+      ]
+    ],
+    "primary": [
+      "Open share sheet",
+      "PR-02-share"
+    ],
+    "secondary": [
+      "Cancel",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PR-02-share",
+    "title": "Share selected export",
+    "sub": "System share-sheet specimen",
+    "cards": [
+      [
+        "item",
+        "SpeechCoach learning notes",
+        "Selected text export"
+      ],
+      [
+        "item",
+        "Save to Files",
+        "Choose your destination in iOS."
+      ],
+      [
+        "item",
+        "Other available destinations",
+        "Shown by the system, based on your device."
+      ]
+    ],
+    "primary": [
+      "Done",
+      "PR-01"
+    ],
+    "secondary": [
+      "Cancel sharing",
+      "PR-02"
+    ]
+  },
+  {
+    "id": "PR-03-restore",
+    "title": "Item restored",
+    "sub": "Your saved practice is back.",
+    "cards": [
+      [
+        "hero",
+        "Introduction",
+        "Recording and available notes restored."
+      ],
+      [
+        "item",
+        "Your next step",
+        "Replay, review or export when you want."
+      ]
+    ],
+    "primary": [
+      "View restored attempt",
+      "SP-12"
+    ],
+    "secondary": [
+      "Back to storage",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PR-03-purge",
+    "title": "Delete permanently?",
+    "sub": "This saved item can’t be restored afterward.",
+    "cards": [
+      [
+        "danger",
+        "Introduction · Audio and notes",
+        "Permanently remove from Recently Deleted."
+      ],
+      [
+        "item",
+        "Provider copies are separate",
+        "Local deletion does not delete remote provider data."
+      ]
+    ],
+    "primary": [
+      "Delete permanently",
+      "PR-03-purged"
+    ],
+    "secondary": [
+      "Keep in Recently Deleted",
+      "PR-03"
+    ]
+  },
+  {
+    "id": "PR-03-purged",
+    "title": "Item permanently deleted",
+    "sub": "Removed from this device",
+    "cards": [
+      [
+        "item",
+        "Your item is no longer recoverable",
+        "Other saved learning records are unchanged."
+      ]
+    ],
+    "primary": [
+      "Back to Recently Deleted",
+      "PR-03"
+    ]
+  },
+  {
+    "id": "PR-04-confirm",
+    "title": "Confirm learning-data deletion",
+    "sub": "Final review",
+    "cards": [
+      [
+        "danger",
+        "Delete all learning data",
+        "Saved audio, notes, words and learning history will be removed."
+      ],
+      [
+        "item",
+        "Provider keys excluded",
+        "No provider account is deleted by this action."
+      ],
+      [
+        "item",
+        "Before continuing",
+        "Export any saved learning records you want to keep."
+      ]
+    ],
+    "primary": [
+      "Delete learning data",
+      "PR-04-done"
+    ],
+    "secondary": [
+      "Cancel deletion",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "PR-04-done",
+    "title": "Learning data removed",
+    "sub": "Your provider keys were kept.",
+    "cards": [
+      [
+        "hero",
+        "A new beginning",
+        "Set up a fresh learning plan when you’re ready."
+      ]
+    ],
+    "primary": [
+      "Create a new plan",
+      "ON-01"
+    ]
+  },
+  {
+    "id": "RS-01-external",
+    "title": "Open this reference?",
+    "sub": "External video",
+    "cards": [
+      [
+        "item",
+        "Your saved bookmark",
+        "Your title and notes stay available here."
+      ],
+      [
+        "item",
+        "Leave SpeechCoach temporarily",
+        "The link opens in your available browser or video app."
+      ]
+    ],
+    "primary": [
+      "Return to lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to resources",
+      "RS-01"
+    ]
+  },
+  {
+    "id": "SY-01-cancelled",
+    "title": "Request cancelled",
+    "sub": "Your work is still available.",
+    "cards": [
+      [
+        "item",
+        "Provider processing may continue",
+        "Cancellation may not prevent usage charges."
+      ],
+      [
+        "item",
+        "Keep learning locally",
+        "Review your take or continue another activity."
+      ]
+    ],
+    "primary": [
+      "Self-review this take",
+      "SP-10"
+    ],
+    "secondary": [
+      "Return to Today",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "SY-03-storage",
+    "title": "More space is needed",
+    "sub": "Your available work is preserved.",
+    "cards": [
+      [
+        "hero",
+        "Couldn’t save this take",
+        "Free some storage, then try saving again."
+      ],
+      [
+        "item",
+        "Saved recordings stay yours",
+        "Nothing is evicted automatically."
+      ],
+      [
+        "item",
+        "Your temporary draft",
+        "Keep this session open while you choose the next step."
+      ]
+    ],
+    "primary": [
+      "Manage storage",
+      "PR-01"
+    ],
+    "secondary": [
+      "Retry saving",
+      "SP-11"
+    ]
+  },
+  {
+    "id": "AX-01-atlas",
+    "title": "Today",
+    "sub": "ADVENTURE ATLAS · LIGHT",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to appearance",
+      "ST-02"
+    ],
+    "tab": "Today",
+    "style": "atlas",
+    "dark": false
+  },
+  {
+    "id": "AX-01-studio",
+    "title": "Today",
+    "sub": "MIXED-MEDIA STUDIO · LIGHT",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to appearance",
+      "ST-02"
+    ],
+    "tab": "Today",
+    "style": "studio",
+    "dark": false
+  },
+  {
+    "id": "AX-01-dark",
+    "title": "Today",
+    "sub": "CREATIVE ACADEMY · DARK",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to appearance",
+      "ST-02"
+    ],
+    "tab": "Today",
+    "style": "academy",
+    "dark": true
+  },
+  {
+    "id": "AX-01-atlas-dark",
+    "title": "Today",
+    "sub": "ADVENTURE ATLAS · DARK",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to appearance",
+      "ST-02"
+    ],
+    "tab": "Today",
+    "style": "atlas",
+    "dark": true
+  },
+  {
+    "id": "AX-01-studio-dark",
+    "title": "Today",
+    "sub": "MIXED-MEDIA STUDIO · DARK",
+    "cards": [
+      [
+        "hero",
+        "A little practice.\nA little braver.",
+        "Warm paper, green accents and focused learning."
+      ],
+      [
+        "progress",
+        "12 of 25 active minutes",
+        "1 of 3 activities",
+        "0.48"
+      ],
+      [
+        "item",
+        "Your next step",
+        "Describe your routine",
+        "",
+        "LR-03"
+      ]
+    ],
+    "primary": [
+      "Resume lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Back to appearance",
+      "ST-02"
+    ],
+    "tab": "Today",
+    "style": "studio",
+    "dark": true
+  },
+  {
+    "id": "SY-01-offline",
+    "title": "You’re offline",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "You’re offline",
+        "Your take is safe. Online feedback needs a connection."
+      ]
+    ],
+    "primary": [
+      "Self-review offline",
+      "SP-10"
+    ],
+    "secondary": [
+      "Back to take",
+      "SP-07"
+    ]
+  },
+  {
+    "id": "SY-01-no-key",
+    "title": "Connect when you’re ready",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Connect when you’re ready",
+        "AI feedback needs a provider key. Basic practice remains available."
+      ]
+    ],
+    "primary": [
+      "Connect a provider",
+      "ST-05"
+    ],
+    "secondary": [
+      "Self-review offline",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-auth",
+    "title": "Your key needs attention",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your key needs attention",
+        "The provider rejected this key. Check or replace it before requesting again."
+      ]
+    ],
+    "primary": [
+      "Manage provider key",
+      "ST-05"
+    ],
+    "secondary": [
+      "Continue locally",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-quota",
+    "title": "Provider usage limit reached",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Provider usage limit reached",
+        "Check your provider account. Your work stays available."
+      ]
+    ],
+    "primary": [
+      "Manage provider",
+      "ST-05"
+    ],
+    "secondary": [
+      "Self-review instead",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-rate",
+    "title": "The provider is busy",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "The provider is busy",
+        "Wait before choosing to retry. Nothing retries automatically."
+      ]
+    ],
+    "primary": [
+      "Retry explicitly",
+      "SY-01"
+    ],
+    "secondary": [
+      "Continue locally",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-timeout",
+    "title": "The result is uncertain",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "The result is uncertain",
+        "We didn’t receive a response. The provider may have processed the request; retrying may incur another charge."
+      ]
+    ],
+    "primary": [
+      "Retry request",
+      "SY-01"
+    ],
+    "secondary": [
+      "Keep self-reviewing",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-invalid",
+    "title": "We couldn’t use this result",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "We couldn’t use this result",
+        "The returned feedback didn’t pass validation. Your answer remains safe."
+      ]
+    ],
+    "primary": [
+      "Request again",
+      "SY-01"
+    ],
+    "secondary": [
+      "Review locally",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-unsupported",
+    "title": "This capability isn’t available",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "This capability isn’t available",
+        "Choose a supported provider capability or continue with text and self-review."
+      ]
+    ],
+    "primary": [
+      "Change provider",
+      "ST-05"
+    ],
+    "secondary": [
+      "Continue locally",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-01-stale",
+    "title": "Your answer has changed",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your answer has changed",
+        "This result belongs to an earlier version. It won’t replace your current notes."
+      ]
+    ],
+    "primary": [
+      "Review current answer",
+      "SP-08"
+    ],
+    "secondary": [
+      "Self-review",
+      "SP-10"
+    ]
+  },
+  {
+    "id": "SY-02-denied",
+    "title": "Microphone access is off",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Microphone access is off",
+        "Allow microphone access in iOS Settings, or choose quiet practice."
+      ]
+    ],
+    "primary": [
+      "Try recording setup",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SY-02-route",
+    "title": "Your microphone disconnected",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your microphone disconnected",
+        "Capture stopped. Review the partial take and start fresh with an available microphone."
+      ]
+    ],
+    "primary": [
+      "Review partial take",
+      "SP-07"
+    ],
+    "secondary": [
+      "Restart setup",
+      "SP-06-ready"
+    ]
+  },
+  {
+    "id": "SY-02-no-signal",
+    "title": "We can’t hear input",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "We can’t hear input",
+        "Check your microphone and input route. No usable take has been captured."
+      ]
+    ],
+    "primary": [
+      "Try again",
+      "SP-06-ready"
+    ],
+    "secondary": [
+      "Quiet practice",
+      "EX-08"
+    ]
+  },
+  {
+    "id": "SY-03-save-failed",
+    "title": "Your notes couldn’t be saved",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your notes couldn’t be saved",
+        "Your available draft is preserved. Retry or review storage."
+      ]
+    ],
+    "primary": [
+      "Retry save",
+      "SP-11"
+    ],
+    "secondary": [
+      "Manage storage",
+      "PR-01"
+    ]
+  },
+  {
+    "id": "SY-03-content",
+    "title": "This lesson has changed",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "This lesson has changed",
+        "Your progress is kept. Review the updated explanation before continuing."
+      ]
+    ],
+    "primary": [
+      "Review lesson",
+      "LR-03"
+    ],
+    "secondary": [
+      "Choose another activity",
+      "TD-02"
+    ]
+  },
+  {
+    "id": "VO-01-empty",
+    "title": "Your first useful word",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your first useful word",
+        "Save a word to a collection or create your own topic."
+      ]
+    ],
+    "primary": [
+      "Add a word",
+      "VO-04"
+    ],
+    "secondary": [
+      "Choose a topic",
+      "VO-05"
+    ]
+  },
+  {
+    "id": "VO-02-none",
+    "title": "You’re up to date",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "You’re up to date",
+        "No scheduled words are due. Explore a topic or return to your plan."
+      ]
+    ],
+    "primary": [
+      "Explore words",
+      "VO-05"
+    ],
+    "secondary": [
+      "Return to Today",
+      "TD-01"
+    ]
+  },
+  {
+    "id": "PG-01-empty",
+    "title": "Your story starts here",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your story starts here",
+        "Practice evidence appears after you complete activities. XP tracks participation, not proficiency."
+      ]
+    ],
+    "primary": [
+      "Start my plan",
+      "TD-01"
+    ],
+    "secondary": [
+      "Try speaking",
+      "SP-01"
+    ]
+  },
+  {
+    "id": "PG-05-insufficient",
+    "title": "Not enough gold yet",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Not enough gold yet",
+        "You can keep learning without spending. Explanations and self-review remain free."
+      ]
+    ],
+    "primary": [
+      "Keep learning",
+      "TD-01"
+    ],
+    "secondary": [
+      "Back to wallet",
+      "PG-05"
+    ]
+  },
+  {
+    "id": "TD-04-ended",
+    "title": "Your break timer ended",
+    "sub": "Recovery and empty state",
+    "cards": [
+      [
+        "hero",
+        "Your break timer ended",
+        "Finish the current exercise or save your place. Active learning time is counted separately."
+      ]
+    ],
+    "primary": [
+      "Finish this exercise",
+      "EX-01"
+    ],
+    "secondary": [
+      "Save and leave",
+      "TD-01"
+    ]
+  }
+]

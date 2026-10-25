@@ -1,0 +1,104 @@
+{
+  "operation": "audit",
+  "file": "SpeechCoachAI · iPhone UI Design",
+  "page": "02 · Complete flows & states",
+  "expectedFrames": 149,
+  "populatedFrames": 149,
+  "missing": [],
+  "unwiredPrimaryActions": [],
+  "layoutWarnings": [],
+  "prototypeConnections": 775,
+  "invalidDestinations": [],
+  "localExtraFrames": [
+    [
+      "SP-06-take2",
+      "36:963"
+    ],
+    [
+      "IPAD-Learn",
+      "36:2076"
+    ],
+    [
+      "IPAD-Speech",
+      "36:2114"
+    ],
+    [
+      "IPAD-Progress",
+      "36:2151"
+    ],
+    [
+      "IPAD-Portrait",
+      "36:2186"
+    ],
+    [
+      "KEYBOARD-Missing",
+      "36:2292"
+    ],
+    [
+      "KEYBOARD-Correction",
+      "36:2385"
+    ],
+    [
+      "KEYBOARD-Response",
+      "36:2478"
+    ],
+    [
+      "LARGE-Today",
+      "36:2574"
+    ],
+    [
+      "LARGE-Save",
+      "36:2637"
+    ],
+    [
+      "LARGE-Recording",
+      "36:2674"
+    ],
+    [
+      "INPUT-Nickname",
+      "36:2704"
+    ],
+    [
+      "WORD-Duplicate",
+      "36:2743"
+    ],
+    [
+      "AUDIO-Unavailable",
+      "36:2787"
+    ],
+    [
+      "ASR-Empty",
+      "36:2860"
+    ],
+    [
+      "GEN-Empty",
+      "36:2894"
+    ],
+    [
+      "IPAD-Compact",
+      "36:2941"
+    ],
+    [
+      "FOCUS-Answer",
+      "36:2975"
+    ]
+  ],
+  "preferredVisualReference": "Page 1",
+  "referenceArtwork": [
+    {
+      "id": "2:37993",
+      "name": "Coach greeting",
+      "type": "FRAME",
+      "width": 353,
+      "height": 106
+    },
+    {
+      "id": "2:37997",
+      "name": "Coach illustration",
+      "type": "RECTANGLE",
+      "width": 100,
+      "height": 106
+    }
+  ],
+  "verification": "Structural report only. Visual and on-device acceptance remain separate."
+}

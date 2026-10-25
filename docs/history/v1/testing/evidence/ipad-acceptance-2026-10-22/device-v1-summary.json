@@ -1,0 +1,62 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "00008120-0014354C112B601E",
+        "deviceName" : "iPad ni Paj",
+        "modelName" : "iPad (A16)",
+        "osBuildNumber" : "24A446",
+        "osVersion" : "27.0.1",
+        "platform" : "iOS"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 120,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "SpeechCoachAI · Built with macOS 27.0.1",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1792669932.068,
+  "passedTests" : 101,
+  "result" : "Failed",
+  "runtimeWarnings" : [
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "    AVAudioSession_iOS.mm:978   This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+    }
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1792669139.776,
+  "statistics" : [
+    {
+      "subtitle" : "24 test runs",
+      "title" : "5 tests ran with dynamic parameters"
+    }
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertTrue failed",
+      "targetName" : "SpeechCoachAIUITests",
+      "testIdentifier" : 97,
+      "testIdentifierString" : "BootstrapLaunchTests/testDailyPrimaryChoiceAndConfidenceRecovery()",
+      "testIdentifierURL" : "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAIUITests/BootstrapLaunchTests/testDailyPrimaryChoiceAndConfidenceRecovery",
+      "testName" : "testDailyPrimaryChoiceAndConfidenceRecovery()"
+    }
+  ],
+  "title" : "Test - SpeechCoachAI",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "20% of duration",
+      "text" : "2 longest test runs with outlier durations exceeding 0.18s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 102
+}

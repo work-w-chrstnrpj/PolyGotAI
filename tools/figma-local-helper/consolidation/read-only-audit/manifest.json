@@ -1,0 +1,16 @@
+{
+  "name": "SpeechCoach Read-only Readiness Audit",
+  "id": "speechcoach-readonly-readiness-audit",
+  "api": "1.0.0",
+  "main": "inspect.js",
+  "ui": "inspect.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  }
+}

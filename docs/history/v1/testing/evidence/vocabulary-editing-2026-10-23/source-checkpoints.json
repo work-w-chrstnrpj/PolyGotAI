@@ -1,0 +1,15 @@
+{
+  "phone_pass": {
+    "application/SpeechCoachAI/Domain/CustomVocabulary.swift": "84e0043abfda214bfc42caf6c5f9362cb3482098d808b42628a7d274ac4868be",
+    "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift": "e581787d69eb143c7aff0e99c441e6d20f64d61e271c64fefd81bf137342e339",
+    "application/SpeechCoachAITests/CustomVocabularyTests.swift": "4ce5134a29cb6579ef9eacb6a1b9dbda13fa80e9ba4b9891640aea60e9f78c44",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "fc75475758c38febdf50791d34be9103504076d4c89e62b67d0212bca9ec29fe"
+  },
+  "final": {
+    "application/SpeechCoachAI/Domain/CustomVocabulary.swift": "84e0043abfda214bfc42caf6c5f9362cb3482098d808b42628a7d274ac4868be",
+    "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift": "e581787d69eb143c7aff0e99c441e6d20f64d61e271c64fefd81bf137342e339",
+    "application/SpeechCoachAITests/CustomVocabularyTests.swift": "4ce5134a29cb6579ef9eacb6a1b9dbda13fa80e9ba4b9891640aea60e9f78c44",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "4771a299d44adc0ac59e90abd913a1e19109fddd82ddd6f74596bdaf03e44736"
+  },
+  "difference": "Only UI test back navigation changed after phone PASS; product source unchanged."
+}

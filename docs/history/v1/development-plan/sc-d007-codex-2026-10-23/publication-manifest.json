@@ -1,0 +1,692 @@
+{
+  "id": "SC-D007-A1-proposal-1",
+  "editorialState": "ready_for_review",
+  "publicationApproved": false,
+  "ownerApproval": null,
+  "qualifiedReviewer": null,
+  "expansionDecision": null,
+  "authorization": "Owner assigned SC-D007 to Codex on 2026-10-23; clarified queued Grok handoffs are not active assignments.",
+  "sourceCatalogSHA256": "a3dc86e585875b4a606ecd0c2cd1ede5e1075c19cb81e3b20c455c32b5ce5a8b",
+  "sourcePackID": "speechcoach.curriculum",
+  "sourcePackVersion": "2",
+  "sourceEditorialReference": "Owner accepted 2026-10-21 for personal use. Lessons from A1 through C2 follow the public Council of Europe CEFR global scale: A1 everyday expressions and personal information; A2 familiar routines; B1 connected experience and opinion; B2 detailed argument; C1 flexible professional discussion; C2 precise reformulation. Source: https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale . This is not a CEFR certificate and no outside reviewer was hired.",
+  "sourceRightsReference": "Original SpeechCoachAI wording and reference audio, created for this app on 2026-10-21. The listening clips were synthesized in an American English voice. They are not copied from a textbook.",
+  "scope": "All 13 topics in the adopted A1 outline, with exact INTRO-01 v3 reuse and 12 proposed v3 topic revisions. This finite volume is proposed for SC-T073 approval, not silently frozen.",
+  "lessons": [
+    {
+      "lessonID": "a1-greetings",
+      "ticket": "SC-T074",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "GREET-01",
+      "unitID": "A1-D007-U01",
+      "childObjectiveIDs": [
+        "EF-01-ADJ-01",
+        "EF-01-CONJ-01",
+        "EF-01-INTERJ-01",
+        "EF-01-PRON-01",
+        "EF-02-SP-01",
+        "EF-03-BE-01",
+        "EF-04-CLAUSE-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-greetings-read",
+          "a1-greetings-listen",
+          "a1-greetings-production-v3-1",
+          "a1-greetings-production-v3-2",
+          "a1-greetings-production-v3-3",
+          "a1-greetings-production-v3-4",
+          "a1-greetings-production-v3-5",
+          "a1-greetings-recall-hello",
+          "a1-greetings-recall-morning",
+          "a1-greetings-recall-how",
+          "a1-greetings-recall-fine",
+          "a1-greetings-recall-bye",
+          "a1-greetings-guided",
+          "a1-greetings-self",
+          "a1-greetings-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "intro-01",
+      "ticket": "SC-T075",
+      "mode": "exact_reuse",
+      "contentVersion": "3",
+      "objectiveID": "INTRO-01",
+      "lessonSHA256": "e92b6efc5876170481f04edd89b76f4ad7c8426d27744a377b1f47afe06f13c3",
+      "requiredActivityIDs": [
+        "read-mina",
+        "read-mina-name",
+        "read-mina-like",
+        "listen-alex-name",
+        "listen-alex",
+        "listen-alex-like",
+        "grammar-be-am",
+        "grammar-be-is",
+        "grammar-study",
+        "grammar-works",
+        "grammar-do",
+        "recall-name",
+        "recall-from",
+        "recall-study",
+        "recall-like",
+        "recall-meet",
+        "guided-intro",
+        "self-review",
+        "quiet-intro"
+      ],
+      "reference": "Existing INTRO-01 version 3 and SC-T018/SC-T043; no second introduction course.",
+      "remaining": "Existing INTRO-01 foundation/rubric/qualified-review and IL gates remain with their original records."
+    },
+    {
+      "lessonID": "a1-alphabet",
+      "ticket": "SC-T076",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "SPELL-01",
+      "unitID": "A1-D007-U03",
+      "childObjectiveIDs": [
+        "EF-01-DET-01",
+        "EF-01-NOUN-01",
+        "EF-02-BOUND-01",
+        "EF-02-IMP-01",
+        "EF-02-SP-01",
+        "EF-03-BE-01",
+        "EF-03-PRES-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-alphabet-read",
+          "a1-alphabet-listen",
+          "a1-alphabet-production-v3-1",
+          "a1-alphabet-production-v3-2",
+          "a1-alphabet-production-v3-3",
+          "a1-alphabet-production-v3-4",
+          "a1-alphabet-production-v3-5",
+          "a1-alphabet-recall-spell",
+          "a1-alphabet-recall-letter",
+          "a1-alphabet-recall-capital",
+          "a1-alphabet-recall-how-spell",
+          "a1-alphabet-recall-name",
+          "a1-alphabet-guided",
+          "a1-alphabet-self",
+          "a1-alphabet-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-numbers",
+      "ticket": "SC-T077",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "NUMBER-01",
+      "unitID": "A1-D007-U04",
+      "childObjectiveIDs": [
+        "EF-01-DET-01",
+        "EF-01-NOUN-NUM-01",
+        "EF-02-OBJ-01",
+        "EF-03-BE-01",
+        "EF-03-PRES-01",
+        "EF-04-NP-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-numbers-read",
+          "a1-numbers-listen",
+          "a1-numbers-production-v3-1",
+          "a1-numbers-production-v3-2",
+          "a1-numbers-production-v3-3",
+          "a1-numbers-production-v3-4",
+          "a1-numbers-production-v3-5",
+          "a1-numbers-recall-one",
+          "a1-numbers-recall-twelve",
+          "a1-numbers-recall-twenty",
+          "a1-numbers-recall-how-many",
+          "a1-numbers-recall-dollars",
+          "a1-numbers-guided",
+          "a1-numbers-self",
+          "a1-numbers-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-dates",
+      "ticket": "SC-T078",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "DATE-01",
+      "unitID": "A1-D007-U05",
+      "childObjectiveIDs": [
+        "EF-01-PREP-01",
+        "EF-02-SP-01",
+        "EF-03-BE-01",
+        "EF-03-PRES-01",
+        "EF-04-PP-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-dates-read",
+          "a1-dates-listen",
+          "a1-dates-production-v3-1",
+          "a1-dates-production-v3-2",
+          "a1-dates-production-v3-3",
+          "a1-dates-production-v3-4",
+          "a1-dates-production-v3-5",
+          "a1-dates-recall-on-day",
+          "a1-dates-recall-at-time",
+          "a1-dates-recall-in-month",
+          "a1-dates-recall-what-time",
+          "a1-dates-recall-today",
+          "a1-dates-guided",
+          "a1-dates-self",
+          "a1-dates-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "family-01",
+      "ticket": "SC-T079",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "FAMILY-01",
+      "unitID": "A1-D007-U06",
+      "childObjectiveIDs": [
+        "EF-01-ADJ-01",
+        "EF-01-DET-01",
+        "EF-01-NOUN-01",
+        "EF-01-NOUN-POSS-01",
+        "EF-01-PRON-01",
+        "EF-03-BE-01",
+        "EF-03-HAVE-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "read-family",
+          "listen-family",
+          "family-01-production-v3-1",
+          "family-01-production-v3-2",
+          "family-01-production-v3-3",
+          "family-01-production-v3-4",
+          "family-01-production-v3-5",
+          "recall-mother",
+          "recall-father",
+          "recall-have",
+          "recall-there",
+          "recall-this",
+          "guided-family",
+          "self-family",
+          "quiet-family"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-home",
+      "ticket": "SC-T080",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "HOME-01",
+      "unitID": "A1-D007-U07",
+      "childObjectiveIDs": [
+        "EF-01-ADJ-01",
+        "EF-01-DET-01",
+        "EF-01-PREP-01",
+        "EF-03-BE-01",
+        "EF-03-THERE-01",
+        "EF-04-NP-01",
+        "EF-04-PP-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-home-read",
+          "a1-home-listen",
+          "a1-home-production-v3-1",
+          "a1-home-production-v3-2",
+          "a1-home-production-v3-3",
+          "a1-home-production-v3-4",
+          "a1-home-production-v3-5",
+          "a1-home-recall-kitchen",
+          "a1-home-recall-bedroom",
+          "a1-home-recall-next",
+          "a1-home-recall-upstairs",
+          "a1-home-recall-there",
+          "a1-home-guided",
+          "a1-home-self",
+          "a1-home-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "routine-01",
+      "ticket": "SC-T081",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "ROUTINE-01",
+      "unitID": "A1-D007-U08",
+      "childObjectiveIDs": [
+        "EF-01-ADV-01",
+        "EF-01-CONJ-01",
+        "EF-01-VERB-01",
+        "EF-02-ORDER-01",
+        "EF-03-PRES-01",
+        "EF-04-CLAUSE-01",
+        "EF-05-PRESENT-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "read-routine",
+          "listen-routine",
+          "routine-01-production-v3-1",
+          "routine-01-production-v3-2",
+          "routine-01-production-v3-3",
+          "routine-01-production-v3-4",
+          "routine-01-production-v3-5",
+          "recall-up",
+          "recall-work",
+          "recall-morning",
+          "recall-lunch",
+          "recall-night",
+          "guided-routine",
+          "self-routine",
+          "quiet-routine"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "food-01",
+      "ticket": "SC-T082",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "FOOD-01",
+      "unitID": "A1-D007-U09",
+      "childObjectiveIDs": [
+        "EF-01-DET-01",
+        "EF-01-NOUN-COUNT-01",
+        "EF-01-NOUN-NUM-01",
+        "EF-01-VERB-01",
+        "EF-02-OBJ-01",
+        "EF-03-BE-01",
+        "EF-05-CAN-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "read-food",
+          "listen-food",
+          "food-01-production-v3-1",
+          "food-01-production-v3-2",
+          "food-01-production-v3-3",
+          "food-01-production-v3-4",
+          "food-01-production-v3-5",
+          "recall-like",
+          "recall-much",
+          "recall-water",
+          "recall-menu",
+          "recall-can",
+          "guided-food",
+          "self-food",
+          "quiet-food"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-shopping",
+      "ticket": "SC-T083",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "SHOP-01",
+      "unitID": "A1-D007-U10",
+      "childObjectiveIDs": [
+        "EF-01-ADJ-01",
+        "EF-01-DET-01",
+        "EF-01-PRON-OBJ-01",
+        "EF-02-OBJ-01",
+        "EF-03-BE-01",
+        "EF-03-PRES-01",
+        "EF-03-REF-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-shopping-read",
+          "a1-shopping-listen",
+          "a1-shopping-production-v3-1",
+          "a1-shopping-production-v3-2",
+          "a1-shopping-production-v3-3",
+          "a1-shopping-production-v3-4",
+          "a1-shopping-production-v3-5",
+          "a1-shopping-recall-price",
+          "a1-shopping-recall-receipt",
+          "a1-shopping-recall-big",
+          "a1-shopping-recall-take",
+          "a1-shopping-recall-cash",
+          "a1-shopping-guided",
+          "a1-shopping-self",
+          "a1-shopping-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-places",
+      "ticket": "SC-T084",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "PLACE-01",
+      "unitID": "A1-D007-U11",
+      "childObjectiveIDs": [
+        "EF-01-PREP-01",
+        "EF-02-BOUND-01",
+        "EF-02-IMP-01",
+        "EF-03-BE-01",
+        "EF-04-CLAUSE-01",
+        "EF-04-PP-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-places-read",
+          "a1-places-listen",
+          "a1-places-production-v3-1",
+          "a1-places-production-v3-2",
+          "a1-places-production-v3-3",
+          "a1-places-production-v3-4",
+          "a1-places-production-v3-5",
+          "a1-places-recall-left",
+          "a1-places-recall-straight",
+          "a1-places-recall-corner",
+          "a1-places-recall-next",
+          "a1-places-recall-excuse",
+          "a1-places-guided",
+          "a1-places-self",
+          "a1-places-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-hobbies",
+      "ticket": "SC-T085",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "HOBBY-01",
+      "unitID": "A1-D007-U12",
+      "childObjectiveIDs": [
+        "EF-01-CONJ-01",
+        "EF-01-VERB-01",
+        "EF-03-PRES-01",
+        "EF-04-CLAUSE-01",
+        "EF-05-CAN-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-hobbies-read",
+          "a1-hobbies-listen",
+          "a1-hobbies-production-v3-1",
+          "a1-hobbies-production-v3-2",
+          "a1-hobbies-production-v3-3",
+          "a1-hobbies-production-v3-4",
+          "a1-hobbies-production-v3-5",
+          "a1-hobbies-recall-play",
+          "a1-hobbies-recall-like",
+          "a1-hobbies-recall-weekend",
+          "a1-hobbies-recall-hobby",
+          "a1-hobbies-recall-free",
+          "a1-hobbies-guided",
+          "a1-hobbies-self",
+          "a1-hobbies-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    },
+    {
+      "lessonID": "a1-weather",
+      "ticket": "SC-T086",
+      "mode": "proposed_revision",
+      "sourceVersion": "2",
+      "contentVersion": "3",
+      "objectiveID": "WEATHER-01",
+      "unitID": "A1-D007-U13",
+      "childObjectiveIDs": [
+        "EF-01-ADJ-01",
+        "EF-01-PRON-01",
+        "EF-03-BE-01",
+        "EF-03-PRES-01",
+        "EF-04-CLAUSE-01",
+        "EF-05-CONT-01"
+      ],
+      "coreCompletionProposal": {
+        "requiredActivityIDs": [
+          "a1-weather-read",
+          "a1-weather-listen",
+          "a1-weather-production-v3-1",
+          "a1-weather-production-v3-2",
+          "a1-weather-production-v3-3",
+          "a1-weather-production-v3-4",
+          "a1-weather-production-v3-5",
+          "a1-weather-recall-sunny",
+          "a1-weather-recall-cold",
+          "a1-weather-recall-rainy",
+          "a1-weather-recall-coat",
+          "a1-weather-recall-today",
+          "a1-weather-guided",
+          "a1-weather-self",
+          "a1-weather-quiet"
+        ],
+        "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+        "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+        "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "intro-01-listen-alex",
+      "relativePath": "intro-01-alex.wav",
+      "byteCount": 200826,
+      "sha256": "e059e4a8a078787000fdc9e2cf050f51cd1e8e92aad940a0894566d16f8ea894",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "family-01-listen-sam",
+      "relativePath": "family-01-sam.wav",
+      "byteCount": 208506,
+      "sha256": "8b75aea44d9c2e642e82f5e64645527a5a0f1450675561ab1cf34cce0cefc376",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "routine-01-listen-alex",
+      "relativePath": "routine-01-alex.wav",
+      "byteCount": 203528,
+      "sha256": "2fd1769126ac463bd4f4091b7729dc2ec4950a2671d53fd7e5e78180aca84d13",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "food-01-listen-order",
+      "relativePath": "food-01-order.wav",
+      "byteCount": 224494,
+      "sha256": "0bd69d9db7e0ab5ef87a0bdc8d75800224f2e615ef930b5dd42784300858df28",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-greetings-listen",
+      "relativePath": "a1-greetings.wav",
+      "byteCount": 171564,
+      "sha256": "d024060f0198366a6c1f3f7cc320144347e8f7b436074ea1a461862ddd093090",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-alphabet-listen",
+      "relativePath": "a1-alphabet.wav",
+      "byteCount": 133726,
+      "sha256": "0da4bb071e85363d6b94b6359925a6e08a9dc2fc8957a38b4564aa93052e6765",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-numbers-listen",
+      "relativePath": "a1-numbers.wav",
+      "byteCount": 134920,
+      "sha256": "63051b9d03835f3460c71fdcfa5d482cc80bc0fec1a084472d2302a1552c3d06",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-dates-listen",
+      "relativePath": "a1-dates.wav",
+      "byteCount": 95612,
+      "sha256": "a4c4259413f1c72d81e8a40e22e0c3f0ad6d14cfe680e809002cfb80609a77b4",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-home-listen",
+      "relativePath": "a1-home.wav",
+      "byteCount": 156540,
+      "sha256": "a4e81d5b97daa0becbb6645619bba02a1b5fe2de09adc949834fb7864d2ebfc7",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-shopping-listen",
+      "relativePath": "a1-shopping.wav",
+      "byteCount": 167768,
+      "sha256": "b1ddbf99b1191f372d92f7440644cbabd3c94a643e7d72038ef5c6876366b758",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-places-listen",
+      "relativePath": "a1-places.wav",
+      "byteCount": 132476,
+      "sha256": "be9a348c3ede4af96cabdc8db03104e861634a74c30f3ea5509fb6662425f15a",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-hobbies-listen",
+      "relativePath": "a1-hobbies.wav",
+      "byteCount": 170170,
+      "sha256": "b943140e4f7b06fbaaebfe086d416dcbee11bd4a6951936fa3868522b4df2e7b",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-weather-listen",
+      "relativePath": "a1-weather.wav",
+      "byteCount": 135496,
+      "sha256": "e27988fda867d6f4deb43e8baad3dc03689d31e3cdf1aa47c2eba89b4f37b0a5",
+      "mediaType": "audio/wav"
+    }
+  ],
+  "grammarCoverage": {
+    "wordTypes": [
+      "a1-alphabet",
+      "family-01",
+      "a1-home",
+      "routine-01",
+      "a1-places",
+      "a1-greetings"
+    ],
+    "numberAndPossession": [
+      "a1-numbers",
+      "family-01"
+    ],
+    "subjectPredicateObjectsComplements": [
+      "a1-greetings",
+      "a1-alphabet",
+      "a1-numbers",
+      "family-01",
+      "a1-dates"
+    ],
+    "beAndPresentAgreement": [
+      "intro-01",
+      "a1-greetings",
+      "family-01",
+      "routine-01",
+      "a1-hobbies"
+    ],
+    "questionsNegativesAuxiliaries": [
+      "intro-01",
+      "a1-greetings",
+      "routine-01",
+      "a1-weather"
+    ],
+    "thereIsAre": [
+      "a1-home"
+    ],
+    "canCannot": [
+      "food-01",
+      "a1-hobbies"
+    ],
+    "imperatives": [
+      "a1-places"
+    ],
+    "phrasesClausesBoundaries": [
+      "a1-alphabet",
+      "a1-dates",
+      "a1-home",
+      "a1-places",
+      "a1-hobbies"
+    ],
+    "presentContinuous": [
+      "a1-weather"
+    ]
+  },
+  "laterLevelBoundary": "Full pronoun taxonomy, complex clauses, tense/aspect inventory and comparative systems remain at later reviewed depths; an A1 phrase is not whole-strand mastery.",
+  "sources": [
+    {
+      "id": "CV20",
+      "title": "CEFR Companion volume (2020)",
+      "url": "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4",
+      "accessed": "2026-10-23",
+      "use": "Scale/page references only; no descriptor text reproduced; editorial mapping pending."
+    },
+    {
+      "id": "CORE",
+      "title": "British Council–EAQUALS Core Inventory",
+      "url": "https://www.teachingenglish.org.uk/publications/case-studies-insights-and-research/british-council-eaquals-core-inventory-general",
+      "accessed": "2026-10-23",
+      "use": "English-specific curriculum planning reference; no content copied."
+    }
+  ],
+  "blockedEdges": {
+    "SC-T073": "Owner/qualified review of exact finite volume, depth, asset and rubric allocation still missing.",
+    "SC-T074–SC-T086": "Candidate authoring is complete for the bounded proposal; qualified review and approved manifest missing; INTRO-01 original gaps are retained.",
+    "SC-T087": "Requires approved topic versions and SC-T028 pilot closure. Candidate bundle is isolated and deliberately unavailable.",
+    "SC-T088": "Requires integrated reviewed pack plus real native, qualified assessment, retention and unfamiliar-task evidence."
+  },
+  "integrationPolicy": "Never overwrite the live catalog from this script. After recorded approval, use a checked delta merge preserving all non-A1 lessons, old journeys, shared senses and reviewed INTRO-01. Retain the old version for existing journeys or supply an explicitly approved compatibility path; current runtime refuses mismatched versions."
+}

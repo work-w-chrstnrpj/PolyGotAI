@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "owner": "Codex",
+  "scope": "SC-D017 acceptance follow-up after no verifiable Grok return; SC-D018 deferred",
+  "result": "PASS for scoped automated repair/acceptance checks; full original acceptance remains open",
+  "runs": [
+    {
+      "name": "before-fix",
+      "result": "Failed",
+      "passed": 6,
+      "failed": 2,
+      "total": 8,
+      "xcresult": "application/.build/sc-d017-acceptance-before-fix.xcresult",
+      "failure_messages": [
+        "Expectation failed: saved.destination == destination\nsaved.destination \u2192 \"https://example.com/search?q=a+b&next=/part?x%3D1\"\ndestination \u2192 \"https://example.com/search?q=a%2Bb&next=%2Fpart%3Fx%3D1\"",
+        "Expectation failed: link.canonical == pair.1\nlink.canonical \u2192 \"https://example.com/search?q=a+b\"\npair.1 \u2192 \"https://example.com/search?q=a%2Bb\""
+      ]
+    },
+    {
+      "name": "phone",
+      "result": "Passed",
+      "passed": 249,
+      "failed": 0,
+      "total": 249,
+      "xcresult": "application/.build/sc-d017-acceptance-phone.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "ipad",
+      "result": "Passed",
+      "passed": 21,
+      "failed": 0,
+      "total": 21,
+      "xcresult": "application/.build/sc-d017-acceptance-ipad.xcresult",
+      "failure_messages": []
+    }
+  ],
+  "proof": {
+    "phone_hosted": 247,
+    "phone_ui": 2,
+    "ipad_focused_resource_tests": 20,
+    "ipad_actual_system_browser_handoff_ui": 1,
+    "new_test_definitions": 8,
+    "raw_query_encoding_preserved": true,
+    "browser_foreground_and_return_observed": true,
+    "page_loading_or_redirects_verified": false,
+    "physical_acceptance": false,
+    "full_voiceover_largest_text_appearance_acceptance": false,
+    "real_connectivity_transition": false,
+    "provider_calls": false,
+    "owner_data_reset": false,
+    "physical_installation": false
+  },
+  "physical_availability": "devicectl: iPhone paired but passcodeRequired true; physical iPad unavailable. No install/unlock/reset attempted.",
+  "source_sha256": {
+    "application/SpeechCoachAI/Domain/LearningResource.swift": "d32ea926c120a15d9e6722b5cd6b52689d8c01e32b66310bfe2b63092d53f6bc",
+    "application/SpeechCoachAITests/ResourceLibraryAcceptanceTests.swift": "aae0595fe6972753d99a0cb29a453d29cf6a6adb0d4811043838114a1db48fa3",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "65788acb38aaf5f91fd3b72abfa9a05cbb96c18f3bca92783782bfff6fc79827",
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "85842e44e0e9322690b81b8d171c45c76bb859f94aefc9e2b47b2b9516448f58"
+  },
+  "remaining": "Actual physical/owner use, full accessibility/appearance/backgrounds, real offline/online transition, redirect/unavailable-site checks and SC-T028/parent acceptance. SC-T168/169 awaiting_testing; SC-T039/028 pending."
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-21",
+  "scope": "Documentation-only decomposition of 22 existing outlines",
+  "parents": 22,
+  "newChildren": 147,
+  "range": [
+    "SC-T046",
+    "SC-T192"
+  ],
+  "totalTracked": 192,
+  "pending": 184,
+  "blocked": 1,
+  "done": 7,
+  "childTypes": {
+    "decision": 22,
+    "implementation": 34,
+    "asset production": 1,
+    "content": 69,
+    "acceptance": 17,
+    "refactor": 1,
+    "investigation": 2,
+    "documentation": 1
+  },
+  "curriculumTopicChildren": {
+    "A1": 13,
+    "A2": 11,
+    "B1": 10,
+    "B2": 10,
+    "C1": 8,
+    "C2": 5
+  },
+  "checks": {
+    "required_ticket_sections": "PASS",
+    "reciprocal_parent_membership": "PASS",
+    "original_parent_acceptance_preserved_verbatim": "PASS",
+    "explicit_requirement_accountability": "PASS",
+    "all_original_level_topics_allocated": "PASS",
+    "roadmap_tracker_status_and_dependency_alignment": "PASS",
+    "execution_graph_acyclic": "PASS",
+    "combined_group_closure_graph_acyclic": "PASS",
+    "local_markdown_targets": "PASS",
+    "no_application_or_git_created": "PASS",
+    "external_preset_validation_30_checks": "PASS"
+  },
+  "execution": "NOT_RUN: no application, content, educator, device, provider, learner or release work executed",
+  "authorization": "App development remains on hold; qualified review remains blocked SC-T006.",
+  "dependencyClarification": {
+    "date": "2026-10-21",
+    "scope": "Documentation-only provider staging and curriculum preparation/publication edges",
+    "provider_stages_and_ticket_handoffs": "PASS: provisional fixtures; prerequisites before live calls; SC-T017 acceptance after implementation",
+    "curriculum_preparation_dependencies": "PASS: six reviewed manifests require SC-T006; unreviewed drafts cannot close decisions",
+    "curriculum_integration_gates": "PASS: all six original upstream delivery gates retained on integration and parent closure",
+    "ticket_statuses_and_original_parent_acceptance": "UNCHANGED",
+    "runtime_provider_educator_device_execution": "NOT_RUN"
+  },
+  "fullReadinessReview": {
+    "date": "2026-10-21",
+    "record": "readiness-review.md",
+    "evidence": "readiness-audit.json",
+    "countsAndOriginalParentAcceptance": "UNCHANGED",
+    "additionalExplicitEdges": [
+      "SC-T159 -> SC-T012",
+      "SC-T167 -> SC-T055",
+      "SC-T183 -> SC-T158"
+    ],
+    "developmentAuthorized": false
+  }
+}

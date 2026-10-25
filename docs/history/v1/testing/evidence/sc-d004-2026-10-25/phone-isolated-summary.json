@@ -1,0 +1,42 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "50D36A98-6E31-4374-BB2C-4352E1F8012C",
+        "deviceName": "SC-D004-Verification",
+        "modelName": "iPhone 18 Pro",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "passedTests": 19,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "SpeechCoachAI \u00b7 Built with macOS 27.0.1",
+  "expectedFailures": 0,
+  "failedTests": 0,
+  "finishTime": 1792888376.934,
+  "passedTests": 18,
+  "result": "Passed",
+  "runtimeWarnings": [],
+  "skippedTests": 0,
+  "startTime": 1792888183.541,
+  "statistics": [
+    {
+      "subtitle": "2 test runs",
+      "title": "1 test ran with dynamic parameters"
+    }
+  ],
+  "testFailures": [],
+  "title": "Test - SpeechCoachAI",
+  "topInsights": [],
+  "totalTestCount": 18
+}

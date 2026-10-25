@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-24",
+  "delivery": "SC-D017",
+  "result": "PASS for scoped automated implementation verification",
+  "runs": [
+    {
+      "name": "first",
+      "result": "Build failed",
+      "passed": 0,
+      "failed": 0,
+      "total": 0,
+      "xcresult": "application/.build/sc-d017-first.xcresult",
+      "failure_messages": [
+        "Two new throwing test expressions required inner try; see sc-d017-first.log"
+      ],
+      "raw_result": "unknown"
+    },
+    {
+      "name": "phone",
+      "result": "Failed",
+      "passed": 209,
+      "failed": 2,
+      "total": 211,
+      "xcresult": "application/.build/sc-d017-phone.xcresult",
+      "failure_messages": [
+        "XCTAssertTrue failed",
+        "XCTAssertTrue failed"
+      ]
+    },
+    {
+      "name": "phone-repair",
+      "result": "Failed",
+      "passed": 12,
+      "failed": 2,
+      "total": 14,
+      "xcresult": "application/.build/sc-d017-phone-repair.xcresult",
+      "failure_messages": [
+        "XCTAssertTrue failed",
+        "Failed to tap \"Keep editing\" Button: No matches found for Elements matching predicate '\"Keep editing\" IN identifiers' from input {("
+      ]
+    },
+    {
+      "name": "phone-final",
+      "result": "Failed",
+      "passed": 13,
+      "failed": 1,
+      "total": 14,
+      "xcresult": "application/.build/sc-d017-phone-final.xcresult",
+      "failure_messages": [
+        "failed - resources.open.E00F73CB-D3AC-4711-8099-C3E59A9880D9 stayed under the review bar or offscreen"
+      ]
+    },
+    {
+      "name": "phone-search",
+      "result": "Failed",
+      "passed": 0,
+      "failed": 1,
+      "total": 1,
+      "xcresult": "application/.build/sc-d017-phone-search.xcresult",
+      "failure_messages": [
+        "Failed to tap \"Open website\" Button: Find single matching element. Multiple matching elements found for <XCUIElementQuery: 0x10a30fe80>."
+      ]
+    },
+    {
+      "name": "ipad",
+      "result": "Failed",
+      "passed": 210,
+      "failed": 1,
+      "total": 211,
+      "xcresult": "application/.build/sc-d017-ipad.xcresult",
+      "failure_messages": [
+        "Label not human-readable"
+      ]
+    },
+    {
+      "name": "ipad-audit",
+      "result": "Passed",
+      "passed": 13,
+      "failed": 0,
+      "total": 13,
+      "xcresult": "application/.build/sc-d017-ipad-audit.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "phone-confirm",
+      "result": "Passed",
+      "passed": 1,
+      "failed": 0,
+      "total": 1,
+      "xcresult": "application/.build/sc-d017-phone-confirm.xcresult",
+      "failure_messages": []
+    }
+  ],
+  "source_boundaries": [
+    "209 hosted tests passed in phone and iPad integration runs; earlier phone UI failures retained",
+    "iPad full integration UI journey 1 passed; final title/hostname accessibility composition is covered by iPad-audit (12 hosted + UI journey 2) and phone-confirm (UI journey 1)",
+    "Phone offline/discard journey passed in phone-final before nonfunctional label/search refinements; final same built source used for phone-confirm",
+    "Native URL failure/offline overrides are DEBUG UUID-isolated fixtures, not actual website/device-connectivity acceptance"
+  ],
+  "final_source_sha256": {
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "02c13a74996c92fe38d9df920d80fb53b9d27bfd5208bfa0ed812ad09697ec77",
+    "application/SpeechCoachAI/Domain/LearningResource.swift": "792e2400e217880b2b3a256883aedb0a5d7fce2c194a91a2ee71929caa30f1cf",
+    "application/SpeechCoachAI/Features/Resources/ResourceLibraryView.swift": "76ca5406f6c4cd9be80e83a0b958a25bdb70c7b6cdb72b277b88456538250d24",
+    "application/SpeechCoachAI/Features/Resources/ResourceEditorView.swift": "d41a49dd158fb30f9585818b599a9e2c6f9074ccc682254bec156a3700530eb4",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "91fb262b480773e5564f7aef0b0268758341230d0d84e7d9f0656ff216ecdb1d",
+    "application/SpeechCoachAI/App/LearnerStorageController.swift": "c4370f2c85381b40ac0cc96c0fc5f91362933e49c55e3e417fc96ac5b5a6e3d0",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "3f3e37f137cf36fc34e23a14443220d0f8401d4ecf3d35b307318f8c5a7eb115",
+    "application/SpeechCoachAITests/ResourceLibraryDeliveryTests.swift": "e259edfce55febe2cf4a4ae2dada737302518f5090d5c684aad819e6a1679d33",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "2a6dcaf0fcb17b51761183e54f1f0fa4382359e83a5fcfe3238cca22c86b46a8"
+  },
+  "limits": [
+    "Physical device and actual external site loading/redirect checks not run",
+    "Full VoiceOver, largest text, all themes/backgrounds and real offline transitions not run",
+    "Original SC-T028 and parent acceptance remain open",
+    "No live provider request, migration, learner reset, export/release or Git initialization"
+  ],
+  "ticket_status": {
+    "SC-T039": "pending",
+    "SC-T168": "awaiting_testing",
+    "SC-T169": "awaiting_testing"
+  },
+  "static_checks": {
+    "project_plist": "PASS",
+    "queue_status_hash_consistency": "PASS",
+    "grouping_coverage": "192 unique original IDs",
+    "local_links": "PASS"
+  }
+}

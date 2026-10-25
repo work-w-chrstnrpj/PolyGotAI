@@ -1,0 +1,2762 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.a1.d007.candidate",
+  "contentVersion": "proposal-1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "",
+  "rightsReference": "Original candidate text; existing asset provenance is retained in publication-manifest.json.",
+  "assets": [
+    {
+      "id": "intro-01-listen-alex",
+      "relativePath": "intro-01-alex.wav",
+      "byteCount": 200826,
+      "sha256": "e059e4a8a078787000fdc9e2cf050f51cd1e8e92aad940a0894566d16f8ea894",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "family-01-listen-sam",
+      "relativePath": "family-01-sam.wav",
+      "byteCount": 208506,
+      "sha256": "8b75aea44d9c2e642e82f5e64645527a5a0f1450675561ab1cf34cce0cefc376",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "routine-01-listen-alex",
+      "relativePath": "routine-01-alex.wav",
+      "byteCount": 203528,
+      "sha256": "2fd1769126ac463bd4f4091b7729dc2ec4950a2671d53fd7e5e78180aca84d13",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "food-01-listen-order",
+      "relativePath": "food-01-order.wav",
+      "byteCount": 224494,
+      "sha256": "0bd69d9db7e0ab5ef87a0bdc8d75800224f2e615ef930b5dd42784300858df28",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-greetings-listen",
+      "relativePath": "a1-greetings.wav",
+      "byteCount": 171564,
+      "sha256": "d024060f0198366a6c1f3f7cc320144347e8f7b436074ea1a461862ddd093090",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-alphabet-listen",
+      "relativePath": "a1-alphabet.wav",
+      "byteCount": 133726,
+      "sha256": "0da4bb071e85363d6b94b6359925a6e08a9dc2fc8957a38b4564aa93052e6765",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-numbers-listen",
+      "relativePath": "a1-numbers.wav",
+      "byteCount": 134920,
+      "sha256": "63051b9d03835f3460c71fdcfa5d482cc80bc0fec1a084472d2302a1552c3d06",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-dates-listen",
+      "relativePath": "a1-dates.wav",
+      "byteCount": 95612,
+      "sha256": "a4c4259413f1c72d81e8a40e22e0c3f0ad6d14cfe680e809002cfb80609a77b4",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-home-listen",
+      "relativePath": "a1-home.wav",
+      "byteCount": 156540,
+      "sha256": "a4e81d5b97daa0becbb6645619bba02a1b5fe2de09adc949834fb7864d2ebfc7",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-shopping-listen",
+      "relativePath": "a1-shopping.wav",
+      "byteCount": 167768,
+      "sha256": "b1ddbf99b1191f372d92f7440644cbabd3c94a643e7d72038ef5c6876366b758",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-places-listen",
+      "relativePath": "a1-places.wav",
+      "byteCount": 132476,
+      "sha256": "be9a348c3ede4af96cabdc8db03104e861634a74c30f3ea5509fb6662425f15a",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-hobbies-listen",
+      "relativePath": "a1-hobbies.wav",
+      "byteCount": 170170,
+      "sha256": "b943140e4f7b06fbaaebfe086d416dcbee11bd4a6951936fa3868522b4df2e7b",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "a1-weather-listen",
+      "relativePath": "a1-weather.wav",
+      "byteCount": 135496,
+      "sha256": "e27988fda867d6f4deb43e8baad3dc03689d31e3cdf1aa47c2eba89b4f37b0a5",
+      "mediaType": "audio/wav"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-greetings",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Greet someone",
+      "objectiveId": "GREET-01",
+      "senses": [
+        {
+          "itemId": "a1-greetings-hello",
+          "senseId": "hello",
+          "lemma": "Hello",
+          "meaning": "A first word you can say to someone you meet."
+        },
+        {
+          "itemId": "a1-greetings-morning",
+          "senseId": "morning",
+          "lemma": "Good morning",
+          "meaning": "A greeting for the start of the day."
+        },
+        {
+          "itemId": "a1-greetings-how",
+          "senseId": "how",
+          "lemma": "How are you?",
+          "meaning": "The question that asks about a person."
+        },
+        {
+          "itemId": "a1-greetings-fine",
+          "senseId": "fine",
+          "lemma": "I am fine",
+          "meaning": "A short answer to that question."
+        },
+        {
+          "itemId": "a1-greetings-bye",
+          "senseId": "bye",
+          "lemma": "Goodbye",
+          "meaning": "A word for leaving."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-greetings-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina meets a coworker at night and says, Good evening. How are you? Which greeting does Mina use?",
+          "answer": "Good evening."
+        },
+        {
+          "id": "a1-greetings-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. How does the speaker answer?",
+          "answer": "The speaker is fine.",
+          "assetId": "a1-greetings-listen"
+        },
+        {
+          "id": "a1-greetings-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a sentence with I / fine. Add the form of be.",
+          "answer": "I am fine.",
+          "explanation": "Use am with I; fine describes I.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-greetings-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask whether your partner is ready. Use you and be.",
+          "answer": "Are you ready?",
+          "explanation": "In this be question, are comes before you.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-greetings-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Make this negative: I am tired.",
+          "answer": "I am not tired. / I’m not tired.",
+          "explanation": "Put not after am; the contraction is also valid.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-greetings-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Reply to How are you? Say you are well and thank the person.",
+          "answer": "I am well, thank you. / I’m fine, thanks.",
+          "explanation": "Several short polite replies work; fine and well need not mean identical feelings.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-greetings-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Join these messages with and: I am fine. I am ready.",
+          "answer": "I am fine and I am ready. / I am fine and ready.",
+          "explanation": "And adds a related idea; the repeated subject and verb can be omitted here.",
+          "childObjectiveIds": [
+            "EF-01-CONJ-01",
+            "EF-04-CLAUSE-01"
+          ]
+        },
+        {
+          "id": "a1-greetings-recall-hello",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a first word you can say to someone you meet.",
+          "answer": "Hello."
+        },
+        {
+          "id": "a1-greetings-recall-morning",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a greeting for the start of the day.",
+          "answer": "Good morning."
+        },
+        {
+          "id": "a1-greetings-recall-how",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the question that asks about a person.",
+          "answer": "How are you?"
+        },
+        {
+          "id": "a1-greetings-recall-fine",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a short answer to that question.",
+          "answer": "I am fine."
+        },
+        {
+          "id": "a1-greetings-recall-bye",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a word for leaving.",
+          "answer": "Goodbye."
+        },
+        {
+          "id": "a1-greetings-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Greet someone, ask how they are, answer, and say goodbye. Invented names are fine.",
+          "answer": "Hello. How are you? I am fine. Goodbye."
+        },
+        {
+          "id": "a1-greetings-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try has a greeting, a question, an answer, and a goodbye. Write what is there and what is missing.",
+          "answer": "A complete try has a greeting, a question, an answer, and a goodbye."
+        },
+        {
+          "id": "a1-greetings-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try has a greeting, a question, an answer, and a goodbye.",
+          "alternativeToActivityID": "a1-greetings-guided"
+        },
+        {
+          "id": "a1-greetings-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "You meet a new neighbor in the evening. Greet them, ask if they are well, reply as the neighbor, and close the exchange.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-greetings-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "You meet a person at a morning class. Start a short conversation and close it politely. Use your own words before any model.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-greetings-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At an afternoon community event, greet a volunteer, ask if they are ready, answer as the volunteer, and say goodbye.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-greetings-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a morning workplace reception, greet the receptionist, ask how they are, give a short reply as that person, and close politely.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "intro-01",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Introduce yourself",
+      "objectiveId": "INTRO-01",
+      "senses": [
+        {
+          "itemId": "intro-name",
+          "senseId": "called",
+          "lemma": "My name is",
+          "meaning": "Used to tell someone your name."
+        },
+        {
+          "itemId": "intro-origin",
+          "senseId": "place",
+          "lemma": "I am from",
+          "meaning": "Used to say the place you come from."
+        },
+        {
+          "itemId": "intro-study",
+          "senseId": "study",
+          "lemma": "I study",
+          "meaning": "Used to say what you study."
+        },
+        {
+          "itemId": "intro-like",
+          "senseId": "enjoy",
+          "lemma": "I like",
+          "meaning": "Used to talk about something you enjoy."
+        },
+        {
+          "itemId": "intro-meet",
+          "senseId": "greeting",
+          "lemma": "Nice to meet you",
+          "meaning": "A polite greeting when you meet someone for the first time."
+        }
+      ],
+      "activities": [
+        {
+          "id": "read-mina",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this introduction. Hello. My name is Mina. I study English. I like cooking. What does Mina study?",
+          "answer": "Mina studies English."
+        },
+        {
+          "id": "read-mina-name",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this introduction. Hello. My name is Mina. I study English. I like cooking. What is her name?",
+          "answer": "Her name is Mina."
+        },
+        {
+          "id": "read-mina-like",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this introduction. Hello. My name is Mina. I study English. I like cooking. What does she like?",
+          "answer": "She likes cooking."
+        },
+        {
+          "id": "listen-alex-name",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. It is a different person from the reading. What name does the speaker use?",
+          "answer": "His name is Alex.",
+          "assetId": "intro-01-listen-alex"
+        },
+        {
+          "id": "listen-alex",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. It is a different person from the reading. What is Alex's job?",
+          "answer": "Alex is a cook.",
+          "assetId": "intro-01-listen-alex"
+        },
+        {
+          "id": "listen-alex-like",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. It is a different person from the reading. What does he like?",
+          "answer": "He likes music.",
+          "assetId": "intro-01-listen-alex"
+        },
+        {
+          "id": "grammar-be-am",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap with one word. I ___ a student.",
+          "answer": "am",
+          "choiceSet": [
+            "am",
+            "is",
+            "are"
+          ],
+          "explanation": "With I, use am: I am a student.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "grammar-be-is",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap with one word. She ___ a teacher.",
+          "answer": "is",
+          "choiceSet": [
+            "am",
+            "is",
+            "are"
+          ],
+          "explanation": "With she or he, use is.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "grammar-study",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap with one word. I ___ English.",
+          "answer": "study",
+          "choiceSet": [
+            "study",
+            "studies",
+            "studying"
+          ],
+          "explanation": "With I, use study. Studies is the he/she form.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "grammar-works",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap with one word. He ___ in a shop.",
+          "answer": "works",
+          "choiceSet": [
+            "work",
+            "works",
+            "working"
+          ],
+          "explanation": "With he, use works.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "grammar-do",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap with one word. ___ you like music?",
+          "answer": "Do",
+          "choiceSet": [
+            "Do",
+            "Does",
+            "Is"
+          ],
+          "explanation": "With you, start the question with Do. Does is the he/she auxiliary.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "recall-name",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one sentence that tells someone what you are called. You may invent the name.",
+          "answer": "My name is …"
+        },
+        {
+          "id": "recall-from",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one sentence that tells someone the place you come from. You may invent the place.",
+          "answer": "I am from …"
+        },
+        {
+          "id": "recall-study",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one sentence about your studies, or about your work.",
+          "answer": "I study … / I work …"
+        },
+        {
+          "id": "recall-like",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one sentence about something you enjoy.",
+          "answer": "I like …"
+        },
+        {
+          "id": "recall-meet",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a short polite line for the first moment you meet someone.",
+          "answer": "Nice to meet you."
+        },
+        {
+          "id": "guided-intro",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say, or type, three facts: your name, your work or study, and one interest. Then answer one simple question a new person might ask. Invented details are fine.",
+          "answer": "My name is ___. I study / I work ___. I like ___. A simple follow-up is: What do you like?"
+        },
+        {
+          "id": "self-review",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your introduction. Did it include a name, a role, and an interest, plus an answer to one follow-up? Write what is there and what is missing.",
+          "answer": "A complete try names you, says work or study, names one interest, and answers one related question."
+        },
+        {
+          "id": "quiet-intro",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same three facts and one simple question back. This stays text practice.",
+          "answer": "Three facts plus one related question, such as: What do you like?",
+          "alternativeToActivityID": "guided-intro"
+        },
+        {
+          "id": "baseline-intro",
+          "kind": "quietText",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "Before any model, write an introduction with three facts and answer one follow-up. This check stays out of ordinary practice.",
+          "answer": "Three facts and one related answer, with no model shown first.",
+          "alternativeToActivityID": "guided-intro"
+        },
+        {
+          "id": "transfer-neighbor",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "You meet a new neighbor at the door. Give your name, what you do, and one interest. Then answer: What do you do in the evening?",
+          "answer": "Three relevant facts and a meaningful answer about the evening."
+        },
+        {
+          "id": "transfer-class",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "You sit next to a new classmate. Give your name, what you study or your daily role, and one interest. Then answer: Where are you from?",
+          "answer": "Three relevant facts and a meaningful answer about where you are from."
+        }
+      ]
+    },
+    {
+      "id": "a1-alphabet",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Spell your name",
+      "objectiveId": "SPELL-01",
+      "senses": [
+        {
+          "itemId": "a1-alphabet-spell",
+          "senseId": "spell",
+          "lemma": "spell",
+          "meaning": "The verb for saying the letters of a word."
+        },
+        {
+          "itemId": "a1-alphabet-letter",
+          "senseId": "letter",
+          "lemma": "letter",
+          "meaning": "The word for A, B, or C."
+        },
+        {
+          "itemId": "a1-alphabet-capital",
+          "senseId": "capital",
+          "lemma": "capital letter",
+          "meaning": "The name for a big letter."
+        },
+        {
+          "itemId": "a1-alphabet-how-spell",
+          "senseId": "how-spell",
+          "lemma": "How do you spell",
+          "meaning": "The question that asks for letters."
+        },
+        {
+          "itemId": "a1-alphabet-name",
+          "senseId": "name",
+          "lemma": "My name is",
+          "meaning": "A sentence that gives a name before you spell it."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-alphabet-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ben spells his name: B, E, N. What is the first letter?",
+          "answer": "B."
+        },
+        {
+          "id": "a1-alphabet-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. Which letters does the speaker say?",
+          "answer": "A, N, A.",
+          "assetId": "a1-alphabet-listen"
+        },
+        {
+          "id": "a1-alphabet-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Correct the capital letters: my name is ben.",
+          "answer": "My name is Ben.",
+          "explanation": "Start a sentence and a personal name with capitals.",
+          "childObjectiveIds": [
+            "EF-02-BOUND-01"
+          ]
+        },
+        {
+          "id": "a1-alphabet-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a question with How / do / you / spell / it.",
+          "answer": "How do you spell it?",
+          "explanation": "Use do before you, followed by base-form spell.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-alphabet-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete with a possessive determiner: I am Ben. ___ name is Ben.",
+          "answer": "My",
+          "explanation": "My describes a noun connected with I.",
+          "childObjectiveIds": [
+            "EF-01-DET-01"
+          ]
+        },
+        {
+          "id": "a1-alphabet-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a sentence with The name / start / with B.",
+          "answer": "The name starts with B.",
+          "explanation": "A singular subject takes starts in the simple present.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-alphabet-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask politely for the letters to be repeated.",
+          "answer": "Please repeat the letters. / Could you repeat the letters, please?",
+          "explanation": "These are valid polite requests; no single phrase is mandatory.",
+          "childObjectiveIds": [
+            "EF-02-IMP-01"
+          ]
+        },
+        {
+          "id": "a1-alphabet-recall-spell",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the verb for saying the letters of a word.",
+          "answer": "spell"
+        },
+        {
+          "id": "a1-alphabet-recall-letter",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for A, B, or C.",
+          "answer": "letter"
+        },
+        {
+          "id": "a1-alphabet-recall-capital",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the name for a big letter.",
+          "answer": "capital letter"
+        },
+        {
+          "id": "a1-alphabet-recall-how-spell",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the question that asks for letters.",
+          "answer": "How do you spell …?"
+        },
+        {
+          "id": "a1-alphabet-recall-name",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence that gives a name before you spell it.",
+          "answer": "My name is …"
+        },
+        {
+          "id": "a1-alphabet-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say a chosen name and spell it, letter by letter.",
+          "answer": "My name is ___. It is spelled ___."
+        },
+        {
+          "id": "a1-alphabet-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try gives a name and its letters. Write what is there and what is missing.",
+          "answer": "A complete try gives a name and its letters."
+        },
+        {
+          "id": "a1-alphabet-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try gives a name and its letters.",
+          "alternativeToActivityID": "a1-alphabet-guided"
+        },
+        {
+          "id": "a1-alphabet-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A library clerk mishears the surname Kim. Give the name, spell it, and politely ask the clerk to repeat it.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-alphabet-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Choose a fictional name. Say or write the name and spell it without a model.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-alphabet-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A course form asks for the name Lee. State the name, spell it, and check that the listener understood.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-alphabet-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A phone message asks for the street name Oak. Give and spell the word, then politely request confirmation.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-numbers",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Use numbers",
+      "objectiveId": "NUMBER-01",
+      "senses": [
+        {
+          "itemId": "a1-numbers-one",
+          "senseId": "one",
+          "lemma": "one",
+          "meaning": "The number for a single thing."
+        },
+        {
+          "itemId": "a1-numbers-twelve",
+          "senseId": "twelve",
+          "lemma": "twelve",
+          "meaning": "The word for 12."
+        },
+        {
+          "itemId": "a1-numbers-twenty",
+          "senseId": "twenty",
+          "lemma": "twenty",
+          "meaning": "The word for 20."
+        },
+        {
+          "itemId": "a1-numbers-how-many",
+          "senseId": "how-many",
+          "lemma": "How many",
+          "meaning": "The start of a question about a count."
+        },
+        {
+          "itemId": "a1-numbers-dollars",
+          "senseId": "dollars",
+          "lemma": "dollars",
+          "meaning": "The word you put after a price in the United States."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-numbers-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina buys fifteen apples. The bag is five dollars. How many apples does she buy?",
+          "answer": "Fifteen."
+        },
+        {
+          "id": "a1-numbers-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. How many tickets does the speaker need?",
+          "answer": "Two.",
+          "assetId": "a1-numbers-listen"
+        },
+        {
+          "id": "a1-numbers-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Write 14 in words.",
+          "answer": "fourteen",
+          "explanation": "Fourteen is 14; forty is 40.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-NUM-01"
+          ]
+        },
+        {
+          "id": "a1-numbers-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Use ticket in the right form: I need two ___.",
+          "answer": "tickets",
+          "explanation": "Two calls for a plural count noun.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-NUM-01"
+          ]
+        },
+        {
+          "id": "a1-numbers-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a count question with How many / tickets / do / you / need.",
+          "answer": "How many tickets do you need?",
+          "explanation": "Place How many tickets before do you need.",
+          "childObjectiveIds": [
+            "EF-01-DET-01",
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-numbers-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask the price of one ticket.",
+          "answer": "How much is one ticket? / How much does one ticket cost?",
+          "explanation": "Both ask about price; how many asks about quantity.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-numbers-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Correct this message: I need one tickets.",
+          "answer": "I need one ticket.",
+          "explanation": "One takes a singular count noun.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-NUM-01"
+          ]
+        },
+        {
+          "id": "a1-numbers-recall-one",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the number for a single thing.",
+          "answer": "one"
+        },
+        {
+          "id": "a1-numbers-recall-twelve",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for 12.",
+          "answer": "twelve"
+        },
+        {
+          "id": "a1-numbers-recall-twenty",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for 20.",
+          "answer": "twenty"
+        },
+        {
+          "id": "a1-numbers-recall-how-many",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the start of a question about a count.",
+          "answer": "How many …?"
+        },
+        {
+          "id": "a1-numbers-recall-dollars",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word you put after a price in the United States.",
+          "answer": "dollars"
+        },
+        {
+          "id": "a1-numbers-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say how many you want and the price. Invented numbers are fine.",
+          "answer": "I need ___. It is ___ dollars."
+        },
+        {
+          "id": "a1-numbers-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try has a count and a price. Write what is there and what is missing.",
+          "answer": "A complete try has a count and a price."
+        },
+        {
+          "id": "a1-numbers-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try has a count and a price.",
+          "alternativeToActivityID": "a1-numbers-guided"
+        },
+        {
+          "id": "a1-numbers-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a museum desk, ask for three adult tickets. Then ask the total price and repeat a fictional price to check it.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-numbers-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Ask for an invented number of tickets and ask the price before seeing a model.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-numbers-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a community sale, ask for four cups and ask their total price. Use invented prices.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-numbers-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A class needs six notebooks. Request them, ask the total price, and confirm the count.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-dates",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Say the day and the time",
+      "objectiveId": "DATE-01",
+      "senses": [
+        {
+          "itemId": "a1-dates-on-day",
+          "senseId": "on-day",
+          "lemma": "on Friday",
+          "meaning": "A phrase that names a day."
+        },
+        {
+          "itemId": "a1-dates-at-time",
+          "senseId": "at-time",
+          "lemma": "at three",
+          "meaning": "A phrase that names an hour."
+        },
+        {
+          "itemId": "a1-dates-in-month",
+          "senseId": "in-month",
+          "lemma": "in March",
+          "meaning": "A phrase that names a month."
+        },
+        {
+          "itemId": "a1-dates-what-time",
+          "senseId": "what-time",
+          "lemma": "What time",
+          "meaning": "The start of a question about the hour."
+        },
+        {
+          "itemId": "a1-dates-today",
+          "senseId": "today",
+          "lemma": "today",
+          "meaning": "The word for this day."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-dates-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina's class is on Monday in March. She arrives at nine. Which month is the class in?",
+          "answer": "March."
+        },
+        {
+          "id": "a1-dates-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. When is the meeting?",
+          "answer": "On Friday at three.",
+          "assetId": "a1-dates-listen"
+        },
+        {
+          "id": "a1-dates-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: The class is ___ Tuesday.",
+          "answer": "on",
+          "explanation": "Use on with a named day.",
+          "childObjectiveIds": [
+            "EF-01-PREP-01"
+          ]
+        },
+        {
+          "id": "a1-dates-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: It starts ___ ten.",
+          "answer": "at",
+          "explanation": "Use at for a clock time.",
+          "childObjectiveIds": [
+            "EF-01-PREP-01"
+          ]
+        },
+        {
+          "id": "a1-dates-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: The course begins ___ April.",
+          "answer": "in",
+          "explanation": "Use in with a month.",
+          "childObjectiveIds": [
+            "EF-01-PREP-01"
+          ]
+        },
+        {
+          "id": "a1-dates-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask the time of a meeting using What time.",
+          "answer": "What time is the meeting?",
+          "explanation": "The be verb comes before the subject in this question.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-dates-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Write the appointment clearly: Monday / May 4 / nine in the morning.",
+          "answer": "The appointment is on Monday, May 4, at nine in the morning. / The appointment is at nine in the morning on Monday, 4 May.",
+          "explanation": "Both month/day and day/month wording can be clear; no year or real appointment is required.",
+          "childObjectiveIds": [
+            "EF-04-PP-01"
+          ]
+        },
+        {
+          "id": "a1-dates-recall-on-day",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a phrase that names a day.",
+          "answer": "on Friday"
+        },
+        {
+          "id": "a1-dates-recall-at-time",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a phrase that names an hour.",
+          "answer": "at three"
+        },
+        {
+          "id": "a1-dates-recall-in-month",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a phrase that names a month.",
+          "answer": "in March"
+        },
+        {
+          "id": "a1-dates-recall-what-time",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the start of a question about the hour.",
+          "answer": "What time …?"
+        },
+        {
+          "id": "a1-dates-recall-today",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for this day.",
+          "answer": "today"
+        },
+        {
+          "id": "a1-dates-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say a day, a month, and a time. Invented details are fine.",
+          "answer": "It is on ___ in ___, at ___."
+        },
+        {
+          "id": "a1-dates-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try has a day, a month, and a time. Write what is there and what is missing.",
+          "answer": "A complete try has a day, a month, and a time."
+        },
+        {
+          "id": "a1-dates-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try has a day, a month, and a time.",
+          "alternativeToActivityID": "a1-dates-guided"
+        },
+        {
+          "id": "a1-dates-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A new classmate asks when a club meets. Give Wednesday at half past five in the evening, then ask if that time is possible.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-dates-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Tell someone an invented appointment day and time. Ask them to confirm the time.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-dates-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Arrange an invented library visit for Saturday at ten in the morning. Ask the other person to repeat the time.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-dates-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Tell a coworker an invented training date using a month name and clock time; ask them to confirm the day.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "family-01",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Describe your family",
+      "objectiveId": "FAMILY-01",
+      "senses": [
+        {
+          "itemId": "family-mother",
+          "senseId": "mother",
+          "lemma": "my mother",
+          "meaning": "A sentence about your mother, or invent one."
+        },
+        {
+          "itemId": "family-father",
+          "senseId": "father",
+          "lemma": "my father",
+          "meaning": "A sentence about your father, or invent one."
+        },
+        {
+          "itemId": "family-have",
+          "senseId": "have",
+          "lemma": "I have",
+          "meaning": "A sentence about someone you have in your family."
+        },
+        {
+          "itemId": "family-there",
+          "senseId": "there-is",
+          "lemma": "there is",
+          "meaning": "A sentence about one thing in your home."
+        },
+        {
+          "itemId": "family-this",
+          "senseId": "this-is",
+          "lemma": "This is",
+          "meaning": "A sentence that points someone out to a new friend."
+        }
+      ],
+      "activities": [
+        {
+          "id": "read-family",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina has a sister. Her name is Lina. They live in a small apartment. Who is Lina?",
+          "answer": "Lina is Mina's sister."
+        },
+        {
+          "id": "listen-family",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. It is a different home from the reading. Who is Sam?",
+          "answer": "Sam is the speaker's brother.",
+          "assetId": "family-01-listen-sam"
+        },
+        {
+          "id": "family-01-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: She ___ a brother.",
+          "answer": "has",
+          "explanation": "Use has with she.",
+          "childObjectiveIds": [
+            "EF-03-HAVE-01"
+          ]
+        },
+        {
+          "id": "family-01-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: They ___ a sister.",
+          "answer": "have",
+          "explanation": "Use have with they.",
+          "childObjectiveIds": [
+            "EF-03-HAVE-01"
+          ]
+        },
+        {
+          "id": "family-01-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Replace Lina with a subject pronoun: Lina is a teacher.",
+          "answer": "She is a teacher. / They are a teacher.",
+          "explanation": "She is valid when appropriate for Lina; singular they with are is also valid when chosen.",
+          "childObjectiveIds": [
+            "EF-01-PRON-01"
+          ]
+        },
+        {
+          "id": "family-01-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Show the relationship using a possessive: Mina has a sister. Lina is that sister.",
+          "answer": "Lina is Mina’s sister. / Lina is Mina's sister.",
+          "explanation": "The possessive ending attaches to the name Mina.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-POSS-01"
+          ]
+        },
+        {
+          "id": "family-01-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a description with My brother / kind / be.",
+          "answer": "My brother is kind.",
+          "explanation": "Kind is an adjective complement after is.",
+          "childObjectiveIds": [
+            "EF-01-ADJ-01",
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "recall-mother",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about your mother, or invent one.",
+          "answer": "My mother …"
+        },
+        {
+          "id": "recall-father",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about your father, or invent one.",
+          "answer": "My father …"
+        },
+        {
+          "id": "recall-have",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about someone you have in your family.",
+          "answer": "I have …"
+        },
+        {
+          "id": "recall-there",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about one thing in your home.",
+          "answer": "There is …"
+        },
+        {
+          "id": "recall-this",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence that points someone out to a new friend.",
+          "answer": "This is …"
+        },
+        {
+          "id": "guided-family",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Describe two people and where you live. Invented details are fine.",
+          "answer": "This is ___. I have ___. We live in ___."
+        },
+        {
+          "id": "self-family",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Did you name two people and a home? Write what is there and what is missing.",
+          "answer": "A complete try names two people and says where they live."
+        },
+        {
+          "id": "quiet-family",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same description. This stays text practice.",
+          "answer": "Two people and a home, in writing.",
+          "alternativeToActivityID": "guided-family"
+        },
+        {
+          "id": "transfer-family",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "A visitor sees a fictional family photo. Name two people, explain their relationships, and describe one person.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed."
+        },
+        {
+          "id": "family-01-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe two invented people and say where they live, without consulting a model.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "family-01-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Introduce two invented relatives to a new classmate. Say one thing each person does and where they live.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "family-01-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe two people in an imaginary household to a new neighbor. Use a relationship and one personal quality.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-home",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Describe your home",
+      "objectiveId": "HOME-01",
+      "senses": [
+        {
+          "itemId": "a1-home-kitchen",
+          "senseId": "kitchen",
+          "lemma": "kitchen",
+          "meaning": "The name of the room where people cook."
+        },
+        {
+          "itemId": "a1-home-bedroom",
+          "senseId": "bedroom",
+          "lemma": "bedroom",
+          "meaning": "The name of the room where people sleep."
+        },
+        {
+          "itemId": "a1-home-next",
+          "senseId": "next",
+          "lemma": "next to",
+          "meaning": "The phrase for something beside another thing."
+        },
+        {
+          "itemId": "a1-home-upstairs",
+          "senseId": "upstairs",
+          "lemma": "upstairs",
+          "meaning": "The word for the floor above."
+        },
+        {
+          "itemId": "a1-home-there",
+          "senseId": "there",
+          "lemma": "There is",
+          "meaning": "The start of a sentence about one thing in a room."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-home-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina's bedroom has one window. The bathroom is upstairs. Where is the bathroom?",
+          "answer": "Upstairs."
+        },
+        {
+          "id": "a1-home-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. What is next to the living room?",
+          "answer": "The kitchen.",
+          "assetId": "a1-home-listen"
+        },
+        {
+          "id": "a1-home-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: There ___ a chair in the kitchen.",
+          "answer": "is",
+          "explanation": "Use is with a single chair.",
+          "childObjectiveIds": [
+            "EF-03-THERE-01"
+          ]
+        },
+        {
+          "id": "a1-home-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: There ___ two chairs in the kitchen.",
+          "answer": "are",
+          "explanation": "Use are with plural chairs.",
+          "childObjectiveIds": [
+            "EF-03-THERE-01"
+          ]
+        },
+        {
+          "id": "a1-home-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put these words in order: a / table / small.",
+          "answer": "a small table",
+          "explanation": "The adjective small goes before the head noun table.",
+          "childObjectiveIds": [
+            "EF-04-NP-01"
+          ]
+        },
+        {
+          "id": "a1-home-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete with an article: There is ___ orange chair.",
+          "answer": "an",
+          "explanation": "Use an before a vowel sound, as in orange.",
+          "childObjectiveIds": [
+            "EF-01-DET-01"
+          ]
+        },
+        {
+          "id": "a1-home-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a location sentence: The kitchen / next to / the living room.",
+          "answer": "The kitchen is next to the living room.",
+          "explanation": "Add the be verb; next to the living room gives location.",
+          "childObjectiveIds": [
+            "EF-04-PP-01",
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-home-recall-kitchen",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the name of the room where people cook.",
+          "answer": "kitchen"
+        },
+        {
+          "id": "a1-home-recall-bedroom",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the name of the room where people sleep.",
+          "answer": "bedroom"
+        },
+        {
+          "id": "a1-home-recall-next",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for something beside another thing.",
+          "answer": "next to"
+        },
+        {
+          "id": "a1-home-recall-upstairs",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for the floor above.",
+          "answer": "upstairs"
+        },
+        {
+          "id": "a1-home-recall-there",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the start of a sentence about one thing in a room.",
+          "answer": "There is …"
+        },
+        {
+          "id": "a1-home-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Describe two rooms and one thing in them. Invented homes are fine.",
+          "answer": "There is a ___. The ___ is next to the ___."
+        },
+        {
+          "id": "a1-home-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try names two rooms and one object. Write what is there and what is missing.",
+          "answer": "A complete try names two rooms and one object."
+        },
+        {
+          "id": "a1-home-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try names two rooms and one object.",
+          "alternativeToActivityID": "a1-home-guided"
+        },
+        {
+          "id": "a1-home-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A guest needs somewhere to put a bag. Name a room, say what is in it, and explain where to leave the bag.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-home-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe an imaginary room and locate two things before reading the examples.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-home-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe a fictional study room to a friend: say what one thing and two other things are, and locate one.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-home-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Help a new housemate find a key in an invented home. Name the room and describe its position beside another object.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "routine-01",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Describe your day",
+      "objectiveId": "ROUTINE-01",
+      "senses": [
+        {
+          "itemId": "routine-up",
+          "senseId": "get-up",
+          "lemma": "I get up",
+          "meaning": "A sentence about the time you wake up."
+        },
+        {
+          "itemId": "routine-work",
+          "senseId": "go-to-work",
+          "lemma": "I go to work",
+          "meaning": "A sentence about going to work or to class."
+        },
+        {
+          "itemId": "routine-morning",
+          "senseId": "morning",
+          "lemma": "in the morning",
+          "meaning": "A sentence about something you do in the morning."
+        },
+        {
+          "itemId": "routine-lunch",
+          "senseId": "lunch",
+          "lemma": "I have lunch",
+          "meaning": "A sentence about lunch."
+        },
+        {
+          "itemId": "routine-night",
+          "senseId": "night",
+          "lemma": "at night",
+          "meaning": "A sentence about something you do at night."
+        }
+      ],
+      "activities": [
+        {
+          "id": "read-routine",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina gets up at six. She studies in the morning. She cooks at night. When does Mina study?",
+          "answer": "Mina studies in the morning."
+        },
+        {
+          "id": "listen-routine",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. This day is different from the reading. What time does the speaker start work?",
+          "answer": "The speaker starts work at nine.",
+          "assetId": "routine-01-listen-alex"
+        },
+        {
+          "id": "routine-01-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: She ___ at nine. Use start.",
+          "answer": "starts",
+          "explanation": "Use starts for third-person singular she.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "routine-01-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask about his routine: ___ he work on Sunday?",
+          "answer": "Does",
+          "explanation": "Does begins this third-person singular present question.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "routine-01-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete the negative: He does not ___ on Sunday. Use work.",
+          "answer": "work",
+          "explanation": "Does already carries the agreement; use base-form work.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "routine-01-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put usually in this sentence: I eat lunch at noon.",
+          "answer": "I usually eat lunch at noon.",
+          "explanation": "Usually normally goes before the main verb eat.",
+          "childObjectiveIds": [
+            "EF-01-ADV-01"
+          ]
+        },
+        {
+          "id": "routine-01-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Join with and: I study in the morning. I cook at night.",
+          "answer": "I study in the morning and I cook at night. / I study in the morning and cook at night.",
+          "explanation": "And joins related routine events; repeated I may be omitted.",
+          "childObjectiveIds": [
+            "EF-01-CONJ-01",
+            "EF-04-CLAUSE-01"
+          ]
+        },
+        {
+          "id": "recall-up",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about the time you wake up.",
+          "answer": "I get up at …"
+        },
+        {
+          "id": "recall-work",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about going to work or to class.",
+          "answer": "I go to work. / I go to class."
+        },
+        {
+          "id": "recall-morning",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about something you do in the morning.",
+          "answer": "In the morning, I …"
+        },
+        {
+          "id": "recall-lunch",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about lunch.",
+          "answer": "I have lunch …"
+        },
+        {
+          "id": "recall-night",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about something you do at night.",
+          "answer": "At night, I …"
+        },
+        {
+          "id": "guided-routine",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say, or type, four parts of your day: morning, work or study, lunch, and night. Invented times are fine.",
+          "answer": "I get up at ___. I go to ___. I have lunch ___. At night, I ___."
+        },
+        {
+          "id": "self-routine",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Did your day include morning, work or study, lunch, and night? Write what is missing.",
+          "answer": "A complete try covers those four parts of the day."
+        },
+        {
+          "id": "quiet-routine",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same day. This stays text practice.",
+          "answer": "Morning, work or study, lunch, and night, in writing.",
+          "alternativeToActivityID": "guided-routine"
+        },
+        {
+          "id": "transfer-routine",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "A new teammate asks about a day off. Describe morning, lunch and evening, then ask what they usually do.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed."
+        },
+        {
+          "id": "routine-01-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe an invented weekday from morning to night and ask about someone else’s routine.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "routine-01-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe a fictional neighbor’s weekday using she or he, then ask whether that person works on Saturday.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "routine-01-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe an imagined change between your weekday and Sunday routines, including one thing you do not do.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "food-01",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Order a snack",
+      "objectiveId": "FOOD-01",
+      "senses": [
+        {
+          "itemId": "food-like",
+          "senseId": "would-like",
+          "lemma": "I would like",
+          "meaning": "One polite sentence that asks for a drink."
+        },
+        {
+          "itemId": "food-much",
+          "senseId": "how-much",
+          "lemma": "How much",
+          "meaning": "One question about a price."
+        },
+        {
+          "itemId": "food-water",
+          "senseId": "water",
+          "lemma": "water",
+          "meaning": "A sentence that asks for water."
+        },
+        {
+          "itemId": "food-menu",
+          "senseId": "menu",
+          "lemma": "the menu",
+          "meaning": "A sentence that asks to see the list of food."
+        },
+        {
+          "itemId": "food-can",
+          "senseId": "can-i",
+          "lemma": "Can I have",
+          "meaning": "A sentence that asks for a snack."
+        }
+      ],
+      "activities": [
+        {
+          "id": "read-food",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina says, I would like tea and a sandwich. The sandwich is three dollars. What does Mina want to drink?",
+          "answer": "Mina wants tea."
+        },
+        {
+          "id": "listen-food",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. The order is different from the reading. What does the speaker ask for besides water?",
+          "answer": "The speaker asks for a cake.",
+          "assetId": "food-01-listen-order"
+        },
+        {
+          "id": "food-01-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Request tea politely using would like.",
+          "answer": "I would like tea, please. / I’d like tea, please.",
+          "explanation": "Would like is followed by the thing requested; contraction is valid.",
+          "childObjectiveIds": [
+            "EF-02-OBJ-01"
+          ]
+        },
+        {
+          "id": "food-01-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: Can I ___ a sandwich?",
+          "answer": "have",
+          "explanation": "After modal can, use the base form have.",
+          "childObjectiveIds": [
+            "EF-05-CAN-01"
+          ]
+        },
+        {
+          "id": "food-01-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete with a useful quantity word: Can I have ___ water?",
+          "answer": "some",
+          "explanation": "Water here is uncountable; some water is natural.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-COUNT-01",
+            "EF-01-DET-01"
+          ]
+        },
+        {
+          "id": "food-01-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask the price of the sandwich using How much.",
+          "answer": "How much is the sandwich?",
+          "explanation": "How much asks about its price.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "food-01-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Make the order plural: I would like one sandwich. Change one to two.",
+          "answer": "I would like two sandwiches.",
+          "explanation": "Two takes a plural noun; sandwich adds es.",
+          "childObjectiveIds": [
+            "EF-01-NOUN-NUM-01"
+          ]
+        },
+        {
+          "id": "recall-like",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one polite sentence that asks for a drink.",
+          "answer": "I would like …"
+        },
+        {
+          "id": "recall-much",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write one question about a price.",
+          "answer": "How much is …?"
+        },
+        {
+          "id": "recall-water",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence that asks for water.",
+          "answer": "Can I have water?"
+        },
+        {
+          "id": "recall-menu",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence that asks to see the list of food.",
+          "answer": "Can I see the menu?"
+        },
+        {
+          "id": "recall-can",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence that asks for a snack.",
+          "answer": "Can I have …?"
+        },
+        {
+          "id": "guided-food",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Order a drink and a snack, then ask the price. Invented items are fine.",
+          "answer": "I would like ___. Can I have ___? How much is ___?"
+        },
+        {
+          "id": "self-food",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Did you name a drink, a snack, and a price question? Write what is missing.",
+          "answer": "A complete order names a drink, a snack, and asks the price."
+        },
+        {
+          "id": "quiet-food",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same order. This stays text practice.",
+          "answer": "A drink, a snack, and a price question, in writing.",
+          "alternativeToActivityID": "guided-food"
+        },
+        {
+          "id": "transfer-food",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "withheldFromPractice": true,
+          "prompt": "At a small station kiosk, ask for a drink and two snacks, ask the price, and politely ask for repetition.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed."
+        },
+        {
+          "id": "food-01-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Order an invented drink and snack and ask the price, without looking at the example.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "food-01-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At an imaginary cafe, order soup and water and ask the price. Reply to a request to repeat one item.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "food-01-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a community picnic stall, request juice and two sandwiches, ask the total price, and close the exchange politely.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-shopping",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Ask a price and buy",
+      "objectiveId": "SHOP-01",
+      "senses": [
+        {
+          "itemId": "a1-shopping-price",
+          "senseId": "price",
+          "lemma": "How much is this",
+          "meaning": "A question about a price."
+        },
+        {
+          "itemId": "a1-shopping-receipt",
+          "senseId": "receipt",
+          "lemma": "a receipt",
+          "meaning": "The paper the shop gives after you pay."
+        },
+        {
+          "itemId": "a1-shopping-big",
+          "senseId": "big",
+          "lemma": "too big",
+          "meaning": "The phrase for a size that does not fit."
+        },
+        {
+          "itemId": "a1-shopping-take",
+          "senseId": "take",
+          "lemma": "I will take it",
+          "meaning": "The sentence that means you want to buy it."
+        },
+        {
+          "itemId": "a1-shopping-cash",
+          "senseId": "cash",
+          "lemma": "cash",
+          "meaning": "The word for paying with bills and coins."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-shopping-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina looks at shoes. They are thirty dollars. She says, I will take them. What does she buy?",
+          "answer": "Shoes."
+        },
+        {
+          "id": "a1-shopping-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. What does the speaker ask for after the price?",
+          "answer": "A smaller shirt.",
+          "assetId": "a1-shopping-listen"
+        },
+        {
+          "id": "a1-shopping-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask the price of one hat using How much.",
+          "answer": "How much is this hat? / How much is the hat?",
+          "explanation": "Use is for one hat.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-shopping-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: These shoes ___ too big.",
+          "answer": "are",
+          "explanation": "These shoes is a plural subject.",
+          "childObjectiveIds": [
+            "EF-03-BE-01",
+            "EF-01-DET-01"
+          ]
+        },
+        {
+          "id": "a1-shopping-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Replace shoes with an object pronoun: I will take the shoes.",
+          "answer": "I will take them. / I’ll take them.",
+          "explanation": "Use them for the plural shoes.",
+          "childObjectiveIds": [
+            "EF-01-PRON-OBJ-01"
+          ]
+        },
+        {
+          "id": "a1-shopping-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Replace hat with an object pronoun: I will take the hat.",
+          "answer": "I will take it. / I’ll take it.",
+          "explanation": "Use it for the singular hat.",
+          "childObjectiveIds": [
+            "EF-01-PRON-OBJ-01"
+          ]
+        },
+        {
+          "id": "a1-shopping-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask politely for a smaller shirt.",
+          "answer": "Do you have a smaller shirt? / Can I have a smaller shirt, please?",
+          "explanation": "Both are valid requests; smaller expresses the desired size change.",
+          "childObjectiveIds": [
+            "EF-01-ADJ-01",
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-shopping-recall-price",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a question about a price.",
+          "answer": "How much is this?"
+        },
+        {
+          "id": "a1-shopping-recall-receipt",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the paper the shop gives after you pay.",
+          "answer": "a receipt"
+        },
+        {
+          "id": "a1-shopping-recall-big",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for a size that does not fit.",
+          "answer": "too big"
+        },
+        {
+          "id": "a1-shopping-recall-take",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the sentence that means you want to buy it.",
+          "answer": "I will take it."
+        },
+        {
+          "id": "a1-shopping-recall-cash",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for paying with bills and coins.",
+          "answer": "cash"
+        },
+        {
+          "id": "a1-shopping-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Ask the price of one thing, say the size, and say you will take it.",
+          "answer": "How much is this? It is too ___. I will take it."
+        },
+        {
+          "id": "a1-shopping-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try asks a price, mentions size, and chooses to buy. Write what is there and what is missing.",
+          "answer": "A complete try asks a price, mentions size, and chooses to buy."
+        },
+        {
+          "id": "a1-shopping-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try asks a price, mentions size, and chooses to buy.",
+          "alternativeToActivityID": "a1-shopping-guided"
+        },
+        {
+          "id": "a1-shopping-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Buy gloves for a fictional friend. Ask their price and whether a smaller pair is available, then say which pair you choose.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-shopping-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Ask a price and a size question for an imagined item, then state a choice.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-shopping-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At an imaginary book sale, ask the price of two books, check the total, and say you will take them.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-shopping-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a market stall, ask for a larger hat and its price, then choose it or politely decline.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-places",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Ask for directions",
+      "objectiveId": "PLACE-01",
+      "senses": [
+        {
+          "itemId": "a1-places-left",
+          "senseId": "left",
+          "lemma": "turn left",
+          "meaning": "The instruction to go left."
+        },
+        {
+          "itemId": "a1-places-straight",
+          "senseId": "straight",
+          "lemma": "go straight",
+          "meaning": "The instruction to continue ahead."
+        },
+        {
+          "itemId": "a1-places-corner",
+          "senseId": "corner",
+          "lemma": "on the corner",
+          "meaning": "The phrase for the place where two streets meet."
+        },
+        {
+          "itemId": "a1-places-next",
+          "senseId": "next",
+          "lemma": "next to",
+          "meaning": "The phrase for a place beside another place."
+        },
+        {
+          "itemId": "a1-places-excuse",
+          "senseId": "excuse",
+          "lemma": "Excuse me",
+          "meaning": "A polite start before you ask the way."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-places-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The library is on the right. Go straight, then turn right. Which way is the library?",
+          "answer": "On the right."
+        },
+        {
+          "id": "a1-places-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. Where is the station?",
+          "answer": "On the left, past the bank.",
+          "assetId": "a1-places-listen"
+        },
+        {
+          "id": "a1-places-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask where the library is. Use Where.",
+          "answer": "Where is the library?",
+          "explanation": "Put is before the singular subject the library.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-places-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Give an instruction with turn and left.",
+          "answer": "Turn left.",
+          "explanation": "An imperative uses the base verb; you is understood.",
+          "childObjectiveIds": [
+            "EF-02-IMP-01"
+          ]
+        },
+        {
+          "id": "a1-places-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Give two instructions using go straight and then turn right.",
+          "answer": "Go straight, then turn right. / Go straight. Then turn right.",
+          "explanation": "Both punctuated forms give an ordered sequence.",
+          "childObjectiveIds": [
+            "EF-02-IMP-01",
+            "EF-02-BOUND-01"
+          ]
+        },
+        {
+          "id": "a1-places-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete the location: The bank is next ___ the cafe.",
+          "answer": "to",
+          "explanation": "Next to is a location phrase.",
+          "childObjectiveIds": [
+            "EF-01-PREP-01"
+          ]
+        },
+        {
+          "id": "a1-places-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Repair this run-on with full stops: Go straight turn left the library is on the right.",
+          "answer": "Go straight. Turn left. The library is on the right.",
+          "explanation": "Separate instructions and the statement with sentence boundaries.",
+          "childObjectiveIds": [
+            "EF-02-BOUND-01"
+          ]
+        },
+        {
+          "id": "a1-places-recall-left",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the instruction to go left.",
+          "answer": "turn left"
+        },
+        {
+          "id": "a1-places-recall-straight",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the instruction to continue ahead.",
+          "answer": "go straight"
+        },
+        {
+          "id": "a1-places-recall-corner",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for the place where two streets meet.",
+          "answer": "on the corner"
+        },
+        {
+          "id": "a1-places-recall-next",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for a place beside another place.",
+          "answer": "next to"
+        },
+        {
+          "id": "a1-places-recall-excuse",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a polite start before you ask the way.",
+          "answer": "Excuse me."
+        },
+        {
+          "id": "a1-places-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Ask where one place is, then give two directions. Invented places are fine.",
+          "answer": "Excuse me. Where is the ___? Turn ___ and go straight."
+        },
+        {
+          "id": "a1-places-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try asks for a place and gives two directions. Write what is there and what is missing.",
+          "answer": "A complete try asks for a place and gives two directions."
+        },
+        {
+          "id": "a1-places-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try asks for a place and gives two directions.",
+          "alternativeToActivityID": "a1-places-guided"
+        },
+        {
+          "id": "a1-places-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A visitor asks for the clinic. Give two turns and name the building beside it, then ask whether the directions are clear.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-places-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Ask for a place and give two directions on an imaginary map.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-places-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Help a new student find a library from an imagined entrance. Give two steps and one landmark.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-places-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Help a fictional colleague find the reception desk. Give two ordered steps and one location phrase.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-hobbies",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Talk about a hobby",
+      "objectiveId": "HOBBY-01",
+      "senses": [
+        {
+          "itemId": "a1-hobbies-play",
+          "senseId": "play",
+          "lemma": "I play",
+          "meaning": "A sentence about a game or sport you do."
+        },
+        {
+          "itemId": "a1-hobbies-like",
+          "senseId": "like",
+          "lemma": "I like",
+          "meaning": "A sentence about something you enjoy."
+        },
+        {
+          "itemId": "a1-hobbies-weekend",
+          "senseId": "weekend",
+          "lemma": "on the weekend",
+          "meaning": "The phrase for Saturday and Sunday."
+        },
+        {
+          "itemId": "a1-hobbies-hobby",
+          "senseId": "hobby",
+          "lemma": "hobby",
+          "meaning": "The word for something you do for fun."
+        },
+        {
+          "itemId": "a1-hobbies-free",
+          "senseId": "free",
+          "lemma": "free time",
+          "meaning": "The phrase for time that is not work."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-hobbies-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mina plays the piano on Sunday. She also likes cooking. When does she play the piano?",
+          "answer": "On Sunday."
+        },
+        {
+          "id": "a1-hobbies-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. What does the speaker play on Saturday?",
+          "answer": "Soccer.",
+          "assetId": "a1-hobbies-listen"
+        },
+        {
+          "id": "a1-hobbies-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: She ___ music. Use like.",
+          "answer": "likes",
+          "explanation": "Third-person singular she takes likes.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-hobbies-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask if your partner likes movies using Do.",
+          "answer": "Do you like movies?",
+          "explanation": "Use do with you and base-form like.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-hobbies-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: She can ___ . Use swim.",
+          "answer": "swim",
+          "explanation": "A modal takes the base form, not swims.",
+          "childObjectiveIds": [
+            "EF-05-CAN-01"
+          ]
+        },
+        {
+          "id": "a1-hobbies-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Write a negative ability sentence with I / can / swim.",
+          "answer": "I cannot swim. / I can’t swim. / I can not swim.",
+          "explanation": "Cannot and can’t are common; separate can not can be valid with the intended negative meaning.",
+          "childObjectiveIds": [
+            "EF-05-CAN-01"
+          ]
+        },
+        {
+          "id": "a1-hobbies-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Join with but: I like soccer. I do not play it.",
+          "answer": "I like soccer, but I do not play it. / I like soccer but don’t play it.",
+          "explanation": "But marks a contrast; a repeated subject can be omitted.",
+          "childObjectiveIds": [
+            "EF-01-CONJ-01",
+            "EF-04-CLAUSE-01"
+          ]
+        },
+        {
+          "id": "a1-hobbies-recall-play",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about a game or sport you do.",
+          "answer": "I play …"
+        },
+        {
+          "id": "a1-hobbies-recall-like",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about something you enjoy.",
+          "answer": "I like …"
+        },
+        {
+          "id": "a1-hobbies-recall-weekend",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for Saturday and Sunday.",
+          "answer": "on the weekend"
+        },
+        {
+          "id": "a1-hobbies-recall-hobby",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for something you do for fun.",
+          "answer": "hobby"
+        },
+        {
+          "id": "a1-hobbies-recall-free",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the phrase for time that is not work.",
+          "answer": "free time"
+        },
+        {
+          "id": "a1-hobbies-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Name one hobby, when you do it, and one thing you like. Invented details are fine.",
+          "answer": "I play ___ on ___. I like ___."
+        },
+        {
+          "id": "a1-hobbies-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try names an activity, a time, and something you like. Write what is there and what is missing.",
+          "answer": "A complete try names an activity, a time, and something you like."
+        },
+        {
+          "id": "a1-hobbies-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try names an activity, a time, and something you like.",
+          "alternativeToActivityID": "a1-hobbies-guided"
+        },
+        {
+          "id": "a1-hobbies-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At a new club, say one activity you enjoy and one you can do, then ask another member about their interests.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-hobbies-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe a fictional hobby, say when you do it, and ask someone about a hobby.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-hobbies-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe an imagined friend’s weekend hobby and one thing they cannot do. Ask a follow-up question.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-hobbies-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Join an imaginary community group. Mention two interests, contrast one ability or preference, and ask what another person likes.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    },
+    {
+      "id": "a1-weather",
+      "contentVersion": "3",
+      "level": "A1",
+      "title": "Talk about the weather",
+      "objectiveId": "WEATHER-01",
+      "senses": [
+        {
+          "itemId": "a1-weather-sunny",
+          "senseId": "sunny",
+          "lemma": "It is sunny",
+          "meaning": "A sentence about bright weather."
+        },
+        {
+          "itemId": "a1-weather-cold",
+          "senseId": "cold",
+          "lemma": "It is cold",
+          "meaning": "A sentence about low temperature."
+        },
+        {
+          "itemId": "a1-weather-rainy",
+          "senseId": "rainy",
+          "lemma": "rainy",
+          "meaning": "The word for weather with rain."
+        },
+        {
+          "itemId": "a1-weather-coat",
+          "senseId": "coat",
+          "lemma": "a coat",
+          "meaning": "Something you wear when it is cold."
+        },
+        {
+          "itemId": "a1-weather-today",
+          "senseId": "today",
+          "lemma": "today",
+          "meaning": "The word for this day."
+        }
+      ],
+      "activities": [
+        {
+          "id": "a1-weather-read",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. It is hot and sunny. Mina wants water. What is the weather like?",
+          "answer": "Hot and sunny."
+        },
+        {
+          "id": "a1-weather-listen",
+          "kind": "listening",
+          "required": true,
+          "prompt": "Play the recording. What does the speaker say to take?",
+          "answer": "A coat.",
+          "assetId": "a1-weather-listen"
+        },
+        {
+          "id": "a1-weather-production-v3-1",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete: It ___ cold today.",
+          "answer": "is",
+          "explanation": "Use is with weather subject it.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-weather-production-v3-2",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a sentence about now: It / rain. Use the present continuous.",
+          "answer": "It is raining. / It’s raining.",
+          "explanation": "Use is plus raining for an event happening now.",
+          "childObjectiveIds": [
+            "EF-05-CONT-01"
+          ]
+        },
+        {
+          "id": "a1-weather-production-v3-3",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Make this negative: It is raining.",
+          "answer": "It is not raining. / It isn’t raining. / It’s not raining.",
+          "explanation": "Put not after is; both contractions are valid.",
+          "childObjectiveIds": [
+            "EF-05-CONT-01"
+          ]
+        },
+        {
+          "id": "a1-weather-production-v3-4",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ask about current weather using What / weather / like.",
+          "answer": "What is the weather like? / What’s the weather like?",
+          "explanation": "Like here asks for a description, rather than preference.",
+          "childObjectiveIds": [
+            "EF-03-BE-01"
+          ]
+        },
+        {
+          "id": "a1-weather-production-v3-5",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Choose a simple-present routine form: It ___ a lot in winter. Use rain.",
+          "answer": "rains",
+          "explanation": "With it, routine simple-present rain takes s.",
+          "childObjectiveIds": [
+            "EF-03-PRES-01"
+          ]
+        },
+        {
+          "id": "a1-weather-recall-sunny",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about bright weather.",
+          "answer": "It is sunny."
+        },
+        {
+          "id": "a1-weather-recall-cold",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write a sentence about low temperature.",
+          "answer": "It is cold."
+        },
+        {
+          "id": "a1-weather-recall-rainy",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for weather with rain.",
+          "answer": "rainy"
+        },
+        {
+          "id": "a1-weather-recall-coat",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write something you wear when it is cold.",
+          "answer": "a coat"
+        },
+        {
+          "id": "a1-weather-recall-today",
+          "kind": "recall",
+          "required": true,
+          "prompt": "Write the word for this day.",
+          "answer": "today"
+        },
+        {
+          "id": "a1-weather-guided",
+          "kind": "guidedSpeaking",
+          "required": true,
+          "prompt": "Say today's weather and one thing to wear or carry.",
+          "answer": "It is ___. Take ___."
+        },
+        {
+          "id": "a1-weather-self",
+          "kind": "selfReview",
+          "required": true,
+          "prompt": "Look at your answer. A complete try names the weather and one thing to wear or carry. Write what is there and what is missing.",
+          "answer": "A complete try names the weather and one thing to wear or carry."
+        },
+        {
+          "id": "a1-weather-quiet",
+          "kind": "quietText",
+          "required": true,
+          "prompt": "Without speaking, write the same answer. This stays text practice.",
+          "answer": "A complete try names the weather and one thing to wear or carry.",
+          "alternativeToActivityID": "a1-weather-guided"
+        },
+        {
+          "id": "a1-weather-transfer",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "A visitor asks about the weather before leaving. Describe what is happening now and suggest a useful item to take.",
+          "answer": "Judge the requested communication separately from targeted grammar; too few target opportunities means not assessed.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-weather-baseline-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "Describe imaginary weather now and say one thing you need because of it.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-weather-day7-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "At an imagined outdoor event, describe current weather, say whether it is raining, and suggest one practical action.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        },
+        {
+          "id": "a1-weather-day28-v3",
+          "kind": "guidedSpeaking",
+          "required": false,
+          "prompt": "An imaginary colleague asks whether to walk outside. Describe current weather and a usual seasonal pattern, then answer the practical question.",
+          "answer": "Human review against the named topic rubric; no automatic pass.",
+          "withheldFromPractice": true
+        }
+      ]
+    }
+  ]
+}

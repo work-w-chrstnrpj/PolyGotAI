@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "files": [
+    {
+      "path": "application/SpeechCoachAI/App/LearnerStorageController.swift",
+      "baseline_sha256": "a6a432a74a2ce41e4a5c8df584e2303714e28f79d20b5f9db5966a44e00f0b62",
+      "sha256": "156d7de24fb831bc0a2f206b8884c7544dd4d5bc0ece30f8bf5781e86f59ae55"
+    },
+    {
+      "path": "application/SpeechCoachAI/Domain/LearningEvidence.swift",
+      "baseline_sha256": "76a579d34e3545c3ddf4f0ded8eca933e1f66e955f19fd8b1e96f66d84f2861c",
+      "sha256": "63fc3939d38b07e8b444064a96dda7e1eccc81b9363226bde1cc64523706cdaa"
+    },
+    {
+      "path": "application/SpeechCoachAI/Features/Navigation/AppShell.swift",
+      "baseline_sha256": "8ab0ee475c09ba1a2cd783a1bc4dd01fbfc1feecdb8329fe4ac5a47c1138ea38",
+      "sha256": "94b634cf4f6af4eb50b183f583a8b5d057563a32c604b14a6bf13da9c7f4fc13"
+    },
+    {
+      "path": "application/SpeechCoachAI/Features/Progress/ProgressOverview.swift",
+      "baseline_sha256": "c6c8f4334ac8d179143b87be0f4a7f7d3b7f1c81a1e4c8189094d58de1cb658c",
+      "sha256": "629ea35e3f381be5ab0744b58b80960aa594b7b1ad95cd7ac9725b1876ab3187"
+    },
+    {
+      "path": "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift",
+      "baseline_sha256": "df8b8a677f29be3f0709f31ab323211e5ce34a6a43c6e014171dc14843fb8ee5",
+      "sha256": "fe346ac0ea88277b00a0fdd78b6f123bc013470903b4684e7dc7c57596ab4942"
+    },
+    {
+      "path": "application/SpeechCoachAITests/PracticeRecommendationTests.swift",
+      "baseline_sha256": "51f61c44c2b5b98abb50bab36c729d62d2eb9629b815ce94a032b9028272ac89",
+      "sha256": "d9ebcca63ca484439ccd75830a7d1d559943bd69024df481d84a1cdb621eeb48"
+    },
+    {
+      "path": "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift",
+      "baseline_sha256": "6688f760c79d25f7540f2a09ffa442286c99a538911933777cd1d960e9242f3b",
+      "sha256": "57c4ea1134b6f6a8099535d3b63f583e4a9ea4899c07e3ddb3a2e55cabd2f1e8"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "scope": "Changed source hashes relative to ignored baseline; no Git history exists",
+  "files": {
+    "application/SpeechCoachAI/App/LearnerStorageController.swift": "a6a432a74a2ce41e4a5c8df584e2303714e28f79d20b5f9db5966a44e00f0b62",
+    "application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift": "000cf29f73899c3bc13a62249e081e7cb8addf2ec01bcd84159ca4efa48b68ac",
+    "application/SpeechCoachAI/Features/Recording/RecordingView.swift": "47243200bd293d5a53ec8060b2eeb2f1cee0eb3e37032d024688a184c560208e",
+    "application/SpeechCoachAI/Features/Recording/RecordingController.swift": "0ad67ff45346d4b42d5af1dcc7fd2311c17a5ce6c376fc9ac800d41dd1b485ff",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "cb7ba2d783696ab6d002b297fef554bb3851fe9076710d3276907a173d609eca",
+    "application/SpeechCoachAI/Features/Shared/DesignSystem.swift": "7cfad8ddcec993d3bc77ce52081fd6afd25cff184f9eccadec43b36d2d57159c",
+    "application/SpeechCoachAI/Features/Vocabulary/VocabularyRecallView.swift": "8c74d13b890e24fc4b6e4c2febfec129136d2c99801f80880cecac9a85766e1e",
+    "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift": "63307b2fe16df72697b35b0f16aaa050ef227af6e4f0e2152e8065a1277d437d",
+    "application/SpeechCoachAI/Infrastructure/Curriculum/CurriculumCatalogLoader.swift": "a4be83f6b5cc7a7586d6b46f1cce007c30e5df3feeb0c4469e68cadf47d6fda9",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "99cbc7eec5710b9807951162ea6b866ebb421ce213b08a5f3b8226fd86b55f86",
+    "application/SpeechCoachAI/Domain/CurriculumCatalog.swift": "3fb57feec14738839436f1775fdbcf9c14ec9408750152d7543e09fb6d16e5c5",
+    "application/SpeechCoachAI/Domain/PracticeSessionContext.swift": "ad1f1c80701635baef840d314c6a198f9de919d71de931e5f9673f270e921daf",
+    "application/SpeechCoachAI/Domain/LessonJourney.swift": "eaa3e77459e9d2325234875c263049af9025d73b7f270973dcc1e219a0fb0b7d",
+    "application/SpeechCoachAI/Domain/CustomVocabulary.swift": "f844bb9226e88ba0e6d95e5844c7709c56484aac66e880d5b04a1c9322859d39",
+    "application/SpeechCoachAI/Domain/VocabularyRecall.swift": "524f474f238c8a9b553e57a3a251a46a69d087f9d24988876f5c2befdfcdb180",
+    "application/SpeechCoachAI/Domain/VocabularyLink.swift": "412c3e4f9b885e11a36bc9e47670b4acfd0300c85d5935e1480fc9674f9e1def",
+    "application/SpeechCoachAITests/LessonJourneyTests.swift": "74a6fb52c46f4ae6fb53103abcdfd9caa89db12708952ff52f1b2f1dd616c13e",
+    "application/SpeechCoachAITests/VocabularyLinkTests.swift": "2e20a9a74eff6198a8b4344b84006d24c4e6819ec1e7aa6f077c5715bac5e4f0",
+    "application/SpeechCoachAITests/CustomVocabularyTests.swift": "9b853055982560cba30da3005e67aea69834f3978644ced2ad211065fa5f4458",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "2df4d8fd4899c8b7e0cdb119027efd7bb482a8b7f0646231ee2721f58d2d3008",
+    "application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json": "b6091484fb8a71cd4d1e6a087abac20988c67381030269e92701baec246971fe",
+    "tools/curriculum/author_course.py": "9e1e4e0395b873696079950ca7da5f17cdc022177dbe7eaa171a47c2f1c21e5b",
+    "tools/native/verify.sh": "b88adb99d837f13fe4c07eb010f236863582117ae47b3576a9a251b15634b88b"
+  }
+}

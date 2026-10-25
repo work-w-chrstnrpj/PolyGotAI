@@ -1,0 +1,114 @@
+{
+  "lessonID": "routine-01",
+  "ticket": "SC-T081",
+  "mode": "proposed_revision",
+  "sourceVersion": "2",
+  "contentVersion": "3",
+  "objectiveID": "ROUTINE-01",
+  "unitID": "A1-D007-U08",
+  "editorialState": "ready_for_review",
+  "ownerManifestApproval": null,
+  "qualifiedReviewer": null,
+  "teaching": "Use the simple present for routines: I work; she works. With he or she, a regular statement usually adds s or es. Questions use do or does followed by a base verb: Does she work? Negatives use do not or does not plus the base: She does not work. Usually is an adverb of frequency; it often goes before a main verb. And connects ideas without creating a new tense.",
+  "childObjectiveIDs": [
+    "EF-01-ADV-01",
+    "EF-01-CONJ-01",
+    "EF-01-VERB-01",
+    "EF-02-ORDER-01",
+    "EF-03-PRES-01",
+    "EF-04-CLAUSE-01",
+    "EF-05-PRESENT-01"
+  ],
+  "foundationEvidenceLimit": "These mixed items sample the allocated strands. They are not five unseen items per child objective and do not establish EF-AC02/03 mastery.",
+  "conceptChecks": [
+    {
+      "id": "routine-01-concept-1",
+      "prompt": "In She starts at nine, which word is the main verb?",
+      "answer": "starts."
+    },
+    {
+      "id": "routine-01-concept-2",
+      "prompt": "In Does he work?, which word is the auxiliary?",
+      "answer": "Does."
+    },
+    {
+      "id": "routine-01-concept-3",
+      "prompt": "Why is Does he works? changed to Does he work?",
+      "answer": "Does carries present agreement; the main verb stays in its base form."
+    },
+    {
+      "id": "routine-01-concept-4",
+      "prompt": "What does usually add to a routine?",
+      "answer": "Frequency: it happens often, though not necessarily every time."
+    },
+    {
+      "id": "routine-01-concept-5",
+      "prompt": "What relationship does and show in I study and I cook?",
+      "answer": "It adds a related action; it is a coordinating conjunction."
+    }
+  ],
+  "pronunciationSelfReview": "Listen for starts in the recording and the word after it. If recording, replay the ending without treating transcription accuracy as a pronunciation test.",
+  "workplaceApplication": "Describe an invented workday and ask a colleague about a usual start time.",
+  "quietPolicy": "Use the existing quietText alternative for guidedSpeaking. Text records communication/grammar attempts only; speaking and pronunciation remain unassessed.",
+  "support": {
+    "beforeAttempt": "Offer teaching, original examples and replay on request; record use as support.",
+    "afterAttempt": "Reveal the example only after the first attempt; preserve the original and label retries.",
+    "repairPhrase": "Could you say that again, please?",
+    "privacy": "Invented names, families, homes, work and prices are valid; no retained private recording is required."
+  },
+  "coreCompletionProposal": {
+    "requiredActivityIDs": [
+      "read-routine",
+      "listen-routine",
+      "routine-01-production-v3-1",
+      "routine-01-production-v3-2",
+      "routine-01-production-v3-3",
+      "routine-01-production-v3-4",
+      "routine-01-production-v3-5",
+      "recall-up",
+      "recall-work",
+      "recall-morning",
+      "recall-lunch",
+      "recall-night",
+      "guided-routine",
+      "self-routine",
+      "quiet-routine"
+    ],
+    "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+    "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+    "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+  },
+  "assessment": {
+    "rubricVersion": "ROUTINE-01-draft-1",
+    "communication": "Record which requested message components are conveyed, absent, or not assessed; accept effective alternatives.",
+    "grammar": "Record target opportunities and first-response forms individually; do not infer opportunities from prompt presence.",
+    "vocabulary": "Use existing itemId plus senseId. Exposure and productive use do not schedule recognition.",
+    "reading": {
+      "activityID": "read-routine",
+      "acceptedAlternatives": "Short factual answers and equivalent paraphrases matching the passage; no exact-string scoring."
+    },
+    "listening": {
+      "activityID": "listen-routine",
+      "acceptedAlternatives": "Short factual answers or equivalent paraphrases matching the recording; reading a transcript is assisted text evidence."
+    },
+    "speaking": "Only an actual recorded/listened-to attempt supports speaking evidence; human listener records intelligibility with qualifications/conditions.",
+    "pronunciation": "Unassessed without qualified listening to retained/consented audio; no acoustic inference from text or ASR.",
+    "thresholds": "No new numeric pass or CEFR threshold selected. Existing EF/IL criteria require their recorded review.",
+    "comparison": "Baseline before teaching; ordinary practice separate; unfamiliar context plus fresh day-7/day-28 prompts. Log support, modality, actual interval and prior exposure. These tasks are not calibrated comparable forms."
+  },
+  "reservedTaskIDs": {
+    "baseline": "routine-01-baseline-v3",
+    "day7": "routine-01-day7-v3",
+    "day28": "routine-01-day28-v3"
+  },
+  "sourceLessonSHA256": "72e1f775d90565e68f141e77f299c1765e1bcff299f6978cd30e1df9452fe6d6",
+  "rights": "New wording is original agent-authored material prepared 2026-10-23; existing wording/audio retain the live pack rightsReference. No external exercises/descriptors copied.",
+  "descriptorReferences": [
+    "CV20-OC48-A1",
+    "CV20-RC54-A1",
+    "CV20-OP62-A1",
+    "CV20-IE78-A1",
+    "CV20-GA132-A1"
+  ],
+  "descriptorMappingState": "Candidate scale links only; exact task/descriptor fit and A1 depth await qualified review."
+}

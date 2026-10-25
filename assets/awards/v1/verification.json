@@ -1,0 +1,706 @@
+{
+  "checked_at": "2026-10-20 Asia/Manila",
+  "families": 68,
+  "saved": 68,
+  "statically_reviewed": 68,
+  "unique_file_hashes": 68,
+  "dimensions": [
+    [
+      1254,
+      1254
+    ]
+  ],
+  "structural_failures": [],
+  "solid_alpha_margin_range_px": [
+    57,
+    153
+  ],
+  "notes": [
+    "Static inspection covers family subjects and illustration shells, not native small-size acceptance.",
+    "Low-alpha stray pixels may extend beyond the main silhouette. No artwork pixels were edited.",
+    "Native text/state overlays, simplified 32 pt variants, vectors and device/accessibility checks remain pending.",
+    "Gallery browser execution not verified: local browser use disabled in Work settings."
+  ],
+  "solid_alpha_bounds": [
+    {
+      "id": "AW-P-01",
+      "solid_alpha_bounds": [
+        72,
+        83,
+        1182,
+        1163
+      ],
+      "minimum_margin_px": 72
+    },
+    {
+      "id": "AW-P-02",
+      "solid_alpha_bounds": [
+        134,
+        107,
+        1121,
+        1164
+      ],
+      "minimum_margin_px": 90
+    },
+    {
+      "id": "AW-P-03",
+      "solid_alpha_bounds": [
+        124,
+        86,
+        1131,
+        1179
+      ],
+      "minimum_margin_px": 75
+    },
+    {
+      "id": "AW-P-04",
+      "solid_alpha_bounds": [
+        86,
+        96,
+        1168,
+        1158
+      ],
+      "minimum_margin_px": 86
+    },
+    {
+      "id": "AW-P-05",
+      "solid_alpha_bounds": [
+        79,
+        95,
+        1173,
+        1161
+      ],
+      "minimum_margin_px": 79
+    },
+    {
+      "id": "AW-P-06",
+      "solid_alpha_bounds": [
+        109,
+        109,
+        1145,
+        1155
+      ],
+      "minimum_margin_px": 99
+    },
+    {
+      "id": "AW-P-07",
+      "solid_alpha_bounds": [
+        92,
+        100,
+        1162,
+        1162
+      ],
+      "minimum_margin_px": 92
+    },
+    {
+      "id": "AW-P-08",
+      "solid_alpha_bounds": [
+        75,
+        96,
+        1179,
+        1163
+      ],
+      "minimum_margin_px": 75
+    },
+    {
+      "id": "AW-C-01",
+      "solid_alpha_bounds": [
+        83,
+        85,
+        1172,
+        1175
+      ],
+      "minimum_margin_px": 79
+    },
+    {
+      "id": "AW-C-02",
+      "solid_alpha_bounds": [
+        76,
+        79,
+        1178,
+        1149
+      ],
+      "minimum_margin_px": 76
+    },
+    {
+      "id": "AW-C-03",
+      "solid_alpha_bounds": [
+        71,
+        81,
+        1183,
+        1178
+      ],
+      "minimum_margin_px": 71
+    },
+    {
+      "id": "AW-C-04",
+      "solid_alpha_bounds": [
+        125,
+        64,
+        1130,
+        1197
+      ],
+      "minimum_margin_px": 57
+    },
+    {
+      "id": "AW-C-05",
+      "solid_alpha_bounds": [
+        131,
+        118,
+        1123,
+        1132
+      ],
+      "minimum_margin_px": 118
+    },
+    {
+      "id": "AW-CR-01",
+      "solid_alpha_bounds": [
+        279,
+        166,
+        995,
+        1101
+      ],
+      "minimum_margin_px": 153
+    },
+    {
+      "id": "AW-CR-02",
+      "solid_alpha_bounds": [
+        86,
+        167,
+        1187,
+        1090
+      ],
+      "minimum_margin_px": 67
+    },
+    {
+      "id": "AW-CR-03",
+      "solid_alpha_bounds": [
+        76,
+        129,
+        1179,
+        1130
+      ],
+      "minimum_margin_px": 75
+    },
+    {
+      "id": "AW-CR-04",
+      "solid_alpha_bounds": [
+        138,
+        113,
+        1116,
+        1160
+      ],
+      "minimum_margin_px": 94
+    },
+    {
+      "id": "AW-CR-05",
+      "solid_alpha_bounds": [
+        162,
+        136,
+        1092,
+        1142
+      ],
+      "minimum_margin_px": 112
+    },
+    {
+      "id": "AW-CR-06",
+      "solid_alpha_bounds": [
+        131,
+        73,
+        1123,
+        1172
+      ],
+      "minimum_margin_px": 73
+    },
+    {
+      "id": "AW-CR-07",
+      "solid_alpha_bounds": [
+        140,
+        67,
+        1115,
+        1176
+      ],
+      "minimum_margin_px": 67
+    },
+    {
+      "id": "AW-CR-08",
+      "solid_alpha_bounds": [
+        136,
+        69,
+        1118,
+        1194
+      ],
+      "minimum_margin_px": 60
+    },
+    {
+      "id": "AW-CR-09",
+      "solid_alpha_bounds": [
+        141,
+        112,
+        1113,
+        1156
+      ],
+      "minimum_margin_px": 98
+    },
+    {
+      "id": "AW-CR-10",
+      "solid_alpha_bounds": [
+        181,
+        138,
+        1073,
+        1133
+      ],
+      "minimum_margin_px": 121
+    },
+    {
+      "id": "AW-EF-01",
+      "solid_alpha_bounds": [
+        121,
+        92,
+        1134,
+        1166
+      ],
+      "minimum_margin_px": 88
+    },
+    {
+      "id": "AW-EF-02",
+      "solid_alpha_bounds": [
+        160,
+        126,
+        1094,
+        1130
+      ],
+      "minimum_margin_px": 124
+    },
+    {
+      "id": "AW-EF-03",
+      "solid_alpha_bounds": [
+        133,
+        109,
+        1120,
+        1157
+      ],
+      "minimum_margin_px": 97
+    },
+    {
+      "id": "AW-EF-04",
+      "solid_alpha_bounds": [
+        142,
+        84,
+        1112,
+        1178
+      ],
+      "minimum_margin_px": 76
+    },
+    {
+      "id": "AW-EF-05",
+      "solid_alpha_bounds": [
+        134,
+        72,
+        1119,
+        1167
+      ],
+      "minimum_margin_px": 72
+    },
+    {
+      "id": "AW-EF-06",
+      "solid_alpha_bounds": [
+        156,
+        111,
+        1098,
+        1119
+      ],
+      "minimum_margin_px": 111
+    },
+    {
+      "id": "AW-LE-01",
+      "solid_alpha_bounds": [
+        137,
+        104,
+        1116,
+        1167
+      ],
+      "minimum_margin_px": 87
+    },
+    {
+      "id": "AW-LE-02",
+      "solid_alpha_bounds": [
+        175,
+        138,
+        1080,
+        1118
+      ],
+      "minimum_margin_px": 136
+    },
+    {
+      "id": "AW-LE-03",
+      "solid_alpha_bounds": [
+        139,
+        90,
+        1113,
+        1150
+      ],
+      "minimum_margin_px": 90
+    },
+    {
+      "id": "AW-LE-04",
+      "solid_alpha_bounds": [
+        145,
+        103,
+        1110,
+        1151
+      ],
+      "minimum_margin_px": 103
+    },
+    {
+      "id": "AW-LE-05",
+      "solid_alpha_bounds": [
+        155,
+        120,
+        1099,
+        1137
+      ],
+      "minimum_margin_px": 117
+    },
+    {
+      "id": "AW-CV-01",
+      "solid_alpha_bounds": [
+        86,
+        91,
+        1168,
+        1169
+      ],
+      "minimum_margin_px": 85
+    },
+    {
+      "id": "AW-CV-02",
+      "solid_alpha_bounds": [
+        124,
+        84,
+        1129,
+        1162
+      ],
+      "minimum_margin_px": 84
+    },
+    {
+      "id": "AW-CV-03",
+      "solid_alpha_bounds": [
+        118,
+        65,
+        1137,
+        1182
+      ],
+      "minimum_margin_px": 65
+    },
+    {
+      "id": "AW-CV-04",
+      "solid_alpha_bounds": [
+        139,
+        87,
+        1115,
+        1160
+      ],
+      "minimum_margin_px": 87
+    },
+    {
+      "id": "AW-IV-01",
+      "solid_alpha_bounds": [
+        84,
+        85,
+        1170,
+        1181
+      ],
+      "minimum_margin_px": 73
+    },
+    {
+      "id": "AW-IV-02",
+      "solid_alpha_bounds": [
+        132,
+        70,
+        1122,
+        1149
+      ],
+      "minimum_margin_px": 70
+    },
+    {
+      "id": "AW-IV-03",
+      "solid_alpha_bounds": [
+        137,
+        90,
+        1117,
+        1162
+      ],
+      "minimum_margin_px": 90
+    },
+    {
+      "id": "AW-IV-04",
+      "solid_alpha_bounds": [
+        146,
+        107,
+        1108,
+        1153
+      ],
+      "minimum_margin_px": 101
+    },
+    {
+      "id": "AW-CM-01",
+      "solid_alpha_bounds": [
+        139,
+        93,
+        1116,
+        1159
+      ],
+      "minimum_margin_px": 93
+    },
+    {
+      "id": "AW-CM-02",
+      "solid_alpha_bounds": [
+        164,
+        122,
+        1090,
+        1133
+      ],
+      "minimum_margin_px": 121
+    },
+    {
+      "id": "AW-CM-03",
+      "solid_alpha_bounds": [
+        128,
+        76,
+        1125,
+        1168
+      ],
+      "minimum_margin_px": 76
+    },
+    {
+      "id": "AW-CM-04",
+      "solid_alpha_bounds": [
+        133,
+        90,
+        1121,
+        1165
+      ],
+      "minimum_margin_px": 89
+    },
+    {
+      "id": "AW-CM-05",
+      "solid_alpha_bounds": [
+        140,
+        108,
+        1114,
+        1152
+      ],
+      "minimum_margin_px": 102
+    },
+    {
+      "id": "AW-CM-06",
+      "solid_alpha_bounds": [
+        128,
+        82,
+        1126,
+        1161
+      ],
+      "minimum_margin_px": 82
+    },
+    {
+      "id": "AW-AR-01",
+      "solid_alpha_bounds": [
+        141,
+        88,
+        1114,
+        1152
+      ],
+      "minimum_margin_px": 88
+    },
+    {
+      "id": "AW-AR-02",
+      "solid_alpha_bounds": [
+        142,
+        86,
+        1113,
+        1174
+      ],
+      "minimum_margin_px": 80
+    },
+    {
+      "id": "AW-AR-03",
+      "solid_alpha_bounds": [
+        128,
+        90,
+        1125,
+        1173
+      ],
+      "minimum_margin_px": 81
+    },
+    {
+      "id": "AW-WR-01",
+      "solid_alpha_bounds": [
+        138,
+        81,
+        1116,
+        1167
+      ],
+      "minimum_margin_px": 81
+    },
+    {
+      "id": "AW-WR-02",
+      "solid_alpha_bounds": [
+        153,
+        103,
+        1101,
+        1149
+      ],
+      "minimum_margin_px": 103
+    },
+    {
+      "id": "AW-WR-03",
+      "solid_alpha_bounds": [
+        132,
+        79,
+        1120,
+        1151
+      ],
+      "minimum_margin_px": 79
+    },
+    {
+      "id": "AW-TR-01C",
+      "solid_alpha_bounds": [
+        154,
+        109,
+        1100,
+        1135
+      ],
+      "minimum_margin_px": 109
+    },
+    {
+      "id": "AW-TR-01S",
+      "solid_alpha_bounds": [
+        118,
+        79,
+        1137,
+        1193
+      ],
+      "minimum_margin_px": 61
+    },
+    {
+      "id": "AW-TR-02C",
+      "solid_alpha_bounds": [
+        188,
+        133,
+        1067,
+        1119
+      ],
+      "minimum_margin_px": 133
+    },
+    {
+      "id": "AW-TR-02S",
+      "solid_alpha_bounds": [
+        153,
+        103,
+        1099,
+        1168
+      ],
+      "minimum_margin_px": 86
+    },
+    {
+      "id": "AW-TR-03C",
+      "solid_alpha_bounds": [
+        155,
+        121,
+        1099,
+        1140
+      ],
+      "minimum_margin_px": 114
+    },
+    {
+      "id": "AW-TR-03S",
+      "solid_alpha_bounds": [
+        147,
+        106,
+        1107,
+        1158
+      ],
+      "minimum_margin_px": 96
+    },
+    {
+      "id": "AW-TR-04C",
+      "solid_alpha_bounds": [
+        157,
+        94,
+        1099,
+        1160
+      ],
+      "minimum_margin_px": 94
+    },
+    {
+      "id": "AW-TR-04S",
+      "solid_alpha_bounds": [
+        164,
+        119,
+        1091,
+        1137
+      ],
+      "minimum_margin_px": 117
+    },
+    {
+      "id": "AW-TR-05C",
+      "solid_alpha_bounds": [
+        146,
+        107,
+        1108,
+        1147
+      ],
+      "minimum_margin_px": 107
+    },
+    {
+      "id": "AW-TR-05S",
+      "solid_alpha_bounds": [
+        134,
+        91,
+        1120,
+        1163
+      ],
+      "minimum_margin_px": 91
+    },
+    {
+      "id": "AW-TR-06C",
+      "solid_alpha_bounds": [
+        139,
+        107,
+        1115,
+        1152
+      ],
+      "minimum_margin_px": 102
+    },
+    {
+      "id": "AW-TR-06S",
+      "solid_alpha_bounds": [
+        140,
+        100,
+        1113,
+        1158
+      ],
+      "minimum_margin_px": 96
+    },
+    {
+      "id": "AW-TR-07C",
+      "solid_alpha_bounds": [
+        129,
+        67,
+        1137,
+        1184
+      ],
+      "minimum_margin_px": 67
+    },
+    {
+      "id": "AW-TR-07S",
+      "solid_alpha_bounds": [
+        124,
+        82,
+        1130,
+        1169
+      ],
+      "minimum_margin_px": 82
+    }
+  ]
+}

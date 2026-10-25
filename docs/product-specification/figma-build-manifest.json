@@ -1,0 +1,1631 @@
+{
+  "status": "SUPERSEDED_EXPANSION_PAGE_REMOVED",
+  "date": "2026-10-17",
+  "fileKey": "B1A9qEN1B7I3NJKISX39Dx",
+  "fileUrl": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx",
+  "page": {
+    "id": "25:277",
+    "name": "02 \u00b7 Complete flows & states",
+    "removed": true,
+    "historical": true
+  },
+  "counts": {
+    "familyFrames": 70,
+    "stateVariantFrames": 79,
+    "totalNewFrames": 149,
+    "preservedOriginalScreenFrames": 20,
+    "localAdditionalFrames": 18,
+    "totalExpansionFrames": 167
+  },
+  "foundations": {
+    "collections": {
+      "primitive": "VariableCollectionId:28:279",
+      "theme": "VariableCollectionId:28:280"
+    },
+    "variables": {
+      "background": "VariableID:28:282",
+      "backgroundDark": "VariableID:28:284",
+      "surface": "VariableID:28:286",
+      "surfaceDark": "VariableID:28:288",
+      "text": "VariableID:28:290",
+      "textDark": "VariableID:28:292",
+      "secondary": "VariableID:28:294",
+      "secondaryDark": "VariableID:28:296",
+      "accent": "VariableID:28:298",
+      "accentDark": "VariableID:28:300",
+      "soft": "VariableID:28:302",
+      "softDark": "VariableID:28:304",
+      "onAccent": "VariableID:28:306",
+      "onAccentDark": "VariableID:28:308",
+      "border": "VariableID:28:310",
+      "borderDark": "VariableID:28:312",
+      "danger": "VariableID:28:314",
+      "dangerDark": "VariableID:28:316",
+      "atlas": "VariableID:28:318",
+      "atlasDark": "VariableID:28:320",
+      "studio": "VariableID:28:322",
+      "studioDark": "VariableID:28:324",
+      "gold": "VariableID:28:326",
+      "goldDark": "VariableID:28:328",
+      "space": "VariableID:28:329",
+      "inset": "VariableID:28:330",
+      "radius": "VariableID:28:331"
+    },
+    "textStyles": {
+      "title": "S:3cfd0caf387518969037fd990551b78057bb36bc,",
+      "hero": "S:b57d8ed33b47ea2435ba448499a13cfb1d6c0d4e,",
+      "body": "S:0163c8f1770ef7d04f07068235b2417cc4263789,",
+      "headline": "S:10bc4600aa00e402725dc1927d411c32065c85b7,",
+      "caption": "S:8a0df037ab039b7099adfe72488201e73e6c73c0,"
+    },
+    "themeModeLimitation": "Starter file permits one mode per collection; separate aliased light/dark variables used."
+  },
+  "verification": {
+    "structural": "Four committed content batches returned 149 named populated frames with text/instance counts.",
+    "visual": "Today and multiple-choice screenshots inspected. Button wrapping corrected in 58 first-batch action labels; normal-size browser overview confirms corrected labels. Remaining frames have not received readable-scale visual checks. Local iPad Learn, keyboard-visible missing-word, and larger-text independent-retention exports reviewed after targeted reflow fixes.",
+    "cloud": "Figma currently warns changes are saved locally and will sync on reconnect. Cloud persistence of latest local changes is UNVERIFIED.",
+    "prototype": "Base-frame structural audit: 149 present, no unlinked action buttons, 775 connections, no invalid destinations. This does not validate all behavioral branches or added-frame interactions.",
+    "ipad": "Four native editable iPad frames built; Learn screenshot reflow fixed and visually checked. Portrait/other layouts still need individual review.",
+    "providerAndDevice": "NOT_RUN",
+    "localPlugin": "RAN: routing repair, four iPad layouts, coach/motif refinement and 13 additional state specimens."
+  },
+  "blockers": [
+    "Cloud persistence of latest local changes remains unverified."
+  ],
+  "remaining": [
+    "Owner walkthrough and physical-device/accessibility acceptance remain separate.",
+    "Confirm pending Figma cloud sync.",
+    "Resolve OPEN product behavior contracts before implementing affected features."
+  ],
+  "frames": [
+    {
+      "id": "ON-01",
+      "nodeId": "28:337",
+      "name": "ON-01 \u00b7 Welcome and learning goals",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-337",
+      "status": "DRAFT_BUILT",
+      "title": "Make English yours"
+    },
+    {
+      "id": "ON-02",
+      "nodeId": "28:338",
+      "name": "ON-02 \u00b7 Level and daily-target setup",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-338",
+      "status": "DRAFT_BUILT",
+      "title": "Your starting point"
+    },
+    {
+      "id": "ON-03",
+      "nodeId": "28:339",
+      "name": "ON-03 \u00b7 Coach selection and preview",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-339",
+      "status": "DRAFT_BUILT",
+      "title": "Meet your coach"
+    },
+    {
+      "id": "ON-04",
+      "nodeId": "28:340",
+      "name": "ON-04 \u00b7 Introduction invitation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-340",
+      "status": "DRAFT_BUILT",
+      "title": "Let\u2019s hear your story"
+    },
+    {
+      "id": "TD-01",
+      "nodeId": "28:341",
+      "name": "TD-01 \u00b7 Daily dashboard",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-341",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "TD-02",
+      "nodeId": "28:342",
+      "name": "TD-02 \u00b7 Plan focus and replacement sheet",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-342",
+      "status": "DRAFT_BUILT",
+      "title": "Make this break yours"
+    },
+    {
+      "id": "TD-03",
+      "nodeId": "28:343",
+      "name": "TD-03 \u00b7 Quiet-session choice",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-343",
+      "status": "DRAFT_BUILT",
+      "title": "How will you practice?"
+    },
+    {
+      "id": "TD-04",
+      "nodeId": "28:344",
+      "name": "TD-04 \u00b7 Break timer and resume controller",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-344",
+      "status": "DRAFT_BUILT",
+      "title": "Your break, your pace"
+    },
+    {
+      "id": "LR-01",
+      "nodeId": "28:345",
+      "name": "LR-01 \u00b7 Level, units and lessons",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-345",
+      "status": "DRAFT_BUILT",
+      "title": "Your English path"
+    },
+    {
+      "id": "LR-02",
+      "nodeId": "28:346",
+      "name": "LR-02 \u00b7 Skip-ahead confirmation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-346",
+      "status": "DRAFT_BUILT",
+      "title": "Try this lesson now?"
+    },
+    {
+      "id": "LR-03",
+      "nodeId": "28:347",
+      "name": "LR-03 \u00b7 Lesson objective and explanation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-347",
+      "status": "DRAFT_BUILT",
+      "title": "Describe your routine"
+    },
+    {
+      "id": "LR-04",
+      "nodeId": "28:348",
+      "name": "LR-04 \u00b7 Lesson continuation and completion",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-348",
+      "status": "DRAFT_BUILT",
+      "title": "Look what you practiced"
+    },
+    {
+      "id": "LR-05",
+      "nodeId": "28:349",
+      "name": "LR-05 \u00b7 Challenge and refresher sheet",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-349",
+      "status": "DRAFT_BUILT",
+      "title": "Let\u2019s make it click"
+    },
+    {
+      "id": "LR-06",
+      "nodeId": "28:350",
+      "name": "LR-06 \u00b7 Report incorrect activity",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-350",
+      "status": "DRAFT_BUILT",
+      "title": "Something looks wrong?"
+    },
+    {
+      "id": "EX-01",
+      "nodeId": "28:351",
+      "name": "EX-01 \u00b7 Multiple-choice response",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-351",
+      "status": "DRAFT_BUILT",
+      "title": "Choose the missing word"
+    },
+    {
+      "id": "EX-02",
+      "nodeId": "28:352",
+      "name": "EX-02 \u00b7 Sentence building",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-352",
+      "status": "DRAFT_BUILT",
+      "title": "Build a sentence"
+    },
+    {
+      "id": "EX-03",
+      "nodeId": "28:353",
+      "name": "EX-03 \u00b7 Typed missing-word response",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-353",
+      "status": "DRAFT_BUILT",
+      "title": "Find the missing word"
+    },
+    {
+      "id": "EX-04",
+      "nodeId": "28:354",
+      "name": "EX-04 \u00b7 Sentence correction",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-354",
+      "status": "DRAFT_BUILT",
+      "title": "Make it sound right"
+    },
+    {
+      "id": "EX-05",
+      "nodeId": "28:355",
+      "name": "EX-05 \u00b7 Listening comprehension",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-355",
+      "status": "DRAFT_BUILT",
+      "title": "Listen for the routine"
+    },
+    {
+      "id": "EX-06",
+      "nodeId": "28:356",
+      "name": "EX-06 \u00b7 Reading comprehension",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-356",
+      "status": "DRAFT_BUILT",
+      "title": "Read for the details"
+    },
+    {
+      "id": "EX-07",
+      "nodeId": "28:357",
+      "name": "EX-07 \u00b7 Reading aloud",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-357",
+      "status": "DRAFT_BUILT",
+      "title": "Read it your way"
+    },
+    {
+      "id": "EX-08",
+      "nodeId": "28:358",
+      "name": "EX-08 \u00b7 Open response",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-358",
+      "status": "DRAFT_BUILT",
+      "title": "Tell us about your day"
+    },
+    {
+      "id": "EX-09",
+      "nodeId": "28:359",
+      "name": "EX-09 \u00b7 Hint, extra example and result panel",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-359",
+      "status": "DRAFT_BUILT",
+      "title": "A little support"
+    },
+    {
+      "id": "VO-01",
+      "nodeId": "28:360",
+      "name": "VO-01 \u00b7 Vocabulary home and search",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-360",
+      "status": "DRAFT_BUILT",
+      "title": "Your words"
+    },
+    {
+      "id": "VO-02",
+      "nodeId": "28:361",
+      "name": "VO-02 \u00b7 Recall prompt and reveal",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-361",
+      "status": "DRAFT_BUILT",
+      "title": "Bring the word to mind"
+    },
+    {
+      "id": "VO-03",
+      "nodeId": "28:362",
+      "name": "VO-03 \u00b7 Recall rating and queue summary",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-362",
+      "status": "DRAFT_BUILT",
+      "title": "How did recall feel?"
+    },
+    {
+      "id": "VO-04",
+      "nodeId": "28:363",
+      "name": "VO-04 \u00b7 Word detail, quick-save and editing",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-363",
+      "status": "DRAFT_BUILT",
+      "title": "A word worth keeping"
+    },
+    {
+      "id": "VO-05",
+      "nodeId": "28:364",
+      "name": "VO-05 \u00b7 Topic setup and manual creation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-364",
+      "status": "DRAFT_BUILT",
+      "title": "Build a useful topic"
+    },
+    {
+      "id": "VO-06",
+      "nodeId": "28:365",
+      "name": "VO-06 \u00b7 Generated word preview and enrollment",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-365",
+      "status": "DRAFT_BUILT",
+      "title": "Choose your words"
+    },
+    {
+      "id": "VO-07",
+      "nodeId": "28:366",
+      "name": "VO-07 \u00b7 Collections and topic management",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-366",
+      "status": "DRAFT_BUILT",
+      "title": "Workday English"
+    },
+    {
+      "id": "SP-01",
+      "nodeId": "28:367",
+      "name": "SP-01 \u00b7 Mode hub",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-367",
+      "status": "DRAFT_BUILT",
+      "title": "Speech Lab"
+    },
+    {
+      "id": "SP-02",
+      "nodeId": "28:368",
+      "name": "SP-02 \u00b7 Everyday, spontaneous and presentation setup",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-368",
+      "status": "DRAFT_BUILT",
+      "title": "Tell your story"
+    },
+    {
+      "id": "SP-03",
+      "nodeId": "28:369",
+      "name": "SP-03 \u00b7 Interview and business setup",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-369",
+      "status": "DRAFT_BUILT",
+      "title": "Practice for work"
+    },
+    {
+      "id": "SP-04",
+      "nodeId": "28:370",
+      "name": "SP-04 \u00b7 Pronunciation and articulation setup",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-370",
+      "status": "DRAFT_BUILT",
+      "title": "Make your message clear"
+    },
+    {
+      "id": "SP-05",
+      "nodeId": "28:371",
+      "name": "SP-05 \u00b7 Communication techniques and scaffolds",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-371",
+      "status": "DRAFT_BUILT",
+      "title": "One clear idea"
+    },
+    {
+      "id": "SP-06",
+      "nodeId": "28:372",
+      "name": "SP-06 \u00b7 Ready, countdown, recording and pause",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-372",
+      "status": "DRAFT_BUILT",
+      "title": "Your story, your voice"
+    },
+    {
+      "id": "SP-07",
+      "nodeId": "28:373",
+      "name": "SP-07 \u00b7 Take review and replacement",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-373",
+      "status": "DRAFT_BUILT",
+      "title": "Listen to your take"
+    },
+    {
+      "id": "SP-08",
+      "nodeId": "28:374",
+      "name": "SP-08 \u00b7 Transcription and transcript confirmation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-374",
+      "status": "DRAFT_BUILT",
+      "title": "Did we hear you right?"
+    },
+    {
+      "id": "SP-09",
+      "nodeId": "28:375",
+      "name": "SP-09 \u00b7 Coaching feedback and detail",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-375",
+      "status": "DRAFT_BUILT",
+      "title": "A clearer next try"
+    },
+    {
+      "id": "SP-10",
+      "nodeId": "28:376",
+      "name": "SP-10 \u00b7 Local self-review and retry",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-376",
+      "status": "DRAFT_BUILT",
+      "title": "What did you notice?"
+    },
+    {
+      "id": "SP-11",
+      "nodeId": "28:377",
+      "name": "SP-11 \u00b7 Independent retention sheet",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-377",
+      "status": "DRAFT_BUILT",
+      "title": "Keep what helps you"
+    },
+    {
+      "id": "SP-12",
+      "nodeId": "28:378",
+      "name": "SP-12 \u00b7 Saved attempt and comparison",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-378",
+      "status": "DRAFT_BUILT",
+      "title": "See what changed"
+    },
+    {
+      "id": "PG-01",
+      "nodeId": "28:379",
+      "name": "PG-01 \u00b7 Progress overview and weekly summary",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-379",
+      "status": "DRAFT_BUILT",
+      "title": "Your learning rhythm"
+    },
+    {
+      "id": "PG-02",
+      "nodeId": "28:380",
+      "name": "PG-02 \u00b7 Activity history and skill detail",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-380",
+      "status": "DRAFT_BUILT",
+      "title": "Your activity history"
+    },
+    {
+      "id": "PG-03",
+      "nodeId": "28:381",
+      "name": "PG-03 \u00b7 Milestone and badge detail",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-381",
+      "status": "DRAFT_BUILT",
+      "title": "Small steps, earned"
+    },
+    {
+      "id": "PG-04",
+      "nodeId": "28:382",
+      "name": "PG-04 \u00b7 Lesson and milestone celebrations",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-382",
+      "status": "DRAFT_BUILT",
+      "title": "You made time to grow"
+    },
+    {
+      "id": "PG-05",
+      "nodeId": "28:383",
+      "name": "PG-05 \u00b7 Gold wallet and purchase confirmation",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-383",
+      "status": "DRAFT_BUILT",
+      "title": "Your gold"
+    },
+    {
+      "id": "PG-06",
+      "nodeId": "28:384",
+      "name": "PG-06 \u00b7 Freeze inventory and auto-use",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-384",
+      "status": "DRAFT_BUILT",
+      "title": "Protect your rhythm"
+    },
+    {
+      "id": "PG-07",
+      "nodeId": "28:385",
+      "name": "PG-07 \u00b7 Repair and expired streak",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-385",
+      "status": "DRAFT_BUILT",
+      "title": "Continue your streak"
+    },
+    {
+      "id": "ST-01",
+      "nodeId": "28:386",
+      "name": "ST-01 \u00b7 Profile and learning preferences",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-386",
+      "status": "DRAFT_BUILT",
+      "title": "Your preferences"
+    },
+    {
+      "id": "ST-02",
+      "nodeId": "28:387",
+      "name": "ST-02 \u00b7 Appearance and background preview",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-387",
+      "status": "DRAFT_BUILT",
+      "title": "Make it feel like you"
+    },
+    {
+      "id": "ST-03",
+      "nodeId": "28:388",
+      "name": "ST-03 \u00b7 Sound, voice and accessibility preferences",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-388",
+      "status": "DRAFT_BUILT",
+      "title": "Sound & voice"
+    },
+    {
+      "id": "ST-04",
+      "nodeId": "28:389",
+      "name": "ST-04 \u00b7 Reminders and notification access",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-389",
+      "status": "DRAFT_BUILT",
+      "title": "A reminder that fits"
+    },
+    {
+      "id": "ST-05",
+      "nodeId": "28:390",
+      "name": "ST-05 \u00b7 Provider connection and credential lifecycle",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-390",
+      "status": "DRAFT_BUILT",
+      "title": "Connect AI when ready"
+    },
+    {
+      "id": "ST-06",
+      "nodeId": "28:391",
+      "name": "ST-06 \u00b7 Upload and cost disclosure",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-391",
+      "status": "DRAFT_BUILT",
+      "title": "Before you send"
+    },
+    {
+      "id": "PR-01",
+      "nodeId": "28:392",
+      "name": "PR-01 \u00b7 Storage and retained history",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-392",
+      "status": "DRAFT_BUILT",
+      "title": "What you\u2019ve kept"
+    },
+    {
+      "id": "PR-02",
+      "nodeId": "28:393",
+      "name": "PR-02 \u00b7 Export selection and share sheet",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-393",
+      "status": "DRAFT_BUILT",
+      "title": "Export what you choose"
+    },
+    {
+      "id": "PR-03",
+      "nodeId": "28:394",
+      "name": "PR-03 \u00b7 Delete and Recently Deleted",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-394",
+      "status": "DRAFT_BUILT",
+      "title": "Recently Deleted"
+    },
+    {
+      "id": "PR-04",
+      "nodeId": "28:395",
+      "name": "PR-04 \u00b7 Delete all learning data",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-395",
+      "status": "DRAFT_BUILT",
+      "title": "Delete learning data?"
+    },
+    {
+      "id": "RS-01",
+      "nodeId": "28:396",
+      "name": "RS-01 \u00b7 Resource bookmarks and link cards",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-396",
+      "status": "DRAFT_BUILT",
+      "title": "Useful references"
+    },
+    {
+      "id": "RS-02",
+      "nodeId": "28:397",
+      "name": "RS-02 \u00b7 Add/edit bookmark and learner notes",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-397",
+      "status": "DRAFT_BUILT",
+      "title": "Keep a useful reference"
+    },
+    {
+      "id": "SY-01",
+      "nodeId": "28:398",
+      "name": "SY-01 \u00b7 Online request lifecycle surface",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-398",
+      "status": "DRAFT_BUILT",
+      "title": "Feedback is in progress"
+    },
+    {
+      "id": "SY-02",
+      "nodeId": "28:399",
+      "name": "SY-02 \u00b7 Recording interruptions and input access",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-399",
+      "status": "DRAFT_BUILT",
+      "title": "Recording interrupted"
+    },
+    {
+      "id": "SY-03",
+      "nodeId": "28:400",
+      "name": "SY-03 \u00b7 Draft, storage and content recovery",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-400",
+      "status": "DRAFT_BUILT",
+      "title": "Your draft is here"
+    },
+    {
+      "id": "SY-04",
+      "nodeId": "28:401",
+      "name": "SY-04 \u00b7 Consistent shell and feedback components",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-401",
+      "status": "DRAFT_BUILT",
+      "title": "A consistent place to learn"
+    },
+    {
+      "id": "AX-01",
+      "nodeId": "28:402",
+      "name": "AX-01 \u00b7 Style/theme and artwork specimens",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-402",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "AX-02",
+      "nodeId": "28:403",
+      "name": "AX-02 \u00b7 Large-text and assistive interaction specimens",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-403",
+      "status": "DRAFT_BUILT",
+      "title": "Choose the missing word"
+    },
+    {
+      "id": "AX-03",
+      "nodeId": "28:404",
+      "name": "AX-03 \u00b7 iPad adaptive layouts",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-404",
+      "status": "DRAFT_BUILT",
+      "title": "Your learning space"
+    },
+    {
+      "id": "TD-05",
+      "nodeId": "28:405",
+      "name": "TD-05 \u00b7 Optional communication routine",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-405",
+      "status": "DRAFT_BUILT",
+      "title": "A small speaking routine"
+    },
+    {
+      "id": "SP-13",
+      "nodeId": "28:406",
+      "name": "SP-13 \u00b7 Missing-word assistance",
+      "kind": "family",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-406",
+      "status": "DRAFT_BUILT",
+      "title": "Find the word you mean"
+    },
+    {
+      "id": "LR-06-saved",
+      "nodeId": "34:665",
+      "name": "LR-06-saved \u00b7 Report saved",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-665",
+      "status": "DRAFT_BUILT",
+      "title": "Report saved"
+    },
+    {
+      "id": "EX-01-correct",
+      "nodeId": "34:666",
+      "name": "EX-01-correct \u00b7 That\u2019s the pattern",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-666",
+      "status": "DRAFT_BUILT",
+      "title": "That\u2019s the pattern"
+    },
+    {
+      "id": "EX-01-retry",
+      "nodeId": "34:667",
+      "name": "EX-01-retry \u00b7 Almost there",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-667",
+      "status": "DRAFT_BUILT",
+      "title": "Almost there"
+    },
+    {
+      "id": "EX-01-empty",
+      "nodeId": "34:668",
+      "name": "EX-01-empty \u00b7 Choose the missing word",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-668",
+      "status": "DRAFT_BUILT",
+      "title": "Choose the missing word"
+    },
+    {
+      "id": "EX-02-list",
+      "nodeId": "34:669",
+      "name": "EX-02-list \u00b7 Choose words in order",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-669",
+      "status": "DRAFT_BUILT",
+      "title": "Choose words in order"
+    },
+    {
+      "id": "EX-05-playing",
+      "nodeId": "34:670",
+      "name": "EX-05-playing \u00b7 Listen for the routine",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-670",
+      "status": "DRAFT_BUILT",
+      "title": "Listen for the routine"
+    },
+    {
+      "id": "EX-09-buy",
+      "nodeId": "34:671",
+      "name": "EX-09-buy \u00b7 Use extra support?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-671",
+      "status": "DRAFT_BUILT",
+      "title": "Use extra support?"
+    },
+    {
+      "id": "EX-09-example",
+      "nodeId": "34:672",
+      "name": "EX-09-example \u00b7 Another way to see it",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-672",
+      "status": "DRAFT_BUILT",
+      "title": "Another way to see it"
+    },
+    {
+      "id": "EX-09-no-gold",
+      "nodeId": "34:673",
+      "name": "EX-09-no-gold \u00b7 Keep practicing freely",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-673",
+      "status": "DRAFT_BUILT",
+      "title": "Keep practicing freely"
+    },
+    {
+      "id": "VO-03-summary",
+      "nodeId": "34:674",
+      "name": "VO-03-summary \u00b7 Words revisited",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-674",
+      "status": "DRAFT_BUILT",
+      "title": "Words revisited"
+    },
+    {
+      "id": "VO-04-saved",
+      "nodeId": "34:675",
+      "name": "VO-04-saved \u00b7 Word saved",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-675",
+      "status": "DRAFT_BUILT",
+      "title": "Word saved"
+    },
+    {
+      "id": "VO-07-edit",
+      "nodeId": "34:676",
+      "name": "VO-07-edit \u00b7 Manage this collection",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-676",
+      "status": "DRAFT_BUILT",
+      "title": "Manage this collection"
+    },
+    {
+      "id": "VO-07-remove",
+      "nodeId": "34:677",
+      "name": "VO-07-remove \u00b7 Remove this saved word?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-677",
+      "status": "DRAFT_BUILT",
+      "title": "Remove this saved word?"
+    },
+    {
+      "id": "SP-02-sample",
+      "nodeId": "34:678",
+      "name": "SP-02-sample \u00b7 One possible introduction",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-678",
+      "status": "DRAFT_BUILT",
+      "title": "One possible introduction"
+    },
+    {
+      "id": "SP-02-edit",
+      "nodeId": "34:679",
+      "name": "SP-02-edit \u00b7 Choose your prompt",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-679",
+      "status": "DRAFT_BUILT",
+      "title": "Choose your prompt"
+    },
+    {
+      "id": "SP-03-business",
+      "nodeId": "34:680",
+      "name": "SP-03-business \u00b7 Practice a work conversation",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-680",
+      "status": "DRAFT_BUILT",
+      "title": "Practice a work conversation"
+    },
+    {
+      "id": "SP-04-reference",
+      "nodeId": "34:681",
+      "name": "SP-04-reference \u00b7 Listen, then try",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-681",
+      "status": "DRAFT_BUILT",
+      "title": "Listen, then try"
+    },
+    {
+      "id": "SP-05-techniques",
+      "nodeId": "34:682",
+      "name": "SP-05-techniques \u00b7 Choose a useful technique",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-682",
+      "status": "DRAFT_BUILT",
+      "title": "Choose a useful technique"
+    },
+    {
+      "id": "SP-06-ready",
+      "nodeId": "34:683",
+      "name": "SP-06-ready \u00b7 Ready when you are",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-683",
+      "status": "DRAFT_BUILT",
+      "title": "Ready when you are"
+    },
+    {
+      "id": "SP-06-paused",
+      "nodeId": "34:684",
+      "name": "SP-06-paused \u00b7 Take a breath",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-684",
+      "status": "DRAFT_BUILT",
+      "title": "Take a breath"
+    },
+    {
+      "id": "SP-06-countdown",
+      "nodeId": "34:685",
+      "name": "SP-06-countdown \u00b7 A moment to get ready",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-685",
+      "status": "DRAFT_BUILT",
+      "title": "A moment to get ready"
+    },
+    {
+      "id": "SP-06-leave",
+      "nodeId": "34:686",
+      "name": "SP-06-leave \u00b7 Leave this recording?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-686",
+      "status": "DRAFT_BUILT",
+      "title": "Leave this recording?"
+    },
+    {
+      "id": "SP-07-replace",
+      "nodeId": "34:687",
+      "name": "SP-07-replace \u00b7 Try another take",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-687",
+      "status": "DRAFT_BUILT",
+      "title": "Try another take"
+    },
+    {
+      "id": "SP-07-accept",
+      "nodeId": "34:688",
+      "name": "SP-07-accept \u00b7 Choose your take",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-688",
+      "status": "DRAFT_BUILT",
+      "title": "Choose your take"
+    },
+    {
+      "id": "SP-08-edit",
+      "nodeId": "34:689",
+      "name": "SP-08-edit \u00b7 Make the text accurate",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-689",
+      "status": "DRAFT_BUILT",
+      "title": "Make the text accurate"
+    },
+    {
+      "id": "SP-08-uncertain",
+      "nodeId": "34:690",
+      "name": "SP-08-uncertain \u00b7 Check these words",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-690",
+      "status": "DRAFT_BUILT",
+      "title": "Check these words"
+    },
+    {
+      "id": "SP-09-detail",
+      "nodeId": "34:691",
+      "name": "SP-09-detail \u00b7 Feedback, with context",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-691",
+      "status": "DRAFT_BUILT",
+      "title": "Feedback, with context"
+    },
+    {
+      "id": "SP-09-no-correction",
+      "nodeId": "34:692",
+      "name": "SP-09-no-correction \u00b7 Your message came through",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-692",
+      "status": "DRAFT_BUILT",
+      "title": "Your message came through"
+    },
+    {
+      "id": "SP-11-discard",
+      "nodeId": "34:693",
+      "name": "SP-11-discard \u00b7 Finish without saving?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-693",
+      "status": "DRAFT_BUILT",
+      "title": "Finish without saving?"
+    },
+    {
+      "id": "SP-11-audio",
+      "nodeId": "34:694",
+      "name": "SP-11-audio \u00b7 Keep your voice",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-694",
+      "status": "DRAFT_BUILT",
+      "title": "Keep your voice"
+    },
+    {
+      "id": "SP-11-both",
+      "nodeId": "34:695",
+      "name": "SP-11-both \u00b7 Keep this practice",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-695",
+      "status": "DRAFT_BUILT",
+      "title": "Keep this practice"
+    },
+    {
+      "id": "SP-11-none",
+      "nodeId": "34:696",
+      "name": "SP-11-none \u00b7 Choose what to keep",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-696",
+      "status": "DRAFT_BUILT",
+      "title": "Choose what to keep"
+    },
+    {
+      "id": "SP-12-detail",
+      "nodeId": "34:697",
+      "name": "SP-12-detail \u00b7 Two ways you told it",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-697",
+      "status": "DRAFT_BUILT",
+      "title": "Two ways you told it"
+    },
+    {
+      "id": "PG-06-confirm",
+      "nodeId": "34:698",
+      "name": "PG-06-confirm \u00b7 Freeze added",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-698",
+      "status": "DRAFT_BUILT",
+      "title": "Freeze added"
+    },
+    {
+      "id": "PG-07-confirm",
+      "nodeId": "34:699",
+      "name": "PG-07-confirm \u00b7 Your streak continues",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-699",
+      "status": "DRAFT_BUILT",
+      "title": "Your streak continues"
+    },
+    {
+      "id": "PG-07-expired",
+      "nodeId": "34:700",
+      "name": "PG-07-expired \u00b7 A fresh start is ready",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-700",
+      "status": "DRAFT_BUILT",
+      "title": "A fresh start is ready"
+    },
+    {
+      "id": "ST-03-voice",
+      "nodeId": "34:701",
+      "name": "ST-03-voice \u00b7 A voice that feels right",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-701",
+      "status": "DRAFT_BUILT",
+      "title": "A voice that feels right"
+    },
+    {
+      "id": "ST-04-permission",
+      "nodeId": "34:702",
+      "name": "ST-04-permission \u00b7 Allow study reminders?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-702",
+      "status": "DRAFT_BUILT",
+      "title": "Allow study reminders?"
+    },
+    {
+      "id": "ST-04-allowed",
+      "nodeId": "34:703",
+      "name": "ST-04-allowed \u00b7 Your reminder is set",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-703",
+      "status": "DRAFT_BUILT",
+      "title": "Your reminder is set"
+    },
+    {
+      "id": "ST-04-denied",
+      "nodeId": "34:704",
+      "name": "ST-04-denied \u00b7 Reminders are off",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-704",
+      "status": "DRAFT_BUILT",
+      "title": "Reminders are off"
+    },
+    {
+      "id": "ST-05-testing",
+      "nodeId": "34:705",
+      "name": "ST-05-testing \u00b7 Testing your connection",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-705",
+      "status": "DRAFT_BUILT",
+      "title": "Testing your connection"
+    },
+    {
+      "id": "ST-05-connected",
+      "nodeId": "34:706",
+      "name": "ST-05-connected \u00b7 You\u2019re connected",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-706",
+      "status": "DRAFT_BUILT",
+      "title": "You\u2019re connected"
+    },
+    {
+      "id": "ST-05-remove",
+      "nodeId": "34:707",
+      "name": "ST-05-remove \u00b7 Remove this local key?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-707",
+      "status": "DRAFT_BUILT",
+      "title": "Remove this local key?"
+    },
+    {
+      "id": "ST-06-vocabulary",
+      "nodeId": "34:708",
+      "name": "ST-06-vocabulary \u00b7 Generate useful words?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-708",
+      "status": "DRAFT_BUILT",
+      "title": "Generate useful words?"
+    },
+    {
+      "id": "ST-06-text",
+      "nodeId": "34:709",
+      "name": "ST-06-text \u00b7 Request text coaching?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-709",
+      "status": "DRAFT_BUILT",
+      "title": "Request text coaching?"
+    },
+    {
+      "id": "PR-02-ready",
+      "nodeId": "34:710",
+      "name": "PR-02-ready \u00b7 Your export is ready",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-710",
+      "status": "DRAFT_BUILT",
+      "title": "Your export is ready"
+    },
+    {
+      "id": "PR-02-share",
+      "nodeId": "34:711",
+      "name": "PR-02-share \u00b7 Share selected export",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-711",
+      "status": "DRAFT_BUILT",
+      "title": "Share selected export"
+    },
+    {
+      "id": "PR-03-restore",
+      "nodeId": "34:712",
+      "name": "PR-03-restore \u00b7 Item restored",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-712",
+      "status": "DRAFT_BUILT",
+      "title": "Item restored"
+    },
+    {
+      "id": "PR-03-purge",
+      "nodeId": "34:713",
+      "name": "PR-03-purge \u00b7 Delete permanently?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-713",
+      "status": "DRAFT_BUILT",
+      "title": "Delete permanently?"
+    },
+    {
+      "id": "PR-03-purged",
+      "nodeId": "34:714",
+      "name": "PR-03-purged \u00b7 Item permanently deleted",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-714",
+      "status": "DRAFT_BUILT",
+      "title": "Item permanently deleted"
+    },
+    {
+      "id": "PR-04-confirm",
+      "nodeId": "34:715",
+      "name": "PR-04-confirm \u00b7 Confirm learning-data deletion",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-715",
+      "status": "DRAFT_BUILT",
+      "title": "Confirm learning-data deletion"
+    },
+    {
+      "id": "PR-04-done",
+      "nodeId": "34:716",
+      "name": "PR-04-done \u00b7 Learning data removed",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-716",
+      "status": "DRAFT_BUILT",
+      "title": "Learning data removed"
+    },
+    {
+      "id": "RS-01-external",
+      "nodeId": "34:717",
+      "name": "RS-01-external \u00b7 Open this reference?",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-717",
+      "status": "DRAFT_BUILT",
+      "title": "Open this reference?"
+    },
+    {
+      "id": "SY-01-cancelled",
+      "nodeId": "34:718",
+      "name": "SY-01-cancelled \u00b7 Request cancelled",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-718",
+      "status": "DRAFT_BUILT",
+      "title": "Request cancelled"
+    },
+    {
+      "id": "SY-03-storage",
+      "nodeId": "34:719",
+      "name": "SY-03-storage \u00b7 More space is needed",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-719",
+      "status": "DRAFT_BUILT",
+      "title": "More space is needed"
+    },
+    {
+      "id": "AX-01-atlas",
+      "nodeId": "34:720",
+      "name": "AX-01-atlas \u00b7 Today",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-720",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "AX-01-studio",
+      "nodeId": "34:721",
+      "name": "AX-01-studio \u00b7 Today",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-721",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "AX-01-dark",
+      "nodeId": "34:722",
+      "name": "AX-01-dark \u00b7 Today",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-722",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "AX-01-atlas-dark",
+      "nodeId": "34:723",
+      "name": "AX-01-atlas-dark \u00b7 Today",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-723",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "AX-01-studio-dark",
+      "nodeId": "34:724",
+      "name": "AX-01-studio-dark \u00b7 Today",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-724",
+      "status": "DRAFT_BUILT",
+      "title": "Today"
+    },
+    {
+      "id": "SY-01-offline",
+      "nodeId": "34:725",
+      "name": "SY-01-offline \u00b7 You\u2019re offline",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-725",
+      "status": "DRAFT_BUILT",
+      "title": "You\u2019re offline"
+    },
+    {
+      "id": "SY-01-no-key",
+      "nodeId": "34:726",
+      "name": "SY-01-no-key \u00b7 Connect when you\u2019re ready",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-726",
+      "status": "DRAFT_BUILT",
+      "title": "Connect when you\u2019re ready"
+    },
+    {
+      "id": "SY-01-auth",
+      "nodeId": "34:727",
+      "name": "SY-01-auth \u00b7 Your key needs attention",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-727",
+      "status": "DRAFT_BUILT",
+      "title": "Your key needs attention"
+    },
+    {
+      "id": "SY-01-quota",
+      "nodeId": "34:728",
+      "name": "SY-01-quota \u00b7 Provider usage limit reached",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-728",
+      "status": "DRAFT_BUILT",
+      "title": "Provider usage limit reached"
+    },
+    {
+      "id": "SY-01-rate",
+      "nodeId": "34:729",
+      "name": "SY-01-rate \u00b7 The provider is busy",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-729",
+      "status": "DRAFT_BUILT",
+      "title": "The provider is busy"
+    },
+    {
+      "id": "SY-01-timeout",
+      "nodeId": "34:730",
+      "name": "SY-01-timeout \u00b7 The result is uncertain",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-730",
+      "status": "DRAFT_BUILT",
+      "title": "The result is uncertain"
+    },
+    {
+      "id": "SY-01-invalid",
+      "nodeId": "34:731",
+      "name": "SY-01-invalid \u00b7 We couldn\u2019t use this result",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-731",
+      "status": "DRAFT_BUILT",
+      "title": "We couldn\u2019t use this result"
+    },
+    {
+      "id": "SY-01-unsupported",
+      "nodeId": "34:732",
+      "name": "SY-01-unsupported \u00b7 This capability isn\u2019t available",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-732",
+      "status": "DRAFT_BUILT",
+      "title": "This capability isn\u2019t available"
+    },
+    {
+      "id": "SY-01-stale",
+      "nodeId": "34:733",
+      "name": "SY-01-stale \u00b7 Your answer has changed",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-733",
+      "status": "DRAFT_BUILT",
+      "title": "Your answer has changed"
+    },
+    {
+      "id": "SY-02-denied",
+      "nodeId": "34:734",
+      "name": "SY-02-denied \u00b7 Microphone access is off",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-734",
+      "status": "DRAFT_BUILT",
+      "title": "Microphone access is off"
+    },
+    {
+      "id": "SY-02-route",
+      "nodeId": "34:735",
+      "name": "SY-02-route \u00b7 Your microphone disconnected",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-735",
+      "status": "DRAFT_BUILT",
+      "title": "Your microphone disconnected"
+    },
+    {
+      "id": "SY-02-no-signal",
+      "nodeId": "34:736",
+      "name": "SY-02-no-signal \u00b7 We can\u2019t hear input",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-736",
+      "status": "DRAFT_BUILT",
+      "title": "We can\u2019t hear input"
+    },
+    {
+      "id": "SY-03-save-failed",
+      "nodeId": "34:737",
+      "name": "SY-03-save-failed \u00b7 Your notes couldn\u2019t be saved",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-737",
+      "status": "DRAFT_BUILT",
+      "title": "Your notes couldn\u2019t be saved"
+    },
+    {
+      "id": "SY-03-content",
+      "nodeId": "34:738",
+      "name": "SY-03-content \u00b7 This lesson has changed",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-738",
+      "status": "DRAFT_BUILT",
+      "title": "This lesson has changed"
+    },
+    {
+      "id": "VO-01-empty",
+      "nodeId": "34:739",
+      "name": "VO-01-empty \u00b7 Your first useful word",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-739",
+      "status": "DRAFT_BUILT",
+      "title": "Your first useful word"
+    },
+    {
+      "id": "VO-02-none",
+      "nodeId": "34:740",
+      "name": "VO-02-none \u00b7 You\u2019re up to date",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-740",
+      "status": "DRAFT_BUILT",
+      "title": "You\u2019re up to date"
+    },
+    {
+      "id": "PG-01-empty",
+      "nodeId": "34:741",
+      "name": "PG-01-empty \u00b7 Your story starts here",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-741",
+      "status": "DRAFT_BUILT",
+      "title": "Your story starts here"
+    },
+    {
+      "id": "PG-05-insufficient",
+      "nodeId": "34:742",
+      "name": "PG-05-insufficient \u00b7 Not enough gold yet",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-742",
+      "status": "DRAFT_BUILT",
+      "title": "Not enough gold yet"
+    },
+    {
+      "id": "TD-04-ended",
+      "nodeId": "34:743",
+      "name": "TD-04-ended \u00b7 Your break timer ended",
+      "kind": "state_variant",
+      "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=34-743",
+      "status": "DRAFT_BUILT",
+      "title": "Your break timer ended"
+    }
+  ],
+  "localRuntimeAudit": {
+    "operation": "audit",
+    "file": "SpeechCoachAI \u00b7 iPhone UI Design",
+    "page": "02 \u00b7 Complete flows & states",
+    "expectedFrames": 149,
+    "populatedFrames": 149,
+    "missing": [],
+    "unwiredPrimaryActions": [],
+    "layoutWarnings": [],
+    "prototypeConnections": 775,
+    "invalidDestinations": [],
+    "localExtraFrames": [
+      [
+        "SP-06-take2",
+        "36:963"
+      ],
+      [
+        "IPAD-Learn",
+        "36:2076"
+      ],
+      [
+        "IPAD-Speech",
+        "36:2114"
+      ],
+      [
+        "IPAD-Progress",
+        "36:2151"
+      ],
+      [
+        "IPAD-Portrait",
+        "36:2186"
+      ],
+      [
+        "KEYBOARD-Missing",
+        "36:2292"
+      ],
+      [
+        "KEYBOARD-Correction",
+        "36:2385"
+      ],
+      [
+        "KEYBOARD-Response",
+        "36:2478"
+      ],
+      [
+        "LARGE-Today",
+        "36:2574"
+      ],
+      [
+        "LARGE-Save",
+        "36:2637"
+      ],
+      [
+        "LARGE-Recording",
+        "36:2674"
+      ],
+      [
+        "INPUT-Nickname",
+        "36:2704"
+      ],
+      [
+        "WORD-Duplicate",
+        "36:2743"
+      ],
+      [
+        "AUDIO-Unavailable",
+        "36:2787"
+      ],
+      [
+        "ASR-Empty",
+        "36:2860"
+      ],
+      [
+        "GEN-Empty",
+        "36:2894"
+      ],
+      [
+        "IPAD-Compact",
+        "36:2941"
+      ],
+      [
+        "FOCUS-Answer",
+        "36:2975"
+      ]
+    ],
+    "preferredVisualReference": "Page 1",
+    "referenceArtwork": [
+      {
+        "id": "2:37993",
+        "name": "Coach greeting",
+        "type": "FRAME",
+        "width": 353,
+        "height": 106
+      },
+      {
+        "id": "2:37997",
+        "name": "Coach illustration",
+        "type": "RECTANGLE",
+        "width": 100,
+        "height": 106
+      }
+    ],
+    "verification": "Structural report only. Visual and on-device acceptance remain separate."
+  },
+  "historicalPage": {
+    "id": "25:277",
+    "name": "02 \u00b7 Complete flows & states",
+    "removed": true,
+    "historical": true
+  },
+  "activeReference": {
+    "pageId": "0:1",
+    "pageName": "Page 1",
+    "rootNodeId": "41:1074",
+    "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1074",
+    "sections": [
+      {
+        "id": "41:1075",
+        "name": "00 \u00b7 Start here",
+        "width": 3100,
+        "height": 320
+      },
+      {
+        "id": "41:1088",
+        "name": "01 \u00b7 Foundations & existing controls",
+        "width": 3100,
+        "height": 2077
+      },
+      {
+        "id": "41:1092",
+        "name": "02 \u00b7 Shared building blocks & states",
+        "width": 3100,
+        "height": 1481
+      },
+      {
+        "id": "41:1187",
+        "name": "03 \u00b7 Page templates",
+        "width": 3100,
+        "height": 2149
+      },
+      {
+        "id": "41:1222",
+        "name": "04 \u00b7 Main speaking journey",
+        "width": 3100,
+        "height": 1364
+      },
+      {
+        "id": "41:1251",
+        "name": "05 \u00b7 Appearance & character references",
+        "width": 3100,
+        "height": 1113
+      },
+      {
+        "id": "41:1265",
+        "name": "06 \u00b7 Native adaptation & AI assembly guide",
+        "width": 3100,
+        "height": 1009.2000122070312
+      }
+    ],
+    "componentSets": [
+      {
+        "id": "2:40308",
+        "name": "Button",
+        "variants": 7
+      },
+      {
+        "id": "2:40309",
+        "name": "Switch",
+        "variants": 2
+      },
+      {
+        "id": "2:40310",
+        "name": "Answer option",
+        "variants": 2
+      },
+      {
+        "id": "2:40311",
+        "name": "Tab bar",
+        "variants": 8
+      },
+      {
+        "id": "41:1105",
+        "name": "Kit / Content row",
+        "variants": 2
+      },
+      {
+        "id": "41:1127",
+        "name": "Kit / Input",
+        "variants": 4
+      },
+      {
+        "id": "41:1155",
+        "name": "Kit / Status",
+        "variants": 4
+      },
+      {
+        "id": "41:1177",
+        "name": "Kit / Coaching card",
+        "variants": 2
+      }
+    ],
+    "originalsRetained": 22,
+    "instanceCount": 67,
+    "horizontalOverflow": [],
+    "removedPageId": "25:277",
+    "verification": "Local desktop build, seven-section visual review and page-removal audit passed; cloud sync unverified.",
+    "evidence": "../../tools/figma-local-helper/consolidation/review/finish-report.json"
+  }
+}

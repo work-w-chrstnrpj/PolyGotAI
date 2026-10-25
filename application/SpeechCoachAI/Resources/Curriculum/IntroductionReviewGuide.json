@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "id": "intro-01-review-1",
+  "sourceLessonID": "intro-01",
+  "sourceContentVersion": "4",
+  "rubricVersion": "INTRO-01-personal-draft-1",
+  "reviewState": "personalUseDraft",
+  "notice": "Original personal-use review material. Educator review and learner validation are pending. Examples support self-review; this screen does not score your work or certify a level.",
+  "rights": "Original SpeechCoachAI wording, 2026-10-25. Existing reference audio is unchanged; no publisher text, descriptor wording or learner response is copied.",
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/phonological-competence"
+  ],
+  "selfReview": [
+    "Did I communicate my chosen name, role and one interest?",
+    "Did I answer the related question rather than only ask one?",
+    "Was my wording meaningful, even if it differed from the example?",
+    "Did I use a model, frame, hints or corrective help? Keep that assistance visible.",
+    "Which one thing would I keep, and which one thing would I practise next?",
+    "Text work does not establish intelligibility; declined or missing audio stays not assessed."
+  ],
+  "independentCriterion": "Draft local criterion: task success 2, vocabulary 2, grammar at least 1 and intelligibility at least 1, with all dimensions assessable and no in-task hints, models or corrections. These adopted pilot thresholds require qualified prospective review; no automatic score is produced.",
+  "dimensions": [
+    {
+      "id": "task",
+      "title": "Task success",
+      "notAssessed": "The task was not attempted, key response evidence was deleted, or a different task/support condition was used.",
+      "anchors": [
+        "0 — The reviewer cannot identify the requested introduction meanings; for example, an unrelated message gives no chosen name, role or interest.",
+        "1 — Some requested information is understandable, but a fact or the related answer is missing; for example, a name and role without an interest or follow-up answer.",
+        "2 — A chosen name, role and interest plus a relevant follow-up answer are communicated. Fictional facts are allowed; elaborate wording is unnecessary."
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary retrieval and use",
+      "notAssessed": "There is no suitable language sample or the target meaning was supplied by a model; exact phrase recall and communicative paraphrase must be reported separately.",
+      "anchors": [
+        "0 — Needed meanings cannot be recovered from the chosen words, even when the intended topic is known.",
+        "1 — Some intended meanings are communicated, with a missing or inaccurate choice that requires help or clarification.",
+        "2 — Words or natural paraphrases communicate the required meanings. For example, I enjoy walking conveys an interest without proving recall of I like."
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar in available opportunities",
+      "notAssessed": "The response avoids a target or has no required opportunity. First-person introductions cannot establish third-person agreement.",
+      "anchors": [
+        "0 — Target forms usually prevent recovery of the intended meaning; the reviewer records which opportunity and meaning were lost.",
+        "1 — Target errors occur but meaning remains recoverable; for example, My name Noor and I study art may communicate a name and role despite a missing be form.",
+        "2 — Target forms are generally controlled where used; for example, My name is Noor. I study art. I like walking. Judge valid varieties and meaning, not grammar terminology."
+      ]
+    },
+    {
+      "id": "intelligibility",
+      "title": "Intelligibility from actual audio",
+      "notAssessed": "No usable consented audio or qualified listening evidence is available. Text, transcript correctness and self-review cannot score this dimension.",
+      "anchors": [
+        "0 — An actual listener cannot recover most intended meaning from the audio; the reviewer records the affected words and listening conditions.",
+        "1 — An actual listener recovers the meaning with some effort or repetition. The observation must cite the recording and listening conditions.",
+        "2 — An actual listener readily understands the message. A retained accent is acceptable; speed or native-accent imitation is not the goal."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "read-mina",
+      "alternatives": [
+        "English.",
+        "Mina studies English."
+      ],
+      "explanation": "The passage names English as the subject of study. A full sentence is optional for this comprehension question.",
+      "boundary": "An interest such as cooking does not answer what Mina studies."
+    },
+    {
+      "id": "read-mina-name",
+      "alternatives": [
+        "Mina.",
+        "Her name is Mina."
+      ],
+      "explanation": "Use the name in the written source; a short answer is sufficient.",
+      "boundary": "Do not substitute the name heard in the different listening source."
+    },
+    {
+      "id": "read-mina-like",
+      "alternatives": [
+        "Cooking.",
+        "Mina likes cooking.",
+        "Mina enjoys cooking."
+      ],
+      "explanation": "Likes and enjoys communicate the same interest here.",
+      "boundary": "The source does not say Mina is a cook; an interest is not a job."
+    },
+    {
+      "id": "listen-alex-name",
+      "alternatives": [
+        "Alex.",
+        "The speaker is called Alex."
+      ],
+      "explanation": "The audio says the speaker's name is Alex; no gender label is required.",
+      "boundary": "Reading Mina’s passage cannot establish this listening answer."
+    },
+    {
+      "id": "listen-alex",
+      "alternatives": [
+        "A cook.",
+        "Alex is a cook."
+      ],
+      "explanation": "The audio identifies a cook; it does not say Alex studies English.",
+      "boundary": "Do not infer listening comprehension from a transcript-only or quiet attempt."
+    },
+    {
+      "id": "listen-alex-like",
+      "alternatives": [
+        "Music.",
+        "Alex likes music."
+      ],
+      "explanation": "The audio names music as the interest.",
+      "boundary": "Mina’s cooking interest belongs to the reading, not this recording."
+    },
+    {
+      "id": "grammar-be-am",
+      "alternatives": [
+        "am"
+      ],
+      "explanation": "I takes am in this statement: I am a student.",
+      "boundary": "Is and are do not agree with I. I'm a student is a natural full-message contraction, but the one-word gap asks for am."
+    },
+    {
+      "id": "grammar-be-is",
+      "alternatives": [
+        "is"
+      ],
+      "explanation": "She takes is in this statement: She is a teacher.",
+      "boundary": "Am belongs with I; are belongs with you/we/they. A teacher describes she after be; it is a subject complement, not a direct object."
+    },
+    {
+      "id": "grammar-study",
+      "alternatives": [
+        "study"
+      ],
+      "explanation": "With I, use the base form study in a simple-present statement.",
+      "boundary": "Studies agrees with he/she; studying alone needs another verb and does not fill this gap."
+    },
+    {
+      "id": "grammar-works",
+      "alternatives": [
+        "works"
+      ],
+      "explanation": "With he, add -s: He works in a shop.",
+      "boundary": "Work is the I/you/we/they form here. A statement about yourself does not test he/she agreement; use the separate colleague task."
+    },
+    {
+      "id": "grammar-do",
+      "alternatives": [
+        "Do",
+        "do"
+      ],
+      "explanation": "Use do with you and the base verb like: Do you like music?",
+      "boundary": "Does takes he/she plus a base verb. Are you like music? does not ask the intended question."
+    },
+    {
+      "id": "recall-name",
+      "alternatives": [
+        "My name is Noor.",
+        "I am Noor.",
+        "I'm Noor."
+      ],
+      "explanation": "Different introductions can communicate a chosen name. Fictional names are welcome.",
+      "boundary": "I am Noor can be communicatively valid without demonstrating recall of the specific phrase My name is."
+    },
+    {
+      "id": "recall-from",
+      "alternatives": [
+        "I am from Cebu.",
+        "I'm from Cebu."
+      ],
+      "explanation": "From introduces the place of origin. The place may be fictional.",
+      "boundary": "I live in Cebu gives a current home; it does not necessarily state where someone comes from."
+    },
+    {
+      "id": "recall-study",
+      "alternatives": [
+        "I study art.",
+        "I work in a shop."
+      ],
+      "explanation": "Both can answer this practice cue about study or work.",
+      "boundary": "A work response can succeed communicatively without demonstrating retrieval of the selected study sense."
+    },
+    {
+      "id": "recall-like",
+      "alternatives": [
+        "I like walking.",
+        "I enjoy walking.",
+        "I like to walk."
+      ],
+      "explanation": "Accept meaningful expressions of an interest; the phrase I like is one useful option.",
+      "boundary": "Enjoy walking is a valid message but is not evidence that the exact target I like was recalled."
+    },
+    {
+      "id": "recall-meet",
+      "alternatives": [
+        "Nice to meet you.",
+        "It's nice to meet you.",
+        "Pleased to meet you."
+      ],
+      "explanation": "Use a suitable first-meeting greeting.",
+      "boundary": "Nice to see you again assumes an earlier meeting and may not suit this cue."
+    },
+    {
+      "id": "guided-intro",
+      "alternatives": [
+        "Hello. My name is Noor. I study art. I like walking. In my free time, I walk in the park."
+      ],
+      "explanation": "Check for a chosen name, a role, an interest and an answer to one related question. Fiction is allowed.",
+      "boundary": "Saving or self-review is participation, not independent task success. A script-supported retry stays assisted."
+    },
+    {
+      "id": "self-review",
+      "alternatives": [
+        "I included a name, a role and an interest, and answered the follow-up. I want to practise one verb next."
+      ],
+      "explanation": "Review what your attempt actually contains and choose one next action; identifying a gap is useful.",
+      "boundary": "Do not convert self-confidence, completion or an example match into a verified English-level score."
+    },
+    {
+      "id": "quiet-intro",
+      "alternatives": [
+        "My name is Noor. I study art. I like walking. In my free time, I walk in the park."
+      ],
+      "explanation": "Write the same three meanings as the spoken route and answer its related follow-up.",
+      "boundary": "Asking a question instead of answering one does not meet the follow-up meaning. Written practice supplies no intelligibility or speaking assessment."
+    }
+  ],
+  "packs": [
+    {
+      "id": "foundations",
+      "packID": "intro-01-pack-foundations",
+      "packVersion": "personal-practice-2",
+      "objectiveID": "INTRO-01/foundations",
+      "method": [
+        "Notice word jobs and sentence parts",
+        "Construct five target sentences",
+        "Apply to a fictional colleague",
+        "Review examples and reflect"
+      ],
+      "priorities": [
+        "Separate word class from sentence function. A noun can appear in the predicate.",
+        "Distinguish a subject complement after be from an object after an action verb.",
+        "Practise subject–verb matching in context. Missing third-person opportunities are not errors."
+      ],
+      "criteria": "Record five concept responses separately from five productive forms and the colleague application. A terminology answer cannot establish communication or grammar retention.",
+      "boundary": "Personal practice only. The foundation pack does not add required course activities or an automatic mastery gate."
+    },
+    {
+      "id": "teacher",
+      "packID": "intro-01-pack-teacher",
+      "packVersion": "personal-practice-1",
+      "objectiveID": "INTRO-01/teacher",
+      "method": [
+        "Explain the introduction goal",
+        "Read a model",
+        "Use a frame",
+        "Try with less support",
+        "Try fresh forms and self-review"
+      ],
+      "priorities": [
+        "First check whether name, role, interest and a related answer are understandable.",
+        "Then focus on one high-impact target form. Keep a valid answer; do not invent errors."
+      ],
+      "criteria": "For a reviewed future check, keep the five fresh target responses separate from the linked independent communicative task. The adopted 4/5 criterion requires prospective review and actual unaided responses.",
+      "boundary": "Reduced support after seeing a model is practice, not a fresh independent baseline. Current open responses are not automatically scored."
+    },
+    {
+      "id": "grammarian",
+      "packID": "intro-01-pack-grammarian",
+      "packVersion": "personal-practice-1",
+      "objectiveID": "INTRO-01/grammarian",
+      "method": [
+        "Notice a target difficulty",
+        "Contrast meanings and forms",
+        "Repair or transform",
+        "Use the pattern in a new colleague message",
+        "Review"
+      ],
+      "priorities": [
+        "Explain subject–verb agreement or do/does plus a base verb when that target is actually used.",
+        "Preserve the intended meaning and accept natural alternatives. Avoid correcting every unrelated detail."
+      ],
+      "criteria": "Keep five fresh productive responses separate from two natural third-person opportunities in the colleague message. A target not elicited is not assessed. The adopted 4/5 check is not a verified score here.",
+      "boundary": "Selecting a choice or knowing a label does not prove productive use; a first-person response alone cannot prove he/she agreement."
+    },
+    {
+      "id": "journalist",
+      "packID": "intro-01-pack-journalist",
+      "packVersion": "personal-practice-1",
+      "objectiveID": "INTRO-01/journalist",
+      "method": [
+        "Read Mina’s source",
+        "Ask a relevant question",
+        "Ask a response-dependent follow-up",
+        "Clarify an overbroad claim",
+        "Summarize three source facts",
+        "Review"
+      ],
+      "priorities": [
+        "Check whether the questions relate to this source and the follow-up uses the supplied answer.",
+        "Keep all three source points without adding a job or other unstated fact. Prioritize fidelity before style."
+      ],
+      "criteria": "Mina is the name, English is the subject of study, and cooking is the interest. Check two relevant questions including a response-dependent follow-up, then a faithful three-point summary. These are specialty criteria, not INTRO-01 baseline scores.",
+      "boundary": "This pack uses a written source and gives reading-based practice only. Calling Mina a cook invents a job. Do not infer listening skill, accent or speaking fluency."
+    }
+  ]
+}

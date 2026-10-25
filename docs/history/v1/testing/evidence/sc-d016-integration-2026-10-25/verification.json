@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-25",
+  "scope": "SC-D016 owner-authorized return review/repairs and eligible integration",
+  "result": "PASS for scoped automated checks; original implementation incomplete",
+  "runs": [
+    {
+      "name": "initial-compile",
+      "result": "Build failed",
+      "passed": 0,
+      "failed": 0,
+      "total": 0,
+      "xcresult": "application/.build/sc-d016-review-phone.xcresult",
+      "failure_messages": [
+        "Integration compile: 'validated' is inaccessible due to 'private' protection level; fixed with internal read-only result access. No tests executed."
+      ],
+      "reported_test_result": "unknown"
+    },
+    {
+      "name": "phone-baseline",
+      "result": "Passed",
+      "passed": 239,
+      "failed": 0,
+      "total": 239,
+      "xcresult": "application/.build/sc-d016-review-phone-retest.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "ipad-baseline",
+      "result": "Passed",
+      "passed": 239,
+      "failed": 0,
+      "total": 239,
+      "xcresult": "application/.build/sc-d016-review-ipad.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "phone-final",
+      "result": "Passed",
+      "passed": 240,
+      "failed": 0,
+      "total": 240,
+      "xcresult": "application/.build/sc-d016-review-final-phone.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "ipad-final",
+      "result": "Passed",
+      "passed": 240,
+      "failed": 0,
+      "total": 240,
+      "xcresult": "application/.build/sc-d016-review-final-ipad.xcresult",
+      "failure_messages": []
+    }
+  ],
+  "final_runs": {
+    "phone": {
+      "hosted": 239,
+      "ui": 1,
+      "result": "PASS"
+    },
+    "ipad": {
+      "hosted": 239,
+      "ui": 1,
+      "result": "PASS"
+    }
+  },
+  "new_discovery_daily_tests": 11,
+  "environment": {
+    "phone": "iPhone 18 Pro simulator, iOS 27.0",
+    "ipad": "iPad A16 simulator, iOS 27.0",
+    "signing": "ad-hoc simulator",
+    "data": "synthetic isolated UUID stores"
+  },
+  "source_sha256": {
+    "application/SpeechCoachAI/Domain/VocabularyDiscovery.swift": "670834e45925a1b64e8fad961c20fa4499b5ca6f8f4b24170920c18c74d01fb1",
+    "application/SpeechCoachAI/Domain/GeneratedPractice.swift": "39b43100c0baa24aeb8cb1bf762bf08690ac1831cc761be1e3ef566a2fdf1020",
+    "application/SpeechCoachAI/Features/Vocabulary/VocabularyDiscoveryView.swift": "537273d1ef1afffc2f9728dc42c34cf753c416a27a8bc7864fc36336b64de4cb",
+    "application/SpeechCoachAI/Features/Vocabulary/WordOfDayView.swift": "eed71612e3f10296306ac888f97f9f1b7f60bc1f3d0cd569b3bfda9d94515fbd",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "ac122f38f26748fd557fe2da771c4c2034d399cd35683967ed4fe5c6ca01d5db",
+    "application/SpeechCoachAITests/VocabularyDiscoveryDeliveryTests.swift": "ce386e93f690da8c359602281ae48303c6679ad16bc0d7f7ef14a69378adc5c8",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "98b700fdd4beb6d83407204aa8557a47861d7d53fc622d7889ce3f361e31244b",
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "3df4c25971ca0c1fc83dac1aaa8218e99e00aa9995d6208b09d984da5bbdaf37"
+  },
+  "boundaries": {
+    "live_provider_requests": false,
+    "owner_data_reset": false,
+    "physical_acceptance": false,
+    "generation_policy_approved": false,
+    "daily_selection_policy_approved": false,
+    "qualified_reviewed_pool_supplied": false,
+    "generated_enrollment_enabled": false,
+    "new_swiftdata_migration": false
+  },
+  "remaining": "Original topic-aware generation/adapter/semantic validation, generated enrollment and approved daily selection/pool, prerequisite and actual physical/accessibility/learning acceptance; no ticket marked done."
+}

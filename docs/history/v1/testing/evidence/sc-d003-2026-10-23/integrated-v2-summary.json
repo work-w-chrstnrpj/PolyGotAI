@@ -1,0 +1,94 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "709D6F70-328D-4458-8F8A-B2C47A945A80",
+        "deviceName" : "iPad (A16)",
+        "modelName" : "iPad (A16)",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 154,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    },
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName" : "iPhone 18 Pro",
+        "modelName" : "iPhone 18 Pro",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 154,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "SpeechCoachAI · Built with macOS 27.0.1",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1792708178.12,
+  "passedTests" : 135,
+  "result" : "Failed",
+  "runtimeWarnings" : [
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "Invalid frame dimension (negative or non-finite)."
+    },
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "Invalid frame dimension (negative or non-finite)."
+    }
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1792708147.238,
+  "statistics" : [
+    {
+      "subtitle" : "310 test runs",
+      "title" : "136 tests ran on 2 devices"
+    },
+    {
+      "subtitle" : "48 test runs",
+      "title" : "5 tests ran with dynamic parameters"
+    }
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertTrue failed",
+      "targetName" : "SpeechCoachAIUITests",
+      "testIdentifier" : 135,
+      "testIdentifierString" : "BootstrapLaunchTests/testPracticePreferencePersistsAndConnectsToday()",
+      "testIdentifierURL" : "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAIUITests/BootstrapLaunchTests/testPracticePreferencePersistsAndConnectsToday",
+      "testName" : "testPracticePreferencePersistsAndConnectsToday()"
+    }
+  ],
+  "title" : "Test - SpeechCoachAI",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "17% of duration",
+      "text" : "3 longest test runs with outlier durations exceeding 0.38s (three standard deviations)"
+    },
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "28% of duration",
+      "text" : "5 longest test runs with outlier durations exceeding 0.35s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 136
+}

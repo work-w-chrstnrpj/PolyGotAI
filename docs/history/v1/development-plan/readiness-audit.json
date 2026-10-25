@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-21",
+  "scope": "Complete current documentation/192-ticket plan; semantic and structural readiness audit",
+  "result": "PASS",
+  "readiness": "Planning sufficient for owner-authorized first engineering slice; no additional global readiness/setup-review gate",
+  "developmentAuthorized": false,
+  "ticketCounts": {
+    "pending": 184,
+    "done": 7,
+    "blocked": 1
+  },
+  "checks": {
+    "ticket_counts": {
+      "result": "PASS",
+      "detail": {
+        "pending": 184,
+        "done": 7,
+        "blocked": 1
+      }
+    },
+    "delivery_groups": {
+      "result": "PASS",
+      "detail": {
+        "parents": 22,
+        "children": 147
+      }
+    },
+    "all_pending_decisions_registered": {
+      "result": "PASS",
+      "detail": [
+        "SC-T179",
+        "SC-T168",
+        "SC-T129",
+        "SC-T148",
+        "SC-T177",
+        "SC-T046",
+        "SC-T056",
+        "SC-T116",
+        "SC-T173",
+        "SC-T073",
+        "SC-T047",
+        "SC-T063",
+        "SC-T103",
+        "SC-T067",
+        "SC-T161",
+        "SC-T070",
+        "SC-T182",
+        "SC-T140",
+        "SC-T154",
+        "SC-T055",
+        "SC-T183",
+        "SC-T089"
+      ]
+    },
+    "execution_graph": {
+      "result": "PASS",
+      "detail": []
+    },
+    "combined_closure_graph": {
+      "result": "PASS",
+      "detail": []
+    },
+    "curriculum_preparation_edges": {
+      "result": "PASS",
+      "detail": "Six reviewed manifest decisions require SC-T006; draft versus publication distinction retained"
+    },
+    "curriculum_delivery_edges": {
+      "result": "PASS",
+      "detail": "Six original upstream delivery gates on integration plus parent closure"
+    },
+    "capability_policy_edges": {
+      "result": "PASS",
+      "detail": "Day, voice capability and BYOK prerequisites"
+    },
+    "semantic_staging": {
+      "result": "PASS",
+      "detail": "Explicit setup, early rewards, future AW instances, typed help, missing-word help and signed artifact handoffs"
+    },
+    "local_document_targets": {
+      "result": "PASS",
+      "detail": []
+    },
+    "existing_design_evidence_integrity": {
+      "result": "PASS",
+      "detail": {
+        "files": 26,
+        "mismatches": []
+      }
+    },
+    "local_figma_backup_integrity": {
+      "result": "PASS",
+      "detail": "Existing local backup; cloud persistence remains unverified"
+    },
+    "award_master_integrity": {
+      "result": "PASS",
+      "detail": {
+        "masters": 68,
+        "mismatches": [],
+        "visual_native_reexecution": "NOT_RUN"
+      }
+    },
+    "no_app_or_git": {
+      "result": "PASS",
+      "detail": "No source target, app tests, backend, Git or implementation created"
+    },
+    "owner_hold_preserved": {
+      "result": "PASS",
+      "detail": "No application start instruction received"
+    },
+    "original_parent_acceptance_preserved": {
+      "result": "PASS",
+      "detail": []
+    },
+    "external_preset_validation": {
+      "result": "PASS",
+      "detail": "Separate command completed with 30 checks PASS on 2026-10-21; not product/runtime proof"
+    },
+    "ticket_sections_and_register_alignment": {
+      "result": "PASS",
+      "detail": []
+    }
+  },
+  "inputs": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 9256,
+      "sha256": "1f7fc4e3648b37b50d6dd1729c3bf2318b951fda93360f5f9db60e3c2cf419ee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5261,
+      "sha256": "5a88cf882ed5b3cbf9a2b904b94bee3040236e4f4376c61bfb6448122cce3b7a"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 5146,
+      "sha256": "d721e2cf72ebf30429fdfe1463d528aa179e4cf7d2bccc3759b9df38e6f90493"
+    },
+    {
+      "path": "docs/api/api-specification.md",
+      "bytes": 6348,
+      "sha256": "ae958952bd151cde9e5a7584a79b75ee95a4ab63d8d0addfa8069f9fb379600e"
+    },
+    {
+      "path": "docs/api/qwen-capability-report.md",
+      "bytes": 14699,
+      "sha256": "86c2b35b08e895df6c1069c89d28aaf825318890cc7b8eb023ca83125f5091d5"
+    },
+    {
+      "path": "docs/commands/commands.md",
+      "bytes": 3162,
+      "sha256": "b3a025ec75416a0110bb2ec975cc2c84f48c9ddc86d06ed45ea141b0c313fd1c"
+    },
+    {
+      "path": "docs/contracts/recorded-feedback-v1.md",
+      "bytes": 20235,
+      "sha256": "88acfdabd08b734c481e70f46abefef9211c95c347b9a60b0d789f9ae3bf5dd9"
+    },
+    {
+      "path": "docs/database/data-model.md",
+      "bytes": 13361,
+      "sha256": "511021a853ba973944dfe49d9fc25b6338c0344d292a1f0dc291dae7c58ea7b3"
+    },
+    {
+      "path": "docs/deployment/deployment.md",
+      "bytes": 5140,
+      "sha256": "a54c3f0d25460aa4304936173d88371b6b5884a5cc607fdf62c7e4c3ef862348"
+    },
+    {
+      "path": "docs/development-plan/approved-recommendations.md",
+      "bytes": 16258,
+      "sha256": "6c216f687f2de47ff992f304f665ded65401b37fa9184df048c303a5be5165d4"
+    },
+    {
+      "path": "docs/development-plan/decomposition.md",
+      "bytes": 61077,
+      "sha256": "00022842359cb917d0503e9575ee67df4dd65b33272c22fdf4ffaa7afe9bb002"
+    },
+    {
+      "path": "docs/development-plan/development-plan.md",
+      "bytes": 31875,
+      "sha256": "575a764ed2075b21d2d850223685c50352ef7941c55a3af5bc3c3965e765e854"
+    },
+    {
+      "path": "docs/development-plan/execution-sequence.md",
+      "bytes": 41023,
+      "sha256": "c0c1a5f96a7ae1f1437df08f34eadfdd02d58a6f5b07dac0ba11e1ccc7e662f2"
+    },
+    {
+      "path": "docs/development-plan/milestones.md",
+      "bytes": 52171,
+      "sha256": "408602b5c99e8d3896a359ebf90f828e64b3c8f98a1eec42e29a272a307507f1"
+    },
+    {
+      "path": "docs/development-plan/progress.md",
+      "bytes": 85017,
+      "sha256": "fbaa4edf9dfb52955ca8836028398fab5f4ffb76d2408b8162650214e45c56d4"
+    },
+    {
+      "path": "docs/development-plan/readiness-review.md",
+      "bytes": 20146,
+      "sha256": "9beb4268244869c4c5719167a683f6d7a4a557f5b7b054fdccc31e0509d546b8"
+    },
+    {
+      "path": "docs/development-plan/ticket-workflow.md",
+      "bytes": 8620,
+      "sha256": "63d9369749896de4d46ae624f346a0fdefb20eb854dbe6cc1ae523597bdab031"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T001.md",
+      "bytes": 7680,
+      "sha256": "2e656510e0c5fa5917da41ae6add23a6855c712ca28cd63112eaa88a69e2ec7f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T002.md",
+      "bytes": 5165,
+      "sha256": "4629d2f101ded7e7a93232237f7b2a9b868fd9f91daa45804a307f9316297574"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T003.md",
+      "bytes": 5054,
+      "sha256": "36d69230df492699436753a345855b839b9b64a7497ff2b04cf16df625eeb31f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T004.md",
+      "bytes": 4907,
+      "sha256": "ac633ed18050b1d01c3ae79f61af8a8ca9834548ea747cc15fe8798646f5f7ae"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T005.md",
+      "bytes": 4209,
+      "sha256": "95becd46c7738171c216b23598d192cfd94d7d8c6167e599299136fd497935c5"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T006.md",
+      "bytes": 5912,
+      "sha256": "fedd90625a45d1329a9455a3c4d2879baf523104ee66bc8dbbe076a985cc1bda"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T007.md",
+      "bytes": 7718,
+      "sha256": "043a95f5086ff7ce6c73568a0175845ec47525e0b3415cafb7e00c29854cf0e3"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T008.md",
+      "bytes": 4949,
+      "sha256": "7300a17d6855b9cfce926f98a1071092e16cf7331ff0342fe55fa8522cece248"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T009.md",
+      "bytes": 3996,
+      "sha256": "5408b18c9bb0a34fee63da5f4bb12c36536d1b2b7c69bc0d07036bb438074d11"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T010.md",
+      "bytes": 5448,
+      "sha256": "e89eb9277e95609aa21410fba25edfe1527e5b9d0a758ed797a13e4abf0afb5e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T011.md",
+      "bytes": 4416,
+      "sha256": "46d3f46c14e8379469aa318cca14ce939c74ba4ac1d8028c71e130d5d0f849b3"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T012.md",
+      "bytes": 4296,
+      "sha256": "1fdbd678dee1b2344a2635212dae577254ed2c00ffcef591e10a068740ce9abf"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T013.md",
+      "bytes": 4781,
+      "sha256": "633614597e9dcdef0b0b2f1dc23e26d4271fc5cf4c337b3e031bdf8014fa225e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T014.md",
+      "bytes": 4612,
+      "sha256": "94149b0e92e0db0ddfa3dd1d0802cbd91284793962eb35d48dc91e87375f2df8"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T015.md",
+      "bytes": 4493,
+      "sha256": "2c99f127475e3d6f669c75f86a73ceaba86672d846599adfe93a88d2a21ad356"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T016.md",
+      "bytes": 4522,
+      "sha256": "40740913f7b55fa31a40f4e138cb347ebbea0f537b597eca13862cfac9961bdb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T017.md",
+      "bytes": 4404,
+      "sha256": "093ca92b4b6f15da4d7b2ba3ad39c97575fc35e8cde9734bf09eb9c5d72eed8d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T018.md",
+      "bytes": 7469,
+      "sha256": "47437621ead8c88e3e3fe89bff02a73a5039dc3f9988a2b3bdea547bd12c76a8"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T019.md",
+      "bytes": 4285,
+      "sha256": "e12a5c5e828fde487479d6e5e16620527304349309dfe82c7a9ab04eb90eca59"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T020.md",
+      "bytes": 6170,
+      "sha256": "8950a315e5cec25fb3bff8dc1c7e86d53d9a983f30cd5a36b0701ac159512417"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T021.md",
+      "bytes": 5949,
+      "sha256": "710fc05508ac878e36000d6a62d326d813033545e0262eea8c4f67932a348cdb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T022.md",
+      "bytes": 4544,
+      "sha256": "56df91135178eb52c680088d6aae3885554d8bf0d85e7f0cfad102d2649128b5"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T023.md",
+      "bytes": 4691,
+      "sha256": "42dcf2039a577cd50ba7ab4e62c5910065f72331dbd54c51ee83bb2286be9fd1"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T024.md",
+      "bytes": 7888,
+      "sha256": "c5291bc4d189f35cf704652e22712138ff968499a9c8c36378b0c0d2b00fbdaa"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T025.md",
+      "bytes": 8563,
+      "sha256": "a5616b7c851d4e6e03dda23018e43d0e3e56aa454e0aa9035b549a0eb1cfb02e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T026.md",
+      "bytes": 6143,
+      "sha256": "ad134d391cf1093bbe75a29b3ec514058e9d4e946cf458e2698ddfbc89376140"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T027.md",
+      "bytes": 5505,
+      "sha256": "dae70fdefadd6b9018c8b740bfc6ffd91b04be8f620e34b092d6a9ec76151d52"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T028.md",
+      "bytes": 4732,
+      "sha256": "87c60a7d51000c2752a6fd66df608dafaff714e785b5d1a139f3daf3bd2e19d7"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T029.md",
+      "bytes": 6887,
+      "sha256": "4949d27d4eb88d748d4e44dd38a1f416b66fde571cc6b65a0f9e4ca8c0a382ac"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T030.md",
+      "bytes": 6148,
+      "sha256": "90cd54d26a46ab33023a22c0c3acede43d013f97134ce6d546ba36857c3563fb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T031.md",
+      "bytes": 6081,
+      "sha256": "7fa3c46799dcbbfa94a7b2a7dfce3f081618ded67a1f03d8188810ae44c95004"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T032.md",
+      "bytes": 6070,
+      "sha256": "9426f01f5070a8ebe6985a2a75ebf1d8271e6e2b60c1a18dcce846cd80829154"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T033.md",
+      "bytes": 5961,
+      "sha256": "337a9c41a0e6da1289f1b8d59bfe48330bbb0d51ca59801d0959388c53cd6e42"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T034.md",
+      "bytes": 5736,
+      "sha256": "940c4fed7e1f9665b83db34df45b2e7444a6929e577ace605861dcfa8c3f6c41"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T035.md",
+      "bytes": 6649,
+      "sha256": "6fa9dee466f6dd9a997405c533d34beb9c203ccd9130924fa921dacb78f31458"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T036.md",
+      "bytes": 5851,
+      "sha256": "2153ceac8cac9be9398ec62972308caf6b38dbc298cd825994ef211384f7d2d4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T037.md",
+      "bytes": 4839,
+      "sha256": "47008e4f8671cc3505b41a94116c8dd54a9903ba8dc856641ec39c0153a42a19"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T038.md",
+      "bytes": 4735,
+      "sha256": "f4a2e3ea7f76097a8a1e9757e8d17a6b30c431380ba9cf5fa45c0b60920b0ac0"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T039.md",
+      "bytes": 4597,
+      "sha256": "4aa1c5c97df587ac83580ce094116ae7a69fc59c3c209c6614051833afaa6c2d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T040.md",
+      "bytes": 7731,
+      "sha256": "3d7abd5b8b3efc0933b1a91362102db5133929208c6ab8dd5de3d2690ec91053"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T041.md",
+      "bytes": 5137,
+      "sha256": "4f717fd8938a07a7523d64dfad577835bf82871e2a92530e98c0fb0d025ce98a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T042.md",
+      "bytes": 5439,
+      "sha256": "1b7ef2a5d903ccae2f18cdb71128024110ffa296f9bda64736169d48dc17ad0e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T043.md",
+      "bytes": 5873,
+      "sha256": "cb0efc30139eb4dcb91b56a1a59717ae7a1e156b87625692b4a4d9eb8237059f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T044.md",
+      "bytes": 6955,
+      "sha256": "2d00b1bdce3f057da00660a47e8601673eb6bb2764f87d75b751e357d6df5cea"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T045.md",
+      "bytes": 5360,
+      "sha256": "39ff6eba18a219e07b4779e31359da6b5db06b22d0f5d26b51e220f531fd6fed"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T046.md",
+      "bytes": 4785,
+      "sha256": "40316f296ddda54dde2edf9bc6ba71d3e609a4fbb911cc4b7f5d7072a6a642db"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T047.md",
+      "bytes": 4747,
+      "sha256": "029c4d4d3dcc9544105f3cc04121277e4370d69542651593a5b4c24079e85419"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T048.md",
+      "bytes": 4707,
+      "sha256": "5b227981e4b38244238d8f5916db30b3c49b42459eec2242c7c073d07a17e04c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T049.md",
+      "bytes": 5140,
+      "sha256": "4482478f890b801dfa2b757b854113b32fa193b579beca5f5d35689236ab5438"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T050.md",
+      "bytes": 4631,
+      "sha256": "5ba5720ea1bcea1b34c0d08b078fcf99b185d1427f98807965ffae5d87985f80"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T051.md",
+      "bytes": 5383,
+      "sha256": "080b0c3aada656e0254202cc16459444038752979227a7e06d7b985c9c796447"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T052.md",
+      "bytes": 5022,
+      "sha256": "fcca7e5e468ac2c7c899798021752a400ba511e203fc4c29b129bbc1f38f74b2"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T053.md",
+      "bytes": 5132,
+      "sha256": "4bb8b032ae726bb1589106370199037e574409202a1f6f38c1d05d8bf3ad7b29"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T054.md",
+      "bytes": 4936,
+      "sha256": "d28ec995a69a719f993c5f52d7e1ed0ca2d613544a6d662972d0a406a09fcaf3"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T055.md",
+      "bytes": 5797,
+      "sha256": "3037463c3fe565add5ea0146dbdda168ec7d5153983351a0208f0436a3fd422b"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T056.md",
+      "bytes": 5972,
+      "sha256": "16767ecda65ef9faecce7a1e553fa573d3c532588e208ddfce9eb1880c593e0d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T057.md",
+      "bytes": 4984,
+      "sha256": "23b8dcebe40f6b986c41be84e5971e505b6319e036fcac01d45499048bf4613d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T058.md",
+      "bytes": 5018,
+      "sha256": "f8c74b3f021322ecfc340c67cc3c84749eed10e31152a3138eeee75e436ce694"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T059.md",
+      "bytes": 4957,
+      "sha256": "021fb60a6a23daeb10b617ebb97ddf77a79a141cf4452a7710c4a9609788117c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T060.md",
+      "bytes": 5427,
+      "sha256": "43580c3c4b62e9cc6691e5b9374cef05dcc67f93ef4b5d90f3d5d70d713c742f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T061.md",
+      "bytes": 5122,
+      "sha256": "999ccf8c876ff428f84b0d4067a667ed38e2df8d53bec3ce38b91aa7e20a1d7f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T062.md",
+      "bytes": 5138,
+      "sha256": "f5008a3ada9551143b508aab44eadab64f6eec8220ec67774a6a3bea4f5cff88"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T063.md",
+      "bytes": 5147,
+      "sha256": "124bea02a6e76679b5e87019ec4712711f85e7cdbeb2ba53195718c829831cc7"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T064.md",
+      "bytes": 5469,
+      "sha256": "1bb65e5018bbbebd3ffab0073d9d7bc5dce2db06e55c656fdcb951ab52fd0413"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T065.md",
+      "bytes": 5211,
+      "sha256": "0c442a76497f42794a4825bd4aad9335a4dd1f7424964f30519a74d5c5180125"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T066.md",
+      "bytes": 5116,
+      "sha256": "7ce5c441c51955bc00539b775a20b363c532ce70142613f56760bb6761a9e83c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T067.md",
+      "bytes": 5059,
+      "sha256": "8d6c8181b8bc1d1aa2db16042bb2471718e46477f42c0354cbd8ba5495846ace"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T068.md",
+      "bytes": 4958,
+      "sha256": "9559608ec8630430c902a8da86bdf132473c38312e69bf9eceb0ae97cdc76c95"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T069.md",
+      "bytes": 4952,
+      "sha256": "f1d57e501e969aceb7531fefba0763152be1eead82a032a659c5ee49c6b4d19f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T070.md",
+      "bytes": 4964,
+      "sha256": "47fb800d0a2e681cce8bdda6f3ea21bfd9bc968b28902b89d2af0f143d2bd422"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T071.md",
+      "bytes": 4904,
+      "sha256": "de90fb64dfba46155d0e270577b64a3c37f69b515ef76bb1bb28aa70f6888f26"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T072.md",
+      "bytes": 5024,
+      "sha256": "b114469fa71d16e25ba75618d50ccbed70b5a807457286a0d8dd064432363833"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T073.md",
+      "bytes": 5736,
+      "sha256": "b85e39985381922960c89824f89faa531da4a8e6a010ef58f2eb945639b69872"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T074.md",
+      "bytes": 5378,
+      "sha256": "d2b0c286da4d159cb08929d4edc8b2c04f4f5ff87d3db81dc89abd1e833966eb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T075.md",
+      "bytes": 5539,
+      "sha256": "2f760a9a5f9ffed4678950516052a8b5e787e4875078a606196bd7e828d18e0d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T076.md",
+      "bytes": 5438,
+      "sha256": "cbc89ec26d0127d281e5dcec79bead1ef4181a46a0ea77b4575cffc8be1a41f4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T077.md",
+      "bytes": 5368,
+      "sha256": "e0d362350219a3abc4cc99f68203c082aa3abc21a5122f6de661421490baceb6"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T078.md",
+      "bytes": 5403,
+      "sha256": "58de595b1d7ddff18c98019964fdac0880e5948785579ebb1d3b7b6d4e91bef7"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T079.md",
+      "bytes": 5363,
+      "sha256": "4a21491731195a7c4dc8f1951b12e45b0eed765f9cbc0cf0ca377d366ab1921f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T080.md",
+      "bytes": 5353,
+      "sha256": "1f22fa8c10426e72a17e0dfb74d1986f3904c3599c3fd5ddc001b7df5f98b331"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T081.md",
+      "bytes": 5403,
+      "sha256": "1fc51e02dbc77eecb77258d0dcac66a86641caf8a58e4e97d1112827a3695adb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T082.md",
+      "bytes": 5353,
+      "sha256": "853836f8ffc96c30cd9a63719b521dea976bd21a8c936cc2e86703b742dc6b2a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T083.md",
+      "bytes": 5373,
+      "sha256": "54ee87053416e83f4c25b507ae685507a4795882b1c7a04d0ea37e9638933d24"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T084.md",
+      "bytes": 5438,
+      "sha256": "8a96f0fb5271fb63fc03ec24af27223b0b7ec95fe815e043d26088a74d432a8b"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T085.md",
+      "bytes": 5368,
+      "sha256": "6e4af4aab748ce83ea21e96caee43bbc43fe97a202f71900c294e3b6c0c2b47b"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T086.md",
+      "bytes": 5368,
+      "sha256": "17962cffeaf1e3747491e91ee5758c2c1ecb9c5bb43871730615276219a1ea4b"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T087.md",
+      "bytes": 5901,
+      "sha256": "41e5d173419f464bb8fa6e6e1baf529cb9f8f45b97e431b0aafa3aaea6997bdd"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T088.md",
+      "bytes": 5182,
+      "sha256": "fd2eae44b3eefcafc6d22edf42fb87a67b362a0d967bf968332f2162cef95a96"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T089.md",
+      "bytes": 5736,
+      "sha256": "91639f0e7df5f3ffcc5dce06886a8e6778de4af6812283666c4e6b1396bc38fe"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T090.md",
+      "bytes": 5363,
+      "sha256": "ad469040e87bc9d4e3416fe1e50c2b27ab7ba0e33e8fcff1bf628e2140116213"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T091.md",
+      "bytes": 5403,
+      "sha256": "b4cda82560a00eea25064990ac5ef5a8e6ceefa63edf4956ce417c8b2a995ef6"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T092.md",
+      "bytes": 5393,
+      "sha256": "1dd86b47fabdd9f250d1e25a4cc3f85ff75104ba06104f75b39d7c84578cc571"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T093.md",
+      "bytes": 5363,
+      "sha256": "b2dff9576ec213c18c4dda430d195dac9421913cf8e29c371788c1efa0d440fc"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T094.md",
+      "bytes": 5383,
+      "sha256": "0e6122be6976a1999829df835d80116b01d8be4fb568f946e054cce3c3c2a16e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T095.md",
+      "bytes": 5388,
+      "sha256": "e50953faee56e20c5a32f371157894ac1ceda9db035a08e781ef9ab913255744"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T096.md",
+      "bytes": 5368,
+      "sha256": "a0c6290139de3d70e0aa7e418ca96f062a65a79ae856fe7a220ffec0a633a62c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T097.md",
+      "bytes": 5398,
+      "sha256": "0a769b1071553b8f543adc78b5bd36b2608a4b200f9029735e92004fa140486e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T098.md",
+      "bytes": 5413,
+      "sha256": "bdd9c026e52750c0997ddf3382e92af3aafc76af6f3e1f552182fa18be39c692"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T099.md",
+      "bytes": 5393,
+      "sha256": "edc00b48a88e08716334b5a96f3b4d9c56d016acd5e813e6ed107ea2e1606861"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T100.md",
+      "bytes": 5418,
+      "sha256": "dbc0a0e55a94a57a275262b968d9f9d66d29ec93a52debeeaebff9cf67e6ebf9"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T101.md",
+      "bytes": 5855,
+      "sha256": "a3d7bd99ec280db9a3e0c3bf6d4360ce064adeccb00de906db4e0e9bedde1b1f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T102.md",
+      "bytes": 5182,
+      "sha256": "a374b1b496de1631c49026497d18f01e436b71cda646a649cb2b9c0596e0124d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T103.md",
+      "bytes": 5736,
+      "sha256": "45726d0af4f2b166d8c66a1626702b38aa79b064a2a093880789dd6b7fe6ea35"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T104.md",
+      "bytes": 5378,
+      "sha256": "f57617f1eda2a12ce5d5402b168ac2b4090c614abceb638a896b74907e99bf6a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T105.md",
+      "bytes": 5393,
+      "sha256": "f162d2b551f89952f1bbfbe3273209ef2dd4fac349bde3c8b7e2b98bf2ce3fa4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T106.md",
+      "bytes": 5398,
+      "sha256": "f61478851e6c9c38a305cc70853dbc466fa6df2dd55792ad634ae01b1f569836"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T107.md",
+      "bytes": 5383,
+      "sha256": "8f710c31e8512bb163fed4d462b1d5a11235f2423ca2681d3ff0cd95d73bc9ca"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T108.md",
+      "bytes": 5398,
+      "sha256": "c66f9a005a6b17b3a3dfde1de360311c285eb4a1eb465bd2cd74bda6207d4def"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T109.md",
+      "bytes": 5368,
+      "sha256": "1af363c9c02086fda6a8f368c125f6f7a138e0e5b9cba73969e7c46746de40dd"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T110.md",
+      "bytes": 5378,
+      "sha256": "741d84f0f0cc1762a984ceb2b42ba735f27001c98fd71095812c8cc0cda4e95d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T111.md",
+      "bytes": 5438,
+      "sha256": "fcd6bd8b78fb14d37bdd9531fc4bcb9f4c7166573a7cf8bd6e48bdaf0c9c50ef"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T112.md",
+      "bytes": 5378,
+      "sha256": "a1ef362b16cd9ff83048710068321170efe8359993c9c0bb9cb6c75dd26ee9b6"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T113.md",
+      "bytes": 5438,
+      "sha256": "ad0bd612d372744f89ac71d2a05bb38f244f5088290d44b9d5a6b2c436860a9b"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T114.md",
+      "bytes": 5832,
+      "sha256": "2d1f0e37077fefaede5c7d190583ec830536df80ebb02568d8555b5cec839f4f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T115.md",
+      "bytes": 5182,
+      "sha256": "d3ab56f17a3133d552d821213c98b06ceafa79315c7612454d754b4709103f62"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T116.md",
+      "bytes": 5736,
+      "sha256": "9d619b200f6b77fac58a5f2aae709f0cb00f60c0911bc15d74f9884e4a8081e0"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T117.md",
+      "bytes": 5438,
+      "sha256": "4970eeec6a15e2456391d9f050b0182cdb6bd73d53349c9b9fac91f9d330e84a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T118.md",
+      "bytes": 5383,
+      "sha256": "3ecab97f2400d31cf5fa3e75ec230374676d2ffbd88ee9b96d17f3f37a109535"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T119.md",
+      "bytes": 5358,
+      "sha256": "99adf06696d0faa7b0a74f98900eb21ed86bd203f6df1aa9c64e5d35694c6d48"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T120.md",
+      "bytes": 5398,
+      "sha256": "12a668d1bc266adfcfb5ebd857361acf9824abda20eda4a645e80652c2b628cd"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T121.md",
+      "bytes": 5383,
+      "sha256": "67598f79a3c628d1844be6ce264b1085bf0b1e0e255c8cd7f867ac447db55d2d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T122.md",
+      "bytes": 5363,
+      "sha256": "9b0fae0cf9b769e669493c7019b04ddf8bb3bc1335dc10bc3c1912882810022c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T123.md",
+      "bytes": 5388,
+      "sha256": "0f8bd26d98cd871c49232bb9c500fbbb8e5fad6194a182882c62d9ca51e474b8"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T124.md",
+      "bytes": 5398,
+      "sha256": "3e9c188047acb656400708bafd1cf46be8e74cfa96eb15dceb593f15737df933"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T125.md",
+      "bytes": 5388,
+      "sha256": "2de8eb25826ff0b331d5b21b324f3d843fdb743b6d57c4a414d05299105e4843"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T126.md",
+      "bytes": 5398,
+      "sha256": "68755398ab443ee2ed19c4b04087dd103dc9213b5a905e5edcb09d77cfbc2195"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T127.md",
+      "bytes": 5832,
+      "sha256": "819d16d0d4de25902cc66583b1a2df078849b9baef7609787e6971d54c996d3a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T128.md",
+      "bytes": 5182,
+      "sha256": "de627dd67830e43a179e583bee13108d10a2f969dc52f8210465330238e7e2b1"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T129.md",
+      "bytes": 5738,
+      "sha256": "9fbf549141ebf5fb132dbf172ef0cff199b03c2187272608c39bc029dbbab45c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T130.md",
+      "bytes": 5375,
+      "sha256": "81b1eb2dbcd0ddf091d8d6af7fa9e4133173b1303171f9f94bdadf1448524a04"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T131.md",
+      "bytes": 5375,
+      "sha256": "3541b13b9408b161b1bc94948e13bcc9a0d86a1c50e11a0b7742320004e70f3e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T132.md",
+      "bytes": 5440,
+      "sha256": "9f00a095ddfcf11cc34aa7a96f143fe28fdaee57ec38232e7b78eed52288768f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T133.md",
+      "bytes": 5415,
+      "sha256": "3a09893bebc5e0ef26ff4d71a20965e972a8437e676ae3d34934a1d615f585af"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T134.md",
+      "bytes": 5365,
+      "sha256": "88da5edc88c12b2beb761ed008ba3fae9c3b817d521d871878136d93055bb9b9"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T135.md",
+      "bytes": 5490,
+      "sha256": "8309d682d72afabf734274678367bb09f6c6ed316e7bafe9b3695a67bc065620"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T136.md",
+      "bytes": 5425,
+      "sha256": "7428229ff6fbbf6254953bc3d4bc69fce3dd95e047d3b00c25855f0f37ecd9a8"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T137.md",
+      "bytes": 5475,
+      "sha256": "b7186eb1d5d3ab8f54448a144857e91782180f51d026f265f6fbb43185bd4bc4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T138.md",
+      "bytes": 5788,
+      "sha256": "155b598b5a3410aa9b2cdcbaef58340148a26903ee7d8a5a2d79479c31fc0384"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T139.md",
+      "bytes": 5184,
+      "sha256": "4419e00b4ea991409deab761338f012416a17abf38c334521aabca0a302b9df5"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T140.md",
+      "bytes": 5738,
+      "sha256": "6a96943ec439d2bfc51ecbef6f9b73516d9498f4bdf2e0c9e2e73e0a728965da"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T141.md",
+      "bytes": 5405,
+      "sha256": "abdf6c68b16b1db11f15daeef16b63430e37270d7b93af929b60bd48d708a799"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T142.md",
+      "bytes": 5460,
+      "sha256": "4e0d97f3b20404cfbabf7f93c033d53a63a7ace2e4fb9e3d7de946378a35d4b3"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T143.md",
+      "bytes": 5435,
+      "sha256": "1b18c3827eb67d4c8595e402afea629dbd9a3f655eee56508dcfb8034f6afa76"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T144.md",
+      "bytes": 5430,
+      "sha256": "5598b4a0f5419e938678c9e0c37192d8af5b66204836d8563312342fc32d9ffa"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T145.md",
+      "bytes": 5505,
+      "sha256": "8e257a1a80f8b0d72127d27065f651b59b762b662eeff1dc9b3696963e49198d"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T146.md",
+      "bytes": 5719,
+      "sha256": "4db30158b45c5eee1aaeac4744a0cad365bc25a43da72c4a0847996764abcbda"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T147.md",
+      "bytes": 5184,
+      "sha256": "bd2d3283aa607e2dad1b1d122b4906084b0c00e861db13d0510d53d3e4c16c22"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T148.md",
+      "bytes": 5817,
+      "sha256": "a0917faa0e0b3ce180880813e1a21d38260a8bd4d469acd53b17cef5162492c4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T149.md",
+      "bytes": 5384,
+      "sha256": "2fbbc0166257f6141994a6c739f291b53eb98b7ea9e5c2b3d4a1c2217e5b338e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T150.md",
+      "bytes": 5420,
+      "sha256": "178a16b1bf9de4d3c34654ea86284d7be7a23a6f26006c83e153b31f3bbe48c4"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T151.md",
+      "bytes": 5306,
+      "sha256": "5d5646c272ce04477fe37685e2366f9ca16b6a5d579f93eb5711ecc05b6d2774"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T152.md",
+      "bytes": 5339,
+      "sha256": "954bb0e0115443b0bc7647c473c09b2b3103b32ad2ee570656e01f5e30822d9a"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T153.md",
+      "bytes": 5382,
+      "sha256": "0278db423707f1d09ef23d422bdd9904c87f1c973154833179dc206d09cdf615"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T154.md",
+      "bytes": 5756,
+      "sha256": "b454ba9b2ce2b2645f8271b9632ab24461f8e49b53061375ecbf52a005ec1f0e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T155.md",
+      "bytes": 5384,
+      "sha256": "78d86be83b4bd1eab8621dbdda11c71edd7b50bf400384d89faebe2e1e1228de"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T156.md",
+      "bytes": 5377,
+      "sha256": "43979f9a9cf59a0a3093e62599c43dd65f0703c75de8d4d740e029a302a9a2d5"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T157.md",
+      "bytes": 5382,
+      "sha256": "02ce488d981fd27c95f6f13b4c67189b8b84cd51b2562463432a3271abe38bf7"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T158.md",
+      "bytes": 6043,
+      "sha256": "69bbb433670d33916a2a14ee8c21a980b1b037b3331df2ef3b9b403ccbc225b1"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T159.md",
+      "bytes": 5859,
+      "sha256": "156f6bec7404faede73a1030d82adcb899f0154479cb6e52fab6863e23e61cd1"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T160.md",
+      "bytes": 5294,
+      "sha256": "cd23e27a0bfed131b80ebf646154f4efe0e9ced60cd27683b7411dee1189cceb"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T161.md",
+      "bytes": 5279,
+      "sha256": "830146033c0f4103be43134cb2cbb9880c063ebecc15229537f74c6ef4add94e"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T162.md",
+      "bytes": 5228,
+      "sha256": "ec19d14a3c349773218487888085441a056dc8be2f4131ef73eb1002472e60c0"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T163.md",
+      "bytes": 4712,
+      "sha256": "659b3a56b834e9c644e4817e15a691d262e3a4525d9f0bf53d5c54bedf407219"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T164.md",
+      "bytes": 4687,
+      "sha256": "9f0bdff4f475f0d0b09fad87c896e9bebc57c0d82cfe86fdcbcc3a0a52788ad6"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T165.md",
+      "bytes": 4543,
+      "sha256": "e5fa7c781de3ccc1353c51af6819f9745c08542e6f2c90632abfa417f005ae7f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T166.md",
+      "bytes": 4659,
+      "sha256": "9d1c131cc28b06f994b530373d638e3a3f506907b6c9d5a24f8f9cf48154fdbd"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T167.md",
+      "bytes": 4921,
+      "sha256": "2c00cb04969a937a0fd5b61595a526612c592b1ce4976391a49ea39a59cb09d1"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T168.md",
+      "bytes": 4652,
+      "sha256": "d9f89f0d7f09041309801e295044f846121c57abc2b78ffbf4ba6a8788ead526"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T169.md",
+      "bytes": 4621,
+      "sha256": "902a2bd563cb10775cc0ae3c9d6ad92e790fa4820e9b6a47dceb6ad2f1ae5fb3"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T170.md",
+      "bytes": 5331,
+      "sha256": "a913b462c6edd078ca3bbcd4957d66130e1850fa878d942aa8348fbbb680e439"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T171.md",
+      "bytes": 5415,
+      "sha256": "f7d2cda16d6b5df133809502def77836681d4bfbd2c28500a7f3bce3a27f3aac"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T172.md",
+      "bytes": 5355,
+      "sha256": "08e470752debe80c7962b9408635b03d27f5fa34e53f96e898938e4331ea0c23"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T173.md",
+      "bytes": 5027,
+      "sha256": "6ac0aa4d0dffcd774ab4494904781bcdf674cb9a7def784804942f9a62a2084f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T174.md",
+      "bytes": 5069,
+      "sha256": "f7e8e5da306247cf7e2ccdb3d4ec184e1ce7ca930dd45146e5ea8de6b08140a6"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T175.md",
+      "bytes": 5048,
+      "sha256": "e3e4c94105ab9398e9a967a49b447ebb8619e98980f38ab4c0f1bf4a42eb7f53"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T176.md",
+      "bytes": 5043,
+      "sha256": "75653753b48a8b27c8bba75a3e14184679f42f1561659bd63f1525a361212a28"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T177.md",
+      "bytes": 4808,
+      "sha256": "007d5f9a65879f42a2a0e5054619adb5a6850b92e94cb6da36de31b453076126"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T178.md",
+      "bytes": 4734,
+      "sha256": "f37718cc7e77bb7a0ea07e799e5908817e615bb0aef98563330f7b3613a0c28c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T179.md",
+      "bytes": 5075,
+      "sha256": "9ad2d333ce67a18e1edf82dc77a25b3c204f218b535c334516d71fa599a9638c"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T180.md",
+      "bytes": 5177,
+      "sha256": "73a847c5625dd46a523890be0b01bb32ab3455a5a14097d36f296e0bfd0c58cc"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T181.md",
+      "bytes": 4630,
+      "sha256": "1381867b526adde0127bee5008ec7f4c836e98365fc9ec173157c2961e50e382"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T182.md",
+      "bytes": 5389,
+      "sha256": "ef7f03fe23fb4ab274aa102364c24f4947a327f8987958acd08d4f30171932df"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T183.md",
+      "bytes": 5890,
+      "sha256": "fb82b445d756774914061723a0bb4bc991756cf9af5d1cb313b331269928a09f"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T184.md",
+      "bytes": 5443,
+      "sha256": "af8fa8ab29801d37ecc414a4f67aa951240d08c4ad2669f4a305c62e4a3f8776"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T185.md",
+      "bytes": 5668,
+      "sha256": "5c496e0ba6177167d9656d2c8ee2d92cc66be85f72815172437a63a771250270"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T186.md",
+      "bytes": 5732,
+      "sha256": "2e1408397708385925fc661ce2d973674b41b76003e3790a4d1ee29a83dc4a81"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T187.md",
+      "bytes": 5705,
+      "sha256": "f6d1ee5a8ab26aa3dfd57f932cdd8b636ecef9f3812ed1a7e08b0edccb57ac32"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T188.md",
+      "bytes": 5762,
+      "sha256": "1c0cfe3596ca12ea5f099f130e3b1a6c2192797eeb735728585b7cd97f2ff3ec"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T189.md",
+      "bytes": 5801,
+      "sha256": "6d73bd67a7b2e3e27352a202a5825c1d95c834d027e2271688e584867f8124f8"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T190.md",
+      "bytes": 5790,
+      "sha256": "b1b8b2897b361965b9d922b58755729037bdef793196e4b40cabc4ee3808ffff"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T191.md",
+      "bytes": 5831,
+      "sha256": "90d0aa8d50648cee6b851763d353aab537eb19e2ec9d8cc9b0c0dac7e8b07263"
+    },
+    {
+      "path": "docs/development-plan/tickets/SC-T192.md",
+      "bytes": 5591,
+      "sha256": "ee3cfcbd0018a27a3179261f6eb52e59699666c4f3dd740c1b61b5dd7bded174"
+    },
+    {
+      "path": "docs/diagrams/README.md",
+      "bytes": 562,
+      "sha256": "03377caacfc8e4989ebb03e345d7d53d6b19346a7e978c1337538eedc3c40ab8"
+    },
+    {
+      "path": "docs/diagrams/context-diagram.md",
+      "bytes": 803,
+      "sha256": "8ddf6a4f570dd7fb5ae0e38d87fb4e47a849c731ce75a9bb916736c672ddd3dc"
+    },
+    {
+      "path": "docs/diagrams/data-flow.md",
+      "bytes": 1262,
+      "sha256": "b5f0e8d63c7824c021d8ae0cde899f15042210fb087344e2668e7866e29c1d22"
+    },
+    {
+      "path": "docs/diagrams/entity-relationship.md",
+      "bytes": 1164,
+      "sha256": "14b75e41a861c6bcfac53f48c36d5ef0b694f52e3559a647d6d62f11af73c6b6"
+    },
+    {
+      "path": "docs/diagrams/user-flow.md",
+      "bytes": 3580,
+      "sha256": "9546a41bb64a2789845b9f0b5e5f2318ba37d62ce3a96849666f596de20c3329"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "bytes": 3762,
+      "sha256": "35fbd6e97e1f574c2a1c85483dae62808ac48583c75d1774fd39730649de3326"
+    },
+    {
+      "path": "docs/guidelines/ai-structure-guidelines.md",
+      "bytes": 1869,
+      "sha256": "77db663c0e3d04190e5904c81b21ce4b0084ae97a7384a18b223da12d8f155b0"
+    },
+    {
+      "path": "docs/product-specification/achievement-catalog.md",
+      "bytes": 33036,
+      "sha256": "47a26cf5f84a0984dcabd44f29db25db7ad4bc0c382757468daea1d5875c9983"
+    },
+    {
+      "path": "docs/product-specification/achievement-visual-design.md",
+      "bytes": 22687,
+      "sha256": "6bdfa58dac78ef881ddfa11fc56c46b4c905c8747833a4a5d0b7765dc9093ab8"
+    },
+    {
+      "path": "docs/product-specification/achievement-visual-proposal-v1.prompt.md",
+      "bytes": 4860,
+      "sha256": "709fc37388558840a299eaf3d157e86cf8a8199d8e3f6ab67ce1e958e95f3353"
+    },
+    {
+      "path": "docs/product-specification/celebrations-badges-and-rewards.md",
+      "bytes": 12250,
+      "sha256": "a8d40d2ec7769cd31c8a85de6a1a2c80d8e9ce2c5dca2cd1b759380478c5732b"
+    },
+    {
+      "path": "docs/product-specification/communication-training.md",
+      "bytes": 16137,
+      "sha256": "a09d562ab87ff367ad9c1c77996cd06a67ac5ca803d5961ded685ea242554d4c"
+    },
+    {
+      "path": "docs/product-specification/curriculum-publication-readiness.md",
+      "bytes": 10402,
+      "sha256": "97186295c65c1cf438d49a8db997d7611eeac070d59b16167ac007be25192d4e"
+    },
+    {
+      "path": "docs/product-specification/english-curriculum.md",
+      "bytes": 22476,
+      "sha256": "00045a3b95c10ec5e95eecd8133845b9eb2f70428af80bc86d5c60cb4e5fd20e"
+    },
+    {
+      "path": "docs/product-specification/english-foundations.md",
+      "bytes": 14618,
+      "sha256": "ba5d3ede81ed32dd9262e0f358e11252eaa0a6683ada098c7e9d7be746bff7ec"
+    },
+    {
+      "path": "docs/product-specification/figma-design-review.md",
+      "bytes": 20207,
+      "sha256": "e5da2ac91fe060dea3d3d225a897024857448788a150c014f85b2bd01c6a29db"
+    },
+    {
+      "path": "docs/product-specification/first-flow-design-readiness.md",
+      "bytes": 14327,
+      "sha256": "e3bb0ab88ca7eb0762c4c0af659078eead3e30ca271aa6655527382e1ff2a372"
+    },
+    {
+      "path": "docs/product-specification/introductions-learning-loop.md",
+      "bytes": 14054,
+      "sha256": "402a3c0fa1db4b01bbc2ecbe3166db16d9aac28381f33ffe5f81a0b0acdd9a26"
+    },
+    {
+      "path": "docs/product-specification/learning-path-and-practice.md",
+      "bytes": 6842,
+      "sha256": "27c92163d013a375ea6a4b3d3fd47883e6d4d11574f2a71cb75ef5987c6e639c"
+    },
+    {
+      "path": "docs/product-specification/product-specification.md",
+      "bytes": 27544,
+      "sha256": "ac346d253e3070d889c5b6e8b8fb380addb22c7ee6eab2be330fb0db9c4efa3e"
+    },
+    {
+      "path": "docs/product-specification/specialized-trainers.md",
+      "bytes": 13719,
+      "sha256": "31f1acf614058155f558b31825b02f8e81e69c076ceb491b803ef1b3e1bff24b"
+    },
+    {
+      "path": "docs/product-specification/ui-reference-guide.md",
+      "bytes": 17668,
+      "sha256": "cf203f0b00f99f877c0faa2447d4de9c5b5604ec32ae4284a7bee6f39a47541b"
+    },
+    {
+      "path": "docs/product-specification/ui-screen-state-inventory.md",
+      "bytes": 38322,
+      "sha256": "7dfed8c1c688859a397279cd37ba2188d4d2830b93d3e41684256efcd0da1254"
+    },
+    {
+      "path": "docs/product-specification/ui-ux-design.md",
+      "bytes": 26408,
+      "sha256": "30d4c5cd164c195b97373faee9f8015c5825b0c65b58c4430499305ec59542ec"
+    },
+    {
+      "path": "docs/product-specification/ui-ux-interview-audit.md",
+      "bytes": 25178,
+      "sha256": "4754118ff3a54abe8327013718bd9dfaa1e354dd8f39bdea8260bacbd0e5f7f5"
+    },
+    {
+      "path": "docs/project-structure/project-structure.md",
+      "bytes": 5611,
+      "sha256": "9574b475dd44ab2b1c53009bc377163b89d2acf8a2c6090efe8fc0ac1b477a9b"
+    },
+    {
+      "path": "docs/tdd/tdd.md",
+      "bytes": 53226,
+      "sha256": "c22c61821161a5f805cb8449fbf694aac0dfad224e19514c8fca4f7cb28fbff8"
+    },
+    {
+      "path": "docs/testing/course-practice-and-rewards-acceptance.md",
+      "bytes": 9820,
+      "sha256": "5e5872593be8b60510c99a8e60cedc235d313d9ab44d03a9b7550cd401736377"
+    },
+    {
+      "path": "docs/testing/english-foundations-acceptance.md",
+      "bytes": 4483,
+      "sha256": "0cb9e9250042d110ccdfa0afa7adcc6a8abf9d28cb14398d5024348b61b5d1a4"
+    },
+    {
+      "path": "docs/testing/introductions-learning-acceptance.md",
+      "bytes": 10343,
+      "sha256": "6e473fe8c456a172a85ed2d4e72dbca9a6def916d884cd870c796ea2ba3e81cf"
+    },
+    {
+      "path": "docs/testing/recorded-feedback-acceptance.md",
+      "bytes": 9219,
+      "sha256": "5c4c4b214554d2f99e01edb513c95970ae6e42719d28f0951790211f3f668f87"
+    },
+    {
+      "path": "docs/testing/specialized-trainer-acceptance.md",
+      "bytes": 5838,
+      "sha256": "6ec9623f5d42c6d6b999b24a13334565b2937d5dc4732d854682221d31a5702c"
+    },
+    {
+      "path": "docs/testing/test-specification.md",
+      "bytes": 16730,
+      "sha256": "1be72ad4d2b7b5bb966f3ea466e32f7e94c9121a75f5cb87789ccf31f4b58435"
+    }
+  ],
+  "limits": [
+    "No app/runtime, device, live-provider, qualified-review, new visual/rights or learner execution",
+    "No external provider-document refresh; current account/capability check remains required before activation",
+    "Planning audit does not guarantee zero future defects or approve pending choices"
+  ],
+  "productExecution": "NOT_RUN"
+}

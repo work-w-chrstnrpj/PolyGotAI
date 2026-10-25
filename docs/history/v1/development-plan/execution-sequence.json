@@ -1,0 +1,5937 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "purpose": "Preferred serial implementation order; exact tickets own current status and evidence. No scheduler created.",
+  "execution_enabled": true,
+  "authorization_source": "Owner instruction 2026-10-21: Start implementation based on the sequence we derive.",
+  "default_concurrency": 1,
+  "source_authority": "Exact tickets and approved product/technical contracts; manifest is a derived dispatch view",
+  "counts": {
+    "tracked": 192,
+    "already_done": 11,
+    "queued": 181,
+    "queued_executable_tickets": 159,
+    "queued_group_closures": 22
+  },
+  "completed_baseline": [
+    {
+      "ticket": "SC-T001",
+      "title": "Define first-proof scope and completion rules",
+      "path": "docs/development-plan/tickets/SC-T001.md",
+      "type": "decision",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [],
+      "parent": null,
+      "source_sha256": "2e656510e0c5fa5917da41ae6add23a6855c712ca28cd63112eaa88a69e2ec7f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": []
+    },
+    {
+      "ticket": "SC-T002",
+      "title": "Select native architecture and repeatable tooling",
+      "path": "docs/development-plan/tickets/SC-T002.md",
+      "type": "decision",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "4629d2f101ded7e7a93232237f7b2a9b868fd9f91daa45804a307f9316297574",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ]
+    },
+    {
+      "ticket": "SC-T003",
+      "title": "Investigate provider and credential transport feasibility",
+      "path": "docs/development-plan/tickets/SC-T003.md",
+      "type": "investigation",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "36d69230df492699436753a345855b839b9b64a7497ff2b04cf16df625eeb31f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ]
+    },
+    {
+      "ticket": "SC-T004",
+      "title": "Reconcile retention deletion and recovery contracts",
+      "path": "docs/development-plan/tickets/SC-T004.md",
+      "type": "decision",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "ac633ed18050b1d01c3ae79f61af8a8ca9834548ea747cc15fe8798646f5f7ae",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ]
+    },
+    {
+      "ticket": "SC-T005",
+      "title": "Specify offline curriculum delivery and versioning",
+      "path": "docs/development-plan/tickets/SC-T005.md",
+      "type": "decision",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "95becd46c7738171c216b23598d192cfd94d7d8c6167e599299136fd497935c5",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ]
+    },
+    {
+      "ticket": "SC-T006",
+      "title": "Define curriculum publication and level-completeness gates",
+      "path": "docs/development-plan/tickets/SC-T006.md",
+      "type": "decision",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "3f171cc6cc329067ef46f5404149daf5bbf05341588868c5b50bdecb8b1ecd68",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ],
+      "order": 11,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T007",
+      "title": "Review first-flow UI and native adaptation readiness",
+      "path": "docs/development-plan/tickets/SC-T007.md",
+      "type": "design",
+      "status_snapshot": "done",
+      "milestone": "M0",
+      "dependencies": [
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "043a95f5086ff7ce6c73568a0175845ec47525e0b3415cafb7e00c29854cf0e3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001"
+      ]
+    },
+    {
+      "ticket": "SC-T008",
+      "title": "Create runnable native project and verification commands",
+      "path": "docs/development-plan/tickets/SC-T008.md",
+      "type": "implementation",
+      "status_snapshot": "done",
+      "milestone": "M1",
+      "dependencies": [
+        "SC-T002"
+      ],
+      "parent": null,
+      "source_sha256": "9eec6a088ecfb3673cc3281dd5745da0a4afa24ab4fb38ca1716840983d319f1",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T002"
+      ],
+      "order": 1,
+      "stage": "foundation",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "physical_signing_distribution"
+      ]
+    },
+    {
+      "ticket": "SC-T009",
+      "title": "Implement local state and recovery foundation",
+      "path": "docs/development-plan/tickets/SC-T009.md",
+      "type": "implementation",
+      "status_snapshot": "done",
+      "milestone": "M1",
+      "dependencies": [
+        "SC-T008",
+        "SC-T004"
+      ],
+      "parent": null,
+      "source_sha256": "060ccaba57650f8611f68518cacbfd8884a0294b8abf3903b707a8bbf0176a33",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T008",
+        "SC-T004"
+      ],
+      "order": 2,
+      "stage": "foundation",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T010",
+      "title": "Implement adaptive navigation and local preferences",
+      "path": "docs/development-plan/tickets/SC-T010.md",
+      "type": "implementation",
+      "status_snapshot": "done",
+      "milestone": "M1",
+      "dependencies": [
+        "SC-T008",
+        "SC-T009",
+        "SC-T007"
+      ],
+      "parent": null,
+      "source_sha256": "012778addfcf78fc61f323e63c13c841ed7aa9e150d9d07197f79cda4ebc781f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T008",
+        "SC-T009",
+        "SC-T007"
+      ],
+      "order": 3,
+      "stage": "foundation",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T045",
+      "title": "Produce the 68 adopted award-family raster masters",
+      "path": "docs/development-plan/tickets/SC-T045.md",
+      "type": "asset production",
+      "status_snapshot": "done",
+      "milestone": "M4",
+      "dependencies": [],
+      "parent": null,
+      "source_sha256": "39ff6eba18a219e07b4779e31359da6b5db06b22d0f5d26b51e220f531fd6fed",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": []
+    }
+  ],
+  "gate_policies": {
+    "owner_start": "Owner explicitly started implementation on 2026-10-21 in the conversation. Execute bounded tickets within approved scope; this manifest does not itself authorize external actions, signing/account changes, provider calls or publishing.",
+    "dependency_and_scope": "Re-read exact ticket and referenced contracts before activation; require all requires_done outcomes with actual evidence. Reconcile statuses from progress.md and ticket files. Dependency/type/membership/scope changes invalidate the affected ordering; repair the plan before continuing, without reopening unchanged approved decisions.",
+    "completion_evidence": "One scoped ticket at a time by default. Record actual files/artifacts, relevant checks, sanitized evidence, limitations and required reviewer/owner/device acceptance; synchronize ticket/progress/milestone/feature status. Never mark done from generated output or a command exit alone. Resume interrupted work from verified evidence; no silent duplicate submissions, credits or resets.",
+    "group_closure": "A delivery group is a closure audit, never one implementation assignment. Require all named dependencies, every required child AND the parent original acceptance criteria; verify compatible versions and outstanding blockers. Child completion alone cannot auto-close the parent. Do not make a child depend on its own parent.",
+    "unapproved_choices": "Use approved decisions without asking again. Implementer resolves routine engineering choices inside scope; ask only for genuinely unapproved material product choices listed in readiness-review.md. Hold affected work until required answers arrive. Do not silently choose defaults or expand scope.",
+    "qualified_review_and_rights": "Draft preparation may proceed under approved scope, but required qualified content/rubric/descriptor/rights review must be actual before reviewed publication/pilot or ticket closure. SC-T006 currently blocked: no reviewer. AI/owner product review is not educator review.",
+    "real_acceptance": "Run the exact applicable acceptance on identified builds/content/devices/providers; fixtures/static docs cannot replace mandatory physical/provider/owner/qualified evidence. Record missing evidence as NOT_RUN/BLOCKED and leave the affected gate open.",
+    "live_provider": "Provisional local/fixture engineering may proceed after owner development start. Before each applicable real call verify current account terms/native permission, host/model access, allowance/expiry/effective Free Quota Only, disclosure/consent and request scope. No credentials in docs/logs, no automatic paid retry, account change, backend or fallback. Reuse valid evidence; never invent live success.",
+    "learner_evidence": "Freeze prospective protocol/rubric/support and obtain required consent/review before baseline. Honor actual day-7/day-28 windows and missing evidence; do not sleep/poll continuously, compress time or synthesize results. SC-T043 requires an actual owner/educator expansion decision before SC-T063/026; completion alone cannot authorize expansion. Reuse unchanged valid evidence where allowed.",
+    "physical_signing_distribution": "Simulator/domain work does not require a separately approved setup-review round. Confirm signing identity and device access before signed installation. Existing scope/owner rules apply to credentials/signing/account changes. No Git initialization, destructive replacement, TestFlight/store publishing or release solely from this queue."
+  },
+  "dispatch": {
+    "priority": "Lowest order among eligible queued items; order is preference, requires_done and gates are mandatory",
+    "eligibility": "Owner start/scope permits work; current dependencies actually done; no unresolved gate for that action. A snapshot pending/blocked state is not permission. Partial authorized work can run but cannot close without full acceptance.",
+    "blocked_item": "Record specific blocker and stop its branch. Continue another eligible item inside authorized scope; do not treat blocked work as done or skip prerequisites. If none exists, yield once with consolidated blockers and next real condition.",
+    "waiting": "Do not create recurring jobs, message other chats, spawn agents or make external changes from this file. A scheduler is separately configured by the user. No waiting loop for learner/reviewer/hardware evidence.",
+    "parallelism": "Default serial. Parallel work is optional only with explicit coordination, satisfied prerequisites and separate source ownership/isolation; shared file writes and evidence gates must remain coordinated.",
+    "gate_evaluation": "Ticket gate_policy_refs are minimum review hints, not an exhaustive whitelist. action_level_gate_policies apply to every matching action, including optional typed feedback and later voice/generation. Unknown required evidence is unsatisfied; do not auto-close or auto-authorize. Exact acceptance remains authoritative."
+  },
+  "stages": [
+    {
+      "id": "foundation",
+      "label": "1 \u00b7 Native foundation and offline recording",
+      "queue_orders": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "speaking_proof",
+      "label": "2 \u00b7 Speaking feedback and history proof",
+      "queue_orders": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "first_topic",
+      "label": "3 \u00b7 Qualified first topic and learning proof",
+      "queue_orders": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "daily_loop",
+      "label": "4 \u00b7 Vocabulary, daily focus and rewards",
+      "queue_orders": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "id": "small_course",
+      "label": "5 \u00b7 Small course, evaluation and stabilization",
+      "queue_orders": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "id": "full_curriculum",
+      "label": "6 \u00b7 Complete A1\u2013C2 curriculum",
+      "queue_orders": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ]
+    },
+    {
+      "id": "expanded_practice",
+      "label": "7 \u00b7 Adopted expanded practice and seven trainers",
+      "queue_orders": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "id": "release",
+      "label": "8 \u00b7 Full release verification and handoff",
+      "queue_orders": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ]
+    }
+  ],
+  "queue": [
+    {
+      "ticket": "SC-T011",
+      "title": "Record replay and retry an introduction offline",
+      "path": "docs/development-plan/tickets/SC-T011.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T009",
+        "SC-T010"
+      ],
+      "parent": null,
+      "source_sha256": "d35528758bad00077a3c72340e83e95e1a8fe8ace6d90072520cba02577c07f3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T009",
+        "SC-T010"
+      ],
+      "order": 4,
+      "stage": "foundation",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T012",
+      "title": "Implement BYOK setup and authorized requests",
+      "path": "docs/development-plan/tickets/SC-T012.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T003",
+        "SC-T008",
+        "SC-T010"
+      ],
+      "parent": null,
+      "source_sha256": "1320e1e71055704d42252478e477da06a69811cd690f2c7a2586a6986cc889eb",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T003",
+        "SC-T008",
+        "SC-T010"
+      ],
+      "order": 5,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T013",
+      "title": "Transcribe and confirm a recorded attempt",
+      "path": "docs/development-plan/tickets/SC-T013.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T011",
+        "SC-T012"
+      ],
+      "parent": null,
+      "source_sha256": "6d0e10a65948d7285304efeac0b65b73418abc3b74664c0fd96fd56d38cb71b0",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T011",
+        "SC-T012"
+      ],
+      "order": 6,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T014",
+      "title": "Validate and present text coaching with retry",
+      "path": "docs/development-plan/tickets/SC-T014.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T013"
+      ],
+      "parent": null,
+      "source_sha256": "f21c0b5940335d2548a8b37bc1ff9f8f1615820db70582ff9441f2a5290ff72e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T013"
+      ],
+      "order": 7,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T015",
+      "title": "Save speech history and recover deleted records",
+      "path": "docs/development-plan/tickets/SC-T015.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T011",
+        "SC-T009",
+        "SC-T004"
+      ],
+      "parent": null,
+      "source_sha256": "45b0c3458a8f650c12ff37142d9cf1225497c6f9f24367456349c145365fb9ef",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T011",
+        "SC-T009",
+        "SC-T004"
+      ],
+      "order": 8,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T016",
+      "title": "Integrate first speaking session and truthful progress",
+      "path": "docs/development-plan/tickets/SC-T016.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T014",
+        "SC-T015"
+      ],
+      "parent": null,
+      "source_sha256": "80d8ef38c9f25ef756c8c48a4db0385cf180f2d45d9eece638f2ca08c393b527",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T014",
+        "SC-T015"
+      ],
+      "order": 9,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T017",
+      "title": "Verify device provider and learner proof gates",
+      "path": "docs/development-plan/tickets/SC-T017.md",
+      "type": "acceptance",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M2",
+      "dependencies": [
+        "SC-T016"
+      ],
+      "parent": null,
+      "source_sha256": "70a9c5d3f54e8e63456bb3ceb538fb01fa1d37bf197a81618cf17be2826369b9",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T016"
+      ],
+      "order": 10,
+      "stage": "speaking_proof",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T018",
+      "title": "Author and review A1 Introductions topic",
+      "path": "docs/development-plan/tickets/SC-T018.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M3",
+      "dependencies": [
+        "SC-T001",
+        "SC-T006",
+        "SC-T005"
+      ],
+      "parent": null,
+      "source_sha256": "126dfbfec5564afc36fff833d7f174e0cd0f5e48877d589a1e129d81bfc83775",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T001",
+        "SC-T006",
+        "SC-T005"
+      ],
+      "order": 12,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T019",
+      "title": "Load versioned lessons and required offline assets",
+      "path": "docs/development-plan/tickets/SC-T019.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M3",
+      "dependencies": [
+        "SC-T005",
+        "SC-T009",
+        "SC-T018"
+      ],
+      "parent": null,
+      "source_sha256": "fda9a983498003c2e2c05823a69d58e9ddfd58ccb6c5c624fafcdf70774199f1",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T005",
+        "SC-T009",
+        "SC-T018"
+      ],
+      "order": 13,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T020",
+      "title": "Complete and resume the first lesson offline",
+      "path": "docs/development-plan/tickets/SC-T020.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M3",
+      "dependencies": [
+        "SC-T019",
+        "SC-T010",
+        "SC-T001"
+      ],
+      "parent": null,
+      "source_sha256": "55de4db751dc9b04e77d87da7f38016e54955503979dad78c2d54278e3c70aee",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T019",
+        "SC-T010",
+        "SC-T001"
+      ],
+      "order": 14,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T021",
+      "title": "Connect lesson vocabulary speaking and shared progress",
+      "path": "docs/development-plan/tickets/SC-T021.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M3",
+      "dependencies": [
+        "SC-T020",
+        "SC-T017"
+      ],
+      "parent": null,
+      "source_sha256": "425587bb2531c0e601bf9469d057eda71fa2ad25c73ec35558a9d1208d029882",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T020",
+        "SC-T017"
+      ],
+      "order": 15,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T043",
+      "title": "Validate the Introductions learning loop before expansion",
+      "path": "docs/development-plan/tickets/SC-T043.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M3",
+      "dependencies": [
+        "SC-T018",
+        "SC-T021"
+      ],
+      "parent": null,
+      "source_sha256": "53b0dde42e6f21415df222adcb440eb3f121b3bcd0a305c54fa382ab11369141",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T018",
+        "SC-T021"
+      ],
+      "order": 16,
+      "stage": "first_topic",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T046",
+      "title": "Select scheduler library and versioned parameters",
+      "path": "docs/development-plan/tickets/SC-T046.md",
+      "type": "decision",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T021"
+      ],
+      "parent": "SC-T022",
+      "source_sha256": "a37a67c88a4d9cd4f4d677688b299b4be86c84a1927bcbbe140ee7145cc00ff0",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T021"
+      ],
+      "order": 17,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T047",
+      "title": "Define review eligibility and shared sense identity",
+      "path": "docs/development-plan/tickets/SC-T047.md",
+      "type": "decision",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T046"
+      ],
+      "parent": "SC-T022",
+      "source_sha256": "b968648fb48c7eb518c732a69e0ca0f9cc493723fda9898a744c1b0eb195a692",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T046"
+      ],
+      "order": 18,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T022",
+      "title": "Decide scheduler and review-credit policy",
+      "path": "docs/development-plan/tickets/SC-T022.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T021"
+      ],
+      "parent": null,
+      "source_sha256": "601985a6848c12032ad14c98eab8b814bacef685b64ad2dc17f7732c7ddc169e",
+      "children": [
+        "SC-T046",
+        "SC-T047"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T021",
+        "SC-T046",
+        "SC-T047"
+      ],
+      "order": 19,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T048",
+      "title": "Enroll shared vocabulary senses without duplicate cards",
+      "path": "docs/development-plan/tickets/SC-T048.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T022"
+      ],
+      "parent": "SC-T023",
+      "source_sha256": "588812071a74296c3736577fe6460cb6350cb5c9ed8101abdb227f6bfb1239da",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T022"
+      ],
+      "order": 20,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T049",
+      "title": "Complete an offline recall and rated review",
+      "path": "docs/development-plan/tickets/SC-T049.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T048"
+      ],
+      "parent": "SC-T023",
+      "source_sha256": "c16bc43aaa3db592565b47240c5b7af26daf969ed9d246932c50728acad9bb5c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T048"
+      ],
+      "order": 21,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T050",
+      "title": "Persist due queues and recover interrupted reviews",
+      "path": "docs/development-plan/tickets/SC-T050.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T049"
+      ],
+      "parent": "SC-T023",
+      "source_sha256": "270b8eb42a958419faa8747d084a8781e0d6ce99f60d403549eb5a498891af49",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T049"
+      ],
+      "order": 22,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T023",
+      "title": "Deliver vocabulary enrollment and daily reviews",
+      "path": "docs/development-plan/tickets/SC-T023.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T022"
+      ],
+      "parent": null,
+      "source_sha256": "fd0db7f8663fc7e093eb845d77de6893955a9cb07e576d11d9b1eb643fe2c4bc",
+      "children": [
+        "SC-T048",
+        "SC-T049",
+        "SC-T050"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T022",
+        "SC-T048",
+        "SC-T049",
+        "SC-T050"
+      ],
+      "order": 23,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T051",
+      "title": "Suggest next practice with an explanation and override",
+      "path": "docs/development-plan/tickets/SC-T051.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": "SC-T024",
+      "source_sha256": "2101b97de1b3f7775fdeb251cb3c474bb2c6ca5585188b50dcebddf2f8f32596",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T023"
+      ],
+      "order": 24,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T052",
+      "title": "Display separate learning evidence and comparison history",
+      "path": "docs/development-plan/tickets/SC-T052.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": "SC-T024",
+      "source_sha256": "06ea0385cfd7ead45ca5b3447641bc16ffbc2aadc083add47f0db7cbdb8a0c11",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T023"
+      ],
+      "order": 25,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T054",
+      "title": "Show weekly summaries and connected daily focus",
+      "path": "docs/development-plan/tickets/SC-T054.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T051",
+        "SC-T052"
+      ],
+      "parent": "SC-T024",
+      "source_sha256": "1ca92fb6b6a12f542321075603d9ca2ed49cb9186fe7dc87acf7d90ed9586033",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T051",
+        "SC-T052"
+      ],
+      "order": 26,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T055",
+      "title": "Settle reward event and local-day policies",
+      "path": "docs/development-plan/tickets/SC-T055.md",
+      "type": "decision",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "03bb7f15b157e8ee24e360368985398649d98bbc1cf7b9c2f47e2140fb63654c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T023"
+      ],
+      "order": 27,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T056",
+      "title": "Define finite AW instances and reviewed earning rules",
+      "path": "docs/development-plan/tickets/SC-T056.md",
+      "type": "decision",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T055",
+        "SC-T006"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "771df3a184eab2b892f625ef2c73be55e3e64f2fef6019f65cac3eaccd00b58c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T055",
+        "SC-T006"
+      ],
+      "order": 28,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T057",
+      "title": "Commit participation credits and gold spending once",
+      "path": "docs/development-plan/tickets/SC-T057.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T055"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "bc18d0a51c57d9f94d07c6bfa711be36da387e9726f9600f50f045ac321a4e40",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T055"
+      ],
+      "order": 29,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T058",
+      "title": "Deliver free hints and explicit optional assistance purchases",
+      "path": "docs/development-plan/tickets/SC-T058.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T057"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "3ebeab351f78cdd8d381e0a1707c2d8575edaad53be8102b4b9978c8c46e3093",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T057"
+      ],
+      "order": 30,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T059",
+      "title": "Deliver Freeze inventory and Repair continuity",
+      "path": "docs/development-plan/tickets/SC-T059.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T057"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "9cdcb84c37f74f884f4dad13983ff824094f4027011e972ba0ef5643b626528f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T057"
+      ],
+      "order": 31,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T060",
+      "title": "Track daily goals break timer and private reminders",
+      "path": "docs/development-plan/tickets/SC-T060.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T057"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "8e05f6c4980529b06b33ebfa008bcccd97c73ab02a21a3727489b26c7ded0b2e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T057"
+      ],
+      "order": 32,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T061",
+      "title": "Prepare adopted native award artwork and state overlays",
+      "path": "docs/development-plan/tickets/SC-T061.md",
+      "type": "asset production",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T056",
+        "SC-T045"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "19d2ba071722c832f2d3d754224b7f92b53bb22608b7658dedce72288c17d2a5",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T056",
+        "SC-T045"
+      ],
+      "order": 33,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T053",
+      "title": "Show achievement criteria and evidence availability",
+      "path": "docs/development-plan/tickets/SC-T053.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T052",
+        "SC-T056",
+        "SC-T057",
+        "SC-T061"
+      ],
+      "parent": "SC-T024",
+      "source_sha256": "f61854aac846ce27d3dfae8213201d7f5ab6ace55d3294c7565774fc7e2a6622",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T052",
+        "SC-T056",
+        "SC-T057",
+        "SC-T061"
+      ],
+      "order": 34,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T024",
+      "title": "Implement daily recommendations and progress evidence",
+      "path": "docs/development-plan/tickets/SC-T024.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": null,
+      "source_sha256": "8334d26ee81cd0b00c33b7c2af29140ca362a6d8675a15a8301e514d7a37eb8b",
+      "children": [
+        "SC-T051",
+        "SC-T052",
+        "SC-T053",
+        "SC-T054"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T023",
+        "SC-T051",
+        "SC-T052",
+        "SC-T053",
+        "SC-T054"
+      ],
+      "order": 35,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T062",
+      "title": "Present committed results and skippable celebrations",
+      "path": "docs/development-plan/tickets/SC-T062.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T057",
+        "SC-T056",
+        "SC-T061"
+      ],
+      "parent": "SC-T025",
+      "source_sha256": "b9fbc9abfbc0b922175a41819675288c78897398c07f76fe9096ab6813b81123",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T057",
+        "SC-T056",
+        "SC-T061"
+      ],
+      "order": 36,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T025",
+      "title": "Implement approved rewards and goal lifecycle",
+      "path": "docs/development-plan/tickets/SC-T025.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M4",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": null,
+      "source_sha256": "8d095e39211193471efc312283f0dea922fc76605d85b3c9cce2d3a825bc984e",
+      "children": [
+        "SC-T055",
+        "SC-T056",
+        "SC-T057",
+        "SC-T058",
+        "SC-T059",
+        "SC-T060",
+        "SC-T061",
+        "SC-T062"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T023",
+        "SC-T055",
+        "SC-T056",
+        "SC-T057",
+        "SC-T058",
+        "SC-T059",
+        "SC-T060",
+        "SC-T061",
+        "SC-T062"
+      ],
+      "order": 37,
+      "stage": "daily_loop",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T063",
+      "title": "Freeze the small A1 course topic and objective manifest",
+      "path": "docs/development-plan/tickets/SC-T063.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T043",
+        "SC-T006"
+      ],
+      "parent": "SC-T026",
+      "source_sha256": "124bea02a6e76679b5e87019ec4712711f85e7cdbeb2ba53195718c829831cc7",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T043",
+        "SC-T006"
+      ],
+      "order": 38,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T064",
+      "title": "Author the small-course personal and routine topic batch",
+      "path": "docs/development-plan/tickets/SC-T064.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T063"
+      ],
+      "parent": "SC-T026",
+      "source_sha256": "1bb65e5018bbbebd3ffab0073d9d7bc5dce2db06e55c656fdcb951ab52fd0413",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T063"
+      ],
+      "order": 39,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T065",
+      "title": "Author the small-course everyday needs topic batch",
+      "path": "docs/development-plan/tickets/SC-T065.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T063"
+      ],
+      "parent": "SC-T026",
+      "source_sha256": "0c442a76497f42794a4825bd4aad9335a4dd1f7424964f30519a74d5c5180125",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T063"
+      ],
+      "order": 40,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T066",
+      "title": "Run the bounded small A1 course using proven activities",
+      "path": "docs/development-plan/tickets/SC-T066.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T064",
+        "SC-T065",
+        "SC-T021"
+      ],
+      "parent": "SC-T026",
+      "source_sha256": "7ce5c441c51955bc00539b775a20b363c532ce70142613f56760bb6761a9e83c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T064",
+        "SC-T065",
+        "SC-T021"
+      ],
+      "order": 41,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T026",
+      "title": "Expand proven patterns into a bounded A1 course",
+      "path": "docs/development-plan/tickets/SC-T026.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T043"
+      ],
+      "parent": null,
+      "source_sha256": "ad134d391cf1093bbe75a29b3ec514058e9d4e946cf458e2698ddfbc89376140",
+      "children": [
+        "SC-T063",
+        "SC-T064",
+        "SC-T065",
+        "SC-T066"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T043",
+        "SC-T063",
+        "SC-T064",
+        "SC-T065",
+        "SC-T066"
+      ],
+      "order": 42,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T067",
+      "title": "Freeze small-course learning and owner evaluation protocol",
+      "path": "docs/development-plan/tickets/SC-T067.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T026",
+        "SC-T024",
+        "SC-T025"
+      ],
+      "parent": "SC-T027",
+      "source_sha256": "8d6c8181b8bc1d1aa2db16042bb2471718e46477f42c0354cbd8ba5495846ace",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T026",
+        "SC-T024",
+        "SC-T025"
+      ],
+      "order": 43,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T068",
+      "title": "Execute small-course learning and usefulness evaluation",
+      "path": "docs/development-plan/tickets/SC-T068.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T067"
+      ],
+      "parent": "SC-T027",
+      "source_sha256": "9559608ec8630430c902a8da86bdf132473c38312e69bf9eceb0ae97cdc76c95",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T067"
+      ],
+      "order": 44,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T069",
+      "title": "Validate small-course native daily journeys",
+      "path": "docs/development-plan/tickets/SC-T069.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T067"
+      ],
+      "parent": "SC-T027",
+      "source_sha256": "f1d57e501e969aceb7531fefba0763152be1eead82a032a659c5ee49c6b4d19f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T067"
+      ],
+      "order": 45,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T027",
+      "title": "Validate teaching usefulness and native usability",
+      "path": "docs/development-plan/tickets/SC-T027.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T026",
+        "SC-T024",
+        "SC-T025"
+      ],
+      "parent": null,
+      "source_sha256": "dae70fdefadd6b9018c8b740bfc6ffd91b04be8f620e34b092d6a9ec76151d52",
+      "children": [
+        "SC-T067",
+        "SC-T068",
+        "SC-T069"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T026",
+        "SC-T024",
+        "SC-T025",
+        "SC-T067",
+        "SC-T068",
+        "SC-T069"
+      ],
+      "order": 46,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T070",
+      "title": "Freeze blocking pilot defects and reuse opportunities",
+      "path": "docs/development-plan/tickets/SC-T070.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T027"
+      ],
+      "parent": "SC-T028",
+      "source_sha256": "47fb800d0a2e681cce8bdda6f3ea21bfd9bc968b28902b89d2af0f143d2bd422",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T027"
+      ],
+      "order": 47,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T071",
+      "title": "Extract only demonstrated reusable activity behavior",
+      "path": "docs/development-plan/tickets/SC-T071.md",
+      "type": "refactor",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T070"
+      ],
+      "parent": "SC-T028",
+      "source_sha256": "de90fb64dfba46155d0e270577b64a3c37f69b515ef76bb1bb28aa70f6888f26",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T070"
+      ],
+      "order": 48,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T072",
+      "title": "Close and retest the frozen blocking pilot defect batch",
+      "path": "docs/development-plan/tickets/SC-T072.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T070",
+        "SC-T071"
+      ],
+      "parent": "SC-T028",
+      "source_sha256": "b114469fa71d16e25ba75618d50ccbed70b5a807457286a0d8dd064432363833",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T070",
+        "SC-T071"
+      ],
+      "order": 49,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T028",
+      "title": "Generalize demonstrated patterns and resolve pilot defects",
+      "path": "docs/development-plan/tickets/SC-T028.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M5",
+      "dependencies": [
+        "SC-T027"
+      ],
+      "parent": null,
+      "source_sha256": "87c60a7d51000c2752a6fd66df608dafaff714e785b5d1a139f3daf3bd2e19d7",
+      "children": [
+        "SC-T070",
+        "SC-T071",
+        "SC-T072"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T027",
+        "SC-T070",
+        "SC-T071",
+        "SC-T072"
+      ],
+      "order": 50,
+      "stage": "small_course",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T073",
+      "title": "Freeze A1 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T073.md",
+      "type": "decision",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "a442f1b2ae62f6e07d23e42163d68647a71ef9bbf683f306d43adfe9d6fad138",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 51,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T074",
+      "title": "Author and review A1 topic: Greetings",
+      "path": "docs/development-plan/tickets/SC-T074.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "456d1162cb81c95758376bf3e4f37115dd75f7cc7a318b8c7aa2ac433efcf79f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 52,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T075",
+      "title": "Reconcile A1 introductions coverage with the reviewed INTRO-01 pack",
+      "path": "docs/development-plan/tickets/SC-T075.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "09d4bf6263c78cdf72d69548e0bf539d68f2872f82638d7aabc547500609bc85",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 53,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T076",
+      "title": "Author and review A1 topic: alphabet and spelling",
+      "path": "docs/development-plan/tickets/SC-T076.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "f4dc4471fb3943ad60f5ea3acb98550fe5953de2a36c20a9cc46a2d351041b79",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 54,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T077",
+      "title": "Author and review A1 topic: numbers",
+      "path": "docs/development-plan/tickets/SC-T077.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "0166caf42c9888b7866025c3e3def5d26981dc16928aa57612aaf03d0d790248",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 55,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T078",
+      "title": "Author and review A1 topic: dates and time",
+      "path": "docs/development-plan/tickets/SC-T078.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "4efa6888a3df32824f0f76d2fb309515c9a190bf612e656784c3b91dd459cf81",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 56,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T079",
+      "title": "Author and review A1 topic: family",
+      "path": "docs/development-plan/tickets/SC-T079.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "217984c7e0247c7d4fa4c9113dde5cb711a74953dcfbc807c502ce0a2a9a2573",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 57,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T080",
+      "title": "Author and review A1 topic: home",
+      "path": "docs/development-plan/tickets/SC-T080.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "9a4a8ce88b0bf9ded5c8389a2bcc08391bf24d5111151231faa2ff8e2d99610e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 58,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T081",
+      "title": "Author and review A1 topic: daily routines",
+      "path": "docs/development-plan/tickets/SC-T081.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "11910a504d5bf4aed582fab1cc57c42ef18c91fefb5b0a68963937ee020401eb",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 59,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T082",
+      "title": "Author and review A1 topic: food",
+      "path": "docs/development-plan/tickets/SC-T082.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "f1badab866b7fd987997de2dfb88114eccdda5a8e5428bdb7b0c638a67185473",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 60,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T083",
+      "title": "Author and review A1 topic: shopping",
+      "path": "docs/development-plan/tickets/SC-T083.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "0369176d7e3a93f9f110af06781219b8f94785e738b5c5467e7294bcafc93496",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 61,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T084",
+      "title": "Author and review A1 topic: places and directions",
+      "path": "docs/development-plan/tickets/SC-T084.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "ff61a7fb86aef565dc7128f87a7558b92562330d323a2e20c563864cbfd5ffbe",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 62,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T085",
+      "title": "Author and review A1 topic: hobbies",
+      "path": "docs/development-plan/tickets/SC-T085.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "1ad7afd9674d46c73da303e3dad816018f0a3dab8bc823a77435d4f74bdd75d0",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 63,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T086",
+      "title": "Author and review A1 topic: weather",
+      "path": "docs/development-plan/tickets/SC-T086.md",
+      "type": "content",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T073"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "ee5bcc83f1b3e53dddb01e682cddc1c8ba6a1f91dc83faf3199bc79da58d07f3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T073"
+      ],
+      "order": 64,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T087",
+      "title": "Integrate reviewed A1 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T087.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T074",
+        "SC-T075",
+        "SC-T076",
+        "SC-T077",
+        "SC-T078",
+        "SC-T079",
+        "SC-T080",
+        "SC-T081",
+        "SC-T082",
+        "SC-T083",
+        "SC-T084",
+        "SC-T085",
+        "SC-T086",
+        "SC-T019",
+        "SC-T020",
+        "SC-T028"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "2039d82b5f42d93ee374a541b127aaa6256c9e96cffd73fa081b08431e46b39e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T074",
+        "SC-T075",
+        "SC-T076",
+        "SC-T077",
+        "SC-T078",
+        "SC-T079",
+        "SC-T080",
+        "SC-T081",
+        "SC-T082",
+        "SC-T083",
+        "SC-T084",
+        "SC-T085",
+        "SC-T086",
+        "SC-T019",
+        "SC-T020",
+        "SC-T028"
+      ],
+      "order": 65,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T088",
+      "title": "Accept A1 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T088.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T087"
+      ],
+      "parent": "SC-T029",
+      "source_sha256": "93d3882b191abed5be627a1aecff32eac5c41de0ab841c94b1877a4146523e29",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T087"
+      ],
+      "order": 66,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T029",
+      "title": "Complete reviewed A1 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T029.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M6",
+      "dependencies": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "5e553c6ffb3d2b778af9da77362636c670ed676f098a804369680cbe95872505",
+      "children": [
+        "SC-T073",
+        "SC-T074",
+        "SC-T075",
+        "SC-T076",
+        "SC-T077",
+        "SC-T078",
+        "SC-T079",
+        "SC-T080",
+        "SC-T081",
+        "SC-T082",
+        "SC-T083",
+        "SC-T084",
+        "SC-T085",
+        "SC-T086",
+        "SC-T087",
+        "SC-T088"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T006",
+        "SC-T073",
+        "SC-T074",
+        "SC-T075",
+        "SC-T076",
+        "SC-T077",
+        "SC-T078",
+        "SC-T079",
+        "SC-T080",
+        "SC-T081",
+        "SC-T082",
+        "SC-T083",
+        "SC-T084",
+        "SC-T085",
+        "SC-T086",
+        "SC-T087",
+        "SC-T088"
+      ],
+      "order": 67,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T089",
+      "title": "Freeze A2 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T089.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "91639f0e7df5f3ffcc5dce06886a8e6778de4af6812283666c4e6b1396bc38fe",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 68,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T090",
+      "title": "Author and review A2 topic: Travel",
+      "path": "docs/development-plan/tickets/SC-T090.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "ad469040e87bc9d4e3416fe1e50c2b27ab7ba0e33e8fcff1bf628e2140116213",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 69,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T091",
+      "title": "Author and review A2 topic: transportation",
+      "path": "docs/development-plan/tickets/SC-T091.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "b4cda82560a00eea25064990ac5ef5a8e6ceefa63edf4956ce417c8b2a995ef6",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 70,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T092",
+      "title": "Author and review A2 topic: appointments",
+      "path": "docs/development-plan/tickets/SC-T092.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "1dd86b47fabdd9f250d1e25a4cc3f85ff75104ba06104f75b39d7c84578cc571",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 71,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T093",
+      "title": "Author and review A2 topic: health",
+      "path": "docs/development-plan/tickets/SC-T093.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "b2dff9576ec213c18c4dda430d195dac9421913cf8e29c371788c1efa0d440fc",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 72,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T094",
+      "title": "Author and review A2 topic: eating out",
+      "path": "docs/development-plan/tickets/SC-T094.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "0e6122be6976a1999829df835d80116b01d8be4fb568f946e054cce3c3c2a16e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 73,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T095",
+      "title": "Author and review A2 topic: invitations",
+      "path": "docs/development-plan/tickets/SC-T095.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "e50953faee56e20c5a32f371157894ac1ceda9db035a08e781ef9ab913255744",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 74,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T096",
+      "title": "Author and review A2 topic: leisure",
+      "path": "docs/development-plan/tickets/SC-T096.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "a0c6290139de3d70e0aa7e418ca96f062a65a79ae856fe7a220ffec0a633a62c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 75,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T097",
+      "title": "Author and review A2 topic: work routines",
+      "path": "docs/development-plan/tickets/SC-T097.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "0a769b1071553b8f543adc78b5bd36b2608a4b200f9029735e92004fa140486e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 76,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T098",
+      "title": "Author and review A2 topic: past experiences",
+      "path": "docs/development-plan/tickets/SC-T098.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "bdd9c026e52750c0997ddf3382e92af3aafc76af6f3e1f552182fa18be39c692",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 77,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T099",
+      "title": "Author and review A2 topic: future plans",
+      "path": "docs/development-plan/tickets/SC-T099.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "edc00b48a88e08716334b5a96f3b4d9c56d016acd5e813e6ed107ea2e1606861",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 78,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T100",
+      "title": "Author and review A2 topic: everyday problems",
+      "path": "docs/development-plan/tickets/SC-T100.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T089"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "dbc0a0e55a94a57a275262b968d9f9d66d29ec93a52debeeaebff9cf67e6ebf9",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T089"
+      ],
+      "order": 79,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T101",
+      "title": "Integrate reviewed A2 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T101.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T090",
+        "SC-T091",
+        "SC-T092",
+        "SC-T093",
+        "SC-T094",
+        "SC-T095",
+        "SC-T096",
+        "SC-T097",
+        "SC-T098",
+        "SC-T099",
+        "SC-T100",
+        "SC-T019",
+        "SC-T020",
+        "SC-T029"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "a3d7bd99ec280db9a3e0c3bf6d4360ce064adeccb00de906db4e0e9bedde1b1f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T090",
+        "SC-T091",
+        "SC-T092",
+        "SC-T093",
+        "SC-T094",
+        "SC-T095",
+        "SC-T096",
+        "SC-T097",
+        "SC-T098",
+        "SC-T099",
+        "SC-T100",
+        "SC-T019",
+        "SC-T020",
+        "SC-T029"
+      ],
+      "order": 80,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T102",
+      "title": "Accept A2 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T102.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T101"
+      ],
+      "parent": "SC-T030",
+      "source_sha256": "a374b1b496de1631c49026497d18f01e436b71cda646a649cb2b9c0596e0124d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T101"
+      ],
+      "order": 81,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T030",
+      "title": "Complete reviewed A2 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T030.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M7",
+      "dependencies": [
+        "SC-T029",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "90cd54d26a46ab33023a22c0c3acede43d013f97134ce6d546ba36857c3563fb",
+      "children": [
+        "SC-T089",
+        "SC-T090",
+        "SC-T091",
+        "SC-T092",
+        "SC-T093",
+        "SC-T094",
+        "SC-T095",
+        "SC-T096",
+        "SC-T097",
+        "SC-T098",
+        "SC-T099",
+        "SC-T100",
+        "SC-T101",
+        "SC-T102"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T029",
+        "SC-T006",
+        "SC-T089",
+        "SC-T090",
+        "SC-T091",
+        "SC-T092",
+        "SC-T093",
+        "SC-T094",
+        "SC-T095",
+        "SC-T096",
+        "SC-T097",
+        "SC-T098",
+        "SC-T099",
+        "SC-T100",
+        "SC-T101",
+        "SC-T102"
+      ],
+      "order": 82,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T103",
+      "title": "Freeze B1 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T103.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "45726d0af4f2b166d8c66a1626702b38aa79b064a2a093880789dd6b7fe6ea35",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 83,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T104",
+      "title": "Author and review B1 topic: Education",
+      "path": "docs/development-plan/tickets/SC-T104.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "f57617f1eda2a12ce5d5402b168ac2b4090c614abceb638a896b74907e99bf6a",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 84,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T105",
+      "title": "Author and review B1 topic: career goals",
+      "path": "docs/development-plan/tickets/SC-T105.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "f162d2b551f89952f1bbfbe3273209ef2dd4fac349bde3c8b7e2b98bf2ce3fa4",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 85,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T106",
+      "title": "Author and review B1 topic: relationships",
+      "path": "docs/development-plan/tickets/SC-T106.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "f61478851e6c9c38a305cc70853dbc466fa6df2dd55792ad634ae01b1f569836",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 86,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T107",
+      "title": "Author and review B1 topic: technology",
+      "path": "docs/development-plan/tickets/SC-T107.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "8f710c31e8512bb163fed4d462b1d5a11235f2423ca2681d3ff0cd95d73bc9ca",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 87,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T108",
+      "title": "Author and review B1 topic: entertainment",
+      "path": "docs/development-plan/tickets/SC-T108.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "c66f9a005a6b17b3a3dfde1de360311c285eb4a1eb465bd2cd74bda6207d4def",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 88,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T109",
+      "title": "Author and review B1 topic: culture",
+      "path": "docs/development-plan/tickets/SC-T109.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "1af363c9c02086fda6a8f368c125f6f7a138e0e5b9cba73969e7c46746de40dd",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 89,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T110",
+      "title": "Author and review B1 topic: community",
+      "path": "docs/development-plan/tickets/SC-T110.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "741d84f0f0cc1762a984ceb2b42ba735f27001c98fd71095812c8cc0cda4e95d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 90,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T111",
+      "title": "Author and review B1 topic: personal achievements",
+      "path": "docs/development-plan/tickets/SC-T111.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "fcd6bd8b78fb14d37bdd9531fc4bcb9f4c7166573a7cf8bd6e48bdaf0c9c50ef",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 91,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T112",
+      "title": "Author and review B1 topic: decisions",
+      "path": "docs/development-plan/tickets/SC-T112.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "a1ef362b16cd9ff83048710068321170efe8359993c9c0bb9cb6c75dd26ee9b6",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 92,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T113",
+      "title": "Author and review B1 topic: unexpected situations",
+      "path": "docs/development-plan/tickets/SC-T113.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T103"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "ad0bd612d372744f89ac71d2a05bb38f244f5088290d44b9d5a6b2c436860a9b",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T103"
+      ],
+      "order": 93,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T114",
+      "title": "Integrate reviewed B1 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T114.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T104",
+        "SC-T105",
+        "SC-T106",
+        "SC-T107",
+        "SC-T108",
+        "SC-T109",
+        "SC-T110",
+        "SC-T111",
+        "SC-T112",
+        "SC-T113",
+        "SC-T019",
+        "SC-T020",
+        "SC-T030"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "2d1f0e37077fefaede5c7d190583ec830536df80ebb02568d8555b5cec839f4f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T104",
+        "SC-T105",
+        "SC-T106",
+        "SC-T107",
+        "SC-T108",
+        "SC-T109",
+        "SC-T110",
+        "SC-T111",
+        "SC-T112",
+        "SC-T113",
+        "SC-T019",
+        "SC-T020",
+        "SC-T030"
+      ],
+      "order": 94,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T115",
+      "title": "Accept B1 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T115.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T114"
+      ],
+      "parent": "SC-T031",
+      "source_sha256": "d3ab56f17a3133d552d821213c98b06ceafa79315c7612454d754b4709103f62",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T114"
+      ],
+      "order": 95,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T031",
+      "title": "Complete reviewed B1 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T031.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M8",
+      "dependencies": [
+        "SC-T030",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "7fa3c46799dcbbfa94a7b2a7dfce3f081618ded67a1f03d8188810ae44c95004",
+      "children": [
+        "SC-T103",
+        "SC-T104",
+        "SC-T105",
+        "SC-T106",
+        "SC-T107",
+        "SC-T108",
+        "SC-T109",
+        "SC-T110",
+        "SC-T111",
+        "SC-T112",
+        "SC-T113",
+        "SC-T114",
+        "SC-T115"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T030",
+        "SC-T006",
+        "SC-T103",
+        "SC-T104",
+        "SC-T105",
+        "SC-T106",
+        "SC-T107",
+        "SC-T108",
+        "SC-T109",
+        "SC-T110",
+        "SC-T111",
+        "SC-T112",
+        "SC-T113",
+        "SC-T114",
+        "SC-T115"
+      ],
+      "order": 96,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T116",
+      "title": "Freeze B2 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T116.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "9d619b200f6b77fac58a5f2aae709f0cb00f60c0911bc15d74f9884e4a8081e0",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 97,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T117",
+      "title": "Author and review B2 topic: Professional projects",
+      "path": "docs/development-plan/tickets/SC-T117.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "4970eeec6a15e2456391d9f050b0182cdb6bd73d53349c9b9fac91f9d330e84a",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 98,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T118",
+      "title": "Author and review B2 topic: leadership",
+      "path": "docs/development-plan/tickets/SC-T118.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "3ecab97f2400d31cf5fa3e75ec230374676d2ffbd88ee9b96d17f3f37a109535",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 99,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T119",
+      "title": "Author and review B2 topic: media",
+      "path": "docs/development-plan/tickets/SC-T119.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "99adf06696d0faa7b0a74f98900eb21ed86bd203f6df1aa9c64e5d35694c6d48",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 100,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T120",
+      "title": "Author and review B2 topic: social issues",
+      "path": "docs/development-plan/tickets/SC-T120.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "12a668d1bc266adfcfb5ebd857361acf9824abda20eda4a645e80652c2b628cd",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 101,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T121",
+      "title": "Author and review B2 topic: innovation",
+      "path": "docs/development-plan/tickets/SC-T121.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "67598f79a3c628d1844be6ce264b1085bf0b1e0e255c8cd7f867ac447db55d2d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 102,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T122",
+      "title": "Author and review B2 topic: ethics",
+      "path": "docs/development-plan/tickets/SC-T122.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "9b0fae0cf9b769e669493c7019b04ddf8bb3bc1335dc10bc3c1912882810022c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 103,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T123",
+      "title": "Author and review B2 topic: environment",
+      "path": "docs/development-plan/tickets/SC-T123.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "0f8bd26d98cd871c49232bb9c500fbbb8e5fad6194a182882c62d9ca51e474b8",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 104,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T124",
+      "title": "Author and review B2 topic: presentations",
+      "path": "docs/development-plan/tickets/SC-T124.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "3e9c188047acb656400708bafd1cf46be8e74cfa96eb15dceb593f15737df933",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 105,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T125",
+      "title": "Author and review B2 topic: negotiation",
+      "path": "docs/development-plan/tickets/SC-T125.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "2de8eb25826ff0b331d5b21b324f3d843fdb743b6d57c4a414d05299105e4843",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 106,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T126",
+      "title": "Author and review B2 topic: disagreements",
+      "path": "docs/development-plan/tickets/SC-T126.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T116"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "68755398ab443ee2ed19c4b04087dd103dc9213b5a905e5edcb09d77cfbc2195",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T116"
+      ],
+      "order": 107,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T127",
+      "title": "Integrate reviewed B2 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T127.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T117",
+        "SC-T118",
+        "SC-T119",
+        "SC-T120",
+        "SC-T121",
+        "SC-T122",
+        "SC-T123",
+        "SC-T124",
+        "SC-T125",
+        "SC-T126",
+        "SC-T019",
+        "SC-T020",
+        "SC-T031"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "819d16d0d4de25902cc66583b1a2df078849b9baef7609787e6971d54c996d3a",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T117",
+        "SC-T118",
+        "SC-T119",
+        "SC-T120",
+        "SC-T121",
+        "SC-T122",
+        "SC-T123",
+        "SC-T124",
+        "SC-T125",
+        "SC-T126",
+        "SC-T019",
+        "SC-T020",
+        "SC-T031"
+      ],
+      "order": 108,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T128",
+      "title": "Accept B2 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T128.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T127"
+      ],
+      "parent": "SC-T032",
+      "source_sha256": "de627dd67830e43a179e583bee13108d10a2f969dc52f8210465330238e7e2b1",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T127"
+      ],
+      "order": 109,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T032",
+      "title": "Complete reviewed B2 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T032.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M9",
+      "dependencies": [
+        "SC-T031",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "9426f01f5070a8ebe6985a2a75ebf1d8271e6e2b60c1a18dcce846cd80829154",
+      "children": [
+        "SC-T116",
+        "SC-T117",
+        "SC-T118",
+        "SC-T119",
+        "SC-T120",
+        "SC-T121",
+        "SC-T122",
+        "SC-T123",
+        "SC-T124",
+        "SC-T125",
+        "SC-T126",
+        "SC-T127",
+        "SC-T128"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T031",
+        "SC-T006",
+        "SC-T116",
+        "SC-T117",
+        "SC-T118",
+        "SC-T119",
+        "SC-T120",
+        "SC-T121",
+        "SC-T122",
+        "SC-T123",
+        "SC-T124",
+        "SC-T125",
+        "SC-T126",
+        "SC-T127",
+        "SC-T128"
+      ],
+      "order": 110,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T129",
+      "title": "Freeze C1 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T129.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "9fbf549141ebf5fb132dbf172ef0cff199b03c2187272608c39bc029dbbab45c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 111,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T130",
+      "title": "Author and review C1 topic: Strategy",
+      "path": "docs/development-plan/tickets/SC-T130.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "81b1eb2dbcd0ddf091d8d6af7fa9e4133173b1303171f9f94bdadf1448524a04",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 112,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T131",
+      "title": "Author and review C1 topic: research",
+      "path": "docs/development-plan/tickets/SC-T131.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "3541b13b9408b161b1bc94948e13bcc9a0d86a1c50e11a0b7742320004e70f3e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 113,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T132",
+      "title": "Author and review C1 topic: organizational change",
+      "path": "docs/development-plan/tickets/SC-T132.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "9f00a095ddfcf11cc34aa7a96f143fe28fdaee57ec38232e7b78eed52288768f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 114,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T133",
+      "title": "Author and review C1 topic: complex problems",
+      "path": "docs/development-plan/tickets/SC-T133.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "3a09893bebc5e0ef26ff4d71a20965e972a8437e676ae3d34934a1d615f585af",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 115,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T134",
+      "title": "Author and review C1 topic: policy",
+      "path": "docs/development-plan/tickets/SC-T134.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "88da5edc88c12b2beb761ed008ba3fae9c3b817d521d871878136d93055bb9b9",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 116,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T135",
+      "title": "Author and review C1 topic: sensitive workplace discussions",
+      "path": "docs/development-plan/tickets/SC-T135.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "8309d682d72afabf734274678367bb09f6c6ed316e7bafe9b3695a67bc065620",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 117,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T136",
+      "title": "Author and review C1 topic: specialist debates",
+      "path": "docs/development-plan/tickets/SC-T136.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "7428229ff6fbbf6254953bc3d4bc69fce3dd95e047d3b00c25855f0f37ecd9a8",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 118,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T137",
+      "title": "Author and review C1 topic: cross-cultural communication",
+      "path": "docs/development-plan/tickets/SC-T137.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T129"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "b7186eb1d5d3ab8f54448a144857e91782180f51d026f265f6fbb43185bd4bc4",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T129"
+      ],
+      "order": 119,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T138",
+      "title": "Integrate reviewed C1 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T138.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T130",
+        "SC-T131",
+        "SC-T132",
+        "SC-T133",
+        "SC-T134",
+        "SC-T135",
+        "SC-T136",
+        "SC-T137",
+        "SC-T019",
+        "SC-T020",
+        "SC-T032"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "155b598b5a3410aa9b2cdcbaef58340148a26903ee7d8a5a2d79479c31fc0384",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T130",
+        "SC-T131",
+        "SC-T132",
+        "SC-T133",
+        "SC-T134",
+        "SC-T135",
+        "SC-T136",
+        "SC-T137",
+        "SC-T019",
+        "SC-T020",
+        "SC-T032"
+      ],
+      "order": 120,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T139",
+      "title": "Accept C1 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T139.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T138"
+      ],
+      "parent": "SC-T033",
+      "source_sha256": "4419e00b4ea991409deab761338f012416a17abf38c334521aabca0a302b9df5",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T138"
+      ],
+      "order": 121,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T033",
+      "title": "Complete reviewed C1 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T033.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M10",
+      "dependencies": [
+        "SC-T032",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "337a9c41a0e6da1289f1b8d59bfe48330bbb0d51ca59801d0959388c53cd6e42",
+      "children": [
+        "SC-T129",
+        "SC-T130",
+        "SC-T131",
+        "SC-T132",
+        "SC-T133",
+        "SC-T134",
+        "SC-T135",
+        "SC-T136",
+        "SC-T137",
+        "SC-T138",
+        "SC-T139"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T032",
+        "SC-T006",
+        "SC-T129",
+        "SC-T130",
+        "SC-T131",
+        "SC-T132",
+        "SC-T133",
+        "SC-T134",
+        "SC-T135",
+        "SC-T136",
+        "SC-T137",
+        "SC-T138",
+        "SC-T139"
+      ],
+      "order": 122,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T140",
+      "title": "Freeze C2 unit objective and publication manifest",
+      "path": "docs/development-plan/tickets/SC-T140.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T006"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "6a96943ec439d2bfc51ecbef6f9b73516d9498f4bdf2e0c9e2e73e0a728965da",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T006"
+      ],
+      "order": 123,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T141",
+      "title": "Author and review C2 topic: Abstract ideas",
+      "path": "docs/development-plan/tickets/SC-T141.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T140"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "abdf6c68b16b1db11f15daeef16b63430e37270d7b93af929b60bd48d708a799",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T140"
+      ],
+      "order": 124,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T142",
+      "title": "Author and review C2 topic: competing interpretations",
+      "path": "docs/development-plan/tickets/SC-T142.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T140"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "4e0d97f3b20404cfbabf7f93c033d53a63a7ace2e4fb9e3d7de946378a35d4b3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T140"
+      ],
+      "order": 125,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T143",
+      "title": "Author and review C2 topic: sophisticated debate",
+      "path": "docs/development-plan/tickets/SC-T143.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T140"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "1b18c3827eb67d4c8595e402afea629dbd9a3f655eee56508dcfb8034f6afa76",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T140"
+      ],
+      "order": 126,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T144",
+      "title": "Author and review C2 topic: cultural references",
+      "path": "docs/development-plan/tickets/SC-T144.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T140"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "5598b4a0f5419e938678c9e0c37192d8af5b66204836d8563312342fc32d9ffa",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T140"
+      ],
+      "order": 127,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T145",
+      "title": "Author and review C2 topic: complex multidisciplinary problems",
+      "path": "docs/development-plan/tickets/SC-T145.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T140"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "8e257a1a80f8b0d72127d27065f651b59b762b662eeff1dc9b3696963e49198d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T140"
+      ],
+      "order": 128,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T146",
+      "title": "Integrate reviewed C2 packs without changing learner history",
+      "path": "docs/development-plan/tickets/SC-T146.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T141",
+        "SC-T142",
+        "SC-T143",
+        "SC-T144",
+        "SC-T145",
+        "SC-T019",
+        "SC-T020",
+        "SC-T033"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "4db30158b45c5eee1aaeac4744a0cad365bc25a43da72c4a0847996764abcbda",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T141",
+        "SC-T142",
+        "SC-T143",
+        "SC-T144",
+        "SC-T145",
+        "SC-T019",
+        "SC-T020",
+        "SC-T033"
+      ],
+      "order": 129,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T147",
+      "title": "Accept C2 five-skill completeness and learning evidence",
+      "path": "docs/development-plan/tickets/SC-T147.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T146"
+      ],
+      "parent": "SC-T034",
+      "source_sha256": "bd2d3283aa607e2dad1b1d122b4906084b0c00e861db13d0510d53d3e4c16c22",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T146"
+      ],
+      "order": 130,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T034",
+      "title": "Complete reviewed C2 five-skill curriculum",
+      "path": "docs/development-plan/tickets/SC-T034.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M11",
+      "dependencies": [
+        "SC-T033",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "940c4fed7e1f9665b83db34df45b2e7444a6929e577ace605861dcfa8c3f6c41",
+      "children": [
+        "SC-T140",
+        "SC-T141",
+        "SC-T142",
+        "SC-T143",
+        "SC-T144",
+        "SC-T145",
+        "SC-T146",
+        "SC-T147"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T033",
+        "SC-T006",
+        "SC-T140",
+        "SC-T141",
+        "SC-T142",
+        "SC-T143",
+        "SC-T144",
+        "SC-T145",
+        "SC-T146",
+        "SC-T147"
+      ],
+      "order": 131,
+      "stage": "full_curriculum",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T148",
+      "title": "Define conversation interview turn and workplace contracts",
+      "path": "docs/development-plan/tickets/SC-T148.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "a0917faa0e0b3ce180880813e1a21d38260a8bd4d469acd53b17cef5162492c4",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "order": 132,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T149",
+      "title": "Author reviewed workplace communication and interview scenarios",
+      "path": "docs/development-plan/tickets/SC-T149.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T148"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "2fbbc0166257f6141994a6c739f291b53eb98b7ea9e5c2b3d4a1c2217e5b338e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T148"
+      ],
+      "order": 133,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T150",
+      "title": "Deliver explicit text or recorded-turn conversation",
+      "path": "docs/development-plan/tickets/SC-T150.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T148",
+        "SC-T149",
+        "SC-T017"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "0c3e20fdcbf84dc887de3c8de932b1356f26cfe1b7e5403a1f148dc80beac052",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T148",
+        "SC-T149",
+        "SC-T017"
+      ],
+      "order": 134,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T151",
+      "title": "Deliver response-dependent interview follow-ups and retry",
+      "path": "docs/development-plan/tickets/SC-T151.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T150"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "22f2a907b14e5d78d7b97fb74df6dddf0adf70ac3854018b83701fb246593820",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T150"
+      ],
+      "order": 135,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T152",
+      "title": "Validate workplace and conversational practice boundaries",
+      "path": "docs/development-plan/tickets/SC-T152.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T151"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "954bb0e0115443b0bc7647c473c09b2b3103b32ad2ee570656e01f5e30822d9a",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T151"
+      ],
+      "order": 136,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T153",
+      "title": "Record later realtime feasibility and release decision",
+      "path": "docs/development-plan/tickets/SC-T153.md",
+      "type": "investigation",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T017"
+      ],
+      "parent": "SC-T035",
+      "source_sha256": "0278db423707f1d09ef23d422bdd9904c87f1c973154833179dc206d09cdf615",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T017"
+      ],
+      "order": 137,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T035",
+      "title": "Deliver interview business and expanded speaking coverage",
+      "path": "docs/development-plan/tickets/SC-T035.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "9f84c847b524a6b546865379ca023cc6730dccf71e8dd9739d0fd5e9ff7f599b",
+      "children": [
+        "SC-T148",
+        "SC-T149",
+        "SC-T150",
+        "SC-T151",
+        "SC-T152",
+        "SC-T153"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T006",
+        "SC-T148",
+        "SC-T149",
+        "SC-T150",
+        "SC-T151",
+        "SC-T152",
+        "SC-T153"
+      ],
+      "order": 138,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T154",
+      "title": "Freeze communication and articulation teaching subsets",
+      "path": "docs/development-plan/tickets/SC-T154.md",
+      "type": "decision",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "dc7abac00ba2858ffc44e997f05a36dd0c4c6f18d7e7abf7f9fb9bb4a12eb91c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T028"
+      ],
+      "order": 139,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T155",
+      "title": "Author reviewed organization listening and interaction drills",
+      "path": "docs/development-plan/tickets/SC-T155.md",
+      "type": "content",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T154",
+        "SC-T006"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "e8aca52eda817c4c18109ace5b4603583698741f96ca4ee7318f462ab33051aa",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T154",
+        "SC-T006"
+      ],
+      "order": 140,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T156",
+      "title": "Author reviewed articulation and delivery reference drills",
+      "path": "docs/development-plan/tickets/SC-T156.md",
+      "type": "content",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T154",
+        "SC-T006"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "e2ceb0eb9e2c3a62d4fe426f5e568175120664b538df4b35f008b266883cfff3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T154",
+        "SC-T006"
+      ],
+      "order": 141,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T157",
+      "title": "Deliver shared offline communication and articulation practice",
+      "path": "docs/development-plan/tickets/SC-T157.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T155",
+        "SC-T156",
+        "SC-T021"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "0f2b3b6469ba29725d4ae51432423a35ffd325b20861819732c9285021e0c587",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T155",
+        "SC-T156",
+        "SC-T021"
+      ],
+      "order": 142,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T158",
+      "title": "Validate the audio assessment boundary before sound feedback",
+      "path": "docs/development-plan/tickets/SC-T158.md",
+      "type": "investigation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T156",
+        "SC-T003"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "988a7bc32e2e99850198f5a9b0a2a2dfa05b95c2d2f96fa7d6cf4d0e491c2ff8",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T156",
+        "SC-T003"
+      ],
+      "order": 143,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T159",
+      "title": "Deliver supported focused communication feedback",
+      "path": "docs/development-plan/tickets/SC-T159.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T157",
+        "SC-T158",
+        "SC-T014",
+        "SC-T012"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "91087512fa753cc5469da5e4ba3fe9afcc20f8b4c7dbab5305f699a7676f1607",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T157",
+        "SC-T158",
+        "SC-T014",
+        "SC-T012"
+      ],
+      "order": 144,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T160",
+      "title": "Validate communication articulation and fresh-task evidence",
+      "path": "docs/development-plan/tickets/SC-T160.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T159"
+      ],
+      "parent": "SC-T036",
+      "source_sha256": "2f9af2451b3758f12e834dfffdcbb46a9213d592e08afdab7111b18b248f87d6",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T159"
+      ],
+      "order": 145,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T036",
+      "title": "Deliver communication and articulation practice",
+      "path": "docs/development-plan/tickets/SC-T036.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028"
+      ],
+      "parent": null,
+      "source_sha256": "c47cb27e2edf91f3b29a75efa7119910c80bfabbdee9f4e22321cc745c2d0e97",
+      "children": [
+        "SC-T154",
+        "SC-T155",
+        "SC-T156",
+        "SC-T157",
+        "SC-T158",
+        "SC-T159",
+        "SC-T160"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T154",
+        "SC-T155",
+        "SC-T156",
+        "SC-T157",
+        "SC-T158",
+        "SC-T159",
+        "SC-T160"
+      ],
+      "order": 146,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T161",
+      "title": "Define bounded generation validation and reporting policy",
+      "path": "docs/development-plan/tickets/SC-T161.md",
+      "type": "decision",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T003"
+      ],
+      "parent": "SC-T037",
+      "source_sha256": "f732d6559363b037b50b846c1f3ef7c9a9dd477e27537e1ea869ce1406c6d856",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T028",
+        "SC-T003"
+      ],
+      "order": 147,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T162",
+      "title": "Generate and validate one explicit practice request safely",
+      "path": "docs/development-plan/tickets/SC-T162.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T161",
+        "SC-T014"
+      ],
+      "parent": "SC-T037",
+      "source_sha256": "d34b6e1825a65639bf4509f3b653c5d05c8a86f1d2b05f752fc0134594841c5d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T161",
+        "SC-T014"
+      ],
+      "order": 148,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T163",
+      "title": "Reuse compatible variants without resetting learning identities",
+      "path": "docs/development-plan/tickets/SC-T163.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T162"
+      ],
+      "parent": "SC-T037",
+      "source_sha256": "0c17c2f40c039c70a3d933cbb04be741a414885032124e03fdeaaf3a46dbc454",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T162"
+      ],
+      "order": 149,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T164",
+      "title": "Record and resolve incorrect-activity reports locally",
+      "path": "docs/development-plan/tickets/SC-T164.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T163"
+      ],
+      "parent": "SC-T037",
+      "source_sha256": "09732d494b60da854059bbcd19221cb5385310d24b95375e0e6d043c2dc454d5",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T163"
+      ],
+      "order": 150,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T037",
+      "title": "Generate validated practice with offline fallbacks",
+      "path": "docs/development-plan/tickets/SC-T037.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T003"
+      ],
+      "parent": null,
+      "source_sha256": "b92492c6ac8ecec5a3764910b7439ab12ac04fe993dd6659cd2ab2ef6cd53167",
+      "children": [
+        "SC-T161",
+        "SC-T162",
+        "SC-T163",
+        "SC-T164"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T003",
+        "SC-T161",
+        "SC-T162",
+        "SC-T163",
+        "SC-T164"
+      ],
+      "order": 151,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T165",
+      "title": "Create and edit custom vocabulary topics offline",
+      "path": "docs/development-plan/tickets/SC-T165.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T023"
+      ],
+      "parent": "SC-T038",
+      "source_sha256": "40622a4e2258b754cb9192b2dac3d4bd803e66d9d9fabd9bd51327661473b423",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T023"
+      ],
+      "order": 152,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T166",
+      "title": "Preview select and enroll generated topic vocabulary",
+      "path": "docs/development-plan/tickets/SC-T166.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T165",
+        "SC-T037"
+      ],
+      "parent": "SC-T038",
+      "source_sha256": "0a21764b887426e6cc268528008925476cb90c7df0c2eb54a62f8caf1566c4be",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T165",
+        "SC-T037"
+      ],
+      "order": 153,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T167",
+      "title": "Deliver a stable Word of the Day with offline fallback",
+      "path": "docs/development-plan/tickets/SC-T167.md",
+      "type": "implementation",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T166",
+        "SC-T055"
+      ],
+      "parent": "SC-T038",
+      "source_sha256": "46cb104b2a113740a07f2d7a88a3376ba8574e18339c56df829e894c9559ec5d",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T166",
+        "SC-T055"
+      ],
+      "order": 154,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T038",
+      "title": "Deliver Word of Day and custom vocabulary topics",
+      "path": "docs/development-plan/tickets/SC-T038.md",
+      "type": "delivery group",
+      "status_snapshot": "in_progress",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T023",
+        "SC-T037"
+      ],
+      "parent": null,
+      "source_sha256": "cf34e861f03c16fd2386be0e4a2e02e1885041d51688af79ad97e594168fdd79",
+      "children": [
+        "SC-T165",
+        "SC-T166",
+        "SC-T167"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T023",
+        "SC-T037",
+        "SC-T165",
+        "SC-T166",
+        "SC-T167"
+      ],
+      "order": 155,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T168",
+      "title": "Decide resource destinations metadata and thumbnail rights",
+      "path": "docs/development-plan/tickets/SC-T168.md",
+      "type": "decision",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028"
+      ],
+      "parent": "SC-T039",
+      "source_sha256": "101a10349016e526d376876f2e9d3312d283901140a474f9035b8fef8df6247e",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T028"
+      ],
+      "order": 156,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T169",
+      "title": "Save curated and personal resource cards safely",
+      "path": "docs/development-plan/tickets/SC-T169.md",
+      "type": "implementation",
+      "status_snapshot": "awaiting_testing",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T168"
+      ],
+      "parent": "SC-T039",
+      "source_sha256": "5cf6439a783b90faf201cf5ba94d452e3fd675ffbfc29ec9bb2858350d8f77b3",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T168"
+      ],
+      "order": 157,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T039",
+      "title": "Deliver supporting resource bookmarks",
+      "path": "docs/development-plan/tickets/SC-T039.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028"
+      ],
+      "parent": null,
+      "source_sha256": "946a94fcb9546c45cce5fc6182e02ddff7c46a6291eb1540f7eb141952f0d99b",
+      "children": [
+        "SC-T168",
+        "SC-T169"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T168",
+        "SC-T169"
+      ],
+      "order": 158,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T182",
+      "title": "Freeze all-seven role objective and level coverage matrix",
+      "path": "docs/development-plan/tickets/SC-T182.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "ef7f03fe23fb4ab274aa102364c24f4947a327f8987958acd08d4f30171932df",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "order": 159,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T183",
+      "title": "Resolve Creative Writer character and optional voice design",
+      "path": "docs/development-plan/tickets/SC-T183.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T007",
+        "SC-T158"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "fb82b445d756774914061723a0bb4bc991756cf9af5d1cb313b331269928a09f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T007",
+        "SC-T158"
+      ],
+      "order": 160,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T184",
+      "title": "Run explicit specialist packs with safe switch and course return",
+      "path": "docs/development-plan/tickets/SC-T184.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T021"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "af8fa8ab29801d37ecc414a4f67aa951240d08c4ad2669f4a305c62e4a3f8776",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T021"
+      ],
+      "order": 161,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T185",
+      "title": "Author and review Teacher specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T185.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "5c496e0ba6177167d9656d2c8ee2d92cc66be85f72815172437a63a771250270",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182"
+      ],
+      "order": 162,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T186",
+      "title": "Author and review Grammarian specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T186.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "2e1408397708385925fc661ce2d973674b41b76003e3790a4d1ee29a83dc4a81",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182"
+      ],
+      "order": 163,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T187",
+      "title": "Author and review Librarian specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T187.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "f6d1ee5a8ab26aa3dfd57f932cdd8b636ecef9f3812ed1a7e08b0edccb57ac32",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182"
+      ],
+      "order": 164,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T188",
+      "title": "Author and review Journalist specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T188.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T155"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "1c0cfe3596ca12ea5f099f130e3b1a6c2192797eeb735728585b7cd97f2ff3ec",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T155"
+      ],
+      "order": 165,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T189",
+      "title": "Author and review Business Professional specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T189.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T149"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "6d73bd67a7b2e3e27352a202a5825c1d95c834d027e2271688e584867f8124f8",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T149"
+      ],
+      "order": 166,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T190",
+      "title": "Author and review Speaker specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T190.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T156",
+        "SC-T158"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "b1b8b2897b361965b9d922b58755729037bdef793196e4b40cabc4ee3808ffff",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T156",
+        "SC-T158"
+      ],
+      "order": 167,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T191",
+      "title": "Author and review Creative Writer specialist pack coverage",
+      "path": "docs/development-plan/tickets/SC-T191.md",
+      "type": "content",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T182",
+        "SC-T183",
+        "SC-T155"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "90d0aa8d50648cee6b851763d353aab537eb19e2ec9d8cc9b0c0dac7e8b07263",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T182",
+        "SC-T183",
+        "SC-T155"
+      ],
+      "order": 168,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "qualified_review_and_rights"
+      ]
+    },
+    {
+      "ticket": "SC-T192",
+      "title": "Validate all-seven specialist methods and retained learning",
+      "path": "docs/development-plan/tickets/SC-T192.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T184",
+        "SC-T185",
+        "SC-T186",
+        "SC-T187",
+        "SC-T188",
+        "SC-T189",
+        "SC-T190",
+        "SC-T191"
+      ],
+      "parent": "SC-T044",
+      "source_sha256": "ee3cfcbd0018a27a3179261f6eb52e59699666c4f3dd740c1b61b5dd7bded174",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T184",
+        "SC-T185",
+        "SC-T186",
+        "SC-T187",
+        "SC-T188",
+        "SC-T189",
+        "SC-T190",
+        "SC-T191"
+      ],
+      "order": 169,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "learner_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T044",
+      "title": "Deliver and validate seven specialized trainer packs",
+      "path": "docs/development-plan/tickets/SC-T044.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M12",
+      "dependencies": [
+        "SC-T028",
+        "SC-T006"
+      ],
+      "parent": null,
+      "source_sha256": "2d00b1bdce3f057da00660a47e8601673eb6bb2764f87d75b751e357d6df5cea",
+      "children": [
+        "SC-T182",
+        "SC-T183",
+        "SC-T184",
+        "SC-T185",
+        "SC-T186",
+        "SC-T187",
+        "SC-T188",
+        "SC-T189",
+        "SC-T190",
+        "SC-T191",
+        "SC-T192"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T028",
+        "SC-T006",
+        "SC-T182",
+        "SC-T183",
+        "SC-T184",
+        "SC-T185",
+        "SC-T186",
+        "SC-T187",
+        "SC-T188",
+        "SC-T189",
+        "SC-T190",
+        "SC-T191",
+        "SC-T192"
+      ],
+      "order": 170,
+      "stage": "expanded_practice",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T170",
+      "title": "Audit complete level and foundation publication coverage",
+      "path": "docs/development-plan/tickets/SC-T170.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T034",
+        "SC-T006"
+      ],
+      "parent": "SC-T040",
+      "source_sha256": "a913b462c6edd078ca3bbcd4957d66130e1850fa878d942aa8348fbbb680e439",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T034",
+        "SC-T006"
+      ],
+      "order": 171,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T171",
+      "title": "Audit all-seven trainer workplace and practice capability claims",
+      "path": "docs/development-plan/tickets/SC-T171.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T035",
+        "SC-T036",
+        "SC-T037",
+        "SC-T038",
+        "SC-T039",
+        "SC-T044"
+      ],
+      "parent": "SC-T040",
+      "source_sha256": "f7d2cda16d6b5df133809502def77836681d4bfbd2c28500a7f3bce3a27f3aac",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T035",
+        "SC-T036",
+        "SC-T037",
+        "SC-T038",
+        "SC-T039",
+        "SC-T044"
+      ],
+      "order": 172,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T172",
+      "title": "Audit all award families evidence states and unchanged economics",
+      "path": "docs/development-plan/tickets/SC-T172.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T170",
+        "SC-T171",
+        "SC-T024",
+        "SC-T025"
+      ],
+      "parent": "SC-T040",
+      "source_sha256": "08e470752debe80c7962b9408635b03d27f5fa34e53f96e898938e4331ea0c23",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T170",
+        "SC-T171",
+        "SC-T024",
+        "SC-T025"
+      ],
+      "order": 173,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T040",
+      "title": "Audit full release curriculum and capability coverage",
+      "path": "docs/development-plan/tickets/SC-T040.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T034",
+        "SC-T035",
+        "SC-T036",
+        "SC-T037",
+        "SC-T038",
+        "SC-T039",
+        "SC-T044"
+      ],
+      "parent": null,
+      "source_sha256": "3d7abd5b8b3efc0933b1a91362102db5133929208c6ab8dd5de3d2690ec91053",
+      "children": [
+        "SC-T170",
+        "SC-T171",
+        "SC-T172"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T034",
+        "SC-T035",
+        "SC-T036",
+        "SC-T037",
+        "SC-T038",
+        "SC-T039",
+        "SC-T044",
+        "SC-T170",
+        "SC-T171",
+        "SC-T172"
+      ],
+      "order": 174,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T173",
+      "title": "Freeze release regression matrix and measurable budgets",
+      "path": "docs/development-plan/tickets/SC-T173.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T040"
+      ],
+      "parent": "SC-T041",
+      "source_sha256": "6ac0aa4d0dffcd774ab4494904781bcdf674cb9a7def784804942f9a62a2084f",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T040"
+      ],
+      "order": 175,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T175",
+      "title": "Verify all supported native appearance and accessibility journeys",
+      "path": "docs/development-plan/tickets/SC-T175.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T173"
+      ],
+      "parent": "SC-T041",
+      "source_sha256": "e3e4c94105ab9398e9a967a49b447ebb8619e98980f38ab4c0f1bf4a42eb7f53",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T173"
+      ],
+      "order": 176,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T176",
+      "title": "Verify credential cost and network failure containment",
+      "path": "docs/development-plan/tickets/SC-T176.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T173"
+      ],
+      "parent": "SC-T041",
+      "source_sha256": "75653753b48a8b27c8bba75a3e14184679f42f1561659bd63f1525a361212a28",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T173"
+      ],
+      "order": 177,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance",
+        "live_provider"
+      ]
+    },
+    {
+      "ticket": "SC-T177",
+      "title": "Define selected export and any explicit restore boundary",
+      "path": "docs/development-plan/tickets/SC-T177.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T004",
+        "SC-T028"
+      ],
+      "parent": "SC-T042",
+      "source_sha256": "007d5f9a65879f42a2a0e5054619adb5a6850b92e94cb6da36de31b453076126",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T004",
+        "SC-T028"
+      ],
+      "order": 178,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices"
+      ]
+    },
+    {
+      "ticket": "SC-T178",
+      "title": "Export only explicitly selected retained learner data",
+      "path": "docs/development-plan/tickets/SC-T178.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T177",
+        "SC-T015"
+      ],
+      "parent": "SC-T042",
+      "source_sha256": "f37718cc7e77bb7a0ea07e799e5908817e615bb0aef98563330f7b3613a0c28c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T177",
+        "SC-T015"
+      ],
+      "order": 179,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence"
+      ]
+    },
+    {
+      "ticket": "SC-T174",
+      "title": "Verify persistence upgrades retention export and reset recovery",
+      "path": "docs/development-plan/tickets/SC-T174.md",
+      "type": "acceptance",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T173",
+        "SC-T178"
+      ],
+      "parent": "SC-T041",
+      "source_sha256": "f7e8e5da306247cf7e2ccdb3d4ec184e1ce7ca930dd45146e5ea8de6b08140a6",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T173",
+        "SC-T178"
+      ],
+      "order": 180,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "real_acceptance"
+      ]
+    },
+    {
+      "ticket": "SC-T041",
+      "title": "Verify release reliability privacy and accessibility",
+      "path": "docs/development-plan/tickets/SC-T041.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T040"
+      ],
+      "parent": null,
+      "source_sha256": "4f717fd8938a07a7523d64dfad577835bf82871e2a92530e98c0fb0d025ce98a",
+      "children": [
+        "SC-T173",
+        "SC-T174",
+        "SC-T175",
+        "SC-T176"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T040",
+        "SC-T173",
+        "SC-T174",
+        "SC-T175",
+        "SC-T176"
+      ],
+      "order": 181,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    },
+    {
+      "ticket": "SC-T179",
+      "title": "Select distribution signing identity and release recovery procedure",
+      "path": "docs/development-plan/tickets/SC-T179.md",
+      "type": "decision",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T040"
+      ],
+      "parent": "SC-T042",
+      "source_sha256": "9ad2d333ce67a18e1edf82dc77a25b3c204f218b535c334516d71fa599a9638c",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T040"
+      ],
+      "order": 182,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "unapproved_choices",
+        "physical_signing_distribution"
+      ]
+    },
+    {
+      "ticket": "SC-T180",
+      "title": "Prepare a repeatable signed release candidate",
+      "path": "docs/development-plan/tickets/SC-T180.md",
+      "type": "implementation",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T041",
+        "SC-T179"
+      ],
+      "parent": "SC-T042",
+      "source_sha256": "73a847c5625dd46a523890be0b01bb32ab3455a5a14097d36f296e0bfd0c58cc",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T041",
+        "SC-T179"
+      ],
+      "order": 183,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "physical_signing_distribution"
+      ]
+    },
+    {
+      "ticket": "SC-T181",
+      "title": "Write verified release and recovery handoff",
+      "path": "docs/development-plan/tickets/SC-T181.md",
+      "type": "documentation",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T180"
+      ],
+      "parent": "SC-T042",
+      "source_sha256": "1381867b526adde0127bee5008ec7f4c836e98365fc9ec173157c2961e50e382",
+      "children": [],
+      "action": "execute_ticket",
+      "requires_done": [
+        "SC-T180"
+      ],
+      "order": 184,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "physical_signing_distribution"
+      ]
+    },
+    {
+      "ticket": "SC-T042",
+      "title": "Prepare distribution recovery and release handoff",
+      "path": "docs/development-plan/tickets/SC-T042.md",
+      "type": "delivery group",
+      "status_snapshot": "pending",
+      "milestone": "M13",
+      "dependencies": [
+        "SC-T041"
+      ],
+      "parent": null,
+      "source_sha256": "1b7ef2a5d903ccae2f18cdb71128024110ffa296f9bda64736169d48dc17ad0e",
+      "children": [
+        "SC-T177",
+        "SC-T178",
+        "SC-T179",
+        "SC-T180",
+        "SC-T181"
+      ],
+      "action": "verify_group_closure",
+      "requires_done": [
+        "SC-T041",
+        "SC-T177",
+        "SC-T178",
+        "SC-T179",
+        "SC-T180",
+        "SC-T181"
+      ],
+      "order": 185,
+      "stage": "release",
+      "gate_policy_refs": [
+        "owner_start",
+        "dependency_and_scope",
+        "completion_evidence",
+        "group_closure"
+      ]
+    }
+  ],
+  "action_level_gate_policies": {
+    "any_real_provider_request": "live_provider",
+    "any_reviewed_content_publication_or_qualified_rubric_claim": "qualified_review_and_rights",
+    "any_actual_learner_assessment_or_expansion": "learner_evidence",
+    "any_physical_install_signing_account_change_or_distribution": "physical_signing_distribution",
+    "any_acceptance_or_done_claim": "completion_evidence"
+  },
+  "active_ticket": null,
+  "continuous_execution_authorized": true,
+  "verification_pending_tickets": [
+    "SC-T011",
+    "SC-T012",
+    "SC-T013",
+    "SC-T014",
+    "SC-T015",
+    "SC-T016",
+    "SC-T017",
+    "SC-T018",
+    "SC-T019",
+    "SC-T020",
+    "SC-T021",
+    "SC-T046",
+    "SC-T047",
+    "SC-T048",
+    "SC-T049",
+    "SC-T050",
+    "SC-T051",
+    "SC-T052",
+    "SC-T054",
+    "SC-T073",
+    "SC-T074",
+    "SC-T075",
+    "SC-T076",
+    "SC-T077",
+    "SC-T078",
+    "SC-T079",
+    "SC-T080",
+    "SC-T081",
+    "SC-T082",
+    "SC-T083",
+    "SC-T084",
+    "SC-T085",
+    "SC-T086",
+    "SC-T087",
+    "SC-T165",
+    "SC-T168",
+    "SC-T169"
+  ],
+  "active_group": {
+    "name": "sc-d005-rewards",
+    "tickets": [
+      "SC-T025",
+      "SC-T053",
+      "SC-T055",
+      "SC-T056",
+      "SC-T057",
+      "SC-T058",
+      "SC-T059",
+      "SC-T060",
+      "SC-T061",
+      "SC-T062"
+    ],
+    "owner": "Codex",
+    "plan": "docs/development-plan/sc-d005-2026-10-25/README.md",
+    "implementation_status": "in_progress",
+    "remaining": "Original actual acceptance and prerequisites; no learning/CEFR/future target auto-activation"
+  },
+  "status_counts": {
+    "pending": 115,
+    "awaiting_testing": 37,
+    "in_progress": 29,
+    "done": 11,
+    "blocked": 0
+  },
+  "implementation_remaining_tickets": [
+    "SC-T150",
+    "SC-T151",
+    "SC-T154",
+    "SC-T155",
+    "SC-T156",
+    "SC-T157",
+    "SC-T158",
+    "SC-T159",
+    "SC-T161",
+    "SC-T162",
+    "SC-T163",
+    "SC-T164",
+    "SC-T166",
+    "SC-T167"
+  ],
+  "status_policy": {
+    "awaiting_testing": "Implementation complete; testing/acceptance remains. Does not satisfy requires_done. Return to in_progress if a defect requires code.",
+    "in_progress": "Implementation/content/decision work remains.",
+    "done": "All original acceptance and prerequisites satisfied."
+  },
+  "parallel_preparation": {
+    "owner": "Grok",
+    "kind": "claimed_acceptance_completion_not_verified",
+    "tickets": [
+      "SC-T168",
+      "SC-T169"
+    ],
+    "handoff": "docs/development-plan/handoffs/grok-sc-d017-acceptance-2026-10-25.md",
+    "dispatch_status": "owner_reported_done_expected_return_absent_codex_took_over",
+    "ownership": "No active Grok file ownership inferred. Codex owns SC-D017 and all shared integration/tests/builds/status; SC-D018 deferred per owner correction."
+  },
+  "active_delivery": {
+    "id": "SC-D005",
+    "owner": "Codex",
+    "scope": "Owner-adopted local rewards, all-68 availability and native motivation lifecycle",
+    "record": "docs/development-plan/sc-d005-2026-10-25/README.md",
+    "implementation_status": "in_progress"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-23",
+  "authorization": "Owner: Continue SC-D007 and implement remaining code, including preserving existing v2 journeys; qualified review and actual acceptance stay separate.",
+  "packVersion": "3",
+  "currentLessons": 57,
+  "newA1Versions": 12,
+  "archivedVersions": 13,
+  "unchanged": "Exact INTRO v3, A2-C2, audio bytes/asset declarations, shared senses and learner storage schema.",
+  "introV2Source": "application/.build/IPadAcceptanceDerivedData/Build/Products/Debug-iphoneos/SpeechCoachAI.app/CurriculumCatalog.json",
+  "introV2SourceCatalogSHA256": "b6091484fb8a71cd4d1e6a087abac20988c67381030269e92701baec246971fe",
+  "introV2LessonSHA256": "57416365a2e7c957beb2700af6dcb67cce50ddb4d19fc0e1df04717ccd36f4cf",
+  "personalUsePreview": true,
+  "qualifiedPublicationApproved": false,
+  "introV2ArchiveReference": "integration/intro-v2.json"
+}

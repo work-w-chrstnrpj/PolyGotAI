@@ -1,0 +1,1718 @@
+[
+  {
+    "id": "2:40308",
+    "name": "Button",
+    "properties": {
+      "Label#2:13": {
+        "type": "TEXT",
+        "defaultValue": "Continue"
+      },
+      "Style": {
+        "type": "VARIANT",
+        "defaultValue": "primary",
+        "variantOptions": [
+          "primary",
+          "secondary",
+          "disabled",
+          "plain"
+        ]
+      },
+      "Configuration": {
+        "type": "VARIANT",
+        "defaultValue": "1",
+        "variantOptions": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "2:40073",
+        "name": "Style=primary, Configuration=1",
+        "variantProperties": {
+          "Style": "primary",
+          "Configuration": "1"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09019608050584793,
+              "g": 0.42352941632270813,
+              "b": 0.3764705955982208
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40076",
+        "name": "Style=secondary, Configuration=2",
+        "variantProperties": {
+          "Style": "secondary",
+          "Configuration": "2"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8823529481887817,
+              "g": 0.9215686321258545,
+              "b": 0.8901960849761963
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40079",
+        "name": "Style=disabled, Configuration=3",
+        "variantProperties": {
+          "Style": "disabled",
+          "Configuration": "3"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8470588326454163,
+              "g": 0.8705882430076599,
+              "b": 0.8549019694328308
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40122",
+        "name": "Style=primary, Configuration=4",
+        "variantProperties": {
+          "Style": "primary",
+          "Configuration": "4"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.658823549747467,
+              "g": 0.8470588326454163,
+              "b": 0.7647058963775635
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40149",
+        "name": "Style=primary, Configuration=5",
+        "variantProperties": {
+          "Style": "primary",
+          "Configuration": "5"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.26274511218070984,
+              "g": 0.30588236451148987,
+              "b": 0.5215686559677124
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40176",
+        "name": "Style=primary, Configuration=6",
+        "variantProperties": {
+          "Style": "primary",
+          "Configuration": "6"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.1568627506494522,
+              "g": 0.3686274588108063,
+              "b": 0.5254902243614197
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40251",
+        "name": "Style=plain, Configuration=7",
+        "variantProperties": {
+          "Style": "plain",
+          "Configuration": "7"
+        },
+        "width": 190,
+        "height": 50,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 0,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "itemSpacing": 0,
+        "cornerRadius": 14
+      }
+    ]
+  },
+  {
+    "id": "2:40309",
+    "name": "Switch",
+    "properties": {
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "on",
+        "variantOptions": [
+          "on",
+          "off"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "2:40082",
+        "name": "State=on",
+        "variantProperties": {
+          "State": "on"
+        },
+        "width": 51,
+        "height": 31,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.09019608050584793,
+              "g": 0.42352941632270813,
+              "b": 0.3764705955982208
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "paddingLeft": 2,
+        "paddingRight": 2,
+        "itemSpacing": 0,
+        "cornerRadius": 20
+      },
+      {
+        "id": "2:40085",
+        "name": "State=off",
+        "variantProperties": {
+          "State": "off"
+        },
+        "width": 51,
+        "height": 31,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.7215686440467834,
+              "g": 0.7607843279838562,
+              "b": 0.7372549176216125
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "paddingLeft": 2,
+        "paddingRight": 2,
+        "itemSpacing": 0,
+        "cornerRadius": 20
+      }
+    ]
+  },
+  {
+    "id": "2:40310",
+    "name": "Answer option",
+    "properties": {
+      "Label#2:14": {
+        "type": "TEXT",
+        "defaultValue": "am"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "unselected",
+        "variantOptions": [
+          "unselected",
+          "selected"
+        ]
+      },
+      "Configuration": {
+        "type": "VARIANT",
+        "defaultValue": "1",
+        "variantOptions": [
+          "1",
+          "2"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "2:40279",
+        "name": "State=unselected, Configuration=1",
+        "variantProperties": {
+          "State": "unselected",
+          "Configuration": "1"
+        },
+        "width": 1342,
+        "height": 60,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 18,
+        "paddingBottom": 18,
+        "paddingLeft": 18,
+        "paddingRight": 18,
+        "itemSpacing": 14,
+        "cornerRadius": 14
+      },
+      {
+        "id": "2:40283",
+        "name": "State=selected, Configuration=2",
+        "variantProperties": {
+          "State": "selected",
+          "Configuration": "2"
+        },
+        "width": 1342,
+        "height": 60,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8823529481887817,
+              "g": 0.9215686321258545,
+              "b": 0.8901960849761963
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 18,
+        "paddingBottom": 18,
+        "paddingLeft": 18,
+        "paddingRight": 18,
+        "itemSpacing": 14,
+        "cornerRadius": 14
+      }
+    ]
+  },
+  {
+    "id": "2:40311",
+    "name": "Tab bar",
+    "properties": {
+      "Configuration": {
+        "type": "VARIANT",
+        "defaultValue": "1",
+        "variantOptions": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "2:40119",
+        "name": "Configuration=1",
+        "variantProperties": {
+          "Configuration": "1"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40146",
+        "name": "Configuration=2",
+        "variantProperties": {
+          "Configuration": "2"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.125490203499794,
+              "g": 0.23137255012989044,
+              "b": 0.2078431397676468
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40173",
+        "name": "Configuration=3",
+        "variantProperties": {
+          "Configuration": "3"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40200",
+        "name": "Configuration=4",
+        "variantProperties": {
+          "Configuration": "4"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40224",
+        "name": "Configuration=5",
+        "variantProperties": {
+          "Configuration": "5"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40248",
+        "name": "Configuration=6",
+        "variantProperties": {
+          "Configuration": "6"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40275",
+        "name": "Configuration=7",
+        "variantProperties": {
+          "Configuration": "7"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      },
+      {
+        "id": "2:40307",
+        "name": "Configuration=8",
+        "variantProperties": {
+          "Configuration": "8"
+        },
+        "width": 1342,
+        "height": 83,
+        "boundVariables": {},
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 0.9960784316062927,
+              "b": 0.9803921580314636
+            },
+            "boundVariables": {}
+          }
+        ],
+        "paddingTop": 9,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "itemSpacing": 8,
+        "cornerRadius": 0
+      }
+    ]
+  },
+  {
+    "id": "41:1105",
+    "name": "Kit / Content row",
+    "properties": {
+      "Title#41:4": {
+        "type": "TEXT",
+        "defaultValue": "Everyday introductions"
+      },
+      "Detail#41:5": {
+        "type": "TEXT",
+        "defaultValue": "A1 \u00b7 Grammar, words and speaking"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "41:1099",
+        "name": "State=Default",
+        "variantProperties": {
+          "State": "Default"
+        },
+        "width": 336,
+        "height": 89,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1102",
+        "name": "State=Selected",
+        "variantProperties": {
+          "State": "Selected"
+        },
+        "width": 336,
+        "height": 89,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1061"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8823529481887817,
+              "g": 0.9215686321258545,
+              "b": 0.8901960849761963
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1061"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      }
+    ]
+  },
+  {
+    "id": "41:1127",
+    "name": "Kit / Input",
+    "properties": {
+      "Title#41:14": {
+        "type": "TEXT",
+        "defaultValue": "A note for next time"
+      },
+      "Detail#41:15": {
+        "type": "TEXT",
+        "defaultValue": "Add your own words\u2026"
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Focused",
+          "Error",
+          "Disabled"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "41:1115",
+        "name": "State=Default",
+        "variantProperties": {
+          "State": "Default"
+        },
+        "width": 336,
+        "height": 89,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1118",
+        "name": "State=Focused",
+        "variantProperties": {
+          "State": "Focused"
+        },
+        "width": 336,
+        "height": 93,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1121",
+        "name": "State=Error",
+        "variantProperties": {
+          "State": "Error"
+        },
+        "width": 336,
+        "height": 93,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1124",
+        "name": "State=Disabled",
+        "variantProperties": {
+          "State": "Disabled"
+        },
+        "width": 336,
+        "height": 89,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      }
+    ]
+  },
+  {
+    "id": "41:1155",
+    "name": "Kit / Status",
+    "properties": {
+      "Title#41:24": {
+        "type": "TEXT",
+        "defaultValue": "Your practice starts here"
+      },
+      "Detail#41:25": {
+        "type": "TEXT",
+        "defaultValue": "Record an introduction or add your first word."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Empty",
+        "variantOptions": [
+          "Empty",
+          "Loading",
+          "Offline",
+          "Error"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "41:1143",
+        "name": "State=Empty",
+        "variantProperties": {
+          "State": "Empty"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1146",
+        "name": "State=Loading",
+        "variantProperties": {
+          "State": "Loading"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1149",
+        "name": "State=Offline",
+        "variantProperties": {
+          "State": "Offline"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1152",
+        "name": "State=Error",
+        "variantProperties": {
+          "State": "Error"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      }
+    ]
+  },
+  {
+    "id": "41:1177",
+    "name": "Kit / Coaching card",
+    "properties": {
+      "Title#41:30": {
+        "type": "TEXT",
+        "defaultValue": "One clear next step"
+      },
+      "Detail#41:31": {
+        "type": "TEXT",
+        "defaultValue": "Add a specific example to make your introduction clearer."
+      },
+      "State": {
+        "type": "VARIANT",
+        "defaultValue": "Default",
+        "variantOptions": [
+          "Default",
+          "Selected"
+        ]
+      }
+    },
+    "variants": [
+      {
+        "id": "41:1171",
+        "name": "State=Default",
+        "variantProperties": {
+          "State": "Default"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1057"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1057"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      },
+      {
+        "id": "41:1174",
+        "name": "State=Selected",
+        "variantProperties": {
+          "State": "Selected"
+        },
+        "width": 336,
+        "height": 112,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1065"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1067"
+          },
+          "topLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "topRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomLeftRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "bottomRightRadius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:41:1071"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:41:1061"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.8823529481887817,
+              "g": 0.9215686321258545,
+              "b": 0.8901960849761963
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:41:1061"
+              }
+            }
+          }
+        ],
+        "paddingTop": 16,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "itemSpacing": 8,
+        "cornerRadius": 18
+      }
+    ]
+  }
+]

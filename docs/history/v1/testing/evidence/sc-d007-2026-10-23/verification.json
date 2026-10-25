@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Manila",
+  "xcode": "Xcode 27.0\nBuild version 27A266a",
+  "initialBuild": "sc-d007-first.xcresult: build database locked; no tests ran. Retained separately.",
+  "runs": [
+    {
+      "artifact": "application/.build/sc-d007-hosted.xcresult",
+      "result": "Failed",
+      "passed": 146,
+      "failed": 2,
+      "total": 148,
+      "failures": [
+        {
+          "test": "approvedPersonalUseLessonsStayReadyAndSeparate()",
+          "reason": "Expectation failed: approved.map(\\.contentVersion) == [\"2\", \"2\", \"2\"]"
+        },
+        {
+          "test": "oneLessonCannotResumeOrCompleteAnother()",
+          "reason": "Expectation failed: expected error \".objectiveMismatch\" of type LessonProgressError, but \".unknownActivity\" of type LessonProgressError was thrown instead: LessonProgressError.objectiveMismatch"
+        }
+      ],
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName": "iPhone 18 Pro",
+        "modelName": "iPhone 18 Pro",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      }
+    },
+    {
+      "artifact": "application/.build/sc-d007-integrated.xcresult",
+      "result": "Failed",
+      "passed": 149,
+      "failed": 2,
+      "total": 151,
+      "failures": [
+        {
+          "test": "testA1PreviewResumesV2AndExplicitlyStartsV3()",
+          "reason": "Failed to tap \"lesson.versions\" Button: No matches found for Elements matching predicate '\"lesson.versions\" IN identifiers' from input {("
+        },
+        {
+          "test": "testLessonSpeakingSelfReviewReturnsWithoutTypingOrRetention()",
+          "reason": "Failed to tap \"lesson.contents\" Button: No matches found for Elements matching predicate '\"lesson.contents\" IN identifiers' from input {("
+        }
+      ],
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName": "iPhone 18 Pro",
+        "modelName": "iPhone 18 Pro",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      }
+    },
+    {
+      "artifact": "application/.build/sc-d007-tablet.xcresult",
+      "result": "Failed",
+      "passed": 152,
+      "failed": 1,
+      "total": 153,
+      "failures": [
+        {
+          "test": "testA1PreviewResumesV2AndExplicitlyStartsV3()",
+          "reason": "Failed to get matching snapshot: Find single matching element. Multiple matching elements found for <XCUIElementQuery: 0x107d13f70>."
+        }
+      ],
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "709D6F70-328D-4458-8F8A-B2C47A945A80",
+        "deviceName": "iPad (A16)",
+        "modelName": "iPad (A16)",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      }
+    },
+    {
+      "artifact": "application/.build/sc-d007-phone-final.xcresult",
+      "result": "Passed",
+      "passed": 39,
+      "failed": 0,
+      "total": 39,
+      "failures": [],
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName": "iPhone 18 Pro",
+        "modelName": "iPhone 18 Pro",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      }
+    },
+    {
+      "artifact": "application/.build/sc-d007-tablet-retest.xcresult",
+      "result": "Passed",
+      "passed": 1,
+      "failed": 0,
+      "total": 1,
+      "failures": [],
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "709D6F70-328D-4458-8F8A-B2C47A945A80",
+        "deviceName": "iPad (A16)",
+        "modelName": "iPad (A16)",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      }
+    }
+  ],
+  "sourceSHA256": {
+    "application/SpeechCoachAI/Domain/CurriculumCatalog.swift": "51b47bb58587657b9329a036d3eae928f7589dd2786690bacf796d7daa9012a9",
+    "application/SpeechCoachAI/Domain/LessonJourney.swift": "5ebd3021390806b99df1c92d9766b100c6995572e548b1eddf6e1177398b33ee",
+    "application/SpeechCoachAI/Domain/VocabularyLink.swift": "eb0e00ebd1a0a0b127a7da04a9d3282e4fd071735e5680abbd03d7dfd0e8624c",
+    "application/SpeechCoachAI/Domain/PracticeRecommendation.swift": "5099deaa80ca3e22827b7d54f7685fd373099ea62addc445c84c93d4811e340e",
+    "application/SpeechCoachAI/Infrastructure/Curriculum/CurriculumCatalogLoader.swift": "ac6f0999bc3e20af36d228d1e78fafc1dd3c222817d91d3fa597f0580ac5fd89",
+    "application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift": "88d1ec8cd877e42ef711b11bdc9069d233e2ef961ece59b5af70c271a33704f1",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "041318e70c218fdac5091c4f19aeddc2a2be6bfe3bf9abb827fe381ded570d9e",
+    "application/SpeechCoachAI/Features/Recording/RecordingView.swift": "d61e19e87509bb14819df39518e76ba64e4219770bbbc08626db4337585913c3",
+    "application/SpeechCoachAI/App/SpeakingEnvironment.swift": "b8344db4cfc206eb1f8b45905e3f0947e58a540f2a711104f759662c2f79a27c",
+    "application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json": "d46985a92dce2a23811b2cbff32575a4051eea4c50760322abbdc613d5610cc5"
+  },
+  "qualifiedReview": "PENDING",
+  "physicalAcceptance": "NOT_RUN",
+  "actualLearningAcceptance": "NOT_RUN",
+  "liveProviderCalls": "NOT_RUN",
+  "conclusion": "151 hosted tablet tests plus two tablet UI journeys passed across run/retest; final phone run passed 37 hosted plus two UI journeys. Initial failures are retained; no affected failure remains.",
+  "postNativeTestMetadataChange": {
+    "path": "application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json",
+    "change": "Rights provenance now explicitly dates the original SC-D007 wording to 2026-10-23. Tasks, versions, activities, archive objects, review-availability flags and assets are unchanged.",
+    "finalSHA256": "460bb64b3145016eea4ce7098de394091a0171ca6cef0ea74c4dbbba46f3b340",
+    "validation": "Final JSON parsed; runtime contract and integrity checks retained. Native source hashes above describe the tested snapshot."
+  },
+  "finalSupportClassificationRegression": {
+    "artifact": "application/.build/sc-d007-support-final.xcresult",
+    "result": "Passed",
+    "passed": 24,
+    "failed": 0,
+    "total": 24,
+    "scope": "24 tests in A1CurriculumDeliveryTests and LessonJourneyTests, including declared support with retained text."
+  },
+  "finalSourceSHA256": {
+    "application/SpeechCoachAI/Domain/CurriculumCatalog.swift": "51b47bb58587657b9329a036d3eae928f7589dd2786690bacf796d7daa9012a9",
+    "application/SpeechCoachAI/Domain/LessonJourney.swift": "1f411fd03483915b69ac64239b32636c8547cdf7c4efe735d2a38d26b00dfc07",
+    "application/SpeechCoachAI/Domain/VocabularyLink.swift": "eb0e00ebd1a0a0b127a7da04a9d3282e4fd071735e5680abbd03d7dfd0e8624c",
+    "application/SpeechCoachAI/Domain/PracticeRecommendation.swift": "5099deaa80ca3e22827b7d54f7685fd373099ea62addc445c84c93d4811e340e",
+    "application/SpeechCoachAI/Infrastructure/Curriculum/CurriculumCatalogLoader.swift": "ac6f0999bc3e20af36d228d1e78fafc1dd3c222817d91d3fa597f0580ac5fd89",
+    "application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift": "88d1ec8cd877e42ef711b11bdc9069d233e2ef961ece59b5af70c271a33704f1",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "041318e70c218fdac5091c4f19aeddc2a2be6bfe3bf9abb827fe381ded570d9e",
+    "application/SpeechCoachAI/Features/Recording/RecordingView.swift": "d61e19e87509bb14819df39518e76ba64e4219770bbbc08626db4337585913c3",
+    "application/SpeechCoachAI/App/SpeakingEnvironment.swift": "b8344db4cfc206eb1f8b45905e3f0947e58a540f2a711104f759662c2f79a27c",
+    "application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json": "460bb64b3145016eea4ce7098de394091a0171ca6cef0ea74c4dbbba46f3b340"
+  }
+}

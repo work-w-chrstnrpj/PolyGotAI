@@ -1,0 +1,57 @@
+{
+  "id": "INTRO-01-pilot-proposal-2026-10-25-v1",
+  "state": "draft_ready_for_review_not_enrolled",
+  "sourceLessonID": "intro-01",
+  "sourceContentVersion": "4",
+  "reviewGuideID": "intro-01-review-1",
+  "reviewGuideSHA256": "253a30465b69a6073a839221b3379c472bb34e3c1cf43802ff60d7a2a41f216e",
+  "rubricVersion": "INTRO-01-personal-draft-1",
+  "assessmentKinds": [
+    "baseline",
+    "day7",
+    "transferNeighbor",
+    "day28",
+    "transferClass"
+  ],
+  "assessmentConditions": "Freeze source/task/rubric/support/modality/accommodation and actual preparation/recording limits before baseline. Native personal checks are self-paced; a timed protocol needs actual externally verified conditions or explicit deviation, never a false timed claim.",
+  "consent": null,
+  "qualifiedReviewer": null,
+  "enrollmentDate": null,
+  "runID": null,
+  "actualResults": [],
+  "expansionDecision": null,
+  "gates": [
+    "Qualified prospective review of content, mappings, alternatives, rubric anchors, task comparability and thresholds",
+    "Original SC-T018, SC-T021 and inherited SC-T017 closure",
+    "Owner consent for participation and independent audio/text evidence choices",
+    "Actual iPhone/iPad functional and privacy acceptance",
+    "Record actual day-7/day-28 timing, exposure, support and missing evidence; no automatic success"
+  ],
+  "schedule": [
+    {
+      "point": "before teaching",
+      "checks": [
+        "baseline",
+        "five-sense recall"
+      ],
+      "result": "NOT_RUN"
+    },
+    {
+      "point": "day 7 ±2",
+      "checks": [
+        "five-sense delayed recall",
+        "transferNeighbor"
+      ],
+      "result": "NOT_RUN"
+    },
+    {
+      "point": "day 28 ±3",
+      "checks": [
+        "five-sense delayed recall",
+        "repeated baseline",
+        "transferClass"
+      ],
+      "result": "NOT_RUN"
+    }
+  ]
+}

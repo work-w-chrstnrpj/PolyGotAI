@@ -1,0 +1,496 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Manila",
+  "source": "Exact SC-T ticket status records reconciled with delivery-backlog membership",
+  "active_scope": "SC-D005 in_progress; SC-D002/004/017 evidence preserved; SC-D018 deferred",
+  "grok_return": "Expected SC-D017 report and acceptance test were absent before Codex created its new regression suite; no Grok completion credit inferred.",
+  "counts": {
+    "pending": 115,
+    "awaiting_testing": 37,
+    "in_progress": 29,
+    "done": 11,
+    "blocked": 0
+  },
+  "ticket_count": 192,
+  "baseline_groups": 1,
+  "delivery_groups": 20,
+  "groups": [
+    {
+      "id": "SC-D000",
+      "title": "Completed foundation",
+      "status": "Done",
+      "record_count": 11,
+      "original_status_counts": {
+        "done": 11
+      },
+      "remaining": "Completed foundation; later feature and release gates are separate.",
+      "tickets": [
+        "SC-T001",
+        "SC-T002",
+        "SC-T003",
+        "SC-T004",
+        "SC-T005",
+        "SC-T006",
+        "SC-T007",
+        "SC-T008",
+        "SC-T009",
+        "SC-T010",
+        "SC-T045"
+      ]
+    },
+    {
+      "id": "SC-D001",
+      "title": "Record, coach and revisit speaking",
+      "status": "Awaiting testing",
+      "record_count": 7,
+      "original_status_counts": {
+        "awaiting_testing": 7
+      },
+      "remaining": "Physical/provider/retention and owner acceptance; no new live-provider grant.",
+      "tickets": [
+        "SC-T011",
+        "SC-T012",
+        "SC-T013",
+        "SC-T014",
+        "SC-T015",
+        "SC-T016",
+        "SC-T017"
+      ]
+    },
+    {
+      "id": "SC-D002",
+      "title": "Complete first introduction course",
+      "status": "Awaiting testing",
+      "record_count": 5,
+      "original_status_counts": {
+        "awaiting_testing": 4,
+        "pending": 1
+      },
+      "remaining": "Qualified personal-use content/rubric/mapping review, actual device/owner/provider prerequisites and SC-T043 prospective/longitudinal learning acceptance; source/runtime delivered.",
+      "tickets": [
+        "SC-T018",
+        "SC-T019",
+        "SC-T020",
+        "SC-T021",
+        "SC-T043"
+      ]
+    },
+    {
+      "id": "SC-D003",
+      "title": "Vocabulary collection and scheduled recall",
+      "status": "Awaiting testing",
+      "record_count": 7,
+      "original_status_counts": {
+        "pending": 2,
+        "awaiting_testing": 5
+      },
+      "remaining": "Remaining physical/manual recall acceptance and original parent prerequisites.",
+      "tickets": [
+        "SC-T022",
+        "SC-T023",
+        "SC-T046",
+        "SC-T047",
+        "SC-T048",
+        "SC-T049",
+        "SC-T050"
+      ]
+    },
+    {
+      "id": "SC-D004",
+      "title": "Today and trustworthy progress",
+      "status": "Awaiting testing",
+      "record_count": 4,
+      "original_status_counts": {
+        "pending": 1,
+        "awaiting_testing": 3
+      },
+      "remaining": "Qualified content/device/manual/learning acceptance; SC-T024 cross-group reward/prerequisite closure. Four installed personal-use focus routes and evidence repairs verified.",
+      "tickets": [
+        "SC-T024",
+        "SC-T051",
+        "SC-T052",
+        "SC-T054"
+      ]
+    },
+    {
+      "id": "SC-D005",
+      "title": "Rewards, achievements and motivation",
+      "status": "In progress",
+      "record_count": 10,
+      "original_status_counts": {
+        "in_progress": 10
+      },
+      "remaining": "Physical/manual/accessibility/notification/haptic acceptance and original prerequisites; all-68 future/learning/CEFR availability remains gated.",
+      "tickets": [
+        "SC-T025",
+        "SC-T053",
+        "SC-T055",
+        "SC-T056",
+        "SC-T057",
+        "SC-T058",
+        "SC-T059",
+        "SC-T060",
+        "SC-T061",
+        "SC-T062"
+      ]
+    },
+    {
+      "id": "SC-D006",
+      "title": "Small A1 course pilot and stabilization",
+      "status": "Pending",
+      "record_count": 13,
+      "original_status_counts": {
+        "pending": 13
+      },
+      "remaining": "Approved finite pilot/expansion decisions and actual evaluation; staged candidates are not publication.",
+      "tickets": [
+        "SC-T026",
+        "SC-T027",
+        "SC-T028",
+        "SC-T063",
+        "SC-T064",
+        "SC-T065",
+        "SC-T066",
+        "SC-T067",
+        "SC-T068",
+        "SC-T069",
+        "SC-T070",
+        "SC-T071",
+        "SC-T072"
+      ]
+    },
+    {
+      "id": "SC-D007",
+      "title": "Complete A1 curriculum",
+      "status": "In progress",
+      "record_count": 17,
+      "original_status_counts": {
+        "in_progress": 1,
+        "awaiting_testing": 15,
+        "pending": 1
+      },
+      "remaining": "Full A1 reviewed/publication scope, remaining content decisions and actual acceptance; previews are not full curriculum.",
+      "tickets": [
+        "SC-T029",
+        "SC-T073",
+        "SC-T074",
+        "SC-T075",
+        "SC-T076",
+        "SC-T077",
+        "SC-T078",
+        "SC-T079",
+        "SC-T080",
+        "SC-T081",
+        "SC-T082",
+        "SC-T083",
+        "SC-T084",
+        "SC-T085",
+        "SC-T086",
+        "SC-T087",
+        "SC-T088"
+      ]
+    },
+    {
+      "id": "SC-D008",
+      "title": "Complete A2 curriculum",
+      "status": "Pending",
+      "record_count": 15,
+      "original_status_counts": {
+        "pending": 15
+      },
+      "remaining": "Reviewed A2 allocation/content, publication and actual acceptance.",
+      "tickets": [
+        "SC-T030",
+        "SC-T089",
+        "SC-T090",
+        "SC-T091",
+        "SC-T092",
+        "SC-T093",
+        "SC-T094",
+        "SC-T095",
+        "SC-T096",
+        "SC-T097",
+        "SC-T098",
+        "SC-T099",
+        "SC-T100",
+        "SC-T101",
+        "SC-T102"
+      ]
+    },
+    {
+      "id": "SC-D009",
+      "title": "Complete B1 curriculum",
+      "status": "Pending",
+      "record_count": 14,
+      "original_status_counts": {
+        "pending": 14
+      },
+      "remaining": "Reviewed B1 allocation/content, publication and actual acceptance.",
+      "tickets": [
+        "SC-T031",
+        "SC-T103",
+        "SC-T104",
+        "SC-T105",
+        "SC-T106",
+        "SC-T107",
+        "SC-T108",
+        "SC-T109",
+        "SC-T110",
+        "SC-T111",
+        "SC-T112",
+        "SC-T113",
+        "SC-T114",
+        "SC-T115"
+      ]
+    },
+    {
+      "id": "SC-D010",
+      "title": "Complete B2 curriculum",
+      "status": "Pending",
+      "record_count": 14,
+      "original_status_counts": {
+        "pending": 14
+      },
+      "remaining": "Reviewed B2 allocation/content, publication and actual acceptance.",
+      "tickets": [
+        "SC-T032",
+        "SC-T116",
+        "SC-T117",
+        "SC-T118",
+        "SC-T119",
+        "SC-T120",
+        "SC-T121",
+        "SC-T122",
+        "SC-T123",
+        "SC-T124",
+        "SC-T125",
+        "SC-T126",
+        "SC-T127",
+        "SC-T128"
+      ]
+    },
+    {
+      "id": "SC-D011",
+      "title": "Complete C1 curriculum",
+      "status": "Pending",
+      "record_count": 12,
+      "original_status_counts": {
+        "pending": 12
+      },
+      "remaining": "Reviewed C1 allocation/content, publication and actual acceptance.",
+      "tickets": [
+        "SC-T033",
+        "SC-T129",
+        "SC-T130",
+        "SC-T131",
+        "SC-T132",
+        "SC-T133",
+        "SC-T134",
+        "SC-T135",
+        "SC-T136",
+        "SC-T137",
+        "SC-T138",
+        "SC-T139"
+      ]
+    },
+    {
+      "id": "SC-D012",
+      "title": "Complete C2 curriculum",
+      "status": "Pending",
+      "record_count": 9,
+      "original_status_counts": {
+        "pending": 9
+      },
+      "remaining": "Reviewed C2 allocation/content, publication and actual acceptance.",
+      "tickets": [
+        "SC-T034",
+        "SC-T140",
+        "SC-T141",
+        "SC-T142",
+        "SC-T143",
+        "SC-T144",
+        "SC-T145",
+        "SC-T146",
+        "SC-T147"
+      ]
+    },
+    {
+      "id": "SC-D013",
+      "title": "Conversation, interviews and workplace practice",
+      "status": "Partially implemented",
+      "record_count": 7,
+      "original_status_counts": {
+        "in_progress": 3,
+        "pending": 4
+      },
+      "remaining": "Complete original online/content/capability scope and acceptance; local modes are integrated.",
+      "tickets": [
+        "SC-T035",
+        "SC-T148",
+        "SC-T149",
+        "SC-T150",
+        "SC-T151",
+        "SC-T152",
+        "SC-T153"
+      ]
+    },
+    {
+      "id": "SC-D014",
+      "title": "Communication and articulation practice",
+      "status": "Partially implemented",
+      "record_count": 8,
+      "original_status_counts": {
+        "in_progress": 7,
+        "pending": 1
+      },
+      "remaining": "Complete original communication/reference/online/content scope and actual acceptance.",
+      "tickets": [
+        "SC-T036",
+        "SC-T154",
+        "SC-T155",
+        "SC-T156",
+        "SC-T157",
+        "SC-T158",
+        "SC-T159",
+        "SC-T160"
+      ]
+    },
+    {
+      "id": "SC-D015",
+      "title": "Generated practice and reporting",
+      "status": "Partially implemented",
+      "record_count": 5,
+      "original_status_counts": {
+        "in_progress": 5
+      },
+      "remaining": "Adopt generation policy/model/adapter/content and semantic validation; original acceptance.",
+      "tickets": [
+        "SC-T037",
+        "SC-T161",
+        "SC-T162",
+        "SC-T163",
+        "SC-T164"
+      ]
+    },
+    {
+      "id": "SC-D016",
+      "title": "Personal vocabulary and word discovery",
+      "status": "Partially implemented",
+      "record_count": 4,
+      "original_status_counts": {
+        "in_progress": 3,
+        "awaiting_testing": 1
+      },
+      "remaining": "Topic-aware generation/enrollment and approved daily selection/pool; actual acceptance.",
+      "tickets": [
+        "SC-T038",
+        "SC-T165",
+        "SC-T166",
+        "SC-T167"
+      ]
+    },
+    {
+      "id": "SC-D017",
+      "title": "Learning resource library",
+      "status": "Awaiting testing",
+      "record_count": 3,
+      "original_status_counts": {
+        "pending": 1,
+        "awaiting_testing": 2
+      },
+      "remaining": "Query bug repaired; actual device/site/connectivity/accessibility acceptance and SC-T028/parent closure remain.",
+      "tickets": [
+        "SC-T039",
+        "SC-T168",
+        "SC-T169"
+      ]
+    },
+    {
+      "id": "SC-D018",
+      "title": "Seven specialized trainers",
+      "status": "Pending",
+      "record_count": 12,
+      "original_status_counts": {
+        "pending": 12
+      },
+      "remaining": "Deferred by owner in this pass. Freeze finite role/level matrix and Writer choices before affected packs; no new implementation.",
+      "tickets": [
+        "SC-T044",
+        "SC-T182",
+        "SC-T183",
+        "SC-T184",
+        "SC-T185",
+        "SC-T186",
+        "SC-T187",
+        "SC-T188",
+        "SC-T189",
+        "SC-T190",
+        "SC-T191",
+        "SC-T192"
+      ]
+    },
+    {
+      "id": "SC-D019",
+      "title": "Whole-app coverage and reliability",
+      "status": "Pending",
+      "record_count": 9,
+      "original_status_counts": {
+        "pending": 9
+      },
+      "remaining": "Whole-app coverage/reliability and release regression matrix against actual complete scope.",
+      "tickets": [
+        "SC-T040",
+        "SC-T041",
+        "SC-T170",
+        "SC-T171",
+        "SC-T172",
+        "SC-T173",
+        "SC-T174",
+        "SC-T175",
+        "SC-T176"
+      ]
+    },
+    {
+      "id": "SC-D020",
+      "title": "Export and installable release",
+      "status": "Pending",
+      "record_count": 6,
+      "original_status_counts": {
+        "pending": 6
+      },
+      "remaining": "Selected export boundary and verified signed installable release/distribution; no publication inferred.",
+      "tickets": [
+        "SC-T042",
+        "SC-T177",
+        "SC-T178",
+        "SC-T179",
+        "SC-T180",
+        "SC-T181"
+      ]
+    }
+  ],
+  "feature_group_counts": {
+    "Awaiting testing": 5,
+    "In progress": 2,
+    "Pending": 9,
+    "Partially implemented": 4
+  },
+  "current_verification": {
+    "phone_hosted": 247,
+    "phone_ui": 2,
+    "ipad_focused_resource_tests": 20,
+    "ipad_system_handoff_ui": 1,
+    "result": "PASS for scoped checks; remaining actual acceptance open",
+    "evidence": "docs/testing/evidence/sc-d017-acceptance-2026-10-25/verification.json"
+  },
+  "sc_d002_delivery": "docs/development-plan/sc-d002-2026-10-25/README.md",
+  "sc_d002_verification": {
+    "hosted_tests": 262,
+    "focused_intro_tests": 8,
+    "final_phone_ui": 2,
+    "result": "PASS",
+    "evidence": "docs/testing/evidence/sc-d002-2026-10-25/verification.json",
+    "remaining": "Qualified/owner/device/provider acceptance and actual SC-T043 longitudinal learning checks"
+  },
+  "sc_d005_delivery": "docs/development-plan/sc-d005-2026-10-25/README.md"
+}

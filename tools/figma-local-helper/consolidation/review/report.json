@@ -1,0 +1,106 @@
+{
+  "operation": "review",
+  "rootNodeId": "41:1074",
+  "pageId": "0:1",
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    {
+      "id": "25:277",
+      "name": "02 · Complete flows & states"
+    }
+  ],
+  "originalsRetained": 22,
+  "missingOriginals": [],
+  "sections": [
+    {
+      "id": "41:1075",
+      "name": "00 · Start here",
+      "width": 3100,
+      "height": 320
+    },
+    {
+      "id": "41:1088",
+      "name": "01 · Foundations & existing controls",
+      "width": 3100,
+      "height": 2077
+    },
+    {
+      "id": "41:1092",
+      "name": "02 · Shared building blocks & states",
+      "width": 3100,
+      "height": 1481
+    },
+    {
+      "id": "41:1187",
+      "name": "03 · Page templates",
+      "width": 3100,
+      "height": 2149
+    },
+    {
+      "id": "41:1222",
+      "name": "04 · Main speaking journey",
+      "width": 3100,
+      "height": 1364
+    },
+    {
+      "id": "41:1251",
+      "name": "05 · Appearance & character references",
+      "width": 3100,
+      "height": 1113
+    },
+    {
+      "id": "41:1265",
+      "name": "06 · Native adaptation & AI assembly guide",
+      "width": 3100,
+      "height": 1009.2000122070312
+    }
+  ],
+  "componentSets": [
+    {
+      "id": "2:40308",
+      "name": "Button",
+      "variants": 7
+    },
+    {
+      "id": "2:40309",
+      "name": "Switch",
+      "variants": 2
+    },
+    {
+      "id": "2:40310",
+      "name": "Answer option",
+      "variants": 2
+    },
+    {
+      "id": "2:40311",
+      "name": "Tab bar",
+      "variants": 8
+    },
+    {
+      "id": "41:1105",
+      "name": "Kit / Content row",
+      "variants": 2
+    },
+    {
+      "id": "41:1127",
+      "name": "Kit / Input",
+      "variants": 4
+    },
+    {
+      "id": "41:1155",
+      "name": "Kit / Status",
+      "variants": 4
+    },
+    {
+      "id": "41:1177",
+      "name": "Kit / Coaching card",
+      "variants": 2
+    }
+  ],
+  "horizontalOverflow": [],
+  "instanceCount": 67,
+  "exported": 7
+}

@@ -1,0 +1,114 @@
+{
+  "lessonID": "family-01",
+  "ticket": "SC-T079",
+  "mode": "proposed_revision",
+  "sourceVersion": "2",
+  "contentVersion": "3",
+  "objectiveID": "FAMILY-01",
+  "unitID": "A1-D007-U06",
+  "editorialState": "ready_for_review",
+  "ownerManifestApproval": null,
+  "qualifiedReviewer": null,
+  "teaching": "Family words can be used with invented people. My and her go before nouns; I and she can be subjects. Use has with she or he and have with I, you, we or they. A possessive ending can show a relationship: Lina is Mina’s sister. In She is kind, kind is an adjective describing the subject after be. A relationship description does not require sharing real family information.",
+  "childObjectiveIDs": [
+    "EF-01-ADJ-01",
+    "EF-01-DET-01",
+    "EF-01-NOUN-01",
+    "EF-01-NOUN-POSS-01",
+    "EF-01-PRON-01",
+    "EF-03-BE-01",
+    "EF-03-HAVE-01"
+  ],
+  "foundationEvidenceLimit": "These mixed items sample the allocated strands. They are not five unseen items per child objective and do not establish EF-AC02/03 mastery.",
+  "conceptChecks": [
+    {
+      "id": "family-01-concept-1",
+      "prompt": "In Her sister is kind, which word names a family relationship?",
+      "answer": "sister; it is a noun."
+    },
+    {
+      "id": "family-01-concept-2",
+      "prompt": "In Her sister is kind, which word is an adjective?",
+      "answer": "kind."
+    },
+    {
+      "id": "family-01-concept-3",
+      "prompt": "In Her sister is kind, what is the complete subject?",
+      "answer": "Her sister."
+    },
+    {
+      "id": "family-01-concept-4",
+      "prompt": "How do She and her differ in She knows her sister?",
+      "answer": "She is the subject pronoun; her before sister is a possessive determiner."
+    },
+    {
+      "id": "family-01-concept-5",
+      "prompt": "Why is She have a brother changed to She has a brother?",
+      "answer": "Third-person singular she takes has in the simple present."
+    }
+  ],
+  "pronunciationSelfReview": "Listen for brother in the clip. Compare the number of syllables with your own optional recording. No typed answer or speech recognition result establishes a sound-level score.",
+  "workplaceApplication": "Introduce an invented emergency-contact relationship without entering real contact details.",
+  "quietPolicy": "Use the existing quietText alternative for guidedSpeaking. Text records communication/grammar attempts only; speaking and pronunciation remain unassessed.",
+  "support": {
+    "beforeAttempt": "Offer teaching, original examples and replay on request; record use as support.",
+    "afterAttempt": "Reveal the example only after the first attempt; preserve the original and label retries.",
+    "repairPhrase": "Could you say that again, please?",
+    "privacy": "Invented names, families, homes, work and prices are valid; no retained private recording is required."
+  },
+  "coreCompletionProposal": {
+    "requiredActivityIDs": [
+      "read-family",
+      "listen-family",
+      "family-01-production-v3-1",
+      "family-01-production-v3-2",
+      "family-01-production-v3-3",
+      "family-01-production-v3-4",
+      "family-01-production-v3-5",
+      "recall-mother",
+      "recall-father",
+      "recall-have",
+      "recall-there",
+      "recall-this",
+      "guided-family",
+      "self-family",
+      "quiet-family"
+    ],
+    "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+    "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+    "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+  },
+  "assessment": {
+    "rubricVersion": "FAMILY-01-draft-1",
+    "communication": "Record which requested message components are conveyed, absent, or not assessed; accept effective alternatives.",
+    "grammar": "Record target opportunities and first-response forms individually; do not infer opportunities from prompt presence.",
+    "vocabulary": "Use existing itemId plus senseId. Exposure and productive use do not schedule recognition.",
+    "reading": {
+      "activityID": "read-family",
+      "acceptedAlternatives": "Short factual answers and equivalent paraphrases matching the passage; no exact-string scoring."
+    },
+    "listening": {
+      "activityID": "listen-family",
+      "acceptedAlternatives": "Short factual answers or equivalent paraphrases matching the recording; reading a transcript is assisted text evidence."
+    },
+    "speaking": "Only an actual recorded/listened-to attempt supports speaking evidence; human listener records intelligibility with qualifications/conditions.",
+    "pronunciation": "Unassessed without qualified listening to retained/consented audio; no acoustic inference from text or ASR.",
+    "thresholds": "No new numeric pass or CEFR threshold selected. Existing EF/IL criteria require their recorded review.",
+    "comparison": "Baseline before teaching; ordinary practice separate; unfamiliar context plus fresh day-7/day-28 prompts. Log support, modality, actual interval and prior exposure. These tasks are not calibrated comparable forms."
+  },
+  "reservedTaskIDs": {
+    "baseline": "family-01-baseline-v3",
+    "day7": "family-01-day7-v3",
+    "day28": "family-01-day28-v3"
+  },
+  "sourceLessonSHA256": "cbc4918206748355d2b6bf08a83a62f25db1b2ddb5531b036fd288201a82570b",
+  "rights": "New wording is original agent-authored material prepared 2026-10-23; existing wording/audio retain the live pack rightsReference. No external exercises/descriptors copied.",
+  "descriptorReferences": [
+    "CV20-OC48-A1",
+    "CV20-RC54-A1",
+    "CV20-OP62-A1",
+    "CV20-IE78-A1",
+    "CV20-GA132-A1"
+  ],
+  "descriptorMappingState": "Candidate scale links only; exact task/descriptor fit and A1 depth await qualified review."
+}

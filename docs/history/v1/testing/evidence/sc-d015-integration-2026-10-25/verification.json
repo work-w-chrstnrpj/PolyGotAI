@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-25",
+  "scope": "SC-D015 owner-authorized review/fixes and eligible local integration",
+  "result": "PASS for scoped automated checks; original implementation incomplete",
+  "runs": [
+    {
+      "name": "first",
+      "result": "Build failed",
+      "passed": 0,
+      "failed": 0,
+      "total": 0,
+      "xcresult": "application/.build/sc-d015-review-first.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "focused",
+      "result": "Passed",
+      "passed": 17,
+      "failed": 0,
+      "total": 17,
+      "xcresult": "application/.build/sc-d015-review-focused.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "phone",
+      "result": "Passed",
+      "passed": 229,
+      "failed": 0,
+      "total": 229,
+      "xcresult": "application/.build/sc-d015-review-phone.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "ipad",
+      "result": "Passed",
+      "passed": 230,
+      "failed": 0,
+      "total": 230,
+      "xcresult": "application/.build/sc-d015-review-ipad.xcresult",
+      "failure_messages": []
+    },
+    {
+      "name": "final-phone",
+      "result": "Passed",
+      "passed": 21,
+      "failed": 0,
+      "total": 21,
+      "xcresult": "application/.build/sc-d015-review-final-phone.xcresult",
+      "failure_messages": []
+    }
+  ],
+  "source_boundaries": [
+    "Phone integration passed 227 hosted tests and both UI journeys before later requested-kind/confirmation/retry/policy-copy refinements",
+    "iPad integration passed 228 hosted tests and both UI journeys; before final missing-policy save-control/copy refinements",
+    "Final iPhone passed 19 original/repair hosted tests and both UI journeys on the final source"
+  ],
+  "final_source_sha256": {
+    "application/SpeechCoachAI/Domain/GeneratedPractice.swift": "5abe62997f2bd8c49caa8f77ad310620694c9b71701cd3f22c48719a259d1685",
+    "application/SpeechCoachAI/Domain/IncorrectActivityReport.swift": "a33dd2fb4577d008008003957bf36faad6b605d52de1ef439bc372a7f23d694b",
+    "application/SpeechCoachAI/Infrastructure/Providers/GeneratedPracticeClient.swift": "b25bb611e167f99fe271a88c4f4fa3c4b546f243dec9a306839f7939f6949b66",
+    "application/SpeechCoachAI/Features/GeneratedPractice/GeneratedPracticeView.swift": "7e67fbb7857e1378eeca7d2aac79cd686be93d8ed836eba98c4753649f196441",
+    "application/SpeechCoachAI/Features/GeneratedPractice/ActivityReportView.swift": "e6a25167ba94097767bbd09162585b3d5e2d69859418445ae389c0fb98479f96",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "446cc2001d583f487bbdf3036448c3aee94a9d394f38a621972cf6613b908d01",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "e02bed3f68cf85d0d66eafcc0e0c88d9e57b89db6daa8f0e965c934f56c24c65",
+    "application/SpeechCoachAI/App/SpeakingEnvironment.swift": "7edd79b46283634cbb1b4d51532aa655f2a84230bbcdbefef87f77efe242d4bb",
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "592dae9474c7b1835955d6bd393f1b6914ae13327f7ff26ad9564352a2cf8206",
+    "application/SpeechCoachAITests/GeneratedPracticeDeliveryTests.swift": "f22547424afa69702d18248e254e1ecd6bd39a17cb9a6b0418fbd103e9b38ebe",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "a7e2a7df83df56bac7b92f130e9f1fd44244bbdbd6c0e2173ecdd6fb473044f2"
+  },
+  "production_generation_enabled": false,
+  "live_request_sent": false,
+  "schema_migration": false,
+  "owner_learner_data_reset": false,
+  "record_status": {
+    "SC-T037": "in_progress",
+    "SC-T161": "in_progress",
+    "SC-T162": "in_progress",
+    "SC-T163": "in_progress",
+    "SC-T164": "in_progress"
+  },
+  "remaining_implementation": [
+    "Adopted production generation/report/vocabulary policies and exact objective/template/model manifest",
+    "Selected live adapter with actual account/quota/retention/cost evidence",
+    "Semantic/answer/difficulty validation and reviewed source/fallback/correction behavior"
+  ],
+  "remaining_acceptance": [
+    "Original prerequisites and parent closure",
+    "Physical device, full accessibility/themes/background/larger text and actual network/provider/billing",
+    "Qualified content review and learner outcomes"
+  ],
+  "warnings": [
+    "SDK/UI-test isolation and simulator accessibility-loader warnings remain in raw logs",
+    "Whole-suite intentionally corrupt-store fixtures emit CoreData errors; some temporary-root tests emit SQLite cleanup warnings after their own stores close",
+    "No warning-free build or physical-device/provider acceptance claim"
+  ],
+  "static_checks": {
+    "project_plist": "PASS",
+    "queue_status_hashes": "PASS",
+    "legacy_ticket_count": 192,
+    "preserved_sc_d017_sources": "PASS",
+    "local_links": "PASS",
+    "grouped_membership": "192 unique IDs"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "lessonID": "a1-weather",
+  "ticket": "SC-T086",
+  "mode": "proposed_revision",
+  "sourceVersion": "2",
+  "contentVersion": "3",
+  "objectiveID": "WEATHER-01",
+  "unitID": "A1-D007-U13",
+  "editorialState": "ready_for_review",
+  "ownerManifestApproval": null,
+  "qualifiedReviewer": null,
+  "teaching": "Use it with weather: It is cold. It here does not refer to a person or object. A present continuous phrase uses be plus an ing form for what is happening now: It is raining. This differs from a routine such as It rains a lot in winter. An adjective describes a state, as in cold. A short message can combine weather with a practical suggestion, without making the suggestion a grammar prerequisite.",
+  "childObjectiveIDs": [
+    "EF-01-ADJ-01",
+    "EF-01-PRON-01",
+    "EF-03-BE-01",
+    "EF-03-PRES-01",
+    "EF-04-CLAUSE-01",
+    "EF-05-CONT-01"
+  ],
+  "foundationEvidenceLimit": "These mixed items sample the allocated strands. They are not five unseen items per child objective and do not establish EF-AC02/03 mastery.",
+  "conceptChecks": [
+    {
+      "id": "a1-weather-concept-1",
+      "prompt": "In It is cold, which word is an adjective?",
+      "answer": "cold."
+    },
+    {
+      "id": "a1-weather-concept-2",
+      "prompt": "In It is raining, which word is the auxiliary?",
+      "answer": "is; it supports the ing-form raining."
+    },
+    {
+      "id": "a1-weather-concept-3",
+      "prompt": "How do It is raining and It rains a lot in winter differ?",
+      "answer": "The first describes what is happening now; the second a usual pattern."
+    },
+    {
+      "id": "a1-weather-concept-4",
+      "prompt": "Does weather it in It is cold have to refer to a named object?",
+      "answer": "No. It serves as the subject in a weather expression."
+    },
+    {
+      "id": "a1-weather-concept-5",
+      "prompt": "In What is the weather like?, does like mean enjoy?",
+      "answer": "No. It asks for a description in this question pattern."
+    }
+  ],
+  "pronunciationSelfReview": "Replay cold and coat in the model. Compare your optional recording for whether the weather and item can be understood. A text response cannot assess the vowel contrast.",
+  "workplaceApplication": "Give a short fictional weather update before an outdoor work task.",
+  "quietPolicy": "Use the existing quietText alternative for guidedSpeaking. Text records communication/grammar attempts only; speaking and pronunciation remain unassessed.",
+  "support": {
+    "beforeAttempt": "Offer teaching, original examples and replay on request; record use as support.",
+    "afterAttempt": "Reveal the example only after the first attempt; preserve the original and label retries.",
+    "repairPhrase": "Could you say that again, please?",
+    "privacy": "Invented names, families, homes, work and prices are valid; no retained private recording is required."
+  },
+  "coreCompletionProposal": {
+    "requiredActivityIDs": [
+      "a1-weather-read",
+      "a1-weather-listen",
+      "a1-weather-production-v3-1",
+      "a1-weather-production-v3-2",
+      "a1-weather-production-v3-3",
+      "a1-weather-production-v3-4",
+      "a1-weather-production-v3-5",
+      "a1-weather-recall-sunny",
+      "a1-weather-recall-cold",
+      "a1-weather-recall-rainy",
+      "a1-weather-recall-coat",
+      "a1-weather-recall-today",
+      "a1-weather-guided",
+      "a1-weather-self",
+      "a1-weather-quiet"
+    ],
+    "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+    "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+    "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+  },
+  "assessment": {
+    "rubricVersion": "WEATHER-01-draft-1",
+    "communication": "Record which requested message components are conveyed, absent, or not assessed; accept effective alternatives.",
+    "grammar": "Record target opportunities and first-response forms individually; do not infer opportunities from prompt presence.",
+    "vocabulary": "Use existing itemId plus senseId. Exposure and productive use do not schedule recognition.",
+    "reading": {
+      "activityID": "a1-weather-read",
+      "acceptedAlternatives": "Short factual answers and equivalent paraphrases matching the passage; no exact-string scoring."
+    },
+    "listening": {
+      "activityID": "a1-weather-listen",
+      "acceptedAlternatives": "Short factual answers or equivalent paraphrases matching the recording; reading a transcript is assisted text evidence."
+    },
+    "speaking": "Only an actual recorded/listened-to attempt supports speaking evidence; human listener records intelligibility with qualifications/conditions.",
+    "pronunciation": "Unassessed without qualified listening to retained/consented audio; no acoustic inference from text or ASR.",
+    "thresholds": "No new numeric pass or CEFR threshold selected. Existing EF/IL criteria require their recorded review.",
+    "comparison": "Baseline before teaching; ordinary practice separate; unfamiliar context plus fresh day-7/day-28 prompts. Log support, modality, actual interval and prior exposure. These tasks are not calibrated comparable forms."
+  },
+  "reservedTaskIDs": {
+    "baseline": "a1-weather-baseline-v3",
+    "day7": "a1-weather-day7-v3",
+    "day28": "a1-weather-day28-v3"
+  },
+  "sourceLessonSHA256": "8237289791cdf84f36ad612d674320b69229f04381e8dcd42b78624fb86fc57c",
+  "rights": "New wording is original agent-authored material prepared 2026-10-23; existing wording/audio retain the live pack rightsReference. No external exercises/descriptors copied.",
+  "descriptorReferences": [
+    "CV20-OC48-A1",
+    "CV20-RC54-A1",
+    "CV20-OP62-A1",
+    "CV20-IE78-A1",
+    "CV20-GA132-A1"
+  ],
+  "descriptorMappingState": "Candidate scale links only; exact task/descriptor fit and A1 depth await qualified review."
+}

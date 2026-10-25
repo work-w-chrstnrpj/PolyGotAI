@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-25",
+  "scope": "SC-D002 first introduction authoring/runtime completion",
+  "status": "awaiting_testing",
+  "runs": [
+    {
+      "name": "first",
+      "result": "Failed",
+      "passed": 252,
+      "failed": 1,
+      "total": 253,
+      "xcresult": "application/.build/sc-d002-first.xcresult",
+      "failures": [
+        "Expectation failed: intro.contentVersion == \"3\"\nintro.contentVersion \u2192 \"4\""
+      ]
+    },
+    {
+      "name": "phone",
+      "result": "Failed",
+      "passed": 258,
+      "failed": 2,
+      "total": 260,
+      "xcresult": "application/.build/sc-d002-phone.xcresult",
+      "failures": [
+        "Expectation failed: PracticeRecommendation.selectLesson(journeys: saved, lessons: catalog.lessons).resuming\nPracticeRecommendation.selectLesson(journeys: saved, lessons: catalog.lessons) \u2192 (lesson: Optional(SpeechCoachAI.LessonOffer(id: \"a1-greetings\", title: \"Greet someone\")), resuming: false)\nresuming \u2192 false",
+        "Testing was canceled"
+      ]
+    },
+    {
+      "name": "phone-retest",
+      "result": "Failed",
+      "passed": 0,
+      "failed": 2,
+      "total": 2,
+      "xcresult": "application/.build/sc-d002-phone-retest.xcresult",
+      "failures": [
+        "Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying Error: Test crashed with signal kill while preparing to run tests.)",
+        "Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying Error: Test crashed with signal kill before establishing connection.)"
+      ]
+    },
+    {
+      "name": "ipad-hosted",
+      "result": "Passed",
+      "passed": 262,
+      "failed": 0,
+      "total": 262,
+      "xcresult": "application/.build/sc-d002-ipad-hosted.xcresult",
+      "failures": []
+    },
+    {
+      "name": "ui-phone",
+      "result": "Failed",
+      "passed": 9,
+      "failed": 1,
+      "total": 10,
+      "xcresult": "application/.build/sc-d002-ui-phone.xcresult",
+      "failures": [
+        "XCTAssertTrue failed"
+      ]
+    },
+    {
+      "name": "final-phone",
+      "result": "Failed",
+      "passed": 0,
+      "failed": 2,
+      "total": 2,
+      "xcresult": "application/.build/sc-d002-final-phone.xcresult",
+      "failures": [
+        "Early unexpected exit, operation never finished bootstrapping - no restart will be attempted. (Underlying Error: Test crashed with signal kill before establishing connection.)",
+        "Test crashed with signal kill."
+      ]
+    },
+    {
+      "name": "final-max",
+      "result": "Passed",
+      "passed": 2,
+      "failed": 0,
+      "total": 2,
+      "xcresult": "application/.build/sc-d002-final-max.xcresult",
+      "failures": []
+    }
+  ],
+  "confirmed_passes": {
+    "full_ipad_hosted": 262,
+    "new_introduction_regressions": 8,
+    "phone_reveal_rubric_skipped_core_ui": 1,
+    "final_phone_ui": 2,
+    "final_phone_model": "iPhone 18 Pro Max simulator, iOS 27.0"
+  },
+  "final_ui_retest": "Passed: both exact-course restart/quiet/vocabulary journey and reveal/rubric/skipped-core journey on iPhone 18 Pro Max simulator, iOS 27.0",
+  "source_sha256": {
+    "application/SpeechCoachAI/Domain/IntroductionReviewGuide.swift": "4451376e9bc4889d65dcba12a42d55f9fe3a6d85a32e1b1184d453b1b062001f",
+    "application/SpeechCoachAI/Features/Learn/IntroductionReviewView.swift": "91a0cee849e75bb12b8aa7cd8ca12f495d5fa7910470b57a86c074fd28f872e9",
+    "application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift": "1dd0ce905f0fa2953b9e6528e66fcb5c52a38c93a69deaf6c3391cbd0690d1c6",
+    "application/SpeechCoachAI/Features/Learn/IntroPracticeView.swift": "0d2b79d5cece5c568bc396978ab29428a3b9476e8d34c09b60e698b27a24f63e",
+    "application/SpeechCoachAI/Domain/LessonJourney.swift": "d1b07eda7d1bbcae30417f275fe388b8d8f9af26b6bc4ff9a7bcf30b4d67a52d",
+    "application/SpeechCoachAI/Domain/PracticeSessionContext.swift": "4d4b51edde9e14cc7fb1ecf5d023ad6d912b267eed6d131e77453b5412f523b9",
+    "application/SpeechCoachAI/Resources/Curriculum/IntroductionReviewGuide.json": "253a30465b69a6073a839221b3379c472bb34e3c1cf43802ff60d7a2a41f216e",
+    "application/SpeechCoachAI/Resources/Curriculum/CurriculumCatalog.json": "63892bbbedc65be6a9f7e312c0bfa9230ea3b6421b84899125348ff0ddde1ae6",
+    "application/SpeechCoachAITests/IntroductionDeliveryTests.swift": "8ebd7bd0a5e4af1690997965d755e7f1275f0c3a459ac44b8414f8466e2a3a6f",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "fe9493da634106dca175dea32345d2ab3d59545f3792ab8877d76fe3284766b5"
+  },
+  "content_version": "4",
+  "preserved_versions": [
+    "2",
+    "3"
+  ],
+  "physical_acceptance": false,
+  "qualified_review": false,
+  "pilot_results": false,
+  "live_provider_calls": false,
+  "migration": false,
+  "owner_data_reset": false,
+  "limits": "Personal-use authoring/runtime complete; original qualified/editorial/device/owner/provider prerequisites and actual SC-T043 learning acceptance remain open. Concurrent SC-D004 files preserved; source/test totals reflect shared workspace.",
+  "result": "PASS for scoped authoring/runtime checks; awaiting original actual acceptance",
+  "hash_scope": "Workspace source hashes at final evidence capture; independent SC-D004 changes in shared files remain separate. Raw xcresults own actual executed build/test proof."
+}

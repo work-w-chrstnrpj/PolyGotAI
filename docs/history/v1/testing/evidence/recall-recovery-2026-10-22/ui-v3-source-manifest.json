@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-22",
+  "baseline": "application/.build/recall-recovery-2026-10-22/baseline",
+  "files": [
+    {
+      "path": "application/SpeechCoachAI/Domain/VocabularyRecall.swift",
+      "baseline_sha256": "524f474f238c8a9b553e57a3a251a46a69d087f9d24988876f5c2befdfcdb180",
+      "sha256": "d47daebb487604eccf0479cf427f750e8a22676658d55825c7fefe4c357f0e04"
+    },
+    {
+      "path": "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift",
+      "baseline_sha256": "63307b2fe16df72697b35b0f16aaa050ef227af6e4f0e2152e8065a1277d437d",
+      "sha256": "8058aefe3386f7c96fe9a56ae2b1bdd322aa51df49569f02961b2b12b47880b5"
+    },
+    {
+      "path": "application/SpeechCoachAI/Features/Vocabulary/VocabularyRecallView.swift",
+      "baseline_sha256": "8c74d13b890e24fc4b6e4c2febfec129136d2c99801f80880cecac9a85766e1e",
+      "sha256": "f2f646ebbf4e4fa77ae0de6c3e9759df650781aa56821063929f30e5d4234d02"
+    },
+    {
+      "path": "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift",
+      "baseline_sha256": "95c1afbdb8fc8534032a3404bad1d78c8ffca85c491a179132a4184c60676db1",
+      "sha256": "4534ce9b08ab5d625efe8822a934caa5bc76a1afde3f2b6904251569ea5739d6"
+    },
+    {
+      "path": "application/SpeechCoachAITests/CustomVocabularyTests.swift",
+      "baseline_sha256": "9b853055982560cba30da3005e67aea69834f3978644ced2ad211065fa5f4458",
+      "sha256": "a63a0c75235cf3249f99d5bc2c72782733ef137f823e68e4c31b4ddded9deba5"
+    },
+    {
+      "path": "application/SpeechCoachAITests/ReviewCreditTests.swift",
+      "baseline_sha256": "b7af0f3772ee06ba1422b7e1cc281f38c1295f6c92699e3800d1534856eb6f46",
+      "sha256": "bbf12c65ae5233f0cbd81f590ecb352402f85d744336ac3ba8d03213d432685a"
+    },
+    {
+      "path": "application/SpeechCoachAITests/ReviewScheduleTests.swift",
+      "baseline_sha256": "7d899f45e2f36a0e02374b6e782521594aa1f48404dcf963491b84bb423cfb60",
+      "sha256": "c81f0328cdc8c1c86b3a87c340de0fd5edbb886b6807ab11c15cead3600ca6f3"
+    },
+    {
+      "path": "application/SpeechCoachAITests/VocabularyRecallTests.swift",
+      "baseline_sha256": "977f5f4b2612bb9654008c62a9b12b3a11f2cf3e487befdbb53a3367055ce8db",
+      "sha256": "f3a57aba863d2bb4815e968bab403004c39ad24a4765f7a4d09e62086902cd4b"
+    },
+    {
+      "path": "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift",
+      "baseline_sha256": "2df4d8fd4899c8b7e0cdb119027efd7bb482a8b7f0646231ee2721f58d2d3008",
+      "sha256": "6688f760c79d25f7540f2a09ffa442286c99a538911933777cd1d960e9242f3b"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "709D6F70-328D-4458-8F8A-B2C47A945A80",
+        "deviceName": "iPad (A16)",
+        "modelName": "iPad (A16)",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 2,
+      "passedTests": 61,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    },
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName": "iPhone 18 Pro",
+        "modelName": "iPhone 18 Pro",
+        "osBuildNumber": "24A434",
+        "osVersion": "27.0",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 2,
+      "passedTests": 61,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "SpeechCoachAI \u00b7 Built with macOS 27.0.1",
+  "expectedFailures": 0,
+  "failedTests": 3,
+  "finishTime": 1792887535.308,
+  "passedTests": 59,
+  "result": "Failed",
+  "runtimeWarnings": [],
+  "skippedTests": 0,
+  "startTime": 1792887511.675,
+  "statistics": [
+    {
+      "subtitle": "126 test runs",
+      "title": "62 tests ran on 2 devices"
+    },
+    {
+      "subtitle": "4 test runs",
+      "title": "1 test ran with dynamic parameters"
+    }
+  ],
+  "testFailures": [
+    {
+      "failureText": "Expectation failed: followUp.reason.contains(\"not in this build\")\nfollowUp.reason \u2192 \"A follow-up was difficult. Record a short answer in your own words. Compatible follow-up practice is unavailable for this saved content, and this is not an English-level placement.\"",
+      "targetName": "SpeechCoachAITests",
+      "testIdentifier": 8,
+      "testIdentifierString": "DailyProgressDeliveryTests/aNamedDifficultyStaysAheadOfThePreference()",
+      "testIdentifierURL": "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAITests/DailyProgressDeliveryTests/aNamedDifficultyStaysAheadOfThePreference()",
+      "testName": "aNamedDifficultyStaysAheadOfThePreference()"
+    },
+    {
+      "failureText": "Test crashed with signal kill.",
+      "targetName": "SpeechCoachAIUITests",
+      "testIdentifier": 61,
+      "testIdentifierString": "BootstrapLaunchTests/testPracticePreferencePersistsAndConnectsToday()",
+      "testIdentifierURL": "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAIUITests/BootstrapLaunchTests/testPracticePreferencePersistsAndConnectsToday",
+      "testName": "testPracticePreferencePersistsAndConnectsToday()"
+    },
+    {
+      "failureText": "XCTAssertTrue failed",
+      "targetName": "SpeechCoachAIUITests",
+      "testIdentifier": 62,
+      "testIdentifierString": "BootstrapLaunchTests/testTodayDifficultyFocusPersistsAndOpensPractice()",
+      "testIdentifierURL": "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAIUITests/BootstrapLaunchTests/testTodayDifficultyFocusPersistsAndOpensPractice",
+      "testName": "testTodayDifficultyFocusPersistsAndOpensPractice()"
+    }
+  ],
+  "title": "Test - SpeechCoachAI",
+  "topInsights": [
+    {
+      "category": "Common Failures",
+      "impact": "33% of failures",
+      "text": "2 runs of 1 test failed with Expectation failed: followUp.reason.contains(\"not in this build\")"
+    },
+    {
+      "category": "Longest Test Runs",
+      "impact": "12% of duration",
+      "text": "1 longest test run with outlier durations exceeding 0.15s (three standard deviations)"
+    },
+    {
+      "category": "Longest Test Runs",
+      "impact": "10% of duration",
+      "text": "1 longest test run with outlier durations exceeding 0.13s (three standard deviations)"
+    }
+  ],
+  "totalTestCount": 62
+}

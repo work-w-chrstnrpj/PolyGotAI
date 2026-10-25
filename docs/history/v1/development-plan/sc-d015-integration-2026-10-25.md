@@ -1,0 +1,45 @@
+# SC-D015 review, repair and eligible integration — 2026-10-25
+
+Owner confirmed Grok received SC-D015 and authorized Codex to check and fix it. [Grok's return](../../../development-plan/sc-d015-grok-2026-10-23/README.md) is preserved as the original handoff. Codex now owns review repairs, registration, protected storage, host/navigation and verification for this pass. SC-D016 remains a recommended separate assignment, not verified dispatch. No files in that lane or Grok's report folder were changed.
+
+## Confirmed defects repaired
+
+1. Removing wording or reports changed only the screen's in-memory value. Those actions now explicitly commit to the existing learner document, expose failed writes and use native irreversible-removal confirmation. Save success is shown only after the storage callback accepts the exact prepared record.
+2. Report persistence previously received `pendingSave`, then the session changed it to `recordedLocally` after the write. The resulting disk and screen disagreed. `persistChanges` prepares the final report statuses and epoch before writing; the committed session and persisted value match. Wrong epochs do not call the writer. Failed writes retain the prior committed copy for retry.
+3. `bindEpoch` retained the old source/current prompt/fallback when replacing learner data. It now clears the complete prior task/request/private context. Repository epoch and exact-prior-record checks reject stale saves; deletion tombstones cannot be removed or overridden by older records.
+4. Invalid `prepare` could partially replace source/attempt state, and valid task changes left the prior generated presentation attached. Validation now precedes mutation; changing a valid task clears the old presentation/fallback and invalid changes preserve it. Fallback display checks exact objective/version/level/rubric.
+5. A response could supply a different permitted activity than requested, or use a changed source/policy with the same decision ID. Requests now freeze source and the full supplied policy, and results must match the envelope's requested kind. Missing epochs cannot begin a request. Absent transports/cancelled tasks do not persist an unnecessary awaiting request.
+6. Familiar cache reuse could bypass changed objective/template restrictions or return another activity type. It now checks exact source/targets and the supplied policy snapshot, plus the requested type. Lowered cache limits evict enough eligible entries before admission; protected frozen attempts remain intact.
+7. Variant identity omitted distractors/explanation/rubric/target metadata, allowing changed content to reuse an identity and later overwrite a frozen copy. Identity now uses SHA-256 over length-prefixed full content/source fields. Declining retention clears all frozen copies and cache wording for that variant and records non-resurrection identity.
+8. Recovery cleared the committed unresolved-request marker without a successful disk write. It now changes only working recovery state until persistence succeeds. Retained frozen source/schedule snapshots support reopen without copying a raw source response. Unresolved requests become unknown outcome and are never resent automatically.
+9. Report dedup ignored full version identity/expiry, and export included removed/expired records. Dedup now matches the full subject and active retention interval; export filters to active saved records. Repository maintenance removes expired cache/report records without rewriting explicitly retained frozen history. No production report-export feature is enabled.
+10. Async UI completion could clear a newer task handle before checking its token and overwrite selections made while waiting. Completion checks run/epoch first; incompatible edits and save/remove actions are disabled during a task. Background/leave/epoch changes cancel local consumption. The host still supplies no live transport.
+11. Reveal exposed support but never rendered the actual answer; it now displays the revealed answer explicitly. Reporting now follows the selected app background. Native target compilation also exposed actor-isolation problems in Grok's test counter/wire helper; the lock-backed counter and pure synthetic builder now have explicit nonisolated ownership.
+
+## Integrated boundaries
+
+The real project registers the five app sources and hosted test file. Speech Lab opens `GeneratedPracticeHost`, which reads the current learner epoch and optional `LearnerDocument.generatedPractice`, applies expiry, recovers retained work and stores changes through the existing repository. Compare-and-replace rejects another screen's stale record. No SwiftData model, migration, provider adapter, second learner store or independent scheduler is introduced. Domain/repository fixtures use synthetic policies and response data. DEBUG UI seeding requires a UUID-isolated `SC_SPEAKING_FIXTURE` plus `SC_GENERATED_FIXTURE`; it runs only when the existing fresh-store fixture is first seeded, so relaunch does not recreate deleted wording/reports.
+
+The production host supplies **no generation policy or request callback**. Generation controls remain disabled. A structural validator, caller-supplied approval flag, cost-record string or successful synthetic fixture is not account/quota/retention evidence or calibrated semantic validation. No live request, automatic repair/retry, vocabulary enrollment, curriculum publication, reward or assessment credit is enabled.
+
+Explicitly retained wording and reports use existing protected, backup-excluded storage. Report data excludes private learner responses, provider credentials and raw wire bodies. Unsaved changes and failed writes do not imply restart durability. Expired cache/report data is removed on read/maintenance; retention of frozen wording remains the independent explicit learner choice. Export helpers remain policy-gated internals, with no new transfer UI. Existing Delete all learning data clears the optional journal and rejects old epochs. No secure-flash-erasure claim.
+
+## Remaining original requirements
+
+| Record | Delivered here | Still incomplete |
+| --- | --- | --- |
+| SC-T037 | Repaired local generation/report machinery and registered integration | All named child outcomes, original QA/prerequisites |
+| SC-T161 | Concrete proposal preserved and inspected; missing-policy refusals verified | Adopted schema/template/objective/activity selection, numeric cost/context/cache/freshness/regeneration/report policy and vocabulary/WOTD defaults; SC-T028 closure |
+| SC-T162 | Pinned one-shot injected client, structural validation, cancellation and fail-closed UI | Real selected generation adapter/account evidence, reviewed sources/fallbacks and semantic/difficulty/answer-quality validation; native/provider acceptance |
+| SC-T163 | Protected compatible cache/frozen state, expiry, restart/deletion and rollback integration | Approved model/provider provenance and cache/retention policy, original prerequisite and actual acceptance |
+| SC-T164 | Minimal local reports, exact saved status, version identity, deletion/expiry and corrected export filtering | Adopted report retention/correction lifecycle, reviewed replacement/fallback flow and full original acceptance |
+
+All five records are **in_progress**, not awaiting_testing or done. SC-D015 is partially implemented. No missing policy, adapter, approved content or review is relabeled as acceptance-only work. SC-T028 and existing provider/content/release prerequisites remain open.
+
+## UI and verification
+
+Read the UI guide and actual Page 1 `speechcoach-kit-03.png` snapshot: T05 `2:38252`, T07 `2:38336`, Content row `41:1105`, Status `41:1155`, Button `2:40308`; native scroll, picker, sheet and confirmation use existing Kit patterns. No Figma write or matched-viewport-fidelity claim. Current Apple [alert guidance](https://developer.apple.com/design/human-interface-guidelines/alerts) and [onChange documentation](https://developer.apple.com/documentation/swiftui/view/onchange(of:initial:_:)) were checked via their Markdown endpoints on 2026-10-25. System APIs compile in the actual target; visual reference inspection is separate from device/accessibility acceptance.
+
+Mode A implementation follows the existing handoff, with an exact-source review before shared-file changes. [Verification evidence](../testing/evidence/sc-d015-integration-2026-10-25/README.md) records first compile defects, subsequent tests, simulator source boundaries and limitations. Physical-device, full VoiceOver/themes/larger text, actual provider/billing and learning acceptance remain separate. No migration, learner reset, release, live provider call or Git initialization.
+
+Final verification: 228 hosted tests plus both UI journeys passed on iPad; final iPhone passed 19 focused tests and both UI journeys. Exact earlier run/source boundaries and final SHA-256 values remain in evidence. No further local repair was required after those final checks; original missing production scope remains in_progress.

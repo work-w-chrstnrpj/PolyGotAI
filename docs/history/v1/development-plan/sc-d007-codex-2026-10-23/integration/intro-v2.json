@@ -1,0 +1,173 @@
+{
+  "id": "intro-01",
+  "contentVersion": "2",
+  "level": "A1",
+  "title": "Introduce yourself",
+  "objectiveId": "INTRO-01",
+  "senses": [
+    {
+      "itemId": "intro-name",
+      "senseId": "called",
+      "lemma": "My name is",
+      "meaning": "Used to tell someone your name."
+    },
+    {
+      "itemId": "intro-origin",
+      "senseId": "place",
+      "lemma": "I am from",
+      "meaning": "Used to say the place you come from."
+    },
+    {
+      "itemId": "intro-study",
+      "senseId": "study",
+      "lemma": "I study",
+      "meaning": "Used to say what you study."
+    },
+    {
+      "itemId": "intro-like",
+      "senseId": "enjoy",
+      "lemma": "I like",
+      "meaning": "Used to talk about something you enjoy."
+    },
+    {
+      "itemId": "intro-meet",
+      "senseId": "greeting",
+      "lemma": "Nice to meet you",
+      "meaning": "A polite greeting when you meet someone for the first time."
+    }
+  ],
+  "activities": [
+    {
+      "id": "read-mina",
+      "kind": "reading",
+      "required": true,
+      "prompt": "Read this introduction. Hello. My name is Mina. I study English. I like cooking. What does Mina study?",
+      "answer": "Mina studies English."
+    },
+    {
+      "id": "listen-alex",
+      "kind": "listening",
+      "required": true,
+      "prompt": "Play the recording. It is a different person from the reading. What is Alex's job?",
+      "answer": "Alex is a cook.",
+      "assetId": "intro-01-listen-alex"
+    },
+    {
+      "id": "grammar-be-am",
+      "kind": "grammar",
+      "required": true,
+      "prompt": "Fill the gap with one word. I ___ a student.",
+      "answer": "am"
+    },
+    {
+      "id": "grammar-be-is",
+      "kind": "grammar",
+      "required": true,
+      "prompt": "Fill the gap with one word. She ___ a teacher.",
+      "answer": "is"
+    },
+    {
+      "id": "grammar-study",
+      "kind": "grammar",
+      "required": true,
+      "prompt": "Fill the gap with one word. I ___ English.",
+      "answer": "study"
+    },
+    {
+      "id": "grammar-works",
+      "kind": "grammar",
+      "required": true,
+      "prompt": "Fill the gap with one word. He ___ in a shop.",
+      "answer": "works"
+    },
+    {
+      "id": "grammar-do",
+      "kind": "grammar",
+      "required": true,
+      "prompt": "Fill the gap with one word. ___ you like music?",
+      "answer": "Do"
+    },
+    {
+      "id": "recall-name",
+      "kind": "recall",
+      "required": true,
+      "prompt": "Write one sentence that tells someone what you are called. You may invent the name.",
+      "answer": "My name is …"
+    },
+    {
+      "id": "recall-from",
+      "kind": "recall",
+      "required": true,
+      "prompt": "Write one sentence that tells someone the place you come from. You may invent the place.",
+      "answer": "I am from …"
+    },
+    {
+      "id": "recall-study",
+      "kind": "recall",
+      "required": true,
+      "prompt": "Write one sentence about your studies, or about your work.",
+      "answer": "I study … / I work …"
+    },
+    {
+      "id": "recall-like",
+      "kind": "recall",
+      "required": true,
+      "prompt": "Write one sentence about something you enjoy.",
+      "answer": "I like …"
+    },
+    {
+      "id": "recall-meet",
+      "kind": "recall",
+      "required": true,
+      "prompt": "Write a short polite line for the first moment you meet someone.",
+      "answer": "Nice to meet you."
+    },
+    {
+      "id": "guided-intro",
+      "kind": "guidedSpeaking",
+      "required": true,
+      "prompt": "Say, or type, three facts: your name, your work or study, and one interest. Then answer one simple question a new person might ask. Invented details are fine.",
+      "answer": "My name is ___. I study / I work ___. I like ___. A simple follow-up is: What do you like?"
+    },
+    {
+      "id": "self-review",
+      "kind": "selfReview",
+      "required": true,
+      "prompt": "Look at your introduction. Did it include a name, a role, and an interest, plus an answer to one follow-up? Write what is there and what is missing.",
+      "answer": "A complete try names you, says work or study, names one interest, and answers one related question."
+    },
+    {
+      "id": "quiet-intro",
+      "kind": "quietText",
+      "required": true,
+      "prompt": "Without speaking, write the same three facts and one simple question back. This stays text practice.",
+      "answer": "Three facts plus one related question, such as: What do you like?",
+      "alternativeToActivityID": "guided-intro"
+    },
+    {
+      "id": "baseline-intro",
+      "kind": "quietText",
+      "required": false,
+      "withheldFromPractice": true,
+      "prompt": "Before any model, write an introduction with three facts and answer one follow-up. This check stays out of ordinary practice.",
+      "answer": "Three facts and one related answer, with no model shown first.",
+      "alternativeToActivityID": "guided-intro"
+    },
+    {
+      "id": "transfer-neighbor",
+      "kind": "guidedSpeaking",
+      "required": false,
+      "withheldFromPractice": true,
+      "prompt": "You meet a new neighbor at the door. Give your name, what you do, and one interest. Then answer: What do you do in the evening?",
+      "answer": "Three relevant facts and a meaningful answer about the evening."
+    },
+    {
+      "id": "transfer-class",
+      "kind": "guidedSpeaking",
+      "required": false,
+      "withheldFromPractice": true,
+      "prompt": "You sit next to a new classmate. Give your name, what you study or your daily role, and one interest. Then answer: Where are you from?",
+      "answer": "Three relevant facts and a meaningful answer about where you are from."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "result": "PASS",
+  "scope": "SC-D013 local real-target integration only",
+  "final_phone": {
+    "xcresult": "application/.build/sc-d013-connect-final-phone.xcresult",
+    "result": "Passed",
+    "hosted_tests": 175,
+    "hosted_suites": 22,
+    "ui_tests": 2,
+    "reported_total": 177,
+    "failed_tests": 0
+  },
+  "ipad": {
+    "xcresult": "application/.build/sc-d013-connect-ipad.xcresult",
+    "result": "Passed",
+    "hosted_tests": 174,
+    "ui_tests": 2,
+    "reported_total": 176,
+    "source_note": "Before final retry-opening/retention wording polish and added audio purge test"
+  },
+  "source_sha256": {
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "9250c31d995396a200aae507f63373164ba631f8c28390164b34b7678fbcf104",
+    "application/SpeechCoachAI/Domain/ConversationSession.swift": "57b4a1d212e09a0e3322fd9114f454bff0fdab2be5f195d6ffe1b4a45f67d9fb",
+    "application/SpeechCoachAI/Domain/InterviewSession.swift": "f8f61031ff7ad90b662dfe1cbb0a26b63f9d897c09fd78865751a25a7809ad95",
+    "application/SpeechCoachAI/Features/Conversation/ConversationPracticeView.swift": "1d98bb84eb74f17659d6773669a84e2da2918878e53e8c760e2b5f3d5564ef59",
+    "application/SpeechCoachAI/Features/Conversation/InterviewPracticeView.swift": "5066ee31f3c6fa3ad2ee63556e50986b07d0f1c111b654d697f359e4f962a0e6",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "d6b3dedf57bcd1b9969eb772c8ae2c5ab4a0cb8f5f45c87944d587d8f900d6e0",
+    "application/SpeechCoachAI/Features/Recording/RecordingView.swift": "a1f15064fc290d13385e13301e9ddea0c91a7021b66210adb832d464a1df72ca",
+    "application/SpeechCoachAI/Features/Recording/RecordingController.swift": "54794f5728b33929936817728b2570889679f7aa74a051f9cd018796af110ae7",
+    "application/SpeechCoachAI/App/LearnerStorageController.swift": "7adeaad1bdc6c9856d651d1abe4307b97969220a6b8c1e8c3da67e0487edcd13",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "c3351c65bb26986976d90b54c4e9669a20753ca57dc8a5ff1ff496065045cd28",
+    "application/SpeechCoachAITests/ConversationDeliveryTests.swift": "a9d77f5de18d3f640b75689eaa42b222caadafd99a57b7a44cea1af1d49a163e",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "d6b96763e240812aae3cfb853616cd24c6cdeabab38cc979ecaf59b035412068"
+  },
+  "static_checks": {
+    "project_plist": "PASS",
+    "ticket_status_and_hash_consistency": "PASS - 192 exact tickets",
+    "changed_record_local_links": "PASS"
+  },
+  "warnings": [
+    {
+      "issueType": "Runtime Warning",
+      "message": "    AVAudioSession_iOS.mm:978   This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+    }
+  ],
+  "remaining": [
+    "SC-T148 adopted online contract and transport",
+    "SC-T149 qualified content publication",
+    "full original online conversation/interview implementation",
+    "physical audio, accessibility, provider and learner acceptance",
+    "SC-D014 Grok delivery/review separate"
+  ],
+  "status": "SC-T035/150/151 in_progress; not full implementation-complete"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-22",
+  "result": "PASS",
+  "counts": {
+    "tracked": 192,
+    "already_done": 11,
+    "queued": 181,
+    "queued_executable_tickets": 159,
+    "queued_group_closures": 22
+  },
+  "checks": [
+    "192 unique records",
+    "source status and hashes refreshed from exact tickets",
+    "all prerequisite references present",
+    "no requires_done cycles",
+    "unfinished prerequisites precede dependents",
+    "current owner-authorized batch recorded"
+  ],
+  "errors": [],
+  "limits": "Dispatch/source consistency only. No runtime, device, provider or learning acceptance implied."
+}

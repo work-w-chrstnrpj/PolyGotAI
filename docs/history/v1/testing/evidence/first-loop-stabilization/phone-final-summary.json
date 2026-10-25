@@ -1,0 +1,55 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName" : "iPhone 18 Pro",
+        "modelName" : "iPhone 18 Pro",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 0,
+      "passedTests" : 97,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "SpeechCoachAI · Built with macOS 27.0.1",
+  "expectedFailures" : 0,
+  "failedTests" : 0,
+  "finishTime" : 1792605537.482,
+  "passedTests" : 78,
+  "result" : "Passed",
+  "runtimeWarnings" : [
+    {
+      "issueType" : "Runtime Warning",
+      "message" : "    AVAudioSession_iOS.mm:978   This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+    }
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1792605246.504,
+  "statistics" : [
+    {
+      "subtitle" : "24 test runs",
+      "title" : "5 tests ran with dynamic parameters"
+    }
+  ],
+  "testFailures" : [
+
+  ],
+  "title" : "Test - SpeechCoachAI",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "13% of duration",
+      "text" : "1 longest test run with outlier durations exceeding 0.23s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 78
+}

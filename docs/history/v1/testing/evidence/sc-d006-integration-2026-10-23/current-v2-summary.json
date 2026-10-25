@@ -1,0 +1,96 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "709D6F70-328D-4458-8F8A-B2C47A945A80",
+        "deviceName" : "iPad (A16)",
+        "modelName" : "iPad (A16)",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 2,
+      "passedTests" : 24,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    },
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+        "deviceName" : "iPhone 18 Pro",
+        "modelName" : "iPhone 18 Pro",
+        "osBuildNumber" : "24A434",
+        "osVersion" : "27.0",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 2,
+      "passedTests" : 24,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "SpeechCoachAI · Built with macOS 27.0.1",
+  "expectedFailures" : 0,
+  "failedTests" : 2,
+  "finishTime" : 1792712602.954,
+  "passedTests" : 24,
+  "result" : "Failed",
+  "runtimeWarnings" : [
+
+  ],
+  "skippedTests" : 0,
+  "startTime" : 1792712581.745,
+  "statistics" : [
+    {
+      "subtitle" : "52 test runs",
+      "title" : "26 tests ran on 2 devices"
+    }
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "Expectation failed: approved.map(\\.contentVersion) == [\"2\", \"2\", \"2\"]\napproved.map(\\.contentVersion) → [\"3\", \"3\", \"3\"]",
+      "targetName" : "SpeechCoachAITests",
+      "testIdentifier" : 23,
+      "testIdentifierString" : "SmallA1CourseTests/approvedPersonalUseLessonsStayReadyAndSeparate()",
+      "testIdentifierURL" : "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAITests/SmallA1CourseTests/approvedPersonalUseLessonsStayReadyAndSeparate()",
+      "testName" : "approvedPersonalUseLessonsStayReadyAndSeparate()"
+    },
+    {
+      "failureText" : "Expectation failed: expected error \".objectiveMismatch\" of type LessonProgressError, but \".unknownActivity\" of type LessonProgressError was thrown instead: LessonProgressError.objectiveMismatch\nLessonProgressError → <not evaluated>\nobjectiveMismatch → <not evaluated>",
+      "targetName" : "SpeechCoachAITests",
+      "testIdentifier" : 24,
+      "testIdentifierString" : "SmallA1CourseTests/oneLessonCannotResumeOrCompleteAnother()",
+      "testIdentifierURL" : "test://com.apple.xcode/SpeechCoachAI/SpeechCoachAITests/SmallA1CourseTests/oneLessonCannotResumeOrCompleteAnother()",
+      "testName" : "oneLessonCannotResumeOrCompleteAnother()"
+    }
+  ],
+  "title" : "Test - SpeechCoachAI",
+  "topInsights" : [
+    {
+      "category" : "Common Failures",
+      "impact" : "50% of failures",
+      "text" : "6 runs of 1 test failed with Expectation failed: lesson.practiceActivities.allSatisfy { ($0.childObjectiveIds ?? []).isEmpty && ($0.explanation ?? \"\").isEmpty }"
+    },
+    {
+      "category" : "Common Failures",
+      "impact" : "50% of failures",
+      "text" : "2 runs of 1 test failed with Expectation failed: expected error \".objectiveMismatch\" of type LessonProgressError, but \".unknownActivity\" of type LessonProgressError was thrown instead: LessonProgressError.objectiveMismatch"
+    },
+    {
+      "category" : "Common Failures",
+      "impact" : "50% of failures",
+      "text" : "2 runs of 1 test failed with Expectation failed: approved.map(\\.contentVersion) == [\"2\", \"2\", \"2\"]"
+    }
+  ],
+  "totalTestCount" : 26
+}

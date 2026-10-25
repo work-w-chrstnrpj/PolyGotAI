@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-25",
+  "scope": "SC-D002 INTRO-01 authoring completion and integration",
+  "author": "Codex",
+  "state": "ready_for_review_personal_use_only",
+  "qualifiedReviewer": null,
+  "qualifiedReviewPerformed": false,
+  "publicPublicationApproved": false,
+  "actualPilotExecuted": false,
+  "lesson": {
+    "id": "intro-01",
+    "objective": "INTRO-01",
+    "version": "4",
+    "packVersion": "3",
+    "preservedVersions": [
+      "2",
+      "3"
+    ],
+    "rawActivityCount": 22,
+    "coreActivityCount": 18,
+    "readingQuestions": 3,
+    "listeningQuestions": 3,
+    "grammarItems": 5,
+    "productiveRecallCues": 5,
+    "guidedTasks": 1,
+    "selfReviewTasks": 1,
+    "quietAlias": "quiet-intro -> guided-intro",
+    "changedActivities": [
+      "listen-alex-name",
+      "listen-alex-like",
+      "quiet-intro"
+    ],
+    "source_sha256": "63892bbbedc65be6a9f7e312c0bfa9230ea3b6421b84899125348ff0ddde1ae6",
+    "comparisonRequiredBeforeCompletion": 16,
+    "accuracyGate": false,
+    "legacyCompletionContractPreserved": true
+  },
+  "guide": {
+    "id": "intro-01-review-1",
+    "version": "1",
+    "rubricVersion": "INTRO-01-personal-draft-1",
+    "activityReviews": 19,
+    "dimensions": 4,
+    "anchorDescriptions": 12,
+    "specialistAndFoundationGuides": 4,
+    "source_sha256": "253a30465b69a6073a839221b3379c472bb34e3c1cf43802ff60d7a2a41f216e"
+  },
+  "assets": [
+    {
+      "id": "intro-01-listen-alex",
+      "relativePath": "intro-01-alex.wav",
+      "byteCount": 200826,
+      "sha256": "e059e4a8a078787000fdc9e2cf050f51cd1e8e92aad940a0894566d16f8ea894",
+      "mediaType": "audio/wav"
+    },
+    {
+      "id": "intro-01-review-guide",
+      "relativePath": "IntroductionReviewGuide.json",
+      "byteCount": 15132,
+      "sha256": "253a30465b69a6073a839221b3379c472bb34e3c1cf43802ff60d7a2a41f216e",
+      "mediaType": "application/json"
+    }
+  ],
+  "rights": "Original SpeechCoachAI wording, 2026-10-25. Existing reference audio is unchanged; no publisher text, descriptor wording or learner response is copied.",
+  "references": [
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale",
+    "https://www.coe.int/en/web/common-european-framework-reference-languages/phonological-competence",
+    "https://rm.coe.int/cefr-companion-volume-with-new-descriptors-2020/16809ea0d4"
+  ],
+  "limits": "No grade, acoustic score, comparable learning result, CEFR certificate, public release, new core count or provider request.",
+  "validation": {
+    "authoring_helpers_idempotent": true,
+    "changed_activity_ids_only": [
+      "listen-alex-name",
+      "listen-alex-like",
+      "quiet-intro"
+    ],
+    "original_audio_unchanged": true,
+    "old_senses_and_ids_unchanged": true,
+    "guide_has_no_reserved_answers": true,
+    "python_ast_and_json_valid": true,
+    "publication_or_qualified_review": false
+  }
+}

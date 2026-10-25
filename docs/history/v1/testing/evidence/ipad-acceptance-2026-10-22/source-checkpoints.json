@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "first_run_snapshot": "application/.build/ipad-acceptance-2026-10-22/source-snapshot.json",
+  "changes_after_first_run": [
+    {
+      "path": "application/SpeechCoachAI/Features/Progress/ProgressOverview.swift",
+      "first_run_sha256": "629ea35e3f381be5ab0744b58b80960aa594b7b1ad95cd7ac9725b1876ab3187",
+      "final_sha256": "5ed697e99528786231f3101c231f09e71c8e1eb5de3d4146555c7ed6220a3959"
+    },
+    {
+      "path": "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift",
+      "first_run_sha256": "57c4ea1134b6f6a8099535d3b63f583e4a9ea4899c07e3ddb3a2e55cabd2f1e8",
+      "final_sha256": "43a06b35d105043c7ca4dc48735abc2f0ba251becf945aad4cf3d03600875397"
+    }
+  ],
+  "scope": "Explicit keyboard readiness/dismissal and Progress contrast assertion in UI test; Kit.secondary color for confidence placeholder in app. Domain/repository/other product sources unchanged."
+}

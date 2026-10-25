@@ -1,0 +1,41 @@
+{
+  "codex_source_and_project_ownership": [
+    "application/SpeechCoachAI/Domain/ReviewSchedule.swift",
+    "application/SpeechCoachAI/Domain/VocabularyRecall.swift",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift",
+    "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift",
+    "application/SpeechCoachAI/Features/Vocabulary/VocabularyRecallView.swift",
+    "application/SpeechCoachAITests/ReviewScheduleTests.swift",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift",
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj"
+  ],
+  "grok_reserved_source_and_tests": [
+    "application/SpeechCoachAI/Domain/PracticeRecommendation.swift",
+    "application/SpeechCoachAI/Domain/LearningEvidence.swift",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift",
+    "application/SpeechCoachAI/Features/Progress/ProgressOverview.swift",
+    "application/SpeechCoachAITests/PracticeRecommendationTests.swift",
+    "application/SpeechCoachAITests/PracticePreferencesTests.swift",
+    "application/SpeechCoachAITests/DailyProgressDeliveryTests.swift"
+  ],
+  "intersection": [],
+  "grok_report": "docs/development-plan/sc-d004-grok-2026-10-23/README.md",
+  "codex_canonical_docs": "Other edited canonical docs and Codex evidence; excludes Grok report directory",
+  "hashes": {
+    "application/SpeechCoachAI/Domain/ReviewSchedule.swift": "8bba0fec06d5c138cf763862b8ff859f432ca397f79534f2d85665dba7e6c169",
+    "application/SpeechCoachAI/Domain/VocabularyRecall.swift": "7126da7ba428de8a31811a1a02846b9f7e9d4d9a05f165456b2af04d6bbfea12",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "52144bdea8023a30282347d59a7bc17789bda174f61f31118a7c15a28bf5bbd6",
+    "application/SpeechCoachAI/Features/Vocabulary/CustomTopicViews.swift": "40c2fe8543d93d1df2fd2e318ea31ccda35941f2516d289b94bfa50e5aa67fd9",
+    "application/SpeechCoachAI/Features/Vocabulary/VocabularyRecallView.swift": "0553703f20a40cd10de886f306e08e3f951ef0fbeb4f0c6e3aa4e0ca82bbc660",
+    "application/SpeechCoachAITests/ReviewScheduleTests.swift": "60c2b086e4396c10aed23f8f589f6fa37671019176852751ef5df88e9f3f3ad0",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "322e58c88a966200ee62cf4a948250e441cadab764a842c27ff134556dbbd0c3",
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "89229096e8ab70abea316641985eb7dcdd7fa160e429d42fa88e1ef537b02df0",
+    "application/SpeechCoachAI/Domain/PracticeRecommendation.swift": "992a4cfe2928b3fc4dd81bfdd9b1af3b3cad56adfdf6d73a500a1e9af41041df",
+    "application/SpeechCoachAI/Domain/LearningEvidence.swift": "f3d4075e89de4722e836dc548a45153da260e00714ad1bcf20ac14d64dcf6a53",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "d65656712c6492a22a24bbc133d245d90ff3c4b27d281caff02ff2e7fff5de53",
+    "application/SpeechCoachAI/Features/Progress/ProgressOverview.swift": "5ed697e99528786231f3101c231f09e71c8e1eb5de3d4146555c7ed6220a3959",
+    "application/SpeechCoachAITests/PracticeRecommendationTests.swift": "d9ebcca63ca484439ccd75830a7d1d559943bd69024df481d84a1cdb621eeb48",
+    "application/SpeechCoachAITests/PracticePreferencesTests.swift": "486a60fac051c1eff5b79cf33da6a41d50847d7e3514def3f80e7694487ee853",
+    "application/SpeechCoachAITests/DailyProgressDeliveryTests.swift": "cc40d86347b3497bbc8c284cacb0b04fd5657a071d41c8d97a2956b3498673eb"
+  }
+}

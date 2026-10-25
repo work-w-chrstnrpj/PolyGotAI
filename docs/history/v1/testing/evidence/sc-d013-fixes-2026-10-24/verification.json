@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-24",
+  "result": "Passed",
+  "passed": 16,
+  "failed": 0,
+  "total": 16,
+  "artifact": "application/.build/sc-d013-fixes-retest-2026-10-24.xcresult",
+  "device": {
+    "architecture": "arm64",
+    "deviceId": "7535AD2C-F655-4F05-8C36-FE5E0A614902",
+    "deviceName": "iPhone 18 Pro",
+    "modelName": "iPhone 18 Pro",
+    "osBuildNumber": "24A434",
+    "osVersion": "27.0",
+    "platform": "iOS Simulator"
+  },
+  "sourceSHA256": {
+    "application/SpeechCoachAI/Domain/ConversationSession.swift": "9e47fe65f0c46427bdef324c0545d8758178370e7a0c8eb3ec9d0ed0bf286e57",
+    "application/SpeechCoachAI/Domain/InterviewSession.swift": "ae5c80aaeabbb26440126d848e25835bf2c004be1bfffe44ed6807872609b41a",
+    "application/SpeechCoachAI/Features/Conversation/ConversationPracticeView.swift": "05fdf629dafa65709bb8af383a18705d5309a1d5901266459b8a0f13a9894d35",
+    "application/SpeechCoachAI/Features/Conversation/InterviewPracticeView.swift": "1ef2c7f7e64e9cfe7da1ca410dfddb195119fe4e73948392919c5e3612e4fcf7",
+    "application/SpeechCoachAITests/ConversationDeliveryTests.swift": "437abb4e0157e32eae253a552f521c8d5de79c8249efd39e1c596172434f8f18"
+  },
+  "realProjectRegistrationChanged": false,
+  "uiInteractionAcceptance": "NOT_RUN",
+  "liveProviderCalls": "NOT_RUN"
+}

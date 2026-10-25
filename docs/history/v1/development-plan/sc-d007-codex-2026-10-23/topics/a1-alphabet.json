@@ -1,0 +1,114 @@
+{
+  "lessonID": "a1-alphabet",
+  "ticket": "SC-T076",
+  "mode": "proposed_revision",
+  "sourceVersion": "2",
+  "contentVersion": "3",
+  "objectiveID": "SPELL-01",
+  "unitID": "A1-D007-U03",
+  "editorialState": "ready_for_review",
+  "ownerManifestApproval": null,
+  "qualifiedReviewer": null,
+  "teaching": "English letters have names used when spelling. A written name begins with a capital letter. In My name is Ben, name is a noun and my shows whose name it is. Is links the subject my name to Ben. Use How do you spell it? to request letters and Please repeat that to repair a misunderstanding. Letter names and the sounds inside a word are different.",
+  "childObjectiveIDs": [
+    "EF-01-DET-01",
+    "EF-01-NOUN-01",
+    "EF-02-BOUND-01",
+    "EF-02-IMP-01",
+    "EF-02-SP-01",
+    "EF-03-BE-01",
+    "EF-03-PRES-01"
+  ],
+  "foundationEvidenceLimit": "These mixed items sample the allocated strands. They are not five unseen items per child objective and do not establish EF-AC02/03 mastery.",
+  "conceptChecks": [
+    {
+      "id": "a1-alphabet-concept-1",
+      "prompt": "In My name is Ben, which word is a common noun?",
+      "answer": "name; Ben is a proper noun."
+    },
+    {
+      "id": "a1-alphabet-concept-2",
+      "prompt": "Does my replace the noun name, or come before it?",
+      "answer": "It comes before name; here it is a possessive determiner."
+    },
+    {
+      "id": "a1-alphabet-concept-3",
+      "prompt": "In My name is Ben, is Ben an object?",
+      "answer": "No. It is the subject complement after linking verb is."
+    },
+    {
+      "id": "a1-alphabet-concept-4",
+      "prompt": "What punctuation ends How do you spell it?",
+      "answer": "A question mark."
+    },
+    {
+      "id": "a1-alphabet-concept-5",
+      "prompt": "Do the letter name B and the sound at the start of Ben have to be identical?",
+      "answer": "No. A letter name is different from the sound represented in a word."
+    }
+  ],
+  "pronunciationSelfReview": "Listen to A, N, A in the clip. Pause between the letter names. If recording, ask whether the separate letters can be heard; do not infer sound accuracy from typed spelling.",
+  "workplaceApplication": "Spell a fictional surname for a visitor badge; never require a real private name.",
+  "quietPolicy": "Use the existing quietText alternative for guidedSpeaking. Text records communication/grammar attempts only; speaking and pronunciation remain unassessed.",
+  "support": {
+    "beforeAttempt": "Offer teaching, original examples and replay on request; record use as support.",
+    "afterAttempt": "Reveal the example only after the first attempt; preserve the original and label retries.",
+    "repairPhrase": "Could you say that again, please?",
+    "privacy": "Invented names, families, homes, work and prices are valid; no retained private recording is required."
+  },
+  "coreCompletionProposal": {
+    "requiredActivityIDs": [
+      "a1-alphabet-read",
+      "a1-alphabet-listen",
+      "a1-alphabet-production-v3-1",
+      "a1-alphabet-production-v3-2",
+      "a1-alphabet-production-v3-3",
+      "a1-alphabet-production-v3-4",
+      "a1-alphabet-production-v3-5",
+      "a1-alphabet-recall-spell",
+      "a1-alphabet-recall-letter",
+      "a1-alphabet-recall-capital",
+      "a1-alphabet-recall-how-spell",
+      "a1-alphabet-recall-name",
+      "a1-alphabet-guided",
+      "a1-alphabet-self",
+      "a1-alphabet-quiet"
+    ],
+    "rule": "Attempt every required core activity with the existing speaking/quiet substitution, review examples/corrections, and attempt self-review. Accuracy never gates participation completion.",
+    "additionalConceptChecks": "Editorial sidecar only; not silently added to core completion.",
+    "baselineAndDelayed": "Optional, separate journals; not core or vocabulary schedule credit."
+  },
+  "assessment": {
+    "rubricVersion": "SPELL-01-draft-1",
+    "communication": "Record which requested message components are conveyed, absent, or not assessed; accept effective alternatives.",
+    "grammar": "Record target opportunities and first-response forms individually; do not infer opportunities from prompt presence.",
+    "vocabulary": "Use existing itemId plus senseId. Exposure and productive use do not schedule recognition.",
+    "reading": {
+      "activityID": "a1-alphabet-read",
+      "acceptedAlternatives": "Short factual answers and equivalent paraphrases matching the passage; no exact-string scoring."
+    },
+    "listening": {
+      "activityID": "a1-alphabet-listen",
+      "acceptedAlternatives": "Short factual answers or equivalent paraphrases matching the recording; reading a transcript is assisted text evidence."
+    },
+    "speaking": "Only an actual recorded/listened-to attempt supports speaking evidence; human listener records intelligibility with qualifications/conditions.",
+    "pronunciation": "Unassessed without qualified listening to retained/consented audio; no acoustic inference from text or ASR.",
+    "thresholds": "No new numeric pass or CEFR threshold selected. Existing EF/IL criteria require their recorded review.",
+    "comparison": "Baseline before teaching; ordinary practice separate; unfamiliar context plus fresh day-7/day-28 prompts. Log support, modality, actual interval and prior exposure. These tasks are not calibrated comparable forms."
+  },
+  "reservedTaskIDs": {
+    "baseline": "a1-alphabet-baseline-v3",
+    "day7": "a1-alphabet-day7-v3",
+    "day28": "a1-alphabet-day28-v3"
+  },
+  "sourceLessonSHA256": "7311f22b86debb35f591447ead96f5a81cfd9cc78f91d2ef015bf7b631551d92",
+  "rights": "New wording is original agent-authored material prepared 2026-10-23; existing wording/audio retain the live pack rightsReference. No external exercises/descriptors copied.",
+  "descriptorReferences": [
+    "CV20-OC48-A1",
+    "CV20-RC54-A1",
+    "CV20-OP62-A1",
+    "CV20-IE78-A1",
+    "CV20-GA132-A1"
+  ],
+  "descriptorMappingState": "Candidate scale links only; exact task/descriptor fit and A1 depth await qualified review."
+}

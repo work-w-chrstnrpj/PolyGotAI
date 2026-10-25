@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-24",
+  "result": "PASS",
+  "scope": "SC-D014 review/fixes and eligible local integration only",
+  "runs": [
+    {
+      "name": "first_registration",
+      "result": "PASS",
+      "hosted_tests": 12,
+      "xcresult": "application/.build/sc-d014-first.xcresult"
+    },
+    {
+      "name": "phone_integrated",
+      "result": "Passed",
+      "hosted_tests": 196,
+      "ui_tests": 2,
+      "total": 198,
+      "failed": 0,
+      "xcresult": "application/.build/sc-d014-phone.xcresult",
+      "source_note": "Before exact-source provenance and readable-label/feedback-display additions"
+    },
+    {
+      "name": "ipad_integrated",
+      "result": "Passed",
+      "hosted_tests": 197,
+      "ui_tests": 2,
+      "total": 199,
+      "failed": 0,
+      "xcresult": "application/.build/sc-d014-ipad-final.xcresult",
+      "source_note": "Before final standalone/source-level metadata correction"
+    },
+    {
+      "name": "final_hosted_iphone",
+      "result": "Passed",
+      "hosted_tests": 197,
+      "ui_tests": 0,
+      "total": 197,
+      "failed": 0,
+      "xcresult": "application/.build/sc-d014-final-hosted.xcresult",
+      "source_note": "Final source including standalone Unassessed/source-level regression; unchanged UI journeys reused"
+    }
+  ],
+  "final_source_sha256": {
+    "application/SpeechCoachAI.xcodeproj/project.pbxproj": "b593f369aeee0b31f3631e5c90d7c1ce517bfe0b45205f51104551b1d8ef7a67",
+    "application/SpeechCoachAI/Domain/CommunicationPractice.swift": "de34e657de8e7cf34d220822d5da64c1391a5d8a8485ded9275e8d090fe1b072",
+    "application/SpeechCoachAI/Domain/ConversationSession.swift": "b2c544ddc03d62deafa5298b7df85d1ea6bad0bac1eb496fe9f254644ad17d31",
+    "application/SpeechCoachAI/Domain/PracticeSessionContext.swift": "b8b20423c67e51226c52f2f5eacd2545f6ebe83e4f3f2737e3d5748e8568c96c",
+    "application/SpeechCoachAI/Features/Communication/CommunicationPracticeView.swift": "b7deb8594e8040df5ab253dc8d3270a95eb988983867a3abfbac212458d7d59b",
+    "application/SpeechCoachAI/Features/Communication/DeliveryFeedbackView.swift": "e3a179f84c8b994a29e61a8ce1fb76fb382444018bef6222ef2f2dfb6c2e3384",
+    "application/SpeechCoachAI/Features/Conversation/ConversationPracticeView.swift": "b40b75d2df42b14b47db4bd3552114093c1435b54e9184875cc5905b4a9fa719",
+    "application/SpeechCoachAI/Features/Learn/LessonPlayerView.swift": "6c09eeee3cbabf87d2e13b2f02d98bd96288b9f2123863a1346226c36da6da77",
+    "application/SpeechCoachAI/Features/Navigation/AppShell.swift": "38d51c642e98e8f8a4ca04a5a6127d5662cfa122345a60e840fca2cb412c4039",
+    "application/SpeechCoachAI/Features/Recording/RecordingView.swift": "d4b646b3af20098f438dd58d19436b20dedb3c1e91e61136775c6df561f6c263",
+    "application/SpeechCoachAI/Features/Recording/RecordingController.swift": "37a82c0039ef89a9204821640bf5261a4ddcf5750612b086115ce8c39628dabf",
+    "application/SpeechCoachAI/Infrastructure/Persistence/LearnerRepository.swift": "b71a7ee5a29911b8ef0f4cee279380d348e3fe6826410c683e07da17aa93f16b",
+    "application/SpeechCoachAITests/CommunicationDeliveryTests.swift": "849cba0ae320f440b1963c87c4e9698a6affba756ddb61b9ea909dca85e7c00b",
+    "application/SpeechCoachAIUITests/BootstrapLaunchTests.swift": "c0a3e7d8a1437223e044e8f25f2938bce2a2c60b1e9e6b8ace257ea1e6768880"
+  },
+  "candidate_sha256": "c43fb3fb1f94a394ecfc88092ad3abf1fa41fa1099b0d16a92e2988d0d034c84",
+  "candidate_published": false,
+  "warnings": [
+    {
+      "run": "phone",
+      "warnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "    AVAudioSession_iOS.mm:978   This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        }
+      ]
+    },
+    {
+      "run": "ipad",
+      "warnings": [
+        {
+          "issueType": "Runtime Warning",
+          "message": "    AVAudioSession_iOS.mm:978   This method can lead to UI unresponsiveness if called on the main thread. Consider using the asynchronous activate/deactivate API instead for calls from the main thread."
+        }
+      ]
+    },
+    {
+      "run": "final_hosted",
+      "warnings": []
+    }
+  ],
+  "static_checks": {
+    "project_plist": "PASS",
+    "ticket_count": 192,
+    "queue_status_and_source_hashes": "PASS",
+    "changed_record_local_links": "PASS"
+  },
+  "limits": [
+    "No reviewed content/reference publication or reference-playback completion",
+    "No adopted online transport/text feedback, TTS or precise sound assessment",
+    "No configured Home/Activity/global reward integration completion",
+    "No physical microphone/routes, full accessibility, unfamiliar/delayed learning, provider or release acceptance"
+  ],
+  "ticket_status": {
+    "in_progress": [
+      "SC-T036",
+      "SC-T154",
+      "SC-T155",
+      "SC-T156",
+      "SC-T157",
+      "SC-T158",
+      "SC-T159"
+    ],
+    "pending": [
+      "SC-T160"
+    ]
+  }
+}

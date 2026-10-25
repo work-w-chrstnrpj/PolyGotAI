@@ -1,0 +1,1758 @@
+{
+  "status": "IN_PROGRESS",
+  "date": "2026-10-17",
+  "evidence": "Behavior and QA inventory. Page 2 removed after local Page 1 consolidation and visual review; prior per-screen references are historical.",
+  "families": [
+    {
+      "id": "ON-01",
+      "group": "First launch and coaching",
+      "name": "Welcome and learning goals",
+      "flow": "First launch → nickname/goals → setup; skip optional setup and revisit in Settings.",
+      "states": "New, partially entered, invalid nickname, resumed setup, skipped.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:337",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-337",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1127",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1127",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ON-02",
+      "group": "First launch and coaching",
+      "name": "Level and daily-target setup",
+      "flow": "Welcome → freely select available CEFR level and time/activity targets → Today.",
+      "states": "A1–C2 choices; explanatory help; unavailable marked Coming later; edit later; no placement lock.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:338",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-338",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1127",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1127",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ON-03",
+      "group": "First launch and coaching",
+      "name": "Coach selection and preview",
+      "flow": "Onboarding or Profile → role preview → select/switch coach → return.",
+      "states": "All seven trainer roles unlocked; selected/unselected; published versus planned packs; method/activity preview; Creative Writer artwork pending; optional voice preview loading/failure/unavailable; never autoplay.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Coaches · Everyone is welcome"
+      },
+      "historicalFigma": {
+        "nodeId": "28:339",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-339",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1127",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1127",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ON-04",
+      "group": "First launch and coaching",
+      "name": "Introduction invitation",
+      "flow": "Setup → Start recording / Preview example / Skip to dashboard.",
+      "states": "First visit, example playing/paused/unavailable, skipped and re-entered.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:340",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-340",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1127",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1127",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "TD-01",
+      "group": "Today and session control",
+      "name": "Daily dashboard",
+      "flow": "Today tab → automatic connected plan; Start/Resume/Choose another; reviews and Word of Day.",
+      "states": "New learner, active plan, partial, complete, no due reviews, no history, offline; separate time/activity indicators; XP/gold/streak.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "VISUAL",
+        "evidence": "VISUAL: Today · Creative Academy; SEEN: Today · Goals and discoveries"
+      },
+      "historicalFigma": {
+        "nodeId": "28:341",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-341",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:37969",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-37969",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "TD-02",
+      "group": "Today and session control",
+      "name": "Plan focus and replacement sheet",
+      "flow": "Choose another → focus/task replacement → return with current progress preserved.",
+      "states": "Suggested plan, alternatives, offline-compatible replacement, no suitable content, cancel.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:342",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-342",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:37969",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-37969",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "TD-03",
+      "group": "Today and session control",
+      "name": "Quiet-session choice",
+      "flow": "Session start or session switch → silent alternatives → same goals/streak credit.",
+      "states": "Off/on; only current session; no automatic microphone/audio; reference playback is deliberate.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: Today quiet switch; copy needs correction"
+      },
+      "historicalFigma": {
+        "nodeId": "28:343",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-343",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:37969",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-37969",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "TD-04",
+      "group": "Today and session control",
+      "name": "Break timer and resume controller",
+      "flow": "Optional timer → pause/continue/leave; relaunch → Resume or another activity.",
+      "states": "Running, paused, ending, elapsed, idle/background, resumed; never discard work on timeout; precise ending UX OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:344",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-344",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:37969",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-37969",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-01",
+      "group": "Curriculum and lesson shell",
+      "name": "Level, units and lessons",
+      "flow": "Learn → free level choice → illustrated unit header → structured lesson list.",
+      "states": "Available, unstarted, partial, completed, content absent/outdated, Coming later; public launch still requires complete path.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Learn · Open levels"
+      },
+      "historicalFigma": {
+        "nodeId": "28:345",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-345",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-02",
+      "group": "Curriculum and lesson shell",
+      "name": "Skip-ahead confirmation",
+      "flow": "Later lesson selected → explain suggested order → continue or cancel.",
+      "states": "No prerequisite lock, cancel preserves location; avoid repeated confirmation policy until decided.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:346",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-346",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-03",
+      "group": "Curriculum and lesson shell",
+      "name": "Lesson objective and explanation",
+      "flow": "Open lesson → objective/examples → Skip/Continue/Another example/back.",
+      "states": "First/revisit, example audio unavailable, offline, long content, related vocabulary, original versus validated AI variant.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Lesson · Explanation"
+      },
+      "historicalFigma": {
+        "nodeId": "28:347",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-347",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-04",
+      "group": "Curriculum and lesson shell",
+      "name": "Lesson continuation and completion",
+      "flow": "Core steps → application/self-review → completion → retry/next/Today.",
+      "states": "Skipped core replacement, partial, offline completed, AI optional, resume position, distinct completion versus mastery; exact core criteria OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:348",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-348",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-05",
+      "group": "Curriculum and lesson shell",
+      "name": "Challenge and refresher sheet",
+      "flow": "Suggested harder variant → accept/decline; repeated mistakes → support options.",
+      "states": "Permission before difficulty change, gentler coaching, retain objective; reveal/refresher thresholds OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:349",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-349",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "LR-06",
+      "group": "Curriculum and lesson shell",
+      "name": "Report incorrect activity",
+      "flow": "Activity menu → identify issue → local confirmation/queued report status.",
+      "states": "Reviewed/generated item, invalid answer alternative, cancel, storage failure; external report destination/privacy OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:350",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-350",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38130",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38130",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-01",
+      "group": "Reusable activity types and assistance",
+      "name": "Multiple-choice response",
+      "flow": "Lesson/activity → choose → Check → feedback.",
+      "states": "Unselected/selected, disabled Check, submitted, correct/incorrect, retry, alternate-valid-answer.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Lesson · Choose an answer; Lesson · Gentle retry"
+      },
+      "historicalFigma": {
+        "nodeId": "28:351",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-351",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-02",
+      "group": "Reusable activity types and assistance",
+      "name": "Sentence building",
+      "flow": "Prompt → arrange tokens → Check → retry/continue.",
+      "states": "Empty, partial, reordered, reset, submitted; accessible move controls instead of drag-only.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:352",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-352",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-03",
+      "group": "Reusable activity types and assistance",
+      "name": "Typed missing-word response",
+      "flow": "Prompt → keyboard entry → Check.",
+      "states": "Empty/partial, keyboard visible, long text, correct/incorrect, accepted valid alternatives.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:353",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-353",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-04",
+      "group": "Reusable activity types and assistance",
+      "name": "Sentence correction",
+      "flow": "Faulty sentence → edit/select correction → Check.",
+      "states": "Selection, edit, undo local edit, submission, explanation; input method is a draft design choice.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:354",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-354",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-05",
+      "group": "Reusable activity types and assistance",
+      "name": "Listening comprehension",
+      "flow": "Explicit play → listen/replay → answer → review.",
+      "states": "Loading, playing/paused, speed, replay, reference unavailable, quiet alternative; answer/transcript reveal policy OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:355",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-355",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-06",
+      "group": "Reusable activity types and assistance",
+      "name": "Reading comprehension",
+      "flow": "Passage → objective-linked questions → feedback.",
+      "states": "Short/long passage, scroll/restore, selection/reference, large text, optional saved vocabulary.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:356",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-356",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-07",
+      "group": "Reusable activity types and assistance",
+      "name": "Reading aloud",
+      "flow": "Reference and prompt → optional listen → shared recording flow → supported review.",
+      "states": "Audio unavailable, microphone denied, quiet replacement, supported/unsupported sound feedback.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:357",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-357",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-08",
+      "group": "Reusable activity types and assistance",
+      "name": "Open response",
+      "flow": "Prompt → typed or permitted spoken response → Check/self-review → feedback.",
+      "states": "Draft, keyboard, long/empty answer, offline-reviewed rules versus online coaching, save/resume.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:358",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-358",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "EX-09",
+      "group": "Reusable activity types and assistance",
+      "name": "Hint, extra example and result panel",
+      "flow": "Help → free allowance or explicit gold spend → clue; submitted mistake → free explanation and retry.",
+      "states": "3 free hints/day, paid 2 gold, extra example 4, insufficient gold, cancelled spend, repeat taps; option-elimination price OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: lesson hint and gentle-retry examples only"
+      },
+      "historicalFigma": {
+        "nodeId": "28:359",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-359",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38252",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38252",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-01",
+      "group": "Vocabulary collections and recall",
+      "name": "Vocabulary home and search",
+      "flow": "Vocabulary tab → due reviews/collection/word/topic.",
+      "states": "No words, no due cards, results/no results, offline, recognition/production categories.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Vocabulary · Your words"
+      },
+      "historicalFigma": {
+        "nodeId": "28:360",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-360",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-02",
+      "group": "Vocabulary collections and recall",
+      "name": "Recall prompt and reveal",
+      "flow": "Start due review → think/optional type → Reveal → rate.",
+      "states": "Meaning/production prompts, answer hidden, typed optional, reveal, hint exposure; optional speech.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:361",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-361",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-03",
+      "group": "Vocabulary collections and recall",
+      "name": "Recall rating and queue summary",
+      "flow": "Revealed card → Again/Hard/Good/Easy → next/finish.",
+      "states": "Rating semantics, undo policy OPEN, no due cards, interrupted queue, offline; avoid rating before reveal.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:362",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-362",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-04",
+      "group": "Vocabulary collections and recall",
+      "name": "Word detail, quick-save and editing",
+      "flow": "Lesson/feedback/search → Save to collection; separately Add to review; edit sense/example/topic/note.",
+      "states": "Already saved, duplicate sense, existing card, unsaved edits/cancel, audio speed/failure, missing fields.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:363",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-363",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-05",
+      "group": "Vocabulary collections and recall",
+      "name": "Topic setup and manual creation",
+      "flow": "Custom topic → direct generation or subtopic narrowing; set level/count/purpose; manual path offline.",
+      "states": "Manual fields, selected subtopic, generated request awaiting provider, no-key/offline alternative.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:364",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-364",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-06",
+      "group": "Vocabulary collections and recall",
+      "name": "Generated word preview and enrollment",
+      "flow": "Generate → preview/edit/select words → collection and optional review enrollment.",
+      "states": "Loading/cancel, rejected content, empty/duplicate results, partial selection, explicit retry, local success/failure.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:365",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-365",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "VO-07",
+      "group": "Vocabulary collections and recall",
+      "name": "Collections and topic management",
+      "flow": "Collection → words → rename/edit/delete → return.",
+      "states": "Empty, personal versus recommended topic, remove from collection versus review unenrollment; deletion consequences OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:366",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-366",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38663",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38663",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-01",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Mode hub",
+      "flow": "Speech Lab tab → AI conversation (free/scenario), interview, everyday/pronunciation/business/spontaneous/communication/articulation setup; honest text/recorded/live availability.",
+      "states": "No recent attempts, suggestions, offline, unsupported capabilities clearly explained.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Speech Lab · Modes; full mode coverage needs review"
+      },
+      "historicalFigma": {
+        "nodeId": "28:367",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-367",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-02",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Everyday, spontaneous and presentation setup",
+      "flow": "Mode → level/purpose/topic/prompt and optional scaffold → record.",
+      "states": "Reviewed/fresh prompt, sample hidden, optional talking points/countdown, retry comparable prompt; duration cap OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: shared recording prompt, dedicated setup absent"
+      },
+      "historicalFigma": {
+        "nodeId": "28:368",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-368",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-03",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Interview and business setup",
+      "flow": "Select role/audience/scenario/focus → objective-linked prompt → recording.",
+      "states": "Software-engineering default from product, configurable role, optional technical coaching, factual sample stories, no employer achievements invented.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:369",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-369",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-04",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Pronunciation and articulation setup",
+      "flow": "Choose sound/reference or expression/word-retrieval focus → reviewed example → shared practice.",
+      "states": "Target/reference, speed/repetitions/scaffold, reference missing, acoustic assessment unavailable, quiet fallback; no clinical claims.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:370",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-370",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-05",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Communication techniques and scaffolds",
+      "flow": "Learn or Speech Lab → technique/example → scaffold/no framework → solo practice.",
+      "states": "Clarity, concise speech, listen/respond, persuasion, delivery, difficult conversations; stable objective/progress; exact release subset OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:371",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-371",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-06",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Ready, countdown, recording and pause",
+      "flow": "Explicit Start → optional countdown → capture → Pause/Resume/Stop.",
+      "states": "Prompt/talking points, elapsed time/waveform, permission denied, input route, no signal, technical limit, interruption/restart, leave confirmation.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Speech Lab · Recording; non-recording states GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:372",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-372",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-07",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Take review and replacement",
+      "flow": "Stop → Play/Re-record/Get AI Feedback/Finish self-review → retain prior take until replacement accepted.",
+      "states": "Playing/paused, accept replacement/cancel, extra take save, interrupted partial replay, invalid audio.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Speech Lab · Take review"
+      },
+      "historicalFigma": {
+        "nodeId": "28:373",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-373",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-08",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Transcription and transcript confirmation",
+      "flow": "Explicit submission/disclosure → ASR status → audio-backed text confirmation/edit.",
+      "states": "Uncertain/empty recognition, original versus edited, stale revision, cancel, failed ASR, no-key/offline.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Speech Lab · Confirm transcript; request states GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:374",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-374",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-09",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Coaching feedback and detail",
+      "flow": "Confirmed transcript → request status → strength/two improvements/retry → expandable evidence.",
+      "states": "No corrections, useful corrections, highlighted text/list, unsupported sound scores, invalid/stale result, follow-up vocabulary save.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Speech Lab · AI feedback"
+      },
+      "historicalFigma": {
+        "nodeId": "28:375",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-375",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-10",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Local self-review and retry",
+      "flow": "Finish self-review or feedback → reflection/checklist → meaningful retry/finish.",
+      "states": "No AI/no key, optional learner confidence, no invented automatic confidence score, retry identity, equal eligible participation.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: self-review action shown; dedicated flow GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:376",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-376",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-11",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Independent retention sheet",
+      "flow": "Finish → Keep recording and/or Keep transcript/feedback → Save selected or Don’t save anything.",
+      "states": "Four audio/text combinations, no text available, durable save/failure, temporary cleanup disclosure; default switches OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "VISUAL",
+        "evidence": "VISUAL: Speech Lab · Save sheet"
+      },
+      "historicalFigma": {
+        "nodeId": "28:377",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-377",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-12",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Saved attempt and comparison",
+      "flow": "Progress/history → prior/current attempt → replay/text comparison/retry/export/delete.",
+      "states": "Four prompt formats, comparable/new-task context, missing/deleted audio, no baseline, provider/rubric differences; no unsupported trend.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:378",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-378",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-01",
+      "group": "Progress and private evidence",
+      "name": "Progress overview and weekly summary",
+      "flow": "Progress tab → consistency/skill evidence/achievements → detail.",
+      "states": "No evidence, sparse week, active week, chosen date range, XP distinct from proficiency; private.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Progress · Your learning rhythm"
+      },
+      "historicalFigma": {
+        "nodeId": "28:379",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-379",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-02",
+      "group": "Progress and private evidence",
+      "name": "Activity history and skill detail",
+      "flow": "Summary → five-skill detail or activity timeline → lesson/review/attempt.",
+      "states": "Filtering, empty, missing audio, discarded text, source/version; aggregate effects of deletion OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:380",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-380",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-03",
+      "group": "Progress and private evidence",
+      "name": "Milestone and badge detail",
+      "flow": "Achievement → criteria and evidence → related practice.",
+      "states": "Adopted v1 seals: participation circles, completion shields, learning hexagons and mapped subject/tiers; native criterion/date/claim labels and all five evidence/availability states; noncollectible milestones remain checkpoints; no leaderboard/share flow.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:381",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-381",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-04",
+      "group": "Progress and private evidence",
+      "name": "Lesson and milestone celebrations",
+      "flow": "Completion → reward summary → explicit Continue.",
+      "states": "ADOPTED v1 presentation: mapped seal/subject/state, committed XP/gold itemization, half-repeat reason, grouped reveal, immediate Continue/skip, static Reduce Motion, quiet/sound/haptic settings and safe-boundary delivery; no double count or timed result dismissal.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:382",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-382",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-05",
+      "group": "Progress and private evidence",
+      "name": "Gold wallet and purchase confirmation",
+      "flow": "Reward balance → tool/help item → cost/remaining balance → explicit buy.",
+      "states": "Enough/insufficient gold, cancelled/repeated tap, no-money purchase, reward history, no penalties for errors.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:383",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-383",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-06",
+      "group": "Progress and private evidence",
+      "name": "Freeze inventory and auto-use",
+      "flow": "Streak detail → buy Freeze (20 gold), inventory, auto-use preference and history.",
+      "states": "Zero/many inventory, one per missed day, auto-use disabled, no cap; timezone edge handling OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:384",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-384",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PG-07",
+      "group": "Progress and private evidence",
+      "name": "Repair and expired streak",
+      "flow": "Missed-day gap → review cost (30 gold/day) → repair/decline.",
+      "states": "1–7 days eligible, >7 unavailable, inadequate gold, purchase failure/repeat taps; cooldown OPEN; no fabricated study days.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:385",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-385",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38732",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38732",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-01",
+      "group": "Preferences, providers and reminders",
+      "name": "Profile and learning preferences",
+      "flow": "Profile → nickname/goals/defaults/mode defaults/session overrides → return.",
+      "states": "Edit/cancel/persist, precedence session→mode→global→app, capability unavailable; exact defaults OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "SEEN",
+        "evidence": "SEEN: Profile · Settings"
+      },
+      "historicalFigma": {
+        "nodeId": "28:386",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-386",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-02",
+      "group": "Preferences, providers and reminders",
+      "name": "Appearance and background preview",
+      "flow": "Settings → preview/apply any of three backgrounds; independently Light/Dark/System.",
+      "states": "Selected/unselected, cancel preview, dark, large text, reduced motion, all free, current coach preserved; default OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "VISUAL",
+        "evidence": "VISUAL: Appearance · Styles and theme; SEEN: three Today styles and dark"
+      },
+      "historicalFigma": {
+        "nodeId": "28:387",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-387",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-03",
+      "group": "Preferences, providers and reminders",
+      "name": "Sound, voice and accessibility preferences",
+      "flow": "Settings → separate music/effects/coach speech/haptic controls; explicit reference/coach audio.",
+      "states": "Muted, quiet session override, preset voice unavailable, loading/failure, playback speed, system accessibility interaction.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:388",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-388",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-04",
+      "group": "Preferences, providers and reminders",
+      "name": "Reminders and notification access",
+      "flow": "Settings/onboarding → chosen days/time/unfinished-goal condition → permission request when appropriate.",
+      "states": "Allowed/denied/system settings, no reminders, schedule edit/cancel, generic preview, ignored reminder no repeat.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:389",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-389",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-05",
+      "group": "Preferences, providers and reminders",
+      "name": "Provider connection and credential lifecycle",
+      "flow": "First AI request/Settings → masked key → explicit test → return; replace/remove key.",
+      "states": "No key, testing possibly billable, success, invalid/revoked, unsupported model/region, remove-local versus provider revoke.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:390",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-390",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "ST-06",
+      "group": "Preferences, providers and reminders",
+      "name": "Upload and cost disclosure",
+      "flow": "Before first online feature → provider/data/cost explanation → submit or stay local.",
+      "states": "First disclosure, changed provider/data scope, explicit subsequent request/retry, cancelled disclosure; no automatic upload.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:391",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-391",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PR-01",
+      "group": "Privacy, storage and data control",
+      "name": "Storage and retained history",
+      "flow": "Settings → storage usage/saved items → selected cleanup/export.",
+      "states": "Temporary/saved audio, text-only, storage full, recoverable orphan; no unsolicited eviction of saved recordings.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:392",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-392",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PR-02",
+      "group": "Privacy, storage and data control",
+      "name": "Export selection and share sheet",
+      "flow": "History/Settings → select recordings/text → prepare → system share/export.",
+      "states": "No selected data, mixed retention, unavailable files, failure/cancel; keys excluded; format/destination defaults OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:393",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-393",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PR-03",
+      "group": "Privacy, storage and data control",
+      "name": "Delete and Recently Deleted",
+      "flow": "Saved record → confirm soft-delete → Recently Deleted → restore/permanent purge.",
+      "states": "30-day expiry, no resurrection by late callbacks, restore failure, already purged, audio/text dependencies; permanent purge explicit.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:394",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-394",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "PR-04",
+      "group": "Privacy, storage and data control",
+      "name": "Delete all learning data",
+      "flow": "Settings → scope/consequences → deliberate confirmation → completion or recoverable failure.",
+      "states": "Retained keys versus learning data distinction, partial failure, Recently Deleted behavior OPEN; no silent account/provider deletion.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:395",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-395",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38834",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38834",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "RS-01",
+      "group": "Resources and content support",
+      "name": "Resource bookmarks and link cards",
+      "flow": "Learn supporting resources → curated/personal YouTube card → external destination.",
+      "states": "Empty, invalid/unavailable link, thumbnail absent, offline, return to lesson; no inferred video-content knowledge.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:396",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-396",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1105",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1105",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "RS-02",
+      "group": "Resources and content support",
+      "name": "Add/edit bookmark and learner notes",
+      "flow": "Resource list → valid URL/title/topic/notes → save/edit/remove.",
+      "states": "Invalid input, unsaved edits, duplicate link, cancellation, local failure; embedded playback remains deferred.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:397",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-397",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1105",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1105",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SY-01",
+      "group": "Shared recovery surfaces",
+      "name": "Online request lifecycle surface",
+      "flow": "ASR/coaching/generation/TTS → truthful stage/Cancel → result or recoverable failure.",
+      "states": "Offline, no key, auth/quota/rate-limit/timeout unknown outcome, provider failure, invalid result, unsupported capability; explicit retry, no fake %.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:398",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-398",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1155",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1155",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SY-02",
+      "group": "Shared recovery surfaces",
+      "name": "Recording interruptions and input access",
+      "flow": "Recording → permission/route/call/background issue → recover partial or restart/quiet.",
+      "states": "Denied/revoked, call, headset disconnect, no input, crash recovery; never silently resume capture.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:399",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-399",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1155",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1155",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SY-03",
+      "group": "Shared recovery surfaces",
+      "name": "Draft, storage and content recovery",
+      "flow": "Any task → leave/relaunch/storage/version issue → restore compatible work or explain repair.",
+      "states": "Unsaved edits, draft recovery/expiry, disk full, corrupt file, content changed, save failure; preserve available work.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:400",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-400",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1155",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1155",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SY-04",
+      "group": "Shared recovery surfaces",
+      "name": "Consistent shell and feedback components",
+      "flow": "All top-level tabs → own stack; task modal → dismiss/return.",
+      "states": "Selected/pressed/disabled/focus/error, back/close distinction, keyboard-safe action bar, accessible labels, neutral empty state.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: reusable-components area exists; bindings/prototype not audited"
+      },
+      "historicalFigma": {
+        "nodeId": "28:401",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-401",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "41:1155",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=41-1155",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "AX-01",
+      "group": "Visual and platform validation",
+      "name": "Style/theme and artwork specimens",
+      "flow": "Shared foundations → light/dark specimens for all three background styles → consistent controls.",
+      "states": "Character/illustration shifts, no moving backdrop during concentration, contrast, SF Pro, no locked art; original assets still draft.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "PARTIAL",
+        "evidence": "PARTIAL: foundations, coach art and Today styles; not all style/theme combinations checked"
+      },
+      "historicalFigma": {
+        "nodeId": "28:402",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-402",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38893",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38893",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "AX-02",
+      "group": "Visual and platform validation",
+      "name": "Large-text and assistive interaction specimens",
+      "flow": "Core journeys → larger Dynamic Type/VoiceOver/keyboard alternatives → same actions and content.",
+      "states": "Reflow, scrolling, focus order, 44pt targets, labels, no color/sound-only signals, drag alternative, reduced-motion celebration.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:403",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-403",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38893",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38893",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "AX-03",
+      "group": "Visual and platform validation",
+      "name": "iPad adaptive layouts",
+      "flow": "Same routes → regular-width sidebar/multi-pane references and focused recording/exercise → compact width.",
+      "states": "Portrait/landscape, split width, hardware keyboard/focus, keyboard occlusion, no assumed Pencil dependency.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:404",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-404",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38893",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38893",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "TD-05",
+      "group": "Today and session control",
+      "name": "Optional communication routine",
+      "flow": "Today shortcut → choose practice checklist/workload → shared technique tasks and completion.",
+      "states": "Opted out, selected items, partial/complete, offline fallback; participation not mastery; exact reset rules OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:405",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-405",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:37969",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-37969",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    },
+    {
+      "id": "SP-13",
+      "group": "Speech Lab and attempt lifecycle",
+      "name": "Missing-word assistance",
+      "flow": "Prompt preparation or expression practice → describe intended meaning → English suggestions → return to draft.",
+      "states": "No suggestion, suitable alternatives, offline reference or unavailable AI, cancelled request; never overwrite learner answer; exact aid pricing OPEN.",
+      "evidence": "Reusable Page 1 pattern reference; behavior-specific walkthrough and runtime acceptance pending.",
+      "status": "PATTERN_REFERENCE_BEHAVIOR_QA_PENDING",
+      "previousEvidence": {
+        "date": "2026-10-16",
+        "status": "GAP",
+        "evidence": "GAP"
+      },
+      "historicalFigma": {
+        "nodeId": "28:406",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=28-406",
+        "verification": "REMOVED_WITH_PAGE_2"
+      },
+      "figma": {
+        "nodeId": "2:38336",
+        "url": "https://www.figma.com/design/B1A9qEN1B7I3NJKISX39Dx?node-id=2-38336",
+        "verification": "SHARED_PATTERN_REFERENCE",
+        "note": "Shared pattern, not a dedicated verified screen for every family state."
+      }
+    }
+  ],
+  "designStrategy": "Reusable Page 1 components, templates and main speaking journey; no frame-per-state requirement."
+}

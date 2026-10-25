@@ -1,0 +1,132 @@
+[
+  {
+    "foreground": "text",
+    "background": "background",
+    "colors": [
+      "#213D39",
+      "#F7F4EC"
+    ],
+    "ratio": 10.667,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "text",
+    "background": "surface",
+    "colors": [
+      "#213D39",
+      "#FFFFFF"
+    ],
+    "ratio": 11.724,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "secondary",
+    "background": "background",
+    "colors": [
+      "#526963",
+      "#F7F4EC"
+    ],
+    "ratio": 5.368,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "secondary",
+    "background": "surface",
+    "colors": [
+      "#526963",
+      "#FFFFFF"
+    ],
+    "ratio": 5.9,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "onAccent",
+    "background": "accent",
+    "colors": [
+      "#FFFFFF",
+      "#176C60"
+    ],
+    "ratio": 6.268,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "textDark",
+    "background": "backgroundDark",
+    "colors": [
+      "#F4F6EF",
+      "#142421"
+    ],
+    "ratio": 14.781,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "textDark",
+    "background": "surfaceDark",
+    "colors": [
+      "#F4F6EF",
+      "#213531"
+    ],
+    "ratio": 11.911,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "secondaryDark",
+    "background": "surfaceDark",
+    "colors": [
+      "#BDCFC8",
+      "#213531"
+    ],
+    "ratio": 7.986,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "onAccentDark",
+    "background": "accentDark",
+    "colors": [
+      "#142421",
+      "#9AD3B9"
+    ],
+    "ratio": 9.503,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "danger",
+    "background": "surface",
+    "colors": [
+      "#A83132",
+      "#FFFFFF"
+    ],
+    "ratio": 6.666,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "dangerDark",
+    "background": "surfaceDark",
+    "colors": [
+      "#FFB6B5",
+      "#213531"
+    ],
+    "ratio": 7.793,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "border",
+    "background": "surface",
+    "colors": [
+      "#BBCDC3",
+      "#FFFFFF"
+    ],
+    "ratio": 1.662,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  },
+  {
+    "foreground": "borderDark",
+    "background": "surfaceDark",
+    "colors": [
+      "#55756A",
+      "#213531"
+    ],
+    "ratio": 2.558,
+    "scope": "Static opaque source-token pair only; not a rendered-text/control compliance result."
+  }
+]

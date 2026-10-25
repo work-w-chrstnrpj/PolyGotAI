@@ -1,0 +1,29 @@
+{
+  "result": "Passed",
+  "totalTestCount": 18,
+  "passedTests": 18,
+  "failedTests": 0,
+  "skippedTests": 0,
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceName": "chrixrcrusher",
+        "modelName": "iPhone 15 Plus",
+        "osBuildNumber": "24A446",
+        "osVersion": "27.0.1",
+        "platform": "iOS"
+      },
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "passedTests": 21,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "testFailures": [],
+  "runtimeWarnings": []
+}
