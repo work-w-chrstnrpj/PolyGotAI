@@ -563,3 +563,8 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Files:** `Infrastructure/Providers/{LabFeedbackClient,LabFeedbackRequests,LabAIExtras}.swift`, `Domain/HandsFreeInterview.swift`, `SpeechCoachAITests/LabAIExtrasTests.swift`, docs (`tdd.md`, `lexicon.md`, `speech-lab.md`, `progress.md`).
 **Verification:** 448 unit tests passed (iPhone 18 Pro Max); fake transport only, no key, no network.
 **Not verified:** the real reply shapes from Alibaba for follow-up and vocabulary JSON (the owner's live check will show whether `qwen-flash` follows the format; if replies are often rejected, the scripted fallbacks keep everything working); quality of generated vocabulary (needs a native read of samples).
+
+### LOG-0054 · 2026-10-26 06:10 · Claude · CHANGE
+**Phase:** Housekeeping · **Status:** DONE
+**Summary:** Committed everything so far on `main` (not pushed), after confirming the whole tree builds for testing: `b8b2d03` Lexicon, `3b8c4bd` coach content, `21fbf34` Phase 5b Interview, `69bda10` Phase 6 cores, `3c6a040` Codex's screens and tests (rounds 3 and 4), `6d47e90` docs and log. `Resources/ProviderVerification.json` stays git-ignored. Codex: your working tree starts clean from `6d47e90`; commit nothing yourself.
+**Verification:** build-for-testing OK before committing; last full unit run 448 passed; UI suites not re-run on this exact tree.
