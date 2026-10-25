@@ -3,6 +3,14 @@ import UIKit
 
 /// One auto-checked exercise: question, answer area, Check, then instant feedback and Continue.
 /// The lesson player owns saving; this view reports the learner's answer as text through `onSubmit`.
+/// What a coach lesson's "Your turn" answer is reviewed against (online feedback, when it is on).
+struct ExerciseReviewContext {
+    var coach: String
+    var lesson: String
+    var objective: String
+    var storage: LearnerStorageController
+}
+
 struct ExerciseActivityView: View {
     let activity: CurriculumActivity
     var progress: Double
@@ -11,8 +19,9 @@ struct ExerciseActivityView: View {
     /// The first answer already saved for this activity, shown again when the learner returns to it.
     var storedResponse: String? = nil
     var message: String? = nil
-    /// XP and gold earned by this answer, shown under the feedback.
+    /// XP earned by this answer, shown under the feedback.
     var rewardSummary: AnyView? = nil
+    var reviewContext: ExerciseReviewContext? = nil
     var canGoBack = false
     var onBack: () -> Void = {}
     var onPlayClip: (String) -> Void = { _ in }
@@ -54,6 +63,11 @@ struct ExerciseActivityView: View {
                     promptView
                     audioControls
                     exerciseBody.allowsHitTesting(!locked)
+                    if spec.kind == .open, locked, let review = reviewContext, !typed.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        AIFeedbackSection(request: .coachReview(coach: review.coach, lessonTitle: review.lesson, objective: review.objective,
+                                                                task: parts.question, answer: typed, level: review.storage.feedbackLevel),
+                                          title: review.lesson, storage: review.storage)
+                    }
                     if let message { Text(message).font(.callout).foregroundStyle(Kit.error) }
                 }
                 .frame(maxWidth: 640, alignment: .leading)
@@ -279,8 +293,9 @@ struct ExerciseActivityView: View {
         }
     }
 
-    private var typedBody: some View {
-        field.dictation($typed)
+    /// "Type what you hear" has no microphone: dictating the clip back would skip the listening practice.
+    @ViewBuilder private var typedBody: some View {
+        if spec.kind == .listenType { field } else { field.dictation($typed) }
     }
 
     private var field: some View {

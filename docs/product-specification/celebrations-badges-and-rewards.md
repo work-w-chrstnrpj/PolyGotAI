@@ -1,5 +1,7 @@
 # Celebrations, badges and reward delivery
 
+> **v2 override (2026-10-26, owner):** gold is removed. XP is the only currency and drives a level (Level 1 at 0 XP, then 100, 300, 600, 1,000 … `50 × (L−1) × L`). Badges and milestones stay. Hints and worked examples are free; the Freeze and Repair purchases are gone (a Freeze bought earlier still works). Progress shows the level, time in the app and milestones; see [Progress](ui-ux-design.md#progress-v2-2026-10-26). Gold wording below is history.
+
 > v2 (2026-10-25): rewards stay as implemented. Today shows streak and XP only; badges live in Progress. Ticket references are history.
 
 > Owner adopted the complete catalog and achievement visual system on 2026-10-19 (Asia/Manila). Use the canonical [adopted visual specification](achievement-visual-design.md) for all badge/achievement/milestone surfaces and the retained board as its visual reference. The delivery hierarchy, static/quiet alternatives and initial motion targets below are design requirements; production assets, runtime checks and unresolved accounting/retention policies remain pending. Approved economy values are unchanged.

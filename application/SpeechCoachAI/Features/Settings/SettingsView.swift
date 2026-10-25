@@ -20,7 +20,7 @@ struct SettingsView: View {
                 })).accessibilityIdentifier("settings.countdown")
             }
             Section("Practice rewards") {
-                NavigationLink("Rewards, wallet and achievements") { RewardOverview(storage: storage) }
+                NavigationLink("Badges and goals") { RewardOverview(storage: storage) }
                     .accessibilityIdentifier("settings.rewards")
             }
             Section("Online coaching") {

@@ -183,6 +183,14 @@ Spec: [lexicon.md](../product-specification/lexicon.md). The Lexicon tab reuses 
 
 `LearnerPreferences.Coach` gains cases for the new characters (`debater`, `negotiator`, `storyteller`, `copywriter`). Adding cases is backward compatible for stored data; never rename or remove a case. A coach without artwork shows an SF Symbol placeholder.
 
+## Level and usage analytics (2026-10-26)
+
+- `Domain/XPLevel.swift`: level from XP (`threshold(L) = 50·(L−1)·L`). The ledger keeps a legacy `gold` field on old rows, always 0 on new ones; purchases, quotes, Freeze and Repair buying are removed.
+- `Domain/UsageLog.swift`: `UsageSession`, `UsageLog` (learner document field `usage`; visits under 60 seconds are ignored; overlaps merge; visits older than 120 days fold into per-day totals), `UsageTracker` (pure foreground state machine; a gap of up to 30 seconds continues a visit), `UsageReport` (splits visits at midnight; hourly, daily and monthly buckets; totals and days used).
+- `App/UsageRecorder.swift`: listens to scene phase, saves finished visits through `LearnerRepository.recordUsage`, keeps an unsaved visit across a locked device or a crash (UserDefaults `usage.open` and `usage.pending`).
+- `Domain/Milestones.swift`: milestones are computed from the ledger, level tests, journeys, usage and word stages; nothing extra is stored.
+- Screens: `Features/Progress/{LevelAndMilestonesViews,UsageAnalyticsView}.swift` (Swift Charts); `Features/Rewards/RewardOverview.swift` is now "Level and badges".
+
 ## Online AI (Phase 6)
 
 The existing gated provider clients (`Infrastructure/Providers/`) stay disabled until the owner installs a verification file (`tools/provider/install_verification.sh`). Keys stay in Keychain, requests are explicit only, and failures are shown plainly. Endpoint, models and limits: [Decision 9 findings](../development-plan/development-plan.md#decision-9-findings--phase-6a-research-2026-10-25).

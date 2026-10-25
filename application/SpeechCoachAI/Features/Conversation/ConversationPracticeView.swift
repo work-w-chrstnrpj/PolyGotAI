@@ -122,6 +122,11 @@ struct ConversationPracticeView: View {
             }
         }
         .accessibilityIdentifier("conversation.history")
+        let learnerTurns = session.turns.filter { $0.speaker == .learner && $0.disposition == .submitted }.compactMap(\.text).filter { !$0.isEmpty }
+        if !learnerTurns.isEmpty, let storage {
+            AIFeedbackSection(request: .conversation(scenario: session.setup.situation, learnerTurns: learnerTurns, level: storage.feedbackLevel),
+                              title: "Conversation", storage: storage)
+        }
         if session.phase == .practicing { composer }
         if session.phase == .stopped {
             Button("Continue practice") { apply(session.restart()) }

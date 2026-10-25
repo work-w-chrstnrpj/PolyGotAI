@@ -4,7 +4,7 @@ import Observation
 /// Owns the screen's audio lifetime. Captions and finished turns stay in memory only.
 @MainActor @Observable
 final class HandsFreeInterviewController: NSObject, AVSpeechSynthesizerDelegate {
-    enum Phase { case setup, speaking, starting, listening, waiting, paused, summary }
+    enum Phase { case setup, speaking, starting, listening, waiting, paused, thinking, summary }
     private(set) var phase = Phase.setup
     private(set) var interview: HandsFreeInterview?
     private(set) var caption = ""
@@ -16,13 +16,19 @@ final class HandsFreeInterviewController: NSObject, AVSpeechSynthesizerDelegate 
     private var starting: Task<Void, Never>?
     private var detector: TurnDetector?
     private var fixturePromptEnd: Date?
+    /// Online follow-ups (Phase 6c). Off unless the learner turns them on beside the disclosure line; any failure falls back to the scripted follow-up.
+    private let aiService: LabFeedbackService?
+    var aiFollowUps = false
+    var aiAvailable: Bool { aiService?.isAvailable == true }
+    private var thinking: Task<Void, Never>?
     private let fixture: Bool
     private let silentFixture: Bool
     var canResume: Bool { starting == nil }
 
-    init(fixture: Bool = SpeechLabRecognizer.fixture, silentFixture: Bool = false) {
+    init(fixture: Bool = SpeechLabRecognizer.fixture, silentFixture: Bool = false, aiService: LabFeedbackService? = nil) {
         self.fixture = fixture
         self.silentFixture = silentFixture
+        self.aiService = aiService
         super.init()
         speaker.delegate = self
     }
@@ -102,8 +108,34 @@ final class HandsFreeInterviewController: NSObject, AVSpeechSynthesizerDelegate 
             let duration = now.timeIntervalSince(detector.startedAt)
             stopAudio()
             interview?.record(transcript: text, duration: duration, end: reason, now: now)
-            presentPrompt(now: now)
+            if !askOnline(level: level, now: now) { presentPrompt(now: now) }
         }
+    }
+
+    private var level = "A1"
+
+    func start(set: String, level: String, bank: [InterviewQuestionItem], learnerLevel: String, now: Date = .now) {
+        self.level = learnerLevel
+        start(set: set, level: level, bank: bank, now: now)
+    }
+
+    /// After an answer to a core question, ask the online model for one follow-up. Returns false when nothing was started,
+    /// so the caller speaks the scripted follow-up (or the next question) at once.
+    private func askOnline(level: String, now: Date) -> Bool {
+        guard aiFollowUps, let service = aiService, service.isAvailable, let interview, interview.inFollowUp,
+              let latest = interview.latestAnswer else { return false }
+        let request = InterviewFollowUpRequest(question: latest.question, answer: latest.answer, level: self.level)
+        let consent = LabFeedbackConsent(shown: .current(mode: .interview, includesAudio: false))
+        let token = generation
+        phase = .thinking; caption = ""; detector = nil
+        thinking = Task { [weak self] in
+            let text = try? await service.followUp(for: request, consent: consent).text
+            guard let self, generation == token, phase == .thinking, !Task.isCancelled else { return }
+            if let text { self.interview?.setAIFollowUp(text) }
+            thinking = nil
+            presentPrompt(now: .now)
+        }
+        return true
     }
 
     private func presentPrompt(now: Date) {
@@ -153,6 +185,7 @@ final class HandsFreeInterviewController: NSObject, AVSpeechSynthesizerDelegate 
 
     private func stopAudio() {
         generation = UUID(); utteranceID = nil; fixturePromptEnd = nil
+        thinking?.cancel(); thinking = nil
         starting?.cancel()
         speaker.stopSpeaking(at: .immediate)
         if !fixture {

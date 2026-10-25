@@ -49,6 +49,39 @@ final class Round4ScreenTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Yesterday I go"].exists)
         capture("feedback-result")
     }
+    @MainActor func testSavedFeedbackAppearsInHistoryAndCanBeDeleted() {
+        let app = launch(enabled: true)
+        tap(app, app.buttons["settings.ui-fixture"])
+        tap(app, app.buttons["ai.send"])
+        XCTAssertTrue(app.staticTexts["ai.summary"].waitForExistence(timeout: 10))
+        tap(app, app.buttons["fixture.history"])
+        XCTAssertTrue(app.staticTexts["feedback.summary"].waitForExistence(timeout: 5))
+        tap(app, app.buttons["feedback.record"])
+        XCTAssertTrue(app.staticTexts["feedback.transcript"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.staticTexts["feedback.transcript"].label, "Yesterday I go to the market.")
+        capture("feedback-history-record")
+        tap(app, app.buttons["feedback.delete"])
+        XCTAssertTrue(app.navigationBars["Feedback history"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["feedback.record"].exists)
+    }
+    @MainActor func testSpecializedWordsAreReviewedBeforeSaving() {
+        let app = launch(enabled: true)
+        tap(app, app.buttons["settings.ui-fixture"])
+        tap(app, app.buttons["fixture.specialized"])
+        let topic = app.textFields["specialized.topic"]
+        XCTAssertTrue(topic.waitForExistence(timeout: 5))
+        XCTAssertFalse(app.buttons["specialized.generate"].isEnabled)
+        topic.tap(); topic.typeText("Courtroom")
+        tap(app, app.buttons["specialized.generate"])
+        let gavel = app.descendants(matching: .any)["specialized.word.gavel"].firstMatch
+        if !gavel.waitForExistence(timeout: 10) { XCTFail(app.debugDescription) }
+        XCTAssertFalse(app.buttons["specialized.save"].isEnabled)
+        tap(app, gavel)
+        tap(app, app.buttons["specialized.save"])
+        XCTAssertTrue(app.staticTexts["specialized.saved"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.staticTexts["specialized.saved"].label, "Added 1 word.")
+        capture("specialized-words")
+    }
     @MainActor func testProviderErrorDoesNotRetryOrShowAResult() {
         let app = launch(enabled: true, failure: true)
         tap(app, app.buttons["settings.ui-fixture"])

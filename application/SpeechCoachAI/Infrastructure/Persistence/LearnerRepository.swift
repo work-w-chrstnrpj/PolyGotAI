@@ -979,19 +979,6 @@ final class LearnerRepository {
         try mutateRewards(epoch: expectedEpoch, revision: expectedRevision) { $0.settings = settings }
     }
 
-    func purchaseReward(_ quote: RewardPurchase) throws {
-        guard try learningDataEpoch() == quote.epoch else { throw LearnerStorageError.staleVersion }
-        if quote.kind == .hint || quote.kind == .example {
-            let parts = quote.context?.split(separator: "/").map(String.init) ?? []
-            guard parts.count == 3, parts[0] == "intro-01", parts[1] == "4",
-                  RewardAssistanceContent.forActivity(parts[2]) != nil else { throw RewardError.invalidRequest }
-        }
-        let stored = try rewardLedger()
-        if stored.transactions.contains(where: { $0.id == quote.id.uuidString }) { return }
-        let date = try effectiveNow()
-        try mutateRewards(epoch: quote.epoch, revision: quote.revision) { try $0.purchase(quote, day: RewardPolicy.day(date), now: date) }
-    }
-
     func acknowledgeRewards(_ ids: [String], epoch: UUID, revision: Int) throws {
         try mutateRewards(epoch: epoch, revision: revision) { ledger in
             let valid = Set(ledger.awards.map(\.id))
@@ -1142,6 +1129,27 @@ final class LearnerRepository {
         var state = stored.speechLab ?? SpeechLabState()
         state.remove(id)
         stored.speechLab = state
+        try write(stored)
+    }
+
+    // MARK: Screen time (Progress analytics)
+
+    func usageLog() throws -> UsageLog { try document().usage ?? UsageLog() }
+
+    /// Saves one stretch of screen time. Stretches under a minute are ignored. Returns whether it was saved.
+    @discardableResult
+    func recordUsage(start: Date, end: Date) throws -> Bool {
+        var stored = try document()
+        var log = stored.usage ?? UsageLog()
+        guard log.record(start: start, end: end, now: try effectiveNow()) else { return false }
+        stored.usage = log
+        try write(stored)
+        return true
+    }
+
+    func clearUsage() throws {
+        var stored = try document()
+        stored.usage = nil
         try write(stored)
     }
 
@@ -1469,6 +1477,8 @@ final class LearnerRepository {
         var speechLab: SpeechLabState? = nil
         /// v2 Phase 6a: saved online feedback results (newest last, capped).
         var labFeedback: [StoredLabFeedback]? = nil
+        /// v2: screen time (stretches of a minute or more) for the Progress analytics.
+        var usage: UsageLog? = nil
 
         init(preferences: LearnerPreferences, lessonJourneys: [LessonJourney] = [],
              vocabularyEnrollments: [VocabularyEnrollment] = [], vocabularyExposures: [VocabularyExposure] = [],
@@ -1492,7 +1502,7 @@ final class LearnerRepository {
         }
 
         private enum CodingKeys: String, CodingKey {
-            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon, speechLab, labFeedback
+            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon, speechLab, labFeedback, usage
         }
 
         init(from decoder: Decoder) throws {
@@ -1520,6 +1530,7 @@ final class LearnerRepository {
             lexicon = try container.decodeIfPresent(LexiconState.self, forKey: .lexicon)
             speechLab = try container.decodeIfPresent(SpeechLabState.self, forKey: .speechLab)
             labFeedback = try container.decodeIfPresent([StoredLabFeedback].self, forKey: .labFeedback)
+            usage = try container.decodeIfPresent(UsageLog.self, forKey: .usage)
         }
 
         func encode(to encoder: Encoder) throws {
@@ -1547,6 +1558,7 @@ final class LearnerRepository {
             try container.encodeIfPresent(lexicon, forKey: .lexicon)
             try container.encodeIfPresent(speechLab, forKey: .speechLab)
             try container.encodeIfPresent(labFeedback, forKey: .labFeedback)
+            try container.encodeIfPresent(usage, forKey: .usage)
         }
 
         func customLibrary() -> CustomVocabularyLibrary {

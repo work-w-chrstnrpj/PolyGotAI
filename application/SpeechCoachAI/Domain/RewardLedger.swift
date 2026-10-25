@@ -7,6 +7,7 @@ struct RewardTransaction: Codable, Equatable, Identifiable {
     var day: String
     var createdAt: Date
     var xp: Int
+    /// Legacy: older saved records carry gold. Nothing earns or spends it any more; it is always 0 on new rows.
     var gold: Int
     var reason: String
     var kind: String
@@ -56,7 +57,6 @@ struct RewardLedger: Codable, Equatable {
     var plans: [RewardPlan] = []
     var checkpoints: [RewardCheckpoint] = []
     var xp: Int { transactions.reduce(0) { $0 + $1.xp } }
-    var gold: Int { transactions.reduce(0) { $0 + $1.gold } }
     var practiceDays: [String] { Array(Set(transactions.filter { ["exercise", "speaking", "review"].contains($0.kind) && $0.multiplier > 0 }.map(\.day))).sorted() }
     var pendingAwards: [RewardAward] { awards.filter { !acknowledged.contains($0.id) } }
 
@@ -69,17 +69,15 @@ struct RewardLedger: Codable, Equatable {
     mutating func credit(source: String, activity: String, kind: String, day: String, now: Date, freshReview: Bool = false) throws {
         guard ["exercise", "speaking", "review"].contains(kind), !source.isEmpty, !activity.isEmpty else { throw RewardError.invalidRequest }
         let fullXP = kind == "speaking" ? 30 : 10
-        let fullGold = kind == "speaking" ? 6 : 2
         // Source identity survives restart, timezone changes and repeated callbacks.
         if let index = transactions.firstIndex(where: { $0.source == source && ["exercise", "speaking", "review"].contains($0.kind) }) {
             // A course speaking self-review replaces the nested exercise entitlement; it never stacks both rows.
             if kind == "speaking", transactions[index].kind == "exercise" {
                 let prior = transactions[index]
                 let xpDelta = fullXP * prior.multiplier / 2 - prior.xp
-                let goldDelta = fullGold * prior.multiplier / 2 - prior.gold
                 transactions[index].kind = "speaking"
                 transactions.append(RewardTransaction(id: "upgrade/" + source, source: source, activity: activity, day: prior.day,
-                    createdAt: now, xp: xpDelta, gold: goldDelta, reason: "Speaking self-review · remaining entitlement after nested exercise", kind: "adjustment", multiplier: 0))
+                    createdAt: now, xp: xpDelta, gold: 0, reason: "Speaking self-review · remaining entitlement after nested exercise", kind: "adjustment", multiplier: 0))
                 evaluateAwards(now: now)
             }
             return
@@ -89,8 +87,8 @@ struct RewardLedger: Codable, Equatable {
         let multiplier = freshReview ? 2 : (count == 0 ? 2 : count == 1 ? 1 : 0)
         let wasAway = practiceDays.last.flatMap(RewardPolicy.ordinal).flatMap { last in RewardPolicy.ordinal(day).map { $0 - last - 1 >= 7 } } ?? false
         transactions.append(RewardTransaction(id: "credit/" + source, source: source, activity: activity, day: day, createdAt: now,
-            xp: fullXP * multiplier / 2, gold: fullGold * multiplier / 2,
-            reason: multiplier == 2 ? "Completed \(kind) with correction or self-review" : multiplier == 1 ? "One meaningful repeat · half credit" : "Further practice · no additional XP or gold", kind: kind, multiplier: multiplier))
+            xp: fullXP * multiplier / 2, gold: 0,
+            reason: multiplier == 2 ? "Completed \(kind) with correction or self-review" : multiplier == 1 ? "One meaningful repeat · half credit" : "Further practice · no additional XP", kind: kind, multiplier: multiplier))
         if settings.autoFreeze { protectMissedDays(endingAt: day, now: now) }
         if wasAway { award("AW-C-05", now: now, evidence: [source]) }
         evaluateAwards(now: now)
@@ -155,37 +153,6 @@ struct RewardLedger: Codable, Equatable {
         }
     }
 
-    func quote(_ kind: RewardPurchase.Kind, day: String, context: String? = nil) throws -> RewardPurchase {
-        guard RewardPolicy.ordinal(day) != nil else { throw RewardError.invalidRequest }
-        if let high = clockHighWaterDay, day < high { throw RewardError.clockChanged }
-        let missed = kind == .repair ? gap(before: day) : []
-        let cost: Int
-        switch kind {
-        case .hint: cost = transactions.filter { $0.kind == "hint" && $0.day == day }.count < 3 ? 0 : 2
-        case .example: cost = 4
-        case .freeze: cost = 20
-        case .repair:
-            guard !missed.isEmpty, missed.count <= 7,
-                  lastRepairPracticeCount.map({ practiceDays.count > $0 }) ?? true else { throw RewardError.repairUnavailable }
-            cost = missed.count * 30
-        }
-        guard gold >= cost else { throw RewardError.insufficientGold }
-        return RewardPurchase(id: UUID(), epoch: epoch, revision: revision, day: day, kind: kind, cost: cost, missedDays: missed, context: context)
-    }
-
-    mutating func purchase(_ quote: RewardPurchase, day: String, now: Date) throws {
-        if transactions.contains(where: { $0.id == quote.id.uuidString }) { return }
-        guard quote.epoch == epoch, quote.revision == revision, quote.day == day else { throw RewardError.stale }
-        let current = try self.quote(quote.kind, day: day, context: quote.context)
-        guard current.cost == quote.cost, current.missedDays == quote.missedDays else { throw RewardError.stale }
-        try acceptDay(day)
-        if quote.kind == .freeze { freezes += 1 }
-        if quote.kind == .repair { protectedDays += quote.missedDays; lastRepairPracticeCount = practiceDays.count }
-        transactions.append(RewardTransaction(id: quote.id.uuidString, source: quote.id.uuidString, activity: quote.context ?? "wallet", day: day,
-            createdAt: now, xp: 0, gold: -quote.cost, reason: "\(quote.kind.rawValue.capitalized) · \(quote.cost) gold", kind: quote.kind.rawValue, multiplier: 0))
-        if quote.kind == .repair { evaluateAwards(now: now) }
-    }
-
     mutating func startPlan(lesson: ResolvedLesson, day: String, now: Date) throws {
         try acceptDay(day)
         guard !plans.contains(where: { $0.day == day }), lesson.isReady else { throw RewardError.invalidRequest }
@@ -203,7 +170,7 @@ struct RewardLedger: Codable, Equatable {
             let source = "plan/"+plan.day
             if !transactions.contains(where: { $0.id == source }) {
                 transactions.append(RewardTransaction(id: source, source: source, activity: "dailyPlan", day: plan.day, createdAt: now,
-                    xp: 25, gold: 10, reason: "Completed the chosen lesson activity plan · time goal not required", kind: "plan", multiplier: 0))
+                    xp: 25, gold: 0, reason: "Completed the chosen lesson activity plan · time goal not required", kind: "plan", multiplier: 0))
             }
         }
         // Tier evaluation is independent from currency and presentation.

@@ -65,7 +65,7 @@ Keeps Conversation, Interview and Communication practice and adds four sound-and
 - **Offline first.** Lessons, exercises, vocabulary review, recording, dictation and phonetics work without a network.
 - **BYOK for online AI.** The learner adds their own provider key (stored in Apple Keychain), and usage is billed to the learner's provider account. No key is needed for offline features. Cost and privacy disclosures appear in Provider settings before the first online request.
 - **Privacy.** Learner data stays on the device. Nothing uploads automatically; audio leaves the device only after an explicit request for online feedback.
-- **Rewards** reward participation (XP, streak, gold, badges). Rewards never block learning content. See [rewards](celebrations-badges-and-rewards.md) and the [achievement catalog](achievement-catalog.md).
+- **Rewards** reward participation (XP and a level, streak, badges, milestones; no gold since 2026-10-26). Rewards never block learning content. See [rewards](celebrations-badges-and-rewards.md) and the [achievement catalog](achievement-catalog.md).
 - **Honest claims.** The app never claims official certification or measured pronunciation scores. It says so once, in About, and not as a caveat on each screen.
 
 ## UI copy rules

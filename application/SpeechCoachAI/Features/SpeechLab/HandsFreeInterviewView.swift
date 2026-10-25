@@ -16,7 +16,7 @@ struct HandsFreeInterviewView: View {
         #else
         let silent = false
         #endif
-        _controller = State(initialValue: HandsFreeInterviewController(silentFixture: silent))
+        _controller = State(initialValue: HandsFreeInterviewController(silentFixture: silent, aiService: AIFeedbackController.localService()))
     }
 
     var body: some View {
@@ -58,7 +58,15 @@ struct HandsFreeInterviewView: View {
                 Picker("Level", selection: $level) {
                     ForEach(LevelGate.levels, id: \.self) { Text($0).tag($0) }
                 }.pickerStyle(.menu).accessibilityIdentifier("interview.level")
-                Button("Start") { controller.start(set: set, level: level, bank: bank) }
+                if controller.aiAvailable {
+                    Toggle("AI follow-ups", isOn: Binding(get: { controller.aiFollowUps }, set: { controller.aiFollowUps = $0 }))
+                        .accessibilityIdentifier("interview.ai")
+                    if controller.aiFollowUps {
+                        Text(LabFeedbackDisclosure.current(mode: .interview, includesAudio: false).line)
+                            .font(.footnote).foregroundStyle(Kit.secondary).accessibilityIdentifier("interview.ai.disclosure")
+                    }
+                }
+                Button("Start") { controller.start(set: set, level: level, bank: bank, learnerLevel: storage.feedbackLevel) }
                     .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("interview.start")
             }
             NavigationLink("Written practice") {
@@ -108,6 +116,7 @@ struct HandsFreeInterviewView: View {
         case .listening: "Your turn"
         case .waiting: "Repeat or skip"
         case .paused: "Paused"
+        case .thinking: "One moment"
         case .setup, .summary: ""
         }
     }
@@ -128,6 +137,10 @@ struct HandsFreeInterviewView: View {
                 KitCard {
                     ForEach(Array(summary.lines.enumerated()), id: \.offset) { _, line in Text(line) }
                 }.accessibilityIdentifier("interview.summary.lines")
+            }
+            if let interview = controller.interview, interview.summary.answered > 0 {
+                AIFeedbackSection(request: .interview(interview, level: storage.feedbackLevel),
+                                  title: interview.questions.first?.setTitle ?? "Interview", storage: storage)
             }
             Button("New interview") { controller.reset() }
                 .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("interview.new")

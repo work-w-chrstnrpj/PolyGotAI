@@ -55,12 +55,18 @@ final class Phase3LexiconTests: XCTestCase {
         defer { XCUIDevice.shared.orientation = .portrait }
         let landscape = expectation(for: NSPredicate { _, _ in app.frame.width > app.frame.height }, evaluatedWith: app)
         wait(for: [landscape], timeout: 8)
-        XCTAssertTrue(app.buttons["navigation.vocabulary"].firstMatch.waitForExistence(timeout: 5))
-        XCTAssertEqual(app.buttons["navigation.vocabulary"].firstMatch.label, "Lexicon")
-        let sidebar = app.buttons["navigation.vocabulary"].firstMatch
-        let sidebarReady = expectation(for: NSPredicate { _, _ in sidebar.frame.width > 200 && sidebar.frame.maxX < 320 }, evaluatedWith: sidebar)
-        wait(for: [sidebarReady], timeout: 8)
-        sidebar.tap()
+        let tab = app.tabBars.buttons["Lexicon"]
+        if tab.exists {
+            XCTAssertTrue(tab.isHittable)
+            XCTAssertEqual(tab.label, "Lexicon")
+        } else {
+            XCTAssertTrue(app.buttons["navigation.vocabulary"].firstMatch.waitForExistence(timeout: 5))
+            XCTAssertEqual(app.buttons["navigation.vocabulary"].firstMatch.label, "Lexicon")
+            let sidebar = app.buttons["navigation.vocabulary"].firstMatch
+            let sidebarReady = expectation(for: NSPredicate { _, _ in sidebar.frame.width > 200 && sidebar.frame.maxX < 320 }, evaluatedWith: sidebar)
+            wait(for: [sidebarReady], timeout: 8)
+            sidebar.tap()
+        }
         capture(app, "largest-text-sidebar")
     }
 

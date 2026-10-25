@@ -86,7 +86,10 @@ final class BootstrapLaunchTests: XCTestCase {
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString   // a fresh, isolated store
         app.launch()
         openDestination(app, title: "Lesson", id: "learn")
-        tapReachable(app, app.buttons["learn.open.a1-weather"])
+        app.segmentedControls["learn.mode"].buttons["Course"].tap()
+        let weather = app.buttons["learn.open.a1-weather"]
+        for _ in 0..<16 where !weather.exists { app.swipeUp() }
+        tapReachable(app, weather)
         XCTAssertTrue(app.staticTexts["lesson.topic.teaching"].waitForExistence(timeout: 8), "The coach tip shows before the exercises.")
         tapFrontmostButton(app, "lesson.begin")
         // Reading: a right answer.
@@ -741,9 +744,11 @@ final class BootstrapLaunchTests: XCTestCase {
         retention.tap(); retention.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: 2) + "95")
         let limit = app.textFields["vocabulary.options.limit"]
         limit.tap(); limit.typeText("0")
+        app.buttons["vocabulary.options.keyboard.done"].tap()
         tapReachable(app, app.buttons["vocabulary.options.save"])
         XCTAssertTrue(app.staticTexts["vocabulary.options.message"].label.contains("positive whole number"))
         limit.tap(); limit.typeText(XCUIKeyboardKey.delete.rawValue + "1")
+        app.buttons["vocabulary.options.keyboard.done"].tap()
         tapReachable(app, app.buttons["vocabulary.options.save"])
         XCTAssertTrue(app.staticTexts["vocabulary.options.message"].label.contains("Review options saved"))
         // Fully reveal the history paragraph before auditing it; the floating system
@@ -777,7 +782,7 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["vocabulary.topic.new"])
         let title = app.textFields["vocabulary.topic.title"]
         XCTAssertTrue(title.waitForExistence(timeout: 5))
-        title.tap(); title.typeText("Kitchen\n")
+        title.tap(); title.typeText("Kitchen")
         XCTAssertEqual(title.value as? String, "Kitchen")
         let create = app.buttons["vocabulary.topic.save"]
         expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: create)
@@ -1260,7 +1265,7 @@ final class BootstrapLaunchTests: XCTestCase {
         attachment.name = name; attachment.lifetime = .keepAlways; add(attachment)
     }
     @MainActor
-    func testRewardWalletCancellationPurchaseAndRestart() {
+    func testLevelAndBadgesShowXPOnlyAndSurviveRestart() {
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
@@ -1269,19 +1274,15 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["rewards.open"])
         let balance = app.staticTexts["rewards.balance"]
         XCTAssertTrue(balance.waitForExistence(timeout: 10))
-        XCTAssertTrue(balance.label.contains("34 gold"), balance.label)
-        tapReachable(app, app.buttons["rewards.buy-freeze"])
-        XCTAssertTrue(app.alerts["Confirm gold purchase"].waitForExistence(timeout: 3))
-        app.alerts.buttons["Cancel"].tap()
-        XCTAssertTrue(balance.label.contains("34 gold"))
-        tapReachable(app, app.buttons["rewards.buy-freeze"])
-        app.alerts.buttons["rewards.purchase.confirm"].firstMatch.tap()
-        XCTAssertTrue(balance.label.contains("14 gold"), balance.label)
-        let image = XCTAttachment(screenshot: app.screenshot()); image.name = "SC-D005-wallet-after-one-confirmed-purchase"; image.lifetime = .keepAlways; add(image)
+        XCTAssertTrue(balance.label.contains("XP"), balance.label)
+        XCTAssertFalse(balance.label.localizedCaseInsensitiveContains("gold"))
+        XCTAssertTrue(app.staticTexts["rewards.level"].exists)
+        XCTAssertFalse(app.buttons["rewards.buy-freeze"].exists)
+        let image = XCTAttachment(screenshot: app.screenshot()); image.name = "level-and-badges"; image.lifetime = .keepAlways; add(image)
         app.terminate(); app.launch()
         tapReachable(app, app.buttons["rewards.open"])
         XCTAssertTrue(app.staticTexts["rewards.balance"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["rewards.balance"].label.contains("14 gold"))
+        XCTAssertTrue(app.staticTexts["rewards.balance"].label.contains("XP"))
     }
 
     @MainActor
@@ -1298,7 +1299,7 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["rewards.settings"])
         XCTAssertTrue(app.navigationBars["Reward preferences"].waitForExistence(timeout: 5))
         let screenshot = XCTAttachment(screenshot: app.screenshot()); screenshot.name = "SC-D005-dark-large-text-preferences"; screenshot.lifetime = .keepAlways; add(screenshot)
-        let back = app.navigationBars["Reward preferences"].buttons.matching(NSPredicate(format: "identifier == 'BackButton' OR label == 'Rewards & achievements'")).firstMatch
+        let back = app.navigationBars["Reward preferences"].buttons.matching(NSPredicate(format: "identifier == 'BackButton' OR label == 'Level and badges'")).firstMatch
         XCTAssertTrue(back.exists); back.tap()
         for _ in 0..<18 {
             if app.buttons["rewards.category"].exists { break }

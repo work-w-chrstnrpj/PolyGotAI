@@ -31,6 +31,11 @@ final class LearnerStorageController {
     /// Resource edits survive view/sidebar changes while the app is open, until Save or Discard.
     var resourceDraft: ResourceEditorDraft?
     let rewardEngagement = RewardEngagementState()
+    /// Saves each stretch of screen time of a minute or more (Progress analytics).
+    @ObservationIgnored lazy var usage = UsageRecorder { [weak self] start, end in
+        guard let repository = self?.repository else { throw LearnerStorageError.unavailable }
+        try repository.recordUsage(start: start, end: end)
+    }
 
     func beginResourceDraft(resource: LearningResource? = nil, curated: CuratedLearningResource? = nil) throws {
         guard let repository else { throw LearnerStorageError.unavailable }

@@ -20,14 +20,12 @@ enum RewardPolicy {
 }
 
 enum RewardError: Error, Equatable {
-    case insufficientGold, invalidRequest, stale, clockChanged, repairUnavailable
+    case invalidRequest, stale, clockChanged
     var message: String {
         switch self {
-        case .insufficientGold: "Not enough gold. Explanations, correction, replay and retries are still free."
         case .invalidRequest: "This reward action is unavailable. Nothing was spent."
         case .stale: "The reward record changed. Reload before trying again."
         case .clockChanged: "The local date moved backward. Practice still works; reward actions wait until the recorded date is reached."
-        case .repairUnavailable: "Repair requires one to seven missed days, enough gold, and a practice date after the previous repair."
         }
     }
 }
@@ -56,18 +54,6 @@ struct RewardSettings: Codable, Equatable {
               reminderWeekdays.allSatisfy({ (1...7).contains($0) }),
               !reminderEnabled || (!reminderWeekdays.isEmpty && (activeMinutesGoal != nil || activityGoal != nil)) else { throw RewardError.invalidRequest }
     }
-}
-
-struct RewardPurchase: Codable, Equatable, Identifiable {
-    enum Kind: String, Codable { case hint, example, freeze, repair }
-    var id: UUID
-    var epoch: UUID
-    var revision: Int
-    var day: String
-    var kind: Kind
-    var cost: Int
-    var missedDays: [String]
-    var context: String?
 }
 
 extension Notification.Name { static let rewardLedgerChanged = Notification.Name("SpeechCoachAI.rewardLedgerChanged") }

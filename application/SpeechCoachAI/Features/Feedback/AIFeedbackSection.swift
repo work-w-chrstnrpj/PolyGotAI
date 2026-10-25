@@ -51,16 +51,21 @@ import Observation
 
 struct AIFeedbackSection: View {
     var mode: LabFeedbackMode
-    var transcript: String
-    var task: String?
-    var level: String?
+    private let request: LabFeedbackRequest
+    /// When set, a received result is saved to the learner's history under this title.
+    private var storage: LearnerStorageController?
+    private var title: String
     @State private var controller: AIFeedbackController
     @State private var privacy = false
     @Environment(\.scenePhase) private var scenePhase
-    private var request: LabFeedbackRequest { LabFeedbackRequest(mode: mode, transcript: transcript, task: task, level: level) }
 
     init(mode: LabFeedbackMode, transcript: String, task: String? = nil, level: String? = nil, service: LabFeedbackService? = nil) {
-        self.mode = mode; self.transcript = transcript; self.task = task; self.level = level
+        self.init(request: LabFeedbackRequest(mode: mode, transcript: transcript, task: task, level: level), service: service)
+    }
+
+    /// A prebuilt request (see `LabFeedbackRequests.swift`), with an optional history title and storage.
+    init(request: LabFeedbackRequest, title: String = "", storage: LearnerStorageController? = nil, service: LabFeedbackService? = nil) {
+        self.mode = request.mode; self.request = request; self.title = title; self.storage = storage
         _controller = State(initialValue: AIFeedbackController(service: service ?? AIFeedbackController.localService()))
     }
     var body: some View {
@@ -88,9 +93,41 @@ struct AIFeedbackSection: View {
                 retention: ProviderVerification.bundled?.retentionDisclosure)
         }
         .onChange(of: request) { _, _ in controller.cancel(clear: true) }
+        .onChange(of: controller.result) { _, feedback in save(feedback) }
         .onChange(of: controller.isAvailable) { _, available in if !available { controller.cancel(clear: true) } }
         .onDisappear { controller.cancel(clear: true) }
         .onChange(of: scenePhase) { _, phase in if phase != .active { controller.cancel(clear: true) } }
+    }
+}
+
+extension AIFeedbackSection {
+    private func save(_ feedback: LabFeedback?) {
+        guard let feedback, let repository = storage?.repository else { return }
+        let record = StoredLabFeedback(id: UUID(), createdAt: .now, mode: request.mode,
+                                       title: title.isEmpty ? request.mode.historyTitle : title,
+                                       transcript: request.transcript, feedback: feedback)
+        try? repository.saveLabFeedback(record)
+        NotificationCenter.default.post(name: .labFeedbackChanged, object: nil)
+    }
+}
+
+extension LearnerStorageController {
+    /// The learner's highest unlocked level, sent as context with feedback requests.
+    var feedbackLevel: String { levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1" }
+}
+
+extension Notification.Name { static let labFeedbackChanged = Notification.Name("SpeechCoachAI.labFeedbackChanged") }
+
+extension LabFeedbackMode {
+    var historyTitle: String {
+        switch self {
+        case .pronunciation: "Pronunciation"
+        case .speaking: "Speaking"
+        case .interview: "Interview"
+        case .conversation: "Conversation"
+        case .communication: "Communication"
+        case .coachReview: "Coach review"
+        }
     }
 }
 

@@ -54,8 +54,19 @@ Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [code
 | Lane | Wave A (now) | Wave B |
 | --- | --- | --- |
 | **Claude** | R4-C1 ✅ `intro-01` tip (stays guided); R4-C2 ✅ Intermediate stage for 10 coaches (and Foundation for Grammarian and Reading & Listening); R4-C3 ✅ review Round 3 and update specs; R4-C4 ✅ 6a core (recording → transcript → feedback, stored results, owner-local switch-on) | R4-C2 ✅ Advanced stage (80 lessons); R4-C5 ✅ cores for 6b prompts, rubrics and history, 6c AI follow-ups, 6d coach review and Specialized Lexicon (screens are R4-X5) |
-| **Codex** | R4-X1 ✅ mic buttons on remaining fields (LOG-0048); R4-X2 coach placeholders, per-track progress, three-stage coach screen; R4-X3 online feedback screens (hidden until enabled) | R4-X4 full verify, iPad, Dark Mode, VoiceOver, evidence; R4-X5 6b–6d screens |
+| **Codex** | R4-X1 ✅ mic buttons on remaining fields (LOG-0048); R4-X2 coach placeholders, per-track progress, three-stage coach screen; R4-X3 online feedback screens (hidden until enabled) | R4-X4 full verify, iPad, Dark Mode, VoiceOver, evidence (⏳ iPad/Dark/VoiceOver for new screens); R4-X5 ✅ 6b–6d screens, built by Claude 2026-10-26 (LOG-0055) |
 | **OpenCode** | Job 10 proofread new content as it lands; Job 11 UI copy audit | Job 12 tracker check; Job 13 test gaps; Job 14 repeat audits |
+
+## Rewards and usage analytics (owner request 2026-10-26)
+
+| # | Task | Lane | Status |
+| --- | --- | --- | --- |
+| U1 | Remove gold (earning, wallet, Freeze/Repair purchases); hints and examples free; XP-only labels | Claude (Codex out of usage) | ✅ 2026-10-26 |
+| U2 | XP level (`XPLevel`), level card on Progress and in the badges screen | Claude | ✅ |
+| U3 | Screen-time tracking: visits of 60 seconds or more, merged across quick app switches, kept across a locked device or crash | Claude | ✅ |
+| U4 | Progress: time in the app, Day timeline and Week/Month/Year totals | Claude | ✅ |
+| U5 | Milestones (levels, level tests, coach stages, practice time and days, Easy words) | Claude | ✅ |
+| U6 | New badge artwork for v2 milestones | Claude + owner | ⏳ not started; milestones are shown without badge art |
 
 ## Blockers and decisions
 

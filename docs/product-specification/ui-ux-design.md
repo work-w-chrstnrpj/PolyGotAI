@@ -63,7 +63,17 @@ Meaning/production recall cards, reveal then Again/Hard/Good/Easy self-rating; t
 
 Custom topics support direct generation or subtopic narrowing, level/word count/purpose choices, preview/edit/select before enrollment. Manual creation works offline. Cloud generation stays optional with reviewed/cached fallback.
 
+## Progress (v2, 2026-10-26)
+
+Progress shows, in order: the **level** (XP bar, taps through to badges), **time in the app**, **milestones**, then the earlier practice record.
+
+- **Time in the app:** a segmented control Day, Week, Month, Year with Previous and Next. Day shows the total, the number of visits, a 24-hour timeline strip and the list of visits with start and end times. Week and Month show a bar chart per day; Year shows a bar per month. Each shows the total and the number of days used. One helper line: "Visits shorter than a minute are not counted."
+- **What is recorded:** only stretches of screen time of a minute or more, as start and length. A short switch to another app (up to 30 seconds) continues the same stretch. Nothing about screens or content is recorded. Detailed visits are kept for 120 days; older days keep only their total.
+- **Milestones:** levels (2, 5, 10, 15, 20, 30, 40), level tests passed, coach stages finished, hours of practice and days of practice, words rated Easy. Each group shows the latest reached ones and the next one; "Show all" lists everything.
+
 ## Rewards and prototype economy
+
+> v2 (2026-10-26): gold, the wallet, Freeze and Repair are removed; XP drives a level. The text below is history.
 
 XP drives level; gold is spendable. No deduction for mistakes; no real-money purchases in initial scope. Genuine completed exercises, rated reviews and speaking/self-review earn participation rewards, including incorrect attempts after correction/self-review. Opening content, replaying or pressing Retry alone does not earn rewards. Hints never gate free explanations, accessibility or corrective feedback. With no gold, learners can retry or revisit the explanation for free; no mandatory gold-earning detour blocks learning. Show the exact gold cost before spending; never deduct automatically on an incorrect answer. Eliminating an answer option is an optional gold-priced aid; its price is not yet specified.
 

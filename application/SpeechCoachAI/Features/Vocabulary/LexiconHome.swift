@@ -12,6 +12,7 @@ struct LexiconHome: View {
     @State private var wordCount = 0
     @State private var loaded = false
     @State private var startLevel = "A1"
+    @State private var onlineAvailable = AIFeedbackController(service: AIFeedbackController.localService()).isAvailable
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -117,6 +118,13 @@ struct LexiconHome: View {
                 KitCard { KitContentRow(symbol: "square.stack", title: "Saved words and topics",
                                         detail: wordCount == 0 ? "From lessons and your topics" : "\(wordCount) saved", showsChevron: true) }
             }.buttonStyle(.plain).accessibilityIdentifier("lexicon.mywords")
+            if onlineAvailable {
+                NavigationLink {
+                    SpecializedLexiconView(storage: storage, bank: bank)
+                } label: {
+                    KitCard { KitContentRow(symbol: "sparkles", title: "Specialized words", detail: "Words for any topic", showsChevron: true) }
+                }.buttonStyle(.plain).accessibilityIdentifier("lexicon.specialized")
+            }
         }
     }
 

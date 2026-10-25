@@ -27,6 +27,14 @@ enum SpeakingEnvironment {
             var settings = try repository.preferences(); settings.appearance = .dark
             try repository.savePreferences(settings)
         }
+        if fixtureID != nil, ProcessInfo.processInfo.environment["SC_USAGE_FIXTURE"] == "1", try repository.usageLog().sessions.isEmpty {
+            // Three synthetic days of screen time: today 30 minutes (ending a few minutes ago), yesterday 20, three days ago 45.
+            let end = Date.now.addingTimeInterval(-300)
+            for (daysAgo, minutes) in [(0, 30), (1, 20), (3, 45)] {
+                let finish = end.addingTimeInterval(-Double(daysAgo) * 86_400)
+                try repository.recordUsage(start: finish.addingTimeInterval(-Double(minutes) * 60), end: finish)
+            }
+        }
         if fixtureID != nil, ProcessInfo.processInfo.environment["SC_REWARD_FIXTURE"] == "1",
            try repository.allLessonJourneys().isEmpty,
            let lesson = CurriculumCatalogLoader.bundled.lesson(id: "intro-01", version: "4") {

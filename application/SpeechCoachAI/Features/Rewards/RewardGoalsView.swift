@@ -16,7 +16,7 @@ struct RewardGoalsView: View {
             let count = ledger.transactions.filter { $0.day == day && ["exercise","speaking","review"].contains($0.kind) }.count
             Text("\(count) activities\(ledger.settings.activityGoal.map { " / \($0)" } ?? " · target not set")")
             if let plan = ledger.plans.first(where: { $0.day == day }) {
-                Text(plan.completed ? "Chosen lesson plan complete · +25 XP / +10 gold already committed" : "Plan: \(plan.lessonID), version \(plan.contentVersion) · finish its \(plan.activityIDs.count) practice tasks today")
+                Text(plan.completed ? "Chosen lesson plan complete · +25 XP" : "Plan: \(plan.lessonID), version \(plan.contentVersion) · finish its \(plan.activityIDs.count) practice tasks today")
                 Text("Correction/self-review is included. The time target is independent.").font(.footnote)
             } else {
                 Picker("Choose today's lesson plan", selection: $lessonID) {

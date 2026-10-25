@@ -11,7 +11,9 @@ struct ProgressOverview: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            RewardSummary(storage: storage)
+            LevelCard(storage: storage)
+            UsageAnalyticsView(storage: storage)
+            MilestonesCard(storage: storage, install: install)
             if let board {
                 weekCard(board)
                 evidenceCard(board)

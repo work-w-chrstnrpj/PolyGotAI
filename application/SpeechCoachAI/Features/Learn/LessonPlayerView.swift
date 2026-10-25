@@ -188,6 +188,7 @@ struct LessonPlayerView: View {
                 storedResponse: session.response(for: typed.id).flatMap { $0.firstResponseText ?? $0.unaidedText ?? $0.assistedText },
                 message: message,
                 rewardSummary: AnyView(RewardEarnedLine(storage: storage, source: "lesson/\(session.journey.id)/\(typed.id)")),
+                reviewContext: lessonCoach.map { ExerciseReviewContext(coach: $0.title, lesson: presentedLesson.title, objective: presentedLesson.objectiveId, storage: storage) },
                 canGoBack: position > 0, onBack: { move(-1) },
                 onPlayClip: { play($0) },
                 onSubmit: { stored in submitExercise(typed.id, stored) },
@@ -725,7 +726,7 @@ struct LessonPlayerView: View {
         guard session != nil else { return false }
         drafts[id] = stored
         record(id, assisted: false)
-        // Checking an answer is the comparison step: it earns XP and gold the same way a revealed example does.
+        // Checking an answer is the comparison step: it earns XP the same way a revealed example does.
         if message == nil { reveal(id) }
         return message == nil
     }

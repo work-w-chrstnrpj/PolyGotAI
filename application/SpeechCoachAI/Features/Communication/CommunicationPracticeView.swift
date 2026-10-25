@@ -138,6 +138,11 @@ struct CommunicationPracticeView: View {
                     Text(response.modality == .recorded ? "Recording participation" : "Written participation")
                         .font(.footnote).foregroundStyle(Kit.secondary)
                 }
+                if let text = response.text, !text.isEmpty, let storage {
+                    AIFeedbackSection(request: .communication(purpose: session.activeAttempt?.task.purpose ?? "Communication practice",
+                                                              audience: "the reader", draft: text, level: storage.feedbackLevel),
+                                      title: "Communication", storage: storage)
+                }
             }
             labeledField("Your response", text: $answer, identifier: "communication.answer")
             recordControl

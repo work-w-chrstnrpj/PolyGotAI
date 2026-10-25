@@ -23,11 +23,6 @@ struct RewardSettingsView: View {
                 Toggle("Effects", isOn: $settings.effects)
                 Toggle("Haptics", isOn: $settings.haptics)
             }
-            Section("Continuity") {
-                Toggle("Use owned Freezes automatically", isOn: $settings.autoFreeze)
-                    .accessibilityIdentifier("rewards.auto-freeze")
-                Text("One owned item per missed day. Buying items always requires an explicit gold confirmation. Protection does not create learning evidence.")
-            }
             Section("Separate daily goals") {
                 TextField("Active minutes, optional", text: $minutes).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.minutes")
                 TextField("Activities, optional", text: $activities).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.activities")

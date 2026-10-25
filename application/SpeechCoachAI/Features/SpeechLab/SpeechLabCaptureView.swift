@@ -30,6 +30,8 @@ struct SpeechLabCaptureView: View {
                     }
                     Text("We heard: \(transcript.text)").font(.headline).accessibilityIdentifier("speechlab.heard")
                     SpeechLabDiffView(entries: AnswerChecker.diff(response: transcript.text, expected: text))
+                    AIFeedbackSection(request: .pronunciation(target: text, heard: transcript.text, level: storage.feedbackLevel),
+                                      title: "Pronunciation", storage: storage)
                     if !saved {
                         Toggle("Keep recording", isOn: $keepAudio).disabled(pending != nil).accessibilityIdentifier("speechlab.keep")
                         Button(pending == nil ? "Save" : "Save again", action: save)

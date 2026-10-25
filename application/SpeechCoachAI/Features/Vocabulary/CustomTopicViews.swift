@@ -428,7 +428,7 @@ struct ReviewOptionsView: View {
         .navigationTitle("Review options")
         .tint(Kit.accent)
         .toolbar {
-            ToolbarItemGroup(placement: .keyboard) { Spacer(); Button("Done") { editing = false } }
+            ToolbarItemGroup(placement: .keyboard) { Spacer(); Button("Done") { editing = false }.accessibilityIdentifier("vocabulary.options.keyboard.done") }
         }
         .onAppear(perform: load)
     }

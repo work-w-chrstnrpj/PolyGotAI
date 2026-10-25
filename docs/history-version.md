@@ -100,6 +100,10 @@ An owner review on 2026-10-25, together with Claude's audit, found:
 - **Codex** is the implementing engineer: builds SwiftUI screens and wiring against Claude's interfaces, plus the UI tests.
 - Split and rules: [development plan](development-plan/development-plan.md).
 
+### 2026-10-26 — gold removed, Progress analytics (owner)
+
+Gold, the wallet and the Freeze/Repair purchases are removed; XP is kept as the only currency and now drives a level. Badges and milestones stay. Progress gains time-in-the-app analytics (visits of at least a minute; day timeline and day/week/month/year totals) and a milestones list. Implemented by Claude (Codex out of usage).
+
 ### Principles that replace v1 habits
 
 - A screen never explains what the app can't do. Unfinished features are hidden.

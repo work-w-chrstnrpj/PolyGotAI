@@ -1,38 +1,39 @@
 # Job 13 — test gaps by Domain type
 
-Read-only. No source or test file was changed. This report is the only file written.
+Read-only. No source or test file was changed. This report is the only file this lane wrote.
 
-**Validator at write time** (`python3 tools/curriculum/validate.py`, 2026-10-25 22:47):
+**Validator at write time** (`python3 tools/curriculum/validate.py`, 2026-10-25 23:18):
 
 ```text
 lexicon words: 866
-course lessons: 57, track lessons: 200, typed exercises: 3390
+course lessons: 57, track lessons: 256, typed exercises: 4074
 OK
 ```
 
-Last line: `OK`. Track content was still landing during this check (176 → 200 lessons in one session), so the exercise counts below are a snapshot.
+Last line: `OK`. This is the post-wave-B tree (LOG-0052/0053), so the counts below are settled rather than mid-write.
 
 ## Method and limits
 
-- 34 files in `application/SpeechCoachAI/Domain/`, 42 test files in `application/SpeechCoachAITests/` (436 `@Test` declarations).
+- 34 files in `application/SpeechCoachAI/Domain/`, 44 test files in `application/SpeechCoachAITests/` (448 `@Test` declarations; 61 UI test functions).
 - A type counts as **directly exercised** when its name appears in a test file. A type never named can still be exercised through its owner's API (e.g. a loader returning it); where that is the likely path, the row says **indirect**.
 - A function counts as **untested** when its name appears in no test file. This is a name scan, not a coverage run: a function called only from another tested path is "not directly tested", not "broken". No `xcodebuild` was run.
 - Risk order follows the handoff: answer checking, level gate, scoring, rewards, persistence first.
+- Since the last run the suite grew from 436 to 448 tests: `LabAIExtrasTests` +12, `TrackContentTests` +5→5 (rewritten), `LabFeedbackTests` 18. These cover Infrastructure/Providers (`LabAIExtras`, `LabFeedbackRequests`), not a new Domain type; `Domain/` is still 34 files, so the gaps below are unchanged.
 
 ## 1. Risk areas first
 
 | Domain file | type(s) | test file that exercises it | never named by a test |
 | --- | --- | --- | --- |
-| `AnswerChecker.swift` | `AnswerChecker`, `WordDiffEntry`, `AnswerResult` | `AnswerCheckerTests.swift`, also `SpeechLabArticulationTests.swift` | `AnswerResult` (asserted as a value only) |
-| `Exercise.swift` | `ExerciseSpec`, `ExerciseSession`, `ExerciseType`, `ExerciseResponse` | `ExerciseTests.swift`, `CourseContentTests.swift`, `TrackContentTests.swift`, `LevelGateTests.swift` | `ExerciseType` |
+| `AnswerChecker.swift` | `AnswerChecker`, `WordDiffEntry`, `AnswerResult` | `AnswerCheckerTests.swift` (12), also `SpeechLabArticulationTests.swift` | `AnswerResult` (asserted as a value only) |
+| `Exercise.swift` | `ExerciseSpec`, `ExerciseSession`, `ExerciseType`, `ExerciseResponse` | `ExerciseTests.swift` (18), `CourseContentTests.swift`, `TrackContentTests.swift`, `LevelGateTests.swift` | `ExerciseType` |
 | `JumpTest.swift` | `JumpTest`, `JumpTest.Item` | `LevelGateTests.swift`, `CourseContentTests.swift` | item level detail |
 | `LevelGate.swift` | `LevelGate` | `LevelGateTests.swift` (20 tests), plus 5 other files | — |
 | `RewardLedger.swift` | `RewardLedger`, `RewardTransaction`, `RewardAward`, `RewardPlan`, `RewardCheckpoint` | `RewardDeliveryTests.swift` (21 tests) exercise the ledger; the four row types are never named | `RewardTransaction`, `RewardAward`, `RewardPlan`, `RewardCheckpoint` |
 | `RewardPolicy.swift` | `RewardPolicy`, `RewardError`, `RewardSettings`, `RewardPurchase` | `RewardDeliveryTests.swift` | `RewardPurchase` |
 | `AwardCatalog.swift` | `AwardFamily`, `RewardActiveClock`, `RewardAssistanceContent` | `RewardDeliveryTests.swift` | — |
-| `LearnerState.swift` | `LearnerPreferences`, `AttemptSnapshot`, `PromptSnapshot`, `TranscriptSnapshot`, … | `LearnerRepositoryTests.swift` + 8 delivery test files | `PayloadState`, `PayloadScope`, `RecordingSnapshot` |
-| `ReviewSchedule.swift` | `ReviewSchedule`, `ReviewQueue`, `ReviewCardState`, `ReviewSettings`, `ReviewSessionPlan`, `ReviewQueuePlan` | `ReviewScheduleTests.swift`, `LexiconTests.swift`, `ReviewCreditTests.swift` | — |
-| `ReviewCredit.swift` | `ReviewCreditPolicy`, `ReviewTask`, `ReviewCardKind`, `SenseCreditEvent` | `ReviewCreditTests.swift`, `PracticeRecommendationTests.swift` | `ReviewCredit` (enum), `ReviewAssistance` |
+| `LearnerState.swift` | `LearnerPreferences`, `AttemptSnapshot`, `PromptSnapshot`, `TranscriptSnapshot`, … | `LearnerRepositoryTests.swift` (16) + 8 delivery test files | `PayloadState`, `PayloadScope`, `RecordingSnapshot` |
+| `ReviewSchedule.swift` | `ReviewSchedule`, `ReviewQueue`, `ReviewCardState`, `ReviewSettings`, `ReviewSessionPlan`, `ReviewQueuePlan` | `ReviewScheduleTests.swift` (15), `LexiconTests.swift`, `ReviewCreditTests.swift` | — |
+| `ReviewCredit.swift` | `ReviewCreditPolicy`, `ReviewTask`, `ReviewCardKind`, `SenseCreditEvent` | `ReviewCreditTests.swift` (6), `PracticeRecommendationTests.swift` | `ReviewCredit` (enum), `ReviewAssistance` |
 
 **Direct function gaps in these areas** (no test names the function):
 
@@ -49,12 +50,12 @@ Last line: `OK`. Track content was still landing during this check (176 → 200 
 
 | Domain file | type(s) | test file that exercises it | never named by a test |
 | --- | --- | --- | --- |
-| `LessonJourney.swift` | `LessonJourney`, `LessonSession`, `LessonPracticeOrigin`, `LessonProgressError` | `LessonJourneyTests.swift`, `CurriculumCatalogTests.swift`, `RewardDeliveryTests.swift`, 4 more | `LessonResponse`, `CurriculumPracticeRoute` |
+| `LessonJourney.swift` | `LessonJourney`, `LessonSession`, `LessonPracticeOrigin`, `LessonProgressError` | `LessonJourneyTests.swift` (12), `CurriculumCatalogTests.swift`, `RewardDeliveryTests.swift`, 4 more | `LessonResponse`, `CurriculumPracticeRoute` |
 | `LearningEvidence.swift` | `LearningEvidence`, `ComparisonCandidate`, `ConfidenceStatement`, `WeekActivity`, `WeeklySummary`, `LearningBoard` | `PracticeRecommendationTests.swift` (formats, candidates, confidence, week activity) | `AttemptFormatMark`, `ComparisonModality`, `ComparisonLink`, `EvidenceKind`, `EvidenceRow`, `ConfidenceNoteDraft`, `WeeklySummary`, `LearningBoard` |
-| `PracticeRecommendation.swift` | `PracticeRecommendation`, `PracticeFacts`, `DailyPracticeChoice`, `LessonOffer`, `DifficultyObservation` | `PracticeRecommendationTests.swift`, `DailyProgressDeliveryTests.swift`, `CurriculumCatalogTests.swift` | `PracticeAlternative`, `PracticeSuggestion` |
+| `PracticeRecommendation.swift` | `PracticeRecommendation`, `PracticeFacts`, `DailyPracticeChoice`, `LessonOffer`, `DifficultyObservation` | `PracticeRecommendationTests.swift` (22), `DailyProgressDeliveryTests.swift`, `CurriculumCatalogTests.swift` | `PracticeAlternative`, `PracticeSuggestion` |
 | `PracticeSessionContext.swift` | `PracticeSessionContext`, `IntroCheckSnapshot`, `IntroCheckKind` | `PracticePreferencesTests.swift`, `CaptureRecoveryTests.swift`, `SpeakingLoopIntegrationTests.swift` | `SpeakingProvenance` |
-| `VocabularyLink.swift` | `VocabularyEnrollment`, `CurriculumSense`, `LessonSpeakingLink`, `VocabularyLinkError` | `VocabularyLinkTests.swift`, `LexiconTests.swift`, `ReviewCreditTests.swift` | `VocabularyExposure`, `VocabularyCollection` |
-| `CustomVocabulary.swift` | `CustomVocabularyLibrary`, `CustomVocabularyTopic`, `CustomVocabularySense`, `CustomTopicDetailsDraft`, … | `CustomVocabularyTests.swift`, `VocabularyDiscoveryDeliveryTests.swift` | `CustomSenseChange` |
+| `VocabularyLink.swift` | `VocabularyEnrollment`, `CurriculumSense`, `LessonSpeakingLink`, `VocabularyLinkError` | `VocabularyLinkTests.swift` (4), `LexiconTests.swift`, `ReviewCreditTests.swift` | `VocabularyExposure`, `VocabularyCollection` |
+| `CustomVocabulary.swift` | `CustomVocabularyLibrary`, `CustomVocabularyTopic`, `CustomVocabularySense`, `CustomTopicDetailsDraft`, … | `CustomVocabularyTests.swift` (7), `VocabularyDiscoveryDeliveryTests.swift` | `CustomSenseChange` |
 
 | file | function | risk | note |
 | --- | --- | --- | --- |
@@ -69,10 +70,10 @@ Last line: `OK`. Track content was still landing during this check (176 → 200 
 
 | Domain file | type(s) | test file that exercises it | never named by a test |
 | --- | --- | --- | --- |
-| `Lexicon.swift` | `LexiconWord`, `LexiconDuplicateCheck`, `LexiconStage`, `LexiconLedger` | `LexiconTests.swift` | `LexiconGroup`, `LexiconBank`, `LexiconKey`, `LexiconDuplicate` |
+| `Lexicon.swift` | `LexiconWord`, `LexiconDuplicateCheck`, `LexiconStage`, `LexiconLedger` | `LexiconTests.swift` (26) | `LexiconGroup`, `LexiconBank`, `LexiconKey`, `LexiconDuplicate` |
 | `LexiconPractice.swift` | `LexiconState`, `LexiconSuggestion`, `DailyLexicon`, `LexiconTrainingPlan`, `LexiconActionBuilder`, `LexiconActionProgress` | `LexiconTests.swift` | `LexiconDailyRecord`, `LexiconQuestion` |
-| `VocabularyRecall.swift` | `VocabularyRecallLog`, `RecallDraft`, `OpenRecall`, `RecallMode`, `RecallRating`, `VocabularyRecallAttempt` | `VocabularyRecallTests.swift`, `ReviewScheduleTests.swift`, `LexiconTests.swift`, `CustomVocabularyTests.swift`, `ReviewCreditTests.swift` | — |
-| `VocabularyDiscovery.swift` | `VocabularyDiscoverySession`, `WordOfDayPolicy`, `WordOfDayRecord`, `DailySense`, `DiscoveryChoices`, … | `VocabularyDiscoveryDeliveryTests.swift` | `DiscoveryPath`, `DiscoveryRefusal`, `WordOfDayRepeat`, `WordOfDayRefusal`, `DailySenseEligibility`, `WordOfDayPresentation` |
+| `VocabularyRecall.swift` | `VocabularyRecallLog`, `RecallDraft`, `OpenRecall`, `RecallMode`, `RecallRating`, `VocabularyRecallAttempt` | `VocabularyRecallTests.swift` (3), `ReviewScheduleTests.swift`, `LexiconTests.swift`, `CustomVocabularyTests.swift`, `ReviewCreditTests.swift` | — |
+| `VocabularyDiscovery.swift` | `VocabularyDiscoverySession`, `WordOfDayPolicy`, `WordOfDayRecord`, `DailySense`, `DiscoveryChoices`, … | `VocabularyDiscoveryDeliveryTests.swift` (11) | `DiscoveryPath`, `DiscoveryRefusal`, `WordOfDayRepeat`, `WordOfDayRefusal`, `DailySenseEligibility`, `WordOfDayPresentation` |
 
 | file | function | risk | note |
 | --- | --- | --- | --- |
@@ -84,14 +85,14 @@ Last line: `OK`. Track content was still landing during this check (176 → 200 
 
 | Domain file | type(s) | test file that exercises it | never named by a test |
 | --- | --- | --- | --- |
-| `SpeechLab.swift` | `SpeechLabAttempt`, `SpeechLabState`, `SpeechLabDictationChecker` | `SpeechLabDictationTests.swift`, `SpeechLabPersistenceTests.swift`, `SpeechLabVoiceTests.swift`, `SpeechLabPhoneticsTests.swift`, `SpeechLabArticulationTests.swift` | `SpeechLabArea`, `SpeechLabDictationItem`, `SpeechLabDictationResult` |
+| `SpeechLab.swift` | `SpeechLabAttempt`, `SpeechLabState`, `SpeechLabDictationChecker` | `SpeechLabDictationTests.swift` (5), `SpeechLabPersistenceTests.swift` (3), `SpeechLabVoiceTests.swift` (5), `SpeechLabPhoneticsTests.swift` (3), `SpeechLabArticulationTests.swift` (3) | `SpeechLabArea`, `SpeechLabDictationItem`, `SpeechLabDictationResult` |
 | `SpeechLabSpeech.swift` | `SpeechLabWordTiming` | `SpeechLabVoiceTests.swift` | `SpeechLabTranscript`, `SpeechLabSound`, `SpeechLabProsody`, `SpeechLabArticulationItem` |
 | `SpeechLabVoice.swift` | `SpeechLabVoiceMetrics` | `SpeechLabVoiceTests.swift` | `SpeechLabPassage`, `SpeechLabWarmup` |
-| `StoredLabFeedback.swift` | `StoredLabFeedback` | `LabFeedbackTests.swift` | — |
+| `StoredLabFeedback.swift` | `StoredLabFeedback` | `LabFeedbackTests.swift` (18) | — |
 | `HandsFreeInterview.swift` | `HandsFreeInterview`, `TurnTakingRules`, `TurnDetector`, `InterviewFollowUpRule` | `HandsFreeInterviewTests.swift` (16), `HandsFreeInterviewControllerTests.swift` (3) | `InterviewQuestionItem`, `TurnEnd`, `TurnSignal`, `InterviewTurn`, `InterviewSummary` |
 | `InterviewSession.swift` | `InterviewSession`, `InterviewRecordingSlot` | `ConversationDeliveryTests.swift` | `InterviewType`, `InterviewSupport`, `InterviewPreparation`, `InterviewAnswer`, `InterviewFollowUpWording`, `GroundedFollowUp`, `OnlineInterviewNote`, `InterviewAttempt` |
-| `ConversationSession.swift` | `ConversationSession`, `PartnerReply`, `TurnRequestAuthorization`, `ScenarioAvailability`, `PracticeRecordingAttachment`, `WorkplaceScenarioReference` | `ConversationDeliveryTests.swift` | 16 more, incl. `TurnRequestGate`, `ConversationRefusal`, `OnlineTurnPolicy`, `PracticeSelfReview` |
-| `CommunicationPractice.swift` | `CommunicationPractice`, `CommunicationTask`, `CommunicationItem`, `CommunicationSource`, `CommunicationTextFeedback`, … | `CommunicationDeliveryTests.swift`, `SavedCommunicationLinksTests.swift` | 12, incl. `CommunicationAction`, `CommunicationPhase`, `CommunicationEntry`, `CommunicationModality`, `CommunicationFeedbackPolicy`, `CommunicationAttempt` |
+| `ConversationSession.swift` | `ConversationSession`, `PartnerReply`, `TurnRequestAuthorization`, `ScenarioAvailability`, `PracticeRecordingAttachment`, `WorkplaceScenarioReference` | `ConversationDeliveryTests.swift` (23) | 16 more, incl. `TurnRequestGate`, `ConversationRefusal`, `OnlineTurnPolicy`, `PracticeSelfReview` |
+| `CommunicationPractice.swift` | `CommunicationPractice`, `CommunicationTask`, `CommunicationItem`, `CommunicationSource`, `CommunicationTextFeedback`, … | `CommunicationDeliveryTests.swift` (22), `SavedCommunicationLinksTests.swift` (1) | 12, incl. `CommunicationAction`, `CommunicationPhase`, `CommunicationEntry`, `CommunicationModality`, `CommunicationFeedbackPolicy`, `CommunicationAttempt` |
 
 | file | function | risk | note |
 | --- | --- | --- | --- |
@@ -104,12 +105,12 @@ Last line: `OK`. Track content was still landing during this check (176 → 200 
 
 | Domain file | type(s) | test file that exercises it | never named by a test |
 | --- | --- | --- | --- |
-| `CurriculumCatalog.swift` | `CurriculumManifest`, `CurriculumLesson`, `CurriculumActivity`, `CurriculumAvailability`, `PersonalUseA1Course` | `CurriculumCatalogTests.swift`, `CourseContentTests.swift`, `SmallA1CourseTests.swift`, `VocabularyLinkTests.swift`, `ExerciseTests.swift`, `LevelGateTests.swift` | `CurriculumSupplement`, `CurriculumActivityKind`, `InspectedAsset`, `LessonAvailability`, `LessonUnavailableReason` |
-| `TrackCatalog.swift` | `TrackCoach`, `Track`, `TrackStage`, `TrackUnit`, `LessonProgress` | `CoachTrackPresentationTests.swift`, `TrackContentTests.swift`, `LevelGateTests.swift` | `TrackCatalog`, `TrackDefinition` |
-| `IntroductionReviewGuide.swift` | `IntroductionReviewGuide` | `IntroductionDeliveryTests.swift` | — |
-| `GeneratedPractice.swift` | `GeneratedPracticeSession`, `GenerationPolicy`, `ProviderAccessRule`, `VariantCache`, `GeneratedVariantValidator`, … | `GeneratedPracticeDeliveryTests.swift`, `VocabularyDiscoveryDeliveryTests.swift` | 11, incl. `FamiliarityChoice`, `EditorialStatus`, `FactualSourceRule`, `LearningIdentity`, `StoredVariantText`, `ValidatedVariant`, `PresentedActivity`, `FrozenPracticeAttempt`, `CachedVariant`, `GenerationRequestEnvelope`, `RequestDisposition` |
+| `CurriculumCatalog.swift` | `CurriculumManifest`, `CurriculumLesson`, `CurriculumActivity`, `CurriculumAvailability`, `PersonalUseA1Course` | `CurriculumCatalogTests.swift` (24), `CourseContentTests.swift`, `SmallA1CourseTests.swift`, `VocabularyLinkTests.swift`, `ExerciseTests.swift`, `LevelGateTests.swift` | `CurriculumSupplement`, `CurriculumActivityKind`, `InspectedAsset`, `LessonAvailability`, `LessonUnavailableReason` |
+| `TrackCatalog.swift` | `TrackCoach`, `Track`, `TrackStage`, `TrackUnit`, `LessonProgress` | `CoachTrackPresentationTests.swift` (1), `TrackContentTests.swift` (5), `LevelGateTests.swift` | `TrackCatalog`, `TrackDefinition` |
+| `IntroductionReviewGuide.swift` | `IntroductionReviewGuide` | `IntroductionDeliveryTests.swift` (8) | — |
+| `GeneratedPractice.swift` | `GeneratedPracticeSession`, `GenerationPolicy`, `ProviderAccessRule`, `VariantCache`, `GeneratedVariantValidator`, … | `GeneratedPracticeDeliveryTests.swift` (19), `VocabularyDiscoveryDeliveryTests.swift` | 11, incl. `FamiliarityChoice`, `EditorialStatus`, `FactualSourceRule`, `LearningIdentity`, `StoredVariantText`, `ValidatedVariant`, `PresentedActivity`, `FrozenPracticeAttempt`, `CachedVariant`, `GenerationRequestEnvelope`, `RequestDisposition` |
 | `IncorrectActivityReport.swift` | `IncorrectActivityReport`, `IncorrectActivityReports`, `ActivityReportSubject` | `GeneratedPracticeDeliveryTests.swift` | `ActivityReportIssue`, `ActivityReportStatus` |
-| `LearningResource.swift` | `ResourceLink`, `CuratedLearningResource`, `ResourceEditorDraft`, `ResourceOpenIntent`, `ResourceLinkError` | `ResourceLibraryDeliveryTests.swift`, `ResourceLibraryAcceptanceTests.swift` | `LearningResource` |
+| `LearningResource.swift` | `ResourceLink`, `CuratedLearningResource`, `ResourceEditorDraft`, `ResourceOpenIntent`, `ResourceLinkError` | `ResourceLibraryDeliveryTests.swift` (12), `ResourceLibraryAcceptanceTests.swift` (8) | `LearningResource` |
 
 ## 6. The clearest single gaps, ranked
 
@@ -124,4 +125,4 @@ Last line: `OK`. Track content was still landing during this check (176 → 200 
 
 ## Where this stopped
 
-The scan covers all 34 Domain files and all 42 test files by name, plus the risk areas the handoff names. It does not measure line coverage and cannot tell whether an unnamed type is asserted through another API; those cases are marked indirect. `xcodebuild` was not run, by rule, so nothing here is a pass/fail claim about the suite.
+The scan covers all 34 Domain files and all 44 test files by name, plus the risk areas the handoff names. Wave B added tests for Infrastructure (`LabAIExtrasTests`, 12) and rewrote `TrackContentTests` (5), but no Domain type or function moved off this list. It does not measure line coverage and cannot tell whether an unnamed type is asserted through another API; those cases are marked indirect. `xcodebuild` was not run, by rule, so nothing here is a pass/fail claim about the suite.

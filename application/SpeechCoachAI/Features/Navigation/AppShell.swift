@@ -346,6 +346,9 @@ struct SpeechLabContent: View {
         Button(action: openRecording) {
             KitCard { KitContentRow(symbol: "mic", title: "Record an introduction", detail: "Record, replay, review", showsChevron: true) }
         }.buttonStyle(.plain).accessibilityIdentifier("speech.record")
+        if ((try? storage.repository?.labFeedbackHistory()) ?? []).isEmpty == false {
+            NavigationLink("Feedback history") { LabFeedbackHistoryView(storage: storage) }.accessibilityIdentifier("speech.feedbackHistory")
+        }
         NavigationLink("Saved practice") {
             ScrollView { PracticeHistoryContent(storage: storage).padding(20) }.navigationTitle("Your practice")
         }

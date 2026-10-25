@@ -98,6 +98,10 @@ private struct SpeechLabVoiceRecording: View {
                     Button("Play yours") { capture.replay() }.buttonStyle(.bordered).accessibilityIdentifier("speechlab.replay")
                 }
             }
+            if let transcript = capture.transcript {
+                AIFeedbackSection(request: .speaking(transcript: transcript.text, seconds: capture.elapsed, level: storage.feedbackLevel),
+                                  title: "Speaking", storage: storage)
+            }
             if !saved {
                 Toggle("Keep recording", isOn: $keepAudio).disabled(pending != nil).accessibilityIdentifier("speechlab.keep")
                 Button(pending == nil ? "Save" : "Save again", action: save)
