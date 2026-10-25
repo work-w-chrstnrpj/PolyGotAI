@@ -280,12 +280,7 @@ struct ExerciseActivityView: View {
     }
 
     private var typedBody: some View {
-        let showsDictation = spec.kind != .listenType
-        return Group {
-            if showsDictation {
-                field.dictation($typed)
-            } else { field }
-        }
+        field.dictation($typed)
     }
 
     private var field: some View {

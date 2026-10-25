@@ -29,8 +29,39 @@ final class Phase3LexiconTests: XCTestCase {
 
     @MainActor
     private func capture(_ app: XCUIApplication, _ name: String) {
-        let attachment = XCTAttachment(screenshot: app.screenshot())
+        let attachment = XCTAttachment(screenshot: XCUIScreen.main.screenshot())
         attachment.name = "phase3-\(name)"; attachment.lifetime = .keepAlways; add(attachment)
+    }
+
+    @MainActor
+    func testLargestTextNavigationAndFieldPacks() {
+        let app = launch(largeText: true)
+        openLexicon(app)
+        let navigation = app.buttons["navigation.vocabulary"].firstMatch
+        if navigation.exists {
+            XCTAssertEqual(navigation.label, "Lexicon")
+            XCTAssertTrue(navigation.isHittable)
+        }
+        for _ in 0..<40 where !app.staticTexts["Field packs"].isHittable { app.swipeUp() }
+        XCTAssertTrue(app.staticTexts["Field packs"].isHittable)
+        // Every field label remains reachable at the largest accessibility size.
+        let business = app.staticTexts["Business and finance"].firstMatch
+        XCTAssertTrue(business.exists)
+        for _ in 0..<4 where !business.isHittable { app.swipeUp() }
+        XCTAssertTrue(business.isHittable)
+        for _ in 0..<4 where business.frame.midY > app.frame.midY { app.swipeUp() }
+        capture(app, "largest-text-field-packs")
+        XCUIDevice.shared.orientation = .landscapeLeft
+        defer { XCUIDevice.shared.orientation = .portrait }
+        let landscape = expectation(for: NSPredicate { _, _ in app.frame.width > app.frame.height }, evaluatedWith: app)
+        wait(for: [landscape], timeout: 8)
+        XCTAssertTrue(app.buttons["navigation.vocabulary"].firstMatch.waitForExistence(timeout: 5))
+        XCTAssertEqual(app.buttons["navigation.vocabulary"].firstMatch.label, "Lexicon")
+        let sidebar = app.buttons["navigation.vocabulary"].firstMatch
+        let sidebarReady = expectation(for: NSPredicate { _, _ in sidebar.frame.width > 200 && sidebar.frame.maxX < 320 }, evaluatedWith: sidebar)
+        wait(for: [sidebarReady], timeout: 8)
+        sidebar.tap()
+        capture(app, "largest-text-sidebar")
     }
 
     @MainActor

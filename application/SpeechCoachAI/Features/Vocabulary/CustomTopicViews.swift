@@ -86,8 +86,8 @@ struct CustomTopicList: View {
             NavigationStack {
                 Form {
                     Section("Give your words a home") {
-                        TextField("Topic name", text: $title).accessibilityIdentifier("vocabulary.topic.title")
-                        TextField("Subtopic, optional", text: $subtopic).accessibilityIdentifier("vocabulary.topic.subtopic")
+                        TextField("Topic name", text: $title).accessibilityIdentifier("vocabulary.topic.title").dictation($title)
+                        TextField("Subtopic, optional", text: $subtopic).accessibilityIdentifier("vocabulary.topic.subtopic").dictation($subtopic)
                     }
                     if let message { Text(message) }
                 }.navigationTitle("New topic")
@@ -163,9 +163,9 @@ struct CustomTopicEditor: View {
                 if let topic {
                     KitCard {
                         TextField("Topic name", text: $details.title).textFieldStyle(.roundedBorder)
-                            .accessibilityIdentifier("vocabulary.topic.edit.title")
+                            .accessibilityIdentifier("vocabulary.topic.edit.title").dictation($details.title)
                         TextField("Subtopic, if you want one", text: $details.subtopic).textFieldStyle(.roundedBorder)
-                            .accessibilityIdentifier("vocabulary.topic.edit.subtopic")
+                            .accessibilityIdentifier("vocabulary.topic.edit.subtopic").dictation($details.subtopic)
                         Button("Save topic details") { rename() }
                             .disabled(!details.isDirty)
                             .accessibilityIdentifier("vocabulary.topic.rename")

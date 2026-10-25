@@ -69,11 +69,12 @@ struct LexiconHome: View {
         KitCard {
             Toggle(isOn: binding(for: group)) {
                 VStack(alignment: .leading, spacing: 4) {
-                    HStack(spacing: 8) {
-                        Text(group.title).font(.headline)
-                        Text(group.isField ? "Field" : group.level).font(.caption.weight(.semibold)).padding(.horizontal, 8).padding(.vertical, 2)
-                            .background(Kit.soft, in: Capsule())
-                        if suggested?.id == group.id { Text("Next").font(.caption.weight(.semibold)).foregroundStyle(Kit.accent) }
+                    ViewThatFits(in: .horizontal) {
+                        groupHeading(group)
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(group.title).font(.headline).fixedSize(horizontal: false, vertical: true)
+                            groupBadge(group)
+                        }
                     }
                     Text("\(started(in: group)) of \(group.words.count) started · \(group.tagline)")
                         .font(.subheadline).foregroundStyle(Kit.secondary)
@@ -81,6 +82,24 @@ struct LexiconHome: View {
             }
             .accessibilityIdentifier("lexicon.group.\(group.id)")
         }
+    }
+
+    private func groupHeading(_ group: LexiconGroup) -> some View {
+        HStack(spacing: 8) {
+            Text(group.title).font(.headline).fixedSize()
+            groupBadge(group)
+        }
+    }
+
+    private func groupBadge(_ group: LexiconGroup) -> some View {
+        HStack(spacing: 8) {
+            Text(group.isField ? "Field" : group.level).font(.caption.weight(.semibold))
+                .padding(.horizontal, 8).padding(.vertical, 2)
+                .background(Kit.soft, in: Capsule())
+            if suggested?.id == group.id {
+                Text("Next").font(.caption.weight(.semibold)).foregroundStyle(Kit.accent)
+            }
+        }.fixedSize()
     }
 
     private var myWordsSection: some View {

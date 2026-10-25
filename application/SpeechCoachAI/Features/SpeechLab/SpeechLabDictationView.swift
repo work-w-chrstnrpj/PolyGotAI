@@ -66,6 +66,7 @@ private struct SpeechLabDictationExercise: View {
                     .padding(16).background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
                     .focused($typing).accessibilityIdentifier("dictation.answer")
                     .onChange(of: answer) { _, value in if value.count > 2000 { answer = String(value.prefix(2000)) } }
+                    .dictation($answer)
                 Button("Check", action: check).buttonStyle(KitPrimaryButtonStyle())
                     .disabled(answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     .accessibilityIdentifier("dictation.check")

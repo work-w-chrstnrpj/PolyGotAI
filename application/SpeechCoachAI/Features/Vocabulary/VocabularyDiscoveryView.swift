@@ -71,7 +71,7 @@ struct VocabularyDiscoveryView: View {
                 entry("Subtopic", text: $session.choices.subtopic, identifier: "vocabulary.discovery.subtopic")
             }
             entry("Level", text: $session.choices.level, identifier: "vocabulary.discovery.level")
-            entry("Count", text: $session.choices.countText, identifier: "vocabulary.discovery.count")
+            entry("Count", text: $session.choices.countText, identifier: "vocabulary.discovery.count", allowsDictation: false)
             entry("Purpose", text: $session.choices.purpose, identifier: "vocabulary.discovery.purpose")
             Text("Suggestions are unavailable while the activity and generation rules are being prepared. Your entries stay in memory on this screen; use your own topics to save words offline.")
                 .font(.footnote).foregroundStyle(Kit.secondary)
@@ -79,14 +79,16 @@ struct VocabularyDiscoveryView: View {
         }
     }
 
-    private func entry(_ title: String, text: Binding<String>, identifier: String) -> some View {
+    private func entry(_ title: String, text: Binding<String>, identifier: String, allowsDictation: Bool = true) -> some View {
         VStack(alignment: .leading, spacing: 6) {
             Text(title).font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
-            TextField(title, text: text, prompt: Text(title).foregroundStyle(Kit.secondary))
-                .textFieldStyle(.plain)
-                .padding(14)
-                .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
-                .accessibilityIdentifier(identifier)
+            HStack {
+                TextField(title, text: text, prompt: Text(title).foregroundStyle(Kit.secondary))
+                    .textFieldStyle(.plain).padding(14)
+                    .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
+                    .accessibilityIdentifier(identifier)
+                if allowsDictation { DictationButton(text: text) }
+            }
         }
     }
 

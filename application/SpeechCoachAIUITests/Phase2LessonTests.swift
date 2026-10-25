@@ -44,6 +44,28 @@ final class Phase2LessonTests: XCTestCase {
     }
 
     @MainActor
+    func testCourseExerciseResumesAfterCommunicationPractice() {
+        let app = launch()
+        app.buttons["learn.open.a1-greetings"].tap()
+        XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Teacher")
+        app.buttons["lesson.begin"].tap()
+        let prompt = app.staticTexts["exercise.prompt"]
+        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
+        let original = prompt.label
+        app.buttons["lesson.topic.extra"].tap()
+        app.buttons["lesson.communication"].tap()
+        XCTAssertTrue(app.staticTexts["communication.lesson.source"].waitForExistence(timeout: 5))
+        app.buttons["Done"].firstMatch.tap()
+        XCTAssertEqual(prompt.label, original)
+        XCTAssertFalse(app.staticTexts["lesson.completed"].exists)
+        app.terminate(); app.launch(); openLesson(app)
+        app.buttons["learn.open.a1-greetings"].tap()
+        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
+        XCTAssertEqual(prompt.label, original)
+    }
+
+    @MainActor
     func testFreshLearnerCannotOpenLockedCourseLevels() {
         let app = launch()
         XCTAssertTrue(app.buttons["learn.open.a1-greetings"].waitForExistence(timeout: 5))
@@ -129,6 +151,13 @@ final class Phase2LessonTests: XCTestCase {
         XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.lesson.")).count, 4)
         app.buttons["track.lesson.gram-sent-subject"].tap()
         XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Grammarian")
+        capture(app, "coach-intro")
+        let communication = app.buttons["lesson.communication.intro"]
+        for _ in 0..<5 where !communication.isHittable { app.swipeUp() }
+        communication.tap()
+        XCTAssertTrue(app.buttons["communication.start"].waitForExistence(timeout: 5))
+        app.buttons["Done"].firstMatch.tap()
         app.buttons["lesson.begin"].tap()
         XCTAssertTrue(app.buttons["exercise.choice.Maria runs."].waitForExistence(timeout: 5))
         app.buttons["exercise.choice.Maria runs."].tap(); app.buttons["exercise.check"].tap()

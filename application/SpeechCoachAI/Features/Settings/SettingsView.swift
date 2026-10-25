@@ -26,8 +26,12 @@ struct SettingsView: View {
             Section("Online coaching") {
                 NavigationLink("Provider setup") { ProviderSettingsView() }
                     .accessibilityIdentifier("settings.provider")
-                Text("No key is needed for recording and self-review. Online requests stay off until your provider account is verified.")
-                    .foregroundStyle(Kit.secondary)
+                #if DEBUG
+                if SpeakingEnvironment.fixtureID != nil, ProcessInfo.processInfo.environment["SC_LAB_FEEDBACK_FIXTURE"] == "1" {
+                    NavigationLink("UI fixture") { Round4FixtureView(storage: storage) }
+                        .accessibilityIdentifier("settings.ui-fixture")
+                }
+                #endif
             }
             Section("Privacy") {
                 Text("Saving a recording and saving a transcript or feedback are separate choices. Nothing uploads automatically.")

@@ -33,11 +33,13 @@ struct CoachCatalogView: View {
                                 Spacer(minLength: 0)
                                 TrackProgressRing(fraction: track.completedFraction(journeys: journeys))
                             }
+                            Text(CoachTrackPresentation.progress(track.lessons, journeys: journeys)).font(.caption.weight(.semibold))
+                                .foregroundStyle(Kit.secondary)
                             Text(track.tagline).font(.caption).foregroundStyle(Kit.secondary)
                                 .lineLimit(1).minimumScaleFactor(0.65)
                         }
                         .accessibilityElement(children: .combine)
-                        .accessibilityValue("\(Int(track.completedFraction(journeys: journeys) * 100)) percent complete")
+                        .accessibilityValue(CoachTrackPresentation.progress(track.lessons, journeys: journeys))
                     }.buttonStyle(.plain).accessibilityIdentifier("coach.card.\(track.id)")
                 }
             }
@@ -50,7 +52,12 @@ struct TrackArtwork: View {
     var body: some View {
         Group {
             if let artwork = coach.artwork { CoachArtwork(name: artwork) }
-            else { Image(systemName: coach.symbol).resizable().scaledToFit().padding(20).foregroundStyle(Kit.accent) }
+            else {
+                Image(systemName: coach.symbol).resizable().scaledToFit().padding(24)
+                    .foregroundStyle(Kit.accent)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Kit.soft, in: RoundedRectangle(cornerRadius: 18))
+            }
         }.accessibilityHidden(true)
     }
 }
@@ -71,29 +78,23 @@ struct CoachTrackView: View {
     var install: CurriculumInstall
     var track: Track
     var onSpeak: (ResolvedLesson, UUID) -> Void
+    @Environment(\.dynamicTypeSize) private var textSize
     @State private var selectedStage: String?
     @State private var journeys: [LessonJourney] = []
-    private var stage: TrackStage? { track.stages.first { $0.id == selectedStage } ?? track.stages.first }
+    private var stage: TrackStage? { CoachTrackPresentation.stage(in: track, selected: selectedStage) }
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 TrackArtwork(coach: track.coach).frame(height: 140).frame(maxWidth: .infinity)
                 Text(track.tagline).foregroundStyle(Kit.secondary).lineLimit(1).minimumScaleFactor(0.65)
-                ScrollView(.horizontal) {
-                    HStack(spacing: 10) {
-                        ForEach(track.stages) { item in
-                            Button { selectedStage = item.id } label: {
-                                Text(item.title).font(.headline).padding(.horizontal, 16).frame(minHeight: 44)
-                                    .foregroundStyle(Kit.ink)
-                                    .background(stage?.id == item.id ? Kit.soft : Kit.surface, in: Capsule())
-                                    .overlay(Capsule().stroke(stage?.id == item.id ? Kit.accent : .clear))
-                            }.buttonStyle(.plain)
-                                .accessibilityAddTraits(stage?.id == item.id ? .isSelected : [])
-                                .accessibilityIdentifier("track.stage.\(item.id)")
-                        }
-                    }
-                }.scrollIndicators(.hidden)
+                Text(CoachTrackPresentation.progress(track.lessons, journeys: journeys))
+                    .font(.subheadline.weight(.semibold)).accessibilityIdentifier("track.progress")
+                if textSize.isAccessibilitySize {
+                    VStack(alignment: .leading, spacing: 10) { stageButtons }
+                } else {
+                    FlowLayout(spacing: 10) { stageButtons }
+                }
                 if let stage {
                     ForEach(stage.units) { unit in
                         NavigationLink {
@@ -109,10 +110,24 @@ struct CoachTrackView: View {
         .onAppear { journeys = (try? storage.repository?.allLessonJourneys()) ?? [] }
     }
 
+    private var stageButtons: some View {
+        ForEach(track.stages) { item in
+            Button { selectedStage = item.id } label: {
+                Text(item.title).font(.headline).fixedSize(horizontal: false, vertical: true)
+                    .padding(.horizontal, 16).padding(.vertical, 10).frame(minHeight: 44)
+                    .foregroundStyle(Kit.ink)
+                    .background(stage?.id == item.id ? Kit.soft : Kit.surface, in: Capsule())
+                    .overlay(Capsule().stroke(stage?.id == item.id ? Kit.accent : .clear))
+            }.buttonStyle(.plain)
+                .accessibilityAddTraits(stage?.id == item.id ? .isSelected : [])
+                .accessibilityIdentifier("track.stage.\(item.id)")
+        }
+    }
+
     private func unitCard(_ unit: TrackUnit) -> some View {
         let completed = unit.lessons.filter { LessonProgress.of($0, journeys: journeys).state == .done }.count
         return KitCard {
-            KitContentRow(symbol: "books.vertical", title: unit.title, detail: "\(unit.lessons.count) lessons · \(completed) done", showsChevron: true)
+            KitContentRow(symbol: "books.vertical", title: unit.title, detail: CoachTrackPresentation.progress(unit.lessons, journeys: journeys), showsChevron: true)
             ProgressView(value: Double(completed), total: Double(max(1, unit.lessons.count))).tint(Kit.accent)
                 .accessibilityLabel("\(unit.title) progress").accessibilityValue("\(completed) of \(unit.lessons.count) lessons")
         }
@@ -139,5 +154,16 @@ struct CoachUnitView: View {
         .background(Kit.canvas(storage.preferences.background)).foregroundStyle(Kit.ink)
         .navigationTitle(unit.title).navigationBarTitleDisplayMode(.inline)
         .onAppear { journeys = (try? storage.repository?.allLessonJourneys()) ?? [] }
+    }
+}
+
+/// Presentation rules share the same exact-version completion policy as lesson rows.
+enum CoachTrackPresentation {
+    static func stage(in track: Track, selected: String?) -> TrackStage? {
+        track.stages.first { $0.id == selected } ?? track.stages.first
+    }
+    static func progress(_ lessons: [ResolvedLesson], journeys: [LessonJourney]) -> String {
+        let completed = lessons.filter { LessonProgress.of($0, journeys: journeys).state == .done }.count
+        return "\(completed) of \(lessons.count) lessons done"
     }
 }

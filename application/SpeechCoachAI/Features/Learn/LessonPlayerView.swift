@@ -41,6 +41,9 @@ struct LessonPlayerView: View {
         session?.activities.firstIndex { $0.id == activity?.id } ?? 0
     }
     private var isComplete: Bool { session?.journey.completedAt != nil }
+    private var lessonCoach: TrackCoach? {
+        install.tracks.tracks.first { $0.id == presentedLesson.trackId }?.coach
+    }
     private var isIntroduction: Bool { presentedLesson.objectiveId == "INTRO-01" }
     /// An older saved version is open while the current version has the quick-feedback exercises.
     private var newerVersionReady: Bool {
@@ -234,8 +237,25 @@ struct LessonPlayerView: View {
                     Text(isIntroduction ? "A small introduction. A real connection." : presentedLesson.title)
                         .font(.largeTitle.bold()).fixedSize(horizontal: false, vertical: true)
                 }
-                CoachArtwork(name: storage.preferences.coach.portrait).frame(width: 90, height: 115)
+                Group {
+                    if let coach = lessonCoach {
+                        if let artwork = coach.artwork { CoachArtwork(name: artwork) }
+                        else { Image(systemName: coach.symbol).font(.largeTitle).foregroundStyle(Kit.accent) }
+                    } else { CoachArtwork(name: "CoachTeacher") }
+                }
+                .frame(width: 90, height: 115)
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(lessonCoach?.title ?? "Teacher")
+                .accessibilityIdentifier("lesson.host")
             }
+            Button { showCommunication = true } label: {
+                Label("Communication practice", systemImage: "text.bubble")
+                    .font(.subheadline.weight(.semibold))
+                    .padding(.horizontal, 12).frame(minHeight: 44)
+                    .background(Kit.soft, in: Capsule())
+            }
+            .buttonStyle(.plain)
+            .accessibilityIdentifier("lesson.communication.intro")
             Text(isIntroduction ? "Introduce yourself with a name, what you do, and something you enjoy. Invented details are welcome." : "Read and listen, build useful sentences, then make them your own.")
                 .font(.title3).foregroundStyle(Kit.secondary)
             if let tip = presentedLesson.tip {

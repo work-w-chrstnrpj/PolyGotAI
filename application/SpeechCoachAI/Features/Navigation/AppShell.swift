@@ -82,11 +82,15 @@ struct AppShell: View {
 
     private var sidebar: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text("SpeechCoachAI").font(.title2.bold()).padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
+            Text("SpeechCoachAI").font(.title2.bold())
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).lineLimit(1).minimumScaleFactor(0.8)
+                .padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
             ForEach(AppDestination.allCases) { item in
                 Button { destination = item } label: {
                     Label(item.title, systemImage: item.symbol)
                         .font(.body)
+                        .dynamicTypeSize(...DynamicTypeSize.accessibility1)
+                        .lineLimit(1).minimumScaleFactor(0.8)
                         .foregroundStyle(destination == item ? Color("OnAccent") : Kit.ink)
                         .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                         .padding(.horizontal, 12)
@@ -114,8 +118,11 @@ struct AppShell: View {
                 ForEach(AppDestination.allCases) { item in
                     Button { destination = item } label: {
                         VStack(spacing: 4) {
-                            Image(systemName: item.symbol).font(.title3).frame(height: 26)
+                            Image(systemName: item.symbol).font(.title3)
+                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).frame(height: 26)
                             Text(item.title).font(.caption2.weight(.medium))
+                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+                                .lineLimit(1).minimumScaleFactor(0.8)
                         }
                         .foregroundStyle(destination == item ? Kit.accent : Kit.secondary)
                         .frame(maxWidth: .infinity, minHeight: 49)
@@ -319,11 +326,13 @@ struct SpeechLabContent: View {
         } label: {
             KitCard { KitContentRow(symbol: "waveform.path", title: "Speaking", detail: "Pace, pauses and volume", showsChevron: true) }
         }.buttonStyle(.plain).accessibilityIdentifier("speech.speaking")
-        NavigationLink {
-            InterviewPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
-        } label: {
-            KitCard { KitContentRow(symbol: "person.2", title: "Interview", detail: "Answer common questions", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.interview")
+        if !SpeechLabCatalog.bundled.interview.isEmpty {
+            NavigationLink {
+                HandsFreeInterviewView(storage: storage)
+            } label: {
+                KitCard { KitContentRow(symbol: "person.2", title: "Interview", detail: "Answer common questions", showsChevron: true) }
+            }.buttonStyle(.plain).accessibilityIdentifier("speech.interview")
+        }
         NavigationLink {
             ConversationPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
         } label: {

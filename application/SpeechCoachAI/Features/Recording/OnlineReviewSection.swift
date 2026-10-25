@@ -33,6 +33,7 @@ struct OnlineReviewSection: View {
                     .frame(minHeight: verticalSize == .compact ? 96 : 180)
                     .padding(8).background(Kit.soft, in: RoundedRectangle(cornerRadius: 12))
                     .accessibilityLabel("Transcript to confirm").accessibilityIdentifier("online.transcript")
+                    .dictation($online.editedText)
                     .disabled(online.isBusy)
                 Button("Confirm this text") { online.confirm() }.buttonStyle(.bordered)
                     .disabled(online.isBusy).accessibilityIdentifier("online.confirm")

@@ -38,12 +38,13 @@ struct KitContentRow: View {
     var body: some View {
         HStack(alignment: .center, spacing: 14) {
             Image(systemName: symbol).font(.title3).foregroundStyle(Kit.accent)
-                .frame(width: 30).accessibilityHidden(true)
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).frame(width: 30).accessibilityHidden(true)
             VStack(alignment: .leading, spacing: 5) {
                 Text(title).font(.headline).foregroundStyle(Kit.ink)
                 Text(detail).font(.subheadline).foregroundStyle(Kit.secondary)
             }.frame(maxWidth: .infinity, alignment: .leading)
-            if showsChevron { Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary).accessibilityHidden(true) }
+            if showsChevron { Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).accessibilityHidden(true) }
         }.padding(.vertical, 12).frame(minHeight: 44)
     }
 }

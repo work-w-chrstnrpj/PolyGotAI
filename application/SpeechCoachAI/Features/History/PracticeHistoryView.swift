@@ -25,6 +25,7 @@ struct PracticeHistoryContent: View {
                         .navigationTitle("Recently Deleted")
                 }.accessibilityIdentifier("history.trash")
                 Text("Saved practice").font(.title3.bold())
+                SavedCommunicationLinks(storage: storage)
             } else {
                 Text("Saved components can be restored for 30 days. Permanent deletion cannot be undone. Temporary drafts are not stored here.")
                     .foregroundStyle(Kit.secondary)

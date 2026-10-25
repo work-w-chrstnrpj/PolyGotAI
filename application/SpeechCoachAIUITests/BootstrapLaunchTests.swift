@@ -111,7 +111,7 @@ final class BootstrapLaunchTests: XCTestCase {
         // Listen and write.
         let field = app.descendants(matching: .any)["exercise.field"].firstMatch
         XCTAssertTrue(field.waitForExistence(timeout: 5))
-        field.tap(); field.typeText("It is hot and sunny.")
+        field.tap(); field.typeText("The weather is cold today.")
         app.buttons["exercise.check"].tap()
         XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
         app.buttons["exercise.continue"].tap()
@@ -167,14 +167,16 @@ final class BootstrapLaunchTests: XCTestCase {
 
     @MainActor
     func testProviderSettingsShowsMaskedEntryAndNoLiveAction() {
-        let app = XCUIApplication(); app.launch()
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launch()
         XCTAssertTrue(app.buttons["settings.open"].firstMatch.waitForExistence(timeout: 10))
         app.buttons["settings.open"].firstMatch.tap()
         let entry = app.buttons["settings.provider"]
         for _ in 0..<4 where !entry.isHittable { app.swipeUp() }
         XCTAssertTrue(entry.isHittable); entry.tap()
         XCTAssertTrue(app.secureTextFields["provider.key"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.textFields["provider.workspace"].exists)
+        XCTAssertTrue(app.secureTextFields["provider.workspace"].exists)
         XCTAssertFalse(app.buttons["Check connection"].exists)
         screenshot(app, "provider-settings-local-only")
     }
@@ -390,13 +392,11 @@ final class BootstrapLaunchTests: XCTestCase {
 
     @MainActor
     func testOptionalIntroPracticeResumesAndReturnsToCourseDraft() throws {
-        throw XCTSkip("v1 lesson player flow (begin, response field, contents jump) was replaced by the exercise engine in Phase 1; rewrite pending")
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
         app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
+        openIntroductionCourse(app)
         app.buttons["lesson.begin"].tap()
         let courseAnswer = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
         tapReachable(app, courseAnswer); courseAnswer.typeText("Keep this course draft")
@@ -411,7 +411,7 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["intro.practice.return"])
         XCTAssertEqual(courseAnswer.value as? String, "Keep this course draft")
         app.terminate(); app.launch()
-        app.buttons["today.lesson"].tap()
+        openIntroductionCourse(app)
         app.buttons["lesson.extra"].tap()
         app.buttons["English foundations"].tap()
         XCTAssertTrue(app.staticTexts["intro.practice.example"].waitForExistence(timeout: 5))
@@ -434,13 +434,11 @@ final class BootstrapLaunchTests: XCTestCase {
 
     @MainActor
     func testPersonalCheckKeepsFollowUpHiddenAndReturnsWithoutCourseCompletion() throws {
-        throw XCTSkip("v1 lesson player flow (begin, response field, contents jump) was replaced by the exercise engine in Phase 1; rewrite pending")
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
         app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
+        openIntroductionCourse(app)
         tapReachable(app, app.buttons["lesson.baseline"])
         XCTAssertFalse(app.staticTexts["intro.check.prompt"].exists)
         app.buttons["intro.check.begin"].tap()
@@ -452,7 +450,7 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["intro.check.save"])
         XCTAssertTrue(prompt.label.contains("free time"))
         app.terminate(); app.launch()
-        app.buttons["today.lesson"].tap()
+        openIntroductionCourse(app)
         app.buttons["lesson.extra"].tap()
         app.buttons["Introduction baseline"].tap()
         XCTAssertTrue(prompt.waitForExistence(timeout: 5))
@@ -468,6 +466,7 @@ final class BootstrapLaunchTests: XCTestCase {
 
     @MainActor
     private func openIntroductionCourse(_ app: XCUIApplication) {
+        // Introduction keeps these optional flows; Today now opens a typed A1 exercise lesson.
         openDestination(app, title: "Lesson", id: "learn")
         let lesson = app.buttons["learn.open.intro-01"]
         for _ in 0..<12 where !lesson.exists { app.swipeUp() }
@@ -530,9 +529,9 @@ final class BootstrapLaunchTests: XCTestCase {
         let resumed = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
         XCTAssertTrue(resumed.waitForExistence(timeout: 5))
         XCTAssertEqual(resumed.value as? String, "Mina is a designer.")
-        app.buttons["lesson.save.read-mina"].tap()
-        if app.buttons["lesson.review-required"].exists { app.buttons["lesson.review-required"].tap() }
-        app.buttons["lesson.next"].tap()
+        tapReachable(app, app.buttons["lesson.save.read-mina"])
+        if app.buttons["lesson.review-required"].exists { tapReachable(app, app.buttons["lesson.review-required"]) }
+        tapReachable(app, app.buttons["lesson.next"])
         let steps: [(String, String?)] = [
             ("read-mina-name", nil), ("read-mina-like", nil), ("listen-alex-name", nil),
             ("listen-alex", nil), ("listen-alex-like", nil), ("grammar-be-am", "am"), ("grammar-be-is", "is"),
@@ -547,13 +546,13 @@ final class BootstrapLaunchTests: XCTestCase {
             } else {
                 let input = app.descendants(matching: .any)["lesson.response.\(id)"].firstMatch
                 XCTAssertTrue(input.waitForExistence(timeout: 5))
-                input.tap(); input.typeText("My practice response.")
+                tapReachable(app, input); input.typeText("My practice response.")
             }
-            app.buttons["lesson.save.\(id)"].tap()
+            tapReachable(app, app.buttons["lesson.save.\(id)"])
             if id == "grammar-be-am" { screenshot(app, "recovery-activity-feedback") }
-            if app.buttons["lesson.review-required"].exists { app.buttons["lesson.review-required"].tap() }
-            if id == "self-review" { app.buttons["lesson.finish"].tap() }
-            else { app.buttons["lesson.next"].tap() }
+            if app.buttons["lesson.review-required"].exists { tapReachable(app, app.buttons["lesson.review-required"]) }
+            if id == "self-review" { tapReachable(app, app.buttons["lesson.finish"]) }
+            else { tapReachable(app, app.buttons["lesson.next"]) }
         }
         XCTAssertTrue(app.staticTexts["lesson.completed"].waitForExistence(timeout: 5))
         screenshot(app, "recovery-completion")
@@ -576,13 +575,11 @@ final class BootstrapLaunchTests: XCTestCase {
 
     @MainActor
     func testLessonSpeakingSelfReviewReturnsWithoutTypingOrRetention() throws {
-        throw XCTSkip("v1 lesson player flow (begin, response field, contents jump) was replaced by the exercise engine in Phase 1; rewrite pending")
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
         app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
+        openIntroductionCourse(app)
         app.buttons["lesson.contents"].tap()
         let guided = app.buttons["lesson.jump.guided-intro"]
         for _ in 0..<6 where !guided.isHittable { app.swipeUp() }
@@ -596,10 +593,17 @@ final class BootstrapLaunchTests: XCTestCase {
         waitForExpectations(timeout: 8)
         app.buttons["recording.stop"].tap()
         tapReachable(app, app.buttons["recording.accept"])
+        XCTAssertEqual(app.switches["recording.keepAudio"].value as? String, "0")
+        XCTAssertEqual(app.switches["recording.keepText"].value as? String, "0")
         tapReachable(app, app.buttons["recording.finish"])
         app.buttons["Done"].firstMatch.tap()
         XCTAssertTrue(app.buttons["lesson.next"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["Recording and self-review completed. Speech has not been assessed."].exists)
+        XCTAssertTrue(app.staticTexts["Speaking self-review completed. No acoustic assessment was made."].exists)
+        XCTAssertFalse(app.staticTexts["lesson.completed"].exists)
+        let response = app.descendants(matching: .any)["lesson.response.guided-intro"].firstMatch
+        XCTAssertTrue(response.exists)
+        let value = response.value as? String ?? ""
+        XCTAssertTrue(value.isEmpty || value == response.placeholderValue)
         screenshot(app, "recovery-lesson-speaking-return")
     }
 
@@ -906,6 +910,7 @@ final class BootstrapLaunchTests: XCTestCase {
         app.launch()
         openDestination(app, title: "Speech Lab", id: "speechLab")
         tapReachable(app, app.buttons["speech.interview"])
+        tapReachable(app, app.buttons["interview.written"])
         let role = app.descendants(matching: .any)["interview.role"].firstMatch
         for _ in 0..<5 {
             if role.exists { break }
@@ -938,6 +943,88 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["interview.end"])
         tapReachable(app, app.buttons["interview.discard"])
         screenshot(app, "connected-interview-discard")
+    }
+
+    @MainActor
+    func testHandsFreeInterviewRepeatSkipPauseAndSummary() {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launchEnvironment["SC_SPEECHLAB_FIXTURE"] = "1"
+        app.launchEnvironment["SC_INTERVIEW_SILENT_FIXTURE"] = "1"
+        app.launch()
+        openDestination(app, title: "Speech Lab", id: "speechLab")
+        tapReachable(app, app.buttons["speech.interview"])
+        app.buttons["interview.level"].tap()
+        app.buttons["C2"].tap()
+        tapReachable(app, app.buttons["interview.start"])
+        XCTAssertTrue(app.staticTexts["interview.prompt"].waitForExistence(timeout: 5))
+        let prompt = app.staticTexts["interview.prompt"].label
+        app.buttons["interview.repeat"].tap()
+        XCTAssertEqual(app.staticTexts["interview.prompt"].label, prompt)
+        app.buttons["interview.orb"].tap()
+        XCTAssertEqual(app.staticTexts["interview.status"].label, "Paused")
+        app.buttons["interview.orb"].tap()
+        app.buttons["interview.skip"].tap()
+        XCTAssertTrue(app.staticTexts["interview.progress"].label.contains("Question 2"))
+        app.buttons["interview.done"].tap()
+        XCTAssertTrue(app.staticTexts["interview.summary"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.staticTexts["interview.caption"].exists)
+        screenshot(app, "hands-free-interview-summary")
+        app.buttons["interview.new"].tap()
+        XCTAssertTrue(app.buttons["interview.start"].waitForExistence(timeout: 5))
+    }
+
+    @MainActor
+    func testHandsFreeInterviewAdvancesFromCaptionToSummary() {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launchEnvironment["SC_SPEECHLAB_FIXTURE"] = "1"
+        app.launch()
+        openDestination(app, title: "Speech Lab", id: "speechLab")
+        tapReachable(app, app.buttons["speech.interview"])
+        tapReachable(app, app.buttons["interview.start"])
+        XCTAssertTrue(app.staticTexts["interview.caption"].waitForExistence(timeout: 10))
+        screenshot(app, "hands-free-interview-caption")
+        XCTAssertTrue(app.staticTexts["interview.summary"].waitForExistence(timeout: 90))
+        XCTAssertTrue(app.descendants(matching: .any)["interview.summary.lines"].firstMatch.exists)
+    }
+
+    @MainActor
+    func testArchivedCommunicationDraftIsReachableFromLabAndSavedPractice() {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launchEnvironment["SC_A1_V2_FIXTURE"] = "1"
+        app.launch()
+        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
+        app.buttons["today.lesson"].tap()
+        app.buttons["lesson.communication"].tap()
+        let source = app.staticTexts["communication.lesson.source"]
+        XCTAssertTrue(source.waitForExistence(timeout: 5))
+        XCTAssertTrue(source.label.contains("version 2"))
+        let purpose = app.descendants(matching: .any)["communication.purpose"].firstMatch
+        tapReachable(app, purpose); purpose.typeText("Synthetic archived task")
+        tapReachable(app, app.buttons["communication.start"])
+        let answer = app.descendants(matching: .any)["communication.answer"].firstMatch
+        tapReachable(app, answer); answer.typeText("Synthetic archived draft")
+        tapReachable(app, app.buttons["practice.draft.keep"])
+        XCTAssertTrue(app.staticTexts["practice.storage.message"].waitForExistence(timeout: 5))
+        app.terminate(); app.launch()
+        openDestination(app, title: "Speech Lab", id: "speechLab")
+        tapReachable(app, app.buttons["speech.communication"])
+        let saved = app.buttons["communication.saved.a1-home.2"]
+        tapReachable(app, saved)
+        XCTAssertTrue(answer.waitForExistence(timeout: 5))
+        XCTAssertEqual(answer.value as? String, "Synthetic archived draft")
+        app.terminate(); app.launch()
+        openDestination(app, title: "Speech Lab", id: "speechLab")
+        tapReachable(app, app.buttons["Saved practice"])
+        tapReachable(app, saved)
+        XCTAssertTrue(answer.waitForExistence(timeout: 5))
+        XCTAssertEqual(answer.value as? String, "Synthetic archived draft")
+        screenshot(app, "archived-communication-restored")
     }
 
     @MainActor
@@ -1020,6 +1107,22 @@ final class BootstrapLaunchTests: XCTestCase {
         let contents = app.buttons["lesson.contents"]
         XCTAssertTrue(contents.waitForExistence(timeout: 5))
         contents.tap()
+    }
+
+    @MainActor
+    func testRemainingFreeTextFieldsExposeDictation() {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launchEnvironment["SC_DICTATION_FIXTURE"] = "1"
+        app.launch()
+        openResourceLibrary(app)
+        tapReachable(app, app.buttons["resources.add"])
+        let microphones = app.buttons.matching(identifier: "dictation.button")
+        XCTAssertEqual(microphones.count, 3, "Title, topic and notes each have a microphone; the URL does not.")
+        microphones.element(boundBy: 0).tap()
+        XCTAssertEqual(app.textFields["resources.editor.title"].value as? String, "Synthetic dictated text")
+        screenshot(app, "round4-resource-dictation")
     }
 
     @MainActor

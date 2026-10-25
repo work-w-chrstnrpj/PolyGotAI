@@ -25,6 +25,7 @@ struct ResourceEditorView: View {
                     Section {
                         TextEditor(text: binding(\.notes)).frame(minHeight: 140)
                             .accessibilityLabel("Personal notes").accessibilityIdentifier("resources.editor.notes")
+                            .dictation(binding(\.notes))
                     } header: { Text("Personal notes, optional") }
                     Section {
                         Text("No thumbnail or page content is downloaded. A saved link does not make the website available offline.")
@@ -74,6 +75,7 @@ struct ResourceEditorView: View {
             Text(title).font(.caption).foregroundStyle(Kit.secondary)
             TextField(title, text: binding(key), axis: .vertical)
                 .accessibilityLabel(title).accessibilityIdentifier("resources.editor.\(id)")
+                .dictation(binding(key))
         }
     }
 

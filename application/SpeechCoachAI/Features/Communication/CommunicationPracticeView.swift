@@ -522,6 +522,7 @@ struct CommunicationPracticeLauncher: View {
                 } label: {
                     KitContentRow(symbol: "text.bubble", title: "Your own task", detail: "Local practice without a lesson link.", showsChevron: true)
                 }.accessibilityIdentifier("communication.open.standalone")
+                SavedCommunicationLinks(storage: storage, install: install)
                 Text("Practice linked to a lesson").font(.headline)
                 Text("Opening the same lesson version from Learn or Speech Lab resumes the same saved communication practice. Course progress stays separate.")
                     .foregroundStyle(Kit.secondary)
@@ -557,4 +558,44 @@ func communicationRecordingContext(slotID: UUID, sessionID: UUID, task: Communic
     context.provenance?.packVersion = task.itemVersion ?? CommunicationFocus.offlinePromptVersion
     context.provenance?.supported = task.frameworkID != nil || task.scaffold != nil
     return context
+}
+
+/// Only saved archived versions appear here; current lessons keep their normal entry.
+struct SavedCommunicationLinks: View {
+    var storage: LearnerStorageController
+    var install: CurriculumInstall = CurriculumCatalogLoader.bundled
+    @State private var lessons: [ResolvedLesson] = []
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            ForEach(Array(lessons.enumerated()), id: \.offset) { _, lesson in
+                NavigationLink {
+                    CommunicationPracticeHost(storage: storage, entry: .speechLab,
+                        source: CommunicationSource(lessonID: lesson.id, contentVersion: lesson.contentVersion,
+                            objectiveID: lesson.objectiveId, senseID: nil))
+                } label: {
+                    Text("\(lesson.title) · version \(lesson.contentVersion)")
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .accessibilityIdentifier("communication.saved.\(lesson.id).\(lesson.contentVersion)")
+            }
+        }
+        .onAppear(perform: reload)
+        .onChange(of: storage.repository != nil) { _, _ in reload() }
+    }
+
+    private func reload() {
+        guard let repository = storage.repository else { return }
+        lessons = (try? Self.savedLessons(install: install, repository: repository)) ?? []
+    }
+}
+
+extension SavedCommunicationLinks {
+    static func savedLessons(install: CurriculumInstall, repository: LearnerRepository) throws -> [ResolvedLesson] {
+        try install.archivedLessons.filter { lesson in
+            let source = CommunicationSource(lessonID: lesson.id, contentVersion: lesson.contentVersion,
+                objectiveID: lesson.objectiveId, senseID: nil)
+            return try repository.speakingPractice(CommunicationPractice.archiveKind(source: source)) != nil
+        }
+    }
 }

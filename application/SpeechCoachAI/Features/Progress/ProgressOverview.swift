@@ -74,6 +74,7 @@ struct ProgressOverview: View {
                 .submitLabel(.done)
                 .accessibilityIdentifier("progress.confidence")
                 .onSubmit(saveNote)
+                .dictation(Binding(get: { storage.confidenceDraft?.text ?? "" }, set: { storage.editConfidenceDraft($0) }))
             Text("Up to 280 characters").font(.caption).foregroundStyle(Kit.secondary)
             if storage.confidenceDraft?.hasSaveFailure == true {
                 Text("Your note could not be saved. It is kept here while the app is open. Retry after unlocking your device.")
