@@ -1,0 +1,2198 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.reading-listening",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "reading-listening",
+    "coach": "readingListening",
+    "stages": [
+      {
+        "id": "starter",
+        "title": "Starter",
+        "units": [
+          {
+            "id": "gist-detail",
+            "title": "Gist and detail"
+          },
+          {
+            "id": "meaning",
+            "title": "Main idea and meaning"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "rl-gist-read",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Read for the gist",
+      "objectiveId": "RL-S-01",
+      "trackId": "reading-listening",
+      "unitId": "gist-detail",
+      "tip": "The gist is the big idea of a text: what it is mostly about. Before you look for small facts, read the whole text once, quickly, and ask, “What is this about?” Do not stop for every new word.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-gist-read-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sara opens a small bakery on Main Street. She bakes bread and cakes every morning. Many people come before work to buy fresh bread. Sara is tired, but she loves her job. What is this text mostly about?",
+          "answer": "Sara and her bakery",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sara and her bakery",
+              "A new street in town",
+              "How to bake a cake",
+              "People who are late for work"
+            ],
+            "accepted": [
+              "Sara and her bakery"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Tom lost his phone on the bus. He looked in his bag and his coat. Then he called his number from a friend’s phone. A girl on the bus answered and gave the phone back. What is the gist of this story?",
+          "answer": "Tom gets his lost phone back",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tom gets his lost phone back",
+              "Tom buys a new phone",
+              "A girl loses her bag",
+              "The bus driver is late"
+            ],
+            "accepted": [
+              "Tom gets his lost phone back"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The library will close early on Friday because of a staff meeting. It will close at 3 p.m. instead of 6 p.m. The library will open as usual on Saturday. What is the gist of this notice?",
+          "answer": "The library closes early on one day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The library closes early on one day",
+              "The library is closing forever",
+              "The library opens late on Saturday",
+              "A new library opens on Friday"
+            ],
+            "accepted": [
+              "The library closes early on one day"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Hi Mia! I’m in Lisbon with my family. The weather is warm and the food is great. Yesterday we visited an old castle. See you next week. Love, Ben. What is the gist of this message?",
+          "answer": "Ben tells Mia about his holiday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ben tells Mia about his holiday",
+              "Ben asks Mia for help",
+              "Ben says he is sick",
+              "Ben invites Mia to dinner"
+            ],
+            "accepted": [
+              "Ben tells Mia about his holiday"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sara opens a small bakery on Main Street. She bakes bread and cakes every morning. Many people come before work to buy fresh bread. Sara is tired, but she loves her job. Which title fits this text best?",
+          "answer": "Sara’s Bakery",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sara’s Bakery",
+              "A Rainy Day",
+              "A Trip to Lisbon",
+              "The Quiet Library"
+            ],
+            "accepted": [
+              "Sara’s Bakery"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the gist?",
+          "answer": "Information about a museum",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Information about a museum",
+              "A story about a child",
+              "A weather report",
+              "A shopping list"
+            ],
+            "accepted": [
+              "Information about a museum"
+            ],
+            "audioText": "Welcome to the city museum. The museum is open every day from nine to five. Tickets are free for children."
+          }
+        },
+        {
+          "id": "rl-gist-read-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The gist is the same as every small detail.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the whole text once, quickly | Ask yourself what it is mostly about | Then look for small details",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the whole text once, quickly",
+              "Ask yourself what it is mostly about",
+              "Then look for small details"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sign with its gist.",
+          "answer": "Closed on Sunday → The shop is not open on Sunday | Back in ten minutes → The person will return soon | Wet floor → Be careful where you walk",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Closed on Sunday",
+                "The shop is not open on Sunday"
+              ],
+              [
+                "Back in ten minutes",
+                "The person will return soon"
+              ],
+              [
+                "Wet floor",
+                "Be careful where you walk"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The gist is the main ___ of a text.",
+          "answer": "idea",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "idea"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Read once for the gist.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Read",
+              "once",
+              "for",
+              "the",
+              "gist.",
+              "twice",
+              "detail"
+            ],
+            "accepted": [
+              "Read once for the gist."
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You meet a new word while you read for the gist. What should you do?",
+          "answer": "Keep reading and think about the whole text",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Keep reading and think about the whole text",
+              "Stop and look up every word",
+              "Start again from the beginning",
+              "Write the word ten times"
+            ],
+            "accepted": [
+              "Keep reading and think about the whole text"
+            ]
+          }
+        },
+        {
+          "id": "rl-gist-read-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Read a short text in English today. Write one sentence: what is it mostly about?",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-detail-find",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Find the detail",
+      "objectiveId": "RL-S-02",
+      "trackId": "reading-listening",
+      "unitId": "gist-detail",
+      "tip": "A detail is one small fact: a name, a place, a time, a reason. Read the question first. Then read the text again and look for the words that answer it. Question words such as who, when and where tell you what kind of detail to find.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-detail-find-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The school trip is on Thursday. Students meet at the front gate at 8:15 a.m. The bus goes to the science museum. Students bring a packed lunch and a bottle of water. The bus comes back at 3:30 p.m. Where do students meet?",
+          "answer": "At the front gate",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At the front gate",
+              "At the science museum",
+              "On the bus",
+              "In the classroom"
+            ],
+            "accepted": [
+              "At the front gate"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The school trip is on Thursday. Students meet at the front gate at 8:15 a.m. The bus goes to the science museum. Students bring a packed lunch and a bottle of water. The bus comes back at 3:30 p.m. What time does the bus come back?",
+          "answer": "3:30 p.m.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "3:30 p.m.",
+              "8:15 a.m.",
+              "12:00 p.m.",
+              "5:00 p.m."
+            ],
+            "accepted": [
+              "3:30 p.m."
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The school trip is on Thursday. Students meet at the front gate at 8:15 a.m. The bus goes to the science museum. Students bring a packed lunch and a bottle of water. The bus comes back at 3:30 p.m. What do students bring?",
+          "answer": "A packed lunch and a bottle of water",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A packed lunch and a bottle of water",
+              "Money for the museum café",
+              "A hot meal from school",
+              "Nothing at all"
+            ],
+            "accepted": [
+              "A packed lunch and a bottle of water"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Lena has a small garden behind her house. She grows tomatoes, beans and flowers. Every evening she waters the plants. Last week a rabbit ate her lettuce, so now she has a fence. Why does Lena have a fence?",
+          "answer": "A rabbit ate her lettuce",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A rabbit ate her lettuce",
+              "She likes the color",
+              "Her neighbor asked her",
+              "It rains a lot"
+            ],
+            "accepted": [
+              "A rabbit ate her lettuce"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Lena has a small garden behind her house. She grows tomatoes, beans and flowers. Every evening she waters the plants. Last week a rabbit ate her lettuce, so now she has a fence. When does Lena water the plants?",
+          "answer": "Every evening",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Every evening",
+              "Every morning",
+              "Once a week",
+              "Only on Sunday"
+            ],
+            "accepted": [
+              "Every evening"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Lena has a small garden behind her house. She grows tomatoes, beans and flowers. Every evening she waters the plants. Last week a rabbit ate her lettuce, so now she has a fence. Which plant does Lena grow?",
+          "answer": "Beans",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Beans",
+              "Rice",
+              "Apples",
+              "Carrots"
+            ],
+            "accepted": [
+              "Beans"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which platform does the train leave from?",
+          "answer": "Platform four",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Platform four",
+              "Platform ten",
+              "Platform nine",
+              "Platform five"
+            ],
+            "accepted": [
+              "Platform four"
+            ],
+            "audioText": "The train to Boston leaves from platform four at ten past nine. Please have your ticket ready."
+          }
+        },
+        {
+          "id": "rl-detail-find-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What time does the train leave?",
+          "answer": "Ten past nine",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ten past nine",
+              "Ten to nine",
+              "Nine thirty",
+              "Four o’clock"
+            ],
+            "accepted": [
+              "Ten past nine"
+            ],
+            "audioText": "The train to Boston leaves from platform four at ten past nine. Please have your ticket ready."
+          }
+        },
+        {
+          "id": "rl-detail-find-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: To find a detail, you read the question first.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing question word: ___ do students meet? At the front gate.",
+          "answer": "Where",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Where"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question word with the detail it asks for.",
+          "answer": "Who → a person | When → a time | Where → a place | Why → a reason",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Who",
+                "a person"
+              ],
+              [
+                "When",
+                "a time"
+              ],
+              [
+                "Where",
+                "a place"
+              ],
+              [
+                "Why",
+                "a reason"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the question | Find the matching words in the text | Check that the answer fits",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the question",
+              "Find the matching words in the text",
+              "Check that the answer fits"
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Read the question first.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Read",
+              "the",
+              "question",
+              "first.",
+              "last",
+              "text"
+            ],
+            "accepted": [
+              "Read the question first."
+            ]
+          }
+        },
+        {
+          "id": "rl-detail-find-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two questions about a text you read today, one with “who” and one with “when”. Then answer them.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-scan-facts",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Scan for facts",
+      "objectiveId": "RL-S-03",
+      "trackId": "reading-listening",
+      "unitId": "gist-detail",
+      "tip": "To scan, move your eyes over the text and look for only one thing, such as a number, a name or a day. You do not read every word. Look for capital letters (names), digits (numbers) and special words like Monday.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-scan-facts-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Opening hours: Monday to Friday 9:00 a.m. to 6:00 p.m. Saturday 10:00 a.m. to 4:00 p.m. Sunday closed. Phone: 555-0142. Address: 12 Oak Road. What time does the shop open on Saturday?",
+          "answer": "10:00 a.m.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "10:00 a.m.",
+              "9:00 a.m.",
+              "4:00 p.m.",
+              "6:00 p.m."
+            ],
+            "accepted": [
+              "10:00 a.m."
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Opening hours: Monday to Friday 9:00 a.m. to 6:00 p.m. Saturday 10:00 a.m. to 4:00 p.m. Sunday closed. Phone: 555-0142. Address: 12 Oak Road. Which day is the shop closed?",
+          "answer": "Sunday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sunday",
+              "Saturday",
+              "Monday",
+              "Friday"
+            ],
+            "accepted": [
+              "Sunday"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Opening hours: Monday to Friday 9:00 a.m. to 6:00 p.m. Saturday 10:00 a.m. to 4:00 p.m. Sunday closed. Phone: 555-0142. Address: 12 Oak Road. What is the phone number?",
+          "answer": "555-0142",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "555-0142",
+              "12 Oak Road",
+              "9:00 a.m.",
+              "555-0124"
+            ],
+            "accepted": [
+              "555-0142"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Opening hours: Monday to Friday 9:00 a.m. to 6:00 p.m. Saturday 10:00 a.m. to 4:00 p.m. Sunday closed. Phone: 555-0142. Address: 12 Oak Road. Which road is the shop on?",
+          "answer": "Oak Road",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Oak Road",
+              "Main Road",
+              "Elm Road",
+              "Pine Road"
+            ],
+            "accepted": [
+              "Oak Road"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Adult ticket: $4. Child ticket (under 12): $2. Day pass: $9. Children under 5 travel free. How much is a day pass?",
+          "answer": "$9",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "$9",
+              "$4",
+              "$2",
+              "Free"
+            ],
+            "accepted": [
+              "$9"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Adult ticket: $4. Child ticket (under 12): $2. Day pass: $9. Children under 5 travel free. How much is a child ticket?",
+          "answer": "$2",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "$2",
+              "$4",
+              "$9",
+              "Free"
+            ],
+            "accepted": [
+              "$2"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Adult ticket: $4. Child ticket (under 12): $2. Day pass: $9. Children under 5 travel free. Who travels free?",
+          "answer": "Children under 5",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Children under 5",
+              "Children under 12",
+              "All adults",
+              "Nobody"
+            ],
+            "accepted": [
+              "Children under 5"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-08",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Spring Market. Saturday 14 April. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. On which day is the market?",
+          "answer": "Saturday 14 April",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Saturday 14 April",
+              "Sunday 14 April",
+              "Saturday 4 April",
+              "Friday 14 April"
+            ],
+            "accepted": [
+              "Saturday 14 April"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-09",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Spring Market. Saturday 14 April. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m. Where is the free parking?",
+          "answer": "At the Town Hall",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At the Town Hall",
+              "At the market stalls",
+              "On Oak Road",
+              "At the library"
+            ],
+            "accepted": [
+              "At the Town Hall"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the new departure time?",
+          "answer": "Eleven fifteen",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Eleven fifteen",
+              "Eleven fifty",
+              "Ten forty",
+              "Forty minutes past ten"
+            ],
+            "accepted": [
+              "Eleven fifteen"
+            ],
+            "audioText": "The flight to Rome is delayed by forty minutes. The new departure time is eleven fifteen."
+          }
+        },
+        {
+          "id": "rl-scan-facts-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: When you scan, you read every word.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: When you ___, you look for one thing only.",
+          "answer": "scan",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "scan"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to find a phone number in a long text. What do you look for?",
+          "answer": "A group of digits",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A group of digits",
+              "A long word",
+              "A capital letter",
+              "A question mark"
+            ],
+            "accepted": [
+              "A group of digits"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match what you look for with a clue.",
+          "answer": "A name → a capital letter | A price → a dollar sign | A time → numbers with a colon",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A name",
+                "a capital letter"
+              ],
+              [
+                "A price",
+                "a dollar sign"
+              ],
+              [
+                "A time",
+                "numbers with a colon"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Decide what you are looking for | Move your eyes quickly over the text | Stop when you see the number, name or day",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide what you are looking for",
+              "Move your eyes quickly over the text",
+              "Stop when you see the number, name or day"
+            ]
+          }
+        },
+        {
+          "id": "rl-scan-facts-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Look at a bus timetable, a menu or a shop sign. Write one fact you found by scanning.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-listen-key",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Listen for key words",
+      "objectiveId": "RL-S-04",
+      "trackId": "reading-listening",
+      "unitId": "gist-detail",
+      "tip": "When you listen, you cannot go back, so listen for the key words: the important names, numbers, places and actions. Little words like “the” and “a” are quiet and quick. Ask yourself: who is speaking, what do they want, and when or where?",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-listen-key-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Who is calling?",
+          "answer": "Dana from the dentist’s office",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dana from the dentist’s office",
+              "A friend from school",
+              "A teacher",
+              "A taxi driver"
+            ],
+            "accepted": [
+              "Dana from the dentist’s office"
+            ],
+            "audioText": "Hi, this is Dana from the dentist’s office. Your appointment is on Tuesday at four o’clock. Please call us if you cannot come."
+          }
+        },
+        {
+          "id": "rl-listen-key-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. When is the appointment?",
+          "answer": "Tuesday at four o’clock",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tuesday at four o’clock",
+              "Thursday at four o’clock",
+              "Tuesday at ten o’clock",
+              "Friday morning"
+            ],
+            "accepted": [
+              "Tuesday at four o’clock"
+            ],
+            "audioText": "Hi, this is Dana from the dentist’s office. Your appointment is on Tuesday at four o’clock. Please call us if you cannot come."
+          }
+        },
+        {
+          "id": "rl-listen-key-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What should you do if you cannot come?",
+          "answer": "Call the office",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Call the office",
+              "Send a letter",
+              "Come anyway",
+              "Wait for a text"
+            ],
+            "accepted": [
+              "Call the office"
+            ],
+            "audioText": "Hi, this is Dana from the dentist’s office. Your appointment is on Tuesday at four o’clock. Please call us if you cannot come."
+          }
+        },
+        {
+          "id": "rl-listen-key-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which stop does the bus leave from?",
+          "answer": "Stop five",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Stop five",
+              "Stop two",
+              "Stop ten",
+              "Stop one"
+            ],
+            "accepted": [
+              "Stop five"
+            ],
+            "audioText": "Attention, passengers. The bus to the airport leaves from stop five, not stop two. It leaves in ten minutes."
+          }
+        },
+        {
+          "id": "rl-listen-key-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Where does the bus go?",
+          "answer": "To the airport",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To the airport",
+              "To the station",
+              "To the beach",
+              "To the hospital"
+            ],
+            "accepted": [
+              "To the airport"
+            ],
+            "audioText": "Attention, passengers. The bus to the airport leaves from stop five, not stop two. It leaves in ten minutes."
+          }
+        },
+        {
+          "id": "rl-listen-key-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the customer order?",
+          "answer": "A large coffee with milk and sugar",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A large coffee with milk and sugar",
+              "A small tea with lemon",
+              "A glass of juice",
+              "A coffee with no sugar"
+            ],
+            "accepted": [
+              "A large coffee with milk and sugar"
+            ],
+            "audioText": "I’d like a large coffee with milk and two sugars, please."
+          }
+        },
+        {
+          "id": "rl-listen-key-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The shop opens at nine thirty.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The shop opens at nine thirty.",
+            "accepted": [
+              "The shop opens at nine thirty."
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Turn left at the school.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Turn left at the school.",
+            "accepted": [
+              "Turn left at the school."
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: When you listen, you must understand every word.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words should you listen for most?",
+          "answer": "Key words like names, numbers and places",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Key words like names, numbers and places",
+              "Words like “the” and “a”",
+              "Only the first word",
+              "Only the last word"
+            ],
+            "accepted": [
+              "Key words like names, numbers and places"
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Listen for key ___, not every word.",
+          "answer": "words",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "words"
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with what you listen for.",
+          "answer": "How many? → a number | Who? → a name | Where? → a place",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "How many?",
+                "a number"
+              ],
+              [
+                "Who?",
+                "a name"
+              ],
+              [
+                "Where?",
+                "a place"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the question before you listen | Listen once for the key words | Listen again to check your answer",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the question before you listen",
+              "Listen once for the key words",
+              "Listen again to check your answer"
+            ]
+          }
+        },
+        {
+          "id": "rl-listen-key-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Listen to a short announcement or a voice message today. Write down three key words you heard.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-main-idea",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Find the main idea",
+      "objectiveId": "RL-S-05",
+      "trackId": "reading-listening",
+      "unitId": "meaning",
+      "tip": "The main idea is the one most important point of a text. The details support it. To find it, look at the first sentence, the last sentence, and the idea that most sentences are about.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-main-idea-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Walking is a good way to stay healthy. It is free, and you can do it anywhere. A short walk each day helps your heart and your mood. You do not need special shoes or a gym. What is the main idea?",
+          "answer": "Walking is a good way to stay healthy",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Walking is a good way to stay healthy",
+              "Special shoes are expensive",
+              "Gyms are better than walking",
+              "Walking is only for older people"
+            ],
+            "accepted": [
+              "Walking is a good way to stay healthy"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Walking is a good way to stay healthy. It is free, and you can do it anywhere. A short walk each day helps your heart and your mood. You do not need special shoes or a gym. Which sentence gives the main idea, not a detail?",
+          "answer": "Walking is a good way to stay healthy.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Walking is a good way to stay healthy.",
+              "It is free, and you can do it anywhere.",
+              "A short walk each day helps your heart and your mood.",
+              "You do not need special shoes or a gym."
+            ],
+            "accepted": [
+              "Walking is a good way to stay healthy."
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Many people think cats and dogs cannot be friends. But in my house they sleep on the same bed. They play together in the garden. They even share the same food bowl. What is the main idea?",
+          "answer": "A cat and a dog can be good friends",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A cat and a dog can be good friends",
+              "Cats are bigger than dogs",
+              "Dogs do not like gardens",
+              "Food bowls are expensive"
+            ],
+            "accepted": [
+              "A cat and a dog can be good friends"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our town library now offers more than books. You can borrow board games and tools. There is a free class for children every Saturday. Older people can learn to use a computer on Wednesday mornings. What is the main idea?",
+          "answer": "The library offers many things besides books",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The library offers many things besides books",
+              "The library only lends books",
+              "The library is closed on Saturday",
+              "The library is for children only"
+            ],
+            "accepted": [
+              "The library offers many things besides books"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Rice is eaten in many countries. In Japan it is served with fish. In India it is cooked with spices. In Mexico it is often served with beans. Which title fits best?",
+          "answer": "Rice around the world",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Rice around the world",
+              "How to cook fish",
+              "Beans in Mexico",
+              "Spices in India"
+            ],
+            "accepted": [
+              "Rice around the world"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the main idea?",
+          "answer": "Good sleep helps students",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Good sleep helps students",
+              "Students should study at night",
+              "Students should eat more",
+              "Students need new beds"
+            ],
+            "accepted": [
+              "Good sleep helps students"
+            ],
+            "audioText": "Good sleep is important for students. When you sleep well, you remember more and feel happier. Try to go to bed at the same time every night."
+          }
+        },
+        {
+          "id": "rl-main-idea-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The main idea is usually a small detail.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Details ___ the main idea.",
+          "answer": "support",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "support"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the whole text | Ask what most sentences are about | Say the main idea in one sentence",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the whole text",
+              "Ask what most sentences are about",
+              "Say the main idea in one sentence"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where can you often find the main idea?",
+          "answer": "In the first or last sentence",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In the first or last sentence",
+              "In every small word",
+              "Only in the title",
+              "Never in the text"
+            ],
+            "accepted": [
+              "In the first or last sentence"
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of a text with its job.",
+          "answer": "Main idea → the most important point | Detail → a fact that supports it | Title → a short name for the whole text",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Main idea",
+                "the most important point"
+              ],
+              [
+                "Detail",
+                "a fact that supports it"
+              ],
+              [
+                "Title",
+                "a short name for the whole text"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Details support the main idea.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Details",
+              "support",
+              "the",
+              "main",
+              "idea.",
+              "break",
+              "small"
+            ],
+            "accepted": [
+              "Details support the main idea."
+            ]
+          }
+        },
+        {
+          "id": "rl-main-idea-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Read a short article or post today. Write its main idea in one sentence.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-context-meaning",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Guess meaning from context",
+      "objectiveId": "RL-S-06",
+      "trackId": "reading-listening",
+      "unitId": "meaning",
+      "tip": "When you meet a new word, do not stop. Look at the words around it. They often give a clue: a similar word, an opposite word, or an example. Then guess the meaning and check that the sentence still makes sense.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-context-meaning-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The soup was so scorching that I burned my tongue. I had to wait ten minutes before I could eat it. What does “scorching” mean?",
+          "answer": "Very hot",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Very hot",
+              "Very cold",
+              "Very salty",
+              "Very old"
+            ],
+            "accepted": [
+              "Very hot"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Maria is quite timid. She never speaks in class and she hides when guests arrive. What does “timid” mean?",
+          "answer": "Shy and afraid",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Shy and afraid",
+              "Loud and funny",
+              "Angry and rude",
+              "Tall and strong"
+            ],
+            "accepted": [
+              "Shy and afraid"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The road was narrow, so only one car could pass at a time. What does “narrow” mean?",
+          "answer": "Not wide",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Not wide",
+              "Very long",
+              "Very new",
+              "Full of cars"
+            ],
+            "accepted": [
+              "Not wide"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. He was exhausted after the race. He lay on the grass and could not move. What does “exhausted” mean?",
+          "answer": "Very tired",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Very tired",
+              "Very happy",
+              "Very hungry",
+              "Very quick"
+            ],
+            "accepted": [
+              "Very tired"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. It was a gloomy morning. The sky was dark and grey, and everyone felt sad. What does “gloomy” mean?",
+          "answer": "Dark and sad",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dark and sad",
+              "Bright and warm",
+              "Loud and busy",
+              "Clean and new"
+            ],
+            "accepted": [
+              "Dark and sad"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does “dreadful” mean?",
+          "answer": "Very bad",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Very bad",
+              "Very nice",
+              "Very short",
+              "Very quiet"
+            ],
+            "accepted": [
+              "Very bad"
+            ],
+            "audioText": "The weather was dreadful. It rained all day, and the wind was so strong that trees fell down."
+          }
+        },
+        {
+          "id": "rl-context-meaning-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "In “The soup was scorching; I burned my tongue,” which words give the clue?",
+          "answer": "I burned my tongue",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I burned my tongue",
+              "The soup",
+              "My",
+              "Was"
+            ],
+            "accepted": [
+              "I burned my tongue"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The words around a new word give a ___.",
+          "answer": "clue",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "clue"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should always stop reading to look up a new word.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the sentence around the word | Look for a clue | Guess the meaning | Check that the sentence makes sense",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the sentence around the word",
+              "Look for a clue",
+              "Guess the meaning",
+              "Check that the sentence makes sense"
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each kind of clue with an example.",
+          "answer": "An opposite → small, not big | An example → fruit, such as apples | A similar word → tiny, or very small",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "An opposite",
+                "small, not big"
+              ],
+              [
+                "An example",
+                "fruit, such as apples"
+              ],
+              [
+                "A similar word",
+                "tiny, or very small"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Look at the words around it.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Look",
+              "at",
+              "the",
+              "words",
+              "around",
+              "it.",
+              "inside",
+              "far"
+            ],
+            "accepted": [
+              "Look at the words around it."
+            ]
+          }
+        },
+        {
+          "id": "rl-context-meaning-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Find a new word in a text today. Write the word, your guess of its meaning, and the clue that helped you.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-signal-words",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Signal words",
+      "objectiveId": "RL-S-07",
+      "trackId": "reading-listening",
+      "unitId": "meaning",
+      "tip": "Small words join ideas and tell you what comes next. “And” adds, “but” shows a difference, “because” gives a reason, and “so” gives a result. Notice them when you read or listen.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-signal-words-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: I was tired, ___ I went to bed early.",
+          "answer": "so",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "so",
+              "but",
+              "or",
+              "if"
+            ],
+            "accepted": [
+              "so"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: I like tea, ___ I do not like coffee.",
+          "answer": "but",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "but",
+              "so",
+              "because",
+              "or"
+            ],
+            "accepted": [
+              "but"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: He stayed home ___ it was raining.",
+          "answer": "because",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "because",
+              "but",
+              "or",
+              "so"
+            ],
+            "accepted": [
+              "because"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: Do you want pizza ___ pasta?",
+          "answer": "or",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "or",
+              "so",
+              "because",
+              "but"
+            ],
+            "accepted": [
+              "or"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ana wanted to play outside, but it was raining. Because the rain was heavy, she stayed inside, so she read a book. Why did Ana stay inside?",
+          "answer": "It was raining heavily",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It was raining heavily",
+              "She was tired",
+              "She had no friends",
+              "Her book was new"
+            ],
+            "accepted": [
+              "It was raining heavily"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ana wanted to play outside, but it was raining. Because the rain was heavy, she stayed inside, so she read a book. Which word shows a result?",
+          "answer": "so",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "so",
+              "but",
+              "because",
+              "outside"
+            ],
+            "accepted": [
+              "so"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why did the speaker miss the bus?",
+          "answer": "The train was late",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The train was late",
+              "The speaker was asleep",
+              "The bus was early",
+              "The friend was late"
+            ],
+            "accepted": [
+              "The train was late"
+            ],
+            "audioText": "The train was late, so I missed my bus. But I called my friend, and she gave me a ride."
+          }
+        },
+        {
+          "id": "rl-signal-words-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What happened after the speaker called a friend?",
+          "answer": "The friend gave a ride",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The friend gave a ride",
+              "The friend was angry",
+              "The bus came",
+              "The speaker walked"
+            ],
+            "accepted": [
+              "The friend gave a ride"
+            ],
+            "audioText": "The train was late, so I missed my bus. But I called my friend, and she gave me a ride."
+          }
+        },
+        {
+          "id": "rl-signal-words-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each signal word with its job.",
+          "answer": "and → adds an idea | but → shows a difference | because → gives a reason | so → gives a result",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "and",
+                "adds an idea"
+              ],
+              [
+                "but",
+                "shows a difference"
+              ],
+              [
+                "because",
+                "gives a reason"
+              ],
+              [
+                "so",
+                "gives a result"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I was cold, so I wore a jacket.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "was",
+              "cold,",
+              "so",
+              "I",
+              "wore",
+              "a",
+              "jacket.",
+              "but",
+              "because"
+            ],
+            "accepted": [
+              "I was cold, so I wore a jacket."
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She is tired because she worked all day.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "is",
+              "tired",
+              "because",
+              "she",
+              "worked",
+              "all",
+              "day.",
+              "so",
+              "but"
+            ],
+            "accepted": [
+              "She is tired because she worked all day."
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “But” shows a difference.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: “Because” gives a ___.",
+          "answer": "reason",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "reason"
+            ]
+          }
+        },
+        {
+          "id": "rl-signal-words-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three sentences about your day. Use “so”, “but” and “because” once each.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rl-fact-opinion",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Fact or opinion?",
+      "objectiveId": "RL-S-08",
+      "trackId": "reading-listening",
+      "unitId": "meaning",
+      "tip": "A fact can be checked: it is true or false. An opinion says what someone thinks or feels, and people can disagree. Words such as “I think”, “best”, “beautiful” and “should” often signal an opinion.",
+      "sources": [
+        "CEFR Companion Volume (reading and listening descriptors, A1-A2)",
+        "Plain-language reading practice conventions (gist, detail, scanning); texts written for this app"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "rl-fact-opinion-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a fact?",
+          "answer": "Water boils at 100 degrees Celsius.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Water boils at 100 degrees Celsius.",
+              "Summer is the best season.",
+              "Dogs are better than cats.",
+              "This music is beautiful."
+            ],
+            "accepted": [
+              "Water boils at 100 degrees Celsius."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is an opinion?",
+          "answer": "This soup is delicious.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "This soup is delicious.",
+              "The soup is hot.",
+              "The soup has carrots.",
+              "I made the soup on Monday."
+            ],
+            "accepted": [
+              "This soup is delicious."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a fact?",
+          "answer": "The library opens at nine.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The library opens at nine.",
+              "The library is boring.",
+              "The library should be bigger.",
+              "The library is the best place."
+            ],
+            "accepted": [
+              "The library opens at nine."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word often signals an opinion?",
+          "answer": "best",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "best",
+              "Monday",
+              "seven",
+              "river"
+            ],
+            "accepted": [
+              "best"
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is an opinion?",
+          "answer": "Everyone should learn to swim.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Everyone should learn to swim.",
+              "Swimming is a sport.",
+              "Pools have water.",
+              "I swam on Friday."
+            ],
+            "accepted": [
+              "Everyone should learn to swim."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The new park opened in May. It has 40 trees and two playgrounds. I think it is the most beautiful place in the city. Which sentence is an opinion?",
+          "answer": "I think it is the most beautiful place in the city.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I think it is the most beautiful place in the city.",
+              "The new park opened in May.",
+              "It has 40 trees and two playgrounds.",
+              "The park is in the city."
+            ],
+            "accepted": [
+              "I think it is the most beautiful place in the city."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The new park opened in May. It has 40 trees and two playgrounds. I think it is the most beautiful place in the city. Which sentence is a fact?",
+          "answer": "It has 40 trees and two playgrounds.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It has 40 trees and two playgrounds.",
+              "It is the most beautiful place in the city.",
+              "Everyone should visit it.",
+              "It is better than the old park."
+            ],
+            "accepted": [
+              "It has 40 trees and two playgrounds."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which part is an opinion?",
+          "answer": "Pizza is the best food in the world",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pizza is the best food in the world",
+              "My brother is eighteen",
+              "He is my brother",
+              "He eats food"
+            ],
+            "accepted": [
+              "Pizza is the best food in the world"
+            ],
+            "audioText": "My brother is eighteen. He thinks pizza is the best food in the world."
+          }
+        },
+        {
+          "id": "rl-fact-opinion-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: People can check a fact.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “I think” often shows an opinion.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with its meaning.",
+          "answer": "Fact → can be checked | Opinion → what someone thinks | Signal word → a clue such as “I think” or “best”",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Fact",
+                "can be checked"
+              ],
+              [
+                "Opinion",
+                "what someone thinks"
+              ],
+              [
+                "Signal word",
+                "a clue such as “I think” or “best”"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A fact can be ___.",
+          "answer": "checked",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "checked",
+              "proved",
+              "proven",
+              "tested"
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Facts can be checked.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Facts",
+              "can",
+              "be",
+              "checked.",
+              "opinions",
+              "never"
+            ],
+            "accepted": [
+              "Facts can be checked."
+            ]
+          }
+        },
+        {
+          "id": "rl-fact-opinion-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one fact and one opinion about your town.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

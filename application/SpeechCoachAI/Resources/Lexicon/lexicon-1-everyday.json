@@ -54,7 +54,7 @@
         "Please open the {window}; it is hot."
       ],
       "wrong": [
-        "It is freezing, so please open the window wide.",
+        "Please close the window so the fresh air can come in.",
         "She cut the bread with a window."
       ]
     },
@@ -109,12 +109,12 @@
     {
       "lemma": "weather",
       "pos": "noun",
-      "meaning": "The sun, rain, wind or cold outside.",
+      "meaning": "The conditions outside, such as sun, rain, wind or cold.",
       "examples": [
         "The {weather} is sunny today."
       ],
       "wrong": [
-        "The weather is my brother's name.",
+        "The weather is my brother’s name.",
         "The weathers are sunny today."
       ]
     },
@@ -222,7 +222,7 @@
         "We have {lunch} at noon."
       ],
       "wrong": [
-        "I eat lunch at midnight, before breakfast.",
+        "I eat lunch while I sleep.",
         "She lunches a letter."
       ]
     },
@@ -243,7 +243,7 @@
       "pos": "verb",
       "meaning": "To not be able to find something.",
       "examples": [
-        "Don't {lose} your keys again."
+        "Don’t {lose} your keys again."
       ],
       "wrong": [
         "I lose my keys, so I know exactly where they are.",
@@ -265,7 +265,7 @@
     {
       "lemma": "answer",
       "pos": "verb",
-      "meaning": "To say or write something after a question.",
+      "meaning": "To say or write something after a question, or to pick up a ringing phone.",
       "examples": [
         "Please {answer} the phone."
       ],
@@ -306,7 +306,7 @@
         "Our {neighbor} waters our plants when we travel."
       ],
       "wrong": [
-        "My neighbor lives in another country, far from my house.",
+        "My neighbor lives on the moon and has never been near my house.",
         "She neighbors very kind."
       ]
     },
@@ -411,7 +411,7 @@
       "pos": "adjective",
       "meaning": "Wanting to eat.",
       "examples": [
-        "I am {hungry}; let's have lunch."
+        "I am {hungry}; let’s have lunch."
       ],
       "wrong": [
         "I am hungry because I just ate three big meals.",
@@ -450,7 +450,7 @@
         "Please {repeat} the question."
       ],
       "wrong": [
-        "I repeat the word once and only one time.",
+        "I repeat the word for the first time.",
         "He repeat the song again."
       ]
     },

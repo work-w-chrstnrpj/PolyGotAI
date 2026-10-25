@@ -23,7 +23,7 @@ SpeechCoachAI is a native iPhone/iPad English learning app, built first for the 
 
 **Shared log (all agents):** [Claude-Codex-Cursor-conversation.md](Claude-Codex-Cursor-conversation.md) is where every coding agent appends what it changed and where handoffs between agents are written. Read its open handoffs and last entries before you start, and append one entry after every change set (format and rules are at the top of that file).
 
-**Team and workflow:** Claude is senior engineer and reviewer; Codex is the implementing engineer. Work runs one phase at a time: PLAN → EXECUTE → VERIFY → REVISE (if needed) → VERIFY → APPROVE. Lanes, the parallel-work rules and current status are in the [development plan](docs/development-plan/development-plan.md). The current phase's files are in `docs/development-plan/phases/phase-N/`.
+**Team and workflow:** Claude is senior engineer and reviewer; Codex is the implementing engineer; OpenCode (free tier) does read-only proofreading and writes reports under `docs/reviews/` only. Work runs one phase at a time: PLAN → EXECUTE → VERIFY → REVISE (if needed) → VERIFY → APPROVE. Lanes, the parallel-work rules and current status are in the [development plan](docs/development-plan/development-plan.md). The current phase's files are in `docs/development-plan/phases/phase-N/`.
 
 ## Detected Tech Stack
 
@@ -60,7 +60,7 @@ Update this map whenever the project structure changes.
 - Run relevant verification before claiming success.
 - Ask for approval before destructive, high-risk, production, secret, or migration operations.
 - **Stay in your lane.** Edit only the files your phase handoff assigns to you. Don't touch `project.pbxproj` unless you are Claude.
-- **Don't run all phases at once.** Do only the phases the owner has assigned to you. From 2026-10-25 two phases may run in parallel: Phase 2 screens (Codex) and Phase 3 Lexicon (Claude). Each agent stays inside its phase's files; `AppShell.swift` is shared by region (see the Phase 2 and Phase 3 briefs).
+- **Don't run all phases at once.** Do only the phases the owner has assigned to you. From 2026-10-25 phases with separate file scopes may run in parallel (now: Phase 5 Speech Lab by Codex and Phase 4 coach content by Claude). Each agent stays inside its phase's files; `AppShell.swift` is shared by region (see the Phase 2 and Phase 3 briefs).
 
 ## UI Rules
 

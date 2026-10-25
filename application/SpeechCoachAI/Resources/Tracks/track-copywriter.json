@@ -1,0 +1,2210 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.copywriter",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "copywriter",
+    "coach": "copywriter",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "message",
+            "title": "Know your message"
+          },
+          {
+            "id": "copy",
+            "title": "Write the copy"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "cp-benefit",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Features and benefits",
+      "objectiveId": "CP-F-01",
+      "trackId": "copywriter",
+      "unitId": "message",
+      "tip": "A feature says what a product has: “a 20-hour battery.” A benefit says what it does for the customer: “you can use it all week without charging.” People buy benefits. First learn who your customer is and what they want, then turn each feature into a benefit.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-benefit-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a feature?",
+          "answer": "The phone has a 20-hour battery.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The phone has a 20-hour battery.",
+              "You can go all week without charging.",
+              "You will never miss a call.",
+              "You will feel free."
+            ],
+            "accepted": [
+              "The phone has a 20-hour battery."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a benefit?",
+          "answer": "You can use it all week without charging.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You can use it all week without charging.",
+              "It has a 20-hour battery.",
+              "It is made of aluminum.",
+              "It has a 6-inch screen."
+            ],
+            "accepted": [
+              "You can use it all week without charging."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Turn this feature into a benefit: “The bag is waterproof.”",
+          "answer": "Your things stay dry in any weather.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Your things stay dry in any weather.",
+              "The bag is made of plastic.",
+              "The bag has two zips.",
+              "The bag is gray."
+            ],
+            "accepted": [
+              "Your things stay dry in any weather."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Turn this feature into a benefit: “The app sends reminders.”",
+          "answer": "You never forget an important task.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You never forget an important task.",
+              "The app is colorful.",
+              "The app has an icon.",
+              "The app is new."
+            ],
+            "accepted": [
+              "You never forget an important task."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Who buys benefits?",
+          "answer": "Customers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Customers",
+              "Only factories",
+              "Only designers",
+              "Nobody"
+            ],
+            "accepted": [
+              "Customers"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you know before writing copy?",
+          "answer": "Who the customer is and what they want",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Who the customer is and what they want",
+              "The weather",
+              "The writer’s favorite color",
+              "The printer’s name"
+            ],
+            "accepted": [
+              "Who the customer is and what they want"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each feature with its benefit.",
+          "answer": "A 20-hour battery → use it all week without charging | A waterproof coat → stay dry in a storm | A lightweight laptop → carry it easily all day",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A 20-hour battery",
+                "use it all week without charging"
+              ],
+              [
+                "A waterproof coat",
+                "stay dry in a storm"
+              ],
+              [
+                "A lightweight laptop",
+                "carry it easily all day"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Learn who the customer is | List the product’s features | Turn each feature into a benefit",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Learn who the customer is",
+              "List the product’s features",
+              "Turn each feature into a benefit"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A benefit says what a product does for the customer.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A feature and a benefit are the same thing.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Customers buy ___.",
+          "answer": "benefits",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "benefits"
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Turn features into benefits.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Turn",
+              "features",
+              "into",
+              "benefits.",
+              "never",
+              "hide"
+            ],
+            "accepted": [
+              "Turn features into benefits."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The new backpack has padded straps and a waterproof base. Students can carry heavy books comfortably, and their things stay dry on rainy days. Which sentence names a benefit?",
+          "answer": "Students can carry heavy books comfortably.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Students can carry heavy books comfortably.",
+              "The backpack has padded straps.",
+              "It has a waterproof base.",
+              "The backpack is new."
+            ],
+            "accepted": [
+              "Students can carry heavy books comfortably."
+            ]
+          }
+        },
+        {
+          "id": "cp-benefit-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the benefit?",
+          "answer": "Tea is ready before the toast is done",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tea is ready before the toast is done",
+              "The kettle has a lid",
+              "The kettle is white",
+              "The kettle uses electricity"
+            ],
+            "accepted": [
+              "Tea is ready before the toast is done"
+            ],
+            "audioText": "This kettle boils in sixty seconds. That means your morning tea is ready before your toast is done."
+          }
+        },
+        {
+          "id": "cp-benefit-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a product you own. Write two features and turn each into a benefit.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-idea",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "One big idea",
+      "objectiveId": "CP-F-02",
+      "trackId": "copywriter",
+      "unitId": "message",
+      "tip": "Give your message one big idea. A value proposition says what you offer, who it is for and why it is better, in one clear sentence: “Quick, healthy lunches for busy students.” Too many ideas confuse people. If everything is important, nothing is.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-idea-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clear value proposition?",
+          "answer": "Quick, healthy lunches for busy students",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Quick, healthy lunches for busy students",
+              "Food",
+              "We have many good things for everyone",
+              "The best of everything"
+            ],
+            "accepted": [
+              "Quick, healthy lunches for busy students"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a value proposition include?",
+          "answer": "What you offer, who it is for and why it is better",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What you offer, who it is for and why it is better",
+              "Only the price",
+              "Only the logo",
+              "Only a slogan"
+            ],
+            "accepted": [
+              "What you offer, who it is for and why it is better"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which message has one big idea?",
+          "answer": "Fresh bread, baked every morning.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Fresh bread, baked every morning.",
+              "Fresh bread, cheap phones, cars, flowers and free insurance.",
+              "Everything for everyone.",
+              "Stuff you may like."
+            ],
+            "accepted": [
+              "Fresh bread, baked every morning."
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why is one idea better than many?",
+          "answer": "People remember one clear idea",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "People remember one clear idea",
+              "Many ideas are free",
+              "One idea is longer",
+              "It avoids the customer"
+            ],
+            "accepted": [
+              "People remember one clear idea"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is too vague?",
+          "answer": "The best quality for everyone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The best quality for everyone",
+              "Waterproof shoes for city runners",
+              "Fast delivery in 30 minutes",
+              "A free trial for new users"
+            ],
+            "accepted": [
+              "The best quality for everyone"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Decide who the customer is | Decide what you offer | Say why it is better in one sentence",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide who the customer is",
+              "Decide what you offer",
+              "Say why it is better in one sentence"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with an example.",
+          "answer": "Offer → quick, healthy lunches | Customer → busy students | Why better → ready in five minutes",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Offer",
+                "quick, healthy lunches"
+              ],
+              [
+                "Customer",
+                "busy students"
+              ],
+              [
+                "Why better",
+                "ready in five minutes"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good message has one big idea.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A vague message is easy to remember.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A value ___ says what you offer and why it is better.",
+          "answer": "proposition",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "proposition"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "One message, one big idea.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "One",
+              "message,",
+              "one",
+              "big",
+              "idea.",
+              "never",
+              "ten"
+            ],
+            "accepted": [
+              "One message, one big idea."
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A small bakery wanted to tell people about its bread, its coffee, its cakes, its delivery, its shop hours, its music nights and its new tables on one poster. People walked past and remembered nothing. Later, the poster said only: “Fresh bread, every morning at six.” Sales rose. Why did the second poster work better?",
+          "answer": "It had one clear idea",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It had one clear idea",
+              "It had more words",
+              "It had a longer list",
+              "It had no information"
+            ],
+            "accepted": [
+              "It had one clear idea"
+            ]
+          }
+        },
+        {
+          "id": "cp-idea-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Who is the customer?",
+          "answer": "People who walk all day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "People who walk all day",
+              "Children only",
+              "Office managers",
+              "Athletes only"
+            ],
+            "accepted": [
+              "People who walk all day"
+            ],
+            "audioText": "We make shoes for people who walk all day. Soft soles, no sore feet."
+          }
+        },
+        {
+          "id": "cp-idea-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a one-sentence value proposition for a product, a club or a service you know.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-headline",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Headlines that work",
+      "objectiveId": "CP-F-03",
+      "trackId": "copywriter",
+      "unitId": "message",
+      "tip": "A headline has one job: make people want to read the next line. Good headlines promise a benefit, raise a question, use a number or say something new. Keep them short and specific. Avoid vague words like “great” and “best” with no proof.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-headline-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline promises a clear benefit?",
+          "answer": "Cut your commute in half with a folding bike",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Cut your commute in half with a folding bike",
+              "Bikes",
+              "Great bikes for everyone",
+              "Our company"
+            ],
+            "accepted": [
+              "Cut your commute in half with a folding bike"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline uses a number?",
+          "answer": "Five ways to sleep better tonight",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Five ways to sleep better tonight",
+              "Sleep better",
+              "Sleep",
+              "Good sleep"
+            ],
+            "accepted": [
+              "Five ways to sleep better tonight"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline raises a question?",
+          "answer": "Tired of slow Wi-Fi?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tired of slow Wi-Fi?",
+              "Wi-Fi is good",
+              "Our Wi-Fi",
+              "Wi-Fi"
+            ],
+            "accepted": [
+              "Tired of slow Wi-Fi?"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline is too vague?",
+          "answer": "The best product ever",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The best product ever",
+              "Fix a leaking tap in ten minutes",
+              "Save 20 percent this week",
+              "Learn English in your lunch break"
+            ],
+            "accepted": [
+              "The best product ever"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a headline’s main job?",
+          "answer": "Make people want to read the next line",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Make people want to read the next line",
+              "List every feature",
+              "Show the price only",
+              "Explain the company’s history"
+            ],
+            "accepted": [
+              "Make people want to read the next line"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each headline type with an example.",
+          "answer": "Benefit → Sleep better in one week | Question → Tired of slow Wi-Fi? | Number → Seven tips for faster mornings",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Benefit",
+                "Sleep better in one week"
+              ],
+              [
+                "Question",
+                "Tired of slow Wi-Fi?"
+              ],
+              [
+                "Number",
+                "Seven tips for faster mornings"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Know the main benefit | Write ten short headlines | Choose the clearest one",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Know the main benefit",
+              "Write ten short headlines",
+              "Choose the clearest one"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good headline is specific.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “Best product ever” is a strong headline with no proof.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A headline should make people want to read the ___ line.",
+          "answer": "next",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "next"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the headline.",
+          "answer": "Cut your commute in half.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Cut",
+              "your",
+              "commute",
+              "in",
+              "half.",
+              "never",
+              "double"
+            ],
+            "accepted": [
+              "Cut your commute in half."
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A gym tried two posters. One said, “The best gym in town.” The other said, “Open 24 hours: train before work or after midnight.” The second poster brought in twice as many new members. Why did the second headline work better?",
+          "answer": "It was specific and promised a clear benefit",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It was specific and promised a clear benefit",
+              "It was shorter",
+              "It used a joke",
+              "It had no information"
+            ],
+            "accepted": [
+              "It was specific and promised a clear benefit"
+            ]
+          }
+        },
+        {
+          "id": "cp-headline-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the headline promise?",
+          "answer": "Cooking skills in thirty minutes a day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Cooking skills in thirty minutes a day",
+              "A free kitchen",
+              "A new job",
+              "A trip"
+            ],
+            "accepted": [
+              "Cooking skills in thirty minutes a day"
+            ],
+            "audioText": "Learn to cook in thirty minutes a day. No experience needed."
+          }
+        },
+        {
+          "id": "cp-headline-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three different headlines for the same product: one with a benefit, one with a question and one with a number.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-honest",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Honest claims",
+      "objectiveId": "CP-F-04",
+      "trackId": "copywriter",
+      "unitId": "message",
+      "tip": "Advertising must be true. Do not claim what you cannot prove, hide important costs or invent reviews. Say “up to” when results vary, and keep your proof ready. Honest copy builds trust, and trust sells again and again. Laws in many countries protect customers from false claims.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-honest-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which claim can you prove?",
+          "answer": "Delivery within 24 hours in our city",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Delivery within 24 hours in our city",
+              "The best in the world",
+              "Everyone loves it",
+              "Works miracles"
+            ],
+            "accepted": [
+              "Delivery within 24 hours in our city"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a hidden-cost problem?",
+          "answer": "Showing “$9” but adding fees at checkout",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Showing “$9” but adding fees at checkout",
+              "Showing the full price",
+              "Listing all fees",
+              "Showing a final price early"
+            ],
+            "accepted": [
+              "Showing “$9” but adding fees at checkout"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a fake review?",
+          "answer": "A review written by the company and signed with a made-up name",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A review written by the company and signed with a made-up name",
+              "A review from a verified customer",
+              "A customer’s real photo",
+              "A rating given after purchase"
+            ],
+            "accepted": [
+              "A review written by the company and signed with a made-up name"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When results vary, which wording is honest?",
+          "answer": "Save up to 20 percent",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Save up to 20 percent",
+              "Save 20 percent for sure",
+              "Save a fortune",
+              "Save everything"
+            ],
+            "accepted": [
+              "Save up to 20 percent"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why does honest copy sell more over time?",
+          "answer": "It builds trust",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It builds trust",
+              "It is shorter",
+              "It has more words",
+              "It uses fewer pictures"
+            ],
+            "accepted": [
+              "It builds trust"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each practice with its result.",
+          "answer": "Proof ready → claims you can defend | Hidden fees → angry customers | Fake reviews → lost trust",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Proof ready",
+                "claims you can defend"
+              ],
+              [
+                "Hidden fees",
+                "angry customers"
+              ],
+              [
+                "Fake reviews",
+                "lost trust"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Write the claim | Check you can prove it | Add the conditions clearly",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Write the claim",
+              "Check you can prove it",
+              "Add the conditions clearly"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Advertising claims must be true.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Making up reviews is acceptable.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Keep ___ ready for every claim.",
+          "answer": "proof",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "proof",
+              "evidence"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Honest copy builds trust.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Honest",
+              "copy",
+              "builds",
+              "trust.",
+              "never",
+              "breaks"
+            ],
+            "accepted": [
+              "Honest copy builds trust."
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A shop advertised free delivery but charged a delivery fee at the last step. Customers felt tricked, wrote angry reviews and stopped buying. The shop changed the ad to say, “Free delivery on orders over $40.” Complaints stopped. What was wrong with the first ad?",
+          "answer": "It hid a cost the customer later had to pay",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It hid a cost the customer later had to pay",
+              "It was too short",
+              "It used a picture",
+              "It had no price"
+            ],
+            "accepted": [
+              "It hid a cost the customer later had to pay"
+            ]
+          }
+        },
+        {
+          "id": "cp-honest-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which words make this claim honest?",
+          "answer": "Up to ten hours, depending on use",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Up to ten hours, depending on use",
+              "The best battery on Earth",
+              "Never needs charging",
+              "Everyone agrees"
+            ],
+            "accepted": [
+              "Up to ten hours, depending on use"
+            ],
+            "audioText": "Our battery lasts up to ten hours, depending on how you use it. We test it ourselves and show the results on our website."
+          }
+        },
+        {
+          "id": "cp-honest-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Rewrite this claim so it is honest and provable: “The best phone in the world, guaranteed.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-aida",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "A short ad with AIDA",
+      "objectiveId": "CP-F-05",
+      "trackId": "copywriter",
+      "unitId": "copy",
+      "tip": "AIDA is a simple plan for a short ad: Attention (a strong headline), Interest (a fact or story that fits the reader), Desire (show the benefit and how life improves) and Action (say what to do next). Keep each part short, and let each lead to the next.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-aida-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the AIDA ad in order.",
+          "answer": "Tired of slow mornings? | Our bike gets you to work in ten minutes. | Imagine arriving relaxed and on time every day. | Order yours today.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Tired of slow mornings?",
+              "Our bike gets you to work in ten minutes.",
+              "Imagine arriving relaxed and on time every day.",
+              "Order yours today."
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the first A in AIDA stand for?",
+          "answer": "Attention",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Attention",
+              "Action",
+              "Audience",
+              "Answer"
+            ],
+            "accepted": [
+              "Attention"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does I stand for?",
+          "answer": "Interest",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Interest",
+              "Idea",
+              "Image",
+              "Income"
+            ],
+            "accepted": [
+              "Interest"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does D stand for?",
+          "answer": "Desire",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Desire",
+              "Design",
+              "Deadline",
+              "Detail"
+            ],
+            "accepted": [
+              "Desire"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the second A stand for?",
+          "answer": "Action",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Action",
+              "Attention",
+              "Advertising",
+              "Answer"
+            ],
+            "accepted": [
+              "Action"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence creates desire?",
+          "answer": "Imagine waking up fully rested every day.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Imagine waking up fully rested every day.",
+              "The mattress has springs.",
+              "The mattress is rectangular.",
+              "The mattress is sold in stores."
+            ],
+            "accepted": [
+              "Imagine waking up fully rested every day."
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each AIDA part with its job.",
+          "answer": "Attention → stop the reader | Interest → give a fact that fits the reader | Desire → show the benefit | Action → say what to do next",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Attention",
+                "stop the reader"
+              ],
+              [
+                "Interest",
+                "give a fact that fits the reader"
+              ],
+              [
+                "Desire",
+                "show the benefit"
+              ],
+              [
+                "Action",
+                "say what to do next"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Order yours today.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Order",
+              "yours",
+              "today.",
+              "never",
+              "later"
+            ],
+            "accepted": [
+              "Order yours today."
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Each AIDA part leads to the next.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An ad should skip the action step.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: AIDA starts with ___.",
+          "answer": "attention",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "attention"
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Tired of cold feet? Our wool socks use soft, thick fibers that trap heat. Picture a winter walk with warm, dry feet all day. Buy a pair this week and get the second pair half price. Which sentence is the action step?",
+          "answer": "Buy a pair this week and get the second pair half price.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Buy a pair this week and get the second pair half price.",
+              "Tired of cold feet?",
+              "Our wool socks use soft, thick fibers that trap heat.",
+              "Picture a winter walk with warm, dry feet all day."
+            ],
+            "accepted": [
+              "Buy a pair this week and get the second pair half price."
+            ]
+          }
+        },
+        {
+          "id": "cp-aida-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which sentence creates desire?",
+          "answer": "Imagine leaving home right on time",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Imagine leaving home right on time",
+              "Download it free today",
+              "Never miss a bus again",
+              "It tells you when the bus arrives"
+            ],
+            "accepted": [
+              "Imagine leaving home right on time"
+            ],
+            "audioText": "Never miss a bus again. Our app tells you exactly when it arrives. Imagine leaving home right on time. Download it free today."
+          }
+        },
+        {
+          "id": "cp-aida-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a five-line ad using AIDA for a product you know.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-cta",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Call to action",
+      "objectiveId": "CP-F-06",
+      "trackId": "copywriter",
+      "unitId": "copy",
+      "tip": "A call to action (CTA) tells the reader exactly what to do next. Start with a strong verb: Buy, Join, Try, Book, Download. Be clear and specific: “Book your free class” beats “Click here.” Add a reason or a deadline if you can: “Book today and get a free lesson.”",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-cta-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which CTA is clearest?",
+          "answer": "Book your free class today",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Book your free class today",
+              "Click",
+              "Maybe you can think about it",
+              "Look around"
+            ],
+            "accepted": [
+              "Book your free class today"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word makes a strong CTA verb?",
+          "answer": "Join",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Join",
+              "Perhaps",
+              "Possibly",
+              "Eventually"
+            ],
+            "accepted": [
+              "Join"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which CTA adds a reason?",
+          "answer": "Join today and get your first month free",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Join today and get your first month free",
+              "Join",
+              "Join us",
+              "Join maybe"
+            ],
+            "accepted": [
+              "Join today and get your first month free"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which CTA is vague?",
+          "answer": "Learn more",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Learn more",
+              "Download the free guide now",
+              "Book your table for two",
+              "Start your free trial"
+            ],
+            "accepted": [
+              "Learn more"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should a CTA usually go?",
+          "answer": "At the end, easy to see",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At the end, easy to see",
+              "Hidden in the middle",
+              "Before the headline",
+              "Nowhere"
+            ],
+            "accepted": [
+              "At the end, easy to see"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each CTA verb with its goal.",
+          "answer": "Buy → complete a purchase | Join → become a member | Download → get a file | Book → reserve a time",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Buy",
+                "complete a purchase"
+              ],
+              [
+                "Join",
+                "become a member"
+              ],
+              [
+                "Download",
+                "get a file"
+              ],
+              [
+                "Book",
+                "reserve a time"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Decide what you want the reader to do | Choose a strong verb | Add a reason or a deadline",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide what you want the reader to do",
+              "Choose a strong verb",
+              "Add a reason or a deadline"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Join today and save.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Join",
+              "today",
+              "and",
+              "save.",
+              "never",
+              "maybe"
+            ],
+            "accepted": [
+              "Join today and save."
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A CTA should be clear and specific.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A CTA should use long, polite hints.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Start a CTA with a strong ___.",
+          "answer": "verb",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "verb"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A language school changed its button from “Click here” to “Book your free first lesson.” Within a month, sign-ups doubled. Why did the new button work better?",
+          "answer": "It said exactly what would happen",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It said exactly what would happen",
+              "It was longer",
+              "It was in a different color",
+              "It had no verb"
+            ],
+            "accepted": [
+              "It said exactly what would happen"
+            ]
+          }
+        },
+        {
+          "id": "cp-cta-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the call to action?",
+          "answer": "Start your free trial today",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Start your free trial today",
+              "Cancel any time",
+              "No card needed",
+              "Pay now"
+            ],
+            "accepted": [
+              "Start your free trial today"
+            ],
+            "audioText": "Start your free trial today. No card needed. Cancel any time."
+          }
+        },
+        {
+          "id": "cp-cta-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three calls to action for one product: one with a reason, one with a deadline and one very short.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-tone",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Voice and tone",
+      "objectiveId": "CP-F-07",
+      "trackId": "copywriter",
+      "unitId": "copy",
+      "tip": "Tone is how your words sound: friendly, serious, playful, expert. Choose a tone that fits the audience and the product, and keep it the same everywhere. Write as if you are talking to one person: use “you” and short words. Never sound rude, and never talk down to people.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-tone-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tone fits a children’s toy?",
+          "answer": "Playful and warm",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Playful and warm",
+              "Cold and legal",
+              "Bored",
+              "Angry"
+            ],
+            "accepted": [
+              "Playful and warm"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tone fits a bank’s security warning?",
+          "answer": "Clear and serious",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Clear and serious",
+              "Silly",
+              "Sarcastic",
+              "Playful"
+            ],
+            "accepted": [
+              "Clear and serious"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line is friendly?",
+          "answer": "We’re here whenever you need us.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We’re here whenever you need us.",
+              "Contact the undersigned.",
+              "Your query has been logged.",
+              "Process terminated."
+            ],
+            "accepted": [
+              "We’re here whenever you need us."
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line speaks to one person?",
+          "answer": "You can start in two minutes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You can start in two minutes.",
+              "All users may begin.",
+              "Customers are advised to start.",
+              "The system begins."
+            ],
+            "accepted": [
+              "You can start in two minutes."
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why keep the same tone everywhere?",
+          "answer": "It builds a recognizable brand",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It builds a recognizable brand",
+              "It uses fewer words",
+              "It makes copy longer",
+              "It confuses people"
+            ],
+            "accepted": [
+              "It builds a recognizable brand"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each product with a fitting tone.",
+          "answer": "Kids’ game → playful | Medical advice → calm and clear | Luxury watch → elegant",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Kids’ game",
+                "playful"
+              ],
+              [
+                "Medical advice",
+                "calm and clear"
+              ],
+              [
+                "Luxury watch",
+                "elegant"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Think about who the reader is | Choose the tone | Write as if talking to one person",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Think about who the reader is",
+              "Choose the tone",
+              "Write as if talking to one person"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Tone should fit the audience.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: It is fine to talk down to readers.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use “you” to talk to one ___.",
+          "answer": "person",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "person"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We’re here whenever you need us.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We’re",
+              "here",
+              "whenever",
+              "you",
+              "need",
+              "us.",
+              "never",
+              "undersigned"
+            ],
+            "accepted": [
+              "We’re here whenever you need us."
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A soup company used to write, “Customers are advised that product consumption should occur within three days.” After a rewrite, the can said, “Eat me within three days.” People smiled and remembered the brand. What did the rewrite change?",
+          "answer": "It made the tone friendly and direct",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It made the tone friendly and direct",
+              "It made the text longer",
+              "It removed the information",
+              "It made it more legal"
+            ],
+            "accepted": [
+              "It made the tone friendly and direct"
+            ]
+          }
+        },
+        {
+          "id": "cp-tone-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which tone is this?",
+          "answer": "Friendly and playful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Friendly and playful",
+              "Cold and legal",
+              "Angry",
+              "Sad"
+            ],
+            "accepted": [
+              "Friendly and playful"
+            ],
+            "audioText": "Hi there. Hungry? Our soups are ready in three minutes. Just heat and enjoy."
+          }
+        },
+        {
+          "id": "cp-tone-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the same two sentences about a coffee shop in a playful tone and in a serious tone.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-edit",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Edit for clarity",
+      "objectiveId": "CP-F-08",
+      "trackId": "copywriter",
+      "unitId": "copy",
+      "tip": "Edit your copy. Cut extra words. Replace vague words with concrete ones: “fast” becomes “ready in five minutes.” Use active verbs and short sentences. Read it aloud: if you stumble, rewrite. Check facts, names and prices last. One idea, one reader, one action.",
+      "sources": [
+        "Hopkins, Scientific Advertising (1923, public domain): plain, specific, honest selling (concepts only)",
+        "US Federal Trade Commission truth-in-advertising principles (US government, public domain; summarized) and the AIDA model (concept)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cp-edit-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which version is more concrete?",
+          "answer": "Ready in five minutes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ready in five minutes",
+              "Very quick",
+              "Fast service",
+              "Really speedy"
+            ],
+            "accepted": [
+              "Ready in five minutes"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which version uses an active verb?",
+          "answer": "We deliver your order today.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We deliver your order today.",
+              "Your order will be delivered by us today.",
+              "Delivery of the order is made today.",
+              "The order’s delivery today is planned."
+            ],
+            "accepted": [
+              "We deliver your order today."
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is shorter and clearer?",
+          "answer": "Save 20 percent today.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Save 20 percent today.",
+              "Our company would like to offer you a saving of twenty percent on your purchases on this day.",
+              "A saving may be made today.",
+              "It is possible to save some money today."
+            ],
+            "accepted": [
+              "Save 20 percent today."
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you check last?",
+          "answer": "Facts, names and prices",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Facts, names and prices",
+              "The color of the text",
+              "The font only",
+              "The writer’s name"
+            ],
+            "accepted": [
+              "Facts, names and prices"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you test copy quickly?",
+          "answer": "Read it aloud",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Read it aloud",
+              "Print it in red",
+              "Show it to nobody",
+              "Count the commas"
+            ],
+            "accepted": [
+              "Read it aloud"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the editing steps in order.",
+          "answer": "Cut extra words | Make vague words concrete | Read it aloud | Check facts and prices",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Cut extra words",
+              "Make vague words concrete",
+              "Read it aloud",
+              "Check facts and prices"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each edit with its result.",
+          "answer": "Cut extra words → shorter copy | Use concrete words → clearer pictures | Use active verbs → stronger sentences",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Cut extra words",
+                "shorter copy"
+              ],
+              [
+                "Use concrete words",
+                "clearer pictures"
+              ],
+              [
+                "Use active verbs",
+                "stronger sentences"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Cut every extra word.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Cut",
+              "every",
+              "extra",
+              "word.",
+              "never",
+              "add"
+            ],
+            "accepted": [
+              "Cut every extra word."
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Reading copy aloud helps you find weak lines.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Longer copy is always better.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Replace vague words with ___ ones.",
+          "answer": "concrete",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "concrete",
+              "specific"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A writer fixed a line. Before: “Our company provides a very wide variety of really good high-quality services at excellent prices for many different people.” After: “Plumbing, painting and repairs at fair prices, in one call.” The client chose the second version. Why is the “after” version better?",
+          "answer": "It is shorter, concrete and clear",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It is shorter, concrete and clear",
+              "It is longer",
+              "It has more adjectives",
+              "It is more vague"
+            ],
+            "accepted": [
+              "It is shorter, concrete and clear"
+            ]
+          }
+        },
+        {
+          "id": "cp-edit-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which detail is concrete?",
+          "answer": "Baked at six",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Baked at six",
+              "Fresh",
+              "Good",
+              "Many"
+            ],
+            "accepted": [
+              "Baked at six"
+            ],
+            "audioText": "Fresh bread, baked at six, on your table by seven."
+          }
+        },
+        {
+          "id": "cp-edit-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Edit this line: “Our shop offers a really wide range of excellent products at very good prices.” Make it shorter and concrete.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

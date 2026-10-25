@@ -1,0 +1,2310 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.business",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "business",
+    "coach": "business",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "everyday",
+            "title": "Everyday work talk"
+          },
+          {
+            "id": "interviews",
+            "title": "Interviews and feedback"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "bz-intro",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Introductions and small talk",
+      "objectiveId": "BZ-F-01",
+      "trackId": "business",
+      "unitId": "everyday",
+      "tip": "At work, start with a friendly greeting, your name and your role: “Hi, I’m Lena. I work in finance.” Small talk builds trust. Ask an open question about the other person, listen, and share a little about yourself. Keep the topics light: the weather, your commute, the weekend, your work.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-intro-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clear introduction?",
+          "answer": "Hi, I’m Lena. I work in finance.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hi, I’m Lena. I work in finance.",
+              "Hi.",
+              "I’m a person.",
+              "Whatever."
+            ],
+            "accepted": [
+              "Hi, I’m Lena. I work in finance."
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a good small-talk question?",
+          "answer": "How was your weekend?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How was your weekend?",
+              "How much do you earn?",
+              "How old are you?",
+              "Why are you so late?"
+            ],
+            "accepted": [
+              "How was your weekend?"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which topic is NOT suitable for small talk at work?",
+          "answer": "Your salary",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Your salary",
+              "The weather",
+              "Your commute",
+              "A local event"
+            ],
+            "accepted": [
+              "Your salary"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do you usually answer “How are you?” at work?",
+          "answer": "Fine, thanks. And you?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Fine, thanks. And you?",
+              "I will tell you all my problems.",
+              "Bad.",
+              "None of your business."
+            ],
+            "accepted": [
+              "Fine, thanks. And you?"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase is a polite greeting when you meet someone for the first time?",
+          "answer": "Nice to meet you.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Nice to meet you.",
+              "See you later.",
+              "What is your problem?",
+              "Goodbye."
+            ],
+            "accepted": [
+              "Nice to meet you."
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase shows interest?",
+          "answer": "That sounds interesting. Tell me more.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "That sounds interesting. Tell me more.",
+              "Okay.",
+              "Hm.",
+              "Anyway."
+            ],
+            "accepted": [
+              "That sounds interesting. Tell me more."
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of an introduction with an example.",
+          "answer": "Greeting → Hi, nice to meet you. | Name → I’m Lena. | Role → I work in finance.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Greeting",
+                "Hi, nice to meet you."
+              ],
+              [
+                "Name",
+                "I’m Lena."
+              ],
+              [
+                "Role",
+                "I work in finance."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the introduction in order.",
+          "answer": "Hi, nice to meet you. | I’m Lena. | I work in finance. | What do you do?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Hi, nice to meet you.",
+              "I’m Lena.",
+              "I work in finance.",
+              "What do you do?"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I work in the sales team.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "work",
+              "in",
+              "the",
+              "sales",
+              "team.",
+              "never",
+              "play"
+            ],
+            "accepted": [
+              "I work in the sales team."
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "How was your weekend?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "How",
+              "was",
+              "your",
+              "weekend?",
+              "never",
+              "what"
+            ],
+            "accepted": [
+              "How was your weekend?"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Nice to ___ you.",
+          "answer": "meet",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "meet"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Asking about someone’s salary is good small talk.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Small talk helps build trust.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-intro-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does Ken ask?",
+          "answer": "How the weekend was",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How the weekend was",
+              "What the salary is",
+              "Where the exit is",
+              "What time it is"
+            ],
+            "accepted": [
+              "How the weekend was"
+            ],
+            "audioText": "Hi, I’m Ken from marketing. How was your weekend? Mine was quiet. I went hiking."
+          }
+        },
+        {
+          "id": "bz-intro-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a two-line introduction of yourself for a new team, then one small-talk question.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-meeting",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Meetings: agree, disagree, interrupt",
+      "objectiveId": "BZ-F-02",
+      "trackId": "business",
+      "unitId": "everyday",
+      "tip": "In meetings, agree and disagree politely. To agree: “I agree with that,” “That makes sense.” To disagree gently: “I see it a little differently,” “I’m not sure about that.” To interrupt politely: “Sorry to interrupt, may I add something?” Keep your tone calm.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-meeting-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase politely disagrees?",
+          "answer": "I see it a little differently.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I see it a little differently.",
+              "You are wrong.",
+              "That is silly.",
+              "No way."
+            ],
+            "accepted": [
+              "I see it a little differently."
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase politely interrupts?",
+          "answer": "Sorry to interrupt, may I add something?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sorry to interrupt, may I add something?",
+              "Stop talking.",
+              "Be quiet.",
+              "Listen to me."
+            ],
+            "accepted": [
+              "Sorry to interrupt, may I add something?"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase agrees?",
+          "answer": "That makes sense.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "That makes sense.",
+              "I don’t care.",
+              "Whatever.",
+              "Not at all."
+            ],
+            "accepted": [
+              "That makes sense."
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase politely asks for repetition?",
+          "answer": "Could you say that again, please?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could you say that again, please?",
+              "What?",
+              "Huh?",
+              "Repeat it."
+            ],
+            "accepted": [
+              "Could you say that again, please?"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the best way to give a different view?",
+          "answer": "I understand, but I’m worried about the cost.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I understand, but I’m worried about the cost.",
+              "That’s a bad idea.",
+              "You always say that.",
+              "Nobody agrees."
+            ],
+            "accepted": [
+              "I understand, but I’m worried about the cost."
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its job.",
+          "answer": "I agree with that → shows agreement | I’m not sure about that → shows polite doubt | May I add something? → enters the conversation",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I agree with that",
+                "shows agreement"
+              ],
+              [
+                "I’m not sure about that",
+                "shows polite doubt"
+              ],
+              [
+                "May I add something?",
+                "enters the conversation"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the reply in order.",
+          "answer": "Thanks for the idea. | I’m not sure about the timing. | Could we look at next month instead?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Thanks for the idea.",
+              "I’m not sure about the timing.",
+              "Could we look at next month instead?"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "That makes sense to me.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "That",
+              "makes",
+              "sense",
+              "to",
+              "me.",
+              "never",
+              "wrong"
+            ],
+            "accepted": [
+              "That makes sense to me."
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "May I add something?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "May",
+              "I",
+              "add",
+              "something?",
+              "never",
+              "should"
+            ],
+            "accepted": [
+              "May I add something?"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: I see it a little ___.",
+          "answer": "differently",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "differently"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can disagree and stay polite.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Interrupting without a polite phrase is best.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-meeting-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker do?",
+          "answer": "Politely disagrees and suggests a change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Politely disagrees and suggests a change",
+              "Agrees fully",
+              "Ends the meeting",
+              "Insults Ana"
+            ],
+            "accepted": [
+              "Politely disagrees and suggests a change"
+            ],
+            "audioText": "Thanks, Ana. I see it a little differently. The deadline is tight, so could we start earlier?"
+          }
+        },
+        {
+          "id": "bz-meeting-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three polite sentences for a meeting: one to agree, one to disagree and one to interrupt.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-email",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Write a clear email",
+      "objectiveId": "BZ-F-03",
+      "trackId": "business",
+      "unitId": "everyday",
+      "tip": "A clear email has a short subject line, a greeting, the main point in the first sentence, any needed details, a clear request with a date, and a polite closing. Keep sentences short. One email, one topic.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-email-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which subject line is clearest?",
+          "answer": "Budget report: please review by Friday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Budget report: please review by Friday",
+              "Hi",
+              "Important!!!",
+              "Question"
+            ],
+            "accepted": [
+              "Budget report: please review by Friday"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should the main point be?",
+          "answer": "In the first sentence",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In the first sentence",
+              "In the last paragraph only",
+              "Hidden in the middle",
+              "Nowhere"
+            ],
+            "accepted": [
+              "In the first sentence"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which closing is polite and professional?",
+          "answer": "Best regards,",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Best regards,",
+              "Bye bye,",
+              "Whatever,",
+              "Later,"
+            ],
+            "accepted": [
+              "Best regards,"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which request is clearest?",
+          "answer": "Could you send the figures by Tuesday at noon?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could you send the figures by Tuesday at noon?",
+              "Send me stuff soon.",
+              "I need some things.",
+              "Do it."
+            ],
+            "accepted": [
+              "Could you send the figures by Tuesday at noon?"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which greeting fits a formal email to a client?",
+          "answer": "Dear Ms. Lee,",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dear Ms. Lee,",
+              "Hey you,",
+              "Yo,",
+              "Hi dude,"
+            ],
+            "accepted": [
+              "Dear Ms. Lee,"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many topics should one email have?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Ten",
+              "As many as possible",
+              "None"
+            ],
+            "accepted": [
+              "One"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the email parts in order.",
+          "answer": "Subject line | Greeting | Main point and request | Polite closing",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Subject line",
+              "Greeting",
+              "Main point and request",
+              "Polite closing"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each email part with its job.",
+          "answer": "Subject line → tells the topic | Request → says what you need and when | Closing → ends politely",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Subject line",
+                "tells the topic"
+              ],
+              [
+                "Request",
+                "says what you need and when"
+              ],
+              [
+                "Closing",
+                "ends politely"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-email-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Could you send the report by Friday?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Could",
+              "you",
+              "send",
+              "the",
+              "report",
+              "by",
+              "Friday?",
+              "never",
+              "what"
+            ],
+            "accepted": [
+              "Could you send the report by Friday?"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Thank you for your help.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Thank",
+              "you",
+              "for",
+              "your",
+              "help.",
+              "never",
+              "blame"
+            ],
+            "accepted": [
+              "Thank you for your help."
+            ]
+          }
+        },
+        {
+          "id": "bz-email-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Put the main point in the ___ sentence.",
+          "answer": "first",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "first"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A subject line should be short and clear.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An email should include many unrelated topics.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-14",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Hi Sam, the printer on the second floor is broken. Could you ask IT to fix it by Wednesday? Many people need it for the Thursday report. Thanks, Mia. What does Mia want?",
+          "answer": "IT to fix the printer by Wednesday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "IT to fix the printer by Wednesday",
+              "A new office",
+              "A day off",
+              "A longer report"
+            ],
+            "accepted": [
+              "IT to fix the printer by Wednesday"
+            ]
+          }
+        },
+        {
+          "id": "bz-email-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short email to a colleague asking for a document by a certain day. Include a subject line.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-bluf",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Status updates: BLUF",
+      "objectiveId": "BZ-F-04",
+      "trackId": "business",
+      "unitId": "everyday",
+      "tip": "BLUF means Bottom Line Up Front. Start with the result or the decision, then give the reasons and details: “The report will be one day late. The data arrived on Tuesday. I will send it by Friday.” Busy readers get the key point at once.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-bluf-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which update uses BLUF?",
+          "answer": "The project will finish a week late. The supplier delayed the parts, and we have a new date.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The project will finish a week late. The supplier delayed the parts, and we have a new date.",
+              "The supplier delayed parts. We had a meeting. Then we waited. Finally we learned the project will be late.",
+              "Hello. Let me tell you a story.",
+              "Meetings are long."
+            ],
+            "accepted": [
+              "The project will finish a week late. The supplier delayed the parts, and we have a new date."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does BLUF stand for?",
+          "answer": "Bottom Line Up Front",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Bottom Line Up Front",
+              "Big List Under Final",
+              "Better Late Until Friday",
+              "Basic Letter Using Format"
+            ],
+            "accepted": [
+              "Bottom Line Up Front"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence should come first in a status update?",
+          "answer": "The result or decision",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The result or decision",
+              "The history of the project",
+              "A joke",
+              "The names of everyone"
+            ],
+            "accepted": [
+              "The result or decision"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the bottom line?",
+          "answer": "We need two more days to finish.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We need two more days to finish.",
+              "On Monday, the team met.",
+              "The room was cold.",
+              "Lunch was good."
+            ],
+            "accepted": [
+              "We need two more days to finish."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why does BLUF help busy readers?",
+          "answer": "They get the key point at once",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They get the key point at once",
+              "It makes updates longer",
+              "It hides bad news",
+              "It avoids reasons"
+            ],
+            "accepted": [
+              "They get the key point at once"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the update in order.",
+          "answer": "The launch will move to May 3. | The designer needs two more weeks. | I will confirm the new date on Friday.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "The launch will move to May 3.",
+              "The designer needs two more weeks.",
+              "I will confirm the new date on Friday."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Bottom line → the result or decision | Reason → why it happened | Next step → what happens now",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Bottom line",
+                "the result or decision"
+              ],
+              [
+                "Reason",
+                "why it happened"
+              ],
+              [
+                "Next step",
+                "what happens now"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The launch is on schedule.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "launch",
+              "is",
+              "on",
+              "schedule.",
+              "never",
+              "late"
+            ],
+            "accepted": [
+              "The launch is on schedule."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I will send the file today.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "will",
+              "send",
+              "the",
+              "file",
+              "today.",
+              "never",
+              "did"
+            ],
+            "accepted": [
+              "I will send the file today."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Put the bottom ___ first.",
+          "answer": "line",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "line"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: BLUF puts the decision at the start.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A status update should begin with a long history.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The server is back online. It was down for two hours because of a power cut. Everything is working normally, and I will check it again tonight. Which sentence is the bottom line?",
+          "answer": "The server is back online.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The server is back online.",
+              "It was down for two hours.",
+              "There was a power cut.",
+              "I will check it again tonight."
+            ],
+            "accepted": [
+              "The server is back online."
+            ]
+          }
+        },
+        {
+          "id": "bz-bluf-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the bottom line?",
+          "answer": "The training moves to Thursday at ten",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The training moves to Thursday at ten",
+              "The room is empty",
+              "Wednesday is a holiday",
+              "Nobody can come"
+            ],
+            "accepted": [
+              "The training moves to Thursday at ten"
+            ],
+            "audioText": "Quick update. The training session is moved to Thursday at ten. The room is full on Wednesday. Please confirm if you can come."
+          }
+        },
+        {
+          "id": "bz-bluf-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-sentence status update about a task you are doing. Put the bottom line first.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-prep",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "PREP answers",
+      "objectiveId": "BZ-F-05",
+      "trackId": "business",
+      "unitId": "interviews",
+      "tip": "PREP is a simple structure for answering questions: Point (your answer first), Reason (why), Example (a short real case), Point (your answer again). “Remote work suits me, because I focus better. Last year I finished a report early at home. So I work well remotely.”",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-prep-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the PREP answer in order.",
+          "answer": "I think teamwork matters most. | It helps us solve problems faster. | For example, our team fixed a bug in one hour together. | So teamwork is the key.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "I think teamwork matters most.",
+              "It helps us solve problems faster.",
+              "For example, our team fixed a bug in one hour together.",
+              "So teamwork is the key."
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the first P in PREP stand for?",
+          "answer": "Point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Point",
+              "Plan",
+              "Place",
+              "People"
+            ],
+            "accepted": [
+              "Point"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does R stand for?",
+          "answer": "Reason",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Reason",
+              "Result",
+              "Reply",
+              "Rule"
+            ],
+            "accepted": [
+              "Reason"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does E stand for?",
+          "answer": "Example",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Example",
+              "Energy",
+              "Email",
+              "Effort"
+            ],
+            "accepted": [
+              "Example"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Reason?",
+          "answer": "Because it saves time.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Because it saves time.",
+              "I prefer email.",
+              "For example, last week.",
+              "So email is best."
+            ],
+            "accepted": [
+              "Because it saves time."
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Example?",
+          "answer": "For example, last week I answered 30 emails in an hour.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "For example, last week I answered 30 emails in an hour.",
+              "I prefer email.",
+              "Because it is fast.",
+              "In conclusion, email is best."
+            ],
+            "accepted": [
+              "For example, last week I answered 30 emails in an hour."
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each PREP part with its job.",
+          "answer": "Point → your answer | Reason → why you think so | Example → a short real case | Point (again) → your answer, repeated",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Point",
+                "your answer"
+              ],
+              [
+                "Reason",
+                "why you think so"
+              ],
+              [
+                "Example",
+                "a short real case"
+              ],
+              [
+                "Point (again)",
+                "your answer, repeated"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I believe training is important.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "believe",
+              "training",
+              "is",
+              "important.",
+              "never",
+              "useless"
+            ],
+            "accepted": [
+              "I believe training is important."
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "For example, I learned a new tool.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "For",
+              "example,",
+              "I",
+              "learned",
+              "a",
+              "new",
+              "tool.",
+              "never",
+              "forgot"
+            ],
+            "accepted": [
+              "For example, I learned a new tool."
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: PREP starts with your ___.",
+          "answer": "point",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "point",
+              "answer"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: PREP gives your answer first.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A PREP answer ends with a new topic.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-prep-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the example?",
+          "answer": "The team helped finish a report in a day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The team helped finish a report in a day",
+              "It gives quick feedback",
+              "I prefer a team",
+              "I work best with others"
+            ],
+            "accepted": [
+              "The team helped finish a report in a day"
+            ],
+            "audioText": "I prefer working in a team. It gives me quick feedback. For example, last month my team helped me finish a report in a day. So I work best with others."
+          }
+        },
+        {
+          "id": "bz-prep-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Answer this question with PREP in four sentences: “Do you prefer working alone or in a team?”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-star",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Interview answers with STAR",
+      "objectiveId": "BZ-F-06",
+      "trackId": "business",
+      "unitId": "interviews",
+      "tip": "For “Tell me about a time…” questions, use STAR: Situation (the background), Task (your job), Action (what you did) and Result (what happened). Say “I,” not “we,” for your own actions. End with a clear, positive result, and add a number if you can.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-star-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the S in STAR stand for?",
+          "answer": "Situation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Situation",
+              "Speech",
+              "Skill",
+              "Salary"
+            ],
+            "accepted": [
+              "Situation"
+            ]
+          }
+        },
+        {
+          "id": "bz-star-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the A in STAR stand for?",
+          "answer": "Action",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Action",
+              "Answer",
+              "Argument",
+              "Audience"
+            ],
+            "accepted": [
+              "Action"
+            ]
+          }
+        },
+        {
+          "id": "bz-star-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Result?",
+          "answer": "As a result, sales rose by 15 percent.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "As a result, sales rose by 15 percent.",
+              "Our shop was very busy.",
+              "My job was to lead the team.",
+              "I called every client."
+            ],
+            "accepted": [
+              "As a result, sales rose by 15 percent."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Task?",
+          "answer": "My job was to fix the schedule before Friday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My job was to fix the schedule before Friday.",
+              "The schedule was a mess.",
+              "I called everyone.",
+              "The team finished on time."
+            ],
+            "accepted": [
+              "My job was to fix the schedule before Friday."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Action?",
+          "answer": "I called each customer and offered a new date.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I called each customer and offered a new date.",
+              "We were busy.",
+              "My job was to help.",
+              "Customers were happy."
+            ],
+            "accepted": [
+              "I called each customer and offered a new date."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the Situation?",
+          "answer": "Last spring, our shop had too many late orders.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Last spring, our shop had too many late orders.",
+              "I fixed the system.",
+              "Orders arrived on time.",
+              "I was responsible for orders."
+            ],
+            "accepted": [
+              "Last spring, our shop had too many late orders."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the STAR answer in order.",
+          "answer": "Last spring, our shop had many late orders. | My task was to cut delays. | I made a new schedule and trained the team. | Late orders dropped by half.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Last spring, our shop had many late orders.",
+              "My task was to cut delays.",
+              "I made a new schedule and trained the team.",
+              "Late orders dropped by half."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each STAR part with its question.",
+          "answer": "Situation → What was the background? | Task → What was your job? | Action → What did you do? | Result → What happened?",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Situation",
+                "What was the background?"
+              ],
+              [
+                "Task",
+                "What was your job?"
+              ],
+              [
+                "Action",
+                "What did you do?"
+              ],
+              [
+                "Result",
+                "What happened?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-star-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I trained the new team.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "trained",
+              "the",
+              "new",
+              "team.",
+              "never",
+              "forgot"
+            ],
+            "accepted": [
+              "I trained the new team."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Late orders dropped by half.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Late",
+              "orders",
+              "dropped",
+              "by",
+              "half.",
+              "never",
+              "rose"
+            ],
+            "accepted": [
+              "Late orders dropped by half."
+            ]
+          }
+        },
+        {
+          "id": "bz-star-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: In STAR, the R is for ___.",
+          "answer": "result",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "result"
+            ]
+          }
+        },
+        {
+          "id": "bz-star-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Use “I” for your own actions in a STAR answer.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-star-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A STAR answer should end without a result.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-star-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What was the result?",
+          "answer": "The page loaded twice as fast",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The page loaded twice as fast",
+              "The website was slow",
+              "The speaker’s job was to find the cause",
+              "The speaker tested pages"
+            ],
+            "accepted": [
+              "The page loaded twice as fast"
+            ],
+            "audioText": "Tell me about a time you solved a problem. Last year our website was slow. My job was to find the cause. I tested each page and found a large image. I made it smaller, and the page loaded twice as fast."
+          }
+        },
+        {
+          "id": "bz-star-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a STAR answer about a time you solved a problem at work, at school or at home.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-plain",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Plain language",
+      "objectiveId": "BZ-F-07",
+      "trackId": "business",
+      "unitId": "interviews",
+      "tip": "Plain language means writing so your reader understands at the first reading. Use short sentences, everyday words, active verbs and “you.” Replace “utilize” with “use” and “commence” with “start.” Cut extra words.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-plain-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the plainest version?",
+          "answer": "Please send the form by Friday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Please send the form by Friday.",
+              "It is requested that the aforementioned form be submitted by Friday.",
+              "Submission of the form is required prior to Friday.",
+              "The form should be sent forthwith by Friday."
+            ],
+            "accepted": [
+              "Please send the form by Friday."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the plain word for “commence”?",
+          "answer": "start",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "start",
+              "commencement",
+              "initiate",
+              "inaugurate"
+            ],
+            "accepted": [
+              "start"
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses the active voice?",
+          "answer": "The team finished the report.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The team finished the report.",
+              "The report was finished by the team.",
+              "The report has been finished.",
+              "Finishing of the report was done."
+            ],
+            "accepted": [
+              "The team finished the report."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is shorter and clearer?",
+          "answer": "We will meet on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We will meet on Monday.",
+              "We will be having a meeting that is scheduled to take place on Monday.",
+              "A meeting will be held on Monday by us.",
+              "Monday is when it is planned that we meet."
+            ],
+            "accepted": [
+              "We will meet on Monday."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word makes writing more direct?",
+          "answer": "you",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "you",
+              "one",
+              "the undersigned",
+              "said party"
+            ],
+            "accepted": [
+              "you"
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each complex word with a plain word.",
+          "answer": "utilize → use | commence → start | assist → help | purchase → buy",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "utilize",
+                "use"
+              ],
+              [
+                "commence",
+                "start"
+              ],
+              [
+                "assist",
+                "help"
+              ],
+              [
+                "purchase",
+                "buy"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the plain sentence in order.",
+          "answer": "Please | send | me | the | file.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Please",
+              "send",
+              "me",
+              "the",
+              "file."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Please send the file today.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Please",
+              "send",
+              "the",
+              "file",
+              "today.",
+              "never",
+              "forthwith"
+            ],
+            "accepted": [
+              "Please send the file today."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We will start on Monday.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "will",
+              "start",
+              "on",
+              "Monday.",
+              "never",
+              "commence"
+            ],
+            "accepted": [
+              "We will start on Monday."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Plain language uses short ___.",
+          "answer": "sentences",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "sentences",
+              "words"
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Plain language is easier to read the first time.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Long, complicated words show you are professional.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our team will utilize a new system to commence the process of invoicing next month. Which sentence says the same thing in plain language?",
+          "answer": "Our team will use a new system to start invoicing next month.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Our team will use a new system to start invoicing next month.",
+              "Our team will utilize the system.",
+              "Next month the process will be commenced.",
+              "A system, a team and invoicing exist."
+            ],
+            "accepted": [
+              "Our team will use a new system to start invoicing next month."
+            ]
+          }
+        },
+        {
+          "id": "bz-plain-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Rewrite this sentence in plain language: “Please be advised that the meeting has been rescheduled to commence at 3 p.m.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-sbi",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Feedback with SBI",
+      "objectiveId": "BZ-F-08",
+      "trackId": "business",
+      "unitId": "interviews",
+      "tip": "SBI keeps feedback clear and fair: Situation (when and where), Behavior (what you saw or heard, not what you think about the person) and Impact (the effect). “In Tuesday’s meeting, you interrupted Ana twice, and she stopped sharing ideas.” Then ask for their view.",
+      "sources": [
+        "Plain Language Action and Information Network, plainlanguage.gov (US government, public domain): plain language guidance",
+        "BLUF, PREP, STAR and SBI as commonly taught workplace frameworks (concepts only; all examples written for this app)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-sbi-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does SBI stand for?",
+          "answer": "Situation, Behavior, Impact",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Situation, Behavior, Impact",
+              "Speech, Body, Idea",
+              "Start, Build, Improve",
+              "Skill, Boss, Idea"
+            ],
+            "accepted": [
+              "Situation, Behavior, Impact"
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence describes behavior (not a judgment)?",
+          "answer": "You arrived at 9:20 for the 9:00 meeting.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You arrived at 9:20 for the 9:00 meeting.",
+              "You are lazy.",
+              "You never care.",
+              "You are a bad worker."
+            ],
+            "accepted": [
+              "You arrived at 9:20 for the 9:00 meeting."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence describes the impact?",
+          "answer": "The team had to start without you, and the plan was late.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The team had to start without you, and the plan was late.",
+              "You were late.",
+              "You are rude.",
+              "You wore a blue shirt."
+            ],
+            "accepted": [
+              "The team had to start without you, and the plan was late."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase describes the situation?",
+          "answer": "In yesterday’s client call,",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In yesterday’s client call,",
+              "You are always like this.",
+              "Everyone hates it.",
+              "Obviously,"
+            ],
+            "accepted": [
+              "In yesterday’s client call,"
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which feedback is best?",
+          "answer": "In today’s meeting, you spoke over Ana twice, and she stopped sharing her ideas.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In today’s meeting, you spoke over Ana twice, and she stopped sharing her ideas.",
+              "You are rude.",
+              "Ana doesn’t like you.",
+              "You always ruin meetings."
+            ],
+            "accepted": [
+              "In today’s meeting, you spoke over Ana twice, and she stopped sharing her ideas."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the SBI feedback in order.",
+          "answer": "In yesterday’s call, | you sent the file without checking the numbers, | and the client found three mistakes.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "In yesterday’s call,",
+              "you sent the file without checking the numbers,",
+              "and the client found three mistakes."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each SBI part with an example.",
+          "answer": "Situation → In Tuesday’s meeting, | Behavior → you interrupted Ana twice, | Impact → and she stopped sharing ideas.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Situation",
+                "In Tuesday’s meeting,"
+              ],
+              [
+                "Behavior",
+                "you interrupted Ana twice,"
+              ],
+              [
+                "Impact",
+                "and she stopped sharing ideas."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I noticed the report was late.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "noticed",
+              "the",
+              "report",
+              "was",
+              "late.",
+              "never",
+              "you"
+            ],
+            "accepted": [
+              "I noticed the report was late."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "In today’s meeting, you spoke over Ana.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "In",
+              "today’s",
+              "meeting,",
+              "you",
+              "spoke",
+              "over",
+              "Ana.",
+              "never",
+              "yesterday"
+            ],
+            "accepted": [
+              "In today’s meeting, you spoke over Ana."
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: SBI describes behavior, not ___.",
+          "answer": "character",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "character",
+              "personality"
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Good feedback describes what you saw or heard.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Feedback should call the person names.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-sbi-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which part is the impact?",
+          "answer": "The speaker lost her place",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The speaker lost her place",
+              "You checked your phone",
+              "This morning’s meeting",
+              "Can you tell me what happened"
+            ],
+            "accepted": [
+              "The speaker lost her place"
+            ],
+            "audioText": "In this morning’s meeting, you checked your phone during the presentation, and the speaker lost her place. Can you tell me what happened?"
+          }
+        },
+        {
+          "id": "bz-sbi-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one piece of SBI feedback for a colleague who did something helpful. Use all three parts.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

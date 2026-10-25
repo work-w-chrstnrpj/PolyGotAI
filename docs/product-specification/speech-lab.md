@@ -48,6 +48,12 @@ The first group already exists on the Speech Lab screen. The second group is bui
 - **Warm-ups:** breathing, humming and lip trills as short guided cards (text plus timer).
 - **Practice passages:** short American English passages to read aloud, graded by level.
 
+## AI evaluation (Phase 6, owner direction 2026-10-25)
+
+With the learner's Alibaba/Qwen key, every speaking activity gets AI feedback: **Pronunciation** (sounds, words, stress), **Speaking** (free talk), **Interview**, **Conversation** and **Communication**. **Dictation** is checked by the app and needs no AI. The learner taps one "AI feedback" button; the recording and transcript are sent only then, after a cost and privacy line. The result is labelled as AI feedback, not a score or a certificate. Without a key the button is hidden and the on-device "We heard" and pace tools keep working. Pronunciation feedback from a transcript alone is weak, so it depends on a Qwen model that accepts audio (to be confirmed in the research gate).
+
+**Home after the merge:** Dictation · Pronunciation (Phonetics and Articulation together) · Speaking (the former Voice) · Interview · Conversation · Communication.
+
 ## Records and progress
 
 Each attempt saves the area, item, result (accuracy, wpm or pauses) and an optional recording. Progress shows trends per area. Recordings follow the existing local retention and deletion rules.

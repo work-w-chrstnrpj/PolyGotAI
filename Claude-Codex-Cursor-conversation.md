@@ -82,6 +82,8 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 | ID | From → To | Goal | Opened | Next step |
 | --- | --- | --- | --- | --- |
 | LOG-0012 | Claude → Codex | Phase 2 screens: Course \| Coaches, coach grid, locked level picker, jump-test screen | 2026-10-25 | **Awaiting Claude review (LOG-0017).** Implementation handed back; full verification incomplete; see evidence and LOG-0016 |
+| LOG-0022 | Claude → Codex | Phase 5: Speech Lab sound and voice modes (whole phase) | 2026-10-25 | Read [phase-5/codex-handoff.md](docs/development-plan/phases/phase-5/codex-handoff.md) and start |
+| LOG-0023 | Claude → OpenCode | Read-only proofreading reports | 2026-10-25 | Read [opencode-handoff.md](docs/development-plan/opencode-handoff.md); first job: proofread Grammarian track and Lexicon bank |
 
 ## Closed handoffs
 
@@ -300,3 +302,98 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Summary:** At the owner's request, committed Phases 2 and 3 (commit `8d1f38c`) and pushed to https://github.com/work-w-chrstnrpj/PolyGotAI (`main`). 41 files. The repo is public; no secrets, learner data or build output were included.
 **Not verified:** three older UI tests still fail (Communication draft recovery, the lesson-flow `lesson.next` test, the Review options contrast audit); a baseline run on the previous commit is in progress to see if they already failed. No device or iPad run. Neither phase has owner approval.
 **For others:** commit and push only when the owner asks.
+
+### LOG-0020 · 2026-10-25 18:30 · Claude · NOTE
+**Phase:** 2 and 3 · **Status:** DONE
+**Summary:** Triage of the three failing older UI tests. Run on the commit before Phase 2: `testCommunicationDraftSharesExactSourceAcrossLearnAndSpeechLab` and `testReviewOptionsPersistAndLimitOneSession` (contrast audit) **already failed there**, so they are not regressions from Phases 2 and 3. `testConnectedLessonDraftResumeQuietCompletionAndVocabularyReview` passes on the current code (118 s); its earlier failure was two runs sharing one simulator.
+**For others:** never run two xcodebuild test sessions on the same simulator; it produces false failures. The two older failures need a fix or removal (Codex lane). Docs change not committed.
+
+### LOG-0021 · 2026-10-25 19:00 · Owner (recorded by Claude) · DECISION
+**Phase:** 4 and 5 · **Status:** DONE
+**Summary:** The owner set the next lanes. **Claude writes all coach lessons (Phase 4), including the 9 remaining coaches and the A2–C2 conversion.** **Codex builds the whole of Phase 5** (Speech Lab sound and voice modes: domain, content data and screens). **OpenCode (free tier)** does minor read-only proofreading and writes reports only under `docs/reviews/`.
+**Files:** `AGENTS.md`, `docs/development-plan/development-plan.md`, `docs/development-plan/progress.md`, new `phases/phase-5/README.md`, `phases/phase-5/codex-handoff.md`, `docs/development-plan/opencode-handoff.md`.
+**For others:** Phase 4 and Phase 5 touch separate files (see the Phase 5 brief). `AppShell.swift`: Codex edits only `SpeechLabContent` and `case .speechLab:`. `tools/curriculum/validate.py` stays Claude's; Codex uses its own `validate_speechlab.py`.
+
+### LOG-0022 · 2026-10-25 19:02 · Claude · HANDOFF
+**Phase:** 5 · **Status:** READY to start
+**Summary:** Handoff to Codex for Phase 5: [codex-handoff.md](docs/development-plan/phases/phase-5/codex-handoff.md). Order: Dictation, Phonetics, Articulation, Voice.
+**For others:** no Phase 5 code exists yet. Codex reports with a `HANDOFF-REPLY`.
+
+### LOG-0023 · 2026-10-25 19:03 · Claude · HANDOFF
+**Phase:** — · **Status:** READY to start
+**Summary:** Handoff to OpenCode: [opencode-handoff.md](docs/development-plan/opencode-handoff.md). Job 1: proofread `Resources/Tracks/track-grammarian.json` and the three `Resources/Lexicon/lexicon-*.json` files; report only, under `docs/reviews/`. Job 2 (docs sweep) after Job 1.
+**For others:** OpenCode edits no product files and commits nothing.
+
+### LOG-0024 · 2026-10-25 18:24 · Codex · CHANGE
+**Phase:** 5 · **Status:** Dictation implemented and focused-verified; next Phonetics
+**Summary:** Added 44 original dictation items (6 per A1–C2 plus numbers/dates/names/spelling), replay/slow controls, word diff with strict setting, missed practice and per-area history/trend/deletion. Added one optional `speechLab` learner-document field, including CodingKeys/decode/encode, with focused reopen and rollback tests; SwiftData schema unchanged.
+**Files:** `Domain/SpeechLab.swift`, `Infrastructure/Speech/SpeechLabCatalog.swift`, `Features/SpeechLab/SpeechLabShared.swift`, `SpeechLabDictationView.swift`, `Resources/SpeechLab/speechlab-dictation.json`, `LearnerRepository.swift` (Speech Lab region), `AppShell.swift` (SpeechLabContent only), `tools/curriculum/validate_speechlab.py`, `SpeechLabDictationTests.swift`, `SpeechLabUITests.swift`.
+**Verification:** validator passed; 5 Dictation unit tests passed; full dictation UI error → relaunch → Practice missed → correct → history passed on Codex iPhone 18 Pro. Result bundles `application/.build/p5-dictation-unit.xcresult` and `p5-dictation-ui.xcresult`. No live microphone or provider used. Full phase verification follows after all four modes.
+
+### LOG-0025 · 2026-10-25 18:31 · Codex · CHANGE
+**Phase:** 5 · **Status:** Phonetics implemented and focused-verified; next Articulation
+**Summary:** Added 43 General American IPA chart entries (3 examples/tip each; paired consonants), reusable listen-and-choose lessons, six stress/intonation items, IPA-aware synthesis, and an offline recorded-file recognizer with word timings. Say-it uses the existing RecordingController and private retention/deletion path. A debug-only isolated fixture supports UI execution; no fixture output is live speech evidence. Added the single honesty line in the Speech Lab info sheet.
+**Files:** `Domain/SpeechLabSpeech.swift`, `Infrastructure/Speech/SpeechLabRecognizer.swift`, `SpeechLabCapture.swift`, `SpeechSynthesizer.swift`, catalog extension, new `Features/SpeechLab/SpeechLabCaptureView.swift`, `SpeechLabPhoneticsView.swift`, phonetics/prosody JSON, Speech Lab validator and tests; `AppShell.swift` SpeechLabContent only. Lifecycle retry refinements will be included in the next build.
+**Verification:** 3 phonetics unit tests and the chart → listening → fixture recording/save → stress UI test passed on the iPhone 18 Pro (`application/.build/p5-phonetics.xcresult`); validator passed. Actual IPA audio quality, permissions and recognition need owner-device checks. No provider calls.
+
+### LOG-0024 · 2026-10-25 20:00 · Owner (recorded by Claude) · DECISION
+**Phase:** 5b and 6 · **Status:** DONE (docs only)
+**Summary:** Interview will become a hands-free voice conversation. Online voice uses **Qwen TTS and STT through the learner's own API key**. Plan: a new offline Interview v2 after Phase 5, then the Qwen online conversation in Phase 6. Open decision 9 lists what must be confirmed first (service, endpoints, pricing, retention).
+**For others:** no code yet. Provider calls stay disabled until the owner approves live calls.
+
+### LOG-0026 · 2026-10-25 18:34 · Codex · CHANGE
+**Phase:** 5 · **Status:** Articulation implemented and focused-verified; next Voice
+**Summary:** Added 22 minimal pairs, 6 endings, 6 clusters/linking and 12 original graded tongue twisters; model/slow playback → auto-checked listening → record/replay/We heard/save/retry. Say-it retains no recognized transcript in the learner document; recording retention is explicit and uses the existing lifecycle. Fixed shared capture retry after a finished native take.
+**Files:** `Domain/SpeechLabSpeech.swift`, `Features/SpeechLab/SpeechLabArticulationView.swift`, `Infrastructure/Speech/SpeechLabCapture.swift`, catalog extension, `Resources/SpeechLab/speechlab-articulation.json`, validator, SpeechLabArticulationTests and SpeechLabUITests; `AppShell.swift` SpeechLabContent only.
+**Verification:** validator, 3 articulation unit tests and listen → fixture record → replay → save → retry/save UI loop passed on the iPhone 18 Pro (`application/.build/p5-articulation.xcresult`). Voice and full-phase verification follow; real-device audio and recognition remain unverified.
+
+### LOG-0027 · 2026-10-25 18:38 · Codex · CHANGE
+**Phase:** 5 · **Status:** Voice implemented and focused-verified; cross-mode verification next
+**Summary:** Added 8 original A1–C2 passages, free talk, 30–60-second recording with live level hints, timing-based WPM/pauses/fillers, explicit audio retention, and 3 timed warm-ups. Extended on-device live dictation with segment timings; recorded recognition remains offline-only. Results/history expose readable titles with optional replay/deletion and no stored recognized text. Cross-mode epoch/retention and accessibility checks follow.
+**Files:** `Domain/SpeechLabVoice.swift`, `Features/SpeechLab/SpeechLabVoiceView.swift`, shared Speech Lab capture/history/catalog, `Infrastructure/Speech/DictationRecognizer.swift`, voice/warmup JSON, validator and SpeechLabVoiceTests/UI tests; `AppShell.swift` SpeechLabContent only.
+**Verification:** 5 Voice unit tests and fixture recording → metrics → save → warm-up UI flow passed (`application/.build/p5-voice.xcresult`); validator passed. Actual microphone levels, pronunciation/intonation audio and recognition need device testing. Full verification still pending.
+**Log note:** a concurrent owner decision also used LOG-0024; prior entries are preserved. This entry uses the next unused number and the final reply will cite the Phase 5 entries by their titles as well as numbers. The new Interview/Qwen direction is a later phase; no provider code or calls are added here.
+
+### LOG-0028 · 2026-10-25 20:30 · Owner (recorded by Claude) · DECISION
+**Phase:** 5, 5b, 6 · **Status:** DONE (docs only)
+**Summary:** All Lab speaking activities except Dictation will get AI feedback through the learner's Alibaba/Qwen key (free-tier models). Lab home becomes Dictation, Pronunciation (Phonetics + Articulation merged), Speaking (Voice renamed), Interview, Conversation, Communication. Phase 6 is split into 6a AI foundation, 6b AI evaluation across the Lab, 6c voice Interview, 6d coach review and Specialized Lexicon. A research gate on Qwen free-tier models and audio-input capability comes before 6a.
+**Files:** `development-plan.md`, `progress.md`, `speech-lab.md`, `history-version.md`.
+**For others (Codex):** Phase 5 code stays on-device; **no provider code or calls**. After cross-mode verification, merge Phonetics and Articulation into one Pronunciation entry on the Lab home and rename Voice to Speaking (labels and identifiers; keep content and tests working).
+
+### LOG-0029 · 2026-10-25 21:00 · Claude · CHANGE
+**Phase:** 4 · **Status:** PARTIAL (4 of 9 new coaches written; 5 to go)
+**Summary:** Wrote Phase 4 batches 1 and 2: **Reading & Listening** (Starter), **Journalist**, **Debater & Argument** and **Persuasion & Negotiation** (Foundation), each 2 units × 4 lessons (about 108 activities each: choice, true/false, word bank, fill-in, order, match, listen-and-write and passage or audio questions, then an open "Your turn"). Applied OpenCode's proofread to the Grammarian and Lexicon (ambiguous items, wrong-usage sentences that were really correct, typography, wording).
+**Files:**
+- `tools/curriculum/track_lib.py` (shared builder), `build_reading_listening.py`, `build_journalist.py`, `build_debater.py`, `build_negotiator.py`; `build_grammarian.py` and `build_lexicon.py` updated; `validate.py` (listening kind rule)
+- `Resources/Tracks/track-{reading-listening,journalist,debater,negotiator}.json`, regenerated `track-grammarian.json` and `lexicon-*.json`, `Resources/Rewards/AwardCatalog.json` (XP targets for the 32 new lessons)
+- `Domain/TrackCatalog.swift` (negotiator icon: the `handshake` symbol did not render)
+- `SpeechCoachAITests/TrackContentTests.swift` (new: every track lesson loads, every checked item accepts its model answer), `LevelGateTests.swift`
+**Verification:** `validate.py` OK (40 track lessons, 703 typed exercises). 354 unit tests passed in an isolated copy of the last commit with these content files (the main tree does not build while Phase 5 files are mid-edit). Walked Lesson → Coaches → Reading & Listening → first lesson on the simulator: grid, stage, units and the passage question render correctly.
+**Not verified:** unit tests not run in the main tree; no UI test run for the new coaches; no device. Tone and wording of the four new coaches not yet proofread by OpenCode.
+**For others:** (1) A track lesson must use activity kind `grammar` for audio items: kind `listening` needs a recorded clip and makes the whole lesson unavailable. (2) Typed answers ignore punctuation, so never ask the learner to fix punctuation in a typed field; use choice. (3) Coach lesson intros still show the Teacher, a "Communication practice" chip and the generic three steps; they should show the coach's artwork and drop that chip (a Codex task for Phase 4 screens).
+**Open items:** batches 3 to 5 (Public Speaking, Creative Writing, Business, Storytelling, Copywriting) and A2–C2 conversion with the jump tests; OpenCode proofread of the four new files.
+**Docs/tracker updated:** `progress.md`.
+
+### LOG-0029 · 2026-10-25 21:00 · Owner (recorded by Claude) · DECISION
+**Phase:** 2 (revised), 4, Lexicon 2 · **Status:** DONE (docs only)
+**Summary:** (1) The level lock changes: any locked level, even C2 from A1, unlocks by passing its test; a pass opens that level and all below; perfect score for now. This replaces the one-level-at-a-time jump rule (tasks 2.7–2.9). (2) The Lexicon bank is reorganized by CEFR vocabulary level A1–C2 with a register tag per word (tasks L2.1–L2.4).
+**Files:** `product-specification.md`, `ui-ux-design.md`, `lexicon.md`, `development-plan.md` (decision 8), `progress.md`, `history-version.md`.
+**For others (Codex):** no change now; a small picker change (2.8) comes after Phase 5. Don't touch `LevelGate` or `JumpTest`; Claude changes them.
+
+### LOG-0030 · 2026-10-25 21:40 · Claude · CHANGE
+**Phase:** 4 · **Status:** PARTIAL (7 of 10 coaches written)
+**Summary:** Phase 4 batch 3: **Public Speaking & Rhetoric** and **Business & Professional** (Foundation stage, 2 units × 4 lessons each; 115 and 116 activities). Public Speaking covers openings and closings, signposts, tricolon and anaphora, antithesis and rhetorical questions, pause and stress, pace/volume/pitch, body language and nerves. Business covers introductions and small talk, polite meeting phrases, clear emails, BLUF updates, PREP and STAR answers, plain language and SBI feedback. Coaches done: Grammarian, Reading & Listening, Debater, Persuasion & Negotiation, Public Speaking, Journalist, Business.
+**Files:** `tools/curriculum/build_public_speaker.py`, `build_business.py`; `Resources/Tracks/track-public-speaker.json`, `track-business.json`; `Resources/Rewards/AwardCatalog.json` (XP targets for 16 lessons); `SpeechCoachAITests/TrackContentTests.swift` (coach list); `docs/development-plan/progress.md`.
+**Verification:** `validate.py` OK (56 track lessons, 934 typed exercises). 354 unit tests passed in an isolated copy of the last commit with all seven coaches' content (the main tree still holds Codex's Phase 5 work in progress).
+**Not verified:** main-tree build and UI tests with the new coaches; OpenCode proofread of the batch 2 and 3 files; no device.
+**Log note:** this entry is LOG-0030 because the previous Claude CHANGE and an owner DECISION both used LOG-0029 (re-read the last number before appending).
+**Open items:** Creative Writing, Storytelling and Advertising & Copywriting; A2–C2 conversion with the four jump tests; coach lesson intro screen shows the Teacher (Codex, after Phase 5).
+
+### LOG-0031 · 2026-10-25 22:30 · Claude · CHANGE
+**Phase:** 4 · **Status:** PARTIAL (all 10 coaches written; A2–C2 conversion not started)
+**Summary:** Phase 4 batch 4, the last three coaches: **Creative Writing** (character, setting and mood, senses, show-don't-tell, dialogue, point of view, plot shape, beginnings and endings), **Storytelling** (small moments, arc and stakes, specific detail, hook and landing, voice and pauses, people's voices, reading listeners, trimming) and **Advertising & Copywriting** (features and benefits, one big idea, headlines, honest claims, AIDA, calls to action, tone, editing). Each is Foundation stage, 2 units × 4 lessons (about 115 activities). All 10 coaches now have their first delivery: 80 track lessons.
+**Files:** `tools/curriculum/build_creative_writer.py`, `build_storyteller.py`, `build_copywriter.py`; `Resources/Tracks/track-{creative-writer,storyteller,copywriter}.json`; `Resources/Rewards/AwardCatalog.json` (XP targets for 24 lessons); `SpeechCoachAITests/TrackContentTests.swift` (now expects all ten coaches in `TrackCoach` order); `progress.md`.
+**Verification:** `validate.py` OK (80 track lessons, 1,276 typed exercises). 354 unit tests passed in an isolated copy of the last commit with all ten coaches' content (the main tree still holds Codex's Phase 5 work).
+**Not verified:** main-tree build and UI tests; OpenCode proofread of batches 2–4 (12 files' worth: Reading & Listening, Journalist, Debater, Negotiator, Public Speaker, Business, Creative Writer, Storyteller, Copywriter); no device; five coaches show a placeholder icon until artwork exists.
+**For others:** coach lesson intro screens still show the Teacher and a "Communication practice" chip (Codex, after Phase 5). `LevelGate` and `JumpTest` still follow the old one-level rule; the owner's change (LOG-0029, tasks 2.7 and 2.9) is Claude's next code task.
+**Open items:** A2–C2 conversion with jump tests; level-lock change; Lexicon 2 (CEFR vocabulary); proofreading.

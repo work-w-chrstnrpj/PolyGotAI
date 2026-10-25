@@ -57,7 +57,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
         case .grammarian: "text.book.closed"
         case .readingListening: "book"
         case .debater: "scale.3d"
-        case .negotiator: "handshake"
+        case .negotiator: "arrow.left.arrow.right"
         case .publicSpeaker: "mic"
         case .journalist: "newspaper"
         case .creativeWriter: "pencil.and.scribble"

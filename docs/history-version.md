@@ -79,6 +79,21 @@ An owner review on 2026-10-25, together with Claude's audit, found:
 
 - **Levels are locked in order.** The learner cannot jump from A1 to C2. To skip a level they take that next level's test (A1 → A2, then A2 → B1, and so on) and must score perfectly. This reverses the v1 rule "any level is freely selectable, nothing is locked". Lessons inside a level stay open in any order. Lands in Phase 2 (A1 → A2 test) and Phase 4 (later tests). Spec: [Course rules](product-specification/product-specification.md#course-cefr-a1c2). Details to confirm: [open decision 8](development-plan/development-plan.md#open-decisions).
 
+### Direction addition — 2026-10-25 (voice Interview and Qwen)
+
+- **Interview becomes a hands-free voice conversation**, in the style of ChatGPT voice: the coach speaks, the learner answers aloud, a short silence ends the turn, the coach follows up.
+- **Voice services: Qwen text-to-speech and speech-to-text, called with the learner's own API key (BYOK)**, stored in Keychain. This extends the existing BYOK rule: audio and text leave the device **only when the learner starts an online session**, and the cost and privacy disclosure shows first. On-device speech stays the offline fallback.
+- Two steps: (1) offline Interview v2 with on-device voice and fixed follow-ups; (2) Phase 6 online conversation with Qwen speech and a language model for follow-ups. Details to confirm are in [open decision 9](development-plan/development-plan.md#open-decisions).
+
+### Direction addition — 2026-10-25 (AI evaluation of the Lab)
+
+- Every Lab speaking activity except Dictation gets AI feedback through the learner's Alibaba/Qwen key (free-tier models). Phonetics, Articulation and pronunciation drills merge into **Pronunciation**; Voice becomes **Speaking**. The earlier "no pronunciation score, on-device only" Lab rule stays for the offline base; AI feedback is labelled as AI feedback. Phase 6 is split into 6a–6d. See [speech-lab.md](product-specification/speech-lab.md#ai-evaluation-phase-6-owner-direction-2026-10-25).
+
+### Direction addition — 2026-10-25 (test to any level; CEFR vocabulary)
+
+- **The level lock changes again:** a learner can unlock **any** level, even C2 from A1, by passing that level's test. A pass opens that level and every level below it. This replaces "one level at a time". Finishing a level's lessons still opens the next level. Pass mark stays a perfect score until the owner decides otherwise.
+- **Lexicon vocabulary follows CEFR vocabulary levels** (A1–C2 groups, with a register tag on each word). See [lexicon.md](product-specification/lexicon.md#cefr-vocabulary-levels-and-register-owner-direction-2026-10-25).
+
 ### Team
 
 - **Claude** is senior engineer and reviewer: plans phases, writes core domain logic and content, reviews and verifies all work, and maintains the docs.

@@ -88,6 +88,8 @@ def check_lesson(lesson: dict, where: str, errors: list, track_id: str | None = 
         if aid in seen:
             errors.append(f"{where}: {lid}: duplicate activity id {aid}")
         seen.add(aid)
+        if act.get("kind") == "listening" and not act.get("assetId"):
+            errors.append(f"{where}: {lid}/{aid}: kind listening needs a recorded clip (assetId); use kind grammar with audioText")
         ex = act.get("exercise")
         if ex is not None:
             problem = exercise_problem(ex, bool(act.get("assetId")))

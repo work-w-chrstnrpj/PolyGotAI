@@ -46,11 +46,11 @@ def O(prompt, items):
 
 
 def M(prompt, pairs):
-    return {"prompt": prompt, "answer": "; ".join(f"{a} = {b}" for a, b in pairs), "exercise": {"type": "match", "pairs": pairs}}
+    return {"prompt": prompt, "answer": " | ".join(f"{a} → {b}" for a, b in pairs), "exercise": {"type": "match", "pairs": pairs}}
 
 
 def E(sentence, fixed):
-    return {"prompt": f"Find the mistake, then write the sentence correctly. {sentence}", "answer": fixed,
+    return {"prompt": f"Find the mistake, then write the sentence correctly. “{sentence}”", "answer": fixed,
             "exercise": {"type": "spotError", "options": sentence.split(), "accepted": [fixed]}}
 
 
@@ -82,7 +82,7 @@ LESSONS = [
          M("Match each verb with its meaning.", [["run", "move fast on foot"], ["sleep", "rest at night"], ["eat", "take in food"]]),
          E("Play children in the park.", "Children play in the park."),
          L("The baby sleeps."),
-         C("Which sentence starts correctly?", "She sings.", "she sings.", "She sings", "Sings she."),
+         C("Which sentence is written correctly?", "She sings.", "she sings.", "She sings", "Sings she."),
          TF("True or false: A sentence needs a subject and a verb.", "True"),
          YOUR("Write three short sentences about your day. Each needs a subject and a verb."),
      ]),
@@ -124,7 +124,7 @@ LESSONS = [
      "Join ideas with a small word. Use “and” to add, “but” to show a difference, and “or” to give a choice: “I like tea and coffee.” “I like tea, but I don't like coffee.” “Do you want tea or coffee?”",
      [
          C("You want to add two things: I have a pen ___ a notebook.", "and", "but", "or", "not"),
-         C("You want to show a difference: I am small, ___ my brother is tall.", "but", "and", "or", "so"),
+         C("You want to show a difference: I am small, ___ my brother is tall.", "but", "or", "so", "because"),
          C("You offer a choice: Would you like tea ___ coffee?", "or", "and", "but", "so"),
          W("Build the sentence.", "I like tea and coffee.", "but", "or"),
          W("Build the sentence.", "She is tired, but she is happy.", "and", "or"),
@@ -134,7 +134,7 @@ LESSONS = [
          L("I like apples and oranges."),
          C("Which sentence is correct?", "Tom has a dog and a cat.", "Tom has a dog a cat and.", "Tom and has a dog a cat.", "Tom has and a dog cat."),
          TF("True or false: We use “or” to give a choice.", "True"),
-         YOUR("Write three sentences about yourself. Use and, but and or once each."),
+         YOUR("Write three sentences about yourself. Use “and”, “but”, and “or” once each."),
      ]),
     # ---------- Unit 2: Be, have and do ----------
     ("gram-be-amisare", "be-have-do", "Am, is, are", "GRAM-B-01",
@@ -166,14 +166,14 @@ LESSONS = [
          F("Type the missing word: Tom ___ a bike.", "has"),
          F("Type the missing word: You ___ my book.", "have"),
          O("Put the words in order.", ["The", "teacher", "has", "a", "pen."]),
-         M("Match each thing with what it has.", [["A bike", "has two wheels"], ["A hand", "has five fingers"], ["A week", "has seven days"]]),
+         M("Match each thing with what it has.", [["A bike", "two wheels"], ["A hand", "five fingers"], ["A week", "seven days"]]),
          E("She have a blue pen.", "She has a blue pen."),
          L("He has a small house."),
          TF("True or false: We say “He have a car.”", "False"),
          YOUR("Write four sentences about what you and your family have. Use have and has."),
      ]),
     ("gram-be-do", "be-have-do", "Do and does in questions", "GRAM-B-03",
-     "To ask a yes/no question, start with “Do” or “Does.” Use “Does” with he, she and it: “Does she like tea?” Use “Do” with I, you, we and they: “Do you like tea?” After Do or Does, the main verb stays simple: like, not likes.",
+     "To ask a yes/no question, start with “Do” or “Does.” Use “Does” with he, she and it: “Does she like tea?” Use “Do” with I, you, we and they: “Do you like tea?” After Do or Does, the main verb stays in its base form: like, not likes.",
      [
          C("___ you like music?", "Do", "Does", "Are", "Is"),
          C("___ she play tennis?", "Does", "Do", "Is", "Are"),
@@ -190,7 +190,7 @@ LESSONS = [
          YOUR("Write four questions for a new friend. Start two with Do and two with Does."),
      ]),
     ("gram-be-dont", "be-have-do", "Don't and doesn't", "GRAM-B-04",
-     "To say no, use “do not” (don't) or “does not” (doesn't) before the simple verb: “I don't like rain.” “He doesn't like rain.” Use doesn't with he, she and it.",
+     "To say no, use “do not” (don't) or “does not” (doesn't) before the verb in its base form: “I don't like rain.” “He doesn't like rain.” Use doesn't with he, she and it.",
      [
          C("I ___ like fish.", "don't", "doesn't", "isn't", "not"),
          C("She ___ drink coffee.", "doesn't", "don't", "isn't", "not"),
@@ -199,7 +199,7 @@ LESSONS = [
          W("Build the sentence.", "They don't live here.", "doesn't", "lives"),
          W("Build the sentence.", "My dad doesn't cook.", "don't", "cooks"),
          F("Type the missing word: The shop ___ open on Sunday.", "doesn't", "does not"),
-         O("Put the words in order.", ["I", "don't", "watch", "TV", "today."]),
+         O("Put the words in order.", ["I", "don't", "watch", "TV", "on", "Sundays."]),
          M("Match each sentence with its negative.", [["I like tea.", "I don't like tea."], ["She likes tea.", "She doesn't like tea."], ["They like tea.", "They don't like tea."]]),
          E("She don't like milk.", "She doesn't like milk."),
          L("We don't have time."),
@@ -258,7 +258,8 @@ def register_rewards(lesson_ids: list[str]) -> int:
 if __name__ == "__main__":
     data = build()
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    from track_lib import curl
+    OUT.write_text(json.dumps(curl(data), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     touched = register_rewards([lesson["id"] for lesson in data["lessons"]])
     exercises = sum(len(lesson["activities"]) for lesson in data["lessons"])
     print(f"wrote {OUT.relative_to(ROOT)}: {len(data['lessons'])} lessons, {exercises} activities; reward lists touched: {touched}")

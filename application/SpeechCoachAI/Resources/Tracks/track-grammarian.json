@@ -4,7 +4,7 @@
   "contentVersion": "1",
   "locale": "en-US",
   "minimumSchemaVersion": 1,
-  "editorialApprovalReference": "Authored 2026-10-25 for the owner's personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
   "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. The Core Inventory and CEFR Companion Volume supply only the topic order and level; no text is copied.",
   "assets": [],
   "track": {
@@ -172,7 +172,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each verb with its meaning.",
-          "answer": "run = move fast on foot; sleep = rest at night; eat = take in food",
+          "answer": "run → move fast on foot | sleep → rest at night | eat → take in food",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -195,7 +195,7 @@
           "id": "gram-sent-subject-09",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. Play children in the park.",
+          "prompt": "Find the mistake, then write the sentence correctly. “Play children in the park.”",
           "answer": "Children play in the park.",
           "exercise": {
             "type": "spotError",
@@ -229,7 +229,7 @@
           "id": "gram-sent-subject-11",
           "kind": "grammar",
           "required": true,
-          "prompt": "Which sentence starts correctly?",
+          "prompt": "Which sentence is written correctly?",
           "answer": "She sings.",
           "exercise": {
             "type": "choice",
@@ -415,7 +415,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each verb with the thing that goes with it.",
-          "answer": "drink = water; read = a book; kick = a ball",
+          "answer": "drink → water | read → a book | kick → a ball",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -438,7 +438,7 @@
           "id": "gram-sent-object-09",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. Open I the door.",
+          "prompt": "Find the mistake, then write the sentence correctly. “Open I the door.”",
           "answer": "I open the door.",
           "exercise": {
             "type": "spotError",
@@ -523,7 +523,7 @@
       "objectiveId": "GRAM-S-03",
       "trackId": "grammarian",
       "unitId": "sentences",
-      "tip": "A command starts with the verb: “Open the door.” Add “please” to be polite: “Please open the door.” To say what not to do, start with “Don't”: “Don't run.”",
+      "tip": "A command starts with the verb: “Open the door.” Add “please” to be polite: “Please open the door.” To say what not to do, start with “Don’t”: “Don’t run.”",
       "sources": [
         "British Council-EAQUALS Core Inventory for General English (topic order and level)",
         "CEFR Companion Volume (A1 descriptors)"
@@ -595,18 +595,18 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Build the command.",
-          "answer": "Don't run.",
+          "answer": "Don’t run.",
           "exercise": {
             "type": "wordBank",
             "options": [
-              "Don't",
+              "Don’t",
               "run.",
               "Do",
               "not",
               "runs"
             ],
             "accepted": [
-              "Don't run.",
+              "Don’t run.",
               "Do not run."
             ]
           }
@@ -616,17 +616,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Which sentence tells someone NOT to do something?",
-          "answer": "Don't touch it.",
+          "answer": "Don’t touch it.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Don't touch it.",
+              "Don’t touch it.",
               "Touch it.",
               "You touch it.",
               "I touch it."
             ],
             "accepted": [
-              "Don't touch it."
+              "Don’t touch it."
             ]
           }
         },
@@ -635,11 +635,11 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Type the missing word: ___ be late.",
-          "answer": "Don't",
+          "answer": "Don’t",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "Don't",
+              "Don’t",
               "Do not"
             ]
           }
@@ -665,7 +665,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each situation with a fitting command.",
-          "answer": "Someone is at the door. = Come in, please.; The baby is asleep. = Be quiet, please.; Your friend is lost. = Follow me.",
+          "answer": "Someone is at the door. → Come in, please. | The baby is asleep. → Be quiet, please. | Your friend is lost. → Follow me.",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -688,7 +688,7 @@
           "id": "gram-sent-command-09",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. Please you sit down.",
+          "prompt": "Find the mistake, then write the sentence correctly. “Please you sit down.”",
           "answer": "Please sit down.",
           "exercise": {
             "type": "spotError",
@@ -773,7 +773,7 @@
       "objectiveId": "GRAM-S-04",
       "trackId": "grammarian",
       "unitId": "sentences",
-      "tip": "Join ideas with a small word. Use “and” to add, “but” to show a difference, and “or” to give a choice: “I like tea and coffee.” “I like tea, but I don't like coffee.” “Do you want tea or coffee?”",
+      "tip": "Join ideas with a small word. Use “and” to add, “but” to show a difference, and “or” to give a choice: “I like tea and coffee.” “I like tea, but I don’t like coffee.” “Do you want tea or coffee?”",
       "sources": [
         "British Council-EAQUALS Core Inventory for General English (topic order and level)",
         "CEFR Companion Volume (A1 descriptors)"
@@ -809,9 +809,9 @@
             "type": "choice",
             "options": [
               "but",
-              "and",
               "or",
-              "so"
+              "so",
+              "because"
             ],
             "accepted": [
               "but"
@@ -918,7 +918,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each small word with its job.",
-          "answer": "and = adds an idea; but = shows a difference; or = gives a choice",
+          "answer": "and → adds an idea | but → shows a difference | or → gives a choice",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -991,7 +991,7 @@
           "id": "gram-sent-join-12",
           "kind": "grammar",
           "required": true,
-          "prompt": "Your turn. Write three sentences about yourself. Use and, but and or once each.",
+          "prompt": "Your turn. Write three sentences about yourself. Use “and”, “but”, and “or” once each.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"
@@ -1178,7 +1178,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each pronoun with the form of be.",
-          "answer": "I = am; she = is; we = are",
+          "answer": "I → am | she → is | we → are",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -1201,7 +1201,7 @@
           "id": "gram-be-amisare-11",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. They is happy.",
+          "prompt": "Find the mistake, then write the sentence correctly. “They is happy.”",
           "answer": "They are happy.",
           "exercise": {
             "type": "spotError",
@@ -1421,21 +1421,21 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each thing with what it has.",
-          "answer": "A bike = has two wheels; A hand = has five fingers; A week = has seven days",
+          "answer": "A bike → two wheels | A hand → five fingers | A week → seven days",
           "exercise": {
             "type": "match",
             "pairs": [
               [
                 "A bike",
-                "has two wheels"
+                "two wheels"
               ],
               [
                 "A hand",
-                "has five fingers"
+                "five fingers"
               ],
               [
                 "A week",
-                "has seven days"
+                "seven days"
               ]
             ]
           }
@@ -1444,7 +1444,7 @@
           "id": "gram-be-have-11",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. She have a blue pen.",
+          "prompt": "Find the mistake, then write the sentence correctly. “She have a blue pen.”",
           "answer": "She has a blue pen.",
           "exercise": {
             "type": "spotError",
@@ -1511,7 +1511,7 @@
       "objectiveId": "GRAM-B-03",
       "trackId": "grammarian",
       "unitId": "be-have-do",
-      "tip": "To ask a yes/no question, start with “Do” or “Does.” Use “Does” with he, she and it: “Does she like tea?” Use “Do” with I, you, we and they: “Do you like tea?” After Do or Does, the main verb stays simple: like, not likes.",
+      "tip": "To ask a yes/no question, start with “Do” or “Does.” Use “Does” with he, she and it: “Does she like tea?” Use “Do” with I, you, we and they: “Do you like tea?” After Do or Does, the main verb stays in its base form: like, not likes.",
       "sources": [
         "British Council-EAQUALS Core Inventory for General English (topic order and level)",
         "CEFR Companion Volume (A1 descriptors)"
@@ -1671,7 +1671,7 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each question with a short answer.",
-          "answer": "Do you like tea? = Yes, I do.; Does she swim? = No, she doesn't.; Do they know you? = Yes, they do.",
+          "answer": "Do you like tea? → Yes, I do. | Does she swim? → No, she doesn’t. | Do they know you? → Yes, they do.",
           "exercise": {
             "type": "match",
             "pairs": [
@@ -1681,7 +1681,7 @@
               ],
               [
                 "Does she swim?",
-                "No, she doesn't."
+                "No, she doesn’t."
               ],
               [
                 "Do they know you?",
@@ -1694,7 +1694,7 @@
           "id": "gram-be-do-10",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. Does he plays the guitar?",
+          "prompt": "Find the mistake, then write the sentence correctly. “Does he plays the guitar?”",
           "answer": "Does he play the guitar?",
           "exercise": {
             "type": "spotError",
@@ -1757,11 +1757,11 @@
       "id": "gram-be-dont",
       "contentVersion": "1",
       "level": "Starter",
-      "title": "Don't and doesn't",
+      "title": "Don’t and doesn’t",
       "objectiveId": "GRAM-B-04",
       "trackId": "grammarian",
       "unitId": "be-have-do",
-      "tip": "To say no, use “do not” (don't) or “does not” (doesn't) before the simple verb: “I don't like rain.” “He doesn't like rain.” Use doesn't with he, she and it.",
+      "tip": "To say no, use “do not” (don’t) or “does not” (doesn’t) before the verb in its base form: “I don’t like rain.” “He doesn’t like rain.” Use doesn’t with he, she and it.",
       "sources": [
         "British Council-EAQUALS Core Inventory for General English (topic order and level)",
         "CEFR Companion Volume (A1 descriptors)"
@@ -1773,17 +1773,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "I ___ like fish.",
-          "answer": "don't",
+          "answer": "don’t",
           "exercise": {
             "type": "choice",
             "options": [
-              "don't",
-              "doesn't",
-              "isn't",
+              "don’t",
+              "doesn’t",
+              "isn’t",
               "not"
             ],
             "accepted": [
-              "don't"
+              "don’t"
             ]
           }
         },
@@ -1792,17 +1792,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "She ___ drink coffee.",
-          "answer": "doesn't",
+          "answer": "doesn’t",
           "exercise": {
             "type": "choice",
             "options": [
-              "doesn't",
-              "don't",
-              "isn't",
+              "doesn’t",
+              "don’t",
+              "isn’t",
               "not"
             ],
             "accepted": [
-              "doesn't"
+              "doesn’t"
             ]
           }
         },
@@ -1811,17 +1811,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "We ___ have a car.",
-          "answer": "don't",
+          "answer": "don’t",
           "exercise": {
             "type": "choice",
             "options": [
-              "don't",
-              "doesn't",
-              "aren't",
+              "don’t",
+              "doesn’t",
+              "aren’t",
               "not"
             ],
             "accepted": [
-              "don't"
+              "don’t"
             ]
           }
         },
@@ -1830,17 +1830,17 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Which sentence is correct?",
-          "answer": "He doesn't eat meat.",
+          "answer": "He doesn’t eat meat.",
           "exercise": {
             "type": "choice",
             "options": [
-              "He doesn't eat meat.",
-              "He doesn't eats meat.",
-              "He don't eat meat.",
+              "He doesn’t eat meat.",
+              "He doesn’t eats meat.",
+              "He don’t eat meat.",
               "He not eat meat."
             ],
             "accepted": [
-              "He doesn't eat meat."
+              "He doesn’t eat meat."
             ]
           }
         },
@@ -1849,19 +1849,19 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Build the sentence.",
-          "answer": "They don't live here.",
+          "answer": "They don’t live here.",
           "exercise": {
             "type": "wordBank",
             "options": [
               "They",
-              "don't",
+              "don’t",
               "live",
               "here.",
-              "doesn't",
+              "doesn’t",
               "lives"
             ],
             "accepted": [
-              "They don't live here."
+              "They don’t live here."
             ]
           }
         },
@@ -1870,19 +1870,19 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Build the sentence.",
-          "answer": "My dad doesn't cook.",
+          "answer": "My dad doesn’t cook.",
           "exercise": {
             "type": "wordBank",
             "options": [
               "My",
               "dad",
-              "doesn't",
+              "doesn’t",
               "cook.",
-              "don't",
+              "don’t",
               "cooks"
             ],
             "accepted": [
-              "My dad doesn't cook."
+              "My dad doesn’t cook."
             ]
           }
         },
@@ -1891,11 +1891,11 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Type the missing word: The shop ___ open on Sunday.",
-          "answer": "doesn't",
+          "answer": "doesn’t",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "doesn't",
+              "doesn’t",
               "does not"
             ]
           }
@@ -1905,15 +1905,16 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Put the words in order.",
-          "answer": "I don't watch TV today.",
+          "answer": "I don’t watch TV on Sundays.",
           "exercise": {
             "type": "order",
             "items": [
               "I",
-              "don't",
+              "don’t",
               "watch",
               "TV",
-              "today."
+              "on",
+              "Sundays."
             ]
           }
         },
@@ -1922,21 +1923,21 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Match each sentence with its negative.",
-          "answer": "I like tea. = I don't like tea.; She likes tea. = She doesn't like tea.; They like tea. = They don't like tea.",
+          "answer": "I like tea. → I don’t like tea. | She likes tea. → She doesn’t like tea. | They like tea. → They don’t like tea.",
           "exercise": {
             "type": "match",
             "pairs": [
               [
                 "I like tea.",
-                "I don't like tea."
+                "I don’t like tea."
               ],
               [
                 "She likes tea.",
-                "She doesn't like tea."
+                "She doesn’t like tea."
               ],
               [
                 "They like tea.",
-                "They don't like tea."
+                "They don’t like tea."
               ]
             ]
           }
@@ -1945,18 +1946,18 @@
           "id": "gram-be-dont-10",
           "kind": "grammar",
           "required": true,
-          "prompt": "Find the mistake, then write the sentence correctly. She don't like milk.",
-          "answer": "She doesn't like milk.",
+          "prompt": "Find the mistake, then write the sentence correctly. “She don’t like milk.”",
+          "answer": "She doesn’t like milk.",
           "exercise": {
             "type": "spotError",
             "options": [
               "She",
-              "don't",
+              "don’t",
               "like",
               "milk."
             ],
             "accepted": [
-              "She doesn't like milk."
+              "She doesn’t like milk."
             ]
           }
         },
@@ -1965,12 +1966,12 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "We don't have time.",
+          "answer": "We don’t have time.",
           "exercise": {
             "type": "listenType",
-            "audioText": "We don't have time.",
+            "audioText": "We don’t have time.",
             "accepted": [
-              "We don't have time."
+              "We don’t have time."
             ]
           }
         },
@@ -1978,7 +1979,7 @@
           "id": "gram-be-dont-12",
           "kind": "grammar",
           "required": true,
-          "prompt": "True or false: We say “He doesn't likes it.”",
+          "prompt": "True or false: We say “He doesn’t likes it.”",
           "answer": "False",
           "exercise": {
             "type": "choice",
@@ -1995,7 +1996,7 @@
           "id": "gram-be-dont-13",
           "kind": "grammar",
           "required": true,
-          "prompt": "Your turn. Write four things you don't do on Sunday. Then write one thing your friend doesn't do.",
+          "prompt": "Your turn. Write four things you don’t do on Sunday. Then write one thing your friend doesn’t do.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"

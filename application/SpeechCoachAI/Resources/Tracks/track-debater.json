@@ -1,0 +1,2130 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.debater",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "debater",
+    "coach": "debater",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "build",
+            "title": "Build an argument"
+          },
+          {
+            "id": "answer",
+            "title": "Answer and test arguments"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "db-claim-reason",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Claim and reason",
+      "objectiveId": "DB-F-01",
+      "trackId": "debater",
+      "unitId": "build",
+      "tip": "A claim is what you want people to accept: “Schools should start later.” A reason answers “why?”: “because teenagers need more sleep.” A good argument joins them with “because.” A claim without a reason is only an opinion.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-claim-reason-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a claim?",
+          "answer": "Cities should have more parks.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Cities should have more parks.",
+              "Parks have trees.",
+              "The park opens at nine.",
+              "I went to the park."
+            ],
+            "accepted": [
+              "Cities should have more parks."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a reason for “Students should wear uniforms”?",
+          "answer": "Uniforms make students feel equal.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Uniforms make students feel equal.",
+              "I like blue.",
+              "The school is big.",
+              "Uniforms are made of cloth."
+            ],
+            "accepted": [
+              "Uniforms make students feel equal."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence gives a claim and a reason?",
+          "answer": "We should recycle because it saves resources.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We should recycle because it saves resources.",
+              "We should recycle.",
+              "Recycling is a word.",
+              "Because it saves resources."
+            ],
+            "accepted": [
+              "We should recycle because it saves resources."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What question does a reason answer?",
+          "answer": "Why?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Why?",
+              "Who?",
+              "When?",
+              "Where?"
+            ],
+            "accepted": [
+              "Why?"
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is NOT a reason?",
+          "answer": "Everyone should buy bikes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Everyone should buy bikes.",
+              "Bikes are cheap to run.",
+              "Bikes do not pollute.",
+              "Bikes keep people fit."
+            ],
+            "accepted": [
+              "Everyone should buy bikes."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We should walk more because it is healthy.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "should",
+              "walk",
+              "more",
+              "because",
+              "it",
+              "is",
+              "healthy.",
+              "so",
+              "but"
+            ],
+            "accepted": [
+              "We should walk more because it is healthy."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Homework should be shorter because students need rest.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Homework",
+              "should",
+              "be",
+              "shorter",
+              "because",
+              "students",
+              "need",
+              "rest.",
+              "but",
+              "so"
+            ],
+            "accepted": [
+              "Homework should be shorter because students need rest."
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A claim is what you want people to ___.",
+          "answer": "accept",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "accept",
+              "believe"
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Claim → what you want people to accept | Reason → why the claim is true | Because → joins the reason to the claim",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Claim",
+                "what you want people to accept"
+              ],
+              [
+                "Reason",
+                "why the claim is true"
+              ],
+              [
+                "Because",
+                "joins the reason to the claim"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the parts in order.",
+          "answer": "State your claim | Give a reason | Add an example",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State your claim",
+              "Give a reason",
+              "Add an example"
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A claim without a reason is only an opinion.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-claim-reason-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the claim?",
+          "answer": "We should have a longer lunch break",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We should have a longer lunch break",
+              "Students are hungry",
+              "Students are tired",
+              "Teachers like lunch"
+            ],
+            "accepted": [
+              "We should have a longer lunch break"
+            ],
+            "audioText": "We should have a longer lunch break. Students are hungry and tired in the afternoon, and a longer break helps them focus."
+          }
+        },
+        {
+          "id": "db-claim-reason-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is one reason?",
+          "answer": "Students are tired in the afternoon",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Students are tired in the afternoon",
+              "Lunch is at noon",
+              "The school is old",
+              "Teachers need a break"
+            ],
+            "accepted": [
+              "Students are tired in the afternoon"
+            ],
+            "audioText": "We should have a longer lunch break. Students are hungry and tired in the afternoon, and a longer break helps them focus."
+          }
+        },
+        {
+          "id": "db-claim-reason-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one claim about your school or workplace. Add two reasons with “because.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-evidence",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Choose strong evidence",
+      "objectiveId": "DB-F-02",
+      "trackId": "debater",
+      "unitId": "build",
+      "tip": "Evidence is a fact, an example, a number or an expert’s view that supports a reason. Strong evidence is specific, true and connected to the claim. Weak evidence is vague (“everyone knows”), only personal (“my cousin did this”) or about something else.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-evidence-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Claim: School should start later. Which is the strongest evidence?",
+          "answer": "A study found that students who sleep eight hours get better grades.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A study found that students who sleep eight hours get better grades.",
+              "Everyone knows teenagers are lazy.",
+              "My cousin sleeps late.",
+              "The school is on Main Street."
+            ],
+            "accepted": [
+              "A study found that students who sleep eight hours get better grades."
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Claim: We need more bike lanes. Which evidence is strongest?",
+          "answer": "Last year 40 cyclists were hurt on roads without bike lanes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Last year 40 cyclists were hurt on roads without bike lanes.",
+              "I think bikes are cool.",
+              "Cars are loud.",
+              "Many people like riding."
+            ],
+            "accepted": [
+              "Last year 40 cyclists were hurt on roads without bike lanes."
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which evidence is vague?",
+          "answer": "Many experts say so.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Many experts say so.",
+              "The city counted 1,200 users in May.",
+              "A survey of 300 students found 70 percent agree.",
+              "The report was published in 2024."
+            ],
+            "accepted": [
+              "Many experts say so."
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a good expert source?",
+          "answer": "A doctor with 20 years of experience",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A doctor with 20 years of experience",
+              "A stranger online",
+              "A friend who heard it",
+              "An advertisement"
+            ],
+            "accepted": [
+              "A doctor with 20 years of experience"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses a number as evidence?",
+          "answer": "Eighty percent of workers said they prefer remote work.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Eighty percent of workers said they prefer remote work.",
+              "Remote work is the future.",
+              "Many workers like home.",
+              "Offices are old."
+            ],
+            "accepted": [
+              "Eighty percent of workers said they prefer remote work."
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our town should build a new library. The old library has only 200 seats, but 1,500 people visit each week. A survey of 400 residents found that 78 percent want more study space. Which sentence is evidence from a survey?",
+          "answer": "A survey of 400 residents found that 78 percent want more study space.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A survey of 400 residents found that 78 percent want more study space.",
+              "Our town should build a new library.",
+              "The old library has only 200 seats.",
+              "1,500 people visit each week."
+            ],
+            "accepted": [
+              "A survey of 400 residents found that 78 percent want more study space."
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our town should build a new library. The old library has only 200 seats, but 1,500 people visit each week. A survey of 400 residents found that 78 percent want more study space. What is the claim?",
+          "answer": "Our town should build a new library",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Our town should build a new library",
+              "The old library has 200 seats",
+              "A survey found 78 percent",
+              "1,500 people visit"
+            ],
+            "accepted": [
+              "Our town should build a new library"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “Everyone knows it” is strong evidence.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Specific numbers can make evidence stronger.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each kind of evidence with an example.",
+          "answer": "Statistic → 78 percent of residents agree | Example → One school started later and grades rose | Expert opinion → A doctor says teens need nine hours of sleep",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Statistic",
+                "78 percent of residents agree"
+              ],
+              [
+                "Example",
+                "One school started later and grades rose"
+              ],
+              [
+                "Expert opinion",
+                "A doctor says teens need nine hours of sleep"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Strong evidence is ___ and true.",
+          "answer": "specific",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "specific"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "State your claim | Find a fact that supports it | Check that the fact is true and connected",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State your claim",
+              "Find a fact that supports it",
+              "Check that the fact is true and connected"
+            ]
+          }
+        },
+        {
+          "id": "db-evidence-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a claim and one piece of strong evidence for it. Say where the evidence comes from.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-structure",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Order an argument",
+      "objectiveId": "DB-F-03",
+      "trackId": "debater",
+      "unitId": "build",
+      "tip": "A clear argument has four parts: claim, reason, evidence and conclusion. Start with the claim, say why, prove it, and finish by repeating the claim in a stronger way. Signpost each step with words like “first,” “for example” and “therefore.”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-structure-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put this argument in order.",
+          "answer": "Cities should plant more trees. | Trees cool the air in summer. | For example, streets with trees can be five degrees cooler. | Therefore, planting trees is a smart choice.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Cities should plant more trees.",
+              "Trees cool the air in summer.",
+              "For example, streets with trees can be five degrees cooler.",
+              "Therefore, planting trees is a smart choice."
+            ]
+          }
+        },
+        {
+          "id": "db-structure-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put this argument in order.",
+          "answer": "Phones should be banned in class. | They distract students from learning. | One study found grades rose after a ban. | For these reasons, schools should ban phones in class.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Phones should be banned in class.",
+              "They distract students from learning.",
+              "One study found grades rose after a ban.",
+              "For these reasons, schools should ban phones in class."
+            ]
+          }
+        },
+        {
+          "id": "db-structure-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word starts the conclusion?",
+          "answer": "Therefore",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Therefore",
+              "For example",
+              "Because",
+              "First"
+            ],
+            "accepted": [
+              "Therefore"
+            ]
+          }
+        },
+        {
+          "id": "db-structure-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word introduces an example?",
+          "answer": "For example",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "For example",
+              "Therefore",
+              "However",
+              "Finally"
+            ],
+            "accepted": [
+              "For example"
+            ]
+          }
+        },
+        {
+          "id": "db-structure-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a conclusion?",
+          "answer": "So, we should open the library on Sundays.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So, we should open the library on Sundays.",
+              "The library opens at nine.",
+              "Many people read books.",
+              "I was there last week."
+            ],
+            "accepted": [
+              "So, we should open the library on Sundays."
+            ]
+          }
+        },
+        {
+          "id": "db-structure-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a good conclusion do?",
+          "answer": "Repeats the claim in a stronger way",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Repeats the claim in a stronger way",
+              "Adds a new unrelated topic",
+              "Says sorry",
+              "Ends with a joke only"
+            ],
+            "accepted": [
+              "Repeats the claim in a stronger way"
+            ]
+          }
+        },
+        {
+          "id": "db-structure-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each signpost word with its job.",
+          "answer": "First → starts the first point | For example → introduces evidence | Therefore → leads to the conclusion | However → shows a different view",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "First",
+                "starts the first point"
+              ],
+              [
+                "For example",
+                "introduces evidence"
+              ],
+              [
+                "Therefore",
+                "leads to the conclusion"
+              ],
+              [
+                "However",
+                "shows a different view"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-structure-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "First, I will give a reason.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "First,",
+              "I",
+              "will",
+              "give",
+              "a",
+              "reason.",
+              "last",
+              "never"
+            ],
+            "accepted": [
+              "First, I will give a reason."
+            ]
+          }
+        },
+        {
+          "id": "db-structure-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Therefore, we should act now.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Therefore,",
+              "we",
+              "should",
+              "act",
+              "now.",
+              "However",
+              "later"
+            ],
+            "accepted": [
+              "Therefore, we should act now."
+            ]
+          }
+        },
+        {
+          "id": "db-structure-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ example, many cities have done this.",
+          "answer": "For",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "For"
+            ]
+          }
+        },
+        {
+          "id": "db-structure-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The conclusion repeats the claim.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-structure-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which word introduces the conclusion?",
+          "answer": "Therefore",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Therefore",
+              "First",
+              "For example",
+              "Believe"
+            ],
+            "accepted": [
+              "Therefore"
+            ],
+            "audioText": "I believe our school should have a garden. First, gardens teach students about food. For example, students can grow tomatoes and eat them. Therefore, a garden would be good for learning."
+          }
+        },
+        {
+          "id": "db-structure-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence argument: claim, reason, example, conclusion.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-phrases",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Phrases for arguing",
+      "objectiveId": "DB-F-04",
+      "trackId": "debater",
+      "unitId": "build",
+      "tip": "Good speakers use set phrases. To give an opinion: “In my opinion…,” “I believe…” To add a point: “Moreover…,” “Also…” To give an example: “For instance…” To contrast: “On the other hand…,” “However…” To conclude: “In conclusion…,” “To sum up…”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-phrases-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its job.",
+          "answer": "In my opinion → give your view | For instance → give an example | On the other hand → show a different view | In conclusion → finish your argument",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "In my opinion",
+                "give your view"
+              ],
+              [
+                "For instance",
+                "give an example"
+              ],
+              [
+                "On the other hand",
+                "show a different view"
+              ],
+              [
+                "In conclusion",
+                "finish your argument"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase gives an example?",
+          "answer": "For instance",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "For instance",
+              "In conclusion",
+              "However",
+              "I believe"
+            ],
+            "accepted": [
+              "For instance"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase shows a contrast?",
+          "answer": "On the other hand",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "On the other hand",
+              "Moreover",
+              "For example",
+              "To sum up"
+            ],
+            "accepted": [
+              "On the other hand"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase adds another point?",
+          "answer": "Moreover",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Moreover",
+              "However",
+              "In conclusion",
+              "On the other hand"
+            ],
+            "accepted": [
+              "Moreover"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase is best for finishing?",
+          "answer": "To sum up",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To sum up",
+              "For instance",
+              "Also",
+              "But"
+            ],
+            "accepted": [
+              "To sum up"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: ___, I think cities need more parks.",
+          "answer": "In my opinion",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In my opinion",
+              "On the other hand",
+              "For instance",
+              "However"
+            ],
+            "accepted": [
+              "In my opinion"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: Cars are fast. ___, they pollute the air.",
+          "answer": "However",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "However",
+              "For instance",
+              "In my opinion",
+              "First"
+            ],
+            "accepted": [
+              "However"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "In my opinion, it is a good plan.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "In",
+              "my",
+              "opinion,",
+              "it",
+              "is",
+              "a",
+              "good",
+              "plan.",
+              "However",
+              "never"
+            ],
+            "accepted": [
+              "In my opinion, it is a good plan."
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "On the other hand, it is expensive.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "On",
+              "the",
+              "other",
+              "hand,",
+              "it",
+              "is",
+              "expensive.",
+              "For",
+              "cheap"
+            ],
+            "accepted": [
+              "On the other hand, it is expensive."
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: In ___, we should accept the plan.",
+          "answer": "conclusion",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "conclusion"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “However” shows a contrast.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the argument in order.",
+          "answer": "In my opinion, remote work is good. | Moreover, it saves travel time. | However, some people feel alone. | In conclusion, it works best with some office days.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "In my opinion, remote work is good.",
+              "Moreover, it saves travel time.",
+              "However, some people feel alone.",
+              "In conclusion, it works best with some office days."
+            ]
+          }
+        },
+        {
+          "id": "db-phrases-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which phrase shows a different view?",
+          "answer": "However",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "However",
+              "Moreover",
+              "To sum up",
+              "I think"
+            ],
+            "accepted": [
+              "However"
+            ],
+            "audioText": "I think cycling is great. Moreover, it is cheap. However, it can be unsafe on busy roads. To sum up, cities need safe bike lanes."
+          }
+        },
+        {
+          "id": "db-phrases-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write four sentences about a topic you care about. Use “in my opinion,” “moreover,” “however” and “in conclusion.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-rebut",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "A polite rebuttal",
+      "objectiveId": "DB-F-05",
+      "trackId": "debater",
+      "unitId": "answer",
+      "tip": "A rebuttal answers another person’s argument. First show you listened: “I see your point.” Then say where you disagree: “However, …” or “I’m not sure that’s true, because …” Attack the argument, not the person.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-rebut-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the most polite start to a rebuttal?",
+          "answer": "I see your point, but I see it differently.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I see your point, but I see it differently.",
+              "That is a stupid idea.",
+              "You are wrong.",
+              "Nobody agrees with you."
+            ],
+            "accepted": [
+              "I see your point, but I see it differently."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which attacks the argument, not the person?",
+          "answer": "The study you mention only had ten people.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The study you mention only had ten people.",
+              "You never read anything.",
+              "You are always late.",
+              "Only a fool believes that."
+            ],
+            "accepted": [
+              "The study you mention only had ten people."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase shows you listened?",
+          "answer": "I understand what you mean.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I understand what you mean.",
+              "Be quiet.",
+              "That’s nonsense.",
+              "Whatever."
+            ],
+            "accepted": [
+              "I understand what you mean."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase gives a reason to disagree?",
+          "answer": "I’m not sure, because the numbers are old.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I’m not sure, because the numbers are old.",
+              "Because I said so.",
+              "No.",
+              "That’s boring."
+            ],
+            "accepted": [
+              "I’m not sure, because the numbers are old."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete the rebuttal: “You say buses are cheap. ___, they are often late.”",
+          "answer": "However",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "However",
+              "Therefore",
+              "For example",
+              "First"
+            ],
+            "accepted": [
+              "However"
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its job.",
+          "answer": "I see your point → shows you listened | However → starts your disagreement | Because → gives your reason",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I see your point",
+                "shows you listened"
+              ],
+              [
+                "However",
+                "starts your disagreement"
+              ],
+              [
+                "Because",
+                "gives your reason"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the rebuttal in order.",
+          "answer": "I see your point about the cost. | However, the plan will take five years. | Because of that, I think we should look at other options.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "I see your point about the cost.",
+              "However, the plan will take five years.",
+              "Because of that, I think we should look at other options."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I see your point, but I disagree.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "see",
+              "your",
+              "point,",
+              "but",
+              "I",
+              "disagree.",
+              "never",
+              "because"
+            ],
+            "accepted": [
+              "I see your point, but I disagree."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I understand, but the data is old.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "understand,",
+              "but",
+              "the",
+              "data",
+              "is",
+              "old.",
+              "so",
+              "new"
+            ],
+            "accepted": [
+              "I understand, but the data is old."
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Attack the ___, not the person.",
+          "answer": "argument",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "argument"
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A rebuttal should insult the other person.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-rebut-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does speaker B start?",
+          "answer": "By showing they listened",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By showing they listened",
+              "By insulting A",
+              "By changing the topic",
+              "By agreeing completely"
+            ],
+            "accepted": [
+              "By showing they listened"
+            ],
+            "audioText": "A says: Homework helps students learn. B says: I see your point. However, too much homework makes students tired, and tired students learn less."
+          }
+        },
+        {
+          "id": "db-rebut-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is B’s reason?",
+          "answer": "Too much homework makes students tired",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Too much homework makes students tired",
+              "Homework is free",
+              "Students like homework",
+              "Teachers are busy"
+            ],
+            "accepted": [
+              "Too much homework makes students tired"
+            ],
+            "audioText": "A says: Homework helps students learn. B says: I see your point. However, too much homework makes students tired, and tired students learn less."
+          }
+        },
+        {
+          "id": "db-rebut-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Someone says: “Cars are better than buses.” Write a polite rebuttal with a reason.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-fallacy-people",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Straw man and personal attack",
+      "objectiveId": "DB-F-06",
+      "trackId": "debater",
+      "unitId": "answer",
+      "tip": "A fallacy is a mistake in reasoning that makes an argument look stronger than it is. A straw man changes someone’s argument into a weaker one and attacks that. An ad hominem attacks the person instead of the argument. Spot them and name them calmly.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-fallacy-people-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A says: “We should spend a little more on parks.” B says: “So you want the schools to have no money?” What is B doing?",
+          "answer": "A straw man",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A straw man",
+              "A fair summary",
+              "An example",
+              "A conclusion"
+            ],
+            "accepted": [
+              "A straw man"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A says the report has a mistake. B says: “You failed math, so you cannot judge.” What is this?",
+          "answer": "An ad hominem attack",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An ad hominem attack",
+              "A strong reason",
+              "Good evidence",
+              "A fair question"
+            ],
+            "accepted": [
+              "An ad hominem attack"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is an ad hominem?",
+          "answer": "You are too young to understand.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You are too young to understand.",
+              "The data show a 5 percent drop.",
+              "The plan costs a lot.",
+              "Many people disagree."
+            ],
+            "accepted": [
+              "You are too young to understand."
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a straw man?",
+          "answer": "You want shorter classes? So you want students to learn nothing!",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You want shorter classes? So you want students to learn nothing!",
+              "You want shorter classes? Please explain why.",
+              "I disagree because the data are old.",
+              "Let’s look at the evidence."
+            ],
+            "accepted": [
+              "You want shorter classes? So you want students to learn nothing!"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a fallacy?",
+          "answer": "A mistake in reasoning",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A mistake in reasoning",
+              "A kind of evidence",
+              "A good conclusion",
+              "A polite phrase"
+            ],
+            "accepted": [
+              "A mistake in reasoning"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its meaning.",
+          "answer": "Straw man → misrepresents the argument | Ad hominem → attacks the person | Rebuttal → answers the argument fairly",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Straw man",
+                "misrepresents the argument"
+              ],
+              [
+                "Ad hominem",
+                "attacks the person"
+              ],
+              [
+                "Rebuttal",
+                "answers the argument fairly"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An ad hominem answers the argument.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A straw man makes the other argument weaker than it really is.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: An ad hominem attacks the ___.",
+          "answer": "person",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "person"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-10",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Maya said that the school should add a recycling bin in each classroom. Leo replied that Maya wanted to waste money and ruin the school budget. What is Leo doing?",
+          "answer": "Making a straw man",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Making a straw man",
+              "Giving evidence",
+              "Asking a question",
+              "Agreeing with Maya"
+            ],
+            "accepted": [
+              "Making a straw man"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Attacking the person",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Attacking the person",
+              "Giving evidence",
+              "Summarizing fairly",
+              "Asking for the facts"
+            ],
+            "accepted": [
+              "Attacking the person"
+            ],
+            "audioText": "You cannot trust Dan’s plan because he is new here."
+          }
+        },
+        {
+          "id": "db-fallacy-people-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Listen to the argument | Notice if it attacks the person or changes the argument | Name the fallacy calmly",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Listen to the argument",
+              "Notice if it attacks the person or changes the argument",
+              "Name the fallacy calmly"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-people-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short straw-man reply and then a fair reply to this claim: “We should walk to school more often.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-fallacy-logic",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "False dilemma and slippery slope",
+      "objectiveId": "DB-F-07",
+      "trackId": "debater",
+      "unitId": "answer",
+      "tip": "A false dilemma says there are only two choices when there are more: “Either we ban cars or the city dies.” A slippery slope says one small step will lead to a disaster without proof: “If we allow short breaks, soon nobody will work.” Ask: Are there other choices? Is each step really certain?",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-fallacy-logic-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“Either we build a new road or the town will die.” Which fallacy?",
+          "answer": "False dilemma",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False dilemma",
+              "Slippery slope",
+              "Ad hominem",
+              "Fair evidence"
+            ],
+            "accepted": [
+              "False dilemma"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“If we allow one late day, nobody will ever come on time again.” Which fallacy?",
+          "answer": "Slippery slope",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slippery slope",
+              "False dilemma",
+              "Fair evidence",
+              "Good conclusion"
+            ],
+            "accepted": [
+              "Slippery slope"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps you test a false dilemma?",
+          "answer": "Are there other choices?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Are there other choices?",
+              "Who said it?",
+              "How old is it?",
+              "Is it long?"
+            ],
+            "accepted": [
+              "Are there other choices?"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a false dilemma?",
+          "answer": "You are either with us or against us.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You are either with us or against us.",
+              "We could choose bus, train or bike.",
+              "Some people like tea, others coffee.",
+              "There are many options."
+            ],
+            "accepted": [
+              "You are either with us or against us."
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a slippery slope?",
+          "answer": "If we allow phones today, soon students will never read again.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If we allow phones today, soon students will never read again.",
+              "Phones help students find information.",
+              "Phones can distract students.",
+              "The school has a phone rule."
+            ],
+            "accepted": [
+              "If we allow phones today, soon students will never read again."
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each fallacy with its clue.",
+          "answer": "False dilemma → only two choices are offered | Slippery slope → a small step leads to disaster | Fair argument → real reasons and evidence",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "False dilemma",
+                "only two choices are offered"
+              ],
+              [
+                "Slippery slope",
+                "a small step leads to disaster"
+              ],
+              [
+                "Fair argument",
+                "real reasons and evidence"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A false dilemma ignores other choices.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A slippery slope always has proof for each step.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A false ___ gives only two choices.",
+          "answer": "dilemma",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "dilemma"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Are there other choices?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Are",
+              "there",
+              "other",
+              "choices?",
+              "any",
+              "those"
+            ],
+            "accepted": [
+              "Are there other choices?"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-11",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The mayor said that we must either build the stadium or lose all our jobs. He did not mention any other choices. Which fallacy is the mayor using?",
+          "answer": "A false dilemma",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A false dilemma",
+              "A slippery slope",
+              "An ad hominem",
+              "A fair reason"
+            ],
+            "accepted": [
+              "A false dilemma"
+            ]
+          }
+        },
+        {
+          "id": "db-fallacy-logic-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which fallacy is this?",
+          "answer": "A slippery slope",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A slippery slope",
+              "A false dilemma",
+              "An ad hominem",
+              "Strong evidence"
+            ],
+            "accepted": [
+              "A slippery slope"
+            ],
+            "audioText": "If we let students use calculators, they will stop thinking, then they will stop learning, and soon the school will close."
+          }
+        },
+        {
+          "id": "db-fallacy-logic-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one false dilemma and one fair alternative that offers more than two choices.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-weigh",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Weigh two arguments",
+      "objectiveId": "DB-F-08",
+      "trackId": "debater",
+      "unitId": "answer",
+      "tip": "To decide between two arguments, compare them. Which has stronger evidence? Which reasons connect better to the claim? Are there fallacies? Be fair: state the best version of the other side before you answer it. This is called steelmanning.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-weigh-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Argument A: The city should ban cars from the center because a study of three cities found 30 percent less pollution. Argument B: The city should not ban cars because my uncle drives and he likes it. Which argument has stronger evidence?",
+          "answer": "A, because it uses a study",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A, because it uses a study",
+              "B, because it mentions a person",
+              "Both are equal",
+              "Neither gives a reason"
+            ],
+            "accepted": [
+              "A, because it uses a study"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Argument A: The city should ban cars from the center because a study of three cities found 30 percent less pollution. Argument B: The city should not ban cars because my uncle drives and he likes it. What is the weakness of Argument B?",
+          "answer": "It uses a personal story, not evidence",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It uses a personal story, not evidence",
+              "It uses a study",
+              "It is too long",
+              "It uses numbers"
+            ],
+            "accepted": [
+              "It uses a personal story, not evidence"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “steelmanning” mean?",
+          "answer": "Stating the strongest version of the other side",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Stating the strongest version of the other side",
+              "Attacking the weakest point",
+              "Ignoring the other side",
+              "Agreeing with everyone"
+            ],
+            "accepted": [
+              "Stating the strongest version of the other side"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a fair way to start your answer?",
+          "answer": "The strongest point on the other side is…",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The strongest point on the other side is…",
+              "The other side is silly…",
+              "Nobody believes…",
+              "I will not listen…"
+            ],
+            "accepted": [
+              "The strongest point on the other side is…"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps compare arguments?",
+          "answer": "Which one has better evidence?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Which one has better evidence?",
+              "Which one is longer?",
+              "Which one is louder?",
+              "Which one came first?"
+            ],
+            "accepted": [
+              "Which one has better evidence?"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with what it checks.",
+          "answer": "Is the evidence strong? → quality of proof | Does the reason connect to the claim? → relevance | Is there a fallacy? → quality of reasoning",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Is the evidence strong?",
+                "quality of proof"
+              ],
+              [
+                "Does the reason connect to the claim?",
+                "relevance"
+              ],
+              [
+                "Is there a fallacy?",
+                "quality of reasoning"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "State the other side’s best point | Compare the evidence | Give your conclusion and why",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the other side’s best point",
+              "Compare the evidence",
+              "Give your conclusion and why"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A fair debater explains the other side accurately.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The longest argument is always the best.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Compare the ___ for each claim.",
+          "answer": "evidence",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "evidence"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Which argument is stronger?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Which",
+              "argument",
+              "is",
+              "stronger?",
+              "weaker",
+              "one"
+            ],
+            "accepted": [
+              "Which argument is stronger?"
+            ]
+          }
+        },
+        {
+          "id": "db-weigh-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which argument gives evidence?",
+          "answer": "Argument one",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Argument one",
+              "Argument two",
+              "Both of them",
+              "Neither of them"
+            ],
+            "accepted": [
+              "Argument one"
+            ],
+            "audioText": "Argument one: We should extend the school day because a survey of 500 parents showed that 70 percent agree. Argument two: We should not, because it feels too long."
+          }
+        },
+        {
+          "id": "db-weigh-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a topic. Write the strongest point for the other side first, then your answer to it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

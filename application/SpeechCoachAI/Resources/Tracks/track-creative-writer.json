@@ -1,0 +1,2284 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.creative-writer",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "creative-writer",
+    "coach": "creativeWriter",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "people-place",
+            "title": "People and places"
+          },
+          {
+            "id": "scenes",
+            "title": "Scenes and plot"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "cw-character",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Create a character",
+      "objectiveId": "CW-F-01",
+      "trackId": "creative-writer",
+      "unitId": "people-place",
+      "tip": "A fiction character feels real when we know what they want, what stops them, and one small detail only they have. Give them a want (to win a race), a flaw (too proud to ask for help) and a habit or an object (always twists a ring). Then show them making a choice.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-character-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence tells us what a character wants?",
+          "answer": "Mina wants to win the school race before her brother does.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Mina wants to win the school race before her brother does.",
+              "Mina has brown hair.",
+              "Mina lives in a house.",
+              "Mina is a girl."
+            ],
+            "accepted": [
+              "Mina wants to win the school race before her brother does."
+            ]
+          }
+        },
+        {
+          "id": "cw-character-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a flaw?",
+          "answer": "He is too proud to ask for help.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He is too proud to ask for help.",
+              "He is tall.",
+              "He has a red coat.",
+              "He lives by the sea."
+            ],
+            "accepted": [
+              "He is too proud to ask for help."
+            ]
+          }
+        },
+        {
+          "id": "cw-character-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail makes a character memorable?",
+          "answer": "She always twists a silver ring when she lies.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She always twists a silver ring when she lies.",
+              "She is nice.",
+              "She is a person.",
+              "She walks."
+            ],
+            "accepted": [
+              "She always twists a silver ring when she lies."
+            ]
+          }
+        },
+        {
+          "id": "cw-character-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do characters need a want?",
+          "answer": "A want gives the story a direction",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A want gives the story a direction",
+              "It makes the story shorter",
+              "It removes conflict",
+              "It replaces the plot"
+            ],
+            "accepted": [
+              "A want gives the story a direction"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which character has a clear conflict?",
+          "answer": "Ravi wants to join the band but is afraid to play in front of people.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ravi wants to join the band but is afraid to play in front of people.",
+              "Ravi plays guitar.",
+              "Ravi is in the band.",
+              "Ravi likes music."
+            ],
+            "accepted": [
+              "Ravi wants to join the band but is afraid to play in front of people."
+            ]
+          }
+        },
+        {
+          "id": "cw-character-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Omar always carried a small notebook. He wanted to be a famous cartoonist, but he hid every drawing because he feared people would laugh. When his teacher asked to see his work, his hands shook. What does Omar want?",
+          "answer": "To be a famous cartoonist",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To be a famous cartoonist",
+              "To become a teacher",
+              "To hide his notebook forever",
+              "To win a race"
+            ],
+            "accepted": [
+              "To be a famous cartoonist"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Omar always carried a small notebook. He wanted to be a famous cartoonist, but he hid every drawing because he feared people would laugh. When his teacher asked to see his work, his hands shook. What is Omar’s fear?",
+          "answer": "That people will laugh at his drawings",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "That people will laugh at his drawings",
+              "That he will lose his notebook",
+              "That his teacher will move away",
+              "That he will win"
+            ],
+            "accepted": [
+              "That people will laugh at his drawings"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of a character with an example.",
+          "answer": "Want → to win the race | Flaw → too proud to ask for help | Detail → always twists a ring",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Want",
+                "to win the race"
+              ],
+              [
+                "Flaw",
+                "too proud to ask for help"
+              ],
+              [
+                "Detail",
+                "always twists a ring"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-character-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Decide what the character wants | Add something that stops them | Add one memorable detail",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide what the character wants",
+              "Add something that stops them",
+              "Add one memorable detail"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A character with no want makes a story feel aimless.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A flaw can make a character more believable.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A character’s ___ is what they are trying to get.",
+          "answer": "want",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "want",
+              "goal"
+            ]
+          }
+        },
+        {
+          "id": "cw-character-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does Lena want?",
+          "answer": "To cross the river before dark",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To cross the river before dark",
+              "To stay home",
+              "To swim for fun",
+              "To find her bag"
+            ],
+            "accepted": [
+              "To cross the river before dark"
+            ],
+            "audioText": "Lena wanted to cross the river before dark. She was afraid of water, but her sister was waiting on the other side."
+          }
+        },
+        {
+          "id": "cw-character-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Create a character in three sentences: what they want, what stops them, and one small detail.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-setting",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Setting and mood",
+      "objectiveId": "CW-F-02",
+      "trackId": "creative-writer",
+      "unitId": "people-place",
+      "tip": "Setting is where and when a scene happens. It also sets the mood: a quiet lake feels calm, a crowded station feels tense. Choose two or three details that create the feeling you want, instead of describing everything.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-setting-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which setting detail creates a tense mood?",
+          "answer": "The station was packed, and every clock ticked louder than the last.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The station was packed, and every clock ticked louder than the last.",
+              "The lake was calm and still.",
+              "The garden smelled of roses.",
+              "The room was quiet and warm."
+            ],
+            "accepted": [
+              "The station was packed, and every clock ticked louder than the last."
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail creates a calm mood?",
+          "answer": "The lake lay still under the soft evening light.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The lake lay still under the soft evening light.",
+              "The alarm rang again and again.",
+              "Crowds pushed through the gate.",
+              "Thunder shook the windows."
+            ],
+            "accepted": [
+              "The lake lay still under the soft evening light."
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does setting include?",
+          "answer": "Where and when a scene happens",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Where and when a scene happens",
+              "Only the weather",
+              "Only the characters’ names",
+              "Only the title"
+            ],
+            "accepted": [
+              "Where and when a scene happens"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many details are best for a setting?",
+          "answer": "Two or three strong ones",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three strong ones",
+              "Every detail you can think of",
+              "None",
+              "Only the weather"
+            ],
+            "accepted": [
+              "Two or three strong ones"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening shows a lonely mood?",
+          "answer": "The streetlights flickered, and the empty bus stop stayed silent.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The streetlights flickered, and the empty bus stop stayed silent.",
+              "A crowd cheered happily.",
+              "Friends laughed over dinner.",
+              "A band played loudly."
+            ],
+            "accepted": [
+              "The streetlights flickered, and the empty bus stop stayed silent."
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The old library smelled of dust and rain. A single lamp hummed in the corner, and the clock above the door had stopped at midnight. What mood does this setting create?",
+          "answer": "Quiet and mysterious",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Quiet and mysterious",
+              "Loud and joyful",
+              "Hot and busy",
+              "Bright and silly"
+            ],
+            "accepted": [
+              "Quiet and mysterious"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The old library smelled of dust and rain. A single lamp hummed in the corner, and the clock above the door had stopped at midnight. Which detail suggests that time has stopped?",
+          "answer": "The clock had stopped at midnight.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The clock had stopped at midnight.",
+              "The lamp hummed.",
+              "The library smelled of dust.",
+              "It was raining."
+            ],
+            "accepted": [
+              "The clock had stopped at midnight."
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each setting with a mood.",
+          "answer": "A crowded station → tense | A still lake at dusk → calm | An empty street at night → lonely",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A crowded station",
+                "tense"
+              ],
+              [
+                "A still lake at dusk",
+                "calm"
+              ],
+              [
+                "An empty street at night",
+                "lonely"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A setting can create a mood.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You must describe everything in a place.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Setting means where and ___ a scene happens.",
+          "answer": "when",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "when"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Choose the mood you want | Pick two or three details that create it | Write the scene",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose the mood you want",
+              "Pick two or three details that create it",
+              "Write the scene"
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The room was quiet and cold.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "room",
+              "was",
+              "quiet",
+              "and",
+              "cold.",
+              "never",
+              "loud"
+            ],
+            "accepted": [
+              "The room was quiet and cold."
+            ]
+          }
+        },
+        {
+          "id": "cw-setting-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What mood does this setting create?",
+          "answer": "Busy and lively",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Busy and lively",
+              "Silent and sad",
+              "Cold and empty",
+              "Dark and scary"
+            ],
+            "accepted": [
+              "Busy and lively"
+            ],
+            "audioText": "The market was loud and crowded. Vendors shouted prices, and the smell of fried bread filled the air."
+          }
+        },
+        {
+          "id": "cw-setting-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Describe a place in three sentences so that it feels calm or tense. Use two or three details.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-senses",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Use the five senses",
+      "objectiveId": "CW-F-03",
+      "trackId": "creative-writer",
+      "unitId": "people-place",
+      "tip": "Good description uses all five senses, not only sight: what we see, hear, smell, taste and touch. One precise detail can make a scene alive. “The bread smelled of warm butter” tells more than “The bread was nice.”",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-senses-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses the sense of smell?",
+          "answer": "The kitchen smelled of burnt toast.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The kitchen smelled of burnt toast.",
+              "The kitchen was big.",
+              "The kitchen was white.",
+              "The kitchen had a table."
+            ],
+            "accepted": [
+              "The kitchen smelled of burnt toast."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses the sense of sound?",
+          "answer": "The old door creaked on its hinges.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The old door creaked on its hinges.",
+              "The door was brown.",
+              "The door had a handle.",
+              "The door was in the hall."
+            ],
+            "accepted": [
+              "The old door creaked on its hinges."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses touch?",
+          "answer": "The blanket felt rough and warm against her cheek.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The blanket felt rough and warm against her cheek.",
+              "The blanket was red.",
+              "The blanket smelled sweet.",
+              "The blanket made no sound."
+            ],
+            "accepted": [
+              "The blanket felt rough and warm against her cheek."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses taste?",
+          "answer": "The soup tasted sharp and salty.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The soup tasted sharp and salty.",
+              "The soup was in a bowl.",
+              "The soup looked orange.",
+              "The soup was hot to hold."
+            ],
+            "accepted": [
+              "The soup tasted sharp and salty."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is more specific?",
+          "answer": "The bread smelled of warm butter.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The bread smelled of warm butter.",
+              "The bread was nice.",
+              "The bread was good.",
+              "The bread was fine."
+            ],
+            "accepted": [
+              "The bread smelled of warm butter."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many senses can you use in a description?",
+          "answer": "Five",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Five",
+              "One",
+              "Two",
+              "Seven"
+            ],
+            "accepted": [
+              "Five"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sense with a detail.",
+          "answer": "Sight → a red kite in the sky | Sound → a distant church bell | Smell → fresh coffee | Touch → cold, wet grass",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Sight",
+                "a red kite in the sky"
+              ],
+              [
+                "Sound",
+                "a distant church bell"
+              ],
+              [
+                "Smell",
+                "fresh coffee"
+              ],
+              [
+                "Touch",
+                "cold, wet grass"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Choose the moment | List what you see, hear, smell, taste and feel | Pick the two strongest details",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose the moment",
+              "List what you see, hear, smell, taste and feel",
+              "Pick the two strongest details"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Good description uses more than the sense of sight.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “It was nice” is a specific detail.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Taste, touch, sight, smell and ___ are the five senses.",
+          "answer": "hearing",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "hearing",
+              "sound"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The air smelled of rain.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "air",
+              "smelled",
+              "of",
+              "rain.",
+              "never",
+              "taste"
+            ],
+            "accepted": [
+              "The air smelled of rain."
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Mara stepped into the bakery. The air smelled of warm butter and sugar. A bell rang above the door, and the tiled floor felt cool under her feet. Which sense does “A bell rang above the door” use?",
+          "answer": "Hearing",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hearing",
+              "Smell",
+              "Taste",
+              "Touch"
+            ],
+            "accepted": [
+              "Hearing"
+            ]
+          }
+        },
+        {
+          "id": "cw-senses-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which sense does the word “crackled” use?",
+          "answer": "Hearing",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hearing",
+              "Taste",
+              "Touch",
+              "Smell"
+            ],
+            "accepted": [
+              "Hearing"
+            ],
+            "audioText": "The campfire crackled. Smoke stung my eyes, and the marshmallow tasted sweet and burnt."
+          }
+        },
+        {
+          "id": "cw-senses-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence description of a meal or a street. Use at least three different senses.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-show-tell",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Show, don’t tell",
+      "objectiveId": "CW-F-04",
+      "trackId": "creative-writer",
+      "unitId": "people-place",
+      "tip": "Telling states a feeling: “He was nervous.” Showing lets the reader see it: “His hands shook as he checked the clock again.” Show the important moments through actions, words and the body. Use telling for small, quick facts.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-show-tell-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence shows the feeling?",
+          "answer": "Her hands shook as she opened the letter.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Her hands shook as she opened the letter.",
+              "She was nervous.",
+              "She felt scared.",
+              "She was worried."
+            ],
+            "accepted": [
+              "Her hands shook as she opened the letter."
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence tells instead of shows?",
+          "answer": "He was angry.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He was angry.",
+              "He slammed the door so hard the glass rang.",
+              "His jaw tightened, and he said nothing.",
+              "He crushed the note in his fist."
+            ],
+            "accepted": [
+              "He was angry."
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line shows that a character is tired?",
+          "answer": "He rubbed his eyes and leaned on the wall to stay upright.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He rubbed his eyes and leaned on the wall to stay upright.",
+              "He was tired.",
+              "He felt very sleepy.",
+              "He wanted rest."
+            ],
+            "accepted": [
+              "He rubbed his eyes and leaned on the wall to stay upright."
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line shows happiness?",
+          "answer": "She laughed, grabbed her friend’s hands and spun in a circle.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She laughed, grabbed her friend’s hands and spun in a circle.",
+              "She was happy.",
+              "She felt joy.",
+              "She was glad."
+            ],
+            "accepted": [
+              "She laughed, grabbed her friend’s hands and spun in a circle."
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is telling useful?",
+          "answer": "For small, quick facts that don’t need a scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "For small, quick facts that don’t need a scene",
+              "For every emotion",
+              "Never",
+              "Only in dialogue"
+            ],
+            "accepted": [
+              "For small, quick facts that don’t need a scene"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you show fear?",
+          "answer": "A pounding heart, a dry mouth and quick glances at the door",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A pounding heart, a dry mouth and quick glances at the door",
+              "The word “scared” repeated",
+              "Describing the weather only",
+              "A long list of names"
+            ],
+            "accepted": [
+              "A pounding heart, a dry mouth and quick glances at the door"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each telling sentence with a showing sentence.",
+          "answer": "She was cold. → Her teeth chattered and she pulled her coat tight. | He was bored. → He tapped his pencil and watched the clock. | They were proud. → They stood tall and grinned at the trophy.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "She was cold.",
+                "Her teeth chattered and she pulled her coat tight."
+              ],
+              [
+                "He was bored.",
+                "He tapped his pencil and watched the clock."
+              ],
+              [
+                "They were proud.",
+                "They stood tall and grinned at the trophy."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Name the feeling for yourself | Think of what the body does | Write the action instead of the word",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Name the feeling for yourself",
+              "Think of what the body does",
+              "Write the action instead of the word"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Showing uses actions, words and the body.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should tell every detail of every scene.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Show, don’t ___.",
+          "answer": "tell",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "tell"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "His hands shook as he waited.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "His",
+              "hands",
+              "shook",
+              "as",
+              "he",
+              "waited.",
+              "never",
+              "smiled"
+            ],
+            "accepted": [
+              "His hands shook as he waited."
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Jin looked at the empty chair across the table. He folded the napkin into a small square, then into an even smaller one. Finally, he stood up and left before the food arrived. How does the writer show Jin’s feeling?",
+          "answer": "Through his actions",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Through his actions",
+              "By saying he is sad",
+              "By naming the restaurant",
+              "By describing the weather"
+            ],
+            "accepted": [
+              "Through his actions"
+            ]
+          }
+        },
+        {
+          "id": "cw-show-tell-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which feeling is shown?",
+          "answer": "Upset or uncomfortable",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Upset or uncomfortable",
+              "Excited",
+              "Proud",
+              "Sleepy"
+            ],
+            "accepted": [
+              "Upset or uncomfortable"
+            ],
+            "audioText": "She pressed her lips together and stared at the floor. The room went silent. She did not say a word."
+          }
+        },
+        {
+          "id": "cw-show-tell-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Take the telling sentence “He was nervous.” Rewrite it as one or two showing sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-dialogue",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Write dialogue",
+      "objectiveId": "CW-F-05",
+      "trackId": "creative-writer",
+      "unitId": "scenes",
+      "tip": "Dialogue should sound like real people: short lines, interruptions, and a different voice for each speaker. Use “said” for most lines, and start a new paragraph for each new speaker. Good dialogue also shows what people want or hide.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-dialogue-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line sounds most like real speech?",
+          "answer": "“I can’t, Dad. Not tonight.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“I can’t, Dad. Not tonight.”",
+              "“I am unable to comply with your request at this time.”",
+              "“Greetings, father. I shall decline.”",
+              "“It is not possible, honorable father.”"
+            ],
+            "accepted": [
+              "“I can’t, Dad. Not tonight.”"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tag is the plainest and best for most lines?",
+          "answer": "said",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "said",
+              "exclaimed loudly",
+              "declared dramatically",
+              "announced proudly"
+            ],
+            "accepted": [
+              "said"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do you show a new speaker?",
+          "answer": "Start a new paragraph",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Start a new paragraph",
+              "Use capital letters",
+              "Use a longer line",
+              "Add a title"
+            ],
+            "accepted": [
+              "Start a new paragraph"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line is more natural between friends?",
+          "answer": "“Morning! You’re early.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“Morning! You’re early.”",
+              "“Good morning, my esteemed colleague, how fare you?”",
+              "“Salutations. I observe that you are early.”",
+              "“Greetings, honored friend.”"
+            ],
+            "accepted": [
+              "“Morning! You’re early.”"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do writers keep dialogue lines short?",
+          "answer": "Real people speak in short bursts",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Real people speak in short bursts",
+              "Short lines are required by law",
+              "Long lines are impossible",
+              "It saves paper"
+            ],
+            "accepted": [
+              "Real people speak in short bursts"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line hints that a character is hiding something?",
+          "answer": "“I’m fine,” she said, and quickly closed the door.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“I’m fine,” she said, and quickly closed the door.",
+              "“I’m fine,” she said, and smiled at the camera.",
+              "“I’m fine,” she said, and sat down.",
+              "“I’m fine,” she said, and made tea."
+            ],
+            "accepted": [
+              "“I’m fine,” she said, and quickly closed the door."
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. “Where were you?” Dad asked. “Out.” Lena kept her eyes on her shoes. “Out where?” “Just out.” He sighed. What does Lena’s short answer suggest?",
+          "answer": "She is hiding something",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She is hiding something",
+              "She is very happy",
+              "She is giving details",
+              "She is lost"
+            ],
+            "accepted": [
+              "She is hiding something"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each dialogue tool with its effect.",
+          "answer": "Short lines → feel like real speech | Interruptions → show tension | “Said” → keeps attention on the words",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Short lines",
+                "feel like real speech"
+              ],
+              [
+                "Interruptions",
+                "show tension"
+              ],
+              [
+                "“Said”",
+                "keeps attention on the words"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the exchange in order.",
+          "answer": "“Did you finish the report?” | “Almost.” | “Almost?” | “I’ll send it tonight, I promise.”",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "“Did you finish the report?”",
+              "“Almost.”",
+              "“Almost?”",
+              "“I’ll send it tonight, I promise.”"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Each new speaker starts a new paragraph.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Dialogue should sound like a formal essay.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Most dialogue tags just say “___.”",
+          "answer": "said",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "said"
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I can’t tonight, Dad.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "can’t",
+              "tonight,",
+              "Dad.",
+              "never",
+              "shall"
+            ],
+            "accepted": [
+              "I can’t tonight, Dad."
+            ]
+          }
+        },
+        {
+          "id": "cw-dialogue-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What do the short answers show?",
+          "answer": "The speaker does not want to explain",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The speaker does not want to explain",
+              "The speaker is excited",
+              "The speaker is lost",
+              "The speaker loves the weather"
+            ],
+            "accepted": [
+              "The speaker does not want to explain"
+            ],
+            "audioText": "Where were you? Out. Out where? Just out. He sighed."
+          }
+        },
+        {
+          "id": "cw-dialogue-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a six-line dialogue where one person hides something. Use short lines.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-pov",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Point of view",
+      "objectiveId": "CW-F-06",
+      "trackId": "creative-writer",
+      "unitId": "scenes",
+      "tip": "Point of view (POV) is who tells the story. First person uses “I”: we know only what the narrator knows. Third person limited uses “he” or “she” but stays close to one character’s thoughts. Omniscient sees into everyone’s mind. Pick one and stay with it in a scene.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-pov-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is first person?",
+          "answer": "I opened the door and froze.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I opened the door and froze.",
+              "She opened the door and froze.",
+              "They opened the door and froze.",
+              "The door opened."
+            ],
+            "accepted": [
+              "I opened the door and froze."
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is third person?",
+          "answer": "He opened the door and froze.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He opened the door and froze.",
+              "I opened the door and froze.",
+              "You open the door and freeze.",
+              "We opened the door."
+            ],
+            "accepted": [
+              "He opened the door and froze."
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "In first person, what does the reader know?",
+          "answer": "Only what the narrator knows",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Only what the narrator knows",
+              "Everything about everyone",
+              "Nothing",
+              "Only the weather"
+            ],
+            "accepted": [
+              "Only what the narrator knows"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence goes inside two characters’ minds (omniscient)?",
+          "answer": "Ana feared the test, while Ben secretly hoped she would fail.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ana feared the test, while Ben secretly hoped she would fail.",
+              "Ana feared the test.",
+              "Ben hoped.",
+              "The test began."
+            ],
+            "accepted": [
+              "Ana feared the test, while Ben secretly hoped she would fail."
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence stays close to one character (third limited)?",
+          "answer": "Ana’s stomach twisted as she looked at the first question.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ana’s stomach twisted as she looked at the first question.",
+              "Ana’s stomach twisted, and Ben smiled, and the teacher sighed, and the cat slept.",
+              "The test began.",
+              "Everyone felt different things at once."
+            ],
+            "accepted": [
+              "Ana’s stomach twisted as she looked at the first question."
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why keep a consistent point of view in a scene?",
+          "answer": "Switching suddenly confuses the reader",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Switching suddenly confuses the reader",
+              "It makes the story shorter",
+              "It is required for dialogue",
+              "It changes the title"
+            ],
+            "accepted": [
+              "Switching suddenly confuses the reader"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each point of view with its clue.",
+          "answer": "First person → uses “I” or “we” | Third person limited → stays with one character’s thoughts | Omniscient → enters many minds",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "First person",
+                "uses “I” or “we”"
+              ],
+              [
+                "Third person limited",
+                "stays with one character’s thoughts"
+              ],
+              [
+                "Omniscient",
+                "enters many minds"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: First person uses “I.”",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You may change the point of view in every sentence.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: In third person, the narrator uses “he,” “she” or ___.",
+          "answer": "they",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "they"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Choose who tells the story | Decide how much they know | Keep that view through the scene",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose who tells the story",
+              "Decide how much they know",
+              "Keep that view through the scene"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. I heard footsteps behind me. My heart pounded, but I did not turn around. I counted my steps and kept walking. Which point of view is this?",
+          "answer": "First person",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "First person",
+              "Third person limited",
+              "Omniscient",
+              "Second person"
+            ],
+            "accepted": [
+              "First person"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sam stared at the closed door. He wondered if he should knock. His hand felt heavy, and he could not decide. Which point of view is this?",
+          "answer": "Third person limited",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Third person limited",
+              "First person",
+              "Omniscient",
+              "Second person"
+            ],
+            "accepted": [
+              "Third person limited"
+            ]
+          }
+        },
+        {
+          "id": "cw-pov-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which point of view is this?",
+          "answer": "First person",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "First person",
+              "Third person",
+              "Omniscient",
+              "Second person"
+            ],
+            "accepted": [
+              "First person"
+            ],
+            "audioText": "I walked home alone. I wondered if the others were angry with me."
+          }
+        },
+        {
+          "id": "cw-pov-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the same moment twice, once in first person and once in third person limited: someone waiting for news.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-plot",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Plot shape",
+      "objectiveId": "CW-F-07",
+      "trackId": "creative-writer",
+      "unitId": "scenes",
+      "tip": "A simple plot has a beginning (meet the character and the problem), a rising middle (things get harder), a climax (the biggest moment) and an ending (what changes). Each step should follow from the one before: because of this, then that.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-plot-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What happens in the climax?",
+          "answer": "The biggest, most tense moment",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The biggest, most tense moment",
+              "The story begins",
+              "The character is introduced",
+              "The title appears"
+            ],
+            "accepted": [
+              "The biggest, most tense moment"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What belongs in the beginning?",
+          "answer": "The character and the problem",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The character and the problem",
+              "The final decision",
+              "The credits",
+              "The ending twist"
+            ],
+            "accepted": [
+              "The character and the problem"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the rising middle do?",
+          "answer": "Makes things harder for the character",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Makes things harder for the character",
+              "Solves everything",
+              "Introduces nothing",
+              "Ends the story"
+            ],
+            "accepted": [
+              "Makes things harder for the character"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which links events best?",
+          "answer": "Because of this, then that",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Because of this, then that",
+              "And then, and then, and then",
+              "Nothing connects",
+              "Random events"
+            ],
+            "accepted": [
+              "Because of this, then that"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a story ending?",
+          "answer": "Mina crossed the finish line, finally trusting her own pace.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Mina crossed the finish line, finally trusting her own pace.",
+              "Mina has brown hair.",
+              "The race began.",
+              "Mina met her coach."
+            ],
+            "accepted": [
+              "Mina crossed the finish line, finally trusting her own pace."
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the plot parts in order.",
+          "answer": "Beginning | Rising middle | Climax | Ending",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Beginning",
+              "Rising middle",
+              "Climax",
+              "Ending"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story events in order.",
+          "answer": "Mina signs up for the race but feels slow. | She trains alone and falls behind. | On race day she nearly quits at the hill. | She keeps going and finishes, proud of her own pace.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Mina signs up for the race but feels slow.",
+              "She trains alone and falls behind.",
+              "On race day she nearly quits at the hill.",
+              "She keeps going and finishes, proud of her own pace."
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each plot part with its job.",
+          "answer": "Beginning → introduces the problem | Rising middle → makes it harder | Climax → the biggest moment | Ending → shows what changed",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Beginning",
+                "introduces the problem"
+              ],
+              [
+                "Rising middle",
+                "makes it harder"
+              ],
+              [
+                "Climax",
+                "the biggest moment"
+              ],
+              [
+                "Ending",
+                "shows what changed"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Events in a plot should be linked by cause.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The climax is the quietest moment.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The ___ is the biggest moment of the story.",
+          "answer": "climax",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "climax"
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Things get harder in the middle.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Things",
+              "get",
+              "harder",
+              "in",
+              "the",
+              "middle.",
+              "never",
+              "easier"
+            ],
+            "accepted": [
+              "Things get harder in the middle."
+            ]
+          }
+        },
+        {
+          "id": "cw-plot-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the climax?",
+          "answer": "Tomas jumps in and helps the child",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tomas jumps in and helps the child",
+              "Tomas cannot swim",
+              "Tomas practices each week",
+              "The pool is open"
+            ],
+            "accepted": [
+              "Tomas jumps in and helps the child"
+            ],
+            "audioText": "At first, Tomas could not swim. Each week he practiced, but he sank. On the last day, a child fell in the pool, and Tomas jumped in and helped."
+          }
+        },
+        {
+          "id": "cw-plot-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence story with a beginning, a harder middle, a climax and an ending.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cw-start-end",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Beginnings and endings",
+      "objectiveId": "CW-F-08",
+      "trackId": "creative-writer",
+      "unitId": "scenes",
+      "tip": "Begin as close to the action as you can: a moment, a question, a problem. Skip long background. End with a change, not a summary: show what is different for the character now. A good ending feels both surprising and right.",
+      "sources": [
+        "Freytag, Technique of the Drama (public domain): the shape of a plot (concept only)",
+        "Aristotle, Poetics (public domain translations), and common creative-writing craft teaching (concepts only; all examples original)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "cw-start-end-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening starts close to the action?",
+          "answer": "The key would not turn, and the footsteps were getting closer.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The key would not turn, and the footsteps were getting closer.",
+              "My name is Tom and I am going to tell you a story about my life.",
+              "Once there was a world with many things in it.",
+              "Let me explain the history of keys."
+            ],
+            "accepted": [
+              "The key would not turn, and the footsteps were getting closer."
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending shows a change?",
+          "answer": "Anna put down the phone and, for the first time, said no.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Anna put down the phone and, for the first time, said no.",
+              "And that is the end of the story.",
+              "Anna lived.",
+              "The end."
+            ],
+            "accepted": [
+              "Anna put down the phone and, for the first time, said no."
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening makes the reader ask a question?",
+          "answer": "On the morning my brother disappeared, his bed was still warm.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "On the morning my brother disappeared, his bed was still warm.",
+              "I woke up.",
+              "It was a day.",
+              "There was a house."
+            ],
+            "accepted": [
+              "On the morning my brother disappeared, his bed was still warm."
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending is a weak summary?",
+          "answer": "So the lesson of this story is that friends are important.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So the lesson of this story is that friends are important.",
+              "Leo handed her the last ticket and walked away, smiling.",
+              "The door closed, and the room felt different.",
+              "She lit the lamp, and the street looked new."
+            ],
+            "accepted": [
+              "So the lesson of this story is that friends are important."
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should an ending show?",
+          "answer": "What has changed for the character",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What has changed for the character",
+              "A list of rules",
+              "Every character’s age",
+              "A new unrelated plot"
+            ],
+            "accepted": [
+              "What has changed for the character"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "A question in the first line → makes readers curious | Starting in action → creates energy | A change at the end → makes it satisfying",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A question in the first line",
+                "makes readers curious"
+              ],
+              [
+                "Starting in action",
+                "creates energy"
+              ],
+              [
+                "A change at the end",
+                "makes it satisfying"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Start at a moment of action | Build the problem | End with a change",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Start at a moment of action",
+              "Build the problem",
+              "End with a change"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good opening can start in the middle of an action.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An ending should repeat the whole story.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: End with a ___ for the character.",
+          "answer": "change",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "change"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The key would not turn.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "key",
+              "would",
+              "not",
+              "turn.",
+              "never",
+              "door"
+            ],
+            "accepted": [
+              "The key would not turn."
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-12",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The phone rang at three in the morning. Nobody called at three in the morning. Mia sat up and stared at the name on the screen: her own. What makes this a strong opening?",
+          "answer": "It starts with a strange event that raises a question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It starts with a strange event that raises a question",
+              "It explains the whole backstory",
+              "It lists every character",
+              "It gives the ending"
+            ],
+            "accepted": [
+              "It starts with a strange event that raises a question"
+            ]
+          }
+        },
+        {
+          "id": "cw-start-end-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does this ending work?",
+          "answer": "It shows a change in the character",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It shows a change in the character",
+              "It summarizes the lesson",
+              "It introduces a new story",
+              "It lists facts"
+            ],
+            "accepted": [
+              "It shows a change in the character"
+            ],
+            "audioText": "The letter was still in his hand when the train left. He did not run after it. For the first time in years, he was not afraid."
+          }
+        },
+        {
+          "id": "cw-start-end-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a two-sentence opening that starts in action and a one-sentence ending that shows a change.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2088 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.journalist",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "journalist",
+    "coach": "journalist",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "questions",
+            "title": "Ask good questions"
+          },
+          {
+            "id": "write",
+            "title": "Write the story"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "jn-five-ws",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "The 5 Ws and H",
+      "objectiveId": "JN-F-01",
+      "trackId": "journalist",
+      "unitId": "questions",
+      "tip": "A news story answers six questions: Who? What? Where? When? Why? and How? Reporters check that every story answers them. If an answer is missing, ask another question.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-five-ws-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question word with what it asks for.",
+          "answer": "Who → a person or group | Where → a place | When → a time or date | Why → a reason",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Who",
+                "a person or group"
+              ],
+              [
+                "Where",
+                "a place"
+              ],
+              [
+                "When",
+                "a time or date"
+              ],
+              [
+                "Why",
+                "a reason"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Where did the fire happen?",
+          "answer": "At a furniture store on Elm Street",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At a furniture store on Elm Street",
+              "At a school",
+              "In a forest",
+              "At the fire station"
+            ],
+            "accepted": [
+              "At a furniture store on Elm Street"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. When did the fire happen?",
+          "answer": "Monday night",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Monday night",
+              "Sunday morning",
+              "Friday evening",
+              "Tuesday at noon"
+            ],
+            "accepted": [
+              "Monday night"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Who put out the fire?",
+          "answer": "Firefighters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Firefighters",
+              "Neighbors",
+              "Police officers",
+              "Store workers"
+            ],
+            "accepted": [
+              "Firefighters"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Why did the fire start, according to officials?",
+          "answer": "They think an electrical problem caused it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They think an electrical problem caused it",
+              "A storm hit the store",
+              "A car hit the building",
+              "The cause is known for sure"
+            ],
+            "accepted": [
+              "They think an electrical problem caused it"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A reporter writes: “The mayor opened a new bridge in Dover on Friday.” Which question is still missing?",
+          "answer": "Why was the bridge needed?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Why was the bridge needed?",
+              "Who opened it?",
+              "Where is it?",
+              "When did it open?"
+            ],
+            "accepted": [
+              "Why was the bridge needed?"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A story says what happened but not when. What should the reporter ask?",
+          "answer": "When did it happen?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When did it happen?",
+              "Who is the mayor?",
+              "How tall is the building?",
+              "Where is the city?"
+            ],
+            "accepted": [
+              "When did it happen?"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Who won the prize?",
+          "answer": "Two students",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two students",
+              "A teacher",
+              "The whole school",
+              "A scientist"
+            ],
+            "accepted": [
+              "Two students"
+            ],
+            "audioText": "Two students won a science prize at Oakwood School on Thursday. They built a small machine that cleans water."
+          }
+        },
+        {
+          "id": "jn-five-ws-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What did they build?",
+          "answer": "A machine that cleans water",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A machine that cleans water",
+              "A robot dog",
+              "A new school",
+              "A water bottle"
+            ],
+            "accepted": [
+              "A machine that cleans water"
+            ],
+            "audioText": "Two students won a science prize at Oakwood School on Thursday. They built a small machine that cleans water."
+          }
+        },
+        {
+          "id": "jn-five-ws-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A news story should answer who, what, where, when, why and how.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ asks for a person.",
+          "answer": "Who",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Who"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Who did it and when?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Who",
+              "did",
+              "it",
+              "and",
+              "when?",
+              "where",
+              "why"
+            ],
+            "accepted": [
+              "Who did it and when?"
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The meeting is on Friday at ten.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The meeting is on Friday at ten.",
+            "accepted": [
+              "The meeting is on Friday at ten."
+            ]
+          }
+        },
+        {
+          "id": "jn-five-ws-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Think of one event from your day. Write one sentence that answers who, what, where and when.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-open-closed",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Open and closed questions",
+      "objectiveId": "JN-F-02",
+      "trackId": "journalist",
+      "unitId": "questions",
+      "tip": "A closed question has a short answer, such as yes or no. An open question starts with words like what, how or why and invites a longer answer. Reporters use open questions to get stories and closed questions to check facts.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-open-closed-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is an open question?",
+          "answer": "How did you feel when you won?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How did you feel when you won?",
+              "Did you win?",
+              "Are you happy?",
+              "Is it Friday?"
+            ],
+            "accepted": [
+              "How did you feel when you won?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a closed question?",
+          "answer": "Is the park open today?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Is the park open today?",
+              "Why do you like the park?",
+              "How was your day?",
+              "What happened next?"
+            ],
+            "accepted": [
+              "Is the park open today?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Make an open question from “Do you like your job?”",
+          "answer": "What do you like about your job?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What do you like about your job?",
+              "Is your job good?",
+              "Do you have a job?",
+              "Does your boss like you?"
+            ],
+            "accepted": [
+              "What do you like about your job?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Make an open question from “Was the game exciting?”",
+          "answer": "What made the game exciting?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What made the game exciting?",
+              "Did you watch the game?",
+              "Was it long?",
+              "Is it over?"
+            ],
+            "accepted": [
+              "What made the game exciting?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "How did you start your business?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "How",
+              "did",
+              "you",
+              "start",
+              "your",
+              "business?",
+              "Did",
+              "Is"
+            ],
+            "accepted": [
+              "How did you start your business?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "What was the hardest part?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "What",
+              "was",
+              "the",
+              "hardest",
+              "part?",
+              "Was",
+              "Is"
+            ],
+            "accepted": [
+              "What was the hardest part?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type a missing word: ___ did you decide to move here?",
+          "answer": "Why",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Why",
+              "How"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with the answer it usually gets.",
+          "answer": "Is the store open? → a short yes or no | Why did you open the store? → a longer answer with reasons | What happened on your first day? → a story",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Is the store open?",
+                "a short yes or no"
+              ],
+              [
+                "Why did you open the store?",
+                "a longer answer with reasons"
+              ],
+              [
+                "What happened on your first day?",
+                "a story"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "What | happened | after | the | storm?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "What",
+              "happened",
+              "after",
+              "the",
+              "storm?"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A closed question usually gets a long answer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Open questions often start with what, how or why.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-open-closed-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which question was open?",
+          "answer": "What was your favorite part?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What was your favorite part?",
+              "Did you enjoy the festival?",
+              "Both of them",
+              "Neither of them"
+            ],
+            "accepted": [
+              "What was your favorite part?"
+            ],
+            "audioText": "Did you enjoy the festival? Yes. What was your favorite part? The street musicians, because they played songs from many countries."
+          }
+        },
+        {
+          "id": "jn-open-closed-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one closed question and one open question for a classmate about their weekend.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-follow-up",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Follow-up questions",
+      "objectiveId": "JN-F-03",
+      "trackId": "journalist",
+      "unitId": "questions",
+      "tip": "A follow-up question builds on what the person just said. It shows you listened, and it gets details. Good follow-ups are “Can you give an example?”, “What happened next?” and “Why was that important?”",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-follow-up-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "The mayor says: “We will fix the old bridge.” Which is the best follow-up?",
+          "answer": "When will the work start?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When will the work start?",
+              "What is your favorite color?",
+              "Do you like bridges?",
+              "How old are you?"
+            ],
+            "accepted": [
+              "When will the work start?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A baker says: “Business has been hard this year.” Which is the best follow-up?",
+          "answer": "What has made it hard?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What has made it hard?",
+              "What is your name?",
+              "Where is the bank?",
+              "Is bread healthy?"
+            ],
+            "accepted": [
+              "What has made it hard?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A student says: “I was nervous before the exam.” Which is the best follow-up?",
+          "answer": "What did you do to calm down?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What did you do to calm down?",
+              "Which day is it?",
+              "Is the school big?",
+              "Do you like exams?"
+            ],
+            "accepted": [
+              "What did you do to calm down?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Someone says: “We moved here last year.” Which question ignores what was said?",
+          "answer": "What is the capital of France?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What is the capital of France?",
+              "Why did you move?",
+              "How do you like it here?",
+              "Where did you live before?"
+            ],
+            "accepted": [
+              "What is the capital of France?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A chef tells a reporter that she makes all the bread by hand every morning at four o’clock. Which follow-up question builds on this?",
+          "answer": "Why do you start so early?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Why do you start so early?",
+              "How tall are you?",
+              "Do you like the news?",
+              "What city is this?"
+            ],
+            "accepted": [
+              "Why do you start so early?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with what it does.",
+          "answer": "Can you give an example? → gets a clear detail | What happened next? → moves the story forward | Why was that important? → gets a reason",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Can you give an example?",
+                "gets a clear detail"
+              ],
+              [
+                "What happened next?",
+                "moves the story forward"
+              ],
+              [
+                "Why was that important?",
+                "gets a reason"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Listen to the answer | Pick one interesting point | Ask a question about that point",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Listen to the answer",
+              "Pick one interesting point",
+              "Ask a question about that point"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A follow-up question builds on the ___.",
+          "answer": "answer",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "answer"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A follow-up question shows you were listening.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Can you give an example?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Can",
+              "you",
+              "give",
+              "an",
+              "example?",
+              "Do",
+              "some"
+            ],
+            "accepted": [
+              "Can you give an example?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which follow-up fits best?",
+          "answer": "How did he get the idea?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How did he get the idea?",
+              "What time is lunch?",
+              "Who is the principal?",
+              "Where is the bus?"
+            ],
+            "accepted": [
+              "How did he get the idea?"
+            ],
+            "audioText": "My brother started a small garden at school. Now every class uses the vegetables for lunch."
+          }
+        },
+        {
+          "id": "jn-follow-up-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Can you tell me more about that?",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Can you tell me more about that?",
+            "accepted": [
+              "Can you tell me more about that?"
+            ]
+          }
+        },
+        {
+          "id": "jn-follow-up-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A friend says: “I changed my job last month.” Write two follow-up questions.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-quote-attribute",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Quote and attribute",
+      "objectiveId": "JN-F-04",
+      "trackId": "journalist",
+      "unitId": "questions",
+      "tip": "A quote uses a person’s exact words inside quotation marks. Attribution says who said them: “said Maria Lopez.” Use “said” most of the time. Never change the words inside the quotation marks. If you change them, it is a paraphrase, not a quote.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-quote-attribute-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is punctuated correctly?",
+          "answer": "“I love this town,” said Mia.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“I love this town,” said Mia.",
+              "“I love this town”, said Mia.",
+              "“I love this town” said Mia.",
+              "I love this town, said Mia."
+            ],
+            "accepted": [
+              "“I love this town,” said Mia."
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a direct quote?",
+          "answer": "The coach said, “We played our best.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The coach said, “We played our best.”",
+              "The coach said they played their best.",
+              "The coach was happy.",
+              "The coach left early."
+            ],
+            "accepted": [
+              "The coach said, “We played our best.”"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which one is a paraphrase?",
+          "answer": "The mayor said the road will close on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The mayor said the road will close on Monday.",
+              "The mayor said, “The road will close on Monday.”",
+              "“The road will close,” said the mayor.",
+              "The mayor said, “Close it!”"
+            ],
+            "accepted": [
+              "The mayor said the road will close on Monday."
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which verb is the most neutral for attribution?",
+          "answer": "said",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "said",
+              "shouted",
+              "complained",
+              "bragged"
+            ],
+            "accepted": [
+              "said"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you NOT do with a quote?",
+          "answer": "Change the words inside the quotation marks",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Change the words inside the quotation marks",
+              "Add the speaker’s name",
+              "Put it in quotation marks",
+              "Use it in the second paragraph"
+            ],
+            "accepted": [
+              "Change the words inside the quotation marks"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The school principal spoke to students on Monday. “Every student will get a free book,” said Ms. Park. The students cheered. Who said the words in quotation marks?",
+          "answer": "Ms. Park",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ms. Park",
+              "The students",
+              "The reporter",
+              "Every student"
+            ],
+            "accepted": [
+              "Ms. Park"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: “We start at nine,” ___ the teacher.",
+          "answer": "said",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "said"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its meaning.",
+          "answer": "Quote → the exact words a person said | Paraphrase → the same idea in your own words | Attribution → who said the words",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Quote",
+                "the exact words a person said"
+              ],
+              [
+                "Paraphrase",
+                "the same idea in your own words"
+              ],
+              [
+                "Attribution",
+                "who said the words"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Write the person’s exact words in quotation marks | Add who said them | Check that the words are exact",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Write the person’s exact words in quotation marks",
+              "Add who said them",
+              "Check that the words are exact"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Attribution tells the reader who said something.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You may change a few words inside quotation marks.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "“I am proud,” said Ana.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "“I",
+              "am",
+              "proud,”",
+              "said",
+              "Ana.",
+              "asked",
+              "shouted"
+            ],
+            "accepted": [
+              "“I am proud,” said Ana."
+            ]
+          }
+        },
+        {
+          "id": "jn-quote-attribute-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one sentence with a quote and attribution about something someone said to you this week.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-pyramid",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "The inverted pyramid",
+      "objectiveId": "JN-F-05",
+      "trackId": "journalist",
+      "unitId": "write",
+      "tip": "News stories put the most important facts first and the smaller details later. The shape is an upside-down pyramid: wide at the top with the key facts, and narrow at the bottom with extra details. If a reader stops after the first paragraph, they still know the story.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-pyramid-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the paragraphs of a news story in the usual order.",
+          "answer": "A bridge in Dover will close for repairs from Monday, the city said. | The work will take six weeks and cost two million dollars. | Drivers can use Mill Road instead, and extra buses will run. | The bridge was built in 1962.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "A bridge in Dover will close for repairs from Monday, the city said.",
+              "The work will take six weeks and cost two million dollars.",
+              "Drivers can use Mill Road instead, and extra buses will run.",
+              "The bridge was built in 1962."
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which fact belongs in the first paragraph?",
+          "answer": "A bridge in Dover will close on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A bridge in Dover will close on Monday.",
+              "The bridge was painted green in 1990.",
+              "The mayor likes bridges.",
+              "A café sells coffee near the bridge."
+            ],
+            "accepted": [
+              "A bridge in Dover will close on Monday."
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which fact is the least important, so it goes last?",
+          "answer": "The bridge was built in 1962.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The bridge was built in 1962.",
+              "The bridge will close on Monday.",
+              "Repairs will take six weeks.",
+              "Drivers can use Mill Road."
+            ],
+            "accepted": [
+              "The bridge was built in 1962."
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do reporters use the inverted pyramid?",
+          "answer": "Readers get the key facts even if they stop early",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Readers get the key facts even if they stop early",
+              "It is a shape for school buildings",
+              "It makes stories longer",
+              "It puts jokes first"
+            ],
+            "accepted": [
+              "Readers get the key facts even if they stop early"
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What shape describes a news story?",
+          "answer": "An upside-down pyramid",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An upside-down pyramid",
+              "A circle",
+              "A straight line",
+              "A square"
+            ],
+            "accepted": [
+              "An upside-down pyramid"
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A school bus caught fire near Pine Park on Tuesday morning. All 24 children got off safely. The driver, Lee Wong, called for help. The bus was 12 years old. Which sentence is best for the first line of the news story?",
+          "answer": "A school bus caught fire near Pine Park on Tuesday morning.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A school bus caught fire near Pine Park on Tuesday morning.",
+              "The bus was 12 years old.",
+              "The driver called for help.",
+              "All 24 children got off safely."
+            ],
+            "accepted": [
+              "A school bus caught fire near Pine Park on Tuesday morning."
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which fact is the least important?",
+          "answer": "The pipe was installed in 1985",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The pipe was installed in 1985",
+              "Main Street was closed",
+              "A pipe broke",
+              "The street opens tomorrow"
+            ],
+            "accepted": [
+              "The pipe was installed in 1985"
+            ],
+            "audioText": "Police closed Main Street today after a water pipe broke. The street will open again tomorrow. The pipe was installed in 1985."
+          }
+        },
+        {
+          "id": "jn-pyramid-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The most important facts go at the top.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A news story starts with the smallest detail.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of the story with its job.",
+          "answer": "Top → the key facts | Middle → important details | Bottom → extra background",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Top",
+                "the key facts"
+              ],
+              [
+                "Middle",
+                "important details"
+              ],
+              [
+                "Bottom",
+                "extra background"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The most ___ facts come first.",
+          "answer": "important",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "important"
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Put the key facts first.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Put",
+              "the",
+              "key",
+              "facts",
+              "first.",
+              "last",
+              "small"
+            ],
+            "accepted": [
+              "Put the key facts first."
+            ]
+          }
+        },
+        {
+          "id": "jn-pyramid-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three sentences about something that happened today. Put the most important fact first.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-headlines",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Headlines and ledes",
+      "objectiveId": "JN-F-06",
+      "trackId": "journalist",
+      "unitId": "write",
+      "tip": "A headline is a short title that tells the main news. It uses short, strong words and often drops small words like “the” and “a.” The lede is the first sentence of the story. It gives the most important facts clearly in one sentence.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-headlines-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline is best for a story about a bridge closing?",
+          "answer": "Dover bridge to close for six weeks",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dover bridge to close for six weeks",
+              "A thing is happening",
+              "Bridge",
+              "Many people live in Dover and some like bridges and others do not"
+            ],
+            "accepted": [
+              "Dover bridge to close for six weeks"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which headline is the clearest?",
+          "answer": "Town opens new library on Main Street",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Town opens new library on Main Street",
+              "Something new",
+              "A building",
+              "Library library library"
+            ],
+            "accepted": [
+              "Town opens new library on Main Street"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words do headlines often drop?",
+          "answer": "“the” and “a”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“the” and “a”",
+              "Names and numbers",
+              "Verbs and nouns",
+              "Dates and places"
+            ],
+            "accepted": [
+              "“the” and “a”"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a good lede?",
+          "answer": "A water pipe broke on Main Street on Monday, closing the road for a day.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A water pipe broke on Main Street on Monday, closing the road for a day.",
+              "Pipes are interesting.",
+              "Main Street is a street.",
+              "Water is a liquid."
+            ],
+            "accepted": [
+              "A water pipe broke on Main Street on Monday, closing the road for a day."
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which lede answers who, what and when?",
+          "answer": "Two students won a science prize on Thursday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two students won a science prize on Thursday.",
+              "Prizes are nice.",
+              "Science is fun, and many people like it.",
+              "The school has a big gate."
+            ],
+            "accepted": [
+              "Two students won a science prize on Thursday."
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Firefighters saved a cat from a tall tree in Oak Park on Sunday. The cat, named Milo, had been in the tree for two days. Which headline fits this story best?",
+          "answer": "Firefighters rescue cat from Oak Park tree",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Firefighters rescue cat from Oak Park tree",
+              "Tree grows in park",
+              "Cat is named Milo",
+              "Sunday is a good day"
+            ],
+            "accepted": [
+              "Firefighters rescue cat from Oak Park tree"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a short headline.",
+          "answer": "Town opens new park",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Town",
+              "opens",
+              "new",
+              "park",
+              "the",
+              "a",
+              "is"
+            ],
+            "accepted": [
+              "Town opens new park"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build a short headline.",
+          "answer": "Mayor opens bridge",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Mayor",
+              "opens",
+              "bridge",
+              "the",
+              "was"
+            ],
+            "accepted": [
+              "Mayor opens bridge"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The ___ is the first sentence of the story.",
+          "answer": "lede",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "lede",
+              "lead"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A headline should be long and detailed.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The lede gives the most important facts.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its job.",
+          "answer": "Headline → a short title with the main news | Lede → the first sentence with the key facts | Byline → the name of the writer",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Headline",
+                "a short title with the main news"
+              ],
+              [
+                "Lede",
+                "the first sentence with the key facts"
+              ],
+              [
+                "Byline",
+                "the name of the writer"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find the main news | Write a short headline | Write a lede with the key facts",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the main news",
+              "Write a short headline",
+              "Write a lede with the key facts"
+            ]
+          }
+        },
+        {
+          "id": "jn-headlines-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a headline and a one-sentence lede about something that happened at school or work this week.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-fact-opinion",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Fact, opinion and doubt",
+      "objectiveId": "JN-F-07",
+      "trackId": "journalist",
+      "unitId": "write",
+      "tip": "Reporters separate what is known from what is thought. A fact can be checked. An opinion is a view. When the facts are not sure, use careful words such as “police said,” “may have” and “according to.” Never state a guess as a fact.",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-fact-opinion-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence states a fact?",
+          "answer": "The shop opens at nine.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The shop opens at nine.",
+              "The shop is the best in town.",
+              "The shop should open earlier.",
+              "The shop is probably nice."
+            ],
+            "accepted": [
+              "The shop opens at nine."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "The cause of a fire is not sure. Which sentence is the most careful?",
+          "answer": "Officials said the fire may have started in the kitchen.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Officials said the fire may have started in the kitchen.",
+              "The fire started in the kitchen.",
+              "The fire was a disaster.",
+              "The cook caused the fire."
+            ],
+            "accepted": [
+              "Officials said the fire may have started in the kitchen."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words show a source?",
+          "answer": "according to the police",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "according to the police",
+              "I feel that",
+              "probably",
+              "maybe"
+            ],
+            "accepted": [
+              "according to the police"
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is an opinion?",
+          "answer": "It was the worst storm ever.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It was the worst storm ever.",
+              "The storm hit on Tuesday.",
+              "The storm lasted six hours.",
+              "Trees fell on Oak Road."
+            ],
+            "accepted": [
+              "It was the worst storm ever."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A witness says the man was “about 40.” How should a reporter write it?",
+          "answer": "The man was about 40, a witness said.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The man was about 40, a witness said.",
+              "The man was exactly 40.",
+              "The man was young.",
+              "The man was 39."
+            ],
+            "accepted": [
+              "The man was about 40, a witness said."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A bakery on River Road closed on Friday. The owner, Sam Cole, said rising prices were the reason. Some neighbors think the bread was too expensive. Which sentence is an opinion?",
+          "answer": "Some neighbors think the bread was too expensive.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Some neighbors think the bread was too expensive.",
+              "A bakery on River Road closed on Friday.",
+              "The owner is Sam Cole.",
+              "The owner gave a reason."
+            ],
+            "accepted": [
+              "Some neighbors think the bread was too expensive."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A bakery on River Road closed on Friday. The owner, Sam Cole, said rising prices were the reason. Some neighbors think the bread was too expensive. Who gave the reason for closing?",
+          "answer": "The owner, Sam Cole",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The owner, Sam Cole",
+              "Some neighbors",
+              "The reporter",
+              "The customers"
+            ],
+            "accepted": [
+              "The owner, Sam Cole"
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with what it shows.",
+          "answer": "according to → a source | may have → not sure | I think → an opinion",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "according to",
+                "a source"
+              ],
+              [
+                "may have",
+                "not sure"
+              ],
+              [
+                "I think",
+                "an opinion"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A reporter should state a guess as a fact.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “Police said” tells the reader where the information came from.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Reporters name their ___.",
+          "answer": "sources",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "sources",
+              "source"
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Police said it was an accident.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Police",
+              "said",
+              "it",
+              "was",
+              "an",
+              "accident.",
+              "think",
+              "maybe"
+            ],
+            "accepted": [
+              "Police said it was an accident."
+            ]
+          }
+        },
+        {
+          "id": "jn-fact-opinion-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two sentences about something you are not sure about. Use “may” or “according to.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-summarize",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Summarize a source fairly",
+      "objectiveId": "JN-F-08",
+      "trackId": "journalist",
+      "unitId": "write",
+      "tip": "To summarize, write the main points in your own words and keep the meaning the same. Do not add your opinion, and do not leave out facts that change the meaning. Name the source: “The report says…”",
+      "sources": [
+        "Common newsroom conventions: the 5 Ws and H, the inverted pyramid, attribution (concepts only)",
+        "Society of Professional Journalists, Code of Ethics (accuracy and fairness; summarized, not quoted)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-summarize-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Monday to build a new bike lane on Pine Street. The lane will cost 300,000 dollars. Supporters say it will make the street safer. Some shop owners worry that they will lose parking spaces. Which is the fairest summary?",
+          "answer": "The council voted to build a bike lane; supporters say it is safer, and some shop owners worry about parking.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The council voted to build a bike lane; supporters say it is safer, and some shop owners worry about parking.",
+              "The council made a terrible choice about bikes.",
+              "The council voted to build a bike lane and everybody agreed.",
+              "Shop owners lost their parking spaces and are angry."
+            ],
+            "accepted": [
+              "The council voted to build a bike lane; supporters say it is safer, and some shop owners worry about parking."
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Monday to build a new bike lane on Pine Street. The lane will cost 300,000 dollars. Supporters say it will make the street safer. Some shop owners worry that they will lose parking spaces. Which summary adds an opinion?",
+          "answer": "The council wasted money on a silly bike lane.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The council wasted money on a silly bike lane.",
+              "The council voted for a new bike lane on Pine Street.",
+              "The lane will cost 300,000 dollars.",
+              "Supporters say the lane will make the street safer."
+            ],
+            "accepted": [
+              "The council wasted money on a silly bike lane."
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-03",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Monday to build a new bike lane on Pine Street. The lane will cost 300,000 dollars. Supporters say it will make the street safer. Some shop owners worry that they will lose parking spaces. Which detail is a key fact for a short summary?",
+          "answer": "The council voted to build a bike lane.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The council voted to build a bike lane.",
+              "The meeting began at six.",
+              "The room was warm.",
+              "A man wore a hat."
+            ],
+            "accepted": [
+              "The council voted to build a bike lane."
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A summary should be...",
+          "answer": "much shorter than the original",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "much shorter than the original",
+              "longer than the original",
+              "full of your opinions",
+              "word for word the same"
+            ],
+            "accepted": [
+              "much shorter than the original"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase names the source?",
+          "answer": "The report says",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The report says",
+              "In my view",
+              "It seems",
+              "Everyone knows"
+            ],
+            "accepted": [
+              "The report says"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You may leave out facts that change the meaning.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good summary uses your own words.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Read the source carefully | Find the main points | Write them in your own words | Check that the meaning is the same",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Read the source carefully",
+              "Find the main points",
+              "Write them in your own words",
+              "Check that the meaning is the same"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each summary mistake with its result.",
+          "answer": "Adding your opinion → unfair | Leaving out a key fact → misleading | Copying word for word → not a summary",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Adding your opinion",
+                "unfair"
+              ],
+              [
+                "Leaving out a key fact",
+                "misleading"
+              ],
+              [
+                "Copying word for word",
+                "not a summary"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A summary keeps the same ___.",
+          "answer": "meaning",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "meaning"
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The report says costs will rise.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "report",
+              "says",
+              "costs",
+              "will",
+              "rise.",
+              "think",
+              "lower"
+            ],
+            "accepted": [
+              "The report says costs will rise."
+            ]
+          }
+        },
+        {
+          "id": "jn-summarize-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which is the best summary?",
+          "answer": "Dry weather cut harvests, and the government plans to help farmers.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dry weather cut harvests, and the government plans to help farmers.",
+              "The government made a bad plan for farmers.",
+              "Farmers had a big harvest.",
+              "The summer was wet."
+            ],
+            "accepted": [
+              "Dry weather cut harvests, and the government plans to help farmers."
+            ],
+            "audioText": "Local farmers say the dry summer cut their harvest by a third. The government plans to give them extra help."
+          }
+        },
+        {
+          "id": "jn-summarize-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Summarize a short news story you read or heard this week in two sentences. Name the source.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

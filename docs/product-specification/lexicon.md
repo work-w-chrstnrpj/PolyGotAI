@@ -46,6 +46,10 @@ Tab order: **Today | Lexicon | Lesson | Speech Lab | Progress**.
 - The generation prompt asks for accurate terms and original examples. The learner can flag a wrong term; flagged terms are removed.
 - Without a key, this mode shows a single "Add your AI key in Settings" button and nothing else.
 
+## CEFR vocabulary levels and register (owner direction 2026-10-25)
+
+The predefined bank is organized by CEFR level, A1 to C2, with about three groups per level. Each word carries its level and a register tag: everyday, term, jargon, slang or informal. Groups switch on to match the level the learner has unlocked, and the next group is suggested when one is finished. Ready-made field packs (business, tech, health, travel, law) add terms and jargon offline. AI-made collections (mode 4) use the same level and register fields.
+
 ## Content sources for the predefined bank
 
 Word lists are chosen from open, well-known lists; **all meanings and examples are original wording**. Candidate sources: New General Service List (NGSL) and New Academic Word List (NAWL) from the NGSL Project (CC BY-SA 4.0: credit, and check the share-alike effect on the word *list* before publishing), Coxhead's Academic Word List, and public-domain word lists. Lists are used only to choose which words to include. Licensing is checked before any list is bundled. Every bank file records its sources.

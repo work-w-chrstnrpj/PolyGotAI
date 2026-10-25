@@ -1,0 +1,2277 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.public-speaker",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "public-speaker",
+    "coach": "publicSpeaker",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "structure",
+            "title": "Structure and words"
+          },
+          {
+            "id": "delivery",
+            "title": "Delivery"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "ps-open-close",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Openings and closings",
+      "objectiveId": "PS-F-01",
+      "trackId": "public-speaker",
+      "unitId": "structure",
+      "tip": "The first and last moments matter most. Open with something that wakes the audience up: a question, a short story or a surprising fact. Do not start with “Today I will talk about…” Close by returning to your main message and ending with a clear thought or call to action.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-open-close-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the strongest opening for a talk about sleep?",
+          "answer": "Last night, nearly half of this room slept less than six hours.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Last night, nearly half of this room slept less than six hours.",
+              "Hello. My name is Tom and I will talk about sleep.",
+              "Sleep is a topic.",
+              "Um, so, today, yeah, sleep."
+            ],
+            "accepted": [
+              "Last night, nearly half of this room slept less than six hours."
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening uses a question?",
+          "answer": "What would you do with one extra hour every day?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What would you do with one extra hour every day?",
+              "I will talk about time.",
+              "Time is important.",
+              "Hello everyone."
+            ],
+            "accepted": [
+              "What would you do with one extra hour every day?"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening is a short story?",
+          "answer": "Last winter, my bus broke down in the snow, and a stranger changed my mind about people.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Last winter, my bus broke down in the snow, and a stranger changed my mind about people.",
+              "Stories are interesting.",
+              "Buses are slow.",
+              "Snow is cold."
+            ],
+            "accepted": [
+              "Last winter, my bus broke down in the snow, and a stranger changed my mind about people."
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which closing is strongest?",
+          "answer": "So the next time you feel tired, protect your sleep. Start tonight.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So the next time you feel tired, protect your sleep. Start tonight.",
+              "That’s all. I’m done.",
+              "Sorry, I ran out of time.",
+              "Um, I think that’s it."
+            ],
+            "accepted": [
+              "So the next time you feel tired, protect your sleep. Start tonight."
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a closing do?",
+          "answer": "Return to the main message and leave a clear thought",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Return to the main message and leave a clear thought",
+              "Add a brand-new topic",
+              "Apologize",
+              "Read every slide again"
+            ],
+            "accepted": [
+              "Return to the main message and leave a clear thought"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a weak opening?",
+          "answer": "Um, so, today I will, like, talk about stuff.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Um, so, today I will, like, talk about stuff.",
+              "A surprising fact",
+              "A short story",
+              "A strong question"
+            ],
+            "accepted": [
+              "Um, so, today I will, like, talk about stuff."
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each opening type with an example.",
+          "answer": "Question → What if you could learn any language? | Story → Last year I got lost in Tokyo. | Surprising fact → Most people forget half of what they hear within an hour.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Question",
+                "What if you could learn any language?"
+              ],
+              [
+                "Story",
+                "Last year I got lost in Tokyo."
+              ],
+              [
+                "Surprising fact",
+                "Most people forget half of what they hear within an hour."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the parts of the talk in order.",
+          "answer": "Strong opening | Main points | Closing message",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Strong opening",
+              "Main points",
+              "Closing message"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The best openings begin with “Today I will talk about.”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A closing should return to your main message.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A good closing ends with a clear ___.",
+          "answer": "message",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "message",
+              "thought",
+              "takeaway"
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Start with a strong question.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Start",
+              "with",
+              "a",
+              "strong",
+              "question.",
+              "weak",
+              "never"
+            ],
+            "accepted": [
+              "Start with a strong question."
+            ]
+          }
+        },
+        {
+          "id": "ps-open-close-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What kind of opening is this?",
+          "answer": "A question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A question",
+              "A story",
+              "A joke",
+              "An apology"
+            ],
+            "accepted": [
+              "A question"
+            ],
+            "audioText": "Imagine you have one minute to save a life. What would you do? Today, I will show you three simple steps."
+          }
+        },
+        {
+          "id": "ps-open-close-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write an opening sentence and a closing sentence for a one-minute talk about your favorite hobby.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-signpost",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Signposts",
+      "objectiveId": "PS-F-02",
+      "trackId": "public-speaker",
+      "unitId": "structure",
+      "tip": "Signposts tell the audience where you are going, like road signs. At the start, give a map: “I have three points.” Between points say “My second point is…” At the end say “To sum up…” Signposts help listeners who cannot go back and re-read.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-signpost-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence gives the audience a map?",
+          "answer": "I will make three points: cost, time and safety.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I will make three points: cost, time and safety.",
+              "Um, let me think.",
+              "Okay.",
+              "This is a topic."
+            ],
+            "accepted": [
+              "I will make three points: cost, time and safety."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase starts the second point?",
+          "answer": "My second point is about time.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My second point is about time.",
+              "To sum up,",
+              "Hello everyone.",
+              "Thank you."
+            ],
+            "accepted": [
+              "My second point is about time."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase signals the end?",
+          "answer": "To sum up,",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To sum up,",
+              "First,",
+              "Next,",
+              "Let me begin."
+            ],
+            "accepted": [
+              "To sum up,"
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase shows a change of topic?",
+          "answer": "Now let’s turn to cost.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Now let’s turn to cost.",
+              "As I said,",
+              "In the end,",
+              "Once upon a time,"
+            ],
+            "accepted": [
+              "Now let’s turn to cost."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do speakers use signposts?",
+          "answer": "Listeners cannot go back and re-read",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listeners cannot go back and re-read",
+              "To make the talk longer",
+              "To hide mistakes",
+              "To avoid eye contact"
+            ],
+            "accepted": [
+              "Listeners cannot go back and re-read"
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each signpost with its job.",
+          "answer": "First, → starts the first point | Next, → moves to the second point | Finally, → introduces the last point | To sum up, → begins the summary",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "First,",
+                "starts the first point"
+              ],
+              [
+                "Next,",
+                "moves to the second point"
+              ],
+              [
+                "Finally,",
+                "introduces the last point"
+              ],
+              [
+                "To sum up,",
+                "begins the summary"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the signposts in order.",
+          "answer": "I have three points. | First, the cost. | Next, the time. | Finally, the safety. | To sum up, the plan is worth it.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "I have three points.",
+              "First, the cost.",
+              "Next, the time.",
+              "Finally, the safety.",
+              "To sum up, the plan is worth it."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let me begin with cost.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let",
+              "me",
+              "begin",
+              "with",
+              "cost.",
+              "end",
+              "never"
+            ],
+            "accepted": [
+              "Let me begin with cost."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Now let’s turn to safety.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Now",
+              "let’s",
+              "turn",
+              "to",
+              "safety.",
+              "back",
+              "never"
+            ],
+            "accepted": [
+              "Now let’s turn to safety."
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ sum up, the plan is simple.",
+          "answer": "To",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "To"
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Signposts help the audience follow your talk.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-signpost-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How many points does the speaker make?",
+          "answer": "Two",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two",
+              "Three",
+              "Four",
+              "One"
+            ],
+            "accepted": [
+              "Two"
+            ],
+            "audioText": "I have two points. First, the plan saves money. Second, it saves time. To sum up, we should start now."
+          }
+        },
+        {
+          "id": "ps-signpost-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which phrase starts the summary?",
+          "answer": "To sum up",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To sum up",
+              "First",
+              "Second",
+              "I have"
+            ],
+            "accepted": [
+              "To sum up"
+            ],
+            "audioText": "I have two points. First, the plan saves money. Second, it saves time. To sum up, we should start now."
+          }
+        },
+        {
+          "id": "ps-signpost-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a signposted outline for a short talk: an opening map, three signposts and a summary line.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-rhythm",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Repeat for rhythm",
+      "objectiveId": "PS-F-03",
+      "trackId": "public-speaker",
+      "unitId": "structure",
+      "tip": "A tricolon is a list of three: “Stop, look, listen.” Three feels complete and is easy to remember. Anaphora repeats the same words at the start of sentences: “We will work. We will learn. We will win.” Both build rhythm and make a line memorable.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-rhythm-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a tricolon (a list of three)?",
+          "answer": "We came, we saw, we learned.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We came, we saw, we learned.",
+              "We came and saw.",
+              "We came.",
+              "We came, we saw, we learned, we left, we returned."
+            ],
+            "accepted": [
+              "We came, we saw, we learned."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses anaphora?",
+          "answer": "We will work. We will learn. We will win.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We will work. We will learn. We will win.",
+              "We will work, learn and win quickly.",
+              "We will work.",
+              "Working is good for us."
+            ],
+            "accepted": [
+              "We will work. We will learn. We will win."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does anaphora repeat?",
+          "answer": "The same words at the start of sentences",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The same words at the start of sentences",
+              "The last word only",
+              "A question",
+              "A number"
+            ],
+            "accepted": [
+              "The same words at the start of sentences"
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why are lists of three popular in speeches?",
+          "answer": "Three feels complete and is easy to remember",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Three feels complete and is easy to remember",
+              "Three is the longest list",
+              "Two is not allowed",
+              "Four is not allowed"
+            ],
+            "accepted": [
+              "Three feels complete and is easy to remember"
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line is a tricolon?",
+          "answer": "Read it, say it, remember it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Read it, say it, remember it.",
+              "Read it.",
+              "Read it and say it.",
+              "Read, say, remember, repeat, review."
+            ],
+            "accepted": [
+              "Read it, say it, remember it."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line uses anaphora?",
+          "answer": "Every voice matters. Every vote matters. Every day matters.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Every voice matters. Every vote matters. Every day matters.",
+              "Voices and votes matter every day.",
+              "Voices matter.",
+              "Votes matter."
+            ],
+            "accepted": [
+              "Every voice matters. Every vote matters. Every day matters."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each device with its meaning.",
+          "answer": "Tricolon → a list of three | Anaphora → repeated opening words | Rhythm → a pattern of beats",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Tricolon",
+                "a list of three"
+              ],
+              [
+                "Anaphora",
+                "repeated opening words"
+              ],
+              [
+                "Rhythm",
+                "a pattern of beats"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the line.",
+          "answer": "Stop, look, and listen.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Stop,",
+              "look,",
+              "and",
+              "listen.",
+              "run",
+              "never"
+            ],
+            "accepted": [
+              "Stop, look, and listen."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the line.",
+          "answer": "We will learn, we will grow, we will win.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "will",
+              "learn,",
+              "we",
+              "will",
+              "grow,",
+              "we",
+              "will",
+              "win.",
+              "never",
+              "lose"
+            ],
+            "accepted": [
+              "We will learn, we will grow, we will win."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A tricolon is a list of ___.",
+          "answer": "three",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "three",
+              "3"
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Anaphora repeats words at the end of a sentence.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Repeating words can make a line easier to remember.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which device is this?",
+          "answer": "Anaphora",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Anaphora",
+              "Antithesis",
+              "A question",
+              "A story"
+            ],
+            "accepted": [
+              "Anaphora"
+            ],
+            "audioText": "We need courage. We need patience. We need each other."
+          }
+        },
+        {
+          "id": "ps-rhythm-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the lines in order.",
+          "answer": "I came to learn, | I stayed to practice, | I leave to teach.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "I came to learn,",
+              "I stayed to practice,",
+              "I leave to teach."
+            ]
+          }
+        },
+        {
+          "id": "ps-rhythm-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one tricolon and one anaphora line about something you want to change.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-contrast",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Contrast and questions",
+      "objectiveId": "PS-F-04",
+      "trackId": "public-speaker",
+      "unitId": "structure",
+      "tip": "Antithesis puts opposite ideas side by side: “Easy to say, hard to do.” It makes a point clear and strong. A rhetorical question is asked for effect, not for an answer: “Who wouldn’t want a safer street?” It makes the audience think.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-contrast-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses antithesis (opposite ideas side by side)?",
+          "answer": "Easy to say, hard to do.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Easy to say, hard to do.",
+              "It is easy to say.",
+              "It is hard.",
+              "Saying and doing are words."
+            ],
+            "accepted": [
+              "Easy to say, hard to do."
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a rhetorical question?",
+          "answer": "Who wouldn’t want a safer street?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Who wouldn’t want a safer street?",
+              "What time is it?",
+              "Where is the exit?",
+              "How old are you?"
+            ],
+            "accepted": [
+              "Who wouldn’t want a safer street?"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do speakers ask rhetorical questions?",
+          "answer": "To make the audience think, not to get an answer",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To make the audience think, not to get an answer",
+              "To get a number",
+              "To end the talk",
+              "To change the topic"
+            ],
+            "accepted": [
+              "To make the audience think, not to get an answer"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line uses antithesis?",
+          "answer": "We came to talk, but we stayed to listen.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We came to talk, but we stayed to listen.",
+              "We came and we stayed.",
+              "They listened.",
+              "We talked to everyone."
+            ],
+            "accepted": [
+              "We came to talk, but we stayed to listen."
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which pair of words makes an antithesis?",
+          "answer": "easy / hard",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "easy / hard",
+              "cat / dog",
+              "red / blue",
+              "apple / pear"
+            ],
+            "accepted": [
+              "easy / hard"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a real question that needs an answer?",
+          "answer": "What time does the train leave?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What time does the train leave?",
+              "Isn’t it time to act?",
+              "Who doesn’t love a sunny day?",
+              "Can anyone say no to that?"
+            ],
+            "accepted": [
+              "What time does the train leave?"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each device with an example.",
+          "answer": "Antithesis → Easy to say, hard to do. | Rhetorical question → Isn’t it time to act? | Tricolon → Stop, look, listen. | Anaphora → We can. We will. We must.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Antithesis",
+                "Easy to say, hard to do."
+              ],
+              [
+                "Rhetorical question",
+                "Isn’t it time to act?"
+              ],
+              [
+                "Tricolon",
+                "Stop, look, listen."
+              ],
+              [
+                "Anaphora",
+                "We can. We will. We must."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Isn’t it time to act?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Isn’t",
+              "it",
+              "time",
+              "to",
+              "act?",
+              "never",
+              "late"
+            ],
+            "accepted": [
+              "Isn’t it time to act?"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the line.",
+          "answer": "Easy to say, hard to do.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Easy",
+              "to",
+              "say,",
+              "hard",
+              "to",
+              "do.",
+              "hard",
+              "never"
+            ],
+            "accepted": [
+              "Easy to say, hard to do."
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A rhetorical question does not need an ___.",
+          "answer": "answer",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "answer"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Antithesis places opposite ideas together.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A rhetorical question always needs a spoken answer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which device does the speaker use first?",
+          "answer": "Rhetorical questions",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Rhetorical questions",
+              "Antithesis",
+              "A list of numbers",
+              "A story"
+            ],
+            "accepted": [
+              "Rhetorical questions"
+            ],
+            "audioText": "Is it fair to ask them to wait? Is it right to say no? We can do better."
+          }
+        },
+        {
+          "id": "ps-contrast-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the speech lines in order.",
+          "answer": "Is it fair to ask them to wait? | We can do better. | Let’s act today.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Is it fair to ask them to wait?",
+              "We can do better.",
+              "Let’s act today."
+            ]
+          }
+        },
+        {
+          "id": "ps-contrast-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one antithesis and one rhetorical question about school or work.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-pause",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Pause and stress",
+      "objectiveId": "PS-F-05",
+      "trackId": "public-speaker",
+      "unitId": "delivery",
+      "tip": "A pause is a tool. Pause before an important word to build attention, and after it to let it sink in. Stress the key word: “We need ACTION” means something different from “WE need action.” Short pauses also give you time to breathe and think.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-pause-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where is a pause most powerful?",
+          "answer": "Before or after the key point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Before or after the key point",
+              "In the middle of every word",
+              "Never",
+              "Only at the very end"
+            ],
+            "accepted": [
+              "Before or after the key point"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word should you stress in “We need action today, not tomorrow”?",
+          "answer": "today",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "today",
+              "need",
+              "the",
+              "We"
+            ],
+            "accepted": [
+              "today"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A speaker rushes and never pauses. What happens?",
+          "answer": "The audience gets tired and misses key points",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The audience gets tired and misses key points",
+              "The audience hears every word clearly",
+              "The talk is always more exciting",
+              "Nothing changes"
+            ],
+            "accepted": [
+              "The audience gets tired and misses key points"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which marks a pause in a script?",
+          "answer": "A slash, like: We can win / together.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A slash, like: We can win / together.",
+              "A bold name",
+              "A page number",
+              "A title"
+            ],
+            "accepted": [
+              "A slash, like: We can win / together."
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A speaker pauses for two seconds after a key sentence. Why?",
+          "answer": "To let the idea sink in",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To let the idea sink in",
+              "Because they forgot",
+              "To confuse the audience",
+              "To end the talk"
+            ],
+            "accepted": [
+              "To let the idea sink in"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words do speakers usually stress?",
+          "answer": "Key words such as nouns, verbs and numbers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Key words such as nouns, verbs and numbers",
+              "Words like “the” and “of”",
+              "Every word equally",
+              "Only the last word"
+            ],
+            "accepted": [
+              "Key words such as nouns, verbs and numbers"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Pause before the key word.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Pause",
+              "before",
+              "the",
+              "key",
+              "word.",
+              "never",
+              "rush"
+            ],
+            "accepted": [
+              "Pause before the key word."
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Mark the key words | Mark where to pause | Practice aloud and listen",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Mark the key words",
+              "Mark where to pause",
+              "Practice aloud and listen"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "Pause → builds attention | Stress → highlights a key word | Rushing → hides your point",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Pause",
+                "builds attention"
+              ],
+              [
+                "Stress",
+                "highlights a key word"
+              ],
+              [
+                "Rushing",
+                "hides your point"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Pauses give you time to breathe.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should stress every word equally.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Pause before an ___ word.",
+          "answer": "important",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "important",
+              "key"
+            ]
+          }
+        },
+        {
+          "id": "ps-pause-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which idea does the speaker repeat for emphasis?",
+          "answer": "More time",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "More time",
+              "More rules",
+              "Less time",
+              "No time"
+            ],
+            "accepted": [
+              "More time"
+            ],
+            "audioText": "We need more time. Not more rules. More time."
+          }
+        },
+        {
+          "id": "ps-pause-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two sentences for a talk. Mark the pauses with / and underline the word you will stress.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-voice",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Pace, volume and pitch",
+      "objectiveId": "PS-F-06",
+      "trackId": "public-speaker",
+      "unitId": "delivery",
+      "tip": "Your voice has three controls: pace (speed), volume (loudness) and pitch (how high or low). A flat voice makes people drift away. Speak a little slower for important points and a little louder for key ideas, and let your pitch fall at the end of a statement to sound sure.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-voice-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which control is about speed?",
+          "answer": "Pace",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pace",
+              "Volume",
+              "Pitch",
+              "Posture"
+            ],
+            "accepted": [
+              "Pace"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which control is about loudness?",
+          "answer": "Volume",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Volume",
+              "Pace",
+              "Pitch",
+              "Eye contact"
+            ],
+            "accepted": [
+              "Volume"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which control is about how high or low the voice is?",
+          "answer": "Pitch",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pitch",
+              "Pace",
+              "Volume",
+              "Gesture"
+            ],
+            "accepted": [
+              "Pitch"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to sound sure at the end of a statement. What should your pitch do?",
+          "answer": "Fall",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Fall",
+              "Rise",
+              "Stay flat forever",
+              "Crack"
+            ],
+            "accepted": [
+              "Fall"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which speaker keeps the audience’s attention?",
+          "answer": "One who changes pace, volume and pitch",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One who changes pace, volume and pitch",
+              "One who speaks in one flat tone",
+              "One who whispers all the time",
+              "One who shouts all the time"
+            ],
+            "accepted": [
+              "One who changes pace, volume and pitch"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When should you slow down?",
+          "answer": "For an important point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "For an important point",
+              "For every word",
+              "Never",
+              "Only for the title"
+            ],
+            "accepted": [
+              "For an important point"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A comfortable pace for conversation is about…",
+          "answer": "120 to 160 words per minute",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "120 to 160 words per minute",
+              "20 words per minute",
+              "400 words per minute",
+              "1,000 words per minute"
+            ],
+            "accepted": [
+              "120 to 160 words per minute"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each voice control with its effect.",
+          "answer": "Slower pace → makes a point sink in | Louder volume → shows strong emphasis | Falling pitch → sounds sure and finished",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Slower pace",
+                "makes a point sink in"
+              ],
+              [
+                "Louder volume",
+                "shows strong emphasis"
+              ],
+              [
+                "Falling pitch",
+                "sounds sure and finished"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Slow down for key points.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Slow",
+              "down",
+              "for",
+              "key",
+              "points.",
+              "never",
+              "speed"
+            ],
+            "accepted": [
+              "Slow down for key points."
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Vary your pace and volume.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Vary",
+              "your",
+              "pace",
+              "and",
+              "volume.",
+              "never",
+              "flat"
+            ],
+            "accepted": [
+              "Vary your pace and volume."
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A flat voice makes people ___ away.",
+          "answer": "drift",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "drift"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A voice with no variety is easy to listen to for a long time.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can use a whisper for a surprising line.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Choose the key line | Slow down and lower your voice | Pause, then say it clearly",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose the key line",
+              "Slow down and lower your voice",
+              "Pause, then say it clearly"
+            ]
+          }
+        },
+        {
+          "id": "ps-voice-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Read a short paragraph aloud three times: fast, slow, then with changes in pace and volume. Write which version sounded best.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-body",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Body language",
+      "objectiveId": "PS-F-07",
+      "trackId": "public-speaker",
+      "unitId": "delivery",
+      "tip": "Your body speaks too. Stand tall with your feet apart. Look at different people for two or three seconds each. Use open hands at chest height for gestures, and move with a purpose, not back and forth. Keep your hands out of your pockets.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-body-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which posture shows confidence?",
+          "answer": "Standing tall with feet apart",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Standing tall with feet apart",
+              "Leaning on the table",
+              "Hiding behind the screen",
+              "Crossing arms tightly"
+            ],
+            "accepted": [
+              "Standing tall with feet apart"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How long should you look at one person?",
+          "answer": "Two or three seconds",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three seconds",
+              "One second, then look away",
+              "The whole talk",
+              "Never look at anyone"
+            ],
+            "accepted": [
+              "Two or three seconds"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which gesture is best?",
+          "answer": "Open hands at chest height",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Open hands at chest height",
+              "Pointing at one person",
+              "Hands hidden in pockets",
+              "Tapping your leg fast"
+            ],
+            "accepted": [
+              "Open hands at chest height"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A speaker walks back and forth the whole time. What is the problem?",
+          "answer": "Movement without purpose distracts the audience",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Movement without purpose distracts the audience",
+              "The audience loves it",
+              "It makes the voice louder",
+              "It helps eye contact"
+            ],
+            "accepted": [
+              "Movement without purpose distracts the audience"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should you look when you speak to a large room?",
+          "answer": "At different people in different parts of the room",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At different people in different parts of the room",
+              "At the floor",
+              "At the ceiling",
+              "At your notes only"
+            ],
+            "accepted": [
+              "At different people in different parts of the room"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a purposeful move?",
+          "answer": "Stepping forward to start an important point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Stepping forward to start an important point",
+              "Pacing without stopping",
+              "Turning your back",
+              "Fidgeting with a pen"
+            ],
+            "accepted": [
+              "Stepping forward to start an important point"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of body language with a tip.",
+          "answer": "Posture → stand tall | Eye contact → two or three seconds | Gestures → open hands at chest height | Movement → move with purpose",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Posture",
+                "stand tall"
+              ],
+              [
+                "Eye contact",
+                "two or three seconds"
+              ],
+              [
+                "Gestures",
+                "open hands at chest height"
+              ],
+              [
+                "Movement",
+                "move with purpose"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-body-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Your body language sends a message.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Hiding your hands in your pockets looks confident.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Look at different ___ in the room.",
+          "answer": "people",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "people"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Stand tall and breathe | Look at one person for a few seconds | Move to the next person",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Stand tall and breathe",
+              "Look at one person for a few seconds",
+              "Move to the next person"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Stand tall and look up.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Stand",
+              "tall",
+              "and",
+              "look",
+              "up.",
+              "never",
+              "down"
+            ],
+            "accepted": [
+              "Stand tall and look up."
+            ]
+          }
+        },
+        {
+          "id": "ps-body-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Nora gave a talk with her arms crossed. She looked at the floor and spoke very quietly. At the end, nobody remembered her main point. Which change would help Nora most?",
+          "answer": "Stand tall, look at the audience and speak up",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Stand tall, look at the audience and speak up",
+              "Speak even more quietly",
+              "Look only at the floor",
+              "Cross her arms more tightly"
+            ],
+            "accepted": [
+              "Stand tall, look at the audience and speak up"
+            ]
+          }
+        },
+        {
+          "id": "ps-body-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Stand in front of a mirror. Say your opening line with good posture, eye contact and one open gesture. Write what felt different.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-nerves",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Manage your nerves",
+      "objectiveId": "PS-F-08",
+      "trackId": "public-speaker",
+      "unitId": "delivery",
+      "tip": "Nerves are normal: your body is getting ready. Turn the energy into focus. Slow your breathing: in for four, out for six. Know your first sentence by heart. Practice aloud, not only in your head. Remember that the audience wants you to do well.",
+      "sources": [
+        "Esenwein and Carnegie, The Art of Public Speaking (1915, public domain): delivery, openings and closings",
+        "Aristotle, Rhetoric, and Cicero’s five canons (public domain); Silva Rhetoricae (BYU) for device names (concepts only)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ps-nerves-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which breathing pattern calms nerves?",
+          "answer": "In for four, out for six",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In for four, out for six",
+              "Hold your breath",
+              "Breathe as fast as possible",
+              "Breathe only in"
+            ],
+            "accepted": [
+              "In for four, out for six"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which step helps most before a talk?",
+          "answer": "Know your first sentence by heart",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Know your first sentence by heart",
+              "Read every word of the script on stage",
+              "Skip the practice",
+              "Avoid looking at anyone"
+            ],
+            "accepted": [
+              "Know your first sentence by heart"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What do most audiences want?",
+          "answer": "You to do well",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You to do well",
+              "You to fail",
+              "You to leave",
+              "A very long talk"
+            ],
+            "accepted": [
+              "You to do well"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a helpful thought?",
+          "answer": "My body is getting ready, and I can use the energy.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My body is getting ready, and I can use the energy.",
+              "I will certainly fail.",
+              "Everyone will laugh.",
+              "I must be perfect."
+            ],
+            "accepted": [
+              "My body is getting ready, and I can use the energy."
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the better way to practice?",
+          "answer": "Aloud, standing, with a timer",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Aloud, standing, with a timer",
+              "Silently in bed",
+              "Never",
+              "Only once, the night before"
+            ],
+            "accepted": [
+              "Aloud, standing, with a timer"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tip with its effect.",
+          "answer": "Slow breathing → calms the body | A memorized opening → gives a strong start | Practicing aloud → builds confidence",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Slow breathing",
+                "calms the body"
+              ],
+              [
+                "A memorized opening",
+                "gives a strong start"
+              ],
+              [
+                "Practicing aloud",
+                "builds confidence"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Take a slow breath | Say your opening line | Look at a friendly face",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Take a slow breath",
+              "Say your opening line",
+              "Look at a friendly face"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Nerves are normal and can be useful.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should try to be perfect.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Breathe in for four and out for ___.",
+          "answer": "six",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "six",
+              "6"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Breathe slowly and stand tall.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Breathe",
+              "slowly",
+              "and",
+              "stand",
+              "tall.",
+              "never",
+              "fast"
+            ],
+            "accepted": [
+              "Breathe slowly and stand tall."
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker do first?",
+          "answer": "Takes three slow breaths",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Takes three slow breaths",
+              "Smiles at someone",
+              "Says the first sentence aloud",
+              "Reads the script"
+            ],
+            "accepted": [
+              "Takes three slow breaths"
+            ],
+            "audioText": "Before I speak, I take three slow breaths. I say my first sentence quietly. Then I smile at someone friendly."
+          }
+        },
+        {
+          "id": "ps-nerves-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ravi felt his heart race before his talk. He breathed in for four seconds and out for six. Then he said his first sentence in his head and smiled at a friend in the second row. What did Ravi do to calm down?",
+          "answer": "He used slow breathing and a friendly face",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He used slow breathing and a friendly face",
+              "He left the room",
+              "He skipped the talk",
+              "He read faster"
+            ],
+            "accepted": [
+              "He used slow breathing and a friendly face"
+            ]
+          }
+        },
+        {
+          "id": "ps-nerves-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-step routine you will use in the minute before you speak.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

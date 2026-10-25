@@ -39,7 +39,6 @@
 
 ## Not verified or known issues
 
-- `testReviewOptionsPersistAndLimitOneSession` fails a contrast audit on the old Review options screen (unchanged by this phase; not checked against the earlier commit).
-- `testConnectedLessonDraftResumeQuietCompletionAndVocabularyReview` fails at `lesson.next` in the lesson flow (before it reaches the Lexicon); not caused by Lexicon changes as far as I can tell. Both need triage in VERIFY.
+- UI triage (2026-10-25, run on the commit before Phase 2 and on the current code): `testReviewOptionsPersistAndLimitOneSession` (contrast audit on the old Review options screen) and `testCommunicationDraftSharesExactSourceAcrossLearnAndSpeechLab` **already failed before Phases 2 and 3**. `testConnectedLessonDraftResumeQuietCompletionAndVocabularyReview` passes on the current code; its earlier failure came from two test runs sharing one simulator. These two older failures still need a fix or removal.
 - Wrong-usage sentences in the bank need a native-speaker read. Daily Training lists words alphabetically (the existing queue order), not in bank order.
 - Not run on a real device. iPad layout not checked.

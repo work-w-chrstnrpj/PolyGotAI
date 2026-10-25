@@ -10,9 +10,10 @@
 | 1 | Exercise engine + dictation button | ✅ done on iPad simulator; owner to play an A1 lesson and test dictation on a device | Not yet |
 | 2 | Lesson restructure (Course + 10 coaches, level lock) | 🔄 built by Claude (API, content) and Codex (screens); Claude verifying ([phase 2](phases/phase-2/README.md)) | Not yet |
 | 3 | Lexicon (Daily Lexicon, Daily Training, Lexicon in Action) | ✅ built and tested ([phase 3](phases/phase-3/README.md)); try it on your device | Not yet |
-| 4 | Coach content (10 tracks) + A2–C2 fixes | ⏳ planned | — |
-| 5 | Speech Lab additions (Phonetics, Articulation, Dictation, Voice) | ⏳ planned | — |
-| 6 | Online AI (coach review, Specialized Lexicon) | ⏳ later | — |
+| 4 | Coach content (10 tracks) + A2–C2 fixes | 🔄 Claude writes all of it: **all 10 coaches written** (first delivery: 2 units × 4 lessons each, 80 lessons); A2–C2 conversion and its jump tests to go; OpenCode proofread of batches 2–4 pending | — |
+| 5 | Lab on-device base (Dictation, Phonetics, Articulation, Voice; becoming Dictation, Pronunciation, Speaking) | 🔄 Codex has built all four modes; cross-mode verification pending ([brief](phases/phase-5/README.md)) | — |
+| 5b | Interview v2 (offline hands-free voice) | ⏳ after Phase 5 | — |
+| 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | ⏳ later; research gate first | — |
 
 ## Blockers and decisions
 
@@ -68,6 +69,9 @@
 | 2.4 | **Level lock (owner rule, 2026-10-25):** `LevelGate` (unlocked levels, finish-level unlock, jump test needs a perfect score) + tests | Claude | ✅ |
 | 2.5 | A1 → A2 jump test: question builder from A1 typed exercises, perfect-score check (later levels' tests come with Phase 4) | Claude | ✅ |
 | 2.6 | Locked level picker (lock icon, "Take the A2 test") and jump-test screen; UI test that C2 cannot be opened from A1 | Codex | ✅ built; failed test + retry + relaunch lock verified; perfect-pass path unit-tested only |
+| 2.7 | **Level-lock change (owner, 2026-10-25):** any locked level can be unlocked by its test, even C2 from A1. `LevelGate.canTakeJumpTest(to:)` true for every locked level that has a test; `JumpTest` draws from the target level and the levels below; a pass opens that level and all below; tests per level; unit tests | Claude | ⏳ |
+| 2.8 | Locked level picker shows "Take the X test" on every locked level; UI test: C2 reachable by test from a fresh learner | Codex | ⏳ small change after Phase 5 |
+| 2.9 | Test content: each level's test becomes available when its typed exercises exist (A1 now; A2–C2 with the Phase 4 conversion) | Claude | ⏳ with Phase 4 |
 
 ## Phase 3 — Lexicon
 
@@ -83,20 +87,29 @@
 | 3.8 | Daily Lexicon card on Today | Claude | ✅ simulator-checked |
 | 3.9 | Specialized Lexicon Training (AI field generation) | Claude + Codex | ⏳ Phase 6 |
 
+## Lexicon 2 — CEFR vocabulary and AI collections
+
+| # | Task | Lane | Status |
+| --- | --- | --- | --- |
+| L2.1 | **Vocabulary by CEFR level (owner, 2026-10-25):** bank grouped A1–C2 (about 3 groups per level, 700–1,000 words), each word tagged with its CEFR level and a register (everyday, term, jargon, slang, informal). Word choice follows CEFR vocabulary levels; check the licence of any list (Cambridge English Vocabulary Profile, Oxford 3000/5000) before use, choose words only and write all meanings and examples ourselves | Claude | ⏳ with Phase 4 |
+| L2.2 | Level-aware start: active groups follow the learner's unlocked level; the next group is suggested when one is finished | Claude (rules) + Claude (screen) | ⏳ |
+| L2.3 | Ready-made field packs (business, tech, health, travel, law) with terms and jargon, offline | Claude | ⏳ |
+| L2.4 | AI collections from a topic with suggested topic chips (Phase 6d, after the AI foundation 6a); results marked AI-generated and reviewed before saving | Claude + Codex | ⏳ Phase 6d |
+
 ## Phase 4 — Coach content
 
 | Coach | Units authored | Status |
 | --- | --- | --- |
-| Grammarian | 0 / 2 | ⏳ (Phase 2) |
-| Reading & Listening | 0 / 2 | ⏳ |
-| Debater & Argument | 0 / 2 | ⏳ |
-| Persuasion & Negotiation | 0 / 2 | ⏳ |
-| Public Speaking & Rhetoric | 0 / 2 | ⏳ |
-| Journalist | 0 / 2 | ⏳ |
-| Creative Writing | 0 / 2 | ⏳ |
-| Business & Professional | 0 / 2 | ⏳ |
-| Storytelling | 0 / 2 | ⏳ |
-| Advertising & Copywriting | 0 / 2 | ⏳ |
+| Grammarian | 2 / 2 | ✅ (Phase 2) |
+| Reading & Listening | 2 / 2 | ✅ Starter stage: 8 lessons, 111 activities (`build_reading_listening.py`); OpenCode proofread pending |
+| Debater & Argument | 2 / 2 | ✅ Foundation stage: 8 lessons, 107 activities (`build_debater.py`); OpenCode proofread pending |
+| Persuasion & Negotiation | 2 / 2 | ✅ Foundation stage: 8 lessons, 107 activities (`build_negotiator.py`); OpenCode proofread pending |
+| Public Speaking & Rhetoric | 2 / 2 | ✅ Foundation stage: 8 lessons, 115 activities (`build_public_speaker.py`); OpenCode proofread pending |
+| Journalist | 2 / 2 | ✅ Foundation stage: 8 lessons, 106 activities (`build_journalist.py`); OpenCode proofread pending |
+| Creative Writing | 2 / 2 | ✅ Foundation stage: 8 lessons, 117 activities (`build_creative_writer.py`); OpenCode proofread pending |
+| Business & Professional | 2 / 2 | ✅ Foundation stage: 8 lessons, 116 activities (`build_business.py`); OpenCode proofread pending |
+| Storytelling | 2 / 2 | ✅ Foundation stage: 8 lessons, 112 activities (`build_storyteller.py`); OpenCode proofread pending |
+| Advertising & Copywriting | 2 / 2 | ✅ Foundation stage: 8 lessons, 113 activities (`build_copywriter.py`); OpenCode proofread pending |
 | CEFR course A2–C2 fixes and typed exercises | 0 / 43 lessons | ⏳ |
 | Jump tests A2 → B1, B1 → B2, B2 → C1, C1 → C2 (one per converted level) | 0 / 4 | ⏳ |
 

@@ -45,8 +45,8 @@ Every text field that expects typing has a microphone button for speech-to-text 
 ## Course (CEFR A1–C2)
 
 - Six levels with topics from the [A1–C2 curriculum outline](english-curriculum.md) and the grammar sequence in [English foundations](english-foundations.md).
-- **Levels are locked in order (owner, 2026-10-25).** A learner can open only the levels they have unlocked, starting with A1. They cannot jump from A1 to C2.
-- **One level at a time, by test.** To skip ahead, the learner takes the **jump test** for the next level only: A1 → A2, then A2 → B1, and so on. The test is auto-checked and needs a **perfect score** (every item correct, no "almost"). A failed test unlocks nothing and can be retaken with fresh question order. Finishing a level's lessons also unlocks the next level.
+- **Levels are locked until earned (owner, 2026-10-25).** A learner can open only the levels they have unlocked, starting with A1, either by finishing the level before or by passing that level's test.
+- **Any level, by test (owner, 2026-10-25, replaces "one level at a time").** To skip ahead, the learner takes the test for **any locked level, including C2 straight from A1**. Passing a level's test opens that level and every level below it. A failed test unlocks nothing and can be retaken with a fresh question order. The test covers the levels below the target as well as the target itself, so a high level needs a long enough test. Finishing a level's lessons still opens the next level. The pass mark is still a perfect score until the owner changes it.
 - Lessons inside a level stay open in any order (recommended order, no lock). A locked level shows one short action, "Take the A2 test", and no explanation text.
 - Hosted by the Teacher (elephant). Conversation role-play is a lesson type inside the course.
 - Lesson completion is participation, not an official CEFR result. This is stated once, in About/Settings, and not on every screen.

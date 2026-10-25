@@ -1,0 +1,2117 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.negotiator",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "negotiator",
+    "coach": "negotiator",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "persuade",
+            "title": "Persuade"
+          },
+          {
+            "id": "negotiate",
+            "title": "Negotiate"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "ng-appeals",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Ethos, pathos, logos",
+      "objectiveId": "NG-F-01",
+      "trackId": "negotiator",
+      "unitId": "persuade",
+      "tip": "Aristotle named three ways to persuade: ethos (trust: who is speaking), pathos (feeling: stories and emotions) and logos (logic: facts and reasons). Strong persuasion often uses all three.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-appeals-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“As a nurse for 20 years, I can tell you…” Which appeal is this?",
+          "answer": "Ethos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ethos",
+              "Pathos",
+              "Logos",
+              "None of them"
+            ],
+            "accepted": [
+              "Ethos"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“Imagine a child with no safe place to play.” Which appeal is this?",
+          "answer": "Pathos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pathos",
+              "Ethos",
+              "Logos",
+              "None of them"
+            ],
+            "accepted": [
+              "Pathos"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“Studies show a 30 percent drop in accidents.” Which appeal is this?",
+          "answer": "Logos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Logos",
+              "Pathos",
+              "Ethos",
+              "None of them"
+            ],
+            "accepted": [
+              "Logos"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word means trust and credibility?",
+          "answer": "Ethos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ethos",
+              "Pathos",
+              "Logos",
+              "Humor"
+            ],
+            "accepted": [
+              "Ethos"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which appeal uses facts and reasons?",
+          "answer": "Logos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Logos",
+              "Ethos",
+              "Pathos",
+              "Humor"
+            ],
+            "accepted": [
+              "Logos"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each appeal with its tool.",
+          "answer": "Ethos → your experience and honesty | Pathos → a story that moves people | Logos → facts and clear reasons",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Ethos",
+                "your experience and honesty"
+              ],
+              [
+                "Pathos",
+                "a story that moves people"
+              ],
+              [
+                "Logos",
+                "facts and clear reasons"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Strong persuasion can use ethos, pathos and logos together.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Pathos means logic.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Logos means facts and ___.",
+          "answer": "logic",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "logic",
+              "reasons",
+              "reason"
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-10",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our school needs a new playground. Last year nine children were hurt on the old equipment. Imagine your own child on the old slide. As a parent and a safety officer, I want every child to be safe. Which sentence is pathos?",
+          "answer": "Imagine your own child on the old slide.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Imagine your own child on the old slide.",
+              "Last year nine children were hurt on the old equipment.",
+              "Our school needs a new playground.",
+              "I am a safety officer."
+            ],
+            "accepted": [
+              "Imagine your own child on the old slide."
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-11",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our school needs a new playground. Last year nine children were hurt on the old equipment. Imagine your own child on the old slide. As a parent and a safety officer, I want every child to be safe. Which sentence is logos?",
+          "answer": "Last year nine children were hurt on the old equipment.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Last year nine children were hurt on the old equipment.",
+              "Imagine your own child on the old slide.",
+              "As a parent and a safety officer, I want every child to be safe.",
+              "Our school needs a new playground."
+            ],
+            "accepted": [
+              "Last year nine children were hurt on the old equipment."
+            ]
+          }
+        },
+        {
+          "id": "ng-appeals-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which appeal does the speaker use first?",
+          "answer": "Ethos",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ethos",
+              "Pathos",
+              "Logos",
+              "Humor"
+            ],
+            "accepted": [
+              "Ethos"
+            ],
+            "audioText": "Hello, I am Doctor Rivera. I have treated children for twenty years. Please vaccinate your children on time."
+          }
+        },
+        {
+          "id": "ng-appeals-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three sentences to persuade a friend to join a club. Use ethos, pathos and logos once each.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-audience",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Know your audience",
+      "objectiveId": "NG-F-02",
+      "trackId": "negotiator",
+      "unitId": "persuade",
+      "tip": "Persuasion works best when you know your audience: what they care about, what they already know and what they worry about. Use their words, give benefits that matter to them, and answer their worries before they ask.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-audience-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to persuade a busy manager to try a new tool. Which benefit fits best?",
+          "answer": "It saves two hours a week.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It saves two hours a week.",
+              "It has a nice color.",
+              "Many students use it.",
+              "It was invented in 2020."
+            ],
+            "accepted": [
+              "It saves two hours a week."
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to persuade parents to join a school event. Which benefit fits best?",
+          "answer": "Your children will make friends and learn new skills.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Your children will make friends and learn new skills.",
+              "The event is on a Thursday.",
+              "The hall has a big stage.",
+              "Teachers wear name tags."
+            ],
+            "accepted": [
+              "Your children will make friends and learn new skills."
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps you know your audience?",
+          "answer": "What do they care about?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What do they care about?",
+              "What is my favorite color?",
+              "How long is my coat?",
+              "What time is it?"
+            ],
+            "accepted": [
+              "What do they care about?"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening is best for teenagers?",
+          "answer": "Want to earn money before the summer?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Want to earn money before the summer?",
+              "Dear Sir or Madam, I wish to inform you…",
+              "In the year 1850…",
+              "Attention all senior citizens…"
+            ],
+            "accepted": [
+              "Want to earn money before the summer?"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a worry you could answer early?",
+          "answer": "It costs too much.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It costs too much.",
+              "The sky is blue.",
+              "I like apples.",
+              "Today is Monday."
+            ],
+            "accepted": [
+              "It costs too much."
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each audience with a likely concern.",
+          "answer": "Parents → safety and cost | Teenagers → fun and friends | Managers → time and results",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Parents",
+                "safety and cost"
+              ],
+              [
+                "Teenagers",
+                "fun and friends"
+              ],
+              [
+                "Managers",
+                "time and results"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find out what the audience cares about | Choose the benefit that matters most to them | Answer their worries",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find out what the audience cares about",
+              "Choose the benefit that matters most to them",
+              "Answer their worries"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The same message works for every audience.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A benefit says how the audience’s life gets better.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Know your ___ before you speak.",
+          "answer": "audience",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "audience"
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Know what they care about.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Know",
+              "what",
+              "they",
+              "care",
+              "about.",
+              "ignore",
+              "never"
+            ],
+            "accepted": [
+              "Know what they care about."
+            ]
+          }
+        },
+        {
+          "id": "ng-audience-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker show they understand the audience?",
+          "answer": "By saying they know the audience is busy",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By saying they know the audience is busy",
+              "By telling a long story",
+              "By using difficult words",
+              "By asking for money"
+            ],
+            "accepted": [
+              "By saying they know the audience is busy"
+            ],
+            "audioText": "Hi everyone. I know you are busy, so I will be quick. This app saves you an hour every day."
+          }
+        },
+        {
+          "id": "ng-audience-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a product or an event. Write one sentence to persuade parents and one to persuade teenagers.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-pitch",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "A simple pitch",
+      "objectiveId": "NG-F-03",
+      "trackId": "negotiator",
+      "unitId": "persuade",
+      "tip": "A short pitch has four steps: the problem, your solution, the benefit and the next step. “Many people lose their keys. Our key tag lets you find them with your phone. You will never be late again. Order one today.”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-pitch-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the pitch in order.",
+          "answer": "Many people waste time looking for parking. | Our app shows free spaces near you. | You will arrive on time and feel calm. | Download it today.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Many people waste time looking for parking.",
+              "Our app shows free spaces near you.",
+              "You will arrive on time and feel calm.",
+              "Download it today."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence states the problem?",
+          "answer": "Many students feel stressed before exams.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Many students feel stressed before exams.",
+              "Our club teaches calm breathing.",
+              "You will feel calm.",
+              "Join us on Monday."
+            ],
+            "accepted": [
+              "Many students feel stressed before exams."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence states the solution?",
+          "answer": "Our club teaches calm breathing.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Our club teaches calm breathing.",
+              "Many students feel stressed.",
+              "You will sleep better.",
+              "Join us on Monday."
+            ],
+            "accepted": [
+              "Our club teaches calm breathing."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence states the benefit?",
+          "answer": "You will sleep better and feel calm.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You will sleep better and feel calm.",
+              "Many students feel stressed.",
+              "Our club has a room.",
+              "The club meets on Monday."
+            ],
+            "accepted": [
+              "You will sleep better and feel calm."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the next step?",
+          "answer": "Sign up at the front desk today.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sign up at the front desk today.",
+              "Stress is common.",
+              "Calm is good.",
+              "We have many members."
+            ],
+            "accepted": [
+              "Sign up at the front desk today."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its job.",
+          "answer": "Problem → what is wrong | Solution → your idea | Benefit → how life gets better | Next step → what to do now",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Problem",
+                "what is wrong"
+              ],
+              [
+                "Solution",
+                "your idea"
+              ],
+              [
+                "Benefit",
+                "how life gets better"
+              ],
+              [
+                "Next step",
+                "what to do now"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A pitch should end with a clear next step.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A pitch starts with a long list of facts about you.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A short pitch starts with a ___.",
+          "answer": "problem",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "problem"
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Our app saves you time.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Our",
+              "app",
+              "saves",
+              "you",
+              "time.",
+              "wastes",
+              "never"
+            ],
+            "accepted": [
+              "Our app saves you time."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Sign up today.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Sign",
+              "up",
+              "today.",
+              "later",
+              "never"
+            ],
+            "accepted": [
+              "Sign up today."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which part is the benefit?",
+          "answer": "You will feel better every day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You will feel better every day",
+              "Many people forget to drink water",
+              "Our bottle reminds you with a light",
+              "Buy yours this week"
+            ],
+            "accepted": [
+              "You will feel better every day"
+            ],
+            "audioText": "Many people forget to drink water. Our bottle reminds you with a light. You will feel better every day. Buy yours this week."
+          }
+        },
+        {
+          "id": "ng-pitch-13",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our town has no safe place to skate. We want to build a small skate park near the river. Young people will have a place to exercise and meet friends. Please vote yes on Tuesday. Which sentence is the call to action?",
+          "answer": "Please vote yes on Tuesday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Please vote yes on Tuesday.",
+              "Our town has no safe place to skate.",
+              "We want to build a small skate park near the river.",
+              "Young people will have a place to exercise and meet friends."
+            ],
+            "accepted": [
+              "Please vote yes on Tuesday."
+            ]
+          }
+        },
+        {
+          "id": "ng-pitch-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence pitch for something you would like to change at home, at school or at work.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-ethics",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Persuade or manipulate?",
+      "objectiveId": "NG-F-04",
+      "trackId": "negotiator",
+      "unitId": "persuade",
+      "tip": "Ethical persuasion is honest: true facts, real benefits and respect for the other person’s choice. Manipulation uses lies, pressure, fear or tricks to stop people from thinking. Ask: would I be happy if they knew exactly what I was doing?",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-ethics-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is ethical persuasion?",
+          "answer": "Giving true facts and letting the person decide",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Giving true facts and letting the person decide",
+              "Hiding the price",
+              "Saying “only today, no time to think”",
+              "Making up a fake review"
+            ],
+            "accepted": [
+              "Giving true facts and letting the person decide"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is manipulation?",
+          "answer": "“Buy now or something terrible will happen to you!”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“Buy now or something terrible will happen to you!”",
+              "“Here are the facts. You decide.”",
+              "“This helps because…”",
+              "“I recommend it, and here is why.”"
+            ],
+            "accepted": [
+              "“Buy now or something terrible will happen to you!”"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a pressure tactic?",
+          "answer": "“Only one left! Decide in 30 seconds!”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“Only one left! Decide in 30 seconds!”",
+              "“Take your time to think.”",
+              "“Here is a free sample.”",
+              "“Compare prices first.”"
+            ],
+            "accepted": [
+              "“Only one left! Decide in 30 seconds!”"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A seller says a product fixes everything. It does not. What is this?",
+          "answer": "A lie",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A lie",
+              "A fair benefit",
+              "A question",
+              "A pitch step"
+            ],
+            "accepted": [
+              "A lie"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question tests your ethics?",
+          "answer": "Would I be happy if they knew what I was doing?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Would I be happy if they knew what I was doing?",
+              "Will I win?",
+              "Is it fast?",
+              "Is it loud?"
+            ],
+            "accepted": [
+              "Would I be happy if they knew what I was doing?"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tactic with its effect.",
+          "answer": "Honest facts → build trust | Fake reviews → break trust | Time pressure → stops people thinking",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Honest facts",
+                "build trust"
+              ],
+              [
+                "Fake reviews",
+                "break trust"
+              ],
+              [
+                "Time pressure",
+                "stops people thinking"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Ethical persuasion respects the other person’s choice.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A small lie is fine if it helps you win.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Manipulation often uses fear and ___.",
+          "answer": "pressure",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "pressure"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-10",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A seller told a customer, “This offer ends in five minutes, and you will regret it forever if you wait.” The customer had not seen the price. What is the seller doing?",
+          "answer": "Using pressure and fear",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Using pressure and fear",
+              "Giving honest facts",
+              "Asking a fair question",
+              "Offering a refund"
+            ],
+            "accepted": [
+              "Using pressure and fear"
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why is this ethical?",
+          "answer": "It gives honest reasons and lets the customer decide",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It gives honest reasons and lets the customer decide",
+              "It uses fear",
+              "It hides the price",
+              "It forces a choice"
+            ],
+            "accepted": [
+              "It gives honest reasons and lets the customer decide"
+            ],
+            "audioText": "I recommend this jacket because it is warm and fairly priced. Take your time. You can try it on and compare."
+          }
+        },
+        {
+          "id": "ng-ethics-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Respect the other person’s choice.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Respect",
+              "the",
+              "other",
+              "person’s",
+              "choice.",
+              "ignore",
+              "their"
+            ],
+            "accepted": [
+              "Respect the other person’s choice."
+            ]
+          }
+        },
+        {
+          "id": "ng-ethics-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two sentences: one honest way and one manipulative way to ask a friend to lend you money. Say which is better and why.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-interests",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Interests, not positions",
+      "objectiveId": "NG-F-05",
+      "trackId": "negotiator",
+      "unitId": "negotiate",
+      "tip": "A position is what someone says they want: “I want the window open.” An interest is why: “I need fresh air.” Two people can have opposite positions and still share interests. Ask “why?” to find the interest, then look for a deal that meets both.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-interests-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Is this a position or an interest? “I want the front seat.”",
+          "answer": "A position",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A position",
+              "An interest"
+            ],
+            "accepted": [
+              "A position"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Is this a position or an interest? “I get sick in the back seat.”",
+          "answer": "An interest",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An interest",
+              "A position"
+            ],
+            "accepted": [
+              "An interest"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Two sisters want the last orange. One needs the juice. The other needs the peel for a cake. What is the best solution?",
+          "answer": "Share it: one takes the juice, the other the peel",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Share it: one takes the juice, the other the peel",
+              "Cut it in two equal pieces and waste the rest",
+              "Let the older one have it",
+              "Throw it away"
+            ],
+            "accepted": [
+              "Share it: one takes the juice, the other the peel"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps find an interest?",
+          "answer": "Why is that important to you?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Why is that important to you?",
+              "Who is right?",
+              "How loud can you shout?",
+              "What is your name?"
+            ],
+            "accepted": [
+              "Why is that important to you?"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“I want the window open.” “I want it closed.” What are these?",
+          "answer": "Positions",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Positions",
+              "Interests",
+              "Facts",
+              "Questions"
+            ],
+            "accepted": [
+              "Positions"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with its meaning.",
+          "answer": "Position → what you say you want | Interest → why you want it | Solution → a deal that meets both interests",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Position",
+                "what you say you want"
+              ],
+              [
+                "Interest",
+                "why you want it"
+              ],
+              [
+                "Solution",
+                "a deal that meets both interests"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Ask why each side wants it | Find the shared interests | Suggest a solution that meets both",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask why each side wants it",
+              "Find the shared interests",
+              "Suggest a solution that meets both"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Opposite positions can have shared interests.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Asking why helps you find interests.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: An interest is the ___ behind a position.",
+          "answer": "reason",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "reason",
+              "why"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Why is that important to you?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Why",
+              "is",
+              "that",
+              "important",
+              "to",
+              "you?",
+              "who",
+              "what"
+            ],
+            "accepted": [
+              "Why is that important to you?"
+            ]
+          }
+        },
+        {
+          "id": "ng-interests-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the manager’s interest?",
+          "answer": "Good teamwork",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Good teamwork",
+              "Quiet time to finish reports",
+              "Working from home on Fridays",
+              "A shorter day"
+            ],
+            "accepted": [
+              "Good teamwork"
+            ],
+            "audioText": "I want to work from home on Fridays. My manager wants everyone in the office. When we talked, I said I need quiet time to finish reports. My manager said she wants good teamwork."
+          }
+        },
+        {
+          "id": "ng-interests-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Think of a disagreement you had. Write each person’s position and each person’s interest.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-offer",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Make an offer",
+      "objectiveId": "NG-F-06",
+      "trackId": "negotiator",
+      "unitId": "negotiate",
+      "tip": "In a negotiation, make a clear offer: say what you want and what you give. Start a little better than what you need, so you have room to move. Offer choices: “I can do A, or B.” Useful phrases: “I would like…,” “How about…?” and “Would you consider…?”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-offer-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clear offer?",
+          "answer": "I can pay $50 if you deliver it on Friday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can pay $50 if you deliver it on Friday.",
+              "Maybe something.",
+              "I do not know.",
+              "Whatever."
+            ],
+            "accepted": [
+              "I can pay $50 if you deliver it on Friday."
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase proposes an idea politely?",
+          "answer": "How about meeting at ten instead?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How about meeting at ten instead?",
+              "Do it.",
+              "That is your problem.",
+              "No way."
+            ],
+            "accepted": [
+              "How about meeting at ten instead?"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase asks someone to think about a change?",
+          "answer": "Would you consider a smaller order?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Would you consider a smaller order?",
+              "Give me that.",
+              "Why not?",
+              "Because."
+            ],
+            "accepted": [
+              "Would you consider a smaller order?"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You need to sell your bike for at least $40. What should your first price be?",
+          "answer": "A little above $40, such as $55",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A little above $40, such as $55",
+              "Exactly $40",
+              "$10",
+              "Nothing"
+            ],
+            "accepted": [
+              "A little above $40, such as $55"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which gives the other side a choice?",
+          "answer": "I can do Monday or Wednesday. Which is better?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can do Monday or Wednesday. Which is better?",
+              "Monday only. Take it or leave it.",
+              "Never.",
+              "Whenever."
+            ],
+            "accepted": [
+              "I can do Monday or Wednesday. Which is better?"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its use.",
+          "answer": "How about…? → suggest an idea | Would you consider…? → ask politely for a change | I would like… → say what you want",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "How about…?",
+                "suggest an idea"
+              ],
+              [
+                "Would you consider…?",
+                "ask politely for a change"
+              ],
+              [
+                "I would like…",
+                "say what you want"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the offer in order.",
+          "answer": "Say what you want | Say what you can give | Ask for a reply",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say what you want",
+              "Say what you can give",
+              "Ask for a reply"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "How about meeting at noon?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "How",
+              "about",
+              "meeting",
+              "at",
+              "noon?",
+              "never",
+              "what"
+            ],
+            "accepted": [
+              "How about meeting at noon?"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I can pay on Friday.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "can",
+              "pay",
+              "on",
+              "Friday.",
+              "never",
+              "if"
+            ],
+            "accepted": [
+              "I can pay on Friday."
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ you consider a smaller order?",
+          "answer": "Would",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Would"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A clear offer says what you want and what you give.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should start exactly at your lowest price.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-offer-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the buyer offer?",
+          "answer": "Seventy dollars for two tickets",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Seventy dollars for two tickets",
+              "Forty dollars for one ticket",
+              "One hundred dollars for four",
+              "Nothing yet"
+            ],
+            "accepted": [
+              "Seventy dollars for two tickets"
+            ],
+            "audioText": "I would like to buy two tickets for Saturday. How about seventy dollars for both? I can pay now."
+          }
+        },
+        {
+          "id": "ng-offer-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write an offer to buy a used bike. Say what you want, what you can pay and when.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-concede",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "If you…, I will…",
+      "objectiveId": "NG-F-07",
+      "trackId": "negotiator",
+      "unitId": "negotiate",
+      "tip": "A concession gives something. A conditional concession gives something if you get something: “If you deliver on Friday, I will pay the full price.” The pattern is “If you…, I will…” It keeps you safe and makes a fair trade.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-concede-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a conditional concession?",
+          "answer": "If you deliver on Friday, I will pay now.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If you deliver on Friday, I will pay now.",
+              "I will pay now.",
+              "Pay now.",
+              "You must deliver."
+            ],
+            "accepted": [
+              "If you deliver on Friday, I will pay now."
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: If you lower the price, I ___ two.",
+          "answer": "will buy",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "will buy",
+              "bought",
+              "buying",
+              "buys"
+            ],
+            "accepted": [
+              "will buy"
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Fill the gap: If you ___ the room, I will pay extra.",
+          "answer": "clean",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "clean",
+              "cleaned",
+              "will clean",
+              "cleaning"
+            ],
+            "accepted": [
+              "clean"
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why is a conditional concession safer than a plain one?",
+          "answer": "You give something only if you get something",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You give something only if you get something",
+              "You give everything",
+              "You give nothing",
+              "It ends the talk"
+            ],
+            "accepted": [
+              "You give something only if you get something"
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence makes a trade?",
+          "answer": "If you give me two weeks, I will finish the whole job.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If you give me two weeks, I will finish the whole job.",
+              "I will finish the job.",
+              "Give me two weeks.",
+              "The job is big."
+            ],
+            "accepted": [
+              "If you give me two weeks, I will finish the whole job."
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "If you wait, I will help.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "If",
+              "you",
+              "wait,",
+              "I",
+              "will",
+              "help.",
+              "helped",
+              "waited"
+            ],
+            "accepted": [
+              "If you wait, I will help."
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "If you pay today, I will give a discount.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "If",
+              "you",
+              "pay",
+              "today,",
+              "I",
+              "will",
+              "give",
+              "a",
+              "discount.",
+              "gave",
+              "paid"
+            ],
+            "accepted": [
+              "If you pay today, I will give a discount."
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: If you agree, I ___ start tomorrow.",
+          "answer": "will",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "will"
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "If you… → what you ask for | I will… → what you give | Trade → each side gives something",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "If you…",
+                "what you ask for"
+              ],
+              [
+                "I will…",
+                "what you give"
+              ],
+              [
+                "Trade",
+                "each side gives something"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the sentence in order.",
+          "answer": "If you agree to a one-year contract, | I will lower the monthly price | by ten percent.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "If you agree to a one-year contract,",
+              "I will lower the monthly price",
+              "by ten percent."
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A conditional concession starts with “If.”",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-concede-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. When will the buyer pay the full price?",
+          "answer": "If the sofa arrives on Saturday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If the sofa arrives on Saturday",
+              "If the sofa arrives later",
+              "Never",
+              "If the buyer is free"
+            ],
+            "accepted": [
+              "If the sofa arrives on Saturday"
+            ],
+            "audioText": "If you can deliver the sofa on Saturday, I will pay the full price. If it comes later, I will need a discount."
+          }
+        },
+        {
+          "id": "ng-concede-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two “If you…, I will…” sentences for a negotiation about a shared task at home or at work.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-refuse",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Say no politely",
+      "objectiveId": "NG-F-08",
+      "trackId": "negotiator",
+      "unitId": "negotiate",
+      "tip": "You can refuse and still keep a good relationship. Thank the person, say no clearly, give a short reason if you wish, and offer another choice. Softening words such as “unfortunately” and “I’m afraid” make the no gentler. Do not say “maybe” if you mean no.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos, logos",
+        "Fisher, Ury and Patton, Getting to Yes, and Cialdini’s influence principles (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-refuse-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the most polite refusal?",
+          "answer": "Thank you for asking, but I’m afraid I can’t this week.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Thank you for asking, but I’m afraid I can’t this week.",
+              "No.",
+              "I won’t. Stop asking.",
+              "Whatever."
+            ],
+            "accepted": [
+              "Thank you for asking, but I’m afraid I can’t this week."
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which softening word starts a polite refusal?",
+          "answer": "Unfortunately,",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Unfortunately,",
+              "Obviously,",
+              "Never,",
+              "Stop,"
+            ],
+            "accepted": [
+              "Unfortunately,"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which refusal offers another choice?",
+          "answer": "I can’t on Friday, but I could help on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can’t on Friday, but I could help on Monday.",
+              "I can’t.",
+              "No way.",
+              "Ask someone else."
+            ],
+            "accepted": [
+              "I can’t on Friday, but I could help on Monday."
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You mean no. Which reply is honest?",
+          "answer": "I’m sorry, but I can’t do it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I’m sorry, but I can’t do it.",
+              "Maybe, we will see.",
+              "I will try, but I won’t.",
+              "Sure!"
+            ],
+            "accepted": [
+              "I’m sorry, but I can’t do it."
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase makes a refusal gentler?",
+          "answer": "I’m afraid I can’t",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I’m afraid I can’t",
+              "I never will",
+              "You must not",
+              "I always refuse"
+            ],
+            "accepted": [
+              "I’m afraid I can’t"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Thank the person → shows respect | Say no clearly → avoids confusion | Offer another choice → keeps the relationship",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Thank the person",
+                "shows respect"
+              ],
+              [
+                "Say no clearly",
+                "avoids confusion"
+              ],
+              [
+                "Offer another choice",
+                "keeps the relationship"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the refusal in order.",
+          "answer": "Thank you for the invitation. | Unfortunately, I can’t come on Saturday. | Could we meet next week instead?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Thank you for the invitation.",
+              "Unfortunately, I can’t come on Saturday.",
+              "Could we meet next week instead?"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I’m afraid I can’t help today.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I’m",
+              "afraid",
+              "I",
+              "can’t",
+              "help",
+              "today.",
+              "will",
+              "never"
+            ],
+            "accepted": [
+              "I’m afraid I can’t help today."
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Thank you, but I can’t.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Thank",
+              "you,",
+              "but",
+              "I",
+              "can’t.",
+              "and",
+              "never"
+            ],
+            "accepted": [
+              "Thank you, but I can’t."
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Thank you for asking, but I’m ___ I can’t.",
+          "answer": "afraid",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "afraid"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Saying “maybe” when you mean no is clear and honest.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can say no and still be polite.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-refuse-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why does the speaker refuse?",
+          "answer": "Because they are moving next month",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Because they are moving next month",
+              "Because the pay is low",
+              "Because they are angry",
+              "Because the job is boring"
+            ],
+            "accepted": [
+              "Because they are moving next month"
+            ],
+            "audioText": "Thank you for the offer. Unfortunately, I can’t take the job because I’m moving next month. I hope we can work together another time."
+          }
+        },
+        {
+          "id": "ng-refuse-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A friend asks you to help move house on a day when you are busy. Write a polite refusal that offers another choice.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

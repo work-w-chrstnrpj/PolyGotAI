@@ -172,7 +172,7 @@ struct LevelGateTests {
         #expect(units.map(\.id) == ["sentences", "be-have-do"])
         #expect(units.allSatisfy { $0.lessons.count == 4 })
         #expect(track.lessons.allSatisfy { $0.isReady && $0.tip?.isEmpty == false && $0.hasCheckedExercises })
-        #expect(install.tracks.tracks.map(\.coach) == [.grammarian])
+        #expect(install.tracks.tracks.first?.coach == .grammarian)
     }
 
     @Test func trackLessonsStayOutOfTheCourseButResolveForJourneys() throws {
