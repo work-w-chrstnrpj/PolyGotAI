@@ -397,3 +397,8 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Not verified:** main-tree build and UI tests; OpenCode proofread of batches 2–4 (12 files' worth: Reading & Listening, Journalist, Debater, Negotiator, Public Speaker, Business, Creative Writer, Storyteller, Copywriter); no device; five coaches show a placeholder icon until artwork exists.
 **For others:** coach lesson intro screens still show the Teacher and a "Communication practice" chip (Codex, after Phase 5). `LevelGate` and `JumpTest` still follow the old one-level rule; the owner's change (LOG-0029, tasks 2.7 and 2.9) is Claude's next code task.
 **Open items:** A2–C2 conversion with jump tests; level-lock change; Lexicon 2 (CEFR vocabulary); proofreading.
+
+### LOG-0032 · 2026-10-25 22:50 · Claude · CHANGE
+**Phase:** 4 · **Status:** DONE
+**Summary:** At the owner's request, committed the Phase 4 coach content and the docs/log changes (commit `659a554`, 49 files) and pushed to `main`. **Codex's Phase 5 work in progress was deliberately left out** (Speech Lab code, `Resources/SpeechLab`, its tests, `AppShell.swift`, `LearnerRepository.swift`, `Infrastructure/Speech`): it is uncommitted and still being verified. The committed tree was checked as the previous commit plus the staged files (354 unit tests passed); it does not include any Phase 5 code.
+**For others:** `docs/development-plan/phases/phase-5/evidence/` screenshots were included with the docs. Commit and push only when the owner asks.
