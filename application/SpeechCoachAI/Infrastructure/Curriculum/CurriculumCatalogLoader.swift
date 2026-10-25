@@ -5,10 +5,12 @@ struct CurriculumInstall: Equatable {
     var lessons: [ResolvedLesson]
     var problem: String?
     var archivedLessons: [ResolvedLesson] = []
+    /// Coach tracks (v2). Their lessons are not CEFR lessons, so `lessons(at:)` and the recommendation engine never see them.
+    var tracks = TrackCatalog()
 
     /// Ambiguous, missing or mismatched identities never fall forward to the current tasks.
     func lesson(id: String, version: String) -> ResolvedLesson? {
-        let matches = (lessons + archivedLessons).filter { $0.id == id && $0.contentVersion == version }
+        let matches = (lessons + archivedLessons + tracks.lessons).filter { $0.id == id && $0.contentVersion == version }
         if !matches.isEmpty { return matches.count == 1 ? matches.first : nil }
         // Optional practice also resumes using its exact source version after a later course update.
         for kind in CurriculumPracticeKind.allCases {
@@ -75,8 +77,30 @@ struct CurriculumCatalogLoader {
         guard let catalogURL = bundle.url(forResource: "CurriculumCatalog", withExtension: "json") else {
             return CurriculumInstall(lessons: [], problem: "The lesson catalog is not included in this build.")
         }
-        return load(directory: catalogURL.deletingLastPathComponent())
+        let directory = catalogURL.deletingLastPathComponent()
+        var install = load(directory: directory)
+        install.tracks = loadTracks(directory: directory)
+        return install
     }
+
+    /// Reads every `track-*.json` next to the catalog. Each file is a curriculum manifest plus a `track` object.
+    func loadTracks(directory: URL) -> TrackCatalog {
+        let files = ((try? FileManager.default.contentsOfDirectory(at: directory, includingPropertiesForKeys: nil)) ?? [])
+            .filter { $0.lastPathComponent.hasPrefix("track-") && $0.pathExtension == "json" }
+            .sorted { $0.lastPathComponent < $1.lastPathComponent }
+        var definitions: [TrackDefinition] = []
+        var lessons: [ResolvedLesson] = []
+        for file in files {
+            guard let data = try? Data(contentsOf: file),
+                  let manifest = try? JSONDecoder().decode(CurriculumManifest.self, from: data),
+                  let wrapper = try? JSONDecoder().decode(TrackFile.self, from: data) else { continue }
+            definitions.append(wrapper.track)
+            lessons += CurriculumAvailability.resolve(manifest: manifest, inspected: inspect(manifest.assets, in: directory))
+        }
+        return TrackCatalog.resolve(definitions: definitions, lessons: lessons)
+    }
+
+    private struct TrackFile: Decodable { var track: TrackDefinition }
 
     private func inspect(_ assets: [CurriculumAsset], in directory: URL) -> [String: InspectedAsset] {
         var counts: [String: Int] = [:]

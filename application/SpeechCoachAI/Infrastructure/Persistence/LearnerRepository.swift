@@ -1102,6 +1102,61 @@ final class LearnerRepository {
         if ledger != initial { ledger.revision += 1; next.rewards = ledger }
     }
 
+    /// Levels the learner opened by passing the jump test. Kept in the learner document; no schema migration.
+    func passedJumpTests() throws -> Set<String> { Set(try document().passedJumpTests ?? []) }
+
+    func recordJumpTestPass(level: String) throws {
+        let level = level.uppercased()
+        guard LevelGate.levels.dropFirst().contains(level) else { throw LearnerStorageError.invalidContent }
+        var stored = try document()
+        var passed = stored.passedJumpTests ?? []
+        if !passed.contains(level) { passed.append(level) }
+        stored.passedJumpTests = passed
+        try write(stored)
+    }
+
+    // MARK: Lexicon (v2)
+
+    func lexiconState() throws -> LexiconState { try document().lexicon ?? LexiconState() }
+
+    func saveLexiconState(_ state: LexiconState) throws {
+        var stored = try document()
+        guard stored.lexicon != state else { return }
+        stored.lexicon = state
+        try write(stored)
+    }
+
+    /// Stage of every bank word from its card and latest rating.
+    func lexiconStages(bank: LexiconBank) throws -> [String: LexiconStage] {
+        let stored = try document()
+        return LexiconLedger.stages(bank: bank, cards: stored.reviewCards, recalls: stored.vocabularyRecalls)
+    }
+
+    /// Enrolls today's new words for Daily Training. Words already enrolled are left alone.
+    @discardableResult
+    func startLexiconWords(_ words: [LexiconWord], bankVersion: String) throws -> [VocabularyEnrollment] {
+        guard !words.isEmpty else { return [] }
+        var stored = try document()
+        let now = try effectiveNow()
+        var started: [VocabularyEnrollment] = []
+        for word in words where !stored.vocabularyEnrollments.contains(where: { $0.itemId == word.itemId && $0.senseId == LexiconWord.senseId }) {
+            let enrollment = LexiconTrainingPlan.enrollment(for: word, bankVersion: bankVersion, now: now)
+            stored.vocabularyEnrollments.append(enrollment)
+            started.append(enrollment)
+        }
+        if !started.isEmpty { try write(stored) }
+        return started
+    }
+
+    /// Saves one Lexicon in Action answer. A miss sends the word back to Daily Training with a Hard rating.
+    func recordLexiconAction(word: LexiconWord, correct: Bool) throws {
+        let now = try effectiveNow()
+        if !correct, let card = try document().vocabularyEnrollments.first(where: { $0.itemId == word.itemId && $0.senseId == LexiconWord.senseId }) {
+            _ = try recordVocabularyRecall(card: card, rating: .hard, draft: RecallDraft(revealed: true))
+        }
+        try saveLexiconState(LexiconActionBuilder.updated(try lexiconState(), wordID: word.id, correct: correct, now: now))
+    }
+
     func wordOfDayRecord() throws -> WordOfDayRecord? { try document().wordOfDay }
 
     /// Storage only; this does not select a sense or adopt a repeat/day rule.
@@ -1347,6 +1402,10 @@ final class LearnerRepository {
         var generatedPractice: GeneratedPracticeRecord? = nil
         var wordOfDay: WordOfDayRecord? = nil
         var rewards: RewardLedger? = nil
+        /// v2: levels opened by a perfect jump test, for example ["A2"].
+        var passedJumpTests: [String]? = nil
+        /// v2: Lexicon groups, daily word and Lexicon in Action progress.
+        var lexicon: LexiconState? = nil
 
         init(preferences: LearnerPreferences, lessonJourneys: [LessonJourney] = [],
              vocabularyEnrollments: [VocabularyEnrollment] = [], vocabularyExposures: [VocabularyExposure] = [],
@@ -1370,7 +1429,7 @@ final class LearnerRepository {
         }
 
         private enum CodingKeys: String, CodingKey {
-            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards
+            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, generatedPractice, wordOfDay, rewards, passedJumpTests, lexicon
         }
 
         init(from decoder: Decoder) throws {
@@ -1394,6 +1453,8 @@ final class LearnerRepository {
             generatedPractice = try container.decodeIfPresent(GeneratedPracticeRecord.self, forKey: .generatedPractice)
             wordOfDay = try container.decodeIfPresent(WordOfDayRecord.self, forKey: .wordOfDay)
             rewards = try container.decodeIfPresent(RewardLedger.self, forKey: .rewards)
+            passedJumpTests = try container.decodeIfPresent([String].self, forKey: .passedJumpTests)
+            lexicon = try container.decodeIfPresent(LexiconState.self, forKey: .lexicon)
         }
 
         func encode(to encoder: Encoder) throws {
@@ -1417,6 +1478,8 @@ final class LearnerRepository {
             try container.encodeIfPresent(generatedPractice, forKey: .generatedPractice)
             try container.encodeIfPresent(wordOfDay, forKey: .wordOfDay)
             try container.encodeIfPresent(rewards, forKey: .rewards)
+            try container.encodeIfPresent(passedJumpTests, forKey: .passedJumpTests)
+            try container.encodeIfPresent(lexicon, forKey: .lexicon)
         }
 
         func customLibrary() -> CustomVocabularyLibrary {

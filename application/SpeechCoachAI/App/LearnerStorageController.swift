@@ -67,6 +67,26 @@ final class LearnerStorageController {
 
     init(repository: LearnerRepository? = nil) { self.repository = repository }
 
+    /// Bumped when a jump test is passed, so views reading `levelGate(install:)` refresh.
+    private(set) var jumpTestRevision = 0
+
+    /// Which CEFR levels are open now. With no readable storage only A1 is open.
+    func levelGate(install: CurriculumInstall) -> LevelGate {
+        _ = jumpTestRevision
+        let journeys = (try? repository?.allLessonJourneys()) ?? []
+        let passed = (try? repository?.passedJumpTests()) ?? []
+        return LevelGate(install: install, journeys: journeys, passedTests: passed)
+    }
+
+    /// Saves a perfect jump test. Returns false when it could not be saved.
+    @discardableResult
+    func recordJumpTestPass(level: String) -> Bool {
+        guard let repository else { return false }
+        do { try repository.recordJumpTestPass(level: level) } catch { return false }
+        jumpTestRevision += 1
+        return true
+    }
+
     func loadConfidenceDraft(saved: String?, epoch: UUID) {
         if confidenceDraft?.epoch != epoch || confidenceDraft?.isDirty == false {
             confidenceDraft = ConfidenceNoteDraft(epoch: epoch, text: saved ?? "", savedText: saved)

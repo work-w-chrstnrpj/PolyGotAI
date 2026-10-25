@@ -555,6 +555,7 @@ final class BootstrapLaunchTests: XCTestCase {
         XCTAssertTrue(back.waitForExistence(timeout: 5))
         back.tap()
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         app.buttons["vocabulary.practice"].tap()
         XCTAssertFalse(app.staticTexts["vocabulary.recall.meaning"].exists)
         app.buttons["vocabulary.recall.reveal"].tap()
@@ -609,6 +610,7 @@ final class BootstrapLaunchTests: XCTestCase {
         let back = app.navigationBars.buttons["Lesson"].firstMatch
         XCTAssertTrue(back.waitForExistence(timeout: 5)); back.tap()
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         screenshot(app, "recovery-vocabulary")
         try auditVisibleContent(app, types: [.contrast, .hitRegion, .sufficientElementDescription])
     }
@@ -630,6 +632,7 @@ final class BootstrapLaunchTests: XCTestCase {
         waitForExpectations(timeout: 8)
         app.terminate(); app.launch()
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         XCTAssertEqual(app.buttons["vocabulary.practice"].label, "Resume review")
         app.buttons["vocabulary.practice"].tap()
         XCTAssertEqual(app.descendants(matching: .any)["vocabulary.recall.typed"].firstMatch.value as? String, "a list of dishes")
@@ -640,6 +643,7 @@ final class BootstrapLaunchTests: XCTestCase {
         screenshot(app, "recall-written-reveal")
         app.terminate(); app.launch()
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         app.buttons["vocabulary.practice"].tap()
         XCTAssertTrue(app.staticTexts["vocabulary.recall.meaning"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["You wrote: a list of dishes"].exists)
@@ -735,10 +739,11 @@ final class BootstrapLaunchTests: XCTestCase {
         try auditVisibleContent(app, types: [.contrast, .sufficientElementDescription])
         app.terminate(); app.launch()
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         tapReachable(app, app.buttons["vocabulary.options.open"])
         XCTAssertEqual(app.textFields["vocabulary.options.limit"].value as? String, "1")
         XCTAssertEqual(app.textFields["vocabulary.options.retention"].value as? String, "95")
-        app.navigationBars.buttons["Lexicon"].firstMatch.tap()
+        app.navigationBars.buttons["My words"].firstMatch.tap()
         tapReachable(app, app.buttons["vocabulary.practice"])
         XCTAssertTrue(app.staticTexts["Word 1 of 1"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["vocabulary.recall.deferred"].label.contains("1 more due word"))
@@ -754,6 +759,7 @@ final class BootstrapLaunchTests: XCTestCase {
     @MainActor
     private func createReviewWords(_ app: XCUIApplication) {
         openDestination(app, title: "Lexicon", id: "vocabulary")
+        openSavedWords(app)
         tapReachable(app, app.buttons["vocabulary.topic.new"])
         let title = app.textFields["vocabulary.topic.title"]
         XCTAssertTrue(title.waitForExistence(timeout: 5))
@@ -777,7 +783,7 @@ final class BootstrapLaunchTests: XCTestCase {
         for button in collect { tapReachable(app, button) }
         let enroll = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "vocabulary.sense.enroll.")).allElementsBoundByIndex
         for button in enroll { tapReachable(app, button) }
-        let back = app.navigationBars.buttons["Lexicon"].firstMatch
+        let back = app.navigationBars.buttons["My words"].firstMatch
         XCTAssertTrue(back.waitForExistence(timeout: 5))
         back.tap()
         for _ in 0..<6 where !app.buttons["vocabulary.practice"].isHittable { app.swipeDown() }
@@ -1193,4 +1199,12 @@ final class BootstrapLaunchTests: XCTestCase {
         let detail = XCTAttachment(screenshot: app.screenshot()); detail.name = "SC-D005-unavailable-learning-detail"; detail.lifetime = .keepAlways; add(detail)
     }
 
+
+    /// The Lexicon tab opens on Daily Training; saved words and topics are one step in.
+    @MainActor
+    private func openSavedWords(_ app: XCUIApplication) {
+        let link = app.buttons["lexicon.mywords"]
+        XCTAssertTrue(link.waitForExistence(timeout: 8))
+        link.tap()
+    }
 }

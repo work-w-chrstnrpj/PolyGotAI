@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "group": {
+    "id": "academic-basics",
+    "title": "Academic basics",
+    "level": "B1-B2",
+    "tagline": "Words for study and reports",
+    "sources": [
+      "Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."
+    ]
+  },
+  "words": [
+    {
+      "lemma": "analyze",
+      "pos": "verb",
+      "meaning": "To study something carefully to understand it.",
+      "examples": [
+        "Scientists {analyze} the data from the experiment."
+      ],
+      "wrong": [
+        "I analyze the report without reading it.",
+        "She analyzed to the data."
+      ]
+    },
+    {
+      "lemma": "argue",
+      "pos": "verb",
+      "meaning": "To give reasons to show that something is true or false.",
+      "examples": [
+        "Some people {argue} that homework is helpful."
+      ],
+      "wrong": [
+        "He argues the table with milk.",
+        "I argued of the idea."
+      ]
+    },
+    {
+      "lemma": "assume",
+      "pos": "verb",
+      "meaning": "To think that something is true without checking.",
+      "examples": [
+        "Don't {assume} that everyone has a phone."
+      ],
+      "wrong": [
+        "I assumed the answer after I checked every fact twice.",
+        "She assumes to know it."
+      ]
+    },
+    {
+      "lemma": "benefit",
+      "pos": "noun",
+      "meaning": "A good result or advantage.",
+      "examples": [
+        "One {benefit} of exercise is better sleep."
+      ],
+      "wrong": [
+        "One benefit of the storm is that it destroyed our roof.",
+        "He benefits of a lot."
+      ]
+    },
+    {
+      "lemma": "concept",
+      "pos": "noun",
+      "meaning": "An idea about how something works or what it means.",
+      "examples": [
+        "The {concept} of time is hard to explain."
+      ],
+      "wrong": [
+        "My concept is a warm sandwich.",
+        "She concepts the lesson."
+      ]
+    },
+    {
+      "lemma": "consequence",
+      "pos": "noun",
+      "meaning": "A result of an action or event.",
+      "examples": [
+        "Missing the deadline had serious {consequences}."
+      ],
+      "wrong": [
+        "The consequence came before the action.",
+        "He consequences of the choice."
+      ]
+    },
+    {
+      "lemma": "contrast",
+      "pos": "noun",
+      "meaning": "A clear difference between two things.",
+      "examples": [
+        "There is a sharp {contrast} between the two cities."
+      ],
+      "wrong": [
+        "There is a big contrast because the two cities are exactly the same.",
+        "She contrast two ideas."
+      ]
+    },
+    {
+      "lemma": "define",
+      "pos": "verb",
+      "meaning": "To say exactly what a word or idea means.",
+      "examples": [
+        "The teacher asked us to {define} the term."
+      ],
+      "wrong": [
+        "I define the table to the moon.",
+        "She defined to the word."
+      ]
+    },
+    {
+      "lemma": "evidence",
+      "pos": "noun",
+      "meaning": "Facts or signs that show something is true.",
+      "examples": [
+        "The police found new {evidence}."
+      ],
+      "wrong": [
+        "He has no evidence, but he is completely sure it is a fact.",
+        "The evidences are on the desk."
+      ]
+    },
+    {
+      "lemma": "factor",
+      "pos": "noun",
+      "meaning": "One of the things that affect a result.",
+      "examples": [
+        "Cost is an important {factor} in the decision."
+      ],
+      "wrong": [
+        "A factor is a result that has no cause.",
+        "She factors the decision."
+      ]
+    },
+    {
+      "lemma": "function",
+      "pos": "noun",
+      "meaning": "The purpose or normal job of something.",
+      "examples": [
+        "The {function} of the heart is to pump blood."
+      ],
+      "wrong": [
+        "The function of a key is to cut bread.",
+        "He functions of the machine."
+      ]
+    },
+    {
+      "lemma": "impact",
+      "pos": "noun",
+      "meaning": "A strong effect on something.",
+      "examples": [
+        "The new law had a big {impact} on small shops."
+      ],
+      "wrong": [
+        "The law had a big impact, but nothing changed.",
+        "She impacts of the law."
+      ]
+    },
+    {
+      "lemma": "indicate",
+      "pos": "verb",
+      "meaning": "To show or point to something.",
+      "examples": [
+        "The results {indicate} that the plan works."
+      ],
+      "wrong": [
+        "The results indicate that nobody knows anything.",
+        "He indicated to the sign."
+      ]
+    },
+    {
+      "lemma": "individual",
+      "pos": "noun",
+      "meaning": "One single person, not a group.",
+      "examples": [
+        "Each {individual} has different needs."
+      ],
+      "wrong": [
+        "An individual is a big group of people.",
+        "She individual of the group."
+      ]
+    },
+    {
+      "lemma": "interpret",
+      "pos": "verb",
+      "meaning": "To explain what something means.",
+      "examples": [
+        "People can {interpret} the poem in different ways."
+      ],
+      "wrong": [
+        "I interpret the poem by not reading it.",
+        "He interpreted of the sign."
+      ]
+    },
+    {
+      "lemma": "issue",
+      "pos": "noun",
+      "meaning": "A problem or topic that people discuss.",
+      "examples": [
+        "Climate change is an important {issue}."
+      ],
+      "wrong": [
+        "An issue is something no one talks about or thinks about.",
+        "She issues of the city."
+      ]
+    },
+    {
+      "lemma": "method",
+      "pos": "noun",
+      "meaning": "A particular way of doing something.",
+      "examples": [
+        "This {method} saves a lot of time."
+      ],
+      "wrong": [
+        "The method is the final answer of the test.",
+        "He methods the research."
+      ]
+    },
+    {
+      "lemma": "obtain",
+      "pos": "verb",
+      "meaning": "To get something, often with effort.",
+      "examples": [
+        "You can {obtain} a permit at the town hall."
+      ],
+      "wrong": [
+        "I obtained a permit by giving it away.",
+        "She obtains from a license."
+      ]
+    },
+    {
+      "lemma": "occur",
+      "pos": "verb",
+      "meaning": "To happen.",
+      "examples": [
+        "The accident did not {occur} at night."
+      ],
+      "wrong": [
+        "The event occurred, but nothing happened.",
+        "He occurs to the street."
+      ]
+    },
+    {
+      "lemma": "principle",
+      "pos": "noun",
+      "meaning": "A basic rule or idea that guides how you act or think.",
+      "examples": [
+        "Honesty is a basic {principle} in science."
+      ],
+      "wrong": [
+        "A principle is the person who runs a school.",
+        "She principles of the club."
+      ]
+    },
+    {
+      "lemma": "process",
+      "pos": "noun",
+      "meaning": "A series of steps that lead to a result.",
+      "examples": [
+        "Making cheese is a long {process}."
+      ],
+      "wrong": [
+        "The process has no steps and no end.",
+        "He process the milk for cheese."
+      ]
+    },
+    {
+      "lemma": "require",
+      "pos": "verb",
+      "meaning": "To need something or make it necessary.",
+      "examples": [
+        "The job will {require} two years of experience."
+      ],
+      "wrong": [
+        "The job requires nothing, so you must bring many documents.",
+        "She requires to have a license."
+      ]
+    },
+    {
+      "lemma": "research",
+      "pos": "noun",
+      "meaning": "Careful study to find new facts.",
+      "examples": [
+        "Her {research} shows how children learn."
+      ],
+      "wrong": [
+        "I did research by guessing without looking at any facts.",
+        "He researches are on the shelf."
+      ]
+    },
+    {
+      "lemma": "respond",
+      "pos": "verb",
+      "meaning": "To answer or react to something.",
+      "examples": [
+        "Please {respond} to the email by Friday."
+      ],
+      "wrong": [
+        "I responded before I read the email.",
+        "She responds the letter."
+      ]
+    },
+    {
+      "lemma": "role",
+      "pos": "noun",
+      "meaning": "The part someone or something plays in a situation.",
+      "examples": [
+        "Parents play an important {role} in learning."
+      ],
+      "wrong": [
+        "A role is a kind of bread.",
+        "He roles in the project."
+      ]
+    },
+    {
+      "lemma": "significant",
+      "pos": "adjective",
+      "meaning": "Important enough to have a clear effect.",
+      "examples": [
+        "There was a {significant} change in the numbers."
+      ],
+      "wrong": [
+        "The change was significant because it was too small to notice.",
+        "She significants a result."
+      ]
+    },
+    {
+      "lemma": "source",
+      "pos": "noun",
+      "meaning": "A place, person or thing where information or something else comes from.",
+      "examples": [
+        "The report names its {source} for each fact."
+      ],
+      "wrong": [
+        "The report has no source and no one wrote it.",
+        "He sources of the river."
+      ]
+    },
+    {
+      "lemma": "structure",
+      "pos": "noun",
+      "meaning": "The way parts are arranged to make a whole.",
+      "examples": [
+        "The {structure} of the essay is clear."
+      ],
+      "wrong": [
+        "The essay has no structure, so every part is in perfect order.",
+        "She structure the paragraph."
+      ]
+    },
+    {
+      "lemma": "survey",
+      "pos": "noun",
+      "meaning": "A set of questions asked to many people to learn their opinions.",
+      "examples": [
+        "The {survey} asked students about their sleep."
+      ],
+      "wrong": [
+        "The survey asked only one person and no questions.",
+        "He surveys of the class."
+      ]
+    },
+    {
+      "lemma": "theory",
+      "pos": "noun",
+      "meaning": "An idea that tries to explain how or why something happens.",
+      "examples": [
+        "Darwin's {theory} explains how species change."
+      ],
+      "wrong": [
+        "A theory is a fact that nobody can explain.",
+        "She theory the results."
+      ]
+    },
+    {
+      "lemma": "trend",
+      "pos": "noun",
+      "meaning": "A general change or direction over time.",
+      "examples": [
+        "There is a growing {trend} toward working from home."
+      ],
+      "wrong": [
+        "A trend is something that happens only once.",
+        "He trends of the market."
+      ]
+    },
+    {
+      "lemma": "variety",
+      "pos": "noun",
+      "meaning": "A number of different kinds of things.",
+      "examples": [
+        "The store sells a wide {variety} of teas."
+      ],
+      "wrong": [
+        "The store has a wide variety, so every product is the same.",
+        "She varieties of cakes."
+      ]
+    },
+    {
+      "lemma": "version",
+      "pos": "noun",
+      "meaning": "A form of something that is a little different from others.",
+      "examples": [
+        "This is the newest {version} of the app."
+      ],
+      "wrong": [
+        "This version is exactly the same as every other one.",
+        "He versions the app."
+      ]
+    },
+    {
+      "lemma": "compare",
+      "pos": "verb",
+      "meaning": "To look at things to see how they are alike or different.",
+      "examples": [
+        "Let's {compare} the two phones before we buy one."
+      ],
+      "wrong": [
+        "I compare one phone without looking at the other.",
+        "She compares at the prices."
+      ]
+    },
+    {
+      "lemma": "conclude",
+      "pos": "verb",
+      "meaning": "To decide something after thinking about the facts.",
+      "examples": [
+        "We {conclude} that the plan is safe."
+      ],
+      "wrong": [
+        "I concluded the answer before I knew any facts.",
+        "He concludes to the idea."
+      ]
+    },
+    {
+      "lemma": "create",
+      "pos": "verb",
+      "meaning": "To make something new.",
+      "examples": [
+        "Artists {create} new things every day."
+      ],
+      "wrong": [
+        "I created a painting that already existed.",
+        "She creates of a song."
+      ]
+    },
+    {
+      "lemma": "estimate",
+      "pos": "verb",
+      "meaning": "To guess an amount using the facts you have.",
+      "examples": [
+        "Can you {estimate} how long the trip will take?"
+      ],
+      "wrong": [
+        "I estimate the exact number after I measure it.",
+        "He estimates to the cost."
+      ]
+    },
+    {
+      "lemma": "focus",
+      "pos": "verb",
+      "meaning": "To give all your attention to one thing.",
+      "examples": [
+        "I cannot {focus} when the room is noisy."
+      ],
+      "wrong": [
+        "I focus on ten different things at the same time.",
+        "She focuses at the work."
+      ]
+    },
+    {
+      "lemma": "involve",
+      "pos": "verb",
+      "meaning": "To include someone or something as a necessary part.",
+      "examples": [
+        "The job will {involve} a lot of travel."
+      ],
+      "wrong": [
+        "The plan involves nobody and nothing.",
+        "He involves to the group."
+      ]
+    },
+    {
+      "lemma": "maintain",
+      "pos": "verb",
+      "meaning": "To keep something in good condition or at the same level.",
+      "examples": [
+        "It is hard to {maintain} a healthy diet when you travel."
+      ],
+      "wrong": [
+        "We maintain the road by letting it break.",
+        "She maintains of the house."
+      ]
+    }
+  ]
+}

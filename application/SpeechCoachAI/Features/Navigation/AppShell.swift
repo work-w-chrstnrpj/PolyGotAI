@@ -144,7 +144,7 @@ struct AppShell: View {
                     switch item {
                     case .today: TodayContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeech: { destination = .speechLab }, openSpeaking: openLessonSpeaking)
                     case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
-                    case .vocabulary: CustomTopicList(storage: storage)
+                    case .vocabulary: LexiconHome(storage: storage)
                     case .speechLab: SpeechLabContent(storage: storage, context: $practiceContext, openRecording: {
                         recordingPresentation = RecordingPresentation(context: practiceContext ?? PracticeSessionContext(defaults: storage.preferences))
                     })
@@ -224,6 +224,7 @@ private struct TodayContent: View {
                 KitCard { KitContentRow(symbol: "square.stack", title: "Review words", detail: "\(dueCount) due", showsChevron: true) }
             }.buttonStyle(.plain).accessibilityIdentifier("today.review-row")
         }
+        DailyLexiconCard(storage: storage)
         RewardSummary(storage: storage)
             .onAppear(perform: reload)
             .onChange(of: storage.repository != nil) { _, _ in reload() }
@@ -275,44 +276,20 @@ private struct LearnContent: View {
     var storage: LearnerStorageController
     var install: CurriculumInstall
     var openSpeaking: (ResolvedLesson, UUID) -> Void
+    @SceneStorage("learn.mode") private var mode = "course"
     @State private var level = "A1"
-    @State private var journeys: [LessonJourney] = []
-    private static let levels = ["A1", "A2", "B1", "B2", "C1", "C2"]
-    private var lessons: [ResolvedLesson] { install.lessons(at: level).filter(\.isReady) }
 
     var body: some View {
-        Text("Pick a level and start anywhere.").foregroundStyle(Kit.secondary)
-        Picker("English level", selection: $level) {
-            ForEach(Self.levels, id: \.self) { Text($0).tag($0) }
-        }.pickerStyle(.segmented).accessibilityIdentifier("learn.level")
-        LazyVStack(spacing: 12) {
-            ForEach(Array(lessons.enumerated()), id: \.element.id) { index, lesson in
-                NavigationLink {
-                    LessonPlayerView(storage: storage, lesson: lesson, install: install, onSpeak: openSpeaking)
-                } label: {
-                    KitCard {
-                        KitContentRow(symbol: statusSymbol(lesson), title: lesson.title,
-                                      detail: "\(index + 1). \(status(lesson))", showsChevron: true)
-                    }
-                }.buttonStyle(.plain).accessibilityIdentifier("learn.open.\(lesson.id)")
-            }
+        Text("Build your English.").foregroundStyle(Kit.secondary).lineLimit(1).minimumScaleFactor(0.7)
+        Picker("Lesson mode", selection: $mode) {
+            Text("Course").tag("course")
+            Text("Coaches").tag("coaches")
+        }.pickerStyle(.segmented).accessibilityIdentifier("learn.mode")
+        if mode == "coaches" {
+            CoachCatalogView(storage: storage, install: install, onSpeak: openSpeaking)
+        } else {
+            CourseCatalogView(storage: storage, install: install, onSpeak: openSpeaking, level: $level)
         }
-        .accessibilityIdentifier("learn.availability")
-        NavigationLink { ResourceLibraryView(storage: storage) } label: {
-            KitCard { KitContentRow(symbol: "bookmark", title: "Learning resources", detail: "Links and notes", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("learn.resources")
-            .onAppear { journeys = (try? storage.repository?.allLessonJourneys()) ?? [] }
-    }
-    private func latest(_ lesson: ResolvedLesson) -> LessonJourney? {
-        journeys.last { $0.lessonID == lesson.id && $0.completedAt == nil } ?? journeys.last { $0.lessonID == lesson.id && $0.contentVersion == lesson.contentVersion }
-    }
-    private func status(_ lesson: ResolvedLesson) -> String {
-        guard let current = latest(lesson) else { return "New" }
-        return current.completedAt == nil ? "In progress" : "Completed"
-    }
-    private func statusSymbol(_ lesson: ResolvedLesson) -> String {
-        guard let current = latest(lesson) else { return "book" }
-        return current.completedAt == nil ? "play.circle" : "checkmark.circle.fill"
     }
 }
 

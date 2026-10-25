@@ -8,8 +8,8 @@
 | --- | --- | --- | --- |
 | 0 | Declutter + setup | ✅ done: Today, Learn, Speech Lab and lesson screens decluttered; iPad navigation; tab order; one-line taglines | Not yet |
 | 1 | Exercise engine + dictation button | ✅ done on iPad simulator; owner to play an A1 lesson and test dictation on a device | Not yet |
-| 2 | Lesson restructure (Course + 10 coaches) | ⏳ planned | — |
-| 3 | Lexicon (Daily Lexicon, Daily Training, Lexicon in Action) | ⏳ planned | — |
+| 2 | Lesson restructure (Course + 10 coaches, level lock) | 🔄 built by Claude (API, content) and Codex (screens); Claude verifying ([phase 2](phases/phase-2/README.md)) | Not yet |
+| 3 | Lexicon (Daily Lexicon, Daily Training, Lexicon in Action) | ✅ built and tested ([phase 3](phases/phase-3/README.md)); try it on your device | Not yet |
 | 4 | Coach content (10 tracks) + A2–C2 fixes | ⏳ planned | — |
 | 5 | Speech Lab additions (Phonetics, Articulation, Dictation, Voice) | ⏳ planned | — |
 | 6 | Online AI (coach review, Specialized Lexicon) | ⏳ later | — |
@@ -62,22 +62,25 @@
 
 | # | Task | Lane | Status |
 | --- | --- | --- | --- |
-| 2.1 | Track catalog model and loader; new coach cases | Claude | ⏳ |
-| 2.2 | Grammarian Units 1–2 content | Claude | ⏳ |
-| 2.3 | Lesson tab = Course \| Coaches; coach grid; track → unit → lesson screens | Codex | ⏳ |
+| 2.1 | Track catalog model and loader (`TrackCoach`, `TrackCatalog`, `install.tracks`) | Claude | ✅ 331/331 unit tests |
+| 2.2 | Grammarian Units 1–2 content (Starter stage: 8 lessons, 104 activities, XP targets registered; `build_grammarian.py`) | Claude | ✅ validate.py clean |
+| 2.3 | Lesson tab = Course \| Coaches; flat coach grid (only coaches with lessons) + Continue card; coach screen with stage chips and unit cards; unit lesson list. Design: [coach-tracks.md](../product-specification/coach-tracks.md#how-coaches-are-presented-owner-approved-2026-10-25) | Codex | ✅ built; 4 of 5 UI tests pass on iPhone (re-verifying) |
+| 2.4 | **Level lock (owner rule, 2026-10-25):** `LevelGate` (unlocked levels, finish-level unlock, jump test needs a perfect score) + tests | Claude | ✅ |
+| 2.5 | A1 → A2 jump test: question builder from A1 typed exercises, perfect-score check (later levels' tests come with Phase 4) | Claude | ✅ |
+| 2.6 | Locked level picker (lock icon, "Take the A2 test") and jump-test screen; UI test that C2 cannot be opened from A1 | Codex | ✅ built; failed test + retry + relaunch lock verified; perfect-pass path unit-tested only |
 
 ## Phase 3 — Lexicon
 
 | # | Task | Lane | Status |
 | --- | --- | --- | --- |
-| 3.1 | Lexicon bank model, loader, validator (`Resources/Lexicon/*.json`) | Claude | ⏳ |
-| 3.2 | Duplicate check (lemma + part of speech, normalized) | Claude | ⏳ |
-| 3.3 | Word stages from FSRS state and last rating; Easy list | Claude | ⏳ |
-| 3.4 | Lexicon in Action question builder (fill the blank, choose the sentence) + tests | Claude | ⏳ |
-| 3.5 | Daily Lexicon pick (word of the day) | Claude | ⏳ |
-| 3.6 | First predefined groups: 3 groups × 40 words, original meanings and examples | Claude | ⏳ |
-| 3.7 | Lexicon tab screens: groups, Daily Training, Lexicon in Action; add-word with duplicate message | Codex | ⏳ |
-| 3.8 | Daily Lexicon card on Today | Codex | ⏳ |
+| 3.1 | Lexicon bank model, loader, validator (`Resources/Lexicon/lexicon-*.json`, `LexiconBankLoader`, `validate.py`) | Claude | ✅ |
+| 3.2 | Duplicate check (lemma + part of speech, normalized) | Claude | ✅ |
+| 3.3 | Word stages from FSRS state and last rating; Easy list | Claude | ✅ |
+| 3.4 | Lexicon in Action question builder (fill the blank, choose the sentence) + tests | Claude | ✅ |
+| 3.5 | Daily Lexicon pick (word of the day) | Claude | ✅ |
+| 3.6 | First predefined groups: 3 groups × 40 words (Everyday A1, Work and office, Academic basics), original meanings, examples and wrong-usage sentences; `build_lexicon.py` | Claude | ✅ wrong-usage sentences need an editorial read |
+| 3.7 | Lexicon tab screens: groups, Daily Training, Lexicon in Action; add-word with duplicate message | Claude (Codex is on Phase 2) | ✅ Lexicon home, Daily Training, Lexicon in Action, add-word with duplicate message; simulator-checked |
+| 3.8 | Daily Lexicon card on Today | Claude | ✅ simulator-checked |
 | 3.9 | Specialized Lexicon Training (AI field generation) | Claude + Codex | ⏳ Phase 6 |
 
 ## Phase 4 — Coach content
@@ -95,6 +98,7 @@
 | Storytelling | 0 / 2 | ⏳ |
 | Advertising & Copywriting | 0 / 2 | ⏳ |
 | CEFR course A2–C2 fixes and typed exercises | 0 / 43 lessons | ⏳ |
+| Jump tests A2 → B1, B1 → B2, B2 → C1, C1 → C2 (one per converted level) | 0 / 4 | ⏳ |
 
 ## Phase 5 — Speech Lab additions
 

@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "group": {
+    "id": "everyday-a1",
+    "title": "Everyday A1",
+    "level": "A1",
+    "tagline": "Words for daily life",
+    "sources": [
+      "Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."
+    ]
+  },
+  "words": [
+    {
+      "lemma": "happy",
+      "pos": "adjective",
+      "meaning": "Feeling pleased and cheerful.",
+      "examples": [
+        "Mina was {happy} when her friend called."
+      ],
+      "wrong": [
+        "I am happy because my dog is very sick.",
+        "Yesterday she happy to see us."
+      ]
+    },
+    {
+      "lemma": "buy",
+      "pos": "verb",
+      "meaning": "To get something by paying money for it.",
+      "examples": [
+        "We {buy} bread at the corner shop."
+      ],
+      "wrong": [
+        "I buy a new coat, so the shop pays me money.",
+        "Yesterday I buy a new phone."
+      ]
+    },
+    {
+      "lemma": "kitchen",
+      "pos": "noun",
+      "meaning": "The room where people cook food.",
+      "examples": [
+        "Dad is making soup in the {kitchen}."
+      ],
+      "wrong": [
+        "We take a hot shower in the kitchen.",
+        "A kitchen is a person who cooks."
+      ]
+    },
+    {
+      "lemma": "window",
+      "pos": "noun",
+      "meaning": "An opening in a wall that lets in light and air.",
+      "examples": [
+        "Please open the {window}; it is hot."
+      ],
+      "wrong": [
+        "It is freezing, so please open the window wide.",
+        "She cut the bread with a window."
+      ]
+    },
+    {
+      "lemma": "quickly",
+      "pos": "adverb",
+      "meaning": "In a short time; fast.",
+      "examples": [
+        "She ate her breakfast {quickly} and ran to school."
+      ],
+      "wrong": [
+        "He walked quickly, so he arrived after a very long hour.",
+        "She is a very quickly runner."
+      ]
+    },
+    {
+      "lemma": "tired",
+      "pos": "adjective",
+      "meaning": "Needing rest or sleep.",
+      "examples": [
+        "I am {tired} after a long day at work."
+      ],
+      "wrong": [
+        "I slept ten hours, so I am very tired and full of energy.",
+        "She tired very much last night."
+      ]
+    },
+    {
+      "lemma": "friend",
+      "pos": "noun",
+      "meaning": "A person you like and know well.",
+      "examples": [
+        "My {friend} lives next door."
+      ],
+      "wrong": [
+        "A friend is someone you do not know at all.",
+        "He friend me a book yesterday."
+      ]
+    },
+    {
+      "lemma": "cook",
+      "pos": "verb",
+      "meaning": "To prepare food by heating it.",
+      "examples": [
+        "I {cook} rice for dinner every evening."
+      ],
+      "wrong": [
+        "I cooked dinner with cold water and no heat.",
+        "She cooks the television for dinner."
+      ]
+    },
+    {
+      "lemma": "weather",
+      "pos": "noun",
+      "meaning": "The sun, rain, wind or cold outside.",
+      "examples": [
+        "The {weather} is sunny today."
+      ],
+      "wrong": [
+        "The weather is my brother's name.",
+        "The weathers are sunny today."
+      ]
+    },
+    {
+      "lemma": "street",
+      "pos": "noun",
+      "meaning": "A road in a town with buildings on the sides.",
+      "examples": [
+        "The bakery is on the next {street}."
+      ],
+      "wrong": [
+        "We drive on the street from the kitchen to the bedroom.",
+        "I sat on the streets and read a street."
+      ]
+    },
+    {
+      "lemma": "early",
+      "pos": "adverb",
+      "meaning": "Before the usual or expected time.",
+      "examples": [
+        "We arrived {early} and waited for the doors to open."
+      ],
+      "wrong": [
+        "I arrived early, so I missed the beginning of the film.",
+        "She comes early than me."
+      ]
+    },
+    {
+      "lemma": "market",
+      "pos": "noun",
+      "meaning": "A place where people buy and sell food and goods.",
+      "examples": [
+        "Grandma buys fresh fish at the {market}."
+      ],
+      "wrong": [
+        "The market is a room where we sleep.",
+        "He markets yesterday to buy apples."
+      ]
+    },
+    {
+      "lemma": "wash",
+      "pos": "verb",
+      "meaning": "To clean something with water.",
+      "examples": [
+        "Please {wash} your hands before lunch."
+      ],
+      "wrong": [
+        "I wash my hands with dirty sand.",
+        "He washes his car yesterday."
+      ]
+    },
+    {
+      "lemma": "library",
+      "pos": "noun",
+      "meaning": "A place where you can read or borrow books.",
+      "examples": [
+        "She borrowed three books from the {library}."
+      ],
+      "wrong": [
+        "We buy bread at the library.",
+        "A library is a kind of soup."
+      ]
+    },
+    {
+      "lemma": "ticket",
+      "pos": "noun",
+      "meaning": "A piece of paper that lets you enter or travel.",
+      "examples": [
+        "I need a {ticket} for the train."
+      ],
+      "wrong": [
+        "A ticket is a kind of soup.",
+        "The ticket was cheap, so it cost one thousand dollars."
+      ]
+    },
+    {
+      "lemma": "borrow",
+      "pos": "verb",
+      "meaning": "To take something and give it back later.",
+      "examples": [
+        "Can I {borrow} your pen for a minute?"
+      ],
+      "wrong": [
+        "I borrow my sister a pen.",
+        "Please borrow me your pen and keep it forever."
+      ]
+    },
+    {
+      "lemma": "birthday",
+      "pos": "noun",
+      "meaning": "The day each year when you were born.",
+      "examples": [
+        "Her {birthday} is in March."
+      ],
+      "wrong": [
+        "My birthday is every day of the week.",
+        "Today is my birthday of the winter."
+      ]
+    },
+    {
+      "lemma": "lunch",
+      "pos": "noun",
+      "meaning": "The meal you eat in the middle of the day.",
+      "examples": [
+        "We have {lunch} at noon."
+      ],
+      "wrong": [
+        "I eat lunch at midnight, before breakfast.",
+        "She lunches a letter."
+      ]
+    },
+    {
+      "lemma": "careful",
+      "pos": "adjective",
+      "meaning": "Paying attention so you do not make a mistake or get hurt.",
+      "examples": [
+        "Be {careful}; the floor is wet."
+      ],
+      "wrong": [
+        "He was very careful, so he fell down three times.",
+        "She is careful at the stairs of."
+      ]
+    },
+    {
+      "lemma": "lose",
+      "pos": "verb",
+      "meaning": "To not be able to find something.",
+      "examples": [
+        "Don't {lose} your keys again."
+      ],
+      "wrong": [
+        "I lose my keys, so I know exactly where they are.",
+        "He lose his wallet yesterday."
+      ]
+    },
+    {
+      "lemma": "bedroom",
+      "pos": "noun",
+      "meaning": "A room where you sleep.",
+      "examples": [
+        "My {bedroom} has a small desk and a lamp."
+      ],
+      "wrong": [
+        "We cook dinner in the bedroom oven.",
+        "He bedroomed a cold shower."
+      ]
+    },
+    {
+      "lemma": "answer",
+      "pos": "verb",
+      "meaning": "To say or write something after a question.",
+      "examples": [
+        "Please {answer} the phone."
+      ],
+      "wrong": [
+        "I answer a question before anyone asks me.",
+        "She answers to the question of the teacher."
+      ]
+    },
+    {
+      "lemma": "cheap",
+      "pos": "adjective",
+      "meaning": "Not costing much money.",
+      "examples": [
+        "These shoes were {cheap}, so I bought two pairs."
+      ],
+      "wrong": [
+        "The shoes were cheap, so they cost a lot of money.",
+        "This is the most cheap shop."
+      ]
+    },
+    {
+      "lemma": "visit",
+      "pos": "verb",
+      "meaning": "To go and see a person or place for a short time.",
+      "examples": [
+        "We {visit} my grandparents on Sundays."
+      ],
+      "wrong": [
+        "I visit my aunt and I never see her.",
+        "She visits to her aunt on Sundays."
+      ]
+    },
+    {
+      "lemma": "neighbor",
+      "pos": "noun",
+      "meaning": "A person who lives near you.",
+      "examples": [
+        "Our {neighbor} waters our plants when we travel."
+      ],
+      "wrong": [
+        "My neighbor lives in another country, far from my house.",
+        "She neighbors very kind."
+      ]
+    },
+    {
+      "lemma": "bottle",
+      "pos": "noun",
+      "meaning": "A container with a narrow neck for liquid.",
+      "examples": [
+        "He drank water from a plastic {bottle}."
+      ],
+      "wrong": [
+        "I put the milk in a bottle made of paper with no lid and no bottom.",
+        "She bottles of water on the table."
+      ]
+    },
+    {
+      "lemma": "listen",
+      "pos": "verb",
+      "meaning": "To pay attention to a sound.",
+      "examples": [
+        "I like to {listen} to music on the bus."
+      ],
+      "wrong": [
+        "I listen the radio with my eyes.",
+        "He listens a book on the shelf."
+      ]
+    },
+    {
+      "lemma": "ready",
+      "pos": "adjective",
+      "meaning": "Prepared and able to start.",
+      "examples": [
+        "Dinner is {ready}; come and eat."
+      ],
+      "wrong": [
+        "I am ready, so I need one more hour to start.",
+        "She readies for school."
+      ]
+    },
+    {
+      "lemma": "empty",
+      "pos": "adjective",
+      "meaning": "With nothing inside.",
+      "examples": [
+        "The box was {empty}, so I threw it away."
+      ],
+      "wrong": [
+        "The glass is empty and full of juice.",
+        "He emptys the bottle yesterday."
+      ]
+    },
+    {
+      "lemma": "enjoy",
+      "pos": "verb",
+      "meaning": "To like doing or having something.",
+      "examples": [
+        "I {enjoy} walking in the park."
+      ],
+      "wrong": [
+        "I enjoy going to the dentist because I hate it.",
+        "She enjoys to swim."
+      ]
+    },
+    {
+      "lemma": "bridge",
+      "pos": "noun",
+      "meaning": "A structure that lets people cross a river.",
+      "examples": [
+        "We walked across the {bridge} to the other side."
+      ],
+      "wrong": [
+        "We swam under the bridge to the top of the sky.",
+        "A bridge is a kind of fruit."
+      ]
+    },
+    {
+      "lemma": "sleep",
+      "pos": "verb",
+      "meaning": "To rest with your eyes closed at night.",
+      "examples": [
+        "Babies {sleep} a lot."
+      ],
+      "wrong": [
+        "I sleep with my eyes open and talk all night.",
+        "He sleeped well last night."
+      ]
+    },
+    {
+      "lemma": "jacket",
+      "pos": "noun",
+      "meaning": "A short coat.",
+      "examples": [
+        "Take a {jacket}; it may get cold."
+      ],
+      "wrong": [
+        "She ate a jacket for breakfast.",
+        "He jacket his coat on the chair."
+      ]
+    },
+    {
+      "lemma": "hungry",
+      "pos": "adjective",
+      "meaning": "Wanting to eat.",
+      "examples": [
+        "I am {hungry}; let's have lunch."
+      ],
+      "wrong": [
+        "I am hungry because I just ate three big meals.",
+        "She is hungry of a sandwich."
+      ]
+    },
+    {
+      "lemma": "carry",
+      "pos": "verb",
+      "meaning": "To hold something and take it from one place to another.",
+      "examples": [
+        "Can you {carry} this bag for me?"
+      ],
+      "wrong": [
+        "I carry the weather in my hand.",
+        "He carried the bag to he home."
+      ]
+    },
+    {
+      "lemma": "village",
+      "pos": "noun",
+      "meaning": "A very small town in the countryside.",
+      "examples": [
+        "My grandparents live in a quiet {village}."
+      ],
+      "wrong": [
+        "The village has two million people and a huge airport.",
+        "She villages to work by bus."
+      ]
+    },
+    {
+      "lemma": "repeat",
+      "pos": "verb",
+      "meaning": "To say or do something again.",
+      "examples": [
+        "Please {repeat} the question."
+      ],
+      "wrong": [
+        "I repeat the word once and only one time.",
+        "He repeat the song again."
+      ]
+    },
+    {
+      "lemma": "beautiful",
+      "pos": "adjective",
+      "meaning": "Very nice to look at or hear.",
+      "examples": [
+        "The garden looks {beautiful} in spring."
+      ],
+      "wrong": [
+        "The garden looks very beautiful and ugly.",
+        "She sings beautiful."
+      ]
+    },
+    {
+      "lemma": "plan",
+      "pos": "noun",
+      "meaning": "An idea about what you will do.",
+      "examples": [
+        "What is your {plan} for the weekend?"
+      ],
+      "wrong": [
+        "I put my plan in the oven for ten minutes.",
+        "He plans of the dog a shoe."
+      ]
+    },
+    {
+      "lemma": "clean",
+      "pos": "adjective",
+      "meaning": "Not dirty.",
+      "examples": [
+        "Please put on a {clean} shirt."
+      ],
+      "wrong": [
+        "The floor is clean because it is covered with mud.",
+        "He is clean the room now."
+      ]
+    }
+  ]
+}

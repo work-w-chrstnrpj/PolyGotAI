@@ -125,26 +125,72 @@ def main() -> int:
     for lesson in catalog.get("archivedLessons", []):
         check_lesson(lesson, "course(archived)", errors)
 
-    for path in sorted(glob.glob(os.path.join(RES, "Tracks", "*.json"))):
+    coaches = {"grammarian", "readingListening", "debater", "negotiator", "publicSpeaker",
+               "journalist", "creativeWriter", "business", "storyteller", "copywriter"}
+    awards = open(os.path.join(RES, "Rewards", "AwardCatalog.json"), encoding="utf-8").read()
+    # Track file: a curriculum manifest plus a "track" object {id, coach, stages:[{id,title,units:[{id,title}]}]}.
+    for path in sorted(glob.glob(os.path.join(RES, "Tracks", "track-*.json"))):
         name = os.path.basename(path)
         with open(path, encoding="utf-8") as fh:
-            track = json.load(fh)
-        track_id = track.get("trackId")
-        if not track_id or track_id + ".json" != name:
-            errors.append(f"{name}: trackId must match the file name")
-        if blank(track.get("units")):
+            data = json.load(fh)
+        track = data.get("track") or {}
+        track_id = track.get("id")
+        if not track_id or f"track-{track_id}.json" != name:
+            errors.append(f"{name}: track.id must match the file name")
+        if track.get("coach") not in coaches:
+            errors.append(f"{name}: unknown coach {track.get('coach')!r}")
+        units = {u["id"] for stage in track.get("stages", []) for u in stage.get("units", [])}
+        if not units:
             errors.append(f"{name}: no units")
-        for unit in track.get("units", []):
-            for lesson in unit.get("lessons", []):
-                lid = lesson["id"]
-                if lid in ids:
-                    errors.append(f"{name}: duplicate lesson id {lid} (also in {ids[lid]})")
-                ids[lid] = name
-                counts["track"] += 1
-                counts["typed"] += sum(1 for a in lesson["activities"] if a.get("exercise"))
-                check_lesson(lesson, name, errors, track_id, unit.get("id"))
+        for lesson in data.get("lessons", []):
+            lid = lesson["id"]
+            if lid in ids:
+                errors.append(f"{name}: duplicate lesson id {lid} (also in {ids[lid]})")
+            ids[lid] = name
+            counts["track"] += 1
+            counts["typed"] += sum(1 for a in lesson["activities"] if a.get("exercise"))
+            check_lesson(lesson, name, errors, track_id, lesson.get("unitId"))
+            if lesson.get("unitId") not in units:
+                errors.append(f"{name}: {lid}: unitId {lesson.get('unitId')!r} is not in the track")
+            if f'"{lid}@{lesson["contentVersion"]}"' not in awards:
+                errors.append(f"{name}: {lid}: not listed in AwardCatalog.json contentTargetIDs (earns no XP)")
+
+
+    # Lexicon bank: lexicon-*.json = {group:{id,title,level,tagline,sources}, words:[{lemma,pos,meaning,examples,wrong}]}
+    pos_ok = {"noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "phrase"}
+    seen_words: dict[str, str] = {}
+    lexicon_words = 0
+    for path in sorted(glob.glob(os.path.join(RES, "Lexicon", "lexicon-*.json"))):
+        name = os.path.basename(path)
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+        group = data.get("group", {})
+        if not group.get("id") or blank(group.get("sources")):
+            errors.append(f"{name}: group needs an id and sources")
+        for word in data.get("words", []):
+            lexicon_words += 1
+            lemma = word.get("lemma", "")
+            key = f"{norm(lemma)}|{word.get('pos')}"
+            if key in seen_words:
+                errors.append(f"{name}: duplicate word {lemma!r} ({word.get('pos')}), also in {seen_words[key]}")
+            seen_words[key] = name
+            if word.get("pos") not in pos_ok:
+                errors.append(f"{name}: {lemma}: unknown part of speech {word.get('pos')!r}")
+            if not (word.get("meaning") or "").strip() or len(word.get("meaning", "")) > 140:
+                errors.append(f"{name}: {lemma}: meaning missing or too long")
+            examples = word.get("examples") or []
+            if not examples:
+                errors.append(f"{name}: {lemma}: needs an example")
+            for ex in examples:
+                if ex.count("{") != 1 or ex.count("}") != 1 or ex.index("{") > ex.index("}") or ex[ex.index("{") + 1:ex.index("}")].strip() == "":
+                    errors.append(f"{name}: {lemma}: example needs exactly one {{marked}} form: {ex!r}")
+            wrong = word.get("wrong") or []
+            if not wrong or any(("{" in w or "}" in w or not w.strip()) for w in wrong):
+                errors.append(f"{name}: {lemma}: needs wrong-usage sentences without braces")
+    counts["lexicon"] = lexicon_words
 
     if "--quiet" not in sys.argv:
+        print(f"lexicon words: {counts.get('lexicon', 0)}")
         print(f"course lessons: {counts['course']}, track lessons: {counts['track']}, typed exercises: {counts['typed']}")
     for error in errors:
         print("ERROR", error)

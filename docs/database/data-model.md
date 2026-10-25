@@ -13,7 +13,7 @@
 
 ## Learner document (in `StateRow`)
 
-`preferences` (coach, background, appearance, countdown, …) · `lessonJourneys` (per lesson and version: current activity, responses, drafts, completion) · `vocabularyEnrollments` · `vocabularyExposures` · `vocabularyRecalls` · `reviewCards` (FSRS-6) · `senseCredits` · `customTopics` · `openRecall` · `dailyChoice` · `confidenceNote` · `attemptFormats` · `reviewSettings` · `practiceGoal` · `speakingPracticeArchives` · `learningResources` · `generatedPractice` · `wordOfDay` · `rewards` (ledger).
+`preferences` (coach, background, appearance, countdown, …) · `lessonJourneys` (per lesson and version: current activity, responses, drafts, completion) · `vocabularyEnrollments` · `vocabularyExposures` · `vocabularyRecalls` · `reviewCards` (FSRS-6) · `senseCredits` · `customTopics` · `openRecall` · `dailyChoice` · `confidenceNote` · `attemptFormats` · `reviewSettings` · `practiceGoal` · `speakingPracticeArchives` · `learningResources` · `generatedPractice` · `wordOfDay` · `rewards` (ledger) · **v2:** `passedJumpTests` (levels opened by a perfect jump test) · `lexicon` (active groups, daily word, Lexicon in Action waits). The document has hand-written `CodingKeys`: a new field must be added to the enum, `init(from:)` and `encode(to:)`, or it silently does not persist.
 
 ## Rules
 

@@ -55,6 +55,15 @@ Word lists are chosen from open, well-known lists; **all meanings and examples a
 - Bank: bundled `Resources/Lexicon/*.json`, one file per group, validated like lessons.
 - Learner data: review cards, enrollments and recalls already exist. v2 adds an optional "Lexicon" section to the learner document: active groups, user-added words, Lexicon in Action history, and the daily-word record.
 
+## As built in Phase 3 (2026-10-25)
+
+- **Bank:** `Resources/Lexicon/lexicon-*.json`, three groups of 40 words: Everyday A1, Work and office, Academic basics. Examples mark the word form with braces (`She felt {happy} today.`), which gives the blank and the typed answer for Lexicon in Action. Each word has one or two wrong-usage sentences. `tools/curriculum/build_lexicon.py` generates the files and `validate.py` checks them. The wrong-usage sentences still need a native-speaker read.
+- **Daily Training:** words enroll when a session starts: the next words of the active groups (the first group is active by default, 10 new words a day, adjustable in the stored state). Due words from lessons and "My words" are in the same session. Ratings use the existing FSRS-6 scheduler. A word's stage is New, Learning, Review, or Easy (Easy while its latest rating is Easy).
+- **Lexicon in Action:** appears on the Lexicon tab once a word is Easy. Each session has up to 10 questions, cycling between choose-the-missing-word, choose-the-sentence and type-the-word. A right answer (a spelling slip counts) makes the word wait longer: 1, 3, 7, 14, 30, then 60 days. A wrong answer clears the wait and rates the word Hard in Daily Training.
+- **Daily Lexicon:** the next unshown bank word that isn't Easy; it stays the same all day and the cycle restarts when every word has been shown.
+- **Adding words:** the Add a word screen checks lemma and part of speech (ignoring case, accents and spaces). A match, in the bank, in "My words" or among saved words, shows "Already in your Lexicon". Added words land in a "My words" topic and are scheduled like any other.
+- **Stored state:** an optional `lexicon` section of the learner document (active groups, daily word, Lexicon in Action waits). No SwiftData migration.
+
 ## Not in scope
 
 Spanish or other languages, shared decks between learners, importing from Anki, handwriting, images on cards.

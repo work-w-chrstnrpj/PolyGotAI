@@ -1,0 +1,2007 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.grammarian",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Authored 2026-10-25 for the owner's personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. The Core Inventory and CEFR Companion Volume supply only the topic order and level; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "grammarian",
+    "coach": "grammarian",
+    "stages": [
+      {
+        "id": "starter",
+        "title": "Starter",
+        "units": [
+          {
+            "id": "sentences",
+            "title": "Build sentences"
+          },
+          {
+            "id": "be-have-do",
+            "title": "Be, have and do"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "gram-sent-subject",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Subject and verb",
+      "objectiveId": "GRAM-S-01",
+      "trackId": "grammarian",
+      "unitId": "sentences",
+      "tip": "A sentence needs a subject (who or what) and a verb (the action or state). Put the subject first: “Maria runs.” “The dog sleeps.” Begin with a capital letter and end with a period.",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-sent-subject-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which one is a complete sentence?",
+          "answer": "Maria runs.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Maria runs.",
+              "Runs fast.",
+              "Maria and the park.",
+              "In the morning."
+            ],
+            "accepted": [
+              "Maria runs."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Pick the subject: “The dog sleeps.”",
+          "answer": "The dog",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The dog",
+              "sleeps",
+              "The",
+              "dog sleeps"
+            ],
+            "accepted": [
+              "The dog"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Pick the verb: “Tom reads every day.”",
+          "answer": "reads",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "reads",
+              "Tom",
+              "every",
+              "day"
+            ],
+            "accepted": [
+              "reads"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Birds fly.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Birds",
+              "fly.",
+              "flies",
+              "bird"
+            ],
+            "accepted": [
+              "Birds fly."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The baby smiles.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "baby",
+              "smiles.",
+              "smile",
+              "a"
+            ],
+            "accepted": [
+              "The baby smiles."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the verb: “Lena sings.”",
+          "answer": "sings",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "sings"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "Dogs bark loudly.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Dogs",
+              "bark",
+              "loudly."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each verb with its meaning.",
+          "answer": "run = move fast on foot; sleep = rest at night; eat = take in food",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "run",
+                "move fast on foot"
+              ],
+              [
+                "sleep",
+                "rest at night"
+              ],
+              [
+                "eat",
+                "take in food"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. Play children in the park.",
+          "answer": "Children play in the park.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "Play",
+              "children",
+              "in",
+              "the",
+              "park."
+            ],
+            "accepted": [
+              "Children play in the park."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "The baby sleeps.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "The baby sleeps.",
+            "accepted": [
+              "The baby sleeps."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence starts correctly?",
+          "answer": "She sings.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She sings.",
+              "she sings.",
+              "She sings",
+              "Sings she."
+            ],
+            "accepted": [
+              "She sings."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A sentence needs a subject and a verb.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-subject-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three short sentences about your day. Each needs a subject and a verb.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-sent-object",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Add an object",
+      "objectiveId": "GRAM-S-02",
+      "trackId": "grammarian",
+      "unitId": "sentences",
+      "tip": "Many sentences add an object, the person or thing that receives the action: “Sam eats an apple.” Keep the order subject, verb, object. English does not move the object to the front.",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-sent-object-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Pick the object: “Sam eats an apple.”",
+          "answer": "an apple",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "an apple",
+              "Sam",
+              "eats",
+              "Sam eats"
+            ],
+            "accepted": [
+              "an apple"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence has the right order?",
+          "answer": "Anna reads a book.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Anna reads a book.",
+              "Reads Anna a book.",
+              "Anna a book reads.",
+              "A book Anna reads."
+            ],
+            "accepted": [
+              "Anna reads a book."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We watch a movie.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "watch",
+              "a",
+              "movie.",
+              "watches",
+              "an"
+            ],
+            "accepted": [
+              "We watch a movie."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "They buy bread.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "They",
+              "buy",
+              "bread.",
+              "buys",
+              "a"
+            ],
+            "accepted": [
+              "They buy bread."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the object: “Lila drinks water.”",
+          "answer": "water",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "water"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the object: “We open the window.”",
+          "answer": "the window",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "the window",
+              "window"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "My sister cooks dinner.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "My",
+              "sister",
+              "cooks",
+              "dinner."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each verb with the thing that goes with it.",
+          "answer": "drink = water; read = a book; kick = a ball",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "drink",
+                "water"
+              ],
+              [
+                "read",
+                "a book"
+              ],
+              [
+                "kick",
+                "a ball"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. Open I the door.",
+          "answer": "I open the door.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "Open",
+              "I",
+              "the",
+              "door."
+            ],
+            "accepted": [
+              "I open the door."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "She cleans the kitchen.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "She cleans the kitchen.",
+            "accepted": [
+              "She cleans the kitchen."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence has a subject, a verb and an object?",
+          "answer": "Paul kicks the ball.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Paul kicks the ball.",
+              "Paul kicks.",
+              "Kicks the ball.",
+              "The ball in the park."
+            ],
+            "accepted": [
+              "Paul kicks the ball."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: In “Sam eats an apple,” the object is Sam.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-object-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two sentences about what you eat or drink. Use a subject, a verb and an object.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-sent-command",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Commands and requests",
+      "objectiveId": "GRAM-S-03",
+      "trackId": "grammarian",
+      "unitId": "sentences",
+      "tip": "A command starts with the verb: “Open the door.” Add “please” to be polite: “Please open the door.” To say what not to do, start with “Don't”: “Don't run.”",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-sent-command-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which one is a command?",
+          "answer": "Close the door.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Close the door.",
+              "She closes the door.",
+              "The door is closed.",
+              "Do you close the door?"
+            ],
+            "accepted": [
+              "Close the door."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the polite request?",
+          "answer": "Please sit down.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Please sit down.",
+              "Please down sit.",
+              "Sit, down please.",
+              "Down please sit."
+            ],
+            "accepted": [
+              "Please sit down."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the command.",
+          "answer": "Open the window, please.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Open",
+              "the",
+              "window,",
+              "please.",
+              "opens",
+              "a"
+            ],
+            "accepted": [
+              "Open the window, please.",
+              "Please open the window."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the command.",
+          "answer": "Don't run.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Don't",
+              "run.",
+              "Do",
+              "not",
+              "runs"
+            ],
+            "accepted": [
+              "Don't run.",
+              "Do not run."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence tells someone NOT to do something?",
+          "answer": "Don't touch it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Don't touch it.",
+              "Touch it.",
+              "You touch it.",
+              "I touch it."
+            ],
+            "accepted": [
+              "Don't touch it."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ be late.",
+          "answer": "Don't",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Don't",
+              "Do not"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "Please close the door.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Please",
+              "close",
+              "the",
+              "door."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each situation with a fitting command.",
+          "answer": "Someone is at the door. = Come in, please.; The baby is asleep. = Be quiet, please.; Your friend is lost. = Follow me.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Someone is at the door.",
+                "Come in, please."
+              ],
+              [
+                "The baby is asleep.",
+                "Be quiet, please."
+              ],
+              [
+                "Your friend is lost.",
+                "Follow me."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. Please you sit down.",
+          "answer": "Please sit down.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "Please",
+              "you",
+              "sit",
+              "down."
+            ],
+            "accepted": [
+              "Please sit down."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Please open the book.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Please open the book.",
+            "accepted": [
+              "Please open the book."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A command usually starts with the verb.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word makes a command polite?",
+          "answer": "please",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "please",
+              "very",
+              "and",
+              "not"
+            ],
+            "accepted": [
+              "please"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-command-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three commands for a visitor to your home. Use “please” in one.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-sent-join",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Join with and, but, or",
+      "objectiveId": "GRAM-S-04",
+      "trackId": "grammarian",
+      "unitId": "sentences",
+      "tip": "Join ideas with a small word. Use “and” to add, “but” to show a difference, and “or” to give a choice: “I like tea and coffee.” “I like tea, but I don't like coffee.” “Do you want tea or coffee?”",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-sent-join-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to add two things: I have a pen ___ a notebook.",
+          "answer": "and",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "and",
+              "but",
+              "or",
+              "not"
+            ],
+            "accepted": [
+              "and"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You want to show a difference: I am small, ___ my brother is tall.",
+          "answer": "but",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "but",
+              "and",
+              "or",
+              "so"
+            ],
+            "accepted": [
+              "but"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "You offer a choice: Would you like tea ___ coffee?",
+          "answer": "or",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "or",
+              "and",
+              "but",
+              "so"
+            ],
+            "accepted": [
+              "or"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I like tea and coffee.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "like",
+              "tea",
+              "and",
+              "coffee.",
+              "but",
+              "or"
+            ],
+            "accepted": [
+              "I like tea and coffee."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She is tired, but she is happy.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "is",
+              "tired,",
+              "but",
+              "she",
+              "is",
+              "happy.",
+              "and",
+              "or"
+            ],
+            "accepted": [
+              "She is tired, but she is happy."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Do you want rice ___ noodles?",
+          "answer": "or",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "or"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "We eat rice and beans.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "We",
+              "eat",
+              "rice",
+              "and",
+              "beans."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each small word with its job.",
+          "answer": "and = adds an idea; but = shows a difference; or = gives a choice",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "and",
+                "adds an idea"
+              ],
+              [
+                "but",
+                "shows a difference"
+              ],
+              [
+                "or",
+                "gives a choice"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "I like apples and oranges.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "I like apples and oranges.",
+            "accepted": [
+              "I like apples and oranges."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is correct?",
+          "answer": "Tom has a dog and a cat.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tom has a dog and a cat.",
+              "Tom has a dog a cat and.",
+              "Tom and has a dog a cat.",
+              "Tom has and a dog cat."
+            ],
+            "accepted": [
+              "Tom has a dog and a cat."
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: We use “or” to give a choice.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "gram-sent-join-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three sentences about yourself. Use and, but and or once each.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-be-amisare",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Am, is, are",
+      "objectiveId": "GRAM-B-01",
+      "trackId": "grammarian",
+      "unitId": "be-have-do",
+      "tip": "Use “am” with I, “is” with he, she and it, and “are” with you, we and they: “I am ready.” “She is ready.” “They are ready.”",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-be-amisare-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "I ___ a student.",
+          "answer": "am",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "am",
+              "is",
+              "are",
+              "be"
+            ],
+            "accepted": [
+              "am"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "She ___ a doctor.",
+          "answer": "is",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "be"
+            ],
+            "accepted": [
+              "is"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "They ___ at home.",
+          "answer": "are",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "are",
+              "am",
+              "is",
+              "be"
+            ],
+            "accepted": [
+              "are"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "It ___ cold today.",
+          "answer": "is",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "is",
+              "am",
+              "are",
+              "be"
+            ],
+            "accepted": [
+              "is"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We are friends.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "are",
+              "friends.",
+              "is",
+              "am"
+            ],
+            "accepted": [
+              "We are friends."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "He is not late.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "He",
+              "is",
+              "not",
+              "late.",
+              "are",
+              "am"
+            ],
+            "accepted": [
+              "He is not late."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: You ___ my friend.",
+          "answer": "are",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "are"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: My name ___ Ana.",
+          "answer": "is",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "is"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "The bus is late.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "The",
+              "bus",
+              "is",
+              "late."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each pronoun with the form of be.",
+          "answer": "I = am; she = is; we = are",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I",
+                "am"
+              ],
+              [
+                "she",
+                "is"
+              ],
+              [
+                "we",
+                "are"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. They is happy.",
+          "answer": "They are happy.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "They",
+              "is",
+              "happy."
+            ],
+            "accepted": [
+              "They are happy."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "We are in the kitchen.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "We are in the kitchen.",
+            "accepted": [
+              "We are in the kitchen."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-amisare-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write four sentences about you and your family. Use am, is and are.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-be-have",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Have and has",
+      "objectiveId": "GRAM-B-02",
+      "trackId": "grammarian",
+      "unitId": "be-have-do",
+      "tip": "Use “has” with he, she, it and with one person or thing: “She has a bike.” Use “have” with I, you, we and they: “We have a car.”",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-be-have-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "I ___ a new phone.",
+          "answer": "have",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "have",
+              "has",
+              "haves",
+              "am"
+            ],
+            "accepted": [
+              "have"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "He ___ two sisters.",
+          "answer": "has",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "has",
+              "have",
+              "haves",
+              "is"
+            ],
+            "accepted": [
+              "has"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "They ___ a big garden.",
+          "answer": "have",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "have",
+              "has",
+              "haves",
+              "are"
+            ],
+            "accepted": [
+              "have"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "My cat ___ green eyes.",
+          "answer": "has",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "has",
+              "have",
+              "haves",
+              "is"
+            ],
+            "accepted": [
+              "has"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She has a red bag.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "has",
+              "a",
+              "red",
+              "bag.",
+              "have"
+            ],
+            "accepted": [
+              "She has a red bag."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We have two dogs.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "have",
+              "two",
+              "dogs.",
+              "has"
+            ],
+            "accepted": [
+              "We have two dogs."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Tom ___ a bike.",
+          "answer": "has",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "has"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: You ___ my book.",
+          "answer": "have",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "have"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "The teacher has a pen.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "The",
+              "teacher",
+              "has",
+              "a",
+              "pen."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each thing with what it has.",
+          "answer": "A bike = has two wheels; A hand = has five fingers; A week = has seven days",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A bike",
+                "has two wheels"
+              ],
+              [
+                "A hand",
+                "has five fingers"
+              ],
+              [
+                "A week",
+                "has seven days"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. She have a blue pen.",
+          "answer": "She has a blue pen.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "She",
+              "have",
+              "a",
+              "blue",
+              "pen."
+            ],
+            "accepted": [
+              "She has a blue pen."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "He has a small house.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "He has a small house.",
+            "accepted": [
+              "He has a small house."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: We say “He have a car.”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-have-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write four sentences about what you and your family have. Use have and has.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-be-do",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Do and does in questions",
+      "objectiveId": "GRAM-B-03",
+      "trackId": "grammarian",
+      "unitId": "be-have-do",
+      "tip": "To ask a yes/no question, start with “Do” or “Does.” Use “Does” with he, she and it: “Does she like tea?” Use “Do” with I, you, we and they: “Do you like tea?” After Do or Does, the main verb stays simple: like, not likes.",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-be-do-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "___ you like music?",
+          "answer": "Do",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Do",
+              "Does",
+              "Are",
+              "Is"
+            ],
+            "accepted": [
+              "Do"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "___ she play tennis?",
+          "answer": "Does",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Does",
+              "Do",
+              "Is",
+              "Are"
+            ],
+            "accepted": [
+              "Does"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "___ they live here?",
+          "answer": "Do",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Do",
+              "Does",
+              "Is",
+              "Has"
+            ],
+            "accepted": [
+              "Do"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question is correct?",
+          "answer": "Does he work here?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Does he work here?",
+              "Does he works here?",
+              "Do he work here?",
+              "He does work here?"
+            ],
+            "accepted": [
+              "Does he work here?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Do you speak English?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Do",
+              "you",
+              "speak",
+              "English?",
+              "Does",
+              "speaks"
+            ],
+            "accepted": [
+              "Do you speak English?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Does Maria like pizza?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Does",
+              "Maria",
+              "like",
+              "pizza?",
+              "Do",
+              "likes"
+            ],
+            "accepted": [
+              "Does Maria like pizza?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ your brother play football?",
+          "answer": "Does",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "Does"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "Do they walk to school?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Do",
+              "they",
+              "walk",
+              "to",
+              "school?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with a short answer.",
+          "answer": "Do you like tea? = Yes, I do.; Does she swim? = No, she doesn't.; Do they know you? = Yes, they do.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Do you like tea?",
+                "Yes, I do."
+              ],
+              [
+                "Does she swim?",
+                "No, she doesn't."
+              ],
+              [
+                "Do they know you?",
+                "Yes, they do."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. Does he plays the guitar?",
+          "answer": "Does he play the guitar?",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "Does",
+              "he",
+              "plays",
+              "the",
+              "guitar?"
+            ],
+            "accepted": [
+              "Does he play the guitar?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "Do you like coffee?",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "Do you like coffee?",
+            "accepted": [
+              "Do you like coffee?"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: We say “Does she likes music?”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-do-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write four questions for a new friend. Start two with Do and two with Does.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gram-be-dont",
+      "contentVersion": "1",
+      "level": "Starter",
+      "title": "Don't and doesn't",
+      "objectiveId": "GRAM-B-04",
+      "trackId": "grammarian",
+      "unitId": "be-have-do",
+      "tip": "To say no, use “do not” (don't) or “does not” (doesn't) before the simple verb: “I don't like rain.” “He doesn't like rain.” Use doesn't with he, she and it.",
+      "sources": [
+        "British Council-EAQUALS Core Inventory for General English (topic order and level)",
+        "CEFR Companion Volume (A1 descriptors)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "gram-be-dont-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "I ___ like fish.",
+          "answer": "don't",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "don't",
+              "doesn't",
+              "isn't",
+              "not"
+            ],
+            "accepted": [
+              "don't"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "She ___ drink coffee.",
+          "answer": "doesn't",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "doesn't",
+              "don't",
+              "isn't",
+              "not"
+            ],
+            "accepted": [
+              "doesn't"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "We ___ have a car.",
+          "answer": "don't",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "don't",
+              "doesn't",
+              "aren't",
+              "not"
+            ],
+            "accepted": [
+              "don't"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is correct?",
+          "answer": "He doesn't eat meat.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He doesn't eat meat.",
+              "He doesn't eats meat.",
+              "He don't eat meat.",
+              "He not eat meat."
+            ],
+            "accepted": [
+              "He doesn't eat meat."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "They don't live here.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "They",
+              "don't",
+              "live",
+              "here.",
+              "doesn't",
+              "lives"
+            ],
+            "accepted": [
+              "They don't live here."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "My dad doesn't cook.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "My",
+              "dad",
+              "doesn't",
+              "cook.",
+              "don't",
+              "cooks"
+            ],
+            "accepted": [
+              "My dad doesn't cook."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The shop ___ open on Sunday.",
+          "answer": "doesn't",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "doesn't",
+              "does not"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the words in order.",
+          "answer": "I don't watch TV today.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "I",
+              "don't",
+              "watch",
+              "TV",
+              "today."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sentence with its negative.",
+          "answer": "I like tea. = I don't like tea.; She likes tea. = She doesn't like tea.; They like tea. = They don't like tea.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I like tea.",
+                "I don't like tea."
+              ],
+              [
+                "She likes tea.",
+                "She doesn't like tea."
+              ],
+              [
+                "They like tea.",
+                "They don't like tea."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Find the mistake, then write the sentence correctly. She don't like milk.",
+          "answer": "She doesn't like milk.",
+          "exercise": {
+            "type": "spotError",
+            "options": [
+              "She",
+              "don't",
+              "like",
+              "milk."
+            ],
+            "accepted": [
+              "She doesn't like milk."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen, then write the sentence.",
+          "answer": "We don't have time.",
+          "exercise": {
+            "type": "listenType",
+            "audioText": "We don't have time.",
+            "accepted": [
+              "We don't have time."
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: We say “He doesn't likes it.”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "gram-be-dont-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write four things you don't do on Sunday. Then write one thing your friend doesn't do.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ]
+}

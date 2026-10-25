@@ -60,7 +60,7 @@ Update this map whenever the project structure changes.
 - Run relevant verification before claiming success.
 - Ask for approval before destructive, high-risk, production, secret, or migration operations.
 - **Stay in your lane.** Edit only the files your phase handoff assigns to you. Don't touch `project.pbxproj` unless you are Claude.
-- **Don't run all phases at once.** Do only the current phase's scope.
+- **Don't run all phases at once.** Do only the phases the owner has assigned to you. From 2026-10-25 two phases may run in parallel: Phase 2 screens (Codex) and Phase 3 Lexicon (Claude). Each agent stays inside its phase's files; `AppShell.swift` is shared by region (see the Phase 2 and Phase 3 briefs).
 
 ## UI Rules
 

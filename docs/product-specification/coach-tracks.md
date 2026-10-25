@@ -6,11 +6,23 @@ Each coach is a **track** in Learn: units, then lessons, then exercises. Tracks 
 
 ## Track structure
 
-- **Stages** (proposed; owner decision pending): Foundation (≈ A2–B1), Intermediate (≈ B1–B2), Advanced (≈ C1–C2). Grammarian and Reading & Listening also start at A1.
+- **Stages** (owner approved 2026-10-25): Foundation (≈ A2–B1), Intermediate (≈ B1–B2), Advanced (≈ C1–C2). Grammarian and Reading & Listening add a fourth, **Starter** stage (A1).
 - **Unit** = one skill (e.g. "Inverted pyramid"). 4–6 lessons.
 - **Lesson** = coach tip → 8–15 auto-checked exercises → one open "Your turn" task → finish.
 - **First delivery:** 2 units × 4 lessons per coach, then expand.
-- Nothing is locked. Learners can open any unit.
+- Nothing is locked. Learners can open any unit. The level lock applies to the CEFR course only ([Course rules](product-specification.md#course-cefr-a1c2)); stages are a suggested order, never a gate.
+
+## How coaches are presented (owner approved 2026-10-25)
+
+The same shape as the Course (level → unit → lesson), so one list design serves both.
+
+1. **Lesson tab:** title, one-line tagline, and a segmented switch **Course | Coaches**.
+2. **Coaches grid:** one flat grid, no group headings. Each card has the coach artwork, name, a one-line tagline and a thin progress ring. Two columns on iPhone, three or four on iPad, one column at the largest Dynamic Type sizes. A **Continue** card above the grid resumes the last coach lesson.
+3. **Only coaches with lessons appear.** No "coming soon" cards. Phase 2 shows the Grammarian alone, and the grid grows as Phase 4 lands each coach. Coaches without final art use an SF Symbol placeholder.
+4. **Coach screen:** artwork, name and tagline at the top; stage chips (Starter only for Grammarian and Reading & Listening); below them one card per unit with its lesson count and progress bar.
+5. **Unit screen:** a lesson list. Each row shows the title, a state (new, in progress, done) and the accuracy.
+6. **Lesson player:** the existing player (coach tip → exercises → "Your turn" → finish), with the coach's character in the tip and the feedback bar.
+7. **Elsewhere:** Today's "Up next" card may suggest a coach lesson; Progress shows per-coach progress; Speech Lab has no coach picker.
 
 ## Content rules
 

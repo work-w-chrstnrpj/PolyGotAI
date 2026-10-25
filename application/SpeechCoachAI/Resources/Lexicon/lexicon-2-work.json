@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "group": {
+    "id": "work-office",
+    "title": "Work and office",
+    "level": "A2-B1",
+    "tagline": "Words for the workplace",
+    "sources": [
+      "Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."
+    ]
+  },
+  "words": [
+    {
+      "lemma": "schedule",
+      "pos": "noun",
+      "meaning": "A list of times when things will happen.",
+      "examples": [
+        "My {schedule} is full on Monday."
+      ],
+      "wrong": [
+        "I eat my schedule for lunch.",
+        "The schedule are on the wall."
+      ]
+    },
+    {
+      "lemma": "deadline",
+      "pos": "noun",
+      "meaning": "The last time or day by which something must be done.",
+      "examples": [
+        "The {deadline} for the report is Friday."
+      ],
+      "wrong": [
+        "We finished the work a week after the deadline, so we were early.",
+        "Please do it in the deadline."
+      ]
+    },
+    {
+      "lemma": "meeting",
+      "pos": "noun",
+      "meaning": "An event where people come together to talk about work.",
+      "examples": [
+        "We have a {meeting} at ten o'clock."
+      ],
+      "wrong": [
+        "I wore my meeting on my feet.",
+        "She meetings with her manager."
+      ]
+    },
+    {
+      "lemma": "colleague",
+      "pos": "noun",
+      "meaning": "A person you work with.",
+      "examples": [
+        "My {colleague} helped me with the spreadsheet."
+      ],
+      "wrong": [
+        "My colleague lives in another company and I have never met her.",
+        "He colleagues a long report."
+      ]
+    },
+    {
+      "lemma": "manager",
+      "pos": "noun",
+      "meaning": "A person who is in charge of a team or a place.",
+      "examples": [
+        "The {manager} thanked us for our hard work."
+      ],
+      "wrong": [
+        "The manager follows all the orders of the new employee.",
+        "She managers the team."
+      ]
+    },
+    {
+      "lemma": "salary",
+      "pos": "noun",
+      "meaning": "Money an employee gets regularly for their work.",
+      "examples": [
+        "He got a higher {salary} after the promotion."
+      ],
+      "wrong": [
+        "I pay my salary to the company every month.",
+        "She salaries ten thousand pesos."
+      ]
+    },
+    {
+      "lemma": "invoice",
+      "pos": "noun",
+      "meaning": "A paper that lists what a customer must pay.",
+      "examples": [
+        "Please send the {invoice} by email."
+      ],
+      "wrong": [
+        "The invoice shows the date of our next holiday.",
+        "He invoice us for the work."
+      ]
+    },
+    {
+      "lemma": "appointment",
+      "pos": "noun",
+      "meaning": "A planned time to meet someone.",
+      "examples": [
+        "I have a dentist {appointment} at four."
+      ],
+      "wrong": [
+        "I met a stranger on the street by appointment, but we never planned it.",
+        "She appointment the doctor."
+      ]
+    },
+    {
+      "lemma": "customer",
+      "pos": "noun",
+      "meaning": "A person who buys goods or services.",
+      "examples": [
+        "The {customer} asked for a refund."
+      ],
+      "wrong": [
+        "The customer sells the goods to the shop.",
+        "He customers many things."
+      ]
+    },
+    {
+      "lemma": "report",
+      "pos": "noun",
+      "meaning": "A document that gives information about something.",
+      "examples": [
+        "She wrote a short {report} on sales."
+      ],
+      "wrong": [
+        "I ate a report for breakfast.",
+        "He reports are on his desk."
+      ]
+    },
+    {
+      "lemma": "project",
+      "pos": "noun",
+      "meaning": "A piece of work that is planned with a goal.",
+      "examples": [
+        "Our team finished the {project} on time."
+      ],
+      "wrong": [
+        "The project is a small yellow bird.",
+        "She projects a new idea last week."
+      ]
+    },
+    {
+      "lemma": "team",
+      "pos": "noun",
+      "meaning": "A group of people who work together.",
+      "examples": [
+        "Our {team} meets every Monday."
+      ],
+      "wrong": [
+        "I am the only person in our team of twelve.",
+        "He teams in the sales department."
+      ]
+    },
+    {
+      "lemma": "task",
+      "pos": "noun",
+      "meaning": "A piece of work that must be done.",
+      "examples": [
+        "Writing emails is my first {task} each day."
+      ],
+      "wrong": [
+        "My task is something I never need to do.",
+        "She tasks many jobs today."
+      ]
+    },
+    {
+      "lemma": "budget",
+      "pos": "noun",
+      "meaning": "A plan for how much money you will spend.",
+      "examples": [
+        "We need to stay within the {budget}."
+      ],
+      "wrong": [
+        "We spent twice our budget, so we saved money.",
+        "He budgets a sunny river."
+      ]
+    },
+    {
+      "lemma": "contract",
+      "pos": "noun",
+      "meaning": "A written agreement between people or companies.",
+      "examples": [
+        "Both sides signed the {contract}."
+      ],
+      "wrong": [
+        "We signed the contract, but nobody agreed to anything.",
+        "She contract the new worker."
+      ]
+    },
+    {
+      "lemma": "employee",
+      "pos": "noun",
+      "meaning": "A person who is paid to work for a company.",
+      "examples": [
+        "Each {employee} gets a security badge."
+      ],
+      "wrong": [
+        "The employee pays the company a salary every month.",
+        "He employee at the bank."
+      ]
+    },
+    {
+      "lemma": "supervisor",
+      "pos": "noun",
+      "meaning": "A person who watches and guides the work of others.",
+      "examples": [
+        "My {supervisor} checks the schedule every morning."
+      ],
+      "wrong": [
+        "My supervisor is the newest worker and has no team.",
+        "She supervisors a team."
+      ]
+    },
+    {
+      "lemma": "resume",
+      "pos": "noun",
+      "meaning": "A short document that lists your jobs and skills.",
+      "examples": [
+        "Send your {resume} with the application form."
+      ],
+      "wrong": [
+        "My resume is a list of my favorite foods.",
+        "He resumes in the box."
+      ]
+    },
+    {
+      "lemma": "interview",
+      "pos": "noun",
+      "meaning": "A formal meeting where someone asks you questions about a job.",
+      "examples": [
+        "I have a job {interview} on Tuesday."
+      ],
+      "wrong": [
+        "At the interview, I asked the manager all the questions and she said nothing.",
+        "She interview with the manager."
+      ]
+    },
+    {
+      "lemma": "promote",
+      "pos": "verb",
+      "meaning": "To give someone a higher job.",
+      "examples": [
+        "They will {promote} her to manager next month."
+      ],
+      "wrong": [
+        "They promoted him, so he lost his job.",
+        "He promoted to the manager."
+      ]
+    },
+    {
+      "lemma": "office",
+      "pos": "noun",
+      "meaning": "A place where people do desk work.",
+      "examples": [
+        "I take the bus to the {office}."
+      ],
+      "wrong": [
+        "I cook dinner in the office of my pocket.",
+        "She office at nine."
+      ]
+    },
+    {
+      "lemma": "department",
+      "pos": "noun",
+      "meaning": "One part of a large company or organization.",
+      "examples": [
+        "She works in the sales {department}."
+      ],
+      "wrong": [
+        "The department is a big company with no parts.",
+        "He departments in the building."
+      ]
+    },
+    {
+      "lemma": "client",
+      "pos": "noun",
+      "meaning": "A person or company that pays for your services.",
+      "examples": [
+        "Our {client} wants a new logo."
+      ],
+      "wrong": [
+        "Our client works for us and gets a salary.",
+        "She clients the company."
+      ]
+    },
+    {
+      "lemma": "delay",
+      "pos": "noun",
+      "meaning": "A time when something happens later than planned.",
+      "examples": [
+        "There is a one-hour {delay} at the airport."
+      ],
+      "wrong": [
+        "The delay made the train arrive early.",
+        "He delay the flight."
+      ]
+    },
+    {
+      "lemma": "remind",
+      "pos": "verb",
+      "meaning": "To help someone remember something.",
+      "examples": [
+        "Please {remind} me to call the bank."
+      ],
+      "wrong": [
+        "I remind a letter to the bank.",
+        "She reminds me about to call."
+      ]
+    },
+    {
+      "lemma": "attach",
+      "pos": "verb",
+      "meaning": "To fix one thing to another, such as a file to an email.",
+      "examples": [
+        "Please {attach} the document to your email."
+      ],
+      "wrong": [
+        "I attach the document by deleting it from the email.",
+        "He attached with the file."
+      ]
+    },
+    {
+      "lemma": "submit",
+      "pos": "verb",
+      "meaning": "To give a document or work to someone for a decision.",
+      "examples": [
+        "You must {submit} the form by noon."
+      ],
+      "wrong": [
+        "I submit the form to myself and nobody reads it.",
+        "She submitted for the report."
+      ]
+    },
+    {
+      "lemma": "review",
+      "pos": "verb",
+      "meaning": "To look at something again to check it.",
+      "examples": [
+        "I will {review} your report tonight."
+      ],
+      "wrong": [
+        "I review the report before I write it.",
+        "He reviews to the document."
+      ]
+    },
+    {
+      "lemma": "apply",
+      "pos": "verb",
+      "meaning": "To ask formally for a job or a place.",
+      "examples": [
+        "She decided to {apply} for the new position."
+      ],
+      "wrong": [
+        "I apply a new job, so they ask me to leave.",
+        "He applied to the a job."
+      ]
+    },
+    {
+      "lemma": "hire",
+      "pos": "verb",
+      "meaning": "To give someone a job.",
+      "examples": [
+        "The company will {hire} three new workers."
+      ],
+      "wrong": [
+        "The company hired him, so he lost his job.",
+        "They hires many workers."
+      ]
+    },
+    {
+      "lemma": "shift",
+      "pos": "noun",
+      "meaning": "A set period of time when a person works.",
+      "examples": [
+        "He works the night {shift} at the hospital."
+      ],
+      "wrong": [
+        "My shift is a week of holidays.",
+        "She shift every night."
+      ]
+    },
+    {
+      "lemma": "overtime",
+      "pos": "noun",
+      "meaning": "Extra hours of work after the normal day.",
+      "examples": [
+        "I worked two hours of {overtime} last night."
+      ],
+      "wrong": [
+        "I left work early, so I did a lot of overtime.",
+        "He overtimes yesterday."
+      ]
+    },
+    {
+      "lemma": "agenda",
+      "pos": "noun",
+      "meaning": "A list of things to talk about at a meeting.",
+      "examples": [
+        "The {agenda} has five items."
+      ],
+      "wrong": [
+        "We read the agenda after the meeting ended.",
+        "She agendas many things."
+      ]
+    },
+    {
+      "lemma": "feedback",
+      "pos": "noun",
+      "meaning": "Comments that tell you how well you did something.",
+      "examples": [
+        "I asked my boss for {feedback} on my presentation."
+      ],
+      "wrong": [
+        "I gave my boss feedback before I did the presentation.",
+        "He feedbacks us."
+      ]
+    },
+    {
+      "lemma": "workload",
+      "pos": "noun",
+      "meaning": "The amount of work a person has to do.",
+      "examples": [
+        "Her {workload} is heavy this week."
+      ],
+      "wrong": [
+        "My workload is small because I have too much to do.",
+        "She workloads many tasks."
+      ]
+    },
+    {
+      "lemma": "supply",
+      "pos": "noun",
+      "meaning": "An amount of something that is available to use.",
+      "examples": [
+        "The office has a good {supply} of paper."
+      ],
+      "wrong": [
+        "We have a big supply, so we have no paper.",
+        "He supply of the shops."
+      ]
+    },
+    {
+      "lemma": "order",
+      "pos": "verb",
+      "meaning": "To ask for goods or food to be brought to you.",
+      "examples": [
+        "We will {order} pizza for lunch."
+      ],
+      "wrong": [
+        "I order a pizza, so I make it myself.",
+        "She orders me about food."
+      ]
+    },
+    {
+      "lemma": "discount",
+      "pos": "noun",
+      "meaning": "A lower price than the usual one.",
+      "examples": [
+        "The shop gave me a ten percent {discount}."
+      ],
+      "wrong": [
+        "A discount makes the price go up.",
+        "He discount a lot on shoes."
+      ]
+    },
+    {
+      "lemma": "warehouse",
+      "pos": "noun",
+      "meaning": "A large building where goods are stored.",
+      "examples": [
+        "The goods are kept in a {warehouse}."
+      ],
+      "wrong": [
+        "I live in a warehouse for my bank account.",
+        "She warehouses in the town."
+      ]
+    },
+    {
+      "lemma": "receipt",
+      "pos": "noun",
+      "meaning": "A paper that shows you paid for something.",
+      "examples": [
+        "Keep the {receipt} in case you need to return it."
+      ],
+      "wrong": [
+        "The shop gave me a receipt before I paid.",
+        "He receipts of the shop."
+      ]
+    }
+  ]
+}

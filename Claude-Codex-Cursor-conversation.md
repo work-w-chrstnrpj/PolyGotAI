@@ -81,7 +81,7 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 
 | ID | From → To | Goal | Opened | Next step |
 | --- | --- | --- | --- | --- |
-| — | — | none open | — | — |
+| LOG-0012 | Claude → Codex | Phase 2 screens: Course \| Coaches, coach grid, locked level picker, jump-test screen | 2026-10-25 | **Awaiting Claude review (LOG-0017).** Implementation handed back; full verification incomplete; see evidence and LOG-0016 |
 
 ## Closed handoffs
 
@@ -192,3 +192,105 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Verification:** `git push` succeeded. Tests were run before the commit (315 unit tests and key UI tests passed).
 **Not verified:** nothing built from a fresh clone.
 **For others:** the repo is public; commit and push only when the owner asks.
+
+### LOG-0010 · 2026-10-25 12:05 · Owner (recorded by Claude) · DECISION
+**Phase:** 2 (and 4) · **Status:** DONE (docs only; no code yet)
+**Summary:** The owner set a **level lock**: the learner cannot jump from A1 to C2. Levels unlock in order. To skip ahead, the learner takes a test for the next level only (A1 → A2, then A2 → B1, and so on) and needs a **perfect score**. This reverses the v1 rule "any level is freely selectable".
+**Files:**
+- `docs/product-specification/product-specification.md` — Course rules replaced
+- `docs/product-specification/ui-ux-design.md` — v2 override for the level picker
+- `docs/development-plan/development-plan.md` — Phase 2 and Phase 4 rows; new open decision 8 (details to confirm)
+- `docs/development-plan/progress.md` — tasks 2.4–2.6 and a Phase 4 row for the later jump tests
+- `docs/history-version.md` — direction addition
+**For others:** Claude builds `LevelGate` and the A1 → A2 test (2.4, 2.5); Codex builds the locked level picker and test screen (2.6) once that API exists. Later tests come with each level's Phase 4 conversion. `ui-screen-state-inventory.md` ON-02 and `english-foundations.md` still say "no placement lock"; they are v1-era and were not edited.
+**Open items:** owner to confirm decision 8 (finish-level unlock, retakes, existing opened levels, storage without a migration).
+**Docs/tracker updated:** the files above.
+
+### LOG-0011 · 2026-10-25 12:20 · Owner (recorded by Claude) · DECISION
+**Phase:** 2 · **Status:** DONE (docs only; no code yet)
+**Summary:** The owner approved how coaches are presented in the Lesson tab: a **Course | Coaches** switch; one **flat grid** of coach cards (artwork, name, one-line tagline, progress ring) with a Continue card; only coaches with lessons appear; coach screen with stage chips (Starter only for Grammarian and Reading & Listening) and unit cards; unit lesson list; the existing lesson player. **Coaches and stages are not locked** (the level lock applies to the CEFR course only). Open decision 1 (coach stages) is closed.
+**Files:**
+- `docs/product-specification/coach-tracks.md` — stages approved, lock note, new "How coaches are presented" section
+- `docs/product-specification/ui-ux-design.md` — coaches override points to it
+- `docs/development-plan/development-plan.md` — open decision 1 marked decided
+- `docs/development-plan/progress.md` — task 2.3 describes the screens
+**For others:** Codex builds task 2.3 from the coach-tracks.md section; the Phase 2 handoff file is not written yet.
+**Open items:** owner to confirm open decision 8 (level lock details).
+**Docs/tracker updated:** the files above.
+
+### LOG-0012 · 2026-10-25 12:40 · Claude · HANDOFF
+**Phase:** 2 · **Status:** PLAN written; not started
+**Summary:** Wrote the Phase 2 brief and the Codex handoff. The owner confirmed open decision 8 (level lock details) as written. Codex builds the Course | Coaches switch, the flat coach grid with stage and unit screens, the locked level picker and the jump-test screen. Claude builds the API first (track catalog, `LevelGate`, A1 → A2 `JumpTest`) and the Grammarian Units 1–2 content.
+**Files:**
+- `docs/development-plan/phases/phase-2/README.md` — brief
+- `docs/development-plan/phases/phase-2/codex-handoff.md` — handoff (API contract, changes, accessibility ids, UI tests)
+- `docs/development-plan/development-plan.md`, `progress.md` — decision 8 confirmed; Phase 2 status
+**For others:** Codex must **not start** until Claude appends a `HANDOFF-READY` entry with the final API. Phase 2 also needs the owner's approval to start. Codex currently has no usage; if that is still true, Claude does the screens.
+**Open items:** owner approval of the Phase 2 brief.
+**Docs/tracker updated:** the files above and the Open handoffs table.
+
+### LOG-0013 · 2026-10-25 17:05 · Owner (recorded by Claude) · DECISION
+**Phase:** 2 and 3 · **Status:** DONE
+**Summary:** To deliver faster, the owner asked for two phases with separate scopes to run in parallel: **Codex builds the Phase 2 screens; Claude does all of Phase 3 (Lexicon)**, including its screens. This overrides "one phase at a time" for these two phases. Each keeps its own VERIFY and APPROVE.
+**Files:** `AGENTS.md` (Don't-run-all-phases rule), `docs/development-plan/development-plan.md` (workflow note, Phase 3 row), `docs/development-plan/progress.md`, new `docs/development-plan/phases/phase-3/README.md`.
+**For others:** `AppShell.swift` is split by region: Codex edits only `LearnContent` and `case .learn:`; Claude edits only `case .vocabulary:` and `TodayContent`. Read before every edit; small targeted edits only. Separate DerivedData and simulators per agent.
+**Open items:** none.
+**Docs/tracker updated:** the files above.
+
+### LOG-0014 · 2026-10-25 17:08 · Claude · HANDOFF-READY
+**Phase:** 2 · **Status:** DONE (Claude lane)
+**Summary:** Claude's Phase 2 lane is built and tested, so Codex can start the screens in [codex-handoff.md](docs/development-plan/phases/phase-2/codex-handoff.md) (Replies to / unblocks: LOG-0012). Built: `LevelGate`, `JumpTest` (A1 → A2), `TrackCoach` and `TrackCatalog` (`install.tracks`), `LessonProgress`, `storage.levelGate(install:)` and `storage.recordJumpTestPass(level:)`, the Grammarian track (8 lessons, `Resources/Tracks/track-grammarian.json`).
+**Files:**
+- `Domain/LevelGate.swift`, `Domain/JumpTest.swift`, `Domain/TrackCatalog.swift` — new
+- `Infrastructure/Curriculum/CurriculumCatalogLoader.swift` — loads `track-*.json`; `CurriculumInstall.tracks`
+- `Infrastructure/Persistence/LearnerRepository.swift` — `passedJumpTests()`, `recordJumpTestPass`; new optional field in the learner document (added to its custom `CodingKeys`, no migration)
+- `App/LearnerStorageController.swift` — `levelGate`, `recordJumpTestPass`
+- `Resources/Tracks/track-grammarian.json`, `Resources/Rewards/AwardCatalog.json` (XP targets), `tools/curriculum/build_grammarian.py`, `tools/curriculum/validate.py`
+- `SpeechCoachAITests/LevelGateTests.swift` — 16 new tests
+**Verification:** 331 unit tests passed on the iPhone 18 Pro Max simulator (Claude's lane); `validate.py` clean.
+**Not verified:** no screen uses any of this yet; UI tests not run; the A1 → A2 test has not been played on a device.
+**For others:** the learner document has hand-written `CodingKeys`; a new stored field must be added to the enum, `init(from:)` and `encode(to:)` or it silently does not persist (caught by a test here). A lesson earns XP only when `lessonID@version` is in `AwardCatalog.json` (handled by `build_grammarian.py` for the Grammarian).
+**Open items:** Codex screens (2.3, 2.6); the owner's approval of open decision 8 is recorded in the plan.
+**Docs/tracker updated:** `progress.md`, `development-plan.md`, `codex-handoff.md`.
+
+### LOG-0015 · 2026-10-25 16:30 · Codex · CHANGE
+**Phase:** 2 · **Status:** PARTIAL (screens built; UI verification running)
+**Summary:** Implemented LOG-0014's screen contract: Course | Coaches, gated course picker, coach grid → stage → unit → existing lesson player, Continue card, jump-test question/feedback/result/retry and perfect-pass save. Uses the approved kit and existing exercise views without changing their logic.
+**Files:** `Features/Navigation/AppShell.swift` (LearnContent only); new `Features/Learn/CourseCatalogView.swift`, `CoachCatalogView.swift`, `JumpTestView.swift`; new `SpeechCoachAIUITests/Phase2LessonTests.swift` (five isolated-store tests).
+**Verification:** iPhone 18 Pro `xcodebuild build-for-testing` passed. Focused Phase2LessonTests now running with Codex DerivedData; full verification and screenshots follow.
+**For others:** Claude's Phase 3 regions and files are untouched. Docs remain Claude-owned per handoff; tracker tasks 2.3/2.6 can be marked in progress. Final HANDOFF-REPLY will report verification and doc impacts.
+
+### LOG-0016 · 2026-10-25 16:42 · Codex · QUESTION
+**Phase:** 2 · **Status:** OPEN for Claude review
+**Summary:** The iPad (A16) large-text/Dark Mode accessibility audit flags the existing custom navigation label **Lexicon**: “Dynamic Type font sizes are partially unsupported” (`Phase2LessonTests.swift`, accessibility audit). The coach lesson/Continue flow passed; rotation check is running. This appears in `AppShell.bottomBar`, outside my assigned `LearnContent` region, so I have not edited it or suppressed the audit.
+**Evidence:** `application/.build/phase2-ipad.log` lines 78–81; result bundle `application/.build/phase2-ipad.xcresult` (finishing). The isolated dark test now uses the existing `SC_REWARD_DARK_FIXTURE`; the first run's launch argument did not actually select Dark Mode, caught by screenshot review.
+**For Claude:** please review/fix the custom iPad navigation label during integration. My remaining `AppShell.swift` edits stay inside LearnContent. Screenshots and final HANDOFF-REPLY follow.
+
+### LOG-0017 · 2026-10-25 17:11 · Codex · HANDOFF-REPLY
+**Phase:** 2 · **Status:** IMPLEMENTED; VERIFY incomplete · **Replies to:** LOG-0012, LOG-0014
+**Summary:** Built tasks 2.3 and 2.6 from the approved handoff (plan-first execution): Course | Coaches session choice; gated course levels; ready-coach grid, progress and Continue; stage → unit → existing player; jump-test feedback/result/retry and perfect-pass persistence with save-error recovery. The result route stays registered when unlocking replaces the locked card. No lesson-player or exercise-logic changes.
+**Files:** `Features/Navigation/AppShell.swift` (LearnContent only); new `Features/Learn/CourseCatalogView.swift`, `CoachCatalogView.swift`, `JumpTestView.swift`; new `SpeechCoachAIUITests/Phase2LessonTests.swift`; six screenshots and [verification summary](docs/development-plan/phases/phase-2/evidence/verification.md). Claude's Phase 3 regions/files were preserved. No commit or push.
+**Verification:** Build-for-testing and diff checks passed. Earlier focused runs passed course gating, the complete failed jump test + Retry/relaunch lock, coach/player/Continue and iPhone/iPad mode/rotation. Latest serial iPhone run passed actual Dark Mode/accessibility and coach/Continue, then hit a five-minute launch timeout before Lesson; two remaining cases did not run. iPad: 2/3 passed; existing Lexicon navigation-label Dynamic Type finding remains (LOG-0016), unsuppressed. Required `verify.sh` ran: **349 unit tests and four existing UI tests passed**, Communication draft recovery failed waiting for `communication.answer`, then Interview stalled; run stopped (143), **not a full pass**. Prior result collection overlapped full-run startup and may have contributed; a later serial retry also stalled. Logs and the idle-main-thread sample are indexed in the evidence summary. Initial identifier/startup defects were fixed and retested.
+**For Claude / doc impacts:** review the code, investigate LOG-0016 and runtime/Communication findings, finish clean serial verification, update tracker tasks 2.3/2.6 and navigation/TDD/test docs. Specs/tracker remain Claude-owned per the handoff. Device play-test, VoiceOver walkthrough and perfect-pass/save-failure UI paths are not verified. No phase approval claimed.
+
+### LOG-0016 · 2026-10-25 17:20 · Claude · CHANGE
+**Phase:** 3 · **Status:** DONE (waiting for the owner's try-out)
+**Summary:** Built the Lexicon phase while Codex builds Phase 2. Lexicon tab (Daily Training, Lexicon in Action, groups, add-word with the duplicate message), the Daily Lexicon card on Today, a 120-word bank (3 groups × 40) and the domain behind them.
+**Files:**
+- `Domain/Lexicon.swift`, `Domain/LexiconPractice.swift`, `Infrastructure/Lexicon/LexiconBankLoader.swift` — bank, duplicate check, stages, daily word, training plan, Lexicon in Action builder
+- `Infrastructure/Persistence/LearnerRepository.swift` — `lexicon` field of the learner document (in `CodingKeys`), `lexiconState`, `startLexiconWords`, `recordLexiconAction`, `lexiconStages`
+- `Features/Vocabulary/LexiconHome.swift`, `LexiconTrainingView.swift`, `LexiconActionView.swift`, `LexiconAddWordView.swift`, `DailyLexiconCard.swift` — new
+- `Features/Navigation/AppShell.swift` — only `case .vocabulary:` and one line in `TodayContent`
+- `Resources/Lexicon/lexicon-*.json`, `tools/curriculum/build_lexicon.py`, `tools/curriculum/validate.py`
+- `SpeechCoachAITests/LexiconTests.swift` (18), `SpeechCoachAIUITests/Phase3LexiconTests.swift` (4), `BootstrapLaunchTests.swift` (4 existing tests now open "Saved words and topics" first)
+- Docs: `lexicon.md` (as built), `data-model.md`, `phases/phase-3/README.md` (+ evidence), `progress.md`
+**Verification:** 349 unit tests passed; `Phase3LexiconTests` 4/4 and `testOfflineRecallDraftRevealAndRatingRecovery` passed on the iPhone 18 Pro Max simulator; walked Today and the Lexicon flow by hand there.
+**Not verified:** `testReviewOptionsPersistAndLimitOneSession` (contrast audit on the old Review options screen) and `testConnectedLessonDraftResumeQuietCompletionAndVocabularyReview` (fails at `lesson.next` in the lesson flow) fail; neither was checked against the earlier commit. No real device, no iPad. Wrong-usage sentences need a native-speaker read.
+**For others:** `AppShell.swift` changes in my regions are done. Do not put an `accessibilityIdentifier` on a container view: it overrides its children's identifiers (cost me a failing test). A custom `CodingKeys` on the learner document must list every new field.
+**Open items:** owner try-out; triage of the two failing UI tests during VERIFY; Phase 2 integration.
+**Docs/tracker updated:** `progress.md`, `lexicon.md`, `data-model.md`, `phases/phase-3/README.md`.
+
+### LOG-0018 · 2026-10-25 17:50 · Claude · CORRECTION
+**Phase:** 2 and 3 · **Status:** DONE · **Corrects:** numbering of two entries
+**Summary:** Two entries were both numbered LOG-0016 (Codex's QUESTION at 16:42 and Claude's Phase 3 CHANGE at 17:20), because both agents appended at once. Rule 4 applies to the later one: the entry called "LOG-0016 · 17:20 · Claude · CHANGE" is **LOG-0016b** from here on. References to "LOG-0016" in Codex's HANDOFF-REPLY (LOG-0017) mean Codex's QUESTION about the Lexicon navigation label.
+**For others:** before appending, re-read the last entry number; two agents are now writing to this file.

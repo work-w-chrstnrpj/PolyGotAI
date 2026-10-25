@@ -75,6 +75,10 @@ An owner review on 2026-10-25, together with Claude's audit, found:
 - **Speech-to-text button** on every typing field, using on-device recognition.
 - Phase numbering changed: Lexicon is Phase 3; coach content, Speech Lab additions and Online AI became Phases 4, 5 and 6.
 
+### Direction addition — 2026-10-25 (level lock)
+
+- **Levels are locked in order.** The learner cannot jump from A1 to C2. To skip a level they take that next level's test (A1 → A2, then A2 → B1, and so on) and must score perfectly. This reverses the v1 rule "any level is freely selectable, nothing is locked". Lessons inside a level stay open in any order. Lands in Phase 2 (A1 → A2 test) and Phase 4 (later tests). Spec: [Course rules](product-specification/product-specification.md#course-cefr-a1c2). Details to confirm: [open decision 8](development-plan/development-plan.md#open-decisions).
+
 ### Team
 
 - **Claude** is senior engineer and reviewer: plans phases, writes core domain logic and content, reviews and verifies all work, and maintains the docs.
