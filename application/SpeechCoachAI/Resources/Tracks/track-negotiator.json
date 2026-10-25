@@ -24,6 +24,34 @@
             "title": "Negotiate"
           }
         ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "bargain",
+            "title": "Bargain and trade"
+          },
+          {
+            "id": "tense",
+            "title": "Handle tense moments"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "strategy",
+            "title": "Negotiate strategically"
+          },
+          {
+            "id": "pressure",
+            "title": "Complex and tense deals"
+          }
+        ]
       }
     ]
   },
@@ -2107,6 +2135,4011 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Your turn. A friend asks you to help move house on a day when you are busy. Write a polite refusal that offers another choice.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-prepare",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Prepare before you talk",
+      "objectiveId": "NG-I-01",
+      "trackId": "negotiator",
+      "unitId": "bargain",
+      "tip": "Strong negotiators prepare three numbers or points. Your target is what you hope to get. Your limit is the worst result you will accept. Your best alternative is what you will do if there is no deal. Knowing your best alternative keeps you calm, because you can say no. Think about the other side too: what do they need most?",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-prepare-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ana is selling her used bike. She wants 200 dollars but would accept 150. A buyer offers 100. Ana can also keep the bike, because she rides it to work. What is Ana’s limit?",
+          "answer": "150 dollars",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "150 dollars",
+              "200 dollars",
+              "100 dollars",
+              "Keeping the bike"
+            ],
+            "accepted": [
+              "150 dollars"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ana is selling her used bike. She wants 200 dollars but would accept 150. A buyer offers 100. Ana can also keep the bike, because she rides it to work. What is Ana’s best alternative?",
+          "answer": "Keeping the bike and riding it to work",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Keeping the bike and riding it to work",
+              "Selling it for 100 dollars",
+              "Giving it away",
+              "Buying a new bike"
+            ],
+            "accepted": [
+              "Keeping the bike and riding it to work"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “target” mean in a negotiation?",
+          "answer": "What you hope to get",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What you hope to get",
+              "The worst result you accept",
+              "What the other side wants",
+              "The first thing you say"
+            ],
+            "accepted": [
+              "What you hope to get"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why is a best alternative useful?",
+          "answer": "It lets you say no calmly.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It lets you say no calmly.",
+              "It forces you to agree.",
+              "It makes the talk longer.",
+              "It hides your target."
+            ],
+            "accepted": [
+              "It lets you say no calmly."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “limit” mean?",
+          "answer": "The worst result you will accept",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The worst result you will accept",
+              "Your ideal result",
+              "The other side’s name",
+              "The time of the meeting"
+            ],
+            "accepted": [
+              "The worst result you will accept"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which step is smart before you meet?",
+          "answer": "Think about what the other side needs",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Think about what the other side needs",
+              "Decide to agree to anything",
+              "Avoid all numbers",
+              "Arrive late"
+            ],
+            "accepted": [
+              "Think about what the other side needs"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its meaning.",
+          "answer": "Target → the result you hope for | Limit → the worst result you accept | Best alternative → what you do without a deal",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Target",
+                "the result you hope for"
+              ],
+              [
+                "Limit",
+                "the worst result you accept"
+              ],
+              [
+                "Best alternative",
+                "what you do without a deal"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should prepare your limit before the meeting.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A best alternative makes you more desperate.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Know your ___ before you talk.",
+          "answer": "limit",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "limit"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I can walk away if needed.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "can",
+              "walk",
+              "away",
+              "if",
+              "needed.",
+              "never",
+              "must"
+            ],
+            "accepted": [
+              "I can walk away if needed."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-prepare-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker’s limit?",
+          "answer": "4,000 dollars",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "4,000 dollars",
+              "5,000 dollars",
+              "The other client",
+              "Zero dollars"
+            ],
+            "accepted": [
+              "4,000 dollars"
+            ],
+            "audioText": "I want 5,000 dollars for the project. I will accept 4,000, but not less. If they say no, I have another client who wants the same work."
+          }
+        },
+        {
+          "id": "ng-i-prepare-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You want to ask for a pay rise. Write your target, your limit and your best alternative in three short sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-anchor",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Make the first offer",
+      "objectiveId": "NG-I-02",
+      "trackId": "negotiator",
+      "unitId": "bargain",
+      "tip": "The first number often sets the range for the talk. If you know the market, start with a bold but reasonable offer and give a reason: “I would like 220 dollars, because the bike has new tires.” A reason makes a number feel fair. Avoid a number you cannot defend. When the other side starts, do not jump to the middle at once; ask about their reasons first.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-anchor-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why does the first number matter?",
+          "answer": "It often sets the range for the talk.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It often sets the range for the talk.",
+              "It ends the talk.",
+              "It must be the middle.",
+              "It is always rejected."
+            ],
+            "accepted": [
+              "It often sets the range for the talk."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which first offer includes a reason?",
+          "answer": "I would like 220 dollars because the bike has new tires.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I would like 220 dollars because the bike has new tires.",
+              "I want 220 dollars.",
+              "Give me 220 dollars now.",
+              "220."
+            ],
+            "accepted": [
+              "I would like 220 dollars because the bike has new tires."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "The buyer says 100 for a 200-dollar bike. What is a good first reply?",
+          "answer": "Can you tell me how you chose that number?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Can you tell me how you chose that number?",
+              "Fine, 150.",
+              "No way, goodbye.",
+              "Okay, 100."
+            ],
+            "accepted": [
+              "Can you tell me how you chose that number?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which first offer is hard to defend?",
+          "answer": "A price twice the market price with no reason",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A price twice the market price with no reason",
+              "A price slightly above the market with a reason",
+              "A price near the market",
+              "A range with reasons"
+            ],
+            "accepted": [
+              "A price twice the market price with no reason"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Ana is selling her used bike. She wants 200 dollars but would accept 150. A buyer offers 100. Ana can also keep the bike, because she rides it to work. What is a reasonable bold first offer for Ana to make?",
+          "answer": "220 dollars, because the tires are new",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "220 dollars, because the tires are new",
+              "50 dollars",
+              "1,000 dollars",
+              "Nothing"
+            ],
+            "accepted": [
+              "220 dollars, because the tires are new"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each move with its effect.",
+          "answer": "Give a reason → makes the number feel fair | Ask about their reasons → shows you want to understand | Jump to the middle → gives away your room to bargain",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Give a reason",
+                "makes the number feel fair"
+              ],
+              [
+                "Ask about their reasons",
+                "shows you want to understand"
+              ],
+              [
+                "Jump to the middle",
+                "gives away your room to bargain"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A reason makes a first offer feel more fair.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should jump to the middle as soon as they speak.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Give a ___ for your number.",
+          "answer": "reason",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "reason"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I would like two hundred dollars.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "would",
+              "like",
+              "two",
+              "hundred",
+              "dollars.",
+              "never",
+              "gave"
+            ],
+            "accepted": [
+              "I would like two hundred dollars."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker justify the price?",
+          "answer": "By naming what is included",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By naming what is included",
+              "By threatening to leave",
+              "By asking for a gift",
+              "By lowering the number"
+            ],
+            "accepted": [
+              "By naming what is included"
+            ],
+            "audioText": "My first price is 250 dollars. The photos show the full set, and I included two extra batteries."
+          }
+        },
+        {
+          "id": "ng-i-anchor-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Research the usual price | Make a first offer with a reason | Listen to their answer before you move",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Research the usual price",
+              "Make a first offer with a reason",
+              "Listen to their answer before you move"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-anchor-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You sell a used laptop. Write your first offer and one reason that makes it sound fair.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-trade",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Trade, don’t give in",
+      "objectiveId": "NG-I-03",
+      "trackId": "negotiator",
+      "unitId": "bargain",
+      "tip": "Giving in means you lose something and get nothing. Trading means you give something and ask for something. Use “if… then…”: “If you can pay today, I can lower the price.” Look for things that cost you little but matter to them, such as speed, a warranty, or a clear schedule. Trade one point at a time and keep a list of what you have given.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-trade-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sam asks his manager for a day working from home each week. The manager worries that the team will see Sam less. Sam suggests a trial for one month, with a short update every Friday. What does Sam offer in exchange?",
+          "answer": "A trial and a weekly update",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A trial and a weekly update",
+              "A bigger salary",
+              "A new office",
+              "Extra holidays"
+            ],
+            "accepted": [
+              "A trial and a weekly update"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the difference between giving in and trading?",
+          "answer": "In a trade you ask for something in return.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In a trade you ask for something in return.",
+              "Trading is always rude.",
+              "Giving in is polite.",
+              "There is no difference."
+            ],
+            "accepted": [
+              "In a trade you ask for something in return."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a trade?",
+          "answer": "If you can pay today, I can lower the price.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If you can pay today, I can lower the price.",
+              "I will lower the price.",
+              "Fine, you win.",
+              "Maybe later."
+            ],
+            "accepted": [
+              "If you can pay today, I can lower the price."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which concession costs you little but may matter a lot to them?",
+          "answer": "A clear delivery date",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A clear delivery date",
+              "Giving them your job",
+              "Doubling the price",
+              "Closing the shop"
+            ],
+            "accepted": [
+              "A clear delivery date"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why keep a list of what you have given?",
+          "answer": "So you can ask for something in return.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So you can ask for something in return.",
+              "So you can forget it.",
+              "So you can hide it.",
+              "So you can argue about colors."
+            ],
+            "accepted": [
+              "So you can ask for something in return."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sentence with its job.",
+          "answer": "If you pay today, I can lower the price. → offers a trade | I will lower the price. → gives in with no return | Can you also add a warranty? → asks for something back",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "If you pay today, I can lower the price.",
+                "offers a trade"
+              ],
+              [
+                "I will lower the price.",
+                "gives in with no return"
+              ],
+              [
+                "Can you also add a warranty?",
+                "asks for something back"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the trade in order.",
+          "answer": "Say what you can give | Ask for something in return | Check that both sides agree",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say what you can give",
+              "Ask for something in return",
+              "Check that both sides agree"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should trade one point at a time.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: If you pay today, ___ I can lower the price.",
+          "answer": "then",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "then"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "If you order today, I will add free delivery.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "If",
+              "you",
+              "order",
+              "today,",
+              "I",
+              "will",
+              "add",
+              "free",
+              "delivery.",
+              "never",
+              "gave"
+            ],
+            "accepted": [
+              "If you order today, I will add free delivery."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-trade-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker offer for a two-year contract?",
+          "answer": "A ten percent discount",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A ten percent discount",
+              "A free phone",
+              "A refund",
+              "A new office"
+            ],
+            "accepted": [
+              "A ten percent discount"
+            ],
+            "audioText": "If you sign a two-year contract, then I can offer a ten percent discount. If you want one year, the price stays the same."
+          }
+        },
+        {
+          "id": "ng-i-trade-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What happens with a one-year contract?",
+          "answer": "The price stays the same",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The price stays the same",
+              "The price drops",
+              "The deal is cancelled",
+              "The service is free"
+            ],
+            "accepted": [
+              "The price stays the same"
+            ],
+            "audioText": "If you sign a two-year contract, then I can offer a ten percent discount. If you want one year, the price stays the same."
+          }
+        },
+        {
+          "id": "ng-i-trade-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A friend asks you to move your holiday. Write a reply that trades: say what you can give and what you need back.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-ask",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Ask and listen",
+      "objectiveId": "NG-I-04",
+      "trackId": "negotiator",
+      "unitId": "bargain",
+      "tip": "Good negotiators learn before they push. Ask open questions: “What matters most to you in this deal?” Then stay quiet and listen. Show you heard by naming the feeling or the need: “It sounds like speed is the most important point for you.” People often say the real reason after a short silence. Take notes and repeat key words back.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-ask-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question is open?",
+          "answer": "What matters most to you in this deal?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What matters most to you in this deal?",
+              "Do you want it?",
+              "Is it Tuesday?",
+              "Is it cheap?"
+            ],
+            "accepted": [
+              "What matters most to you in this deal?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence shows you heard the need?",
+          "answer": "It sounds like speed is the most important point for you.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It sounds like speed is the most important point for you.",
+              "Hurry up.",
+              "I do not care.",
+              "Speed is boring."
+            ],
+            "accepted": [
+              "It sounds like speed is the most important point for you."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What often happens after a short silence?",
+          "answer": "The other person adds the real reason.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The other person adds the real reason.",
+              "The deal ends.",
+              "The price doubles.",
+              "Nothing is said ever again."
+            ],
+            "accepted": [
+              "The other person adds the real reason."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tool helps you remember key points?",
+          "answer": "Taking notes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Taking notes",
+              "Talking faster",
+              "Looking away",
+              "Changing the topic"
+            ],
+            "accepted": [
+              "Taking notes"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A customer says: “Your price is too high. Another shop sells the same lamp for 20 dollars less.” The shop owner knows the lamp comes with a two-year warranty that the other shop does not offer. What does the shop owner know that the customer may not?",
+          "answer": "The lamp has a two-year warranty.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The lamp has a two-year warranty.",
+              "The lamp is cheap.",
+              "The other shop is closed.",
+              "The customer is wrong."
+            ],
+            "accepted": [
+              "The lamp has a two-year warranty."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A customer says: “Your price is too high. Another shop sells the same lamp for 20 dollars less.” The shop owner knows the lamp comes with a two-year warranty that the other shop does not offer. Which question helps the owner learn what the customer values?",
+          "answer": "What is most important to you in a lamp?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What is most important to you in a lamp?",
+              "Why are you complaining?",
+              "Do you want to leave?",
+              "Is the lamp too bright?"
+            ],
+            "accepted": [
+              "What is most important to you in a lamp?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each move with its purpose.",
+          "answer": "Open question → invites a full answer | Silence → gives time to add more | Name the need → shows you understood",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Open question",
+                "invites a full answer"
+              ],
+              [
+                "Silence",
+                "gives time to add more"
+              ],
+              [
+                "Name the need",
+                "shows you understood"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should listen before you push your own offer.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: An open question cannot be answered with yes or ___.",
+          "answer": "no",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "no"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "It sounds like price matters most.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "It",
+              "sounds",
+              "like",
+              "price",
+              "matters",
+              "most.",
+              "never",
+              "sound"
+            ],
+            "accepted": [
+              "It sounds like price matters most."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-ask-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Checking what the other person needs",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Checking what the other person needs",
+              "Refusing the job",
+              "Raising the price",
+              "Ending the talk"
+            ],
+            "accepted": [
+              "Checking what the other person needs"
+            ],
+            "audioText": "It sounds like you want the repair done this week. Is that the most important thing for you, or is the price just as important?"
+          }
+        },
+        {
+          "id": "ng-i-ask-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A customer says: “I need it faster.” Write a reply that names the need and asks one open question.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-objection",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Handle objections",
+      "objectiveId": "NG-I-05",
+      "trackId": "negotiator",
+      "unitId": "tense",
+      "tip": "An objection is a reason someone says no. Do not argue at once. First, acknowledge it: “I understand the price is a worry.” Second, ask a question to understand it: “Compared with what?” Third, answer with a fact or an option. Often the objection is not the real problem, so listen for what sits behind it.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-objection-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A customer says: “Your price is too high. Another shop sells the same lamp for 20 dollars less.” The shop owner knows the lamp comes with a two-year warranty that the other shop does not offer. Which reply acknowledges the objection first?",
+          "answer": "I understand that the price matters to you.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I understand that the price matters to you.",
+              "You are wrong about the price.",
+              "Everyone pays this price.",
+              "Please leave."
+            ],
+            "accepted": [
+              "I understand that the price matters to you."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the first step with an objection?",
+          "answer": "Acknowledge it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Acknowledge it",
+              "Argue back",
+              "Change the subject",
+              "Lower the price"
+            ],
+            "accepted": [
+              "Acknowledge it"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question explores a price objection?",
+          "answer": "Compared with what?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Compared with what?",
+              "Why are you here?",
+              "Do you like blue?",
+              "Is it Monday?"
+            ],
+            "accepted": [
+              "Compared with what?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which answer uses a fact?",
+          "answer": "It comes with a two-year warranty.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It comes with a two-year warranty.",
+              "Trust me.",
+              "It is better.",
+              "Everyone likes it."
+            ],
+            "accepted": [
+              "It comes with a two-year warranty."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why listen for what sits behind an objection?",
+          "answer": "The stated reason may not be the real worry.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The stated reason may not be the real worry.",
+              "Objections are always lies.",
+              "It saves time.",
+              "It ends the talk."
+            ],
+            "accepted": [
+              "The stated reason may not be the real worry."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Acknowledge → I understand the price is a worry. | Ask → Compared with what? | Answer → It includes a two-year warranty.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Acknowledge",
+                "I understand the price is a worry."
+              ],
+              [
+                "Ask",
+                "Compared with what?"
+              ],
+              [
+                "Answer",
+                "It includes a two-year warranty."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Acknowledge the worry | Ask a question to understand it | Answer with a fact or an option",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Acknowledge the worry",
+              "Ask a question to understand it",
+              "Answer with a fact or an option"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An objection should be answered with an argument before you understand it.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: First, ___ the objection.",
+          "answer": "acknowledge",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "acknowledge"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I understand the price is a worry.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "understand",
+              "the",
+              "price",
+              "is",
+              "a",
+              "worry.",
+              "never",
+              "are"
+            ],
+            "accepted": [
+              "I understand the price is a worry."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-objection-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker do first?",
+          "answer": "Acknowledges the worry",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Acknowledges the worry",
+              "Lowers the price",
+              "Argues back",
+              "Ends the call"
+            ],
+            "accepted": [
+              "Acknowledges the worry"
+            ],
+            "audioText": "I hear that the price feels high. Can I ask what you are comparing it with? Some shops sell a cheaper model, but it has no warranty."
+          }
+        },
+        {
+          "id": "ng-i-objection-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which fact does the speaker add?",
+          "answer": "A cheaper model has no warranty",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A cheaper model has no warranty",
+              "The shop is closing",
+              "The lamp is new",
+              "The price will rise"
+            ],
+            "accepted": [
+              "A cheaper model has no warranty"
+            ],
+            "audioText": "I hear that the price feels high. Can I ask what you are comparing it with? Some shops sell a cheaper model, but it has no warranty."
+          }
+        },
+        {
+          "id": "ng-i-objection-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A client says: “Your service is too slow.” Write a three-part reply: acknowledge, ask, answer.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-firm",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Firm and friendly",
+      "objectiveId": "NG-I-06",
+      "trackId": "negotiator",
+      "unitId": "tense",
+      "tip": "You can say no and stay friendly. Give a reason, then offer what you can do: “I can’t move the deadline, but I can send a draft on Wednesday.” Say the same message calmly if the person pushes again; this is called the broken record. Keep your voice steady and avoid blaming words like “always” and “never.” Firm means clear, not angry.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-firm-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply is firm and friendly?",
+          "answer": "I can’t move the deadline, but I can send a draft on Wednesday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can’t move the deadline, but I can send a draft on Wednesday.",
+              "No. Stop asking.",
+              "Do whatever you want.",
+              "You always do this."
+            ],
+            "accepted": [
+              "I can’t move the deadline, but I can send a draft on Wednesday."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the broken record technique mean?",
+          "answer": "Repeating your message calmly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Repeating your message calmly",
+              "Raising your voice",
+              "Leaving the room",
+              "Giving in"
+            ],
+            "accepted": [
+              "Repeating your message calmly"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words should you avoid in a tense moment?",
+          "answer": "always and never",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "always and never",
+              "I can and I will",
+              "thank you",
+              "please"
+            ],
+            "accepted": [
+              "always and never"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “firm” mean here?",
+          "answer": "Clear and steady",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Clear and steady",
+              "Angry and loud",
+              "Silent",
+              "Unsure"
+            ],
+            "accepted": [
+              "Clear and steady"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply offers an alternative?",
+          "answer": "I can’t do Friday, but Monday works.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can’t do Friday, but Monday works.",
+              "I can’t do Friday.",
+              "Friday is bad.",
+              "Never Friday."
+            ],
+            "accepted": [
+              "I can’t do Friday, but Monday works."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each reply with its style.",
+          "answer": "I can’t do Friday, but Monday works. → firm and friendly | You always change the plan! → blaming | Whatever. → unclear",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I can’t do Friday, but Monday works.",
+                "firm and friendly"
+              ],
+              [
+                "You always change the plan!",
+                "blaming"
+              ],
+              [
+                "Whatever.",
+                "unclear"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Firm means angry.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can repeat your message calmly if the person pushes again.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Give a reason, then offer an ___.",
+          "answer": "alternative",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "alternative"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I understand, but I cannot change it.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "understand,",
+              "but",
+              "I",
+              "cannot",
+              "change",
+              "it.",
+              "never",
+              "cant"
+            ],
+            "accepted": [
+              "I understand, but I cannot change it."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker offer?",
+          "answer": "To take the report on Monday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To take the report on Monday",
+              "To work all night",
+              "To cancel the report",
+              "To pay for it"
+            ],
+            "accepted": [
+              "To take the report on Monday"
+            ],
+            "audioText": "I know the deadline is tight. I can’t add more work this week, but I can take the report on Monday."
+          }
+        },
+        {
+          "id": "ng-i-firm-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the reply in order.",
+          "answer": "Say that you understand | Say what you cannot do | Offer what you can do",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say that you understand",
+              "Say what you cannot do",
+              "Offer what you can do"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-firm-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A neighbor asks you to lend your car again. Write a firm and friendly reply that says no and offers another way to help.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-calm",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Calm a tense moment",
+      "objectiveId": "NG-I-07",
+      "trackId": "negotiator",
+      "unitId": "tense",
+      "tip": "When voices rise, slow down. Take a breath and lower your pace. Use “I” statements: “I feel worried when plans change late.” Name the shared goal: “We both want this project to finish on time.” Suggest a short break if the talk goes in circles. People listen better when they feel safe.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-calm-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is an “I” statement?",
+          "answer": "I feel worried when plans change late.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I feel worried when plans change late.",
+              "You never plan.",
+              "Everybody hates this.",
+              "That is your fault."
+            ],
+            "accepted": [
+              "I feel worried when plans change late."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence names a shared goal?",
+          "answer": "We both want the project to finish on time.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We both want the project to finish on time.",
+              "You should be quiet.",
+              "I am right.",
+              "It is late."
+            ],
+            "accepted": [
+              "We both want the project to finish on time."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you suggest if the talk goes in circles?",
+          "answer": "A short break",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A short break",
+              "A louder voice",
+              "A new argument",
+              "Silence forever"
+            ],
+            "accepted": [
+              "A short break"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps first when voices rise?",
+          "answer": "Slow down and breathe",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down and breathe",
+              "Talk faster",
+              "Interrupt",
+              "Leave without a word"
+            ],
+            "accepted": [
+              "Slow down and breathe"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do “I” statements help?",
+          "answer": "They describe your feeling without blaming.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They describe your feeling without blaming.",
+              "They end the talk.",
+              "They sound strong.",
+              "They are longer."
+            ],
+            "accepted": [
+              "They describe your feeling without blaming."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "I statement → describes your feeling | Shared goal → reminds both sides of what they need | Short break → gives time to calm down",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I statement",
+                "describes your feeling"
+              ],
+              [
+                "Shared goal",
+                "reminds both sides of what they need"
+              ],
+              [
+                "Short break",
+                "gives time to calm down"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Blaming words usually calm a tense moment.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A shared goal can help two sides work together.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Take a deep ___ before you answer.",
+          "answer": "breath",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "breath"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We both want a fair result.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "both",
+              "want",
+              "a",
+              "fair",
+              "result.",
+              "never",
+              "wants"
+            ],
+            "accepted": [
+              "We both want a fair result."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-calm-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker suggest?",
+          "answer": "A five-minute break",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A five-minute break",
+              "A new event",
+              "A shorter talk",
+              "A different team"
+            ],
+            "accepted": [
+              "A five-minute break"
+            ],
+            "audioText": "I feel worried when the plan changes at the last minute. We both want the event to go well. Can we take five minutes and then decide together?"
+          }
+        },
+        {
+          "id": "ng-i-calm-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the shared goal?",
+          "answer": "The event should go well",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The event should go well",
+              "The plan should change again",
+              "The talk should end",
+              "The team should grow"
+            ],
+            "accepted": [
+              "The event should go well"
+            ],
+            "audioText": "I feel worried when the plan changes at the last minute. We both want the event to go well. Can we take five minutes and then decide together?"
+          }
+        },
+        {
+          "id": "ng-i-calm-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A teammate keeps interrupting you. Write what you would say, using an I statement and a shared goal.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-i-close",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Close and confirm",
+      "objectiveId": "NG-I-08",
+      "trackId": "negotiator",
+      "unitId": "tense",
+      "tip": "A deal is not finished until both sides know what was agreed. Summarize in plain words: “So I will send the file on Friday, and you will pay half on Monday.” Check: “Is that right?” Agree on the next step and the date. For important deals, send a short message afterward with the same points. This prevents later confusion.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), as a source of ideas: interests, options and a best alternative (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-i-close-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why summarize the agreement?",
+          "answer": "So both sides know what was agreed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So both sides know what was agreed.",
+              "To make the talk longer.",
+              "To avoid the next step.",
+              "To change the price."
+            ],
+            "accepted": [
+              "So both sides know what was agreed."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence checks the summary?",
+          "answer": "Is that right?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Is that right?",
+              "Whatever.",
+              "Who cares?",
+              "Goodbye."
+            ],
+            "accepted": [
+              "Is that right?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you agree on at the end?",
+          "answer": "The next step and its date",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The next step and its date",
+              "A new argument",
+              "The weather",
+              "Nothing"
+            ],
+            "accepted": [
+              "The next step and its date"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps after an important deal?",
+          "answer": "A short message with the same points",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A short message with the same points",
+              "Silence",
+              "A new price",
+              "A surprise"
+            ],
+            "accepted": [
+              "A short message with the same points"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which summary is clear?",
+          "answer": "I will send the file on Friday, and you will pay half on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I will send the file on Friday, and you will pay half on Monday.",
+              "We will see.",
+              "Things are fine.",
+              "It is done."
+            ],
+            "accepted": [
+              "I will send the file on Friday, and you will pay half on Monday."
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each action with its purpose.",
+          "answer": "Summarize → make the agreement clear | Check → find a mistake early | Send a message → keep a record",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Summarize",
+                "make the agreement clear"
+              ],
+              [
+                "Check",
+                "find a mistake early"
+              ],
+              [
+                "Send a message",
+                "keep a record"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the closing in order.",
+          "answer": "Summarize what was agreed | Ask if it is right | Set the next step and the date",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Summarize what was agreed",
+              "Ask if it is right",
+              "Set the next step and the date"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A short follow-up message prevents confusion.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: So I will send the file ___ Friday.",
+          "answer": "on",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "on"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Is that right?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Is",
+              "that",
+              "right?",
+              "does",
+              "it"
+            ],
+            "accepted": [
+              "Is that right?"
+            ]
+          }
+        },
+        {
+          "id": "ng-i-close-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Confirming the agreement",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Confirming the agreement",
+              "Raising the price",
+              "Cancelling the order",
+              "Making a joke"
+            ],
+            "accepted": [
+              "Confirming the agreement"
+            ],
+            "audioText": "So, to confirm: I will deliver the chairs on the fifth, and you will pay half when they arrive. Is that right?"
+          }
+        },
+        {
+          "id": "ng-i-close-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. When will half be paid?",
+          "answer": "When the chairs arrive",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When the chairs arrive",
+              "On the first",
+              "Next year",
+              "Before delivery"
+            ],
+            "accepted": [
+              "When the chairs arrive"
+            ],
+            "audioText": "So, to confirm: I will deliver the chairs on the fifth, and you will pay half when they arrive. Is that right?"
+          }
+        },
+        {
+          "id": "ng-i-close-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short message that confirms a deal: who does what, and by when.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-criteria",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Interests, options and criteria",
+      "objectiveId": "NG-A-01",
+      "trackId": "negotiator",
+      "unitId": "strategy",
+      "tip": "Move the talk from positions to interests and then to options. Ask what each side needs and why. Brainstorm several options before you judge them. Then agree on objective criteria, such as market price, expert opinion or a precedent, so the choice is based on a standard, not on who pushes harder. “Let’s use the average price of the last three comparable deals” turns a battle of wills into a shared problem.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-criteria-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A software firm wants a two-year contract. The client cares most about a fast launch and low risk. The firm cares most about steady income and a reference it can show to others. Price is the only issue they have discussed so far. What is the most promising way to widen the deal?",
+          "answer": "Trade a fast launch and a reference for a steady two-year income.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Trade a fast launch and a reference for a steady two-year income.",
+              "Argue only about price.",
+              "End the talk.",
+              "Ask for a longer contract with no changes."
+            ],
+            "accepted": [
+              "Trade a fast launch and a reference for a steady two-year income."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do before judging options?",
+          "answer": "Brainstorm several options",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Brainstorm several options",
+              "Choose the first idea",
+              "Reject all ideas",
+              "Wait for the other side"
+            ],
+            "accepted": [
+              "Brainstorm several options"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is an objective criterion?",
+          "answer": "The average price of comparable deals",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The average price of comparable deals",
+              "Whoever speaks louder",
+              "My personal feeling",
+              "The mood in the room"
+            ],
+            "accepted": [
+              "The average price of comparable deals"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why use objective criteria?",
+          "answer": "They turn a battle of wills into a shared problem",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They turn a battle of wills into a shared problem",
+              "They end the talk",
+              "They hide interests",
+              "They guarantee a win"
+            ],
+            "accepted": [
+              "They turn a battle of wills into a shared problem"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question explores interests?",
+          "answer": "What does this outcome do for you?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What does this outcome do for you?",
+              "What is your lowest price?",
+              "Why are you here?",
+              "Will you sign now?"
+            ],
+            "accepted": [
+              "What does this outcome do for you?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its purpose.",
+          "answer": "Ask why → uncover interests | Brainstorm → create options | Agree a criterion → choose fairly",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Ask why",
+                "uncover interests"
+              ],
+              [
+                "Brainstorm",
+                "create options"
+              ],
+              [
+                "Agree a criterion",
+                "choose fairly"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Uncover each side’s interests | Generate options together | Agree on a standard to choose",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Uncover each side’s interests",
+              "Generate options together",
+              "Agree on a standard to choose"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Fixing on price alone usually widens the possible deals.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use an objective ___ to decide.",
+          "answer": "criterion",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "criterion",
+              "standard"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let’s agree on a fair standard first.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let’s",
+              "agree",
+              "on",
+              "a",
+              "fair",
+              "standard",
+              "first.",
+              "never",
+              "standards"
+            ],
+            "accepted": [
+              "Let’s agree on a fair standard first."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-criteria-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker proposing?",
+          "answer": "An objective standard",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An objective standard",
+              "A threat",
+              "A deadline",
+              "A discount"
+            ],
+            "accepted": [
+              "An objective standard"
+            ],
+            "audioText": "We both want a fair price. Rather than argue, can we use what three similar offices paid last year? That gives us a neutral number."
+          }
+        },
+        {
+          "id": "ng-a-criteria-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Two neighbors disagree about a shared fence. Write an interest each side may have and one objective criterion to settle the cost.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-alt",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Strengthen your alternative",
+      "objectiveId": "NG-A-02",
+      "trackId": "negotiator",
+      "unitId": "strategy",
+      "tip": "Your power comes less from toughness than from your best alternative. Before a talk, improve it: ask a second supplier for a quote, check another job offer, prepare a fallback plan. Estimate the other side’s alternative too; if theirs is weak, you may ask for more. Never bluff about an alternative you do not have. If you are asked, say what is true: “I have options, and I would prefer to work with you.”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-alt-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where does negotiation power mainly come from?",
+          "answer": "A strong best alternative",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A strong best alternative",
+              "A loud voice",
+              "A long speech",
+              "A secret"
+            ],
+            "accepted": [
+              "A strong best alternative"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you improve your alternative before the talk?",
+          "answer": "Get a second quote",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Get a second quote",
+              "Wait",
+              "Stop preparing",
+              "Agree to anything"
+            ],
+            "accepted": [
+              "Get a second quote"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why estimate the other side’s alternative?",
+          "answer": "If it is weak, you may reasonably ask for more",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If it is weak, you may reasonably ask for more",
+              "To mock them",
+              "To avoid the talk",
+              "To lower your price"
+            ],
+            "accepted": [
+              "If it is weak, you may reasonably ask for more"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you never do about your alternative?",
+          "answer": "Bluff about one you do not have",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Bluff about one you do not have",
+              "Improve it",
+              "Think about it",
+              "Estimate it"
+            ],
+            "accepted": [
+              "Bluff about one you do not have"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply is honest?",
+          "answer": "I have options, and I would prefer to work with you.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I have options, and I would prefer to work with you.",
+              "I have ten offers.",
+              "I will leave tomorrow.",
+              "Nobody else wants you."
+            ],
+            "accepted": [
+              "I have options, and I would prefer to work with you."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each action with its effect.",
+          "answer": "Get a second quote → strengthens your alternative | Estimate their alternative → shows how much room they have | Bluff → risks your credibility",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Get a second quote",
+                "strengthens your alternative"
+              ],
+              [
+                "Estimate their alternative",
+                "shows how much room they have"
+              ],
+              [
+                "Bluff",
+                "risks your credibility"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A bluff that is discovered can damage your credibility.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should ignore the other side’s alternative.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Improve your best ___ before the talk.",
+          "answer": "alternative",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "alternative"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I would prefer to work with you.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "would",
+              "prefer",
+              "to",
+              "work",
+              "with",
+              "you.",
+              "never",
+              "preferring"
+            ],
+            "accepted": [
+              "I would prefer to work with you."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why did the speaker get other quotes?",
+          "answer": "To strengthen a walk-away option",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To strengthen a walk-away option",
+              "To hide the first quote",
+              "To waste time",
+              "To bluff"
+            ],
+            "accepted": [
+              "To strengthen a walk-away option"
+            ],
+            "audioText": "Before I met the client, I asked two other firms for quotes. That way I knew I could walk away at a fair price, and I could speak calmly."
+          }
+        },
+        {
+          "id": "ng-a-alt-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the preparation in order.",
+          "answer": "List your alternatives | Improve the best one | Estimate the other side’s",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "List your alternatives",
+              "Improve the best one",
+              "Estimate the other side’s"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-alt-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You are applying for a job and want to negotiate pay. Write two ways to strengthen your alternative before you talk.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-package",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Packages and trade-offs",
+      "objectiveId": "NG-A-03",
+      "trackId": "negotiator",
+      "unitId": "strategy",
+      "tip": "When there are several issues, negotiate them together as a package rather than one by one. Each side values the issues differently, so you can trade what costs you little for what matters to them: this is how both gain. Offer two or three equivalent packages and see which one they prefer: it reveals their priorities. Avoid agreeing to a single issue early, because you lose your flexibility.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-package-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A software firm wants a two-year contract. The client cares most about a fast launch and low risk. The firm cares most about steady income and a reference it can show to others. Price is the only issue they have discussed so far. Which package fits both sides’ interests?",
+          "answer": "A fast launch plus a reference, with a two-year contract at a steady price",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A fast launch plus a reference, with a two-year contract at a steady price",
+              "A low price only",
+              "A one-month trial only",
+              "A launch next year"
+            ],
+            "accepted": [
+              "A fast launch plus a reference, with a two-year contract at a steady price"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why negotiate several issues as a package?",
+          "answer": "You can trade what costs you little for what matters to them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You can trade what costs you little for what matters to them",
+              "It is shorter",
+              "It hides the price",
+              "It avoids all choices"
+            ],
+            "accepted": [
+              "You can trade what costs you little for what matters to them"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why offer two or three equivalent packages?",
+          "answer": "Their choice reveals their priorities",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Their choice reveals their priorities",
+              "It confuses them",
+              "It ends the talk",
+              "It lowers your price"
+            ],
+            "accepted": [
+              "Their choice reveals their priorities"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the risk of agreeing to one issue early?",
+          "answer": "You lose flexibility",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You lose flexibility",
+              "You gain time",
+              "You gain power",
+              "You end the talk"
+            ],
+            "accepted": [
+              "You lose flexibility"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “equivalent” mean here?",
+          "answer": "Of similar value to you",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Of similar value to you",
+              "Exactly the same",
+              "Cheaper",
+              "Worse"
+            ],
+            "accepted": [
+              "Of similar value to you"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each issue with who may value it more.",
+          "answer": "Fast launch → the client | A reference → the firm | Low risk → the client and the firm",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Fast launch",
+                "the client"
+              ],
+              [
+                "A reference",
+                "the firm"
+              ],
+              [
+                "Low risk",
+                "the client and the firm"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Each side usually values the issues in the same way.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Trading across issues can make both sides better off.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Negotiate the issues together as a ___.",
+          "answer": "package",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "package"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Here are two packages for you to compare.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Here",
+              "are",
+              "two",
+              "packages",
+              "for",
+              "you",
+              "to",
+              "compare.",
+              "never",
+              "packs"
+            ],
+            "accepted": [
+              "Here are two packages for you to compare."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Offering equivalent packages",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Offering equivalent packages",
+              "Refusing to trade",
+              "Raising the price",
+              "Ending the talk"
+            ],
+            "accepted": [
+              "Offering equivalent packages"
+            ],
+            "audioText": "Option one: a faster delivery at the standard price. Option two: standard delivery with a ten percent discount. Which do you prefer? Either works for us."
+          }
+        },
+        {
+          "id": "ng-a-package-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "List all the issues | Rank what each side values | Offer equivalent packages and learn from the choice",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "List all the issues",
+              "Rank what each side values",
+              "Offer equivalent packages and learn from the choice"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-package-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Two issues: delivery date and price. Write two equivalent packages you could offer a customer.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-counter",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Respond to an extreme first offer",
+      "objectiveId": "NG-A-04",
+      "trackId": "negotiator",
+      "unitId": "strategy",
+      "tip": "If the other side opens with an extreme number, do not let it set the range. Do not counter at once with a number that moves toward theirs. Instead, question the basis: “What is this figure based on?” Name your own reference point: “Comparable deals are closer to this range.” You may also decline to respond to a figure that lacks support: “Let’s put that to one side and look at the criteria.” Stay calm and curious.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-counter-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the first move after an extreme opening offer?",
+          "answer": "Question what the figure is based on",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Question what the figure is based on",
+              "Counter with a number halfway",
+              "Walk out",
+              "Accept"
+            ],
+            "accepted": [
+              "Question what the figure is based on"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why not move toward an extreme number at once?",
+          "answer": "It lets their number set the range",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It lets their number set the range",
+              "It is rude",
+              "It is slow",
+              "It shows kindness"
+            ],
+            "accepted": [
+              "It lets their number set the range"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase names your own reference point?",
+          "answer": "Comparable deals are closer to this range.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Comparable deals are closer to this range.",
+              "That is silly.",
+              "I do not know.",
+              "Whatever you like."
+            ],
+            "accepted": [
+              "Comparable deals are closer to this range."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply declines an unsupported figure politely?",
+          "answer": "Let’s put that to one side and look at the criteria.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Let’s put that to one side and look at the criteria.",
+              "That is absurd.",
+              "No. Goodbye.",
+              "I give up."
+            ],
+            "accepted": [
+              "Let’s put that to one side and look at the criteria."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What tone should you keep?",
+          "answer": "Calm and curious",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Calm and curious",
+              "Angry and loud",
+              "Silent",
+              "Sarcastic"
+            ],
+            "accepted": [
+              "Calm and curious"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each move with its aim.",
+          "answer": "Question the basis → test the figure | Name a reference → set your own anchor | Set it aside → avoid being pulled toward it",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Question the basis",
+                "test the figure"
+              ],
+              [
+                "Name a reference",
+                "set your own anchor"
+              ],
+              [
+                "Set it aside",
+                "avoid being pulled toward it"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the response in order.",
+          "answer": "Ask what the figure is based on | Name your own reference point | Move to shared criteria",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask what the figure is based on",
+              "Name your own reference point",
+              "Move to shared criteria"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Moving halfway at once accepts the other side’s range.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: What is this figure ___ on?",
+          "answer": "based",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "based"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "What is this figure based on?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "What",
+              "is",
+              "this",
+              "figure",
+              "based",
+              "on?",
+              "does",
+              "base"
+            ],
+            "accepted": [
+              "What is this figure based on?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-counter-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker do first?",
+          "answer": "Asks how the number was reached",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Asks how the number was reached",
+              "Names a counter figure",
+              "Accepts the number",
+              "Leaves the room"
+            ],
+            "accepted": [
+              "Asks how the number was reached"
+            ],
+            "audioText": "That number is far from anything comparable. Can you walk me through how you reached it? Then I will show you the range I am looking at."
+          }
+        },
+        {
+          "id": "ng-a-counter-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What will the speaker show next?",
+          "answer": "The range they are looking at",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The range they are looking at",
+              "A threat",
+              "A gift",
+              "The door"
+            ],
+            "accepted": [
+              "The range they are looking at"
+            ],
+            "audioText": "That number is far from anything comparable. Can you walk me through how you reached it? Then I will show you the range I am looking at."
+          }
+        },
+        {
+          "id": "ng-a-counter-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A seller names a price twice the market price. Write a calm reply that questions the basis and names your reference.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-culture",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Across cultures",
+      "objectiveId": "NG-A-05",
+      "trackId": "negotiator",
+      "unitId": "pressure",
+      "tip": "Communication styles differ across cultures and organizations. In some contexts people say “no” directly; in others they say “this will be difficult” and expect you to understand. Silence can mean thinking, respect or disagreement. Some groups decide in the meeting; others decide afterward with seniors. Do not assume your own style is the standard. Ask politely how decisions are made, and check meaning: “Do I understand that this is not possible?”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-culture-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which statement is cautious about culture?",
+          "answer": "Styles differ, so I will check what is meant.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Styles differ, so I will check what is meant.",
+              "Everyone talks like me.",
+              "Silence always means yes.",
+              "Direct is always better."
+            ],
+            "accepted": [
+              "Styles differ, so I will check what is meant."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What might “this will be difficult” mean?",
+          "answer": "A polite no",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A polite no",
+              "A promise",
+              "An offer",
+              "A joke"
+            ],
+            "accepted": [
+              "A polite no"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can silence mean?",
+          "answer": "Thinking, respect or disagreement",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Thinking, respect or disagreement",
+              "Always agreement",
+              "Always anger",
+              "Nothing"
+            ],
+            "accepted": [
+              "Thinking, respect or disagreement"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you check meaning politely?",
+          "answer": "Do I understand that this is not possible?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Do I understand that this is not possible?",
+              "Say yes or no.",
+              "Stop talking.",
+              "Repeat louder."
+            ],
+            "accepted": [
+              "Do I understand that this is not possible?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you ask about decisions?",
+          "answer": "How decisions are made",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How decisions are made",
+              "How tall people are",
+              "Who is oldest",
+              "Where lunch is"
+            ],
+            "accepted": [
+              "How decisions are made"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each style with how it may sound.",
+          "answer": "Direct → No, we cannot. | Indirect → That may be difficult. | Silent pause → may show thinking",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Direct",
+                "No, we cannot."
+              ],
+              [
+                "Indirect",
+                "That may be difficult."
+              ],
+              [
+                "Silent pause",
+                "may show thinking"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Your own style is the standard everywhere.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Checking meaning politely prevents misunderstanding.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Styles ___ across cultures.",
+          "answer": "differ",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "differ",
+              "vary"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Do I understand you correctly?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Do",
+              "I",
+              "understand",
+              "you",
+              "correctly?",
+              "never",
+              "understood"
+            ],
+            "accepted": [
+              "Do I understand you correctly?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker explain?",
+          "answer": "How decisions are made",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How decisions are made",
+              "Why they dislike the offer",
+              "That they refuse",
+              "That they are angry"
+            ],
+            "accepted": [
+              "How decisions are made"
+            ],
+            "audioText": "In our company the team discusses the offer after the meeting and the director decides the next day. I do not mean to delay; it is how we work."
+          }
+        },
+        {
+          "id": "ng-a-culture-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Notice a message you cannot read | Ask politely how they mean it | Confirm what you understood",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Notice a message you cannot read",
+              "Ask politely how they mean it",
+              "Confirm what you understood"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-culture-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one polite question you could ask to learn how a partner company makes decisions.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-pressure",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Pressure tactics",
+      "objectiveId": "NG-A-06",
+      "trackId": "negotiator",
+      "unitId": "pressure",
+      "tip": "Some negotiators use pressure: false deadlines, a good cop and a bad cop, a final offer that is not final, or asking for a small extra at the end (“nibbling”). Recognize the tactic and name it calmly without accusing: “I notice the deadline is very tight. Can you tell me what happens if we need another day?” Test whether it is real. You can slow down, take a break and return to criteria.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-pressure-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Lena is told by a supplier that the offer expires at five o’clock. Later she learns that the supplier extended the same offer to another client last month. What should Lena infer about the deadline?",
+          "answer": "It may have been used as pressure, not as a real limit.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It may have been used as pressure, not as a real limit.",
+              "It is certainly real.",
+              "The supplier is honest.",
+              "The offer was cancelled."
+            ],
+            "accepted": [
+              "It may have been used as pressure, not as a real limit."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is an example of nibbling?",
+          "answer": "Asking for a small extra after the deal is nearly agreed",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Asking for a small extra after the deal is nearly agreed",
+              "Offering a discount",
+              "Asking for a break",
+              "Saying thank you"
+            ],
+            "accepted": [
+              "Asking for a small extra after the deal is nearly agreed"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the good cop and bad cop tactic?",
+          "answer": "One person is harsh and the other seems friendly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One person is harsh and the other seems friendly",
+              "Two police officers",
+              "Two equal offers",
+              "A silent partner"
+            ],
+            "accepted": [
+              "One person is harsh and the other seems friendly"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply names a tactic calmly?",
+          "answer": "I notice the deadline is very tight. What happens if we need another day?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I notice the deadline is very tight. What happens if we need another day?",
+              "You are lying.",
+              "I hate this.",
+              "Fine, I accept."
+            ],
+            "accepted": [
+              "I notice the deadline is very tight. What happens if we need another day?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you test a deadline?",
+          "answer": "Ask what happens if the date passes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask what happens if the date passes",
+              "Ignore it",
+              "Accept at once",
+              "Shout"
+            ],
+            "accepted": [
+              "Ask what happens if the date passes"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tactic with a calm reply.",
+          "answer": "False deadline → Can we check what happens if we need a day? | Final offer → Is there any flexibility on other terms? | Nibbling → Let’s review the whole package before adding anything.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "False deadline",
+                "Can we check what happens if we need a day?"
+              ],
+              [
+                "Final offer",
+                "Is there any flexibility on other terms?"
+              ],
+              [
+                "Nibbling",
+                "Let’s review the whole package before adding anything."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should accuse the other side of lying at once.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You may take a break to slow a pressured moment.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Test whether the deadline is ___.",
+          "answer": "real",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "real"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let’s slow down and review the whole deal.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let’s",
+              "slow",
+              "down",
+              "and",
+              "review",
+              "the",
+              "whole",
+              "deal.",
+              "never",
+              "slows"
+            ],
+            "accepted": [
+              "Let’s slow down and review the whole deal."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which signs of pressure does the speaker use?",
+          "answer": "A final offer and a short deadline",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A final offer and a short deadline",
+              "A long delay",
+              "A refusal",
+              "A silence"
+            ],
+            "accepted": [
+              "A final offer and a short deadline"
+            ],
+            "audioText": "This is my final offer. But, since we are friends, if you agree now I will also add free delivery. I need an answer by noon."
+          }
+        },
+        {
+          "id": "ng-a-pressure-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Notice the tactic | Name it calmly or ask a testing question | Return to criteria and the whole package",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Notice the tactic",
+              "Name it calmly or ask a testing question",
+              "Return to criteria and the whole package"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-pressure-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A salesperson says the price rises tomorrow. Write a calm reply that tests the deadline.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-authority",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Authority and approval",
+      "objectiveId": "NG-A-07",
+      "trackId": "negotiator",
+      "unitId": "pressure",
+      "tip": "Many deals need approval from someone not in the room. Find out early who decides and what they care about: “Who else will weigh in on this?” If the other person says “I must check with my director,” ask how you can help her present the case: “Would a one-page summary help?” Make sure you have authority too: say what you can commit to today and what needs approval. Avoid agreeing in principle when the real decision sits elsewhere.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-authority-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. At the meeting, the buyer says she likes the terms. Then she adds that she must consult her finance director before she can agree to anything. What should you do next?",
+          "answer": "Ask how to help her present the case to the director.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask how to help her present the case to the director.",
+              "Stop the talk.",
+              "Assume the deal is done.",
+              "Threaten her."
+            ],
+            "accepted": [
+              "Ask how to help her present the case to the director."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why ask who decides early?",
+          "answer": "So you can address the real decision-maker’s concerns",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So you can address the real decision-maker’s concerns",
+              "To pressure the team",
+              "To waste time",
+              "To end the talk"
+            ],
+            "accepted": [
+              "So you can address the real decision-maker’s concerns"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which offer helps the buyer?",
+          "answer": "Would a one-page summary help you present this?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Would a one-page summary help you present this?",
+              "Please decide now.",
+              "That is your problem.",
+              "Goodbye."
+            ],
+            "accepted": [
+              "Would a one-page summary help you present this?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you clarify about your own authority?",
+          "answer": "What you can commit to today",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What you can commit to today",
+              "Your age",
+              "Your hobbies",
+              "Your commute"
+            ],
+            "accepted": [
+              "What you can commit to today"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the risk of agreeing in principle?",
+          "answer": "The real decision may sit elsewhere",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The real decision may sit elsewhere",
+              "You gain time",
+              "You gain power",
+              "The talk ends"
+            ],
+            "accepted": [
+              "The real decision may sit elsewhere"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with its purpose.",
+          "answer": "Who else will weigh in? → find the decision-maker | What do they care about? → address their concerns | What can you commit to today? → set limits on your own authority",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Who else will weigh in?",
+                "find the decision-maker"
+              ],
+              [
+                "What do they care about?",
+                "address their concerns"
+              ],
+              [
+                "What can you commit to today?",
+                "set limits on your own authority"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Learn who approves the deal | Help the contact prepare the case | Be clear about what you can commit to",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Learn who approves the deal",
+              "Help the contact prepare the case",
+              "Be clear about what you can commit to"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A verbal agreement always binds the absent decision-maker.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask who else will ___ in.",
+          "answer": "weigh",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "weigh"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Who else needs to approve this?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Who",
+              "else",
+              "needs",
+              "to",
+              "approve",
+              "this?",
+              "never",
+              "approves"
+            ],
+            "accepted": [
+              "Who else needs to approve this?"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-authority-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What needs approval?",
+          "answer": "The warranty terms",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The warranty terms",
+              "The price",
+              "The schedule",
+              "The meeting time"
+            ],
+            "accepted": [
+              "The warranty terms"
+            ],
+            "audioText": "I can agree to the price and the schedule today. The warranty terms need my manager’s approval, so I will bring them to her this afternoon."
+          }
+        },
+        {
+          "id": "ng-a-authority-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short message offering a one-page summary to help a buyer present your proposal to her director.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ng-a-repair",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Repair and renegotiate",
+      "objectiveId": "NG-A-08",
+      "trackId": "negotiator",
+      "unitId": "pressure",
+      "tip": "Deals sometimes go wrong. If you must renegotiate or repair trust, begin with facts and responsibility, not blame: “We missed the delivery date. Here is what happened and what we propose.” Acknowledge the impact on the other side, offer a concrete fix, and ask what they need. When you renegotiate a signed deal, explain what changed and keep the parts that still work. The aim is a working relationship, not a win.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): ethos, pathos and logos",
+        "Fisher and Ury, Getting to Yes (1981), and later negotiation research (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "ng-a-repair-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should a repair begin?",
+          "answer": "With facts and responsibility",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With facts and responsibility",
+              "With blame",
+              "With a joke",
+              "With silence"
+            ],
+            "accepted": [
+              "With facts and responsibility"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence acknowledges impact?",
+          "answer": "We know the delay cost you a week of sales.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We know the delay cost you a week of sales.",
+              "It was not our fault.",
+              "Delays happen.",
+              "You also made mistakes."
+            ],
+            "accepted": [
+              "We know the delay cost you a week of sales."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a repair include?",
+          "answer": "A concrete fix",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A concrete fix",
+              "A vague promise",
+              "A new threat",
+              "A long delay"
+            ],
+            "accepted": [
+              "A concrete fix"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When renegotiating a signed deal, what should you explain?",
+          "answer": "What changed",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What changed",
+              "Who is guilty",
+              "Why you are tired",
+              "Your holiday plans"
+            ],
+            "accepted": [
+              "What changed"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the aim of a repair?",
+          "answer": "A working relationship",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A working relationship",
+              "A win",
+              "A punishment",
+              "A delay"
+            ],
+            "accepted": [
+              "A working relationship"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with an example.",
+          "answer": "Facts → We missed the date by five days. | Impact → This cost you a week. | Fix → We will deliver free next month.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Facts",
+                "We missed the date by five days."
+              ],
+              [
+                "Impact",
+                "This cost you a week."
+              ],
+              [
+                "Fix",
+                "We will deliver free next month."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the repair in order.",
+          "answer": "State what happened | Acknowledge the impact | Offer a concrete fix and ask what they need",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State what happened",
+              "Acknowledge the impact",
+              "Offer a concrete fix and ask what they need"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Blaming the other side helps rebuild trust.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Offer a concrete ___.",
+          "answer": "fix",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "fix",
+              "remedy"
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We missed the date, and we are sorry.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "missed",
+              "the",
+              "date,",
+              "and",
+              "we",
+              "are",
+              "sorry.",
+              "never",
+              "miss"
+            ],
+            "accepted": [
+              "We missed the date, and we are sorry."
+            ]
+          }
+        },
+        {
+          "id": "ng-a-repair-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What fix does the speaker offer?",
+          "answer": "A free order and weekly updates",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A free order and weekly updates",
+              "A discount only",
+              "An excuse",
+              "A new contract"
+            ],
+            "accepted": [
+              "A free order and weekly updates"
+            ],
+            "audioText": "We missed the delivery date by five days. I know that cost you a week of sales. We will deliver your next order free and give you a weekly update until we are back on schedule."
+          }
+        },
+        {
+          "id": "ng-a-repair-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker begin?",
+          "answer": "With the facts",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With the facts",
+              "With blame",
+              "With a joke",
+              "With a threat"
+            ],
+            "accepted": [
+              "With the facts"
+            ],
+            "audioText": "We missed the delivery date by five days. I know that cost you a week of sales. We will deliver your next order free and give you a weekly update until we are back on schedule."
+          }
+        },
+        {
+          "id": "ng-a-repair-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short repair message to a client after you made a mistake: facts, impact, fix.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"

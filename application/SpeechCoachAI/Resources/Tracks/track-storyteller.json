@@ -24,6 +24,34 @@
             "title": "Tell it aloud"
           }
         ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "build",
+            "title": "Build the story"
+          },
+          {
+            "id": "perform",
+            "title": "Tell it with presence"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "art",
+            "title": "The art of the told story"
+          },
+          {
+            "id": "practice",
+            "title": "Tell it in the real world"
+          }
+        ]
       }
     ]
   },
@@ -250,17 +278,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Last June, Dana missed the last train home. She had no money for a taxi and no phone battery. A kind guard let her charge her phone, and she called her sister. Dana now always carries a small charger. What is the moment that changed things?",
-          "answer": "Dana missed the last train home",
+          "answer": "A guard helped her use her phone",
           "exercise": {
             "type": "choice",
             "options": [
+              "A guard helped her use her phone",
               "Dana missed the last train home",
               "Dana bought a charger",
-              "Dana has a sister",
               "Dana likes trains"
             ],
             "accepted": [
-              "Dana missed the last train home"
+              "A guard helped her use her phone"
             ]
           }
         },
@@ -397,9 +425,9 @@
             "type": "choice",
             "options": [
               "Because the bridge was closed, he took the long road and met his old teacher.",
-              "He walked. He ate. He slept.",
-              "Then. Then. Then.",
-              "A bridge. A road. A teacher."
+              "He walked to the bridge, he ate his lunch there, and then he slept in the park.",
+              "Then he went home. Then he saw a dog. Then he saw a bird in a tree nearby.",
+              "A bridge, a road, a teacher, a lunch, a park, a dog and a bird in a tree."
             ],
             "accepted": [
               "Because the bridge was closed, he took the long road and met his old teacher."
@@ -530,9 +558,9 @@
             "type": "choice",
             "options": [
               "His oven broke",
+              "Pablo wanted to win the cooking contest",
               "He won the contest",
-              "He had a neighbor",
-              "He liked cooking"
+              "He had a neighbor"
             ],
             "accepted": [
               "His oven broke"
@@ -2023,9 +2051,9 @@
             "type": "choice",
             "options": [
               "A long explanation of how your uncle met his wife, in a story about a lost phone",
-              "The moment you lost the phone",
-              "The ending",
-              "The opening hook"
+              "The moment you lost the phone and ran back along the street to look for it",
+              "The ending, where you find the phone and say thank you to the kind stranger",
+              "The opening hook, where you tell the listener that you lost your phone on a bus"
             ],
             "accepted": [
               "A long explanation of how your uncle met his wife, in a story about a lost phone"
@@ -2185,6 +2213,3880 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Your turn. Tell your story aloud, time it and cut it to two minutes. Write what you cut.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-abt",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "And, but, therefore",
+      "objectiveId": "ST-I-01",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "Many good stories move on three small words. “And” sets the scene. “But” brings the problem. “Therefore” shows what happens because of it. “Rita lost the watch, but no one had seen it, therefore she searched every stall.” If your story only uses “and then,” it is a list. Look for the “but” and the “therefore” and put them early.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-abt-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Rita lost her father’s old watch on the way to the market. She searched every stall, but nobody had seen it. Then a boy brought it to her, because he had heard its tick under a cart. Which word brings the problem?",
+          "answer": "but",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "but",
+              "and",
+              "then",
+              "because"
+            ],
+            "accepted": [
+              "but"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word shows a result?",
+          "answer": "therefore",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "therefore",
+              "and",
+              "maybe",
+              "also"
+            ],
+            "accepted": [
+              "therefore"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence sets the scene?",
+          "answer": "Rita went to the market and bought bread.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Rita went to the market and bought bread.",
+              "But the watch was missing.",
+              "Therefore she cried.",
+              "No one knew."
+            ],
+            "accepted": [
+              "Rita went to the market and bought bread."
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A story that only uses “and then” is mostly what?",
+          "answer": "A list",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A list",
+              "A mystery",
+              "A poem",
+              "A song"
+            ],
+            "accepted": [
+              "A list"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should the “but” appear?",
+          "answer": "Early in the story",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Early in the story",
+              "Only at the end",
+              "Nowhere",
+              "In the title"
+            ],
+            "accepted": [
+              "Early in the story"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with its job.",
+          "answer": "And → sets the scene | But → brings the problem | Therefore → shows the result",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "And",
+                "sets the scene"
+              ],
+              [
+                "But",
+                "brings the problem"
+              ],
+              [
+                "Therefore",
+                "shows the result"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story in order.",
+          "answer": "Rita walks to the market | She loses the watch | She searches every stall",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Rita walks to the market",
+              "She loses the watch",
+              "She searches every stall"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “But” helps a story move forward.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “And then” again and again makes a strong plot.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Rita lost the watch, ___ no one had seen it.",
+          "answer": "but",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "but"
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She lost it, but she kept looking.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "lost",
+              "it,",
+              "but",
+              "she",
+              "kept",
+              "looking.",
+              "never",
+              "kept"
+            ],
+            "accepted": [
+              "She lost it, but she kept looking."
+            ]
+          }
+        },
+        {
+          "id": "st-i-abt-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the result?",
+          "answer": "He baked on a campfire",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He baked on a campfire",
+              "He bought a cake",
+              "He gave up",
+              "He fixed the oven"
+            ],
+            "accepted": [
+              "He baked on a campfire"
+            ],
+            "audioText": "Tom wanted to bake a cake, but the oven was broken, therefore he baked it on a campfire."
+          }
+        },
+        {
+          "id": "st-i-abt-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Tell a short story with “and,” “but” and “therefore” in three sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-choice",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Show character through choices",
+      "objectiveId": "ST-I-02",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "We learn who a person is by what they choose when it costs them something. A kind person might give up their seat; a stubborn person might refuse help. Let the character make a hard choice in your story, and show it with an action, not a label. “She handed him her umbrella and walked on in the rain” says more than “She was kind.”",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-choice-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do we best learn about a character?",
+          "answer": "By what they choose when it costs something",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By what they choose when it costs something",
+              "By their age",
+              "By their address",
+              "By a list of adjectives"
+            ],
+            "accepted": [
+              "By what they choose when it costs something"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence shows kindness?",
+          "answer": "She handed him her umbrella and walked on in the rain.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She handed him her umbrella and walked on in the rain.",
+              "She was kind.",
+              "Kindness is good.",
+              "He was wet."
+            ],
+            "accepted": [
+              "She handed him her umbrella and walked on in the rain."
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which shows stubbornness?",
+          "answer": "He pushed the helping hand away and kept dragging the box.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He pushed the helping hand away and kept dragging the box.",
+              "He was stubborn.",
+              "The box was heavy.",
+              "He sat down."
+            ],
+            "accepted": [
+              "He pushed the helping hand away and kept dragging the box."
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why make a choice cost something?",
+          "answer": "The cost makes the choice meaningful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The cost makes the choice meaningful",
+              "It makes the story longer",
+              "It hides the plot",
+              "It adds jokes"
+            ],
+            "accepted": [
+              "The cost makes the choice meaningful"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Luis wanted to win the town race, so he trained every morning. But on race day it rained hard and the road turned to mud. He ran slowly, laughed, and finished last, with the happiest face in the crowd. What does Luis’s choice on race day show?",
+          "answer": "He enjoys the race more than winning.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He enjoys the race more than winning.",
+              "He hates mud.",
+              "He is lazy.",
+              "He is angry."
+            ],
+            "accepted": [
+              "He enjoys the race more than winning."
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each action with the trait it suggests.",
+          "answer": "Gives away a seat → kind | Refuses all help → stubborn | Arrives early every day → reliable",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Gives away a seat",
+                "kind"
+              ],
+              [
+                "Refuses all help",
+                "stubborn"
+              ],
+              [
+                "Arrives early every day",
+                "reliable"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A label such as “brave” shows more than an action.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A choice that costs nothing tells us little.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Show the trait with an ___, not a label.",
+          "answer": "action",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "action"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "He gave her his last coin.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "He",
+              "gave",
+              "her",
+              "his",
+              "last",
+              "coin.",
+              "never",
+              "gives"
+            ],
+            "accepted": [
+              "He gave her his last coin."
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does Nina’s action suggest?",
+          "answer": "She is generous",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She is generous",
+              "She is lost",
+              "She is angry",
+              "She is late"
+            ],
+            "accepted": [
+              "She is generous"
+            ],
+            "audioText": "The bus was late again. Nina gave her seat to a stranger, stood by the door and smiled at the baby in the stroller."
+          }
+        },
+        {
+          "id": "st-i-choice-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the character moment in order.",
+          "answer": "Show a problem | Let the character choose | Show the cost of the choice",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Show a problem",
+              "Let the character choose",
+              "Show the cost of the choice"
+            ]
+          }
+        },
+        {
+          "id": "st-i-choice-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Show that a character is honest without using the word “honest.” Write two or three sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-senses",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Details for the ear",
+      "objectiveId": "ST-I-03",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "Listeners cannot see the page, so they need to see the scene in their minds. Use details from the senses: what the place smelled like, the sound of a door, the feel of a cold handle. Pick two or three details, not twenty. Name them in simple words. A concrete detail makes a listener say, “I know that place.”",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-senses-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do spoken stories need sense details?",
+          "answer": "Listeners must picture the scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listeners must picture the scene",
+              "They fill time",
+              "They replace the plot",
+              "They make words longer"
+            ],
+            "accepted": [
+              "Listeners must picture the scene"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many details should you use for one scene?",
+          "answer": "Two or three",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three",
+              "Twenty",
+              "None",
+              "One hundred"
+            ],
+            "accepted": [
+              "Two or three"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase uses a sense detail?",
+          "answer": "the smell of bread and wet stone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "the smell of bread and wet stone",
+              "a nice place",
+              "a big thing",
+              "something good"
+            ],
+            "accepted": [
+              "the smell of bread and wet stone"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail is concrete?",
+          "answer": "a cold metal handle",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "a cold metal handle",
+              "a feeling",
+              "something old",
+              "a thing"
+            ],
+            "accepted": [
+              "a cold metal handle"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What reaction do you want?",
+          "answer": "“I know that place.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“I know that place.”",
+              "“I am lost.”",
+              "“That is too long.”",
+              "“Who is that?”"
+            ],
+            "accepted": [
+              "“I know that place.”"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sense with a detail.",
+          "answer": "Smell → bread and wet stone | Sound → a door that sticks and squeaks | Touch → a cold metal handle",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Smell",
+                "bread and wet stone"
+              ],
+              [
+                "Sound",
+                "a door that sticks and squeaks"
+              ],
+              [
+                "Touch",
+                "a cold metal handle"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Plain words are fine for sense details.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Twenty details make a scene clearer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use details from the ___.",
+          "answer": "senses",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "senses"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The door squeaked loudly.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "door",
+              "squeaked",
+              "loudly.",
+              "never",
+              "squeak"
+            ],
+            "accepted": [
+              "The door squeaked loudly."
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which sense is NOT used?",
+          "answer": "Taste",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Taste",
+              "Smell",
+              "Sound",
+              "Touch"
+            ],
+            "accepted": [
+              "Taste"
+            ],
+            "audioText": "The market smelled of oranges and rain. A man shouted prices, and my shoes stuck to the wet stones."
+          }
+        },
+        {
+          "id": "st-i-senses-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Picture the place | Choose two or three sense details | Say them in simple words",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Picture the place",
+              "Choose two or three sense details",
+              "Say them in simple words"
+            ]
+          }
+        },
+        {
+          "id": "st-i-senses-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Describe a bus stop in the rain with three sense details.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-funny",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Setup, surprise and payoff",
+      "objectiveId": "ST-I-04",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "Humor and surprise work in three steps. The setup creates an expectation. The surprise breaks it. The payoff is the moment people laugh or gasp. Plant a small detail early and bring it back later: “the red umbrella” can return at the end. Keep jokes short, and leave a tiny pause before the surprise. If the audience does not react, keep going calmly.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-funny-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the setup do?",
+          "answer": "Creates an expectation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Creates an expectation",
+              "Ends the story",
+              "Tells the title",
+              "Introduces the audience"
+            ],
+            "accepted": [
+              "Creates an expectation"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the payoff?",
+          "answer": "The moment people laugh or gasp",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The moment people laugh or gasp",
+              "The first line",
+              "The title",
+              "The thank you"
+            ],
+            "accepted": [
+              "The moment people laugh or gasp"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a callback?",
+          "answer": "Bringing an early detail back later",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Bringing an early detail back later",
+              "A phone call",
+              "A new title",
+              "A loud ending"
+            ],
+            "accepted": [
+              "Bringing an early detail back later"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps before the surprise?",
+          "answer": "A tiny pause",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A tiny pause",
+              "A long apology",
+              "A loud shout",
+              "A new topic"
+            ],
+            "accepted": [
+              "A tiny pause"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do if the audience does not react?",
+          "answer": "Keep going calmly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Keep going calmly",
+              "Stop and leave",
+              "Repeat the joke five times",
+              "Blame the audience"
+            ],
+            "accepted": [
+              "Keep going calmly"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its job.",
+          "answer": "Setup → builds an expectation | Surprise → breaks the expectation | Payoff → gets the reaction",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Setup",
+                "builds an expectation"
+              ],
+              [
+                "Surprise",
+                "breaks the expectation"
+              ],
+              [
+                "Payoff",
+                "gets the reaction"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the joke in order.",
+          "answer": "Build the expectation | Break it with a surprise | Pause for the reaction",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Build the expectation",
+              "Break it with a surprise",
+              "Pause for the reaction"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A detail planted early can pay off later.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A long explanation makes a joke funnier.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Plant a small detail ___ and use it later.",
+          "answer": "early",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "early"
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "And then the red umbrella came back.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "And",
+              "then",
+              "the",
+              "red",
+              "umbrella",
+              "came",
+              "back.",
+              "never",
+              "return"
+            ],
+            "accepted": [
+              "And then the red umbrella came back."
+            ]
+          }
+        },
+        {
+          "id": "st-i-funny-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the callback?",
+          "answer": "The umbrella",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The umbrella",
+              "The stranger",
+              "The smile",
+              "The start"
+            ],
+            "accepted": [
+              "The umbrella"
+            ],
+            "audioText": "At the start, Leo says he never loses his umbrella. At the end of the story, the umbrella is on a stranger’s head. Leo smiles and says, Well, I never lose it. Someone borrows it."
+          }
+        },
+        {
+          "id": "st-i-funny-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-sentence story with a setup, a surprise and a callback.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-voices",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Voices and gestures",
+      "objectiveId": "ST-I-05",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "Use your voice to show who is speaking. Change pace, pitch or volume a little for each character, and keep each voice steady. A small shift is enough: you do not need to do an accent. Use one or two gestures that fit the story, such as holding a pretend cup. Keep your body open to the audience, and stay in the story: do not break to comment on your own voices.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-voices-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you show a different character?",
+          "answer": "Change pace, pitch or volume a little",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Change pace, pitch or volume a little",
+              "Shout every line",
+              "Whisper the whole story",
+              "Use a long pause"
+            ],
+            "accepted": [
+              "Change pace, pitch or volume a little"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Do you need to do an accent?",
+          "answer": "No, a small shift is enough",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, a small shift is enough",
+              "Yes, always",
+              "Only for children",
+              "Only at the end"
+            ],
+            "accepted": [
+              "No, a small shift is enough"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why keep each voice steady?",
+          "answer": "Listeners can tell who is speaking",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listeners can tell who is speaking",
+              "It saves breath",
+              "It shortens the story",
+              "It hides the plot"
+            ],
+            "accepted": [
+              "Listeners can tell who is speaking"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which gesture suits a story?",
+          "answer": "Holding a pretend cup",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Holding a pretend cup",
+              "Pointing at the audience",
+              "Checking your phone",
+              "Hiding your hands"
+            ],
+            "accepted": [
+              "Holding a pretend cup"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you avoid?",
+          "answer": "Breaking the story to comment on your voices",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Breaking the story to comment on your voices",
+              "Practicing",
+              "Listening",
+              "Smiling"
+            ],
+            "accepted": [
+              "Breaking the story to comment on your voices"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "Slower pace → feels calm or serious | Higher pitch → feels lighter or younger | Softer volume → feels secret or close",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Slower pace",
+                "feels calm or serious"
+              ],
+              [
+                "Higher pitch",
+                "feels lighter or younger"
+              ],
+              [
+                "Softer volume",
+                "feels secret or close"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A small change in voice is enough.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Big gestures on every word help the story.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Keep each character’s voice ___.",
+          "answer": "steady",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "steady"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She spoke softly and slowly.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "spoke",
+              "softly",
+              "and",
+              "slowly.",
+              "never",
+              "soft"
+            ],
+            "accepted": [
+              "She spoke softly and slowly."
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How are the two voices different?",
+          "answer": "Grandpa is slow and low, the girl quick and high",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Grandpa is slow and low, the girl quick and high",
+              "Both are loud",
+              "Both are slow",
+              "They are the same"
+            ],
+            "accepted": [
+              "Grandpa is slow and low, the girl quick and high"
+            ],
+            "audioText": "Grandpa spoke slowly and low: Come here, little one. The girl answered quickly and high: I am coming!"
+          }
+        },
+        {
+          "id": "st-i-voices-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Decide how each character sounds | Practice the two voices | Tell the story and keep the voices steady",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide how each character sounds",
+              "Practice the two voices",
+              "Tell the story and keep the voices steady"
+            ]
+          }
+        },
+        {
+          "id": "st-i-voices-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a two-line dialogue between a tired parent and an excited child, with a note on how each voice sounds.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-time",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "One story, three lengths",
+      "objectiveId": "ST-I-06",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "A story must fit the time you have. Keep a 30-second version with only the want, the problem and the change. Keep a three-minute version that adds two or three details and a short scene. Know the one moment you will never cut. When time is short, cut background first, then side characters, but keep the turning point. Practice with a timer.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-time-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What belongs in a 30-second version?",
+          "answer": "The want, the problem and the change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The want, the problem and the change",
+              "Every detail",
+              "Four side stories",
+              "A long introduction"
+            ],
+            "accepted": [
+              "The want, the problem and the change"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can a three-minute version add?",
+          "answer": "Two or three details and a short scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three details and a short scene",
+              "A second plot",
+              "A lecture",
+              "A list of names"
+            ],
+            "accepted": [
+              "Two or three details and a short scene"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you cut first when time is short?",
+          "answer": "Background",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Background",
+              "The turning point",
+              "The ending",
+              "The want"
+            ],
+            "accepted": [
+              "Background"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What must you keep?",
+          "answer": "The turning point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The turning point",
+              "All side characters",
+              "The longest description",
+              "The date"
+            ],
+            "accepted": [
+              "The turning point"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you check timing?",
+          "answer": "Practice with a timer",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Practice with a timer",
+              "Guess",
+              "Ask the room",
+              "Skip it"
+            ],
+            "accepted": [
+              "Practice with a timer"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each version with its size.",
+          "answer": "30 seconds → want, problem, change | 3 minutes → adds details and a scene | Never cut → the turning point",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "30 seconds",
+                "want, problem, change"
+              ],
+              [
+                "3 minutes",
+                "adds details and a scene"
+              ],
+              [
+                "Never cut",
+                "the turning point"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the cuts in order.",
+          "answer": "Cut background first | Cut side characters next | Keep the turning point",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Cut background first",
+              "Cut side characters next",
+              "Keep the turning point"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can cut the turning point if time is short.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Practice with a ___.",
+          "answer": "timer",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "timer"
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I need a thirty second version.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "need",
+              "a",
+              "thirty",
+              "second",
+              "version.",
+              "never",
+              "thirty-second"
+            ],
+            "accepted": [
+              "I need a thirty second version."
+            ]
+          }
+        },
+        {
+          "id": "st-i-time-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the short version keep?",
+          "answer": "The want, problem and change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The want, problem and change",
+              "The boy’s name",
+              "The market description",
+              "The cart"
+            ],
+            "accepted": [
+              "The want, problem and change"
+            ],
+            "audioText": "Short version: Rita lost her father’s watch, a boy found it by its tick, and she learned to listen. Long version adds the market, the cart and the boy’s name."
+          }
+        },
+        {
+          "id": "st-i-time-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the long version add?",
+          "answer": "The market, the cart and the name",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The market, the cart and the name",
+              "A new ending",
+              "A new problem",
+              "A song"
+            ],
+            "accepted": [
+              "The market, the cart and the name"
+            ],
+            "audioText": "Short version: Rita lost her father’s watch, a boy found it by its tick, and she learned to listen. Long version adds the market, the cart and the boy’s name."
+          }
+        },
+        {
+          "id": "st-i-time-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write your own 30-second version of a story you know, in three sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-open",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Openings, endings and callbacks",
+      "objectiveId": "ST-I-07",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "Open with something that makes people lean in: a moment, a question, or a strange fact. Do not start with “I am going to tell you a story.” End with a line that echoes the opening, so the story feels complete. A final image or a short sentence works better than a long moral. Leave a pause after the last line before you say thank you.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-open-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening makes listeners lean in?",
+          "answer": "The night my brother vanished, I was holding a spoon.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The night my brother vanished, I was holding a spoon.",
+              "I am going to tell you a story.",
+              "Hello.",
+              "This is a story."
+            ],
+            "accepted": [
+              "The night my brother vanished, I was holding a spoon."
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What makes an ending feel complete?",
+          "answer": "A line that echoes the opening",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A line that echoes the opening",
+              "A long moral",
+              "A new topic",
+              "An apology"
+            ],
+            "accepted": [
+              "A line that echoes the opening"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending is stronger?",
+          "answer": "I still keep the spoon.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I still keep the spoon.",
+              "And that is the end of my story, and the moral is to always be careful.",
+              "Thanks for listening to all of that.",
+              "So yeah."
+            ],
+            "accepted": [
+              "I still keep the spoon."
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after the last line?",
+          "answer": "Pause",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pause",
+              "Run",
+              "Explain it",
+              "Start again"
+            ],
+            "accepted": [
+              "Pause"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening should you avoid?",
+          "answer": "I am going to tell you a story.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I am going to tell you a story.",
+              "A strange noise woke me up.",
+              "Nobody believed me.",
+              "It started with a letter."
+            ],
+            "accepted": [
+              "I am going to tell you a story."
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its job.",
+          "answer": "Opening moment → makes people lean in | Echo in the ending → shows the story is complete | Pause → lets the ending land",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Opening moment",
+                "makes people lean in"
+              ],
+              [
+                "Echo in the ending",
+                "shows the story is complete"
+              ],
+              [
+                "Pause",
+                "lets the ending land"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A long moral is the best ending.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An ending can echo the opening.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: End with a final ___.",
+          "answer": "image",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "image"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I still keep the spoon.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "still",
+              "keep",
+              "the",
+              "spoon.",
+              "never",
+              "kept"
+            ],
+            "accepted": [
+              "I still keep the spoon."
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the ending connect to the opening?",
+          "answer": "It returns to the spoon",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It returns to the spoon",
+              "It introduces a new person",
+              "It changes the topic",
+              "It ends with a moral"
+            ],
+            "accepted": [
+              "It returns to the spoon"
+            ],
+            "audioText": "It started with a spoon. A silver spoon, left on the step. Years later, I still keep it by my bed."
+          }
+        },
+        {
+          "id": "st-i-open-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story frame in order.",
+          "answer": "Open with a strong moment | Tell the middle | End with an echo of the opening",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Open with a strong moment",
+              "Tell the middle",
+              "End with an echo of the opening"
+            ]
+          }
+        },
+        {
+          "id": "st-i-open-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write an opening line and an ending line that echo each other.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-i-review",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Practice, record, improve",
+      "objectiveId": "ST-I-08",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "You improve fastest when you tell a story out loud, listen back and change one thing. Record yourself on your phone. Listen for pace, pauses and filler words such as “um.” Choose one change for the next telling: slow down at the turning point, for example. Tell it to a friend and ask, “Where were you most interested? Where did you drift?”",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-i-review-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you improve a spoken story?",
+          "answer": "Tell it aloud, listen back and change one thing",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tell it aloud, listen back and change one thing",
+              "Read it silently",
+              "Never practice",
+              "Change everything each time"
+            ],
+            "accepted": [
+              "Tell it aloud, listen back and change one thing"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you listen for in a recording?",
+          "answer": "Pace, pauses and fillers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pace, pauses and fillers",
+              "Only the title",
+              "The color of the room",
+              "The brand of the phone"
+            ],
+            "accepted": [
+              "Pace, pauses and fillers"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many changes should you try per telling?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Ten",
+              "None",
+              "Fifty"
+            ],
+            "accepted": [
+              "One"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question gets useful feedback?",
+          "answer": "Where did you drift?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Where did you drift?",
+              "Did you like me?",
+              "Is it Friday?",
+              "Was it long?"
+            ],
+            "accepted": [
+              "Where did you drift?"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which change is specific?",
+          "answer": "Slow down at the turning point.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down at the turning point.",
+              "Be better.",
+              "Try harder.",
+              "Fix it."
+            ],
+            "accepted": [
+              "Slow down at the turning point."
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its purpose.",
+          "answer": "Record → hear yourself | Choose one change → keep practice focused | Ask a friend → learn what worked",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Record",
+                "hear yourself"
+              ],
+              [
+                "Choose one change",
+                "keep practice focused"
+              ],
+              [
+                "Ask a friend",
+                "learn what worked"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the practice in order.",
+          "answer": "Tell the story aloud | Listen to the recording | Choose one change and try again",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Tell the story aloud",
+              "Listen to the recording",
+              "Choose one change and try again"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Changing everything at once is the best way to practice.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Listen for filler words such as ___.",
+          "answer": "um",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "um"
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I will slow down at the turning point.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "will",
+              "slow",
+              "down",
+              "at",
+              "the",
+              "turning",
+              "point.",
+              "never",
+              "slows"
+            ],
+            "accepted": [
+              "I will slow down at the turning point."
+            ]
+          }
+        },
+        {
+          "id": "st-i-review-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What change will the speaker try?",
+          "answer": "Slow down at the turning point",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down at the turning point",
+              "Remove the ending",
+              "Speak louder",
+              "Add a song"
+            ],
+            "accepted": [
+              "Slow down at the turning point"
+            ],
+            "audioText": "I listened to my recording. I rush the middle and say um too often. Next time I will slow down at the turning point."
+          }
+        },
+        {
+          "id": "st-i-review-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one thing you would listen for in a recording of your story and one change you would try.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-layers",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Layered tellings",
+      "objectiveId": "ST-A-01",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath. A story about repairing a boat can also be about forgiveness. Choose a central image that holds both layers and let the surface story carry the deeper one without explaining it. Use a frame, such as returning to one object at the start and end, to unify the telling. Trust the audience to feel the second layer.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-layers-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a layered telling?",
+          "answer": "A story that works on the surface and carries a deeper meaning",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A story that works on the surface and carries a deeper meaning",
+              "A very long story",
+              "A story told twice",
+              "A story with many characters"
+            ],
+            "accepted": [
+              "A story that works on the surface and carries a deeper meaning"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a central image?",
+          "answer": "An image that holds both layers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An image that holds both layers",
+              "The title",
+              "The first line",
+              "The audience’s name"
+            ],
+            "accepted": [
+              "An image that holds both layers"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Should you explain the deeper meaning?",
+          "answer": "No, trust the audience to feel it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, trust the audience to feel it",
+              "Yes, in every paragraph",
+              "Only in the title",
+              "Always at the start"
+            ],
+            "accepted": [
+              "No, trust the audience to feel it"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a frame do?",
+          "answer": "Unifies the telling by returning to an object or moment",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Unifies the telling by returning to an object or moment",
+              "Hides the plot",
+              "Lengthens the story",
+              "Replaces the ending"
+            ],
+            "accepted": [
+              "Unifies the telling by returning to an object or moment"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A story about repairing a boat could also be about what?",
+          "answer": "Forgiveness",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Forgiveness",
+              "Boat prices",
+              "Weather",
+              "Fishing licenses"
+            ],
+            "accepted": [
+              "Forgiveness"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each element with its role.",
+          "answer": "Surface story → the events | Deeper layer → the meaning underneath | Central image → holds both together",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Surface story",
+                "the events"
+              ],
+              [
+                "Deeper layer",
+                "the meaning underneath"
+              ],
+              [
+                "Central image",
+                "holds both together"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find the deeper meaning | Choose an image that holds both layers | Tell the surface story without explaining the meaning",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the deeper meaning",
+              "Choose an image that holds both layers",
+              "Tell the surface story without explaining the meaning"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Explaining the deeper meaning makes it stronger.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A ___ returns to one image at the start and end.",
+          "answer": "frame",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "frame"
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The boat is also a story about forgiveness.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "boat",
+              "is",
+              "also",
+              "a",
+              "story",
+              "about",
+              "forgiveness.",
+              "never",
+              "forgive"
+            ],
+            "accepted": [
+              "The boat is also a story about forgiveness."
+            ]
+          }
+        },
+        {
+          "id": "st-a-layers-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the deeper layer?",
+          "answer": "Care and love expressed through routine",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Care and love expressed through routine",
+              "Net prices",
+              "Fishing skill",
+              "The weather"
+            ],
+            "accepted": [
+              "Care and love expressed through routine"
+            ],
+            "audioText": "Every Sunday my grandfather mended the same net. Some weeks there was nothing left to mend, and he mended it anyway. When he was gone, I found it hanging in the shed, and I understood what he had been doing all those years."
+          }
+        },
+        {
+          "id": "st-a-layers-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose an everyday object. Write three sentences of a surface story that carries a deeper meaning without naming it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-restraint",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Restraint and implication",
+      "objectiveId": "ST-A-02",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "The strongest moments are often the quietest. Instead of saying that your father was afraid, show what he did: he read the letter twice and went out to fix a gate that was not broken. Implication lets the listener do the emotional work and makes the feeling theirs. Cut the sentence that tells the audience what to feel. Stop at the moment of greatest tension; silence is part of the telling.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-restraint-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. When the letter came, my father read it twice, folded it into his pocket, and went out to fix the gate. It was not broken. What does the father’s action imply?",
+          "answer": "The letter upset him, and he is hiding it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The letter upset him, and he is hiding it.",
+              "He enjoys fixing gates.",
+              "The gate needed fixing.",
+              "The letter was good news."
+            ],
+            "accepted": [
+              "The letter upset him, and he is hiding it."
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is implication?",
+          "answer": "Letting the audience infer a feeling from action",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Letting the audience infer a feeling from action",
+              "Explaining each feeling",
+              "Skipping the plot",
+              "Using adjectives"
+            ],
+            "accepted": [
+              "Letting the audience infer a feeling from action"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses restraint?",
+          "answer": "He folded the letter into his pocket and went out to fix the gate.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He folded the letter into his pocket and went out to fix the gate.",
+              "He was terribly afraid and sad.",
+              "He felt a very big emotion.",
+              "He was upset."
+            ],
+            "accepted": [
+              "He folded the letter into his pocket and went out to fix the gate."
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you cut?",
+          "answer": "The sentence that tells the audience what to feel",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The sentence that tells the audience what to feel",
+              "The action",
+              "The setting",
+              "The first line"
+            ],
+            "accepted": [
+              "The sentence that tells the audience what to feel"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can silence do?",
+          "answer": "Hold the tension",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hold the tension",
+              "End the story",
+              "Confuse people",
+              "Replace words"
+            ],
+            "accepted": [
+              "Hold the tension"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each telling with its approach.",
+          "answer": "He was afraid. → tells | His hands would not stop shaking the paper. → shows | He read it twice and went to fix the gate. → implies",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "He was afraid.",
+                "tells"
+              ],
+              [
+                "His hands would not stop shaking the paper.",
+                "shows"
+              ],
+              [
+                "He read it twice and went to fix the gate.",
+                "implies"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the revision in order.",
+          "answer": "Find a line that names a feeling | Replace it with an action or detail | Pause after the key moment",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find a line that names a feeling",
+              "Replace it with an action or detail",
+              "Pause after the key moment"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Naming the feeling always moves an audience more than an action.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Let the audience do the ___ work.",
+          "answer": "emotional",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "emotional"
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "He fixed a gate that was not broken.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "He",
+              "fixed",
+              "a",
+              "gate",
+              "that",
+              "was",
+              "not",
+              "broken.",
+              "never",
+              "break"
+            ],
+            "accepted": [
+              "He fixed a gate that was not broken."
+            ]
+          }
+        },
+        {
+          "id": "st-a-restraint-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the action imply?",
+          "answer": "She misses someone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "She misses someone",
+              "She is hungry",
+              "She is tidy",
+              "She is angry at plates"
+            ],
+            "accepted": [
+              "She misses someone"
+            ],
+            "audioText": "She set the table for four, though she lived alone now. Then she stood very still, and put one plate back in the cupboard."
+          }
+        },
+        {
+          "id": "st-a-restraint-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Rewrite “She was nervous before the interview” as a two-sentence action that implies it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-true",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Shape a true story",
+      "objectiveId": "ST-A-03",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "Personal stories are not simply what happened; you choose what to tell. Pick one change, such as the moment you stopped lying. Compress time and cut side events, but do not invent facts you present as true. Be honest about your own part, including mistakes; audiences trust a teller who does not make themselves the hero of every moment. Reflect briefly at the end on what you learned. If real people appear, consider how they would feel hearing it.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-true-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. When I was twelve I lied to my teacher about a broken window. For years I told this story as a joke. Last spring I finally told my teacher the truth, and she remembered nothing at all. What change does the story center on?",
+          "answer": "From hiding a lie to telling the truth",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "From hiding a lie to telling the truth",
+              "From joking to crying",
+              "From school to work",
+              "From childhood to old age"
+            ],
+            "accepted": [
+              "From hiding a lie to telling the truth"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a personal story center on?",
+          "answer": "One change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One change",
+              "Every event of the year",
+              "A list of facts",
+              "Other people’s secrets"
+            ],
+            "accepted": [
+              "One change"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you do with time?",
+          "answer": "Compress it and cut side events",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Compress it and cut side events",
+              "Add false events",
+              "Make it longer",
+              "Invent proof"
+            ],
+            "accepted": [
+              "Compress it and cut side events"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you not do with facts?",
+          "answer": "Invent them and present them as true",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Invent them and present them as true",
+              "Select among them",
+              "Order them",
+              "Cut them"
+            ],
+            "accepted": [
+              "Invent them and present them as true"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why admit your own mistakes?",
+          "answer": "Audiences trust a teller who is honest about them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Audiences trust a teller who is honest about them",
+              "It makes the story shorter",
+              "It hides the plot",
+              "It prevents laughter"
+            ],
+            "accepted": [
+              "Audiences trust a teller who is honest about them"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each choice with its effect.",
+          "answer": "One change → gives the story focus | Compressed time → keeps the pace | Honest mistakes → builds trust",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "One change",
+                "gives the story focus"
+              ],
+              [
+                "Compressed time",
+                "keeps the pace"
+              ],
+              [
+                "Honest mistakes",
+                "builds trust"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the shaping in order.",
+          "answer": "Choose the change that matters | Cut events that do not serve it | End with a brief reflection",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose the change that matters",
+              "Cut events that do not serve it",
+              "End with a brief reflection"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A personal story should include everything that happened.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Do not ___ facts you present as true.",
+          "answer": "invent",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "invent"
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I told my teacher the truth.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "told",
+              "my",
+              "teacher",
+              "the",
+              "truth.",
+              "never",
+              "tells"
+            ],
+            "accepted": [
+              "I told my teacher the truth."
+            ]
+          }
+        },
+        {
+          "id": "st-a-true-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the teller present themselves?",
+          "answer": "Honestly, without making themselves the hero",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Honestly, without making themselves the hero",
+              "As the hero of the story",
+              "As a villain",
+              "As a stranger"
+            ],
+            "accepted": [
+              "Honestly, without making themselves the hero"
+            ],
+            "audioText": "What I did next was not heroic. I hid in the library for an hour. Eventually my brother found me, and said only, You can go back, and I did."
+          }
+        },
+        {
+          "id": "st-a-true-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the first two sentences of a true story about a mistake you made, with one change in focus.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-body",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Body, space and presence",
+      "objectiveId": "ST-A-04",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "Your body tells the story too. Use space: give each character or place a spot on the stage and return to it, so the audience always knows who is speaking. Use stillness: a long pause with a still body can be stronger than movement. Let your eyes look at where the character would be. Keep gestures small and meaningful; a hand lifting a pretend cup says more than waving. Breathe from low in the body to keep your voice steady.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-body-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why give each character a spot in space?",
+          "answer": "The audience knows who is speaking",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The audience knows who is speaking",
+              "It uses more space",
+              "It decorates the stage",
+              "It hides the story"
+            ],
+            "accepted": [
+              "The audience knows who is speaking"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can stillness do?",
+          "answer": "Make a moment powerful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Make a moment powerful",
+              "Confuse the story",
+              "Replace words always",
+              "End the telling"
+            ],
+            "accepted": [
+              "Make a moment powerful"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should your eyes look when a character speaks to another?",
+          "answer": "Where that character would be",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Where that character would be",
+              "At your feet",
+              "At the clock",
+              "At your notes"
+            ],
+            "accepted": [
+              "Where that character would be"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What kind of gesture works best?",
+          "answer": "Small and meaningful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Small and meaningful",
+              "Large and constant",
+              "Random",
+              "Hidden"
+            ],
+            "accepted": [
+              "Small and meaningful"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps keep the voice steady?",
+          "answer": "Breathing from low in the body",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Breathing from low in the body",
+              "Holding your breath",
+              "Speaking faster",
+              "Whispering"
+            ],
+            "accepted": [
+              "Breathing from low in the body"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "A spot for each character → clear speakers | Stillness → emphasis | A small gesture → meaning without distraction",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A spot for each character",
+                "clear speakers"
+              ],
+              [
+                "Stillness",
+                "emphasis"
+              ],
+              [
+                "A small gesture",
+                "meaning without distraction"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the preparation in order.",
+          "answer": "Decide where each character stands | Practice the shifts between them | Add stillness before key moments",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide where each character stands",
+              "Practice the shifts between them",
+              "Add stillness before key moments"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Big gestures on every line make a telling stronger.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Breathe from ___ in the body.",
+          "answer": "low",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "low"
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The old woman always stands on the left.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "old",
+              "woman",
+              "always",
+              "stands",
+              "on",
+              "the",
+              "left.",
+              "never",
+              "standing"
+            ],
+            "accepted": [
+              "The old woman always stands on the left."
+            ]
+          }
+        },
+        {
+          "id": "st-a-body-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the teller show who is speaking?",
+          "answer": "By moving between spots and changing posture",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By moving between spots and changing posture",
+              "By shouting",
+              "By using props",
+              "By changing the story"
+            ],
+            "accepted": [
+              "By moving between spots and changing posture"
+            ],
+            "audioText": "When the king speaks, I stand tall at the right and look up. When the child answers, I move to the left, bend my knees and look up at the king."
+          }
+        },
+        {
+          "id": "st-a-body-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Plan the spots and postures for two characters in a story about a meeting between a child and a grandparent.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-live",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Respond to a live audience",
+      "objectiveId": "ST-A-05",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "A told story is a conversation with the audience. Watch for signals: leaning in means you have them; checking phones means you are losing them. Adjust your pace, shorten a detour or add a vivid detail. If something unexpected happens, such as a noise, acknowledge it briefly and return to the story. Keep an extra short ending ready for when time runs out. Leave a little space for laughter, and wait until it fades before continuing.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-live-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does an audience leaning in suggest?",
+          "answer": "You have their attention",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You have their attention",
+              "They are leaving",
+              "They are asleep",
+              "They disagree"
+            ],
+            "accepted": [
+              "You have their attention"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you do if people check their phones?",
+          "answer": "Shorten a detour or add a vivid detail",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Shorten a detour or add a vivid detail",
+              "Stop the story",
+              "Speak louder only",
+              "Apologize"
+            ],
+            "accepted": [
+              "Shorten a detour or add a vivid detail"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after an unexpected noise?",
+          "answer": "Acknowledge briefly and return",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Acknowledge briefly and return",
+              "Ignore it forever",
+              "Stop the telling",
+              "Blame the audience"
+            ],
+            "accepted": [
+              "Acknowledge briefly and return"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why have a short ending ready?",
+          "answer": "Time may run out",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Time may run out",
+              "It looks neat",
+              "It replaces the plot",
+              "It hides the middle"
+            ],
+            "accepted": [
+              "Time may run out"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after laughter?",
+          "answer": "Wait until it fades",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Wait until it fades",
+              "Talk over it",
+              "Stop",
+              "Repeat the joke"
+            ],
+            "accepted": [
+              "Wait until it fades"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each signal with a response.",
+          "answer": "Leaning in → continue as planned | Phones out → shorten or sharpen | A loud noise → acknowledge and return",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Leaning in",
+                "continue as planned"
+              ],
+              [
+                "Phones out",
+                "shorten or sharpen"
+              ],
+              [
+                "A loud noise",
+                "acknowledge and return"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the live adjustment in order.",
+          "answer": "Notice the audience’s signals | Adjust pace or length | Return to the story with a clear line",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Notice the audience’s signals",
+              "Adjust pace or length",
+              "Return to the story with a clear line"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A teller should ignore the audience’s signals.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Wait until the laughter ___.",
+          "answer": "fades",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "fades"
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I will shorten this part.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "will",
+              "shorten",
+              "this",
+              "part.",
+              "never",
+              "short"
+            ],
+            "accepted": [
+              "I will shorten this part."
+            ]
+          }
+        },
+        {
+          "id": "st-a-live-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the teller do?",
+          "answer": "Acknowledges the noise and returns to the story",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Acknowledges the noise and returns to the story",
+              "Stops the story",
+              "Blames the audience",
+              "Changes the plot"
+            ],
+            "accepted": [
+              "Acknowledges the noise and returns to the story"
+            ],
+            "audioText": "Well, that was a loud truck. It sounds like the story has a soundtrack tonight. Now, where were we? The boy had just reached the bridge."
+          }
+        },
+        {
+          "id": "st-a-live-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short line you could say after a loud interruption to return smoothly to your story.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-retell",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Retell and adapt traditional tales",
+      "objectiveId": "ST-A-06",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "Traditional tales belong to communities. You can retell them, but tell them with care. Keep the tale’s core: what it is about and what changes. Adapt the setting, the characters and the language so they speak to your audience: a fox and a crow can become a manager and a new employee. Credit the source when you know it, and avoid presenting a sacred or culturally restricted story as your own entertainment without permission. Say what is yours and what is the tradition’s.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-retell-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The old tale says that a fox tricked a crow into dropping her cheese. In my retelling, the crow is a new employee and the fox is her manager. What has the teller adapted?",
+          "answer": "The setting and the characters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The setting and the characters",
+              "The core idea",
+              "The moral",
+              "The animals’ names only"
+            ],
+            "accepted": [
+              "The setting and the characters"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should stay when you adapt a tale?",
+          "answer": "The core: what it is about and what changes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The core: what it is about and what changes",
+              "Nothing",
+              "Only the title",
+              "The setting"
+            ],
+            "accepted": [
+              "The core: what it is about and what changes"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you adapt?",
+          "answer": "Setting, characters and language",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Setting, characters and language",
+              "The meaning completely",
+              "Credit",
+              "Permission"
+            ],
+            "accepted": [
+              "Setting, characters and language"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do with the source?",
+          "answer": "Credit it when you know it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Credit it when you know it",
+              "Hide it",
+              "Claim it as yours",
+              "Delete it"
+            ],
+            "accepted": [
+              "Credit it when you know it"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you avoid without permission?",
+          "answer": "Telling sacred or restricted stories as entertainment",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Telling sacred or restricted stories as entertainment",
+              "Telling any story",
+              "Using animals",
+              "Using humor"
+            ],
+            "accepted": [
+              "Telling sacred or restricted stories as entertainment"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Keep the core → someone is tricked by flattery | Adapt the setting → an office instead of a forest | Credit the source → this tale comes from an old collection",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Keep the core",
+                "someone is tricked by flattery"
+              ],
+              [
+                "Adapt the setting",
+                "an office instead of a forest"
+              ],
+              [
+                "Credit the source",
+                "this tale comes from an old collection"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Understand the tale’s core | Adapt setting and characters for your audience | Credit the source and say what is yours",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Understand the tale’s core",
+              "Adapt setting and characters for your audience",
+              "Credit the source and say what is yours"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Every traditional story is open for any use.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Credit the ___ when you know it.",
+          "answer": "source",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "source"
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "This tale comes from an older tradition.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "This",
+              "tale",
+              "comes",
+              "from",
+              "an",
+              "older",
+              "tradition.",
+              "never",
+              "traditions"
+            ],
+            "accepted": [
+              "This tale comes from an older tradition."
+            ]
+          }
+        },
+        {
+          "id": "st-a-retell-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What did the teller keep?",
+          "answer": "The core idea",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The core idea",
+              "The setting",
+              "The names",
+              "The ending date"
+            ],
+            "accepted": [
+              "The core idea"
+            ],
+            "audioText": "This tale is very old. I have changed the place and the names, but the heart of it, that flattery can make us foolish, is the same as in the original."
+          }
+        },
+        {
+          "id": "st-a-retell-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a folktale you know. Write how you would keep its core and adapt its setting, in three sentences.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-work",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Stories at work",
+      "objectiveId": "ST-A-07",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "A story can make a case more memorable than data. A customer story needs a real person, a clear problem, a change and a result with a number: “Ana used to spend an hour on notes. Now it takes ten minutes.” Keep it short, true and specific. Get the person’s permission to share their story. Close by linking the story to the decision you want from the audience.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-work-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our customer, a nurse named Ana, used to spend an hour every night writing notes by hand. After she began using our app, she finished in ten minutes and had time to read to her children. What is the measurable result?",
+          "answer": "Notes now take ten minutes instead of an hour.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Notes now take ten minutes instead of an hour.",
+              "Ana reads to her children.",
+              "Ana is a nurse.",
+              "The app has a name."
+            ],
+            "accepted": [
+              "Notes now take ten minutes instead of an hour."
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a customer story need?",
+          "answer": "A real person, a problem, a change and a result",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A real person, a problem, a change and a result",
+              "A joke and a song",
+              "A long history of the company",
+              "A list of features"
+            ],
+            "accepted": [
+              "A real person, a problem, a change and a result"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you get before sharing someone’s story?",
+          "answer": "Their permission",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Their permission",
+              "Their address",
+              "Their password",
+              "A gift"
+            ],
+            "accepted": [
+              "Their permission"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you close a business story?",
+          "answer": "By linking it to the decision you want",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By linking it to the decision you want",
+              "By changing the subject",
+              "By apologizing",
+              "By silence"
+            ],
+            "accepted": [
+              "By linking it to the decision you want"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which result is strongest?",
+          "answer": "Notes dropped from one hour to ten minutes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Notes dropped from one hour to ten minutes.",
+              "People liked it a lot.",
+              "It was nice.",
+              "Customers were happy."
+            ],
+            "accepted": [
+              "Notes dropped from one hour to ten minutes."
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with an example.",
+          "answer": "Person → Ana, a nurse | Problem → an hour of handwritten notes | Result → ten minutes and time for her children",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Person",
+                "Ana, a nurse"
+              ],
+              [
+                "Problem",
+                "an hour of handwritten notes"
+              ],
+              [
+                "Result",
+                "ten minutes and time for her children"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story in order.",
+          "answer": "Introduce the person | Show the problem and the change | Give the result and link to the decision",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Introduce the person",
+              "Show the problem and the change",
+              "Give the result and link to the decision"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A made-up customer story presented as real is honest.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Get the person’s ___ to share their story.",
+          "answer": "permission",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "permission"
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Notes used to take an hour.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Notes",
+              "used",
+              "to",
+              "take",
+              "an",
+              "hour.",
+              "never",
+              "uses"
+            ],
+            "accepted": [
+              "Notes used to take an hour."
+            ]
+          }
+        },
+        {
+          "id": "st-a-work-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker end?",
+          "answer": "By linking the result to a request",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By linking the result to a request",
+              "By changing the topic",
+              "By telling a joke",
+              "By apologizing"
+            ],
+            "accepted": [
+              "By linking the result to a request"
+            ],
+            "audioText": "Before the app, Ana spent an hour on notes each night. Now she finishes in ten minutes. That is fifty minutes back for each of our nurses, which is why I am asking you to fund the roll-out."
+          }
+        },
+        {
+          "id": "st-a-work-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-sentence customer story with a real-sounding problem, a change and a number.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-a-ethics",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Whose story is it?",
+      "objectiveId": "ST-A-08",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "Stories involve people. Before you tell a story with real people in it, ask: Is it mine to tell? Would they be hurt or exposed? Can I change names and identifying details? When the story is about someone else’s pain, let them speak for themselves where possible, or ask for their consent. Avoid stereotypes: give characters from other cultures the same depth you give your own. Tell stories that leave people with dignity.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "st-a-ethics-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you ask before telling a story with real people?",
+          "answer": "Is it mine to tell?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Is it mine to tell?",
+              "Is it long?",
+              "Is it funny?",
+              "Is it new?"
+            ],
+            "accepted": [
+              "Is it mine to tell?"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you change to protect someone?",
+          "answer": "Names and identifying details",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Names and identifying details",
+              "The facts of the harm",
+              "The conclusion only",
+              "Nothing"
+            ],
+            "accepted": [
+              "Names and identifying details"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do about someone else’s pain?",
+          "answer": "Ask their consent or let them speak for themselves",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask their consent or let them speak for themselves",
+              "Tell it without asking",
+              "Make it funny",
+              "Exaggerate"
+            ],
+            "accepted": [
+              "Ask their consent or let them speak for themselves"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you portray characters from other cultures?",
+          "answer": "With the same depth as your own",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With the same depth as your own",
+              "As stereotypes",
+              "As villains",
+              "As background"
+            ],
+            "accepted": [
+              "With the same depth as your own"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a story leave people with?",
+          "answer": "Dignity",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dignity",
+              "Fear",
+              "Shame",
+              "Nothing"
+            ],
+            "accepted": [
+              "Dignity"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with its concern.",
+          "answer": "Is it mine to tell? → ownership | Could they be hurt or exposed? → harm | Have I asked their consent? → respect",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Is it mine to tell?",
+                "ownership"
+              ],
+              [
+                "Could they be hurt or exposed?",
+                "harm"
+              ],
+              [
+                "Have I asked their consent?",
+                "respect"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the checks in order.",
+          "answer": "Ask whether the story is yours to tell | Consider harm and exposure | Ask consent or change identifying details",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask whether the story is yours to tell",
+              "Consider harm and exposure",
+              "Ask consent or change identifying details"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Stereotypes are fine if the story is entertaining.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask their ___ before telling someone’s story.",
+          "answer": "consent",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "consent",
+              "permission"
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I changed her name to protect her.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "changed",
+              "her",
+              "name",
+              "to",
+              "protect",
+              "her.",
+              "never",
+              "changing"
+            ],
+            "accepted": [
+              "I changed her name to protect her."
+            ]
+          }
+        },
+        {
+          "id": "st-a-ethics-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What did the teller do before telling?",
+          "answer": "Asked her permission",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Asked her permission",
+              "Told it without asking",
+              "Used her name",
+              "Made it a joke"
+            ],
+            "accepted": [
+              "Asked her permission"
+            ],
+            "audioText": "This story is about my friend’s illness. I asked her first, and she said I could tell it if I changed the city and her name, because she wants the lesson shared but not her identity."
+          }
+        },
+        {
+          "id": "st-a-ethics-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You want to tell a story about a family member’s struggle. Write two questions you would ask them first.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"

@@ -24,6 +24,34 @@
             "title": "Interviews and feedback"
           }
         ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "lead",
+            "title": "Lead and persuade at work"
+          },
+          {
+            "id": "connect",
+            "title": "Connect and follow up"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "influence",
+            "title": "Lead with influence"
+          },
+          {
+            "id": "context",
+            "title": "Work across contexts"
+          }
+        ]
       }
     ]
   },
@@ -2131,9 +2159,9 @@
             "type": "choice",
             "options": [
               "In today’s meeting, you spoke over Ana twice, and she stopped sharing her ideas.",
-              "You are rude.",
-              "Ana doesn’t like you.",
-              "You always ruin meetings."
+              "You are always rude to other people in meetings, and you should stop doing it now.",
+              "I think Ana does not like you, and that is why she does not speak when you do.",
+              "You always ruin our meetings, and I am tired of how you act with the whole team."
             ],
             "accepted": [
               "In today’s meeting, you spoke over Ana twice, and she stopped sharing her ideas."
@@ -2299,6 +2327,3826 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Your turn. Write one piece of SBI feedback for a colleague who did something helpful. Use all three parts.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-meeting",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Run a meeting well",
+      "objectiveId": "BZ-I-01",
+      "trackId": "business",
+      "unitId": "lead",
+      "tip": "A good meeting has a purpose, an agenda and a time limit. Send the agenda in advance. Start on time, state the goal, and give each point a time. During the meeting, keep to the agenda: “Let’s park that and come back to it.” At the end, summarize decisions and name who will do what by when. Send notes the same day.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-meeting-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Agenda for Thursday, 30 minutes: 1. Last week’s results (5 minutes). 2. The delay in the supplier’s delivery (15 minutes). 3. Decisions and who does what (10 minutes). How long is the meeting?",
+          "answer": "30 minutes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "30 minutes",
+              "15 minutes",
+              "Five minutes",
+              "An hour"
+            ],
+            "accepted": [
+              "30 minutes"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Agenda for Thursday, 30 minutes: 1. Last week’s results (5 minutes). 2. The delay in the supplier’s delivery (15 minutes). 3. Decisions and who does what (10 minutes). Which item has the most time?",
+          "answer": "The supplier delay",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The supplier delay",
+              "Last week’s results",
+              "Decisions and who does what",
+              "Coffee"
+            ],
+            "accepted": [
+              "The supplier delay"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do before the meeting?",
+          "answer": "Send the agenda",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Send the agenda",
+              "Wait and see",
+              "Cancel the room",
+              "Ask for lunch"
+            ],
+            "accepted": [
+              "Send the agenda"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence keeps the meeting on track?",
+          "answer": "Let’s park that and come back to it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Let’s park that and come back to it.",
+              "Talk about anything.",
+              "We have no plan.",
+              "I have to go."
+            ],
+            "accepted": [
+              "Let’s park that and come back to it."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What belongs at the end of a meeting?",
+          "answer": "Decisions and who will do what by when",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Decisions and who will do what by when",
+              "A new topic",
+              "A joke",
+              "A longer agenda"
+            ],
+            "accepted": [
+              "Decisions and who will do what by when"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When should you send the notes?",
+          "answer": "The same day",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The same day",
+              "Next month",
+              "Never",
+              "After a year"
+            ],
+            "accepted": [
+              "The same day"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its purpose.",
+          "answer": "Agenda → keeps the topics clear | Time limit → keeps the talk short | Action list → shows who does what",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Agenda",
+                "keeps the topics clear"
+              ],
+              [
+                "Time limit",
+                "keeps the talk short"
+              ],
+              [
+                "Action list",
+                "shows who does what"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put a meeting in order.",
+          "answer": "State the goal | Go through the agenda points | Summarize decisions and actions",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the goal",
+              "Go through the agenda points",
+              "Summarize decisions and actions"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A meeting should end with named actions and dates.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Send the agenda in ___.",
+          "answer": "advance",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "advance"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let’s park that for now.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let’s",
+              "park",
+              "that",
+              "for",
+              "now.",
+              "never",
+              "parked"
+            ],
+            "accepted": [
+              "Let’s park that for now."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-meeting-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How many actions does the speaker list?",
+          "answer": "Three",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Three",
+              "Two",
+              "Four",
+              "One"
+            ],
+            "accepted": [
+              "Three"
+            ],
+            "audioText": "To sum up: Ana will confirm the budget by Friday. Raj will book the room for next week. I will send the notes today."
+          }
+        },
+        {
+          "id": "bz-i-meeting-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-point agenda for a 20-minute team meeting, with a time for each point.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-pushback",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Push back politely",
+      "objectiveId": "BZ-I-02",
+      "trackId": "business",
+      "unitId": "lead",
+      "tip": "Sometimes you need to say no, or not yet, to a request. Start with the shared goal, then give the limit and an option: “I want to help the launch succeed. I can’t finish it by Friday, but I can have a first version by Tuesday.” Offer choices instead of a flat refusal. Use “can’t” for a real limit and “prefer” for a choice. Stay calm and specific.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-pushback-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply pushes back politely?",
+          "answer": "I want the launch to succeed. I can’t finish by Friday, but I can send a first version Tuesday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I want the launch to succeed. I can’t finish by Friday, but I can send a first version Tuesday.",
+              "No way.",
+              "That is your problem.",
+              "Maybe, whatever."
+            ],
+            "accepted": [
+              "I want the launch to succeed. I can’t finish by Friday, but I can send a first version Tuesday."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you start with?",
+          "answer": "The shared goal",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The shared goal",
+              "A complaint",
+              "A threat",
+              "Silence"
+            ],
+            "accepted": [
+              "The shared goal"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase offers an option?",
+          "answer": "But I can have a first version by Tuesday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "But I can have a first version by Tuesday.",
+              "Never.",
+              "That is impossible.",
+              "Ask someone else."
+            ],
+            "accepted": [
+              "But I can have a first version by Tuesday."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word describes a real limit?",
+          "answer": "can’t",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "can’t",
+              "prefer",
+              "maybe",
+              "like"
+            ],
+            "accepted": [
+              "can’t"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which statement is specific?",
+          "answer": "I need two more days to test it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I need two more days to test it.",
+              "I need more time.",
+              "It is hard.",
+              "I am busy."
+            ],
+            "accepted": [
+              "I need two more days to test it."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its job.",
+          "answer": "I want the launch to succeed → shows the shared goal | I can’t finish by Friday → states the limit | but I can send a draft Tuesday → offers an option",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "I want the launch to succeed",
+                "shows the shared goal"
+              ],
+              [
+                "I can’t finish by Friday",
+                "states the limit"
+              ],
+              [
+                "but I can send a draft Tuesday",
+                "offers an option"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the reply in order.",
+          "answer": "Name the shared goal | State the limit | Offer an option",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Name the shared goal",
+              "State the limit",
+              "Offer an option"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A flat refusal is always the most polite choice.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Offer an ___, not just a refusal.",
+          "answer": "option",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "option"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I can’t finish it by Friday.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "can’t",
+              "finish",
+              "it",
+              "by",
+              "Friday.",
+              "never",
+              "cannot"
+            ],
+            "accepted": [
+              "I can’t finish it by Friday."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-pushback-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What option does the speaker offer?",
+          "answer": "To start next Monday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To start next Monday",
+              "To refuse forever",
+              "To skip the budget",
+              "To quit"
+            ],
+            "accepted": [
+              "To start next Monday"
+            ],
+            "audioText": "I’d love to take on the new report. This week I can’t add anything, because I’m finishing the budget. I could start next Monday."
+          }
+        },
+        {
+          "id": "bz-i-pushback-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why can’t the speaker add work now?",
+          "answer": "The budget is not finished",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The budget is not finished",
+              "The report is boring",
+              "The week is short",
+              "The office is closed"
+            ],
+            "accepted": [
+              "The budget is not finished"
+            ],
+            "audioText": "I’d love to take on the new report. This week I can’t add anything, because I’m finishing the budget. I could start next Monday."
+          }
+        },
+        {
+          "id": "bz-i-pushback-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Your manager asks for a report by tomorrow, but you need three days. Write a polite push-back with an option.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-data",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Present data with a message",
+      "objectiveId": "BZ-I-03",
+      "trackId": "business",
+      "unitId": "lead",
+      "tip": "When you present numbers, lead with the insight, then show the proof. “Our new plan sells better after the price change” is stronger than “Here is a chart of sales.” Use one message per chart and point to the key number. Say what it means for the listeners: “So we should keep the lower price.” End with a recommendation or a question.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-data-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sales of our new plan rose from 120 to 180 a month after the price change. Most of the new buyers were students. Returns stayed flat at 4 percent. What is the best insight to open with?",
+          "answer": "The lower price brought many more buyers, mostly students.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The lower price brought many more buyers, mostly students.",
+              "Here is some data.",
+              "Charts are helpful.",
+              "Returns are a topic."
+            ],
+            "accepted": [
+              "The lower price brought many more buyers, mostly students."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Sales of our new plan rose from 120 to 180 a month after the price change. Most of the new buyers were students. Returns stayed flat at 4 percent. What stayed the same?",
+          "answer": "Returns",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Returns",
+              "Sales",
+              "The number of students",
+              "The price"
+            ],
+            "accepted": [
+              "Returns"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you lead with?",
+          "answer": "The insight",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The insight",
+              "The raw data",
+              "An apology",
+              "A long history"
+            ],
+            "accepted": [
+              "The insight"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many messages should one chart carry?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Five",
+              "As many as fit",
+              "None"
+            ],
+            "accepted": [
+              "One"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you say after showing a number?",
+          "answer": "What it means for the listeners",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What it means for the listeners",
+              "Nothing",
+              "Another number",
+              "Goodbye"
+            ],
+            "accepted": [
+              "What it means for the listeners"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should a data talk end?",
+          "answer": "With a recommendation or a question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With a recommendation or a question",
+              "With silence",
+              "With a joke",
+              "With a new topic"
+            ],
+            "accepted": [
+              "With a recommendation or a question"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Insight → The lower price brought more buyers. | Proof → Sales rose from 120 to 180 a month. | Meaning → So we should keep the price.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Insight",
+                "The lower price brought more buyers."
+              ],
+              [
+                "Proof",
+                "Sales rose from 120 to 180 a month."
+              ],
+              [
+                "Meaning",
+                "So we should keep the price."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the talk in order.",
+          "answer": "State the insight | Show the key number | Give your recommendation",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the insight",
+              "Show the key number",
+              "Give your recommendation"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should show a chart without saying what it means.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Lead with the ___, then show the proof.",
+          "answer": "insight",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "insight"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "So we should keep the lower price.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "So",
+              "we",
+              "should",
+              "keep",
+              "the",
+              "lower",
+              "price.",
+              "never",
+              "keeps"
+            ],
+            "accepted": [
+              "So we should keep the lower price."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-data-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the takeaway?",
+          "answer": "Growth did not hurt quality",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Growth did not hurt quality",
+              "Returns doubled",
+              "Sales fell",
+              "Quality fell"
+            ],
+            "accepted": [
+              "Growth did not hurt quality"
+            ],
+            "audioText": "The takeaway is simple. Our returns stayed at four percent, even though sales grew by half. So the growth did not hurt quality."
+          }
+        },
+        {
+          "id": "bz-i-data-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the opening sentence and the recommendation for this fact: “Calls dropped from 300 to 200 a week after the new help page.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-escalate",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Raise a problem clearly",
+      "objectiveId": "BZ-I-04",
+      "trackId": "business",
+      "unitId": "lead",
+      "tip": "To raise a problem, use three parts: the problem, the impact, and your request. “The shipment is late (problem). We cannot start training on Monday (impact). Could you approve a different supplier by Wednesday? (request).” Stick to facts, say what you already tried, and make the request specific, with a date. Avoid blame; focus on the fix.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-escalate-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What are the three parts of a clear problem report?",
+          "answer": "Problem, impact, request",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Problem, impact, request",
+              "Joke, story, goodbye",
+              "Name, age, hobby",
+              "Weather, time, place"
+            ],
+            "accepted": [
+              "Problem, impact, request"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the request?",
+          "answer": "Could you approve a different supplier by Wednesday?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could you approve a different supplier by Wednesday?",
+              "The shipment is late.",
+              "We cannot start training.",
+              "It is a bad week."
+            ],
+            "accepted": [
+              "Could you approve a different supplier by Wednesday?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is the impact?",
+          "answer": "We cannot start training on Monday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We cannot start training on Monday.",
+              "The shipment is late.",
+              "Please help.",
+              "I am worried."
+            ],
+            "accepted": [
+              "We cannot start training on Monday."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you also say?",
+          "answer": "What you already tried",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What you already tried",
+              "Who is guilty",
+              "How tired you are",
+              "Your favorite color"
+            ],
+            "accepted": [
+              "What you already tried"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which request is specific?",
+          "answer": "Please approve the supplier by Wednesday.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Please approve the supplier by Wednesday.",
+              "Please do something.",
+              "Fix it.",
+              "Help me soon."
+            ],
+            "accepted": [
+              "Please approve the supplier by Wednesday."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with an example.",
+          "answer": "Problem → The shipment is late. | Impact → Training cannot start Monday. | Request → Please approve a new supplier by Wednesday.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Problem",
+                "The shipment is late."
+              ],
+              [
+                "Impact",
+                "Training cannot start Monday."
+              ],
+              [
+                "Request",
+                "Please approve a new supplier by Wednesday."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the message in order.",
+          "answer": "State the problem | Say the impact | Make a specific request",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the problem",
+              "Say the impact",
+              "Make a specific request"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good report focuses on blame.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Make a specific ___ with a date.",
+          "answer": "request",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "request"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Could you approve it by Wednesday?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Could",
+              "you",
+              "approve",
+              "it",
+              "by",
+              "Wednesday?",
+              "never",
+              "approved"
+            ],
+            "accepted": [
+              "Could you approve it by Wednesday?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-escalate-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What has the speaker already tried?",
+          "answer": "Calling the supplier twice",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Calling the supplier twice",
+              "Sending the brochures",
+              "Cancelling the order",
+              "Hiring staff"
+            ],
+            "accepted": [
+              "Calling the supplier twice"
+            ],
+            "audioText": "The printer order is delayed by a week. That means we cannot send the brochures to clients on time. I have called the supplier twice. Could you approve a local printer by tomorrow?"
+          }
+        },
+        {
+          "id": "bz-i-escalate-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-sentence message that reports a late delivery: problem, impact and request.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-followup",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Follow up without nagging",
+      "objectiveId": "BZ-I-05",
+      "trackId": "business",
+      "unitId": "connect",
+      "tip": "A good follow-up is short, polite and easy to answer. Remind the person what it is about, ask one clear question, and give a date. “Could you confirm the 12th or the 19th by Thursday?” is easier to answer than “Any news?” Thank the person. If you still hear nothing, wait a few days and follow up once more with a new angle, not a louder one.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-followup-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Hi Dana, I’m following up on my message from Monday about the training dates. Could you confirm whether the 12th or the 19th works for your team by Thursday? Thanks, Omar. What does Omar ask Dana to do?",
+          "answer": "Choose a training date by Thursday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Choose a training date by Thursday",
+              "Send a gift",
+              "Join a meeting today",
+              "Write a report"
+            ],
+            "accepted": [
+              "Choose a training date by Thursday"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Hi Dana, I’m following up on my message from Monday about the training dates. Could you confirm whether the 12th or the 19th works for your team by Thursday? Thanks, Omar. Why is this follow-up easy to answer?",
+          "answer": "It asks one clear question and gives a date.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It asks one clear question and gives a date.",
+              "It is very long.",
+              "It is angry.",
+              "It has no question."
+            ],
+            "accepted": [
+              "It asks one clear question and gives a date."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which follow-up is better?",
+          "answer": "Could you confirm the 12th or the 19th by Thursday?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could you confirm the 12th or the 19th by Thursday?",
+              "Any news?",
+              "Why have you not answered?",
+              "Hello?"
+            ],
+            "accepted": [
+              "Could you confirm the 12th or the 19th by Thursday?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many clear questions should a follow-up ask?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Five",
+              "None",
+              "As many as possible"
+            ],
+            "accepted": [
+              "One"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do if there is still no reply?",
+          "answer": "Wait a few days and follow up once more",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Wait a few days and follow up once more",
+              "Send ten messages a day",
+              "Give up forever",
+              "Call every hour"
+            ],
+            "accepted": [
+              "Wait a few days and follow up once more"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Reminder → says what it is about | Clear question → makes it easy to answer | Date → shows when you need the answer",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Reminder",
+                "says what it is about"
+              ],
+              [
+                "Clear question",
+                "makes it easy to answer"
+              ],
+              [
+                "Date",
+                "shows when you need the answer"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the follow-up in order.",
+          "answer": "Say what it is about | Ask one clear question | Give a date and say thanks",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say what it is about",
+              "Ask one clear question",
+              "Give a date and say thanks"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A louder tone is the best second follow-up.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Give a ___ for the answer.",
+          "answer": "date",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "date"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I’m following up on my earlier message.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I’m",
+              "following",
+              "up",
+              "on",
+              "my",
+              "earlier",
+              "message.",
+              "never",
+              "follows"
+            ],
+            "accepted": [
+              "I’m following up on my earlier message."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-followup-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the deadline for the answer?",
+          "answer": "Thursday",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Thursday",
+              "Monday",
+              "The twelfth",
+              "The nineteenth"
+            ],
+            "accepted": [
+              "Thursday"
+            ],
+            "audioText": "Hi Dana, just a quick reminder about the training dates. Could you let me know by Thursday if the twelfth or the nineteenth works? Thank you."
+          }
+        },
+        {
+          "id": "bz-i-followup-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You asked a colleague for a document four days ago. Write a short, polite follow-up.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-network",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Small talk and networking",
+      "objectiveId": "BZ-I-06",
+      "trackId": "business",
+      "unitId": "connect",
+      "tip": "At an event, start with an easy question: “What brings you here today?” Listen and ask a follow-up about something they said. Share a little about yourself in one or two sentences. Offer something useful, such as an idea or a link. To leave politely, thank them and name a next step: “It was great to meet you. I’ll send you that article.” Then exchange contact details.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-network-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a good opening question?",
+          "answer": "What brings you here today?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What brings you here today?",
+              "How much do you earn?",
+              "Are you important?",
+              "Why are you here alone?"
+            ],
+            "accepted": [
+              "What brings you here today?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after the person answers?",
+          "answer": "Ask a follow-up about what they said",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask a follow-up about what they said",
+              "Look at your phone",
+              "Change the subject at once",
+              "Walk away"
+            ],
+            "accepted": [
+              "Ask a follow-up about what they said"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line is a polite exit?",
+          "answer": "It was great to meet you. I’ll send you that article.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It was great to meet you. I’ll send you that article.",
+              "I have to go, bye.",
+              "This is boring.",
+              "You talk too much."
+            ],
+            "accepted": [
+              "It was great to meet you. I’ll send you that article."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you offer to be useful?",
+          "answer": "An idea or a link",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An idea or a link",
+              "A complaint",
+              "A secret",
+              "A bill"
+            ],
+            "accepted": [
+              "An idea or a link"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How much should you share about yourself at first?",
+          "answer": "One or two sentences",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One or two sentences",
+              "Your whole life story",
+              "Nothing at all",
+              "Only numbers"
+            ],
+            "accepted": [
+              "One or two sentences"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with an example.",
+          "answer": "Open → What brings you here today? | Follow up → How did you get into that field? | Exit → It was great to meet you.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Open",
+                "What brings you here today?"
+              ],
+              [
+                "Follow up",
+                "How did you get into that field?"
+              ],
+              [
+                "Exit",
+                "It was great to meet you."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the conversation in order.",
+          "answer": "Ask an opening question | Listen and ask a follow-up | Exit politely with a next step",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask an opening question",
+              "Listen and ask a follow-up",
+              "Exit politely with a next step"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A follow-up question shows you listened.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: It was great to ___ you.",
+          "answer": "meet",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "meet"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "What brings you here today?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "What",
+              "brings",
+              "you",
+              "here",
+              "today?",
+              "never",
+              "bring"
+            ],
+            "accepted": [
+              "What brings you here today?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-network-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker promise?",
+          "answer": "To send an article",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To send an article",
+              "To call tonight",
+              "To visit",
+              "To write a report"
+            ],
+            "accepted": [
+              "To send an article"
+            ],
+            "audioText": "It was great to meet you. I’ll send you that article about remote teams tomorrow. Here is my card."
+          }
+        },
+        {
+          "id": "bz-i-network-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short exchange at a conference: an opening question, one follow-up and a polite exit.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-call",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Calls and video meetings",
+      "objectiveId": "BZ-I-07",
+      "trackId": "business",
+      "unitId": "connect",
+      "tip": "On a call, speak a little slower and more clearly than usual. Say who you are and why you are calling. Ask for permission to record. Spell names or numbers when needed: “That’s M-A-R-I-A.” Confirm important details by repeating them. If the connection is bad, say so and offer a fix: “I can’t hear you well. Could we turn off the video?” Mute when you are not speaking.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-call-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you speak on a call?",
+          "answer": "A little slower and more clearly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A little slower and more clearly",
+              "Very fast",
+              "In a whisper",
+              "With your mouth full"
+            ],
+            "accepted": [
+              "A little slower and more clearly"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening is clear?",
+          "answer": "Hello, this is Omar from the training team. I’m calling about the dates.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hello, this is Omar from the training team. I’m calling about the dates.",
+              "Hi.",
+              "Guess who?",
+              "Why are you quiet?"
+            ],
+            "accepted": [
+              "Hello, this is Omar from the training team. I’m calling about the dates."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you check you heard a number correctly?",
+          "answer": "Repeat it back",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Repeat it back",
+              "Ignore it",
+              "Write nothing",
+              "Say it twice quickly"
+            ],
+            "accepted": [
+              "Repeat it back"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which line handles a bad connection?",
+          "answer": "I can’t hear you well. Could we turn off the video?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I can’t hear you well. Could we turn off the video?",
+              "You are too quiet.",
+              "This is your fault.",
+              "Goodbye."
+            ],
+            "accepted": [
+              "I can’t hear you well. Could we turn off the video?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When should you mute yourself?",
+          "answer": "When you are not speaking",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When you are not speaking",
+              "All the time",
+              "When you speak",
+              "Never"
+            ],
+            "accepted": [
+              "When you are not speaking"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each habit with its purpose.",
+          "answer": "Spell names → avoid mistakes | Repeat numbers → confirm details | Mute → reduce noise",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Spell names",
+                "avoid mistakes"
+              ],
+              [
+                "Repeat numbers",
+                "confirm details"
+              ],
+              [
+                "Mute",
+                "reduce noise"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should ask permission before recording a call.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should speak faster on a call to save time.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Spell the name ___ you need to.",
+          "answer": "when",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "when"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Could you repeat that, please?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Could",
+              "you",
+              "repeat",
+              "that,",
+              "please?",
+              "never",
+              "repeated"
+            ],
+            "accepted": [
+              "Could you repeat that, please?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Confirming details",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Confirming details",
+              "Cancelling",
+              "Complaining",
+              "Introducing"
+            ],
+            "accepted": [
+              "Confirming details"
+            ],
+            "audioText": "Just to confirm: the meeting is at three thirty on Wednesday, room B twelve. Is that correct?"
+          }
+        },
+        {
+          "id": "bz-i-call-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the call in order.",
+          "answer": "Say who you are and why you call | Discuss the main points | Confirm the next step",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say who you are and why you call",
+              "Discuss the main points",
+              "Confirm the next step"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-call-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the first two sentences you would say when you call a client about a delayed order.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-i-receive",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Receive feedback",
+      "objectiveId": "BZ-I-08",
+      "trackId": "business",
+      "unitId": "connect",
+      "tip": "Feedback can feel personal, but it helps you grow. Listen without interrupting. Ask a question to understand: “Could you give me an example?” Summarize what you heard: “So you’d like shorter updates.” Thank the person, then decide what to change. You do not have to agree with everything, but respond with respect. Follow up later and show the change.",
+      "sources": [
+        "Common workplace-communication practice: agendas, action items and clear requests (concepts only; original wording)",
+        "Plain English guidance for professional writing (ideas only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-i-receive-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do first when you get feedback?",
+          "answer": "Listen without interrupting",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listen without interrupting",
+              "Argue",
+              "Leave",
+              "Change the subject"
+            ],
+            "accepted": [
+              "Listen without interrupting"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps you understand?",
+          "answer": "Could you give me an example?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could you give me an example?",
+              "Who told you that?",
+              "Why are you rude?",
+              "Are you done?"
+            ],
+            "accepted": [
+              "Could you give me an example?"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence summarizes what you heard?",
+          "answer": "So you’d like shorter updates.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So you’d like shorter updates.",
+              "That is wrong.",
+              "I know.",
+              "Okay, whatever."
+            ],
+            "accepted": [
+              "So you’d like shorter updates."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Do you have to agree with every point?",
+          "answer": "No, but you should respond with respect",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, but you should respond with respect",
+              "Yes, always",
+              "No, and ignore it",
+              "Yes, in writing"
+            ],
+            "accepted": [
+              "No, but you should respond with respect"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What shows you took feedback seriously?",
+          "answer": "Following up later with a change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Following up later with a change",
+              "Saying nothing",
+              "Forgetting it",
+              "Blaming a colleague"
+            ],
+            "accepted": [
+              "Following up later with a change"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Listen → wait until the person finishes | Ask → Could you give me an example? | Summarize → So you’d like shorter updates.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Listen",
+                "wait until the person finishes"
+              ],
+              [
+                "Ask",
+                "Could you give me an example?"
+              ],
+              [
+                "Summarize",
+                "So you’d like shorter updates."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Listen to the feedback | Ask a question and summarize | Thank the person and decide what to change",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Listen to the feedback",
+              "Ask a question and summarize",
+              "Thank the person and decide what to change"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Interrupting helps you understand feedback.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Thank the person for the ___.",
+          "answer": "feedback",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "feedback"
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Thank you, that is helpful.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Thank",
+              "you,",
+              "that",
+              "is",
+              "helpful.",
+              "never",
+              "helps"
+            ],
+            "accepted": [
+              "Thank you, that is helpful."
+            ]
+          }
+        },
+        {
+          "id": "bz-i-receive-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What will the speaker do?",
+          "answer": "Write shorter updates",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Write shorter updates",
+              "Stop writing updates",
+              "Ask for a new job",
+              "Delay the update"
+            ],
+            "accepted": [
+              "Write shorter updates"
+            ],
+            "audioText": "Thanks for telling me. So you’d like my updates to be shorter and to start with the main point. I’ll try that this week and ask you again on Friday."
+          }
+        },
+        {
+          "id": "bz-i-receive-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A colleague says your emails are too long. Write a short, respectful reply that summarizes and promises one change.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-stakeholders",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Map and align stakeholders",
+      "objectiveId": "BZ-A-01",
+      "trackId": "business",
+      "unitId": "influence",
+      "tip": "A good idea fails when the wrong people hear about it late. List the stakeholders: who decides, who is affected, who can block. For each, note what they care about and what they fear. Speak to the key ones before the meeting, so the meeting confirms instead of surprises. Use their language: finance cares about cost and risk, operations about workload, customers about service. Ask for objections early; an early “no” is cheaper than a late one.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-stakeholders-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a stakeholder?",
+          "answer": "A person or group affected by or able to influence a decision",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A person or group affected by or able to influence a decision",
+              "A kind of share",
+              "A meeting room",
+              "A budget line"
+            ],
+            "accepted": [
+              "A person or group affected by or able to influence a decision"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why speak to key people before the meeting?",
+          "answer": "So the meeting confirms rather than surprises",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So the meeting confirms rather than surprises",
+              "To avoid the meeting",
+              "To hide the plan",
+              "To save time only"
+            ],
+            "accepted": [
+              "So the meeting confirms rather than surprises"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does finance mainly care about?",
+          "answer": "Cost and risk",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Cost and risk",
+              "Office decoration",
+              "Team names",
+              "Parking"
+            ],
+            "accepted": [
+              "Cost and risk"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why ask for objections early?",
+          "answer": "An early no is cheaper than a late one",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An early no is cheaper than a late one",
+              "Objections are boring",
+              "It ends the project",
+              "It hides the plan"
+            ],
+            "accepted": [
+              "An early no is cheaper than a late one"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you note for each stakeholder?",
+          "answer": "What they care about and what they fear",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What they care about and what they fear",
+              "Their age",
+              "Their address",
+              "Their lunch"
+            ],
+            "accepted": [
+              "What they care about and what they fear"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each group with a likely concern.",
+          "answer": "Finance → cost and risk | Operations → workload | Customers → service quality",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Finance",
+                "cost and risk"
+              ],
+              [
+                "Operations",
+                "workload"
+              ],
+              [
+                "Customers",
+                "service quality"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "List the stakeholders | Learn what each cares about | Speak to the key ones before the meeting",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "List the stakeholders",
+              "Learn what each cares about",
+              "Speak to the key ones before the meeting"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Surprising the decision-makers in the meeting is a good strategy.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask for ___ early.",
+          "answer": "objections",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "objections"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Who can block this decision?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Who",
+              "can",
+              "block",
+              "this",
+              "decision?",
+              "never",
+              "blocks"
+            ],
+            "accepted": [
+              "Who can block this decision?"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What did the speaker do before the meeting?",
+          "answer": "Addressed stakeholders’ concerns",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Addressed stakeholders’ concerns",
+              "Cancelled the plan",
+              "Ignored finance",
+              "Asked for a bigger budget"
+            ],
+            "accepted": [
+              "Addressed stakeholders’ concerns"
+            ],
+            "audioText": "I spoke to finance last week. Their concern is the cost in year two, so I have added a savings table. Operations worry about the workload, so I have proposed a phased start."
+          }
+        },
+        {
+          "id": "bz-a-stakeholders-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. List three stakeholders for a plan to move your team to a four-day week and one concern each may have.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-summary",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Write an executive summary",
+      "objectiveId": "BZ-A-02",
+      "trackId": "business",
+      "unitId": "influence",
+      "tip": "Executives read the first lines and decide how much more to read. An executive summary leads with the recommendation, then gives the reason, the risk and the decision needed, with a date. Use numbers, not adjectives: “cost us 400,000 dollars” rather than “cost us a lot.” Keep it to one page. Everything in the summary must also appear, supported, in the body. Remove background that a decision-maker already knows.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-summary-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Recommendation: replace the current supplier by March. Reason: late deliveries cost us an estimated 400,000 dollars last year, and the new supplier has offered a penalty clause. Risk: a three-week transition. Decision needed from the board by 15 January. What does the summary ask of the board?",
+          "answer": "A decision by 15 January",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A decision by 15 January",
+              "A new supplier name",
+              "A meeting next year",
+              "A budget for staff"
+            ],
+            "accepted": [
+              "A decision by 15 January"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Recommendation: replace the current supplier by March. Reason: late deliveries cost us an estimated 400,000 dollars last year, and the new supplier has offered a penalty clause. Risk: a three-week transition. Decision needed from the board by 15 January. Which element states the risk?",
+          "answer": "Switching suppliers takes about three weeks",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Switching suppliers takes about three weeks",
+              "Late deliveries cost money",
+              "A penalty clause was offered",
+              "The board decides"
+            ],
+            "accepted": [
+              "Switching suppliers takes about three weeks"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should an executive summary lead with?",
+          "answer": "The recommendation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The recommendation",
+              "The history",
+              "The table of contents",
+              "The author’s biography"
+            ],
+            "accepted": [
+              "The recommendation"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is better: “cost us a lot” or “cost us 400,000 dollars”?",
+          "answer": "cost us 400,000 dollars",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "cost us 400,000 dollars",
+              "cost us a lot",
+              "both are the same",
+              "neither"
+            ],
+            "accepted": [
+              "cost us 400,000 dollars"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How long should it be?",
+          "answer": "One page",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One page",
+              "Twenty pages",
+              "One line only",
+              "As long as the body"
+            ],
+            "accepted": [
+              "One page"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each element with its role.",
+          "answer": "Recommendation → what you propose | Reason → why | Decision needed → what the reader must do and by when",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Recommendation",
+                "what you propose"
+              ],
+              [
+                "Reason",
+                "why"
+              ],
+              [
+                "Decision needed",
+                "what the reader must do and by when"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the summary in order.",
+          "answer": "Recommendation | Reason with numbers | Risk and decision needed with a date",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Recommendation",
+              "Reason with numbers",
+              "Risk and decision needed with a date"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The summary should include claims not supported in the body.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use numbers, not ___.",
+          "answer": "adjectives",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "adjectives"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Decision needed by fifteen January.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Decision",
+              "needed",
+              "by",
+              "fifteen",
+              "January.",
+              "never",
+              "needs"
+            ],
+            "accepted": [
+              "Decision needed by fifteen January."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-summary-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the risk?",
+          "answer": "Training takes four weeks",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Training takes four weeks",
+              "It will save hours",
+              "The system is new",
+              "The decision is late"
+            ],
+            "accepted": [
+              "Training takes four weeks"
+            ],
+            "audioText": "Recommendation: approve the new system. Reason: it will save two hundred hours a month. Risk: training takes four weeks. We need your decision by Friday."
+          }
+        },
+        {
+          "id": "bz-a-summary-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence executive summary recommending that your office adopt a new booking tool.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-ask",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Make the ask: value, risk and return",
+      "objectiveId": "BZ-A-03",
+      "trackId": "business",
+      "unitId": "influence",
+      "tip": "When you ask for money, time or authority, make it easy to say yes. State the ask first and specifically: “I am requesting 50,000 dollars to pilot the system for six months.” Show the expected return and how you will measure it. Be honest about risks and what you will do about them. Offer a smaller first step if the full ask is large. Agree on what success will look like, so the later review is fair.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-ask-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you state an ask?",
+          "answer": "First and specifically",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "First and specifically",
+              "At the end, vaguely",
+              "Hidden in an appendix",
+              "Only in conversation"
+            ],
+            "accepted": [
+              "First and specifically"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which request is specific?",
+          "answer": "I am requesting 50,000 dollars to pilot the system for six months.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I am requesting 50,000 dollars to pilot the system for six months.",
+              "I would love some help.",
+              "We need more money.",
+              "Please support us."
+            ],
+            "accepted": [
+              "I am requesting 50,000 dollars to pilot the system for six months."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why offer a smaller first step?",
+          "answer": "It lowers the risk of saying yes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It lowers the risk of saying yes",
+              "It hides the plan",
+              "It lengthens the process",
+              "It removes the review"
+            ],
+            "accepted": [
+              "It lowers the risk of saying yes"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why agree on success measures in advance?",
+          "answer": "The later review is fair",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The later review is fair",
+              "To avoid reviews",
+              "To hide results",
+              "To win arguments"
+            ],
+            "accepted": [
+              "The later review is fair"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you treat risks?",
+          "answer": "Be honest about them and say how you will manage them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Be honest about them and say how you will manage them",
+              "Hide them",
+              "Make them sound large",
+              "Skip them"
+            ],
+            "accepted": [
+              "Be honest about them and say how you will manage them"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part of an ask with its example.",
+          "answer": "Ask → 50,000 dollars for a six-month pilot | Return → save 200 hours a month | Measure → monthly time reports",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Ask",
+                "50,000 dollars for a six-month pilot"
+              ],
+              [
+                "Return",
+                "save 200 hours a month"
+              ],
+              [
+                "Measure",
+                "monthly time reports"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the ask in order.",
+          "answer": "State the ask clearly | Show return and risk | Agree how success will be measured",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the ask clearly",
+              "Show return and risk",
+              "Agree how success will be measured"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A pilot can make a large ask easier to approve.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Agree on how success will be ___.",
+          "answer": "measured",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "measured"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I am requesting a six month pilot.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "am",
+              "requesting",
+              "a",
+              "six",
+              "month",
+              "pilot.",
+              "never",
+              "request"
+            ],
+            "accepted": [
+              "I am requesting a six month pilot."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-ask-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What measure of success is mentioned?",
+          "answer": "Two hundred hours saved a month",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two hundred hours saved a month",
+              "The number of meetings",
+              "The staff mood",
+              "The office size"
+            ],
+            "accepted": [
+              "Two hundred hours saved a month"
+            ],
+            "audioText": "I am asking for a six-month pilot at fifty thousand dollars. If it saves two hundred hours a month, as I expect, it pays for itself by the ninth month. We will review it together in month six."
+          }
+        },
+        {
+          "id": "bz-a-ask-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the opening three sentences of an email asking your manager to fund a course.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-hard",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Hard conversations at work",
+      "objectiveId": "BZ-A-04",
+      "trackId": "business",
+      "unitId": "influence",
+      "tip": "Bad news and performance problems need preparation. Choose a private time and a calm place. State the purpose at the start: “I want to talk about the missed deadlines.” Give specific examples, not general judgments. Listen to the other person’s view before deciding anything. Agree on what will change and when you will check. Speak with respect: you can be direct without being harsh. Document the agreement afterward.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-hard-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should a hard conversation take place?",
+          "answer": "In private and calm",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In private and calm",
+              "In front of the team",
+              "In a corridor",
+              "By text only"
+            ],
+            "accepted": [
+              "In private and calm"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do at the start?",
+          "answer": "State the purpose",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "State the purpose",
+              "Hide it",
+              "Make a joke",
+              "Blame"
+            ],
+            "accepted": [
+              "State the purpose"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a specific example?",
+          "answer": "Three reports were late in March.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Three reports were late in March.",
+              "You are lazy.",
+              "You never care.",
+              "Everyone complains."
+            ],
+            "accepted": [
+              "Three reports were late in March."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do before deciding?",
+          "answer": "Listen to the other person’s view",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listen to the other person’s view",
+              "Interrupt",
+              "End the talk",
+              "Repeat the complaint"
+            ],
+            "accepted": [
+              "Listen to the other person’s view"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do afterward?",
+          "answer": "Document the agreement",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Document the agreement",
+              "Forget it",
+              "Tell the team",
+              "Post it online"
+            ],
+            "accepted": [
+              "Document the agreement"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Purpose → I want to talk about the missed deadlines. | Example → Three reports were late in March. | Next step → Let’s check in again on the 20th.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Purpose",
+                "I want to talk about the missed deadlines."
+              ],
+              [
+                "Example",
+                "Three reports were late in March."
+              ],
+              [
+                "Next step",
+                "Let’s check in again on the 20th."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the conversation in order.",
+          "answer": "State the purpose | Give examples and listen | Agree on changes and a check date",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the purpose",
+              "Give examples and listen",
+              "Agree on changes and a check date"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Direct communication must be harsh.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Document the ___ afterward.",
+          "answer": "agreement",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "agreement"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I want to talk about the deadlines.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "want",
+              "to",
+              "talk",
+              "about",
+              "the",
+              "deadlines.",
+              "never",
+              "talks"
+            ],
+            "accepted": [
+              "I want to talk about the deadlines."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-hard-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker do?",
+          "answer": "Gives an example and invites the other view",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Gives an example and invites the other view",
+              "Blames the listener",
+              "Ends the talk",
+              "Changes the subject"
+            ],
+            "accepted": [
+              "Gives an example and invites the other view"
+            ],
+            "audioText": "I want to talk about the March deadlines. Three reports were late. Before I say more, I would like to hear what has been happening from your side."
+          }
+        },
+        {
+          "id": "bz-a-hard-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the first three sentences you would say to a colleague whose work has been late three times.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-global",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Work across time zones and cultures",
+      "objectiveId": "BZ-A-05",
+      "trackId": "business",
+      "unitId": "context",
+      "tip": "Global teams need explicit habits. Choose meeting times that rotate the inconvenience. Send the agenda and materials in advance, so non-native speakers can prepare. Speak clearly, avoid idioms and sports metaphors, and confirm understanding in writing. Do not assume silence means agreement. Use plain, specific dates: “Friday 12 June, 5 p.m. London time.” Record decisions in a shared place.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-global-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why send materials in advance?",
+          "answer": "Non-native speakers can prepare",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Non-native speakers can prepare",
+              "To fill the inbox",
+              "To avoid meetings",
+              "To impress people"
+            ],
+            "accepted": [
+              "Non-native speakers can prepare"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which date format is clearest for a global team?",
+          "answer": "Friday 12 June, 5 p.m. London time",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Friday 12 June, 5 p.m. London time",
+              "Friday next",
+              "Soon",
+              "End of the week"
+            ],
+            "accepted": [
+              "Friday 12 June, 5 p.m. London time"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you avoid with a global team?",
+          "answer": "Idioms and sports metaphors",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Idioms and sports metaphors",
+              "Plain language",
+              "Written summaries",
+              "Shared notes"
+            ],
+            "accepted": [
+              "Idioms and sports metaphors"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can silence mean?",
+          "answer": "Agreement, doubt or a language barrier",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Agreement, doubt or a language barrier",
+              "Always agreement",
+              "Always disagreement",
+              "Nothing"
+            ],
+            "accepted": [
+              "Agreement, doubt or a language barrier"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should decisions be recorded?",
+          "answer": "In a shared place",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In a shared place",
+              "Only in memory",
+              "On a private note",
+              "On a napkin"
+            ],
+            "accepted": [
+              "In a shared place"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each habit with its benefit.",
+          "answer": "Rotate meeting times → shares the inconvenience | Plain dates with time zone → avoids confusion | Written follow-up → confirms understanding",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Rotate meeting times",
+                "shares the inconvenience"
+              ],
+              [
+                "Plain dates with time zone",
+                "avoids confusion"
+              ],
+              [
+                "Written follow-up",
+                "confirms understanding"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the habits in order.",
+          "answer": "Send the agenda and materials | Speak clearly and avoid idioms | Confirm decisions in writing",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Send the agenda and materials",
+              "Speak clearly and avoid idioms",
+              "Confirm decisions in writing"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Silence always means agreement.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Name the time ___ in every invitation.",
+          "answer": "zone",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "zone"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let me confirm that in writing.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let",
+              "me",
+              "confirm",
+              "that",
+              "in",
+              "writing.",
+              "never",
+              "confirmed"
+            ],
+            "accepted": [
+              "Let me confirm that in writing."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-global-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What habit does the speaker describe?",
+          "answer": "Rotating times and clear written notes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Rotating times and clear written notes",
+              "Meeting only in one city",
+              "Skipping notes",
+              "Using idioms"
+            ],
+            "accepted": [
+              "Rotating times and clear written notes"
+            ],
+            "audioText": "Because we work across four time zones, I will rotate the meeting times each month, send the notes within an hour, and write every date with its time zone."
+          }
+        },
+        {
+          "id": "bz-a-global-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write the invitation line for a meeting between London and Singapore, with the time in both cities.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-clause",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Precise language in agreements",
+      "objectiveId": "BZ-A-06",
+      "trackId": "business",
+      "unitId": "context",
+      "tip": "Contracts and formal agreements need precise language. Shall states an obligation; may states permission; must states a requirement. Avoid vague words like “promptly” or “reasonable” unless they are defined. Specify who does what, by when and what happens if it is not done. Define terms once and use them consistently. This is language practice, not legal advice: for real contracts, ask a qualified lawyer.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-clause-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The supplier shall deliver the goods on or before 1 June. If delivery is late, the supplier shall pay two percent of the order value for each full week of delay, up to a maximum of ten percent. What is the maximum penalty for delay?",
+          "answer": "Ten percent of the order value",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ten percent of the order value",
+              "Two percent in total",
+              "Nothing",
+              "Half the order value"
+            ],
+            "accepted": [
+              "Ten percent of the order value"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The supplier shall deliver the goods on or before 1 June. If delivery is late, the supplier shall pay two percent of the order value for each full week of delay, up to a maximum of ten percent. What triggers a penalty?",
+          "answer": "Delivery after 1 June",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Delivery after 1 June",
+              "Delivery before 1 June",
+              "A change of price",
+              "An inspection"
+            ],
+            "accepted": [
+              "Delivery after 1 June"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “shall” usually express in a contract?",
+          "answer": "An obligation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An obligation",
+              "A permission",
+              "A hope",
+              "A joke"
+            ],
+            "accepted": [
+              "An obligation"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “may” usually express?",
+          "answer": "Permission",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Permission",
+              "Obligation",
+              "Prohibition",
+              "Certainty"
+            ],
+            "accepted": [
+              "Permission"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why avoid undefined words like “promptly”?",
+          "answer": "They are open to different readings",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They are open to different readings",
+              "They are too short",
+              "They are impolite",
+              "They are rare"
+            ],
+            "accepted": [
+              "They are open to different readings"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with its meaning.",
+          "answer": "shall → an obligation | may → a permission | must not → a prohibition",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "shall",
+                "an obligation"
+              ],
+              [
+                "may",
+                "a permission"
+              ],
+              [
+                "must not",
+                "a prohibition"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the clause elements in order.",
+          "answer": "Who must act | What they must do and by when | What happens if they do not",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Who must act",
+              "What they must do and by when",
+              "What happens if they do not"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Defining a term once and using it consistently reduces confusion.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Specify who does what and by ___.",
+          "answer": "when",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "when"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The supplier shall deliver by the first of June.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "supplier",
+              "shall",
+              "deliver",
+              "by",
+              "the",
+              "first",
+              "of",
+              "June.",
+              "never",
+              "delivers"
+            ],
+            "accepted": [
+              "The supplier shall deliver by the first of June."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-clause-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which part is a permission?",
+          "answer": "The client may cancel within thirty days",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The client may cancel within thirty days",
+              "The client shall pay",
+              "Thirty days",
+              "Work completed"
+            ],
+            "accepted": [
+              "The client may cancel within thirty days"
+            ],
+            "audioText": "The client may cancel within thirty days. If the client cancels after thirty days, the client shall pay for work already completed."
+          }
+        },
+        {
+          "id": "bz-a-clause-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one clear sentence of an agreement: who delivers what, by when, and the consequence of delay. (Practice only, not legal advice.)",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-crisis",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Communicate in a crisis",
+      "objectiveId": "BZ-A-07",
+      "trackId": "business",
+      "unitId": "context",
+      "tip": "In a crisis, speed and honesty matter. Say what happened, what you know, what you do not know yet and what you are doing about it. Apologize clearly when you are responsible, without excuses. Tell affected people directly and first, then the public. Give an update time even when there is no news: “We will update you at 3 p.m.” Do not speculate or blame. Afterward, explain what you will change.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-crisis-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The company learned on Tuesday that customer email addresses were exposed for six hours. About 2,000 customers were affected. No passwords were included. The fault has been fixed. Which fact is reassuring?",
+          "answer": "No passwords were included.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No passwords were included.",
+              "The leak lasted six hours.",
+              "About 2,000 people were affected.",
+              "The company learned on Tuesday."
+            ],
+            "accepted": [
+              "No passwords were included."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a crisis message include?",
+          "answer": "What happened, what you know, what you do not know, and what you are doing",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What happened, what you know, what you do not know, and what you are doing",
+              "Only an apology",
+              "Only the cause",
+              "Only excuses"
+            ],
+            "accepted": [
+              "What happened, what you know, what you do not know, and what you are doing"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Who should hear first?",
+          "answer": "The affected people",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The affected people",
+              "The press only",
+              "The competitors",
+              "Nobody"
+            ],
+            "accepted": [
+              "The affected people"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which apology is clear?",
+          "answer": "We are sorry. This was our error, and we are fixing it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We are sorry. This was our error, and we are fixing it.",
+              "Mistakes were made.",
+              "We regret any misunderstanding.",
+              "It was a minor issue."
+            ],
+            "accepted": [
+              "We are sorry. This was our error, and we are fixing it."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do when there is no news?",
+          "answer": "Give a time for the next update",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Give a time for the next update",
+              "Stay silent",
+              "Guess",
+              "Blame someone"
+            ],
+            "accepted": [
+              "Give a time for the next update"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each element with its example.",
+          "answer": "Facts → Addresses were exposed for six hours. | Unknowns → We do not yet know if any were copied. | Action → We have fixed the fault and are contacting customers.",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Facts",
+                "Addresses were exposed for six hours."
+              ],
+              [
+                "Unknowns",
+                "We do not yet know if any were copied."
+              ],
+              [
+                "Action",
+                "We have fixed the fault and are contacting customers."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the message in order.",
+          "answer": "Say what happened | Apologize and say what you are doing | Set a time for the next update",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Say what happened",
+              "Apologize and say what you are doing",
+              "Set a time for the next update"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Speculating about the cause helps in a crisis.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Give a time for the next ___.",
+          "answer": "update",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "update"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We will update you at three.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "will",
+              "update",
+              "you",
+              "at",
+              "three.",
+              "never",
+              "updates"
+            ],
+            "accepted": [
+              "We will update you at three."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-crisis-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker say they do not know?",
+          "answer": "Whether anyone copied the addresses",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Whether anyone copied the addresses",
+              "What time it happened",
+              "Whether it is fixed",
+              "How many customers were affected"
+            ],
+            "accepted": [
+              "Whether anyone copied the addresses"
+            ],
+            "audioText": "We are sorry. On Tuesday, a fault exposed customer email addresses for six hours. We have fixed it. We do not yet know whether anyone copied them. We will update you at three o’clock."
+          }
+        },
+        {
+          "id": "bz-a-crisis-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a three-sentence message to customers after a delivery system failure: what happened, what you are doing, when you will update.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bz-a-bridge",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Answer tough questions in public",
+      "objectiveId": "BZ-A-08",
+      "trackId": "business",
+      "unitId": "context",
+      "tip": "In a panel or press Q&A, answer the question briefly, then bridge to your key message. Bridging phrases: “What matters most is…” and “The important point is…”. Do not repeat a negative word from the question: if asked “Is the product failing?”, do not say “The product is not failing”; say what is true. If you do not know, say so and offer to follow up. Never say “no comment.” Keep answers short and prepare three key messages.",
+      "sources": [
+        "Common workplace-communication practice: executive summaries, stakeholder mapping, crisis communication (concepts only; original wording)",
+        "Plain English guidance for professional and contract writing (ideas only; no text copied; companies in examples are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "bz-a-bridge-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does bridging mean in a Q&A?",
+          "answer": "Moving from your answer to your key message",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Moving from your answer to your key message",
+              "Building a physical bridge",
+              "Skipping the question",
+              "Changing the subject angrily"
+            ],
+            "accepted": [
+              "Moving from your answer to your key message"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase is a bridge?",
+          "answer": "What matters most is…",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What matters most is…",
+              "No comment.",
+              "I have no idea.",
+              "That is a silly question."
+            ],
+            "accepted": [
+              "What matters most is…"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why avoid repeating a negative word from the question?",
+          "answer": "It can plant the negative idea",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It can plant the negative idea",
+              "It is polite",
+              "It is shorter",
+              "It is required"
+            ],
+            "accepted": [
+              "It can plant the negative idea"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you say if you do not know?",
+          "answer": "I don’t know yet, but I will find out and follow up.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I don’t know yet, but I will find out and follow up.",
+              "No comment.",
+              "Everyone knows that.",
+              "Next question."
+            ],
+            "accepted": [
+              "I don’t know yet, but I will find out and follow up."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many key messages should you prepare?",
+          "answer": "Three",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Three",
+              "Thirty",
+              "None",
+              "One hundred"
+            ],
+            "accepted": [
+              "Three"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each response with its use.",
+          "answer": "Short answer → respond to the question | Bridge → move to your message | Follow-up offer → handle what you do not know",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Short answer",
+                "respond to the question"
+              ],
+              [
+                "Bridge",
+                "move to your message"
+              ],
+              [
+                "Follow-up offer",
+                "handle what you do not know"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the answer in order.",
+          "answer": "Answer briefly | Bridge to your key message | Support it with one fact",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Answer briefly",
+              "Bridge to your key message",
+              "Support it with one fact"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “No comment” is a helpful public answer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: What ___ most is the customer’s safety.",
+          "answer": "matters",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "matters"
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The important point is customer safety.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "important",
+              "point",
+              "is",
+              "customer",
+              "safety.",
+              "never",
+              "points"
+            ],
+            "accepted": [
+              "The important point is customer safety."
+            ]
+          }
+        },
+        {
+          "id": "bz-a-bridge-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker bridge?",
+          "answer": "From the delay to the customers and the new system",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "From the delay to the customers and the new system",
+              "From a joke to a story",
+              "From a question to silence",
+              "From the fact to blame"
+            ],
+            "accepted": [
+              "From the delay to the customers and the new system"
+            ],
+            "audioText": "Yes, there was a delay. What matters most is that every customer has been contacted, and the new system has already cut waiting times by half."
+          }
+        },
+        {
+          "id": "bz-a-bridge-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A journalist asks: “Is your company in trouble?” Write a short answer that is honest and bridges to a key message.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"

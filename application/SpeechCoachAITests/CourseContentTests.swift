@@ -72,4 +72,53 @@ struct CourseContentTests {
         #expect(install.lesson(id: "c2-multi", version: "2")?.isReady == true)
         #expect(install.lesson(id: "a2-travel", version: "3")?.hasCheckedExercises == true)
     }
+
+    // MARK: Round 3 proofread rules (A2 to C2)
+
+    private var upperActivities: [CurriculumActivity] {
+        install.lessons.filter { $0.level != "A1" }.flatMap(\.practiceActivities)
+    }
+
+    @Test func trueFalseKeysAreBalancedFromA2Up() {
+        let keys = upperActivities.filter { $0.id.hasSuffix("-tf") }.map(\.answer)
+        let trues = keys.filter { $0 == "True" }.count
+        #expect(keys.count == 44)
+        #expect((18...26).contains(trues), "\(trues) of \(keys.count) keys are True")
+    }
+
+    @Test func recallTilesShowTheSameTextAsTheirModelAnswer() {
+        for activity in upperActivities where activity.id.contains("-recall-") {
+            let spec = activity.resolvedExercise
+            guard spec.kind == .choice, let first = spec.accepted?.first else { continue }
+            #expect(activity.answer == first, "\(activity.id): answer \(activity.answer) vs tile \(first)")
+        }
+    }
+
+    @Test func typedAcceptedAnswersNeverContainATemplateMarker() {
+        for activity in upperActivities where activity.resolvedExercise.kind == .fillBlank || activity.resolvedExercise.kind == .listenType {
+            for accepted in activity.resolvedExercise.accepted ?? [] {
+                #expect(!accepted.contains("\u{2026}"), "\(activity.id) accepts a template: \(accepted)")
+            }
+        }
+    }
+
+    @Test func courseTextUsesAmericanWordsAndCurlyApostrophes() throws {
+        let british = try NSRegularExpression(pattern: "\\b(film|flat|holiday|cancelled|colour|favourite)\\b", options: [.caseInsensitive])
+        for lesson in install.lessons where lesson.level != "A1" {
+            var strings: [String] = [lesson.title, lesson.tip ?? ""]
+            for activity in lesson.practiceActivities {
+                let spec = activity.resolvedExercise
+                strings.append(activity.prompt ?? "")
+                strings.append(activity.answer ?? "")
+                strings.append(contentsOf: spec.options ?? [])
+                strings.append(contentsOf: spec.accepted ?? [])
+                strings.append(spec.audioText ?? "")
+            }
+            for text in strings {
+                let range = NSRange(text.startIndex..., in: text)
+                #expect(british.firstMatch(in: text, range: range) == nil, "\(lesson.id): British word in: \(text)")
+                #expect(!text.contains("'"), "\(lesson.id): straight apostrophe in: \(text)")
+            }
+        }
+    }
 }

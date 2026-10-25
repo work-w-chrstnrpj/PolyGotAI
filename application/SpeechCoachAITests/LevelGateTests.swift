@@ -211,7 +211,7 @@ struct LevelGateTests {
     @Test func theGrammarianTrackLoadsWithTwoUnitsOfFourLessons() throws {
         let track = try #require(install.tracks.track(id: "grammarian"))
         #expect(track.coach == .grammarian)
-        #expect(track.stages.map(\.id) == ["starter"])
+        #expect(track.stages.map(\.id) == ["starter", "foundation", "intermediate", "advanced"])
         let units = try #require(track.stages.first?.units)
         #expect(units.map(\.id) == ["sentences", "be-have-do"])
         #expect(units.allSatisfy { $0.lessons.count == 4 })

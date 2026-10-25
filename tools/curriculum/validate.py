@@ -80,9 +80,40 @@ def exercise_problem(ex: dict, has_clip: bool) -> str | None:
     return None
 
 
+def fold(text: str) -> str:
+    """Case, quote and punctuation folded, for give-away comparisons."""
+    return " ".join(re.sub(r"[^a-z0-9 ]", "", text.lower().replace("\u2019", "'").replace("'", "")).split())
+
+
+def giveaway_problems(act: dict, printed: list[str]) -> list[str]:
+    """Give-aways a learner could exploit without reading (see docs/reviews giveaway audit).
+
+    Choice answer printed word for word in the prompt (ids containing 'recall' are exempt, the task is
+    recall); options that differ only by case or punctuation; a dictation sentence printed earlier in the same lesson.
+    The answer is options[0] in the files on purpose: the app shuffles choices when it shows them.
+    """
+    ex = act.get("exercise") or {}
+    problems = []
+    if ex.get("type") == "choice" and "recall" not in act.get("id", ""):
+        prompt, answer = fold(act.get("prompt", "")), fold((ex.get("accepted") or [""])[0])
+        others = [fold(o) for o in ex.get("options") or [] if fold(o) != answer]
+        if len(answer.split()) >= 2 and answer in prompt and not any(o and o in prompt for o in others):
+            problems.append("the answer is printed word for word in the prompt and no wrong option is")
+    if ex.get("type") == "choice":
+        folded = [fold(o) for o in ex.get("options") or []]
+        if len(set(folded)) != len(folded):
+            problems.append("two options differ only by case or punctuation")
+    if ex.get("type") == "listenType":
+        text = fold(ex.get("audioText") or (ex.get("accepted") or [""])[0])
+        if text and any(text in earlier for earlier in printed):
+            problems.append("the dictated sentence is already printed in this lesson")
+    return problems
+
+
 def check_lesson(lesson: dict, where: str, errors: list, track_id: str | None = None, unit_id: str | None = None):
     lid = lesson.get("id", "?")
     seen = set()
+    printed: list[str] = []
     for act in lesson.get("activities", []):
         aid = act.get("id", "?")
         if aid in seen:
@@ -91,6 +122,9 @@ def check_lesson(lesson: dict, where: str, errors: list, track_id: str | None = 
         if act.get("kind") == "listening" and not act.get("assetId"):
             errors.append(f"{where}: {lid}/{aid}: kind listening needs a recorded clip (assetId); use kind grammar with audioText")
         ex = act.get("exercise")
+        for giveaway in giveaway_problems(act, printed):
+            errors.append(f"{where}: {lid}/{aid}: {giveaway}")
+        printed.append(fold(act.get("prompt", "")) + " " + fold(act.get("body", "")))
         if ex is not None:
             problem = exercise_problem(ex, bool(act.get("assetId")))
             if problem:
@@ -182,8 +216,9 @@ def main() -> int:
             if key in seen_words:
                 errors.append(f"{name}: duplicate word {lemma!r} ({word.get('pos')}), also in {seen_words[key]}")
             seen_words[key] = name
-            if word.get("cefr") != group.get("level"):
-                errors.append(f"{name}: {lemma}: cefr {word.get('cefr')!r} differs from the group level {group.get('level')!r}")
+            levels = ["A1", "A2", "B1", "B2", "C1", "C2"]
+            if word.get("cefr") not in levels or (group.get("level") in levels and levels.index(word["cefr"]) > levels.index(group["level"])):
+                errors.append(f"{name}: {lemma}: cefr {word.get('cefr')!r} is above the group level {group.get('level')!r}")
             if word.get("register") not in register_ok:
                 errors.append(f"{name}: {lemma}: unknown register {word.get('register')!r}")
             if word.get("pos") not in pos_ok:

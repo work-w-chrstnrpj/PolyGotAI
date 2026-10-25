@@ -466,7 +466,7 @@
               "Good evening.",
               "Good morning.",
               "Good afternoon.",
-              "Good night."
+              "How are you?"
             ],
             "accepted": [
               "Good evening."
@@ -516,13 +516,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Good evening. How are you?",
+          "answer": "Good morning. I am fine, thanks.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Good evening. How are you?",
+            "audioText": "Good morning. I am fine, thanks.",
             "accepted": [
-              "Good evening. How are you?"
+              "Good morning. I am fine, thanks."
             ]
           }
         },
@@ -1081,7 +1081,8 @@
           "prompt": "You sit next to a new classmate. Give your name, what you study or your daily role, and one interest. Then answer: Where are you from?",
           "answer": "Three relevant facts and a meaningful answer about where you are from."
         }
-      ]
+      ],
+      "tip": "An introduction has three facts: your name, your work or study, and one thing you like. Start with “Hello,” then say “My name is …,” “I study …” or “I work …,” and “I like ….” End with “Nice to meet you.” Short, clear sentences are enough."
     },
     {
       "id": "a1-alphabet",
@@ -1184,13 +1185,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Ben spells his name.",
+          "answer": "Mina spells her name.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Ben spells his name.",
+            "audioText": "Mina spells her name.",
             "accepted": [
-              "Ben spells his name."
+              "Mina spells her name."
             ]
           }
         },
@@ -1198,7 +1199,7 @@
           "id": "a1-alphabet-production-v3-1",
           "kind": "grammar",
           "required": true,
-          "prompt": "Which sentence has the capital letters correct?",
+          "prompt": "Which sentence is correct?",
           "answer": "My name is Ben.",
           "explanation": "Start a sentence and a personal name with capitals.",
           "childObjectiveIds": [
@@ -1208,9 +1209,9 @@
             "type": "choice",
             "options": [
               "My name is Ben.",
-              "my name is ben.",
-              "My name is ben.",
-              "my name is Ben."
+              "My is name Ben.",
+              "Name my is Ben.",
+              "My name Ben is."
             ],
             "accepted": [
               "My name is Ben."
@@ -1600,13 +1601,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Mina buys fifteen apples.",
+          "answer": "Ben buys twelve eggs.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Mina buys fifteen apples.",
+            "audioText": "Ben buys twelve eggs.",
             "accepted": [
-              "Mina buys fifteen apples."
+              "Ben buys twelve eggs."
             ]
           }
         },
@@ -2422,13 +2423,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Mina has a sister.",
+          "answer": "Mina has a brother.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Mina has a sister.",
+            "audioText": "Mina has a brother.",
             "accepted": [
-              "Mina has a sister."
+              "Mina has a brother."
             ]
           }
         },
@@ -2849,13 +2850,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "The bathroom is upstairs.",
+          "answer": "The kitchen is downstairs.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "The bathroom is upstairs.",
+            "audioText": "The kitchen is downstairs.",
             "accepted": [
-              "The bathroom is upstairs."
+              "The kitchen is downstairs."
             ]
           }
         },
@@ -3258,13 +3259,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Mina gets up at six.",
+          "answer": "Mina gets up at seven.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Mina gets up at six.",
+            "audioText": "Mina gets up at seven.",
             "accepted": [
-              "Mina gets up at six."
+              "Mina gets up at seven."
             ]
           }
         },
@@ -3690,13 +3691,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "I would like tea and a sandwich.",
+          "answer": "I would like coffee and a salad.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "I would like tea and a sandwich.",
+            "audioText": "I would like coffee and a salad.",
             "accepted": [
-              "I would like tea and a sandwich."
+              "I would like coffee and a salad."
             ]
           }
         },
@@ -4491,7 +4492,7 @@
             "options": [
               "On the right.",
               "On the left.",
-              "Straight ahead.",
+              "Go straight.",
               "Behind you."
             ],
             "accepted": [
@@ -4542,13 +4543,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "The library is on the right.",
+          "answer": "The bank is on the left.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "The library is on the right.",
+            "audioText": "The bank is on the left.",
             "accepted": [
-              "The library is on the right."
+              "The bank is on the left."
             ]
           }
         },
@@ -4654,7 +4655,7 @@
           "id": "a1-places-production-v3-5",
           "kind": "grammar",
           "required": true,
-          "prompt": "Which version has the full stops in the right places?",
+          "prompt": "Which version is in the right order?",
           "answer": "Go straight. Turn left. The library is on the right.",
           "explanation": "Separate instructions and the statement with sentence boundaries.",
           "childObjectiveIds": [
@@ -4664,9 +4665,9 @@
             "type": "choice",
             "options": [
               "Go straight. Turn left. The library is on the right.",
-              "Go straight turn left. The library is on the right.",
-              "Go straight. Turn left the library. Is on the right.",
-              "Go. Straight turn left the library is on the right."
+              "Go straight left turn. Library the is on right.",
+              "Turn left straight go. The library right is on.",
+              "The library right is. Go straight turn left on."
             ],
             "accepted": [
               "Go straight. Turn left. The library is on the right."
@@ -4912,14 +4913,14 @@
           "id": "a1-hobbies-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina plays the piano on Sunday. She also likes cooking. When does she play the piano?",
+          "prompt": "Read this. Mina plays the piano on Sunday. She cooks on Monday. When does she play the piano?",
           "answer": "On Sunday.",
           "exercise": {
             "type": "choice",
             "options": [
               "On Sunday.",
-              "On Saturday.",
               "On Monday.",
+              "On Saturday.",
               "At night."
             ],
             "accepted": [
@@ -4970,13 +4971,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Mina plays the piano on Sunday.",
+          "answer": "Ben plays football on Saturday.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Mina plays the piano on Sunday.",
+            "audioText": "Ben plays football on Saturday.",
             "accepted": [
-              "Mina plays the piano on Sunday."
+              "Ben plays football on Saturday."
             ]
           }
         },
@@ -5340,7 +5341,7 @@
           "id": "a1-weather-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. It is hot and sunny. Mina wants water. What is the weather like?",
+          "prompt": "Read this. Yesterday it was cold and rainy. Today it is hot and sunny. Mina wants water. What is the weather like today?",
           "answer": "Hot and sunny.",
           "exercise": {
             "type": "choice",
@@ -5398,13 +5399,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "It is hot and sunny.",
+          "answer": "The weather is cold today.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "It is hot and sunny.",
+            "audioText": "The weather is cold today.",
             "accepted": [
-              "It is hot and sunny."
+              "The weather is cold today."
             ]
           }
         },
@@ -5797,8 +5798,8 @@
           "id": "a2-travel-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina stayed in a hotel in Chicago.",
-          "answer": "False",
+          "prompt": "True or false: Mina stayed with her aunt in Chicago.",
+          "answer": "True",
           "explanation": "She stayed with her aunt because the hotels were full.",
           "exercise": {
             "type": "choice",
@@ -5807,7 +5808,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -5816,13 +5817,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Mina took the train to Chicago in June.",
+          "answer": "Ben took the bus to Boston in July.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Mina took the train to Chicago in June.",
+            "audioText": "Ben took the bus to Boston in July.",
             "accepted": [
-              "Mina took the train to Chicago in June."
+              "Ben took the bus to Boston in July."
             ]
           }
         },
@@ -5958,7 +5959,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about a place you visited.",
-          "answer": "I went to …",
+          "answer": "I went",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6068,7 +6069,7 @@
           "id": "a2-transport-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina's taxi was too expensive, so she walked to the station. Why did she walk?",
+          "prompt": "Read this. Mina’s taxi was too expensive, so she walked to the station. Why did she walk?",
           "answer": "The taxi was too expensive.",
           "exercise": {
             "type": "choice",
@@ -6255,7 +6256,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about arriving too late for transport.",
-          "answer": "I missed the bus.",
+          "answer": "I missed",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6293,7 +6294,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the start of a direction question.",
-          "answer": "How do I get to …?",
+          "answer": "How do I get to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6423,8 +6424,8 @@
           "id": "a2-appointments-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina wants to keep her Friday appointment.",
-          "answer": "False",
+          "prompt": "True or false: Mina needs to reschedule her Friday appointment.",
+          "answer": "True",
           "explanation": "She needs to reschedule it because she is working.",
           "exercise": {
             "type": "choice",
@@ -6433,7 +6434,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -6578,7 +6579,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a polite start for a request.",
-          "answer": "Could I …?",
+          "answer": "Could I",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6688,18 +6689,18 @@
           "id": "a2-health-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina's head has hurt since yesterday. She thinks she should rest. How long has her head hurt?",
-          "answer": "Since yesterday.",
+          "prompt": "Read this. Mina’s head has hurt since yesterday. She thinks she should rest. How long has her head hurt?",
+          "answer": "For about a day.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Since yesterday.",
+              "For about a day.",
               "For one week.",
               "Since Monday.",
               "Since this morning."
             ],
             "accepted": [
-              "Since yesterday."
+              "For about a day."
             ]
           }
         },
@@ -6727,7 +6728,7 @@
           "id": "a2-health-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina's head started hurting this morning.",
+          "prompt": "True or false: Mina’s head started hurting this morning.",
           "answer": "False",
           "explanation": "Her head has hurt since yesterday.",
           "exercise": {
@@ -6856,7 +6857,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about pain.",
-          "answer": "It hurts.",
+          "answer": "It hurts",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6894,7 +6895,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a gentle piece of advice.",
-          "answer": "You should …",
+          "answer": "you should",
           "exercise": {
             "type": "choice",
             "options": [
@@ -6995,7 +6996,7 @@
         {
           "itemId": "a2-eating-bill",
           "senseId": "bill",
-          "lemma": "the bill",
+          "lemma": "the check",
           "meaning": "The paper that shows what you must pay."
         }
       ],
@@ -7005,17 +7006,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. The soup was cold, so Mina asked for another bowl. The server said the kitchen would replace it. Why did she ask again?",
-          "answer": "The soup was cold.",
+          "answer": "It was not hot enough.",
           "exercise": {
             "type": "choice",
             "options": [
-              "The soup was cold.",
+              "It was not hot enough.",
               "The soup was too salty.",
               "The bowl was dirty.",
               "The server was late."
             ],
             "accepted": [
-              "The soup was cold."
+              "It was not hot enough."
             ]
           }
         },
@@ -7030,7 +7031,7 @@
             "type": "choice",
             "options": [
               "The menu.",
-              "The bill.",
+              "The check.",
               "The fish.",
               "The table."
             ],
@@ -7043,8 +7044,8 @@
           "id": "a2-eating-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: The server refused to change the soup.",
-          "answer": "False",
+          "prompt": "True or false: The server said the kitchen would replace the soup.",
+          "answer": "True",
           "explanation": "The server said the kitchen would replace it.",
           "exercise": {
             "type": "choice",
@@ -7053,7 +7054,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -7172,14 +7173,14 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a polite request for the menu.",
-          "answer": "Could we see the menu?",
+          "answer": "Could we see the menu",
           "exercise": {
             "type": "choice",
             "options": [
               "Could we see the menu",
               "another bowl",
               "I would recommend",
-              "the bill"
+              "the check"
             ],
             "accepted": [
               "Could we see the menu"
@@ -7197,7 +7198,7 @@
             "options": [
               "another bowl",
               "I would recommend",
-              "the bill",
+              "the check",
               "a table for two"
             ],
             "accepted": [
@@ -7210,12 +7211,12 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a way to suggest a dish.",
-          "answer": "I would recommend …",
+          "answer": "I would recommend",
           "exercise": {
             "type": "choice",
             "options": [
               "I would recommend",
-              "the bill",
+              "the check",
               "a table for two",
               "Could we see the menu"
             ],
@@ -7229,17 +7230,17 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the paper that shows what you must pay.",
-          "answer": "the bill",
+          "answer": "the check",
           "exercise": {
             "type": "choice",
             "options": [
-              "the bill",
+              "the check",
               "a table for two",
               "Could we see the menu",
               "another bowl"
             ],
             "accepted": [
-              "the bill"
+              "the check"
             ]
           }
         },
@@ -7274,7 +7275,7 @@
           "withheldFromPractice": true
         }
       ],
-      "tip": "At a restaurant, say “A table for two, please.” Ask politely: “Could we see the menu?” Use “so” for a result: “The soup was cold, so I asked again.” Say “I would recommend the fish” to suggest something, and ask for “the bill” when you finish.",
+      "tip": "At a restaurant, say “A table for two, please.” Ask politely: “Could we see the menu?” Use “so” for a result: “The soup was cold, so I asked again.” Say “I would recommend the fish” to suggest something, and ask for “the check” when you finish.",
       "trackId": "course"
     },
     {
@@ -7311,7 +7312,7 @@
         {
           "itemId": "a2-invitations-lets",
           "senseId": "lets",
-          "lemma": "Let's meet",
+          "lemma": "Let’s meet",
           "meaning": "A suggestion to meet."
         }
       ],
@@ -7321,17 +7322,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina invites her neighbor for coffee on Sunday. He is busy, so he says maybe next week. Why does he not accept?",
-          "answer": "He is busy.",
+          "answer": "He has other plans.",
           "exercise": {
             "type": "choice",
             "options": [
-              "He is busy.",
+              "He has other plans.",
               "He does not like coffee.",
-              "He is on holiday.",
+              "He is on vacation.",
               "He is sick."
             ],
             "accepted": [
-              "He is busy."
+              "He has other plans."
             ]
           }
         },
@@ -7348,7 +7349,7 @@
               "Dinner on Saturday.",
               "Coffee on Sunday.",
               "Lunch on Friday.",
-              "A film on Monday."
+              "A movie on Monday."
             ],
             "accepted": [
               "Dinner on Saturday."
@@ -7392,7 +7393,7 @@
           "id": "a2-invitations-g1",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill in the blank: ___ you like to come?",
+          "prompt": "Invite politely: ___ you like to come?",
           "answer": "Would",
           "exercise": {
             "type": "choice",
@@ -7445,11 +7446,11 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Fill in the blank: ___ meet at six.",
-          "answer": "Let's",
+          "answer": "Let’s",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "Let's",
+              "Let’s",
               "Let us"
             ]
           }
@@ -7459,7 +7460,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the question that asks if someone has time.",
-          "answer": "Are you free?",
+          "answer": "Are you free",
           "exercise": {
             "type": "choice",
             "options": [
@@ -7478,14 +7479,14 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a polite invitation start.",
-          "answer": "Would you like to …?",
+          "answer": "Would you like",
           "exercise": {
             "type": "choice",
             "options": [
               "Would you like",
               "I am busy",
               "maybe next week",
-              "Let's meet"
+              "Let’s meet"
             ],
             "accepted": [
               "Would you like"
@@ -7497,13 +7498,13 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence that declines because of no time.",
-          "answer": "I am busy.",
+          "answer": "I am busy",
           "exercise": {
             "type": "choice",
             "options": [
               "I am busy",
               "maybe next week",
-              "Let's meet",
+              "Let’s meet",
               "Are you free"
             ],
             "accepted": [
@@ -7521,7 +7522,7 @@
             "type": "choice",
             "options": [
               "maybe next week",
-              "Let's meet",
+              "Let’s meet",
               "Are you free",
               "Would you like"
             ],
@@ -7535,17 +7536,17 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a suggestion to meet.",
-          "answer": "Let's meet …",
+          "answer": "Let’s meet",
           "exercise": {
             "type": "choice",
             "options": [
-              "Let's meet",
+              "Let’s meet",
               "Are you free",
               "Would you like",
               "I am busy"
             ],
             "accepted": [
-              "Let's meet"
+              "Let’s meet"
             ]
           }
         },
@@ -7575,12 +7576,12 @@
           "id": "a2-invitations-transfer",
           "kind": "guidedSpeaking",
           "required": false,
-          "prompt": "A classmate invites you to a film. Accept or give a reason you cannot go.",
+          "prompt": "A classmate invites you to a movie. Accept or give a reason you cannot go.",
           "answer": "An answer to an invitation, with a reason if you decline.",
           "withheldFromPractice": true
         }
       ],
-      "tip": "To invite someone, say “Would you like to come?” or “Are you free on Saturday?” To say no politely, say “I'm busy on Sunday, but maybe next week.” Use “Let's” to suggest a plan: “Let's meet at six.” Thank the person for asking.",
+      "tip": "To invite someone, say “Would you like to come?” or “Are you free on Saturday?” To say no politely, say “I’m busy on Sunday, but maybe next week.” Use “Let’s” to suggest a plan: “Let’s meet at six.” Thank the person for asking.",
       "trackId": "course"
     },
     {
@@ -7594,7 +7595,7 @@
           "itemId": "a2-leisure-saw",
           "senseId": "saw",
           "lemma": "We saw",
-          "meaning": "A past sentence about a film or show."
+          "meaning": "A past sentence about a movie or show."
         },
         {
           "itemId": "a2-leisure-walked",
@@ -7627,17 +7628,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina wanted to stay home because she was too tired for a concert. She read instead. Why did she stay home?",
-          "answer": "She was too tired.",
+          "answer": "She had no energy.",
           "exercise": {
             "type": "choice",
             "options": [
-              "She was too tired.",
+              "She had no energy.",
               "She had no ticket.",
               "She did not like music.",
-              "The concert was cancelled."
+              "The concert was canceled."
             ],
             "accepted": [
-              "She was too tired."
+              "She had no energy."
             ]
           }
         },
@@ -7645,7 +7646,7 @@
           "id": "a2-leisure-listen",
           "kind": "listening",
           "required": true,
-          "prompt": "Play the recording. What did they do after the film?",
+          "prompt": "Play the recording. What did they do after the movie?",
           "answer": "They walked by the river.",
           "assetId": "a2-leisure-listen",
           "exercise": {
@@ -7654,7 +7655,7 @@
               "They walked by the river.",
               "They went to a restaurant.",
               "They went home by bus.",
-              "They watched another film."
+              "They watched another movie."
             ],
             "accepted": [
               "They walked by the river."
@@ -7665,8 +7666,8 @@
           "id": "a2-leisure-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina went to the concert.",
-          "answer": "False",
+          "prompt": "True or false: Mina stayed home because she was too tired.",
+          "answer": "True",
           "explanation": "She stayed home because she was too tired.",
           "exercise": {
             "type": "choice",
@@ -7675,7 +7676,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -7684,13 +7685,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "We saw a film last night.",
+          "answer": "We saw a movie last night.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "We saw a film last night.",
+            "audioText": "We saw a movie last night.",
             "accepted": [
-              "We saw a film last night."
+              "We saw a movie last night."
             ]
           }
         },
@@ -7698,7 +7699,7 @@
           "id": "a2-leisure-g1",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill in the blank: We ___ a film last night.",
+          "prompt": "Fill in the blank: We ___ a movie last night.",
           "answer": "saw",
           "exercise": {
             "type": "choice",
@@ -7755,7 +7756,7 @@
           "id": "a2-leisure-g4",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill in the blank: We walked ___ the film.",
+          "prompt": "Fill in the blank: We walked ___ the movie.",
           "answer": "after",
           "exercise": {
             "type": "choice",
@@ -7774,8 +7775,8 @@
           "id": "a2-leisure-recall-saw",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the best start for a past sentence about a film or show.",
-          "answer": "We saw …",
+          "prompt": "Choose the best start for a past sentence about a movie or show.",
+          "answer": "We saw",
           "exercise": {
             "type": "choice",
             "options": [
@@ -7794,7 +7795,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about a walk.",
-          "answer": "We walked …",
+          "answer": "we walked",
           "exercise": {
             "type": "choice",
             "options": [
@@ -7896,7 +7897,7 @@
           "withheldFromPractice": true
         }
       ],
-      "tip": "Talk about last night with the past simple: “We saw a film.” Use “too” for a problem with a limit (too tired, too crowded) and “enough” for the right amount (enough time). Use “after” to say what came next: “We walked after the film.”",
+      "tip": "Talk about last night with the past simple: “We saw a movie.” Use “too” for a problem with a limit (too tired, too crowded) and “enough” for the right amount (enough time). Use “after” to say what came next: “We walked after the movie.”",
       "trackId": "course"
     },
     {
@@ -7943,17 +7944,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina had to cover the front desk while her coworker was out. She usually answers email in the morning. What did she have to do?",
-          "answer": "Cover the front desk.",
+          "answer": "Do a coworker’s job for a while.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Cover the front desk.",
+              "Do a coworker’s job for a while.",
               "Answer all the email.",
               "Close the office.",
               "Write a report."
             ],
             "accepted": [
-              "Cover the front desk."
+              "Do a coworker’s job for a while."
             ]
           }
         },
@@ -8091,7 +8092,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about your normal start.",
-          "answer": "I usually start at …",
+          "answer": "I usually",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8123,7 +8124,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about a duty.",
-          "answer": "I had to …",
+          "answer": "I had to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8285,8 +8286,8 @@
           "id": "a2-past-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina has never visited the museum.",
-          "answer": "False",
+          "prompt": "True or false: Mina has already visited the museum.",
+          "answer": "True",
           "explanation": "She has already visited the museum.",
           "exercise": {
             "type": "choice",
@@ -8295,7 +8296,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -8375,7 +8376,7 @@
           "id": "a2-past-g4",
           "kind": "grammar",
           "required": true,
-          "prompt": "Fill in the blank: She has ___ seen that film.",
+          "prompt": "Fill in the blank: She has ___ seen that movie.",
           "answer": "already",
           "exercise": {
             "type": "choice",
@@ -8395,7 +8396,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about something you have not done.",
-          "answer": "I have never …",
+          "answer": "I have never",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8414,7 +8415,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about one finished trip or activity.",
-          "answer": "I went …",
+          "answer": "I went",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8433,7 +8434,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the start of a past question.",
-          "answer": "When did you …?",
+          "answer": "When did you",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8504,7 +8505,7 @@
           "withheldFromPractice": true
         }
       ],
-      "tip": "Use the present perfect for life experience: “I have never tried skiing.” Use the past simple when you say when: “I went swimming last summer.” Ask “When did you go?” for the time. “Already” means before now: “She has already seen that film.”",
+      "tip": "Use the present perfect for life experience: “I have never tried skiing.” Use the past simple when you say when: “I went swimming last summer.” Ask “When did you go?” for the time. “Already” means before now: “She has already seen that movie.”",
       "trackId": "course"
     },
     {
@@ -8699,7 +8700,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a plan you have decided.",
-          "answer": "I am going to …",
+          "answer": "I am going to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8718,7 +8719,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a decision you make as you speak.",
-          "answer": "I will …",
+          "answer": "I will",
           "exercise": {
             "type": "choice",
             "options": [
@@ -8861,17 +8862,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. The elevator was broken, so Mina used the stairs. She arrived late and explained why. Why was she late?",
-          "answer": "The elevator was broken.",
+          "answer": "The elevator did not work.",
           "exercise": {
             "type": "choice",
             "options": [
-              "The elevator was broken.",
+              "The elevator did not work.",
               "She missed the train.",
               "Her phone was broken.",
               "She woke up late."
             ],
             "accepted": [
-              "The elevator was broken."
+              "The elevator did not work."
             ]
           }
         },
@@ -8899,8 +8900,8 @@
           "id": "a2-problems-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina took the elevator to her office.",
-          "answer": "False",
+          "prompt": "True or false: Mina used the stairs because the elevator was broken.",
+          "answer": "True",
           "explanation": "The elevator was broken, so she used the stairs.",
           "exercise": {
             "type": "choice",
@@ -8909,7 +8910,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -9009,7 +9010,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about keys or a door.",
-          "answer": "I locked …",
+          "answer": "I locked",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9041,7 +9042,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a polite request for help.",
-          "answer": "Could you …?",
+          "answer": "Could you",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9073,7 +9074,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about asking someone for help.",
-          "answer": "I called …",
+          "answer": "I called",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9203,8 +9204,8 @@
           "id": "b1-education-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina is still studying law.",
-          "answer": "False",
+          "prompt": "True or false: Mina used to study law.",
+          "answer": "True",
           "explanation": "She used to study law, but she changed courses after a summer job.",
           "exercise": {
             "type": "choice",
@@ -9213,7 +9214,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -9312,13 +9313,12 @@
           "id": "b1-education-recall-because",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a sentence that gives a reason for a study choice.",
-          "answer": "I study … because …",
+          "prompt": "Write the word that gives a reason.",
+          "answer": "because",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "because",
-              "I study … because …"
+              "because"
             ]
           }
         },
@@ -9327,7 +9327,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a comparison about difficulty.",
-          "answer": "… is harder than …",
+          "answer": "harder than",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9346,7 +9346,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a past study habit.",
-          "answer": "I used to …",
+          "answer": "used to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9365,7 +9365,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a study decision.",
-          "answer": "I decided to …",
+          "answer": "I decided to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9476,17 +9476,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina would like to move from support into planning. She has been keeping a record of projects so her application has evidence. What move does she want?",
-          "answer": "From support into planning.",
+          "answer": "To a job in planning.",
           "exercise": {
             "type": "choice",
             "options": [
-              "From support into planning.",
-              "From planning into support.",
-              "From sales into design.",
-              "From school into work."
+              "To a job in planning.",
+              "To a job in support.",
+              "To a job in design.",
+              "To a job in sales."
             ],
             "accepted": [
-              "From support into planning."
+              "To a job in planning."
             ]
           }
         },
@@ -9624,7 +9624,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a future role.",
-          "answer": "I hope to …",
+          "answer": "I hope to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9643,7 +9643,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a purpose for the study you are doing.",
-          "answer": "… so I can …",
+          "answer": "so I can",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9662,7 +9662,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about an action that continues until now.",
-          "answer": "I have been …",
+          "answer": "I have been",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9681,7 +9681,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a polite career wish.",
-          "answer": "I would like to …",
+          "answer": "I would like to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9791,18 +9791,18 @@
           "id": "b1-relationships-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina and her brother argue about money, although they still share a flat. They have lived together for two years. How long have they lived together?",
-          "answer": "For two years.",
+          "prompt": "Read this. Mina and her brother argue about money, although they still share a apartment. They have lived together for two years. How long have they lived together?",
+          "answer": "About two years.",
           "exercise": {
             "type": "choice",
             "options": [
-              "For two years.",
+              "About two years.",
               "Since last month.",
               "For ten years.",
               "Since yesterday."
             ],
             "accepted": [
-              "For two years."
+              "About two years."
             ]
           }
         },
@@ -9927,7 +9927,7 @@
             "options": [
               "each other",
               "each others",
-              "one other's",
+              "one other’s",
               "themselves"
             ],
             "accepted": [
@@ -9940,7 +9940,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about how long you have known someone.",
-          "answer": "I have known … since …",
+          "answer": "have known",
           "exercise": {
             "type": "choice",
             "options": [
@@ -9977,13 +9977,12 @@
           "id": "b1-relationships-recall-although",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a contrast about getting along.",
-          "answer": "Although we …, we …",
+          "prompt": "Write the word that starts a contrast.",
+          "answer": "although",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "although",
-              "Although we …, we …"
+              "although"
             ]
           }
         },
@@ -10011,7 +10010,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about paying attention in a disagreement.",
-          "answer": "We listen.",
+          "answer": "we listen",
           "exercise": {
             "type": "choice",
             "options": [
@@ -10102,7 +10101,7 @@
           "id": "b1-technology-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina uses a shared calendar instead of a paper notebook. When the app failed, she had better write the time down before she forgot it. What does she use instead of paper?",
+          "prompt": "Read this. Mina uses a shared calendar instead of a paper notebook. When the app failed, she wrote the time down before she forgot it. What does she use instead of paper?",
           "answer": "A shared calendar.",
           "exercise": {
             "type": "choice",
@@ -10141,8 +10140,8 @@
           "id": "b1-technology-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina uses a paper notebook to remember times.",
-          "answer": "False",
+          "prompt": "True or false: Mina uses a shared calendar instead of a paper notebook.",
+          "answer": "True",
           "explanation": "She uses a shared calendar instead of a paper notebook.",
           "exercise": {
             "type": "choice",
@@ -10151,7 +10150,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -10321,7 +10320,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about texting after a problem.",
-          "answer": "I sent a message.",
+          "answer": "sent a message",
           "exercise": {
             "type": "choice",
             "options": [
@@ -10373,7 +10372,7 @@
       "id": "b1-entertainment",
       "contentVersion": "3",
       "level": "B1",
-      "title": "Recommend a show or film",
+      "title": "Recommend a show or movie",
       "objectiveId": "SHOW-03",
       "senses": [
         {
@@ -10412,18 +10411,18 @@
           "id": "b1-entertainment-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina would rather watch a short series than a film on a weeknight. She says the story is slow while the characters are excellent. What would she rather watch on a weeknight?",
-          "answer": "A short series.",
+          "prompt": "Read this. Mina would rather watch a short series than a movie on a weeknight. She says the story is slow while the characters are excellent. What would she rather watch on a weeknight?",
+          "answer": "A TV show that is not long.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A short series.",
-              "A long film.",
+              "A TV show that is not long.",
+              "A long movie.",
               "A music show.",
               "A news program."
             ],
             "accepted": [
-              "A short series."
+              "A TV show that is not long."
             ]
           }
         },
@@ -10451,7 +10450,7 @@
           "id": "b1-entertainment-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina would rather watch a film than a short series on a weeknight.",
+          "prompt": "True or false: Mina would rather watch a movie than a short series on a weeknight.",
           "answer": "False",
           "explanation": "She would rather watch a short series.",
           "exercise": {
@@ -10593,7 +10592,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a preference between two options.",
-          "answer": "I would rather …",
+          "answer": "I would rather",
           "exercise": {
             "type": "choice",
             "options": [
@@ -10611,7 +10610,7 @@
           "id": "b1-entertainment-recall-while",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a contrast that is true at the same time.",
+          "prompt": "Write the word that links two things true at the same time.",
           "answer": "while",
           "exercise": {
             "type": "fillBlank",
@@ -10716,7 +10715,7 @@
           "id": "b1-culture-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina's office expects people to arrive a little early, whereas her family treats the stated time as flexible. She gives examples such as a short greeting before the meal. Where is arrival more flexible?",
+          "prompt": "Read this. Mina’s office expects people to arrive a little early, whereas her family treats the stated time as flexible. She gives examples such as a short greeting before the meal. Where is arrival more flexible?",
           "answer": "In her family.",
           "exercise": {
             "type": "choice",
@@ -10755,8 +10754,8 @@
           "id": "b1-culture-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: In Mina's office, people arrive whenever they like.",
-          "answer": "False",
+          "prompt": "True or false: Mina’s office expects people to arrive a little early.",
+          "answer": "True",
           "explanation": "Her office expects people to arrive a little early.",
           "exercise": {
             "type": "choice",
@@ -10765,7 +10764,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -10864,13 +10863,12 @@
           "id": "b1-culture-recall-usually",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a sentence about a repeated custom.",
-          "answer": "People usually …",
+          "prompt": "Write the word for a repeated custom.",
+          "answer": "usually",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "usually",
-              "People usually …"
+              "usually"
             ]
           }
         },
@@ -10879,7 +10877,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a social rule.",
-          "answer": "Guests are expected to …",
+          "answer": "are expected to",
           "exercise": {
             "type": "choice",
             "options": [
@@ -10897,13 +10895,12 @@
           "id": "b1-culture-recall-whereas",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a contrast between two customs.",
-          "answer": "…, whereas …",
+          "prompt": "Write the word that sets two customs side by side.",
+          "answer": "whereas",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "whereas",
-              "…, whereas …"
+              "whereas"
             ]
           }
         },
@@ -11170,13 +11167,12 @@
           "id": "b1-community-recall-started",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a past sentence about beginning a local project.",
-          "answer": "We started …",
+          "prompt": "Write the past verb for beginning a local project.",
+          "answer": "started",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "started",
-              "We started …"
+              "started"
             ]
           }
         },
@@ -11185,7 +11181,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a phrase that identifies which neighbors.",
-          "answer": "neighbors who …",
+          "answer": "neighbors who",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11204,7 +11200,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about lending equipment.",
-          "answer": "We share tools.",
+          "answer": "share tools",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11223,7 +11219,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a purpose for a community action.",
-          "answer": "… so that …",
+          "answer": "so that",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11242,7 +11238,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a first-time organizer.",
-          "answer": "They had never …",
+          "answer": "had never",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11334,17 +11330,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina was proud of finishing a 10k after she had stopped training for a year. She says the result mattered because she kept going. What did she finish?",
-          "answer": "A 10k.",
+          "answer": "A ten-kilometer race.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A 10k.",
+              "A ten-kilometer race.",
               "A marathon.",
               "A half marathon.",
               "A swimming race."
             ],
             "accepted": [
-              "A 10k."
+              "A ten-kilometer race."
             ]
           }
         },
@@ -11372,8 +11368,8 @@
           "id": "b1-achievements-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina trained all through the year before the 10k.",
-          "answer": "False",
+          "prompt": "True or false: Mina had stopped training for a year before she finished the 10k.",
+          "answer": "True",
           "explanation": "She had stopped training for a year before she finished it.",
           "exercise": {
             "type": "choice",
@@ -11382,7 +11378,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -11482,7 +11478,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a success that took time.",
-          "answer": "I finally …",
+          "answer": "I finally",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11701,13 +11697,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "I chose the smaller flat because it was closer to work.",
+          "answer": "I chose the smaller apartment because it was closer to work.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "I chose the smaller flat because it was closer to work.",
+            "audioText": "I chose the smaller apartment because it was closer to work.",
             "accepted": [
-              "I chose the smaller flat because it was closer to work."
+              "I chose the smaller apartment because it was closer to work."
             ]
           }
         },
@@ -11715,7 +11711,7 @@
           "id": "b1-decisions-g1",
           "kind": "grammar",
           "required": true,
-          "prompt": "Choice: I ___ the smaller flat.",
+          "prompt": "Choice: I ___ the smaller apartment.",
           "answer": "chose",
           "exercise": {
             "type": "choice",
@@ -11792,7 +11788,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about a choice you made.",
-          "answer": "I chose …",
+          "answer": "I chose",
           "exercise": {
             "type": "choice",
             "options": [
@@ -11907,7 +11903,7 @@
           "withheldFromPractice": true
         }
       ],
-      "tip": "Explain a decision with “I chose…” and “because”: “I chose the smaller flat because it was closer.” “Too” means more than is good: “It was too far.” Use “rather than” to name the choice you did not make: “I picked evening rather than morning.”",
+      "tip": "Explain a decision with “I chose…” and “because”: “I chose the smaller apartment because it was closer.” “Too” means more than is good: “It was too far.” Use “rather than” to name the choice you did not make: “I picked evening rather than morning.”",
       "trackId": "course"
     },
     {
@@ -11954,17 +11950,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. By the time Mina reached the hall, the talk had started. She ended up sitting at the back and listening from there. Where did she sit?",
-          "answer": "At the back.",
+          "answer": "In the back rows.",
           "exercise": {
             "type": "choice",
             "options": [
-              "At the back.",
+              "In the back rows.",
               "At the front.",
               "Outside the hall.",
               "In the first row."
             ],
             "accepted": [
-              "At the back."
+              "In the back rows."
             ]
           }
         },
@@ -11992,8 +11988,8 @@
           "id": "b1-unexpected-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina arrived before the talk started.",
-          "answer": "False",
+          "prompt": "True or false: The talk had started by the time Mina reached the hall.",
+          "answer": "True",
           "explanation": "By the time she reached the hall, the talk had started.",
           "exercise": {
             "type": "choice",
@@ -12002,7 +11998,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -12135,7 +12131,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a past sentence about warning someone.",
-          "answer": "I texted …",
+          "answer": "I texted",
           "exercise": {
             "type": "choice",
             "options": [
@@ -12154,7 +12150,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a phrase for a late arrival.",
-          "answer": "By the time I …",
+          "answer": "by the time",
           "exercise": {
             "type": "choice",
             "options": [
@@ -12265,17 +12261,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Even though the team had a date, Mina argued for a short delay. The alternative was a public failure that would cost more than two weeks. What did she argue for?",
-          "answer": "A short delay.",
+          "answer": "Waiting a little longer.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A short delay.",
+              "Waiting a little longer.",
               "An earlier date.",
               "A bigger team.",
               "A public launch."
             ],
             "accepted": [
-              "A short delay."
+              "Waiting a little longer."
             ]
           }
         },
@@ -12607,8 +12603,8 @@
           "id": "b2-leadership-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina asks people to hide bad news until the meeting ends.",
-          "answer": "False",
+          "prompt": "True or false: Mina invites bad news early, even when it slows the meeting.",
+          "answer": "True",
           "explanation": "She invites bad news early, even when it slows the meeting.",
           "exercise": {
             "type": "choice",
@@ -12617,7 +12613,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -12884,18 +12880,18 @@
           "id": "b2-media-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina treats a viral clip as if it were the whole event. She asks which source counted the claim and which source only repeated it. What does she refuse to treat as the whole event?",
-          "answer": "A viral clip.",
+          "prompt": "Read this. Mina refuses to treat a viral clip as if it were the whole event. She asks which source counted the claim and which source only repeated it. What does she refuse to treat as the whole event?",
+          "answer": "A video that spread online.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A viral clip.",
+              "A video that spread online.",
               "A news report.",
               "A court case.",
               "A weather map."
             ],
             "accepted": [
-              "A viral clip."
+              "A video that spread online."
             ]
           }
         },
@@ -13195,17 +13191,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina argues that a new rail line helps commuters while it can raise prices for people who already live beside the stations. She wants both the line and protections. Who may face higher prices?",
-          "answer": "People who already live beside the stations.",
+          "answer": "Current residents near the stations.",
           "exercise": {
             "type": "choice",
             "options": [
-              "People who already live beside the stations.",
+              "Current residents near the stations.",
               "Commuters on the new line.",
               "People who live far away.",
               "The owners of the trains."
             ],
             "accepted": [
-              "People who already live beside the stations."
+              "Current residents near the stations."
             ]
           }
         },
@@ -13220,7 +13216,7 @@
             "type": "choice",
             "options": [
               "Workers.",
-              "Shop owners.",
+              "Store owners.",
               "Students.",
               "Visitors."
             ],
@@ -13233,8 +13229,8 @@
           "id": "b2-social-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina is against building the new rail line.",
-          "answer": "False",
+          "prompt": "True or false: Mina wants both the new rail line and protections for the people who live beside the stations.",
+          "answer": "True",
           "explanation": "She wants both the line and protections for the people who live beside the stations.",
           "exercise": {
             "type": "choice",
@@ -13243,7 +13239,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -13393,7 +13389,7 @@
           "id": "b2-social-recall-while",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a link between two effects that happen together.",
+          "prompt": "Write the word that links two effects that happen together.",
           "answer": "while",
           "exercise": {
             "type": "fillBlank",
@@ -13492,7 +13488,7 @@
           "id": "b2-innovation-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina's team kept a dashboard that nobody opened. The improvement was a shorter checklist rather than another screen. The step they cut was the one that only existed because an old audit asked for it. What did they cut?",
+          "prompt": "Read this. Mina’s team kept a dashboard that nobody opened. The improvement was a shorter checklist rather than another screen. The step they cut was the one that only existed because an old audit asked for it. What did they cut?",
           "answer": "A step nobody could explain, kept for an old audit.",
           "exercise": {
             "type": "choice",
@@ -13809,17 +13805,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina says the team owes users a plain reason unless the data is required for the service they asked for. She will not keep a field that has no named use. What does she owe users?",
-          "answer": "A plain reason.",
+          "answer": "A clear explanation.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A plain reason.",
+              "A clear explanation.",
               "A longer form.",
               "A free gift.",
               "A new field."
             ],
             "accepted": [
-              "A plain reason."
+              "A clear explanation."
             ]
           }
         },
@@ -13847,8 +13843,8 @@
           "id": "b2-ethics-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina would keep a data field with no named use.",
-          "answer": "False",
+          "prompt": "True or false: Mina will not keep a data field that has no named use.",
+          "answer": "True",
           "explanation": "She will not keep a field that has no named use.",
           "exercise": {
             "type": "choice",
@@ -13857,7 +13853,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -14119,17 +14115,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina compares a reusable-cup drive with a change to the office thermostat. The thermostat cut energy by more than the cups did, though the cups were easier to photograph. Which change cut more energy?",
-          "answer": "The thermostat.",
+          "answer": "The office heating change.",
           "exercise": {
             "type": "choice",
             "options": [
-              "The thermostat.",
+              "The office heating change.",
               "The reusable cups.",
               "The poster campaign.",
               "The bicycles."
             ],
             "accepted": [
-              "The thermostat."
+              "The office heating change."
             ]
           }
         },
@@ -14137,7 +14133,7 @@
           "id": "b2-environment-listen",
           "kind": "listening",
           "required": true,
-          "prompt": "Play the recording. What did more than the poster campaign?",
+          "prompt": "Play the recording. What cut more than the poster campaign?",
           "answer": "Cutting the commute by two days a week.",
           "assetId": "b2-environment-listen",
           "exercise": {
@@ -14473,8 +14469,8 @@
           "id": "b2-present-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina starts with the history of the project.",
-          "answer": "False",
+          "prompt": "True or false: Mina tells new speakers to state the ask before the history.",
+          "answer": "True",
           "explanation": "She tells new speakers to state the ask before the history.",
           "exercise": {
             "type": "choice",
@@ -14483,7 +14479,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -15099,8 +15095,8 @@
           "id": "b2-disagree-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina and her colleague disagree about respect.",
-          "answer": "False",
+          "prompt": "True or false: Mina says the disagreement is about evidence, not about respect.",
+          "answer": "True",
           "explanation": "She says the disagreement is about evidence, not about respect.",
           "exercise": {
             "type": "choice",
@@ -15109,7 +15105,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -15209,7 +15205,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence that shows you heard the objection.",
-          "answer": "I see the risk.",
+          "answer": "I see the risk",
           "exercise": {
             "type": "choice",
             "options": [
@@ -15228,7 +15224,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence that keeps your decision.",
-          "answer": "I still choose …",
+          "answer": "I still choose",
           "exercise": {
             "type": "choice",
             "options": [
@@ -15265,13 +15261,12 @@
           "id": "b2-disagree-recall-although",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a concession before your choice.",
-          "answer": "Although …, I …",
+          "prompt": "Write the word that admits a point before your choice.",
+          "answer": "although",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "although",
-              "Although …, I …"
+              "although"
             ]
           }
         },
@@ -15280,7 +15275,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the promise to accept the result.",
-          "answer": "I will own …",
+          "answer": "I will own",
           "exercise": {
             "type": "choice",
             "options": [
@@ -15298,7 +15293,7 @@
           "id": "b2-disagree-guided",
           "kind": "guidedSpeaking",
           "required": true,
-          "prompt": "Name the other person's risk, keep your choice, and say what you will own if you are wrong.",
+          "prompt": "Name the other person’s risk, keep your choice, and say what you will own if you are wrong.",
           "answer": "I see ___. Although ___, I still choose ___. I will own it if ___."
         },
         {
@@ -15520,7 +15515,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence about an appearance that may mislead.",
-          "answer": "It looks efficient, but …",
+          "answer": "looks efficient",
           "exercise": {
             "type": "choice",
             "options": [
@@ -15682,17 +15677,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Although the interviews were consistent, Mina refuses to treat ten conversations as a market. She says the claim survives only inside this group, and a different recruitment method might change who appears. What does she refuse to treat the interviews as?",
-          "answer": "A market.",
+          "answer": "The whole market.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A market.",
+              "The whole market.",
               "A pilot.",
               "A diary.",
               "A rumor."
             ],
             "accepted": [
-              "A market."
+              "The whole market."
             ]
           }
         },
@@ -15720,8 +15715,8 @@
           "id": "c1-research-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina thinks ten interviews prove a general rule.",
-          "answer": "False",
+          "prompt": "True or false: Mina refuses to treat ten conversations as a market.",
+          "answer": "True",
           "explanation": "She refuses to treat ten conversations as a market.",
           "exercise": {
             "type": "choice",
@@ -15730,7 +15725,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -15886,13 +15881,12 @@
           "id": "c1-research-recall-although",
           "kind": "recall",
           "required": true,
-          "prompt": "Write a concession before the limit.",
-          "answer": "Although …, the claim …",
+          "prompt": "Write the word that admits a limit before the claim.",
+          "answer": "although",
           "exercise": {
             "type": "fillBlank",
             "accepted": [
-              "although",
-              "Although …, the claim …"
+              "although"
             ]
           }
         },
@@ -15992,7 +15986,7 @@
           "id": "c1-change-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Before Mina asks a team to switch tools, she gives them a week with the old and new side by side. The people who struggle are often the ones who were not in the room when the reason was explained. Who often struggles?",
+          "prompt": "Read this. Before Mina asks a team to switch tools, she gives them a week with the old and new tools side by side. The people who struggle are often the ones who were not in the room when the reason was explained. Who often struggles?",
           "answer": "People who were not in the room when the reason was explained.",
           "exercise": {
             "type": "choice",
@@ -16141,7 +16135,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose a correction of the cause.",
-          "answer": "not so much … as …",
+          "answer": "not so much as",
           "exercise": {
             "type": "choice",
             "options": [
@@ -16160,7 +16154,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the missing condition.",
-          "answer": "without a chance to …",
+          "answer": "without a chance",
           "exercise": {
             "type": "choice",
             "options": [
@@ -16457,7 +16451,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the best start for a sentence that refuses a single cause.",
-          "answer": "Two causes are tangled.",
+          "answer": "two causes are tangled",
           "exercise": {
             "type": "choice",
             "options": [
@@ -16532,7 +16526,7 @@
           "id": "c1-problems-recall-unless",
           "kind": "recall",
           "required": true,
-          "prompt": "Write the condition the partial fix ignores.",
+          "prompt": "Write the word for the condition the partial fix ignores.",
           "answer": "unless",
           "exercise": {
             "type": "fillBlank",
@@ -16657,8 +16651,8 @@
           "id": "c1-policy-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina hides the exception so people do not worry about it.",
-          "answer": "False",
+          "prompt": "True or false: Mina puts the exception next to the rule.",
+          "answer": "True",
           "explanation": "She puts the exception next to the rule so people do not discover it in a crisis.",
           "exercise": {
             "type": "choice",
@@ -16667,7 +16661,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -16709,7 +16703,7 @@
           "id": "c1-policy-g2",
           "kind": "grammar",
           "required": true,
-          "prompt": "Result: Write it down, ___ people will invent a path.",
+          "prompt": "Warning: Write it down, ___ people will invent a path.",
           "answer": "or",
           "exercise": {
             "type": "choice",
@@ -16785,7 +16779,7 @@
           "id": "c1-policy-recall-or",
           "kind": "recall",
           "required": true,
-          "prompt": "Write the consequence of leaving the exception out.",
+          "prompt": "Write the word that warns of the consequence.",
           "answer": "or",
           "exercise": {
             "type": "fillBlank",
@@ -16929,17 +16923,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina describes the pattern so that the person can respond to the work, not to a verdict. She avoids a motive she has not seen. She asks what would make the load shareable. What does she avoid claiming?",
-          "answer": "A motive she has not seen.",
+          "answer": "Why someone acted, without proof.",
           "exercise": {
             "type": "choice",
             "options": [
-              "A motive she has not seen.",
+              "Why someone acted, without proof.",
               "A pattern she has seen.",
               "A rule she wrote.",
               "A deadline she set."
             ],
             "accepted": [
-              "A motive she has not seen."
+              "Why someone acted, without proof."
             ]
           }
         },
@@ -17115,7 +17109,7 @@
           "kind": "recall",
           "required": true,
           "prompt": "Choose the sentence about unfair distribution.",
-          "answer": "The load is uneven.",
+          "answer": "the load is uneven",
           "exercise": {
             "type": "choice",
             "options": [
@@ -17283,8 +17277,8 @@
           "id": "c1-debate-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: The two groups disagree about the goal.",
-          "answer": "False",
+          "prompt": "True or false: The two groups share the aim but disagree about which measure to trust.",
+          "answer": "True",
           "explanation": "They share the aim; they disagree about which measure to trust.",
           "exercise": {
             "type": "choice",
@@ -17293,7 +17287,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -17302,13 +17296,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "One group trusts the survey, whereas the other trusts the incident log.",
+          "answer": "The team trusts the incident log, whereas the manager trusts the survey.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "One group trusts the survey, whereas the other trusts the incident log.",
+            "audioText": "The team trusts the incident log, whereas the manager trusts the survey.",
             "accepted": [
-              "One group trusts the survey, whereas the other trusts the incident log."
+              "The team trusts the incident log, whereas the manager trusts the survey."
             ]
           }
         },
@@ -17449,7 +17443,7 @@
           "id": "c1-debate-recall-whereas",
           "kind": "recall",
           "required": true,
-          "prompt": "Write the contrast between two sources.",
+          "prompt": "Write the word that contrasts two sources.",
           "answer": "whereas",
           "exercise": {
             "type": "fillBlank",
@@ -17593,8 +17587,8 @@
           "id": "c1-culture-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina treats a pause as a yes.",
-          "answer": "False",
+          "prompt": "True or false: Mina waits rather than treating a pause as a yes.",
+          "answer": "True",
           "explanation": "She waits rather than translating silence into agreement.",
           "exercise": {
             "type": "choice",
@@ -17603,7 +17597,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -17626,7 +17620,7 @@
           "id": "c1-culture-g1",
           "kind": "grammar",
           "required": true,
-          "prompt": "Contrast: A direct no can be clarity in one team ___ a closed door in another.",
+          "prompt": "Addition: A direct no can be clarity in one team ___ a closed door in another.",
           "answer": "and",
           "exercise": {
             "type": "choice",
@@ -17871,17 +17865,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina separates privacy from secrecy. Privacy is a claim about who decides the boundary. Secrecy can be that claim, or it can be the refusal to let a decision be seen at all. What is privacy a claim about?",
-          "answer": "Who decides the boundary.",
+          "answer": "Who sets the limit.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Who decides the boundary.",
+              "Who sets the limit.",
               "How much people hide.",
               "What a rule says.",
               "Why a secret is kept."
             ],
             "accepted": [
-              "Who decides the boundary."
+              "Who sets the limit."
             ]
           }
         },
@@ -17909,8 +17903,8 @@
           "id": "c2-abstract-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina thinks privacy and secrecy mean the same thing.",
-          "answer": "False",
+          "prompt": "True or false: Mina separates privacy from secrecy.",
+          "answer": "True",
           "explanation": "She separates privacy, a claim about who decides the boundary, from secrecy.",
           "exercise": {
             "type": "choice",
@@ -17919,7 +17913,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },
@@ -17928,13 +17922,13 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Listen, then write the sentence.",
-          "answer": "Privacy is a claim about who decides the boundary.",
+          "answer": "A boundary is a decision about who may see what.",
           "explanation": "Listen for each word, then check the spelling.",
           "exercise": {
             "type": "listenType",
-            "audioText": "Privacy is a claim about who decides the boundary.",
+            "audioText": "A boundary is a decision about who may see what.",
             "accepted": [
-              "Privacy is a claim about who decides the boundary."
+              "A boundary is a decision about who may see what."
             ]
           }
         },
@@ -18187,17 +18181,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. Mina keeps three readings on the table until the speakers supply the history. She will not let the neatest reading win only because it is neat. Closing early would feel decisive and might be wrong. What will she not let win by itself?",
-          "answer": "The neatest reading.",
+          "answer": "The most orderly reading.",
           "exercise": {
             "type": "choice",
             "options": [
-              "The neatest reading.",
+              "The most orderly reading.",
               "The longest reading.",
               "The oldest reading.",
               "The loudest reading."
             ],
             "accepted": [
-              "The neatest reading."
+              "The most orderly reading."
             ]
           }
         },
@@ -18396,13 +18390,13 @@
           "exercise": {
             "type": "choice",
             "options": [
-              "the history between",
+              "the history between the speakers",
               "the neatest reading",
               "the same pause",
               "respect, doubt, or refusal"
             ],
             "accepted": [
-              "the history between"
+              "the history between the speakers"
             ]
           }
         },
@@ -18502,18 +18496,18 @@
           "id": "c2-debate-read",
           "kind": "reading",
           "required": true,
-          "prompt": "Read this. Mina restates her colleague's case better than the colleague did, then declines the leap. She says agreement on the facts is not agreement on what follows. The missing test is whether the pattern holds outside this team. What is not the same as agreement on what follows?",
-          "answer": "Agreement on the facts.",
+          "prompt": "Read this. Mina restates her colleague’s case better than the colleague did, then declines the leap. She says agreement on the facts is not agreement on what follows. The missing test is whether the pattern holds outside this team. What is not the same as agreement on what follows?",
+          "answer": "Agreeing about what happened.",
           "exercise": {
             "type": "choice",
             "options": [
-              "Agreement on the facts.",
+              "Agreeing about what happened.",
               "Agreement on the plan.",
               "Agreement on the date.",
               "Agreement on the budget."
             ],
             "accepted": [
-              "Agreement on the facts."
+              "Agreeing about what happened."
             ]
           }
         },
@@ -18726,8 +18720,8 @@
           "id": "c2-debate-recall-is-not",
           "kind": "recall",
           "required": true,
-          "prompt": "Choose the best start for a sentence that separates facts from what follows.",
-          "answer": "Agreement on the facts is not …",
+          "prompt": "Choose the words that separate the two claims.",
+          "answer": "is not",
           "exercise": {
             "type": "choice",
             "options": [
@@ -18857,8 +18851,8 @@
           "id": "c2-culture-tf",
           "kind": "reading",
           "required": true,
-          "prompt": "True or false: Mina keeps a local saying even when the room does not know it.",
-          "answer": "False",
+          "prompt": "True or false: Mina translates a local saying into plain speech when the room does not know it.",
+          "answer": "True",
           "explanation": "She decides the room does not hold it and translates the point into plain speech.",
           "exercise": {
             "type": "choice",
@@ -18867,7 +18861,7 @@
               "False"
             ],
             "accepted": [
-              "False"
+              "True"
             ]
           }
         },

@@ -19,8 +19,12 @@ struct TrackContentTests {
     @Test func authoredCoachesLoadInOrder() {
         #expect(install.tracks.tracks.map(\.coach) == TrackCoach.allCases)
         for track in install.tracks.tracks {
-            #expect(track.stages.flatMap(\.units).count == 2, "\(track.id) has 2 units")
-            #expect(track.lessons.count == 8, "\(track.id) has 8 lessons")
+            // Grammarian and Reading & Listening start at A1 (Starter); every coach then has Foundation, Intermediate and Advanced.
+            let starts = [TrackCoach.grammarian, .readingListening].contains(track.coach)
+            let expected = starts ? ["starter", "foundation", "intermediate", "advanced"] : ["foundation", "intermediate", "advanced"]
+            #expect(track.stages.map(\.id) == expected, "\(track.id) stages")
+            #expect(track.stages.allSatisfy { $0.units.count == 2 }, "\(track.id) has 2 units per stage")
+            #expect(track.lessons.count == expected.count * 8, "\(track.id) has 8 lessons per stage")
         }
     }
 

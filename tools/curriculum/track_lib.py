@@ -146,3 +146,29 @@ def write_track(coach_id: str, manifest: dict) -> None:
     touched = register_rewards([lesson["id"] for lesson in manifest["lessons"]])
     activities = sum(len(lesson["activities"]) for lesson in manifest["lessons"])
     print(f"wrote {out.relative_to(ROOT)}: {len(manifest['lessons'])} lessons, {activities} activities; reward lists updated: {touched}")
+
+
+def add_stage(coach_id: str, stage: dict, lessons: list, level_label: str, sources: list) -> None:
+    """Add (or replace) one stage of an existing track file without regenerating the earlier stages.
+
+    Earlier stages carry later fixes made straight in the JSON, so they are never rebuilt. Running this twice gives the same file.
+    `stage` is {"id", "title", "units": [{"id", "title"}]}; `lessons` rows are (id, unit_id, title, objective_id, tip, items).
+    """
+    path = RES / f"Tracks/track-{coach_id}.json"
+    pack = json.loads(path.read_text(encoding="utf-8"))
+    coach = pack["track"]["coach"]
+    new = build_manifest(coach_id, coach, [], lessons, level_label, sources)["lessons"]
+    unit_ids = {unit["id"] for unit in stage["units"]}
+    taken = {unit["id"] for other in pack["track"]["stages"] if other["id"] != stage["id"] for unit in other["units"]}
+    if unit_ids & taken:
+        raise SystemExit(f"{coach_id}: unit ids {sorted(unit_ids & taken)} already belong to another stage")
+    if any(lesson["unitId"] not in unit_ids for lesson in new):
+        raise SystemExit(f"{coach_id}: a lesson names a unit that is not in the stage")
+    replaced = {lesson["id"] for lesson in pack["lessons"] if lesson["unitId"] in unit_ids}
+    pack["lessons"] = [lesson for lesson in pack["lessons"] if lesson["id"] not in replaced]
+    pack["track"]["stages"] = [other for other in pack["track"]["stages"] if other["id"] != stage["id"]] + [stage]
+    pack["lessons"].extend(curl(new))
+    path.write_text(json.dumps(curl(pack), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    touched = register_rewards([lesson["id"] for lesson in new])
+    activities = sum(len(lesson["activities"]) for lesson in new)
+    print(f"{coach_id}: stage {stage['id']} = {len(new)} lessons, {activities} activities; reward lists updated: {touched}")

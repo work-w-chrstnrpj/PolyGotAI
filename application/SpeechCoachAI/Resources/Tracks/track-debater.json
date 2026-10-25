@@ -24,6 +24,34 @@
             "title": "Answer and test arguments"
           }
         ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "evidence",
+            "title": "Use evidence well"
+          },
+          {
+            "id": "case",
+            "title": "Structure a case"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "rigor",
+            "title": "Argue with rigor"
+          },
+          {
+            "id": "arena",
+            "title": "Win the exchange"
+          }
+        ]
       }
     ]
   },
@@ -2119,6 +2147,4043 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Your turn. Choose a topic. Write the strongest point for the other side first, then your answer to it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-sources",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Check your sources",
+      "objectiveId": "DB-I-01",
+      "trackId": "debater",
+      "unitId": "evidence",
+      "tip": "Before you use a fact, ask four questions: Who wrote it? Do they know the subject? Is it recent? Do they gain something if you believe it? A source that gains from your belief is not worthless, but you should look for a second source. Say it plainly: “This comes from the company that sells the product, so I checked another report.”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-sources-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A local group says the new pool will bring 40,000 visitors a year. The group is paid by the company that will build the pool. Its report is two years old and does not say how it counted visitors. Why should you be careful with this report?",
+          "answer": "The writers earn money if the pool is built.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The writers earn money if the pool is built.",
+              "The report has a long title.",
+              "The pool is large.",
+              "The group lives nearby."
+            ],
+            "accepted": [
+              "The writers earn money if the pool is built."
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A local group says the new pool will bring 40,000 visitors a year. The group is paid by the company that will build the pool. Its report is two years old and does not say how it counted visitors. Which missing detail would make the number easier to trust?",
+          "answer": "How the visitors were counted",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How the visitors were counted",
+              "The name of the architect",
+              "The color of the pool",
+              "The age of the group’s members"
+            ],
+            "accepted": [
+              "How the visitors were counted"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which source is most likely to be reliable on a medical question?",
+          "answer": "A review by a team of doctors",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A review by a team of doctors",
+              "A post by a friend",
+              "An advertisement for a vitamin",
+              "A video with many likes"
+            ],
+            "accepted": [
+              "A review by a team of doctors"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A report is ten years old and the topic changes fast. What should you do?",
+          "answer": "Look for newer evidence",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Look for newer evidence",
+              "Trust it more",
+              "Ignore the topic",
+              "Quote it without a date"
+            ],
+            "accepted": [
+              "Look for newer evidence"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence admits a source may be biased?",
+          "answer": "The company wrote this, so I also checked an independent study.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The company wrote this, so I also checked an independent study.",
+              "The company wrote this, so it must be true.",
+              "Nobody writes anything for a reason.",
+              "All reports are the same."
+            ],
+            "accepted": [
+              "The company wrote this, so I also checked an independent study."
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with what it checks.",
+          "answer": "Who wrote it? → the author | Is it recent? → the date | Do they gain from it? → a possible bias",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Who wrote it?",
+                "the author"
+              ],
+              [
+                "Is it recent?",
+                "the date"
+              ],
+              [
+                "Do they gain from it?",
+                "a possible bias"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A source that gains from your belief should be checked against another source.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A popular post is always a reliable source.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Check who ___ the report.",
+          "answer": "wrote",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "wrote"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I checked a second source.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "checked",
+              "a",
+              "second",
+              "source.",
+              "never",
+              "twice"
+            ],
+            "accepted": [
+              "I checked a second source."
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker suggest?",
+          "answer": "Compare the two studies",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Compare the two studies",
+              "Ignore both studies",
+              "Trust the first study",
+              "Stop reading"
+            ],
+            "accepted": [
+              "Compare the two studies"
+            ],
+            "audioText": "The study was paid for by a soft drink company. Another study, from a university, found a different result."
+          }
+        },
+        {
+          "id": "db-i-sources-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find who wrote the source | Check the date and the topic | Compare it with a second source",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find who wrote the source",
+              "Check the date and the topic",
+              "Compare it with a second source"
+            ]
+          }
+        },
+        {
+          "id": "db-i-sources-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. You read that a product is “the best in the world” on the maker’s own website. Write two questions you would ask before you believe it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-numbers",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Numbers that mislead",
+      "objectiveId": "DB-I-02",
+      "trackId": "debater",
+      "unitId": "evidence",
+      "tip": "Numbers feel strong, but they can mislead. A “50 percent rise” from 2 cases to 3 cases is small in real life. Ask how big the group was and how people were chosen. A percentage point is a different thing from a percent: a rise from 10 percent to 15 percent is 5 percentage points, or a 50 percent rise. Always ask: compared with what?",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-numbers-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Cases rose from 2 to 3. A headline says “50 percent rise.” What should you ask?",
+          "answer": "How many people were in the group?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How many people were in the group?",
+              "Who wrote the headline?",
+              "What color is the chart?",
+              "Why is the number round?"
+            ],
+            "accepted": [
+              "How many people were in the group?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A rate goes from 10 percent to 15 percent. How many percentage points is that?",
+          "answer": "5",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "5",
+              "15",
+              "50",
+              "10"
+            ],
+            "accepted": [
+              "5"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "The same rise, from 10 percent to 15 percent, is a rise of what percent?",
+          "answer": "50 percent",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "50 percent",
+              "5 percent",
+              "15 percent",
+              "10 percent"
+            ],
+            "accepted": [
+              "50 percent"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase asks for a fair comparison?",
+          "answer": "Compared with what?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Compared with what?",
+              "How big is the chart?",
+              "Who liked it?",
+              "Is it red?"
+            ],
+            "accepted": [
+              "Compared with what?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A survey asked ten friends of the writer. What is the weakness?",
+          "answer": "The group is small and not chosen fairly.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The group is small and not chosen fairly.",
+              "The survey was fast.",
+              "The friends were kind.",
+              "The numbers were round."
+            ],
+            "accepted": [
+              "The group is small and not chosen fairly."
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-06",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A city added bike lanes in March. By December, bike trips had grown from 1,000 to 1,500 a week, and car trips on the same streets had fallen by 5 percent. Which number would help you judge the size of the change?",
+          "answer": "How many car trips there were at the start",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How many car trips there were at the start",
+              "The name of the mayor",
+              "The width of the lanes",
+              "The color of the bikes"
+            ],
+            "accepted": [
+              "How many car trips there were at the start"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-07",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A city added bike lanes in March. By December, bike trips had grown from 1,000 to 1,500 a week, and car trips on the same streets had fallen by 5 percent. What is the best way to describe the change in bike trips?",
+          "answer": "They grew by half.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They grew by half.",
+              "They doubled.",
+              "They fell by half.",
+              "They stayed the same."
+            ],
+            "accepted": [
+              "They grew by half."
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its meaning.",
+          "answer": "Percent → a share out of 100 | Percentage point → the gap between two percents | Sample → the people who were asked",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Percent",
+                "a share out of 100"
+              ],
+              [
+                "Percentage point",
+                "the gap between two percents"
+              ],
+              [
+                "Sample",
+                "the people who were asked"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A big percentage always means a big change.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A small ___ can give a misleading result.",
+          "answer": "sample",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "sample"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "How many people were asked?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "How",
+              "many",
+              "people",
+              "were",
+              "asked?",
+              "much",
+              "were"
+            ],
+            "accepted": [
+              "How many people were asked?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-numbers-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why is the speaker warning you?",
+          "answer": "The real change is small.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The real change is small.",
+              "The shop is closing.",
+              "The chairs are cheap.",
+              "The sales are falling."
+            ],
+            "accepted": [
+              "The real change is small."
+            ],
+            "audioText": "Sales went up 200 percent. Last month we sold one chair. This month we sold three."
+          }
+        },
+        {
+          "id": "db-i-numbers-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A poster says: “Nine out of ten people love our juice!” Write two questions that test the claim.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-cause",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Cause or coincidence?",
+      "objectiveId": "DB-I-03",
+      "trackId": "debater",
+      "unitId": "evidence",
+      "tip": "Two things can happen together without one causing the other. Ice cream sales and sunburns both rise in summer, but ice cream does not cause sunburn. A third factor, hot weather, explains both. When you read “X leads to Y,” ask whether something else could explain both, and whether X came first. Use careful words: “is linked to” is safer than “causes.”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-cause-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. In a school of 600 students, those who eat breakfast score higher on tests. A reporter writes that breakfast makes students smarter. The report does not mention sleep, family income or how the students were chosen. What is the problem with the reporter’s claim?",
+          "answer": "Other factors could explain the scores.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Other factors could explain the scores.",
+              "The school is too large.",
+              "The students are tired.",
+              "The test was short."
+            ],
+            "accepted": [
+              "Other factors could explain the scores."
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. In a school of 600 students, those who eat breakfast score higher on tests. A reporter writes that breakfast makes students smarter. The report does not mention sleep, family income or how the students were chosen. Which phrase fits the evidence better?",
+          "answer": "Eating breakfast is linked to higher scores.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Eating breakfast is linked to higher scores.",
+              "Breakfast makes students smarter.",
+              "Breakfast ruins tests.",
+              "Students should skip lunch."
+            ],
+            "accepted": [
+              "Eating breakfast is linked to higher scores."
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Ice cream sales and sunburns both rise in July. What explains both?",
+          "answer": "Hot weather",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hot weather",
+              "Ice cream",
+              "Sunscreen",
+              "School holidays"
+            ],
+            "accepted": [
+              "Hot weather"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word is safest when you only see a pattern?",
+          "answer": "linked",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "linked",
+              "caused",
+              "proved",
+              "forced"
+            ],
+            "accepted": [
+              "linked"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question tests a cause claim?",
+          "answer": "Could something else explain both?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Could something else explain both?",
+              "Is the chart colorful?",
+              "Who is the author?",
+              "Is the number round?"
+            ],
+            "accepted": [
+              "Could something else explain both?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A town paints its bus stops green, and bus use rises. What should you check?",
+          "answer": "Whether anything else changed that year",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Whether anything else changed that year",
+              "The paint brand",
+              "The size of the sign",
+              "The mayor’s age"
+            ],
+            "accepted": [
+              "Whether anything else changed that year"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with how strongly it claims.",
+          "answer": "Causes → a strong claim | Is linked to → a careful claim | May be a coincidence → a doubtful claim",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Causes",
+                "a strong claim"
+              ],
+              [
+                "Is linked to",
+                "a careful claim"
+              ],
+              [
+                "May be a coincidence",
+                "a doubtful claim"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: If two things rise together, one must cause the other.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A third factor can explain two patterns at once.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The effect cannot come ___ the cause.",
+          "answer": "before",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "before"
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "This may be a coincidence.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "This",
+              "may",
+              "be",
+              "a",
+              "coincidence.",
+              "never",
+              "proves"
+            ],
+            "accepted": [
+              "This may be a coincidence."
+            ]
+          }
+        },
+        {
+          "id": "db-i-cause-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Pointing to another explanation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pointing to another explanation",
+              "Proving the cause",
+              "Closing the libraries",
+              "Ignoring the data"
+            ],
+            "accepted": [
+              "Pointing to another explanation"
+            ],
+            "audioText": "Cities with more libraries also have lower crime. But cities with more libraries also tend to have more money, and money may explain both."
+          }
+        },
+        {
+          "id": "db-i-cause-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one example of two things that happen together but do not cause each other, and name the third factor.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-analogy",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Examples and analogies",
+      "objectiveId": "DB-I-04",
+      "trackId": "debater",
+      "unitId": "evidence",
+      "tip": "One example is a story, not proof. Three examples help, but a fair sample helps more. An analogy compares two situations: “Banning phones is like banning pencils.” It is strong only if the two situations are alike in the way that matters. Test it: In what way are they alike, and in what important way are they different?",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-analogy-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A friend says: “My uncle ate bacon every day and lived to 95, so bacon is healthy.” What is the weakness?",
+          "answer": "One example does not prove a rule.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One example does not prove a rule.",
+              "Bacon is salty.",
+              "Ninety-five is old.",
+              "The uncle was famous."
+            ],
+            "accepted": [
+              "One example does not prove a rule."
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the strongest kind of support for a rule?",
+          "answer": "A large, fair sample",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A large, fair sample",
+              "One lucky story",
+              "A loud voice",
+              "A famous name"
+            ],
+            "accepted": [
+              "A large, fair sample"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "“Banning phones is like banning pencils.” What should you ask?",
+          "answer": "How are the two things alike and different?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How are the two things alike and different?",
+              "Who owns the pencils?",
+              "Why are phones black?",
+              "Is the word “ban” formal?"
+            ],
+            "accepted": [
+              "How are the two things alike and different?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which analogy is stronger for “A team needs one captain”?",
+          "answer": "A boat needs one person steering.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A boat needs one person steering.",
+              "A team is like a banana.",
+              "A captain is like a cloud.",
+              "Games are like Tuesday."
+            ],
+            "accepted": [
+              "A boat needs one person steering."
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does an analogy do?",
+          "answer": "It compares two situations.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It compares two situations.",
+              "It counts the votes.",
+              "It names the author.",
+              "It ends the debate."
+            ],
+            "accepted": [
+              "It compares two situations."
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each item with its strength.",
+          "answer": "One story → weak support | A fair sample → stronger support | A fair analogy → helps explain an idea",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "One story",
+                "weak support"
+              ],
+              [
+                "A fair sample",
+                "stronger support"
+              ],
+              [
+                "A fair analogy",
+                "helps explain an idea"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An analogy is strong when the two situations differ in the way that matters.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Three examples can still be a weak sample.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A fair ___ includes many kinds of people.",
+          "answer": "sample",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "sample"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "In what way are they alike?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "In",
+              "what",
+              "way",
+              "are",
+              "they",
+              "alike?",
+              "how",
+              "much"
+            ],
+            "accepted": [
+              "In what way are they alike?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-11",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our school should keep phones in lockers during class. Phones distract students, and distracted students learn less. In one trial, a school that used lockers saw test scores rise by 3 points. What kind of evidence does the speaker give for the trial?",
+          "answer": "A result from one school",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A result from one school",
+              "A survey of every school",
+              "A story about a friend",
+              "A famous quote"
+            ],
+            "accepted": [
+              "A result from one school"
+            ]
+          }
+        },
+        {
+          "id": "db-i-analogy-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker comparing?",
+          "answer": "Debate and swimming",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Debate and swimming",
+              "Books and water",
+              "Pools and schools",
+              "Teachers and coaches"
+            ],
+            "accepted": [
+              "Debate and swimming"
+            ],
+            "audioText": "Learning to debate is like learning to swim. You can read about it, but you only improve by practicing in the water."
+          }
+        },
+        {
+          "id": "db-i-analogy-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write an analogy for “A good argument needs evidence,” then name one way the two things are different.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-case",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Build a case in four parts",
+      "objectiveId": "DB-I-05",
+      "trackId": "debater",
+      "unitId": "case",
+      "tip": "A clear case has four parts. First, state your claim. Second, give a reason. Third, support it with evidence. Fourth, link back: “This is why the school should keep phones in lockers.” Use signposts so listeners can follow: “My first reason is…, my second reason is…” End by repeating your claim in fresh words.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-case-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the fourth part of a clear case?",
+          "answer": "Link back to the claim",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Link back to the claim",
+              "Start with a joke",
+              "List your friends",
+              "Change the topic"
+            ],
+            "accepted": [
+              "Link back to the claim"
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is a link back?",
+          "answer": "That is why the school should keep phones in lockers.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "That is why the school should keep phones in lockers.",
+              "Phones are small.",
+              "I have a phone.",
+              "Some students read."
+            ],
+            "accepted": [
+              "That is why the school should keep phones in lockers."
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase is a signpost?",
+          "answer": "My second reason is cost.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My second reason is cost.",
+              "Well, so, yes.",
+              "That is all.",
+              "I think maybe."
+            ],
+            "accepted": [
+              "My second reason is cost."
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our school should keep phones in lockers during class. Phones distract students, and distracted students learn less. In one trial, a school that used lockers saw test scores rise by 3 points. Which sentence is the evidence?",
+          "answer": "In one trial, a school that used lockers saw test scores rise by 3 points.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In one trial, a school that used lockers saw test scores rise by 3 points.",
+              "Our school should keep phones in lockers during class.",
+              "Phones distract students.",
+              "Distracted students learn less."
+            ],
+            "accepted": [
+              "In one trial, a school that used lockers saw test scores rise by 3 points."
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our school should keep phones in lockers during class. Phones distract students, and distracted students learn less. In one trial, a school that used lockers saw test scores rise by 3 points. Which sentence is the claim?",
+          "answer": "Our school should keep phones in lockers during class.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Our school should keep phones in lockers during class.",
+              "Phones distract students.",
+              "Test scores rose by 3 points.",
+              "Distracted students learn less."
+            ],
+            "accepted": [
+              "Our school should keep phones in lockers during class."
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the four parts of a case in order.",
+          "answer": "State the claim | Give a reason | Support it with evidence | Link back to the claim",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the claim",
+              "Give a reason",
+              "Support it with evidence",
+              "Link back to the claim"
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Claim → what you want people to accept | Reason → why it is true | Evidence → the proof for the reason | Link back → ties the proof to the claim",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Claim",
+                "what you want people to accept"
+              ],
+              [
+                "Reason",
+                "why it is true"
+              ],
+              [
+                "Evidence",
+                "the proof for the reason"
+              ],
+              [
+                "Link back",
+                "ties the proof to the claim"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A case should end by repeating the claim in fresh words.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: My first ___ is cost.",
+          "answer": "reason",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "reason"
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "That is why we should act now.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "That",
+              "is",
+              "why",
+              "we",
+              "should",
+              "act",
+              "now.",
+              "never",
+              "because"
+            ],
+            "accepted": [
+              "That is why we should act now."
+            ]
+          }
+        },
+        {
+          "id": "db-i-case-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How many reasons does the speaker give?",
+          "answer": "Two",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two",
+              "One",
+              "Three",
+              "Four"
+            ],
+            "accepted": [
+              "Two"
+            ],
+            "audioText": "My claim is that cities need more trees. My first reason is heat: trees cool streets. My second reason is health: shade lowers the risk of sunburn. That is why cities need more trees."
+          }
+        },
+        {
+          "id": "db-i-case-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which words link back to the claim?",
+          "answer": "That is why cities need more trees.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "That is why cities need more trees.",
+              "My first reason is heat.",
+              "Trees cool streets.",
+              "My claim is that cities need more trees."
+            ],
+            "accepted": [
+              "That is why cities need more trees."
+            ],
+            "audioText": "My claim is that cities need more trees. My first reason is heat: trees cool streets. My second reason is health: shade lowers the risk of sunburn. That is why cities need more trees."
+          }
+        },
+        {
+          "id": "db-i-case-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a topic. Write a four-part case in four short sentences: claim, reason, evidence, link back.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-define",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Define your terms",
+      "objectiveId": "DB-I-06",
+      "trackId": "debater",
+      "unitId": "case",
+      "tip": "Many arguments fail because the two sides use one word in different ways. If you debate “Is school fair?”, decide what “fair” means: equal tools, equal chances, or equal results? State your definition early: “By ‘fair,’ I mean that every student has the same chance.” Keep the topic narrow enough to finish: “Should our school start later?” is easier than “Is school good?”",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-define-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why should you define a key word early?",
+          "answer": "So both sides argue about the same thing.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So both sides argue about the same thing.",
+              "To make the speech longer.",
+              "To hide your claim.",
+              "To avoid evidence."
+            ],
+            "accepted": [
+              "So both sides argue about the same thing."
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence defines a term?",
+          "answer": "By “fair,” I mean that every student has the same chance.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By “fair,” I mean that every student has the same chance.",
+              "Fairness is nice.",
+              "Some people dislike school.",
+              "I will talk for five minutes."
+            ],
+            "accepted": [
+              "By “fair,” I mean that every student has the same chance."
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which topic is narrow enough for a short debate?",
+          "answer": "Should our school start later?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Should our school start later?",
+              "Is school good?",
+              "Is life fair?",
+              "Is the world changing?"
+            ],
+            "accepted": [
+              "Should our school start later?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Two people argue about “success.” One means money, one means happiness. What is the problem?",
+          "answer": "They use the word in different ways.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They use the word in different ways.",
+              "They both agree.",
+              "They need more money.",
+              "They need a longer speech."
+            ],
+            "accepted": [
+              "They use the word in different ways."
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase introduces a definition?",
+          "answer": "By this word, I mean…",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By this word, I mean…",
+              "Well, you know…",
+              "As everybody says…",
+              "To be honest…"
+            ],
+            "accepted": [
+              "By this word, I mean…"
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each topic with its problem.",
+          "answer": "Is school good? → too wide | Should our school start later? → narrow and clear | Is it fair? → the key word needs defining",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Is school good?",
+                "too wide"
+              ],
+              [
+                "Should our school start later?",
+                "narrow and clear"
+              ],
+              [
+                "Is it fair?",
+                "the key word needs defining"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A wide topic is easier to finish than a narrow one.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Different definitions can make two people seem to disagree when they do not.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A narrow ___ is easier to debate.",
+          "answer": "topic",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "topic"
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "By fair, I mean equal chances.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "By",
+              "fair,",
+              "I",
+              "mean",
+              "equal",
+              "chances.",
+              "never",
+              "money"
+            ],
+            "accepted": [
+              "By fair, I mean equal chances."
+            ]
+          }
+        },
+        {
+          "id": "db-i-define-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Defining a word",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Defining a word",
+              "Telling a story",
+              "Asking for votes",
+              "Ending the debate"
+            ],
+            "accepted": [
+              "Defining a word"
+            ],
+            "audioText": "Before we start, let me define the word “healthy.” By healthy, I mean a person who eats well, sleeps enough and moves every day."
+          }
+        },
+        {
+          "id": "db-i-define-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which habit is NOT in the definition?",
+          "answer": "Taking vitamins",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Taking vitamins",
+              "Eating well",
+              "Sleeping enough",
+              "Moving every day"
+            ],
+            "accepted": [
+              "Taking vitamins"
+            ],
+            "audioText": "Before we start, let me define the word “healthy.” By healthy, I mean a person who eats well, sleeps enough and moves every day."
+          }
+        },
+        {
+          "id": "db-i-define-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose the word “successful.” Write a one-sentence definition for a debate about school.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-question",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Ask sharp questions",
+      "objectiveId": "DB-I-07",
+      "trackId": "debater",
+      "unitId": "case",
+      "tip": "Good questions test an argument without attacking the person. A clarifying question asks what a word means: “What do you mean by ‘safe’?” An evidence question asks for proof: “How do you know?” An assumption question asks what must be true: “Does this plan assume everyone has a car?” Keep your tone calm and curious, and ask one question at a time.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-question-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is an evidence question?",
+          "answer": "How do you know that?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How do you know that?",
+              "What do you mean by safe?",
+              "Who is next?",
+              "Is it Monday?"
+            ],
+            "accepted": [
+              "How do you know that?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clarifying question?",
+          "answer": "What do you mean by “cheap”?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What do you mean by “cheap”?",
+              "Where is your proof?",
+              "Who is your teacher?",
+              "Why are you smiling?"
+            ],
+            "accepted": [
+              "What do you mean by “cheap”?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is an assumption question?",
+          "answer": "Does this plan assume everyone owns a car?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Does this plan assume everyone owns a car?",
+              "Is the room cold?",
+              "Can I go first?",
+              "Is the speaker tall?"
+            ],
+            "accepted": [
+              "Does this plan assume everyone owns a car?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question attacks the person?",
+          "answer": "Are you even smart enough to ask this?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Are you even smart enough to ask this?",
+              "How do you know that?",
+              "What do you mean?",
+              "Can you give an example?"
+            ],
+            "accepted": [
+              "Are you even smart enough to ask this?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many questions should you ask at once?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Five",
+              "As many as possible",
+              "None"
+            ],
+            "accepted": [
+              "One"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with its type.",
+          "answer": "What do you mean by safe? → clarifying | What is your proof? → evidence | Must everyone own a car? → assumption",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "What do you mean by safe?",
+                "clarifying"
+              ],
+              [
+                "What is your proof?",
+                "evidence"
+              ],
+              [
+                "Must everyone own a car?",
+                "assumption"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put a cross-question in order.",
+          "answer": "Ask what the word means | Ask for evidence | Say what you learned",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask what the word means",
+              "Ask for evidence",
+              "Say what you learned"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good question can be calm and still be challenging.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask one question at a ___.",
+          "answer": "time",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "time"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "What do you mean by cheap?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "What",
+              "do",
+              "you",
+              "mean",
+              "by",
+              "cheap?",
+              "how",
+              "does"
+            ],
+            "accepted": [
+              "What do you mean by cheap?"
+            ]
+          }
+        },
+        {
+          "id": "db-i-question-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What kind of question does B ask?",
+          "answer": "A clarifying question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A clarifying question",
+              "A personal attack",
+              "A joke",
+              "A closing statement"
+            ],
+            "accepted": [
+              "A clarifying question"
+            ],
+            "audioText": "Speaker A says the new bus line will help everyone. Speaker B asks: Who exactly is everyone? Do people who live far from the line benefit?"
+          }
+        },
+        {
+          "id": "db-i-question-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does B test?",
+          "answer": "The word “everyone”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The word “everyone”",
+              "The price of tickets",
+              "A’s clothing",
+              "The speed of buses"
+            ],
+            "accepted": [
+              "The word “everyone”"
+            ],
+            "audioText": "Speaker A says the new bus line will help everyone. Speaker B asks: Who exactly is everyone? Do people who live far from the line benefit?"
+          }
+        },
+        {
+          "id": "db-i-question-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Someone says: “Online classes are better.” Write three questions: one clarifying, one for evidence and one about an assumption.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-i-concede",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Concede, then refute",
+      "objectiveId": "DB-I-08",
+      "trackId": "debater",
+      "unitId": "case",
+      "tip": "A strong speaker admits what is true before answering. This is called conceding a point. It shows fairness and makes your answer stronger. Use patterns like “You are right that the plan costs money, but the savings are bigger” or “Even if the plan is slow, it is safer.” Do not concede everything: grant the part that is true and answer the part that is not.",
+      "sources": [
+        "Aristotle, Rhetoric (public-domain translations): reason and evidence as a basis for persuasion",
+        "Toulmin, The Uses of Argument, and Rapoport’s rules as described by Dennett (concepts only; no text copied)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-i-concede-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence concedes a point and then answers?",
+          "answer": "You are right that it costs money, but the savings are bigger.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You are right that it costs money, but the savings are bigger.",
+              "That is not true at all.",
+              "You are always wrong.",
+              "I do not want to talk."
+            ],
+            "accepted": [
+              "You are right that it costs money, but the savings are bigger."
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the purpose of conceding a fair point?",
+          "answer": "It shows fairness and strengthens your answer.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It shows fairness and strengthens your answer.",
+              "It ends the debate.",
+              "It hides your claim.",
+              "It insults the other side."
+            ],
+            "accepted": [
+              "It shows fairness and strengthens your answer."
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase accepts a point for the sake of argument?",
+          "answer": "Even if",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Even if",
+              "As a result",
+              "For example",
+              "In addition"
+            ],
+            "accepted": [
+              "Even if"
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Complete the sentence: “___ the plan is slow, it is safer.”",
+          "answer": "Even if",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Even if",
+              "Because",
+              "Unless",
+              "So that"
+            ],
+            "accepted": [
+              "Even if"
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which reply grants the true part only?",
+          "answer": "You are right about the cost, but not about the time.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You are right about the cost, but not about the time.",
+              "You are wrong about everything.",
+              "I agree with everything.",
+              "I will not answer."
+            ],
+            "accepted": [
+              "You are right about the cost, but not about the time."
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with its job.",
+          "answer": "You are right that… → grants a point | but… → starts your answer | Even if… → accepts a point for the argument",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "You are right that…",
+                "grants a point"
+              ],
+              [
+                "but…",
+                "starts your answer"
+              ],
+              [
+                "Even if…",
+                "accepts a point for the argument"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the reply in order.",
+          "answer": "You are right that it costs a lot. | But the savings are bigger over time. | That is why I support the plan.",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "You are right that it costs a lot.",
+              "But the savings are bigger over time.",
+              "That is why I support the plan."
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should concede every point the other side makes.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Grant the part that is ___.",
+          "answer": "true",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "true"
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Even if it is slow, it is safer.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Even",
+              "if",
+              "it",
+              "is",
+              "slow,",
+              "it",
+              "is",
+              "safer.",
+              "never",
+              "while"
+            ],
+            "accepted": [
+              "Even if it is slow, it is safer."
+            ]
+          }
+        },
+        {
+          "id": "db-i-concede-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the speaker concede?",
+          "answer": "The course is hard",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The course is hard",
+              "The course is useless",
+              "The course is free",
+              "The course is short"
+            ],
+            "accepted": [
+              "The course is hard"
+            ],
+            "audioText": "You are right that the course is hard. But the students who finish it say they learned more than in any other class. So the difficulty is worth it."
+          }
+        },
+        {
+          "id": "db-i-concede-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker’s answer?",
+          "answer": "Students learned more",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Students learned more",
+              "Students quit early",
+              "The course should end",
+              "The teachers agree"
+            ],
+            "accepted": [
+              "Students learned more"
+            ],
+            "audioText": "You are right that the course is hard. But the students who finish it say they learned more than in any other class. So the difficulty is worth it."
+          }
+        },
+        {
+          "id": "db-i-concede-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a reply that concedes one true point against uniforms and then answers it.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-warrant",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Warrants and hidden assumptions",
+      "objectiveId": "DB-A-01",
+      "trackId": "debater",
+      "unitId": "rigor",
+      "tip": "Every argument rests on a link between its grounds and its claim. Toulmin called this link the warrant. It is often unstated: “The air is unsafe, so the authority must act” assumes that authorities are responsible for health. A warrant can be attacked even when the grounds are true. Name it, test it, and add a qualifier when you cannot be certain: “probably,” “in most cases,” “unless…”",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-warrant-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Claim: the district should ban cars on Market Street. Grounds: air tests show three times the safe level of fine dust there. Unstated link: if the air is unsafe, the authority must act to protect people’s health. What is the unstated link in this argument?",
+          "answer": "Authorities are responsible for protecting public health.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Authorities are responsible for protecting public health.",
+              "Cars are expensive.",
+              "Market Street is long.",
+              "Dust is not measurable."
+            ],
+            "accepted": [
+              "Authorities are responsible for protecting public health."
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Claim: the district should ban cars on Market Street. Grounds: air tests show three times the safe level of fine dust there. Unstated link: if the air is unsafe, the authority must act to protect people’s health. Which objection attacks the warrant rather than the grounds?",
+          "answer": "Even unsafe air does not oblige the authority to ban cars; it might use filters instead.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Even unsafe air does not oblige the authority to ban cars; it might use filters instead.",
+              "The tests were done in the wrong season.",
+              "The dust levels were mistyped.",
+              "The street name is wrong."
+            ],
+            "accepted": [
+              "Even unsafe air does not oblige the authority to ban cars; it might use filters instead."
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a warrant?",
+          "answer": "The link that connects the grounds to the claim",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The link that connects the grounds to the claim",
+              "The final conclusion",
+              "A statistic",
+              "A quotation"
+            ],
+            "accepted": [
+              "The link that connects the grounds to the claim"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why can a warrant be attacked even when the grounds are true?",
+          "answer": "True grounds may not justify that claim",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True grounds may not justify that claim",
+              "True grounds never matter",
+              "Warrants are facts",
+              "Claims need no support"
+            ],
+            "accepted": [
+              "True grounds may not justify that claim"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word is a qualifier?",
+          "answer": "probably",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "probably",
+              "therefore",
+              "because",
+              "never"
+            ],
+            "accepted": [
+              "probably"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence adds a sensible qualifier?",
+          "answer": "In most cases, lower speed limits reduce serious injuries.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In most cases, lower speed limits reduce serious injuries.",
+              "Lower speed limits always save everyone.",
+              "Speed limits are legal.",
+              "Nobody drives fast."
+            ],
+            "accepted": [
+              "In most cases, lower speed limits reduce serious injuries."
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each element with its role.",
+          "answer": "Grounds → the evidence offered | Warrant → the link to the claim | Qualifier → limits how strong the claim is",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Grounds",
+                "the evidence offered"
+              ],
+              [
+                "Warrant",
+                "the link to the claim"
+              ],
+              [
+                "Qualifier",
+                "limits how strong the claim is"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A warrant is always stated in the argument.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: True grounds guarantee that the claim follows.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The ___ connects the grounds to the claim.",
+          "answer": "warrant",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "warrant"
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The argument rests on an unstated assumption.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "argument",
+              "rests",
+              "on",
+              "an",
+              "unstated",
+              "assumption.",
+              "never",
+              "assume"
+            ],
+            "accepted": [
+              "The argument rests on an unstated assumption."
+            ]
+          }
+        },
+        {
+          "id": "db-a-warrant-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker attacking?",
+          "answer": "The link between the data and the policy",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The link between the data and the policy",
+              "The accuracy of the data",
+              "The speaker’s honesty",
+              "The date of the report"
+            ],
+            "accepted": [
+              "The link between the data and the policy"
+            ],
+            "audioText": "The data are accurate. My objection is to the step from the data to the policy. The numbers show a problem, but they do not show that this policy is the right response."
+          }
+        },
+        {
+          "id": "db-a-warrant-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Take the claim “Schools should start later.” Write the grounds, the warrant you would need, and one qualifier.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-burden",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Burden of proof",
+      "objectiveId": "DB-A-02",
+      "trackId": "debater",
+      "unitId": "rigor",
+      "tip": "The burden of proof is the duty to support a claim. In most debates the side proposing a change must show why it is needed; the status quo is presumed acceptable until shown otherwise. Shifting the burden unfairly is a trick: “Prove that it will not work” demands proof of a negative. Say plainly who must prove what: “The proposal carries the burden of showing that the benefits exceed the costs.”",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-burden-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Who usually carries the burden of proof?",
+          "answer": "The side proposing a change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The side proposing a change",
+              "The side defending the current situation",
+              "The audience",
+              "The judges"
+            ],
+            "accepted": [
+              "The side proposing a change"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does presumption mean here?",
+          "answer": "The current situation is accepted until shown to be inadequate",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The current situation is accepted until shown to be inadequate",
+              "Everything is true",
+              "The change is automatic",
+              "Nothing can be decided"
+            ],
+            "accepted": [
+              "The current situation is accepted until shown to be inadequate"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which demand shifts the burden unfairly?",
+          "answer": "Prove that it will never fail.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Prove that it will never fail.",
+              "Show your evidence.",
+              "Explain your reasons.",
+              "Define your terms."
+            ],
+            "accepted": [
+              "Prove that it will never fail."
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence states the burden clearly?",
+          "answer": "The proposal must show that its benefits exceed its costs.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The proposal must show that its benefits exceed its costs.",
+              "Nobody has to show anything.",
+              "Both sides are wrong.",
+              "Proof is boring."
+            ],
+            "accepted": [
+              "The proposal must show that its benefits exceed its costs."
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. One side says a lower speed limit will save lives. The other replies that drivers will simply ignore it. Neither side has said how many accidents happen at present, or whether lower limits were enforced elsewhere. Who has failed to meet the burden of proof so far?",
+          "answer": "Both sides, because neither has given baseline figures.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Both sides, because neither has given baseline figures.",
+              "Only the first side.",
+              "Only the second side.",
+              "Neither side needs to."
+            ],
+            "accepted": [
+              "Both sides, because neither has given baseline figures."
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each role with its duty.",
+          "answer": "Proposer → show why change is needed | Opponent → test the case and show its weaknesses | Judge → weigh who met the burden",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Proposer",
+                "show why change is needed"
+              ],
+              [
+                "Opponent",
+                "test the case and show its weaknesses"
+              ],
+              [
+                "Judge",
+                "weigh who met the burden"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: It is reasonable to demand proof of a negative such as “prove it will never fail.”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The status quo is usually presumed acceptable until shown otherwise.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The proposer carries the ___ of proof.",
+          "answer": "burden",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "burden"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The proposal must justify the change.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "proposal",
+              "must",
+              "justify",
+              "the",
+              "change.",
+              "never",
+              "justifies"
+            ],
+            "accepted": [
+              "The proposal must justify the change."
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker redefine the burden?",
+          "answer": "Likely to work here",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Likely to work here",
+              "Certain to work everywhere",
+              "Impossible to prove",
+              "Not required"
+            ],
+            "accepted": [
+              "Likely to work here"
+            ],
+            "audioText": "My opponent says I must prove the policy will work everywhere. That is not the burden. I must show it is likely to work here, and I have given three local examples."
+          }
+        },
+        {
+          "id": "db-a-burden-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Identify who proposes a change | State what they must prove | Test whether the proof was given",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Identify who proposes a change",
+              "State what they must prove",
+              "Test whether the proof was given"
+            ]
+          }
+        },
+        {
+          "id": "db-a-burden-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one sentence that states who carries the burden in a debate on banning plastic bags, and what they must show.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-charity",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Charity and the strongest version",
+      "objectiveId": "DB-A-03",
+      "trackId": "debater",
+      "unitId": "rigor",
+      "tip": "The principle of charity says: interpret an opponent’s argument in the strongest reasonable way before you answer it. If you defeat a weak version, you have defeated nothing. State their case so well that they would say, “Yes, that is what I meant.” This is steelmanning. Then answer the strongest point. Charity also protects you: it stops you from winning a point that does not matter.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-charity-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A proposal would move ten percent of the sports budget to music lessons. Supporters stress that every child can take part in music. Opponents stress that sports teach teamwork. Both sides agree that the school budget is fixed. Which statement of the opponents’ case is the most charitable?",
+          "answer": "Sports build teamwork, and a smaller sports budget could weaken a rare chance to learn it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Sports build teamwork, and a smaller sports budget could weaken a rare chance to learn it.",
+              "They hate music.",
+              "They want children to be violent.",
+              "They do not understand budgets."
+            ],
+            "accepted": [
+              "Sports build teamwork, and a smaller sports budget could weaken a rare chance to learn it."
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the principle of charity?",
+          "answer": "Interpret the opponent’s argument in its strongest reasonable form",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Interpret the opponent’s argument in its strongest reasonable form",
+              "Give money to the opponent",
+              "Avoid disagreement",
+              "Agree with everyone"
+            ],
+            "accepted": [
+              "Interpret the opponent’s argument in its strongest reasonable form"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is steelmanning?",
+          "answer": "Stating the strongest version of the other side",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Stating the strongest version of the other side",
+              "Attacking the weakest point",
+              "Repeating your claim",
+              "Ignoring evidence"
+            ],
+            "accepted": [
+              "Stating the strongest version of the other side"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does the opponent hope to say after your summary?",
+          "answer": "Yes, that is what I meant.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Yes, that is what I meant.",
+              "That is nonsense.",
+              "I did not say that.",
+              "I do not care."
+            ],
+            "accepted": [
+              "Yes, that is what I meant."
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why does charity protect you?",
+          "answer": "It stops you from winning a point that does not matter",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It stops you from winning a point that does not matter",
+              "It ends the debate",
+              "It hides your claim",
+              "It removes evidence"
+            ],
+            "accepted": [
+              "It stops you from winning a point that does not matter"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each version with its quality.",
+          "answer": "They want children to be violent. → a straw man | Sports teach teamwork that is hard to replace. → a charitable version | Sports are fine. → too vague to answer",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "They want children to be violent.",
+                "a straw man"
+              ],
+              [
+                "Sports teach teamwork that is hard to replace.",
+                "a charitable version"
+              ],
+              [
+                "Sports are fine.",
+                "too vague to answer"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Listen to the opponent’s case | Restate it in its strongest form | Answer the strongest point",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Listen to the opponent’s case",
+              "Restate it in its strongest form",
+              "Answer the strongest point"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Defeating a weak version of an argument defeats the argument.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: State their case so well that they say, “Yes, that is what I ___.”",
+          "answer": "meant",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "meant"
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Let me state your position as strongly as I can.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Let",
+              "me",
+              "state",
+              "your",
+              "position",
+              "as",
+              "strongly",
+              "as",
+              "I",
+              "can.",
+              "never",
+              "weak"
+            ],
+            "accepted": [
+              "Let me state your position as strongly as I can."
+            ]
+          }
+        },
+        {
+          "id": "db-a-charity-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker doing?",
+          "answer": "Restating the opposing view charitably",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Restating the opposing view charitably",
+              "Attacking a straw man",
+              "Changing the subject",
+              "Agreeing completely"
+            ],
+            "accepted": [
+              "Restating the opposing view charitably"
+            ],
+            "audioText": "Before I disagree, let me put your view in its best form. You think the plan is too fast, not too costly. Is that fair? If so, here is my answer to that worry."
+          }
+        },
+        {
+          "id": "db-a-charity-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Pick a topic you disagree with. Write the strongest two-sentence version of the other side.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-crux",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Find the crux",
+      "objectiveId": "DB-A-04",
+      "trackId": "debater",
+      "unitId": "rigor",
+      "tip": "Many debates stall because the sides argue about different things. The crux is the point where the disagreement actually lies. Ask: is it about facts (what is true), values (what matters most) or definitions (what a word means)? Fact disputes need evidence; value disputes need weighing; definition disputes need agreement on terms. Once you name the crux, you can stop talking past each other.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-crux-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A proposal would move ten percent of the sports budget to music lessons. Supporters stress that every child can take part in music. Opponents stress that sports teach teamwork. Both sides agree that the school budget is fixed. Where does the disagreement lie?",
+          "answer": "In what matters more: universal participation or teamwork",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "In what matters more: universal participation or teamwork",
+              "In the size of the budget",
+              "In whether music exists",
+              "In the school’s address"
+            ],
+            "accepted": [
+              "In what matters more: universal participation or teamwork"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the crux of a debate?",
+          "answer": "The point where the disagreement really lies",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The point where the disagreement really lies",
+              "The loudest argument",
+              "The introduction",
+              "The title"
+            ],
+            "accepted": [
+              "The point where the disagreement really lies"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A dispute about whether crime fell is mainly about what?",
+          "answer": "Facts",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Facts",
+              "Values",
+              "Definitions",
+              "Manners"
+            ],
+            "accepted": [
+              "Facts"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A dispute about whether a sports team is more important than a choir is mainly about what?",
+          "answer": "Values",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Values",
+              "Facts",
+              "Dates",
+              "Spelling"
+            ],
+            "accepted": [
+              "Values"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A dispute about what counts as “poverty” is mainly about what?",
+          "answer": "Definitions",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Definitions",
+              "Weather",
+              "Values only",
+              "Budgets only"
+            ],
+            "accepted": [
+              "Definitions"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each dispute type with what settles it.",
+          "answer": "Fact → evidence | Value → weighing priorities | Definition → agreeing on terms",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Fact",
+                "evidence"
+              ],
+              [
+                "Value",
+                "weighing priorities"
+              ],
+              [
+                "Definition",
+                "agreeing on terms"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Naming the crux helps sides stop talking past each other.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A value dispute can be settled by one statistic alone.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask what the real ___ of the disagreement is.",
+          "answer": "crux",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "crux"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Is this about facts or values?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Is",
+              "this",
+              "about",
+              "facts",
+              "or",
+              "values?",
+              "does",
+              "fact"
+            ],
+            "accepted": [
+              "Is this about facts or values?"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the crux?",
+          "answer": "Whether speed or safety comes first",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Whether speed or safety comes first",
+              "The cost",
+              "The data",
+              "The date"
+            ],
+            "accepted": [
+              "Whether speed or safety comes first"
+            ],
+            "audioText": "We both agree the cost is the same. We disagree on whether speed or safety should come first. That is a question of values, not data."
+          }
+        },
+        {
+          "id": "db-a-crux-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "List where the sides agree | Locate where they differ | Name the type of dispute and what would settle it",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "List where the sides agree",
+              "Locate where they differ",
+              "Name the type of dispute and what would settle it"
+            ]
+          }
+        },
+        {
+          "id": "db-a-crux-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose a debate you know. Write where both sides agree and the single crux.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-frame",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Frames and reframes",
+      "objectiveId": "DB-A-05",
+      "trackId": "debater",
+      "unitId": "arena",
+      "tip": "A frame is the way an issue is described, and it shapes what seems reasonable. “Tax relief” suggests a burden; “public investment” suggests a benefit. Notice the frame in an argument and ask whether it is fair. You can reframe by describing the same facts in terms of different values: not “a ban on cars” but “streets for people.” Use frames honestly: a fair frame is one you could defend to the other side.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-frame-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a frame?",
+          "answer": "The way an issue is described",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The way an issue is described",
+              "A picture border",
+              "A number",
+              "A rule of the debate"
+            ],
+            "accepted": [
+              "The way an issue is described"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase frames a tax as a burden?",
+          "answer": "tax relief",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tax relief",
+              "public investment",
+              "shared cost",
+              "community fund"
+            ],
+            "accepted": [
+              "tax relief"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a reframe?",
+          "answer": "Describing the same facts in terms of other values",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Describing the same facts in terms of other values",
+              "Changing the facts",
+              "Ignoring the question",
+              "Repeating the claim"
+            ],
+            "accepted": [
+              "Describing the same facts in terms of other values"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a reframe of “ban cars”?",
+          "answer": "streets for people",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "streets for people",
+              "a loss of freedom",
+              "a forced rule",
+              "a heavy penalty"
+            ],
+            "accepted": [
+              "streets for people"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is a frame fair?",
+          "answer": "When you could defend it to the other side",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When you could defend it to the other side",
+              "When it wins the vote",
+              "When it is loud",
+              "When it is short"
+            ],
+            "accepted": [
+              "When you could defend it to the other side"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with the feeling it suggests.",
+          "answer": "tax relief → something heavy to remove | public investment → something that builds value | red tape → something that blocks you",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "tax relief",
+                "something heavy to remove"
+              ],
+              [
+                "public investment",
+                "something that builds value"
+              ],
+              [
+                "red tape",
+                "something that blocks you"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: The words we choose can change what seems reasonable.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A reframe changes the facts.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask whether the ___ is fair.",
+          "answer": "frame",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "frame"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "That is a loaded way to put it.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "That",
+              "is",
+              "a",
+              "loaded",
+              "way",
+              "to",
+              "put",
+              "it.",
+              "never",
+              "load"
+            ],
+            "accepted": [
+              "That is a loaded way to put it."
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker pointing out?",
+          "answer": "The same money can be framed in two ways",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The same money can be framed in two ways",
+              "The money is different",
+              "The speaker is angry",
+              "The plan is illegal"
+            ],
+            "accepted": [
+              "The same money can be framed in two ways"
+            ],
+            "audioText": "You call it a handout. I call it a safety net. The money is the same; the frame is different, and so is the question we are answering."
+          }
+        },
+        {
+          "id": "db-a-frame-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Notice the frame in the argument | Ask whether it is fair | Offer a fair alternative frame if needed",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Notice the frame in the argument",
+              "Ask whether it is fair",
+              "Offer a fair alternative frame if needed"
+            ]
+          }
+        },
+        {
+          "id": "db-a-frame-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write two different frames for the same policy: a four-day school week.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-layer",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Layered rebuttal",
+      "objectiveId": "DB-A-06",
+      "trackId": "debater",
+      "unitId": "arena",
+      "tip": "A strong rebuttal has layers. First label the point you answer: “On their second argument…” Then state the claim of your answer, give your reason and show the impact: “…it does not follow, because the sample was small, so the policy rests on weak evidence.” Where possible, offer more than one layer: your answer is true, and even if it were not, the effect is small. Be brief and keep them in order.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-layer-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do first in a rebuttal?",
+          "answer": "Label the point you are answering",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Label the point you are answering",
+              "Attack the speaker",
+              "Repeat your own case",
+              "Ask for a break"
+            ],
+            "accepted": [
+              "Label the point you are answering"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence shows the impact?",
+          "answer": "So the policy rests on weak evidence.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "So the policy rests on weak evidence.",
+              "Because the sample was small.",
+              "On their second point.",
+              "It does not follow."
+            ],
+            "accepted": [
+              "So the policy rests on weak evidence."
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence gives a layer starting with “even if”?",
+          "answer": "Even if their figure were correct, the effect would still be small.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Even if their figure were correct, the effect would still be small.",
+              "Their figure is correct.",
+              "Figures are boring.",
+              "They have a figure."
+            ],
+            "accepted": [
+              "Even if their figure were correct, the effect would still be small."
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why offer more than one layer?",
+          "answer": "If one fails, another may still stand",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If one fails, another may still stand",
+              "To use time",
+              "To confuse the judges",
+              "To avoid reasons"
+            ],
+            "accepted": [
+              "If one fails, another may still stand"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you deliver the layers?",
+          "answer": "Briefly and in order",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Briefly and in order",
+              "As fast as possible",
+              "In random order",
+              "In a whisper"
+            ],
+            "accepted": [
+              "Briefly and in order"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Label → On their second argument… | Claim → it does not follow | Reason → because the sample was small | Impact → so the policy rests on weak evidence",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Label",
+                "On their second argument…"
+              ],
+              [
+                "Claim",
+                "it does not follow"
+              ],
+              [
+                "Reason",
+                "because the sample was small"
+              ],
+              [
+                "Impact",
+                "so the policy rests on weak evidence"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the layered rebuttal in order.",
+          "answer": "Label the point | State your answer and reason | Say why it matters, then add an even-if layer",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Label the point",
+              "State your answer and reason",
+              "Say why it matters, then add an even-if layer"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A rebuttal should always include a reason.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Show the ___ of your answer.",
+          "answer": "impact",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "impact"
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Even if that were true, it would not matter.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Even",
+              "if",
+              "that",
+              "were",
+              "true,",
+              "it",
+              "would",
+              "not",
+              "matter.",
+              "never",
+              "was"
+            ],
+            "accepted": [
+              "Even if that were true, it would not matter."
+            ]
+          }
+        },
+        {
+          "id": "db-a-layer-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How many layers does the speaker use?",
+          "answer": "Two",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two",
+              "One",
+              "Three",
+              "Four"
+            ],
+            "accepted": [
+              "Two"
+            ],
+            "audioText": "On their second point: it does not follow, because the sample was ten people. So the policy rests on weak evidence. And even if the effect were real, it is tiny."
+          }
+        },
+        {
+          "id": "db-a-layer-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which phrase starts the second layer?",
+          "answer": "And even if",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "And even if",
+              "On their second point",
+              "Because",
+              "So the policy"
+            ],
+            "accepted": [
+              "And even if"
+            ],
+            "audioText": "On their second point: it does not follow, because the sample was ten people. So the policy rests on weak evidence. And even if the effect were real, it is tiny."
+          }
+        },
+        {
+          "id": "db-a-layer-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Answer this claim with a labeled, layered rebuttal: “Homework always improves grades.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-risk",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Argue under uncertainty",
+      "objectiveId": "DB-A-07",
+      "trackId": "debater",
+      "unitId": "arena",
+      "tip": "Often nobody knows what will happen. Compare options by probability (how likely), magnitude (how big) and reversibility (can it be undone?). A small chance of a huge, permanent harm can outweigh a likely small gain. Be precise about uncertainty: “likely,” “plausible” and “possible” are not the same. Avoid false certainty on either side: “It will certainly work” and “It could never work” both need proof.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-risk-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which three questions compare risky options?",
+          "answer": "How likely, how big, can it be undone?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How likely, how big, can it be undone?",
+              "How old, how tall, how red?",
+              "Who, where, when?",
+              "What color, what size, what price?"
+            ],
+            "accepted": [
+              "How likely, how big, can it be undone?"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A very small chance of a huge permanent harm can sometimes do what?",
+          "answer": "Outweigh a likely small gain",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Outweigh a likely small gain",
+              "Be ignored",
+              "Prove the gain",
+              "End the debate"
+            ],
+            "accepted": [
+              "Outweigh a likely small gain"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word expresses the highest probability?",
+          "answer": "likely",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "likely",
+              "possible",
+              "conceivable",
+              "remote"
+            ],
+            "accepted": [
+              "likely"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence avoids false certainty?",
+          "answer": "It is likely to work, though not certain.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It is likely to work, though not certain.",
+              "It will certainly work.",
+              "It could never work.",
+              "Everyone knows it works."
+            ],
+            "accepted": [
+              "It is likely to work, though not certain."
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does reversibility mean?",
+          "answer": "Whether the decision can be undone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Whether the decision can be undone",
+              "Whether the plan is long",
+              "Whether it is popular",
+              "Whether it is cheap"
+            ],
+            "accepted": [
+              "Whether the decision can be undone"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its question.",
+          "answer": "Probability → How likely is it? | Magnitude → How big is it? | Reversibility → Can it be undone?",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Probability",
+                "How likely is it?"
+              ],
+              [
+                "Magnitude",
+                "How big is it?"
+              ],
+              [
+                "Reversibility",
+                "Can it be undone?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “Possible” and “likely” mean the same thing.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A harm that cannot be undone deserves extra weight.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask whether the harm can be ___.",
+          "answer": "undone",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "undone",
+              "reversed"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The risk is small but permanent.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "risk",
+              "is",
+              "small",
+              "but",
+              "permanent.",
+              "never",
+              "permanently"
+            ],
+            "accepted": [
+              "The risk is small but permanent."
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why does the speaker prefer to wait?",
+          "answer": "The possible harm is permanent",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The possible harm is permanent",
+              "The benefit is huge",
+              "The harm is likely",
+              "Waiting is cheap"
+            ],
+            "accepted": [
+              "The possible harm is permanent"
+            ],
+            "audioText": "The benefit is likely but small. The harm is unlikely, but if it happened it could not be reversed. So I would wait for more evidence before acting."
+          }
+        },
+        {
+          "id": "db-a-risk-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "List the possible outcomes | Estimate how likely and how big each is | Check which can be undone and weigh them",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "List the possible outcomes",
+              "Estimate how likely and how big each is",
+              "Check which can be undone and weigh them"
+            ]
+          }
+        },
+        {
+          "id": "db-a-risk-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Compare two options for a city facing flood risk. Write one sentence about probability, one about magnitude and one about reversibility.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "db-a-close",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Weigh and close",
+      "objectiveId": "DB-A-08",
+      "trackId": "debater",
+      "unitId": "arena",
+      "tip": "In a closing speech, do not repeat everything. Identify the two or three issues that decide the debate, say who won each and why, and explain why those issues outweigh the rest. This is called weighing or impact comparison: “Even if they win the cost point, our point concerns lives, which matters more.” Compare size, likelihood and who is affected. End with a clear, short statement of why your side should win.",
+      "sources": [
+        "Toulmin, The Uses of Argument (concepts only: claim, grounds, warrant, backing, qualifier, rebuttal; no text copied)",
+        "Rapoport’s rules as described by Dennett, and the principle of charity (concepts only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "db-a-close-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a closing speech do?",
+          "answer": "Identify the issues that decide the debate and weigh them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Identify the issues that decide the debate and weigh them",
+              "Repeat every argument",
+              "Introduce new evidence",
+              "Apologize"
+            ],
+            "accepted": [
+              "Identify the issues that decide the debate and weigh them"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence weighs arguments?",
+          "answer": "Even if they win the cost point, our point concerns lives, which matters more.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Even if they win the cost point, our point concerns lives, which matters more.",
+              "We said many things.",
+              "Costs exist.",
+              "Please vote for us."
+            ],
+            "accepted": [
+              "Even if they win the cost point, our point concerns lives, which matters more."
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you compare when you weigh?",
+          "answer": "Size, likelihood and who is affected",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Size, likelihood and who is affected",
+              "Spelling and font",
+              "Length of speeches",
+              "Names of speakers"
+            ],
+            "accepted": [
+              "Size, likelihood and who is affected"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many deciding issues should you aim for?",
+          "answer": "Two or three",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three",
+              "Twenty",
+              "None",
+              "One hundred"
+            ],
+            "accepted": [
+              "Two or three"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you end?",
+          "answer": "With a clear, short statement of why your side should win",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With a clear, short statement of why your side should win",
+              "With a joke",
+              "With silence",
+              "With new evidence"
+            ],
+            "accepted": [
+              "With a clear, short statement of why your side should win"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its purpose.",
+          "answer": "Identify key issues → focus the judges | Say who won each → show your case is stronger | Weigh them → show why your wins matter more",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Identify key issues",
+                "focus the judges"
+              ],
+              [
+                "Say who won each",
+                "show your case is stronger"
+              ],
+              [
+                "Weigh them",
+                "show why your wins matter more"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the closing in order.",
+          "answer": "Name the two or three deciding issues | Say who won each and why | Weigh them and state why your side wins",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Name the two or three deciding issues",
+              "Say who won each and why",
+              "Weigh them and state why your side wins"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A closing speech should bring in brand-new evidence.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: ___ means comparing the importance of arguments.",
+          "answer": "weighing",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "weighing"
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Our point matters more than theirs.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Our",
+              "point",
+              "matters",
+              "more",
+              "than",
+              "theirs.",
+              "never",
+              "most"
+            ],
+            "accepted": [
+              "Our point matters more than theirs."
+            ]
+          }
+        },
+        {
+          "id": "db-a-close-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the speaker weigh the issues?",
+          "answer": "Safety outweighs the small cost win",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Safety outweighs the small cost win",
+              "Cost outweighs safety",
+              "Both issues are equal",
+              "Neither issue matters"
+            ],
+            "accepted": [
+              "Safety outweighs the small cost win"
+            ],
+            "audioText": "There are two issues in this debate: cost and safety. They won cost by a little. We won safety by a lot, and safety affects every student, every day. That is why we should win."
+          }
+        },
+        {
+          "id": "db-a-close-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a four-sentence closing for a debate on whether cities should ban cars from the center.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"

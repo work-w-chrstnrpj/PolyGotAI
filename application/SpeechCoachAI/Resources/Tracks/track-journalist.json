@@ -24,6 +24,34 @@
             "title": "Write the story"
           }
         ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "report",
+            "title": "Report accurately"
+          },
+          {
+            "id": "craft",
+            "title": "Craft the story"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "investigate",
+            "title": "Investigate and verify"
+          },
+          {
+            "id": "depth",
+            "title": "Depth and ethics"
+          }
+        ]
       }
     ]
   },
@@ -84,17 +112,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Where did the fire happen?",
-          "answer": "At a furniture store on Elm Street",
+          "answer": "In a shop that sells furniture",
           "exercise": {
             "type": "choice",
             "options": [
-              "At a furniture store on Elm Street",
+              "In a shop that sells furniture",
               "At a school",
               "In a forest",
               "At the fire station"
             ],
             "accepted": [
-              "At a furniture store on Elm Street"
+              "In a shop that sells furniture"
             ]
           }
         },
@@ -108,7 +136,7 @@
             "type": "choice",
             "options": [
               "Monday night",
-              "Sunday morning",
+              "In two hours",
               "Friday evening",
               "Tuesday at noon"
             ],
@@ -141,17 +169,17 @@
           "kind": "reading",
           "required": true,
           "prompt": "Read this. A fire broke out at a furniture store on Elm Street on Monday night. Firefighters put out the fire in two hours. No one was hurt. Officials think an electrical problem caused it. Why did the fire start, according to officials?",
-          "answer": "Officials think an electrical problem caused it",
+          "answer": "An electrical fault, but officials are not certain",
           "exercise": {
             "type": "choice",
             "options": [
-              "Officials think an electrical problem caused it",
+              "An electrical fault, but officials are not certain",
               "A storm hit the store",
               "A car hit the building",
               "The cause is known for sure"
             ],
             "accepted": [
-              "Officials think an electrical problem caused it"
+              "An electrical fault, but officials are not certain"
             ]
           }
         },
@@ -840,9 +868,9 @@
             "type": "choice",
             "options": [
               "“I love this town,” said Mia.",
-              "“I love this town”, said Mia.",
-              "“I love this town” said Mia.",
-              "I love this town, said Mia."
+              "“I love this town,” said to Mia.",
+              "“I love this town” Mia, said.",
+              "Said Mia, I love this town."
             ],
             "accepted": [
               "“I love this town,” said Mia."
@@ -878,7 +906,7 @@
             "type": "choice",
             "options": [
               "The mayor said the road will close on Monday.",
-              "The mayor said, “The road will close on Monday.”",
+              "The mayor said, “Close the road on Monday!”",
               "“The road will close,” said the mayor.",
               "The mayor said, “Close it!”"
             ],
@@ -1397,9 +1425,9 @@
             "type": "choice",
             "options": [
               "A water pipe broke on Main Street on Monday, closing the road for a day.",
-              "Pipes are interesting.",
-              "Main Street is a street.",
-              "Water is a liquid."
+              "Water pipes are old and often break when it gets cold outside.",
+              "Main Street is a long road with many shops and a few cafés.",
+              "Many people use Main Street every day to go to work and school."
             ],
             "accepted": [
               "A water pipe broke on Main Street on Monday, closing the road for a day."
@@ -1865,9 +1893,9 @@
             "type": "choice",
             "options": [
               "The council voted to build a bike lane; supporters say it is safer, and some shop owners worry about parking.",
-              "The council made a terrible choice about bikes.",
-              "The council voted to build a bike lane and everybody agreed.",
-              "Shop owners lost their parking spaces and are angry."
+              "The council made a terrible choice about bikes, and the shop owners are right to be angry about it.",
+              "The council voted to build a bike lane and everybody agreed that it was a very good plan.",
+              "Shop owners lost their parking spaces on Pine Street and are now angry with the city council."
             ],
             "accepted": [
               "The council voted to build a bike lane; supporters say it is safer, and some shop owners worry about parking."
@@ -2085,6 +2113,3922 @@
           "kind": "grammar",
           "required": true,
           "prompt": "Your turn. Summarize a short news story you read or heard this week in two sentences. Name the source.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-verify",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Check facts with two sources",
+      "objectiveId": "JN-I-01",
+      "trackId": "journalist",
+      "unitId": "report",
+      "tip": "A claim is stronger when two independent sources support it. Independent means they did not get the information from each other. Ask where a source got the facts: did they see it, or hear it from someone else? Say how you know: “according to the police report” or “said two witnesses.” If you cannot confirm a detail, leave it out or say it is unconfirmed.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-verify-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What makes a claim stronger?",
+          "answer": "Two independent sources support it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two independent sources support it.",
+              "One source repeats it twice.",
+              "It sounds exciting.",
+              "It is short."
+            ],
+            "accepted": [
+              "Two independent sources support it."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “independent” mean for two sources?",
+          "answer": "They did not get the facts from each other.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "They did not get the facts from each other.",
+              "They live far away.",
+              "They have never met.",
+              "They are famous."
+            ],
+            "accepted": [
+              "They did not get the facts from each other."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question tests a source?",
+          "answer": "Did you see it, or hear it from someone else?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Did you see it, or hear it from someone else?",
+              "How old are you?",
+              "Do you like the story?",
+              "Is it a long story?"
+            ],
+            "accepted": [
+              "Did you see it, or hear it from someone else?"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire damaged the Corner Bakery early Monday. The owner, Sam Cole, said no one was hurt. A fire officer said the cause may be a broken oven, but the report is not finished. Which detail is still unconfirmed?",
+          "answer": "The cause of the fire",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The cause of the fire",
+              "That a fire happened",
+              "That no one was hurt",
+              "The name of the bakery"
+            ],
+            "accepted": [
+              "The cause of the fire"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-05",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire damaged the Corner Bakery early Monday. The owner, Sam Cole, said no one was hurt. A fire officer said the cause may be a broken oven, but the report is not finished. How should the story describe the oven?",
+          "answer": "The cause may be a broken oven, an officer said, but the report is not finished.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The cause may be a broken oven, an officer said, but the report is not finished.",
+              "A broken oven caused the fire.",
+              "The owner broke the oven.",
+              "The oven is new."
+            ],
+            "accepted": [
+              "The cause may be a broken oven, an officer said, but the report is not finished."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each phrase with how it tells the reader the source.",
+          "answer": "according to the police report → names a document | said two witnesses → names people who saw it | the cause is unconfirmed → admits a gap",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "according to the police report",
+                "names a document"
+              ],
+              [
+                "said two witnesses",
+                "names people who saw it"
+              ],
+              [
+                "the cause is unconfirmed",
+                "admits a gap"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can state an unconfirmed detail as a fact.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Saying how you know builds the reader’s trust.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask where the source got the ___.",
+          "answer": "facts",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "facts"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "This detail is not confirmed.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "This",
+              "detail",
+              "is",
+              "not",
+              "confirmed.",
+              "never",
+              "yet"
+            ],
+            "accepted": [
+              "This detail is not confirmed."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Are these two independent sources?",
+          "answer": "No, the second heard it from the first",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, the second heard it from the first",
+              "Yes, they are fully independent",
+              "Yes, because there are two",
+              "No, because the road is closed"
+            ],
+            "accepted": [
+              "No, the second heard it from the first"
+            ],
+            "audioText": "Two people told me the road was closed. One saw the barrier herself. The other heard it from the first one."
+          }
+        },
+        {
+          "id": "jn-i-verify-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the checking steps in order.",
+          "answer": "Find a claim | Ask how the source knows it | Look for a second, independent source",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find a claim",
+              "Ask how the source knows it",
+              "Look for a second, independent source"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-verify-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A friend tells you a shop will close next month. Write two questions you would ask to check the story.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-record",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "On the record, off the record",
+      "objectiveId": "JN-I-02",
+      "trackId": "journalist",
+      "unitId": "report",
+      "tip": "Tell sources how you will use what they say. On the record means you can quote them by name. Background means you can use the information but not the name. Off the record means you cannot publish it. Agree on the rule before the information is shared, not after. Naming a person is usually best because readers can judge the source; use an anonymous source only when there is a real risk and a good reason.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-record-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “on the record” mean?",
+          "answer": "You may quote the person by name.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You may quote the person by name.",
+              "You may not use anything.",
+              "You must guess.",
+              "You must keep it secret forever."
+            ],
+            "accepted": [
+              "You may quote the person by name."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “off the record” mean?",
+          "answer": "The information cannot be published.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The information cannot be published.",
+              "The person is famous.",
+              "The talk was recorded.",
+              "The story is long."
+            ],
+            "accepted": [
+              "The information cannot be published."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When should the rule be agreed?",
+          "answer": "Before the information is shared",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Before the information is shared",
+              "After the story runs",
+              "Never",
+              "Only by email next year"
+            ],
+            "accepted": [
+              "Before the information is shared"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why is naming a source usually better?",
+          "answer": "Readers can judge who is speaking.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Readers can judge who is speaking.",
+              "It is shorter.",
+              "It hides facts.",
+              "It avoids questions."
+            ],
+            "accepted": [
+              "Readers can judge who is speaking."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is an anonymous source reasonable?",
+          "answer": "When there is a real risk and a good reason",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When there is a real risk and a good reason",
+              "Whenever it saves time",
+              "When the source is shy",
+              "When the story is dull"
+            ],
+            "accepted": [
+              "When there is a real risk and a good reason"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each term with its meaning.",
+          "answer": "On the record → can quote by name | Background → can use the facts, not the name | Off the record → cannot be published",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "On the record",
+                "can quote by name"
+              ],
+              [
+                "Background",
+                "can use the facts, not the name"
+              ],
+              [
+                "Off the record",
+                "cannot be published"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can decide the rule after the source has spoken.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A named source is usually easier for readers to trust.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Agree the rule ___ the person speaks.",
+          "answer": "before",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "before"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Is this on the record?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Is",
+              "this",
+              "on",
+              "the",
+              "record?",
+              "never",
+              "about"
+            ],
+            "accepted": [
+              "Is this on the record?"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the reporter doing?",
+          "answer": "Agreeing how the information will be used",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Agreeing how the information will be used",
+              "Ending the interview",
+              "Changing the story",
+              "Asking for money"
+            ],
+            "accepted": [
+              "Agreeing how the information will be used"
+            ],
+            "audioText": "Before I ask my questions, I need to know: may I use your name, or would you like me to describe you as a city worker?"
+          }
+        },
+        {
+          "id": "jn-i-record-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Explain how you will use the information | Agree on the rule | Ask your questions",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Explain how you will use the information",
+              "Agree on the rule",
+              "Ask your questions"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-record-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A person wants to give you information but not their name. Write two things you would ask or say.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-numbers",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Report numbers with context",
+      "objectiveId": "JN-I-03",
+      "trackId": "journalist",
+      "unitId": "report",
+      "tip": "A number alone says little. Add a comparison, a base and a source. “Robberies fell from 40 to 30” becomes clearer with “in a city of 200,000,” and a trend over time. Say percent when the base is clear: a fall from 40 to 30 is 25 percent. Round when exactness does not matter: “about 200,000.” Never report a small change as a large trend.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-numbers-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Robberies fell from 40 last year to 30 this year, according to the police. The city has about 200,000 people. Two years ago there were 55 robberies. Which comparison gives the best context?",
+          "answer": "The count from two years earlier",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The count from two years earlier",
+              "The mood of the city",
+              "The number of police cars",
+              "The date of the next meeting"
+            ],
+            "accepted": [
+              "The count from two years earlier"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Robberies fell from 40 last year to 30 this year, according to the police. The city has about 200,000 people. Two years ago there were 55 robberies. By what percent did robberies fall from 40 to 30?",
+          "answer": "25 percent",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "25 percent",
+              "10 percent",
+              "75 percent",
+              "30 percent"
+            ],
+            "accepted": [
+              "25 percent"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why add a base, like the size of the city?",
+          "answer": "It shows whether the number is large or small.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It shows whether the number is large or small.",
+              "It makes the story longer.",
+              "It hides the number.",
+              "It is required by law."
+            ],
+            "accepted": [
+              "It shows whether the number is large or small."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is rounding fine?",
+          "answer": "When exactness does not matter",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When exactness does not matter",
+              "Always",
+              "Never",
+              "Only for names"
+            ],
+            "accepted": [
+              "When exactness does not matter"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase shows the source of a number?",
+          "answer": "according to the police",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "according to the police",
+              "everyone knows",
+              "it seems",
+              "maybe"
+            ],
+            "accepted": [
+              "according to the police"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each helper with its job.",
+          "answer": "Comparison → shows the change | Base → shows the size | Source → shows where it came from",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Comparison",
+                "shows the change"
+              ],
+              [
+                "Base",
+                "shows the size"
+              ],
+              [
+                "Source",
+                "shows where it came from"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A small change should be reported as a big trend.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A number with no source is hard to trust.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Add a source for every ___.",
+          "answer": "number",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "number"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Robberies fell by a quarter.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Robberies",
+              "fell",
+              "by",
+              "a",
+              "quarter.",
+              "never",
+              "quarters"
+            ],
+            "accepted": [
+              "Robberies fell by a quarter."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What context does the speaker add?",
+          "answer": "The new buses are larger",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The new buses are larger",
+              "The buses are red",
+              "The city is small",
+              "The drivers are new"
+            ],
+            "accepted": [
+              "The new buses are larger"
+            ],
+            "audioText": "The number of buses fell from 50 to 45. That is a drop of ten percent, but the city says the new buses are larger and carry more people."
+          }
+        },
+        {
+          "id": "jn-i-numbers-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find the number and its source | Compare it with an earlier number | Say what the change means for readers",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the number and its source",
+              "Compare it with an earlier number",
+              "Say what the change means for readers"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-numbers-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Sales rose from 20 to 24 in one week. Write one careful sentence for a news story.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-balance",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Be fair and balanced",
+      "objectiveId": "JN-I-04",
+      "trackId": "journalist",
+      "unitId": "report",
+      "tip": "Fair stories give the people involved a chance to respond. If you report a criticism, ask the person criticized for their side before you publish. Use neutral verbs: “said” is fairer than “claimed,” which suggests doubt. Do not use loaded words, such as “disaster” or “miracle,” unless a source says them. Balance does not mean pretending two unequal sides are equal; give more weight to the stronger evidence.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-balance-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Tuesday to close Pine Park for a year while workers replace the old playground. Council member Lena Ortiz said the equipment is unsafe. A neighbor, Kofi Mensah, said children will have nowhere to play. The council did not say where the money will come from. Whose views does the story include?",
+          "answer": "A council member and a neighbor",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A council member and a neighbor",
+              "Only the council",
+              "Only the neighbor",
+              "A police officer"
+            ],
+            "accepted": [
+              "A council member and a neighbor"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Tuesday to close Pine Park for a year while workers replace the old playground. Council member Lena Ortiz said the equipment is unsafe. A neighbor, Kofi Mensah, said children will have nowhere to play. The council did not say where the money will come from. What question does the story leave unanswered?",
+          "answer": "How the work will be paid for",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How the work will be paid for",
+              "When the council met",
+              "Who lives nearby",
+              "How big the park is"
+            ],
+            "accepted": [
+              "How the work will be paid for"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why ask the person criticized for a reply?",
+          "answer": "To be fair and complete",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To be fair and complete",
+              "To make the story longer",
+              "To avoid the facts",
+              "To please the editor"
+            ],
+            "accepted": [
+              "To be fair and complete"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which verb is more neutral?",
+          "answer": "said",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "said",
+              "claimed",
+              "confessed",
+              "boasted"
+            ],
+            "accepted": [
+              "said"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word is loaded?",
+          "answer": "disaster",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "disaster",
+              "meeting",
+              "vote",
+              "report"
+            ],
+            "accepted": [
+              "disaster"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does balance NOT mean?",
+          "answer": "Treating weak and strong evidence as equal",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Treating weak and strong evidence as equal",
+              "Hearing both sides",
+              "Being fair",
+              "Checking facts"
+            ],
+            "accepted": [
+              "Treating weak and strong evidence as equal"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each habit with its effect.",
+          "answer": "Ask for a reply → fair to the person | Loaded word → shows opinion | Neutral verb → keeps tone even",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Ask for a reply",
+                "fair to the person"
+              ],
+              [
+                "Loaded word",
+                "shows opinion"
+              ],
+              [
+                "Neutral verb",
+                "keeps tone even"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “Said” and “claimed” mean the same to a reader.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should give the person criticized a chance to respond.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use ___ verbs such as said.",
+          "answer": "neutral",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "neutral"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "We asked the council for a reply.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "We",
+              "asked",
+              "the",
+              "council",
+              "for",
+              "a",
+              "reply.",
+              "never",
+              "asks"
+            ],
+            "accepted": [
+              "We asked the council for a reply."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-balance-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. How does the reporter show fairness?",
+          "answer": "Includes both views and asks for an answer",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Includes both views and asks for an answer",
+              "Gives only the mayor’s view",
+              "Leaves out the residents",
+              "Calls the plan a disaster"
+            ],
+            "accepted": [
+              "Includes both views and asks for an answer"
+            ],
+            "audioText": "The mayor said the plan will save money. A group of residents said it will raise their bills. We asked the city to explain the costs and are waiting for an answer."
+          }
+        },
+        {
+          "id": "jn-i-balance-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Rewrite this sentence in a neutral way: “The mayor’s terrible plan was a disaster, he claimed it would help.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-lede",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "News ledes and feature ledes",
+      "objectiveId": "JN-I-05",
+      "trackId": "journalist",
+      "unitId": "craft",
+      "tip": "A news lede gives the main facts in one or two sentences: who, what, when and where. A feature lede may start with a person or a scene to pull the reader in, but it must reach the point quickly in a “nut paragraph.” Choose the lede that fits the story: urgent news needs a direct lede; a human story can start with a moment. Avoid starting with a question or a weather report unless it truly matters.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-lede-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a news lede contain?",
+          "answer": "The main facts: who, what, when and where",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The main facts: who, what, when and where",
+              "A long background",
+              "The weather",
+              "The reporter’s name"
+            ],
+            "accepted": [
+              "The main facts: who, what, when and where"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a nut paragraph?",
+          "answer": "The paragraph that tells the reader why the story matters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The paragraph that tells the reader why the story matters",
+              "A food story",
+              "The last sentence",
+              "A headline"
+            ],
+            "accepted": [
+              "The paragraph that tells the reader why the story matters"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which story suits a direct lede?",
+          "answer": "An urgent fire",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An urgent fire",
+              "A quiet profile of a baker",
+              "A travel diary",
+              "A poem"
+            ],
+            "accepted": [
+              "An urgent fire"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-04",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A fire damaged the Corner Bakery early Monday. The owner, Sam Cole, said no one was hurt. A fire officer said the cause may be a broken oven, but the report is not finished. Which is the strongest news lede?",
+          "answer": "A fire damaged the Corner Bakery early Monday, but no one was hurt, the owner said.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A fire damaged the Corner Bakery early Monday, but no one was hurt, the owner said.",
+              "Early Monday was cold.",
+              "Sam Cole likes bread.",
+              "Fires are bad."
+            ],
+            "accepted": [
+              "A fire damaged the Corner Bakery early Monday, but no one was hurt, the owner said."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which lede is a feature lede?",
+          "answer": "At five each morning, Sam Cole lights the oven he built himself.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "At five each morning, Sam Cole lights the oven he built himself.",
+              "A fire damaged a bakery on Monday.",
+              "Police say a crash blocked Main Street.",
+              "The council voted on Tuesday."
+            ],
+            "accepted": [
+              "At five each morning, Sam Cole lights the oven he built himself."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each lede type with its use.",
+          "answer": "Direct news lede → urgent news | Feature lede → a human story | Nut paragraph → explains why it matters",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Direct news lede",
+                "urgent news"
+              ],
+              [
+                "Feature lede",
+                "a human story"
+              ],
+              [
+                "Nut paragraph",
+                "explains why it matters"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put a feature opening in order.",
+          "answer": "Start with a person or a moment | Add a nut paragraph | Give the facts and sources",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Start with a person or a moment",
+              "Add a nut paragraph",
+              "Give the facts and sources"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A feature lede may begin with a scene.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Every story needs a weather report at the start.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A ___ lede gives who, what, when and where.",
+          "answer": "news",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "news"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "A fire damaged the bakery on Monday.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "A",
+              "fire",
+              "damaged",
+              "the",
+              "bakery",
+              "on",
+              "Monday.",
+              "never",
+              "damages"
+            ],
+            "accepted": [
+              "A fire damaged the bakery on Monday."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-lede-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which sentence works as the nut paragraph?",
+          "answer": "The council has promised funds, but the owner says it is not enough.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The council has promised funds, but the owner says it is not enough.",
+              "At five every morning, Sam lights the oven.",
+              "On Monday, a fire took it.",
+              "He built the oven."
+            ],
+            "accepted": [
+              "The council has promised funds, but the owner says it is not enough."
+            ],
+            "audioText": "At five every morning, Sam Cole lights the oven he built himself. On Monday, a fire took it. The council has promised new funds for small shops, but the owner says that is not enough."
+          }
+        },
+        {
+          "id": "jn-i-lede-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a direct lede and a feature lede for the same event: a school closes for a day because of snow.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-quote",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Quote and paraphrase well",
+      "objectiveId": "JN-I-06",
+      "trackId": "journalist",
+      "unitId": "craft",
+      "tip": "Use a direct quote when the words are vivid or the person matters. Use a paraphrase when the idea is clear but the wording is dull. Do not change words inside quotation marks. A partial quote is allowed if it does not change the meaning. Place attribution after the first sentence of a quote: “We need new equipment,” Ortiz said. “The old playground is unsafe.” Check every quote against your notes.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-quote-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When should you use a direct quote?",
+          "answer": "When the words are vivid or the person matters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When the words are vivid or the person matters",
+              "When you forgot the idea",
+              "For every sentence",
+              "When the words are dull"
+            ],
+            "accepted": [
+              "When the words are vivid or the person matters"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is a paraphrase better?",
+          "answer": "When the idea is clear but the wording is dull",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When the idea is clear but the wording is dull",
+              "When the quote is perfect",
+              "When you want to change the meaning",
+              "Never"
+            ],
+            "accepted": [
+              "When the idea is clear but the wording is dull"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What must you never do with words inside quotation marks?",
+          "answer": "Change them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Change them",
+              "Print them",
+              "Check them",
+              "Attribute them"
+            ],
+            "accepted": [
+              "Change them"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which attribution placement is smooth?",
+          "answer": "“We need new equipment,” Ortiz said. “The old playground is unsafe.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "“We need new equipment,” Ortiz said. “The old playground is unsafe.”",
+              "Ortiz said said said.",
+              "“We need,” new “equipment.”",
+              "Ortiz. “We need.”"
+            ],
+            "accepted": [
+              "“We need new equipment,” Ortiz said. “The old playground is unsafe.”"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "When is a partial quote acceptable?",
+          "answer": "When it does not change the meaning",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "When it does not change the meaning",
+              "Whenever you like",
+              "When it sounds harsher",
+              "Never"
+            ],
+            "accepted": [
+              "When it does not change the meaning"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its use.",
+          "answer": "Direct quote → keeps the exact words | Paraphrase → puts the idea in your words | Partial quote → uses a few exact words",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Direct quote",
+                "keeps the exact words"
+              ],
+              [
+                "Paraphrase",
+                "puts the idea in your words"
+              ],
+              [
+                "Partial quote",
+                "uses a few exact words"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You may fix a speaker’s grammar inside quotation marks.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should check every quote against your notes.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Never ___ the words inside quotation marks.",
+          "answer": "change",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "change"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Ortiz said the equipment is unsafe.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Ortiz",
+              "said",
+              "the",
+              "equipment",
+              "is",
+              "unsafe.",
+              "never",
+              "unsave"
+            ],
+            "accepted": [
+              "Ortiz said the equipment is unsafe."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-11",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The city council voted on Tuesday to close Pine Park for a year while workers replace the old playground. Council member Lena Ortiz said the equipment is unsafe. A neighbor, Kofi Mensah, said children will have nowhere to play. The council did not say where the money will come from. Which is a correct paraphrase of the neighbor’s view?",
+          "answer": "Mensah said the closure leaves children without a place to play.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Mensah said the closure leaves children without a place to play.",
+              "Mensah said he loves the playground.",
+              "Mensah said the council lied.",
+              "Mensah said the park is fine."
+            ],
+            "accepted": [
+              "Mensah said the closure leaves children without a place to play."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-quote-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which part is a direct quote?",
+          "answer": "I trust the equipment.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I trust the equipment.",
+              "Later she added.",
+              "New parts would arrive.",
+              "In a week."
+            ],
+            "accepted": [
+              "I trust the equipment."
+            ],
+            "audioText": "“I trust the equipment,” the manager said. Later she added that new parts would arrive in a week."
+          }
+        },
+        {
+          "id": "jn-i-quote-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Turn this into a paraphrase: “Honestly, the thing is, we just don’t have the budget for it right now.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-style",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Write clear news sentences",
+      "objectiveId": "JN-I-07",
+      "trackId": "journalist",
+      "unitId": "craft",
+      "tip": "News sentences are short, active and specific. Put the actor first: “The council closed the park” is clearer than “The park was closed by the council.” Use plain words: “use,” not “utilize.” Prefer the specific: “three workers,” not “several people.” Use the past tense for events that have ended. Cut words that do not add facts, such as “very” and “really.”",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-style-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence is active?",
+          "answer": "The council closed the park.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The council closed the park.",
+              "The park was closed by the council.",
+              "Closing happened to the park.",
+              "A closure of the park was done."
+            ],
+            "accepted": [
+              "The council closed the park."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase is more specific?",
+          "answer": "three workers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "three workers",
+              "several people",
+              "some folks",
+              "a few"
+            ],
+            "accepted": [
+              "three workers"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word is plain?",
+          "answer": "use",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "use",
+              "utilize",
+              "commence",
+              "endeavor"
+            ],
+            "accepted": [
+              "use"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tense usually fits a finished event?",
+          "answer": "Past",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Past",
+              "Future",
+              "Conditional",
+              "None"
+            ],
+            "accepted": [
+              "Past"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which words can you often cut?",
+          "answer": "very and really",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "very and really",
+              "who and where",
+              "numbers",
+              "names"
+            ],
+            "accepted": [
+              "very and really"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each habit with an example.",
+          "answer": "Active voice → The council closed the park. | Specific detail → three workers | Plain word → use",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Active voice",
+                "The council closed the park."
+              ],
+              [
+                "Specific detail",
+                "three workers"
+              ],
+              [
+                "Plain word",
+                "use"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the editing steps in order.",
+          "answer": "Find the actor | Move it to the front | Cut words that add no facts",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the actor",
+              "Move it to the front",
+              "Cut words that add no facts"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Passive voice is always clearer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Specific numbers make a sentence stronger.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Write short, active and ___ sentences.",
+          "answer": "specific",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "specific"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Workers will replace the playground.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Workers",
+              "will",
+              "replace",
+              "the",
+              "playground.",
+              "never",
+              "replaced"
+            ],
+            "accepted": [
+              "Workers will replace the playground."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-style-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why is the second sentence better?",
+          "answer": "It puts the actor first",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It puts the actor first",
+              "It is longer",
+              "It is passive",
+              "It uses jargon"
+            ],
+            "accepted": [
+              "It puts the actor first"
+            ],
+            "audioText": "The playground was damaged by a storm. Rewritten: A storm damaged the playground."
+          }
+        },
+        {
+          "id": "jn-i-style-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Rewrite in active voice: “The decision was made by the school board that the library would be closed.”",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-i-correct",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Check, correct and headline",
+      "objectiveId": "JN-I-08",
+      "trackId": "journalist",
+      "unitId": "craft",
+      "tip": "Before you publish, check names, numbers, dates and quotes. Read the headline: does it match the story, or does it promise more than the facts show? If you find a mistake after publishing, correct it quickly and plainly: “An earlier version said 150 people attended. The correct number is 105.” Do not hide a correction. Readers trust a newsroom that fixes its errors.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for attribution, balance and corrections (ideas only; original wording)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-i-correct-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you check before publishing?",
+          "answer": "Names, numbers, dates and quotes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Names, numbers, dates and quotes",
+              "Only the font",
+              "The weather",
+              "Your lunch"
+            ],
+            "accepted": [
+              "Names, numbers, dates and quotes"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What makes a headline honest?",
+          "answer": "It matches what the story shows.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It matches what the story shows.",
+              "It is as loud as possible.",
+              "It promises more than the facts.",
+              "It has no verb."
+            ],
+            "accepted": [
+              "It matches what the story shows."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after finding a mistake?",
+          "answer": "Correct it quickly and plainly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Correct it quickly and plainly",
+              "Hide it",
+              "Blame someone",
+              "Wait a year"
+            ],
+            "accepted": [
+              "Correct it quickly and plainly"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clear correction?",
+          "answer": "An earlier version said 150 people attended. The correct number is 105.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An earlier version said 150 people attended. The correct number is 105.",
+              "Oops, sorry about that, mistakes happen.",
+              "Ignore previous number.",
+              "Numbers change."
+            ],
+            "accepted": [
+              "An earlier version said 150 people attended. The correct number is 105."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do corrections help trust?",
+          "answer": "Readers see the newsroom fixes errors.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Readers see the newsroom fixes errors.",
+              "They hide the story.",
+              "They make the story longer.",
+              "They remove names."
+            ],
+            "accepted": [
+              "Readers see the newsroom fixes errors."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each check with what it protects.",
+          "answer": "Check names → avoids hurting a person | Check numbers → keeps facts right | Read the headline → keeps the promise honest",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Check names",
+                "avoids hurting a person"
+              ],
+              [
+                "Check numbers",
+                "keeps facts right"
+              ],
+              [
+                "Read the headline",
+                "keeps the promise honest"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Check names, numbers and quotes | Read the headline against the story | Publish and correct quickly if needed",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Check names, numbers and quotes",
+              "Read the headline against the story",
+              "Publish and correct quickly if needed"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A headline may promise more than the story shows.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A plain correction builds trust.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Correct a mistake ___ and plainly.",
+          "answer": "quickly",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "quickly"
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The correct number is 105.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "correct",
+              "number",
+              "is",
+              "105.",
+              "never",
+              "correction"
+            ],
+            "accepted": [
+              "The correct number is 105."
+            ]
+          }
+        },
+        {
+          "id": "jn-i-correct-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is wrong with the headline?",
+          "answer": "It promises more than the facts show",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It promises more than the facts show",
+              "It is too short",
+              "It has a number",
+              "It names a person"
+            ],
+            "accepted": [
+              "It promises more than the facts show"
+            ],
+            "audioText": "Headline: Park closed forever. Story: The park will close for one year. The headline promises more than the facts show."
+          }
+        },
+        {
+          "id": "jn-i-correct-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a short correction for this mistake: a story said the event is on Friday, but it is on Saturday.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-records",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Follow the documents",
+      "objectiveId": "JN-A-01",
+      "trackId": "journalist",
+      "unitId": "investigate",
+      "tip": "Strong stories rest on documents: budgets, contracts, court files, inspection reports. Many are public records you can request. Read the original, not a summary. Note dates, names, amounts and signatures, and keep a timeline. Ask what a document does not say. When you request records, be specific and polite: the exact title, the date range and the office. Keep copies, and record how and when you obtained each one.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-records-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why read the original document?",
+          "answer": "Summaries can omit or change details",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Summaries can omit or change details",
+              "Originals are shorter",
+              "Summaries are always wrong",
+              "It saves paper"
+            ],
+            "accepted": [
+              "Summaries can omit or change details"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you note when you read a document?",
+          "answer": "Dates, names, amounts and signatures",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dates, names, amounts and signatures",
+              "Only the title",
+              "The font",
+              "The page color"
+            ],
+            "accepted": [
+              "Dates, names, amounts and signatures"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps a request for records succeed?",
+          "answer": "A specific title, date range and office",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A specific title, date range and office",
+              "A vague demand",
+              "A threat",
+              "A long letter about your hopes"
+            ],
+            "accepted": [
+              "A specific title, date range and office"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What question should you ask about a document?",
+          "answer": "What does it not say?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What does it not say?",
+              "Is it heavy?",
+              "Who printed it?",
+              "Is it long?"
+            ],
+            "accepted": [
+              "What does it not say?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you record about each document?",
+          "answer": "How and when you obtained it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How and when you obtained it",
+              "Its color",
+              "Your mood",
+              "The weather"
+            ],
+            "accepted": [
+              "How and when you obtained it"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each record with what it can show.",
+          "answer": "Contract → who agreed to what, and for how much | Inspection report → the condition of a building | Court file → claims and decisions in a case",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Contract",
+                "who agreed to what, and for how much"
+              ],
+              [
+                "Inspection report",
+                "the condition of a building"
+              ],
+              [
+                "Court file",
+                "claims and decisions in a case"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Identify the document you need | Request it with a specific description | Read the original and build a timeline",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Identify the document you need",
+              "Request it with a specific description",
+              "Read the original and build a timeline"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A summary can replace the original document.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Keep a ___ of dates and events.",
+          "answer": "timeline",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "timeline"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I requested the contract by title and date.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "requested",
+              "the",
+              "contract",
+              "by",
+              "title",
+              "and",
+              "date.",
+              "never",
+              "request"
+            ],
+            "accepted": [
+              "I requested the contract by title and date."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-records-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Why did the reporter ask for the contract?",
+          "answer": "The press release left something out",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The press release left something out",
+              "The contract was short",
+              "The press release was perfect",
+              "The mayor asked"
+            ],
+            "accepted": [
+              "The press release left something out"
+            ],
+            "audioText": "I did not rely on the press release. I asked for the signed contract, and it showed a clause the release did not mention: the price could rise by twenty percent."
+          }
+        },
+        {
+          "id": "jn-a-records-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a one-sentence request to a city office for the inspection report of a public swimming pool, with a date range.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-data",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Read data with suspicion",
+      "objectiveId": "JN-A-02",
+      "trackId": "journalist",
+      "unitId": "investigate",
+      "tip": "Numbers can mislead even when they are accurate. Adjust for change in size: spending that rises while the population rises may be falling per person. Know the difference between a mean and a median: a few very high values pull the mean up. Ask how a survey chose its respondents: a self-selected poll shows only those who chose to answer. Report the margin of error. Compare like with like, and ask for the dataset when you can.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-data-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A town report says spending on road repair rose from 2 million to 3 million dollars in a year. The population of the town grew from 40,000 to 60,000 over the same period, and prices of asphalt rose by 30 percent. What does the passage suggest about road spending per resident?",
+          "answer": "It may have fallen once population growth is considered.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It may have fallen once population growth is considered.",
+              "It certainly doubled.",
+              "It is unchanged.",
+              "It is unknown and irrelevant."
+            ],
+            "accepted": [
+              "It may have fallen once population growth is considered."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A website survey found that 80 percent of respondents oppose the new tax. The survey was shared by an anti-tax group, and 400 people answered. Respondents chose themselves. What is the main weakness of this survey?",
+          "answer": "Respondents chose themselves and were reached through one side.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Respondents chose themselves and were reached through one side.",
+              "It was too short.",
+              "It asked too many people.",
+              "It had a clear question."
+            ],
+            "accepted": [
+              "Respondents chose themselves and were reached through one side."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why is the mean sometimes misleading?",
+          "answer": "A few very high values can pull it up",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A few very high values can pull it up",
+              "It is always smaller",
+              "It ignores averages",
+              "It is the same as the median"
+            ],
+            "accepted": [
+              "A few very high values can pull it up"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a self-selected poll?",
+          "answer": "Respondents chose to take part",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Respondents chose to take part",
+              "Respondents were randomly chosen",
+              "Respondents were paid",
+              "Respondents were experts"
+            ],
+            "accepted": [
+              "Respondents chose to take part"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the best way to compare spending over time?",
+          "answer": "Adjust for population and prices",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Adjust for population and prices",
+              "Compare raw totals only",
+              "Ignore prices",
+              "Use the biggest number"
+            ],
+            "accepted": [
+              "Adjust for population and prices"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each concept with a question.",
+          "answer": "Per person → Does the number account for size? | Median → What does the typical case look like? | Margin of error → How uncertain is the estimate?",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Per person",
+                "Does the number account for size?"
+              ],
+              [
+                "Median",
+                "What does the typical case look like?"
+              ],
+              [
+                "Margin of error",
+                "How uncertain is the estimate?"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A survey that people chose to answer represents everyone.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Asking for the dataset can help check a claim.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Report the margin of ___.",
+          "answer": "error",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "error"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "How were the respondents chosen?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "How",
+              "were",
+              "the",
+              "respondents",
+              "chosen?",
+              "does",
+              "choose"
+            ],
+            "accepted": [
+              "How were the respondents chosen?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the speaker showing?",
+          "answer": "How an extreme value pulls up the average",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "How an extreme value pulls up the average",
+              "That salaries are equal",
+              "That the firm is poor",
+              "That averages are never useful"
+            ],
+            "accepted": [
+              "How an extreme value pulls up the average"
+            ],
+            "audioText": "The average salary at the firm is eighty thousand dollars. But the owner earns three million. The typical worker earns closer to forty thousand."
+          }
+        },
+        {
+          "id": "jn-a-data-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the checks in order.",
+          "answer": "Find the denominator | Adjust for size and prices | Check how the data were collected",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the denominator",
+              "Adjust for size and prices",
+              "Check how the data were collected"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-data-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A report says accidents rose from 20 to 30 while traffic doubled. Write two careful sentences for a news story.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-verify",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Verify images and online claims",
+      "objectiveId": "JN-A-03",
+      "trackId": "journalist",
+      "unitId": "investigate",
+      "tip": "Viral images and posts can be old, edited or from somewhere else. Check provenance: who first posted it and when? Run a reverse image search. Look at details that can be confirmed: signs, shadows, weather, landmarks. Contact the source and ask how they got it. Look for the same event in independent reports. If you cannot confirm it, label it clearly or leave it out. Speed is never a reason to publish unverified claims.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-verify-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. A photograph of a flooded street spreads online with the caption “Happening now downtown.” A search finds the same image on a news site from three years ago. What does the image search suggest?",
+          "answer": "The image is old and not from the claimed event.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The image is old and not from the claimed event.",
+              "The image is new.",
+              "The image proves the flood.",
+              "The caption is accurate."
+            ],
+            "accepted": [
+              "The image is old and not from the claimed event."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is provenance?",
+          "answer": "The origin and history of the material",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The origin and history of the material",
+              "A kind of filter",
+              "A photo size",
+              "A hashtag"
+            ],
+            "accepted": [
+              "The origin and history of the material"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a reverse image search show?",
+          "answer": "Where else the image has appeared",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Where else the image has appeared",
+              "The photographer’s age",
+              "The camera brand only",
+              "The location of the viewer"
+            ],
+            "accepted": [
+              "Where else the image has appeared"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail can you check to place a photo?",
+          "answer": "Signs, weather and landmarks",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Signs, weather and landmarks",
+              "Its likes",
+              "The caption’s font",
+              "The filter name"
+            ],
+            "accepted": [
+              "Signs, weather and landmarks"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What if you cannot confirm a claim?",
+          "answer": "Label it or leave it out",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Label it or leave it out",
+              "Publish it fast",
+              "Assume it is true",
+              "Delete your notes"
+            ],
+            "accepted": [
+              "Label it or leave it out"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each check with its purpose.",
+          "answer": "Reverse search → finds earlier appearances | Contact the source → learns how it was obtained | Compare with reports → tests independence",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Reverse search",
+                "finds earlier appearances"
+              ],
+              [
+                "Contact the source",
+                "learns how it was obtained"
+              ],
+              [
+                "Compare with reports",
+                "tests independence"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find who posted it first | Check details and run a reverse search | Confirm with independent sources before publishing",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find who posted it first",
+              "Check details and run a reverse search",
+              "Confirm with independent sources before publishing"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Speed is a good reason to skip verification.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Check the ___ of the material.",
+          "answer": "provenance",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "provenance",
+              "origin"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I cannot confirm where this was taken.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "cannot",
+              "confirm",
+              "where",
+              "this",
+              "was",
+              "taken.",
+              "never",
+              "confirms"
+            ],
+            "accepted": [
+              "I cannot confirm where this was taken."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-verify-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What detail raises doubt?",
+          "answer": "The shop sign in the background",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The shop sign in the background",
+              "The weather",
+              "The time of day",
+              "The caption’s length"
+            ],
+            "accepted": [
+              "The shop sign in the background"
+            ],
+            "audioText": "The post says the video is from yesterday’s storm. But the shop sign in the background closed two years ago. Either the video is old or the sign is wrong, and I will check."
+          }
+        },
+        {
+          "id": "jn-a-verify-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three steps you would take before sharing a dramatic photo of a fire that you found online.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-accountability",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Accountability questions",
+      "objectiveId": "JN-A-04",
+      "trackId": "journalist",
+      "unitId": "investigate",
+      "tip": "When a powerful person avoids a question, ask again precisely. Keep questions short and closed when you need a fact: “Was a public tender held, yes or no?” Do not accept a general statement as an answer: note it and return to the point. Use silence: after a short answer, wait. Quote the exact evasion and the exact question in your story, so the reader can judge. Stay courteous and firm; the aim is the answer, not the confrontation.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-accountability-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The mayor was asked whether the contract was awarded without a public tender. She replied only that the city always follows the rules and has a proud record of transparency. Did the mayor answer the question?",
+          "answer": "No, she replied in general terms.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, she replied in general terms.",
+              "Yes, she said there was no tender.",
+              "Yes, she said there was a tender.",
+              "She asked a new question."
+            ],
+            "accepted": [
+              "No, she replied in general terms."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which follow-up is best?",
+          "answer": "Was a public tender held, yes or no?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Was a public tender held, yes or no?",
+              "Why do you hate me?",
+              "Is the city proud?",
+              "Can we talk about the weather?"
+            ],
+            "accepted": [
+              "Was a public tender held, yes or no?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do with a general statement?",
+          "answer": "Note it and return to the question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Note it and return to the question",
+              "Accept it",
+              "Argue about it",
+              "Leave"
+            ],
+            "accepted": [
+              "Note it and return to the question"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can silence do after a short answer?",
+          "answer": "Invite the person to add more",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Invite the person to add more",
+              "End the interview",
+              "Confuse the reporter",
+              "Anger the person"
+            ],
+            "accepted": [
+              "Invite the person to add more"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you present an evasion in the story?",
+          "answer": "Quote the question and the reply exactly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Quote the question and the reply exactly",
+              "Hide it",
+              "Call the person a liar",
+              "Skip it"
+            ],
+            "accepted": [
+              "Quote the question and the reply exactly"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each move with its aim.",
+          "answer": "Closed question → get a fact | Return to the point → avoid a drift | Silence → invite more",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Closed question",
+                "get a fact"
+              ],
+              [
+                "Return to the point",
+                "avoid a drift"
+              ],
+              [
+                "Silence",
+                "invite more"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Ask a short, precise question | Note and return if it is avoided | Report the question and reply exactly",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask a short, precise question",
+              "Note and return if it is avoided",
+              "Report the question and reply exactly"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Staying courteous reduces the chance of a firm answer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Return to the ___ if it is avoided.",
+          "answer": "question",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "question",
+              "point"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the question.",
+          "answer": "Was a tender held, yes or no?",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Was",
+              "a",
+              "tender",
+              "held,",
+              "yes",
+              "or",
+              "no?",
+              "does",
+              "hold"
+            ],
+            "accepted": [
+              "Was a tender held, yes or no?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-accountability-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the reporter doing?",
+          "answer": "Returning to a precise question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Returning to a precise question",
+              "Ending the interview",
+              "Making an accusation",
+              "Agreeing with the speaker"
+            ],
+            "accepted": [
+              "Returning to a precise question"
+            ],
+            "audioText": "I appreciate that, but my question was narrower. Did the council compare any other offers before choosing this company?"
+          }
+        },
+        {
+          "id": "jn-a-accountability-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. An official gives a general answer about safety. Write the precise follow-up question you would ask.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-feature",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Structure a long feature",
+      "objectiveId": "JN-A-05",
+      "trackId": "journalist",
+      "unitId": "depth",
+      "tip": "A long feature needs architecture. Open with a scene or person, state the stakes in a nut paragraph, then move through sections: background, conflict, evidence and what comes next. Braid the human story and the explanation, returning to the person between sections. Use subheads or a clear change of scene. End with an image or a question that echoes the opening, not a summary. Cut anything that does not serve the central question.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-feature-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a nut paragraph do?",
+          "answer": "States the stakes and why the story matters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "States the stakes and why the story matters",
+              "Lists the staff",
+              "Ends the story",
+              "Gives the weather"
+            ],
+            "accepted": [
+              "States the stakes and why the story matters"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does it mean to braid a feature?",
+          "answer": "Alternate the human story with explanation",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Alternate the human story with explanation",
+              "Tie two reports together with string",
+              "Repeat the headline",
+              "Remove quotes"
+            ],
+            "accepted": [
+              "Alternate the human story with explanation"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending suits a feature?",
+          "answer": "An image that echoes the opening",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An image that echoes the opening",
+              "A long summary of every point",
+              "A new statistic",
+              "An apology"
+            ],
+            "accepted": [
+              "An image that echoes the opening"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you cut?",
+          "answer": "Anything that does not serve the central question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Anything that does not serve the central question",
+              "The scene",
+              "The nut paragraph",
+              "The ending"
+            ],
+            "accepted": [
+              "Anything that does not serve the central question"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can mark a change of section?",
+          "answer": "A subhead or a clear change of scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A subhead or a clear change of scene",
+              "A longer title",
+              "A new font",
+              "A joke"
+            ],
+            "accepted": [
+              "A subhead or a clear change of scene"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Opening scene → draws the reader in | Nut paragraph → states the stakes | Sections → carry background, conflict and evidence",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Opening scene",
+                "draws the reader in"
+              ],
+              [
+                "Nut paragraph",
+                "states the stakes"
+              ],
+              [
+                "Sections",
+                "carry background, conflict and evidence"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the structure in order.",
+          "answer": "Open with a scene or person | State the stakes | Move through the sections, braiding story and explanation | End with an echo of the opening",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Open with a scene or person",
+              "State the stakes",
+              "Move through the sections, braiding story and explanation",
+              "End with an echo of the opening"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A feature should end by repeating all its facts.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: The nut paragraph states the ___.",
+          "answer": "stakes",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "stakes"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The story returns to the family between sections.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "story",
+              "returns",
+              "to",
+              "the",
+              "family",
+              "between",
+              "sections.",
+              "never",
+              "return"
+            ],
+            "accepted": [
+              "The story returns to the family between sections."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-feature-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which technique is described?",
+          "answer": "Braiding and an echo ending",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Braiding and an echo ending",
+              "A summary lede",
+              "A list",
+              "A quote wall"
+            ],
+            "accepted": [
+              "Braiding and an echo ending"
+            ],
+            "audioText": "The piece opens with a woman measuring the water in her kitchen. Then it explains the city’s pipe system. Then it returns to her, and ends with her standing by the same sink."
+          }
+        },
+        {
+          "id": "jn-a-feature-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Outline a feature about a local bakery closing: the opening scene, the stakes, three sections and the ending image.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-explain",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Explain complexity clearly",
+      "objectiveId": "JN-A-06",
+      "trackId": "journalist",
+      "unitId": "depth",
+      "tip": "Complex topics lose readers when the writer assumes knowledge. Define each term the first time you use it, in plain words. Use one precise analogy, not three; test that it does not mislead. Layer information: give the simple version first, then add the detail that readers need. Use concrete examples and numbers they can picture. Cut jargon, or explain it in a clause. Your test is whether a smart friend outside the field could repeat your explanation.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-explain-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do when you first use a technical term?",
+          "answer": "Define it in plain words",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Define it in plain words",
+              "Skip it",
+              "Use it twice",
+              "Hide it"
+            ],
+            "accepted": [
+              "Define it in plain words"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many analogies should you rely on?",
+          "answer": "One precise analogy",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One precise analogy",
+              "Five",
+              "None ever",
+              "As many as possible"
+            ],
+            "accepted": [
+              "One precise analogy"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does layering mean?",
+          "answer": "Give the simple version first, then add detail",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Give the simple version first, then add detail",
+              "Put the hardest part first",
+              "Hide the topic",
+              "Repeat the headline"
+            ],
+            "accepted": [
+              "Give the simple version first, then add detail"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What test shows a clear explanation?",
+          "answer": "A smart friend outside the field could repeat it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A smart friend outside the field could repeat it",
+              "It is full of terms",
+              "It is very long",
+              "It is very short"
+            ],
+            "accepted": [
+              "A smart friend outside the field could repeat it"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do with jargon?",
+          "answer": "Cut it or explain it in a clause",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Cut it or explain it in a clause",
+              "Add more",
+              "Keep it unexplained",
+              "Move it to the title"
+            ],
+            "accepted": [
+              "Cut it or explain it in a clause"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its job.",
+          "answer": "Definition → explains a term | Analogy → shows a familiar parallel | Layering → builds understanding gradually",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Definition",
+                "explains a term"
+              ],
+              [
+                "Analogy",
+                "shows a familiar parallel"
+              ],
+              [
+                "Layering",
+                "builds understanding gradually"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the explanation in order.",
+          "answer": "State the simple version | Define key terms | Add the detail readers need",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "State the simple version",
+              "Define key terms",
+              "Add the detail readers need"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A misleading analogy is better than none.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Explain jargon in a ___.",
+          "answer": "clause",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "clause",
+              "phrase"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Think of inflation as a slow leak.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Think",
+              "of",
+              "inflation",
+              "as",
+              "a",
+              "slow",
+              "leak.",
+              "never",
+              "inflations"
+            ],
+            "accepted": [
+              "Think of inflation as a slow leak."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-explain-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What technique does the speaker use?",
+          "answer": "A plain definition with a simple example",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A plain definition with a simple example",
+              "A long list of terms",
+              "A heavy analogy",
+              "A joke"
+            ],
+            "accepted": [
+              "A plain definition with a simple example"
+            ],
+            "audioText": "Interest is the price of borrowing. If you borrow a hundred dollars at five percent, you pay five dollars a year for using it. That is the idea; the details come next."
+          }
+        },
+        {
+          "id": "jn-a-explain-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Explain what a budget deficit is in three sentences for a reader with no economics background.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-ethics",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Ethics: harm, privacy and conflicts",
+      "objectiveId": "JN-A-07",
+      "trackId": "journalist",
+      "unitId": "depth",
+      "tip": "Journalists balance the public’s right to know against possible harm. Ask: Is there a public interest, not just curiosity? Can a person be identified who should not be, such as a minor or a victim? Have you told sources how their words will be used? Disclose conflicts of interest: if you own shares in a company you cover, say so or step aside. Do not pay sources. Minimize harm without hiding the truth.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-ethics-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the public interest test?",
+          "answer": "Is the information of real importance to the public, not just curiosity?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Is the information of real importance to the public, not just curiosity?",
+              "Is it popular?",
+              "Does it get clicks?",
+              "Is it new?"
+            ],
+            "accepted": [
+              "Is the information of real importance to the public, not just curiosity?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Who may need extra protection when named?",
+          "answer": "A minor or a victim",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A minor or a victim",
+              "A politician in public",
+              "A company director",
+              "A famous author"
+            ],
+            "accepted": [
+              "A minor or a victim"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do with a conflict of interest?",
+          "answer": "Disclose it or step aside",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Disclose it or step aside",
+              "Hide it",
+              "Ignore it",
+              "Pay someone"
+            ],
+            "accepted": [
+              "Disclose it or step aside"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Should you pay a source for information?",
+          "answer": "No",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No",
+              "Always",
+              "Only on Sundays",
+              "If they ask nicely"
+            ],
+            "accepted": [
+              "No"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does minimizing harm mean?",
+          "answer": "Reducing needless damage without hiding the truth",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Reducing needless damage without hiding the truth",
+              "Hiding all hard facts",
+              "Softening every fact",
+              "Skipping the story"
+            ],
+            "accepted": [
+              "Reducing needless damage without hiding the truth"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each principle with an example.",
+          "answer": "Public interest → a story about misused public funds | Privacy → not naming a child victim | Disclosure → stating that you own shares in the company",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Public interest",
+                "a story about misused public funds"
+              ],
+              [
+                "Privacy",
+                "not naming a child victim"
+              ],
+              [
+                "Disclosure",
+                "stating that you own shares in the company"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the questions in order.",
+          "answer": "Is there a public interest? | Who could be harmed? | How can you reduce harm and stay truthful?",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Is there a public interest?",
+              "Who could be harmed?",
+              "How can you reduce harm and stay truthful?"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Curiosity alone always justifies publication.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Disclose any conflict of ___.",
+          "answer": "interest",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "interest"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I own shares in that company.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "own",
+              "shares",
+              "in",
+              "that",
+              "company.",
+              "never",
+              "owns"
+            ],
+            "accepted": [
+              "I own shares in that company."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-ethics-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What does the reporter do about the conflict?",
+          "answer": "Discloses it and passes the story on",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Discloses it and passes the story on",
+              "Hides it",
+              "Writes more strongly",
+              "Quits the paper"
+            ],
+            "accepted": [
+              "Discloses it and passes the story on"
+            ],
+            "audioText": "I own a small number of shares in the firm I am writing about. I told my editor, and another reporter will cover the story so readers can trust it."
+          }
+        },
+        {
+          "id": "jn-a-ethics-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. A story could identify a teenager who witnessed a crime. Write two questions you would ask before deciding what to publish.",
+          "answer": "Any clear try is fine.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jn-a-fair",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Truth, opinion and fair comment",
+      "objectiveId": "JN-A-08",
+      "trackId": "journalist",
+      "unitId": "depth",
+      "tip": "Accuracy protects readers and the writer. A statement of fact that is true and well sourced is the strongest position. Opinion is different: label it clearly and base it on stated facts. Be careful with serious allegations: have documents or two reliable sources, offer the person a chance to respond, and report their reply. When you report a statement from an official source or court, attribute it precisely. Corrections should be prominent and prompt. This is not legal advice; follow your editor’s guidance.",
+      "sources": [
+        "Public-domain style and ethics guidance for reporters (concepts only; no text copied)",
+        "Standard newsroom practice for records, data, verification, interviews and fairness (ideas only; original wording; cases are invented)"
+      ],
+      "senses": [],
+      "activities": [
+        {
+          "id": "jn-a-fair-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is the strongest position for a statement of fact?",
+          "answer": "It is true and well sourced",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It is true and well sourced",
+              "It is popular",
+              "It is short",
+              "It is witty"
+            ],
+            "accepted": [
+              "It is true and well sourced"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should opinion be treated?",
+          "answer": "Labeled and based on stated facts",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Labeled and based on stated facts",
+              "Presented as fact",
+              "Hidden",
+              "Made louder"
+            ],
+            "accepted": [
+              "Labeled and based on stated facts"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What do serious allegations need?",
+          "answer": "Documents or two reliable sources and a chance to respond",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Documents or two reliable sources and a chance to respond",
+              "A single rumor",
+              "A strong feeling",
+              "A catchy headline"
+            ],
+            "accepted": [
+              "Documents or two reliable sources and a chance to respond"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do when reporting an official statement?",
+          "answer": "Attribute it precisely",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Attribute it precisely",
+              "Rewrite it as your own claim",
+              "Remove the source",
+              "Exaggerate it"
+            ],
+            "accepted": [
+              "Attribute it precisely"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should corrections appear?",
+          "answer": "Prominently and promptly",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Prominently and promptly",
+              "Quietly and late",
+              "Never",
+              "In a footnote years later"
+            ],
+            "accepted": [
+              "Prominently and promptly"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each type with its treatment.",
+          "answer": "Fact → source and verify | Opinion → label and base on facts | Allegation → documents, two sources, right of reply",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Fact",
+                "source and verify"
+              ],
+              [
+                "Opinion",
+                "label and base on facts"
+              ],
+              [
+                "Allegation",
+                "documents, two sources, right of reply"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Gather documents or two reliable sources | Offer the person a chance to respond | Report the reply and attribute precisely",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Gather documents or two reliable sources",
+              "Offer the person a chance to respond",
+              "Report the reply and attribute precisely"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A rumor is enough to publish a serious allegation.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Offer a right of ___.",
+          "answer": "reply",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "reply",
+              "response"
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "According to the court filing, the firm denied it.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "According",
+              "to",
+              "the",
+              "court",
+              "filing,",
+              "the",
+              "firm",
+              "denied",
+              "it.",
+              "never",
+              "denies"
+            ],
+            "accepted": [
+              "According to the court filing, the firm denied it."
+            ]
+          }
+        },
+        {
+          "id": "jn-a-fair-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What fairness step did the newsroom take?",
+          "answer": "Gave the company a chance to respond",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Gave the company a chance to respond",
+              "Ignored the company",
+              "Deleted the reply",
+              "Waited a year"
+            ],
+            "accepted": [
+              "Gave the company a chance to respond"
+            ],
+            "audioText": "We contacted the company before publishing. Its spokesperson denied the claim and said the figures were wrong. We have included the full reply below our report."
+          }
+        },
+        {
+          "id": "jn-a-fair-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one careful sentence that reports an allegation against a company, with attribution and its right of reply.",
           "answer": "Any clear try is fine.",
           "exercise": {
             "type": "open"
