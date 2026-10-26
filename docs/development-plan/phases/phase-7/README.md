@@ -1,6 +1,6 @@
 # Phase 7 — Look and clean-up
 
-**Status:** VERIFY. All of C1–C7 and X1–X5 done (X2–X5 by Claude at the owner's request, LOG-0062). Left: C8 coach art (owner), full UI run, owner play-test on the iPhone.
+**Status:** APPROVED by the owner 2026-10-26 after a play-test on the iPhone; commit `d41aa00`. C8 coach art follows when the images arrive.
 
 ## Goal
 1. The app looks like one designed product and follows Apple's guidelines.

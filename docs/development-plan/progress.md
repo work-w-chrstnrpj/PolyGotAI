@@ -14,7 +14,7 @@
 | 5 | Lab on-device base: Dictation, Pronunciation (Phonetics + Articulation), Speaking (was Voice) | ✅ built by Codex, finished and merged by Claude after Codex's usage limit; 377 unit tests and 8 Speech Lab UI tests pass on iPhone 18 Pro Max; real-device audio and recognition not yet tried ([brief](phases/phase-5/README.md)) | Not yet |
 | 5b | Interview v2 (offline hands-free voice) | 🔄 core done 2026-10-25 (turn-taking rules, 39-question bank in three sets, follow-up rule, session and summary; 14 unit tests); Interview screen is Codex's X5 | — |
 | 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | 🔄 cores built and tested with a fake transport (2026-10-26): 6a transcription, feedback, stored results, owner-local switch-on; 6b per-mode requests, rubrics, history; 6c AI follow-ups for the Interview; 6d coach review and generated vocabulary with saving. Screens are Codex's X3 and X5. Stays off until the owner installs the verification file and runs the live check. Decision 9 still awaits the owner | — |
-| 7 | Look and clean-up (rework) | 🔄 VERIFY 2026-10-26: new Today and Progress, theme per background, "Rank", Erase all data (Face ID), v1 removed, copy audit, repository split. 377 unit tests pass. Left: install on the iPhone (phone was unreachable), full UI run, coach art, owner play-test | Not yet |
+| 7 | Look and clean-up (rework) | ✅ done 2026-10-26, commit `d41aa00`: new Today and Progress, theme per background, "Rank", Erase all data (Face ID), v1 removed, copy audit, repository split. Coach art still to come | ✅ 2026-10-26 |
 
 ## Owner review and rework plan (2026-10-26)
 

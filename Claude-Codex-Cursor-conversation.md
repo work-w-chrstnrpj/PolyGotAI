@@ -638,3 +638,7 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Phase:** 7 · device install · **Status:** DONE
 **Summary:** Installed and launched the Phase 7 build (LOG-0062) on the owner's iPhone 15 Plus (`00008120-001C05A23E2B601E`, iOS 27.0.1) with `xcrun devicectl device install app` / `process launch`. Note for agents: inside the sandboxed shell CoreDevice reports the phone "unavailable" (error 4016); run `devicectl` outside the sandbox. Free provisioning profile expires 2026-10-28; rebuild to renew.
 **Next:** owner play-test of Phase 7 (Today, Progress, themes, Erase all data with Face ID).
+
+### LOG-0064 · 2026-10-26 19:00 · Claude · CHANGE
+**Phase:** 7 · **Status:** APPROVED by owner (play-tested on iPhone 15 Plus)
+**Summary:** Committed Phase 7 as `d41aa00` on `main` (not pushed). Tracker, plan and phase README marked approved. Next: Phase 8 Lexicon v3 (plan in the rework plan); coach art (C8) when the owner's images arrive.
