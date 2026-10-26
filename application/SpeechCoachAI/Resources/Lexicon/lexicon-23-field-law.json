@@ -23,7 +23,10 @@
         "The plaintiff is the judge who decides the case."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "claimant"
+      ]
     },
     {
       "lemma": "defendant",
@@ -36,7 +39,10 @@
         "The defendant is the lawyer who works for the court."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "accused"
+      ]
     },
     {
       "lemma": "verdict",
@@ -49,7 +55,11 @@
         "A verdict is the first question a lawyer asks a witness."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "judgment",
+        "decision"
+      ]
     },
     {
       "lemma": "testimony",
@@ -62,7 +72,11 @@
         "Testimony is the punishment that a judge gives to a criminal."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "statement",
+        "evidence"
+      ]
     },
     {
       "lemma": "liable",
@@ -75,7 +89,11 @@
         "A person who is liable has no legal duty at all."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "responsible",
+        "accountable"
+      ]
     },
     {
       "lemma": "lawsuit",
@@ -88,7 +106,11 @@
         "A lawsuit is a suit that a lawyer wears in court."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "legal case",
+        "suit"
+      ]
     },
     {
       "lemma": "settlement",
@@ -101,7 +123,11 @@
         "A settlement is the final decision of a jury after a long trial."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "agreement",
+        "deal"
+      ]
     },
     {
       "lemma": "jurisdiction",
@@ -114,7 +140,11 @@
         "Jurisdiction is the amount of money a person pays in a fine."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "authority",
+        "power"
+      ]
     },
     {
       "lemma": "breach",
@@ -127,7 +157,11 @@
         "A breach is a promise that has been kept in full."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "violation",
+        "break"
+      ]
     },
     {
       "lemma": "clause",
@@ -140,7 +174,11 @@
         "A clause is the person who signs a contract first."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "provision",
+        "section"
+      ]
     },
     {
       "lemma": "amend",
@@ -153,7 +191,11 @@
         "To amend a law is to keep it exactly as it was written."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "change",
+        "revise"
+      ]
     },
     {
       "lemma": "appeal",
@@ -166,7 +208,10 @@
         "To appeal is to accept the decision and go home."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "challenge"
+      ]
     },
     {
       "lemma": "bail",
@@ -205,7 +250,11 @@
         "Negligence is extreme care that prevents all harm."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "carelessness",
+        "neglect"
+      ]
     },
     {
       "lemma": "statute",
@@ -218,7 +267,11 @@
         "A statute is a decision that a judge makes while a trial is running."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "law",
+        "act"
+      ]
     },
     {
       "lemma": "witness",
@@ -231,7 +284,11 @@
         "A witness is the person who is accused of the crime."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "observer",
+        "onlooker"
+      ]
     },
     {
       "lemma": "allegation",
@@ -244,7 +301,11 @@
         "An allegation is a fact that has already been proved in court."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "claim",
+        "accusation"
+      ]
     },
     {
       "lemma": "acquit",
@@ -257,7 +318,11 @@
         "To acquit a person is to find that the person is guilty."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "clear",
+        "find not guilty"
+      ]
     },
     {
       "lemma": "convict",
@@ -270,7 +335,11 @@
         "To convict a person is to declare that the person is innocent."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "find guilty",
+        "sentence"
+      ]
     },
     {
       "lemma": "sue",
@@ -283,7 +352,11 @@
         "To sue someone is to give them a legal reward."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "take to court",
+        "prosecute"
+      ]
     },
     {
       "lemma": "copyright",
@@ -322,7 +395,11 @@
         "A tenant is the person who owns the building and receives rent."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "renter",
+        "occupant"
+      ]
     },
     {
       "lemma": "lease",
@@ -335,7 +412,10 @@
         "A lease is the right to own a property forever without paying."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "rental agreement"
+      ]
     },
     {
       "lemma": "notary",
@@ -374,7 +454,10 @@
         "An attorney is a person who decides whether an accused person is guilty."
       ],
       "cefr": "C1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "lawyer"
+      ]
     },
     {
       "lemma": "regulation",
@@ -387,7 +470,11 @@
         "A regulation is a choice that nobody has to follow."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "rule",
+        "law"
+      ]
     },
     {
       "lemma": "prosecute",
@@ -400,7 +487,11 @@
         "To prosecute a person is to defend the person in court."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "charge",
+        "take to court"
+      ]
     }
   ]
 }

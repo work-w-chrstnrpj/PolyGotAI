@@ -55,10 +55,15 @@ Normally one phase is active at a time. **Owner exception, 2026-10-25:** to deli
 | 6c | **Voice Interview online** | Qwen TTS and STT streaming loop, AI follow-ups | Voice conversation screen | ⏳ later |
 | 6d | **Other online AI** | Per-coach review of "Your turn" tasks; Specialized Lexicon generation (mode 4) | Review and generation screens | ⏳ later |
 | 7 | **Look and clean-up** ([brief](phases/phase-7/README.md), [rework plan](review-and-rework-plan-2026-10-26.md)) | Theme tokens, "Rank" copy, delete v1, `CurrentLessons`, Erase all data core, copy audit, repository split, coach art | Design system v3, Today, Progress, Erase UI, HIG pass | ✅ approved by owner 2026-10-26 (play-tested on iPhone; commit `d41aa00`); coach art still to come |
-| 8 | **Lexicon v3** | Synonyms content, rank filter, Practice mode, interval preview, topics as packs | Lexicon home, Training settings, rating labels | ⏳ planned |
-| 9 | **Lab v3: Talk and voice** | `TalkSession`, streaming client, sentence buffer, `SpeechAnalyzer`, voice picker logic, Spelling content | Lab (4 entries), Talk, voice settings, Spelling | ⏳ planned |
+| 8 | **Lexicon v3** (whole phase: Claude) | Synonyms content, rank filter, Practice mode, interval preview, topics as packs, and the screens | — | 🔄 executing (Claude) |
+| 9 | **Lab v3: Talk and voice** (whole phase: Codex, [brief](phases/phase-9/README.md)) | `TalkSession`, streaming client, sentence buffer, `SpeechAnalyzer`, voice picker logic, Spelling content | Lab (4 entries), Talk, voice settings, Spelling | 🔄 built / focused-verified; full verifier has 10 other-lane UI failures; Claude review / owner device check open |
 | 10 | **Lab v3: speak-first pronunciation** | Pitch line, confidence and timing measures, feedback rules | Hear → Say → Feedback screens | ⏳ planned |
-| 11 | **Lessons depth** | Coach syllabi, Grammarian rewrite, gaps in other coaches | Coach art placement, per-coach progress | ⏳ planned |
+| 11 | **Lessons depth** ([brief](phases/phase-11/README.md)) | Grammarian full syllabus (done), coach audit, coach art | — | 🔄 built, awaiting play-test |
+| 12 | **Lab refocus + Pronunciation coach** ([plan](owner-feedback-plan-2026-10-26b.md)) | Pronunciation coach, lesson format start, AI buttons lead to setup | Lab list, Today header | ⏳ planned |
+| 13 | **Real lessons for all 10 coaches** | Reading pages, topic lessons, all content | — | ⏳ planned |
+| 14 | **Lexicon to about 2,400 words** | Content and synonyms | — | ⏳ planned |
+| 15 | **Lab Videos and Timed tests** | Prompts, validation, review | Screens, AI client, watched list | ⏳ planned |
+| 16 | **UI/UX pass** | — | — | ⏳ later |
 
 Feature specs: [product](../product-specification/product-specification.md) · [Lexicon](../product-specification/lexicon.md) · [coach tracks](../product-specification/coach-tracks.md) · [Speech Lab](../product-specification/speech-lab.md) · [technical design](../tdd/tdd.md).
 

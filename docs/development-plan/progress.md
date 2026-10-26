@@ -15,6 +15,9 @@
 | 5b | Interview v2 (offline hands-free voice) | 🔄 core done 2026-10-25 (turn-taking rules, 39-question bank in three sets, follow-up rule, session and summary; 14 unit tests); Interview screen is Codex's X5 | — |
 | 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | 🔄 cores built and tested with a fake transport (2026-10-26): 6a transcription, feedback, stored results, owner-local switch-on; 6b per-mode requests, rubrics, history; 6c AI follow-ups for the Interview; 6d coach review and generated vocabulary with saving. Screens are Codex's X3 and X5. Stays off until the owner installs the verification file and runs the live check. Decision 9 still awaits the owner | — |
 | 7 | Look and clean-up (rework) | ✅ done 2026-10-26, commit `d41aa00`: new Today and Progress, theme per background, "Rank", Erase all data (Face ID), v1 removed, copy audit, repository split. Coach art still to come | ✅ 2026-10-26 |
+| 8 | Lexicon v3 (Claude) | 🔄 built 2026-10-26: new Lexicon home, Training settings (ranks, packs, hide), Practice (word-in-sentence and synonyms), Anki-style review times, own packs with Train all and Fill with AI, Saved words list, synonyms for 700 words. 391 unit tests pass. Waiting: install on iPhone and owner play-test | Not yet |
+| 9 | Lab v3: Talk and voice (Codex) | 🔄 implemented; 399 hosted tests pass, Phase 9 iPhone 4/4 and iPad 4/4 pass; full UI 42/52 pass, 10 Today/Lexicon/audit failures; review/device acceptance open ([evidence](phases/phase-9/evidence/README.md)) | Not yet |
+| 11 | Lessons depth (Claude) | 🔄 built 2026-10-26: Grammarian 32 → 72 lessons (parts of speech, sentence structure, 12 tenses, punctuation, mood, common errors); other coaches audited, owner to choose additions; coach art waits for images | Not yet |
 
 ## Owner review and rework plan (2026-10-26)
 
@@ -195,3 +198,7 @@ Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [code
 | 2026-10-25 (Phase 0 finished) | Declutter done by Claude (Codex out of usage): Today = one card; Learn, Speech Lab, lesson player and ~27 disclaimers cleaned; Word of the Day, Generated practice, topic suggestions hidden; 6 obsolete UI tests removed; targeted UI tests pass. Owner added the Lexicon direction, tab order, one-line taglines and dictation button: docs updated, tab order and taglines done |
 | 2026-10-25 (later) | Project converted to folder-synchronized groups (283 tests pass); Phase 1 domain layer written and tested (312 tests pass); validate.py added; iPad bottom bar (portrait) and sidebar (landscape) built and checked on the iPad simulator; Phase 1 Codex handoff written |
 | 2026-10-25 | Audit of v1; v2 direction set; docs rewritten and v1 archived; Grok files removed; plan and tracker created; project file converted to folder-synchronized groups (build check in progress) |
+
+## Phase 9 — Lab v3 (2026-10-26)
+
+Owner confirmed Codex's Phase 9 assignment. P9-1 Voice, P9-2 Spelling, P9-3 streamed Talk engine, P9-4 Talk screen and P9-5 Lab shell are implemented and **under verification**, not approved. The optional voice preference field was authorized explicitly by the owner. Hosted tests: 399 passed. Phase 9 iPhone 4/4 and iPad 4/4 passed. Full verification failed: 42/52 UI pass, 10 Today/Lexicon/audit failures handed to Claude (LOG-0069). [Evidence](phases/phase-9/evidence/README.md). Physical audio/recognition, live-provider verification and owner play-test remain open. No commit or push.

@@ -23,8 +23,14 @@ struct TrackContentTests {
             let starts = [TrackCoach.grammarian, .readingListening].contains(track.coach)
             let expected = starts ? ["starter", "foundation", "intermediate", "advanced"] : ["foundation", "intermediate", "advanced"]
             #expect(track.stages.map(\.id) == expected, "\(track.id) stages")
-            #expect(track.stages.allSatisfy { $0.units.count == 2 }, "\(track.id) has 2 units per stage")
-            #expect(track.lessons.count == expected.count * 8, "\(track.id) has 8 lessons per stage")
+            if track.coach == .grammarian {
+                // Phase 11: the Grammarian's full syllabus adds 40 lessons in 7 more units (72 in all).
+                #expect(track.stages.map(\.units.count) == [3, 4, 4, 4], "grammarian units per stage")
+                #expect(track.lessons.count == 72, "grammarian lesson count")
+            } else {
+                #expect(track.stages.allSatisfy { $0.units.count == 2 }, "\(track.id) has 2 units per stage")
+                #expect(track.lessons.count == expected.count * 8, "\(track.id) has 8 lessons per stage")
+            }
         }
     }
 
@@ -67,5 +73,31 @@ struct TrackContentTests {
         let ids = install.tracks.lessons.map(\.id)
         #expect(Set(ids).count == ids.count)
         #expect(Set(ids).isDisjoint(with: Set(install.lessons.map(\.id))))
+    }
+}
+
+/// Phase 11: the Grammarian covers the core grammar syllabus.
+struct GrammarianSyllabusTests {
+    private let install = CurriculumCatalogLoader.bundled
+
+    @Test func theSyllabusTopicsArePresent() throws {
+        let track = try #require(install.tracks.track(id: "grammarian"))
+        let titles = Set(track.lessons.map(\.title))
+        for topic in ["Nouns: common and proper", "Personal pronouns", "Articles: a, an, the", "Adjectives", "Adverbs",
+                      "Conjunctions and interjections", "Kinds of verbs", "Four sentence structures", "Subject–verb agreement",
+                      "The tense map", "Commas", "Apostrophes", "Indicative, imperative, subjunctive", "Parallel structure"] {
+            #expect(titles.contains(topic), "missing \(topic)")
+        }
+    }
+
+    /// A wrong option the answer checker reads the same as the right one would be marked correct.
+    @Test func noChoiceHasTwoOptionsTheCheckerCannotTellApart() {
+        for lesson in install.tracks.lessons + install.lessons {
+            for activity in lesson.practiceActivities {
+                guard let options = activity.exercise?.options, activity.exercise?.type == "choice" else { continue }
+                let normalized = options.map(AnswerChecker.normalize)
+                #expect(Set(normalized).count == normalized.count, "\(activity.id): \(options)")
+            }
+        }
     }
 }

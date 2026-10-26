@@ -24,7 +24,11 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.schedule"
+      "id": "work-office.schedule",
+      "synonyms": [
+        "timetable",
+        "plan"
+      ]
     },
     {
       "lemma": "meeting",
@@ -39,7 +43,10 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.meeting"
+      "id": "work-office.meeting",
+      "synonyms": [
+        "gathering"
+      ]
     },
     {
       "lemma": "colleague",
@@ -54,7 +61,10 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.colleague"
+      "id": "work-office.colleague",
+      "synonyms": [
+        "coworker"
+      ]
     },
     {
       "lemma": "manager",
@@ -69,7 +79,10 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.manager"
+      "id": "work-office.manager",
+      "synonyms": [
+        "supervisor"
+      ]
     },
     {
       "lemma": "appointment",
@@ -84,7 +97,11 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.appointment"
+      "id": "work-office.appointment",
+      "synonyms": [
+        "meeting",
+        "booking"
+      ]
     },
     {
       "lemma": "customer",
@@ -99,7 +116,11 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.customer"
+      "id": "work-office.customer",
+      "synonyms": [
+        "client",
+        "buyer"
+      ]
     },
     {
       "lemma": "report",
@@ -129,7 +150,11 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.team"
+      "id": "work-office.team",
+      "synonyms": [
+        "group",
+        "crew"
+      ]
     },
     {
       "lemma": "office",
@@ -159,7 +184,10 @@
       ],
       "cefr": "A2",
       "register": "everyday",
-      "id": "work-office.order"
+      "id": "work-office.order",
+      "synonyms": [
+        "request"
+      ]
     },
     {
       "lemma": "boss",
@@ -172,7 +200,11 @@
         "A boss is a person who works for nobody and has no job."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "manager",
+        "chief"
+      ]
     },
     {
       "lemma": "lesson",
@@ -185,7 +217,10 @@
         "A lesson is a long vacation from school."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "class"
+      ]
     },
     {
       "lemma": "exam",
@@ -198,7 +233,10 @@
         "An exam is a party at the end of the day."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "test"
+      ]
     },
     {
       "lemma": "homework",
@@ -224,7 +262,11 @@
         "A subject is a type of vegetable."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "topic",
+        "course"
+      ]
     },
     {
       "lemma": "language",
@@ -237,7 +279,10 @@
         "A language is a part of the body that you use to walk."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "tongue"
+      ]
     },
     {
       "lemma": "notebook",
@@ -276,7 +321,10 @@
         "A laptop is a large machine that stays in a factory."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "notebook"
+      ]
     },
     {
       "lemma": "printer",
@@ -315,7 +363,10 @@
         "A message is a kind of fruit."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "note"
+      ]
     },
     {
       "lemma": "call",
@@ -328,7 +379,11 @@
         "I call my friend by sending her a letter."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "phone",
+        "ring"
+      ]
     },
     {
       "lemma": "password",
@@ -354,7 +409,10 @@
         "A website is a building made of bricks."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "site"
+      ]
     },
     {
       "lemma": "download",
@@ -458,7 +516,11 @@
         "A photo is a sound you hear in a quiet room."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "picture",
+        "photograph"
+      ]
     },
     {
       "lemma": "video",
@@ -484,7 +546,11 @@
         "A document is a machine that prints in color."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "file",
+        "paper"
+      ]
     },
     {
       "lemma": "folder",
@@ -510,7 +576,10 @@
         "I copy a page by writing something new."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "duplicate"
+      ]
     },
     {
       "lemma": "print",
@@ -536,7 +605,11 @@
         "I save my work by deleting it."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "keep",
+        "store"
+      ]
     },
     {
       "lemma": "share",
@@ -549,7 +622,10 @@
         "I share my sandwich by eating it all alone."
       ],
       "cefr": "A2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "post"
+      ]
     }
   ]
 }

@@ -24,7 +24,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "academic-basics.argue"
+      "id": "academic-basics.argue",
+      "synonyms": [
+        "quarrel",
+        "dispute"
+      ]
     },
     {
       "lemma": "benefit",
@@ -39,7 +43,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "academic-basics.benefit"
+      "id": "academic-basics.benefit",
+      "synonyms": [
+        "advantage",
+        "gain"
+      ]
     },
     {
       "lemma": "process",
@@ -54,7 +62,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "academic-basics.process"
+      "id": "academic-basics.process",
+      "synonyms": [
+        "procedure",
+        "method"
+      ]
     },
     {
       "lemma": "compare",
@@ -69,7 +81,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "academic-basics.compare"
+      "id": "academic-basics.compare",
+      "synonyms": [
+        "contrast",
+        "weigh"
+      ]
     },
     {
       "lemma": "create",
@@ -84,7 +100,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "academic-basics.create"
+      "id": "academic-basics.create",
+      "synonyms": [
+        "make",
+        "produce"
+      ]
     },
     {
       "lemma": "government",
@@ -97,7 +117,11 @@
         "A government is a small shop that sells food."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "administration",
+        "state"
+      ]
     },
     {
       "lemma": "election",
@@ -110,7 +134,11 @@
         "An election is a holiday when no one votes."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "vote",
+        "poll"
+      ]
     },
     {
       "lemma": "citizen",
@@ -123,7 +151,11 @@
         "A citizen is a tourist who stays for one day only."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "national",
+        "resident"
+      ]
     },
     {
       "lemma": "law",
@@ -136,7 +168,11 @@
         "A law is a rule that nobody has to follow."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "rule",
+        "regulation"
+      ]
     },
     {
       "lemma": "crime",
@@ -149,7 +185,11 @@
         "A crime is a kind of sport."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "offense",
+        "wrongdoing"
+      ]
     },
     {
       "lemma": "pollution",
@@ -162,7 +202,10 @@
         "Pollution is clean air in the mountains."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "contamination"
+      ]
     },
     {
       "lemma": "environment",
@@ -175,7 +218,11 @@
         "The environment is a building made of glass."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "surroundings",
+        "nature"
+      ]
     },
     {
       "lemma": "climate",
@@ -214,7 +261,11 @@
         "I protect my phone by dropping it on the street."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "guard",
+        "defend"
+      ]
     },
     {
       "lemma": "population",
@@ -227,7 +278,11 @@
         "The population is the number of cars that a company makes."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "inhabitants",
+        "people"
+      ]
     },
     {
       "lemma": "poverty",
@@ -240,7 +295,11 @@
         "Poverty is the state of having a great deal of money."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "need",
+        "hardship"
+      ]
     },
     {
       "lemma": "immigrant",
@@ -253,7 +312,11 @@
         "An immigrant is a person who never leaves their home town."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "newcomer",
+        "migrant"
+      ]
     },
     {
       "lemma": "culture",
@@ -279,7 +342,11 @@
         "A tradition is a new idea that started yesterday."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "custom",
+        "convention"
+      ]
     },
     {
       "lemma": "religion",
@@ -292,7 +359,11 @@
         "Religion is a sport that people play in a stadium."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "faith",
+        "belief"
+      ]
     },
     {
       "lemma": "equality",
@@ -305,7 +376,11 @@
         "Equality means that some people have more rights than others."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "fairness",
+        "equity"
+      ]
     },
     {
       "lemma": "freedom",
@@ -318,7 +393,11 @@
         "Freedom means you cannot make any choices."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "liberty",
+        "independence"
+      ]
     },
     {
       "lemma": "opinion",
@@ -331,7 +410,11 @@
         "An opinion is a fact that everyone must accept."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "view",
+        "belief"
+      ]
     },
     {
       "lemma": "media",
@@ -357,7 +440,11 @@
         "An advertisement is a message that tells people not to buy anything."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "ad",
+        "commercial"
+      ]
     },
     {
       "lemma": "celebrity",
@@ -370,7 +457,11 @@
         "A celebrity is a person whom nobody knows."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "star",
+        "famous person"
+      ]
     },
     {
       "lemma": "influence",
@@ -383,7 +474,11 @@
         "Influence is the lack of any power over others."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "effect",
+        "power"
+      ]
     },
     {
       "lemma": "violence",
@@ -396,7 +491,11 @@
         "Violence is the act of helping other people politely."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "brutality",
+        "force"
+      ]
     },
     {
       "lemma": "justice",
@@ -409,7 +508,10 @@
         "Justice is the unfair treatment of people without rules."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "fairness"
+      ]
     },
     {
       "lemma": "volunteer",
@@ -422,7 +524,10 @@
         "A volunteer is a person who is paid a high salary and is forced to work."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "helper"
+      ]
     },
     {
       "lemma": "charity",
@@ -435,7 +540,11 @@
         "A charity is a company that makes money only for its owner."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "aid",
+        "good cause"
+      ]
     },
     {
       "lemma": "donate",
@@ -448,7 +557,11 @@
         "I donate a book to a friend when I sell it for a high price."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "give",
+        "contribute"
+      ]
     },
     {
       "lemma": "tax",
@@ -461,7 +574,11 @@
         "Tax is money the government pays to every person at the shop."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "duty",
+        "levy"
+      ]
     },
     {
       "lemma": "economy",
@@ -474,7 +591,10 @@
         "The economy is the system of roads in a city."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "financial system"
+      ]
     },
     {
       "lemma": "industry",
@@ -487,7 +607,11 @@
         "Industry is the activity of sleeping all day."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "business",
+        "trade"
+      ]
     },
     {
       "lemma": "technology",
@@ -513,7 +637,11 @@
         "Society is one person alone on an island."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "community",
+        "public"
+      ]
     },
     {
       "lemma": "authority",
@@ -526,7 +654,11 @@
         "Authority is the lack of any power to decide."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "power",
+        "control"
+      ]
     },
     {
       "lemma": "protest",
@@ -539,7 +671,11 @@
         "A protest is a party where everyone agrees and no one speaks."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "demonstration",
+        "objection"
+      ]
     }
   ]
 }

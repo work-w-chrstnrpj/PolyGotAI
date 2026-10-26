@@ -6,7 +6,7 @@ frequency ideas (no list text is copied or bundled). Each entry is
 (lemma, part of speech, meaning, example with the word form in {braces}, wrong usage 1, wrong usage 2).
 Wrong-usage sentences are grammatical but use the word in a way that does not fit its meaning, or break a pattern of the word.
 
-Run from the project root: python3 tools/curriculum/build_lexicon.py
+Run from the project root: python3 tools/curriculum/build_lexicon.py, then python3 tools/curriculum/add_synonyms.py
 """
 from __future__ import annotations
 

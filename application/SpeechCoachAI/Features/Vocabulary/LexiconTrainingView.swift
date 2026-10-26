@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// Daily Training: due words first, then today's new words. Show the meaning, then rate Again, Hard, Good or Easy.
+/// Each button shows when the word comes back, as in Anki (FSRS-6).
 struct LexiconTrainingView: View {
     var storage: LearnerStorageController
     var bank: LexiconBank
@@ -80,13 +81,31 @@ struct LexiconTrainingView: View {
         let layout = textSize.isAccessibilitySize
             ? AnyLayout(VStackLayout(alignment: .leading, spacing: 8)) : AnyLayout(HStackLayout(spacing: 8))
         layout {
+            let now = Date()
+            let preview = intervals(item, now: now)
             ForEach(RecallRating.allCases, id: \.self) { rating in
-                Button(rating.title) { rate(item, rating) }
-                    .buttonStyle(.bordered).frame(maxWidth: .infinity, minHeight: 44)
-                    .accessibilityHint(rating.detail)
-                    .accessibilityIdentifier("lexicon.rate.\(rating.rawValue)")
+                let interval = preview[rating].map { ReviewSchedule.shortInterval(from: now, to: $0) }
+                Button { rate(item, rating) } label: {
+                    VStack(spacing: 2) {
+                        Text(rating.title).font(.headline)
+                        if let interval { Text(interval).font(.caption).monospacedDigit().foregroundStyle(Kit.secondary) }
+                    }
+                    .frame(maxWidth: .infinity, minHeight: 44)
+                }
+                .buttonStyle(.bordered)
+                .accessibilityLabel(rating.title)
+                .accessibilityValue(interval.map { "Back in \($0)" } ?? "")
+                .accessibilityHint(rating.detail)
+                .accessibilityIdentifier("lexicon.rate.\(rating.rawValue)")
             }
         }
+    }
+
+    private func intervals(_ item: VocabularyEnrollment, now: Date) -> [RecallRating: Date] {
+        guard let repository = storage.repository else { return [:] }
+        let existing = try? repository.recognitionSchedule(itemId: item.itemId, senseId: item.senseId)
+        let settings = (try? repository.reviewSettings()) ?? ReviewSettings()
+        return ReviewSchedule.preview(existing: existing, now: now, itemId: item.itemId, senseId: item.senseId, settings: settings)
     }
 
     private func load() {

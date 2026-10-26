@@ -24,7 +24,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.deadline"
+      "id": "work-office.deadline",
+      "synonyms": [
+        "due date",
+        "time limit"
+      ]
     },
     {
       "lemma": "salary",
@@ -39,7 +43,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.salary"
+      "id": "work-office.salary",
+      "synonyms": [
+        "pay",
+        "wage"
+      ]
     },
     {
       "lemma": "project",
@@ -54,7 +62,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.project"
+      "id": "work-office.project",
+      "synonyms": [
+        "plan",
+        "undertaking"
+      ]
     },
     {
       "lemma": "task",
@@ -69,7 +81,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.task"
+      "id": "work-office.task",
+      "synonyms": [
+        "job",
+        "duty"
+      ]
     },
     {
       "lemma": "budget",
@@ -99,7 +115,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.employee"
+      "id": "work-office.employee",
+      "synonyms": [
+        "worker",
+        "staff member"
+      ]
     },
     {
       "lemma": "resume",
@@ -114,7 +134,10 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.resume"
+      "id": "work-office.resume",
+      "synonyms": [
+        "CV"
+      ]
     },
     {
       "lemma": "interview",
@@ -144,7 +167,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.promote"
+      "id": "work-office.promote",
+      "synonyms": [
+        "advance",
+        "upgrade"
+      ]
     },
     {
       "lemma": "department",
@@ -159,7 +186,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.department"
+      "id": "work-office.department",
+      "synonyms": [
+        "division",
+        "section"
+      ]
     },
     {
       "lemma": "client",
@@ -174,7 +205,10 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.client"
+      "id": "work-office.client",
+      "synonyms": [
+        "customer"
+      ]
     },
     {
       "lemma": "delay",
@@ -189,7 +223,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.delay"
+      "id": "work-office.delay",
+      "synonyms": [
+        "hold-up",
+        "wait"
+      ]
     },
     {
       "lemma": "remind",
@@ -204,7 +242,10 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.remind"
+      "id": "work-office.remind",
+      "synonyms": [
+        "prompt"
+      ]
     },
     {
       "lemma": "attach",
@@ -219,7 +260,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.attach"
+      "id": "work-office.attach",
+      "synonyms": [
+        "fasten",
+        "add"
+      ]
     },
     {
       "lemma": "submit",
@@ -234,7 +279,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.submit"
+      "id": "work-office.submit",
+      "synonyms": [
+        "hand in",
+        "send in"
+      ]
     },
     {
       "lemma": "review",
@@ -249,7 +298,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.review"
+      "id": "work-office.review",
+      "synonyms": [
+        "check",
+        "examine"
+      ]
     },
     {
       "lemma": "apply",
@@ -264,7 +317,10 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.apply"
+      "id": "work-office.apply",
+      "synonyms": [
+        "request"
+      ]
     },
     {
       "lemma": "hire",
@@ -279,7 +335,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.hire"
+      "id": "work-office.hire",
+      "synonyms": [
+        "employ",
+        "take on"
+      ]
     },
     {
       "lemma": "shift",
@@ -309,7 +369,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.feedback"
+      "id": "work-office.feedback",
+      "synonyms": [
+        "comments",
+        "response"
+      ]
     },
     {
       "lemma": "discount",
@@ -324,7 +388,11 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.discount"
+      "id": "work-office.discount",
+      "synonyms": [
+        "reduction",
+        "markdown"
+      ]
     },
     {
       "lemma": "receipt",
@@ -339,7 +407,10 @@
       ],
       "cefr": "B1",
       "register": "everyday",
-      "id": "work-office.receipt"
+      "id": "work-office.receipt",
+      "synonyms": [
+        "proof of purchase"
+      ]
     },
     {
       "lemma": "promotion",
@@ -352,7 +423,10 @@
         "A promotion is a move to a less important job."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "advancement"
+      ]
     },
     {
       "lemma": "qualification",
@@ -365,7 +439,10 @@
         "A qualification is a kind of vacation from work."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "certificate"
+      ]
     },
     {
       "lemma": "experience",
@@ -378,7 +455,11 @@
         "Experience is something you can buy in a shop for ten dollars in one minute."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "practice",
+        "background"
+      ]
     },
     {
       "lemma": "career",
@@ -391,7 +472,11 @@
         "A career is a short break between two meals."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "profession",
+        "vocation"
+      ]
     },
     {
       "lemma": "skill",
@@ -404,7 +489,11 @@
         "A skill is something that you cannot learn."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "ability",
+        "talent"
+      ]
     },
     {
       "lemma": "training",
@@ -417,7 +506,10 @@
         "Training is the act of doing nothing at work."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "coaching"
+      ]
     },
     {
       "lemma": "responsibility",
@@ -430,7 +522,11 @@
         "Responsibility means you never need to do anything."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "duty",
+        "obligation"
+      ]
     },
     {
       "lemma": "resign",
@@ -443,7 +539,11 @@
         "I resign when my boss gives me a new job."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "quit",
+        "step down"
+      ]
     },
     {
       "lemma": "retire",
@@ -456,7 +556,10 @@
         "People retire when they start their first job."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "stop working"
+      ]
     },
     {
       "lemma": "unemployed",
@@ -469,7 +572,11 @@
         "She is unemployed, so she works full time in an office."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "jobless",
+        "out of work"
+      ]
     },
     {
       "lemma": "recruit",
@@ -482,7 +589,11 @@
         "Companies recruit people when they want fewer workers."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "hire",
+        "enlist"
+      ]
     },
     {
       "lemma": "candidate",
@@ -495,7 +606,10 @@
         "A candidate is a person who has already got the job and works there."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "applicant"
+      ]
     },
     {
       "lemma": "reference",
@@ -508,7 +622,10 @@
         "A reference is a kind of tool for cutting paper."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "recommendation"
+      ]
     },
     {
       "lemma": "internship",
@@ -521,7 +638,11 @@
         "An internship is a long career with a high salary."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "placement",
+        "apprenticeship"
+      ]
     },
     {
       "lemma": "workplace",
@@ -534,7 +655,11 @@
         "A workplace is a place where people only sleep."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "office",
+        "workshop"
+      ]
     },
     {
       "lemma": "strike",
@@ -547,7 +672,10 @@
         "A strike is a day when everyone works more hours than usual by choice."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "walkout"
+      ]
     },
     {
       "lemma": "wage",
@@ -560,7 +688,11 @@
         "A wage is money that you pay to a shop for bread."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "pay",
+        "earnings"
+      ]
     },
     {
       "lemma": "income",
@@ -573,7 +705,11 @@
         "Income is the money you pay when you buy a bus ticket."
       ],
       "cefr": "B1",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "earnings",
+        "revenue"
+      ]
     }
   ]
 }

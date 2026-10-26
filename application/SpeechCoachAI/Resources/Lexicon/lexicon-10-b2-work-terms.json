@@ -24,7 +24,10 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.invoice"
+      "id": "work-office.invoice",
+      "synonyms": [
+        "bill"
+      ]
     },
     {
       "lemma": "contract",
@@ -39,7 +42,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.contract"
+      "id": "work-office.contract",
+      "synonyms": [
+        "agreement",
+        "deal"
+      ]
     },
     {
       "lemma": "supervisor",
@@ -54,7 +61,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.supervisor"
+      "id": "work-office.supervisor",
+      "synonyms": [
+        "manager",
+        "overseer"
+      ]
     },
     {
       "lemma": "overtime",
@@ -84,7 +95,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.agenda"
+      "id": "work-office.agenda",
+      "synonyms": [
+        "schedule",
+        "program"
+      ]
     },
     {
       "lemma": "workload",
@@ -114,7 +129,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.supply"
+      "id": "work-office.supply",
+      "synonyms": [
+        "stock",
+        "provision"
+      ]
     },
     {
       "lemma": "warehouse",
@@ -129,7 +148,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "work-office.warehouse"
+      "id": "work-office.warehouse",
+      "synonyms": [
+        "storehouse",
+        "depot"
+      ]
     },
     {
       "lemma": "negotiate",
@@ -142,7 +165,11 @@
         "We negotiate when we refuse to talk to the other side at all."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "bargain",
+        "discuss terms"
+      ]
     },
     {
       "lemma": "supplier",
@@ -155,7 +182,11 @@
         "A supplier is a customer who buys goods from a shop."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "vendor",
+        "provider"
+      ]
     },
     {
       "lemma": "shareholder",
@@ -168,7 +199,11 @@
         "A shareholder is a person who does not own anything in a company and works there."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "stockholder",
+        "investor"
+      ]
     },
     {
       "lemma": "merger",
@@ -181,7 +216,11 @@
         "A merger is the splitting of one company into two, with no joining."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "union",
+        "amalgamation"
+      ]
     },
     {
       "lemma": "profit",
@@ -194,7 +233,11 @@
         "Profit is the money that a company loses."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "gain",
+        "earnings"
+      ]
     },
     {
       "lemma": "revenue",
@@ -207,7 +250,11 @@
         "Revenue is the money a company spends on its workers."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "income",
+        "takings"
+      ]
     },
     {
       "lemma": "expense",
@@ -220,7 +267,11 @@
         "An expense is money that a company receives from customers."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "cost",
+        "expenditure"
+      ]
     },
     {
       "lemma": "invest",
@@ -233,7 +284,11 @@
         "I invest money when I put it in my pocket and spend it on lunch."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "put money into",
+        "fund"
+      ]
     },
     {
       "lemma": "strategy",
@@ -246,7 +301,11 @@
         "A strategy is a small detail you can forget."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "plan",
+        "approach"
+      ]
     },
     {
       "lemma": "competitor",
@@ -259,7 +318,11 @@
         "A competitor is a friend who works with you without any rivalry."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "rival",
+        "opponent"
+      ]
     },
     {
       "lemma": "bankrupt",
@@ -272,7 +335,11 @@
         "The company is bankrupt, so it has plenty of money and no debt."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "insolvent",
+        "broke"
+      ]
     },
     {
       "lemma": "outsource",
@@ -285,7 +352,11 @@
         "We outsource work when we do it all ourselves."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "contract out",
+        "subcontract"
+      ]
     },
     {
       "lemma": "launch",
@@ -298,7 +369,11 @@
         "A company launches a product when it stops making it forever."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "introduce",
+        "release"
+      ]
     },
     {
       "lemma": "stakeholder",
@@ -311,7 +386,10 @@
         "A stakeholder is a person who has no connection with the project."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "interested party"
+      ]
     },
     {
       "lemma": "workforce",
@@ -324,7 +402,11 @@
         "A workforce is a machine that makes coffee."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "staff",
+        "personnel"
+      ]
     },
     {
       "lemma": "turnover",
@@ -350,7 +432,11 @@
         "Productivity is the lack of any work done."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "output",
+        "efficiency"
+      ]
     },
     {
       "lemma": "efficient",
@@ -363,7 +449,11 @@
         "The machine is efficient because it wastes a lot of energy."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "effective",
+        "productive"
+      ]
     },
     {
       "lemma": "implement",
@@ -376,7 +466,11 @@
         "We implement a plan when we forget it and throw it away."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "carry out",
+        "execute"
+      ]
     },
     {
       "lemma": "outcome",
@@ -389,7 +483,11 @@
         "An outcome is the beginning of something before anything happens."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "result",
+        "consequence"
+      ]
     },
     {
       "lemma": "priority",
@@ -402,7 +500,11 @@
         "A priority is something that is unimportant."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "first concern",
+        "precedence"
+      ]
     },
     {
       "lemma": "resource",
@@ -415,7 +517,11 @@
         "A resource is a thing that nobody can ever use."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "asset",
+        "supply"
+      ]
     },
     {
       "lemma": "challenge",
@@ -428,7 +534,11 @@
         "A challenge is an easy task that needs no effort."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "difficulty",
+        "test"
+      ]
     },
     {
       "lemma": "adapt",
@@ -441,7 +551,11 @@
         "We adapt when we refuse to change anything."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "adjust",
+        "change"
+      ]
     },
     {
       "lemma": "collaborate",
@@ -454,7 +568,11 @@
         "People collaborate when they work separately and never talk."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "cooperate",
+        "work together"
+      ]
     },
     {
       "lemma": "delegate",
@@ -467,7 +585,11 @@
         "A manager delegates when she does all the work alone."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "assign",
+        "hand over"
+      ]
     },
     {
       "lemma": "approve",
@@ -480,7 +602,11 @@
         "We approve a plan when we reject it completely."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "accept",
+        "authorize"
+      ]
     },
     {
       "lemma": "propose",
@@ -493,7 +619,11 @@
         "I propose an idea when I refuse to say anything about it."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "suggest",
+        "put forward"
+      ]
     },
     {
       "lemma": "objective",
@@ -506,7 +636,11 @@
         "An objective is something that you have no plan to do."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "goal",
+        "aim"
+      ]
     },
     {
       "lemma": "milestone",
@@ -519,7 +653,11 @@
         "A milestone is a small mistake that nobody notices."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "landmark",
+        "turning point"
+      ]
     },
     {
       "lemma": "forecast",
@@ -532,7 +670,11 @@
         "A forecast is a report about what happened last year."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "prediction",
+        "projection"
+      ]
     },
     {
       "lemma": "audit",
@@ -545,7 +687,11 @@
         "An audit is a party for all the workers after a successful year."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "inspection",
+        "examination"
+      ]
     }
   ]
 }

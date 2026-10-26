@@ -166,9 +166,48 @@ def add_stage(coach_id: str, stage: dict, lessons: list, level_label: str, sourc
         raise SystemExit(f"{coach_id}: a lesson names a unit that is not in the stage")
     replaced = {lesson["id"] for lesson in pack["lessons"] if lesson["unitId"] in unit_ids}
     pack["lessons"] = [lesson for lesson in pack["lessons"] if lesson["id"] not in replaced]
-    pack["track"]["stages"] = [other for other in pack["track"]["stages"] if other["id"] != stage["id"]] + [stage]
+    # Keep units another script added to this stage (for example Phase 11 units), in their place.
+    previous = next((other for other in pack["track"]["stages"] if other["id"] == stage["id"]), None)
+    if previous:
+        merged, defined = [], {unit["id"]: unit for unit in stage["units"]}
+        for unit in previous["units"]:
+            merged.append(defined.pop(unit["id"], unit))
+        stage = {**stage, "units": merged + list(defined.values())}
+        pack["track"]["stages"] = [stage if other["id"] == stage["id"] else other for other in pack["track"]["stages"]]
+    else:
+        pack["track"]["stages"].append(stage)
     pack["lessons"].extend(curl(new))
     path.write_text(json.dumps(curl(pack), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     touched = register_rewards([lesson["id"] for lesson in new])
     activities = sum(len(lesson["activities"]) for lesson in new)
     print(f"{coach_id}: stage {stage['id']} = {len(new)} lessons, {activities} activities; reward lists updated: {touched}")
+
+def add_units(coach_id: str, stage_id: str, units: list, lessons: list, level_label: str, sources: list,
+              position: str = "end") -> None:
+    """Add (or replace) units inside an existing stage, keeping that stage's other units and lessons untouched.
+
+    `units` is [{"id", "title"}]; `position` is "start" or "end" within the stage. Running this twice gives the same file.
+    """
+    path = RES / f"Tracks/track-{coach_id}.json"
+    pack = json.loads(path.read_text(encoding="utf-8"))
+    if any(l.get("reading") for l in pack["lessons"]):
+        raise SystemExit("Topic catalog: use build_topic_lessons.py; legacy stage generators cannot overwrite it.")
+    coach = pack["track"]["coach"]
+    stage = next((s for s in pack["track"]["stages"] if s["id"] == stage_id), None)
+    if stage is None:
+        raise SystemExit(f"{coach_id}: no stage {stage_id}")
+    unit_ids = {unit["id"] for unit in units}
+    taken = {u["id"] for s in pack["track"]["stages"] for u in s["units"] if s["id"] != stage_id}
+    if unit_ids & taken:
+        raise SystemExit(f"{coach_id}: unit ids {sorted(unit_ids & taken)} already belong to another stage")
+    new = build_manifest(coach_id, coach, [], lessons, level_label, sources)["lessons"]
+    if any(lesson["unitId"] not in unit_ids for lesson in new):
+        raise SystemExit(f"{coach_id}: a lesson names a unit that is not being added")
+    kept = [u for u in stage["units"] if u["id"] not in unit_ids]
+    stage["units"] = units + kept if position == "start" else kept + units
+    pack["lessons"] = [lesson for lesson in pack["lessons"] if lesson["unitId"] not in unit_ids]
+    pack["lessons"].extend(curl(new))
+    path.write_text(json.dumps(curl(pack), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    touched = register_rewards([lesson["id"] for lesson in new])
+    activities = sum(len(lesson["activities"]) for lesson in new)
+    print(f"{coach_id}: {stage_id} + {len(units)} units = {len(new)} lessons, {activities} activities; reward lists updated: {touched}")

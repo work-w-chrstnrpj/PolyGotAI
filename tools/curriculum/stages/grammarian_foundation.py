@@ -65,7 +65,7 @@ LESSONS = [
          C("The phone rings and you decide to answer at once. Choose the best form.", "I'll get it.", "I'm going to get it.", "I get it.", "I am getting it tomorrow."),
          C("Choose the best form for a plan: “This weekend we ___ visit my parents.”", "are going to", "will can", "going", "are will"),
          C("Look at the dark sky. Choose the best sentence.", "It's going to rain.", "It rains.", "It rained.", "It is rain."),
-         C("Which is the short negative of “will not”?", "won't", "willn't", "don't will", "not will"),
+         C("Which is the short negative of “will not”?", "won't", "willnot", "don't will", "not will"),
          E("I will to call you tomorrow.", "I will call you tomorrow."),
          E("She going to buy a car.", "She is going to buy a car."),
          M("Match each sentence with its use.", [["I'll help you.", "an offer"], ["We're going to move in May.", "a plan"], ["I think it will be fine.", "a prediction"]]),

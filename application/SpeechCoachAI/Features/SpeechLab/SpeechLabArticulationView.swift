@@ -32,12 +32,12 @@ private struct SpeechLabArticulationExercise: View {
     var body: some View {
         Group {
             if step == 1 {
-                ExerciseActivityView(activity: item.activity, progress: 0.5, positionText: "Listen", isLast: true,
+                ExerciseActivityView(activity: item.activity, progress: 0.5, positionText: "Ear training", isLast: true,
                     message: store.message, onSubmit: { stored in
                         let correct = item.activity.resolvedExercise.result(forStored: stored) == .correct
                         let attempt = SpeechLabAttempt(area: .articulation, itemID: item.id + "-listen", correct: correct ? 1 : 0, total: 1)
                         pending = attempt; return store.save(attempt)
-                    }, onContinue: { step = 2 })
+                    }, onContinue: { step = 0 })
             } else {
                 SpeechLabPage(storage: storage, title: item.title) {
                     KitCard {
@@ -45,14 +45,13 @@ private struct SpeechLabArticulationExercise: View {
                         Text(item.tip).foregroundStyle(Kit.secondary)
                         SpeechLabModelAudio(text: item.text)
                     }
-                    if step == 0 {
-                        Button("Practice") { step = 1 }.buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("articulation.practice")
-                    } else {
-                        SpeechLabCaptureView(storage: storage, store: store, area: .articulation, itemID: item.id, text: item.text)
-                        if let pending, !store.state.attempts.contains(where: { $0.id == pending.id }) {
-                            Button("Save again") { _ = store.save(pending) }.buttonStyle(.bordered)
-                        }
+                    // Phase 10: speak first; the listening question is optional ear training.
+                    SpeechLabCaptureView(storage: storage, store: store, area: .articulation, itemID: item.id, text: item.text)
+                    if let pending, !store.state.attempts.contains(where: { $0.id == pending.id }) {
+                        Button("Save again") { _ = store.save(pending) }.buttonStyle(.bordered)
                     }
+                    Button { step = 1 } label: { Label("Ear training", systemImage: "ear") }
+                        .buttonStyle(.bordered).accessibilityIdentifier("articulation.practice")
                 }
             }
         }.navigationTitle(item.title).navigationBarTitleDisplayMode(.inline)

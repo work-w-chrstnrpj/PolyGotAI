@@ -182,9 +182,12 @@ extension LearnerRepository {
     /// Saves the chosen generated words into a personal topic named "AI: <topic>", so they are clearly marked as AI-made.
     /// Returns how many were added; words already in the topic are skipped. The meaning and the example go into the note.
     @discardableResult
-    func saveGeneratedLexicon(_ collection: GeneratedLexicon, choosing lemmas: Set<String>? = nil, enroll: Bool = true) throws -> Int {
+    /// Saves the chosen words into `topicID` (a pack the learner made), or into a pack named "AI: <topic>".
+    func saveGeneratedLexicon(_ collection: GeneratedLexicon, choosing lemmas: Set<String>? = nil, enroll: Bool = true,
+                              into topicID: UUID? = nil) throws -> Int {
         let title = String("AI: \(collection.topic)".prefix(CustomVocabularyLibrary.titleLimit))
-        let topic = try customTopics().first { $0.title == title } ?? createCustomTopic(title: title, subtopic: "AI-made, reviewed by you")
+        let existing = try topicID.flatMap { id in try customTopics().first { $0.id == id } }
+        let topic = try existing ?? customTopics().first { $0.title == title } ?? createCustomTopic(title: title, subtopic: "AI-made, reviewed by you")
         var added = 0
         for word in collection.words where lemmas?.contains(word.lemma) ?? true {
             let example = word.parsedExamples.first?.plain ?? ""

@@ -71,6 +71,16 @@ Word lists are chosen from open, well-known lists; **all meanings and examples a
 - **Adding words:** the Add a word screen checks lemma and part of speech (ignoring case, accents and spaces). A match, in the bank, in "My words" or among saved words, shows "Already in your Lexicon". Added words land in a "My words" topic and are scheduled like any other.
 - **Stored state:** an optional `lexicon` section of the learner document (active groups, daily word, Lexicon in Action waits). No SwiftData migration.
 
+## Phase 8 rework (2026-10-26)
+
+- **Lexicon home:** Daily Training card (to review · new, next review time, the ranks in use) with **Start** and **Practice**; Lexicon in Action when words are ready; **Training from** (only the packs in use, with progress) and a **Settings** button; **Your packs** (the learner's own topics, now called packs); **Saved words**.
+- **Training settings:** rank switches A1–C2 (all off = every rank; "C2 only" takes new words from every C2 pack unless C2 packs were chosen), new words per day (0–30), a switch per pack (grouped by rank, then field packs), **Hide** by swipe or context menu, a Hidden packs list with **Show**, and Review options. The rank filter ignores the course lock (owner decision 2026-10-26).
+- **Practice:** unlimited, unrated rounds of 10: "Choose the word that fits" (sentence with a blank, four words of the same part of speech) and "Which word is closest in meaning to …?" (one synonym, three non-synonyms). Uses words already started, else the packs in training. Never changes the review schedule.
+- **Rating buttons** show when the word comes back, Anki-style ("<1m", "10m", "1d", "4d", "2mo"). The scheduler is FSRS-6, the algorithm Anki offers as its modern option.
+- **Your packs:** "Train all" adds every word of a pack to Daily Training; **Fill with AI** (only when online feedback is set up) writes words for the pack and saves the ones the learner picks into that pack.
+- **Saved words:** only words kept from lessons and the word of the day, searchable, each with its next review or **Add to training**. Lexicon bank words and pack words are no longer mixed in.
+- **Synonyms:** 700 of 866 bank words carry `synonyms` (written in `tools/curriculum/lexdata/synonyms.py`, applied by `add_synonyms.py`); words without an honest synonym are asked as sentence questions only.
+
 ## Not in scope
 
 Spanish or other languages, shared decks between learners, importing from Anki, handwriting, images on cards.

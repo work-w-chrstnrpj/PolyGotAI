@@ -24,7 +24,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.happy"
+      "id": "everyday-a1.happy",
+      "synonyms": [
+        "glad",
+        "cheerful"
+      ]
     },
     {
       "lemma": "buy",
@@ -39,7 +43,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.buy"
+      "id": "everyday-a1.buy",
+      "synonyms": [
+        "purchase"
+      ]
     },
     {
       "lemma": "kitchen",
@@ -84,7 +91,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.quickly"
+      "id": "everyday-a1.quickly",
+      "synonyms": [
+        "fast",
+        "rapidly"
+      ]
     },
     {
       "lemma": "tired",
@@ -99,7 +110,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.tired"
+      "id": "everyday-a1.tired",
+      "synonyms": [
+        "sleepy",
+        "exhausted"
+      ]
     },
     {
       "lemma": "friend",
@@ -114,7 +129,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.friend"
+      "id": "everyday-a1.friend",
+      "synonyms": [
+        "pal",
+        "buddy"
+      ]
     },
     {
       "lemma": "cook",
@@ -159,7 +178,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.street"
+      "id": "everyday-a1.street",
+      "synonyms": [
+        "road"
+      ]
     },
     {
       "lemma": "early",
@@ -174,7 +196,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.early"
+      "id": "everyday-a1.early",
+      "synonyms": [
+        "ahead of time"
+      ]
     },
     {
       "lemma": "market",
@@ -189,7 +214,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.market"
+      "id": "everyday-a1.market",
+      "synonyms": [
+        "bazaar"
+      ]
     },
     {
       "lemma": "wash",
@@ -204,7 +232,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.wash"
+      "id": "everyday-a1.wash",
+      "synonyms": [
+        "clean",
+        "rinse"
+      ]
     },
     {
       "lemma": "library",
@@ -234,7 +266,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.ticket"
+      "id": "everyday-a1.ticket",
+      "synonyms": [
+        "pass"
+      ]
     },
     {
       "lemma": "borrow",
@@ -294,7 +329,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.careful"
+      "id": "everyday-a1.careful",
+      "synonyms": [
+        "cautious"
+      ]
     },
     {
       "lemma": "lose",
@@ -309,7 +347,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.lose"
+      "id": "everyday-a1.lose",
+      "synonyms": [
+        "misplace"
+      ]
     },
     {
       "lemma": "bedroom",
@@ -339,7 +380,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.answer"
+      "id": "everyday-a1.answer",
+      "synonyms": [
+        "reply",
+        "respond"
+      ]
     },
     {
       "lemma": "cheap",
@@ -354,7 +399,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.cheap"
+      "id": "everyday-a1.cheap",
+      "synonyms": [
+        "inexpensive"
+      ]
     },
     {
       "lemma": "visit",
@@ -369,7 +417,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.visit"
+      "id": "everyday-a1.visit",
+      "synonyms": [
+        "call on",
+        "see"
+      ]
     },
     {
       "lemma": "neighbor",
@@ -414,7 +466,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.listen"
+      "id": "everyday-a1.listen",
+      "synonyms": [
+        "hear"
+      ]
     },
     {
       "lemma": "ready",
@@ -429,7 +484,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.ready"
+      "id": "everyday-a1.ready",
+      "synonyms": [
+        "prepared"
+      ]
     },
     {
       "lemma": "empty",
@@ -444,7 +502,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.empty"
+      "id": "everyday-a1.empty",
+      "synonyms": [
+        "vacant",
+        "bare"
+      ]
     },
     {
       "lemma": "enjoy",
@@ -459,7 +521,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.enjoy"
+      "id": "everyday-a1.enjoy",
+      "synonyms": [
+        "like",
+        "love"
+      ]
     },
     {
       "lemma": "bridge",
@@ -489,7 +555,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.sleep"
+      "id": "everyday-a1.sleep",
+      "synonyms": [
+        "rest",
+        "nap"
+      ]
     },
     {
       "lemma": "jacket",
@@ -504,7 +574,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.jacket"
+      "id": "everyday-a1.jacket",
+      "synonyms": [
+        "coat"
+      ]
     },
     {
       "lemma": "hungry",
@@ -519,7 +592,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.hungry"
+      "id": "everyday-a1.hungry",
+      "synonyms": [
+        "starving"
+      ]
     },
     {
       "lemma": "carry",
@@ -534,7 +610,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.carry"
+      "id": "everyday-a1.carry",
+      "synonyms": [
+        "hold",
+        "bring"
+      ]
     },
     {
       "lemma": "village",
@@ -549,7 +629,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.village"
+      "id": "everyday-a1.village",
+      "synonyms": [
+        "hamlet"
+      ]
     },
     {
       "lemma": "repeat",
@@ -564,7 +647,10 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.repeat"
+      "id": "everyday-a1.repeat",
+      "synonyms": [
+        "say again"
+      ]
     },
     {
       "lemma": "beautiful",
@@ -579,7 +665,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.beautiful"
+      "id": "everyday-a1.beautiful",
+      "synonyms": [
+        "lovely",
+        "pretty"
+      ]
     },
     {
       "lemma": "plan",
@@ -594,7 +684,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.plan"
+      "id": "everyday-a1.plan",
+      "synonyms": [
+        "idea",
+        "scheme"
+      ]
     },
     {
       "lemma": "clean",
@@ -609,7 +703,11 @@
       ],
       "cefr": "A1",
       "register": "everyday",
-      "id": "everyday-a1.clean"
+      "id": "everyday-a1.clean",
+      "synonyms": [
+        "spotless",
+        "tidy"
+      ]
     }
   ]
 }

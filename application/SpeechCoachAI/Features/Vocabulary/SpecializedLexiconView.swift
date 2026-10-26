@@ -5,6 +5,8 @@ import SwiftUI
 struct SpecializedLexiconView: View {
     var storage: LearnerStorageController
     var bank: LexiconBank = LexiconBankLoader.bundled
+    /// Set when filling one of the learner's own packs: words are saved there, and the pack name is the topic.
+    var pack: CustomVocabularyTopic? = nil
     @State private var controller: SpecializedLexiconController
     @State private var topic = ""
     @State private var level = "B1"
@@ -14,8 +16,9 @@ struct SpecializedLexiconView: View {
     @State private var privacy = false
     @Environment(\.scenePhase) private var scenePhase
 
-    init(storage: LearnerStorageController, bank: LexiconBank = LexiconBankLoader.bundled, service: LabFeedbackService? = nil) {
-        self.storage = storage; self.bank = bank
+    init(storage: LearnerStorageController, bank: LexiconBank = LexiconBankLoader.bundled, pack: CustomVocabularyTopic? = nil,
+         service: LabFeedbackService? = nil) {
+        self.storage = storage; self.bank = bank; self.pack = pack
         _controller = State(initialValue: SpecializedLexiconController(service: service ?? AIFeedbackController.localService()))
     }
 
@@ -44,11 +47,14 @@ struct SpecializedLexiconView: View {
             }.padding(20)
         }
         .background(Kit.canvas(storage.preferences.background))
-        .navigationTitle("Specialized words").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle(pack == nil ? "Specialized words" : "Fill with AI").navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $privacy) {
             AIFeedbackPrivacyView(disclosure: .current(mode: .coachReview, includesAudio: false), retention: ProviderVerification.bundled?.retentionDisclosure)
         }
-        .onAppear { level = storage.feedbackLevel }
+        .onAppear {
+            level = storage.feedbackLevel
+            if let pack, topic.isEmpty { topic = String([pack.title, pack.subtopic].filter { !$0.isEmpty }.joined(separator: ", ").prefix(80)) }
+        }
         .onChange(of: scenePhase) { _, phase in if phase != .active { controller.cancel() } }
         .onDisappear { controller.cancel() }
     }
@@ -88,7 +94,7 @@ struct SpecializedLexiconView: View {
     }
 
     private func save(_ result: GeneratedLexicon) {
-        saved = (try? storage.repository?.saveGeneratedLexicon(result, choosing: chosen)) ?? 0
+        saved = (try? storage.repository?.saveGeneratedLexicon(result, choosing: chosen, into: pack?.id)) ?? 0
     }
 }
 

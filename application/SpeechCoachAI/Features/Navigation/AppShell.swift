@@ -5,7 +5,7 @@ enum AppDestination: String, CaseIterable, Identifiable {
     case today, vocabulary, learn, speechLab, progress
     var id: String { rawValue }
     var title: String {
-        switch self { case .today: "Today"; case .vocabulary: "Lexicon"; case .learn: "Lesson"; case .speechLab: "Speech Lab"; case .progress: "Progress" }
+        switch self { case .today: "Today"; case .vocabulary: "Lexicon"; case .learn: "Lesson"; case .speechLab: "Lab"; case .progress: "Progress" }
     }
     var symbol: String {
         switch self { case .today: "sun.max"; case .vocabulary: "square.stack"; case .learn: "book"; case .speechLab: "waveform"; case .progress: "chart.bar" }
@@ -148,25 +148,31 @@ struct AppShell: View {
 
     private func navigationContent(_ item: AppDestination) -> some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 16) {
-                    if storage.hasStorageFailure {
-                        AvailabilityCard(title: "Local data unavailable", detail: "Unlock your device and try again. Your existing data has been kept.", symbol: "exclamationmark.triangle")
-                            .accessibilityIdentifier("storage.unavailable")
-                        Button("Try Again") { storage.open() }.buttonStyle(.borderedProminent)
-                    }
-                    switch item {
-                    case .today: TodayView(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
-                    case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
-                    case .vocabulary: LexiconHome(storage: storage)
-                    case .speechLab: SpeechLabContent(storage: storage, context: $practiceContext)
-                    case .progress:
-                        ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
+            Group {
+                if item == .speechLab {
+                    SpeechLabContent(storage: storage, context: $practiceContext)
+                } else {
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 16) {
+                            if storage.hasStorageFailure {
+                                AvailabilityCard(title: "Local data unavailable", detail: "Unlock your device and try again. Your existing data has been kept.", symbol: "exclamationmark.triangle")
+                                    .accessibilityIdentifier("storage.unavailable")
+                                Button("Try Again") { storage.open() }.buttonStyle(.borderedProminent)
+                            }
+                            switch item {
+                            case .today: TodayView(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
+                            case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
+                            case .vocabulary: LexiconHome(storage: storage)
+                            case .speechLab: EmptyView()
+                            case .progress:
+                                ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
+                            }
+                        }
+                        .frame(maxWidth: 700, alignment: .leading)
+                        .padding(20)
+                        .frame(maxWidth: .infinity)
                     }
                 }
-                .frame(maxWidth: 700, alignment: .leading)
-                .padding(20)
-                .frame(maxWidth: .infinity)
             }
             .background(Kit.canvas(storage.preferences.background))
             .foregroundStyle(Kit.ink)
@@ -218,53 +224,44 @@ private struct LearnContent: View {
 struct SpeechLabContent: View {
     var storage: LearnerStorageController
     @Binding var context: PracticeSessionContext?
-    @Environment(\.dynamicTypeSize) private var textSize
-    var body: some View {
-        if textSize.isAccessibilitySize {
-            VStack(alignment: .leading) { CoachArtwork(name: "SpeakerWelcome").frame(height: 88); heading }
-        } else {
-            HStack(spacing: 14) { CoachArtwork(name: "SpeakerWelcome").frame(width: 64, height: 68); heading }
-        }
-        NavigationLink {
-            SpeechLabDictationView(storage: storage)
-        } label: {
-            KitCard { KitContentRow(symbol: "headphones", title: "Dictation", detail: "Listen and write", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.dictation")
-        NavigationLink {
-            SpeechLabPronunciationView(storage: storage)
-        } label: {
-            KitCard { KitContentRow(symbol: "character.phonetic", title: "Pronunciation", detail: "Sounds and clear speech", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.pronunciation")
-        NavigationLink {
-            SpeechLabVoiceView(storage: storage)
-        } label: {
-            KitCard { KitContentRow(symbol: "waveform.path", title: "Speaking", detail: "Pace, pauses and volume", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.speaking")
-        if !SpeechLabCatalog.bundled.interview.isEmpty {
-            NavigationLink {
-                HandsFreeInterviewView(storage: storage)
-            } label: {
-                KitCard { KitContentRow(symbol: "person.2", title: "Interview", detail: "Answer common questions", showsChevron: true) }
-            }.buttonStyle(.plain).accessibilityIdentifier("speech.interview")
-        }
-        NavigationLink {
-            ConversationPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
-        } label: {
-            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Conversation", detail: "Talk through a scenario", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.conversation")
-        if ((try? storage.repository?.labFeedbackHistory()) ?? []).isEmpty == false {
-            NavigationLink("Feedback history") { LabFeedbackHistoryView(storage: storage) }.accessibilityIdentifier("speech.feedbackHistory")
-        }
-        NavigationLink("Saved practice") {
-            ScrollView { PracticeHistoryContent(storage: storage).padding(20) }.navigationTitle("Your practice")
-        }
-        .onAppear { if context == nil { context = PracticeSessionContext(defaults: storage.preferences) } }
-        SpeechLabInfoButton()
+    @State private var feedbackAvailable = false
+    private var talkClient: (any TalkStreaming)? {
+        #if DEBUG
+        if TalkFixtureClient.enabled { return TalkFixtureClient() }
+        #endif
+        return TalkStreamingClient.local()
     }
-    private var heading: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("Speak a little. Grow a lot.").font(.title3.bold()).lineLimit(1).minimumScaleFactor(0.7)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
+    var body: some View {
+        List {
+            Section {
+                if let client = talkClient {
+                    NavigationLink { TalkView(storage: storage, client: client) } label: {
+                        Label("Talk", systemImage: "bubble.left.and.bubble.right")
+                    }.accessibilityIdentifier("speech.talk")
+                }
+                NavigationLink { SpeechLabPronunciationView(storage: storage) } label: {
+                    Label("Pronunciation", systemImage: "character.phonetic")
+                }.accessibilityIdentifier("speech.pronunciation")
+                NavigationLink { SpeechLabVoiceView(storage: storage) } label: {
+                    Label("Speaking", systemImage: "waveform.path")
+                }.accessibilityIdentifier("speech.speaking")
+                NavigationLink { SpellingView(storage: storage) } label: {
+                    Label("Spelling", systemImage: "textformat.abc")
+                }.accessibilityIdentifier("speech.spelling")
+            } header: { Text("Practice") }
+            Section {
+                NavigationLink { VoiceSettingsView(storage: storage) } label: {
+                    Label("Voice", systemImage: "speaker.wave.2")
+                }.accessibilityIdentifier("speech.voice")
+                if feedbackAvailable {
+                    NavigationLink("Feedback history") { LabFeedbackHistoryView(storage: storage) }.accessibilityIdentifier("speech.feedbackHistory")
+                }
+            }
+        }.listStyle(.insetGrouped).scrollContentBackground(.hidden)
+            .background(Kit.canvas(storage.preferences.background))
+            .onAppear {
+                feedbackAvailable = ((try? storage.repository?.labFeedbackHistory()) ?? []).isEmpty == false
+                SpeechSynthesizer.shared.settings = storage.preferences.voiceSettings ?? VoiceSettings()
+            }
     }
 }

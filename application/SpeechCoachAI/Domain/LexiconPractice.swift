@@ -22,6 +22,10 @@ struct LexiconState: Codable, Equatable {
     var daily: LexiconDailyRecord?
     var shownDailyWordIDs: [String] = []
     var action: [String: LexiconActionProgress] = [:]
+    /// v3: ranks Daily Training takes new words from (for example ["C2"]). Nil means every rank.
+    var ranks: [String]? = nil
+    /// v3: packs hidden from the Lexicon screen. A hidden pack is never trained.
+    var hiddenGroupIDs: [String]? = nil
 
     /// The groups being trained. Until the learner chooses, it is the first group of `startLevel`
     /// (the highest CEFR level they have unlocked), or the first group of the bank when that level has none.
@@ -59,7 +63,7 @@ enum LexiconSuggestion {
         let active = state.activeGroups(in: bank, startLevel: startLevel)
         guard active.allSatisfy({ isFinished($0, stages: stages) }) else { return nil }
         return bank.groups.first { group in
-            !group.isField && (LevelGate.levels.firstIndex(of: group.level) ?? 0) <= ceiling
+            !group.isField && !state.hidden.contains(group.id) && (LevelGate.levels.firstIndex(of: group.level) ?? 0) <= ceiling
                 && !active.contains { $0.id == group.id } && !isFinished(group, stages: stages)
         }
     }
@@ -113,7 +117,7 @@ enum LexiconTrainingPlan {
         let startedToday = enrollments.filter { $0.lessonID.hasPrefix("lexicon:") && calendar.isDate($0.enrolledAt, inSameDayAs: now) }.count
         let room = max(0, state.newPerDay - startedToday)
         guard room > 0 else { return [] }
-        let candidates = state.activeGroups(in: bank, startLevel: startLevel).flatMap(\.words).filter { !enrolled.contains($0.itemId) }
+        let candidates = state.trainingGroups(in: bank, startLevel: startLevel).flatMap(\.words).filter { !enrolled.contains($0.itemId) }
         return Array(candidates.prefix(room))
     }
 }

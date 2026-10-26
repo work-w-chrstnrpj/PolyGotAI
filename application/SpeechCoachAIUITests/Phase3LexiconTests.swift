@@ -27,6 +27,12 @@ final class Phase3LexiconTests: XCTestCase {
         XCTAssertTrue(app.buttons["lexicon.train"].waitForExistence(timeout: 8))
     }
 
+    @MainActor @discardableResult
+    private func reach(_ app: XCUIApplication, _ element: XCUIElement) -> XCUIElement {
+        for _ in 0..<12 where !(element.exists && element.isHittable) { app.swipeUp() }
+        XCTAssertTrue(element.isHittable, element.identifier)
+        return element
+    }
     @MainActor
     private func capture(_ app: XCUIApplication, _ name: String) {
         let attachment = XCTAttachment(screenshot: XCUIScreen.main.screenshot())
@@ -42,6 +48,9 @@ final class Phase3LexiconTests: XCTestCase {
             XCTAssertEqual(navigation.label, "Lexicon")
             XCTAssertTrue(navigation.isHittable)
         }
+        // Phase 8: packs are chosen in Training settings.
+        reach(app, app.buttons["lexicon.settings"]).tap()
+        XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
         for _ in 0..<40 where !app.staticTexts["Field packs"].isHittable { app.swipeUp() }
         XCTAssertTrue(app.staticTexts["Field packs"].isHittable)
         // Every field label remains reachable at the largest accessibility size.
@@ -51,6 +60,7 @@ final class Phase3LexiconTests: XCTestCase {
         XCTAssertTrue(business.isHittable)
         for _ in 0..<4 where business.frame.midY > app.frame.midY { app.swipeUp() }
         capture(app, "largest-text-field-packs")
+        app.buttons["lexicon.settings.done"].tap()
         XCUIDevice.shared.orientation = .landscapeLeft
         defer { XCUIDevice.shared.orientation = .portrait }
         let landscape = expectation(for: NSPredicate { _, _ in app.frame.width > app.frame.height }, evaluatedWith: app)
@@ -102,7 +112,7 @@ final class Phase3LexiconTests: XCTestCase {
     func testAWordAlreadyInTheLexiconIsNotAddedTwice() {
         let app = launch()
         openLexicon(app)
-        app.buttons["lexicon.add"].tap()
+        reach(app, app.buttons["lexicon.add"]).tap()
         let word = app.textFields["lexicon.add.word"]
         XCTAssertTrue(word.waitForExistence(timeout: 5))
         word.tap(); word.typeText("  Happy ")
@@ -121,11 +131,18 @@ final class Phase3LexiconTests: XCTestCase {
     func testGroupSwitchesAndLargeText() {
         let app = launch(largeText: true)
         openLexicon(app)
-        let people = app.switches["lexicon.group.a1-people-places"]
+        reach(app, app.buttons["lexicon.settings"]).tap()
+        XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
+        // Form rows are created as they scroll into view.
+        let people = app.switches["lexicon.settings.pack.a1-people-places"]
+        for _ in 0..<20 where !(people.exists && people.isHittable) { app.swipeUp() }
         XCTAssertTrue(people.waitForExistence(timeout: 5))
         XCTAssertEqual(people.value as? String, "0")
-        people.tap()
-        XCTAssertEqual(people.value as? String, "1")
+        // Press the switch itself; iOS 26 switches ignore zero-length synthetic taps (a finger works).
+        let control = people.switches.firstMatch.exists ? people.switches.firstMatch : people
+        control.press(forDuration: 0.2)
+        let on = expectation(for: NSPredicate { _, _ in (people.value as? String) == "1" }, evaluatedWith: nil)
+        wait(for: [on], timeout: 5)
         capture(app, "large-text")
     }
 }

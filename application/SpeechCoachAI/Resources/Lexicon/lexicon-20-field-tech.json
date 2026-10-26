@@ -23,7 +23,11 @@
         "An algorithm is a kind of cable that connects two computers."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "procedure",
+        "formula"
+      ]
     },
     {
       "lemma": "bandwidth",
@@ -62,7 +66,10 @@
         "Encryption is the process of making a file larger on purpose."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "encoding"
+      ]
     },
     {
       "lemma": "cloud",
@@ -114,7 +121,11 @@
         "You update an app by deleting it from the phone."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "upgrade",
+        "refresh"
+      ]
     },
     {
       "lemma": "backup",
@@ -127,7 +138,10 @@
         "A backup is the original file that you must never copy."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "spare copy"
+      ]
     },
     {
       "lemma": "debug",
@@ -140,7 +154,11 @@
         "To debug a program, you add as many errors as possible."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "troubleshoot",
+        "fix"
+      ]
     },
     {
       "lemma": "deploy",
@@ -153,7 +171,11 @@
         "You deploy a program by switching off the computer for good."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "release",
+        "roll out"
+      ]
     },
     {
       "lemma": "server",
@@ -179,7 +201,11 @@
         "A network is one single device that is not connected to anything."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "system",
+        "web"
+      ]
     },
     {
       "lemma": "browser",
@@ -205,7 +231,11 @@
         "You upload a file by saving it only on your own device."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "send",
+        "post"
+      ]
     },
     {
       "lemma": "malware",
@@ -218,7 +248,10 @@
         "Malware is a helpful program that cleans your computer."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "virus"
+      ]
     },
     {
       "lemma": "phishing",
@@ -231,7 +264,10 @@
         "Phishing is a sport in which people catch fish with a net."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "scam"
+      ]
     },
     {
       "lemma": "latency",
@@ -244,7 +280,11 @@
         "Latency is the speed at which a printer prints a page."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "delay",
+        "lag"
+      ]
     },
     {
       "lemma": "open-source",
@@ -270,7 +310,11 @@
         "A prototype is the last version that customers receive."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "model",
+        "mock-up"
+      ]
     },
     {
       "lemma": "sync",
@@ -283,7 +327,11 @@
         "Two devices sync when each one deletes all of its files."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "synchronize",
+        "match"
+      ]
     },
     {
       "lemma": "plugin",
@@ -296,7 +344,11 @@
         "A plugin is the largest part of the program, and nothing works without it."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "add-on",
+        "extension"
+      ]
     },
     {
       "lemma": "authentication",
@@ -309,7 +361,11 @@
         "Authentication is the process of deleting an old account."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "verification",
+        "sign-in check"
+      ]
     },
     {
       "lemma": "cache",
@@ -335,7 +391,11 @@
         "A script is a screen that stops the computer from working."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "program",
+        "code"
+      ]
     },
     {
       "lemma": "hardware",
@@ -387,7 +447,11 @@
         "Software is the set of physical parts inside a computer."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "program",
+        "app"
+      ]
     },
     {
       "lemma": "wireless",
@@ -400,7 +464,10 @@
         "A wireless mouse must be connected with a long cable."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "cordless"
+      ]
     }
   ]
 }

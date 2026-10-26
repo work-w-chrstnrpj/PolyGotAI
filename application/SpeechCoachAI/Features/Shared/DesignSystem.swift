@@ -256,7 +256,8 @@ struct SectionHeader<Action: View>: View {
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .accessibilityAddTraits(.isHeader)
-            action().font(.subheadline.weight(.semibold)).frame(minHeight: 44)
+            action().font(.subheadline.weight(.semibold))
+                .frame(minWidth: 44, minHeight: 44).contentShape(Rectangle())
         }
     }
 }

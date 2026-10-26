@@ -131,11 +131,12 @@ final class Round4ScreenTests: XCTestCase {
         if tab.exists { tab.tap() } else { tap(app, app.buttons["navigation.learn"].firstMatch) }
         tap(app, app.segmentedControls["learn.mode"].buttons["Coaches"])
         tap(app, app.buttons["coach.card.grammarian"])
-        for id in ["starter", "foundation", "intermediate", "advanced"] {
+        // Phase 11: the full syllabus has 3 units in Starter and 4 in each later stage (72 lessons).
+        for (id, units) in [("starter", 3), ("foundation", 4), ("intermediate", 4), ("advanced", 4)] {
             tap(app, app.buttons["track.stage.\(id)"])
-            XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.unit.")).count, 2)
+            XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.unit.")).count, units)
         }
-        XCTAssertEqual(app.staticTexts["track.progress"].label, "0 of 32 lessons done")
+        XCTAssertEqual(app.staticTexts["track.progress"].label, "0 of 72 lessons done")
         app.swipeUp()
         capture("real-four-stages-large-dark")
     }

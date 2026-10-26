@@ -85,6 +85,10 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 | LOG-0022 | Claude → Codex | Phase 5: Speech Lab sound and voice modes (whole phase) | 2026-10-25 | Read [phase-5/codex-handoff.md](docs/development-plan/phases/phase-5/codex-handoff.md) and start |
 | LOG-0023 | Claude → OpenCode | Read-only proofreading reports | 2026-10-25 | Read [opencode-handoff.md](docs/development-plan/opencode-handoff.md); first job: proofread Grammarian track and Lexicon bank |
 
+| LOG-0068 | Codex → Claude | Apply saved voice settings when learner storage opens/saves/resets; Phase 9 doc review | 2026-10-26 | See LOG-0068; optional preference field already added with owner permission |
+
+| LOG-0069 | Codex → Claude | Today accessibility/saved-course and obsolete Lexicon UI tests from full VERIFY | 2026-10-26 | See LOG-0069 and integrated verification log |
+
 ## Closed handoffs
 
 | ID | From → To | Goal | Closed by |
@@ -642,3 +646,91 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 ### LOG-0064 · 2026-10-26 19:00 · Claude · CHANGE
 **Phase:** 7 · **Status:** APPROVED by owner (play-tested on iPhone 15 Plus)
 **Summary:** Committed Phase 7 as `d41aa00` on `main` (not pushed). Tracker, plan and phase README marked approved. Next: Phase 8 Lexicon v3 (plan in the rework plan); coach art (C8) when the owner's images arrive.
+
+### LOG-0065 · 2026-10-26 19:20 · Claude · HANDOFF
+**Phase:** 8 and 9 in parallel (owner decision) · **Status:** Phase 8 executing (Claude, whole phase); Phase 9 PLAN ready for Codex (whole phase)
+**For Codex:** your brief is [phases/phase-9/README.md](docs/development-plan/phases/phase-9/README.md): voice settings, Spelling (replaces Dictation), Talk engine (on-device recognition → streaming Qwen text → sentence-by-sentence on-device speech), Talk screen (Free talk, Interview, Scenario), Lab renamed with four entries. Stay in the files listed there; storage changes go through Claude. Log each item. Phase 7 is approved and committed (`d41aa00`); start from that tree.
+**Claude (Phase 8):** Lexicon only — `Features/Vocabulary/**`, `Domain/Lexicon*`, `Resources/Lexicon/**`, `Infrastructure/Persistence/**`.
+
+### LOG-0066 · 2026-10-26 18:42 · Codex · HANDOFF
+**Phase:** 9 · **Status:** EXECUTING (owner confirmed Phase 9 in chat)
+**To Claude:** Please add `var voiceSettings: VoiceSettings? = nil` to `LearnerPreferences` in `Domain/LearnerState.swift` (your storage lane). Codex is adding `Infrastructure/Speech/VoiceSettings.swift`: Codable/Equatable value with `voiceIdentifier: String?` and `rate: Double` (speech-rate multiplier, default 1). Optional field preserves old JSON decoding; no schema migration. Please log when ready. No Talk transcript persistence requested.
+**Codex scope:** Phase 9 brief, Speech/Talk/Lab files and tests; no Lexicon or persistence edits. Builds use `application/.build/CodexPhase9DerivedData`, assigned iPhone 18 Pro. UI test run will be logged before starting; please avoid simultaneous UI runs.
+
+### LOG-0066 · 2026-10-26 19:05 · Claude · CHANGE
+**Phase:** 8 Lexicon v3 (whole phase) · **Status:** BUILT and unit-verified; owner play-test pending
+**Summary:** Lexicon home rebuilt: Daily Training hero (to review · new, next review time, ranks) with Start and **Practice**; Lexicon in Action; **Training from** (packs in use with progress, empty state "Choose packs"); **Your packs** (own topics, New pack); **Saved words**. New **Training settings** sheet: rank switches A1–C2 (all off = every rank; "C2 only" uses every C2 pack), new words per day, pack switches by rank and field, Hide (swipe/context menu) and Hidden packs with Show, Review options. **Practice**: unlimited unrated rounds of 10, "Choose the word that fits" and "closest in meaning" (synonyms). Rating buttons show Anki-style next-review times (FSRS preview). Pack editor: Train all, Fill with AI (saves into that pack; hidden without online setup), one Train button per word. Saved words list only shows words from lessons/word of the day. Synonyms written for 700 of 866 bank words (`tools/curriculum/lexdata/synonyms.py`, `add_synonyms.py`). Removed: v1 `CustomTopicList` and `VocabularyRecallView` (unreachable).
+**Files:** `Domain/{Lexicon,LexiconPractice,LexiconTraining}.swift`, `Features/Vocabulary/{LexiconHome,LexiconSettingsView,LexiconPracticeView,SavedWordsView,LexiconTrainingView,CustomTopicViews,SpecializedLexiconView}.swift`, `Infrastructure/Providers/LabAIExtras.swift` (`saveGeneratedLexicon(into:)`), `Resources/Lexicon/*.json`, `tools/curriculum/{add_synonyms.py,lexdata/synonyms.py,build_lexicon.py}`, `SpeechCoachAITests/LexiconTrainingTests.swift`, `docs/product-specification/lexicon.md`.
+**Verification:** in a clean copy (last commit + Phase 8 files, because Codex's in-progress Phase 9 tree had `TalkSession.swift` in two folders and did not build): 391 unit tests pass (14 new), `validate.py` OK, simulator check of Lexicon home, settings, empty state and Practice. Signed device build ready (`application/.build/DeviceP8`); install waits for the phone.
+**For Codex:** the shared tree did not build at 18:50 ("Filename TalkSession.swift used twice": `Domain/` and `Features/Talk/`). Please rename one. Don't touch `Features/Vocabulary/**`.
+**Not verified:** UI tests for the new Lexicon screens; iPad and Dark Mode screenshots.
+
+### LOG-0067 · 2026-10-26 18:53 · Codex · CHANGE
+**Phase:** 9 P9-1–P9-5 · **Status:** IMPLEMENTED, VERIFY in progress
+**Summary:** Voice selection/rate, ten-word rank-filtered Spelling, on-device Talk recognition (SpeechAnalyzer on iOS 26+, final-result SFSpeechRecognizer before 26), bounded SSE transport, sentence queue, cancellable Talk state machine and Free talk/Interview/Scenario screen; Lab uses a grouped native list. Removed replaced Dictation, Conversation and Interview screens; retained domain/archive decoding and lifecycle tests. Scenario menu reuses course workplace situations (the old Conversation screen had no published scenario bank injected); custom situation remains editable. Talk transcripts remain memory-only unless the learner explicitly requests saved AI feedback.
+**Voice handoff resolved:** owner explicitly authorized Codex in chat to add the single optional `LearnerPreferences.voiceSettings` field if needed; added it without touching persistence files. Claude: no need to add that field. Please apply `SpeechSynthesizer.shared.settings = preferences.voiceSettings ?? VoiceSettings()` when preferences open/save/reset in `LearnerStorageController` (your lane), so Lesson audio also uses the chosen voice before visiting Lab; Lab itself applies it already.
+**Verification:** app compilation passed; unit/test build exposed and fixed references to removed screen helpers (archive fixtures retained); current full hosted unit run pending. Copy audit passes. No live requests or owner-data reset.
+**UI run coordination:** Codex will run the assigned iPhone 18 Pro UI tests next, then iPad sequentially. Please do not run simulator UI tests concurrently until the verification report is logged.
+**Files:** `Domain/Talk{Models,SpellingRound}.swift`, `LearnerState.swift` (one field); `Infrastructure/Speech/{VoiceSettings,SpeechSynthesizer,TalkRecognition,TalkSpeaker,DictationRecognizer,SpeechLabCatalog}.swift`; `Infrastructure/Providers/TalkStreamingClient.swift`; `Features/{Talk,SpeechLab}/…`; AppShell Lab region/title and Lab-specific outer scroll wrapper; Phase 9 tests plus affected legacy UI tests.
+**Doc impacts for Claude:** Speech Lab/TDD/data-model/test-spec for text-only streamed Talk, memory-only session, Spelling using existing dictation result storage and optional voice preferences. Formal acceptance and physical recognition/audio/latency checks remain open.
+
+### LOG-0068 · 2026-10-26 19:01 · Codex → Claude · HANDOFF
+**Status:** OPEN (small storage integration + docs)
+**Goal:** Apply the saved voice settings before Lesson audio is used after launch, and on reset.
+**You own:** `App/LearnerStorageController.swift`; product docs, AGENTS map, TDD, data-model, test-spec.
+**Requested code:** after loading `preferences`, and after a successful `savePreferences`, set `SpeechSynthesizer.shared.settings = preferences.voiceSettings ?? VoiceSettings()` (use `value.voiceSettings` in the save method if appropriate). Ensure Erase resets it too. No schema migration. VoiceSettings's pure Codable value now lives in `Domain/TalkVoiceSettings.swift`; AV voice lookup/rate extension lives in `Infrastructure/Speech/VoiceSettings.swift`. The field is already added in LearnerState with the owner's explicit permission. Lab/Voice/Talk apply settings themselves; this small hook covers Lesson audio before the first Lab visit.
+**Verification so far:** 398 hosted tests passed; iPhone Phase 9 dark, largest text/rotation, Spelling persistence and all Talk modes + Stop/Clear + voice-rate persistence passed across focused runs. Current iPad run in progress, then full verify. Duplicate TalkSession filename fixed early (Domain is now `TalkModels.swift`).
+**Docs:** phase report/evidence pending final results. Repository map should list `Features/Talk` and remove the deleted `Features/Conversation` note. Old domain/archive types remain for decoding retained learner data; Talk is memory-only except explicit saved feedback. Spelling stores per-word results under `.dictation` with `spelling.<lexicon-id>` identities.
+**Log numbering:** the two existing LOG-0066 entries are preserved; this entry is LOG-0068 after Codex's LOG-0067.
+
+### LOG-0069 · 2026-10-26 19:15 · Codex → Claude · HANDOFF
+**Phase:** 9 integrated VERIFY · **Status:** OPEN (non-Phase-9 failures)
+**Verification:** `bash tools/native/verify.sh 7535AD2C-F655-4F05-8C36-FE5E0A614902` running, evidence `application/.build/verification/run-Lp4GN5`. All 399 hosted tests passed. Phase 9 iPad tests 4/4 passed; four iPhone journeys passed across focused reruns.
+**Findings in other lanes:** saved-version A1 test cannot find `today.lesson` (BootstrapLaunchTests:488); Today accessibility audit reports too-small hit area on `today.badges.all` (:229); old recall/personal-topic tests fail navigating the removed v1 vocabulary entry (`vocabulary.topic.new` / helper at :193). Phase 8 UI tests need adaptation to the new Lexicon screens. Codex will leave Vocabulary/Today/Shared components untouched per lane ownership; complete results to follow.
+**Please resolve:** LOG-0068 voice hook plus these Today/Lexicon integration items during review. No request to change course/archive behavior or reset data.
+
+### LOG-0070 · 2026-10-26 19:36 · Codex · HANDOFF-REPLY
+**Replies to:** LOG-0065 · **Phase:** 9 · **Status:** IMPLEMENTED / FOCUSED-VERIFIED; full gate failed, Claude review and owner acceptance open
+**Summary:** P9-1–P9-5 delivered per [report](docs/development-plan/phases/phase-9/codex-report.md): persisted voice/rate, ten-word Spelling, final on-device ASR → bounded text SSE → ordered on-device speech, Free talk/Interview/Scenario, grouped Lab list, old screen removal. Late callbacks are rejected after Stop and successful completion. Scenario menu reuses course workplace situations; no published scenario bank was injected into the old screen. Optional voice preference authorized explicitly by owner; no persistence/schema/project edits. Talk memory-only except explicit saved feedback.
+**Verification:** full `verify.sh` completed: **399 hosted tests passed, 42/52 UI passed, 10 failed, no skips** (`application/.build/verification/run-Lp4GN5`). All four Phase 9 iPhone tests passed in that run; iPad 4/4 passed (`phase9-ipad.xcresult`). Last callback-guard/mode-label changes: **13/13 Talk unit + 1/1 Talk/voice UI passed** (`phase9-final-focused.xcresult`). Copy audit and diff whitespace pass. Six screenshots and exact failure names in [evidence](docs/development-plan/phases/phase-9/evidence/README.md).
+**Full-suite failures:** Today saved A1 entry; Today `today.badges.all` hit area; seven old Lexicon navigation/layout flows; dark destination audit on `lexicon.settings`. Not suppressed, and no claim of a green full gate. See LOG-0069.
+**Open handoff:** LOG-0068 storage hook is still unapplied: load/save/reset `SpeechSynthesizer.shared.settings` so Lesson uses the preference before the first Lab visit; update owned product/TDD/data/test/AGENTS docs. Codex maintained phase report, evidence, README and status rows only.
+**Not verified:** physical microphone/installed assets, speaker echo, Bluetooth/phone interruptions, real provider responses/latency, real VoiceOver traversal, owner play-test. No live requests, owner-data reset, commit or push. **Simulator UI lane released**; no more Codex UI jobs running.
+
+### LOG-0067 · 2026-10-26 19:55 · Claude · CHANGE
+**Phase:** 11 Lessons depth (owner: "continue Phase 11 first") · **Status:** Grammarian syllabus BUILT; other coaches audited (owner to choose); owner play-test pending
+**Summary:** Grammarian 32 → 72 lessons: 7 new units added inside the existing stages with new `track_lib.add_units` (earlier lessons and saved progress untouched): Starter **Parts of speech** (first; 8), Foundation **More about words** (8) and **Sentence building blocks** (6), Intermediate **The twelve tenses** (6) and **Punctuation** (5), Advanced **Voice and mood** (3) and **Common errors** (4). 480 new auto-checked activities, original wording. Punctuation and apostrophe items use described choices because the answer check ignores marks. `add_stage` now keeps units another script added. Fixed an old bug: in `gram-f-future-05` the wrong option "willn't" normalized to the same answer as "won't" (now "willnot"); a new test checks every choice in all 353 lessons for options the checker can't tell apart. Audit of the other nine coaches with suggested units: `docs/development-plan/phases/phase-11/coach-syllabus-audit.md`.
+**Files:** `tools/curriculum/track_lib.py`, `tools/curriculum/stages/grammarian_words_{starter,foundation,intermediate,advanced}.py`, `grammarian_foundation.py` (option fix), `Resources/Tracks/track-grammarian.json`, `Resources/Rewards/AwardCatalog.json`, `SpeechCoachAITests/{TrackContentTests,LevelGateTests}.swift`, `docs/development-plan/phases/phase-11/*`.
+**Verification:** `validate.py` OK (296 track lessons, 4,554 typed exercises); 393 unit tests pass in the clean copy (last commit + Phases 8 and 11); simulator shows "0 of 72 lessons done" with Parts of speech first. Signed device build ready (`application/.build/DeviceP8`); phone unavailable.
+**Warning for agents:** never rerun the old `stages/<coach>_<stage>.py` scripts; they rebuild lessons from source and drop later fixes made in the JSON (I did once and restored the file at once).
+**Not verified:** a native-speaker read of the 40 new lessons; UI tests.
+
+### LOG-0068 · 2026-10-26 20:05 · Claude · CHANGE
+**Phase:** 8 + 11 · device install · **Status:** DONE
+**Summary:** Installed and launched the build with Phase 8 (Lexicon) and Phase 11 (Grammarian 72 lessons) on the owner's iPhone 15 Plus. Built from a clean copy (last commit + Phase 8 and 11 files), so Codex's in-progress Phase 9 is NOT in this build. Tip: if `devicectl list devices` shows "unavailable" while Xcode shows the phone, `devicectl device info details --device <udid>` wakes the wired tunnel. Next: owner play-test, then commit.
+
+### LOG-0069 · 2026-10-26 20:25 · Claude · REVIEW + HANDOFF
+**Phase:** 9 review · 10 start · **Status:** Phase 9 ACCEPTED by Claude (owner play-test open); Phase 10 EXECUTING (Claude)
+**Phase 9 review:** Talk engine is sound: generation tokens drop late events, Stop cancels speech and request, last 8 turns only, `max_tokens` 300, no retries, bounded SSE framing, latency logged without content, Talk hidden without key/verification (so the owner won't see Talk until the key is set up). Spelling and Voice fine. Lab list follows HIG. Applied LOG-0068: `LearnerStorageController` now sets `SpeechSynthesizer.shared.settings` on open and on save (Erase resets through open). The 10 UI failures are in my lanes (Today `today.lesson`/badge hit area, old Lexicon flows); I will update those tests.
+**For Codex:** Phase 10 owns `Features/SpeechLab/{SpeechLabPhoneticsView,SpeakCheckView,PitchChart,SpeechLabCaptureView}.swift`, `Infrastructure/Speech/{SpeechLabRecognizer,SpeechLabCapture,SpeechLabCatalog,PitchAnalysis}.swift`, `Domain/{SpeechLabSpeech,PronunciationCheck}.swift`, `Resources/SpeechLab/**`. Please don't edit them until I log Phase 10 done. Brief: `docs/development-plan/phases/phase-10/README.md`.
+
+### LOG-0070 · 2026-10-26 21:05 · Claude · NOTE
+**UI lane:** Claude is running the full `verify.sh` on iPhone 18 Pro Max (29BC0B67…) now. Codex: please don't start simulator UI runs until I log the result.
+
+### LOG-0071 · 2026-10-26 20:25 · Claude · CHANGE
+**Phase:** 8 + 9 + 10 + 11 · device install · **Status:** DONE (launch blocked because the phone was locked; owner opens it)
+**Summary:** Built the shared tree (all four phases integrated) signed and installed on the owner's iPhone 15 Plus (`application/.build/DeviceAll`). Full `verify.sh` is still running on iPhone 18 Pro Max (`run-zBjZW0`); results to follow. Talk stays hidden on the phone until the provider key and verification are set up.
+
+### LOG-0072 · 2026-10-26 22:00 · Claude · PLAN
+**Phase:** owner feedback round 2 → Phases 12–16 · **Status:** PROPOSED, waiting for the owner's go
+**Summary:** Owner: drop the ELSA direction in the Lab; Today header split is poor; Lexicon too small and AI fill not visible; coaches need real lessons (read → examples → exercises, grouped by topic); phonetics becomes a coach; Lab gains video recommendations (Vinh Giang, Alexander Lyon, Charisma on Command; watched tracking) and AI-made timed tests (impromptu writing with auto-send, timed reading MCQ, analogies, no repeats); UI pass later. Decisions: keep say-it checks in the Pronunciation coach; Lexicon to about 2,400 words; AI buttons always visible and lead to setup without a key; rewrite all 10 coaches at once. Plan: `docs/development-plan/owner-feedback-plan-2026-10-26b.md`.
+**For Codex:** proposed Phase 15 (Lab Videos + Timed tests screens and client) and Phase 12 screen parts; wait for the owner's go and a brief.
+**Open:** Phases 8–11 uncommitted; three UI test fixes written, not yet re-run.
+
+### LOG-0073 · 2026-10-26 21:30 · Codex · CHANGE
+**Phase:** 13 · **Status:** IMPLEMENTING / VERIFY next (owner explicitly assigned Phase 13 in chat)
+**Scope:** taking the whole Phase 13 from the proposed lane assignment, per direct owner request. No Phase 12/14/15 changes. Brief: `docs/development-plan/phases/phase-13/README.md`.
+**Summary:** Optional validated reading sections with worked examples; checkpointed page navigation before exercises; 137 topic lessons replacing 296 micro-lessons across all ten current coaches, with 15–18 checked exercises plus Your turn. Related grammar combined into Nouns, Pronouns, Verbs, Tenses, Punctuation and other topics. Existing original app teaching and suitable exercises are curated, not claimed as newly reviewed. Archived exact lessons stay resolvable and resumable; old completions do not count toward new topics. Course JSON unchanged. Reproducible outline/builder with frozen original content under `tools/curriculum/topic_sources/`.
+**Files:** `Domain/{CurriculumCatalog,LessonJourney,LessonReading,TrackCatalog,CurrentLessons}.swift`; curriculum loader; `Features/Learn/{LessonPlayerView,LessonReadingPage,CoachCatalogView}.swift`; all ten Tracks JSON; Awards target registration; topic authoring/validator; tests.
+**Verification:** content validator passes; initial app/test compilation in progress. No schema migration, learner reset, live provider, commit or push. Reading fields are optional JSON only.
+**Coordination:** assigned iPhone 18 Pro, `application/.build/CodexPhase13DerivedData`. No other xcodebuild test job was running when inspected. Codex is starting hosted tests, then UI tests sequentially; please avoid concurrent simulator UI testing until logged complete.

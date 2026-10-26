@@ -23,7 +23,11 @@
         "An itinerary is a bag that you carry on a plane."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "travel plan",
+        "route"
+      ]
     },
     {
       "lemma": "boarding pass",
@@ -49,7 +53,10 @@
         "A layover is the last night of a trip at home."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "stopover"
+      ]
     },
     {
       "lemma": "visa",
@@ -75,7 +82,11 @@
         "Accommodation is the food that you eat on a flight."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "lodging",
+        "housing"
+      ]
     },
     {
       "lemma": "check-in",
@@ -101,7 +112,10 @@
         "Sightseeing is the act of sleeping in a hotel all day."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "touring"
+      ]
     },
     {
       "lemma": "currency",
@@ -114,7 +128,10 @@
         "Currency is a document that gives you permission to travel."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "money"
+      ]
     },
     {
       "lemma": "exchange rate",
@@ -140,7 +157,10 @@
         "A fare is a fast train that does not stop."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "ticket price"
+      ]
     },
     {
       "lemma": "excursion",
@@ -153,7 +173,11 @@
         "An excursion is a long delay at an airport."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "outing",
+        "trip"
+      ]
     },
     {
       "lemma": "hostel",
@@ -166,7 +190,10 @@
         "A hostel is an expensive restaurant on the top of a hill."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "inn"
+      ]
     },
     {
       "lemma": "round trip",
@@ -218,7 +245,10 @@
         "A terminal is a small bag for carrying your passport."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "station"
+      ]
     },
     {
       "lemma": "jet lag",
@@ -257,7 +287,11 @@
         "A landmark is a small bag that tourists carry."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "monument",
+        "sight"
+      ]
     },
     {
       "lemma": "insurance",
@@ -270,7 +304,11 @@
         "Insurance is a ticket that lets you skip the line at an airport."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "cover",
+        "protection"
+      ]
     },
     {
       "lemma": "timetable",
@@ -283,7 +321,10 @@
         "A timetable is a ticket that lets you enter a museum."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "schedule"
+      ]
     },
     {
       "lemma": "carry-on",
@@ -296,7 +337,10 @@
         "A carry-on is a bag that you must give to the airline staff before you board."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "hand luggage"
+      ]
     },
     {
       "lemma": "vacancy",
@@ -309,7 +353,10 @@
         "A vacancy is a hotel room that is full of guests."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "free room"
+      ]
     },
     {
       "lemma": "voyage",
@@ -322,7 +369,11 @@
         "A voyage is a short walk to the shop on the corner."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "journey",
+        "sea trip"
+      ]
     },
     {
       "lemma": "cruise",
@@ -348,7 +399,10 @@
         "A resort is an office where tourists pay for their visas."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "holiday spot"
+      ]
     },
     {
       "lemma": "cabin",
@@ -361,7 +415,11 @@
         "A cabin is a large hall where the whole crew sleeps."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "cottage",
+        "hut"
+      ]
     },
     {
       "lemma": "check-out",
@@ -387,7 +445,10 @@
         "A tour guide is a tourist who gets lost on purpose."
       ],
       "cefr": "B1",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "guide"
+      ]
     }
   ]
 }

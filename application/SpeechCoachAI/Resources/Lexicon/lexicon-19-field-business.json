@@ -23,7 +23,11 @@
         "A company acquires another company by selling it for nothing."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "buy",
+        "take over"
+      ]
     },
     {
       "lemma": "overhead",
@@ -36,7 +40,10 @@
         "Overhead is the extra money a customer gives as a tip."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "running costs"
+      ]
     },
     {
       "lemma": "asset",
@@ -49,7 +56,11 @@
         "An asset is a debt that you must pay back next week."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "resource",
+        "property"
+      ]
     },
     {
       "lemma": "liability",
@@ -62,7 +73,11 @@
         "A liability is a valuable thing that makes the company richer."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "debt",
+        "obligation"
+      ]
     },
     {
       "lemma": "quarter",
@@ -88,7 +103,11 @@
         "A benchmark is a bench in front of the office."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "standard",
+        "yardstick"
+      ]
     },
     {
       "lemma": "margin",
@@ -101,7 +120,10 @@
         "A margin is the blank space where you sign a contract."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "profit"
+      ]
     },
     {
       "lemma": "incentive",
@@ -114,7 +136,11 @@
         "An incentive is a punishment for finishing early."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "motivation",
+        "reward"
+      ]
     },
     {
       "lemma": "procurement",
@@ -127,7 +153,11 @@
         "Procurement is the process of selling goods to customers."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "purchasing",
+        "buying"
+      ]
     },
     {
       "lemma": "compliance",
@@ -140,7 +170,11 @@
         "Compliance means choosing to ignore the rules."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "conformity",
+        "obedience"
+      ]
     },
     {
       "lemma": "scalable",
@@ -153,7 +187,10 @@
         "A scalable plan only works for exactly one customer."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "expandable"
+      ]
     },
     {
       "lemma": "leverage",
@@ -166,7 +203,11 @@
         "You leverage an advantage by throwing it away."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "exploit",
+        "use"
+      ]
     },
     {
       "lemma": "pivot",
@@ -179,7 +220,11 @@
         "A company pivots by doing exactly the same thing forever."
       ],
       "cefr": "B2",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "shift",
+        "change direction"
+      ]
     },
     {
       "lemma": "startup",
@@ -192,7 +237,11 @@
         "A startup is a company that has existed for a hundred years."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "new company",
+        "new venture"
+      ]
     },
     {
       "lemma": "subscription",
@@ -218,7 +267,10 @@
         "Retail means selling goods only to other companies in huge amounts."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "selling"
+      ]
     },
     {
       "lemma": "dividend",
@@ -257,7 +309,11 @@
         "Expenditure is the money that a company earns from sales."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "spending",
+        "outlay"
+      ]
     },
     {
       "lemma": "inflation",
@@ -283,7 +339,11 @@
         "A recession is a period when every business grows quickly."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "downturn",
+        "slump"
+      ]
     },
     {
       "lemma": "tariff",
@@ -296,7 +356,11 @@
         "A tariff is a discount that a shop gives to a regular customer."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "duty",
+        "tax"
+      ]
     },
     {
       "lemma": "franchise",
@@ -322,7 +386,11 @@
         "A shipment is a meeting where the managers vote."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "consignment",
+        "delivery"
+      ]
     },
     {
       "lemma": "payroll",
@@ -348,7 +416,11 @@
         "A brand is a mistake in a company’s accounts."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "label",
+        "make"
+      ]
     },
     {
       "lemma": "consumer",
@@ -361,7 +433,11 @@
         "A consumer is a company that makes and sells the goods."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "customer",
+        "buyer"
+      ]
     }
   ]
 }

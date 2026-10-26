@@ -8,6 +8,8 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
 
     private let synthesizer = AVSpeechSynthesizer()
     private(set) var isSpeaking = false
+    var settings = VoiceSettings()
+    private var utteranceID: ObjectIdentifier?
     /// Called when the current utterance ends or is stopped.
     var onFinish: (() -> Void)?
 
@@ -29,10 +31,11 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
         stop()
         prepareAudioSession()
         let utterance = AVSpeechUtterance(string: trimmed)
-        utterance.voice = Self.preferredVoice()
-        let base = AVSpeechUtteranceDefaultSpeechRate
+        utterance.voice = settings.voice
+        let base = settings.speechRate
         utterance.rate = slow ? base * 0.7 : base
         utterance.pitchMultiplier = 1.0
+        utteranceID = ObjectIdentifier(utterance)
         isSpeaking = true
         synthesizer.speak(utterance)
     }
@@ -43,13 +46,15 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
         stop(); prepareAudioSession()
         let attributed = NSAttributedString(string: text, attributes: [NSAttributedString.Key(AVSpeechSynthesisIPANotationAttribute): ipa])
         let utterance = AVSpeechUtterance(attributedString: attributed)
-        utterance.voice = Self.preferredVoice()
-        utterance.rate = slow ? AVSpeechUtteranceDefaultSpeechRate * 0.7 : AVSpeechUtteranceDefaultSpeechRate
+        utterance.voice = settings.voice
+        utterance.rate = slow ? settings.speechRate * 0.7 : settings.speechRate
+        utteranceID = ObjectIdentifier(utterance)
         isSpeaking = true
         synthesizer.speak(utterance)
     }
 
     func stop() {
+        utteranceID = nil
         if synthesizer.isSpeaking { synthesizer.stopSpeaking(at: .immediate) }
         isSpeaking = false
     }
@@ -63,14 +68,17 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        Task { @MainActor in self.finish() }
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in self.finish(id) }
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
-        Task { @MainActor in self.finish() }
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in self.finish(id) }
     }
 
-    private func finish() {
+    private func finish(_ id: ObjectIdentifier) {
+        guard utteranceID == id else { return }; utteranceID = nil
         isSpeaking = false
         onFinish?()
     }

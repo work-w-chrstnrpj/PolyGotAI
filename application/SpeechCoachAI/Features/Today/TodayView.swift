@@ -41,7 +41,6 @@ struct TodayView: View {
                     .buttonStyle(KitPrimaryButtonStyle())
                     .accessibilityIdentifier("today.lesson")
             }
-            .accessibilityIdentifier("today.focus")
         }
     }
 

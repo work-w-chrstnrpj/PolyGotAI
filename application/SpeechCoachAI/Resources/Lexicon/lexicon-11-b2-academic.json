@@ -24,7 +24,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.analyze"
+      "id": "academic-basics.analyze",
+      "synonyms": [
+        "examine",
+        "study"
+      ]
     },
     {
       "lemma": "assume",
@@ -39,7 +43,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.assume"
+      "id": "academic-basics.assume",
+      "synonyms": [
+        "suppose",
+        "presume"
+      ]
     },
     {
       "lemma": "concept",
@@ -54,7 +62,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.concept"
+      "id": "academic-basics.concept",
+      "synonyms": [
+        "idea",
+        "notion"
+      ]
     },
     {
       "lemma": "consequence",
@@ -69,7 +81,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.consequence"
+      "id": "academic-basics.consequence",
+      "synonyms": [
+        "result",
+        "effect"
+      ]
     },
     {
       "lemma": "contrast",
@@ -84,7 +100,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.contrast"
+      "id": "academic-basics.contrast",
+      "synonyms": [
+        "difference",
+        "distinction"
+      ]
     },
     {
       "lemma": "define",
@@ -99,7 +119,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.define"
+      "id": "academic-basics.define",
+      "synonyms": [
+        "explain",
+        "specify"
+      ]
     },
     {
       "lemma": "evidence",
@@ -114,7 +138,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.evidence"
+      "id": "academic-basics.evidence",
+      "synonyms": [
+        "proof",
+        "support"
+      ]
     },
     {
       "lemma": "factor",
@@ -129,7 +157,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.factor"
+      "id": "academic-basics.factor",
+      "synonyms": [
+        "element",
+        "cause"
+      ]
     },
     {
       "lemma": "function",
@@ -144,7 +176,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.function"
+      "id": "academic-basics.function",
+      "synonyms": [
+        "purpose",
+        "role"
+      ]
     },
     {
       "lemma": "impact",
@@ -159,7 +195,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.impact"
+      "id": "academic-basics.impact",
+      "synonyms": [
+        "effect",
+        "influence"
+      ]
     },
     {
       "lemma": "indicate",
@@ -174,7 +214,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.indicate"
+      "id": "academic-basics.indicate",
+      "synonyms": [
+        "show",
+        "suggest"
+      ]
     },
     {
       "lemma": "individual",
@@ -189,7 +233,10 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.individual"
+      "id": "academic-basics.individual",
+      "synonyms": [
+        "person"
+      ]
     },
     {
       "lemma": "interpret",
@@ -204,7 +251,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.interpret"
+      "id": "academic-basics.interpret",
+      "synonyms": [
+        "explain",
+        "understand"
+      ]
     },
     {
       "lemma": "issue",
@@ -219,7 +270,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.issue"
+      "id": "academic-basics.issue",
+      "synonyms": [
+        "problem",
+        "matter"
+      ]
     },
     {
       "lemma": "method",
@@ -234,7 +289,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.method"
+      "id": "academic-basics.method",
+      "synonyms": [
+        "approach",
+        "technique"
+      ]
     },
     {
       "lemma": "obtain",
@@ -249,7 +308,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.obtain"
+      "id": "academic-basics.obtain",
+      "synonyms": [
+        "get",
+        "acquire"
+      ]
     },
     {
       "lemma": "occur",
@@ -264,7 +327,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.occur"
+      "id": "academic-basics.occur",
+      "synonyms": [
+        "happen",
+        "take place"
+      ]
     },
     {
       "lemma": "principle",
@@ -279,7 +346,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.principle"
+      "id": "academic-basics.principle",
+      "synonyms": [
+        "rule",
+        "standard"
+      ]
     },
     {
       "lemma": "require",
@@ -294,7 +365,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.require"
+      "id": "academic-basics.require",
+      "synonyms": [
+        "need",
+        "demand"
+      ]
     },
     {
       "lemma": "research",
@@ -309,7 +384,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.research"
+      "id": "academic-basics.research",
+      "synonyms": [
+        "study",
+        "investigation"
+      ]
     },
     {
       "lemma": "respond",
@@ -324,7 +403,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.respond"
+      "id": "academic-basics.respond",
+      "synonyms": [
+        "reply",
+        "react"
+      ]
     },
     {
       "lemma": "role",
@@ -339,7 +422,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.role"
+      "id": "academic-basics.role",
+      "synonyms": [
+        "part",
+        "function"
+      ]
     },
     {
       "lemma": "significant",
@@ -354,7 +441,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.significant"
+      "id": "academic-basics.significant",
+      "synonyms": [
+        "important",
+        "notable"
+      ]
     },
     {
       "lemma": "source",
@@ -369,7 +460,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.source"
+      "id": "academic-basics.source",
+      "synonyms": [
+        "origin",
+        "reference"
+      ]
     },
     {
       "lemma": "structure",
@@ -384,7 +479,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.structure"
+      "id": "academic-basics.structure",
+      "synonyms": [
+        "framework",
+        "organization"
+      ]
     },
     {
       "lemma": "survey",
@@ -399,7 +498,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.survey"
+      "id": "academic-basics.survey",
+      "synonyms": [
+        "poll",
+        "questionnaire"
+      ]
     },
     {
       "lemma": "theory",
@@ -414,7 +517,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.theory"
+      "id": "academic-basics.theory",
+      "synonyms": [
+        "hypothesis",
+        "idea"
+      ]
     },
     {
       "lemma": "trend",
@@ -429,7 +536,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.trend"
+      "id": "academic-basics.trend",
+      "synonyms": [
+        "tendency",
+        "pattern"
+      ]
     },
     {
       "lemma": "variety",
@@ -444,7 +555,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.variety"
+      "id": "academic-basics.variety",
+      "synonyms": [
+        "range",
+        "diversity"
+      ]
     },
     {
       "lemma": "version",
@@ -459,7 +574,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.version"
+      "id": "academic-basics.version",
+      "synonyms": [
+        "edition",
+        "form"
+      ]
     },
     {
       "lemma": "conclude",
@@ -474,7 +593,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.conclude"
+      "id": "academic-basics.conclude",
+      "synonyms": [
+        "decide",
+        "infer"
+      ]
     },
     {
       "lemma": "estimate",
@@ -489,7 +612,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.estimate"
+      "id": "academic-basics.estimate",
+      "synonyms": [
+        "calculate roughly",
+        "guess"
+      ]
     },
     {
       "lemma": "focus",
@@ -504,7 +631,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.focus"
+      "id": "academic-basics.focus",
+      "synonyms": [
+        "concentrate",
+        "center"
+      ]
     },
     {
       "lemma": "involve",
@@ -519,7 +650,11 @@
       ],
       "cefr": "B2",
       "register": "everyday",
-      "id": "academic-basics.involve"
+      "id": "academic-basics.involve",
+      "synonyms": [
+        "include",
+        "contain"
+      ]
     },
     {
       "lemma": "maintain",
@@ -534,7 +669,11 @@
       ],
       "cefr": "B2",
       "register": "term",
-      "id": "academic-basics.maintain"
+      "id": "academic-basics.maintain",
+      "synonyms": [
+        "keep",
+        "preserve"
+      ]
     },
     {
       "lemma": "hypothesis",
@@ -547,7 +686,11 @@
         "A hypothesis is a fact that everyone already knows is true."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "theory",
+        "supposition"
+      ]
     },
     {
       "lemma": "assess",
@@ -560,7 +703,11 @@
         "We assess a thing when we do not think about it at all."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "evaluate",
+        "judge"
+      ]
     },
     {
       "lemma": "bias",
@@ -573,7 +720,11 @@
         "Bias is a fair view that treats everyone equally."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "prejudice",
+        "partiality"
+      ]
     },
     {
       "lemma": "criterion",
@@ -586,7 +737,11 @@
         "A criterion is a type of fruit."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "standard",
+        "measure"
+      ]
     },
     {
       "lemma": "evaluate",
@@ -599,7 +754,11 @@
         "We evaluate a plan when we ignore it completely."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "assess",
+        "judge"
+      ]
     }
   ]
 }

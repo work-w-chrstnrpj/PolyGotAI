@@ -22,7 +22,11 @@
         "I claim a thing when I do not say anything about it."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "state",
+        "assert"
+      ]
     },
     {
       "lemma": "assert",
@@ -35,7 +39,11 @@
         "We assert a fact when we are not sure and whisper it quietly."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "declare",
+        "state firmly"
+      ]
     },
     {
       "lemma": "doubt",
@@ -48,7 +56,11 @@
         "I doubt something when I am completely sure it is true."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "question",
+        "distrust"
+      ]
     },
     {
       "lemma": "convince",
@@ -61,7 +73,11 @@
         "I convince a person when I force them not to believe anything."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "persuade",
+        "assure"
+      ]
     },
     {
       "lemma": "persuade",
@@ -74,7 +90,11 @@
         "I persuade a person when I never give any reason."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "convince",
+        "win over"
+      ]
     },
     {
       "lemma": "disagree",
@@ -87,7 +107,11 @@
         "I disagree when I think exactly the same as you."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "differ",
+        "object"
+      ]
     },
     {
       "lemma": "criticize",
@@ -100,7 +124,11 @@
         "We criticize a plan when we praise it warmly."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "find fault with",
+        "condemn"
+      ]
     },
     {
       "lemma": "support",
@@ -113,7 +141,11 @@
         "People support a plan when they work against it."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "back",
+        "endorse"
+      ]
     },
     {
       "lemma": "oppose",
@@ -126,7 +158,11 @@
         "We oppose a plan when we are happy to help it."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "resist",
+        "object to"
+      ]
     },
     {
       "lemma": "controversial",
@@ -139,7 +175,11 @@
         "The decision was controversial because everyone agreed at once."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "disputed",
+        "contentious"
+      ]
     },
     {
       "lemma": "reasonable",
@@ -152,7 +192,11 @@
         "The price is reasonable because it is too high for anyone."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "sensible",
+        "fair"
+      ]
     },
     {
       "lemma": "logical",
@@ -165,7 +209,11 @@
         "It is logical to decide without any thinking."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "rational",
+        "sound"
+      ]
     },
     {
       "lemma": "biased",
@@ -178,7 +226,11 @@
         "A biased judge treats everyone exactly the same way."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "one-sided",
+        "partial"
+      ]
     },
     {
       "lemma": "subjective",
@@ -191,7 +243,10 @@
         "A subjective opinion is a fact that anyone can measure."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "personal"
+      ]
     },
     {
       "lemma": "exaggerate",
@@ -204,7 +259,11 @@
         "We exaggerate when we make things seem smaller and tell the exact truth."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "overstate",
+        "inflate"
+      ]
     },
     {
       "lemma": "admit",
@@ -217,7 +276,11 @@
         "We admit a mistake when we say we did nothing wrong."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "confess",
+        "acknowledge"
+      ]
     },
     {
       "lemma": "deny",
@@ -230,7 +293,11 @@
         "We deny something when we say that it is true and we agree."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "reject",
+        "refute"
+      ]
     },
     {
       "lemma": "insist",
@@ -243,7 +310,11 @@
         "I insist when I do not mind and let others decide."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "demand",
+        "maintain"
+      ]
     },
     {
       "lemma": "suggest",
@@ -256,7 +327,11 @@
         "I suggest an idea when I give an order and nobody can choose."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "propose",
+        "recommend"
+      ]
     },
     {
       "lemma": "recommend",
@@ -269,7 +344,11 @@
         "I recommend a restaurant when I say that nobody should go there."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "advise",
+        "suggest"
+      ]
     },
     {
       "lemma": "predict",
@@ -282,7 +361,11 @@
         "We predict an event after it has already happened."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "forecast",
+        "foresee"
+      ]
     },
     {
       "lemma": "imply",
@@ -295,7 +378,11 @@
         "I imply something when I say it directly in plain words."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "hint",
+        "suggest"
+      ]
     },
     {
       "lemma": "justify",
@@ -308,7 +395,11 @@
         "We justify a decision when we cannot give any reason."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "defend",
+        "explain"
+      ]
     },
     {
       "lemma": "proof",
@@ -321,7 +412,11 @@
         "Proof is a guess that nobody can check."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "evidence",
+        "confirmation"
+      ]
     },
     {
       "lemma": "valid",
@@ -334,7 +429,11 @@
         "A valid ticket is a ticket that is not good any more."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "sound",
+        "legitimate"
+      ]
     },
     {
       "lemma": "weakness",
@@ -347,7 +446,11 @@
         "A weakness is the best part of a plan."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "flaw",
+        "shortcoming"
+      ]
     },
     {
       "lemma": "advantage",
@@ -360,7 +463,11 @@
         "An advantage is a problem that makes your job harder."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "benefit",
+        "strength"
+      ]
     },
     {
       "lemma": "disadvantage",
@@ -373,7 +480,11 @@
         "A disadvantage is a benefit that helps you win."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "drawback",
+        "downside"
+      ]
     },
     {
       "lemma": "debate",
@@ -386,7 +497,11 @@
         "A debate is a meeting where nobody speaks."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "discussion",
+        "argument"
+      ]
     },
     {
       "lemma": "consensus",
@@ -399,7 +514,11 @@
         "A consensus is a fight in which nobody agrees on anything."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "agreement",
+        "accord"
+      ]
     },
     {
       "lemma": "compromise",
@@ -412,7 +531,11 @@
         "A compromise is a decision in which one side wins everything."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "middle ground",
+        "settlement"
+      ]
     },
     {
       "lemma": "perspective",
@@ -425,7 +548,11 @@
         "A perspective is a type of machine for cutting wood."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "viewpoint",
+        "outlook"
+      ]
     },
     {
       "lemma": "viewpoint",
@@ -438,7 +565,11 @@
         "A viewpoint is a fact that is true for everyone."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "perspective",
+        "opinion"
+      ]
     },
     {
       "lemma": "attitude",
@@ -451,7 +582,11 @@
         "An attitude is the height of a mountain."
       ],
       "cefr": "B2",
-      "register": "everyday"
+      "register": "everyday",
+      "synonyms": [
+        "outlook",
+        "stance"
+      ]
     },
     {
       "lemma": "stance",
@@ -464,7 +599,11 @@
         "A stance is a type of food."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "position",
+        "attitude"
+      ]
     },
     {
       "lemma": "reluctant",
@@ -477,7 +616,11 @@
         "She was reluctant because she was eager and ran to do it."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "unwilling",
+        "hesitant"
+      ]
     },
     {
       "lemma": "skeptical",
@@ -490,7 +633,11 @@
         "I am skeptical because I believe everything he says."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "doubtful",
+        "unconvinced"
+      ]
     },
     {
       "lemma": "convinced",
@@ -503,7 +650,11 @@
         "I am convinced, so I have no idea and I am not sure at all."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "certain",
+        "sure"
+      ]
     },
     {
       "lemma": "undecided",
@@ -516,7 +667,11 @@
         "I am undecided, so I made my final choice an hour ago."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "unsure",
+        "uncertain"
+      ]
     },
     {
       "lemma": "persuasive",
@@ -529,7 +684,11 @@
         "A persuasive speech makes nobody change their mind."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "convincing",
+        "compelling"
+      ]
     }
   ]
 }

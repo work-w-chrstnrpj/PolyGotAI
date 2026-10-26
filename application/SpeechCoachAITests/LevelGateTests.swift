@@ -208,13 +208,13 @@ struct LevelGateTests {
 
     // MARK: Coach tracks
 
-    @Test func theGrammarianTrackLoadsWithTwoUnitsOfFourLessons() throws {
+    @Test func theGrammarianStarterLoadsWithPartsOfSpeechFirst() throws {
         let track = try #require(install.tracks.track(id: "grammarian"))
         #expect(track.coach == .grammarian)
         #expect(track.stages.map(\.id) == ["starter", "foundation", "intermediate", "advanced"])
         let units = try #require(track.stages.first?.units)
-        #expect(units.map(\.id) == ["sentences", "be-have-do"])
-        #expect(units.allSatisfy { $0.lessons.count == 4 })
+        #expect(units.map(\.id) == ["parts-of-speech", "sentences", "be-have-do"])
+        #expect(units.map(\.lessons.count) == [8, 4, 4])
         #expect(track.lessons.allSatisfy { $0.isReady && $0.tip?.isEmpty == false && $0.hasCheckedExercises })
         #expect(install.tracks.tracks.first?.coach == .grammarian)
     }

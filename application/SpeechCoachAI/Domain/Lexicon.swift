@@ -22,6 +22,8 @@ struct LexiconWord: Codable, Equatable, Identifiable {
     var id: String = ""
     /// The group the word sits in now; set by the loader.
     var groupId: String = ""
+    /// Words with a close meaning, for the synonym question in Practice. Empty when none fits (idioms, function words).
+    var synonyms: [String] = []
 
     init(lemma: String, pos: String, meaning: String, examples: [String], wrong: [String],
          cefr: String = "", register: String = "everyday", id: String = "", groupId: String = "") {
@@ -29,7 +31,7 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         self.cefr = cefr; self.register = register; self.id = id; self.groupId = groupId
     }
 
-    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong, cefr, register, id }
+    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong, cefr, register, id, synonyms }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -41,6 +43,7 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         cefr = try container.decodeIfPresent(String.self, forKey: .cefr) ?? ""
         register = try container.decodeIfPresent(String.self, forKey: .register) ?? "everyday"
         id = try container.decodeIfPresent(String.self, forKey: .id) ?? ""
+        synonyms = try container.decodeIfPresent([String].self, forKey: .synonyms) ?? []
     }
 
     func encode(to encoder: Encoder) throws {
@@ -49,6 +52,7 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         try container.encode(meaning, forKey: .meaning); try container.encode(examples, forKey: .examples)
         try container.encode(wrong, forKey: .wrong); try container.encode(cefr, forKey: .cefr)
         try container.encode(register, forKey: .register); try container.encode(id, forKey: .id)
+        if !synonyms.isEmpty { try container.encode(synonyms, forKey: .synonyms) }
     }
 
     var itemId: String { "lex.\(id)" }
@@ -80,6 +84,7 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         if wrong.isEmpty || wrong.contains(where: { blank($0) || $0.contains("{") || $0.contains("}") }) { return "needs wrong-usage sentences without braces" }
         if !cefr.isEmpty, !LevelGate.levels.contains(cefr) { return "unknown CEFR level \(cefr)" }
         if !Self.registers.contains(register) { return "unknown register \(register)" }
+        if synonyms.contains(where: { blank($0) || LexiconKey.normalize($0) == LexiconKey.normalize(lemma) }) { return "synonym blank or same as the word" }
         return nil
     }
 }

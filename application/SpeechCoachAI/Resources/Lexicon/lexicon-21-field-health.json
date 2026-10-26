@@ -23,7 +23,11 @@
         "A symptom is the medicine that a doctor gives you."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "sign",
+        "indication"
+      ]
     },
     {
       "lemma": "diagnosis",
@@ -49,7 +53,10 @@
         "A prescription is a free bottle of water at the clinic."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "medication order"
+      ]
     },
     {
       "lemma": "dose",
@@ -62,7 +69,11 @@
         "A dose is a room where patients wait for the doctor."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "amount",
+        "dosage"
+      ]
     },
     {
       "lemma": "infection",
@@ -75,7 +86,10 @@
         "An infection is a vitamin that keeps the body healthy."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "contamination"
+      ]
     },
     {
       "lemma": "vaccine",
@@ -88,7 +102,11 @@
         "A vaccine is a treatment that causes a disease on purpose."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "vaccination",
+        "shot"
+      ]
     },
     {
       "lemma": "chronic",
@@ -101,7 +119,11 @@
         "A chronic illness goes away after one day."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "long-term",
+        "persistent"
+      ]
     },
     {
       "lemma": "acute",
@@ -114,7 +136,11 @@
         "Acute pain is a very mild feeling that lasts for years."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "severe",
+        "sudden"
+      ]
     },
     {
       "lemma": "recovery",
@@ -127,7 +153,11 @@
         "Recovery is the moment when an illness first begins."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "healing",
+        "improvement"
+      ]
     },
     {
       "lemma": "referral",
@@ -153,7 +183,10 @@
         "Surgery is a kind of medicine you can buy without a prescription."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "operation"
+      ]
     },
     {
       "lemma": "therapy",
@@ -166,7 +199,10 @@
         "Therapy is a machine that measures how tall a person is."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "treatment"
+      ]
     },
     {
       "lemma": "nutrition",
@@ -179,7 +215,11 @@
         "Nutrition is a sport that people play on a hard court."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "diet",
+        "nourishment"
+      ]
     },
     {
       "lemma": "fatigue",
@@ -192,7 +232,11 @@
         "Fatigue is the feeling you have when you are full of energy."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "tiredness",
+        "exhaustion"
+      ]
     },
     {
       "lemma": "inflammation",
@@ -205,7 +249,10 @@
         "Inflammation is a feeling of being very cold."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "swelling"
+      ]
     },
     {
       "lemma": "blood pressure",
@@ -270,7 +317,11 @@
         "A checkup is an emergency visit after a serious accident."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "examination",
+        "physical"
+      ]
     },
     {
       "lemma": "outpatient",
@@ -309,7 +360,11 @@
         "Rehabilitation is the first test to decide whether you are ill."
       ],
       "cefr": "B2",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "recovery",
+        "rehab"
+      ]
     },
     {
       "lemma": "side effect",
@@ -335,7 +390,11 @@
         "A contagious illness cannot spread to anyone else."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "infectious",
+        "catching"
+      ]
     },
     {
       "lemma": "wellness",
@@ -348,7 +407,11 @@
         "Wellness is a serious illness that needs surgery."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "well-being",
+        "health"
+      ]
     },
     {
       "lemma": "sprain",
@@ -374,7 +437,10 @@
         "An emergency is a planned visit that you book a month ahead."
       ],
       "cefr": "B2",
-      "register": "term"
+      "register": "term",
+      "synonyms": [
+        "crisis"
+      ]
     }
   ]
 }

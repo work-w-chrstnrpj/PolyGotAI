@@ -13,6 +13,10 @@ import Observation
     private var fixtureID: UUID?
     private var savedPlayer: AVAudioPlayer?
     private(set) var transcript: SpeechLabTranscript?
+    /// Phase 10: words that bias recognition (a minimal pair), and whether to measure the pitch line.
+    var hints: [String] = []
+    var wantsPitch = false
+    private(set) var contour: PitchContour?
     private(set) var recognizing = false
     private(set) var message: String?
     private(set) var fixtureRecording = false
@@ -36,7 +40,7 @@ import Observation
     func start() {
         guard !busy else { return }
         cancelRecognition(); SpeechSynthesizer.shared.stop(); recorder.stopPlayback()
-        transcript = nil; message = nil; retainedID = nil; finished = false
+        transcript = nil; contour = nil; message = nil; retainedID = nil; finished = false
         if recorder.phase == .finished {
             recorder = RecordingController(); recorder.load(repository, context: context)
         }
@@ -79,7 +83,10 @@ import Observation
         work = Task { [weak self] in
             guard let self else { return }
             do {
-                let result = try await recognizer.recognize(repository.recordingURL(id))
+                let url = try repository.recordingURL(id)
+                let result = try await recognizer.recognize(url, hints: hints)
+                guard generation == token, !Task.isCancelled else { return }
+                if wantsPitch { contour = await PitchAnalysis.contour(of: url) }
                 guard generation == token, !Task.isCancelled else { return }
                 transcript = result; recognizing = false
             } catch {

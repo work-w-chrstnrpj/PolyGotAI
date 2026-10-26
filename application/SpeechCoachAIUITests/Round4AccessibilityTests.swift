@@ -10,7 +10,7 @@ final class Round4AccessibilityTests: XCTestCase {
         app.launchEnvironment["SC_REWARD_DARK_FIXTURE"] = "1"
         app.launch()
         XCTAssertTrue(app.buttons["settings.open"].firstMatch.waitForExistence(timeout: 10))
-        for (title, id) in [("Today", "today"), ("Lexicon", "vocabulary"), ("Lesson", "learn"), ("Speech Lab", "speechLab"), ("Progress", "progress")] {
+        for (title, id) in [("Today", "today"), ("Lexicon", "vocabulary"), ("Lesson", "learn"), ("Lab", "speechLab"), ("Progress", "progress")] {
             destination(app, title: title, id: id)
             try audit(app)
             capture("dark-\(id)")
@@ -19,8 +19,8 @@ final class Round4AccessibilityTests: XCTestCase {
                 try audit(app); capture("dark-coaches")
             }
         }
-        destination(app, title: "Speech Lab", id: "speechLab")
-        for id in ["speech.dictation", "speech.pronunciation", "speech.speaking", "speech.interview", "speech.conversation"] {
+        destination(app, title: "Lab", id: "speechLab")
+        for id in ["speech.spelling", "speech.pronunciation", "speech.speaking", "speech.voice"] {
             tap(app, app.buttons[id])
             XCTAssertTrue(app.navigationBars.firstMatch.waitForExistence(timeout: 5))
             try audit(app)
@@ -29,9 +29,9 @@ final class Round4AccessibilityTests: XCTestCase {
         }
         XCUIDevice.shared.orientation = .landscapeLeft
         defer { XCUIDevice.shared.orientation = .portrait }
-        XCTAssertTrue(app.buttons["navigation.speechLab"].firstMatch.waitForExistence(timeout: 5) || app.tabBars.buttons["Speech Lab"].exists)
+        XCTAssertTrue(app.buttons["navigation.speechLab"].firstMatch.waitForExistence(timeout: 5) || app.tabBars.buttons["Lab"].exists)
         capture("landscape-speech-lab")
-        for (title, id) in [("Today", "today"), ("Lexicon", "vocabulary"), ("Lesson", "learn"), ("Speech Lab", "speechLab"), ("Progress", "progress")] {
+        for (title, id) in [("Today", "today"), ("Lexicon", "vocabulary"), ("Lesson", "learn"), ("Lab", "speechLab"), ("Progress", "progress")] {
             destination(app, title: title, id: id)
             try audit(app)
             capture("landscape-\(id)")

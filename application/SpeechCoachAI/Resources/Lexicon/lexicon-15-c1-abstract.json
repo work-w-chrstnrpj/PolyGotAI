@@ -22,7 +22,11 @@
         "Ambiguity is the quality of being perfectly clear and exact."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "uncertainty",
+        "vagueness"
+      ]
     },
     {
       "lemma": "autonomy",
@@ -35,7 +39,11 @@
         "Autonomy is the lack of any freedom to choose."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "independence",
+        "self-rule"
+      ]
     },
     {
       "lemma": "coherence",
@@ -48,7 +56,11 @@
         "Coherence is the absence of any logic between ideas."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "consistency",
+        "logic"
+      ]
     },
     {
       "lemma": "complexity",
@@ -61,7 +73,11 @@
         "Complexity means that something is very simple with only one part."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "complication",
+        "intricacy"
+      ]
     },
     {
       "lemma": "constraint",
@@ -74,7 +90,11 @@
         "A constraint is something that gives you unlimited freedom."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "limit",
+        "restriction"
+      ]
     },
     {
       "lemma": "correlation",
@@ -87,7 +107,11 @@
         "A correlation means two things have nothing to do with each other."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "connection",
+        "link"
+      ]
     },
     {
       "lemma": "dilemma",
@@ -100,7 +124,11 @@
         "A dilemma is an easy choice with only one good answer."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "predicament",
+        "quandary"
+      ]
     },
     {
       "lemma": "discrepancy",
@@ -113,7 +141,11 @@
         "A discrepancy is a perfect match with no difference."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "difference",
+        "mismatch"
+      ]
     },
     {
       "lemma": "distinction",
@@ -126,7 +158,11 @@
         "A distinction is a similarity so complete that no difference exists."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "difference",
+        "contrast"
+      ]
     },
     {
       "lemma": "equilibrium",
@@ -139,7 +175,11 @@
         "Equilibrium is a state of wild and uneven change."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "balance",
+        "stability"
+      ]
     },
     {
       "lemma": "hierarchy",
@@ -152,7 +192,11 @@
         "A hierarchy is a system in which everyone has exactly the same rank."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "ranking",
+        "order"
+      ]
     },
     {
       "lemma": "hindsight",
@@ -178,7 +222,11 @@
         "An implication is something that is stated directly and loudly."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "consequence",
+        "suggestion"
+      ]
     },
     {
       "lemma": "inconsistency",
@@ -191,7 +239,11 @@
         "An inconsistency is a complete match between all the parts."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "contradiction",
+        "discrepancy"
+      ]
     },
     {
       "lemma": "integrity",
@@ -204,7 +256,11 @@
         "Integrity is the habit of lying whenever it is useful."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "honesty",
+        "principle"
+      ]
     },
     {
       "lemma": "legacy",
@@ -217,7 +273,11 @@
         "A legacy is something that disappears at once and leaves nothing."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "heritage",
+        "inheritance"
+      ]
     },
     {
       "lemma": "magnitude",
@@ -230,7 +290,11 @@
         "Magnitude is the tiny size of something unimportant."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "size",
+        "scale"
+      ]
     },
     {
       "lemma": "momentum",
@@ -243,7 +307,11 @@
         "Momentum is the loss of all movement and energy."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "impetus",
+        "drive"
+      ]
     },
     {
       "lemma": "nuance",
@@ -256,7 +324,11 @@
         "A nuance is a big and obvious difference."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "subtlety",
+        "shade"
+      ]
     },
     {
       "lemma": "paradox",
@@ -269,7 +341,10 @@
         "A paradox is a plain fact that nobody finds strange."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "contradiction"
+      ]
     },
     {
       "lemma": "precedent",
@@ -282,7 +357,11 @@
         "A precedent is a case that happens after all the others and is never used."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "example",
+        "model"
+      ]
     },
     {
       "lemma": "premise",
@@ -295,7 +374,11 @@
         "A premise is the final result at the end of an argument."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "assumption",
+        "basis"
+      ]
     },
     {
       "lemma": "proximity",
@@ -308,7 +391,11 @@
         "Proximity means a great distance between two places."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "closeness",
+        "nearness"
+      ]
     },
     {
       "lemma": "rationale",
@@ -321,7 +408,11 @@
         "A rationale is a decision made with no reasons at all."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "reasoning",
+        "justification"
+      ]
     },
     {
       "lemma": "scope",
@@ -334,7 +425,11 @@
         "The scope of a project is the exact money it costs."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "range",
+        "extent"
+      ]
     },
     {
       "lemma": "sentiment",
@@ -347,7 +442,11 @@
         "Sentiment is a hard fact that can be measured with a ruler."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "feeling",
+        "view"
+      ]
     },
     {
       "lemma": "subsidy",
@@ -360,7 +459,11 @@
         "A subsidy is a tax that people pay to a shop."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "grant",
+        "allowance"
+      ]
     },
     {
       "lemma": "synthesis",
@@ -373,7 +476,11 @@
         "A synthesis is the splitting of an idea into separate pieces with no joining."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "combination",
+        "fusion"
+      ]
     },
     {
       "lemma": "threshold",
@@ -386,7 +493,11 @@
         "A threshold is the highest point that nobody can reach."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "limit",
+        "starting point"
+      ]
     },
     {
       "lemma": "tolerance",
@@ -399,7 +510,11 @@
         "Tolerance is a strong dislike of anyone who is different."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "acceptance",
+        "patience"
+      ]
     },
     {
       "lemma": "trajectory",
@@ -412,7 +527,11 @@
         "A trajectory is a place where nothing moves at all."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "path",
+        "course"
+      ]
     },
     {
       "lemma": "transparency",
@@ -425,7 +544,11 @@
         "Transparency means that decisions are kept secret from everyone."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "openness",
+        "clarity"
+      ]
     },
     {
       "lemma": "vulnerability",
@@ -438,7 +561,11 @@
         "Vulnerability is the state of being completely safe."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "weakness",
+        "exposure"
+      ]
     },
     {
       "lemma": "prejudice",
@@ -451,7 +578,11 @@
         "Prejudice is a fair opinion that comes after careful study."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "bias",
+        "bigotry"
+      ]
     },
     {
       "lemma": "resilience",
@@ -464,7 +595,11 @@
         "Resilience is the habit of giving up at the first problem."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "toughness",
+        "hardiness"
+      ]
     },
     {
       "lemma": "ethics",
@@ -477,7 +612,11 @@
         "Ethics is a set of rules for cooking."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "morals",
+        "principles"
+      ]
     },
     {
       "lemma": "accountability",
@@ -490,7 +629,11 @@
         "Accountability is the freedom to avoid any blame."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "responsibility",
+        "answerability"
+      ]
     },
     {
       "lemma": "anomaly",
@@ -503,7 +646,11 @@
         "An anomaly is a normal result that fits the pattern."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "irregularity",
+        "oddity"
+      ]
     },
     {
       "lemma": "stigma",
@@ -516,7 +663,11 @@
         "A stigma is a mark of great honor that everyone praises."
       ],
       "cefr": "C1",
-      "register": "formal"
+      "register": "formal",
+      "synonyms": [
+        "shame",
+        "disgrace"
+      ]
     },
     {
       "lemma": "leverage",
@@ -529,7 +680,11 @@
         "Leverage is the lack of any power over others."
       ],
       "cefr": "C1",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "influence",
+        "advantage"
+      ]
     },
     {
       "lemma": "paradigm",
@@ -542,7 +697,11 @@
         "A paradigm is a very small mistake in a sentence."
       ],
       "cefr": "C1",
-      "register": "jargon"
+      "register": "jargon",
+      "synonyms": [
+        "model",
+        "framework"
+      ]
     }
   ]
 }

@@ -124,6 +124,7 @@ final class LearnerStorageController {
             }
             preferences = try repository?.preferences() ?? LearnerPreferences()
             KitTheme.current = KitTheme(preferences.background)
+            SpeechSynthesizer.shared.settings = preferences.voiceSettings ?? VoiceSettings()
             hasStorageFailure = false
         } catch {
             close()
@@ -137,6 +138,7 @@ final class LearnerStorageController {
             guard let repository else { throw LearnerStorageError.unavailable }
             try repository.savePreferences(value)
             KitTheme.current = KitTheme(value.background)
+            SpeechSynthesizer.shared.settings = value.voiceSettings ?? VoiceSettings()
             preferences = value
             hasPreferenceSaveFailure = false
         } catch {

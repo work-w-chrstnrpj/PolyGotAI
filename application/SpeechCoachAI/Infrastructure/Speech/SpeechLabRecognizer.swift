@@ -22,7 +22,8 @@ import Speech
         return fixture || DictationRecognizer.isSupported
     }
 
-    func recognize(_ url: URL) async throws -> SpeechLabTranscript {
+    /// `hints` biases the recogniser toward these words (for a minimal pair: the target and its contrast only).
+    func recognize(_ url: URL, hints: [String] = []) async throws -> SpeechLabTranscript {
         cancel()
         guard !Task.isCancelled else { throw CancellationError() }
         let allowed = await Self.authorized()
@@ -33,6 +34,7 @@ import Speech
         let request = SFSpeechURLRecognitionRequest(url: url)
         request.requiresOnDeviceRecognition = true
         request.shouldReportPartialResults = false
+        if !hints.isEmpty { request.contextualStrings = hints; request.taskHint = .search }
         let token = UUID(); generation = token
         return try await withTaskCancellationHandler {
             try await withCheckedThrowingContinuation { continuation in

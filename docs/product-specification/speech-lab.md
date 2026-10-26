@@ -78,3 +78,18 @@ Anywhere the learner types an answer or note (lesson answers, fill-in-the-blank,
 - The first tap asks for Speech Recognition permission. A denied permission shows a one-line "Allow in Settings" message.
 - Dictated text is plain text the learner can edit before submitting. In a **dictation exercise** (listen and write) the button is hidden, because it would defeat the exercise.
 - Component: `DictationButton` (Phase 1), reused everywhere.
+
+## Lab v3 (Phases 9 and 10, 2026-10-26)
+
+The tab is now called **Lab**. Its list has four entries, **Talk, Pronunciation, Speaking and Spelling**, followed by Voice and Feedback history.
+
+- **Talk** (Phase 9, Codex). Speech is recognised on the phone (SpeechAnalyzer on iOS 26+, SFSpeechRecognizer on-device before that). The final text goes to Qwen (`qwen-flash`, streamed). Each finished sentence is spoken with the chosen system voice. There are three modes: Free talk, Interview and Scenario. A Stop button cancels both speech and the request. Turns are hands-free after a pause, or push-to-talk. Talk is kept in memory only, unless you save its feedback. It is hidden until the provider key and verification are set up. Talk replaces Conversation, Communication and the scripted Interview.
+- **Spelling** (Phase 9) replaces sentence Dictation. The app says the word, its meaning and an example; you type the word, and a miss is spelled back. Rounds are 10 words from the Lexicon bank, filtered by rank.
+- **Voice** (Phase 9). Choose an installed English voice (Premium voices first), preview it and set the rate. All app speech uses this voice.
+- **Pronunciation is speak-first** (Phase 10, Claude):
+  - Each sound runs Hear → **Say** a minimal-pair word → verdict. There are 89 pairs in `speechlab-minimal-pairs.json`.
+  - The recogniser is told only the two words of the pair. The verdicts are: Clear (it heard the target), "That sounded like *ship*" (it heard the contrast, with a fix tip), or "We heard …".
+  - Stress and intonation items draw your pitch line (YIN, computed on the phone) next to the model voice's line, which is rendered with `AVSpeechSynthesizer.write`. Intonation items say whether your voice rose or fell at the end, compared with what the sentence needs.
+  - The old listening questions remain as optional **Ear training**. Clear speech also records first.
+  - No phoneme scores or percentages. "Clear" means "understood as the target word".
+
