@@ -1,6 +1,6 @@
 # Progress tracker
 
-> The basis for every progress report. Updated by Claude at the end of each working session. Status values: ✅ done · 🔄 in progress · ⏳ planned · ⏸ blocked · ❌ dropped. Last updated: 2026-10-25 (round 3 split).
+> The basis for every progress report. Updated by Claude at the end of each working session. Status values: ✅ done · 🔄 in progress · ⏳ planned · ⏸ blocked · ❌ dropped. Last updated: 2026-10-26 (owner review and rework plan).
 
 ## Overall
 
@@ -14,6 +14,10 @@
 | 5 | Lab on-device base: Dictation, Pronunciation (Phonetics + Articulation), Speaking (was Voice) | ✅ built by Codex, finished and merged by Claude after Codex's usage limit; 377 unit tests and 8 Speech Lab UI tests pass on iPhone 18 Pro Max; real-device audio and recognition not yet tried ([brief](phases/phase-5/README.md)) | Not yet |
 | 5b | Interview v2 (offline hands-free voice) | 🔄 core done 2026-10-25 (turn-taking rules, 39-question bank in three sets, follow-up rule, session and summary; 14 unit tests); Interview screen is Codex's X5 | — |
 | 6a–6d | Online AI with Alibaba/Qwen: foundation, AI evaluation across the Lab, voice Interview, coach review and Specialized Lexicon | 🔄 cores built and tested with a fake transport (2026-10-26): 6a transcription, feedback, stored results, owner-local switch-on; 6b per-mode requests, rubrics, history; 6c AI follow-ups for the Interview; 6d coach review and generated vocabulary with saving. Screens are Codex's X3 and X5. Stays off until the owner installs the verification file and runs the live check. Decision 9 still awaits the owner | — |
+
+## Owner review and rework plan (2026-10-26)
+
+The owner reviewed the app and is not satisfied; Claude agrees. All work so far is committed (`f73fa0f`, not pushed). Claude's critical review and the proposed rework (Phases 7–11: look and clean-up, Lexicon v3, Lab Talk + voice, speak-first pronunciation, lessons depth) are in [review-and-rework-plan-2026-10-26.md](review-and-rework-plan-2026-10-26.md). **Waiting on the owner's 7 decisions** in section 5 of that file before Phase 7 starts. New gate for every phase: owner play-test on the phone.
 
 ## Round 3 — who does what (2026-10-25)
 
