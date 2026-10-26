@@ -65,7 +65,7 @@ struct OnlineReviewSection: View {
                         if online.canSubmit {
                             Button(stage == .transcription ? "Send voice for transcription" : "Send text for coaching") {
                                 showSubmission = false; online.submit(stage)
-                            }.buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                            }.buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
                                 .accessibilityIdentifier("online.send")
                         } else { Text(SpeakingProviderError.verificationRequired.message).foregroundStyle(Kit.secondary) }
                         Button("Keep practicing offline") { showSubmission = false }.buttonStyle(.bordered)

@@ -104,6 +104,10 @@ An owner review on 2026-10-25, together with Claude's audit, found:
 
 Gold, the wallet and the Freeze/Repair purchases are removed; XP is kept as the only currency and now drives a level. Badges and milestones stay. Progress gains time-in-the-app analytics (visits of at least a minute; day timeline and day/week/month/year totals) and a milestones list. Implemented by Claude (Codex out of usage).
 
+### 2026-10-26 — rework after the owner's review (Phases 7–11)
+
+The owner judged the app a flop (poor design, v1 leftovers, a Lab that trains listening instead of speaking); Claude agreed. Rework plan: [review-and-rework-plan-2026-10-26.md](development-plan/review-and-rework-plan-2026-10-26.md). Decisions: "Level" = XP level and CEFR A1–C2 is shown as "Rank"; on-device voices only; free on-device pronunciation measures only; Lexicon rank filter ignores the course lock; one accent per theme; v1 surfaces and their data deleted; owner generates the missing coach art. Added: Erase all data behind Face ID / Touch ID. Speech Lab will be renamed Lab and cut to Talk, Pronunciation, Speaking, Spelling.
+
 ### Principles that replace v1 habits
 
 - A screen never explains what the app can't do. Unfinished features are hidden.

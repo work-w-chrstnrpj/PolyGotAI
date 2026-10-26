@@ -191,7 +191,7 @@ struct CustomTopicEditor: View {
                             .focused($wordField, equals: .meaning)
                             .dictation($note)
                         Button("Save word") { wordField = nil; add() }
-                            .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                            .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
                             .accessibilityIdentifier("vocabulary.sense.save")
                     }
                     ForEach(topic.senses) { sense in

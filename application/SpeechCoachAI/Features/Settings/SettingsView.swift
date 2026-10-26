@@ -3,11 +3,11 @@ import SwiftUI
 struct SettingsView: View {
     @Bindable var storage: LearnerStorageController
     @Environment(\.dismiss) private var dismiss
+    @State private var confirmErase = false
+    @State private var erasing = false
+    @State private var eraseMessage: String?
     var body: some View {
         Form {
-            Section {
-                Text("A little more you, in English.").font(.headline)
-            }
             Section("Make it yours") {
                 NavigationLink { AppearanceSettings(storage: storage) } label: {
                     LabeledContent("Appearance", value: "\(storage.preferences.background.title) · \(storage.preferences.appearance.title)")
@@ -33,10 +33,17 @@ struct SettingsView: View {
                 }
                 #endif
             }
-            Section("Privacy") {
-                Text("Saving a recording and saving a transcript or feedback are separate choices. Nothing uploads automatically.")
-                Text("Local learning data is excluded from device backups on a best-effort basis. Device loss or uninstalling can lose local data.")
-                    .foregroundStyle(Kit.secondary)
+            Section {
+                Button(role: .destructive) { confirmErase = true } label: {
+                    if erasing { ProgressView() } else { Label("Erase all data", systemImage: "trash") }
+                }
+                .disabled(erasing)
+                .accessibilityIdentifier("settings.erase")
+                if let eraseMessage {
+                    Text(eraseMessage).foregroundStyle(Kit.error).accessibilityIdentifier("settings.erase.error")
+                }
+            } header: { Text("Privacy") } footer: {
+                Text("Nothing uploads automatically. Erasing removes your progress, words, recordings, settings and AI key from this device.")
             }
             if storage.hasPreferenceSaveFailure {
                 Section {
@@ -53,6 +60,24 @@ struct SettingsView: View {
         .toolbarBackground(Kit.canvas(storage.preferences.background), for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() }.accessibilityIdentifier("settings.done") } }
+        .confirmationDialog("Erase all data?", isPresented: $confirmErase, titleVisibility: .visible) {
+            Button("Erase", role: .destructive, action: erase).accessibilityIdentifier("settings.erase.confirm")
+        } message: {
+            Text("This can't be undone.")
+        }
+    }
+
+    private func erase() {
+        erasing = true; eraseMessage = nil
+        Task {
+            defer { erasing = false }
+            do {
+                try await LearnerReset.erase(storage: storage)
+                dismiss()
+            } catch {
+                eraseMessage = (error as? LearnerResetError)?.message ?? LearnerResetError.failed.message
+            }
+        }
     }
 }
 
@@ -93,7 +118,7 @@ private struct AppearanceSettings: View {
                     var value = storage.preferences; value.background = selection
                     storage.savePreferences(value)
                 }
-                .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent")).controlSize(.large)
+                .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent).controlSize(.large)
                 .disabled(storage.repository == nil)
                 .accessibilityIdentifier("background.apply")
                 Text("Saved background: \(storage.preferences.background.title)").font(.caption)

@@ -132,7 +132,7 @@ struct RecordingView: View {
                         storage.latestLessonSpeech = LessonSpeechCompletion(lessonID: lessonID, journeyID: journeyID, attemptID: selected.id, activityID: selected.speakingProvenance?.activityID)
                     }
                 }
-                    .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                    .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
                     .frame(maxWidth: .infinity, alignment: .center)
                     .accessibilityIdentifier("recording.finish")
             }
@@ -177,7 +177,7 @@ struct RecordingView: View {
                 online.cancel()
                 recording.load(storage.repository, context: context)
                 recording.start(countdownEnabled: storage.preferences.countdownEnabled)
-            }.buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent")).controlSize(.large)
+            }.buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent).controlSize(.large)
                 .accessibilityIdentifier("recording.start")
         case .requestingPermission:
             ProgressView("Waiting for microphone permission")
@@ -196,7 +196,7 @@ struct RecordingView: View {
             ProgressView(value: Double(recording.level)).accessibilityLabel("Microphone level")
             Button(recording.phase == .paused ? "Resume recording" : "Pause recording") { recording.pauseOrResume() }.buttonStyle(.bordered)
             Button("Stop recording") { recording.stop(interrupted: false) }.buttonStyle(.borderedProminent)
-                .foregroundStyle(Color("OnAccent")).accessibilityIdentifier("recording.stop")
+                .foregroundStyle(Kit.onAccent).accessibilityIdentifier("recording.stop")
         case .finished: EmptyView()
         }
     }

@@ -33,7 +33,6 @@ struct ConversationPracticeView: View {
                 if let storage {
                     SpeakingPracticePersistence(storage: storage, archive: archive, restore: restore)
                 }
-                AvailabilityCard(title: TurnModality.realtimeTitle, detail: TurnModality.realtimeDetail, symbol: "waveform.slash")
                 if session.phase == .preparing { setup } else { practice }
                 if let notice {
                     AvailabilityCard(title: "Check this step", detail: notice, symbol: "exclamationmark.triangle")
@@ -150,7 +149,7 @@ struct ConversationPracticeView: View {
             }
         }
         if session.qualifiesAsConversation {
-            Text("This practice has a visible back-and-forth. It does not change your course or award an English level.")
+            Text("Nice back-and-forth.")
                 .font(.footnote).foregroundStyle(Kit.secondary).accessibilityIdentifier("conversation.qualified")
         }
     }
@@ -389,7 +388,7 @@ struct SpeakingPracticePersistence: View {
     @State private var message: String?
     @Environment(\.scenePhase) private var scenePhase
 
-    private var finalized: Bool { archive.conversation?.retention.applied == true || archive.interview?.retention.applied == true || archive.communication?.retention.applied == true }
+    private var finalized: Bool { archive.conversation?.retention.applied == true || archive.interview?.retention.applied == true }
     var body: some View {
         KitCard {
             Text("Local practice preview").font(.headline)

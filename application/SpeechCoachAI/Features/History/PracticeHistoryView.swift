@@ -17,15 +17,12 @@ struct PracticeHistoryContent: View {
                 KitCard {
                     Text("\(completed) self-reviews completed").font(.title2.bold()).accessibilityIdentifier("progress.completions")
                     Text("\(savedWords) words saved · \(recalls) recall ratings").font(.headline).accessibilityIdentifier("progress.words")
-                    Text("Speaking completions, saved words, and recall ratings stay separate. None of them is an English level.")
-                        .foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
                 }
                 NavigationLink("Recently Deleted") {
                     ScrollView { PracticeHistoryContent(storage: storage, recentlyDeleted: true).padding(20) }
                         .navigationTitle("Recently Deleted")
                 }.accessibilityIdentifier("history.trash")
                 Text("Saved practice").font(.title3.bold())
-                SavedCommunicationLinks(storage: storage)
             } else {
                 Text("Saved components can be restored for 30 days. Permanent deletion cannot be undone. Temporary drafts are not stored here.")
                     .foregroundStyle(Kit.secondary)
@@ -77,8 +74,6 @@ struct PracticeRecordDetail: View {
     @State private var deleteID: UUID?
     @State private var confirmDelete = false
     @State private var confirmSoftDelete = false
-    @State private var formatChoice: ComparisonFormat?
-    @State private var loadedFormat: ComparisonFormat?
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
@@ -99,19 +94,6 @@ struct PracticeRecordDetail: View {
                         Button("Replay saved voice") { replay() }.buttonStyle(.bordered).frame(minHeight: 44).accessibilityIdentifier("history.replay")
                         Button("Stop playback") { stop() }.buttonStyle(.bordered).frame(minHeight: 44)
                     } else { Text("Voice playback: \(record.audio.state.description)").foregroundStyle(Kit.secondary) }
-                    if !recentlyDeleted {
-                        Picker("Comparison label", selection: $formatChoice) {
-                            Text("Not labeled").tag(Optional<ComparisonFormat>.none)
-                            ForEach(ComparisonFormat.allCases, id: \.self) { Text($0.title).tag(Optional($0)) }
-                        }
-                        .pickerStyle(.menu)
-                        .accessibilityIdentifier("history.format")
-                        .onChange(of: formatChoice) { _, new in
-                            guard new != loadedFormat else { return }
-                            loadedFormat = new
-                            mutate { repo, _ in try repo.setAttemptFormat(attemptID, new) }
-                        }
-                    }
                     if record.text.isVisible, !record.transcripts.isEmpty {
                         ForEach(record.transcripts, id: \.id) { transcript in
                             KitCard {
@@ -178,9 +160,6 @@ struct PracticeRecordDetail: View {
         do {
             guard let repo = storage.repository else { throw LearnerStorageError.unavailable }
             record = try repo.attempt(attemptID)
-            let format = try repo.attemptFormat(attemptID)
-            loadedFormat = format
-            formatChoice = format
         } catch { record = nil; message = "This practice is unavailable. Unlock your device and try again." }
     }
     private func replay() {

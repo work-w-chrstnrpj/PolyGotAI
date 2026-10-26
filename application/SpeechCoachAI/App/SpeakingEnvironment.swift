@@ -68,56 +68,11 @@ enum SpeakingEnvironment {
         let recorded = try repository.finalizeRecording(attemptID: attempt.id, data: wav,
             durationMilliseconds: 1000, sampleRate: 16_000, channels: 1, bitsPerSample: 16, expectedVersion: attempt.version)
         try repository.markInterrupted(recorded.id, expectedVersion: recorded.version)
-        if ProcessInfo.processInfo.environment["SC_GENERATED_FIXTURE"] == "1" {
-            try GeneratedPracticeUIFixture.seed(repository)
-        }
         #endif
     }
 }
 
 #if DEBUG
-/// Synthetic source/policy only for the UUID-isolated UI fixture; never a production grant.
-enum GeneratedPracticeUIFixture {
-    static var policy: GenerationPolicy {
-        GenerationPolicy(schemaVersion: 1, decisionRecord: "synthetic-ui-generation-policy", ownerDecisionAccepted: true,
-            permittedObjectiveIDs: ["synthetic-objective"], permittedTemplateIDs: ["synthetic-template"],
-            permittedActivityKinds: [.recognitionChoice], contextScalarLimit: 1000, maximumActivitiesPerRequest: 1,
-            maximumValidatedCacheEntries: 2, cacheFreshnessSeconds: 3600, maximumResponseBytes: 4096,
-            regenerationPermitted: false, costCeilingRecord: "synthetic-no-billing", factualSource: .noFactualClaims,
-            reportRetention: ReportRetentionRule(retainForSeconds: 3600, exportPermitted: false, exportEvidenceReference: "", localOnly: true),
-            providerAccess: ProviderAccessRule(liveTransportPermitted: true, quotaProtectionVerified: true, evidenceReference: "synthetic-no-network"))
-    }
-
-    static func seed(_ repository: LearnerRepository) throws {
-        let epoch = try repository.learningDataEpoch()
-        let source = PracticeSource(objectiveID: "synthetic-objective", contentVersion: "synthetic-1", level: "A1",
-            templateID: "synthetic-template", rubricVersion: "synthetic-rubric", grammarTargetIDs: [], vocabularySenseIDs: [],
-            senseID: nil, cardID: nil, variety: "en-US")
-        let attempt = CurrentAttempt(id: UUID(), prompt: "Synthetic current practice.", objectiveID: source.objectiveID,
-            senseID: nil, cardID: nil, contentVersion: source.contentVersion, rubricVersion: source.rubricVersion,
-            schedule: ScheduleIdentity(cardID: nil, dueAt: nil, inReview: false))
-        var session = GeneratedPracticeSession(); session.bindEpoch(epoch)
-        _ = session.prepare(attempt: attempt, source: source)
-        session.familiarity = .fresh; session.requestedKind = .recognitionChoice
-        _ = session.beginFresh(policy: policy, connected: true, now: .now)
-        let payload: [String: Any] = [
-            "schemaVersion": 1, "objectiveID": source.objectiveID, "contentVersion": source.contentVersion,
-            "level": source.level, "templateID": source.templateID, "rubricVersion": source.rubricVersion,
-            "activityKind": "recognitionChoice", "variety": "en-US", "prompt": "Synthetic generated practice.",
-            "explanation": "Synthetic explanation.", "choices": ["Synthetic answer", "Synthetic alternative"],
-            "correctChoiceIndex": 0, "recallAnswer": NSNull(), "candidateHeadword": NSNull(), "candidateMeaning": NSNull(),
-            "grammarTargetIDs": [String](), "vocabularySenseIDs": [String](), "cardID": NSNull(),
-            "editorialLabel": "generated", "factualSourceIDs": [String](), "referenceAudioID": NSNull(), "mediaURL": NSNull()
-        ]
-        guard let request = session.requestID else { throw LearnerStorageError.invalidState }
-        let data = try JSONSerialization.data(withJSONObject: payload)
-        guard session.receive(data: data, policy: policy, requestID: request, now: .now) == nil,
-              session.applyRetention(.optedIn, policy: policy, now: .now) == nil,
-              session.commit(expectedEpoch: epoch, writeSucceeds: true) == nil else { throw LearnerStorageError.invalidState }
-        try repository.saveGeneratedPracticeRecord(session.committed, expectedEpoch: epoch, replacing: nil)
-    }
-}
-
 private final class FixtureSpeakingProvider: SpeakingProvider {
     var verification: ProviderVerification? {
         ProviderVerification(workspace: "synthetic-ui-test", asrModel: "qwen3-asr-flash", coachingModel: "qwen-flash",

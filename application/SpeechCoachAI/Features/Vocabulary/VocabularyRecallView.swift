@@ -44,7 +44,7 @@ struct VocabularyRecallSession: View {
                         }
                     }
                     Button("Practice again") { restart() }
-                        .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                        .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
                         .accessibilityIdentifier("vocabulary.recall.again")
                 } else {
                     card(cards[index])
@@ -112,7 +112,7 @@ struct VocabularyRecallSession: View {
                     .font(.caption).foregroundStyle(Kit.secondary)
                     .accessibilityIdentifier("vocabulary.recall.draftStatus")
                 Button("Show meaning") { showMeaning(card) }
-                    .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                    .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
                     .accessibilityIdentifier("vocabulary.recall.reveal")
             } else {
                 if draft.mode == .say {

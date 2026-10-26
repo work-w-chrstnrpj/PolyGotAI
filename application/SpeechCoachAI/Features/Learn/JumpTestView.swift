@@ -37,7 +37,7 @@ struct JumpTestView: View {
             }
         }
         .background(Kit.canvas(storage.preferences.background)).foregroundStyle(Kit.ink)
-        .navigationTitle("\(target) test").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Rank \(target) test").navigationBarTitleDisplayMode(.inline)
         .toolbar(.hidden, for: .tabBar)
         .onDisappear(perform: stopAudio)
         .onChange(of: scenePhase) { _, phase in if phase != .active { stopAudio() } }

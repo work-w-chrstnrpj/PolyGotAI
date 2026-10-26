@@ -24,10 +24,6 @@ final class LearnerStorageController {
     var latestLessonSpeech: LessonSpeechCompletion?
     var latestCheckSpeech: LessonSpeechCompletion?
     var latestPracticeRecording: IndependentPracticeRecording?
-    private(set) var confidenceDraft: ConfidenceNoteDraft?
-    /// Shared across Today view lifetimes, including iPad sidebar navigation.
-    private(set) var practiceGoalDraft: PracticeGoalDraft?
-    private(set) var practiceGoalMessage: String?
     /// Resource edits survive view/sidebar changes while the app is open, until Save or Discard.
     var resourceDraft: ResourceEditorDraft?
     let rewardEngagement = RewardEngagementState()
@@ -35,6 +31,33 @@ final class LearnerStorageController {
     @ObservationIgnored lazy var usage = UsageRecorder { [weak self] start, end in
         guard let repository = self?.repository else { throw LearnerStorageError.unavailable }
         try repository.recordUsage(start: start, end: end)
+    }
+
+    /// Folder for the store and private files. Nil means Application Support (the app's own data).
+    @ObservationIgnored private var customRoot: URL? = nil
+
+    init() {}
+    /// Tests use an isolated folder.
+    init(root: URL) { customRoot = root }
+
+    /// The folder that holds every saved learner file: the SwiftData store, recordings and other private files.
+    func storeRoot() throws -> URL {
+        if let customRoot { return customRoot }
+        let support = try FileManager.default.url(for: .applicationSupportDirectory,
+            in: .userDomainMask, appropriateFor: nil, create: true)
+        let folder = SpeakingEnvironment.fixtureID.map { "SpeakingUITest-" + $0.uuidString } ?? "Learner"
+        return support.appendingPathComponent(folder, isDirectory: true)
+    }
+
+    /// Erases every saved learner file and starts again as a first launch. Call through `LearnerReset.erase`,
+    /// which asks the device owner first. Throws when the folder could not be removed; storage is reopened either way.
+    func eraseAllLearnerFiles() throws {
+        let root = try storeRoot()
+        close()
+        latestLessonSpeech = nil; latestCheckSpeech = nil; latestPracticeRecording = nil
+        resourceDraft = nil
+        defer { open() }
+        if FileManager.default.fileExists(atPath: root.path) { try FileManager.default.removeItem(at: root) }
     }
 
     func beginResourceDraft(resource: LearningResource? = nil, curated: CuratedLearningResource? = nil) throws {
@@ -92,87 +115,15 @@ final class LearnerStorageController {
         return true
     }
 
-    func loadConfidenceDraft(saved: String?, epoch: UUID) {
-        if confidenceDraft?.epoch != epoch || confidenceDraft?.isDirty == false {
-            confidenceDraft = ConfidenceNoteDraft(epoch: epoch, text: saved ?? "", savedText: saved)
-        }
-    }
-
-    func editConfidenceDraft(_ text: String) {
-        confidenceDraft?.text = String(text.unicodeScalars.prefix(280))
-        confidenceDraft?.hasSaveFailure = false
-    }
-
-    func saveConfidenceDraft() {
-        guard let draft = confidenceDraft, draft.isDirty else { return }
-        do {
-            guard let repository else { throw LearnerStorageError.unavailable }
-            guard try repository.learningDataEpoch() == draft.epoch else {
-                confidenceDraft = nil
-                return
-            }
-            try repository.saveConfidenceNote(draft.text, expectedEpoch: draft.epoch)
-            confidenceDraft?.savedText = ConfidenceStatement.normalize(draft.text)
-            confidenceDraft?.hasSaveFailure = false
-        } catch {
-            confidenceDraft?.hasSaveFailure = true
-        }
-    }
-
-    func loadPracticeGoalDraft() {
-        guard let repository else { return }
-        do {
-            let saved = try repository.practiceGoal()
-            let epoch = try repository.learningDataEpoch()
-            let changedLearner = practiceGoalDraft?.epoch != epoch
-            practiceGoalDraft = practiceGoalDraft?.refreshed(saved: saved, epoch: epoch)
-                ?? PracticeGoalDraft(epoch: epoch, selection: saved, saved: saved)
-            if changedLearner || practiceGoalDraft?.hasSaveFailure == false { practiceGoalMessage = nil }
-        } catch {
-            // Retain any unsaved selection; failed reads cannot replace it with a default.
-            if practiceGoalMessage == nil {
-                practiceGoalMessage = "Your practice preference could not be loaded. Try again after unlocking your device."
-            }
-        }
-    }
-
-    func editPracticeGoalDraft(_ selection: SuggestionAction?) {
-        practiceGoalDraft?.selection = selection
-    }
-
-    @discardableResult
-    func savePracticeGoalDraft() -> Bool {
-        guard var draft = practiceGoalDraft else { return false }
-        do {
-            guard let repository else { throw LearnerStorageError.unavailable }
-            try repository.savePracticeGoal(draft.selection, expectedEpoch: draft.epoch)
-            draft.recordSaveSuccess()
-            practiceGoalDraft = draft
-            practiceGoalMessage = nil
-            return true
-        } catch LearnerStorageError.invalidState {
-            practiceGoalDraft = nil
-            loadPracticeGoalDraft()
-            practiceGoalMessage = "Practice was reset on this device. The unsaved preference was discarded."
-        } catch {
-            draft.recordSaveFailure()
-            practiceGoalDraft = draft
-            practiceGoalMessage = "Your preference could not be saved. It is kept here while the app is open. Try again after unlocking your device."
-        }
-        return false
-    }
-
     func open() {
         do {
             if let repository { try repository.maintain() }
             else {
-                let support = try FileManager.default.url(for: .applicationSupportDirectory,
-                    in: .userDomainMask, appropriateFor: nil, create: true)
-                let folder = SpeakingEnvironment.fixtureID.map { "SpeakingUITest-" + $0.uuidString } ?? "Learner"
-                repository = try LearnerRepository(root: support.appendingPathComponent(folder, isDirectory: true))
+                repository = try LearnerRepository(root: try storeRoot())
                 if let repository { try SpeakingEnvironment.seedIfNeeded(repository) }
             }
             preferences = try repository?.preferences() ?? LearnerPreferences()
+            KitTheme.current = KitTheme(preferences.background)
             hasStorageFailure = false
         } catch {
             close()
@@ -185,6 +136,7 @@ final class LearnerStorageController {
         do {
             guard let repository else { throw LearnerStorageError.unavailable }
             try repository.savePreferences(value)
+            KitTheme.current = KitTheme(value.background)
             preferences = value
             hasPreferenceSaveFailure = false
         } catch {

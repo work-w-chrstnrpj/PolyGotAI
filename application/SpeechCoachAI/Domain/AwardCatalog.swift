@@ -28,11 +28,11 @@ struct AwardFamily: Codable, Equatable, Identifiable {
         catalog.first(where: { $0.id == "AW-P-01" })?.contentTargetIDs.contains(lessonID + "@" + version) == true
     }
     func state(ledger: RewardLedger) -> String {
-        if id == "AW-CR-01" { return "\(ledger.checkpoints.count) completed lesson checkpoints · no collectible" }
+        if id == "AW-CR-01" { return "\(ledger.checkpoints.count) lessons finished" }
         if let award = ledger.awards.first(where: { $0.family == id }) {
-            return award.evidenceUnavailable ? "Supporting evidence unavailable" : "Earned · personal-use participation/completion"
+            return "Earned"
         }
-        return availability == "unavailable" ? "Assessment or content not yet available" : "Not yet earned · more participation needed"
+        return "Not earned yet"
     }
 }
 

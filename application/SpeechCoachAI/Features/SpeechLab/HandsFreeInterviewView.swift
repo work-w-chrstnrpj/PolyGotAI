@@ -55,7 +55,7 @@ struct HandsFreeInterviewView: View {
                         Text(bank.first { $0.set == id }?.setTitle ?? id.capitalized).tag(id)
                     }
                 }.pickerStyle(.menu).accessibilityIdentifier("interview.set")
-                Picker("Level", selection: $level) {
+                Picker("Rank", selection: $level) {
                     ForEach(LevelGate.levels, id: \.self) { Text($0).tag($0) }
                 }.pickerStyle(.menu).accessibilityIdentifier("interview.level")
                 if controller.aiAvailable {

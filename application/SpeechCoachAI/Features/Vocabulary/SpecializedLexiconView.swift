@@ -25,7 +25,7 @@ struct SpecializedLexiconView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 TextField("Topic", text: $topic).textFieldStyle(.roundedBorder).accessibilityIdentifier("specialized.topic").dictation($topic)
-                Picker("Level", selection: $level) {
+                Picker("Rank", selection: $level) {
                     ForEach(LevelGate.levels, id: \.self) { Text($0).tag($0) }
                 }.accessibilityIdentifier("specialized.level")
                 Stepper("Words: \(count)", value: $count, in: 3...LexiconGenerationRequest.maximumWords).accessibilityIdentifier("specialized.count")

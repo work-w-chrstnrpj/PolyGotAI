@@ -35,7 +35,6 @@ struct SpeakingProvenance: Codable, Equatable {
     var packVersion: String
     var purpose: String
     var supported: Bool
-    var communicationSource: CommunicationSource? = nil
 }
 
 extension PracticeSessionContext {

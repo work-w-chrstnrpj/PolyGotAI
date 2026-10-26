@@ -6,7 +6,8 @@ enum RewardPolicy {
     static let approval = "SC-D005-owner-2026-10-25"
     static let inactivitySeconds: TimeInterval = 60
     static func day(_ date: Date, calendar: Calendar = .current) -> String {
-        PracticeRecommendation.localDay(date, calendar: calendar)
+        let parts = calendar.dateComponents([.year, .month, .day], from: date)
+        return String(format: "%04d-%02d-%02d", parts.year ?? 0, parts.month ?? 0, parts.day ?? 0)
     }
     static func ordinal(_ day: String) -> Int? {
         let components = day.split(separator: "-").compactMap { Int($0) }

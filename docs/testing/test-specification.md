@@ -1,5 +1,7 @@
 # Test specification (v2)
 
+> **Phase 7 (2026-10-26):** Communication practice, Generated practice, Vocabulary discovery and the v1 Word of the day were removed with their stored fields (`communication`, `generatedPractice`, `wordOfDay`); mentions of them below are historical. See [TDD › Phase 7 rework](../tdd/tdd.md#phase-7-rework-2026-10-26).
+
 > v1 test plan and evidence: [history/v1/testing](../history/v1/testing/).
 
 ## How to run

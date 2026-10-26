@@ -25,7 +25,7 @@ struct MissedPracticeView: View {
                     }
                 }
             }
-            .background(Color("Canvas"))
+            .background(Kit.canvas(KitTheme.current.background))
             .navigationTitle("Try again").navigationBarTitleDisplayMode(.inline)
             .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Close") { dismiss() } } }
         }.tint(Kit.accent)

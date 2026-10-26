@@ -20,7 +20,7 @@ final class SpeechLabUITests: XCTestCase {
             let button = app.buttons["navigation.speechLab"].firstMatch
             XCTAssertTrue(button.waitForExistence(timeout: 8)); button.tap()
         }
-        XCTAssertTrue(app.buttons["speech.record"].waitForExistence(timeout: 8))
+        XCTAssertTrue(app.buttons["speech.dictation"].waitForExistence(timeout: 8))
     }
     @MainActor private func tap(_ app: XCUIApplication, _ element: XCUIElement) {
         for _ in 0..<10 {

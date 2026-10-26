@@ -148,7 +148,7 @@ struct IntroPracticeView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     Text(pack.method).font(.title3).foregroundStyle(Kit.secondary)
-                    Text("Optional personal practice · separate from your course. Text practice does not assess speech or English level.")
+                    Text("Optional practice. Your course is unchanged.")
                         .font(.footnote).foregroundStyle(Kit.secondary)
                     DisclosureGroup("Explore the pattern", isExpanded: $showTeaching) {
                         ForEach(pack.teaching, id: \.0) { title, text in
@@ -313,7 +313,7 @@ struct IntroCheckView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     Text(kind.title).font(.title2.bold())
-                    Text("Optional personal check. No automatic score or English-level judgment. Your course is unchanged.")
+                    Text("Optional check. Your course is unchanged.")
                         .foregroundStyle(Kit.secondary)
                     if let check, let session {
                         Text(check.purpose == "repeatedBaseline" ? "Repeated baseline" : check.kind.title).font(.headline)
@@ -328,7 +328,7 @@ struct IntroCheckView: View {
                                 .font(.footnote)
                         }
                         if session.journey.completedAt != nil {
-                            Label("Check recorded · not assessed", systemImage: "checkmark.circle")
+                            Label("Check recorded", systemImage: "checkmark.circle")
                                 .accessibilityIdentifier("intro.check.complete")
                             Text("Text cannot establish intelligibility. Timing and participation alone do not establish retention or improvement.")
                             ForEach(session.journey.responses) { answer in

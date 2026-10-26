@@ -41,8 +41,8 @@ Update this map whenever the project structure changes.
 
 - `application/SpeechCoachAI/App/`: app entry and `LearnerStorageController`.
 - `application/SpeechCoachAI/Domain/`: pure Swift models and rules (catalog, journeys, vocabulary, FSRS scheduling, rewards, recommendations; v2: answer checking, exercise sessions, voice metrics).
-- `application/SpeechCoachAI/Infrastructure/`: Persistence (SwiftData, repository, private files), Curriculum loader, Credentials (Keychain), Providers (gated online clients), Audio; v2: Speech.
-- `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn, Vocabulary, Recording, Progress, Rewards, Settings, Resources, Shared design system; v1 Conversation, Communication and GeneratedPractice are being moved or hidden in v2).
+- `application/SpeechCoachAI/Infrastructure/`: Persistence (SwiftData, `LearnerRepository` split into `+Area` extension files, private files), Curriculum loader, Credentials (Keychain), Providers (gated online clients), Audio; v2: Speech.
+- `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn, Vocabulary, Recording, Progress, Rewards, Settings, Resources, SpeechLab, Feedback, Shared: `Theme.swift` tokens and `DesignSystem.swift` components; v1 Conversation stays until the Lab Talk rework, Phase 9).
 - `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog.
 - `application/SpeechCoachAITests/`, `application/SpeechCoachAIUITests/`: tests. `application/Vendor/swift-fsrs/`: pinned FSRS-6. `application/.build/`: ignored build output and backups.
 - `tools/native/verify.sh`: build and run all tests. `tools/curriculum/`: content authoring and validation scripts. `tools/figma-local-helper/`: Figma plugin for the design kit (not app code).

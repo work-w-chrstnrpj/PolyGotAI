@@ -43,27 +43,6 @@ final class Phase2LessonTests: XCTestCase {
         attachment.name = "phase2-\(name)"; attachment.lifetime = .keepAlways; add(attachment)
     }
 
-    @MainActor
-    func testCourseExerciseResumesAfterCommunicationPractice() {
-        let app = launch()
-        app.buttons["learn.open.a1-greetings"].tap()
-        XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
-        XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Teacher")
-        app.buttons["lesson.begin"].tap()
-        let prompt = app.staticTexts["exercise.prompt"]
-        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
-        let original = prompt.label
-        app.buttons["lesson.topic.extra"].tap()
-        app.buttons["lesson.communication"].tap()
-        XCTAssertTrue(app.staticTexts["communication.lesson.source"].waitForExistence(timeout: 5))
-        app.buttons["Done"].firstMatch.tap()
-        XCTAssertEqual(prompt.label, original)
-        XCTAssertFalse(app.staticTexts["lesson.completed"].exists)
-        app.terminate(); app.launch(); openLesson(app)
-        app.buttons["learn.open.a1-greetings"].tap()
-        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
-        XCTAssertEqual(prompt.label, original)
-    }
 
     @MainActor
     func testFreshLearnerCannotOpenLockedCourseLevels() {
@@ -86,7 +65,7 @@ final class Phase2LessonTests: XCTestCase {
         let app = launch()
         selectLevel("C2", in: app)
         app.buttons["level.test.C2"].tap()
-        XCTAssertTrue(app.navigationBars["C2 test"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Rank C2 test"].waitForExistence(timeout: 5))
         XCTAssertTrue(app.staticTexts["exercise.prompt"].waitForExistence(timeout: 5))
         capture(app, "c2-test-question")
     }
@@ -96,7 +75,7 @@ final class Phase2LessonTests: XCTestCase {
         let app = launch()
         selectLevel("A2", in: app)
         app.buttons["level.test.A2"].tap()
-        XCTAssertTrue(app.navigationBars["A2 test"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Rank A2 test"].waitForExistence(timeout: 5))
         capture(app, "jump-question")
         for _ in 0..<20 {
             XCTAssertTrue(app.buttons["exercise.check"].waitForExistence(timeout: 5))
@@ -153,11 +132,6 @@ final class Phase2LessonTests: XCTestCase {
         XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
         XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Grammarian")
         capture(app, "coach-intro")
-        let communication = app.buttons["lesson.communication.intro"]
-        for _ in 0..<5 where !communication.isHittable { app.swipeUp() }
-        communication.tap()
-        XCTAssertTrue(app.buttons["communication.start"].waitForExistence(timeout: 5))
-        app.buttons["Done"].firstMatch.tap()
         app.buttons["lesson.begin"].tap()
         XCTAssertTrue(app.buttons["exercise.choice.Maria runs."].waitForExistence(timeout: 5))
         app.buttons["exercise.choice.Maria runs."].tap(); app.buttons["exercise.check"].tap()

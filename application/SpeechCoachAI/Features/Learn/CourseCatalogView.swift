@@ -58,7 +58,7 @@ struct CourseCatalogView: View {
     }
 
     private func levelPicker(_ gate: LevelGate) -> some View {
-        Picker("English level", selection: $level) {
+        Picker("Rank", selection: $level) {
             ForEach(LevelGate.levels, id: \.self) { value in
                 Text(gate.isUnlocked(value) ? value : "\(value) 🔒")
                     .accessibilityLabel(gate.isUnlocked(value) ? value : "\(value), locked")

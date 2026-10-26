@@ -12,7 +12,7 @@ struct SpeechLabDictationView: View {
         SpeechLabPage(storage: storage, title: "Dictation") {
             Text("Listen and write.").foregroundStyle(Kit.secondary).lineLimit(1)
             SpeechLabHistory(store: store, area: .dictation)
-            Picker("Level", selection: $level) {
+            Picker("Rank", selection: $level) {
                 ForEach(LevelGate.levels + ["Numbers", "Dates", "Names", "Spelling"], id: \.self) { Text($0).tag($0) }
             }.pickerStyle(.menu).accessibilityIdentifier("dictation.level")
             Toggle("Check capitals and punctuation", isOn: Binding(get: { store.state.strictDictation }, set: { store.strict($0) }))

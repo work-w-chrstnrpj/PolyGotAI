@@ -12,8 +12,7 @@ struct UsageAnalyticsView: View {
 
     var body: some View {
         KitCard {
-            Text("Time in the app").font(.title3.bold())
-            Text("Visits shorter than a minute are not counted.").font(.footnote).foregroundStyle(Kit.secondary)
+            Text("Time in the app").font(Kit.Fonts.section)
             Picker("Period", selection: $period) {
                 ForEach(UsagePeriod.allCases) { Text($0.title).tag($0) }
             }.pickerStyle(.segmented).accessibilityIdentifier("usage.period")
@@ -100,17 +99,6 @@ struct UsageAnalyticsView: View {
                 .frame(height: 44).accessibilityElement(children: .ignore)
                 .accessibilityLabel("Timeline of the day").accessibilityValue(segments.isEmpty ? "No time recorded" : "\(segments.count) visits")
                 .accessibilityIdentifier("usage.timeline")
-            ForEach(segments) { segment in
-                HStack {
-                    Text("\(segment.start.formatted(date: .omitted, time: .shortened)) – \(segment.end.formatted(date: .omitted, time: .shortened))")
-                    Spacer()
-                    Text(UsageFormat.duration(segment.seconds)).foregroundStyle(Kit.secondary)
-                }
-                .font(.subheadline).accessibilityElement(children: .combine)
-            }
-            if segments.isEmpty, report.seconds(on: anchor) > 0 {
-                Text("Earlier days keep their total only.").font(.footnote).foregroundStyle(Kit.secondary)
-            }
         }
     }
 

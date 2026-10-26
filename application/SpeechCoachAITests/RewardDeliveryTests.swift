@@ -157,10 +157,10 @@ struct RewardDeliveryTests {
         var value = ledger(); try fund(&value)
         #expect(value.awards.allSatisfy { ["AW-P-01"].contains($0.family) })
         let family = try #require(AwardFamily.catalog.first { $0.id == "AW-LE-01" })
-        #expect(family.state(ledger: value).contains("not yet available"))
+        #expect(family.state(ledger: value) == "Not earned yet")
         value.award("AW-LE-01", now: now, evidence: ["synthetic-deleted-evidence"])
         value.awards[value.awards.count-1].evidenceUnavailable = true
-        #expect(family.state(ledger: value) == "Supporting evidence unavailable")
+        #expect(family.state(ledger: value) == "Earned")
         #expect(value.transactions.allSatisfy { $0.gold == 0 }, "nothing earns gold any more")
     }
     @Test func focusStackAndBreakSurviveNavigationWithoutDoubleCounting() {

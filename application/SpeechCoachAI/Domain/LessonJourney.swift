@@ -277,8 +277,8 @@ enum CurriculumPracticeKind: String, CaseIterable, Identifiable {
                 prompt: task.prompt, answer: task.answer)]
         }
         let reflection = CurriculumActivity(id: "practice-reflection", kind: "selfReview", required: true,
-            prompt: "What could you communicate? What would you like to try next? If you wrote quietly, speaking and pronunciation remain unassessed.",
-            answer: "Completion records participation, not accuracy, retention, transfer or an English level.")
+            prompt: "What could you communicate? What would you like to try next?",
+            answer: "Note one thing that went well and one thing to try next time.")
         return ResolvedLesson(id: "\(source.id)-practice-\(rawValue)", level: source.level, title: title,
             objectiveId: "\(source.objectiveId)/\(rawValue)", contentVersion: source.contentVersion,
             availability: .ready, practiceActivities: items + [reflection], senses: source.senses)

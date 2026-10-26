@@ -1,5 +1,7 @@
 # Data model (v2)
 
+> **Phase 7 (2026-10-26):** Communication practice, Generated practice, Vocabulary discovery and the v1 Word of the day were removed with their stored fields (`communication`, `generatedPractice`, `wordOfDay`); mentions of them below are historical. See [TDD › Phase 7 rework](../tdd/tdd.md#phase-7-rework-2026-10-26).
+
 > Source of truth: `Infrastructure/Persistence/LearnerSchema.swift` and `LearnerRepository.swift`. Detailed v1 field history: [history/v1/database](../history/v1/database/data-model.md).
 
 ## Storage

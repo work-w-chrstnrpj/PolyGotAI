@@ -55,11 +55,10 @@ struct RewardOverview: View {
                     }
                 } else { AvailabilityCard(title: "Badges did not load", detail: "Unlock your device and try again. Your data is kept.", symbol: "exclamationmark.triangle") }
                 if let message { Text(message).foregroundStyle(Kit.error).accessibilityIdentifier("rewards.error") }
-                Button("Reload", action: load).frame(minHeight: 44)
             }.frame(maxWidth: 700, alignment: .leading).padding(20).frame(maxWidth: .infinity)
         }
         .background(Kit.canvas(storage.preferences.background)).foregroundStyle(Kit.ink)
-        .navigationTitle("Level and badges")
+        .navigationTitle("Badges")
         .modifier(RewardDashboardFocus(storage: storage))
         .onAppear(perform: load)
         .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in

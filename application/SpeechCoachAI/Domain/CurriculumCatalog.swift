@@ -233,6 +233,9 @@ struct InspectedAsset: Equatable {
 }
 
 struct ResolvedLesson: Equatable, Identifiable {
+    /// The v1 introduction lesson. It is not part of the CEFR course.
+    var isIntroduction: Bool { objectiveId == "INTRO-01" || id.hasPrefix("intro-") }
+
     var id: String
     var level: String
     var title: String

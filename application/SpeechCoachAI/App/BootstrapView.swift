@@ -15,9 +15,6 @@ struct BootstrapView: View {
                 Text("English practice, one step at a time.")
                     .font(.title2)
 
-                Text("Practice features are coming soon.")
-                    .font(.body)
-                    .accessibilityIdentifier("bootstrap.availability")
                 if storageFailure {
                     Text("Local data is unavailable. Unlock your device and try again. Your existing data has been kept.")
                         .font(.body)

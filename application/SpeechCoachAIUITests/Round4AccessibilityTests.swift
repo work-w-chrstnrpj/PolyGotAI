@@ -20,13 +20,12 @@ final class Round4AccessibilityTests: XCTestCase {
             }
         }
         destination(app, title: "Speech Lab", id: "speechLab")
-        for id in ["speech.dictation", "speech.pronunciation", "speech.speaking", "speech.interview", "speech.conversation", "speech.communication", "speech.record"] {
+        for id in ["speech.dictation", "speech.pronunciation", "speech.speaking", "speech.interview", "speech.conversation"] {
             tap(app, app.buttons[id])
             XCTAssertTrue(app.navigationBars.firstMatch.waitForExistence(timeout: 5))
             try audit(app)
             capture("dark-\(id)")
-            if id == "speech.record" { app.buttons["Close"].firstMatch.tap() }
-            else { app.navigationBars.buttons.firstMatch.tap() }
+            app.navigationBars.buttons.firstMatch.tap()
         }
         XCUIDevice.shared.orientation = .landscapeLeft
         defer { XCUIDevice.shared.orientation = .portrait }

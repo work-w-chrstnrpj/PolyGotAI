@@ -36,8 +36,9 @@ struct CurriculumInstall: Equatable {
         return (exact, existing)
     }
 
+    /// CEFR course lessons at one rank. The v1 introduction lesson ("intro-…") is not part of the course.
     func lessons(at level: String) -> [ResolvedLesson] {
-        lessons.filter { $0.level.caseInsensitiveCompare(level) == .orderedSame }
+        lessons.filter { !$0.isIntroduction && $0.level.caseInsensitiveCompare(level) == .orderedSame }
     }
 
     var hasReadyLesson: Bool { lessons.contains(where: \.isReady) }

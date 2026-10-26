@@ -23,7 +23,6 @@ struct LessonPlayerView: View {
     @State private var reviewSenseIDs: Set<String> = []
     @State private var showIntroduction = true
     @State private var showContents = false
-    @State private var showCommunication = false
     @State private var practicePack: IntroPracticePack?
     @State private var showMissed = false
     @State private var checkKind: IntroCheckKind?
@@ -80,8 +79,6 @@ struct LessonPlayerView: View {
             if presentedLesson.supplement != nil {
                 ToolbarItem(placement: .topBarLeading) {
                     Menu("Extra practice") {
-                        Button("Communication practice") { showCommunication = true }
-                            .accessibilityIdentifier("lesson.communication")
                         ForEach(CurriculumPracticeKind.allCases) { kind in
                             Button(kind.title) { openCurriculumPractice(kind) }
                                 .accessibilityIdentifier("lesson.topic.\(kind.rawValue)")
@@ -92,8 +89,6 @@ struct LessonPlayerView: View {
             if isIntroduction {
                 ToolbarItem(placement: .topBarLeading) {
                     Menu("Extra practice") {
-                        Button("Communication practice") { showCommunication = true }
-                            .accessibilityIdentifier("lesson.communication")
                         ForEach(IntroPracticePack.allCases) { pack in
                             Button(pack.title) { openPractice(pack) }.accessibilityIdentifier("lesson.extra.\(pack.rawValue)")
                         }
@@ -111,12 +106,6 @@ struct LessonPlayerView: View {
                     }.accessibilityIdentifier("lesson.extra")
                 }
             }
-            if !isIntroduction && presentedLesson.supplement == nil {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button("Communication practice") { showCommunication = true }
-                        .accessibilityIdentifier("lesson.communication")
-                }
-            }
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showContents = true } label: { Image(systemName: "list.bullet") }
                     .accessibilityLabel("Lesson activities and saved versions")
@@ -129,14 +118,6 @@ struct LessonPlayerView: View {
                 LessonPlayerView(storage: storage, lesson: route.lesson, install: install, origin: route.origin,
                     initialConditions: route.conditions, onSpeak: onSpeak)
                     .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { curriculumPractice = nil } } }
-            }
-        }
-        .sheet(isPresented: $showCommunication) {
-            NavigationStack {
-                CommunicationPracticeHost(storage: storage, entry: .learn,
-                    source: CommunicationSource(lessonID: presentedLesson.id, contentVersion: presentedLesson.contentVersion,
-                        objectiveID: presentedLesson.objectiveId, senseID: nil))
-                    .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { showCommunication = false } } }
             }
         }
         .sheet(isPresented: $showContents) { contents }
@@ -203,7 +184,7 @@ struct LessonPlayerView: View {
                     Color.clear.frame(height: 0).id("top")
                     versionBanner
                     if session == nil {
-                        AvailabilityCard(title: "Lesson unavailable", detail: message ?? "Opening your saved practice…", symbol: "book")
+                        AvailabilityCard(title: "This lesson didn't open", detail: message ?? "Opening your saved practice…", symbol: "book")
                     } else if isComplete {
                         completion
                     } else if showIntroduction {
@@ -249,14 +230,6 @@ struct LessonPlayerView: View {
                 .accessibilityLabel(lessonCoach?.title ?? "Teacher")
                 .accessibilityIdentifier("lesson.host")
             }
-            Button { showCommunication = true } label: {
-                Label("Communication practice", systemImage: "text.bubble")
-                    .font(.subheadline.weight(.semibold))
-                    .padding(.horizontal, 12).frame(minHeight: 44)
-                    .background(Kit.soft, in: Capsule())
-            }
-            .buttonStyle(.plain)
-            .accessibilityIdentifier("lesson.communication.intro")
             Text(isIntroduction ? "Introduce yourself with a name, what you do, and something you enjoy. Invented details are welcome." : "Read and listen, build useful sentences, then make them your own.")
                 .font(.title3).foregroundStyle(Kit.secondary)
             if let tip = presentedLesson.tip {

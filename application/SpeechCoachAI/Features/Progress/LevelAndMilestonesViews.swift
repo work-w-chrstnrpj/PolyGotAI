@@ -1,77 +1,34 @@
 import SwiftUI
 
-/// The learner's level, with a bar to the next one. Taps through to badges.
-struct LevelCard: View {
-    var storage: LearnerStorageController
-    @State private var ledger: RewardLedger?
-
-    var body: some View {
-        NavigationLink { RewardOverview(storage: storage) } label: {
-            KitCard {
-                if let ledger {
-                    let level = XPLevel(xp: ledger.xp)
-                    HStack(alignment: .firstTextBaseline) {
-                        Text("Level \(level.level)").font(.title.bold()).accessibilityIdentifier("progress.level")
-                        Spacer()
-                        Text("\(ledger.xp) XP").font(.headline).foregroundStyle(Kit.secondary)
-                    }
-                    ProgressView(value: level.fraction).tint(Kit.accent).accessibilityHidden(true)
-                    HStack {
-                        Text("\(level.xpToNext) XP to Level \(level.level + 1)").font(.subheadline).foregroundStyle(Kit.secondary)
-                        Spacer()
-                        Label("Badges", systemImage: "seal").font(.subheadline.weight(.semibold))
-                    }
-                } else {
-                    Text("One moment.").foregroundStyle(Kit.secondary)
-                }
-            }
-        }
-        .buttonStyle(.plain)
-        .accessibilityElement(children: .combine)
-        .accessibilityIdentifier("progress.levelCard")
-        .onAppear(perform: load)
-        .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in load() }
-    }
-
-    private func load() { ledger = try? storage.repository?.rewardLedger() }
-}
-
-/// Milestones reached, and the next one in each group.
-struct MilestonesCard: View {
+/// The three closest milestones with progress bars, and a link to all of them.
+struct NextMilestones: View {
     var storage: LearnerStorageController
     var install: CurriculumInstall
     @State private var milestones: [Milestone] = []
-    @State private var showAll = false
 
     var body: some View {
-        KitCard {
-            Text("Milestones").font(.title3.bold())
-            let reached = milestones.filter(\.achieved)
-            Text("\(reached.count) of \(milestones.count) reached").font(.footnote).foregroundStyle(Kit.secondary)
-                .accessibilityIdentifier("milestones.count")
-            ForEach(Milestone.Group.allCases) { group in
-                let rows = milestones.filter { $0.group == group }
-                let shown = showAll ? rows : rows.filter(\.achieved).suffix(2) + rows.filter { !$0.achieved }.prefix(1)
-                if !shown.isEmpty {
-                    Text(group.title).font(.subheadline.weight(.semibold)).padding(.top, 6)
-                    ForEach(shown) { row in
-                        HStack(alignment: .top, spacing: 10) {
-                            Image(systemName: row.achieved ? "checkmark.seal.fill" : "circle.dashed")
-                                .foregroundStyle(row.achieved ? Kit.accent : Kit.secondary)
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(row.title).font(.body)
-                                Text(row.achieved ? (row.date.map { "Reached \($0.formatted(date: .abbreviated, time: .omitted))" } ?? "Reached") : row.detail)
-                                    .font(.caption).foregroundStyle(Kit.secondary)
-                            }
-                        }
-                        .accessibilityElement(children: .combine)
-                        .accessibilityValue(row.achieved ? "Reached" : "Not yet")
-                        .accessibilityIdentifier("milestone.\(row.id)")
-                    }
-                }
+        let reached = milestones.filter(\.achieved).count
+        VStack(alignment: .leading, spacing: Kit.Space.m) {
+            SectionHeader(title: "Milestones") {
+                NavigationLink("Show all") { MilestoneListView(milestones: milestones) }
+                    .accessibilityIdentifier("milestones.toggle")
             }
-            Button(showAll ? "Show fewer" : "Show all") { showAll.toggle() }
-                .frame(minHeight: 44).accessibilityIdentifier("milestones.toggle")
+            Text("\(reached) of \(milestones.count) reached").font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
+                .accessibilityIdentifier("milestones.count")
+            ForEach(Milestone.upNext(milestones)) { row in
+                KitCard {
+                    HStack(alignment: .firstTextBaseline) {
+                        Text(row.title).font(Kit.Fonts.rowTitle)
+                        Spacer()
+                        Text(row.progress.formatted(.percent.precision(.fractionLength(0))))
+                            .font(Kit.Fonts.detail).monospacedDigit().foregroundStyle(Kit.secondary)
+                    }
+                    ProgressView(value: row.progress).tint(Kit.accent)
+                    Text(row.detail).font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
+                }
+                .accessibilityElement(children: .combine)
+                .accessibilityIdentifier("milestone.\(row.id)")
+            }
         }
         .onAppear(perform: load)
         .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in load() }
@@ -89,5 +46,43 @@ struct MilestonesCard: View {
             milestones = MilestoneBoard.compute(ledger: ledger, passedTests: passed, journeys: journeys, tracks: install.tracks,
                                                 usage: usage, easyWordCount: easy)
         } catch { milestones = [] }
+    }
+}
+
+/// Every milestone by group: reached ones with their date, open ones with a bar.
+struct MilestoneListView: View {
+    var milestones: [Milestone]
+
+    var body: some View {
+        List {
+            ForEach(Milestone.Group.allCases) { group in
+                let rows = milestones.filter { $0.group == group }
+                if !rows.isEmpty {
+                    Section(group.title) {
+                        ForEach(rows) { row in
+                            HStack(alignment: .center, spacing: Kit.Space.m) {
+                                Image(systemName: row.achieved ? "checkmark.seal.fill" : "circle.dashed")
+                                    .foregroundStyle(row.achieved ? Kit.accent : Kit.secondary).accessibilityHidden(true)
+                                VStack(alignment: .leading, spacing: Kit.Space.xs) {
+                                    Text(row.title)
+                                    if row.achieved {
+                                        Text(row.date.map { "Reached \($0.formatted(date: .abbreviated, time: .omitted))" } ?? "Reached")
+                                            .font(.caption).foregroundStyle(Kit.secondary)
+                                    } else {
+                                        ProgressView(value: row.progress).tint(Kit.accent)
+                                        Text(row.detail).font(.caption).foregroundStyle(Kit.secondary)
+                                    }
+                                }
+                            }
+                            .accessibilityElement(children: .combine)
+                            .accessibilityValue(row.achieved ? "Reached" : row.progress.formatted(.percent.precision(.fractionLength(0))))
+                            .accessibilityIdentifier("milestone.\(row.id)")
+                        }
+                    }
+                }
+            }
+        }
+        .listStyle(.insetGrouped)
+        .navigationTitle("Milestones")
     }
 }

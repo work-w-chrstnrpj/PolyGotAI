@@ -6,7 +6,7 @@ import Testing
 struct CurriculumCatalogTests {
     @Test func bundledIntroductionsLessonIsReady() throws {
         let install = CurriculumCatalogLoader().loadBundled()
-        let lesson = try #require(install.lessons(at: "A1").first { $0.id == "intro-01" })
+        let lesson = try #require(install.lessons.first { $0.id == "intro-01" })
         #expect(lesson.isReady)
         #expect(lesson.objectiveId == "INTRO-01")
         #expect(lesson.senses.count == 5)
@@ -14,7 +14,7 @@ struct CurriculumCatalogTests {
         #expect(lesson.practiceActivities.first { $0.id == "listen-alex" }?.playbackPath == "intro-01-alex.wav")
         #expect(lesson.practiceActivities.contains { $0.id == "transfer-neighbor" } == false)
         #expect(lesson.practiceActivities.contains { $0.id == "baseline-intro" } == false)
-        #expect(install.lessons(at: "A1").filter(\.isReady).count == 13)
+        #expect(install.lessons(at: "A1").filter(\.isReady).count == 12)
         #expect(install.lessons(at: "A2").filter(\.isReady).count == 11)
         #expect(install.lessons(at: "B1").filter(\.isReady).count == 10)
         #expect(install.lessons(at: "B2").filter(\.isReady).count == 10)
@@ -116,7 +116,7 @@ struct CurriculumCatalogTests {
         let audio = Data("synthetic-audio".utf8)
         let wrongHash = String(repeating: "ab", count: 32)
         let install = try load(manifest: pack(listeningHash: wrongHash, listeningBytes: audio.count), files: ["model.wav": audio])
-        let ready = try #require(install.lessons(at: "A1").first { $0.isReady })
+        let ready = try #require(install.lessons.first { $0.isReady })
         #expect(ready.practiceActivities.map(\.id) == ["read-1", "quiet-1"])
         #expect(ready.practiceActivities.contains { $0.id == "transfer-1" } == false)
         let blocked = try #require(install.lessons.first { $0.id == "listen-broken" })
@@ -501,7 +501,6 @@ struct A1CurriculumDeliveryTests {
         let chosen = try catalog.opening(current, saved: saved)
         #expect(chosen.journey?.drafts?[task.id] == "synthetic old-version draft")
         #expect(chosen.lesson.contentVersion == "2")
-        #expect(PracticeRecommendation.selectLesson(journeys: saved, lessons: catalog.lessons, archivedLessons: catalog.archivedLessons).resuming)
         repository.close()
     }
 
