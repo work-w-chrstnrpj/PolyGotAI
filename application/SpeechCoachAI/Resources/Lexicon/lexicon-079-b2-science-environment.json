@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-science-environment",
+    "title": "Science and the environment",
+    "level": "B2",
+    "tagline": "Experiments, nature and climate",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "experiment",
+      "pos": "noun",
+      "meaning": "A scientific test done to discover or prove something.",
+      "examples": [
+        "The students did an {experiment} with magnets."
+      ],
+      "wrong": [
+        "An experiment is a fact that nobody needs to test."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "test",
+        "trial"
+      ],
+      "ipa": "/ɪkˈspɛrəmənt/"
+    },
+    {
+      "lemma": "laboratory",
+      "pos": "noun",
+      "meaning": "A room or building for scientific work.",
+      "examples": [
+        "The samples were tested in a {laboratory}."
+      ],
+      "wrong": [
+        "A laboratory is a room where people sleep after dinner."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "lab"
+      ],
+      "ipa": "/ˈlæbrəˌtɔri/"
+    },
+    {
+      "lemma": "discovery",
+      "pos": "noun",
+      "meaning": "The act of finding something that was not known before.",
+      "examples": [
+        "The {discovery} of penicillin saved millions of lives."
+      ],
+      "wrong": [
+        "A discovery is something everyone already knew about."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "finding"
+      ],
+      "ipa": "/dɪˈskʌvəri/"
+    },
+    {
+      "lemma": "species",
+      "pos": "noun",
+      "meaning": "A group of animals or plants of the same kind.",
+      "examples": [
+        "This {species} of frog lives only on one island."
+      ],
+      "wrong": [
+        "A species is a single animal with no relatives."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "kind",
+        "type"
+      ],
+      "ipa": "/ˈspiʃiz/"
+    },
+    {
+      "lemma": "extinct",
+      "pos": "adjective",
+      "meaning": "No longer existing because all of its kind have died.",
+      "examples": [
+        "Dinosaurs have been {extinct} for millions of years."
+      ],
+      "wrong": [
+        "The bird is extinct, so there are thousands in the park."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "died out"
+      ],
+      "ipa": "/ɪkˈstɪŋkt/",
+      "antonyms": [
+        "living",
+        "existing"
+      ]
+    },
+    {
+      "lemma": "habitat",
+      "pos": "noun",
+      "meaning": "The natural place where an animal or plant lives.",
+      "examples": [
+        "Cutting down forests destroys the {habitat} of many birds."
+      ],
+      "wrong": [
+        "A habitat is the food an animal eats."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "environment",
+        "home"
+      ],
+      "ipa": "/ˈhæbəˌtæt/"
+    },
+    {
+      "lemma": "ecosystem",
+      "pos": "noun",
+      "meaning": "All the living things in an area and how they affect each other.",
+      "examples": [
+        "Pollution can damage the whole {ecosystem}."
+      ],
+      "wrong": [
+        "An ecosystem is a single tree with nothing living near it."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈikoʊˌsɪstəm/"
+    },
+    {
+      "lemma": "emissions",
+      "pos": "noun",
+      "meaning": "Gases sent into the air, for example from cars or factories.",
+      "examples": [
+        "The city wants to cut carbon {emissions}."
+      ],
+      "wrong": [
+        "Emissions are the clean air in a forest."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "discharge"
+      ],
+      "ipa": "/ɪˈmɪʃənz/"
+    },
+    {
+      "lemma": "renewable",
+      "pos": "adjective",
+      "meaning": "Able to be replaced naturally, such as wind or solar power.",
+      "examples": [
+        "The country gets half its power from {renewable} sources."
+      ],
+      "wrong": [
+        "Coal is renewable because it runs out."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "sustainable"
+      ],
+      "ipa": "/rɪˈnuəbəl/",
+      "antonyms": [
+        "nonrenewable"
+      ]
+    },
+    {
+      "lemma": "fossil fuel",
+      "pos": "noun",
+      "meaning": "A fuel like coal, oil or gas, formed from very old plants and animals.",
+      "examples": [
+        "Burning {fossil fuels} adds carbon to the air."
+      ],
+      "wrong": [
+        "A fossil fuel is energy from the wind."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈfɑsəl ˌfjuəl/"
+    },
+    {
+      "lemma": "drought",
+      "pos": "noun",
+      "meaning": "A long time with little or no rain.",
+      "examples": [
+        "The {drought} killed most of the crops."
+      ],
+      "wrong": [
+        "A drought is a week of heavy rain and floods."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "dry spell"
+      ],
+      "ipa": "/draʊt/",
+      "antonyms": [
+        "flood"
+      ]
+    },
+    {
+      "lemma": "flood",
+      "pos": "noun",
+      "meaning": "A large amount of water covering land that is usually dry.",
+      "examples": [
+        "The {flood} damaged hundreds of homes."
+      ],
+      "wrong": [
+        "A flood is a long time without any water."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "deluge"
+      ],
+      "ipa": "/flʌd/",
+      "antonyms": [
+        "drought"
+      ]
+    },
+    {
+      "lemma": "sustainable",
+      "pos": "adjective",
+      "meaning": "Able to continue without harming the environment.",
+      "examples": [
+        "We need {sustainable} ways to grow food."
+      ],
+      "wrong": [
+        "The plan is sustainable, so it will destroy the forest soon."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "renewable",
+        "green"
+      ],
+      "ipa": "/səˈsteɪnəbəl/",
+      "antonyms": [
+        "unsustainable"
+      ]
+    },
+    {
+      "lemma": "conservation",
+      "pos": "noun",
+      "meaning": "The protection of animals, plants and natural places.",
+      "examples": [
+        "She works in wildlife {conservation}."
+      ],
+      "wrong": [
+        "Conservation means cutting down every tree."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "preservation",
+        "protection"
+      ],
+      "ipa": "/ˌkɑnsɚˈveɪʃən/"
+    },
+    {
+      "lemma": "biodiversity",
+      "pos": "noun",
+      "meaning": "The variety of plants and animals in a place.",
+      "examples": [
+        "Rainforests have very high {biodiversity}."
+      ],
+      "wrong": [
+        "High biodiversity means only one kind of plant lives there."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˌbaɪoʊdaɪˈvɝsəti/"
+    },
+    {
+      "lemma": "deforestation",
+      "pos": "noun",
+      "meaning": "The cutting down of large areas of forest.",
+      "examples": [
+        "{Deforestation} is a big problem in the Amazon."
+      ],
+      "wrong": [
+        "Deforestation is the planting of new forests."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "clearing"
+      ],
+      "ipa": "/diˌfɔrəˈsteɪʃən/",
+      "antonyms": [
+        "reforestation"
+      ]
+    },
+    {
+      "lemma": "organic",
+      "pos": "adjective",
+      "meaning": "Grown without artificial chemicals.",
+      "examples": [
+        "We buy {organic} vegetables."
+      ],
+      "wrong": [
+        "Organic fruit is covered in artificial chemicals."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "natural"
+      ],
+      "ipa": "/ɔrˈɡænɪk/",
+      "antonyms": [
+        "synthetic"
+      ]
+    },
+    {
+      "lemma": "pesticide",
+      "pos": "noun",
+      "meaning": "A chemical used to kill insects that harm crops.",
+      "examples": [
+        "Farmers sprayed {pesticide} on the fields."
+      ],
+      "wrong": [
+        "A pesticide is a vitamin for insects."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "insecticide"
+      ],
+      "ipa": "/ˈpɛstəˌsaɪd/"
+    },
+    {
+      "lemma": "solar",
+      "pos": "adjective",
+      "meaning": "Using energy from the sun.",
+      "examples": [
+        "We put {solar} panels on our roof."
+      ],
+      "wrong": [
+        "Solar power comes from coal mines."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈsoʊlɚ/"
+    },
+    {
+      "lemma": "atmosphere",
+      "pos": "noun",
+      "meaning": "The layer of gases around the earth.",
+      "examples": [
+        "Carbon dioxide traps heat in the {atmosphere}."
+      ],
+      "wrong": [
+        "The atmosphere is the rock deep under the ground."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "air"
+      ],
+      "ipa": "/ˈætməsˌfɪr/"
+    },
+    {
+      "lemma": "greenhouse gas",
+      "pos": "noun",
+      "meaning": "A gas, like carbon dioxide, that traps heat around the earth.",
+      "examples": [
+        "Cars produce {greenhouse gases}."
+      ],
+      "wrong": [
+        "A greenhouse gas cools the planet down."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈɡrinˌhaʊs ˌɡæs/"
+    },
+    {
+      "lemma": "molecule",
+      "pos": "noun",
+      "meaning": "The smallest unit of a substance, made of atoms.",
+      "examples": [
+        "A water {molecule} has two hydrogen atoms and one oxygen atom."
+      ],
+      "wrong": [
+        "A molecule is bigger than a planet."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈmɑləˌkjul/"
+    },
+    {
+      "lemma": "cell",
+      "pos": "noun",
+      "meaning": "The smallest living part of a plant or animal.",
+      "examples": [
+        "The human body has billions of {cells}."
+      ],
+      "wrong": [
+        "A cell is a very large animal."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/sɛl/"
+    },
+    {
+      "lemma": "gene",
+      "pos": "noun",
+      "meaning": "A part of a cell that controls what a living thing inherits from its parents.",
+      "examples": [
+        "Eye color is passed on through {genes}."
+      ],
+      "wrong": [
+        "Genes are habits you learn at school."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/dʒin/"
+    },
+    {
+      "lemma": "evolution",
+      "pos": "noun",
+      "meaning": "The slow change of living things over many generations.",
+      "examples": [
+        "Darwin wrote about the {evolution} of species."
+      ],
+      "wrong": [
+        "Evolution happens in one afternoon."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "development"
+      ],
+      "ipa": "/ˌɛvəˈluʃən/"
+    },
+    {
+      "lemma": "gravity",
+      "pos": "noun",
+      "meaning": "The force that pulls things toward the earth.",
+      "examples": [
+        "{Gravity} makes the apple fall."
+      ],
+      "wrong": [
+        "Gravity makes things float up into the sky."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈɡrævəti/"
+    },
+    {
+      "lemma": "orbit",
+      "pos": "verb",
+      "meaning": "To move around a planet or star in a curved path.",
+      "examples": [
+        "The moon {orbits} the earth."
+      ],
+      "wrong": [
+        "The earth orbits the moon every day."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "circle",
+        "revolve around"
+      ],
+      "ipa": "/ˈɔrbɪt/"
+    },
+    {
+      "lemma": "telescope",
+      "pos": "noun",
+      "meaning": "A tool that makes far objects look closer.",
+      "examples": [
+        "We looked at Saturn through a {telescope}."
+      ],
+      "wrong": [
+        "A telescope is a tool for hearing quiet sounds."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈtɛləˌskoʊp/"
+    },
+    {
+      "lemma": "satellite",
+      "pos": "noun",
+      "meaning": "A machine sent into space to move around the earth.",
+      "examples": [
+        "The TV signal comes from a {satellite}."
+      ],
+      "wrong": [
+        "A satellite is a car that drives on the moon."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈsætəˌlaɪt/"
+    },
+    {
+      "lemma": "observe",
+      "pos": "verb",
+      "meaning": "To watch something carefully to learn about it.",
+      "examples": [
+        "Scientists {observed} the birds for a year."
+      ],
+      "wrong": [
+        "She observed the stars with her eyes closed."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "watch",
+        "monitor"
+      ],
+      "ipa": "/əbˈzɝv/"
+    },
+    {
+      "lemma": "measure",
+      "pos": "verb",
+      "meaning": "To find the size, amount or degree of something.",
+      "examples": [
+        "{Measure} the room before you buy a carpet."
+      ],
+      "wrong": [
+        "I measured the table by guessing its size."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈmɛʒɚ/"
+    },
+    {
+      "lemma": "sample",
+      "pos": "noun",
+      "meaning": "A small amount taken to test or show what the rest is like.",
+      "examples": [
+        "The doctor took a blood {sample}."
+      ],
+      "wrong": [
+        "A sample is the whole of something."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "specimen"
+      ],
+      "ipa": "/ˈsæmpəl/"
+    },
+    {
+      "lemma": "data",
+      "pos": "noun",
+      "meaning": "Facts and numbers collected to be studied.",
+      "examples": [
+        "We collected {data} from 500 people."
+      ],
+      "wrong": [
+        "Data is an opinion with no facts."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "information",
+        "figures"
+      ],
+      "ipa": "/ˈdeɪtə/"
+    },
+    {
+      "lemma": "conclusion",
+      "pos": "noun",
+      "meaning": "A decision you reach after thinking about the facts.",
+      "examples": [
+        "What {conclusion} did you reach?"
+      ],
+      "wrong": [
+        "The conclusion was the first step of the study."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "judgment",
+        "deduction"
+      ],
+      "ipa": "/kənˈkluʒən/"
+    },
+    {
+      "lemma": "pollutant",
+      "pos": "noun",
+      "meaning": "A substance that makes air, water or land dirty.",
+      "examples": [
+        "The factory released {pollutants} into the river."
+      ],
+      "wrong": [
+        "A pollutant makes water cleaner."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "contaminant"
+      ],
+      "ipa": "/pəˈlutənt/"
+    },
+    {
+      "lemma": "recyclable",
+      "pos": "adjective",
+      "meaning": "Able to be used again after processing.",
+      "examples": [
+        "These bottles are {recyclable}."
+      ],
+      "wrong": [
+        "The bag is recyclable, so it must go to landfill."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/riˈsaɪkləbəl/",
+      "antonyms": [
+        "nonrecyclable"
+      ]
+    },
+    {
+      "lemma": "landfill",
+      "pos": "noun",
+      "meaning": "A place where waste is buried in the ground.",
+      "examples": [
+        "Most plastic ends up in {landfill}."
+      ],
+      "wrong": [
+        "A landfill is a clean beach for swimming."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "dump"
+      ],
+      "ipa": "/ˈlændˌfɪl/"
+    },
+    {
+      "lemma": "carbon footprint",
+      "pos": "noun",
+      "meaning": "The amount of carbon dioxide a person or activity produces.",
+      "examples": [
+        "Flying less will reduce your {carbon footprint}."
+      ],
+      "wrong": [
+        "A carbon footprint is a mark your shoe leaves on the floor."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈkɑrbən ˈfʊtˌprɪnt/"
+    },
+    {
+      "lemma": "wildlife",
+      "pos": "noun",
+      "meaning": "Wild animals and plants.",
+      "examples": [
+        "The park is home to a lot of {wildlife}."
+      ],
+      "wrong": [
+        "Wildlife means pets that live in our homes."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "nature"
+      ],
+      "ipa": "/ˈwaɪldˌlaɪf/"
+    },
+    {
+      "lemma": "endangered",
+      "pos": "adjective",
+      "meaning": "At risk of disappearing completely.",
+      "examples": [
+        "The tiger is an {endangered} species."
+      ],
+      "wrong": [
+        "The bird is endangered, so there are millions everywhere."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "threatened"
+      ],
+      "ipa": "/ɪnˈdeɪndʒɚd/",
+      "antonyms": [
+        "safe",
+        "thriving"
+      ]
+    }
+  ]
+}

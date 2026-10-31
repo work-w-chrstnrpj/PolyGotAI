@@ -1,0 +1,644 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-small-words",
+    "title": "Small useful words",
+    "level": "A1",
+    "tagline": "In, on, who, what and more",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "in",
+      "pos": "preposition",
+      "meaning": "Inside a thing or place.",
+      "examples": [
+        "The keys are {in} my bag."
+      ],
+      "wrong": [
+        "The fish lives in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "inside"
+      ],
+      "ipa": "/ɪn/"
+    },
+    {
+      "lemma": "on",
+      "pos": "preposition",
+      "meaning": "Touching the top of something.",
+      "examples": [
+        "The cup is {on} the table."
+      ],
+      "wrong": [
+        "The ceiling is on the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɑn/"
+    },
+    {
+      "lemma": "at",
+      "pos": "preposition",
+      "meaning": "Used to say the place or time of something.",
+      "examples": [
+        "Meet me {at} the station."
+      ],
+      "wrong": [
+        "I sleep at the moon every night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/æt/"
+    },
+    {
+      "lemma": "under",
+      "pos": "preposition",
+      "meaning": "Lower than something and below it.",
+      "examples": [
+        "The cat is {under} the table."
+      ],
+      "wrong": [
+        "The sky is under our feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "below",
+        "beneath"
+      ],
+      "ipa": "/ˈʌndɚ/",
+      "antonyms": [
+        "over",
+        "above"
+      ]
+    },
+    {
+      "lemma": "over",
+      "pos": "preposition",
+      "meaning": "Higher than something or above it.",
+      "examples": [
+        "The plane flew {over} our house."
+      ],
+      "wrong": [
+        "The fish swam over the bottom of the sea, in the sand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "above"
+      ],
+      "ipa": "/ˈoʊvɚ/",
+      "antonyms": [
+        "under"
+      ]
+    },
+    {
+      "lemma": "from",
+      "pos": "preposition",
+      "meaning": "Showing where a person or thing started.",
+      "examples": [
+        "I’m {from} Spain."
+      ],
+      "wrong": [
+        "I walked from my house, and I started at school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/frʌm/"
+    },
+    {
+      "lemma": "with",
+      "pos": "preposition",
+      "meaning": "Together; having someone or something next to you.",
+      "examples": [
+        "I live {with} my parents."
+      ],
+      "wrong": [
+        "I went with my friend, so I went alone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɪð/",
+      "antonyms": [
+        "without"
+      ]
+    },
+    {
+      "lemma": "without",
+      "pos": "preposition",
+      "meaning": "Not having something.",
+      "examples": [
+        "I drink coffee {without} sugar."
+      ],
+      "wrong": [
+        "I came without my bag, so here it is in my hand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɪˈðaʊt/",
+      "antonyms": [
+        "with"
+      ]
+    },
+    {
+      "lemma": "for",
+      "pos": "preposition",
+      "meaning": "Used to show who will get something.",
+      "examples": [
+        "This present is {for} you."
+      ],
+      "wrong": [
+        "I bought a gift for you, so it is mine."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɔr/"
+    },
+    {
+      "lemma": "about",
+      "pos": "preposition",
+      "meaning": "On the subject of.",
+      "examples": [
+        "This book is {about} dogs."
+      ],
+      "wrong": [
+        "The film is about cars, but there are no cars in it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈbaʊt/"
+    },
+    {
+      "lemma": "into",
+      "pos": "preposition",
+      "meaning": "Moving to the inside of something.",
+      "examples": [
+        "She jumped {into} the pool."
+      ],
+      "wrong": [
+        "He walked into the room and stayed outside."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɪntu/",
+      "antonyms": [
+        "out of"
+      ]
+    },
+    {
+      "lemma": "by",
+      "pos": "preposition",
+      "meaning": "Next to; also, using a way of travel.",
+      "examples": [
+        "We sat {by} the window."
+      ],
+      "wrong": [
+        "I came by bus, so I walked all the way."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "beside",
+        "near"
+      ],
+      "ipa": "/baɪ/"
+    },
+    {
+      "lemma": "around",
+      "pos": "preposition",
+      "meaning": "On every side of; in a circle.",
+      "examples": [
+        "We sat {around} the fire."
+      ],
+      "wrong": [
+        "We sat around the table, all on one side."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈraʊnd/"
+    },
+    {
+      "lemma": "inside",
+      "pos": "preposition",
+      "meaning": "In the space within something.",
+      "examples": [
+        "There’s a gift {inside} the box."
+      ],
+      "wrong": [
+        "The bird is inside the cage, flying in the open sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "within"
+      ],
+      "ipa": "/ˌɪnˈsaɪd/",
+      "antonyms": [
+        "outside"
+      ]
+    },
+    {
+      "lemma": "outside",
+      "pos": "preposition",
+      "meaning": "Not in a building or place.",
+      "examples": [
+        "Let’s play {outside} the house."
+      ],
+      "wrong": [
+        "The children played outside the house in their bedroom."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌaʊtˈsaɪd/",
+      "antonyms": [
+        "inside"
+      ]
+    },
+    {
+      "lemma": "above",
+      "pos": "preposition",
+      "meaning": "Higher than something.",
+      "examples": [
+        "There’s a lamp {above} the table."
+      ],
+      "wrong": [
+        "The roof is above the floor and under the door."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "over"
+      ],
+      "ipa": "/əˈbʌv/",
+      "antonyms": [
+        "below",
+        "under"
+      ]
+    },
+    {
+      "lemma": "who",
+      "pos": "pronoun",
+      "meaning": "A question word for asking which person.",
+      "examples": [
+        "{Who} is that man?"
+      ],
+      "wrong": [
+        "Who is your teacher? It’s a red pencil."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hu/"
+    },
+    {
+      "lemma": "what",
+      "pos": "pronoun",
+      "meaning": "A question word for asking about a thing.",
+      "examples": [
+        "{What} is your name?"
+      ],
+      "wrong": [
+        "What is your name? I’m ten."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wʌt/"
+    },
+    {
+      "lemma": "which",
+      "pos": "pronoun",
+      "meaning": "A question word for picking one from a small group.",
+      "examples": [
+        "{Which} color do you like, red or blue?"
+      ],
+      "wrong": [
+        "Which one do you want? Yes, thanks."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɪtʃ/"
+    },
+    {
+      "lemma": "where",
+      "pos": "adverb",
+      "meaning": "A question word for asking about a place.",
+      "examples": [
+        "{Where} do you live?"
+      ],
+      "wrong": [
+        "Where is the bank? It’s at three o’clock."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɛr/"
+    },
+    {
+      "lemma": "when",
+      "pos": "adverb",
+      "meaning": "A question word for asking about a time.",
+      "examples": [
+        "{When} is your birthday?"
+      ],
+      "wrong": [
+        "When is the party? It’s in the garden."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɛn/"
+    },
+    {
+      "lemma": "why",
+      "pos": "adverb",
+      "meaning": "A question word for asking the reason.",
+      "examples": [
+        "{Why} are you sad?"
+      ],
+      "wrong": [
+        "Why are you late? I’m in the kitchen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/waɪ/"
+    },
+    {
+      "lemma": "how",
+      "pos": "adverb",
+      "meaning": "A question word for asking the way something is done.",
+      "examples": [
+        "{How} do you go to work?"
+      ],
+      "wrong": [
+        "How do you get to school? On Monday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/haʊ/"
+    },
+    {
+      "lemma": "he",
+      "pos": "pronoun",
+      "meaning": "A word for a man or boy we already know about.",
+      "examples": [
+        "This is Tom. {He} is my brother."
+      ],
+      "wrong": [
+        "My mother is tall, and he is a doctor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hi/"
+    },
+    {
+      "lemma": "she",
+      "pos": "pronoun",
+      "meaning": "A word for a woman or girl we already know about.",
+      "examples": [
+        "This is Anna. {She} is my sister."
+      ],
+      "wrong": [
+        "My father is a cook, and she likes pasta."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃi/"
+    },
+    {
+      "lemma": "it",
+      "pos": "pronoun",
+      "meaning": "A word for a thing or animal we already know about.",
+      "examples": [
+        "I have a cat. {It} is black."
+      ],
+      "wrong": [
+        "My aunt is a teacher, and it is very kind."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪt/"
+    },
+    {
+      "lemma": "we",
+      "pos": "pronoun",
+      "meaning": "A word for me and other people.",
+      "examples": [
+        "{We} are in the same class."
+      ],
+      "wrong": [
+        "I live all alone, and we are one person."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wi/"
+    },
+    {
+      "lemma": "they",
+      "pos": "pronoun",
+      "meaning": "A word for two or more people or things.",
+      "examples": [
+        "Tom and Ben are friends. {They} play football."
+      ],
+      "wrong": [
+        "My only sister is ten, and they like music."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ðeɪ/"
+    },
+    {
+      "lemma": "you",
+      "pos": "pronoun",
+      "meaning": "The person or people someone is talking to.",
+      "examples": [
+        "Are {you} hungry?"
+      ],
+      "wrong": [
+        "I’m talking to myself, so you are me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ju/"
+    },
+    {
+      "lemma": "me",
+      "pos": "pronoun",
+      "meaning": "A word the speaker uses for himself or herself.",
+      "examples": [
+        "Can you help {me}, please?"
+      ],
+      "wrong": [
+        "Give me the ball, so I never get it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/mi/"
+    },
+    {
+      "lemma": "them",
+      "pos": "pronoun",
+      "meaning": "A word for two or more people or things, after a verb.",
+      "examples": [
+        "I love my cats. I feed {them} every day."
+      ],
+      "wrong": [
+        "I have one dog and I walk them."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ðɛm/"
+    },
+    {
+      "lemma": "and",
+      "pos": "conjunction",
+      "meaning": "A word for joining two things together.",
+      "examples": [
+        "I like tea {and} coffee."
+      ],
+      "wrong": [
+        "I have a cat and a dog, so I have only one pet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "plus"
+      ],
+      "ipa": "/ænd/"
+    },
+    {
+      "lemma": "but",
+      "pos": "conjunction",
+      "meaning": "A word to add a different idea.",
+      "examples": [
+        "I like dogs, {but} I don’t like cats."
+      ],
+      "wrong": [
+        "I’m hungry, but I want to eat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "yet"
+      ],
+      "ipa": "/bʌt/"
+    },
+    {
+      "lemma": "or",
+      "pos": "conjunction",
+      "meaning": "A word to give a choice.",
+      "examples": [
+        "Do you want tea {or} coffee?"
+      ],
+      "wrong": [
+        "You can have tea or coffee, so you must drink both."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɔr/"
+    },
+    {
+      "lemma": "because",
+      "pos": "conjunction",
+      "meaning": "A word to give the reason.",
+      "examples": [
+        "I’m tired {because} I worked all day."
+      ],
+      "wrong": [
+        "I’m hungry because I just ate a big lunch."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "since",
+        "as"
+      ],
+      "ipa": "/bɪˈkɔz/"
+    },
+    {
+      "lemma": "if",
+      "pos": "conjunction",
+      "meaning": "A word to say what can happen when something else happens.",
+      "examples": [
+        "{If} it rains, we’ll stay home."
+      ],
+      "wrong": [
+        "If it rains, we’ll get wet in the sun."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪf/"
+    },
+    {
+      "lemma": "here",
+      "pos": "adverb",
+      "meaning": "In this place, near me.",
+      "examples": [
+        "Come {here} and sit next to me."
+      ],
+      "wrong": [
+        "I’m here, far away in another country."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɪr/",
+      "antonyms": [
+        "there"
+      ]
+    },
+    {
+      "lemma": "there",
+      "pos": "adverb",
+      "meaning": "In that place, not near me.",
+      "examples": [
+        "Put the box over {there}."
+      ],
+      "wrong": [
+        "The shop is there, right here in my hand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ðɛr/",
+      "antonyms": [
+        "here"
+      ]
+    },
+    {
+      "lemma": "very",
+      "pos": "adverb",
+      "meaning": "A word that makes another word stronger.",
+      "examples": [
+        "It’s {very} hot today."
+      ],
+      "wrong": [
+        "It’s very hot today, just a little warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "really"
+      ],
+      "ipa": "/ˈvɛri/"
+    },
+    {
+      "lemma": "also",
+      "pos": "adverb",
+      "meaning": "Too; as well.",
+      "examples": [
+        "I speak English. I {also} speak French."
+      ],
+      "wrong": [
+        "I like tea. I also don’t like anything."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "too",
+        "as well"
+      ],
+      "ipa": "/ˈɔlsoʊ/"
+    }
+  ]
+}

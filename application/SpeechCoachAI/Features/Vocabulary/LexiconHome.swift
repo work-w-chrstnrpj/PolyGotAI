@@ -24,6 +24,9 @@ struct LexiconHome: View {
             Text("A few words a day.").foregroundStyle(Kit.secondary).padding(.top, -Kit.Space.m)
             trainingCard
             if actionCount > 0 { actionRow }
+            if loaded, state.trainingGroups(in: bank, startLevel: startLevel).flatMap(\.words).count >= LexiconPracticeBuilder.minimumWords {
+                enricherRow
+            }
             trainingPacks
             yourPacks
             savedWordsRow
@@ -80,6 +83,14 @@ struct LexiconHome: View {
                               detail: "\(actionCount) \(actionCount == 1 ? "word" : "words") ready", showsChevron: true)
             }
         }.buttonStyle(.plain).accessibilityIdentifier("lexicon.action")
+    }
+
+    private var enricherRow: some View {
+        NavigationLink { LexiconPracticeView(storage: storage, bank: bank, mode: .enricher) } label: {
+            KitCard {
+                KitContentRow(symbol: "sparkles", title: "Vocabulary Enricher", detail: "Any word from your packs", showsChevron: true)
+            }
+        }.buttonStyle(.plain).accessibilityIdentifier("lexicon.enricher")
     }
 
     // MARK: Packs
@@ -189,13 +200,13 @@ private struct NewPackSheet: View {
 
     var body: some View {
         NavigationStack {
-            Form {
+            Form { KitRows {
                 Section {
                     TextField("Pack name", text: $title).accessibilityIdentifier("vocabulary.topic.title").dictation($title)
                     TextField("Subtopic, optional", text: $subtopic).accessibilityIdentifier("vocabulary.topic.subtopic").dictation($subtopic)
                 }
                 if let message { Text(message).foregroundStyle(Kit.error) }
-            }
+            }}
             .navigationTitle("New pack")
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }

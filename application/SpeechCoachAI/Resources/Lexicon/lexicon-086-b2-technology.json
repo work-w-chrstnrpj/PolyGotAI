@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-technology",
+    "title": "Technology and innovation",
+    "level": "B2",
+    "tagline": "Devices, data and new ideas",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "innovation",
+      "pos": "noun",
+      "meaning": "A new idea, method or product.",
+      "examples": [
+        "The phone was full of clever {innovations}."
+      ],
+      "wrong": [
+        "The innovation was the same old idea that everyone already used."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "invention",
+        "novelty"
+      ],
+      "ipa": "/ˌɪnəˈveɪʃən/"
+    },
+    {
+      "lemma": "innovative",
+      "pos": "adjective",
+      "meaning": "Using new and original ideas.",
+      "examples": [
+        "The company is known for its {innovative} designs."
+      ],
+      "wrong": [
+        "The design was innovative, so it copied an old model exactly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "creative",
+        "original",
+        "groundbreaking"
+      ],
+      "ipa": "/ˈɪnəˌveɪtɪv/",
+      "antonyms": [
+        "conventional",
+        "unoriginal"
+      ]
+    },
+    {
+      "lemma": "breakthrough",
+      "pos": "noun",
+      "meaning": "An important new discovery or development.",
+      "examples": [
+        "Scientists made a {breakthrough} in battery design."
+      ],
+      "wrong": [
+        "The breakthrough meant the research made no progress at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "advance",
+        "discovery"
+      ],
+      "ipa": "/ˈbreɪkˌθru/"
+    },
+    {
+      "lemma": "gadget",
+      "pos": "noun",
+      "meaning": "A small, useful tool or device.",
+      "examples": [
+        "He loves kitchen {gadgets}, like his electric garlic peeler."
+      ],
+      "wrong": [
+        "A gadget is a huge factory that builds ships."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "device"
+      ],
+      "ipa": "/ˈɡædʒɪt/"
+    },
+    {
+      "lemma": "broadband",
+      "pos": "noun",
+      "meaning": "A fast connection to the internet.",
+      "examples": [
+        "We finally got {broadband}, so videos load instantly."
+      ],
+      "wrong": [
+        "With broadband, it takes an hour to open one web page."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈbrɔdˌbænd/"
+    },
+    {
+      "lemma": "search engine",
+      "pos": "noun",
+      "meaning": "A website that helps you find information on the internet.",
+      "examples": [
+        "Type the question into a {search engine}."
+      ],
+      "wrong": [
+        "A search engine is the motor that makes a car go."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsɝtʃ ˌɛndʒɪn/"
+    },
+    {
+      "lemma": "automation",
+      "pos": "noun",
+      "meaning": "The use of machines and computers to do work instead of people.",
+      "examples": [
+        "{Automation} has replaced many factory jobs."
+      ],
+      "wrong": [
+        "Automation means every task is done by hand."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "mechanization"
+      ],
+      "ipa": "/ˌɔtəˈmeɪʃən/"
+    },
+    {
+      "lemma": "automate",
+      "pos": "verb",
+      "meaning": "To make a process work by machines instead of people.",
+      "examples": [
+        "The bank {automated} the payment process."
+      ],
+      "wrong": [
+        "They automated the job, so now ten people do it by hand."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "mechanize"
+      ],
+      "ipa": "/ˈɔtəˌmeɪt/"
+    },
+    {
+      "lemma": "virtual reality",
+      "pos": "noun",
+      "meaning": "Computer images that make you feel as if you are in a real place.",
+      "examples": [
+        "With a {virtual reality} headset, you can walk on the moon."
+      ],
+      "wrong": [
+        "Virtual reality is the real world you see with your own eyes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "VR"
+      ],
+      "ipa": "/ˈvɝtʃuəl riˈæləti/"
+    },
+    {
+      "lemma": "cutting-edge",
+      "pos": "adjective",
+      "meaning": "The newest and most advanced.",
+      "examples": [
+        "The lab uses {cutting-edge} equipment."
+      ],
+      "wrong": [
+        "The equipment was cutting-edge, so it was forty years old."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "state-of-the-art",
+        "advanced",
+        "latest"
+      ],
+      "ipa": "/ˈkʌtɪŋ ˈɛdʒ/",
+      "antonyms": [
+        "outdated",
+        "obsolete"
+      ]
+    },
+    {
+      "lemma": "state-of-the-art",
+      "pos": "adjective",
+      "meaning": "Using the most modern methods and materials.",
+      "examples": [
+        "The hospital has a {state-of-the-art} scanner."
+      ],
+      "wrong": [
+        "The gym is state-of-the-art, with broken machines from the 1970s."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cutting-edge",
+        "modern",
+        "advanced"
+      ],
+      "ipa": "/ˈsteɪt əv ði ˈɑrt/",
+      "antonyms": [
+        "outdated",
+        "obsolete"
+      ]
+    },
+    {
+      "lemma": "high-tech",
+      "pos": "adjective",
+      "meaning": "Using the most advanced technology.",
+      "examples": [
+        "The new office has a {high-tech} security system."
+      ],
+      "wrong": [
+        "The kitchen is high-tech, with only a wood fire and a bucket."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "advanced"
+      ],
+      "ipa": "/ˈhaɪ ˈtɛk/",
+      "antonyms": [
+        "low-tech"
+      ]
+    },
+    {
+      "lemma": "touchscreen",
+      "pos": "noun",
+      "meaning": "A screen that you control by touching it with your finger.",
+      "examples": [
+        "Tap the icon on the {touchscreen} to open the app."
+      ],
+      "wrong": [
+        "A touchscreen only works when you use a mouse and keyboard."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtʌtʃˌskrin/"
+    },
+    {
+      "lemma": "cursor",
+      "pos": "noun",
+      "meaning": "The small mark on a screen that shows where you are typing or pointing.",
+      "examples": [
+        "Move the {cursor} to the end of the line."
+      ],
+      "wrong": [
+        "The cursor is the plug at the back of the computer."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pointer"
+      ],
+      "ipa": "/ˈkɝsɚ/"
+    },
+    {
+      "lemma": "encrypt",
+      "pos": "verb",
+      "meaning": "To change information into a secret code so others cannot read it.",
+      "examples": [
+        "The app {encrypts} all your messages."
+      ],
+      "wrong": [
+        "They encrypted the file so anyone could read it easily."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "encode"
+      ],
+      "ipa": "/ɛnˈkrɪpt/",
+      "antonyms": [
+        "decrypt"
+      ]
+    },
+    {
+      "lemma": "hacker",
+      "pos": "noun",
+      "meaning": "A person who secretly gets into other people’s computer systems.",
+      "examples": [
+        "A {hacker} stole thousands of passwords."
+      ],
+      "wrong": [
+        "A hacker is someone who never uses a computer."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhækɚ/"
+    },
+    {
+      "lemma": "cyberattack",
+      "pos": "noun",
+      "meaning": "An attempt to damage or steal from a computer system.",
+      "examples": [
+        "The bank’s website went down after a {cyberattack}."
+      ],
+      "wrong": [
+        "A cyberattack is when a company protects its computers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsaɪbɚəˌtæk/"
+    },
+    {
+      "lemma": "back up",
+      "pos": "verb",
+      "meaning": "To make a copy of computer files in case the originals are lost.",
+      "examples": [
+        "Always {back up} your photos before updating your phone."
+      ],
+      "wrong": [
+        "I backed up my files, so I lost every one of them when the phone broke."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "copy",
+        "save"
+      ],
+      "ipa": "/ˈbæk ˈʌp/"
+    },
+    {
+      "lemma": "glitch",
+      "pos": "noun",
+      "meaning": "A small problem that stops something working properly.",
+      "examples": [
+        "A {glitch} in the system delayed all the flights."
+      ],
+      "wrong": [
+        "The glitch made the program work perfectly."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "bug",
+        "fault",
+        "hiccup"
+      ],
+      "ipa": "/ɡlɪtʃ/"
+    },
+    {
+      "lemma": "bug",
+      "pos": "noun",
+      "meaning": "A mistake in a computer program that makes it work badly.",
+      "examples": [
+        "The update fixes a {bug} that made the app close."
+      ],
+      "wrong": [
+        "The bug made the program run faster and better."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "glitch",
+        "error",
+        "flaw"
+      ],
+      "ipa": "/bʌɡ/"
+    },
+    {
+      "lemma": "user-friendly",
+      "pos": "adjective",
+      "meaning": "Easy for people to use or understand.",
+      "examples": [
+        "The new website is very {user-friendly}."
+      ],
+      "wrong": [
+        "The app is so user-friendly that nobody can work out how to use it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "easy to use",
+        "simple"
+      ],
+      "ipa": "/ˈjuzɚ ˈfrɛndli/",
+      "antonyms": [
+        "complicated"
+      ]
+    },
+    {
+      "lemma": "compatible",
+      "pos": "adjective",
+      "meaning": "Able to work with another device or program.",
+      "examples": [
+        "This charger isn’t {compatible} with my phone."
+      ],
+      "wrong": [
+        "The printer is compatible with my laptop, so they can’t work together."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəmˈpætəbəl/",
+      "antonyms": [
+        "incompatible"
+      ]
+    },
+    {
+      "lemma": "outdated",
+      "pos": "adjective",
+      "meaning": "Old and no longer useful or modern.",
+      "examples": [
+        "Our school computers are badly {outdated}."
+      ],
+      "wrong": [
+        "The phone is outdated, so it is the newest model in the shop."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "old-fashioned",
+        "obsolete"
+      ],
+      "ipa": "/ˌaʊtˈdeɪtɪd/",
+      "antonyms": [
+        "modern",
+        "up-to-date"
+      ]
+    },
+    {
+      "lemma": "technician",
+      "pos": "noun",
+      "meaning": "A person whose job is to look after or repair technical equipment.",
+      "examples": [
+        "A {technician} came to fix our internet connection."
+      ],
+      "wrong": [
+        "The technician has no idea how machines work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/tɛkˈnɪʃən/"
+    },
+    {
+      "lemma": "troubleshoot",
+      "pos": "verb",
+      "meaning": "To find and fix problems in a system or machine.",
+      "examples": [
+        "I spent an hour {troubleshooting} the printer."
+      ],
+      "wrong": [
+        "He troubleshot the problem by ignoring it completely."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "debug"
+      ],
+      "ipa": "/ˈtrʌbəlˌʃut/"
+    },
+    {
+      "lemma": "sensor",
+      "pos": "noun",
+      "meaning": "A device that notices changes such as heat, light or movement.",
+      "examples": [
+        "The lights turn on when the {sensor} detects movement."
+      ],
+      "wrong": [
+        "The sensor can’t notice anything around it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "detector"
+      ],
+      "ipa": "/ˈsɛnsɚ/"
+    },
+    {
+      "lemma": "drone",
+      "pos": "noun",
+      "meaning": "A small aircraft without a pilot, controlled from the ground.",
+      "examples": [
+        "They filmed the wedding with a {drone}."
+      ],
+      "wrong": [
+        "A drone is a large plane with a hundred passengers and two pilots."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/droʊn/"
+    },
+    {
+      "lemma": "wearable",
+      "pos": "adjective",
+      "meaning": "Designed to be worn on the body.",
+      "examples": [
+        "A fitness band is a popular {wearable} device."
+      ],
+      "wrong": [
+        "A wearable gadget is one you must leave on your desk."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈwɛrəbəl/"
+    },
+    {
+      "lemma": "pixel",
+      "pos": "noun",
+      "meaning": "One of the tiny dots that make up an image on a screen.",
+      "examples": [
+        "The photo is blurry because it has too few {pixels}."
+      ],
+      "wrong": [
+        "A pixel is a huge picture that covers a whole wall."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "dot"
+      ],
+      "ipa": "/ˈpɪksəl/"
+    },
+    {
+      "lemma": "processor",
+      "pos": "noun",
+      "meaning": "The part of a computer that does the calculations and controls it.",
+      "examples": [
+        "The laptop has a fast {processor}, so games run smoothly."
+      ],
+      "wrong": [
+        "The processor is the bag you carry your laptop in."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "chip",
+        "CPU"
+      ],
+      "ipa": "/ˈprɑsɛsɚ/"
+    },
+    {
+      "lemma": "spam",
+      "pos": "noun",
+      "meaning": "Unwanted emails or messages, usually advertising, sent to many people.",
+      "examples": [
+        "My inbox is full of {spam} about cheap watches."
+      ],
+      "wrong": [
+        "Spam is the personal email your best friend sends you."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "junk mail"
+      ],
+      "ipa": "/spæm/"
+    },
+    {
+      "lemma": "machine learning",
+      "pos": "noun",
+      "meaning": "A way of making computers improve at tasks by learning from large amounts of data.",
+      "examples": [
+        "The app uses {machine learning} to suggest songs you might like."
+      ],
+      "wrong": [
+        "Machine learning means a computer can never change how it works."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/məˈʃin ˈlɝnɪŋ/"
+    },
+    {
+      "lemma": "storage",
+      "pos": "noun",
+      "meaning": "Space on a device for keeping files and data.",
+      "examples": [
+        "My phone has run out of {storage} for new photos."
+      ],
+      "wrong": [
+        "With more storage, you can keep fewer files."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "memory",
+        "space"
+      ],
+      "ipa": "/ˈstɔrɪdʒ/"
+    },
+    {
+      "lemma": "tech-savvy",
+      "pos": "adjective",
+      "meaning": "Knowing a lot about modern technology and how to use it.",
+      "examples": [
+        "My {tech-savvy} niece set up my new phone in minutes."
+      ],
+      "wrong": [
+        "He’s very tech-savvy, so he can’t turn on a computer."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈtɛk ˌsævi/"
+    },
+    {
+      "lemma": "early adopter",
+      "pos": "noun",
+      "meaning": "A person who starts using a new product or technology as soon as it appears.",
+      "examples": [
+        "As an {early adopter}, he bought the first model on launch day."
+      ],
+      "wrong": [
+        "She’s an early adopter, so she waits ten years before buying anything new."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɝli əˈdɑptɚ/"
+    },
+    {
+      "lemma": "inventor",
+      "pos": "noun",
+      "meaning": "A person who designs or makes something new for the first time.",
+      "examples": [
+        "The {inventor} of the telephone changed how people talk."
+      ],
+      "wrong": [
+        "An inventor only copies things that other people made."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "creator"
+      ],
+      "ipa": "/ɪnˈvɛntɚ/"
+    },
+    {
+      "lemma": "robotics",
+      "pos": "noun",
+      "meaning": "The science of designing and building robots.",
+      "examples": [
+        "She is studying {robotics} at college."
+      ],
+      "wrong": [
+        "Robotics is the study of old poems."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/roʊˈbɑtɪks/"
+    },
+    {
+      "lemma": "reboot",
+      "pos": "verb",
+      "meaning": "To turn a computer off and on again.",
+      "examples": [
+        "If the screen freezes, try {rebooting} the computer."
+      ],
+      "wrong": [
+        "He rebooted the laptop by leaving it on all night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "restart"
+      ],
+      "ipa": "/riˈbut/"
+    },
+    {
+      "lemma": "patent",
+      "pos": "noun",
+      "meaning": "A legal right to be the only one who makes or sells an invention for a time.",
+      "examples": [
+        "She applied for a {patent} on her new design."
+      ],
+      "wrong": [
+        "With a patent, anyone can copy and sell your invention freely."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/ˈpætənt/"
+    },
+    {
+      "lemma": "crash",
+      "pos": "verb",
+      "meaning": "To suddenly stop working, said of a computer or program.",
+      "examples": [
+        "My laptop {crashed} and I lost my work."
+      ],
+      "wrong": [
+        "The program crashed, so it kept running smoothly all day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "freeze",
+        "fail"
+      ],
+      "ipa": "/kræʃ/"
+    }
+  ]
+}

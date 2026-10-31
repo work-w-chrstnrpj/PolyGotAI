@@ -24,6 +24,10 @@ struct LexiconWord: Codable, Equatable, Identifiable {
     var groupId: String = ""
     /// Words with a close meaning, for the synonym question in Practice. Empty when none fits (idioms, function words).
     var synonyms: [String] = []
+    /// General American pronunciation in IPA, between slashes ("/ɪˈfɛmərəl/"). Nil for words without one yet.
+    var ipa: String?
+    /// True opposites in this meaning, for the antonym question in Vocabulary Enricher. Often empty.
+    var antonyms: [String] = []
 
     init(lemma: String, pos: String, meaning: String, examples: [String], wrong: [String],
          cefr: String = "", register: String = "everyday", id: String = "", groupId: String = "") {
@@ -31,7 +35,7 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         self.cefr = cefr; self.register = register; self.id = id; self.groupId = groupId
     }
 
-    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong, cefr, register, id, synonyms }
+    private enum CodingKeys: String, CodingKey { case lemma, pos, meaning, examples, wrong, cefr, register, id, synonyms, ipa, antonyms }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -44,6 +48,8 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         register = try container.decodeIfPresent(String.self, forKey: .register) ?? "everyday"
         id = try container.decodeIfPresent(String.self, forKey: .id) ?? ""
         synonyms = try container.decodeIfPresent([String].self, forKey: .synonyms) ?? []
+        ipa = try container.decodeIfPresent(String.self, forKey: .ipa)
+        antonyms = try container.decodeIfPresent([String].self, forKey: .antonyms) ?? []
     }
 
     func encode(to encoder: Encoder) throws {
@@ -53,6 +59,8 @@ struct LexiconWord: Codable, Equatable, Identifiable {
         try container.encode(wrong, forKey: .wrong); try container.encode(cefr, forKey: .cefr)
         try container.encode(register, forKey: .register); try container.encode(id, forKey: .id)
         if !synonyms.isEmpty { try container.encode(synonyms, forKey: .synonyms) }
+        try container.encodeIfPresent(ipa, forKey: .ipa)
+        if !antonyms.isEmpty { try container.encode(antonyms, forKey: .antonyms) }
     }
 
     var itemId: String { "lex.\(id)" }

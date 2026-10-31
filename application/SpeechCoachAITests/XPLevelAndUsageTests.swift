@@ -178,6 +178,10 @@ struct XPLevelAndUsageTests {
         #expect(report.total(.day, containing: date(20)) == 2_700)
     }
 
+    @Test func theSevenDayAverageCountsEmptyDaysAsZero() {
+        #expect(report().average(before: date(8)) == 13_200 / 7)
+    }
+
     @Test func daysUsedAndLifetimeTotals() {
         let report = report()
         #expect(report.daysUsed(.week, containing: date(7)) == 3)

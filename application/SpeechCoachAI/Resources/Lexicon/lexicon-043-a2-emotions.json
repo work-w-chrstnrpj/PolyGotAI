@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-emotions",
+    "title": "Emotions",
+    "level": "A2",
+    "tagline": "How people feel",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "furious",
+      "pos": "adjective",
+      "meaning": "Extremely angry.",
+      "examples": [
+        "She was {furious} when someone broke her new phone."
+      ],
+      "wrong": [
+        "He was furious, so he thanked them and smiled."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "livid",
+        "very angry"
+      ],
+      "ipa": "/ˈfjʊriəs/"
+    },
+    {
+      "lemma": "amused",
+      "pos": "adjective",
+      "meaning": "Finding something funny.",
+      "examples": [
+        "The children were {amused} by the clown’s silly tricks."
+      ],
+      "wrong": [
+        "He was amused by the joke, so he never laughed or smiled."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "entertained"
+      ],
+      "ipa": "/əˈmjuzd/"
+    },
+    {
+      "lemma": "miserable",
+      "pos": "adjective",
+      "meaning": "Very unhappy.",
+      "examples": [
+        "I felt {miserable} when I had the flu."
+      ],
+      "wrong": [
+        "She felt miserable, so she smiled and danced all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "unhappy",
+        "sad"
+      ],
+      "ipa": "/ˈmɪzərəbəl/",
+      "antonyms": [
+        "cheerful"
+      ]
+    },
+    {
+      "lemma": "delighted",
+      "pos": "adjective",
+      "meaning": "Very happy and pleased.",
+      "examples": [
+        "We were {delighted} to hear your good news."
+      ],
+      "wrong": [
+        "He was delighted by the news and shouted in anger."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "thrilled",
+        "overjoyed"
+      ],
+      "ipa": "/dɪˈlaɪtɪd/"
+    },
+    {
+      "lemma": "unpleasant",
+      "pos": "adjective",
+      "meaning": "Not nice; making you feel bad.",
+      "examples": [
+        "The smell in the bus was very {unpleasant}."
+      ],
+      "wrong": [
+        "The beautiful, unpleasant day made everyone smile."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "nasty",
+        "horrible"
+      ],
+      "ipa": "/ʌnˈplɛzənt/"
+    },
+    {
+      "lemma": "thankful",
+      "pos": "adjective",
+      "meaning": "Feeling glad that someone helped you or that something good happened.",
+      "examples": [
+        "I am {thankful} for my family."
+      ],
+      "wrong": [
+        "She was thankful for the help, so she was angry with them."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "grateful"
+      ],
+      "ipa": "/ˈθæŋkfəl/"
+    },
+    {
+      "lemma": "confused",
+      "pos": "adjective",
+      "meaning": "Not able to understand something clearly.",
+      "examples": [
+        "I was {confused} by the long instructions."
+      ],
+      "wrong": [
+        "He was confused because everything was perfectly clear."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "puzzled"
+      ],
+      "ipa": "/kənˈfjuzd/",
+      "antonyms": [
+        "clear-headed"
+      ]
+    },
+    {
+      "lemma": "pride",
+      "pos": "noun",
+      "meaning": "A good feeling about something you or someone close to you has done.",
+      "examples": [
+        "She smiled with {pride} when her son won."
+      ],
+      "wrong": [
+        "He felt pride because he had done something terrible."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/praɪd/"
+    },
+    {
+      "lemma": "boredom",
+      "pos": "noun",
+      "meaning": "The feeling you have when nothing interests you.",
+      "examples": [
+        "I started drawing on my notes out of {boredom}."
+      ],
+      "wrong": [
+        "The film was so exciting that I yawned with boredom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɔrdəm/"
+    },
+    {
+      "lemma": "embarrassment",
+      "pos": "noun",
+      "meaning": "The feeling of being shy or silly in front of other people.",
+      "examples": [
+        "His face went red with {embarrassment}."
+      ],
+      "wrong": [
+        "She felt embarrassment because everyone praised her quietly in private."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪmˈbɛrəsmənt/"
+    },
+    {
+      "lemma": "disappointment",
+      "pos": "noun",
+      "meaning": "The sad feeling when something is not as good as you hoped.",
+      "examples": [
+        "To our {disappointment}, the concert was canceled."
+      ],
+      "wrong": [
+        "It was a disappointment, much better than we ever hoped."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "letdown"
+      ],
+      "ipa": "/ˌdɪsəˈpɔɪntmənt/"
+    },
+    {
+      "lemma": "delight",
+      "pos": "noun",
+      "meaning": "A feeling of great pleasure.",
+      "examples": [
+        "The kids shouted with {delight} when they saw the puppy."
+      ],
+      "wrong": [
+        "To her delight, she failed every test."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "joy",
+        "pleasure"
+      ],
+      "ipa": "/dɪˈlaɪt/"
+    },
+    {
+      "lemma": "shocked",
+      "pos": "adjective",
+      "meaning": "Very surprised and upset by something bad you did not expect.",
+      "examples": [
+        "We were {shocked} by the news of the accident."
+      ],
+      "wrong": [
+        "She was shocked, because she knew it would happen all along."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stunned"
+      ],
+      "ipa": "/ʃɑkt/"
+    },
+    {
+      "lemma": "feel down",
+      "pos": "verb",
+      "meaning": "To feel sad and without energy for a while.",
+      "examples": [
+        "I {feel down} when it rains all week."
+      ],
+      "wrong": [
+        "He felt down, so he was full of energy and joy."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/ˈfil ˈdaʊn/"
+    },
+    {
+      "lemma": "excitement",
+      "pos": "noun",
+      "meaning": "A feeling of being very happy and eager about something.",
+      "examples": [
+        "The children could hardly sleep from {excitement}."
+      ],
+      "wrong": [
+        "Full of excitement, he yawned and fell asleep, bored."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪkˈsaɪtmənt/"
+    },
+    {
+      "lemma": "in a good mood",
+      "pos": "phrase",
+      "meaning": "Feeling happy and friendly.",
+      "examples": [
+        "Dad is {in a good mood} today, so let’s ask him."
+      ],
+      "wrong": [
+        "She was in a good mood, so she shouted at everyone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪn ə ˈɡʊd ˈmud/",
+      "antonyms": [
+        "in a bad mood"
+      ]
+    },
+    {
+      "lemma": "in a bad mood",
+      "pos": "phrase",
+      "meaning": "Feeling angry or unhappy for a while.",
+      "examples": [
+        "Don’t talk to him; he’s {in a bad mood}."
+      ],
+      "wrong": [
+        "He was in a bad mood, smiling and joking with everyone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪn ə ˈbæd ˈmud/",
+      "antonyms": [
+        "in a good mood"
+      ]
+    },
+    {
+      "lemma": "upsetting",
+      "pos": "adjective",
+      "meaning": "Making you feel sad or worried.",
+      "examples": [
+        "The news about the fire was very {upsetting}."
+      ],
+      "wrong": [
+        "The upsetting news made everyone cheerful."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "distressing"
+      ],
+      "ipa": "/ʌpˈsɛtɪŋ/"
+    },
+    {
+      "lemma": "frightening",
+      "pos": "adjective",
+      "meaning": "Making you feel afraid.",
+      "examples": [
+        "The storm was {frightening}, with loud thunder all night."
+      ],
+      "wrong": [
+        "The frightening story made us feel safe and calm."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "scary",
+        "terrifying"
+      ],
+      "ipa": "/ˈfraɪtənɪŋ/"
+    },
+    {
+      "lemma": "sigh",
+      "pos": "verb",
+      "meaning": "To breathe out slowly and loudly because you are tired, sad or relieved.",
+      "examples": [
+        "He {sighed} and sat down after the long day."
+      ],
+      "wrong": [
+        "She sighed by breathing in fast and holding her breath."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/saɪ/"
+    },
+    {
+      "lemma": "blush",
+      "pos": "verb",
+      "meaning": "When your face goes red because you feel shy or embarrassed.",
+      "examples": [
+        "She {blushed} when he said she was pretty."
+      ],
+      "wrong": [
+        "He blushed, and his face went completely white."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/blʌʃ/"
+    },
+    {
+      "lemma": "worried sick",
+      "pos": "phrase",
+      "meaning": "Very anxious about something, so you cannot stop thinking about it.",
+      "examples": [
+        "Mom was {worried sick} when I came home late."
+      ],
+      "wrong": [
+        "She was worried sick, so she felt calm and slept well."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/ˈwɝid ˈsɪk/"
+    },
+    {
+      "lemma": "tremble",
+      "pos": "verb",
+      "meaning": "To shake a little because you are afraid, nervous or cold.",
+      "examples": [
+        "Her hands {trembled} before the big speech."
+      ],
+      "wrong": [
+        "He trembled with fear while his body stayed perfectly still."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shake",
+        "shiver"
+      ],
+      "ipa": "/ˈtrɛmbəl/"
+    },
+    {
+      "lemma": "hopeful",
+      "pos": "adjective",
+      "meaning": "Feeling that something good will happen.",
+      "examples": [
+        "We are {hopeful} that she will get better soon."
+      ],
+      "wrong": [
+        "He felt hopeful because he was sure everything would go wrong."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "optimistic"
+      ],
+      "ipa": "/ˈhoʊpfəl/",
+      "antonyms": [
+        "hopeless"
+      ]
+    },
+    {
+      "lemma": "satisfied",
+      "pos": "adjective",
+      "meaning": "Pleased because you got what you wanted.",
+      "examples": [
+        "Are you {satisfied} with your new phone?"
+      ],
+      "wrong": [
+        "She was satisfied with the meal, so she complained to the cook."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "content"
+      ],
+      "ipa": "/ˈsætɪsˌfaɪd/",
+      "antonyms": [
+        "dissatisfied"
+      ]
+    },
+    {
+      "lemma": "emotional",
+      "pos": "adjective",
+      "meaning": "Having or showing strong feelings.",
+      "examples": [
+        "She got very {emotional} at her daughter’s wedding."
+      ],
+      "wrong": [
+        "He was very emotional and showed no feelings at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪˈmoʊʃənəl/"
+    },
+    {
+      "lemma": "peaceful",
+      "pos": "adjective",
+      "meaning": "Calm and quiet, without worry.",
+      "examples": [
+        "I feel {peaceful} when I sit by the lake."
+      ],
+      "wrong": [
+        "The peaceful crowd shouted and fought all night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "calm",
+        "quiet"
+      ],
+      "ipa": "/ˈpisfəl/",
+      "antonyms": [
+        "violent"
+      ]
+    },
+    {
+      "lemma": "comfort",
+      "pos": "verb",
+      "meaning": "To make someone feel less sad or worried.",
+      "examples": [
+        "She {comforted} her friend after the bad news."
+      ],
+      "wrong": [
+        "He comforted the crying child by shouting at her."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "console"
+      ],
+      "ipa": "/ˈkʌmfɚt/"
+    },
+    {
+      "lemma": "embarrassing",
+      "pos": "adjective",
+      "meaning": "Making you feel shy, silly or ashamed in front of others.",
+      "examples": [
+        "Falling over on stage was so {embarrassing}."
+      ],
+      "wrong": [
+        "It was embarrassing, so I felt proud and relaxed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪmˈbɛrəsɪŋ/"
+    },
+    {
+      "lemma": "disappointing",
+      "pos": "adjective",
+      "meaning": "Not as good as you hoped.",
+      "examples": [
+        "The ending of the book was {disappointing}."
+      ],
+      "wrong": [
+        "The meal was disappointing; it was even better than we hoped."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌdɪsəˈpɔɪntɪŋ/"
+    },
+    {
+      "lemma": "annoying",
+      "pos": "adjective",
+      "meaning": "Making you a little angry.",
+      "examples": [
+        "The noise from next door is really {annoying}."
+      ],
+      "wrong": [
+        "The music was annoying, so it made me feel calm and happy."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "irritating"
+      ],
+      "ipa": "/əˈnɔɪɪŋ/"
+    },
+    {
+      "lemma": "relaxing",
+      "pos": "adjective",
+      "meaning": "Making you feel calm and rested.",
+      "examples": [
+        "A hot bath is very {relaxing}."
+      ],
+      "wrong": [
+        "The relaxing film made my heart race with fear."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "restful",
+        "calming"
+      ],
+      "ipa": "/rɪˈlæksɪŋ/",
+      "antonyms": [
+        "stressful"
+      ]
+    },
+    {
+      "lemma": "uncomfortable",
+      "pos": "adjective",
+      "meaning": "Feeling worried or embarrassed, not at ease.",
+      "examples": [
+        "I felt {uncomfortable} when they started to argue."
+      ],
+      "wrong": [
+        "She felt uncomfortable, completely calm and at ease."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "uneasy"
+      ],
+      "ipa": "/ʌnˈkʌmftɚbəl/",
+      "antonyms": [
+        "comfortable"
+      ]
+    },
+    {
+      "lemma": "happily",
+      "pos": "adverb",
+      "meaning": "In a happy way.",
+      "examples": [
+        "The children played {happily} in the garden."
+      ],
+      "wrong": [
+        "She smiled happily, feeling sad and angry inside."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cheerfully"
+      ],
+      "ipa": "/ˈhæpɪli/"
+    },
+    {
+      "lemma": "tears",
+      "pos": "noun",
+      "meaning": "Drops of water that come from your eyes when you cry.",
+      "examples": [
+        "{Tears} ran down her face at the sad ending."
+      ],
+      "wrong": [
+        "He wiped the tears from his dry eyes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tɪrz/"
+    },
+    {
+      "lemma": "laughter",
+      "pos": "noun",
+      "meaning": "The happy sound people make when something is funny.",
+      "examples": [
+        "The room was full of {laughter}."
+      ],
+      "wrong": [
+        "Their loud laughter showed how sad they were."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈlæftɚ/"
+    },
+    {
+      "lemma": "panic",
+      "pos": "verb",
+      "meaning": "To suddenly feel so afraid that you can’t think clearly.",
+      "examples": [
+        "Don’t {panic}; just walk to the exit slowly."
+      ],
+      "wrong": [
+        "He panicked and stayed perfectly calm and thoughtful."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpænɪk/"
+    },
+    {
+      "lemma": "feel sorry for",
+      "pos": "phrase",
+      "meaning": "To feel sad for someone because they have a problem.",
+      "examples": [
+        "I {feel sorry for} her because she lost her job."
+      ],
+      "wrong": [
+        "I felt sorry for him because he won a big prize."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pity"
+      ],
+      "ipa": "/ˈfil ˈsɑri fɚ/"
+    },
+    {
+      "lemma": "stressful",
+      "pos": "adjective",
+      "meaning": "Making you feel worried and under pressure.",
+      "examples": [
+        "Moving house is very {stressful}."
+      ],
+      "wrong": [
+        "It was a stressful day, so I felt totally relaxed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstrɛsfəl/",
+      "antonyms": [
+        "relaxing"
+      ]
+    },
+    {
+      "lemma": "grin",
+      "pos": "verb",
+      "meaning": "To smile widely.",
+      "examples": [
+        "He {grinned} when he saw his present."
+      ],
+      "wrong": [
+        "She grinned with a sad, closed mouth."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "beam"
+      ],
+      "ipa": "/ɡrɪn/",
+      "antonyms": [
+        "frown"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-idioms",
+    "title": "Common idioms",
+    "level": "B2",
+    "tagline": "Everyday expressions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "keep an eye on",
+      "pos": "phrase",
+      "meaning": "To watch someone or something carefully so nothing goes wrong.",
+      "examples": [
+        "Could you {keep an eye on} my bag while I buy a coffee?"
+      ],
+      "wrong": [
+        "I kept an eye on the soup, so I had no idea it was boiling over."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "watch",
+        "look after"
+      ],
+      "ipa": "/kip ən aɪ ɑn/"
+    },
+    {
+      "lemma": "pull someone’s leg",
+      "pos": "phrase",
+      "meaning": "To tell someone something untrue as a friendly joke.",
+      "examples": [
+        "Relax, I’m only {pulling your leg} about the extra homework."
+      ],
+      "wrong": [
+        "He was pulling my leg, so every word he said was a serious fact."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "tease",
+        "kid"
+      ],
+      "ipa": "/pʊl ˈsʌmˌwʌnz lɛɡ/"
+    },
+    {
+      "lemma": "out of the blue",
+      "pos": "phrase",
+      "meaning": "Suddenly and without any warning.",
+      "examples": [
+        "My old school friend called me {out of the blue} last night."
+      ],
+      "wrong": [
+        "The visit came out of the blue because we had planned it for months."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "unexpectedly",
+        "suddenly"
+      ],
+      "ipa": "/aʊt əv ðə blu/"
+    },
+    {
+      "lemma": "play it by ear",
+      "pos": "phrase",
+      "meaning": "To decide what to do as things happen, without a fixed plan.",
+      "examples": [
+        "We don’t know the weather yet, so let’s {play it by ear}."
+      ],
+      "wrong": [
+        "We played it by ear and followed a detailed plan written weeks before."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "improvise"
+      ],
+      "ipa": "/pleɪ ɪt baɪ ɪr/"
+    },
+    {
+      "lemma": "steal the show",
+      "pos": "phrase",
+      "meaning": "To get the most attention and praise at an event.",
+      "examples": [
+        "The youngest dancer {stole the show} with her solo."
+      ],
+      "wrong": [
+        "She stole the show, so nobody in the audience noticed her at all."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "shine"
+      ],
+      "ipa": "/stil ðə ʃoʊ/"
+    },
+    {
+      "lemma": "keep your chin up",
+      "pos": "phrase",
+      "meaning": "To stay brave and hopeful when things are hard.",
+      "examples": [
+        "{Keep your chin up}; the next exam will go better."
+      ],
+      "wrong": [
+        "Keep your chin up and give up hope completely."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/kip jɚ tʃɪn ʌp/"
+    },
+    {
+      "lemma": "a dime a dozen",
+      "pos": "phrase",
+      "meaning": "Very common and so not special or valuable.",
+      "examples": [
+        "Cheap sunglasses are {a dime a dozen} at the beach."
+      ],
+      "wrong": [
+        "This stamp is a dime a dozen; there are only two in the world."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "common",
+        "ordinary"
+      ],
+      "ipa": "/ə daɪm ə ˈdʌzən/"
+    },
+    {
+      "lemma": "on the ball",
+      "pos": "phrase",
+      "meaning": "Quick to understand and react; alert and well organized.",
+      "examples": [
+        "Our new assistant is really {on the ball}."
+      ],
+      "wrong": [
+        "He’s so on the ball that he forgets every meeting."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "alert",
+        "sharp"
+      ],
+      "ipa": "/ɑn ðə bɔl/"
+    },
+    {
+      "lemma": "word of mouth",
+      "pos": "phrase",
+      "meaning": "News passed from one person to another by talking, not by ads.",
+      "examples": [
+        "The little cafe became popular by {word of mouth}."
+      ],
+      "wrong": [
+        "We spread it by word of mouth, using only TV commercials."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/wɝd əv maʊθ/"
+    },
+    {
+      "lemma": "get the hang of",
+      "pos": "phrase",
+      "meaning": "To learn how to do something after some practice.",
+      "examples": [
+        "Skiing is hard at first, but you’ll {get the hang of} it."
+      ],
+      "wrong": [
+        "I got the hang of driving, so I still can’t start the car."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "master",
+        "pick up"
+      ],
+      "ipa": "/ɡɛt ðə hæŋ əv/"
+    },
+    {
+      "lemma": "hit the road",
+      "pos": "phrase",
+      "meaning": "To leave a place and start a journey.",
+      "examples": [
+        "It’s getting late; we should {hit the road}."
+      ],
+      "wrong": [
+        "We hit the road and stayed at home all weekend."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "set off",
+        "leave"
+      ],
+      "ipa": "/hɪt ðə roʊd/"
+    },
+    {
+      "lemma": "in the same boat",
+      "pos": "phrase",
+      "meaning": "In the same difficult situation as someone else.",
+      "examples": [
+        "Don’t worry about the late train; we’re all {in the same boat}."
+      ],
+      "wrong": [
+        "We were in the same boat: I had problems and she had none."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɪn ðə seɪm boʊt/"
+    },
+    {
+      "lemma": "through thick and thin",
+      "pos": "phrase",
+      "meaning": "In good times and bad times, always loyally.",
+      "examples": [
+        "My sister has supported me {through thick and thin}."
+      ],
+      "wrong": [
+        "He stayed with me through thick and thin, but left at the first problem."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/θru θɪk ən θɪn/"
+    },
+    {
+      "lemma": "let the cat out of the bag",
+      "pos": "phrase",
+      "meaning": "To tell a secret by mistake.",
+      "examples": [
+        "Tom {let the cat out of the bag} about the surprise party."
+      ],
+      "wrong": [
+        "She let the cat out of the bag, so the secret stayed safe."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "give away"
+      ],
+      "ipa": "/lɛt ðə kæt aʊt əv ðə bæɡ/"
+    },
+    {
+      "lemma": "go with the flow",
+      "pos": "phrase",
+      "meaning": "To accept what happens and not fight against it.",
+      "examples": [
+        "On holiday I just {go with the flow} and see what happens."
+      ],
+      "wrong": [
+        "He goes with the flow and argues about every small change."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɡoʊ wɪð ðə floʊ/"
+    },
+    {
+      "lemma": "sit tight",
+      "pos": "phrase",
+      "meaning": "To wait patiently and not take any action yet.",
+      "examples": [
+        "{Sit tight}; the doctor will see you in a few minutes."
+      ],
+      "wrong": [
+        "Sit tight and run outside right now."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "wait"
+      ],
+      "ipa": "/sɪt taɪt/"
+    },
+    {
+      "lemma": "over the moon",
+      "pos": "phrase",
+      "meaning": "Extremely happy and pleased.",
+      "examples": [
+        "She was {over the moon} when she got the job."
+      ],
+      "wrong": [
+        "I was over the moon about failing my test."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "delighted",
+        "thrilled"
+      ],
+      "ipa": "/ˈoʊvɚ ðə mun/",
+      "antonyms": [
+        "miserable"
+      ]
+    },
+    {
+      "lemma": "down to earth",
+      "pos": "phrase",
+      "meaning": "Practical, sensible and friendly, not proud.",
+      "examples": [
+        "Despite being famous, the actor is very {down to earth}."
+      ],
+      "wrong": [
+        "She’s so down to earth that she won’t talk to ordinary people."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "practical",
+        "unpretentious"
+      ],
+      "ipa": "/daʊn tə ɝθ/"
+    },
+    {
+      "lemma": "a long shot",
+      "pos": "phrase",
+      "meaning": "Something that has only a small chance of success.",
+      "examples": [
+        "Winning the prize is {a long shot}, but I’ll try."
+      ],
+      "wrong": [
+        "It’s a long shot, so it’s sure to happen."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ə lɔŋ ʃɑt/"
+    },
+    {
+      "lemma": "in a nutshell",
+      "pos": "phrase",
+      "meaning": "Said in a very short and simple way.",
+      "examples": [
+        "{In a nutshell}, we need more money and more time."
+      ],
+      "wrong": [
+        "In a nutshell, let me explain it all in a two-hour speech."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "briefly",
+        "in short"
+      ],
+      "ipa": "/ɪn ə ˈnʌtˌʃɛl/"
+    },
+    {
+      "lemma": "a change of heart",
+      "pos": "phrase",
+      "meaning": "A change in what you think or feel about something.",
+      "examples": [
+        "He had {a change of heart} and decided to stay."
+      ],
+      "wrong": [
+        "She had a change of heart and kept exactly the same opinion."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ə tʃeɪndʒ əv hɑrt/"
+    },
+    {
+      "lemma": "come rain or shine",
+      "pos": "phrase",
+      "meaning": "Whatever happens, in any weather or situation.",
+      "examples": [
+        "He walks his dog every morning, {come rain or shine}."
+      ],
+      "wrong": [
+        "We’ll play the match come rain or shine, but not if it rains."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "no matter what"
+      ],
+      "ipa": "/kʌm reɪn ɔr ʃaɪn/"
+    },
+    {
+      "lemma": "have a lot on your plate",
+      "pos": "phrase",
+      "meaning": "To have many jobs or problems to deal with.",
+      "examples": [
+        "I can’t help this week; I {have a lot on my plate}."
+      ],
+      "wrong": [
+        "She has a lot on her plate, so she’s bored with nothing to do."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "be busy"
+      ],
+      "ipa": "/hæv ə lɑt ɑn jɚ pleɪt/"
+    },
+    {
+      "lemma": "get on someone’s nerves",
+      "pos": "phrase",
+      "meaning": "To annoy someone, often by doing something again and again.",
+      "examples": [
+        "That loud ringtone really {gets on my nerves}."
+      ],
+      "wrong": [
+        "His calm voice gets on my nerves, so I love listening to him."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "annoy",
+        "irritate"
+      ],
+      "ipa": "/ɡɛt ɑn ˈsʌmˌwʌnz nɝvz/"
+    },
+    {
+      "lemma": "on the tip of your tongue",
+      "pos": "phrase",
+      "meaning": "Almost remembered, but you can’t quite say it.",
+      "examples": [
+        "Her name is {on the tip of my tongue}."
+      ],
+      "wrong": [
+        "The word was on the tip of my tongue, so I said it at once."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɑn ðə tɪp əv jɚ tʌŋ/"
+    },
+    {
+      "lemma": "get something off your chest",
+      "pos": "phrase",
+      "meaning": "To tell someone about a worry you have kept secret, so you feel better.",
+      "examples": [
+        "I need to {get this off my chest}: I broke your mug."
+      ],
+      "wrong": [
+        "He got it off his chest by never telling anyone."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "confess",
+        "open up"
+      ],
+      "ipa": "/ɡɛt ˈsʌmθɪŋ ɔf jɚ tʃɛst/"
+    },
+    {
+      "lemma": "hang in there",
+      "pos": "phrase",
+      "meaning": "To keep trying and not give up in a hard situation.",
+      "examples": [
+        "{Hang in there}; the training gets easier."
+      ],
+      "wrong": [
+        "Hang in there and quit at the first problem."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "keep going",
+        "persevere"
+      ],
+      "ipa": "/hæŋ ɪn ðɛr/"
+    },
+    {
+      "lemma": "cut someone some slack",
+      "pos": "phrase",
+      "meaning": "To be less strict with someone because of their situation.",
+      "examples": [
+        "{Cut him some slack}; it’s his first week."
+      ],
+      "wrong": [
+        "The teacher cut us some slack and gave us extra punishment."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/kʌt ˈsʌmˌwʌn səm slæk/"
+    },
+    {
+      "lemma": "give someone the benefit of the doubt",
+      "pos": "phrase",
+      "meaning": "To believe someone even though you are not sure they are honest.",
+      "examples": [
+        "I’ll {give her the benefit of the doubt} and accept her excuse."
+      ],
+      "wrong": [
+        "I gave him the benefit of the doubt and called him a liar."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "trust"
+      ],
+      "ipa": "/ɡɪv ˈsʌmˌwʌn ðə ˈbɛnəfɪt əv ðə daʊt/"
+    },
+    {
+      "lemma": "in two minds",
+      "pos": "phrase",
+      "meaning": "Unable to decide between two choices.",
+      "examples": [
+        "I’m {in two minds} about taking the job abroad."
+      ],
+      "wrong": [
+        "I’m in two minds, so I know exactly what to do."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "undecided",
+        "unsure"
+      ],
+      "ipa": "/ɪn tu maɪndz/"
+    },
+    {
+      "lemma": "keep a straight face",
+      "pos": "phrase",
+      "meaning": "To not laugh or smile when something is funny.",
+      "examples": [
+        "It was hard to {keep a straight face} when his hat fell off."
+      ],
+      "wrong": [
+        "She kept a straight face and burst out laughing."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/kip ə streɪt feɪs/"
+    },
+    {
+      "lemma": "keep someone in the dark",
+      "pos": "phrase",
+      "meaning": "To not tell someone about something important.",
+      "examples": [
+        "They {kept us in the dark} about the changes."
+      ],
+      "wrong": [
+        "They kept me in the dark by telling me every detail."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/kip ˈsʌmˌwʌn ɪn ðə dɑrk/"
+    },
+    {
+      "lemma": "off the top of your head",
+      "pos": "phrase",
+      "meaning": "Said quickly, without checking or thinking much.",
+      "examples": [
+        "{Off the top of my head}, I’d say about fifty people came."
+      ],
+      "wrong": [
+        "Off the top of my head, after a week of research, the answer is ten."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɔf ðə tɑp əv jɚ hɛd/"
+    },
+    {
+      "lemma": "on the same page",
+      "pos": "phrase",
+      "meaning": "Agreeing about what to do and why.",
+      "examples": [
+        "Let’s meet first so we’re all {on the same page}."
+      ],
+      "wrong": [
+        "We’re on the same page, so we disagree about everything."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "in agreement"
+      ],
+      "ipa": "/ɑn ðə seɪm peɪdʒ/"
+    },
+    {
+      "lemma": "a fish out of water",
+      "pos": "phrase",
+      "meaning": "Someone who feels uncomfortable in a new or strange place.",
+      "examples": [
+        "At the fancy dinner, I felt like {a fish out of water}."
+      ],
+      "wrong": [
+        "He felt like a fish out of water in his own comfortable home."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ə fɪʃ aʊt əv ˈwɔtɚ/"
+    },
+    {
+      "lemma": "know something inside out",
+      "pos": "phrase",
+      "meaning": "To know every detail of something very well.",
+      "examples": [
+        "She {knows the city inside out}."
+      ],
+      "wrong": [
+        "He knows the rules inside out, but he’s never read them."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/noʊ ˈsʌmθɪŋ ˌɪnˈsaɪd aʊt/"
+    },
+    {
+      "lemma": "the icing on the cake",
+      "pos": "phrase",
+      "meaning": "Something good that makes a good situation even better.",
+      "examples": [
+        "We won the match, and the sunny weather was {the icing on the cake}."
+      ],
+      "wrong": [
+        "The rain was the icing on the cake that ruined our picnic."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "bonus"
+      ],
+      "ipa": "/ði ˈaɪsɪŋ ɑn ðə keɪk/"
+    },
+    {
+      "lemma": "speak of the devil",
+      "pos": "phrase",
+      "meaning": "Said when someone you were just talking about appears.",
+      "examples": [
+        "{Speak of the devil}, here’s Maria now!"
+      ],
+      "wrong": [
+        "Speak of the devil, here’s someone we’ve never mentioned."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/spik əv ðə ˈdɛvəl/"
+    },
+    {
+      "lemma": "ring a bell",
+      "pos": "phrase",
+      "meaning": "To seem familiar, as if you have heard it before.",
+      "examples": [
+        "His name {rings a bell}, but I can’t remember his face."
+      ],
+      "wrong": [
+        "That name rings a bell, so I’m sure I’ve never heard it."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "sound familiar"
+      ],
+      "ipa": "/rɪŋ ə bɛl/"
+    },
+    {
+      "lemma": "a storm in a teacup",
+      "pos": "phrase",
+      "meaning": "A lot of anger or worry about something unimportant.",
+      "examples": [
+        "The argument over the parking space was {a storm in a teacup}."
+      ],
+      "wrong": [
+        "The war was just a storm in a teacup."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "fuss"
+      ],
+      "ipa": "/ə stɔrm ɪn ə ˈtiˌkʌp/"
+    }
+  ]
+}

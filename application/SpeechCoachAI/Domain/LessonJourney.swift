@@ -14,6 +14,9 @@ struct LessonJourney: Codable, Equatable, Identifiable {
     var drafts: [String: String]? = nil
     /// Separate optional practice cites its course without completing or replacing it.
     var practiceOrigin: LessonPracticeOrigin? = nil
+    /// Next reading page; count means the teaching was finished. Optional for old journeys.
+    var readingPageIndex: Int? = nil
+    var readingCompletedAt: Date? = nil
     var teachingBeganAt: Date? = nil
     var personalCheck: IntroCheckSnapshot? = nil
     var practiceConditions: CurriculumPracticeConditions? = nil

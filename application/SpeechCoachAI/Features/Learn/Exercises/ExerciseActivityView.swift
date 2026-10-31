@@ -160,12 +160,12 @@ struct ExerciseActivityView: View {
             HStack(spacing: 12) {
                 Button { onPlayClip(path) } label: { Label("Play", systemImage: "play.circle.fill") }
                     .accessibilityIdentifier("lesson.play.\(activity.id)")
-            }.buttonStyle(.bordered).controlSize(.large)
+            }.buttonStyle(KitSecondaryButtonStyle()).controlSize(.large)
         } else if let text = spec.audioText, spec.kind == .listenType || spec.kind == .choice || spec.kind == .speak {
             HStack(spacing: 12) {
                 Button { synthesizer.speak(text) } label: { Label("Listen", systemImage: "speaker.wave.2.fill") }
                 Button { synthesizer.speak(text, slow: true) } label: { Label("Slow", systemImage: "tortoise.fill") }
-            }.buttonStyle(.bordered).controlSize(.large)
+            }.buttonStyle(KitSecondaryButtonStyle()).controlSize(.large)
         }
     }
 
@@ -177,6 +177,8 @@ struct ExerciseActivityView: View {
         case .wordBank: tileBody(sequence: true)
         case .order: tileBody(sequence: false)
         case .match: matchBody
+        case .speak where SpeakAnswerView.available:
+            SpeakAnswerView(heard: $typed, locked: locked, fixtureAnswer: spec.accepted?.first)
         default: typedBody
         }
     }
@@ -336,8 +338,8 @@ struct ExerciseActivityView: View {
         _ = onSubmit(spec.storedText(response))
         let checked = spec.evaluate(response) ?? .correct
         result = checked
-        let haptic = UINotificationFeedbackGenerator()
-        haptic.notificationOccurred(checked == .incorrect ? .error : .success)
+        // Chime and haptic per the learner's Sound and haptics settings.
+        SoundCenter.shared.answer(correct: checked != .incorrect)
     }
 
     private func restore() {

@@ -1,0 +1,867 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-academic",
+    "title": "Academic precision",
+    "level": "C2",
+    "tagline": "Words for papers and reports",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "albeit",
+      "pos": "conjunction",
+      "meaning": "Although.",
+      "examples": [
+        "He agreed, {albeit} reluctantly."
+      ],
+      "wrong": [
+        "He agreed, albeit happily and with no doubts at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "although",
+        "though"
+      ],
+      "ipa": "/ɔlˈbiɪt/"
+    },
+    {
+      "lemma": "ad hoc",
+      "pos": "adjective",
+      "meaning": "Made or done for one purpose, not planned in advance.",
+      "examples": [
+        "We formed an {ad hoc} committee."
+      ],
+      "wrong": [
+        "The ad hoc plan was carefully prepared years in advance."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "improvised",
+        "makeshift"
+      ],
+      "ipa": "/ˌæd ˈhɑk/"
+    },
+    {
+      "lemma": "de facto",
+      "pos": "adjective",
+      "meaning": "Existing in fact, though not officially.",
+      "examples": [
+        "English is the {de facto} language of business."
+      ],
+      "wrong": [
+        "He is the de facto leader because he was officially elected."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "actual",
+        "effective"
+      ],
+      "ipa": "/ˌdeɪ ˈfæktoʊ/",
+      "antonyms": [
+        "de jure"
+      ]
+    },
+    {
+      "lemma": "bona fide",
+      "pos": "adjective",
+      "meaning": "Real and genuine.",
+      "examples": [
+        "Is this a {bona fide} offer?"
+      ],
+      "wrong": [
+        "It’s a bona fide offer, so it’s fake."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "genuine",
+        "authentic"
+      ],
+      "ipa": "/ˈboʊnə ˌfaɪd/",
+      "antonyms": [
+        "fake",
+        "bogus"
+      ]
+    },
+    {
+      "lemma": "per se",
+      "pos": "adverb",
+      "meaning": "By itself; in itself.",
+      "examples": [
+        "Money isn’t bad {per se}."
+      ],
+      "wrong": [
+        "Money isn’t bad per se, which means money is always bad."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "in itself",
+        "as such"
+      ],
+      "ipa": "/ˌpɝ ˈseɪ/"
+    },
+    {
+      "lemma": "salient",
+      "pos": "adjective",
+      "meaning": "Most noticeable or important.",
+      "examples": [
+        "Summarize the {salient} points."
+      ],
+      "wrong": [
+        "These are the salient points, so they are minor."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "main",
+        "prominent"
+      ],
+      "ipa": "/ˈseɪliənt/",
+      "antonyms": [
+        "minor",
+        "insignificant"
+      ]
+    },
+    {
+      "lemma": "tangential",
+      "pos": "adjective",
+      "meaning": "Only slightly connected to the main subject.",
+      "examples": [
+        "His remarks were {tangential} to the debate."
+      ],
+      "wrong": [
+        "The comment was tangential, so it was central to the topic."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "peripheral",
+        "incidental"
+      ],
+      "ipa": "/tænˈdʒɛnʃəl/",
+      "antonyms": [
+        "central",
+        "relevant"
+      ]
+    },
+    {
+      "lemma": "contingent",
+      "pos": "adjective",
+      "meaning": "Depending on something else.",
+      "examples": [
+        "The deal is {contingent} on approval."
+      ],
+      "wrong": [
+        "The deal is contingent on approval, so it will happen no matter what."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dependent",
+        "conditional"
+      ],
+      "ipa": "/kənˈtɪndʒənt/",
+      "antonyms": [
+        "independent",
+        "unconditional"
+      ]
+    },
+    {
+      "lemma": "commensurate",
+      "pos": "adjective",
+      "meaning": "In proportion to something.",
+      "examples": [
+        "Pay will be {commensurate} with experience."
+      ],
+      "wrong": [
+        "His pay is commensurate with his experience: very high pay for no experience."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "proportionate",
+        "matching"
+      ],
+      "ipa": "/kəˈmɛnsərət/"
+    },
+    {
+      "lemma": "concomitant",
+      "pos": "adjective",
+      "meaning": "Happening together with something else.",
+      "examples": [
+        "Growth brought {concomitant} risks."
+      ],
+      "wrong": [
+        "Growth brought concomitant risks that appeared years before it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accompanying",
+        "attendant"
+      ],
+      "ipa": "/kənˈkɑmɪtənt/"
+    },
+    {
+      "lemma": "corollary",
+      "pos": "noun",
+      "meaning": "A result that follows naturally from something else.",
+      "examples": [
+        "A {corollary} of lower taxes is less public money."
+      ],
+      "wrong": [
+        "A corollary is a cause that has no result."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "consequence",
+        "result"
+      ],
+      "ipa": "/ˈkɔrəˌlɛri/"
+    },
+    {
+      "lemma": "disparate",
+      "pos": "adjective",
+      "meaning": "Very different and not connected.",
+      "examples": [
+        "The book links {disparate} ideas."
+      ],
+      "wrong": [
+        "The two ideas are disparate, so they are almost identical."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dissimilar",
+        "diverse"
+      ],
+      "ipa": "/ˈdɪspərət/",
+      "antonyms": [
+        "similar",
+        "alike"
+      ]
+    },
+    {
+      "lemma": "endemic",
+      "pos": "adjective",
+      "meaning": "Regularly found in a place or group.",
+      "examples": [
+        "Malaria is {endemic} in the region."
+      ],
+      "wrong": [
+        "The disease is endemic, so it never appears there."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "widespread",
+        "prevalent"
+      ],
+      "ipa": "/ɛnˈdɛmɪk/"
+    },
+    {
+      "lemma": "extrapolate",
+      "pos": "verb",
+      "meaning": "To estimate something unknown from known facts.",
+      "examples": [
+        "We can {extrapolate} future trends from this data."
+      ],
+      "wrong": [
+        "We extrapolated the trend without looking at any data."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "infer",
+        "project"
+      ],
+      "ipa": "/ɪkˈstræpəˌleɪt/"
+    },
+    {
+      "lemma": "heuristic",
+      "pos": "noun",
+      "meaning": "A simple rule that helps you decide or learn.",
+      "examples": [
+        "A useful {heuristic} is to check the source first."
+      ],
+      "wrong": [
+        "A heuristic is a long, exact formula that solves every case."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rule of thumb"
+      ],
+      "ipa": "/hjʊˈrɪstɪk/"
+    },
+    {
+      "lemma": "holistic",
+      "pos": "adjective",
+      "meaning": "Looking at the whole rather than separate parts.",
+      "examples": [
+        "The school takes a {holistic} approach."
+      ],
+      "wrong": [
+        "A holistic approach looks at only one small part."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "comprehensive"
+      ],
+      "ipa": "/hoʊˈlɪstɪk/"
+    },
+    {
+      "lemma": "intrinsic",
+      "pos": "adjective",
+      "meaning": "Belonging to the basic nature of something.",
+      "examples": [
+        "Art has {intrinsic} value."
+      ],
+      "wrong": [
+        "The ring has intrinsic value only because my grandmother wore it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inherent",
+        "innate"
+      ],
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "antonyms": [
+        "extrinsic",
+        "external"
+      ]
+    },
+    {
+      "lemma": "latent",
+      "pos": "adjective",
+      "meaning": "Present but not yet active or visible.",
+      "examples": [
+        "She has {latent} talent."
+      ],
+      "wrong": [
+        "His talent is latent, so everyone has already seen it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dormant",
+        "hidden"
+      ],
+      "ipa": "/ˈleɪtənt/",
+      "antonyms": [
+        "active",
+        "manifest"
+      ]
+    },
+    {
+      "lemma": "myriad",
+      "pos": "adjective",
+      "meaning": "Countless; very many.",
+      "examples": [
+        "There are {myriad} ways to solve it."
+      ],
+      "wrong": [
+        "There are myriad ways: exactly two."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "countless",
+        "innumerable"
+      ],
+      "ipa": "/ˈmɪriəd/"
+    },
+    {
+      "lemma": "normative",
+      "pos": "adjective",
+      "meaning": "Relating to rules about how things should be.",
+      "examples": [
+        "The essay makes a {normative} claim."
+      ],
+      "wrong": [
+        "The essay makes a normative claim by only describing what is."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "prescriptive"
+      ],
+      "ipa": "/ˈnɔrmətɪv/"
+    },
+    {
+      "lemma": "orthodox",
+      "pos": "adjective",
+      "meaning": "Following accepted beliefs.",
+      "examples": [
+        "He uses {orthodox} methods."
+      ],
+      "wrong": [
+        "Her methods are orthodox, so they break every tradition."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "conventional",
+        "traditional"
+      ],
+      "ipa": "/ˈɔrθəˌdɑks/",
+      "antonyms": [
+        "unorthodox",
+        "unconventional"
+      ]
+    },
+    {
+      "lemma": "preclude",
+      "pos": "verb",
+      "meaning": "To prevent something from happening.",
+      "examples": [
+        "His injury {precludes} him from playing."
+      ],
+      "wrong": [
+        "The rule precludes it, so it is fully allowed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "prevent",
+        "rule out"
+      ],
+      "ipa": "/prɪˈklud/",
+      "antonyms": [
+        "allow",
+        "enable"
+      ]
+    },
+    {
+      "lemma": "predicated",
+      "pos": "adjective",
+      "meaning": "Based on something.",
+      "examples": [
+        "The plan is {predicated} on growth."
+      ],
+      "wrong": [
+        "The plan is predicated on growth, which has no part in it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "based",
+        "founded"
+      ],
+      "ipa": "/ˈprɛdɪˌkeɪtɪd/"
+    },
+    {
+      "lemma": "quantifiable",
+      "pos": "adjective",
+      "meaning": "Able to be measured.",
+      "examples": [
+        "We need {quantifiable} results."
+      ],
+      "wrong": [
+        "The results are quantifiable, so nobody can measure them."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "measurable"
+      ],
+      "ipa": "/ˈkwɑntəˌfaɪəbəl/",
+      "antonyms": [
+        "unquantifiable",
+        "unmeasurable"
+      ]
+    },
+    {
+      "lemma": "reductive",
+      "pos": "adjective",
+      "meaning": "Making something complex seem too simple.",
+      "examples": [
+        "That’s a {reductive} view of history."
+      ],
+      "wrong": [
+        "It’s a reductive view, so it shows all the complexity."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "simplistic"
+      ],
+      "ipa": "/rɪˈdʌktɪv/"
+    },
+    {
+      "lemma": "requisite",
+      "pos": "adjective",
+      "meaning": "Needed for a purpose.",
+      "examples": [
+        "She has the {requisite} skills."
+      ],
+      "wrong": [
+        "She has the requisite skills, so she can’t do the job."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "necessary",
+        "required"
+      ],
+      "ipa": "/ˈrɛkwəzɪt/",
+      "antonyms": [
+        "unnecessary",
+        "optional"
+      ]
+    },
+    {
+      "lemma": "subsume",
+      "pos": "verb",
+      "meaning": "To include something in a larger group.",
+      "examples": [
+        "The department was {subsumed} into finance."
+      ],
+      "wrong": [
+        "The small team was subsumed into finance, so it stayed fully separate."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "absorb",
+        "incorporate"
+      ],
+      "ipa": "/səbˈsum/"
+    },
+    {
+      "lemma": "synergy",
+      "pos": "noun",
+      "meaning": "Combined effect greater than the parts.",
+      "examples": [
+        "The merger created {synergy} between the teams."
+      ],
+      "wrong": [
+        "Synergy means the parts work worse together."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cooperation"
+      ],
+      "ipa": "/ˈsɪnɚdʒi/"
+    },
+    {
+      "lemma": "tantamount",
+      "pos": "adjective",
+      "meaning": "Equal in effect to something worse.",
+      "examples": [
+        "Silence is {tantamount} to agreement."
+      ],
+      "wrong": [
+        "Silence is tantamount to agreement, so silence means you disagree."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "equivalent",
+        "as good as"
+      ],
+      "ipa": "/ˈtæntəˌmaʊnt/"
+    },
+    {
+      "lemma": "tenet",
+      "pos": "noun",
+      "meaning": "A principle or belief.",
+      "examples": [
+        "Honesty is a key {tenet} of journalism."
+      ],
+      "wrong": [
+        "A tenet is a random opinion with no importance."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "principle",
+        "doctrine"
+      ],
+      "ipa": "/ˈtɛnɪt/"
+    },
+    {
+      "lemma": "unprecedented",
+      "pos": "adjective",
+      "meaning": "Never having happened before.",
+      "examples": [
+        "Prices rose at an {unprecedented} rate."
+      ],
+      "wrong": [
+        "It was unprecedented, so it had happened many times before."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unparalleled",
+        "unheard of"
+      ],
+      "ipa": "/ʌnˈprɛsɪˌdɛntɪd/"
+    },
+    {
+      "lemma": "verisimilitude",
+      "pos": "noun",
+      "meaning": "The appearance of being true or real.",
+      "examples": [
+        "The details add {verisimilitude} to the novel."
+      ],
+      "wrong": [
+        "The silly details give the novel verisimilitude, so it feels completely fake."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "realism",
+        "authenticity"
+      ],
+      "ipa": "/ˌvɛrəsɪˈmɪlɪˌtud/"
+    },
+    {
+      "lemma": "axiom",
+      "pos": "noun",
+      "meaning": "A statement accepted as true without proof.",
+      "examples": [
+        "It’s an {axiom} that hard work pays."
+      ],
+      "wrong": [
+        "An axiom is a claim that must be proven before anyone accepts it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "maxim",
+        "postulate"
+      ],
+      "ipa": "/ˈæksiəm/"
+    },
+    {
+      "lemma": "construe",
+      "pos": "verb",
+      "meaning": "To understand words or actions in a particular way.",
+      "examples": [
+        "His silence was {construed} as consent."
+      ],
+      "wrong": [
+        "His silence was construed as consent, though nobody gave it any meaning."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "interpret",
+        "read"
+      ],
+      "ipa": "/kənˈstru/"
+    },
+    {
+      "lemma": "discern",
+      "pos": "verb",
+      "meaning": "To notice or understand something not obvious.",
+      "examples": [
+        "I could {discern} a note of anger."
+      ],
+      "wrong": [
+        "I could discern the shouting easily; it was the loudest thing in the room."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "detect",
+        "perceive"
+      ],
+      "ipa": "/dɪˈsɝn/"
+    },
+    {
+      "lemma": "elicit",
+      "pos": "verb",
+      "meaning": "To get information or a reaction from someone.",
+      "examples": [
+        "The question {elicited} no response."
+      ],
+      "wrong": [
+        "The question elicited a reply by getting no response at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "draw out",
+        "evoke"
+      ],
+      "ipa": "/ɪˈlɪsɪt/"
+    },
+    {
+      "lemma": "explicate",
+      "pos": "verb",
+      "meaning": "To explain in detail.",
+      "examples": [
+        "The essay {explicates} the poem line by line."
+      ],
+      "wrong": [
+        "The essay explicates the poem by saying nothing about it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "explain",
+        "elucidate"
+      ],
+      "ipa": "/ˈɛksplɪˌkeɪt/"
+    },
+    {
+      "lemma": "posit",
+      "pos": "verb",
+      "meaning": "To suggest something as a basis for argument.",
+      "examples": [
+        "The theory {posits} that time is relative."
+      ],
+      "wrong": [
+        "The theory posits nothing, so it suggests that time is relative."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "propose",
+        "postulate"
+      ],
+      "ipa": "/ˈpɑzɪt/"
+    },
+    {
+      "lemma": "purport",
+      "pos": "verb",
+      "meaning": "To claim to be something, often falsely.",
+      "examples": [
+        "The letter {purports} to be from the bank."
+      ],
+      "wrong": [
+        "The letter purports to be from the bank, which it truly is."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "claim",
+        "profess"
+      ],
+      "ipa": "/pɚˈpɔrt/"
+    },
+    {
+      "lemma": "ergo",
+      "pos": "adverb",
+      "meaning": "Therefore.",
+      "examples": [
+        "He was absent; {ergo}, he missed the test."
+      ],
+      "wrong": [
+        "He was present; ergo, he missed the test."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "therefore",
+        "hence"
+      ],
+      "ipa": "/ˈɛrɡoʊ/"
+    },
+    {
+      "lemma": "aforementioned",
+      "pos": "adjective",
+      "meaning": "Mentioned earlier.",
+      "examples": [
+        "The {aforementioned} report was late."
+      ],
+      "wrong": [
+        "The aforementioned report will be mentioned for the first time next week."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "previously mentioned"
+      ],
+      "ipa": "/əˈfɔrˌmɛnʃənd/"
+    },
+    {
+      "lemma": "paradigm shift",
+      "pos": "noun",
+      "meaning": "A complete change in the usual way of thinking.",
+      "examples": [
+        "The internet caused a {paradigm shift} in retail."
+      ],
+      "wrong": [
+        "A paradigm shift is a tiny change that nobody notices."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sea change"
+      ],
+      "ipa": "/ˈpærəˌdaɪm ˌʃɪft/"
+    },
+    {
+      "lemma": "in lieu of",
+      "pos": "preposition",
+      "meaning": "Instead of.",
+      "examples": [
+        "Staff got extra leave {in lieu of} pay."
+      ],
+      "wrong": [
+        "Staff got extra leave in lieu of extra leave."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "instead of"
+      ],
+      "ipa": "/ɪn ˈlu əv/"
+    },
+    {
+      "lemma": "cognizant",
+      "pos": "adjective",
+      "meaning": "Aware of something.",
+      "examples": [
+        "We are {cognizant} of the risks."
+      ],
+      "wrong": [
+        "We are cognizant of the risks, so we have no idea they exist."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "aware",
+        "conscious"
+      ],
+      "ipa": "/ˈkɑɡnɪzənt/",
+      "antonyms": [
+        "unaware",
+        "oblivious"
+      ]
+    },
+    {
+      "lemma": "ubiquity",
+      "pos": "noun",
+      "meaning": "The state of being everywhere.",
+      "examples": [
+        "The {ubiquity} of phones has changed manners."
+      ],
+      "wrong": [
+        "The ubiquity of phones means they are very hard to find."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pervasiveness",
+        "omnipresence"
+      ],
+      "ipa": "/juˈbɪkwəti/"
+    }
+  ]
+}

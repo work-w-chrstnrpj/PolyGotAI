@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-health-body",
+    "title": "Health and the body",
+    "level": "B1",
+    "tagline": "Illness, care and staying well",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "muscle",
+      "pos": "noun",
+      "meaning": "The parts of your body that make you move.",
+      "examples": [
+        "Swimming makes your {muscles} stronger."
+      ],
+      "wrong": [
+        "A muscle is a kind of bone in your ear that you hear with."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmʌsəl/"
+    },
+    {
+      "lemma": "bone",
+      "pos": "noun",
+      "meaning": "One of the hard parts inside your body.",
+      "examples": [
+        "He broke a {bone} in his arm."
+      ],
+      "wrong": [
+        "A bone is a soft part of your skin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/boʊn/"
+    },
+    {
+      "lemma": "brain",
+      "pos": "noun",
+      "meaning": "The organ inside your head that you think with.",
+      "examples": [
+        "The {brain} controls the body."
+      ],
+      "wrong": [
+        "You think with your stomach, not your brain."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mind"
+      ],
+      "ipa": "/breɪn/"
+    },
+    {
+      "lemma": "blood",
+      "pos": "noun",
+      "meaning": "The red liquid that moves around your body.",
+      "examples": [
+        "The nurse took a {blood} test."
+      ],
+      "wrong": [
+        "Blood is a blue drink."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/blʌd/"
+    },
+    {
+      "lemma": "lung",
+      "pos": "noun",
+      "meaning": "One of the two organs in your chest that you breathe with.",
+      "examples": [
+        "Smoking damages your {lungs}."
+      ],
+      "wrong": [
+        "You breathe with your lungs in your feet."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/lʌŋ/"
+    },
+    {
+      "lemma": "throat",
+      "pos": "noun",
+      "meaning": "The inside of your neck, where food goes down.",
+      "examples": [
+        "I have a sore {throat}."
+      ],
+      "wrong": [
+        "Your throat is at the end of your arm."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/θroʊt/"
+    },
+    {
+      "lemma": "wound",
+      "pos": "noun",
+      "meaning": "A cut or injury on the body.",
+      "examples": [
+        "The nurse cleaned the {wound}."
+      ],
+      "wrong": [
+        "A wound is a medicine that makes you feel better."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cut",
+        "injury"
+      ],
+      "ipa": "/wund/"
+    },
+    {
+      "lemma": "bruise",
+      "pos": "noun",
+      "meaning": "A dark mark on your skin after you hit something.",
+      "examples": [
+        "I have a big {bruise} on my leg."
+      ],
+      "wrong": [
+        "A bruise is a white flower."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/bruz/"
+    },
+    {
+      "lemma": "rash",
+      "pos": "noun",
+      "meaning": "Red spots on the skin.",
+      "examples": [
+        "The cream gave me a {rash}."
+      ],
+      "wrong": [
+        "A rash is a kind of drink."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ræʃ/"
+    },
+    {
+      "lemma": "pill",
+      "pos": "noun",
+      "meaning": "A small round piece of medicine that you swallow.",
+      "examples": [
+        "Take one {pill} after each meal."
+      ],
+      "wrong": [
+        "A pill is a cream you put on your skin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tablet"
+      ],
+      "ipa": "/pɪl/"
+    },
+    {
+      "lemma": "treatment",
+      "pos": "noun",
+      "meaning": "Medical care for an illness or injury.",
+      "examples": [
+        "She needs {treatment} for her back."
+      ],
+      "wrong": [
+        "Treatment is the illness, not the care."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "care",
+        "therapy"
+      ],
+      "ipa": "/ˈtritmənt/"
+    },
+    {
+      "lemma": "operation",
+      "pos": "noun",
+      "meaning": "When a doctor cuts open the body to repair something.",
+      "examples": [
+        "He had an {operation} on his knee."
+      ],
+      "wrong": [
+        "An operation is a pill you take with water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "surgery"
+      ],
+      "ipa": "/ˌɑpəˈreɪʃən/"
+    },
+    {
+      "lemma": "ache",
+      "pos": "noun",
+      "meaning": "A pain that continues for some time.",
+      "examples": [
+        "I have an {ache} in my back."
+      ],
+      "wrong": [
+        "An ache is a pleasant feeling of joy."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pain"
+      ],
+      "ipa": "/eɪk/"
+    },
+    {
+      "lemma": "sore",
+      "pos": "adjective",
+      "meaning": "Painful, often because of an injury or illness.",
+      "examples": [
+        "My feet are {sore} after the walk."
+      ],
+      "wrong": [
+        "My leg is sore, so it doesn’t hurt at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "painful"
+      ],
+      "ipa": "/sɔr/"
+    },
+    {
+      "lemma": "cure",
+      "pos": "noun",
+      "meaning": "A medicine or treatment that makes an illness go away.",
+      "examples": [
+        "There’s no {cure} for the common cold."
+      ],
+      "wrong": [
+        "A cure is something that makes an illness worse."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "remedy"
+      ],
+      "ipa": "/kjʊr/"
+    },
+    {
+      "lemma": "heal",
+      "pos": "verb",
+      "meaning": "To become healthy again after an injury.",
+      "examples": [
+        "The cut {healed} in a week."
+      ],
+      "wrong": [
+        "The wound healed, so it got worse."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mend"
+      ],
+      "ipa": "/hil/"
+    },
+    {
+      "lemma": "breathe",
+      "pos": "verb",
+      "meaning": "To take air into your body and let it out.",
+      "examples": [
+        "{Breathe} in deeply."
+      ],
+      "wrong": [
+        "Fish breathe air on land."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/brið/"
+    },
+    {
+      "lemma": "sneeze",
+      "pos": "verb",
+      "meaning": "To push air out of your nose suddenly, with a loud noise.",
+      "examples": [
+        "Dust makes me {sneeze}."
+      ],
+      "wrong": [
+        "I sneeze through my ears."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/sniz/"
+    },
+    {
+      "lemma": "swallow",
+      "pos": "verb",
+      "meaning": "To make food or drink go down your throat.",
+      "examples": [
+        "It hurts when I {swallow}."
+      ],
+      "wrong": [
+        "I swallowed the pill by keeping it in my hand."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈswɑloʊ/"
+    },
+    {
+      "lemma": "faint",
+      "pos": "verb",
+      "meaning": "To fall down because you suddenly become unconscious.",
+      "examples": [
+        "She {fainted} in the heat."
+      ],
+      "wrong": [
+        "He fainted, so he stayed awake and stood up."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pass out"
+      ],
+      "ipa": "/feɪnt/"
+    },
+    {
+      "lemma": "diet",
+      "pos": "noun",
+      "meaning": "The food you usually eat.",
+      "examples": [
+        "A healthy {diet} has lots of fruit."
+      ],
+      "wrong": [
+        "A diet is a kind of exercise you do with a ball."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈdaɪət/"
+    },
+    {
+      "lemma": "vitamin",
+      "pos": "noun",
+      "meaning": "A natural substance in food that you need to be healthy.",
+      "examples": [
+        "Oranges have lots of {vitamin} C."
+      ],
+      "wrong": [
+        "A vitamin is a type of illness."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈvaɪtəmɪn/"
+    },
+    {
+      "lemma": "calorie",
+      "pos": "noun",
+      "meaning": "A unit that measures how much energy is in food.",
+      "examples": [
+        "This drink has 200 {calories}."
+      ],
+      "wrong": [
+        "A calorie is a unit for measuring distance."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈkæləri/"
+    },
+    {
+      "lemma": "fit",
+      "pos": "adjective",
+      "meaning": "Healthy and strong because of exercise.",
+      "examples": [
+        "She runs every day to stay {fit}."
+      ],
+      "wrong": [
+        "He is very fit, so he can’t walk up the stairs."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "in shape"
+      ],
+      "ipa": "/fɪt/",
+      "antonyms": [
+        "unfit"
+      ]
+    },
+    {
+      "lemma": "weight",
+      "pos": "noun",
+      "meaning": "How heavy someone or something is.",
+      "examples": [
+        "He wants to lose {weight}."
+      ],
+      "wrong": [
+        "My weight is how tall I am."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/weɪt/"
+    },
+    {
+      "lemma": "overweight",
+      "pos": "adjective",
+      "meaning": "Heavier than is healthy.",
+      "examples": [
+        "The doctor said I was a little {overweight}."
+      ],
+      "wrong": [
+        "She is overweight, so she is too thin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "heavy"
+      ],
+      "ipa": "/ˌoʊvɚˈweɪt/",
+      "antonyms": [
+        "underweight"
+      ]
+    },
+    {
+      "lemma": "stress",
+      "pos": "noun",
+      "meaning": "A feeling of worry caused by problems or too much work.",
+      "examples": [
+        "Exams cause a lot of {stress}."
+      ],
+      "wrong": [
+        "Stress is a feeling of total calm."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pressure",
+        "tension"
+      ],
+      "ipa": "/strɛs/"
+    },
+    {
+      "lemma": "condition",
+      "pos": "noun",
+      "meaning": "An illness that lasts a long time.",
+      "examples": [
+        "He has a heart {condition}."
+      ],
+      "wrong": [
+        "A condition is a kind of hospital bed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "illness",
+        "disease"
+      ],
+      "ipa": "/kənˈdɪʃən/"
+    },
+    {
+      "lemma": "disease",
+      "pos": "noun",
+      "meaning": "An illness of people, animals or plants.",
+      "examples": [
+        "Malaria is a serious {disease}."
+      ],
+      "wrong": [
+        "A disease is a sign of perfect health."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "illness"
+      ],
+      "ipa": "/dɪˈziz/",
+      "antonyms": [
+        "health"
+      ]
+    },
+    {
+      "lemma": "illness",
+      "pos": "noun",
+      "meaning": "The state of being ill.",
+      "examples": [
+        "She missed school because of {illness}."
+      ],
+      "wrong": [
+        "Illness is when you feel strong and healthy."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sickness"
+      ],
+      "ipa": "/ˈɪlnəs/",
+      "antonyms": [
+        "health"
+      ]
+    },
+    {
+      "lemma": "virus",
+      "pos": "noun",
+      "meaning": "A very small living thing that causes illness.",
+      "examples": [
+        "The flu is caused by a {virus}."
+      ],
+      "wrong": [
+        "A virus is a vitamin that keeps you well."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bug"
+      ],
+      "ipa": "/ˈvaɪrəs/"
+    },
+    {
+      "lemma": "pregnant",
+      "pos": "adjective",
+      "meaning": "Having a baby growing inside the body.",
+      "examples": [
+        "She is {pregnant} with her second child."
+      ],
+      "wrong": [
+        "He is pregnant with his grandfather."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "expecting"
+      ],
+      "ipa": "/ˈprɛɡnənt/"
+    },
+    {
+      "lemma": "clinic",
+      "pos": "noun",
+      "meaning": "A place where people go to see a doctor.",
+      "examples": [
+        "I went to the {clinic} for a checkup."
+      ],
+      "wrong": [
+        "A clinic is a shop that sells shoes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "health center"
+      ],
+      "ipa": "/ˈklɪnɪk/"
+    },
+    {
+      "lemma": "first aid",
+      "pos": "noun",
+      "meaning": "Simple help given to an injured person before a doctor comes.",
+      "examples": [
+        "She learned {first aid} at work."
+      ],
+      "wrong": [
+        "First aid is the last thing a doctor does after surgery."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌfɝst ˈeɪd/"
+    },
+    {
+      "lemma": "plaster",
+      "pos": "noun",
+      "meaning": "A small sticky strip you put on a cut.",
+      "examples": [
+        "Put a {plaster} on that cut."
+      ],
+      "wrong": [
+        "A plaster is a medicine you drink."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bandage"
+      ],
+      "ipa": "/ˈplæstɚ/"
+    },
+    {
+      "lemma": "scar",
+      "pos": "noun",
+      "meaning": "A mark left on the skin after a wound heals.",
+      "examples": [
+        "He has a {scar} on his chin."
+      ],
+      "wrong": [
+        "A scar is a fresh wound that is still bleeding."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/skɑr/"
+    },
+    {
+      "lemma": "pulse",
+      "pos": "noun",
+      "meaning": "The regular beat of your heart that you feel in your wrist.",
+      "examples": [
+        "The nurse checked my {pulse}."
+      ],
+      "wrong": [
+        "A pulse is the color of your skin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "heartbeat"
+      ],
+      "ipa": "/pʌls/"
+    },
+    {
+      "lemma": "unconscious",
+      "pos": "adjective",
+      "meaning": "Not awake and not able to see or feel.",
+      "examples": [
+        "He was {unconscious} for a few minutes after the fall."
+      ],
+      "wrong": [
+        "She was unconscious, so she talked to everyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "out cold"
+      ],
+      "ipa": "/ʌnˈkɑnʃəs/",
+      "antonyms": [
+        "conscious"
+      ]
+    },
+    {
+      "lemma": "prevent",
+      "pos": "verb",
+      "meaning": "To stop something from happening.",
+      "examples": [
+        "Washing your hands can {prevent} illness."
+      ],
+      "wrong": [
+        "We prevented the fire by starting it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stop",
+        "avoid"
+      ],
+      "ipa": "/prɪˈvɛnt/"
+    },
+    {
+      "lemma": "hygiene",
+      "pos": "noun",
+      "meaning": "Keeping yourself and things clean to stay healthy.",
+      "examples": [
+        "Good {hygiene} stops germs from spreading."
+      ],
+      "wrong": [
+        "Hygiene means never washing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cleanliness"
+      ],
+      "ipa": "/ˈhaɪˌdʒin/"
+    }
+  ]
+}

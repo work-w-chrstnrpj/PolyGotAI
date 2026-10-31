@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-food-cooking",
+    "title": "Food and cooking",
+    "level": "A2",
+    "tagline": "Meals, tastes and the kitchen",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "boil",
+      "pos": "verb",
+      "meaning": "To heat water or food until it bubbles.",
+      "examples": [
+        "{Boil} the eggs for ten minutes."
+      ],
+      "wrong": [
+        "I boil the water in the freezer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɔɪl/"
+    },
+    {
+      "lemma": "fry",
+      "pos": "verb",
+      "meaning": "To cook food in hot oil.",
+      "examples": [
+        "She {fries} fish in a pan."
+      ],
+      "wrong": [
+        "I fry eggs in cold water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fraɪ/"
+    },
+    {
+      "lemma": "bake",
+      "pos": "verb",
+      "meaning": "To cook bread or cakes in an oven.",
+      "examples": [
+        "My dad {bakes} bread on Sundays."
+      ],
+      "wrong": [
+        "I bake the cake in the fridge."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/beɪk/"
+    },
+    {
+      "lemma": "recipe",
+      "pos": "noun",
+      "meaning": "A list of food and steps to cook a dish.",
+      "examples": [
+        "Can I have your soup {recipe}?"
+      ],
+      "wrong": [
+        "A recipe is a plate you eat from."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrɛsəpi/"
+    },
+    {
+      "lemma": "ingredient",
+      "pos": "noun",
+      "meaning": "One of the foods you use to make a dish.",
+      "examples": [
+        "Flour is the main {ingredient} in bread."
+      ],
+      "wrong": [
+        "An ingredient is the oven you use to cook."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪnˈɡridiənt/"
+    },
+    {
+      "lemma": "pan",
+      "pos": "noun",
+      "meaning": "A metal pot with a handle, for cooking.",
+      "examples": [
+        "Heat some oil in a {pan}."
+      ],
+      "wrong": [
+        "I drink tea from a frying pan at the café."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "frying pan"
+      ],
+      "ipa": "/pæn/"
+    },
+    {
+      "lemma": "bowl",
+      "pos": "noun",
+      "meaning": "A deep round dish for soup or cereal.",
+      "examples": [
+        "He ate a {bowl} of rice."
+      ],
+      "wrong": [
+        "I eat soup from a flat knife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dish"
+      ],
+      "ipa": "/boʊl/"
+    },
+    {
+      "lemma": "menu",
+      "pos": "noun",
+      "meaning": "A list of the food you can order in a restaurant.",
+      "examples": [
+        "Can I see the {menu}, please?"
+      ],
+      "wrong": [
+        "The menu is the person who cooks the food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɛnju/"
+    },
+    {
+      "lemma": "waiter",
+      "pos": "noun",
+      "meaning": "A person who brings food to tables in a restaurant.",
+      "examples": [
+        "The {waiter} brought our drinks."
+      ],
+      "wrong": [
+        "The waiter is a customer who never works."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "server"
+      ],
+      "ipa": "/ˈweɪtɚ/"
+    },
+    {
+      "lemma": "dessert",
+      "pos": "noun",
+      "meaning": "Sweet food you eat after the main meal.",
+      "examples": [
+        "We had ice cream for {dessert}."
+      ],
+      "wrong": [
+        "We had dessert before breakfast as the first course."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pudding",
+        "sweet"
+      ],
+      "ipa": "/dɪˈzɝt/"
+    },
+    {
+      "lemma": "snack",
+      "pos": "noun",
+      "meaning": "A small amount of food between meals.",
+      "examples": [
+        "I have an apple as a {snack}."
+      ],
+      "wrong": [
+        "A snack is a very large dinner with five courses."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/snæk/"
+    },
+    {
+      "lemma": "meal",
+      "pos": "noun",
+      "meaning": "Food that you eat at one time, like lunch.",
+      "examples": [
+        "Breakfast is my favorite {meal}."
+      ],
+      "wrong": [
+        "A meal is a drink of water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/mil/"
+    },
+    {
+      "lemma": "delicious",
+      "pos": "adjective",
+      "meaning": "Tasting very good.",
+      "examples": [
+        "This soup is {delicious}."
+      ],
+      "wrong": [
+        "The cake was delicious, so nobody wanted it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tasty"
+      ],
+      "ipa": "/dɪˈlɪʃəs/",
+      "antonyms": [
+        "disgusting",
+        "tasteless"
+      ]
+    },
+    {
+      "lemma": "fresh",
+      "pos": "adjective",
+      "meaning": "Recently made or picked; not old.",
+      "examples": [
+        "I buy {fresh} bread every morning."
+      ],
+      "wrong": [
+        "The fish is fresh, so it is two weeks old."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/frɛʃ/",
+      "antonyms": [
+        "stale",
+        "old"
+      ]
+    },
+    {
+      "lemma": "spicy",
+      "pos": "adjective",
+      "meaning": "Having a hot, strong taste.",
+      "examples": [
+        "This curry is very {spicy}."
+      ],
+      "wrong": [
+        "The soup is spicy, so it has no flavor at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "hot"
+      ],
+      "ipa": "/ˈspaɪsi/",
+      "antonyms": [
+        "mild"
+      ]
+    },
+    {
+      "lemma": "sour",
+      "pos": "adjective",
+      "meaning": "Having a sharp taste like a lemon.",
+      "examples": [
+        "Lemons taste {sour}."
+      ],
+      "wrong": [
+        "Sugar is very sour."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tart"
+      ],
+      "ipa": "/ˈsaʊɚ/",
+      "antonyms": [
+        "sweet"
+      ]
+    },
+    {
+      "lemma": "bitter",
+      "pos": "adjective",
+      "meaning": "Having a strong, sharp taste that is not sweet.",
+      "examples": [
+        "Black coffee tastes {bitter}."
+      ],
+      "wrong": [
+        "Honey is bitter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɪtɚ/",
+      "antonyms": [
+        "sweet"
+      ]
+    },
+    {
+      "lemma": "raw",
+      "pos": "adjective",
+      "meaning": "Not cooked.",
+      "examples": [
+        "You can eat carrots {raw}."
+      ],
+      "wrong": [
+        "The meat is raw because we cooked it for hours."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "uncooked"
+      ],
+      "ipa": "/rɔ/",
+      "antonyms": [
+        "cooked"
+      ]
+    },
+    {
+      "lemma": "flour",
+      "pos": "noun",
+      "meaning": "A white powder made from grain, used for bread and cakes.",
+      "examples": [
+        "Mix the {flour} with eggs and milk."
+      ],
+      "wrong": [
+        "Flour is a hot drink."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈflaʊɚ/"
+    },
+    {
+      "lemma": "butter",
+      "pos": "noun",
+      "meaning": "A soft yellow food made from cream.",
+      "examples": [
+        "Put some {butter} on your toast."
+      ],
+      "wrong": [
+        "Butter is made from wood."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbʌtɚ/"
+    },
+    {
+      "lemma": "oil",
+      "pos": "noun",
+      "meaning": "A thick liquid from plants, used for cooking.",
+      "examples": [
+        "Fry the onions in a little {oil}."
+      ],
+      "wrong": [
+        "I drink a glass of oil with breakfast."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɔɪl/"
+    },
+    {
+      "lemma": "pepper",
+      "pos": "noun",
+      "meaning": "A hot powder that you put on food; or a red or green vegetable.",
+      "examples": [
+        "Add salt and {pepper}."
+      ],
+      "wrong": [
+        "Pepper is a sweet fruit you eat for dessert."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɛpɚ/"
+    },
+    {
+      "lemma": "soup",
+      "pos": "noun",
+      "meaning": "A liquid food made by boiling meat or vegetables.",
+      "examples": [
+        "Have some hot {soup}."
+      ],
+      "wrong": [
+        "Soup is a hard food you cut with a knife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sup/"
+    },
+    {
+      "lemma": "sandwich",
+      "pos": "noun",
+      "meaning": "Two pieces of bread with food between them.",
+      "examples": [
+        "I had a cheese {sandwich} for lunch."
+      ],
+      "wrong": [
+        "A sandwich is a kind of drink."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsænwɪtʃ/"
+    },
+    {
+      "lemma": "salad",
+      "pos": "noun",
+      "meaning": "A dish of raw vegetables such as lettuce.",
+      "examples": [
+        "I’ll have a green {salad}."
+      ],
+      "wrong": [
+        "A salad is a hot cake with cream."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsæləd/"
+    },
+    {
+      "lemma": "meat",
+      "pos": "noun",
+      "meaning": "The parts of an animal that people eat.",
+      "examples": [
+        "I don’t eat {meat}; I’m a vegetarian."
+      ],
+      "wrong": [
+        "Vegetarians eat a lot of meat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/mit/"
+    },
+    {
+      "lemma": "potato",
+      "pos": "noun",
+      "meaning": "A round vegetable that grows under the ground.",
+      "examples": [
+        "We had fried {potatoes} with fish."
+      ],
+      "wrong": [
+        "A potato grows at the top of a tall tree."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pəˈteɪtoʊ/"
+    },
+    {
+      "lemma": "tomato",
+      "pos": "noun",
+      "meaning": "A soft red fruit used in salads.",
+      "examples": [
+        "Slice the {tomato} for the salad."
+      ],
+      "wrong": [
+        "A tomato is a kind of bread."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/təˈmeɪtoʊ/"
+    },
+    {
+      "lemma": "onion",
+      "pos": "noun",
+      "meaning": "A round vegetable with a strong smell that makes you cry.",
+      "examples": [
+        "Cutting {onions} makes my eyes water."
+      ],
+      "wrong": [
+        "An onion is a kind of sweet cake."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈʌnjən/"
+    },
+    {
+      "lemma": "apple",
+      "pos": "noun",
+      "meaning": "A round fruit with red or green skin.",
+      "examples": [
+        "An {apple} a day is good for you."
+      ],
+      "wrong": [
+        "An apple is a kind of meat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈæpəl/"
+    },
+    {
+      "lemma": "banana",
+      "pos": "noun",
+      "meaning": "A long curved fruit with yellow skin.",
+      "examples": [
+        "Monkeys love {bananas}."
+      ],
+      "wrong": [
+        "A banana is a round red vegetable."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bəˈnænə/"
+    },
+    {
+      "lemma": "juice",
+      "pos": "noun",
+      "meaning": "The liquid from fruit.",
+      "examples": [
+        "I drink orange {juice} every morning."
+      ],
+      "wrong": [
+        "Juice is a hard fruit you cut with a knife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒus/"
+    },
+    {
+      "lemma": "tea",
+      "pos": "noun",
+      "meaning": "A hot drink made with leaves and water.",
+      "examples": [
+        "Would you like a cup of {tea}?"
+      ],
+      "wrong": [
+        "Tea is a kind of cheese."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ti/"
+    },
+    {
+      "lemma": "cake",
+      "pos": "noun",
+      "meaning": "A sweet food baked from flour, sugar and eggs.",
+      "examples": [
+        "We made a {cake} for her birthday."
+      ],
+      "wrong": [
+        "A cake is a salty soup."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/keɪk/"
+    },
+    {
+      "lemma": "chocolate",
+      "pos": "noun",
+      "meaning": "A sweet brown food made from cocoa.",
+      "examples": [
+        "Children love {chocolate}."
+      ],
+      "wrong": [
+        "Chocolate is a green vegetable."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtʃɔklət/"
+    },
+    {
+      "lemma": "taste",
+      "pos": "noun",
+      "meaning": "The flavor that food has in your mouth.",
+      "examples": [
+        "I love the {taste} of lemons."
+      ],
+      "wrong": [
+        "Taste is what you hear with your ears."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "flavor"
+      ],
+      "ipa": "/teɪst/"
+    },
+    {
+      "lemma": "mix",
+      "pos": "verb",
+      "meaning": "To put different things together.",
+      "examples": [
+        "{Mix} the flour and the eggs."
+      ],
+      "wrong": [
+        "I mixed the eggs and flour, so they stayed apart."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stir",
+        "blend"
+      ],
+      "ipa": "/mɪks/",
+      "antonyms": [
+        "separate"
+      ]
+    },
+    {
+      "lemma": "vegetarian",
+      "pos": "noun",
+      "meaning": "A person who does not eat meat or fish.",
+      "examples": [
+        "My sister is a {vegetarian}."
+      ],
+      "wrong": [
+        "A vegetarian eats meat at every meal."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌvɛdʒəˈtɛriən/"
+    },
+    {
+      "lemma": "thirsty",
+      "pos": "adjective",
+      "meaning": "Wanting to drink.",
+      "examples": [
+        "I’m {thirsty}; can I have some water?"
+      ],
+      "wrong": [
+        "I’m thirsty because I just drank three bottles of water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "parched"
+      ],
+      "ipa": "/ˈθɝsti/"
+    },
+    {
+      "lemma": "heat",
+      "pos": "verb",
+      "meaning": "To make something warm or hot.",
+      "examples": [
+        "{Heat} the milk, but don’t boil it."
+      ],
+      "wrong": [
+        "I heat the soup in the freezer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "warm"
+      ],
+      "ipa": "/hit/",
+      "antonyms": [
+        "cool"
+      ]
+    }
+  ]
+}

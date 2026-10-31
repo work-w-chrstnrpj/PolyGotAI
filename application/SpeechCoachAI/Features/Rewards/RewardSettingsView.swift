@@ -12,15 +12,15 @@ struct RewardSettingsView: View {
     @State private var message: String?
     @State private var saving = false
     var body: some View {
-        Form {
+        Form { KitRows {
             Section("Celebrations") {
                 Picker("Celebrations", selection: $settings.celebration) {
                     ForEach(RewardSettings.Celebration.allCases, id: \.self) { Text($0.rawValue.capitalized).tag($0) }
                 }.accessibilityIdentifier("rewards.celebrations")
                 Toggle("Quiet rewards", isOn: $settings.quiet).accessibilityIdentifier("rewards.quiet")
                 Text("Reduce Motion always wins. Quiet mode suppresses decorative motion, sound and haptics. Coach speech never starts automatically.")
-                Toggle("Music", isOn: $settings.music)
-                Toggle("Effects", isOn: $settings.effects)
+                Toggle("Background music", isOn: $settings.music)
+                Toggle("Sound effects", isOn: $settings.effects)
                 Toggle("Haptics", isOn: $settings.haptics)
             }
             Section("Separate daily goals") {
@@ -53,7 +53,7 @@ struct RewardSettingsView: View {
                     .accessibilityIdentifier("rewards.settings.save")
                 if let message { Text(message).accessibilityIdentifier("rewards.settings.message") }
             }
-        }.navigationTitle("Reward preferences").modifier(RewardDashboardFocus(storage: storage)).onAppear(perform: load)
+        }}.navigationTitle("Reward preferences").modifier(RewardDashboardFocus(storage: storage)).onAppear(perform: load)
     }
     private func load() {
         do {

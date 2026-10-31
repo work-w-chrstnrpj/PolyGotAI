@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-home-things",
+    "title": "Things at home",
+    "level": "A1",
+    "tagline": "Objects you use every day",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "table",
+      "pos": "noun",
+      "meaning": "A piece of furniture with a flat top on legs.",
+      "examples": [
+        "Put the plates on the {table}."
+      ],
+      "wrong": [
+        "I sleep in the table every night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈteɪbəl/"
+    },
+    {
+      "lemma": "chair",
+      "pos": "noun",
+      "meaning": "A seat for one person, with a back.",
+      "examples": [
+        "Please sit on this {chair}."
+      ],
+      "wrong": [
+        "I drink coffee from a chair."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "seat"
+      ],
+      "ipa": "/tʃɛr/"
+    },
+    {
+      "lemma": "bed",
+      "pos": "noun",
+      "meaning": "A piece of furniture that you sleep on.",
+      "examples": [
+        "I go to {bed} at ten o’clock."
+      ],
+      "wrong": [
+        "I cook dinner in my bed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɛd/"
+    },
+    {
+      "lemma": "door",
+      "pos": "noun",
+      "meaning": "The thing you open to go in or out of a room.",
+      "examples": [
+        "Please close the {door}."
+      ],
+      "wrong": [
+        "I eat soup with a door."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɔr/"
+    },
+    {
+      "lemma": "key",
+      "pos": "noun",
+      "meaning": "A small piece of metal that opens a lock.",
+      "examples": [
+        "I can’t find my house {key}."
+      ],
+      "wrong": [
+        "She opened the door with a banana."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ki/"
+    },
+    {
+      "lemma": "cup",
+      "pos": "noun",
+      "meaning": "A small container with a handle, for hot drinks.",
+      "examples": [
+        "Would you like a {cup} of tea?"
+      ],
+      "wrong": [
+        "I wear a cup on my foot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "mug"
+      ],
+      "ipa": "/kʌp/"
+    },
+    {
+      "lemma": "plate",
+      "pos": "noun",
+      "meaning": "A flat round dish that you eat from.",
+      "examples": [
+        "There is rice on my {plate}."
+      ],
+      "wrong": [
+        "I sleep on a plate."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "dish"
+      ],
+      "ipa": "/pleɪt/"
+    },
+    {
+      "lemma": "glass",
+      "pos": "noun",
+      "meaning": "A container made of glass that you drink from.",
+      "examples": [
+        "Can I have a {glass} of water?"
+      ],
+      "wrong": [
+        "He wears a glass on his head."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡlæs/"
+    },
+    {
+      "lemma": "spoon",
+      "pos": "noun",
+      "meaning": "A thing with a small bowl at the end, for eating soup.",
+      "examples": [
+        "Eat your soup with a {spoon}."
+      ],
+      "wrong": [
+        "I cut the meat with a spoon and a pen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/spun/"
+    },
+    {
+      "lemma": "fork",
+      "pos": "noun",
+      "meaning": "A thing with points at the end, for picking up food.",
+      "examples": [
+        "Use a {fork} for the salad."
+      ],
+      "wrong": [
+        "I drink water with a fork."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɔrk/"
+    },
+    {
+      "lemma": "knife",
+      "pos": "noun",
+      "meaning": "A thing with a sharp edge, for cutting.",
+      "examples": [
+        "Cut the bread with a {knife}."
+      ],
+      "wrong": [
+        "I write a letter with a knife."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/naɪf/"
+    },
+    {
+      "lemma": "box",
+      "pos": "noun",
+      "meaning": "A container with flat sides, often with a lid.",
+      "examples": [
+        "The shoes came in a {box}."
+      ],
+      "wrong": [
+        "A box is a kind of song."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɑks/"
+    },
+    {
+      "lemma": "clock",
+      "pos": "noun",
+      "meaning": "A thing on a wall or table that shows the time.",
+      "examples": [
+        "The {clock} says it’s eight."
+      ],
+      "wrong": [
+        "I look at the clock to see the weather."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/klɑk/"
+    },
+    {
+      "lemma": "phone",
+      "pos": "noun",
+      "meaning": "A thing that you use to talk to people far away.",
+      "examples": [
+        "My {phone} is ringing."
+      ],
+      "wrong": [
+        "I cook eggs in my phone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "telephone"
+      ],
+      "ipa": "/foʊn/"
+    },
+    {
+      "lemma": "television",
+      "pos": "noun",
+      "meaning": "A machine with a screen for watching programs.",
+      "examples": [
+        "We watch {television} after dinner."
+      ],
+      "wrong": [
+        "I wash my clothes in the television."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "TV"
+      ],
+      "ipa": "/ˈtɛləˌvɪʒən/"
+    },
+    {
+      "lemma": "radio",
+      "pos": "noun",
+      "meaning": "A machine that you listen to for music and news.",
+      "examples": [
+        "Dad listens to the {radio} in the car."
+      ],
+      "wrong": [
+        "I watch films on the radio."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈreɪdiˌoʊ/"
+    },
+    {
+      "lemma": "computer",
+      "pos": "noun",
+      "meaning": "A machine that you use to write, play and go online.",
+      "examples": [
+        "I do my homework on the {computer}."
+      ],
+      "wrong": [
+        "I sleep on my computer every night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kəmˈpjutɚ/"
+    },
+    {
+      "lemma": "picture",
+      "pos": "noun",
+      "meaning": "A drawing, painting or photo.",
+      "examples": [
+        "There is a {picture} of the sea on the wall."
+      ],
+      "wrong": [
+        "I eat a picture for dinner."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "image"
+      ],
+      "ipa": "/ˈpɪktʃɚ/"
+    },
+    {
+      "lemma": "toilet",
+      "pos": "noun",
+      "meaning": "The seat in a bathroom that you use to get rid of waste.",
+      "examples": [
+        "The {toilet} is next to the shower."
+      ],
+      "wrong": [
+        "We eat lunch in the toilet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtɔɪlət/"
+    },
+    {
+      "lemma": "shower",
+      "pos": "noun",
+      "meaning": "A thing that sprays water on you to wash your body.",
+      "examples": [
+        "I take a {shower} every morning."
+      ],
+      "wrong": [
+        "I take a shower to get dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʃaʊɚ/"
+    },
+    {
+      "lemma": "soap",
+      "pos": "noun",
+      "meaning": "A thing you use with water to clean your body.",
+      "examples": [
+        "Wash your hands with {soap}."
+      ],
+      "wrong": [
+        "I put soap in my tea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/soʊp/"
+    },
+    {
+      "lemma": "blanket",
+      "pos": "noun",
+      "meaning": "A large warm cover for a bed.",
+      "examples": [
+        "I need another {blanket}; I’m cold."
+      ],
+      "wrong": [
+        "I put a blanket on my bed to feel cold."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈblæŋkɪt/"
+    },
+    {
+      "lemma": "pillow",
+      "pos": "noun",
+      "meaning": "A soft thing that you put your head on in bed.",
+      "examples": [
+        "I like a soft {pillow}."
+      ],
+      "wrong": [
+        "I put my feet on the pillow and my head on the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cushion"
+      ],
+      "ipa": "/ˈpɪloʊ/"
+    },
+    {
+      "lemma": "light",
+      "pos": "noun",
+      "meaning": "A thing that gives light, such as a lamp.",
+      "examples": [
+        "Turn off the {light} when you leave."
+      ],
+      "wrong": [
+        "I turn on the light to make the room dark."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/laɪt/"
+    },
+    {
+      "lemma": "roof",
+      "pos": "noun",
+      "meaning": "The top cover of a building.",
+      "examples": [
+        "The cat is on the {roof}."
+      ],
+      "wrong": [
+        "The roof is under the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ruf/"
+    },
+    {
+      "lemma": "room",
+      "pos": "noun",
+      "meaning": "A part of a house with walls and a door.",
+      "examples": [
+        "My flat has three {rooms}."
+      ],
+      "wrong": [
+        "A room is something you eat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/rum/"
+    },
+    {
+      "lemma": "bath",
+      "pos": "noun",
+      "meaning": "A long container that you fill with water and sit in to wash.",
+      "examples": [
+        "The baby is in the {bath}."
+      ],
+      "wrong": [
+        "I take a bath in the oven."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tub"
+      ],
+      "ipa": "/bæθ/"
+    },
+    {
+      "lemma": "mirror",
+      "pos": "noun",
+      "meaning": "A piece of glass that shows your face.",
+      "examples": [
+        "She looked in the {mirror}."
+      ],
+      "wrong": [
+        "I look in the mirror to hear my voice."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmɪrɚ/"
+    },
+    {
+      "lemma": "doorbell",
+      "pos": "noun",
+      "meaning": "A bell next to a door that visitors ring.",
+      "examples": [
+        "Someone rang the {doorbell}."
+      ],
+      "wrong": [
+        "I ring the doorbell to turn on the oven."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bell"
+      ],
+      "ipa": "/ˈdɔrˌbɛl/"
+    },
+    {
+      "lemma": "bin",
+      "pos": "noun",
+      "meaning": "A container for rubbish.",
+      "examples": [
+        "Put the paper in the {bin}."
+      ],
+      "wrong": [
+        "I keep my clean clothes in the bin."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "trash can"
+      ],
+      "ipa": "/bɪn/"
+    },
+    {
+      "lemma": "money",
+      "pos": "noun",
+      "meaning": "Coins and paper notes that you use to buy things.",
+      "examples": [
+        "I don’t have much {money} today."
+      ],
+      "wrong": [
+        "I buy shoes with water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cash"
+      ],
+      "ipa": "/ˈmʌni/"
+    },
+    {
+      "lemma": "pen",
+      "pos": "noun",
+      "meaning": "A thing for writing with ink.",
+      "examples": [
+        "Can I use your {pen}?"
+      ],
+      "wrong": [
+        "I eat soup with a pen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɛn/"
+    },
+    {
+      "lemma": "pencil",
+      "pos": "noun",
+      "meaning": "A thing for writing or drawing, made of wood.",
+      "examples": [
+        "Write your name in {pencil}."
+      ],
+      "wrong": [
+        "A pencil is a kind of bird."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɛnsəl/"
+    },
+    {
+      "lemma": "paper",
+      "pos": "noun",
+      "meaning": "Thin material that you write on.",
+      "examples": [
+        "Write it on a piece of {paper}."
+      ],
+      "wrong": [
+        "I drink a glass of paper."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpeɪpɚ/"
+    },
+    {
+      "lemma": "book",
+      "pos": "noun",
+      "meaning": "Pages with writing, fixed together inside a cover.",
+      "examples": [
+        "I’m reading a good {book}."
+      ],
+      "wrong": [
+        "I listen to a book on the radio with my eyes closed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bʊk/"
+    },
+    {
+      "lemma": "bike",
+      "pos": "noun",
+      "meaning": "A bicycle.",
+      "examples": [
+        "I ride my {bike} to school."
+      ],
+      "wrong": [
+        "I wear my bike on my head."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "bicycle"
+      ],
+      "ipa": "/baɪk/"
+    },
+    {
+      "lemma": "toy",
+      "pos": "noun",
+      "meaning": "A thing that children play with.",
+      "examples": [
+        "The child has a new {toy} car."
+      ],
+      "wrong": [
+        "A toy is a real car that adults drive to work."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "plaything"
+      ],
+      "ipa": "/tɔɪ/"
+    },
+    {
+      "lemma": "flower",
+      "pos": "noun",
+      "meaning": "The colored part of a plant.",
+      "examples": [
+        "She gave me a {flower}."
+      ],
+      "wrong": [
+        "I wear a flower on my feet as a shoe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bloom"
+      ],
+      "ipa": "/ˈflaʊɚ/"
+    },
+    {
+      "lemma": "tree",
+      "pos": "noun",
+      "meaning": "A tall plant with a wooden trunk and branches.",
+      "examples": [
+        "Birds live in that {tree}."
+      ],
+      "wrong": [
+        "A tree is a small fish."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tri/"
+    },
+    {
+      "lemma": "water",
+      "pos": "noun",
+      "meaning": "The clear liquid that falls as rain and that you drink.",
+      "examples": [
+        "Drink more {water} when it’s hot."
+      ],
+      "wrong": [
+        "I eat water with a fork."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɔtɚ/"
+    }
+  ]
+}

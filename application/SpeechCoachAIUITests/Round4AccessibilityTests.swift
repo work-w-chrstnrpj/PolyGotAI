@@ -20,7 +20,7 @@ final class Round4AccessibilityTests: XCTestCase {
             }
         }
         destination(app, title: "Lab", id: "speechLab")
-        for id in ["speech.spelling", "speech.pronunciation", "speech.speaking", "speech.voice"] {
+        for id in ["speech.timedTests", "speech.videos", "speech.voice"] {
             tap(app, app.buttons[id])
             XCTAssertTrue(app.navigationBars.firstMatch.waitForExistence(timeout: 5))
             try audit(app)

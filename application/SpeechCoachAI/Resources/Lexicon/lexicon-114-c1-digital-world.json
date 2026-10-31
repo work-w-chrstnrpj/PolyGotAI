@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-digital-world",
+    "title": "The digital world",
+    "level": "C1",
+    "tagline": "Data, platforms and privacy",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "surveillance",
+      "pos": "noun",
+      "meaning": "Close, ongoing watching of people or places, often by a government or company.",
+      "examples": [
+        "Critics warn that facial recognition makes mass {surveillance} far too easy."
+      ],
+      "wrong": [
+        "The surveillance was so loose that nobody watched the building at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "monitoring",
+        "observation"
+      ],
+      "ipa": "/sɚˈveɪləns/"
+    },
+    {
+      "lemma": "anonymity",
+      "pos": "noun",
+      "meaning": "The state of not having your name or identity known to others.",
+      "examples": [
+        "Many users value the {anonymity} that a nickname gives them online."
+      ],
+      "wrong": [
+        "She gave up her anonymity by keeping her real name secret from everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "namelessness"
+      ],
+      "ipa": "/ˌænəˈnɪməti/",
+      "antonyms": [
+        "fame",
+        "recognition"
+      ]
+    },
+    {
+      "lemma": "cybersecurity",
+      "pos": "noun",
+      "meaning": "The practice of protecting computers, networks and data from attacks.",
+      "examples": [
+        "The bank doubled its {cybersecurity} budget after the attack."
+      ],
+      "wrong": [
+        "Good cybersecurity means leaving every account without a password."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "information security"
+      ],
+      "ipa": "/ˌsaɪbɚsɪˈkjʊrəti/"
+    },
+    {
+      "lemma": "metadata",
+      "pos": "noun",
+      "meaning": "Information that describes other data, such as when a photo was taken or who sent a message.",
+      "examples": [
+        "Even without reading your messages, the {metadata} shows who you talk to and when."
+      ],
+      "wrong": [
+        "The metadata was the actual text of the letter, not any details about it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmɛtəˌdeɪtə/"
+    },
+    {
+      "lemma": "spyware",
+      "pos": "noun",
+      "meaning": "Harmful software that secretly watches what you do on a device and sends the details to someone else.",
+      "examples": [
+        "The free game came bundled with {spyware} that recorded every key pressed."
+      ],
+      "wrong": [
+        "Spyware is a tool that openly protects your privacy from trackers."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "stalkerware",
+        "tracking software"
+      ],
+      "ipa": "/ˈspaɪˌwɛr/"
+    },
+    {
+      "lemma": "connectivity",
+      "pos": "noun",
+      "meaning": "The ability of a device or place to connect to the internet or other systems.",
+      "examples": [
+        "Rural areas still suffer from poor {connectivity}."
+      ],
+      "wrong": [
+        "The village had excellent connectivity, so no phone could ever get online there."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "access",
+        "coverage"
+      ],
+      "ipa": "/ˌkɑnɛkˈtɪvəti/"
+    },
+    {
+      "lemma": "digitize",
+      "pos": "verb",
+      "meaning": "To turn printed documents, pictures or sound into a form a computer can store.",
+      "examples": [
+        "The library is {digitizing} its old newspapers so people can search them online."
+      ],
+      "wrong": [
+        "They digitized the photos by printing them out on paper."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "scan",
+        "computerize"
+      ],
+      "ipa": "/ˈdɪdʒəˌtaɪz/"
+    },
+    {
+      "lemma": "data breach",
+      "pos": "noun",
+      "meaning": "An incident in which private information is stolen or exposed without permission.",
+      "examples": [
+        "After the {data breach}, millions of customers had to change their passwords."
+      ],
+      "wrong": [
+        "The data breach kept every customer record perfectly safe and private."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "data leak",
+        "security breach"
+      ],
+      "ipa": "/ˈdeɪtə ˌbritʃ/"
+    },
+    {
+      "lemma": "troll",
+      "pos": "noun",
+      "meaning": "A person who posts rude or annoying messages online on purpose to upset people.",
+      "examples": [
+        "Don’t reply to that comment; it’s just a {troll} looking for attention."
+      ],
+      "wrong": [
+        "The troll left kind, helpful replies to everyone on the forum."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "provocateur"
+      ],
+      "ipa": "/troʊl/"
+    },
+    {
+      "lemma": "echo chamber",
+      "pos": "noun",
+      "meaning": "An online space where people only hear opinions that match their own.",
+      "examples": [
+        "If you only follow people who agree with you, your feed becomes an {echo chamber}."
+      ],
+      "wrong": [
+        "The forum was an echo chamber because it was full of sharply opposing views."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈɛkoʊ ˌtʃeɪmbɚ/"
+    },
+    {
+      "lemma": "filter bubble",
+      "pos": "noun",
+      "meaning": "A situation where websites only show you content that suits your past choices, hiding other views.",
+      "examples": [
+        "Personalized news feeds can trap readers in a {filter bubble}."
+      ],
+      "wrong": [
+        "Living in a filter bubble means you see a wide range of views you never chose."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈfɪltɚ ˌbʌbəl/"
+    },
+    {
+      "lemma": "data mining",
+      "pos": "noun",
+      "meaning": "Searching through large amounts of information with software to find patterns.",
+      "examples": [
+        "The store uses {data mining} to predict what customers will buy next."
+      ],
+      "wrong": [
+        "Data mining means deleting information without looking at it."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "data analysis"
+      ],
+      "ipa": "/ˈdeɪtə ˌmaɪnɪŋ/"
+    },
+    {
+      "lemma": "cyberbullying",
+      "pos": "noun",
+      "meaning": "Hurting or frightening someone with messages or posts online.",
+      "examples": [
+        "The school ran a campaign against {cyberbullying} on social media."
+      ],
+      "wrong": [
+        "Her cyberbullying was a series of kind messages that cheered her friend up."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "online harassment"
+      ],
+      "ipa": "/ˈsaɪbɚˌbʊliɪŋ/"
+    },
+    {
+      "lemma": "digital footprint",
+      "pos": "noun",
+      "meaning": "The trail of information you leave behind whenever you use the internet.",
+      "examples": [
+        "Think before you post: your {digital footprint} can follow you for years."
+      ],
+      "wrong": [
+        "He had no digital footprint because he posted online every single day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdɪdʒətəl ˈfʊtˌprɪnt/"
+    },
+    {
+      "lemma": "opt out",
+      "pos": "verb",
+      "meaning": "To choose not to take part in something, such as a scheme or data collection.",
+      "examples": [
+        "You can {opt out} of marketing emails in your account settings."
+      ],
+      "wrong": [
+        "She opted out of the newsletter, so she now receives it every week."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "withdraw",
+        "decline"
+      ],
+      "ipa": "/ˈɑpt ˈaʊt/",
+      "antonyms": [
+        "opt in"
+      ]
+    },
+    {
+      "lemma": "monetize",
+      "pos": "verb",
+      "meaning": "To find a way to earn money from something, such as a website or video.",
+      "examples": [
+        "The creator {monetized} her channel by adding adverts."
+      ],
+      "wrong": [
+        "He monetized the app by making it free and removing every way to pay."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "commercialize"
+      ],
+      "ipa": "/ˈmɑnəˌtaɪz/"
+    },
+    {
+      "lemma": "geolocation",
+      "pos": "noun",
+      "meaning": "Finding out where a device or person is, using signals such as GPS or Wi-Fi.",
+      "examples": [
+        "The app uses {geolocation} to show restaurants near you."
+      ],
+      "wrong": [
+        "Geolocation hides your position so that no app can tell where you are."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "location tracking"
+      ],
+      "ipa": "/ˌdʒioʊloʊˈkeɪʃən/"
+    },
+    {
+      "lemma": "outage",
+      "pos": "noun",
+      "meaning": "A period when a service such as power or the internet is not working.",
+      "examples": [
+        "The two-hour {outage} left thousands of people unable to pay online."
+      ],
+      "wrong": [
+        "During the outage, the website worked faster than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "breakdown",
+        "failure"
+      ],
+      "ipa": "/ˈaʊtɪdʒ/"
+    },
+    {
+      "lemma": "moderator",
+      "pos": "noun",
+      "meaning": "A person who checks posts on a website and removes ones that break the rules.",
+      "examples": [
+        "The {moderator} deleted the abusive comments within minutes."
+      ],
+      "wrong": [
+        "The moderator’s job is to post as many rule-breaking comments as possible."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "administrator"
+      ],
+      "ipa": "/ˈmɑdəˌreɪtɚ/"
+    },
+    {
+      "lemma": "end-to-end encryption",
+      "pos": "noun",
+      "meaning": "A security method where only the sender and receiver can read a message, not the service in between.",
+      "examples": [
+        "With {end-to-end encryption}, even the company cannot read your chats."
+      ],
+      "wrong": [
+        "End-to-end encryption lets the service provider read every message you send."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈɛnd tu ˈɛnd ɪnˈkrɪpʃən/"
+    },
+    {
+      "lemma": "bot",
+      "pos": "noun",
+      "meaning": "A computer program that does tasks automatically, sometimes pretending to be a real person.",
+      "examples": [
+        "Many of the accounts sharing the rumor turned out to be {bots}."
+      ],
+      "wrong": [
+        "The bot was a real person typing every reply by hand."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "automated account"
+      ],
+      "ipa": "/bɑt/"
+    },
+    {
+      "lemma": "deepfake",
+      "pos": "noun",
+      "meaning": "A fake video or recording made with software so a real person seems to say or do something.",
+      "examples": [
+        "The {deepfake} showed the mayor saying words she had never spoken."
+      ],
+      "wrong": [
+        "The deepfake was a genuine, unedited recording of the event."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "synthetic video"
+      ],
+      "ipa": "/ˈdipˌfeɪk/"
+    },
+    {
+      "lemma": "personalize",
+      "pos": "verb",
+      "meaning": "To change something so it suits one particular person’s interests or needs.",
+      "examples": [
+        "The app {personalizes} your news feed based on what you read."
+      ],
+      "wrong": [
+        "They personalized the service by giving every user exactly the same page."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "customize",
+        "tailor"
+      ],
+      "ipa": "/ˈpɝsənəˌlaɪz/",
+      "antonyms": [
+        "standardize"
+      ]
+    },
+    {
+      "lemma": "harvest",
+      "pos": "verb",
+      "meaning": "To collect large amounts of personal data, often without people noticing.",
+      "examples": [
+        "The game was secretly {harvesting} players’ contact lists."
+      ],
+      "wrong": [
+        "The company harvested user data by refusing to collect any of it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "gather",
+        "collect"
+      ],
+      "ipa": "/ˈhɑrvɪst/"
+    },
+    {
+      "lemma": "digital divide",
+      "pos": "noun",
+      "meaning": "The gap between people who have easy access to computers and the internet and people who do not.",
+      "examples": [
+        "Cheap tablets helped narrow the {digital divide} in poorer schools."
+      ],
+      "wrong": [
+        "The digital divide means everyone has exactly the same internet access."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdɪdʒətəl dɪˈvaɪd/"
+    },
+    {
+      "lemma": "digital native",
+      "pos": "noun",
+      "meaning": "A person who grew up with the internet and smartphones and uses them naturally.",
+      "examples": [
+        "As a {digital native}, she has never known life without online maps."
+      ],
+      "wrong": [
+        "My grandfather is a digital native who first used a computer at seventy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdɪdʒətəl ˈneɪtɪv/"
+    },
+    {
+      "lemma": "screen time",
+      "pos": "noun",
+      "meaning": "The number of hours a person spends looking at phones, computers or TV.",
+      "examples": [
+        "Parents worry about how much {screen time} their children have."
+      ],
+      "wrong": [
+        "She cut her screen time by watching more videos on her phone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈskrin ˌtaɪm/"
+    },
+    {
+      "lemma": "terms of service",
+      "pos": "noun",
+      "meaning": "The rules you must agree to before you can use a website or app.",
+      "examples": [
+        "Few people read the {terms of service} before clicking Accept."
+      ],
+      "wrong": [
+        "The terms of service are the reviews other users write about the app."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "user agreement",
+        "terms and conditions"
+      ],
+      "ipa": "/ˈtɝmz əv ˈsɝvɪs/"
+    },
+    {
+      "lemma": "user-generated",
+      "pos": "adjective",
+      "meaning": "Made by the people who use a website rather than by the company that runs it.",
+      "examples": [
+        "The platform relies on {user-generated} videos rather than its own shows."
+      ],
+      "wrong": [
+        "All the user-generated content was written by the company’s own staff."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈjuzɚ ˈdʒɛnəˌreɪtɪd/"
+    },
+    {
+      "lemma": "crowdsource",
+      "pos": "verb",
+      "meaning": "To get ideas, work or money from a large number of people, usually online.",
+      "examples": [
+        "The team {crowdsourced} translations of the guide from volunteers."
+      ],
+      "wrong": [
+        "They crowdsourced the design by giving it to one expert alone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈkraʊdˌsɔrs/"
+    },
+    {
+      "lemma": "cookie",
+      "pos": "noun",
+      "meaning": "A small file a website saves on your device to remember you and your activity.",
+      "examples": [
+        "The site asks whether you accept {cookies} before you continue."
+      ],
+      "wrong": [
+        "A cookie is a cable that connects your laptop to the screen."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "tracker"
+      ],
+      "ipa": "/ˈkʊki/"
+    },
+    {
+      "lemma": "two-factor authentication",
+      "pos": "noun",
+      "meaning": "A login method that asks for a second proof of identity, such as a code sent to your phone.",
+      "examples": [
+        "Turn on {two-factor authentication} so a stolen password is not enough."
+      ],
+      "wrong": [
+        "With two-factor authentication, you log in with no checks at all."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "two-step verification"
+      ],
+      "ipa": "/ˈtu ˈfæktɚ ɔˌθɛntɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "hack",
+      "pos": "verb",
+      "meaning": "To get into a computer system or account without permission.",
+      "examples": [
+        "Someone {hacked} his email and sent messages to all his contacts."
+      ],
+      "wrong": [
+        "She hacked into her own account by typing her normal password."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "break into"
+      ],
+      "ipa": "/hæk/"
+    },
+    {
+      "lemma": "identity theft",
+      "pos": "noun",
+      "meaning": "The crime of using someone else’s personal details to pretend to be them, often to get money.",
+      "examples": [
+        "After the data leak, several customers were victims of {identity theft}."
+      ],
+      "wrong": [
+        "Identity theft is when you proudly show your own passport."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "impersonation",
+        "fraud"
+      ],
+      "ipa": "/aɪˈdɛntəti ˈθɛft/"
+    },
+    {
+      "lemma": "algorithmic",
+      "pos": "adjective",
+      "meaning": "Done or decided by a set of computer rules rather than by people.",
+      "examples": [
+        "Critics say {algorithmic} hiring can repeat old prejudices."
+      ],
+      "wrong": [
+        "The ranking was algorithmic because an editor chose every item by hand."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "automated"
+      ],
+      "ipa": "/ˌælɡəˈrɪðmɪk/"
+    },
+    {
+      "lemma": "net neutrality",
+      "pos": "noun",
+      "meaning": "The principle that internet providers should treat all online traffic equally.",
+      "examples": [
+        "Supporters of {net neutrality} oppose paid fast lanes for big companies."
+      ],
+      "wrong": [
+        "Under net neutrality, providers may slow down any website they dislike."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈnɛt nuˈtræləti/"
+    },
+    {
+      "lemma": "dark web",
+      "pos": "noun",
+      "meaning": "A hidden part of the internet that ordinary search engines cannot find, often used for illegal trade.",
+      "examples": [
+        "The stolen card numbers were offered for sale on the {dark web}."
+      ],
+      "wrong": [
+        "The dark web is the part of the internet that every search engine shows first."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdɑrk ˈwɛb/"
+    },
+    {
+      "lemma": "biometric",
+      "pos": "adjective",
+      "meaning": "Using body features such as fingerprints or faces to identify a person.",
+      "examples": [
+        "The airport uses {biometric} scanners instead of checking boarding passes."
+      ],
+      "wrong": [
+        "The biometric lock opens with a printed code, not any part of your body."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌbaɪoʊˈmɛtrɪk/"
+    },
+    {
+      "lemma": "lurk",
+      "pos": "verb",
+      "meaning": "To read an online forum or group without ever posting anything yourself.",
+      "examples": [
+        "I {lurked} on the forum for months before writing my first post."
+      ],
+      "wrong": [
+        "He lurks in the chat by posting dozens of messages every hour."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "browse silently"
+      ],
+      "ipa": "/lɝk/",
+      "antonyms": [
+        "post",
+        "participate"
+      ]
+    },
+    {
+      "lemma": "ransomware",
+      "pos": "noun",
+      "meaning": "Harmful software that locks your files until you pay money to the attacker.",
+      "examples": [
+        "The {ransomware} demanded payment before staff could open their files."
+      ],
+      "wrong": [
+        "Ransomware is a free program that backs up your photos for you."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈrænsəmˌwɛr/"
+    }
+  ]
+}

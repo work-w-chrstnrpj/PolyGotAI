@@ -1,0 +1,663 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-getting-around",
+    "title": "Getting around",
+    "level": "A1",
+    "tagline": "Bus, train and car",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "plane",
+      "pos": "noun",
+      "meaning": "A machine with wings that flies people through the air.",
+      "examples": [
+        "Our {plane} lands at six o’clock."
+      ],
+      "wrong": [
+        "We drove the plane under the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "airplane"
+      ],
+      "ipa": "/pleɪn/"
+    },
+    {
+      "lemma": "metro",
+      "pos": "noun",
+      "meaning": "A train that goes under the ground in a city.",
+      "examples": [
+        "I take the {metro} to work every day."
+      ],
+      "wrong": [
+        "The metro is a train that flies above the clouds."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "subway",
+        "underground"
+      ],
+      "ipa": "/ˈmɛtroʊ/"
+    },
+    {
+      "lemma": "seat",
+      "pos": "noun",
+      "meaning": "A place where you can sit.",
+      "examples": [
+        "Is this {seat} free?"
+      ],
+      "wrong": [
+        "I put the seat on my head and wore it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "chair",
+        "place"
+      ],
+      "ipa": "/sit/"
+    },
+    {
+      "lemma": "motorcycle",
+      "pos": "noun",
+      "meaning": "A big, heavy bike with an engine.",
+      "examples": [
+        "He rides a red {motorcycle} to work."
+      ],
+      "wrong": [
+        "My motorcycle has no engine, so I push the pedals."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "motorbike"
+      ],
+      "ipa": "/ˈmoʊtɚˌsaɪkəl/"
+    },
+    {
+      "lemma": "wheel",
+      "pos": "noun",
+      "meaning": "A round thing under a car or bike that turns.",
+      "examples": [
+        "A bike has two {wheels}."
+      ],
+      "wrong": [
+        "The wheel was square, so the car moved fast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wil/"
+    },
+    {
+      "lemma": "trip",
+      "pos": "noun",
+      "meaning": "A time when you go to a place and come back.",
+      "examples": [
+        "We took a {trip} to the beach."
+      ],
+      "wrong": [
+        "The trip took us nowhere at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "journey"
+      ],
+      "ipa": "/trɪp/"
+    },
+    {
+      "lemma": "van",
+      "pos": "noun",
+      "meaning": "A small truck for carrying things or people.",
+      "examples": [
+        "They moved the sofa in a {van}."
+      ],
+      "wrong": [
+        "My van is as small as a pen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/væn/"
+    },
+    {
+      "lemma": "engine",
+      "pos": "noun",
+      "meaning": "The part of a car that makes it move.",
+      "examples": [
+        "The car’s {engine} is very loud."
+      ],
+      "wrong": [
+        "The car has no engine because it moves."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "motor"
+      ],
+      "ipa": "/ˈɛndʒən/"
+    },
+    {
+      "lemma": "tire",
+      "pos": "noun",
+      "meaning": "The black rubber ring around a car or bike wheel.",
+      "examples": [
+        "My bike has a flat {tire}."
+      ],
+      "wrong": [
+        "I filled the tire with milk."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/taɪɚ/"
+    },
+    {
+      "lemma": "horn",
+      "pos": "noun",
+      "meaning": "The part of a car that makes a loud warning sound.",
+      "examples": [
+        "The driver used the {horn} at the dog."
+      ],
+      "wrong": [
+        "The horn makes the car go faster."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɔrn/"
+    },
+    {
+      "lemma": "trunk",
+      "pos": "noun",
+      "meaning": "The space at the back of a car for bags.",
+      "examples": [
+        "Put the bags in the {trunk}."
+      ],
+      "wrong": [
+        "The driver sits in the trunk."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "boot"
+      ],
+      "ipa": "/trʌŋk/"
+    },
+    {
+      "lemma": "scooter",
+      "pos": "noun",
+      "meaning": "A small vehicle with two small wheels that you stand on.",
+      "examples": [
+        "She rides her {scooter} to school."
+      ],
+      "wrong": [
+        "I put my scooter in my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈskutɚ/"
+    },
+    {
+      "lemma": "train station",
+      "pos": "noun",
+      "meaning": "A place where trains stop for people to get on and off.",
+      "examples": [
+        "The {train station} is near the river."
+      ],
+      "wrong": [
+        "Planes land at the train station."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "railroad station"
+      ],
+      "ipa": "/treɪn ˈsteɪʃən/"
+    },
+    {
+      "lemma": "bus station",
+      "pos": "noun",
+      "meaning": "A place where many buses start and stop.",
+      "examples": [
+        "I’ll meet you at the {bus station}."
+      ],
+      "wrong": [
+        "Boats leave from the bus station."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bʌs ˈsteɪʃən/"
+    },
+    {
+      "lemma": "ticket office",
+      "pos": "noun",
+      "meaning": "A place where you buy tickets.",
+      "examples": [
+        "Buy your tickets at the {ticket office}."
+      ],
+      "wrong": [
+        "The ticket office sells fruit and flowers."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "box office"
+      ],
+      "ipa": "/ˈtɪkɪt ˈɔfɪs/"
+    },
+    {
+      "lemma": "road",
+      "pos": "noun",
+      "meaning": "A long, hard way for cars to drive on.",
+      "examples": [
+        "This {road} goes to the beach."
+      ],
+      "wrong": [
+        "The car drove on the road under the water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "street"
+      ],
+      "ipa": "/roʊd/"
+    },
+    {
+      "lemma": "road sign",
+      "pos": "noun",
+      "meaning": "A sign at the side of a road that gives drivers information.",
+      "examples": [
+        "The {road sign} says go slow."
+      ],
+      "wrong": [
+        "I read a road sign in my kitchen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/roʊd saɪn/"
+    },
+    {
+      "lemma": "get in",
+      "pos": "verb",
+      "meaning": "To go into a car or taxi.",
+      "examples": [
+        "{Get in}, I’ll drive you home."
+      ],
+      "wrong": [
+        "I got in the car and stayed outside."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "get into"
+      ],
+      "ipa": "/ɡɛt ɪn/",
+      "antonyms": [
+        "get out"
+      ]
+    },
+    {
+      "lemma": "get off",
+      "pos": "verb",
+      "meaning": "To leave a bus, train or bike.",
+      "examples": [
+        "We {get off} at the next stop."
+      ],
+      "wrong": [
+        "I got off the bus and stayed on it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt ɔf/",
+      "antonyms": [
+        "get on"
+      ]
+    },
+    {
+      "lemma": "get out",
+      "pos": "verb",
+      "meaning": "To leave a car or taxi.",
+      "examples": [
+        "Let’s {get out} of the car here."
+      ],
+      "wrong": [
+        "I got out of the car and sat inside it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt aʊt/",
+      "antonyms": [
+        "get in"
+      ]
+    },
+    {
+      "lemma": "park",
+      "pos": "verb",
+      "meaning": "To leave a car in a place for a time.",
+      "examples": [
+        "You can {park} your car here."
+      ],
+      "wrong": [
+        "I parked the car by driving it all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɑrk/"
+    },
+    {
+      "lemma": "by bus",
+      "pos": "phrase",
+      "meaning": "Using a bus to travel.",
+      "examples": [
+        "I go to school {by bus}."
+      ],
+      "wrong": [
+        "I came by bus, so I walked all the way."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/baɪ bʌs/"
+    },
+    {
+      "lemma": "by car",
+      "pos": "phrase",
+      "meaning": "Using a car to travel.",
+      "examples": [
+        "We went to the lake {by car}."
+      ],
+      "wrong": [
+        "We went by car and flew there."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/baɪ kɑr/"
+    },
+    {
+      "lemma": "take the bus",
+      "pos": "phrase",
+      "meaning": "To travel somewhere on a bus.",
+      "examples": [
+        "I {take the bus} to work."
+      ],
+      "wrong": [
+        "I take the bus, so I walk the whole way."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ride the bus"
+      ],
+      "ipa": "/teɪk ðə bʌs/"
+    },
+    {
+      "lemma": "next stop",
+      "pos": "phrase",
+      "meaning": "The place where a bus or train stops after this one.",
+      "examples": [
+        "The {next stop} is the city center."
+      ],
+      "wrong": [
+        "The next stop was the stop we just left."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/nɛkst stɑp/"
+    },
+    {
+      "lemma": "turn left",
+      "pos": "phrase",
+      "meaning": "To change direction to the left side.",
+      "examples": [
+        "{Turn left} at the bank."
+      ],
+      "wrong": [
+        "Turn left, and then you go right."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɝn lɛft/",
+      "antonyms": [
+        "turn right"
+      ]
+    },
+    {
+      "lemma": "turn right",
+      "pos": "phrase",
+      "meaning": "To change direction to the right side.",
+      "examples": [
+        "{Turn right} at the corner."
+      ],
+      "wrong": [
+        "I turned right, so I went left."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɝn raɪt/",
+      "antonyms": [
+        "turn left"
+      ]
+    },
+    {
+      "lemma": "go straight",
+      "pos": "phrase",
+      "meaning": "To keep going the same way without turning.",
+      "examples": [
+        "{Go straight} for two blocks."
+      ],
+      "wrong": [
+        "Go straight, and turn at every corner."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "go straight ahead"
+      ],
+      "ipa": "/ɡoʊ streɪt/"
+    },
+    {
+      "lemma": "directions",
+      "pos": "noun",
+      "meaning": "Words that tell you how to get to a place.",
+      "examples": [
+        "Can you give me {directions} to the station?"
+      ],
+      "wrong": [
+        "I followed the directions and the food tasted good."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "the way"
+      ],
+      "ipa": "/dɪˈrɛkʃənz/"
+    },
+    {
+      "lemma": "way",
+      "pos": "noun",
+      "meaning": "The road or path you take to get somewhere.",
+      "examples": [
+        "Is this the {way} to the station?"
+      ],
+      "wrong": [
+        "The way to the station is a kind of fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "route",
+        "road"
+      ],
+      "ipa": "/weɪ/"
+    },
+    {
+      "lemma": "accident",
+      "pos": "noun",
+      "meaning": "When a car or bus hits something by mistake.",
+      "examples": [
+        "Nobody was hurt in the car {accident}."
+      ],
+      "wrong": [
+        "We planned the accident for a week."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "crash"
+      ],
+      "ipa": "/ˈæksədənt/"
+    },
+    {
+      "lemma": "helicopter",
+      "pos": "noun",
+      "meaning": "A flying machine with long blades that turn on top.",
+      "examples": [
+        "The {helicopter} landed on the roof."
+      ],
+      "wrong": [
+        "The helicopter swam down the river."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhɛlɪˌkɑptɚ/"
+    },
+    {
+      "lemma": "driver’s license",
+      "pos": "noun",
+      "meaning": "A card that shows you can drive a car.",
+      "examples": [
+        "You need a {driver’s license} to drive."
+      ],
+      "wrong": [
+        "My baby brother has a driver’s license."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdraɪvɚz ˈlaɪsəns/"
+    },
+    {
+      "lemma": "car key",
+      "pos": "noun",
+      "meaning": "A small metal thing you use to open and start a car.",
+      "examples": [
+        "I can’t find my {car key}."
+      ],
+      "wrong": [
+        "I started the car with my car key in my bag at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kɑr ki/"
+    },
+    {
+      "lemma": "cab",
+      "pos": "noun",
+      "meaning": "A car you pay to take you somewhere.",
+      "examples": [
+        "Let’s take a {cab} to the airport."
+      ],
+      "wrong": [
+        "We took a cab, so we walked home."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "taxi"
+      ],
+      "ipa": "/kæb/"
+    },
+    {
+      "lemma": "on time",
+      "pos": "phrase",
+      "meaning": "At the right time, not late.",
+      "examples": [
+        "The train left {on time}."
+      ],
+      "wrong": [
+        "The bus came on time, an hour late."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "punctual"
+      ],
+      "ipa": "/ɑn taɪm/",
+      "antonyms": [
+        "late"
+      ]
+    },
+    {
+      "lemma": "slowly",
+      "pos": "adverb",
+      "meaning": "Not fast.",
+      "examples": [
+        "Drive {slowly} near the school."
+      ],
+      "wrong": [
+        "The car drove slowly at top speed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsloʊli/",
+      "antonyms": [
+        "quickly",
+        "fast"
+      ]
+    },
+    {
+      "lemma": "bus ticket",
+      "pos": "noun",
+      "meaning": "A small paper or card that lets you ride a bus.",
+      "examples": [
+        "I showed my {bus ticket} to the driver."
+      ],
+      "wrong": [
+        "I ate my bus ticket for lunch."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fare"
+      ],
+      "ipa": "/bʌs ˈtɪkɪt/"
+    },
+    {
+      "lemma": "bike path",
+      "pos": "noun",
+      "meaning": "A road or path made only for bicycles.",
+      "examples": [
+        "We rode along the {bike path} by the river."
+      ],
+      "wrong": [
+        "Big trucks drive on the bike path."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bike lane"
+      ],
+      "ipa": "/baɪk pæθ/"
+    },
+    {
+      "lemma": "back seat",
+      "pos": "noun",
+      "meaning": "The seat behind the driver in a car.",
+      "examples": [
+        "The kids sit in the {back seat}."
+      ],
+      "wrong": [
+        "The driver steers the car from the back seat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rear seat"
+      ],
+      "ipa": "/bæk sit/"
+    }
+  ]
+}

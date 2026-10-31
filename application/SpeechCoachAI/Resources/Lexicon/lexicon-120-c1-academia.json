@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-academia",
+    "title": "Academic life",
+    "level": "C1",
+    "tagline": "Theory, analysis and writing",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "dean",
+      "pos": "noun",
+      "meaning": "The head of a faculty or college within a university.",
+      "examples": [
+        "The {dean} of medicine welcomed the new students."
+      ],
+      "wrong": [
+        "The dean is the newest and most junior student in the college."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "head"
+      ],
+      "ipa": "/din/"
+    },
+    {
+      "lemma": "doctoral",
+      "pos": "adjective",
+      "meaning": "Related to the highest university degree.",
+      "examples": [
+        "She is finishing her {doctoral} research in chemistry."
+      ],
+      "wrong": [
+        "His doctoral studies were a short course for young children."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdɑktərəl/"
+    },
+    {
+      "lemma": "citation",
+      "pos": "noun",
+      "meaning": "A reference to a book, article or author that you have used in your work.",
+      "examples": [
+        "Every quotation needs a full {citation}."
+      ],
+      "wrong": [
+        "A citation hides where an idea came from."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reference"
+      ],
+      "ipa": "/saɪˈteɪʃən/"
+    },
+    {
+      "lemma": "cite",
+      "pos": "verb",
+      "meaning": "To mention a source or author as evidence or support.",
+      "examples": [
+        "Please {cite} at least five academic sources."
+      ],
+      "wrong": [
+        "She cited the study by never mentioning it anywhere."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "quote",
+        "reference"
+      ],
+      "ipa": "/saɪt/"
+    },
+    {
+      "lemma": "thesis statement",
+      "pos": "phrase",
+      "meaning": "A sentence, usually early in an essay, that states its main argument.",
+      "examples": [
+        "Your {thesis statement} should appear in the first paragraph."
+      ],
+      "wrong": [
+        "The thesis statement is a list of sources at the end of the essay."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "main claim"
+      ],
+      "ipa": "/ˈθisɪs ˈsteɪtmənt/"
+    },
+    {
+      "lemma": "abstract",
+      "pos": "noun",
+      "meaning": "A short summary at the start of a research paper.",
+      "examples": [
+        "Read the {abstract} first to see if the paper is useful."
+      ],
+      "wrong": [
+        "The abstract is the longest chapter of the paper."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "summary",
+        "synopsis"
+      ],
+      "ipa": "/ˈæbstrækt/"
+    },
+    {
+      "lemma": "bibliography",
+      "pos": "noun",
+      "meaning": "A list of all the books and articles used in a piece of writing.",
+      "examples": [
+        "Add the website to your {bibliography}."
+      ],
+      "wrong": [
+        "The bibliography lists the author’s favorite foods."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reference list"
+      ],
+      "ipa": "/ˌbɪbliˈɑɡrəfi/"
+    },
+    {
+      "lemma": "footnote",
+      "pos": "noun",
+      "meaning": "A note at the bottom of a page that gives extra information or a source.",
+      "examples": [
+        "The source is given in a {footnote} on page twelve."
+      ],
+      "wrong": [
+        "A footnote is the title printed at the top of the page."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "note"
+      ],
+      "ipa": "/ˈfʊtˌnoʊt/"
+    },
+    {
+      "lemma": "pedagogy",
+      "pos": "noun",
+      "meaning": "The methods and theory of teaching.",
+      "examples": [
+        "The course covers modern {pedagogy} for language teachers."
+      ],
+      "wrong": [
+        "Pedagogy is the study of how plants grow in deserts."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "teaching methods"
+      ],
+      "ipa": "/ˈpɛdəˌɡoʊdʒi/"
+    },
+    {
+      "lemma": "erudition",
+      "pos": "noun",
+      "meaning": "Deep knowledge gained from a great deal of study.",
+      "examples": [
+        "The professor’s {erudition} impressed even her rivals."
+      ],
+      "wrong": [
+        "His erudition showed that he had never read a book."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "learning",
+        "scholarship"
+      ],
+      "ipa": "/ˌɛrjəˈdɪʃən/"
+    },
+    {
+      "lemma": "tenure",
+      "pos": "noun",
+      "meaning": "A permanent university teaching post that is hard to lose.",
+      "examples": [
+        "After seven years, the professor was granted {tenure}."
+      ],
+      "wrong": [
+        "With tenure, she could be fired at any moment."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈtɛnjɚ/"
+    },
+    {
+      "lemma": "primary source",
+      "pos": "phrase",
+      "meaning": "An original document or record from the time being studied.",
+      "examples": [
+        "A soldier’s diary is a valuable {primary source} for historians."
+      ],
+      "wrong": [
+        "A primary source is a textbook written centuries after the events."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈpraɪˌmɛri ˈsɔrs/",
+      "antonyms": [
+        "secondary source"
+      ]
+    },
+    {
+      "lemma": "emeritus",
+      "pos": "adjective",
+      "meaning": "Used as a title for a retired professor who keeps an honorary rank.",
+      "examples": [
+        "He is now professor {emeritus} of physics."
+      ],
+      "wrong": [
+        "As an emeritus professor, she had just started her first job."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ɪˈmɛrətəs/"
+    },
+    {
+      "lemma": "ivory tower",
+      "pos": "phrase",
+      "meaning": "A place or state where scholars are cut off from real life.",
+      "examples": [
+        "Critics say the researchers live in an {ivory tower}."
+      ],
+      "wrong": [
+        "Living in an ivory tower, he knew every problem of ordinary life."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈaɪvəri ˈtaʊɚ/"
+    },
+    {
+      "lemma": "doctorate",
+      "pos": "noun",
+      "meaning": "The highest university degree.",
+      "examples": [
+        "She earned her {doctorate} in physics last year."
+      ],
+      "wrong": [
+        "A doctorate is the first certificate you get at school."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "PhD"
+      ],
+      "ipa": "/ˈdɑktərət/"
+    },
+    {
+      "lemma": "research question",
+      "pos": "phrase",
+      "meaning": "The main question that a study sets out to answer.",
+      "examples": [
+        "A clear {research question} guides the whole project."
+      ],
+      "wrong": [
+        "The research question is the answer printed at the end."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/rɪˈsɝtʃ ˈkwɛstʃən/"
+    },
+    {
+      "lemma": "scholar",
+      "pos": "noun",
+      "meaning": "A person who studies a subject in great depth.",
+      "examples": [
+        "She is a leading {scholar} of medieval history."
+      ],
+      "wrong": [
+        "The scholar knew almost nothing about any subject."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "academic",
+        "expert"
+      ],
+      "ipa": "/ˈskɑlɚ/"
+    },
+    {
+      "lemma": "scholarly",
+      "pos": "adjective",
+      "meaning": "Showing serious study and learning; written for experts.",
+      "examples": [
+        "The book is a {scholarly} study of ancient trade."
+      ],
+      "wrong": [
+        "The scholarly article was a casual blog post with no sources."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "academic",
+        "learned"
+      ],
+      "ipa": "/ˈskɑlɚli/",
+      "antonyms": [
+        "popular"
+      ]
+    },
+    {
+      "lemma": "discipline",
+      "pos": "noun",
+      "meaning": "A branch of knowledge studied at university.",
+      "examples": [
+        "Linguistics is a fast-growing {discipline}."
+      ],
+      "wrong": [
+        "A discipline is a sport played in the university park."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "field",
+        "subject"
+      ],
+      "ipa": "/ˈdɪsəplɪn/"
+    },
+    {
+      "lemma": "interdisciplinary",
+      "pos": "adjective",
+      "meaning": "Combining two or more branches of study.",
+      "examples": [
+        "The course takes an {interdisciplinary} approach to climate."
+      ],
+      "wrong": [
+        "The interdisciplinary project used only one subject."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cross-disciplinary"
+      ],
+      "ipa": "/ˌɪntɚˈdɪsəplɪˌnɛri/"
+    },
+    {
+      "lemma": "literature review",
+      "pos": "phrase",
+      "meaning": "A part of a study that sums up and judges earlier research on the topic.",
+      "examples": [
+        "Her {literature review} covers forty earlier studies."
+      ],
+      "wrong": [
+        "The literature review discussed only novels she enjoyed on holiday."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈlɪtərətʃɚ rɪˈvju/"
+    },
+    {
+      "lemma": "conceptualize",
+      "pos": "verb",
+      "meaning": "To form an idea or model of something in your mind.",
+      "examples": [
+        "The author {conceptualizes} memory as a kind of story."
+      ],
+      "wrong": [
+        "He conceptualized the problem without thinking about it at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "envisage",
+        "frame"
+      ],
+      "ipa": "/kənˈsɛptʃuəˌlaɪz/"
+    },
+    {
+      "lemma": "annotate",
+      "pos": "verb",
+      "meaning": "To add notes to a text to explain or comment on it.",
+      "examples": [
+        "Students {annotated} the poem in the margins."
+      ],
+      "wrong": [
+        "She annotated the article by leaving it completely untouched."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "comment on",
+        "gloss"
+      ],
+      "ipa": "/ˈænəˌteɪt/"
+    },
+    {
+      "lemma": "sabbatical",
+      "pos": "noun",
+      "meaning": "A period of paid leave given to a university teacher for study or travel.",
+      "examples": [
+        "The professor is on {sabbatical} in Japan this year."
+      ],
+      "wrong": [
+        "During her sabbatical, she taught more classes than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "leave"
+      ],
+      "ipa": "/səˈbætɪkəl/"
+    },
+    {
+      "lemma": "matriculate",
+      "pos": "verb",
+      "meaning": "To be formally accepted as a student at a university.",
+      "examples": [
+        "She {matriculated} at the university in 2019."
+      ],
+      "wrong": [
+        "He matriculated, so he was never accepted onto the course."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "enroll",
+        "register"
+      ],
+      "ipa": "/məˈtrɪkjəˌleɪt/"
+    },
+    {
+      "lemma": "rebuttal",
+      "pos": "noun",
+      "meaning": "A statement that argues against a claim or criticism.",
+      "examples": [
+        "The author published a {rebuttal} to her critics."
+      ],
+      "wrong": [
+        "His rebuttal agreed with every point the critics made."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refutation",
+        "counterargument"
+      ],
+      "ipa": "/rɪˈbʌtəl/"
+    },
+    {
+      "lemma": "assertion",
+      "pos": "noun",
+      "meaning": "A strong statement that something is true.",
+      "examples": [
+        "The writer gives no evidence for this {assertion}."
+      ],
+      "wrong": [
+        "An assertion is a question you ask when you’re unsure."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "claim",
+        "statement"
+      ],
+      "ipa": "/əˈsɝʃən/"
+    },
+    {
+      "lemma": "proofread",
+      "pos": "verb",
+      "meaning": "To read a text carefully to find and correct mistakes.",
+      "examples": [
+        "Always {proofread} your essay before you submit it."
+      ],
+      "wrong": [
+        "He proofread the essay by not reading it at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "check",
+        "correct"
+      ],
+      "ipa": "/ˈprufˌrid/"
+    },
+    {
+      "lemma": "appendix",
+      "pos": "noun",
+      "meaning": "Extra material at the end of a book or report.",
+      "examples": [
+        "The full survey questions are in the {appendix}."
+      ],
+      "wrong": [
+        "The appendix is the opening sentence of the report."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "supplement",
+        "annex"
+      ],
+      "ipa": "/əˈpɛndɪks/"
+    },
+    {
+      "lemma": "monograph",
+      "pos": "noun",
+      "meaning": "A detailed book written about one narrow subject.",
+      "examples": [
+        "He published a {monograph} on medieval bridges."
+      ],
+      "wrong": [
+        "The monograph covered every subject in the world briefly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "treatise",
+        "study"
+      ],
+      "ipa": "/ˈmɑnəˌɡræf/"
+    },
+    {
+      "lemma": "transcript",
+      "pos": "noun",
+      "meaning": "An official record of a student’s courses and grades.",
+      "examples": [
+        "Send a copy of your {transcript} with the application."
+      ],
+      "wrong": [
+        "The transcript lists only the student’s favorite songs."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "academic record"
+      ],
+      "ipa": "/ˈtrænˌskrɪpt/"
+    },
+    {
+      "lemma": "tutorial",
+      "pos": "noun",
+      "meaning": "A small class where a teacher discusses work with a few students.",
+      "examples": [
+        "We discussed our essays in the weekly {tutorial}."
+      ],
+      "wrong": [
+        "The tutorial was a lecture to a thousand students."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "seminar",
+        "class"
+      ],
+      "ipa": "/tuˈtɔriəl/"
+    },
+    {
+      "lemma": "theoretical",
+      "pos": "adjective",
+      "meaning": "Based on ideas and principles rather than practice.",
+      "examples": [
+        "The course is mainly {theoretical}, with few lab sessions."
+      ],
+      "wrong": [
+        "The theoretical course was all hands-on practice."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "abstract",
+        "conceptual"
+      ],
+      "ipa": "/ˌθiəˈrɛtɪkəl/",
+      "antonyms": [
+        "practical",
+        "applied"
+      ]
+    },
+    {
+      "lemma": "academic integrity",
+      "pos": "phrase",
+      "meaning": "Honest behavior in study and research, such as not copying or cheating.",
+      "examples": [
+        "Copying answers breaks the rules of {academic integrity}."
+      ],
+      "wrong": [
+        "She showed academic integrity by buying an essay online."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "honesty"
+      ],
+      "ipa": "/ˌækəˈdɛmɪk ɪnˈtɛɡrəti/"
+    },
+    {
+      "lemma": "postulate",
+      "pos": "verb",
+      "meaning": "To suggest an idea as a basis for an argument or theory.",
+      "examples": [
+        "The paper {postulates} a link between sleep and memory."
+      ],
+      "wrong": [
+        "He postulated the idea by refusing to suggest anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "propose",
+        "posit"
+      ],
+      "ipa": "/ˈpɑstʃəˌleɪt/"
+    },
+    {
+      "lemma": "commencement",
+      "pos": "noun",
+      "meaning": "The ceremony at which students receive their degrees.",
+      "examples": [
+        "Families gathered on the lawn for {commencement}."
+      ],
+      "wrong": [
+        "Commencement is the first lecture of the first year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "graduation"
+      ],
+      "ipa": "/kəˈmɛnsmənt/"
+    },
+    {
+      "lemma": "fellowship",
+      "pos": "noun",
+      "meaning": "A paid research post at a university or institute.",
+      "examples": [
+        "She won a two-year research {fellowship} at Oxford."
+      ],
+      "wrong": [
+        "The fellowship was a fine she paid for late library books."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "grant",
+        "bursary"
+      ],
+      "ipa": "/ˈfɛloʊˌʃɪp/"
+    },
+    {
+      "lemma": "symposium",
+      "pos": "noun",
+      "meaning": "A meeting where experts give talks and discuss a subject.",
+      "examples": [
+        "He presented his findings at a {symposium} in Boston."
+      ],
+      "wrong": [
+        "The symposium was a quiet place where nobody talked."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conference",
+        "colloquium"
+      ],
+      "ipa": "/sɪmˈpoʊziəm/"
+    },
+    {
+      "lemma": "manuscript",
+      "pos": "noun",
+      "meaning": "A text written by an author before it is printed or published.",
+      "examples": [
+        "She sent the {manuscript} to three journals."
+      ],
+      "wrong": [
+        "A manuscript is a book that has already been printed and sold."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "draft",
+        "typescript"
+      ],
+      "ipa": "/ˈmænjəˌskrɪpt/"
+    },
+    {
+      "lemma": "analytical",
+      "pos": "adjective",
+      "meaning": "Using careful, logical thinking to examine something in detail.",
+      "examples": [
+        "The essay needs a more {analytical} approach."
+      ],
+      "wrong": [
+        "His analytical essay simply listed his feelings without reasoning."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "logical",
+        "critical"
+      ],
+      "ipa": "/ˌænəˈlɪtɪkəl/"
+    }
+  ]
+}

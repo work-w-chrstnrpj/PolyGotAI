@@ -1,5 +1,16 @@
 import SwiftUI
 
+/// The IPA line under a Lexicon word (General American).
+struct PronunciationText: View {
+    var ipa: String
+    var body: some View {
+        Text(ipa).font(.title3).foregroundStyle(Kit.secondary)
+            .accessibilityLabel("Pronunciation")
+            .accessibilityValue(ipa)
+            .accessibilityIdentifier("lexicon.ipa")
+    }
+}
+
 /// Daily Lexicon on Today: one word a day with its meaning, an example and a speaker button.
 /// Showing it counts as an exposure only; nothing is scheduled until the word is trained.
 struct DailyLexiconCard: View {
@@ -14,6 +25,7 @@ struct DailyLexiconCard: View {
             KitCard {
                 Text("Word of the day").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
                 header(word)
+                if let ipa = word.ipa { PronunciationText(ipa: ipa) }
                 Text(word.meaning).fixedSize(horizontal: false, vertical: true)
                 if let example = word.parsedExamples.first {
                     Text(example.plain).italic().foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
@@ -21,7 +33,7 @@ struct DailyLexiconCard: View {
                 if added {
                     Label("In training", systemImage: "checkmark.circle").font(.subheadline).foregroundStyle(Kit.secondary)
                 } else {
-                    Button("Add to training") { add(word) }.buttonStyle(.bordered).frame(minHeight: 44)
+                    Button("Add to training") { add(word) }.buttonStyle(KitSecondaryButtonStyle()).frame(minHeight: 44)
                         .accessibilityIdentifier("daily.lexicon.add")
                 }
             }
@@ -55,8 +67,7 @@ struct DailyLexiconCard: View {
             let state = try repository.lexiconState()
             let stages = try repository.lexiconStages(bank: bank)
             let today = DailyLexicon.dayString(Date())
-            let level = storage.levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1"
-            guard let pick = DailyLexicon.pick(bank: bank, state: state, stages: stages, day: today, maxLevel: level) else { return }
+            guard let pick = DailyLexicon.pick(bank: bank, state: state, stages: stages, day: today) else { return }
             if pick.state != state { try repository.saveLexiconState(pick.state) }
             added = try repository.vocabularyEnrollments().contains { $0.itemId == pick.word.itemId }
             word = pick.word

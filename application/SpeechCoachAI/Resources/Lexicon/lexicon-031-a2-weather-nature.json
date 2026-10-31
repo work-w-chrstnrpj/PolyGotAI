@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-weather-nature",
+    "title": "Weather and nature",
+    "level": "A2",
+    "tagline": "Sun, storms and the land",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "sunny",
+      "pos": "adjective",
+      "meaning": "With a lot of sun.",
+      "examples": [
+        "It’s a {sunny} day; let’s go to the beach."
+      ],
+      "wrong": [
+        "It’s sunny, so the sky is dark and full of rain."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bright"
+      ],
+      "ipa": "/ˈsʌni/",
+      "antonyms": [
+        "cloudy"
+      ]
+    },
+    {
+      "lemma": "cloudy",
+      "pos": "adjective",
+      "meaning": "With many clouds in the sky.",
+      "examples": [
+        "It’s {cloudy}, but it isn’t raining."
+      ],
+      "wrong": [
+        "The sky is cloudy, so there isn’t one cloud."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "overcast"
+      ],
+      "ipa": "/ˈklaʊdi/",
+      "antonyms": [
+        "sunny",
+        "clear"
+      ]
+    },
+    {
+      "lemma": "rainy",
+      "pos": "adjective",
+      "meaning": "With a lot of rain.",
+      "examples": [
+        "Take an umbrella; it’s a {rainy} day."
+      ],
+      "wrong": [
+        "It was a rainy day, so the ground stayed dry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wet"
+      ],
+      "ipa": "/ˈreɪni/",
+      "antonyms": [
+        "dry"
+      ]
+    },
+    {
+      "lemma": "windy",
+      "pos": "adjective",
+      "meaning": "With a lot of wind.",
+      "examples": [
+        "It’s too {windy} to fly a plane today."
+      ],
+      "wrong": [
+        "It’s windy, so the air is completely still."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "breezy"
+      ],
+      "ipa": "/ˈwɪndi/"
+    },
+    {
+      "lemma": "foggy",
+      "pos": "adjective",
+      "meaning": "With thick cloud near the ground, so you can’t see far.",
+      "examples": [
+        "Drive slowly; it’s {foggy}."
+      ],
+      "wrong": [
+        "It’s foggy, so we can see for miles."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "misty"
+      ],
+      "ipa": "/ˈfɑɡi/",
+      "antonyms": [
+        "clear"
+      ]
+    },
+    {
+      "lemma": "storm",
+      "pos": "noun",
+      "meaning": "Very bad weather with strong wind and rain.",
+      "examples": [
+        "The {storm} broke many trees."
+      ],
+      "wrong": [
+        "The storm was calm with no wind at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/stɔrm/"
+    },
+    {
+      "lemma": "thunder",
+      "pos": "noun",
+      "meaning": "The loud noise in the sky during a storm.",
+      "examples": [
+        "The {thunder} woke the baby."
+      ],
+      "wrong": [
+        "Thunder is a quiet sound you can hardly hear."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈθʌndɚ/"
+    },
+    {
+      "lemma": "lightning",
+      "pos": "noun",
+      "meaning": "A bright flash of light in the sky in a storm.",
+      "examples": [
+        "The {lightning} lit up the sky."
+      ],
+      "wrong": [
+        "Lightning is a dark shadow in the sky."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈlaɪtnɪŋ/"
+    },
+    {
+      "lemma": "degree",
+      "pos": "noun",
+      "meaning": "A unit for measuring temperature.",
+      "examples": [
+        "It’s thirty {degrees} today."
+      ],
+      "wrong": [
+        "A degree is a unit for measuring time."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪˈɡri/"
+    },
+    {
+      "lemma": "season",
+      "pos": "noun",
+      "meaning": "One of the four parts of the year, like summer.",
+      "examples": [
+        "Spring is my favorite {season}."
+      ],
+      "wrong": [
+        "Monday is my favorite season."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsizən/"
+    },
+    {
+      "lemma": "heat",
+      "pos": "noun",
+      "meaning": "The quality of being hot.",
+      "examples": [
+        "I can’t sleep in this {heat}."
+      ],
+      "wrong": [
+        "The heat made us put on our coats."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "warmth"
+      ],
+      "ipa": "/hit/",
+      "antonyms": [
+        "cold"
+      ]
+    },
+    {
+      "lemma": "freeze",
+      "pos": "verb",
+      "meaning": "To become hard and cold because of low temperature.",
+      "examples": [
+        "Water {freezes} at zero degrees."
+      ],
+      "wrong": [
+        "Water freezes when it boils."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/friz/",
+      "antonyms": [
+        "melt",
+        "thaw"
+      ]
+    },
+    {
+      "lemma": "melt",
+      "pos": "verb",
+      "meaning": "To become liquid because of heat.",
+      "examples": [
+        "The ice cream {melted} in the sun."
+      ],
+      "wrong": [
+        "The snow melted in the freezing cold."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "thaw"
+      ],
+      "ipa": "/mɛlt/",
+      "antonyms": [
+        "freeze"
+      ]
+    },
+    {
+      "lemma": "shine",
+      "pos": "verb",
+      "meaning": "To give out bright light.",
+      "examples": [
+        "The sun {shines} all day in summer."
+      ],
+      "wrong": [
+        "The sun shines at midnight."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "glow"
+      ],
+      "ipa": "/ʃaɪn/"
+    },
+    {
+      "lemma": "coast",
+      "pos": "noun",
+      "meaning": "The land next to the sea.",
+      "examples": [
+        "We drove along the {coast}."
+      ],
+      "wrong": [
+        "The coast is in the middle of the desert, far from the sea."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shore"
+      ],
+      "ipa": "/koʊst/"
+    },
+    {
+      "lemma": "desert",
+      "pos": "noun",
+      "meaning": "A large dry area with very little rain.",
+      "examples": [
+        "It almost never rains in the {desert}."
+      ],
+      "wrong": [
+        "The desert is full of lakes and rain."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdɛzɚt/"
+    },
+    {
+      "lemma": "valley",
+      "pos": "noun",
+      "meaning": "Low land between hills or mountains.",
+      "examples": [
+        "A river runs through the {valley}."
+      ],
+      "wrong": [
+        "A valley is the top of a mountain."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈvæli/"
+    },
+    {
+      "lemma": "wave",
+      "pos": "noun",
+      "meaning": "A line of water that moves across the sea.",
+      "examples": [
+        "The {waves} were very big today."
+      ],
+      "wrong": [
+        "A wave is a small stone on the beach."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/weɪv/"
+    },
+    {
+      "lemma": "sand",
+      "pos": "noun",
+      "meaning": "Very small pieces of rock, found on beaches.",
+      "examples": [
+        "The children played in the {sand}."
+      ],
+      "wrong": [
+        "Sand is a kind of drink."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sænd/"
+    },
+    {
+      "lemma": "jungle",
+      "pos": "noun",
+      "meaning": "A thick forest in a hot, wet country.",
+      "examples": [
+        "Monkeys live in the {jungle}."
+      ],
+      "wrong": [
+        "A jungle is a cold place with no trees."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rainforest"
+      ],
+      "ipa": "/ˈdʒʌŋɡəl/"
+    },
+    {
+      "lemma": "planet",
+      "pos": "noun",
+      "meaning": "A large round object that moves around a star.",
+      "examples": [
+        "Mars is a red {planet}."
+      ],
+      "wrong": [
+        "A planet is a small insect."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈplænɪt/"
+    },
+    {
+      "lemma": "nature",
+      "pos": "noun",
+      "meaning": "Plants, animals and the world not made by people.",
+      "examples": [
+        "I love walking in {nature}."
+      ],
+      "wrong": [
+        "Nature is the inside of a shopping center."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈneɪtʃɚ/"
+    },
+    {
+      "lemma": "wild",
+      "pos": "adjective",
+      "meaning": "Living or growing without help from people.",
+      "examples": [
+        "{Wild} horses live in these hills."
+      ],
+      "wrong": [
+        "Wild animals live in our kitchen as pets."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/waɪld/",
+      "antonyms": [
+        "tame",
+        "domestic"
+      ]
+    },
+    {
+      "lemma": "ocean",
+      "pos": "noun",
+      "meaning": "One of the very large seas of the world.",
+      "examples": [
+        "The Pacific is the biggest {ocean}."
+      ],
+      "wrong": [
+        "An ocean is a small pond in a garden."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sea"
+      ],
+      "ipa": "/ˈoʊʃən/"
+    },
+    {
+      "lemma": "sunset",
+      "pos": "noun",
+      "meaning": "The time when the sun goes down in the evening.",
+      "examples": [
+        "We watched the {sunset} from the beach."
+      ],
+      "wrong": [
+        "The sunset happens early in the morning."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dusk"
+      ],
+      "ipa": "/ˈsʌnsɛt/",
+      "antonyms": [
+        "sunrise"
+      ]
+    },
+    {
+      "lemma": "sunrise",
+      "pos": "noun",
+      "meaning": "The time when the sun comes up in the morning.",
+      "examples": [
+        "We got up early to see the {sunrise}."
+      ],
+      "wrong": [
+        "Sunrise is the time when it gets dark."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dawn"
+      ],
+      "ipa": "/ˈsʌnraɪz/",
+      "antonyms": [
+        "sunset"
+      ]
+    },
+    {
+      "lemma": "shade",
+      "pos": "noun",
+      "meaning": "An area out of the sun, made by a tree or building.",
+      "examples": [
+        "Let’s sit in the {shade}."
+      ],
+      "wrong": [
+        "We sat in the shade to get a suntan."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ʃeɪd/"
+    },
+    {
+      "lemma": "mud",
+      "pos": "noun",
+      "meaning": "Wet, soft earth.",
+      "examples": [
+        "My boots are covered in {mud}."
+      ],
+      "wrong": [
+        "Mud is clean and dry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dirt"
+      ],
+      "ipa": "/mʌd/"
+    },
+    {
+      "lemma": "branch",
+      "pos": "noun",
+      "meaning": "A part of a tree that grows out from the trunk.",
+      "examples": [
+        "A bird sat on the {branch}."
+      ],
+      "wrong": [
+        "A branch is the root of a tree under the ground."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bough"
+      ],
+      "ipa": "/bræntʃ/"
+    },
+    {
+      "lemma": "root",
+      "pos": "noun",
+      "meaning": "The part of a plant that grows under the ground.",
+      "examples": [
+        "The tree has deep {roots}."
+      ],
+      "wrong": [
+        "A root is the flower at the top of a plant."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/rut/"
+    },
+    {
+      "lemma": "seed",
+      "pos": "noun",
+      "meaning": "A small thing that a new plant grows from.",
+      "examples": [
+        "Plant the {seeds} in spring."
+      ],
+      "wrong": [
+        "A seed is a big old tree."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sid/"
+    },
+    {
+      "lemma": "grow",
+      "pos": "verb",
+      "meaning": "To get bigger, or to make plants get bigger.",
+      "examples": [
+        "Tomatoes {grow} well in the sun."
+      ],
+      "wrong": [
+        "The child grew, so he got smaller."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɡroʊ/",
+      "antonyms": [
+        "shrink"
+      ]
+    },
+    {
+      "lemma": "pick",
+      "pos": "verb",
+      "meaning": "To take a flower or fruit from a plant.",
+      "examples": [
+        "We {picked} apples from the tree."
+      ],
+      "wrong": [
+        "I picked a flower by planting a seed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "gather"
+      ],
+      "ipa": "/pɪk/"
+    },
+    {
+      "lemma": "dust",
+      "pos": "noun",
+      "meaning": "Very fine dry dirt.",
+      "examples": [
+        "The old books were covered in {dust}."
+      ],
+      "wrong": [
+        "Dust is a kind of water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʌst/"
+    },
+    {
+      "lemma": "cave",
+      "pos": "noun",
+      "meaning": "A large hole in the side of a hill or under the ground.",
+      "examples": [
+        "Bats live in the {cave}."
+      ],
+      "wrong": [
+        "A cave is a tall building made of glass."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/keɪv/"
+    },
+    {
+      "lemma": "waterfall",
+      "pos": "noun",
+      "meaning": "A place where a river falls over rocks.",
+      "examples": [
+        "We swam under the {waterfall}."
+      ],
+      "wrong": [
+        "A waterfall is a dry hill."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "falls"
+      ],
+      "ipa": "/ˈwɔtɚfɔl/"
+    },
+    {
+      "lemma": "pond",
+      "pos": "noun",
+      "meaning": "A small area of still water.",
+      "examples": [
+        "There are fish in the garden {pond}."
+      ],
+      "wrong": [
+        "A pond is as big as an ocean."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pool"
+      ],
+      "ipa": "/pɑnd/"
+    },
+    {
+      "lemma": "climate change",
+      "pos": "noun",
+      "meaning": "Changes in the world’s weather, such as rising temperatures.",
+      "examples": [
+        "{Climate change} is melting the ice."
+      ],
+      "wrong": [
+        "Climate change is the weather report for one day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "global warming"
+      ],
+      "ipa": "/ˈklaɪmət ˌtʃeɪndʒ/"
+    },
+    {
+      "lemma": "breeze",
+      "pos": "noun",
+      "meaning": "A light, gentle wind.",
+      "examples": [
+        "A cool {breeze} came from the sea."
+      ],
+      "wrong": [
+        "A breeze is a strong storm that breaks trees."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/briz/"
+    },
+    {
+      "lemma": "snowy",
+      "pos": "adjective",
+      "meaning": "With a lot of snow.",
+      "examples": [
+        "The mountains are {snowy} in winter."
+      ],
+      "wrong": [
+        "It was snowy, so the ground was green and dry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsnoʊi/"
+    }
+  ]
+}

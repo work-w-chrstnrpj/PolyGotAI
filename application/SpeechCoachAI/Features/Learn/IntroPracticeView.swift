@@ -168,10 +168,10 @@ struct IntroPracticeView: View {
                                 Text(step.supported || teachingConsulted ? "Supported practice — a model or frame is available." : "Try first. Compare with an example afterward.")
                                     .font(.footnote).foregroundStyle(Kit.secondary)
                                 TextField("Your response", text: $answer, axis: .vertical)
-                                    .textFieldStyle(.roundedBorder).accessibilityIdentifier("intro.practice.answer")
+                                    .textFieldStyle(KitFieldStyle()).accessibilityIdentifier("intro.practice.answer")
                                     .dictation($answer)
                                 Button(response == nil ? "Save my attempt" : "Save a retry", action: record)
-                                    .buttonStyle(.borderedProminent).disabled(answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                                    .buttonStyle(KitPrimaryButtonStyle()).disabled(answer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                                     .accessibilityIdentifier("intro.practice.save")
                                 if pack != .foundations && step.id != "\(pack.id)-review" {
                                     Button("Practise this aloud", systemImage: "mic") { openSpeaking() }
@@ -345,7 +345,7 @@ struct IntroCheckView: View {
                             KitCard {
                                 Text(check.prompts[index]).font(.title3).accessibilityIdentifier("intro.check.prompt")
                                 TextField("Your response", text: $response, axis: .vertical)
-                                    .textFieldStyle(.roundedBorder).accessibilityIdentifier("intro.check.answer")
+                                    .textFieldStyle(KitFieldStyle()).accessibilityIdentifier("intro.check.answer")
                                     .dictation($response)
                                 Text(check.retainedText ? "Save records your written response on this device." : "Written response is not retained. Only participation is recorded when you continue; unsaved text disappears when you leave.").font(.footnote)
                                 Button("Record written attempt") { recordCurrent() }
@@ -371,7 +371,7 @@ struct IntroCheckView: View {
                                 ForEach(["Not reported", "No practice reported", "Some practice reported"], id: \.self) { Text($0) }
                             }
                             Text("Self-paced. Follow-up appears after the first response. Opening records exposure even if you leave. You can decline and return to your lesson.").font(.footnote)
-                            Button("Begin check", action: begin).buttonStyle(.borderedProminent)
+                            Button("Begin check", action: begin).buttonStyle(KitPrimaryButtonStyle())
                                 .accessibilityIdentifier("intro.check.begin")
                         }
                     }

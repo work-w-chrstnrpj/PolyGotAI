@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-arts-culture",
+    "title": "Arts and culture",
+    "level": "C1",
+    "tagline": "Style, taste and criticism",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "aesthetic",
+      "pos": "noun",
+      "meaning": "A set of ideas about beauty and style that guides an artist or a movement.",
+      "examples": [
+        "The film’s dreamy {aesthetic} owes much to old painting."
+      ],
+      "wrong": [
+        "The aesthetic of the building had nothing to do with how it looked."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "style",
+        "look",
+        "sensibility"
+      ],
+      "ipa": "/ɛsˈθɛtɪk/"
+    },
+    {
+      "lemma": "curator",
+      "pos": "noun",
+      "meaning": "A person who chooses and looks after the objects in a museum or exhibition.",
+      "examples": [
+        "The {curator} selected forty paintings for the show."
+      ],
+      "wrong": [
+        "The curator has no say in which works the museum displays."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "keeper"
+      ],
+      "ipa": "/ˈkjʊˌreɪtɚ/"
+    },
+    {
+      "lemma": "curate",
+      "pos": "verb",
+      "meaning": "To select and arrange works or items for people to see or use.",
+      "examples": [
+        "She {curated} an exhibition of young African photographers."
+      ],
+      "wrong": [
+        "He curated the show by hanging random pieces without any plan."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "select",
+        "organize"
+      ],
+      "ipa": "/kjʊˈreɪt/"
+    },
+    {
+      "lemma": "critique",
+      "pos": "noun",
+      "meaning": "A careful written or spoken judgment of a work, idea or performance.",
+      "examples": [
+        "Her {critique} of the novel praised its style but not its plot."
+      ],
+      "wrong": [
+        "The critique gave no judgment of the play at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "review",
+        "assessment",
+        "evaluation"
+      ],
+      "ipa": "/krɪˈtik/"
+    },
+    {
+      "lemma": "acclaimed",
+      "pos": "adjective",
+      "meaning": "Publicly praised by many people, especially critics.",
+      "examples": [
+        "The {acclaimed} director won three major awards."
+      ],
+      "wrong": [
+        "The acclaimed novel was ignored or attacked by every critic."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "celebrated",
+        "praised",
+        "lauded"
+      ],
+      "ipa": "/əˈkleɪmd/",
+      "antonyms": [
+        "panned",
+        "unknown"
+      ]
+    },
+    {
+      "lemma": "avant-garde",
+      "pos": "adjective",
+      "meaning": "New and experimental, especially in art, music or writing.",
+      "examples": [
+        "The gallery shows {avant-garde} work that challenges traditional ideas."
+      ],
+      "wrong": [
+        "His avant-garde music sounded exactly like every traditional folk song."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "experimental",
+        "innovative",
+        "cutting-edge"
+      ],
+      "ipa": "/ˌævɑnt ˈɡɑrd/",
+      "antonyms": [
+        "traditional",
+        "conventional"
+      ]
+    },
+    {
+      "lemma": "abstract",
+      "pos": "adjective",
+      "meaning": "Using shapes, colors and lines rather than showing real people or things.",
+      "examples": [
+        "The {abstract} painting is just bold red squares on a white background."
+      ],
+      "wrong": [
+        "The abstract portrait looked exactly like a photograph of the man."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nonrepresentational"
+      ],
+      "ipa": "/ˈæbˌstrækt/",
+      "antonyms": [
+        "figurative",
+        "representational"
+      ]
+    },
+    {
+      "lemma": "figurative",
+      "pos": "adjective",
+      "meaning": "Showing people, animals or objects in a way that looks like the real world.",
+      "examples": [
+        "She prefers {figurative} painting to purely abstract art."
+      ],
+      "wrong": [
+        "The figurative sculpture showed no recognizable shape at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "representational"
+      ],
+      "ipa": "/ˈfɪɡjɚətɪv/",
+      "antonyms": [
+        "abstract"
+      ]
+    },
+    {
+      "lemma": "portrayal",
+      "pos": "noun",
+      "meaning": "The way someone or something is shown in art, film or writing.",
+      "examples": [
+        "The film’s {portrayal} of the king is surprisingly sympathetic."
+      ],
+      "wrong": [
+        "Her portrayal of the queen was a speech she never performed or wrote."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "depiction",
+        "representation"
+      ],
+      "ipa": "/pɔrˈtreɪəl/"
+    },
+    {
+      "lemma": "depict",
+      "pos": "verb",
+      "meaning": "To show someone or something in a picture, story or film.",
+      "examples": [
+        "The mural {depicts} the history of the town."
+      ],
+      "wrong": [
+        "The painting depicts a ship, though nothing at all appears in it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "portray",
+        "represent",
+        "illustrate"
+      ],
+      "ipa": "/dɪˈpɪkt/"
+    },
+    {
+      "lemma": "medium",
+      "pos": "noun",
+      "meaning": "The material or method an artist uses, such as oil paint, clay or film.",
+      "examples": [
+        "Watercolor is a difficult {medium} to master."
+      ],
+      "wrong": [
+        "The artist’s medium is the price of her paintings."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "material",
+        "technique"
+      ],
+      "ipa": "/ˈmidiəm/"
+    },
+    {
+      "lemma": "installation",
+      "pos": "noun",
+      "meaning": "A large artwork made for a specific space, often filling a whole room.",
+      "examples": [
+        "The {installation} filled the hall with hanging glass lights."
+      ],
+      "wrong": [
+        "The installation was a tiny drawing in a small frame."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌɪnstəˈleɪʃən/"
+    },
+    {
+      "lemma": "retrospective",
+      "pos": "noun",
+      "meaning": "An exhibition that shows an artist’s work from across their whole career.",
+      "examples": [
+        "The museum is holding a {retrospective} of her fifty years of painting."
+      ],
+      "wrong": [
+        "The retrospective only showed paintings she finished last week."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌrɛtrəˈspɛktɪv/"
+    },
+    {
+      "lemma": "patron",
+      "pos": "noun",
+      "meaning": "A person who gives money or support to artists or arts organizations.",
+      "examples": [
+        "A wealthy {patron} paid for the new concert hall."
+      ],
+      "wrong": [
+        "The patron refused to give the orchestra any support."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sponsor",
+        "benefactor",
+        "backer"
+      ],
+      "ipa": "/ˈpeɪtrən/"
+    },
+    {
+      "lemma": "commission",
+      "pos": "verb",
+      "meaning": "To formally ask an artist to create a particular work, and pay for it.",
+      "examples": [
+        "The city {commissioned} a statue for the new square."
+      ],
+      "wrong": [
+        "They commissioned the portrait by refusing to pay the artist anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "order"
+      ],
+      "ipa": "/kəˈmɪʃən/"
+    },
+    {
+      "lemma": "renowned",
+      "pos": "adjective",
+      "meaning": "Famous and admired for a particular skill or achievement.",
+      "examples": [
+        "The concert features a {renowned} cellist."
+      ],
+      "wrong": [
+        "The renowned singer is completely unknown outside her family."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "famous",
+        "celebrated",
+        "eminent"
+      ],
+      "ipa": "/rɪˈnaʊnd/",
+      "antonyms": [
+        "unknown",
+        "obscure"
+      ]
+    },
+    {
+      "lemma": "virtuoso",
+      "pos": "noun",
+      "meaning": "A person with outstanding skill, especially in playing music.",
+      "examples": [
+        "The young violin {virtuoso} played without a single mistake."
+      ],
+      "wrong": [
+        "The virtuoso could barely play a simple tune."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "master",
+        "maestro"
+      ],
+      "ipa": "/ˌvɝtʃuˈoʊsoʊ/"
+    },
+    {
+      "lemma": "repertoire",
+      "pos": "noun",
+      "meaning": "All the pieces that a performer or company is ready to perform.",
+      "examples": [
+        "The pianist has a wide {repertoire}, from Bach to jazz."
+      ],
+      "wrong": [
+        "Her repertoire includes songs she has never learned."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "range",
+        "collection"
+      ],
+      "ipa": "/ˈrɛpɚˌtwɑr/"
+    },
+    {
+      "lemma": "choreography",
+      "pos": "noun",
+      "meaning": "The planning and arrangement of steps and movements in a dance.",
+      "examples": [
+        "The {choreography} blends ballet with street dance."
+      ],
+      "wrong": [
+        "The choreography was the music the orchestra played."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dance design"
+      ],
+      "ipa": "/ˌkɔriˈɑɡrəfi/"
+    },
+    {
+      "lemma": "rendition",
+      "pos": "noun",
+      "meaning": "A particular performance of a song, piece of music or role.",
+      "examples": [
+        "She gave a moving {rendition} of the old folk song."
+      ],
+      "wrong": [
+        "His rendition of the song was never performed by anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "performance",
+        "interpretation",
+        "version"
+      ],
+      "ipa": "/rɛnˈdɪʃən/"
+    },
+    {
+      "lemma": "interpretation",
+      "pos": "noun",
+      "meaning": "A particular way of understanding or performing a work of art.",
+      "examples": [
+        "The director’s {interpretation} sets the play in modern times."
+      ],
+      "wrong": [
+        "Every reader has the same interpretation, so the novel has no other meanings."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reading",
+        "understanding"
+      ],
+      "ipa": "/ɪnˌtɝprəˈteɪʃən/"
+    },
+    {
+      "lemma": "symbolism",
+      "pos": "noun",
+      "meaning": "The use of objects, colors or images to stand for ideas.",
+      "examples": [
+        "The novel is full of {symbolism}; the storm represents the hero’s anger."
+      ],
+      "wrong": [
+        "The symbolism showed that nothing in the poem stood for anything else."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "imagery"
+      ],
+      "ipa": "/ˈsɪmbəˌlɪzəm/"
+    },
+    {
+      "lemma": "motif",
+      "pos": "noun",
+      "meaning": "An image, idea or pattern that appears again and again in a work.",
+      "examples": [
+        "Water is a recurring {motif} in her paintings."
+      ],
+      "wrong": [
+        "The motif appears only once and is never repeated."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "theme",
+        "pattern"
+      ],
+      "ipa": "/moʊˈtif/"
+    },
+    {
+      "lemma": "evocative",
+      "pos": "adjective",
+      "meaning": "Bringing strong images, memories or feelings to mind.",
+      "examples": [
+        "The {evocative} music took me straight back to my childhood."
+      ],
+      "wrong": [
+        "The evocative poem stirred no feelings or memories in anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "suggestive",
+        "atmospheric",
+        "expressive"
+      ],
+      "ipa": "/ɪˈvɑkətɪv/"
+    },
+    {
+      "lemma": "poignant",
+      "pos": "adjective",
+      "meaning": "Causing a strong feeling of sadness or sympathy.",
+      "examples": [
+        "The final scene, where the father says goodbye, is deeply {poignant}."
+      ],
+      "wrong": [
+        "The poignant ending made everyone laugh without a care."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "moving",
+        "touching",
+        "affecting"
+      ],
+      "ipa": "/ˈpɔɪnjənt/"
+    },
+    {
+      "lemma": "highbrow",
+      "pos": "adjective",
+      "meaning": "Intellectual and serious, and usually enjoyed by educated people.",
+      "examples": [
+        "The station plays {highbrow} classical music and poetry readings."
+      ],
+      "wrong": [
+        "The highbrow show was full of silly slapstick jokes."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intellectual",
+        "cultured",
+        "sophisticated"
+      ],
+      "ipa": "/ˈhaɪˌbraʊ/",
+      "antonyms": [
+        "lowbrow"
+      ]
+    },
+    {
+      "lemma": "lowbrow",
+      "pos": "adjective",
+      "meaning": "Simple and popular, and not intended to be intellectual.",
+      "examples": [
+        "He enjoys {lowbrow} comedies as much as serious drama."
+      ],
+      "wrong": [
+        "The lowbrow lecture was a dense philosophical analysis."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unsophisticated",
+        "populist"
+      ],
+      "ipa": "/ˈloʊˌbraʊ/",
+      "antonyms": [
+        "highbrow"
+      ]
+    },
+    {
+      "lemma": "mainstream",
+      "pos": "adjective",
+      "meaning": "Liked or accepted by most people; not unusual or extreme.",
+      "examples": [
+        "The band moved from small clubs into {mainstream} success."
+      ],
+      "wrong": [
+        "Her mainstream music is known by only a handful of fans."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "popular",
+        "conventional"
+      ],
+      "ipa": "/ˈmeɪnˌstrim/",
+      "antonyms": [
+        "niche",
+        "alternative",
+        "fringe"
+      ]
+    },
+    {
+      "lemma": "niche",
+      "pos": "adjective",
+      "meaning": "Appealing to a small, specialized group of people.",
+      "examples": [
+        "The shop sells {niche} records for serious collectors."
+      ],
+      "wrong": [
+        "The niche film was a hit with almost everyone in the country."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "specialized",
+        "specialist"
+      ],
+      "ipa": "/nɪtʃ/",
+      "antonyms": [
+        "mainstream"
+      ]
+    },
+    {
+      "lemma": "philistine",
+      "pos": "noun",
+      "meaning": "A person who does not understand or value art and culture.",
+      "examples": [
+        "Only a {philistine} would turn that old theater into a parking lot."
+      ],
+      "wrong": [
+        "The philistine spent every weekend at galleries and the opera."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "boor"
+      ],
+      "ipa": "/ˈfɪləˌstin/"
+    },
+    {
+      "lemma": "connoisseur",
+      "pos": "noun",
+      "meaning": "An expert who has great knowledge and good judgment about art, food or wine.",
+      "examples": [
+        "A {connoisseur} of jazz, he can name the player after a few notes."
+      ],
+      "wrong": [
+        "As a wine connoisseur, she can’t tell red from white."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "expert",
+        "aficionado",
+        "authority"
+      ],
+      "ipa": "/ˌkɑnəˈsɝ/",
+      "antonyms": [
+        "amateur",
+        "novice"
+      ]
+    },
+    {
+      "lemma": "kitsch",
+      "pos": "noun",
+      "meaning": "Art or objects thought to be cheap, showy and in poor taste, sometimes enjoyed ironically.",
+      "examples": [
+        "The shop is full of {kitsch}, like glittery plastic swans."
+      ],
+      "wrong": [
+        "The kitsch was elegant and admired for its refined taste."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tackiness"
+      ],
+      "ipa": "/kɪtʃ/"
+    },
+    {
+      "lemma": "pretentious",
+      "pos": "adjective",
+      "meaning": "Trying to seem more important, clever or artistic than you really are.",
+      "examples": [
+        "The film was so {pretentious} that the dialogue was almost unbearable."
+      ],
+      "wrong": [
+        "His pretentious style was plain, modest and simple."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "showy",
+        "affected",
+        "pompous"
+      ],
+      "ipa": "/prɪˈtɛnʃəs/",
+      "antonyms": [
+        "unpretentious",
+        "modest",
+        "unassuming"
+      ]
+    },
+    {
+      "lemma": "derivative",
+      "pos": "adjective",
+      "meaning": "Copying other people’s work too closely; not original.",
+      "examples": [
+        "Critics called the album {derivative} of 1970s rock."
+      ],
+      "wrong": [
+        "The derivative novel was praised as the most original book of the year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unoriginal",
+        "imitative"
+      ],
+      "ipa": "/dɪˈrɪvətɪv/",
+      "antonyms": [
+        "original"
+      ]
+    },
+    {
+      "lemma": "minimalist",
+      "pos": "adjective",
+      "meaning": "Using very few simple shapes, colors or elements on purpose.",
+      "examples": [
+        "The gallery’s white walls suit her {minimalist} sculptures."
+      ],
+      "wrong": [
+        "The minimalist painting was crowded with hundreds of bright details."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "spare",
+        "pared-down",
+        "understated"
+      ],
+      "ipa": "/ˈmɪnəməlɪst/",
+      "antonyms": [
+        "ornate",
+        "maximalist",
+        "elaborate"
+      ]
+    },
+    {
+      "lemma": "tasteful",
+      "pos": "adjective",
+      "meaning": "Attractive and chosen with good judgment about style.",
+      "examples": [
+        "The room was decorated in a {tasteful}, simple style."
+      ],
+      "wrong": [
+        "The tasteful outfit was loud, clashing and over the top."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "elegant",
+        "refined",
+        "stylish"
+      ],
+      "ipa": "/ˈteɪstfəl/",
+      "antonyms": [
+        "tasteless",
+        "tacky",
+        "vulgar"
+      ]
+    },
+    {
+      "lemma": "canon",
+      "pos": "noun",
+      "meaning": "The group of works generally accepted as the most important in a field.",
+      "examples": [
+        "Her novels are now part of the literary {canon}."
+      ],
+      "wrong": [
+        "The canon includes only books that critics have forgotten."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "classics"
+      ],
+      "ipa": "/ˈkænən/"
+    },
+    {
+      "lemma": "iconic",
+      "pos": "adjective",
+      "meaning": "Very famous and widely seen as a symbol of something.",
+      "examples": [
+        "The {iconic} photo of the moon landing is known worldwide."
+      ],
+      "wrong": [
+        "The iconic image is one that nobody remembers."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "emblematic",
+        "legendary"
+      ],
+      "ipa": "/aɪˈkɑnɪk/"
+    },
+    {
+      "lemma": "satire",
+      "pos": "noun",
+      "meaning": "Using humor and exaggeration to criticize people or ideas, especially in politics.",
+      "examples": [
+        "The show uses {satire} to mock powerful politicians."
+      ],
+      "wrong": [
+        "The satire praised the government seriously, without any humor."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lampoon",
+        "mockery"
+      ],
+      "ipa": "/ˈsæˌtaɪɚ/"
+    },
+    {
+      "lemma": "parody",
+      "pos": "noun",
+      "meaning": "A funny imitation of a work or style that exaggerates it.",
+      "examples": [
+        "The film is a {parody} of old spy movies."
+      ],
+      "wrong": [
+        "The parody was a serious, exact copy with no humor."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "spoof",
+        "send-up",
+        "pastiche"
+      ],
+      "ipa": "/ˈpærədi/"
+    }
+  ]
+}

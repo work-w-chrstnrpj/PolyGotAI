@@ -10,7 +10,7 @@ struct ResourceEditorView: View {
 
     var body: some View {
         NavigationStack {
-            Form {
+            Form { KitRows {
                 if storage.resourceDraft != nil {
                     Section("Bookmark") {
                         field("Title", key: \.title, id: "title")
@@ -38,7 +38,7 @@ struct ResourceEditorView: View {
                     Text(resetMessage ?? "This draft is no longer available. Return to the library to start again.")
                         .accessibilityIdentifier("resources.editor.reset")
                 }
-            }
+            }}
             .navigationTitle(storage.resourceDraft?.original == nil ? "Add resource" : "Edit resource")
             .navigationBarTitleDisplayMode(.inline)
             .foregroundStyle(Kit.ink)

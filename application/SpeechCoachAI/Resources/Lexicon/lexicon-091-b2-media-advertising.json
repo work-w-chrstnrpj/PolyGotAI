@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-media-advertising",
+    "title": "Media and advertising",
+    "level": "B2",
+    "tagline": "News, ads and influence",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "airtime",
+      "pos": "noun",
+      "meaning": "The amount of time given to a subject or ad on TV or radio.",
+      "examples": [
+        "The new party got very little {airtime} during the campaign."
+      ],
+      "wrong": [
+        "With so much airtime, the story was never on TV."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "broadcast time"
+      ],
+      "ipa": "/ˈɛrˌtaɪm/"
+    },
+    {
+      "lemma": "brand awareness",
+      "pos": "noun",
+      "meaning": "How well people know and recognize a company’s name and products.",
+      "examples": [
+        "The ads raised {brand awareness} among young buyers."
+      ],
+      "wrong": [
+        "Thanks to its brand awareness, nobody had heard of the company."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "brand recognition"
+      ],
+      "ipa": "/ˈbrænd əˌwɛrnəs/"
+    },
+    {
+      "lemma": "editor",
+      "pos": "noun",
+      "meaning": "A person who decides what goes into a newspaper or magazine and corrects it.",
+      "examples": [
+        "The {editor} cut my article from 900 words to 500."
+      ],
+      "wrong": [
+        "The editor never reads anything before it is printed."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɛdɪtɚ/"
+    },
+    {
+      "lemma": "advertorial",
+      "pos": "noun",
+      "meaning": "An ad written to look like a normal news article.",
+      "examples": [
+        "The health article was really an {advertorial} paid for by the drug company."
+      ],
+      "wrong": [
+        "The advertorial was a news report that nobody paid for."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sponsored content"
+      ],
+      "ipa": "/ˌædvɚˈtɔriəl/"
+    },
+    {
+      "lemma": "product placement",
+      "pos": "noun",
+      "meaning": "Showing a brand’s goods in a film or show in return for payment.",
+      "examples": [
+        "The hero drinking the same soda in every scene is {product placement}."
+      ],
+      "wrong": [
+        "It was product placement because no brand appeared anywhere."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈprɑdʌkt ˌpleɪsmənt/"
+    },
+    {
+      "lemma": "airbrush",
+      "pos": "verb",
+      "meaning": "To change a photo so a person looks more perfect than in real life.",
+      "examples": [
+        "The model’s skin was {airbrushed} to remove every line."
+      ],
+      "wrong": [
+        "They airbrushed the photo, so it shows every real flaw."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "retouch",
+        "touch up"
+      ],
+      "ipa": "/ˈɛrˌbrʌʃ/"
+    },
+    {
+      "lemma": "content creator",
+      "pos": "noun",
+      "meaning": "A person who makes videos, posts or other material to share online.",
+      "examples": [
+        "As a {content creator}, she uploads a cooking video every day."
+      ],
+      "wrong": [
+        "The content creator has never made or posted anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈkɑntɛnt kriˌeɪtɚ/"
+    },
+    {
+      "lemma": "infomercial",
+      "pos": "noun",
+      "meaning": "A long TV ad that looks like a show and explains a product.",
+      "examples": [
+        "Late at night, the channel shows a thirty-minute {infomercial} for kitchen knives."
+      ],
+      "wrong": [
+        "The infomercial was a ten-second ad with no information at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌɪnfoʊˈmɝʃəl/"
+    },
+    {
+      "lemma": "plug",
+      "pos": "verb",
+      "meaning": "To mention a product or event on air or online to make people buy it.",
+      "examples": [
+        "The singer came on the show to {plug} her new album."
+      ],
+      "wrong": [
+        "He plugged his book by never mentioning it once."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "promote",
+        "push"
+      ],
+      "ipa": "/plʌɡ/"
+    },
+    {
+      "lemma": "consumerism",
+      "pos": "noun",
+      "meaning": "A way of life focused on buying more and more things.",
+      "examples": [
+        "Critics say holiday ads feed {consumerism}."
+      ],
+      "wrong": [
+        "His consumerism meant he hardly bought anything at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "materialism"
+      ],
+      "ipa": "/kənˈsuməˌrɪzəm/"
+    },
+    {
+      "lemma": "boycott",
+      "pos": "verb",
+      "meaning": "To refuse to buy or use something as a protest.",
+      "examples": [
+        "Shoppers {boycotted} the brand after the offensive ad."
+      ],
+      "wrong": [
+        "They boycotted the shop by buying everything in it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shun",
+        "avoid"
+      ],
+      "ipa": "/ˈbɔɪkɑt/"
+    },
+    {
+      "lemma": "censor",
+      "pos": "verb",
+      "meaning": "To remove parts of something that people in power think are unacceptable.",
+      "examples": [
+        "The government {censored} the film’s violent scenes."
+      ],
+      "wrong": [
+        "They censored the book by printing every word of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ban",
+        "suppress"
+      ],
+      "ipa": "/ˈsɛnsɚ/"
+    },
+    {
+      "lemma": "advertiser",
+      "pos": "noun",
+      "meaning": "A company or person that pays for ads.",
+      "examples": [
+        "The magazine lost several big {advertisers} after the scandal."
+      ],
+      "wrong": [
+        "The advertiser never pays for any ads."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈædvɚˌtaɪzɚ/"
+    },
+    {
+      "lemma": "influencer",
+      "pos": "noun",
+      "meaning": "A person with many online followers who can affect what they buy or think.",
+      "examples": [
+        "The {influencer} posted a video about the new trainers."
+      ],
+      "wrong": [
+        "The influencer has no followers and nobody listens to her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɪnfluənsɚ/"
+    },
+    {
+      "lemma": "sponsor",
+      "pos": "verb",
+      "meaning": "To pay for an event or program in return for advertising.",
+      "examples": [
+        "A bank {sponsors} the city marathon."
+      ],
+      "wrong": [
+        "The company sponsored the event by refusing to give any money."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fund",
+        "back"
+      ],
+      "ipa": "/ˈspɑnsɚ/"
+    },
+    {
+      "lemma": "sponsorship",
+      "pos": "noun",
+      "meaning": "Money a company gives to support something in return for advertising.",
+      "examples": [
+        "The team’s shirt {sponsorship} brings in millions."
+      ],
+      "wrong": [
+        "With no sponsorship, the company paid for everything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "funding",
+        "backing"
+      ],
+      "ipa": "/ˈspɑnsɚˌʃɪp/"
+    },
+    {
+      "lemma": "endorsement",
+      "pos": "noun",
+      "meaning": "Public support for a product by a famous person, often for money.",
+      "examples": [
+        "The athlete earns more from {endorsements} than from racing."
+      ],
+      "wrong": [
+        "Her endorsement was a public warning not to buy the product."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "backing",
+        "approval"
+      ],
+      "ipa": "/ɛnˈdɔrsmənt/"
+    },
+    {
+      "lemma": "commercial",
+      "pos": "noun",
+      "meaning": "An advertisement on television or radio.",
+      "examples": [
+        "They show a lot of {commercials} during the big game."
+      ],
+      "wrong": [
+        "The commercial was a news report with no products in it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "advertisement",
+        "ad"
+      ],
+      "ipa": "/kəˈmɝʃəl/"
+    },
+    {
+      "lemma": "slogan",
+      "pos": "noun",
+      "meaning": "A short, easy-to-remember phrase used in advertising.",
+      "examples": [
+        "The company’s {slogan} is ’Simply better’."
+      ],
+      "wrong": [
+        "Their slogan is a long, forgettable paragraph."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "motto",
+        "tagline"
+      ],
+      "ipa": "/ˈsloʊɡən/"
+    },
+    {
+      "lemma": "target audience",
+      "pos": "noun",
+      "meaning": "The particular group of people an ad or product is meant for.",
+      "examples": [
+        "Teenagers are the {target audience} for this game."
+      ],
+      "wrong": [
+        "The ad ignored its target audience completely and reached it perfectly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "target market"
+      ],
+      "ipa": "/ˈtɑrɡɪt ˈɔdiəns/"
+    },
+    {
+      "lemma": "publicity",
+      "pos": "noun",
+      "meaning": "Attention from the media and the public.",
+      "examples": [
+        "The scandal gave the band a lot of {publicity}."
+      ],
+      "wrong": [
+        "The famous launch got publicity, so nobody heard about it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "attention",
+        "exposure"
+      ],
+      "ipa": "/pʌˈblɪsəti/"
+    },
+    {
+      "lemma": "billboard",
+      "pos": "noun",
+      "meaning": "A very large board by a road for advertisements.",
+      "examples": [
+        "A huge {billboard} by the highway shows the new phone."
+      ],
+      "wrong": [
+        "The billboard is so small you need glasses to see it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hoarding"
+      ],
+      "ipa": "/ˈbɪlˌbɔrd/"
+    },
+    {
+      "lemma": "flyer",
+      "pos": "noun",
+      "meaning": "A small printed paper with an ad, handed out or posted.",
+      "examples": [
+        "They handed out {flyers} for the concert."
+      ],
+      "wrong": [
+        "The flyer was a huge sign on top of a skyscraper."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "leaflet",
+        "handout"
+      ],
+      "ipa": "/ˈflaɪɚ/"
+    },
+    {
+      "lemma": "eye-catching",
+      "pos": "adjective",
+      "meaning": "So bright or unusual that people notice it at once.",
+      "examples": [
+        "The poster used {eye-catching} colors to stand out."
+      ],
+      "wrong": [
+        "The eye-catching ad was so dull that nobody noticed it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "striking",
+        "conspicuous"
+      ],
+      "ipa": "/ˈaɪ ˌkætʃɪŋ/",
+      "antonyms": [
+        "inconspicuous",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "jingle",
+      "pos": "noun",
+      "meaning": "A short, simple tune used in a radio or TV ad.",
+      "examples": [
+        "Everyone knows the {jingle} from that cereal ad."
+      ],
+      "wrong": [
+        "The jingle was a long, silent written report."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈdʒɪŋɡəl/"
+    },
+    {
+      "lemma": "logo",
+      "pos": "noun",
+      "meaning": "A small design that a company uses as its symbol.",
+      "examples": [
+        "The company’s {logo} is a red apple."
+      ],
+      "wrong": [
+        "The logo is the price written on the receipt."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "emblem",
+        "symbol"
+      ],
+      "ipa": "/ˈloʊɡoʊ/"
+    },
+    {
+      "lemma": "subscriber",
+      "pos": "noun",
+      "meaning": "A person who pays regularly to get a magazine or service.",
+      "examples": [
+        "The channel now has a million {subscribers}."
+      ],
+      "wrong": [
+        "As a subscriber, he never receives the magazine."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "member"
+      ],
+      "ipa": "/səbˈskraɪbɚ/"
+    },
+    {
+      "lemma": "commercial break",
+      "pos": "noun",
+      "meaning": "A short pause in a TV or radio show when ads are played.",
+      "examples": [
+        "I made tea during the {commercial break}."
+      ],
+      "wrong": [
+        "During the commercial break, the show went on with no ads."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ad break"
+      ],
+      "ipa": "/kəˈmɝʃəl ˌbreɪk/"
+    },
+    {
+      "lemma": "ratings",
+      "pos": "noun",
+      "meaning": "Numbers that show how many people watch a TV program.",
+      "examples": [
+        "The show’s {ratings} fell after the second season."
+      ],
+      "wrong": [
+        "High ratings meant nobody was watching the show."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "viewing figures"
+      ],
+      "ipa": "/ˈreɪtɪŋz/"
+    },
+    {
+      "lemma": "prime time",
+      "pos": "noun",
+      "meaning": "The evening hours when most people watch television.",
+      "examples": [
+        "The final is on at {prime time}, so millions will watch."
+      ],
+      "wrong": [
+        "Prime time is the early morning hour when nobody watches TV."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "peak viewing time"
+      ],
+      "ipa": "/ˈpraɪm ˌtaɪm/"
+    },
+    {
+      "lemma": "hype",
+      "pos": "noun",
+      "meaning": "Too much excited talk in the media to make something seem important.",
+      "examples": [
+        "After all the {hype}, the film was a disappointment."
+      ],
+      "wrong": [
+        "There was a lot of hype, so nobody had heard of the film."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "buzz",
+        "fanfare"
+      ],
+      "ipa": "/haɪp/"
+    },
+    {
+      "lemma": "news feed",
+      "pos": "noun",
+      "meaning": "A constantly updated list of posts and stories on an app or website.",
+      "examples": [
+        "I scrolled through my {news feed} on the bus."
+      ],
+      "wrong": [
+        "The news feed never changes and shows the same post forever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "feed",
+        "timeline"
+      ],
+      "ipa": "/ˈnuz ˌfid/"
+    },
+    {
+      "lemma": "pop-up ad",
+      "pos": "noun",
+      "meaning": "An ad that suddenly opens in a new window on a website.",
+      "examples": [
+        "I installed a blocker to stop every {pop-up ad}."
+      ],
+      "wrong": [
+        "The pop-up ad stayed hidden and never appeared on screen."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈpɑp ˌʌp ˈæd/"
+    },
+    {
+      "lemma": "clickbait",
+      "pos": "noun",
+      "meaning": "Online content with a shocking title made to get people to click.",
+      "examples": [
+        "’You won’t believe what happened next’ is classic {clickbait}."
+      ],
+      "wrong": [
+        "The clickbait headline was dull and gave the full story."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈklɪkˌbeɪt/"
+    },
+    {
+      "lemma": "trending",
+      "pos": "adjective",
+      "meaning": "Very popular online at the moment.",
+      "examples": [
+        "The video is {trending} on social media."
+      ],
+      "wrong": [
+        "The hashtag was trending because nobody used it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "popular",
+        "viral"
+      ],
+      "ipa": "/ˈtrɛndɪŋ/"
+    },
+    {
+      "lemma": "publicize",
+      "pos": "verb",
+      "meaning": "To make something widely known to the public.",
+      "examples": [
+        "They used posters to {publicize} the festival."
+      ],
+      "wrong": [
+        "She publicized the event by keeping it a secret."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "advertise",
+        "promote"
+      ],
+      "ipa": "/ˈpʌblɪˌsaɪz/"
+    },
+    {
+      "lemma": "marketing",
+      "pos": "noun",
+      "meaning": "The work of advertising and selling a product.",
+      "examples": [
+        "The film’s {marketing} cost more than the film itself."
+      ],
+      "wrong": [
+        "Marketing means hiding a product so nobody buys it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "advertising",
+        "promotion"
+      ],
+      "ipa": "/ˈmɑrkɪtɪŋ/"
+    },
+    {
+      "lemma": "misleading",
+      "pos": "adjective",
+      "meaning": "Giving a wrong idea or impression.",
+      "examples": [
+        "The ad was {misleading} about the price."
+      ],
+      "wrong": [
+        "The misleading sign told us exactly the right way."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deceptive",
+        "inaccurate"
+      ],
+      "ipa": "/mɪsˈlidɪŋ/",
+      "antonyms": [
+        "accurate",
+        "honest"
+      ]
+    },
+    {
+      "lemma": "sensational",
+      "pos": "adjective",
+      "meaning": "Written to shock or excite people rather than inform them.",
+      "examples": [
+        "The paper used a {sensational} headline to sell copies."
+      ],
+      "wrong": [
+        "The sensational report was calm and carefully balanced."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lurid",
+        "shocking"
+      ],
+      "ipa": "/sɛnˈseɪʃənəl/"
+    },
+    {
+      "lemma": "front page",
+      "pos": "noun",
+      "meaning": "The first page of a newspaper, with the most important news.",
+      "examples": [
+        "The scandal was on the {front page} of every paper."
+      ],
+      "wrong": [
+        "The front page is the last page, at the very back of the paper."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈfrʌnt ˈpeɪdʒ/"
+    }
+  ]
+}

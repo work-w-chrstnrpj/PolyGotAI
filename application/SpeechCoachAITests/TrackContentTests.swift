@@ -24,12 +24,12 @@ struct TrackContentTests {
             let expected = starts ? ["starter", "foundation", "intermediate", "advanced"] : ["foundation", "intermediate", "advanced"]
             #expect(track.stages.map(\.id) == expected, "\(track.id) stages")
             if track.coach == .grammarian {
-                // Phase 11: the Grammarian's full syllabus adds 40 lessons in 7 more units (72 in all).
+                // Phase 13 consolidates the syllabus by topic; 2026-10-30 adds 21 written topics (46 in all).
                 #expect(track.stages.map(\.units.count) == [3, 4, 4, 4], "grammarian units per stage")
-                #expect(track.lessons.count == 72, "grammarian lesson count")
+                #expect(track.lessons.count == 46, "grammarian topic count")
             } else {
                 #expect(track.stages.allSatisfy { $0.units.count == 2 }, "\(track.id) has 2 units per stage")
-                #expect(track.lessons.count == expected.count * 8, "\(track.id) has 8 lessons per stage")
+                #expect(track.lessons.count == expected.count * 4, "\(track.id) has 4 topic lessons per stage")
             }
         }
     }
@@ -83,9 +83,9 @@ struct GrammarianSyllabusTests {
     @Test func theSyllabusTopicsArePresent() throws {
         let track = try #require(install.tracks.track(id: "grammarian"))
         let titles = Set(track.lessons.map(\.title))
-        for topic in ["Nouns: common and proper", "Personal pronouns", "Articles: a, an, the", "Adjectives", "Adverbs",
-                      "Conjunctions and interjections", "Kinds of verbs", "Four sentence structures", "Subject–verb agreement",
-                      "The tense map", "Commas", "Apostrophes", "Indicative, imperative, subjunctive", "Parallel structure"] {
+        for topic in ["Nouns", "Pronouns", "Articles and determiners", "Adjectives and comparisons", "Adverbs",
+                      "Conjunctions and interjections", "Verbs", "Phrases, clauses and sentence structures",
+                      "Agreement and complete sentences", "Tenses", "Punctuation", "Mood and emphasis", "Modifiers and parallel structure"] {
             #expect(titles.contains(topic), "missing \(topic)")
         }
     }

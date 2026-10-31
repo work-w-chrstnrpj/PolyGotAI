@@ -1,0 +1,729 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-law-formal",
+    "title": "Formal and legal English",
+    "level": "C2",
+    "tagline": "Clauses, rulings and obligations",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "hearsay",
+      "pos": "noun",
+      "meaning": "Information heard from others that cannot be directly proved, usually not accepted as evidence.",
+      "examples": [
+        "The judge refused to accept {hearsay} about what the neighbor had said."
+      ],
+      "wrong": [
+        "The video was hearsay, since everyone could see exactly what happened."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rumor",
+        "secondhand report"
+      ],
+      "ipa": "/ˈhɪrˌseɪ/"
+    },
+    {
+      "lemma": "tort",
+      "pos": "noun",
+      "meaning": "A wrong that causes harm to someone and lets them claim money in a civil court.",
+      "examples": [
+        "Negligent driving can be a {tort} as well as a crime."
+      ],
+      "wrong": [
+        "A tort is a kind of contract both sides sign happily."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "civil wrong"
+      ],
+      "ipa": "/tɔrt/"
+    },
+    {
+      "lemma": "affidavit",
+      "pos": "noun",
+      "meaning": "A written statement someone swears is true, used as evidence.",
+      "examples": [
+        "The witness signed an {affidavit} before a notary."
+      ],
+      "wrong": [
+        "An affidavit is a spoken rumor that nobody swears to."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sworn statement"
+      ],
+      "ipa": "/ˌæfəˈdeɪvɪt/"
+    },
+    {
+      "lemma": "injunction",
+      "pos": "noun",
+      "meaning": "A court order that tells someone to do or stop doing something.",
+      "examples": [
+        "The court issued an {injunction} to halt the construction."
+      ],
+      "wrong": [
+        "The injunction allowed the company to keep doing whatever it liked."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "court order",
+        "restraining order"
+      ],
+      "ipa": "/ɪnˈdʒʌŋkʃən/"
+    },
+    {
+      "lemma": "acquittal",
+      "pos": "noun",
+      "meaning": "A court decision that a person is not guilty.",
+      "examples": [
+        "The jury’s {acquittal} meant he walked free."
+      ],
+      "wrong": [
+        "After his acquittal, he was taken to prison to serve his sentence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exoneration"
+      ],
+      "ipa": "/əˈkwɪtəl/",
+      "antonyms": [
+        "conviction"
+      ]
+    },
+    {
+      "lemma": "indictment",
+      "pos": "noun",
+      "meaning": "A formal charge that someone has committed a serious crime; also strong criticism.",
+      "examples": [
+        "The grand jury returned an {indictment} against the mayor."
+      ],
+      "wrong": [
+        "The indictment declared him completely innocent of any crime."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "charge",
+        "accusation"
+      ],
+      "ipa": "/ɪnˈdaɪtmənt/"
+    },
+    {
+      "lemma": "indemnify",
+      "pos": "verb",
+      "meaning": "To promise to pay for any loss or damage another person may suffer.",
+      "examples": [
+        "The contract {indemnifies} the landlord against tenant damage."
+      ],
+      "wrong": [
+        "The insurer indemnified us, so we had to pay for all the damage ourselves."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "compensate",
+        "insure"
+      ],
+      "ipa": "/ɪnˈdɛmnəˌfaɪ/"
+    },
+    {
+      "lemma": "probate",
+      "pos": "noun",
+      "meaning": "The official legal process of proving a will is valid and sharing out a dead person’s property.",
+      "examples": [
+        "The house can’t be sold until {probate} is complete."
+      ],
+      "wrong": [
+        "Probate is the process of writing a will while you are young and healthy."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈproʊˌbeɪt/"
+    },
+    {
+      "lemma": "hereby",
+      "pos": "adverb",
+      "meaning": "By means of this statement or document.",
+      "examples": [
+        "I {hereby} resign from my position."
+      ],
+      "wrong": [
+        "I hereby resign, said the letter that was never written."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌhɪrˈbaɪ/"
+    },
+    {
+      "lemma": "heretofore",
+      "pos": "adverb",
+      "meaning": "Until now; before this time.",
+      "examples": [
+        "The rule applies to all cases {heretofore} decided."
+      ],
+      "wrong": [
+        "Heretofore refers only to things that will happen in the future."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hitherto",
+        "previously"
+      ],
+      "ipa": "/ˈhɪrtəˌfɔr/"
+    },
+    {
+      "lemma": "pursuant to",
+      "pos": "preposition",
+      "meaning": "In agreement with or as required by a law, rule or agreement.",
+      "examples": [
+        "The goods were returned {pursuant to} the terms of the contract."
+      ],
+      "wrong": [
+        "They acted pursuant to the contract by ignoring every term in it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "in accordance with",
+        "under"
+      ],
+      "ipa": "/pɚˈsuənt tu/"
+    },
+    {
+      "lemma": "null and void",
+      "pos": "phrase",
+      "meaning": "Having no legal force at all.",
+      "examples": [
+        "The agreement was declared {null and void}."
+      ],
+      "wrong": [
+        "The contract is null and void, so both sides must follow every clause."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "invalid"
+      ],
+      "ipa": "/ˈnʌl ənd ˈvɔɪd/"
+    },
+    {
+      "lemma": "in good faith",
+      "pos": "phrase",
+      "meaning": "Honestly and with sincere intentions.",
+      "examples": [
+        "Both sides negotiated {in good faith}."
+      ],
+      "wrong": [
+        "He acted in good faith by secretly lying to his partners."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "honestly",
+        "sincerely"
+      ],
+      "ipa": "/ɪn ˈɡʊd ˈfeɪθ/"
+    },
+    {
+      "lemma": "notarize",
+      "pos": "verb",
+      "meaning": "To have a document signed and stamped by an official to show it is genuine.",
+      "examples": [
+        "You must {notarize} the contract before the bank will accept it."
+      ],
+      "wrong": [
+        "She notarized the letter so that no official would ever check it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "certify",
+        "authenticate"
+      ],
+      "ipa": "/ˈnoʊtəˌraɪz/"
+    },
+    {
+      "lemma": "encumbrance",
+      "pos": "noun",
+      "meaning": "A legal claim or debt attached to property that limits what the owner can do with it.",
+      "examples": [
+        "The house was sold free of any {encumbrance}, so the buyer owed nothing."
+      ],
+      "wrong": [
+        "An encumbrance on the land means the owner may sell it with no limits at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lien",
+        "charge"
+      ],
+      "ipa": "/ɪnˈkʌmbrəns/"
+    },
+    {
+      "lemma": "arbitration",
+      "pos": "noun",
+      "meaning": "Settling a dispute by letting a neutral person decide, instead of going to court.",
+      "examples": [
+        "The contract requires {arbitration} for any disagreement."
+      ],
+      "wrong": [
+        "They chose arbitration, so no outside person was involved in deciding."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mediation",
+        "adjudication"
+      ],
+      "ipa": "/ˌɑrbəˈtreɪʃən/"
+    },
+    {
+      "lemma": "adjudicate",
+      "pos": "verb",
+      "meaning": "To make an official decision about a dispute or claim.",
+      "examples": [
+        "A panel of judges will {adjudicate} the case."
+      ],
+      "wrong": [
+        "The judge adjudicated the case by refusing to make any decision."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "judge",
+        "rule on",
+        "arbitrate"
+      ],
+      "ipa": "/əˈdʒudəˌkeɪt/"
+    },
+    {
+      "lemma": "abrogate",
+      "pos": "verb",
+      "meaning": "To officially end or cancel a law, treaty or agreement.",
+      "examples": [
+        "The new government {abrogated} the old treaty."
+      ],
+      "wrong": [
+        "They abrogated the treaty by signing it and keeping it in force."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "repeal",
+        "revoke",
+        "annul"
+      ],
+      "ipa": "/ˈæbrəˌɡeɪt/",
+      "antonyms": [
+        "uphold",
+        "enact"
+      ]
+    },
+    {
+      "lemma": "binding",
+      "pos": "adjective",
+      "meaning": "That must legally be obeyed.",
+      "examples": [
+        "The ruling is final and {binding}."
+      ],
+      "wrong": [
+        "The contract is binding, so either side can ignore it freely."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obligatory",
+        "enforceable"
+      ],
+      "ipa": "/ˈbaɪndɪŋ/",
+      "antonyms": [
+        "nonbinding"
+      ]
+    },
+    {
+      "lemma": "enforceable",
+      "pos": "adjective",
+      "meaning": "That can be made to work by law.",
+      "examples": [
+        "A spoken promise is not always {enforceable}."
+      ],
+      "wrong": [
+        "The rule was enforceable, so no court could ever apply it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "binding",
+        "valid"
+      ],
+      "ipa": "/ɪnˈfɔrsəbəl/",
+      "antonyms": [
+        "unenforceable"
+      ]
+    },
+    {
+      "lemma": "the letter of the law",
+      "pos": "phrase",
+      "meaning": "The exact words of a law rather than its general purpose.",
+      "examples": [
+        "She followed {the letter of the law} but ignored its spirit."
+      ],
+      "wrong": [
+        "Following the letter of the law means breaking its exact wording."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ðə ˈlɛtɚ əv ðə ˈlɔ/"
+    },
+    {
+      "lemma": "felony",
+      "pos": "noun",
+      "meaning": "A serious crime, such as robbery or murder, that carries a heavy punishment.",
+      "examples": [
+        "Armed robbery is a {felony} in every state."
+      ],
+      "wrong": [
+        "Dropping litter is a felony that can bring a life sentence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "serious crime"
+      ],
+      "ipa": "/ˈfɛləni/"
+    },
+    {
+      "lemma": "misdemeanor",
+      "pos": "noun",
+      "meaning": "A minor crime that is less serious than a felony.",
+      "examples": [
+        "Shoplifting a small item is usually a {misdemeanor}."
+      ],
+      "wrong": [
+        "Murder is the classic example of a misdemeanor."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "minor offense",
+        "infraction"
+      ],
+      "ipa": "/ˌmɪsdəˈminɚ/"
+    },
+    {
+      "lemma": "statute of limitations",
+      "pos": "noun",
+      "meaning": "A law that sets a time limit after which a case can no longer be brought.",
+      "examples": [
+        "The claim failed because the {statute of limitations} had run out."
+      ],
+      "wrong": [
+        "The statute of limitations lets you file a claim at any time, forever."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "time limit"
+      ],
+      "ipa": "/ˈstætʃut əv ˌlɪməˈteɪʃənz/"
+    },
+    {
+      "lemma": "codicil",
+      "pos": "noun",
+      "meaning": "An official addition that changes part of a will.",
+      "examples": [
+        "She added a {codicil} leaving her paintings to the museum."
+      ],
+      "wrong": [
+        "A codicil is the original will itself, written for the first time."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "addendum"
+      ],
+      "ipa": "/ˈkɑdəsəl/"
+    },
+    {
+      "lemma": "bequeath",
+      "pos": "verb",
+      "meaning": "To leave money or property to someone in a will.",
+      "examples": [
+        "He {bequeathed} his library to the university."
+      ],
+      "wrong": [
+        "She bequeathed the house to her nephew while she was buying it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "leave",
+        "will",
+        "hand down"
+      ],
+      "ipa": "/bɪˈkwið/"
+    },
+    {
+      "lemma": "proviso",
+      "pos": "noun",
+      "meaning": "A condition added to an agreement.",
+      "examples": [
+        "He accepted, with the {proviso} that he could work from home."
+      ],
+      "wrong": [
+        "The proviso meant the deal had no conditions at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "condition",
+        "stipulation",
+        "caveat"
+      ],
+      "ipa": "/prəˈvaɪzoʊ/"
+    },
+    {
+      "lemma": "plea bargain",
+      "pos": "noun",
+      "meaning": "A deal in which an accused person admits a lesser crime in return for a lighter sentence.",
+      "examples": [
+        "He took a {plea bargain} and avoided a long trial."
+      ],
+      "wrong": [
+        "With a plea bargain, the accused denies everything and asks for a harsher sentence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "plea deal"
+      ],
+      "ipa": "/ˈpli ˈbɑrɡən/"
+    },
+    {
+      "lemma": "appellate",
+      "pos": "adjective",
+      "meaning": "Relating to a higher court that hears appeals.",
+      "examples": [
+        "The {appellate} court overturned the earlier decision."
+      ],
+      "wrong": [
+        "An appellate court is the first court that ever hears a case."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/əˈpɛlɪt/"
+    },
+    {
+      "lemma": "recuse",
+      "pos": "verb",
+      "meaning": "To step back from a case because you might not be fair.",
+      "examples": [
+        "The judge {recused} herself because she knew the defendant."
+      ],
+      "wrong": [
+        "He recused himself, so he went on to decide the case alone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "withdraw",
+        "excuse oneself"
+      ],
+      "ipa": "/rɪˈkjuz/"
+    },
+    {
+      "lemma": "fiduciary",
+      "pos": "adjective",
+      "meaning": "Involving trust, especially a duty to act in another person’s financial interest.",
+      "examples": [
+        "Trustees have a {fiduciary} duty to protect the fund."
+      ],
+      "wrong": [
+        "His fiduciary duty allowed him to use clients’ money for himself."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "trustee"
+      ],
+      "ipa": "/fɪˈduʃiˌɛri/"
+    },
+    {
+      "lemma": "covenant",
+      "pos": "noun",
+      "meaning": "A formal written promise or agreement, often in a contract or deed.",
+      "examples": [
+        "A {covenant} in the deed forbids building a second house."
+      ],
+      "wrong": [
+        "A covenant is a casual remark with no promise in it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pact",
+        "agreement",
+        "undertaking"
+      ],
+      "ipa": "/ˈkʌvənənt/"
+    },
+    {
+      "lemma": "lien",
+      "pos": "noun",
+      "meaning": "A legal right to keep or sell someone’s property until a debt is paid.",
+      "examples": [
+        "The builder put a {lien} on the house for unpaid work."
+      ],
+      "wrong": [
+        "A lien gives a lender no claim to the property at all."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "charge",
+        "claim"
+      ],
+      "ipa": "/lin/"
+    },
+    {
+      "lemma": "tribunal",
+      "pos": "noun",
+      "meaning": "A special court or official body that judges certain kinds of disputes.",
+      "examples": [
+        "Her case went to an employment {tribunal}."
+      ],
+      "wrong": [
+        "A tribunal is a party where nobody makes any decisions."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "court",
+        "panel",
+        "board"
+      ],
+      "ipa": "/traɪˈbjunəl/"
+    },
+    {
+      "lemma": "deposition",
+      "pos": "noun",
+      "meaning": "Sworn evidence given outside court and recorded for later use.",
+      "examples": [
+        "Her {deposition} was taken in the lawyer’s office."
+      ],
+      "wrong": [
+        "A deposition is evidence nobody records or swears to."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sworn testimony"
+      ],
+      "ipa": "/ˌdɛpəˈzɪʃən/"
+    },
+    {
+      "lemma": "clemency",
+      "pos": "noun",
+      "meaning": "Mercy, especially a decision to reduce a punishment.",
+      "examples": [
+        "The governor granted {clemency} to the elderly prisoner."
+      ],
+      "wrong": [
+        "Showing clemency, the judge doubled the sentence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mercy",
+        "leniency",
+        "pardon"
+      ],
+      "ipa": "/ˈklɛmənsi/",
+      "antonyms": [
+        "severity",
+        "harshness"
+      ]
+    },
+    {
+      "lemma": "promulgate",
+      "pos": "verb",
+      "meaning": "To announce a new law or rule officially; to spread an idea widely.",
+      "examples": [
+        "New safety rules were {promulgated} last month."
+      ],
+      "wrong": [
+        "The government promulgated the law by keeping it secret."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "proclaim",
+        "decree",
+        "publish"
+      ],
+      "ipa": "/ˈprɑməlˌɡeɪt/"
+    },
+    {
+      "lemma": "jurisprudence",
+      "pos": "noun",
+      "meaning": "The theory and study of law, or a body of legal decisions.",
+      "examples": [
+        "Her book is a classic of modern {jurisprudence}."
+      ],
+      "wrong": [
+        "Jurisprudence is the study of how to bake bread."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "legal theory"
+      ],
+      "ipa": "/ˌdʒʊrɪsˈprudəns/"
+    },
+    {
+      "lemma": "malfeasance",
+      "pos": "noun",
+      "meaning": "Wrong or illegal conduct, especially by an official.",
+      "examples": [
+        "The director was fired for financial {malfeasance}."
+      ],
+      "wrong": [
+        "She was praised for her malfeasance, her perfectly honest work."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "misconduct",
+        "wrongdoing"
+      ],
+      "ipa": "/mælˈfizəns/"
+    },
+    {
+      "lemma": "habeas corpus",
+      "pos": "noun",
+      "meaning": "A legal right requiring that a held person be brought before a court to check their detention is lawful.",
+      "examples": [
+        "The lawyer filed for {habeas corpus} to free her client."
+      ],
+      "wrong": [
+        "Habeas corpus lets the state hold people forever without any court hearing."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈheɪbiəs ˈkɔrpəs/"
+    }
+  ]
+}

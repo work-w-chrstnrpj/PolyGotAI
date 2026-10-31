@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-fruit-vegetables",
+    "title": "Fruit and vegetables",
+    "level": "A1",
+    "tagline": "Fresh food to buy and eat",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "orange",
+      "pos": "noun",
+      "meaning": "A round, sweet fruit with a thick skin, the color of a carrot.",
+      "examples": [
+        "I drink {orange} juice in the morning."
+      ],
+      "wrong": [
+        "I wear an orange on my head to keep warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɔrɪndʒ/"
+    },
+    {
+      "lemma": "grape",
+      "pos": "noun",
+      "meaning": "A small round green or purple fruit.",
+      "examples": [
+        "She ate a bunch of {grapes}."
+      ],
+      "wrong": [
+        "A grape is as big as a car."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡreɪp/"
+    },
+    {
+      "lemma": "strawberry",
+      "pos": "noun",
+      "meaning": "A small, soft, red fruit with seeds on the outside.",
+      "examples": [
+        "I love {strawberries} with cream."
+      ],
+      "wrong": [
+        "A strawberry is a blue vegetable."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈstrɔˌbɛri/"
+    },
+    {
+      "lemma": "lemon",
+      "pos": "noun",
+      "meaning": "A yellow fruit with a sour taste.",
+      "examples": [
+        "Put some {lemon} in your tea."
+      ],
+      "wrong": [
+        "The lemon is very sweet and purple."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɛmən/"
+    },
+    {
+      "lemma": "pear",
+      "pos": "noun",
+      "meaning": "A sweet green or yellow fruit, wide at the bottom.",
+      "examples": [
+        "She cut a {pear} in half."
+      ],
+      "wrong": [
+        "A pear is a fruit I drink milk from."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɛr/"
+    },
+    {
+      "lemma": "peach",
+      "pos": "noun",
+      "meaning": "A soft round fruit with a fuzzy skin and a big stone.",
+      "examples": [
+        "This {peach} is soft and sweet."
+      ],
+      "wrong": [
+        "The peach is hard like a rock."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pitʃ/"
+    },
+    {
+      "lemma": "cherry",
+      "pos": "noun",
+      "meaning": "A small round red fruit with a stone inside.",
+      "examples": [
+        "There’s a {cherry} on top of the cake."
+      ],
+      "wrong": [
+        "A cherry is as big as a watermelon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtʃɛri/"
+    },
+    {
+      "lemma": "pineapple",
+      "pos": "noun",
+      "meaning": "A big fruit with a hard skin and sweet yellow inside.",
+      "examples": [
+        "We had {pineapple} on the beach."
+      ],
+      "wrong": [
+        "A pineapple is a tree that grows apples."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpaɪˌnæpəl/"
+    },
+    {
+      "lemma": "watermelon",
+      "pos": "noun",
+      "meaning": "A very big green fruit that is red and juicy inside.",
+      "examples": [
+        "We ate {watermelon} in the hot sun."
+      ],
+      "wrong": [
+        "The watermelon fits in my small pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɔtɚˌmɛlən/"
+    },
+    {
+      "lemma": "melon",
+      "pos": "noun",
+      "meaning": "A big round fruit with a hard skin and soft inside.",
+      "examples": [
+        "This {melon} is very sweet."
+      ],
+      "wrong": [
+        "A melon is a tiny seed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmɛlən/"
+    },
+    {
+      "lemma": "mango",
+      "pos": "noun",
+      "meaning": "A sweet fruit with yellow inside and a big stone.",
+      "examples": [
+        "I had a {mango} for breakfast."
+      ],
+      "wrong": [
+        "A mango is a kind of fish."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmæŋɡoʊ/"
+    },
+    {
+      "lemma": "plum",
+      "pos": "noun",
+      "meaning": "A small, round, soft fruit, often purple.",
+      "examples": [
+        "The {plums} on the tree are ready."
+      ],
+      "wrong": [
+        "A plum is a vegetable as long as my arm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/plʌm/"
+    },
+    {
+      "lemma": "lime",
+      "pos": "noun",
+      "meaning": "A small green fruit with a sour taste.",
+      "examples": [
+        "Add some {lime} to the fish."
+      ],
+      "wrong": [
+        "The lime is big, red and sweet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/laɪm/"
+    },
+    {
+      "lemma": "coconut",
+      "pos": "noun",
+      "meaning": "A big brown nut with white food and milk inside.",
+      "examples": [
+        "We drank water from a {coconut}."
+      ],
+      "wrong": [
+        "The coconut is soft like a grape."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkoʊkəˌnʌt/"
+    },
+    {
+      "lemma": "blueberry",
+      "pos": "noun",
+      "meaning": "A very small, round, dark blue fruit.",
+      "examples": [
+        "I put {blueberries} in my yogurt."
+      ],
+      "wrong": [
+        "A blueberry is a big yellow fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbluˌbɛri/"
+    },
+    {
+      "lemma": "berry",
+      "pos": "noun",
+      "meaning": "A small soft fruit with lots of seeds.",
+      "examples": [
+        "Birds eat the red {berries}."
+      ],
+      "wrong": [
+        "A berry is a big tree."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɛri/"
+    },
+    {
+      "lemma": "kiwi",
+      "pos": "noun",
+      "meaning": "A small brown fruit that is green inside.",
+      "examples": [
+        "Cut the {kiwi} in half."
+      ],
+      "wrong": [
+        "A kiwi is a big orange vegetable."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "kiwifruit"
+      ],
+      "ipa": "/ˈkiwi/"
+    },
+    {
+      "lemma": "avocado",
+      "pos": "noun",
+      "meaning": "A green fruit with soft inside and a big stone.",
+      "examples": [
+        "I put {avocado} on my toast."
+      ],
+      "wrong": [
+        "An avocado is a sweet red berry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌævəˈkɑdoʊ/"
+    },
+    {
+      "lemma": "olive",
+      "pos": "noun",
+      "meaning": "A small green or black fruit used for oil.",
+      "examples": [
+        "There are {olives} on the pizza."
+      ],
+      "wrong": [
+        "An olive is as big as a melon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɑlɪv/"
+    },
+    {
+      "lemma": "nut",
+      "pos": "noun",
+      "meaning": "A dry fruit with a hard shell.",
+      "examples": [
+        "Squirrels like to eat {nuts}."
+      ],
+      "wrong": [
+        "A nut is soft and full of juice."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/nʌt/"
+    },
+    {
+      "lemma": "raspberry",
+      "pos": "noun",
+      "meaning": "A small soft red fruit.",
+      "examples": [
+        "She made a {raspberry} cake."
+      ],
+      "wrong": [
+        "A raspberry is a green vegetable."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈræzˌbɛri/"
+    },
+    {
+      "lemma": "apricot",
+      "pos": "noun",
+      "meaning": "A small soft orange fruit with a stone.",
+      "examples": [
+        "He ate an {apricot} after lunch."
+      ],
+      "wrong": [
+        "An apricot is a big green leaf."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈæprɪˌkɑt/"
+    },
+    {
+      "lemma": "carrot",
+      "pos": "noun",
+      "meaning": "A long orange vegetable that grows in the ground.",
+      "examples": [
+        "Rabbits like {carrots}."
+      ],
+      "wrong": [
+        "A carrot is a blue fruit that grows on trees."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkærət/"
+    },
+    {
+      "lemma": "cabbage",
+      "pos": "noun",
+      "meaning": "A big round vegetable with green leaves.",
+      "examples": [
+        "We made soup with {cabbage}."
+      ],
+      "wrong": [
+        "A cabbage is a small red berry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkæbɪdʒ/"
+    },
+    {
+      "lemma": "lettuce",
+      "pos": "noun",
+      "meaning": "A green vegetable with big leaves, eaten in salads.",
+      "examples": [
+        "Put some {lettuce} in the sandwich."
+      ],
+      "wrong": [
+        "We fry lettuce to make it a cake."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɛtɪs/"
+    },
+    {
+      "lemma": "cucumber",
+      "pos": "noun",
+      "meaning": "A long green vegetable that is cool and wet inside.",
+      "examples": [
+        "I cut a {cucumber} for the salad."
+      ],
+      "wrong": [
+        "A cucumber is a round orange fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkjuˌkʌmbɚ/"
+    },
+    {
+      "lemma": "bean",
+      "pos": "noun",
+      "meaning": "A seed or a long thin pod that you cook and eat.",
+      "examples": [
+        "I like green {beans} with rice."
+      ],
+      "wrong": [
+        "A bean is as big as a watermelon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bin/"
+    },
+    {
+      "lemma": "pea",
+      "pos": "noun",
+      "meaning": "A very small round green vegetable.",
+      "examples": [
+        "The child doesn’t like {peas}."
+      ],
+      "wrong": [
+        "A pea is a long white vegetable."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pi/"
+    },
+    {
+      "lemma": "corn",
+      "pos": "noun",
+      "meaning": "A tall plant with yellow seeds that you eat.",
+      "examples": [
+        "We had {corn} with butter."
+      ],
+      "wrong": [
+        "Corn is a purple fruit with a stone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "maize"
+      ],
+      "ipa": "/kɔrn/"
+    },
+    {
+      "lemma": "mushroom",
+      "pos": "noun",
+      "meaning": "A small plant shaped like an umbrella that you can eat.",
+      "examples": [
+        "There are {mushrooms} on my pizza."
+      ],
+      "wrong": [
+        "A mushroom is a sweet orange fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmʌʃˌrum/"
+    },
+    {
+      "lemma": "garlic",
+      "pos": "noun",
+      "meaning": "A small white plant with a strong taste, used in cooking.",
+      "examples": [
+        "This sauce has a lot of {garlic}."
+      ],
+      "wrong": [
+        "Garlic has no smell or taste at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡɑrlɪk/"
+    },
+    {
+      "lemma": "broccoli",
+      "pos": "noun",
+      "meaning": "A green vegetable that looks like a little tree.",
+      "examples": [
+        "Eat your {broccoli}, it’s good for you."
+      ],
+      "wrong": [
+        "Broccoli is a yellow fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbrɑkəli/"
+    },
+    {
+      "lemma": "spinach",
+      "pos": "noun",
+      "meaning": "A vegetable with soft dark green leaves.",
+      "examples": [
+        "She cooked {spinach} with eggs."
+      ],
+      "wrong": [
+        "Spinach is a hard red fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈspɪnɪtʃ/"
+    },
+    {
+      "lemma": "pumpkin",
+      "pos": "noun",
+      "meaning": "A big round orange vegetable.",
+      "examples": [
+        "We made {pumpkin} soup."
+      ],
+      "wrong": [
+        "A pumpkin is as small as a pea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpʌmpkɪn/"
+    },
+    {
+      "lemma": "celery",
+      "pos": "noun",
+      "meaning": "A vegetable with long light green stems.",
+      "examples": [
+        "I eat {celery} as a snack."
+      ],
+      "wrong": [
+        "Celery is a round purple fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɛləri/"
+    },
+    {
+      "lemma": "cauliflower",
+      "pos": "noun",
+      "meaning": "A vegetable with a big white head.",
+      "examples": [
+        "We had {cauliflower} with cheese."
+      ],
+      "wrong": [
+        "A cauliflower is a pink flower you give to people."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkɑlɪˌflaʊɚ/"
+    },
+    {
+      "lemma": "sweet potato",
+      "pos": "phrase",
+      "meaning": "A root vegetable with orange inside that tastes a little sweet.",
+      "examples": [
+        "We baked a {sweet potato}."
+      ],
+      "wrong": [
+        "A sweet potato is a kind of candy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌswit pəˈteɪtoʊ/"
+    },
+    {
+      "lemma": "eggplant",
+      "pos": "noun",
+      "meaning": "A long vegetable with a shiny purple skin.",
+      "examples": [
+        "She cooked {eggplant} with tomatoes."
+      ],
+      "wrong": [
+        "An eggplant is a bird that lays eggs."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɛɡˌplænt/"
+    },
+    {
+      "lemma": "zucchini",
+      "pos": "noun",
+      "meaning": "A long green vegetable that looks like a cucumber.",
+      "examples": [
+        "Cut the {zucchini} into slices."
+      ],
+      "wrong": [
+        "A zucchini is a small red berry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "courgette"
+      ],
+      "ipa": "/zuˈkini/"
+    },
+    {
+      "lemma": "ripe",
+      "pos": "adjective",
+      "meaning": "Ready to eat because it has grown fully.",
+      "examples": [
+        "The bananas are {ripe} now."
+      ],
+      "wrong": [
+        "The ripe banana is too green and hard to eat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ready"
+      ],
+      "ipa": "/raɪp/",
+      "antonyms": [
+        "unripe",
+        "green"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-money-finance",
+    "title": "Money and finance",
+    "level": "B2",
+    "tagline": "Savings, loans and the economy",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "investment",
+      "pos": "noun",
+      "meaning": "Money you put into something in the hope of getting more back later.",
+      "examples": [
+        "Buying that small flat turned out to be a smart {investment}."
+      ],
+      "wrong": [
+        "The investment lost half its value, so it made them rich."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "stake"
+      ],
+      "ipa": "/ɪnˈvɛstmənt/"
+    },
+    {
+      "lemma": "credit score",
+      "pos": "noun",
+      "meaning": "A number that shows banks how likely you are to pay back money you borrow.",
+      "examples": [
+        "Paying bills on time helps your {credit score}."
+      ],
+      "wrong": [
+        "His credit score is high because he never pays his bills."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "credit rating"
+      ],
+      "ipa": "/ˈkrɛdɪt ˌskɔr/"
+    },
+    {
+      "lemma": "take out a loan",
+      "pos": "phrase",
+      "meaning": "To officially borrow money from a bank that you must pay back.",
+      "examples": [
+        "They had to {take out a loan} to pay for the new roof."
+      ],
+      "wrong": [
+        "She took out a loan, so now the bank owes her money."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "borrow"
+      ],
+      "ipa": "/ˈteɪk ˈaʊt ə ˈloʊn/"
+    },
+    {
+      "lemma": "lender",
+      "pos": "noun",
+      "meaning": "A bank or person that gives money which must be paid back.",
+      "examples": [
+        "The {lender} agreed to give us the money at a low rate."
+      ],
+      "wrong": [
+        "The lender is the person who borrows money and pays it back later."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "creditor"
+      ],
+      "ipa": "/ˈlɛndɚ/",
+      "antonyms": [
+        "borrower"
+      ]
+    },
+    {
+      "lemma": "borrower",
+      "pos": "noun",
+      "meaning": "A person who receives money and must pay it back later.",
+      "examples": [
+        "Every {borrower} has to make a payment each month."
+      ],
+      "wrong": [
+        "As a borrower, he gave money to the bank and waited for it to pay him back."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "debtor"
+      ],
+      "ipa": "/ˈbɑroʊɚ/",
+      "antonyms": [
+        "lender"
+      ]
+    },
+    {
+      "lemma": "repay",
+      "pos": "verb",
+      "meaning": "To pay back money that you owe.",
+      "examples": [
+        "It took me five years to {repay} my student loan."
+      ],
+      "wrong": [
+        "He repaid the money, so he still owes every cent."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pay back"
+      ],
+      "ipa": "/rɪˈpeɪ/"
+    },
+    {
+      "lemma": "nest egg",
+      "pos": "noun",
+      "meaning": "An amount of money saved for the future.",
+      "examples": [
+        "They built up a nice {nest egg} for their retirement."
+      ],
+      "wrong": [
+        "Their nest egg is the money they spend on lunch every day."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "savings"
+      ],
+      "ipa": "/ˈnɛst ˌɛɡ/"
+    },
+    {
+      "lemma": "overdraft",
+      "pos": "noun",
+      "meaning": "An amount you are allowed to spend from your bank account beyond the money in it.",
+      "examples": [
+        "I used my {overdraft} to pay the rent before payday."
+      ],
+      "wrong": [
+        "Her overdraft showed that she had lots of spare money in the bank."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈoʊvɚˌdræft/"
+    },
+    {
+      "lemma": "savings account",
+      "pos": "noun",
+      "meaning": "A bank account for keeping money you don’t plan to spend soon.",
+      "examples": [
+        "She puts a little into her {savings account} every month."
+      ],
+      "wrong": [
+        "I keep my savings account for money I spend every day on coffee."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈseɪvɪŋz əˌkaʊnt/"
+    },
+    {
+      "lemma": "wealthy",
+      "pos": "adjective",
+      "meaning": "Having a lot of money or valuable things.",
+      "examples": [
+        "He comes from a {wealthy} family that owns three houses."
+      ],
+      "wrong": [
+        "They were so wealthy that they couldn’t pay for food."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "rich",
+        "well-off",
+        "affluent"
+      ],
+      "ipa": "/ˈwɛlθi/",
+      "antonyms": [
+        "poor"
+      ]
+    },
+    {
+      "lemma": "inherit",
+      "pos": "verb",
+      "meaning": "To receive money or property from someone after they die.",
+      "examples": [
+        "She {inherited} her grandmother’s house by the sea."
+      ],
+      "wrong": [
+        "He inherited the farm from his son, who is still alive and young."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ɪnˈhɛrɪt/"
+    },
+    {
+      "lemma": "inheritance",
+      "pos": "noun",
+      "meaning": "Money or property that you receive from someone who has died.",
+      "examples": [
+        "He used his {inheritance} to start a small business."
+      ],
+      "wrong": [
+        "Her inheritance was the salary she earned at her new job."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "legacy"
+      ],
+      "ipa": "/ɪnˈhɛrɪtəns/"
+    },
+    {
+      "lemma": "financial",
+      "pos": "adjective",
+      "meaning": "Connected with money and how it is managed.",
+      "examples": [
+        "The company is in serious {financial} trouble."
+      ],
+      "wrong": [
+        "My financial advisor helps me choose the right shoes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "monetary",
+        "economic"
+      ],
+      "ipa": "/faɪˈnænʃəl/"
+    },
+    {
+      "lemma": "funding",
+      "pos": "noun",
+      "meaning": "Money given by a government or organization for a special purpose.",
+      "examples": [
+        "The school received new {funding} for a science lab."
+      ],
+      "wrong": [
+        "The project got lots of funding, so it had no money at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "financing"
+      ],
+      "ipa": "/ˈfʌndɪŋ/"
+    },
+    {
+      "lemma": "earnings",
+      "pos": "noun",
+      "meaning": "The money you get from work or from an investment.",
+      "examples": [
+        "His {earnings} went up after he got the promotion."
+      ],
+      "wrong": [
+        "Her earnings are the bills she has to pay every month."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "income",
+        "pay"
+      ],
+      "ipa": "/ˈɝnɪŋz/"
+    },
+    {
+      "lemma": "transaction",
+      "pos": "noun",
+      "meaning": "An act of buying, selling or moving money, especially through a bank.",
+      "examples": [
+        "Every card {transaction} appears in the app within seconds."
+      ],
+      "wrong": [
+        "The transaction never happened, because money moved between the two accounts."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deal"
+      ],
+      "ipa": "/trænˈzækʃən/"
+    },
+    {
+      "lemma": "squander",
+      "pos": "verb",
+      "meaning": "To waste money, time or a chance in a foolish way.",
+      "examples": [
+        "He {squandered} his prize money on fast cars."
+      ],
+      "wrong": [
+        "She squandered her money by saving every cent carefully."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "waste",
+        "fritter away"
+      ],
+      "ipa": "/ˈskwɑndɚ/",
+      "antonyms": [
+        "save"
+      ]
+    },
+    {
+      "lemma": "run up",
+      "pos": "verb",
+      "meaning": "To let a debt or bill grow bigger and bigger.",
+      "examples": [
+        "She {ran up} huge debts on her credit cards."
+      ],
+      "wrong": [
+        "He ran up a big bill by paying everything off at once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "accumulate"
+      ],
+      "ipa": "/ˈrʌn ˈʌp/"
+    },
+    {
+      "lemma": "make ends meet",
+      "pos": "phrase",
+      "meaning": "To have just enough money to pay for the things you need.",
+      "examples": [
+        "With two jobs, they can just about {make ends meet}."
+      ],
+      "wrong": [
+        "They can’t make ends meet, so they have lots of money left over each month."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "get by"
+      ],
+      "ipa": "/ˈmeɪk ˈɛndz ˈmit/"
+    },
+    {
+      "lemma": "economize",
+      "pos": "verb",
+      "meaning": "To spend less money by being careful.",
+      "examples": [
+        "We {economized} by cooking at home instead of eating out."
+      ],
+      "wrong": [
+        "To economize, we bought the most expensive car in the shop."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "save",
+        "cut costs"
+      ],
+      "ipa": "/ɪˈkɑnəˌmaɪz/"
+    },
+    {
+      "lemma": "thrifty",
+      "pos": "adjective",
+      "meaning": "Careful with money and not wasting it.",
+      "examples": [
+        "My {thrifty} uncle repairs his old shoes instead of buying new ones."
+      ],
+      "wrong": [
+        "She is very thrifty and spends all her pay on things she never uses."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "frugal",
+        "careful"
+      ],
+      "ipa": "/ˈθrɪfti/",
+      "antonyms": [
+        "wasteful",
+        "extravagant"
+      ]
+    },
+    {
+      "lemma": "in the red",
+      "pos": "phrase",
+      "meaning": "Owing money because you have spent more than you have.",
+      "examples": [
+        "The company has been {in the red} for three years."
+      ],
+      "wrong": [
+        "We are in the red, so we have plenty of money in the bank."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "in debt",
+        "overdrawn"
+      ],
+      "ipa": "/ɪn ðə ˈrɛd/",
+      "antonyms": [
+        "in the black"
+      ]
+    },
+    {
+      "lemma": "pay off",
+      "pos": "verb",
+      "meaning": "To pay all the money you owe on a debt.",
+      "examples": [
+        "They finally {paid off} their mortgage last year."
+      ],
+      "wrong": [
+        "She paid off her loan, so she still owes the bank most of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clear",
+        "settle"
+      ],
+      "ipa": "/ˈpeɪ ˈɔf/"
+    },
+    {
+      "lemma": "retirement",
+      "pos": "noun",
+      "meaning": "The time when you stop working, usually because of age.",
+      "examples": [
+        "He plans to travel a lot during his {retirement}."
+      ],
+      "wrong": [
+        "In his retirement he works twelve hours a day at the office."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/rɪˈtaɪɚmənt/"
+    },
+    {
+      "lemma": "grant",
+      "pos": "noun",
+      "meaning": "Money given by an organization for a purpose, which you don’t pay back.",
+      "examples": [
+        "She got a {grant} to study music in Vienna."
+      ],
+      "wrong": [
+        "He has to pay back the grant with interest, like a normal loan."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "award",
+        "subsidy"
+      ],
+      "ipa": "/ɡrænt/"
+    },
+    {
+      "lemma": "foot the bill",
+      "pos": "phrase",
+      "meaning": "To pay for something, often something expensive.",
+      "examples": [
+        "Who is going to {foot the bill} for the party?"
+      ],
+      "wrong": [
+        "His parents footed the bill, so he had to pay for everything himself."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "pay"
+      ],
+      "ipa": "/ˈfʊt ðə ˈbɪl/"
+    },
+    {
+      "lemma": "taxpayer",
+      "pos": "noun",
+      "meaning": "A person who pays money to the government from their income.",
+      "examples": [
+        "The new bridge was paid for by the {taxpayer}."
+      ],
+      "wrong": [
+        "As a taxpayer, she never gives any money to the government."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtæksˌpeɪɚ/"
+    },
+    {
+      "lemma": "fortune",
+      "pos": "noun",
+      "meaning": "A very large amount of money.",
+      "examples": [
+        "He made a {fortune} selling his software company."
+      ],
+      "wrong": [
+        "She spent a fortune on the shirt, which cost almost nothing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "wealth",
+        "riches"
+      ],
+      "ipa": "/ˈfɔrtʃən/"
+    },
+    {
+      "lemma": "deduct",
+      "pos": "verb",
+      "meaning": "To take an amount away from a total.",
+      "examples": [
+        "The company {deducts} tax from your pay every month."
+      ],
+      "wrong": [
+        "They deducted ten dollars, so my bill went up by ten dollars."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "subtract",
+        "take off"
+      ],
+      "ipa": "/dɪˈdʌkt/"
+    },
+    {
+      "lemma": "tax return",
+      "pos": "noun",
+      "meaning": "A form on which you tell the government how much you earned so it can work out your tax.",
+      "examples": [
+        "I have to send my {tax return} before the end of April."
+      ],
+      "wrong": [
+        "A tax return is a gift the government sends you on your birthday."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtæks rɪˌtɝn/"
+    },
+    {
+      "lemma": "interest-free",
+      "pos": "adjective",
+      "meaning": "Having no extra cost added for borrowing money.",
+      "examples": [
+        "The shop offers an {interest-free} payment plan for a year."
+      ],
+      "wrong": [
+        "The loan was interest-free, so I had to pay ten percent extra."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɪntrəst ˈfri/"
+    },
+    {
+      "lemma": "down payment",
+      "pos": "noun",
+      "meaning": "The first part of the price you pay when you buy something expensive and pay the rest later.",
+      "examples": [
+        "They saved for years to make a {down payment} on a house."
+      ],
+      "wrong": [
+        "The down payment is the last amount you pay after everything else."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deposit"
+      ],
+      "ipa": "/ˈdaʊn ˌpeɪmənt/"
+    },
+    {
+      "lemma": "well-off",
+      "pos": "adjective",
+      "meaning": "Having enough money to live comfortably.",
+      "examples": [
+        "Her parents are quite {well-off} and own a holiday home."
+      ],
+      "wrong": [
+        "They are well-off, so they can’t afford to buy food."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "comfortable",
+        "wealthy"
+      ],
+      "ipa": "/ˈwɛl ˈɔf/",
+      "antonyms": [
+        "poor",
+        "hard up"
+      ]
+    },
+    {
+      "lemma": "hard up",
+      "pos": "adjective",
+      "meaning": "Having very little money for a while.",
+      "examples": [
+        "I’m a bit {hard up} until I get paid next week."
+      ],
+      "wrong": [
+        "He was hard up, so he bought everyone expensive gifts."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "short of money"
+      ],
+      "ipa": "/ˈhɑrd ˈʌp/",
+      "antonyms": [
+        "well-off",
+        "wealthy"
+      ]
+    },
+    {
+      "lemma": "lump sum",
+      "pos": "noun",
+      "meaning": "An amount of money paid all at once rather than in parts.",
+      "examples": [
+        "When he left the company, he received a {lump sum} of ten thousand dollars."
+      ],
+      "wrong": [
+        "She received the lump sum in small amounts every week for ten years."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈlʌmp ˈsʌm/"
+    },
+    {
+      "lemma": "cut back",
+      "pos": "verb",
+      "meaning": "To reduce the amount of money you spend on something.",
+      "examples": [
+        "We need to {cut back} on takeout food this month."
+      ],
+      "wrong": [
+        "We cut back on travel by taking twice as many trips."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "reduce",
+        "economize"
+      ],
+      "ipa": "/ˈkʌt ˈbæk/"
+    },
+    {
+      "lemma": "minimum wage",
+      "pos": "noun",
+      "meaning": "The lowest amount of pay per hour that the law allows.",
+      "examples": [
+        "Many young workers earn the {minimum wage}."
+      ],
+      "wrong": [
+        "The minimum wage is the highest salary anyone in the country can earn."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈmɪnəməm ˈweɪdʒ/"
+    },
+    {
+      "lemma": "bankruptcy",
+      "pos": "noun",
+      "meaning": "The state of being legally unable to pay your debts.",
+      "examples": [
+        "The shop faced {bankruptcy} after a year of poor sales."
+      ],
+      "wrong": [
+        "The company’s bankruptcy came after its most successful year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "insolvency"
+      ],
+      "ipa": "/ˈbæŋkrʌptsi/"
+    },
+    {
+      "lemma": "budget deficit",
+      "pos": "noun",
+      "meaning": "The amount by which a government spends more than it earns.",
+      "examples": [
+        "The government plans to reduce the {budget deficit} by raising taxes."
+      ],
+      "wrong": [
+        "A budget deficit means the government has a lot of extra money left over."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shortfall"
+      ],
+      "ipa": "/ˈbʌdʒɪt ˈdɛfəsɪt/"
+    },
+    {
+      "lemma": "consumer spending",
+      "pos": "noun",
+      "meaning": "The money that ordinary people spend on goods and services.",
+      "examples": [
+        "{Consumer spending} usually rises before the holidays."
+      ],
+      "wrong": [
+        "Consumer spending is the money companies pay to their workers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kənˈsumɚ ˈspɛndɪŋ/"
+    }
+  ]
+}

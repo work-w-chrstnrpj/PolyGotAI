@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-communication",
+    "title": "Talking and writing",
+    "level": "A2",
+    "tagline": "Calls, emails and messages",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "conversation",
+      "pos": "noun",
+      "meaning": "A talk between two or more people.",
+      "examples": [
+        "We had a long {conversation} about music."
+      ],
+      "wrong": [
+        "They had a conversation without saying a word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "talk",
+        "chat"
+      ],
+      "ipa": "/ˌkɑnvɚˈseɪʃən/"
+    },
+    {
+      "lemma": "yell",
+      "pos": "verb",
+      "meaning": "To call out very loudly.",
+      "examples": [
+        "He {yelled} for help from the window."
+      ],
+      "wrong": [
+        "She yelled so softly that nobody heard."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shout",
+        "scream"
+      ],
+      "ipa": "/jɛl/",
+      "antonyms": [
+        "whisper"
+      ]
+    },
+    {
+      "lemma": "signature",
+      "pos": "noun",
+      "meaning": "Your name written in your own special way.",
+      "examples": [
+        "Please put your {signature} at the bottom of the form."
+      ],
+      "wrong": [
+        "He typed someone else’s name as his signature."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɪɡnətʃɚ/"
+    },
+    {
+      "lemma": "caller",
+      "pos": "noun",
+      "meaning": "The person who is making a phone call.",
+      "examples": [
+        "The {caller} didn’t say her name."
+      ],
+      "wrong": [
+        "The caller was the person who picked up the phone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɔlɚ/"
+    },
+    {
+      "lemma": "greet",
+      "pos": "verb",
+      "meaning": "To say hello to someone when you meet them.",
+      "examples": [
+        "She {greeted} us with a big smile."
+      ],
+      "wrong": [
+        "He greeted me by walking past without a word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "welcome",
+        "say hello to"
+      ],
+      "ipa": "/ɡrit/"
+    },
+    {
+      "lemma": "introduction",
+      "pos": "noun",
+      "meaning": "When you tell people someone’s name the first time they meet.",
+      "examples": [
+        "After the {introductions}, we all sat down."
+      ],
+      "wrong": [
+        "The introduction happened after they knew each other for years."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌɪntrəˈdʌkʃən/"
+    },
+    {
+      "lemma": "get through",
+      "pos": "verb",
+      "meaning": "To manage to speak to someone on the phone.",
+      "examples": [
+        "I called three times but couldn’t {get through}."
+      ],
+      "wrong": [
+        "I got through to her, so we never spoke."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reach"
+      ],
+      "ipa": "/ˈɡɛt ˈθru/"
+    },
+    {
+      "lemma": "answering machine",
+      "pos": "noun",
+      "meaning": "A machine that records messages when nobody answers the phone.",
+      "examples": [
+        "I left a message on her {answering machine}."
+      ],
+      "wrong": [
+        "The answering machine answers your questions about math."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈænsɚɪŋ məˌʃin/"
+    },
+    {
+      "lemma": "call up",
+      "pos": "verb",
+      "meaning": "To phone someone.",
+      "examples": [
+        "I’ll {call up} Grandma tonight."
+      ],
+      "wrong": [
+        "I called up my friend by writing him a letter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "phone",
+        "ring"
+      ],
+      "ipa": "/ˈkɔl ˈʌp/"
+    },
+    {
+      "lemma": "receive",
+      "pos": "verb",
+      "meaning": "To get something that someone sent you.",
+      "examples": [
+        "Did you {receive} my email?"
+      ],
+      "wrong": [
+        "I received the letter, but it never came."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "get"
+      ],
+      "ipa": "/rɪˈsiv/",
+      "antonyms": [
+        "send"
+      ]
+    },
+    {
+      "lemma": "phone number",
+      "pos": "noun",
+      "meaning": "The numbers you dial to call someone.",
+      "examples": [
+        "Can I have your {phone number}?"
+      ],
+      "wrong": [
+        "I wrote his phone number on the map to find his house."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "number"
+      ],
+      "ipa": "/ˈfoʊn ˌnʌmbɚ/"
+    },
+    {
+      "lemma": "cellphone",
+      "pos": "noun",
+      "meaning": "A phone you carry with you that works without wires.",
+      "examples": [
+        "I left my {cellphone} at home."
+      ],
+      "wrong": [
+        "My cellphone is fixed to the wall in the kitchen."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "mobile phone",
+        "cell"
+      ],
+      "ipa": "/ˈsɛlˌfoʊn/"
+    },
+    {
+      "lemma": "hold the line",
+      "pos": "phrase",
+      "meaning": "To wait on the phone without hanging up.",
+      "examples": [
+        "Please {hold the line} while I find the manager."
+      ],
+      "wrong": [
+        "She asked me to hold the line, so I hung up."
+      ],
+      "cefr": "A2",
+      "register": "formal",
+      "synonyms": [
+        "hold on"
+      ],
+      "ipa": "/ˈhoʊld ðə ˈlaɪn/"
+    },
+    {
+      "lemma": "dear",
+      "pos": "adjective",
+      "meaning": "A word used before a name at the start of a letter or email.",
+      "examples": [
+        "{Dear} Mr. Brown, thank you for your letter."
+      ],
+      "wrong": [
+        "I ended my email with dear and then signed my name."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪr/"
+    },
+    {
+      "lemma": "best wishes",
+      "pos": "phrase",
+      "meaning": "Friendly words used to end a letter or card.",
+      "examples": [
+        "{Best wishes}, Sarah."
+      ],
+      "wrong": [
+        "She started her angry letter of complaint with best wishes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "kind regards"
+      ],
+      "ipa": "/ˈbɛst ˈwɪʃɪz/"
+    },
+    {
+      "lemma": "sincerely",
+      "pos": "adverb",
+      "meaning": "A polite word to end a formal letter, before your name.",
+      "examples": [
+        "Yours {sincerely}, John Smith."
+      ],
+      "wrong": [
+        "I wrote sincerely at the very start of the letter."
+      ],
+      "cefr": "A2",
+      "register": "formal",
+      "ipa": "/sɪnˈsɪrli/"
+    },
+    {
+      "lemma": "airmail",
+      "pos": "noun",
+      "meaning": "Letters and packages sent by plane.",
+      "examples": [
+        "I sent the letter by {airmail} so it arrives fast."
+      ],
+      "wrong": [
+        "Airmail is carried slowly by boat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɛrˌmeɪl/"
+    },
+    {
+      "lemma": "text back",
+      "pos": "verb",
+      "meaning": "To answer someone’s phone message with your own message.",
+      "examples": [
+        "I’ll {text back} when I finish work."
+      ],
+      "wrong": [
+        "She texted back by not answering at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reply"
+      ],
+      "ipa": "/ˈtɛkst ˈbæk/"
+    },
+    {
+      "lemma": "reminder",
+      "pos": "noun",
+      "meaning": "A message that helps you not forget something.",
+      "examples": [
+        "I set a {reminder} for the dentist."
+      ],
+      "wrong": [
+        "The reminder made me forget the meeting."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "prompt"
+      ],
+      "ipa": "/rɪˈmaɪndɚ/"
+    },
+    {
+      "lemma": "request",
+      "pos": "noun",
+      "meaning": "When you ask for something politely.",
+      "examples": [
+        "I sent a {request} for more information."
+      ],
+      "wrong": [
+        "His request was an order he did not want anything."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "appeal"
+      ],
+      "ipa": "/rɪˈkwɛst/"
+    },
+    {
+      "lemma": "telephone",
+      "pos": "noun",
+      "meaning": "A machine you use to talk to someone far away.",
+      "examples": [
+        "The {telephone} in the office rang all day."
+      ],
+      "wrong": [
+        "I watched a movie on the telephone in the hallway."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "phone"
+      ],
+      "ipa": "/ˈtɛləˌfoʊn/"
+    },
+    {
+      "lemma": "typo",
+      "pos": "noun",
+      "meaning": "A small mistake made when typing.",
+      "examples": [
+        "There’s a {typo} in your email: ’teh’ should be ’the’."
+      ],
+      "wrong": [
+        "A typo is a word that is spelled perfectly."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "misprint"
+      ],
+      "ipa": "/ˈtaɪpoʊ/"
+    },
+    {
+      "lemma": "wrong number",
+      "pos": "noun",
+      "meaning": "A phone number you call by mistake.",
+      "examples": [
+        "Sorry, you have the {wrong number}."
+      ],
+      "wrong": [
+        "I called the wrong number and spoke to the person I wanted."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrɔŋ ˈnʌmbɚ/"
+    },
+    {
+      "lemma": "pardon",
+      "pos": "phrase",
+      "meaning": "A polite way to ask someone to say something again.",
+      "examples": [
+        "’{Pardon}? I didn’t hear you.’"
+      ],
+      "wrong": [
+        "He said pardon because he heard every word clearly."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sorry",
+        "excuse me"
+      ],
+      "ipa": "/ˈpɑrdən/"
+    },
+    {
+      "lemma": "shake hands",
+      "pos": "phrase",
+      "meaning": "To hold someone’s hand and move it up and down when you meet.",
+      "examples": [
+        "They {shook hands} and said hello."
+      ],
+      "wrong": [
+        "They shook hands without touching."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈʃeɪk ˈhændz/"
+    },
+    {
+      "lemma": "write back",
+      "pos": "verb",
+      "meaning": "To answer a letter or message.",
+      "examples": [
+        "She never {wrote back} to my email."
+      ],
+      "wrong": [
+        "He wrote back before he read my letter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reply",
+        "answer"
+      ],
+      "ipa": "/ˈraɪt ˈbæk/"
+    },
+    {
+      "lemma": "get back to",
+      "pos": "verb",
+      "meaning": "To reply to someone later.",
+      "examples": [
+        "I’ll {get back to} you tomorrow with an answer."
+      ],
+      "wrong": [
+        "I’ll get back to you never, so wait for my call."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reply to",
+        "contact"
+      ],
+      "ipa": "/ˈɡɛt ˈbæk tu/"
+    },
+    {
+      "lemma": "address book",
+      "pos": "noun",
+      "meaning": "A list of the names, numbers and addresses of people you know.",
+      "examples": [
+        "I added her email to my {address book}."
+      ],
+      "wrong": [
+        "An address book is a novel about houses."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "contacts"
+      ],
+      "ipa": "/ˈædrɛs ˌbʊk/"
+    },
+    {
+      "lemma": "draft",
+      "pos": "noun",
+      "meaning": "A first version of a letter or message that is not finished.",
+      "examples": [
+        "I saved a {draft} of the email to send later."
+      ],
+      "wrong": [
+        "The draft was the final copy, already sent."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rough copy"
+      ],
+      "ipa": "/dræft/"
+    },
+    {
+      "lemma": "voice",
+      "pos": "noun",
+      "meaning": "The sound you make when you speak or sing.",
+      "examples": [
+        "I knew it was her from her {voice} on the phone."
+      ],
+      "wrong": [
+        "She heard his voice in the photo."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/vɔɪs/"
+    },
+    {
+      "lemma": "say hi",
+      "pos": "phrase",
+      "meaning": "To greet someone, or to send them a friendly hello.",
+      "examples": [
+        "{Say hi} to your parents for me!"
+      ],
+      "wrong": [
+        "He said hi to me as he left forever."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "say hello"
+      ],
+      "ipa": "/ˈseɪ ˈhaɪ/"
+    },
+    {
+      "lemma": "speakerphone",
+      "pos": "noun",
+      "meaning": "A phone setting so everyone in the room can hear the call.",
+      "examples": [
+        "Put the call on {speakerphone} so we can all hear."
+      ],
+      "wrong": [
+        "I used speakerphone so only I could hear the call."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈspikɚˌfoʊn/"
+    },
+    {
+      "lemma": "landline",
+      "pos": "noun",
+      "meaning": "A phone at home or in an office that is connected by a wire.",
+      "examples": [
+        "Call me on my {landline} at home."
+      ],
+      "wrong": [
+        "I carry my landline in my pocket everywhere."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "home phone"
+      ],
+      "ipa": "/ˈlændˌlaɪn/"
+    },
+    {
+      "lemma": "operator",
+      "pos": "noun",
+      "meaning": "A person who answers calls and connects callers to the right person.",
+      "examples": [
+        "The {operator} put me through to the sales team."
+      ],
+      "wrong": [
+        "The operator never answers any calls."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɑpəˌreɪtɚ/"
+    },
+    {
+      "lemma": "zip code",
+      "pos": "noun",
+      "meaning": "A group of numbers in an address that helps mail arrive.",
+      "examples": [
+        "Don’t forget the {zip code} on the envelope."
+      ],
+      "wrong": [
+        "The zip code is the name of the person you write to."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "postcode"
+      ],
+      "ipa": "/ˈzɪp ˌkoʊd/"
+    },
+    {
+      "lemma": "postage",
+      "pos": "noun",
+      "meaning": "The money you pay to send a letter or package.",
+      "examples": [
+        "How much is the {postage} for this letter?"
+      ],
+      "wrong": [
+        "Postage is free food you get at the post office."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpoʊstɪdʒ/"
+    },
+    {
+      "lemma": "regards",
+      "pos": "noun",
+      "meaning": "Friendly wishes, often at the end of an email.",
+      "examples": [
+        "Kind {regards}, Tom."
+      ],
+      "wrong": [
+        "She sent her regards to show she hated him."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "best wishes"
+      ],
+      "ipa": "/rɪˈɡɑrdz/"
+    },
+    {
+      "lemma": "hang on",
+      "pos": "verb",
+      "meaning": "To wait for a short time.",
+      "examples": [
+        "{Hang on}, I’ll get a pen."
+      ],
+      "wrong": [
+        "Hang on means please hurry and leave now."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "hold on",
+        "wait"
+      ],
+      "ipa": "/ˈhæŋ ˈɑn/"
+    },
+    {
+      "lemma": "take a message",
+      "pos": "phrase",
+      "meaning": "To write down what a caller says for someone who is not there.",
+      "examples": [
+        "She’s out. Can I {take a message}?"
+      ],
+      "wrong": [
+        "I took a message, but I wrote nothing down."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈteɪk ə ˈmɛsɪdʒ/"
+    },
+    {
+      "lemma": "aloud",
+      "pos": "adverb",
+      "meaning": "In a voice that others can hear.",
+      "examples": [
+        "Please read the letter {aloud}."
+      ],
+      "wrong": [
+        "She read aloud, so nobody could hear a word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "out loud"
+      ],
+      "ipa": "/əˈlaʊd/",
+      "antonyms": [
+        "silently",
+        "quietly"
+      ]
+    }
+  ]
+}

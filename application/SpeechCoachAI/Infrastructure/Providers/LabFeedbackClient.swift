@@ -8,6 +8,8 @@ enum LabFeedbackMode: String, Codable, CaseIterable {
     case pronunciation, speaking, interview, conversation, communication
     /// Review of a coach lesson's "Your turn" answer (not a Speech Lab mode).
     case coachReview
+    /// Phase 15: impromptu writing from a Lab timed test.
+    case writing
 
     /// The five Speech Lab modes that offer feedback; Dictation is checked by the app and `coachReview` lives in the Lesson tab.
     static let labModes: [LabFeedbackMode] = [.pronunciation, .speaking, .interview, .conversation, .communication]
@@ -21,6 +23,7 @@ enum LabFeedbackMode: String, Codable, CaseIterable {
         case .conversation: ["turn-taking and polite phrases", "natural wording", "answering what was asked", "keeping the conversation going"]
         case .communication: ["fit to the purpose and audience", "clear, concise wording", "suitable tone", "a clear request or next step"]
         case .coachReview: ["how well the answer applies the lesson's idea", "clarity and accuracy of language", "one concrete improvement to try"]
+        case .writing: ["whether it answers the topic", "organization: opening, support and close", "grammar and word choice", "one sentence that could be clearer"]
         }
     }
 
@@ -33,6 +36,7 @@ enum LabFeedbackMode: String, Codable, CaseIterable {
         case .conversation: "Look at whether the learner's turns fit the conversation and are natural and polite."
         case .communication: "Look at whether the message meets its purpose for its audience: clear, concise, suitable tone."
         case .coachReview: "Look at whether the learner applied the lesson's idea in their own answer, and how clear the language is."
+        case .writing: "Look at a short piece written against a timer: whether it answers the topic, is organized, and uses accurate grammar and words. It may stop mid-sentence because time ran out."
         }
     }
 }

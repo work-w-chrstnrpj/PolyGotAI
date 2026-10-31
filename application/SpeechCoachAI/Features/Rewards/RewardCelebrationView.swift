@@ -31,8 +31,8 @@ struct RewardCelebrationView: View {
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("rewards.celebration")
          .onAppear {
+            // Sound and haptics come from the app-wide celebration (CelebrationOverlay).
             withAnimation(motion ? .easeOut(duration: 0.2) : nil) { revealed = true }
-            feedback.play(settings: ledger.settings)
         }
         .onDisappear { feedback.stop() }
         .onChange(of: scene) { _, phase in if phase != .active { revealed = true; feedback.stop() } }

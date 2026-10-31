@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-media-journalism",
+    "title": "Media and journalism",
+    "level": "C1",
+    "tagline": "Reporting, bias and sources",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "editorial",
+      "pos": "noun",
+      "meaning": "An article that gives the official opinion of a newspaper’s editors.",
+      "examples": [
+        "Today’s {editorial} criticizes the new housing policy."
+      ],
+      "wrong": [
+        "The editorial was a neutral list of facts with no opinion at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "leader",
+        "opinion piece"
+      ],
+      "ipa": "/ˌɛdɪˈtɔriəl/"
+    },
+    {
+      "lemma": "correspondent",
+      "pos": "noun",
+      "meaning": "A journalist who reports from a particular place or on a particular subject.",
+      "examples": [
+        "Our {correspondent} in Tokyo sent this report."
+      ],
+      "wrong": [
+        "The correspondent never reports on anything; she only reads the weather."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reporter",
+        "journalist"
+      ],
+      "ipa": "/ˌkɔrəˈspɑndənt/"
+    },
+    {
+      "lemma": "coverage",
+      "pos": "noun",
+      "meaning": "The way news media report on an event, and how much they report.",
+      "examples": [
+        "The election received wall-to-wall {coverage} on every channel."
+      ],
+      "wrong": [
+        "The story got huge coverage, so almost nobody heard about it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reporting"
+      ],
+      "ipa": "/ˈkʌvərɪdʒ/"
+    },
+    {
+      "lemma": "objectivity",
+      "pos": "noun",
+      "meaning": "The quality of reporting facts fairly, without letting personal feelings shape them.",
+      "examples": [
+        "Readers trust the paper because of its {objectivity}."
+      ],
+      "wrong": [
+        "His objectivity showed in how he let his own opinions shape every story."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "impartiality",
+        "neutrality",
+        "fairness"
+      ],
+      "ipa": "/ˌɑbdʒɛkˈtɪvəti/",
+      "antonyms": [
+        "subjectivity",
+        "bias"
+      ]
+    },
+    {
+      "lemma": "sensationalism",
+      "pos": "noun",
+      "meaning": "Presenting news in a shocking, exaggerated way to attract attention.",
+      "examples": [
+        "The tabloid was criticized for its {sensationalism} about the crash."
+      ],
+      "wrong": [
+        "The calm, careful report was a fine example of sensationalism."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exaggeration",
+        "hype"
+      ],
+      "ipa": "/sɛnˈseɪʃənəˌlɪzəm/"
+    },
+    {
+      "lemma": "tabloid",
+      "pos": "noun",
+      "meaning": "A small-format newspaper with short stories, big photos and much celebrity gossip.",
+      "examples": [
+        "The {tabloids} were full of rumors about the singer’s wedding."
+      ],
+      "wrong": [
+        "The tabloid is known for long, serious analysis of economic policy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "gossip paper"
+      ],
+      "ipa": "/ˈtæbˌlɔɪd/"
+    },
+    {
+      "lemma": "broadsheet",
+      "pos": "noun",
+      "meaning": "A large-format newspaper known for serious news and in-depth reporting.",
+      "examples": [
+        "The {broadsheet} ran a ten-page analysis of the budget."
+      ],
+      "wrong": [
+        "The broadsheet is famous for celebrity gossip and shocking headlines."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "quality paper"
+      ],
+      "ipa": "/ˈbrɔdˌʃit/"
+    },
+    {
+      "lemma": "scoop",
+      "pos": "noun",
+      "meaning": "An important news story that one reporter or paper publishes before anyone else.",
+      "examples": [
+        "The young reporter got the {scoop} on the minister’s resignation."
+      ],
+      "wrong": [
+        "Her scoop was old news that every paper had printed a week earlier."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "exclusive"
+      ],
+      "ipa": "/skup/"
+    },
+    {
+      "lemma": "attribution",
+      "pos": "noun",
+      "meaning": "Saying clearly where a fact, quote or idea came from.",
+      "examples": [
+        "Every quote in the article needs a clear {attribution} to its source."
+      ],
+      "wrong": [
+        "The attribution hid the name of the person who wrote the quote."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "credit",
+        "sourcing"
+      ],
+      "ipa": "/ˌætrəˈbjuʃən/"
+    },
+    {
+      "lemma": "newsroom",
+      "pos": "noun",
+      "meaning": "The office where journalists and editors prepare the news.",
+      "examples": [
+        "The {newsroom} went quiet as the election results came in."
+      ],
+      "wrong": [
+        "The newsroom is the place where readers sit to read the paper."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "news desk"
+      ],
+      "ipa": "/ˈnuzˌrum/"
+    },
+    {
+      "lemma": "fact-check",
+      "pos": "verb",
+      "meaning": "To check that the facts in a piece of writing or a speech are correct.",
+      "examples": [
+        "Every claim in the article was {fact-checked} before publication."
+      ],
+      "wrong": [
+        "She fact-checked the story by publishing it without reading it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "verify",
+        "check"
+      ],
+      "ipa": "/ˈfækt ˌtʃɛk/"
+    },
+    {
+      "lemma": "retraction",
+      "pos": "noun",
+      "meaning": "A public statement that something published earlier was wrong and is withdrawn.",
+      "examples": [
+        "The paper printed a {retraction} after the story proved false."
+      ],
+      "wrong": [
+        "The retraction repeated the false claim and said it was completely true."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "correction",
+        "withdrawal"
+      ],
+      "ipa": "/rɪˈtrækʃən/"
+    },
+    {
+      "lemma": "libel",
+      "pos": "noun",
+      "meaning": "A false written statement that damages someone’s reputation, which can be punished by law.",
+      "examples": [
+        "The actor sued the magazine for {libel}."
+      ],
+      "wrong": [
+        "Printing a true, fair report is a clear example of libel."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "defamation"
+      ],
+      "ipa": "/ˈlaɪbəl/"
+    },
+    {
+      "lemma": "censorship",
+      "pos": "noun",
+      "meaning": "The control or blocking of books, news or films that authorities think are unacceptable.",
+      "examples": [
+        "Under strict {censorship}, many news stories never reached the public."
+      ],
+      "wrong": [
+        "Thanks to censorship, every newspaper could print anything it wanted."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "suppression"
+      ],
+      "ipa": "/ˈsɛnsɚˌʃɪp/",
+      "antonyms": [
+        "free speech"
+      ]
+    },
+    {
+      "lemma": "press freedom",
+      "pos": "noun",
+      "meaning": "The right of newspapers and broadcasters to report without control by the government.",
+      "examples": [
+        "Journalists marched to defend {press freedom}."
+      ],
+      "wrong": [
+        "Press freedom means the government decides what newspapers may print."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "freedom of the press"
+      ],
+      "ipa": "/ˈprɛs ˈfridəm/"
+    },
+    {
+      "lemma": "propaganda",
+      "pos": "noun",
+      "meaning": "Biased or false information spread to make people support a particular cause or leader.",
+      "examples": [
+        "The posters were wartime {propaganda} meant to stir up hatred."
+      ],
+      "wrong": [
+        "The propaganda gave a balanced view of both sides."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "disinformation",
+        "spin"
+      ],
+      "ipa": "/ˌprɑpəˈɡændə/"
+    },
+    {
+      "lemma": "spin",
+      "pos": "noun",
+      "meaning": "A way of presenting information that makes it look better for a particular person or group.",
+      "examples": [
+        "The minister’s press team put a positive {spin} on the bad figures."
+      ],
+      "wrong": [
+        "There was no spin in the statement; it twisted every fact in their favor."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "slant",
+        "angle"
+      ],
+      "ipa": "/spɪn/"
+    },
+    {
+      "lemma": "misinformation",
+      "pos": "noun",
+      "meaning": "False or wrong information, especially when it is spread without people realizing it.",
+      "examples": [
+        "Health {misinformation} spread quickly during the outbreak."
+      ],
+      "wrong": [
+        "The misinformation was accurate and carefully checked."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "falsehood",
+        "disinformation"
+      ],
+      "ipa": "/ˌmɪsɪnfɚˈmeɪʃən/"
+    },
+    {
+      "lemma": "op-ed",
+      "pos": "noun",
+      "meaning": "An opinion article in a newspaper written by someone who is not on the paper’s staff.",
+      "examples": [
+        "The professor wrote an {op-ed} arguing for longer school days."
+      ],
+      "wrong": [
+        "An op-ed is a page that only lists sports results."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "opinion piece",
+        "commentary"
+      ],
+      "ipa": "/ˌɑpˈɛd/"
+    },
+    {
+      "lemma": "columnist",
+      "pos": "noun",
+      "meaning": "A journalist who writes regular articles giving their opinions.",
+      "examples": [
+        "The {columnist} writes about politics every Sunday."
+      ],
+      "wrong": [
+        "As a columnist, she has never shared her opinion in print."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "commentator",
+        "writer"
+      ],
+      "ipa": "/ˈkɑləmnɪst/"
+    },
+    {
+      "lemma": "investigative",
+      "pos": "adjective",
+      "meaning": "Involving careful, long research to discover hidden facts, often about wrongdoing.",
+      "examples": [
+        "Her {investigative} reporting exposed corruption in the city council."
+      ],
+      "wrong": [
+        "His investigative work never looked beyond the official press release."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "probing",
+        "in-depth"
+      ],
+      "ipa": "/ɪnˈvɛstəˌɡeɪtɪv/",
+      "antonyms": [
+        "superficial"
+      ]
+    },
+    {
+      "lemma": "byline",
+      "pos": "noun",
+      "meaning": "A line at the top of an article that gives the writer’s name.",
+      "examples": [
+        "It was her first front-page story with her own {byline}."
+      ],
+      "wrong": [
+        "The byline is the price of the newspaper printed on the front."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "credit"
+      ],
+      "ipa": "/ˈbaɪˌlaɪn/"
+    },
+    {
+      "lemma": "circulation",
+      "pos": "noun",
+      "meaning": "The number of copies of a newspaper or magazine sold or given out.",
+      "examples": [
+        "The magazine’s {circulation} has fallen as readers move online."
+      ],
+      "wrong": [
+        "The paper’s circulation is the color of ink it uses."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "distribution",
+        "sales"
+      ],
+      "ipa": "/ˌsɝkjəˈleɪʃən/"
+    },
+    {
+      "lemma": "readership",
+      "pos": "noun",
+      "meaning": "The people who read a particular publication, or how many of them there are.",
+      "examples": [
+        "The site has a young, well-educated {readership}."
+      ],
+      "wrong": [
+        "The readership of the paper is the people who print it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "audience",
+        "readers"
+      ],
+      "ipa": "/ˈridɚˌʃɪp/"
+    },
+    {
+      "lemma": "newsworthy",
+      "pos": "adjective",
+      "meaning": "Interesting or important enough to be reported as news.",
+      "examples": [
+        "Editors decide which events are {newsworthy}."
+      ],
+      "wrong": [
+        "The story was so newsworthy that no paper wanted to print it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "noteworthy",
+        "reportable"
+      ],
+      "ipa": "/ˈnuzˌwɝði/",
+      "antonyms": [
+        "trivial",
+        "unremarkable"
+      ]
+    },
+    {
+      "lemma": "tip-off",
+      "pos": "noun",
+      "meaning": "A piece of secret information given as a warning or lead, often to police or journalists.",
+      "examples": [
+        "Acting on an anonymous {tip-off}, the reporter visited the warehouse."
+      ],
+      "wrong": [
+        "The tip-off gave the journalist no information or lead at all."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "lead",
+        "warning",
+        "hint"
+      ],
+      "ipa": "/ˈtɪp ˌɔf/"
+    },
+    {
+      "lemma": "off the record",
+      "pos": "phrase",
+      "meaning": "Said privately to a journalist and not meant to be published or quoted.",
+      "examples": [
+        "The official spoke {off the record} about the talks."
+      ],
+      "wrong": [
+        "She spoke off the record, so the paper printed her quote with her name."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unofficially",
+        "confidentially"
+      ],
+      "ipa": "/ˈɔf ðə ˈrɛkɚd/",
+      "antonyms": [
+        "on the record"
+      ]
+    },
+    {
+      "lemma": "breaking news",
+      "pos": "noun",
+      "meaning": "Reports about an event that is happening now or has only just happened.",
+      "examples": [
+        "We interrupt this program with {breaking news} from the capital."
+      ],
+      "wrong": [
+        "The breaking news was a story about events from twenty years ago."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "latest news"
+      ],
+      "ipa": "/ˈbreɪkɪŋ ˈnuz/"
+    },
+    {
+      "lemma": "paparazzi",
+      "pos": "noun",
+      "meaning": "Photographers who follow famous people to take pictures of them to sell.",
+      "examples": [
+        "The {paparazzi} waited outside the hotel for the star."
+      ],
+      "wrong": [
+        "The paparazzi are shy photographers who never follow celebrities."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌpɑpəˈrɑtsi/"
+    },
+    {
+      "lemma": "slant",
+      "pos": "noun",
+      "meaning": "A particular point of view that affects how news is presented.",
+      "examples": [
+        "The report had a clear political {slant}."
+      ],
+      "wrong": [
+        "Its slant made the article perfectly neutral."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "bias",
+        "angle",
+        "spin"
+      ],
+      "ipa": "/slænt/"
+    },
+    {
+      "lemma": "gatekeeper",
+      "pos": "noun",
+      "meaning": "A person or group that controls what information reaches the public.",
+      "examples": [
+        "Editors used to be the main {gatekeepers} of the news."
+      ],
+      "wrong": [
+        "As a gatekeeper, he had no say over what got published."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "filter",
+        "controller"
+      ],
+      "ipa": "/ˈɡeɪtˌkipɚ/"
+    },
+    {
+      "lemma": "editorialize",
+      "pos": "verb",
+      "meaning": "To mix personal opinion into a report that should only give facts.",
+      "examples": [
+        "A news reporter should not {editorialize} in a straight news story."
+      ],
+      "wrong": [
+        "He editorialized by sticking strictly to the facts and giving no opinion."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "opine",
+        "comment"
+      ],
+      "ipa": "/ˌɛdɪˈtɔriəˌlaɪz/"
+    },
+    {
+      "lemma": "infotainment",
+      "pos": "noun",
+      "meaning": "Television or online content that mixes news and information with entertainment.",
+      "examples": [
+        "Critics say the channel offers {infotainment} rather than serious news."
+      ],
+      "wrong": [
+        "The program was pure infotainment: a dry list of statistics with no entertainment."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "soft news"
+      ],
+      "ipa": "/ˌɪnfoʊˈteɪnmənt/"
+    },
+    {
+      "lemma": "press release",
+      "pos": "noun",
+      "meaning": "An official statement given to journalists by an organization.",
+      "examples": [
+        "The company announced the merger in a {press release}."
+      ],
+      "wrong": [
+        "A press release is a secret memo that journalists are never shown."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "news release",
+        "statement"
+      ],
+      "ipa": "/ˈprɛs rɪˌlis/"
+    },
+    {
+      "lemma": "press conference",
+      "pos": "noun",
+      "meaning": "A meeting where someone makes an announcement and answers reporters’ questions.",
+      "examples": [
+        "The coach held a {press conference} after the match."
+      ],
+      "wrong": [
+        "At the press conference, no reporters were allowed to ask anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "news conference",
+        "briefing"
+      ],
+      "ipa": "/ˈprɛs ˌkɑnfərəns/"
+    },
+    {
+      "lemma": "media outlet",
+      "pos": "noun",
+      "meaning": "An organization that publishes or broadcasts news, such as a paper, channel or website.",
+      "examples": [
+        "Several {media outlets} reported the story within minutes."
+      ],
+      "wrong": [
+        "A media outlet is a socket for charging your phone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "news organization"
+      ],
+      "ipa": "/ˈmidiə ˌaʊtˌlɛt/"
+    },
+    {
+      "lemma": "anchor",
+      "pos": "noun",
+      "meaning": "The main presenter of a news program on TV or radio.",
+      "examples": [
+        "The evening news {anchor} has been on air for twenty years."
+      ],
+      "wrong": [
+        "The anchor never appears on screen or speaks during the broadcast."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "newsreader",
+        "presenter"
+      ],
+      "ipa": "/ˈæŋkɚ/"
+    },
+    {
+      "lemma": "watchdog",
+      "pos": "noun",
+      "meaning": "A person or group that checks that companies or governments behave properly.",
+      "examples": [
+        "A consumer {watchdog} warned about the faulty heaters."
+      ],
+      "wrong": [
+        "The watchdog helped the firm hide its illegal practices."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "regulator",
+        "monitor"
+      ],
+      "ipa": "/ˈwɑtʃˌdɔɡ/"
+    },
+    {
+      "lemma": "sound bite",
+      "pos": "noun",
+      "meaning": "A short, catchy quote from a speech or interview used in news reports.",
+      "examples": [
+        "His one-line {sound bite} was played on every channel."
+      ],
+      "wrong": [
+        "The sound bite was a three-hour recording of the full speech."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "quote",
+        "one-liner"
+      ],
+      "ipa": "/ˈsaʊnd ˌbaɪt/"
+    },
+    {
+      "lemma": "pundit",
+      "pos": "noun",
+      "meaning": "An expert who often gives opinions on a subject in the media.",
+      "examples": [
+        "Political {pundits} predicted a close result."
+      ],
+      "wrong": [
+        "The pundit refused ever to give an opinion on the subject."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "commentator",
+        "analyst"
+      ],
+      "ipa": "/ˈpʌndɪt/"
+    }
+  ]
+}

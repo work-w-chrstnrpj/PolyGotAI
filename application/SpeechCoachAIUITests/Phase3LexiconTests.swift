@@ -51,14 +51,16 @@ final class Phase3LexiconTests: XCTestCase {
         // Phase 8: packs are chosen in Training settings.
         reach(app, app.buttons["lexicon.settings"]).tap()
         XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
-        for _ in 0..<40 where !app.staticTexts["Field packs"].isHittable { app.swipeUp() }
+        // Rank packs are closed lists (Phase 14), so the field packs are a short scroll away.
+        for _ in 0..<20 where !app.staticTexts["Field packs"].isHittable { app.swipeUp() }
         XCTAssertTrue(app.staticTexts["Field packs"].isHittable)
         // Every field label remains reachable at the largest accessibility size.
-        let business = app.staticTexts["Business and finance"].firstMatch
-        XCTAssertTrue(business.exists)
-        for _ in 0..<4 where !business.isHittable { app.swipeUp() }
-        XCTAssertTrue(business.isHittable)
-        for _ in 0..<4 where business.frame.midY > app.frame.midY { app.swipeUp() }
+        // Rows load as they scroll in, so the header can be on screen before the first pack row exists.
+        // The last field pack sits at the bottom of the list, so scrolling down always reaches it (2026-10-31: the first
+        // field row kept landing under the bar at this text size, and off-screen rows are not loaded).
+        let law = app.switches["lexicon.settings.pack.field-law"]
+        for _ in 0..<20 where !(law.exists && law.isHittable) { app.swipeUp(velocity: .slow) }
+        XCTAssertTrue(law.exists && law.isHittable)
         capture(app, "largest-text-field-packs")
         app.buttons["lexicon.settings.done"].tap()
         XCUIDevice.shared.orientation = .landscapeLeft
@@ -84,7 +86,9 @@ final class Phase3LexiconTests: XCTestCase {
     func testTodayShowsOneWordOfTheDay() {
         let app = launch()
         XCTAssertTrue(app.descendants(matching: .any)["daily.lexicon"].firstMatch.waitForExistence(timeout: 8))
-        XCTAssertEqual(app.staticTexts["daily.lexicon.lemma"].label, "happy")
+        // 2026-10-30: the word of the day is a C1 or C2 word; the first C1 level-pack word for a fresh learner.
+        XCTAssertEqual(app.staticTexts["daily.lexicon.lemma"].label, "subtle")
+        XCTAssertTrue(app.staticTexts["lexicon.ipa"].exists)
         capture(app, "today-word")
     }
 
@@ -133,7 +137,10 @@ final class Phase3LexiconTests: XCTestCase {
         openLexicon(app)
         reach(app, app.buttons["lexicon.settings"]).tap()
         XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
-        // Form rows are created as they scroll into view.
+        // Each rank's packs sit in a closed list; open A1. Form rows are created as they scroll into view.
+        let a1Packs = app.staticTexts["lexicon.settings.rankPacks.A1"].firstMatch
+        for _ in 0..<10 where !(a1Packs.exists && a1Packs.isHittable) { app.swipeUp() }
+        a1Packs.tap()
         let people = app.switches["lexicon.settings.pack.a1-people-places"]
         for _ in 0..<20 where !(people.exists && people.isHittable) { app.swipeUp() }
         XCTAssertTrue(people.waitForExistence(timeout: 5))

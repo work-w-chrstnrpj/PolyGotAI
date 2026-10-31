@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-describing-places",
+    "title": "Describing places",
+    "level": "A2",
+    "tagline": "Busy, quiet, modern",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "sandy",
+      "pos": "adjective",
+      "meaning": "Covered with sand.",
+      "examples": [
+        "The children played on the {sandy} beach all day."
+      ],
+      "wrong": [
+        "The sandy beach was covered with big rocks and no sand at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsændi/"
+    },
+    {
+      "lemma": "lively",
+      "pos": "adjective",
+      "meaning": "Full of people, energy and things happening.",
+      "examples": [
+        "The square is {lively} at night, with music and cafes."
+      ],
+      "wrong": [
+        "The lively town was silent, and nobody was out."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "busy"
+      ],
+      "ipa": "/ˈlaɪvli/",
+      "antonyms": [
+        "quiet",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "old-fashioned",
+      "pos": "adjective",
+      "meaning": "Not modern; from an earlier time.",
+      "examples": [
+        "My grandma’s kitchen is {old-fashioned}, with an old wooden stove."
+      ],
+      "wrong": [
+        "The old-fashioned office was full of the newest computers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dated"
+      ],
+      "ipa": "/ˌoʊldˈfæʃənd/",
+      "antonyms": [
+        "modern"
+      ]
+    },
+    {
+      "lemma": "flat",
+      "pos": "adjective",
+      "meaning": "Level, with no hills or high parts.",
+      "examples": [
+        "The land here is {flat}, so cycling is easy."
+      ],
+      "wrong": [
+        "The town is very flat, with steep hills on every street."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "level"
+      ],
+      "ipa": "/flæt/",
+      "antonyms": [
+        "hilly"
+      ]
+    },
+    {
+      "lemma": "wide",
+      "pos": "adjective",
+      "meaning": "Large from one side to the other.",
+      "examples": [
+        "The road is {wide} enough for four cars."
+      ],
+      "wrong": [
+        "The street is so wide that two people can’t walk side by side."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "broad"
+      ],
+      "ipa": "/waɪd/",
+      "antonyms": [
+        "narrow"
+      ]
+    },
+    {
+      "lemma": "rocky",
+      "pos": "adjective",
+      "meaning": "Covered with or full of rocks.",
+      "examples": [
+        "Wear good shoes; the path is {rocky}."
+      ],
+      "wrong": [
+        "The rocky field was soft grass with not one stone in it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stony"
+      ],
+      "ipa": "/ˈrɑki/"
+    },
+    {
+      "lemma": "popular",
+      "pos": "adjective",
+      "meaning": "Liked by a lot of people.",
+      "examples": [
+        "This park is {popular} with families on Sundays."
+      ],
+      "wrong": [
+        "The cafe is very popular, so it is always empty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɑpjəlɚ/",
+      "antonyms": [
+        "unpopular"
+      ]
+    },
+    {
+      "lemma": "local",
+      "pos": "adjective",
+      "meaning": "Of or in the area near you.",
+      "examples": [
+        "We buy bread at the {local} bakery on our street."
+      ],
+      "wrong": [
+        "The local shop is in another country."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "nearby"
+      ],
+      "ipa": "/ˈloʊkəl/"
+    },
+    {
+      "lemma": "touristy",
+      "pos": "adjective",
+      "meaning": "Full of tourists and things made for them.",
+      "examples": [
+        "The old town is very {touristy}, with souvenir shops everywhere."
+      ],
+      "wrong": [
+        "The touristy street had no visitors, no hotels and no gift shops."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/ˈtʊrɪsti/"
+    },
+    {
+      "lemma": "historical",
+      "pos": "adjective",
+      "meaning": "Connected with the past or with history.",
+      "examples": [
+        "The town has many {historical} buildings from the 1600s."
+      ],
+      "wrong": [
+        "The historical buildings were all built last month."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "historic",
+        "old"
+      ],
+      "ipa": "/hɪˈstɔrɪkəl/"
+    },
+    {
+      "lemma": "amazing",
+      "pos": "adjective",
+      "meaning": "Very surprising and very good.",
+      "examples": [
+        "The view from the tower was {amazing}."
+      ],
+      "wrong": [
+        "The hotel was amazing, so we left after one night and asked for our money back."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wonderful",
+        "great"
+      ],
+      "ipa": "/əˈmeɪzɪŋ/"
+    },
+    {
+      "lemma": "smelly",
+      "pos": "adjective",
+      "meaning": "Having a bad smell.",
+      "examples": [
+        "The fish market is a bit {smelly} in the afternoon."
+      ],
+      "wrong": [
+        "The smelly garden was full of sweet, fresh air."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stinky"
+      ],
+      "ipa": "/ˈsmɛli/"
+    },
+    {
+      "lemma": "bright",
+      "pos": "adjective",
+      "meaning": "Full of light.",
+      "examples": [
+        "Our kitchen is {bright} because it has big windows."
+      ],
+      "wrong": [
+        "The bright room had no windows and no lamps."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "light",
+        "sunny"
+      ],
+      "ipa": "/braɪt/",
+      "antonyms": [
+        "dark"
+      ]
+    },
+    {
+      "lemma": "well-known",
+      "pos": "adjective",
+      "meaning": "Known by many people.",
+      "examples": [
+        "It’s a {well-known} restaurant; everyone in town has been there."
+      ],
+      "wrong": [
+        "The well-known shop is a secret that no one knows about."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "famous"
+      ],
+      "ipa": "/ˌwɛlˈnoʊn/"
+    },
+    {
+      "lemma": "skyline",
+      "pos": "noun",
+      "meaning": "The shape of a city’s buildings against the sky.",
+      "examples": [
+        "The city {skyline} looks beautiful at night with all the lights."
+      ],
+      "wrong": [
+        "The skyline is the floor under a city’s streets."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskaɪˌlaɪn/"
+    },
+    {
+      "lemma": "magnificent",
+      "pos": "adjective",
+      "meaning": "Very beautiful, big and impressive.",
+      "examples": [
+        "The palace has a {magnificent} garden with huge fountains."
+      ],
+      "wrong": [
+        "The magnificent castle was a small, ugly shed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "grand",
+        "splendid"
+      ],
+      "ipa": "/mæɡˈnɪfəsənt/"
+    },
+    {
+      "lemma": "remote",
+      "pos": "adjective",
+      "meaning": "Far away from towns and other people.",
+      "examples": [
+        "They live on a {remote} farm, two hours from the nearest shop."
+      ],
+      "wrong": [
+        "Their remote house is right in the city center."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "isolated",
+        "distant"
+      ],
+      "ipa": "/rɪˈmoʊt/",
+      "antonyms": [
+        "central"
+      ]
+    },
+    {
+      "lemma": "industrial",
+      "pos": "adjective",
+      "meaning": "With many factories.",
+      "examples": [
+        "It’s an {industrial} town with big factories by the river."
+      ],
+      "wrong": [
+        "The industrial area has only fields and cows."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪnˈdʌstriəl/"
+    },
+    {
+      "lemma": "nearby",
+      "pos": "adjective",
+      "meaning": "Not far away.",
+      "examples": [
+        "We swim at a {nearby} lake, just five minutes away."
+      ],
+      "wrong": [
+        "The nearby station is a three-hour drive away."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "close",
+        "local"
+      ],
+      "ipa": "/ˈnɪrˌbaɪ/",
+      "antonyms": [
+        "distant"
+      ]
+    },
+    {
+      "lemma": "central",
+      "pos": "adjective",
+      "meaning": "In or near the middle of a place.",
+      "examples": [
+        "Our hotel was very {central}, close to all the sights."
+      ],
+      "wrong": [
+        "The central hotel is far outside the city."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɛntrəl/"
+    },
+    {
+      "lemma": "leafy",
+      "pos": "adjective",
+      "meaning": "With a lot of trees and plants.",
+      "examples": [
+        "They live in a {leafy} street with big trees on both sides."
+      ],
+      "wrong": [
+        "The leafy area has no trees or plants at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "green"
+      ],
+      "ipa": "/ˈlifi/"
+    },
+    {
+      "lemma": "packed",
+      "pos": "adjective",
+      "meaning": "Very full of people.",
+      "examples": [
+        "The train was {packed}, so we had to stand."
+      ],
+      "wrong": [
+        "The packed bus had only two people on it."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "crowded",
+        "full"
+      ],
+      "ipa": "/pækt/",
+      "antonyms": [
+        "empty"
+      ]
+    },
+    {
+      "lemma": "deserted",
+      "pos": "adjective",
+      "meaning": "With no people in it.",
+      "examples": [
+        "At 3 a.m. the streets were {deserted}."
+      ],
+      "wrong": [
+        "The deserted beach was full of people."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "empty"
+      ],
+      "ipa": "/dɪˈzɝtɪd/",
+      "antonyms": [
+        "crowded"
+      ]
+    },
+    {
+      "lemma": "fashionable",
+      "pos": "adjective",
+      "meaning": "Popular and modern at the moment.",
+      "examples": [
+        "It’s a {fashionable} area with new bars and shops."
+      ],
+      "wrong": [
+        "The fashionable cafe is one nobody wants to visit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trendy",
+        "stylish"
+      ],
+      "ipa": "/ˈfæʃənəbəl/",
+      "antonyms": [
+        "unfashionable"
+      ]
+    },
+    {
+      "lemma": "countryside",
+      "pos": "noun",
+      "meaning": "Land outside towns, with fields, farms and trees.",
+      "examples": [
+        "We like walking in the {countryside} on weekends."
+      ],
+      "wrong": [
+        "The countryside is full of tall office buildings and traffic."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "country"
+      ],
+      "ipa": "/ˈkʌntriˌsaɪd/"
+    },
+    {
+      "lemma": "capital",
+      "pos": "noun",
+      "meaning": "The most important city of a country, where the government is.",
+      "examples": [
+        "Tokyo is the {capital} of Japan."
+      ],
+      "wrong": [
+        "The capital is a small village where nobody important lives."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkæpɪtəl/"
+    },
+    {
+      "lemma": "area",
+      "pos": "noun",
+      "meaning": "A part of a town, country or place.",
+      "examples": [
+        "We live in a quiet {area} near the park."
+      ],
+      "wrong": [
+        "An area is a kind of food you cook in the oven."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "part",
+        "zone"
+      ],
+      "ipa": "/ˈɛriə/"
+    },
+    {
+      "lemma": "region",
+      "pos": "noun",
+      "meaning": "A large part of a country.",
+      "examples": [
+        "This {region} is famous for its wine."
+      ],
+      "wrong": [
+        "A region is a small room in a house."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "area"
+      ],
+      "ipa": "/ˈridʒən/"
+    },
+    {
+      "lemma": "location",
+      "pos": "noun",
+      "meaning": "The place where something is.",
+      "examples": [
+        "The hotel is in a great {location}, near the beach."
+      ],
+      "wrong": [
+        "The location of the hotel is the price of a room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "place",
+        "position"
+      ],
+      "ipa": "/loʊˈkeɪʃən/"
+    },
+    {
+      "lemma": "hometown",
+      "pos": "noun",
+      "meaning": "The town or city where you were born or grew up.",
+      "examples": [
+        "I go back to my {hometown} every summer to see my parents."
+      ],
+      "wrong": [
+        "My hometown is a city I visited once on holiday."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊmˌtaʊn/"
+    },
+    {
+      "lemma": "sight",
+      "pos": "noun",
+      "meaning": "An interesting place that tourists visit.",
+      "examples": [
+        "We saw all the main {sights} of Rome in two days."
+      ],
+      "wrong": [
+        "The sights of a city are the places no one wants to see."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "attraction"
+      ],
+      "ipa": "/saɪt/"
+    },
+    {
+      "lemma": "city center",
+      "pos": "noun",
+      "meaning": "The main, middle part of a city.",
+      "examples": [
+        "The {city center} has the best shops and restaurants."
+      ],
+      "wrong": [
+        "We left the city center and drove into the middle of the town."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "downtown"
+      ],
+      "ipa": "/ˈsɪti ˈsɛntɚ/"
+    },
+    {
+      "lemma": "far away",
+      "pos": "phrase",
+      "meaning": "A long way from here.",
+      "examples": [
+        "My parents live {far away}, so I only visit once a year."
+      ],
+      "wrong": [
+        "The shop is far away, just next door."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "distant"
+      ],
+      "ipa": "/ˈfɑr əˈweɪ/",
+      "antonyms": [
+        "nearby"
+      ]
+    },
+    {
+      "lemma": "in the middle of nowhere",
+      "pos": "phrase",
+      "meaning": "In a place far from any towns or people.",
+      "examples": [
+        "The hotel is {in the middle of nowhere}, miles from any town."
+      ],
+      "wrong": [
+        "Their flat is in the middle of nowhere, right next to the main station."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/ɪn ðə ˈmɪdəl əv ˈnoʊˌwɛr/"
+    },
+    {
+      "lemma": "indoor",
+      "pos": "adjective",
+      "meaning": "Inside a building.",
+      "examples": [
+        "There’s an {indoor} pool, so you can swim when it rains."
+      ],
+      "wrong": [
+        "The indoor market is under the open sky."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪnˌdɔr/",
+      "antonyms": [
+        "outdoor"
+      ]
+    },
+    {
+      "lemma": "outdoor",
+      "pos": "adjective",
+      "meaning": "Outside, not in a building.",
+      "examples": [
+        "The hotel has an {outdoor} pool in the garden."
+      ],
+      "wrong": [
+        "We sat at an outdoor table inside the restaurant."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈaʊtˌdɔr/",
+      "antonyms": [
+        "indoor"
+      ]
+    },
+    {
+      "lemma": "unsafe",
+      "pos": "adjective",
+      "meaning": "Dangerous; not safe.",
+      "examples": [
+        "The old bridge is {unsafe}, so it’s closed."
+      ],
+      "wrong": [
+        "The park is unsafe, so it’s a good place for small children at night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dangerous"
+      ],
+      "ipa": "/ʌnˈseɪf/",
+      "antonyms": [
+        "safe"
+      ]
+    },
+    {
+      "lemma": "dusty",
+      "pos": "adjective",
+      "meaning": "Covered with dry dirt.",
+      "examples": [
+        "The road to the village is {dusty} in summer."
+      ],
+      "wrong": [
+        "The dusty shelf was perfectly clean."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dirty"
+      ],
+      "ipa": "/ˈdʌsti/"
+    },
+    {
+      "lemma": "waterfront",
+      "pos": "noun",
+      "meaning": "The part of a town next to a river, lake or the sea.",
+      "examples": [
+        "We walked along the {waterfront} and watched the boats."
+      ],
+      "wrong": [
+        "The waterfront is the part of town far from any water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "harbor"
+      ],
+      "ipa": "/ˈwɔtɚˌfrʌnt/"
+    },
+    {
+      "lemma": "hilly",
+      "pos": "adjective",
+      "meaning": "With a lot of hills.",
+      "examples": [
+        "San Francisco is very {hilly}, so walking is hard work."
+      ],
+      "wrong": [
+        "The town is hilly, with land as flat as a table."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɪli/",
+      "antonyms": [
+        "flat"
+      ]
+    }
+  ]
+}

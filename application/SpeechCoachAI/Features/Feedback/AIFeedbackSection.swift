@@ -58,6 +58,7 @@ struct AIFeedbackSection: View {
     @State private var controller: AIFeedbackController
     @State private var privacy = false
     @Environment(\.scenePhase) private var scenePhase
+    @State private var setup = false
 
     init(mode: LabFeedbackMode, transcript: String, task: String? = nil, level: String? = nil, service: LabFeedbackService? = nil) {
         self.init(request: LabFeedbackRequest(mode: mode, transcript: transcript, task: task, level: level), service: service)
@@ -86,7 +87,15 @@ struct AIFeedbackSection: View {
                     if let result = controller.result { AIFeedbackCard(feedback: result) }
                     if let message = controller.message { Text(message).foregroundStyle(Kit.error).accessibilityIdentifier("ai.error") }
                 }
+            } else {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("AI feedback").font(.headline)
+                    Button("Set up AI") { setup = true }.buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("ai.setup")
+                }
             }
+        }
+        .aiSetupSheet(isPresented: $setup) {
+            if !controller.isAvailable { controller = AIFeedbackController(service: AIFeedbackController.localService()) }
         }
         .sheet(isPresented: $privacy) {
             AIFeedbackPrivacyView(disclosure: .current(mode: mode, includesAudio: false),
@@ -127,6 +136,7 @@ extension LabFeedbackMode {
         case .conversation: "Conversation"
         case .communication: "Communication"
         case .coachReview: "Coach review"
+        case .writing: "Timed writing"
         }
     }
 }

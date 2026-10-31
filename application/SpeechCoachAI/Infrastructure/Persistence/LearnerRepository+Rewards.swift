@@ -121,8 +121,61 @@ extension LearnerRepository {
             do { try ledger.credit(source: "review/\(attempt.sourceEventID ?? attempt.id)", activity: activity, kind: "review", day: day, now: date, freshReview: fresh) }
             catch RewardError.clockChanged { continue }
         }
+        AwardEvaluator.evaluate(&ledger, AwardInputs(document: next), now: date)
         if ledger != initial { ledger.revision += 1; next.rewards = ledger }
     }
 
+    /// Turns music, sound effects and haptics on once (2026-10-30); later changes by the learner are kept.
+    func applySoundDefaultsOnce() throws {
+        let ledger = try rewardLedger()
+        guard ledger.settings.soundDefaultsApplied == nil else { return }
+        try mutateRewards(epoch: ledger.epoch, revision: ledger.revision) { value in
+            value.settings.music = true; value.settings.effects = true; value.settings.haptics = true
+            value.settings.soundDefaultsApplied = true
+        }
+    }
+
+    func setSound(music: Bool? = nil, effects: Bool? = nil, haptics: Bool? = nil) throws {
+        let ledger = try rewardLedger()
+        try mutateRewards(epoch: ledger.epoch, revision: ledger.revision) { value in
+            if let music { value.settings.music = music }
+            if let effects { value.settings.effects = effects }
+            if let haptics { value.settings.haptics = haptics }
+            value.settings.soundDefaultsApplied = true
+        }
+    }
+
+    /// Records milestones as celebrated so each one is celebrated once.
+    func markMilestonesCelebrated(_ ids: [String]) throws {
+        let ledger = try rewardLedger()
+        try mutateRewards(epoch: ledger.epoch, revision: ledger.revision) { value in
+            value.celebratedMilestones = Array(Set(value.celebratedMilestones ?? []).union(ids)).sorted()
+        }
+    }
+
+    /// Awards badges for work stored before the badge existed (called when the badge screens open).
+    func refreshAwards() throws {
+        let stored = try document()
+        var ledger = try rewardLedger()
+        let before = ledger
+        AwardEvaluator.evaluate(&ledger, AwardInputs(document: stored), now: try effectiveNow())
+        if ledger != before { try write(stored) }   // `write` reconciles and saves the new awards.
+    }
+
     /// Levels the learner opened by passing the jump test. Kept in the learner document; no schema migration.
+}
+
+extension AwardInputs {
+    init(document: LearnerRepository.LearnerDocument, install: CurriculumInstall = CurriculumCatalogLoader.bundled) {
+        let extras = document.speechLab?.extras
+        self.init(
+            journeys: document.lessonJourneys,
+            course: LevelGate.levels.map { (rank: $0, lessons: install.lessons(at: $0).filter(\.isReady)) },
+            tracks: install.tracks.tracks,
+            watched: extras?.watched ?? [:],
+            activities: extras?.activities ?? [],
+            legacyFeedback: (document.labFeedback ?? []).map(\.mode),
+            customTopicCount: document.customTopics.count,
+            wordsInAction: (document.lexicon?.action ?? [:]).values.filter { $0.correctStreak > 0 }.count)
+    }
 }

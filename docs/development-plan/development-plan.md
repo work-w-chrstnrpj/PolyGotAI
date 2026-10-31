@@ -59,10 +59,10 @@ Normally one phase is active at a time. **Owner exception, 2026-10-25:** to deli
 | 9 | **Lab v3: Talk and voice** (whole phase: Codex, [brief](phases/phase-9/README.md)) | `TalkSession`, streaming client, sentence buffer, `SpeechAnalyzer`, voice picker logic, Spelling content | Lab (4 entries), Talk, voice settings, Spelling | 🔄 built / focused-verified; full verifier has 10 other-lane UI failures; Claude review / owner device check open |
 | 10 | **Lab v3: speak-first pronunciation** | Pitch line, confidence and timing measures, feedback rules | Hear → Say → Feedback screens | ⏳ planned |
 | 11 | **Lessons depth** ([brief](phases/phase-11/README.md)) | Grammarian full syllabus (done), coach audit, coach art | — | 🔄 built, awaiting play-test |
-| 12 | **Lab refocus + Pronunciation coach** ([plan](owner-feedback-plan-2026-10-26b.md)) | Pronunciation coach, lesson format start, AI buttons lead to setup | Lab list, Today header | ⏳ planned |
-| 13 | **Real lessons for all 10 coaches** | Reading pages, topic lessons, all content | — | ⏳ planned |
-| 14 | **Lexicon to about 2,400 words** | Content and synonyms | — | ⏳ planned |
-| 15 | **Lab Videos and Timed tests** | Prompts, validation, review | Screens, AI client, watched list | ⏳ planned |
+| 12 | **Lab refocus + Pronunciation coach** ([plan](owner-feedback-plan-2026-10-26b.md)) | Pronunciation coach, lesson format start, AI buttons lead to setup | Lab list, Today header | ✅ built 2026-10-26: Today header, AI→setup, Lab refocus, Pronunciation coach (12 lessons); owner play-test open |
+| 13 | **Real lessons for all 10 coaches** | Reading pages, topic lessons, all content | — | 🔍 verify: Codex built format + 137 topics; Claude wrote all reading pages (out-of-limit handover) |
+| 14 | **Lexicon to about 2,400 words** ([phase 14](phases/phase-14/README.md)) | Content and synonyms | — | 🔄 built (2,376 words); proofread and owner play-test open |
+| 15 | **Lab Videos and Timed tests** ([phase 15](phases/phase-15/README.md)) | Whole phase built by Claude (owner: "Implement phase 15") | — | 🔄 built 2026-10-26; owner play-test with a real key open |
 | 16 | **UI/UX pass** | — | — | ⏳ later |
 
 Feature specs: [product](../product-specification/product-specification.md) · [Lexicon](../product-specification/lexicon.md) · [coach tracks](../product-specification/coach-tracks.md) · [Speech Lab](../product-specification/speech-lab.md) · [technical design](../tdd/tdd.md).

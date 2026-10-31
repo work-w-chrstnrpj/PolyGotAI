@@ -160,7 +160,7 @@ extension LabFeedbackService {
         return try GeneratedLexicon(response: response, request: request, bank: bank, topics: topics, enrollments: enrollments)
     }
 
-    private func send(_ body: Data, stage: SpeakingRequestStage, timeout: TimeInterval) async throws -> Data {
+    func send(_ body: Data, stage: SpeakingRequestStage, timeout: TimeInterval) async throws -> Data {
         var timedOut = false
         let call = Task { try await provider.send(body: body, scope: scope, stage: stage) }
         let timer = Task {

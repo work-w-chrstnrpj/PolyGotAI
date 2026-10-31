@@ -35,13 +35,19 @@ struct LexiconTests {
 
     // MARK: Bank
 
-    @Test func theBankHasEighteenCefrGroupsOfAboutFortyValidWords() throws {
+    @Test func theBankHasTwentyFivePacksPerRankOfFortyToFortyFiveValidWords() throws {
         let levelGroups = bank.groups.filter { !$0.isField }
-        #expect(levelGroups.count == 18)
+        // 2026-10-30/31: every rank has 25 packs (about 1,000 words per rank).
+        #expect(levelGroups.count == 150)
         #expect(bank.skipped == 0)
-        #expect(levelGroups.map(\.level) == ["A1", "A1", "A1", "A2", "A2", "A2", "B1", "B1", "B1", "B2", "B2", "B2", "C1", "C1", "C1", "C2", "C2", "C2"])
-        #expect(levelGroups.allSatisfy { (39...41).contains($0.words.count) })
-        #expect((850...1000).contains(bank.words.count), "\(bank.words.count) words")
+        // Packs come in rank order (files are numbered by build_lexicon.py).
+        let packsPerRank = Dictionary(grouping: levelGroups, by: \.level).mapValues(\.count)
+        #expect(packsPerRank == ["A1": 25, "A2": 25, "B1": 25, "B2": 25, "C1": 25, "C2": 25])
+        #expect(levelGroups.map(\.level) == levelGroups.map(\.level).sorted())
+        #expect(levelGroups.allSatisfy { (39...45).contains($0.words.count) })
+        #expect((6100...6300).contains(bank.words.count), "\(bank.words.count) words")
+        let wordsPerRank = Dictionary(grouping: bank.words, by: \.cefr).mapValues(\.count)
+        #expect(LevelGate.levels.allSatisfy { (950...1100).contains(wordsPerRank[$0] ?? 0) }, "\(wordsPerRank)")
         #expect(Set(bank.words.map(\.id)).count == bank.words.count)
         #expect(bank.words.allSatisfy { $0.problem() == nil && !$0.parsedExamples.isEmpty && !$0.wrong.isEmpty })
         #expect(bank.words.allSatisfy { LevelGate.levels.contains($0.cefr) && LexiconWord.registers.contains($0.register) })
@@ -58,14 +64,11 @@ struct LexiconTests {
         // Finishing every level group never suggests a field pack.
         let allStarted = Dictionary(uniqueKeysWithValues: bank.words.map { ($0.id, LexiconStage.learning) })
         #expect(LexiconSuggestion.nextGroup(bank: bank, state: LexiconState(), stages: allStarted, startLevel: "C2") == nil)
-        // The daily word skips a field pack until it is switched on.
-        let state = LexiconState()
-        let everyLevelWordEasy = Dictionary(uniqueKeysWithValues: bank.groups.filter { !$0.isField }.flatMap(\.words).map { ($0.id, LexiconStage.easy) })
-        #expect(DailyLexicon.pick(bank: bank, state: state, stages: everyLevelWordEasy, day: "2026-10-26") == nil)
+        // The daily word never comes from a field pack, even one switched on (owner, 2026-10-30: C1 or C2 level packs only).
         var withLaw = LexiconState()
         withLaw.setActive(try #require(bank.group(id: "field-law")), true, in: bank, startLevel: "A1")
-        let pick = try #require(DailyLexicon.pick(bank: bank, state: withLaw, stages: everyLevelWordEasy, day: "2026-10-26"))
-        #expect(pick.word.groupId == "field-law")
+        let pick = try #require(DailyLexicon.pick(bank: bank, state: withLaw, stages: [:], day: "2026-10-26"))
+        #expect(bank.group(id: pick.word.groupId)?.isField == false)
     }
 
     @Test func noWordSitsAboveItsGroupLevel() {
@@ -76,8 +79,6 @@ struct LexiconTests {
     @Test func easierIdiomsAndLiteraryWordsKeepTheirOwnLevel() throws {
         #expect(try #require(bank.word(id: "c2-idioms.hang-out")).cefr == "B1")
         #expect(try #require(bank.word(id: "c2-literary.veil")).cefr == "C1")
-        let b1Pick = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: Dictionary(uniqueKeysWithValues: bank.words.filter { $0.cefr != "B1" }.map { ($0.id, LexiconStage.easy) }), day: "2026-10-27", maxLevel: "B1"))
-        #expect(b1Pick.word.cefr == "B1")
         #expect(try #require(bank.word(id: "b2-opinion.disagree")).register == "everyday")
     }
 
@@ -122,7 +123,7 @@ struct LexiconTests {
     @Test func duplicatesIgnoreCaseAccentsAndSpaces() {
         let found = LexiconDuplicateCheck.find(lemma: "  HAPPY ", partOfSpeech: "adjective", bank: bank, topics: [], enrollments: [])
         #expect(found?.wordId == "everyday-a1.happy")
-        #expect(LexiconDuplicateCheck.find(lemma: "Nai\u{308}ve", partOfSpeech: nil, bank: bank, topics: [], enrollments: []) == nil)
+        #expect(LexiconDuplicateCheck.find(lemma: "Nai\u{308}ve", partOfSpeech: nil, bank: bank, topics: [], enrollments: [])?.wordId == "b2-character.naive")
         // A different part of speech is a different word; no part of speech means it cannot be told apart.
         #expect(LexiconDuplicateCheck.find(lemma: "happy", partOfSpeech: "noun", bank: bank, topics: [], enrollments: []) == nil)
         #expect(LexiconDuplicateCheck.find(lemma: "happy", partOfSpeech: nil, bank: bank, topics: [], enrollments: []) != nil)
@@ -164,25 +165,28 @@ struct LexiconTests {
 
     // MARK: Daily Lexicon
 
+    /// C1 and C2 words of the level packs, in bank order: the daily word's candidates.
+    private var dailyWords: [LexiconWord] { bank.groups.filter { !$0.isField }.flatMap(\.words).filter { DailyLexicon.levels.contains($0.cefr) } }
+
     @Test func theDailyWordStaysTheSameAllDayAndMovesOnTomorrow() throws {
         let stages: [String: LexiconStage] = [:]
         let first = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: stages, day: "2026-10-26"))
-        #expect(first.word.id == bank.words[0].id)
+        #expect(first.word.id == dailyWords[0].id)
         let again = try #require(DailyLexicon.pick(bank: bank, state: first.state, stages: stages, day: "2026-10-26"))
         #expect(again.word.id == first.word.id && again.state == first.state)
         let tomorrow = try #require(DailyLexicon.pick(bank: bank, state: first.state, stages: stages, day: "2026-10-27"))
-        #expect(tomorrow.word.id == bank.words[1].id)
+        #expect(tomorrow.word.id == dailyWords[1].id)
     }
 
     @Test func theDailyWordSkipsEasyWordsAndCyclesWhenAllWereShown() throws {
-        let easy = [bank.words[0].id: LexiconStage.easy]
+        let easy = [dailyWords[0].id: LexiconStage.easy]
         let pick = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: easy, day: "2026-10-26"))
-        #expect(pick.word.id == bank.words[1].id)
+        #expect(pick.word.id == dailyWords[1].id)
         var state = LexiconState()
         state.shownDailyWordIDs = bank.words.map(\.id)
         let restart = try #require(DailyLexicon.pick(bank: bank, state: state, stages: [:], day: "2026-10-26"))
-        #expect(restart.word.id == bank.words[0].id)
-        #expect(restart.state.shownDailyWordIDs == [bank.words[0].id])
+        #expect(restart.word.id == dailyWords[0].id)
+        #expect(restart.state.shownDailyWordIDs == [dailyWords[0].id])
         let allEasy = Dictionary(uniqueKeysWithValues: bank.words.map { ($0.id, LexiconStage.easy) })
         #expect(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: allEasy, day: "2026-10-26") == nil)
     }
@@ -236,14 +240,19 @@ struct LexiconTests {
         #expect(LexiconSuggestion.nextGroup(bank: bank, state: everyA1Active, stages: allA1, startLevel: "A2")?.level == "A2")
     }
 
-    @Test func theDailyWordNeverAboveTheLearnersLevel() throws {
-        for level in ["A1", "B1", "C2"] {
-            let pick = try #require(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: [:], day: "2026-10-26", maxLevel: level))
-            #expect((LevelGate.levels.firstIndex(of: pick.word.cefr) ?? 99) <= (LevelGate.levels.firstIndex(of: level) ?? 0))
+    @Test func theDailyWordIsAlwaysC1OrC2() throws {
+        var state = LexiconState()
+        for day in 1...30 {
+            let pick = try #require(DailyLexicon.pick(bank: bank, state: state, stages: [:], day: String(format: "2026-10-%02d", day)))
+            #expect(["C1", "C2"].contains(pick.word.cefr), "\(pick.word.id)")
+            state = pick.state
         }
-        // Every A1 word Easy: an A1 learner gets no daily word rather than a C2 one.
-        let easy = Dictionary(uniqueKeysWithValues: bank.words.filter { $0.cefr == "A1" }.map { ($0.id, LexiconStage.easy) })
-        #expect(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: easy, day: "2026-10-26", maxLevel: "A1") == nil)
+        // A saved pick from before the rule (an A1 word) is replaced the same day.
+        var old = LexiconState(); old.daily = LexiconDailyRecord(day: "2026-10-26", wordID: try #require(bank.words.first { $0.cefr == "A1" }).id)
+        #expect(try #require(DailyLexicon.pick(bank: bank, state: old, stages: [:], day: "2026-10-26")).word.cefr.hasPrefix("C"))
+        // Every C1 and C2 word Easy: no word rather than an easier one.
+        let easy = Dictionary(uniqueKeysWithValues: bank.words.filter { $0.cefr.hasPrefix("C") }.map { ($0.id, LexiconStage.easy) })
+        #expect(DailyLexicon.pick(bank: bank, state: LexiconState(), stages: easy, day: "2026-10-26") == nil)
     }
 
     @Test func wordsAlreadyStartedTodayUseUpTheLimit() {

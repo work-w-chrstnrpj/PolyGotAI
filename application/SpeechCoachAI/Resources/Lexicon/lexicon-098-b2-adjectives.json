@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-adjectives",
+    "title": "Useful adjectives",
+    "level": "B2",
+    "tagline": "Precise B2 describing words",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "abrupt",
+      "pos": "adjective",
+      "meaning": "Sudden and unexpected, often in an unpleasant way.",
+      "examples": [
+        "The meeting came to an {abrupt} end."
+      ],
+      "wrong": [
+        "The change was abrupt because it took ten slow years."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sudden"
+      ],
+      "ipa": "/əˈbrʌpt/",
+      "antonyms": [
+        "gradual"
+      ]
+    },
+    {
+      "lemma": "adequate",
+      "pos": "adjective",
+      "meaning": "Enough or good enough for a purpose.",
+      "examples": [
+        "The room has {adequate} space for ten people."
+      ],
+      "wrong": [
+        "The food was adequate, so half the guests went hungry."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sufficient",
+        "enough"
+      ],
+      "ipa": "/ˈædəkwət/",
+      "antonyms": [
+        "inadequate",
+        "insufficient"
+      ]
+    },
+    {
+      "lemma": "apparent",
+      "pos": "adjective",
+      "meaning": "Easy to see or understand.",
+      "examples": [
+        "It soon became {apparent} that we were lost."
+      ],
+      "wrong": [
+        "The answer was apparent, so nobody could see it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clear",
+        "obvious"
+      ],
+      "ipa": "/əˈpɛrənt/"
+    },
+    {
+      "lemma": "bold",
+      "pos": "adjective",
+      "meaning": "Brave and willing to take risks.",
+      "examples": [
+        "It was a {bold} decision to start her own company."
+      ],
+      "wrong": [
+        "His bold plan was to avoid every risk."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "daring",
+        "brave"
+      ],
+      "ipa": "/boʊld/",
+      "antonyms": [
+        "timid",
+        "cautious"
+      ]
+    },
+    {
+      "lemma": "bland",
+      "pos": "adjective",
+      "meaning": "Without a strong taste or anything interesting.",
+      "examples": [
+        "The soup was {bland}, so I added salt and pepper."
+      ],
+      "wrong": [
+        "The curry was bland and full of strong spices."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tasteless",
+        "dull"
+      ],
+      "ipa": "/blænd/",
+      "antonyms": [
+        "spicy",
+        "tasty"
+      ]
+    },
+    {
+      "lemma": "brisk",
+      "pos": "adjective",
+      "meaning": "Quick and full of energy.",
+      "examples": [
+        "We went for a {brisk} walk before breakfast."
+      ],
+      "wrong": [
+        "We took a brisk walk, moving slowly and lazily."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "quick",
+        "lively"
+      ],
+      "ipa": "/brɪsk/",
+      "antonyms": [
+        "slow",
+        "sluggish"
+      ]
+    },
+    {
+      "lemma": "chaotic",
+      "pos": "adjective",
+      "meaning": "Completely confused and without any order.",
+      "examples": [
+        "The airport was {chaotic} after the strike."
+      ],
+      "wrong": [
+        "The room was chaotic, with everything in perfect order."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "disorderly",
+        "messy"
+      ],
+      "ipa": "/keɪˈɑtɪk/",
+      "antonyms": [
+        "orderly",
+        "organized"
+      ]
+    },
+    {
+      "lemma": "harsh",
+      "pos": "adjective",
+      "meaning": "Unkind, cruel or too severe.",
+      "examples": [
+        "The coach’s {harsh} words upset the players."
+      ],
+      "wrong": [
+        "His harsh comment was gentle and full of praise."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "severe",
+        "cruel"
+      ],
+      "ipa": "/hɑrʃ/",
+      "antonyms": [
+        "gentle",
+        "kind"
+      ]
+    },
+    {
+      "lemma": "considerable",
+      "pos": "adjective",
+      "meaning": "Large in size, amount or importance.",
+      "examples": [
+        "The project cost a {considerable} amount of money."
+      ],
+      "wrong": [
+        "He spent a considerable sum, only a few cents."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "substantial",
+        "significant"
+      ],
+      "ipa": "/kənˈsɪdɚəbəl/"
+    },
+    {
+      "lemma": "consistent",
+      "pos": "adjective",
+      "meaning": "Always behaving or happening in the same way.",
+      "examples": [
+        "She is a {consistent} player who rarely makes mistakes."
+      ],
+      "wrong": [
+        "His work is consistent: great one day, terrible the next."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "steady",
+        "reliable"
+      ],
+      "ipa": "/kənˈsɪstənt/",
+      "antonyms": [
+        "inconsistent",
+        "erratic"
+      ]
+    },
+    {
+      "lemma": "crucial",
+      "pos": "adjective",
+      "meaning": "Extremely important, because other things depend on it.",
+      "examples": [
+        "Sleep is {crucial} for good health."
+      ],
+      "wrong": [
+        "This step is crucial, so you can skip it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "vital",
+        "essential"
+      ],
+      "ipa": "/ˈkruʃəl/",
+      "antonyms": [
+        "unimportant",
+        "minor"
+      ]
+    },
+    {
+      "lemma": "dense",
+      "pos": "adjective",
+      "meaning": "Having parts very close together; thick.",
+      "examples": [
+        "We got lost in the {dense} forest."
+      ],
+      "wrong": [
+        "The fog was dense, so we could see for miles."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "thick"
+      ],
+      "ipa": "/dɛns/",
+      "antonyms": [
+        "sparse",
+        "thin"
+      ]
+    },
+    {
+      "lemma": "distinct",
+      "pos": "adjective",
+      "meaning": "Clearly different or easy to notice.",
+      "examples": [
+        "There’s a {distinct} smell of smoke in here."
+      ],
+      "wrong": [
+        "The two colors are distinct; you can’t tell them apart."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clear",
+        "separate"
+      ],
+      "ipa": "/dɪˈstɪŋkt/"
+    },
+    {
+      "lemma": "eligible",
+      "pos": "adjective",
+      "meaning": "Allowed to do or receive something because you meet the rules.",
+      "examples": [
+        "You’re {eligible} to vote when you turn eighteen."
+      ],
+      "wrong": [
+        "He’s not old enough, so he’s eligible for the adult team."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "qualified",
+        "entitled"
+      ],
+      "ipa": "/ˈɛlədʒəbəl/",
+      "antonyms": [
+        "ineligible"
+      ]
+    },
+    {
+      "lemma": "fierce",
+      "pos": "adjective",
+      "meaning": "Very strong, angry or violent.",
+      "examples": [
+        "The two companies are in {fierce} competition."
+      ],
+      "wrong": [
+        "The fierce dog lay gently and wagged its tail at everyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "intense",
+        "ferocious"
+      ],
+      "ipa": "/fɪrs/",
+      "antonyms": [
+        "gentle",
+        "mild"
+      ]
+    },
+    {
+      "lemma": "fragile",
+      "pos": "adjective",
+      "meaning": "Easily broken or damaged.",
+      "examples": [
+        "Be careful with that vase; it’s very {fragile}."
+      ],
+      "wrong": [
+        "The glass is fragile, so you can drop it safely."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "delicate",
+        "breakable"
+      ],
+      "ipa": "/ˈfrædʒəl/",
+      "antonyms": [
+        "unbreakable",
+        "tough"
+      ]
+    },
+    {
+      "lemma": "genuine",
+      "pos": "adjective",
+      "meaning": "Real and true, not fake.",
+      "examples": [
+        "Is this a {genuine} leather bag?"
+      ],
+      "wrong": [
+        "The painting is genuine; it’s a cheap copy."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "real",
+        "authentic"
+      ],
+      "ipa": "/ˈdʒɛnjuɪn/",
+      "antonyms": [
+        "fake",
+        "false"
+      ]
+    },
+    {
+      "lemma": "hectic",
+      "pos": "adjective",
+      "meaning": "Very busy and full of activity.",
+      "examples": [
+        "It’s been a {hectic} week at work."
+      ],
+      "wrong": [
+        "We had a hectic day, relaxing on the sofa."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "frantic",
+        "busy"
+      ],
+      "ipa": "/ˈhɛktɪk/",
+      "antonyms": [
+        "calm",
+        "quiet"
+      ]
+    },
+    {
+      "lemma": "inferior",
+      "pos": "adjective",
+      "meaning": "Lower in quality or value than something else.",
+      "examples": [
+        "The copy is {inferior} to the original."
+      ],
+      "wrong": [
+        "This phone is inferior, so it’s the best on the market."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "worse",
+        "lower"
+      ],
+      "ipa": "/ɪnˈfɪriɚ/",
+      "antonyms": [
+        "superior"
+      ]
+    },
+    {
+      "lemma": "intact",
+      "pos": "adjective",
+      "meaning": "Complete and not damaged.",
+      "examples": [
+        "The old castle walls are still {intact}."
+      ],
+      "wrong": [
+        "The vase arrived intact, broken into ten pieces."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "undamaged",
+        "whole"
+      ],
+      "ipa": "/ɪnˈtækt/",
+      "antonyms": [
+        "damaged",
+        "broken"
+      ]
+    },
+    {
+      "lemma": "keen",
+      "pos": "adjective",
+      "meaning": "Very interested in something and eager to do it.",
+      "examples": [
+        "He’s {keen} on photography."
+      ],
+      "wrong": [
+        "She’s keen to join the club, so she refused to apply."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "eager",
+        "enthusiastic"
+      ],
+      "ipa": "/kin/"
+    },
+    {
+      "lemma": "legitimate",
+      "pos": "adjective",
+      "meaning": "Allowed by law, or fair and reasonable.",
+      "examples": [
+        "She had a {legitimate} reason for being late."
+      ],
+      "wrong": [
+        "It’s a legitimate business that breaks every law."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "valid",
+        "lawful"
+      ],
+      "ipa": "/ləˈdʒɪtəmət/",
+      "antonyms": [
+        "illegal",
+        "illegitimate"
+      ]
+    },
+    {
+      "lemma": "lenient",
+      "pos": "adjective",
+      "meaning": "Not as strict as expected when punishing someone.",
+      "examples": [
+        "The judge was {lenient} because it was a first mistake."
+      ],
+      "wrong": [
+        "The lenient teacher gave everyone the hardest punishment."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "soft",
+        "tolerant"
+      ],
+      "ipa": "/ˈliniənt/",
+      "antonyms": [
+        "strict",
+        "harsh"
+      ]
+    },
+    {
+      "lemma": "mere",
+      "pos": "adjective",
+      "meaning": "Used to say how small or unimportant something is.",
+      "examples": [
+        "The shop is a {mere} five minutes away."
+      ],
+      "wrong": [
+        "It’s a mere hundred miles, a very long journey."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "only",
+        "just"
+      ],
+      "ipa": "/mɪr/"
+    },
+    {
+      "lemma": "obscure",
+      "pos": "adjective",
+      "meaning": "Not well known, or hard to understand.",
+      "examples": [
+        "He quoted an {obscure} poet nobody had heard of."
+      ],
+      "wrong": [
+        "The obscure singer is famous all over the world."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "unknown",
+        "little-known"
+      ],
+      "ipa": "/əbˈskjʊr/",
+      "antonyms": [
+        "famous",
+        "well-known"
+      ]
+    },
+    {
+      "lemma": "persistent",
+      "pos": "adjective",
+      "meaning": "Continuing for a long time, or not giving up easily.",
+      "examples": [
+        "I have a {persistent} cough that won’t go away."
+      ],
+      "wrong": [
+        "The persistent salesman left after one polite no."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "constant",
+        "determined"
+      ],
+      "ipa": "/pɚˈsɪstənt/"
+    },
+    {
+      "lemma": "robust",
+      "pos": "adjective",
+      "meaning": "Strong and not likely to break or fail.",
+      "examples": [
+        "This laptop has a {robust} metal case."
+      ],
+      "wrong": [
+        "The robust chair broke the first time I sat on it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sturdy",
+        "strong"
+      ],
+      "ipa": "/roʊˈbʌst/",
+      "antonyms": [
+        "weak",
+        "fragile"
+      ]
+    },
+    {
+      "lemma": "rigid",
+      "pos": "adjective",
+      "meaning": "Stiff and not able to bend, or not willing to change.",
+      "examples": [
+        "The school has very {rigid} rules."
+      ],
+      "wrong": [
+        "His rigid plan changed every few minutes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "stiff",
+        "strict"
+      ],
+      "ipa": "/ˈrɪdʒɪd/",
+      "antonyms": [
+        "flexible"
+      ]
+    },
+    {
+      "lemma": "shallow",
+      "pos": "adjective",
+      "meaning": "Not deep.",
+      "examples": [
+        "The children played in the {shallow} end of the pool."
+      ],
+      "wrong": [
+        "The lake is shallow, so the bottom is far beyond reach."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈʃæloʊ/",
+      "antonyms": [
+        "deep"
+      ]
+    },
+    {
+      "lemma": "steep",
+      "pos": "adjective",
+      "meaning": "Rising or falling sharply, so hard to climb.",
+      "examples": [
+        "The road up the hill is very {steep}."
+      ],
+      "wrong": [
+        "The path was steep and completely flat."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sharp"
+      ],
+      "ipa": "/stip/",
+      "antonyms": [
+        "gentle",
+        "flat"
+      ]
+    },
+    {
+      "lemma": "tedious",
+      "pos": "adjective",
+      "meaning": "Long, slow and boring.",
+      "examples": [
+        "Filling in all these forms is {tedious}."
+      ],
+      "wrong": [
+        "The tedious film was exciting from start to finish."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "boring",
+        "dull"
+      ],
+      "ipa": "/ˈtidiəs/",
+      "antonyms": [
+        "exciting",
+        "interesting"
+      ]
+    },
+    {
+      "lemma": "vivid",
+      "pos": "adjective",
+      "meaning": "Very clear, bright and easy to imagine.",
+      "examples": [
+        "I have {vivid} memories of my first day at school."
+      ],
+      "wrong": [
+        "My memory of it is vivid; I can’t remember anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clear",
+        "bright"
+      ],
+      "ipa": "/ˈvɪvɪd/",
+      "antonyms": [
+        "faint",
+        "dim"
+      ]
+    },
+    {
+      "lemma": "vulnerable",
+      "pos": "adjective",
+      "meaning": "Easily hurt, harmed or attacked.",
+      "examples": [
+        "Young children are {vulnerable} to colds in winter."
+      ],
+      "wrong": [
+        "The castle was vulnerable, so no army could ever enter it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exposed",
+        "weak"
+      ],
+      "ipa": "/ˈvʌlnɚəbəl/"
+    },
+    {
+      "lemma": "weary",
+      "pos": "adjective",
+      "meaning": "Very tired, especially after long effort.",
+      "examples": [
+        "The {weary} travelers finally reached the hotel."
+      ],
+      "wrong": [
+        "She felt weary and full of fresh energy."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exhausted",
+        "tired"
+      ],
+      "ipa": "/ˈwɪri/",
+      "antonyms": [
+        "energetic",
+        "refreshed"
+      ]
+    },
+    {
+      "lemma": "awkward",
+      "pos": "adjective",
+      "meaning": "Making you feel uncomfortable or embarrassed.",
+      "examples": [
+        "There was an {awkward} silence after his joke."
+      ],
+      "wrong": [
+        "The meeting was awkward, and everyone felt totally at ease."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "uncomfortable",
+        "embarrassing"
+      ],
+      "ipa": "/ˈɔkwɚd/",
+      "antonyms": [
+        "comfortable",
+        "relaxed"
+      ]
+    },
+    {
+      "lemma": "bizarre",
+      "pos": "adjective",
+      "meaning": "Very strange and unusual.",
+      "examples": [
+        "It was a {bizarre} dream about talking fish."
+      ],
+      "wrong": [
+        "Brushing your teeth is a bizarre habit nobody has."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "weird",
+        "odd"
+      ],
+      "ipa": "/bɪˈzɑr/"
+    },
+    {
+      "lemma": "decent",
+      "pos": "adjective",
+      "meaning": "Good enough or of an acceptable standard.",
+      "examples": [
+        "Is there a {decent} restaurant near here?"
+      ],
+      "wrong": [
+        "The hotel was decent, so we left after five minutes in disgust."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "acceptable",
+        "reasonable"
+      ],
+      "ipa": "/ˈdisənt/"
+    },
+    {
+      "lemma": "immense",
+      "pos": "adjective",
+      "meaning": "Extremely large or great.",
+      "examples": [
+        "The new stadium is {immense}."
+      ],
+      "wrong": [
+        "The immense box fit easily in my pocket."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "ipa": "/ɪˈmɛns/",
+      "antonyms": [
+        "tiny",
+        "minute"
+      ]
+    },
+    {
+      "lemma": "precise",
+      "pos": "adjective",
+      "meaning": "Exact and accurate in every detail.",
+      "examples": [
+        "Can you give me the {precise} time of the delivery?"
+      ],
+      "wrong": [
+        "He gave precise directions: go somewhere over there."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exact",
+        "accurate"
+      ],
+      "ipa": "/prɪˈsaɪs/",
+      "antonyms": [
+        "vague",
+        "rough"
+      ]
+    },
+    {
+      "lemma": "sturdy",
+      "pos": "adjective",
+      "meaning": "Strong and solidly made.",
+      "examples": [
+        "You’ll need {sturdy} boots for this hike."
+      ],
+      "wrong": [
+        "The sturdy table wobbled and fell apart."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "solid",
+        "robust"
+      ],
+      "ipa": "/ˈstɝdi/",
+      "antonyms": [
+        "flimsy",
+        "fragile"
+      ]
+    }
+  ]
+}

@@ -111,8 +111,9 @@ private struct CoachLessonRow: View {
     }
 }
 
-/// Level ring (opens badges), streak, and a third number chosen by the screen. Shared by Today and Progress.
+/// One full-width card (Phase 12): level and XP bar on top, then the streak and a number chosen by the screen. Opens badges.
 struct PracticeStatsRow: View {
+    @Environment(\.kitTheme) private var theme
     var storage: LearnerStorageController
     var ledger: RewardLedger
     var thirdTitle: String
@@ -120,24 +121,49 @@ struct PracticeStatsRow: View {
 
     var body: some View {
         let level = XPLevel(xp: ledger.xp)
-        ViewThatFits(in: .horizontal) {
-            HStack(alignment: .center, spacing: Kit.Space.l) { ring(level); tiles }
-            VStack(alignment: .leading, spacing: Kit.Space.l) { ring(level).frame(maxWidth: .infinity); tiles }
-        }
-    }
-
-    private func ring(_ level: XPLevel) -> some View {
+        let streak = ledger.currentStreak(day: RewardPolicy.day(.now))
         NavigationLink { RewardOverview(storage: storage) } label: {
-            ProgressRing(progress: level.fraction, title: "Level \(level.level)", detail: "\(level.xpToNext) XP to go")
+            VStack(alignment: .leading, spacing: Kit.Space.m) {
+                ViewThatFits(in: .horizontal) {
+                    HStack(alignment: .firstTextBaseline) { levelTitle(level); Spacer(); toGo(level) }
+                    VStack(alignment: .leading, spacing: Kit.Space.xs) { levelTitle(level); toGo(level) }
+                }
+                ProgressView(value: level.fraction).tint(theme.accent).accessibilityHidden(true)
+                ViewThatFits(in: .horizontal) {
+                    HStack(spacing: Kit.Space.xl) { stats(streak: streak) }
+                    VStack(alignment: .leading, spacing: Kit.Space.s) { stats(streak: streak) }
+                }
+            }
+            .padding(Kit.Space.l)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(theme.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card))
         }
         .buttonStyle(.plain)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Level \(level.level), \(level.xpToNext) XP to go")
+        .accessibilityValue("\(streak) day streak, \(thirdTitle) \(thirdValue)")
+        .accessibilityAddTraits(.isButton)
         .accessibilityIdentifier("rewards.open")
     }
 
-    private var tiles: some View {
-        VStack(spacing: Kit.Space.m) {
-            StatTile(title: "Day streak", value: "\(ledger.currentStreak(day: RewardPolicy.day(.now)))", symbol: "flame")
-            StatTile(title: thirdTitle, value: thirdValue, symbol: "clock")
+    private func levelTitle(_ level: XPLevel) -> some View {
+        Text("Level \(level.level)").font(Kit.Fonts.title).foregroundStyle(Kit.ink)
+    }
+
+    private func toGo(_ level: XPLevel) -> some View {
+        Text("\(level.xpToNext) XP to go").font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
+    }
+
+    @ViewBuilder private func stats(streak: Int) -> some View {
+        stat(symbol: "flame.fill", value: "\(streak)", title: "day streak")
+        stat(symbol: "clock.fill", value: thirdValue, title: thirdTitle.lowercased())
+    }
+
+    private func stat(symbol: String, value: String, title: String) -> some View {
+        HStack(spacing: Kit.Space.s) {
+            Image(systemName: symbol).foregroundStyle(theme.accent)
+            Text(value).font(.headline).monospacedDigit().foregroundStyle(Kit.ink)
+            Text(title).font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
         }
     }
 }

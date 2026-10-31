@@ -78,7 +78,7 @@ struct LexiconTrainingTests {
 
     @Test func theBundledBankHasSynonymsForMostWords() {
         let withSynonyms = bank.words.filter { !$0.synonyms.isEmpty }
-        #expect(withSynonyms.count >= 600)
+        #expect(withSynonyms.count >= 1_700)
         #expect(withSynonyms.allSatisfy { word in !word.synonyms.contains { LexiconKey.normalize($0) == LexiconKey.normalize(word.lemma) } })
     }
 

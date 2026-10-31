@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-crime-safety",
+    "title": "Crime and safety",
+    "level": "B1",
+    "tagline": "Rules, police and danger",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "thief",
+      "pos": "noun",
+      "meaning": "A person who takes things that belong to someone else.",
+      "examples": [
+        "The {thief} ran off with my bag."
+      ],
+      "wrong": [
+        "The thief kindly gave back everything and never took anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "robber"
+      ],
+      "ipa": "/θif/"
+    },
+    {
+      "lemma": "theft",
+      "pos": "noun",
+      "meaning": "The crime of taking something that is not yours.",
+      "examples": [
+        "She reported the {theft} of her bike to the police."
+      ],
+      "wrong": [
+        "The theft happened when he paid for the bike at the shop."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stealing"
+      ],
+      "ipa": "/θɛft/"
+    },
+    {
+      "lemma": "burglar",
+      "pos": "noun",
+      "meaning": "A person who goes into a building to take things.",
+      "examples": [
+        "A {burglar} climbed in through the kitchen window."
+      ],
+      "wrong": [
+        "The burglar was a guest we invited for dinner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "housebreaker"
+      ],
+      "ipa": "/ˈbɝɡlɚ/"
+    },
+    {
+      "lemma": "burglary",
+      "pos": "noun",
+      "meaning": "The crime of entering a home or building to take things.",
+      "examples": [
+        "There was a {burglary} on our street last night."
+      ],
+      "wrong": [
+        "The burglary was a friendly visit from our neighbor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "break-in"
+      ],
+      "ipa": "/ˈbɝɡləri/"
+    },
+    {
+      "lemma": "robbery",
+      "pos": "noun",
+      "meaning": "The crime of taking money or things from a person or place, often with force.",
+      "examples": [
+        "Two men were arrested after the bank {robbery}."
+      ],
+      "wrong": [
+        "The robbery was a gift the bank gave its customers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hold-up"
+      ],
+      "ipa": "/ˈrɑbəri/"
+    },
+    {
+      "lemma": "rob",
+      "pos": "verb",
+      "meaning": "To take money or things from a person or place illegally.",
+      "examples": [
+        "Someone {robbed} the shop and took all the cash."
+      ],
+      "wrong": [
+        "He robbed the shop by paying for everything he bought."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hold up"
+      ],
+      "ipa": "/rɑb/"
+    },
+    {
+      "lemma": "steal",
+      "pos": "verb",
+      "meaning": "To take something that is not yours without asking.",
+      "examples": [
+        "Somebody {stole} my phone on the train."
+      ],
+      "wrong": [
+        "She stole the cake by buying it at the bakery."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take",
+        "pinch"
+      ],
+      "ipa": "/stil/",
+      "antonyms": [
+        "give back",
+        "return"
+      ]
+    },
+    {
+      "lemma": "arrest",
+      "pos": "verb",
+      "meaning": "When the police take someone away because they may have done a crime.",
+      "examples": [
+        "The police {arrested} the driver for speeding."
+      ],
+      "wrong": [
+        "The police arrested him to thank him for his help."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "detain"
+      ],
+      "ipa": "/əˈrɛst/"
+    },
+    {
+      "lemma": "detective",
+      "pos": "noun",
+      "meaning": "A police officer or private agent whose job is to find out who did a crime.",
+      "examples": [
+        "The {detective} looked for clues in the room."
+      ],
+      "wrong": [
+        "The detective’s job is to hide the facts about a crime."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "investigator"
+      ],
+      "ipa": "/dɪˈtɛktɪv/"
+    },
+    {
+      "lemma": "guilty",
+      "pos": "adjective",
+      "meaning": "Having done a crime or something wrong.",
+      "examples": [
+        "The court found him {guilty} of theft."
+      ],
+      "wrong": [
+        "He was guilty, so he had done nothing wrong at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "to blame"
+      ],
+      "ipa": "/ˈɡɪlti/",
+      "antonyms": [
+        "innocent"
+      ]
+    },
+    {
+      "lemma": "innocent",
+      "pos": "adjective",
+      "meaning": "Not having done a crime or anything wrong.",
+      "examples": [
+        "She was {innocent}; someone else took the money."
+      ],
+      "wrong": [
+        "He was innocent because he had stolen the car."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "blameless"
+      ],
+      "ipa": "/ˈɪnəsənt/",
+      "antonyms": [
+        "guilty"
+      ]
+    },
+    {
+      "lemma": "court",
+      "pos": "noun",
+      "meaning": "The place where a judge decides if someone broke the law.",
+      "examples": [
+        "The case will go to {court} next month."
+      ],
+      "wrong": [
+        "The court is where people go to buy fresh vegetables."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "law court"
+      ],
+      "ipa": "/kɔrt/"
+    },
+    {
+      "lemma": "judge",
+      "pos": "noun",
+      "meaning": "The person in charge of a trial who decides on the punishment.",
+      "examples": [
+        "The {judge} sent him to prison for two years."
+      ],
+      "wrong": [
+        "The judge was the man who stole the car."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/dʒʌdʒ/"
+    },
+    {
+      "lemma": "jail",
+      "pos": "noun",
+      "meaning": "A building where people who have done crimes are kept.",
+      "examples": [
+        "He spent three months in {jail}."
+      ],
+      "wrong": [
+        "After the crime he went to jail for a holiday by the sea."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "prison"
+      ],
+      "ipa": "/dʒeɪl/"
+    },
+    {
+      "lemma": "punish",
+      "pos": "verb",
+      "meaning": "To make someone suffer because they did something wrong.",
+      "examples": [
+        "The school {punished} the boys for breaking the window."
+      ],
+      "wrong": [
+        "They punished her with a prize for her good work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "discipline",
+        "penalize"
+      ],
+      "ipa": "/ˈpʌnɪʃ/"
+    },
+    {
+      "lemma": "illegal",
+      "pos": "adjective",
+      "meaning": "Not allowed by the law.",
+      "examples": [
+        "It is {illegal} to drive without a license."
+      ],
+      "wrong": [
+        "Walking in the park is illegal, so everyone does it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "unlawful",
+        "against the law"
+      ],
+      "ipa": "/ɪˈliɡəl/",
+      "antonyms": [
+        "legal",
+        "lawful"
+      ]
+    },
+    {
+      "lemma": "lawyer",
+      "pos": "noun",
+      "meaning": "A person whose job is to give advice about the law and speak for people in court.",
+      "examples": [
+        "Her {lawyer} spoke to the judge for her."
+      ],
+      "wrong": [
+        "The lawyer fixed my car engine in court."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "attorney"
+      ],
+      "ipa": "/ˈlɔjɚ/"
+    },
+    {
+      "lemma": "alarm",
+      "pos": "noun",
+      "meaning": "A device that makes a loud noise to warn people of danger.",
+      "examples": [
+        "The {alarm} went off when the burglar opened the door."
+      ],
+      "wrong": [
+        "The alarm stayed silent, so it warned everyone loudly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "siren"
+      ],
+      "ipa": "/əˈlɑrm/"
+    },
+    {
+      "lemma": "safety",
+      "pos": "noun",
+      "meaning": "The state of being protected from danger or harm.",
+      "examples": [
+        "Wear a helmet for your {safety}."
+      ],
+      "wrong": [
+        "For his safety, he drove fast without a seat belt."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "security",
+        "protection"
+      ],
+      "ipa": "/ˈseɪfti/"
+    },
+    {
+      "lemma": "weapon",
+      "pos": "noun",
+      "meaning": "Something used to hurt or kill people, such as a gun.",
+      "examples": [
+        "The police found a {weapon} in his car."
+      ],
+      "wrong": [
+        "He used a pillow as a weapon to fall asleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "arms"
+      ],
+      "ipa": "/ˈwɛpən/"
+    },
+    {
+      "lemma": "murder",
+      "pos": "noun",
+      "meaning": "The crime of killing a person on purpose.",
+      "examples": [
+        "The detective solved the {murder} in a week."
+      ],
+      "wrong": [
+        "The murder was a nice party for his friend."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "killing"
+      ],
+      "ipa": "/ˈmɝdɚ/"
+    },
+    {
+      "lemma": "criminal",
+      "pos": "noun",
+      "meaning": "A person who has broken the law.",
+      "examples": [
+        "The {criminal} was caught on camera."
+      ],
+      "wrong": [
+        "The criminal had always obeyed every law."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "offender",
+        "lawbreaker"
+      ],
+      "ipa": "/ˈkrɪmənəl/"
+    },
+    {
+      "lemma": "security guard",
+      "pos": "noun",
+      "meaning": "A person paid to protect a building and the people in it.",
+      "examples": [
+        "The {security guard} checked our bags at the door."
+      ],
+      "wrong": [
+        "The security guard was paid to steal from the shop."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "guard"
+      ],
+      "ipa": "/sɪˈkjʊrəti ɡɑrd/"
+    },
+    {
+      "lemma": "warn",
+      "pos": "verb",
+      "meaning": "To tell someone about a danger or problem before it happens.",
+      "examples": [
+        "The sign {warns} drivers about the ice."
+      ],
+      "wrong": [
+        "He warned me about the storm after it had passed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "alert",
+        "caution"
+      ],
+      "ipa": "/wɔrn/"
+    },
+    {
+      "lemma": "shoplifting",
+      "pos": "noun",
+      "meaning": "The crime of taking things from a store without paying.",
+      "examples": [
+        "The girl was caught {shoplifting} sweets."
+      ],
+      "wrong": [
+        "Shoplifting is when you pay for your food at the till."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈʃɑpˌlɪftɪŋ/"
+    },
+    {
+      "lemma": "pickpocket",
+      "pos": "noun",
+      "meaning": "A thief who quietly takes wallets and phones from people in crowds.",
+      "examples": [
+        "A {pickpocket} took my wallet on the crowded bus."
+      ],
+      "wrong": [
+        "The pickpocket put money into my pocket as a present."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpɪkˌpɑkɪt/"
+    },
+    {
+      "lemma": "vandalism",
+      "pos": "noun",
+      "meaning": "The crime of damaging public or private property on purpose.",
+      "examples": [
+        "The broken bus stop was an act of {vandalism}."
+      ],
+      "wrong": [
+        "The vandalism made the park cleaner and more beautiful."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "damage"
+      ],
+      "ipa": "/ˈvændəˌlɪzəm/"
+    },
+    {
+      "lemma": "fingerprint",
+      "pos": "noun",
+      "meaning": "The mark left on a surface by the tiny lines on the tip of your thumb or other digits.",
+      "examples": [
+        "The police found his {fingerprints} on the glass."
+      ],
+      "wrong": [
+        "She left a fingerprint on the window with her shoe."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfɪŋɡɚˌprɪnt/"
+    },
+    {
+      "lemma": "escape",
+      "pos": "verb",
+      "meaning": "To get away from a place where you are kept.",
+      "examples": [
+        "Two prisoners {escaped} from the jail."
+      ],
+      "wrong": [
+        "He escaped from prison by staying in his cell."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "get away",
+        "break out"
+      ],
+      "ipa": "/ɪˈskeɪp/"
+    },
+    {
+      "lemma": "rescue",
+      "pos": "verb",
+      "meaning": "To save someone from a dangerous situation.",
+      "examples": [
+        "Firefighters {rescued} the family from the fire."
+      ],
+      "wrong": [
+        "They rescued the swimmer by leaving him in the sea."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "save"
+      ],
+      "ipa": "/ˈrɛskju/"
+    },
+    {
+      "lemma": "threaten",
+      "pos": "verb",
+      "meaning": "To say you will hurt someone if they do not do what you want.",
+      "examples": [
+        "The man {threatened} to hit him."
+      ],
+      "wrong": [
+        "She threatened him by giving him a warm hug."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "menace"
+      ],
+      "ipa": "/ˈθrɛtən/"
+    },
+    {
+      "lemma": "bully",
+      "pos": "verb",
+      "meaning": "To hurt or frighten someone smaller or weaker again and again.",
+      "examples": [
+        "The older boys {bullied} him at school."
+      ],
+      "wrong": [
+        "She bullied her friend by helping her with homework."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pick on",
+        "intimidate"
+      ],
+      "ipa": "/ˈbʊli/"
+    },
+    {
+      "lemma": "scam",
+      "pos": "noun",
+      "meaning": "A dishonest plan to get money from people.",
+      "examples": [
+        "The email about free money was a {scam}."
+      ],
+      "wrong": [
+        "The scam was an honest offer that helped everyone."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "fraud",
+        "trick"
+      ],
+      "ipa": "/skæm/"
+    },
+    {
+      "lemma": "break into",
+      "pos": "verb",
+      "meaning": "To enter a building or car by force to take things.",
+      "examples": [
+        "Someone {broke into} my car last night."
+      ],
+      "wrong": [
+        "He broke into his house with his own key."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "burgle"
+      ],
+      "ipa": "/breɪk ˈɪntu/"
+    },
+    {
+      "lemma": "suspicious",
+      "pos": "adjective",
+      "meaning": "Making you think something is wrong or illegal.",
+      "examples": [
+        "Call the police if you see a {suspicious} bag."
+      ],
+      "wrong": [
+        "The bag looked suspicious, so it looked completely normal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "strange",
+        "odd"
+      ],
+      "ipa": "/səˈspɪʃəs/"
+    },
+    {
+      "lemma": "patrol",
+      "pos": "noun",
+      "meaning": "A group of police or guards that moves around an area to keep it safe.",
+      "examples": [
+        "A police {patrol} drives through the area every night."
+      ],
+      "wrong": [
+        "The patrol stays at home and never visits the streets."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/pəˈtroʊl/"
+    },
+    {
+      "lemma": "accuse",
+      "pos": "verb",
+      "meaning": "To say that someone has done something wrong.",
+      "examples": [
+        "They {accused} him of stealing the money."
+      ],
+      "wrong": [
+        "She accused him of being honest and kind."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "blame",
+        "charge"
+      ],
+      "ipa": "/əˈkjuz/"
+    },
+    {
+      "lemma": "confess",
+      "pos": "verb",
+      "meaning": "To admit that you did something wrong or illegal.",
+      "examples": [
+        "He finally {confessed} to the robbery."
+      ],
+      "wrong": [
+        "He confessed by saying he had done nothing wrong."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "admit",
+        "own up"
+      ],
+      "ipa": "/kənˈfɛs/"
+    },
+    {
+      "lemma": "security camera",
+      "pos": "noun",
+      "meaning": "A device that films a place so that crimes can be seen and recorded.",
+      "examples": [
+        "The {security camera} filmed the thief."
+      ],
+      "wrong": [
+        "The security camera is used to cook dinner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "CCTV camera"
+      ],
+      "ipa": "/sɪˈkjʊrəti ˈkæmrə/"
+    },
+    {
+      "lemma": "against the law",
+      "pos": "phrase",
+      "meaning": "Not allowed by the rules of a country.",
+      "examples": [
+        "Stealing is {against the law}."
+      ],
+      "wrong": [
+        "Helping old people cross the road is against the law."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "illegal"
+      ],
+      "ipa": "/əˈɡɛnst ðə ˈlɔ/"
+    }
+  ]
+}

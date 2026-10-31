@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add synonyms (tools/curriculum/lexdata/synonyms.py) to the Lexicon bank JSON files, in place.
+"""Add synonyms (tools/curriculum/lexdata/synonyms.py) to the older Lexicon bank words, in place, after build_lexicon.py.
 
 Keys are a lemma, or "lemma/pos" when one lemma has two parts of speech. Fails on duplicate keys, on keys that
 match no word, and on a synonym equal to its word. Run from the project root:
@@ -29,13 +29,25 @@ def load() -> dict[str, list[str]]:
     sys.exit("SYNONYMS not found")
 
 
+def phase14_groups() -> set[str]:
+    """Group ids of the Phase 14 packs; their words carry their own synonyms in lexdata/more_*.py."""
+    sys.path.insert(0, str(SOURCE.parent.parent))
+    from lexdata import more_a1, more_a2, more_b1, more_b2, more_c1, more_c2
+    import importlib
+    extras = [importlib.import_module(f"lexdata.{path.stem}") for path in sorted((SOURCE.parent).glob("extra_*.py"))]
+    return {pack[1] for module in (more_a1, more_a2, more_b1, more_b2, more_c1, more_c2, *extras) for pack in module.PACKS}
+
+
 def main() -> None:
     synonyms = load()
+    skip_groups = phase14_groups()
     used: set[str] = set()
     problems: list[str] = []
     total = 0
     for path in sorted(BANK.glob("lexicon-*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
+        if data["group"]["id"] in skip_groups:
+            continue
         for word in data["words"]:
             key = f"{word['lemma']}/{word['pos']}"
             if key not in synonyms:

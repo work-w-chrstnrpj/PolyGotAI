@@ -110,10 +110,49 @@ def giveaway_problems(act: dict, printed: list[str]) -> list[str]:
     return problems
 
 
+def reading_giveaway(act: dict, pages: list) -> bool:
+    """A reading page must not show an exercise's own question with its answer, or print a choice answer
+    of three or more words word for word (single words in the teaching text are expected)."""
+    ex = act.get("exercise") or {}
+    answer = fold((ex.get("accepted") or [act.get("answer", "")])[0])
+    prompt = fold(act.get("prompt", ""))
+    for page in pages:
+        for e in page.get("examples", []):
+            if fold(e.get("prompt", "")) == prompt and fold(e.get("answer", "")) == answer:
+                return True
+        text = fold(page.get("explanation", "")) + " | " + " | ".join(fold(e.get("answer", "")) for e in page.get("examples", []))
+        if ex.get("type") == "choice" and len(answer.split()) >= 3 and answer in text:
+            return True
+    return False
+
+
 def check_lesson(lesson: dict, where: str, errors: list, track_id: str | None = None, unit_id: str | None = None):
     lid = lesson.get("id", "?")
     seen = set()
     printed: list[str] = []
+    if "reading" in lesson:
+        pages = lesson["reading"]
+        if not isinstance(pages, list) or not 1 <= len(pages) <= 24:
+            errors.append(f"{where}: {lid}: reading needs 1–24 pages")
+            pages = []
+        page_ids = []
+        for page in pages:
+            page_ids.append(page.get("id"))
+            if any(not isinstance(page.get(key), str) or not page[key].strip() for key in ("id", "heading", "explanation")):
+                errors.append(f"{where}: {lid}: reading page needs id, heading and explanation")
+            examples = page.get("examples", [])
+            if not 1 <= len(examples) <= 4 or any(any(not e.get(key, "").strip() for key in ("prompt", "answer", "explanation")) for e in examples):
+                errors.append(f"{where}: {lid}: reading needs worked examples")
+            printed.append(fold(page.get("explanation", "")) + " " + " ".join(fold(e.get("answer", "")) for e in examples))
+        if len(page_ids) != len(set(page_ids)):
+            errors.append(f"{where}: {lid}: duplicate reading page id")
+        for act in lesson.get("activities", []):
+            if reading_giveaway(act, pages):
+                errors.append(f"{where}: {lid}: {act.get('id')}: the answer is printed on a reading page")
+        if not 15 <= len(lesson.get("activities", [])) <= 20:
+            errors.append(f"{where}: {lid}: topic lessons need 15–20 exercises")
+        if any(not a.get("explanation", "").strip() for a in lesson.get("activities", []) if a.get("exercise", {}).get("type") != "open"):
+            errors.append(f"{where}: {lid}: checked topic exercises need an explanation")
     for act in lesson.get("activities", []):
         aid = act.get("id", "?")
         if aid in seen:
@@ -161,7 +200,7 @@ def main() -> int:
     for lesson in catalog.get("archivedLessons", []):
         check_lesson(lesson, "course(archived)", errors)
 
-    coaches = {"grammarian", "readingListening", "debater", "negotiator", "publicSpeaker",
+    coaches = {"grammarian", "pronunciation", "readingListening", "debater", "negotiator", "publicSpeaker",
                "journalist", "creativeWriter", "business", "storyteller", "copywriter"}
     awards = open(os.path.join(RES, "Rewards", "AwardCatalog.json"), encoding="utf-8").read()
     # Track file: a curriculum manifest plus a "track" object {id, coach, stages:[{id,title,units:[{id,title}]}]}.
@@ -192,11 +231,20 @@ def main() -> int:
                 errors.append(f"{name}: {lid}: not listed in AwardCatalog.json contentTargetIDs (earns no XP)")
 
 
+        identities = {(l["id"], l["contentVersion"]) for l in data.get("lessons", [])}
+        for lesson in data.get("archivedLessons", []):
+            identity = (lesson["id"], lesson["contentVersion"])
+            if identity in identities:
+                errors.append(f"{name}: duplicate archived identity {identity}")
+            identities.add(identity)
+            check_lesson(lesson, name + "(archived)", errors)
+
     # Lexicon bank: lexicon-*.json = {group:{id,title,level,tagline,sources}, words:[{lemma,pos,meaning,examples,wrong}]}
     pos_ok = {"noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "phrase"}
     register_ok = {"everyday", "formal", "term", "jargon", "slang", "informal", "literary"}
     cefr_ok = {"A1", "A2", "B1", "B2", "C1", "C2"}
     lexicon_groups = 0
+    field_groups = 0
     seen_words: dict[str, str] = {}
     lexicon_words = 0
     for path in sorted(glob.glob(os.path.join(RES, "Lexicon", "lexicon-*.json"))):
@@ -207,6 +255,7 @@ def main() -> int:
         if not group.get("id") or blank(group.get("sources")):
             errors.append(f"{name}: group needs an id and sources")
         lexicon_groups += 1
+        field_groups += group.get("kind") == "field"
         if group.get("level") not in cefr_ok:
             errors.append(f"{name}: group level {group.get('level')!r} is not a CEFR level")
         for word in data.get("words", []):
@@ -235,8 +284,8 @@ def main() -> int:
             if not wrong or any(("{" in w or "}" in w or not w.strip()) for w in wrong):
                 errors.append(f"{name}: {lemma}: needs wrong-usage sentences without braces")
     counts["lexicon"] = lexicon_words
-    if lexicon_groups != 23:
-        errors.append(f"Lexicon: expected 18 CEFR groups and 5 field packs, found {lexicon_groups} groups")
+    if field_groups != 5 or lexicon_groups - field_groups != 150:
+        errors.append(f"Lexicon: expected 150 CEFR packs and 5 field packs, found {lexicon_groups - field_groups} and {field_groups}")
 
     if "--quiet" not in sys.argv:
         print(f"lexicon words: {counts.get('lexicon', 0)}")

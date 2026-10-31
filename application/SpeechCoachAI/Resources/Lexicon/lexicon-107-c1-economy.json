@@ -1,0 +1,714 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-economy",
+    "title": "Economy and policy",
+    "level": "C1",
+    "tagline": "Money, markets and the state",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "austerity",
+      "pos": "noun",
+      "meaning": "Cuts in public spending to reduce debt.",
+      "examples": [
+        "Years of {austerity} hit public services."
+      ],
+      "wrong": [
+        "Austerity means the government spends much more."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "cutbacks"
+      ],
+      "ipa": "/ɔˈstɛrəti/"
+    },
+    {
+      "lemma": "deficit",
+      "pos": "noun",
+      "meaning": "The amount by which spending is more than income.",
+      "examples": [
+        "The government has a large budget {deficit}."
+      ],
+      "wrong": [
+        "A deficit is extra money left over after spending."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "shortfall"
+      ],
+      "ipa": "/ˈdɛfəsɪt/",
+      "antonyms": [
+        "surplus"
+      ]
+    },
+    {
+      "lemma": "surplus",
+      "pos": "noun",
+      "meaning": "An amount that is more than what is needed.",
+      "examples": [
+        "The country had a trade {surplus}."
+      ],
+      "wrong": [
+        "A surplus means there isn’t enough."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "excess"
+      ],
+      "ipa": "/ˈsɝpləs/",
+      "antonyms": [
+        "deficit",
+        "shortage"
+      ]
+    },
+    {
+      "lemma": "fiscal",
+      "pos": "adjective",
+      "meaning": "Connected with government money and taxes.",
+      "examples": [
+        "The {fiscal} year starts in April."
+      ],
+      "wrong": [
+        "Fiscal policy is about sports and games."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "budgetary"
+      ],
+      "ipa": "/ˈfɪskəl/"
+    },
+    {
+      "lemma": "monetary",
+      "pos": "adjective",
+      "meaning": "Connected with money, especially a country’s money supply.",
+      "examples": [
+        "The central bank sets {monetary} policy."
+      ],
+      "wrong": [
+        "Monetary policy is about schools, not money."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "financial"
+      ],
+      "ipa": "/ˈmɑnəˌtɛri/"
+    },
+    {
+      "lemma": "stimulus",
+      "pos": "noun",
+      "meaning": "Something that encourages activity, like extra government spending.",
+      "examples": [
+        "The {stimulus} package helped small firms."
+      ],
+      "wrong": [
+        "A stimulus slows the economy on purpose."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "boost",
+        "incentive"
+      ],
+      "ipa": "/ˈstɪmjələs/"
+    },
+    {
+      "lemma": "privatize",
+      "pos": "verb",
+      "meaning": "To sell a public business to private owners.",
+      "examples": [
+        "The railways were {privatized} in the 1990s."
+      ],
+      "wrong": [
+        "They privatized the company by making the state own it."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈpraɪvəˌtaɪz/",
+      "antonyms": [
+        "nationalize"
+      ]
+    },
+    {
+      "lemma": "nationalize",
+      "pos": "verb",
+      "meaning": "To bring a private business under government control.",
+      "examples": [
+        "The government {nationalized} the banks."
+      ],
+      "wrong": [
+        "They nationalized the firm by selling it to private owners."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈnæʃənəˌlaɪz/",
+      "antonyms": [
+        "privatize"
+      ]
+    },
+    {
+      "lemma": "deregulate",
+      "pos": "verb",
+      "meaning": "To remove government rules from an industry.",
+      "examples": [
+        "They {deregulated} the airline industry."
+      ],
+      "wrong": [
+        "They deregulated the market by adding many new rules."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "liberalize"
+      ],
+      "ipa": "/diˈrɛɡjəˌleɪt/",
+      "antonyms": [
+        "regulate"
+      ]
+    },
+    {
+      "lemma": "monopoly",
+      "pos": "noun",
+      "meaning": "Complete control of a market by one company.",
+      "examples": [
+        "The company had a {monopoly} on electricity."
+      ],
+      "wrong": [
+        "A monopoly is a market with hundreds of rival firms."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/məˈnɑpəli/"
+    },
+    {
+      "lemma": "commodity",
+      "pos": "noun",
+      "meaning": "A raw product that can be bought and sold, like oil or wheat.",
+      "examples": [
+        "Coffee is a valuable {commodity}."
+      ],
+      "wrong": [
+        "A commodity is a service with nothing to trade."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "goods",
+        "product"
+      ],
+      "ipa": "/kəˈmɑdəti/"
+    },
+    {
+      "lemma": "consumption",
+      "pos": "noun",
+      "meaning": "The using of goods, energy or food.",
+      "examples": [
+        "Energy {consumption} rises in winter."
+      ],
+      "wrong": [
+        "Consumption means producing new goods."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "use"
+      ],
+      "ipa": "/kənˈsʌmpʃən/"
+    },
+    {
+      "lemma": "affluent",
+      "pos": "adjective",
+      "meaning": "Having a lot of money.",
+      "examples": [
+        "They live in an {affluent} suburb."
+      ],
+      "wrong": [
+        "The area is affluent, so most people are poor."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "wealthy",
+        "prosperous"
+      ],
+      "ipa": "/ˈæfluənt/",
+      "antonyms": [
+        "poor",
+        "impoverished"
+      ]
+    },
+    {
+      "lemma": "prosperity",
+      "pos": "noun",
+      "meaning": "The state of being successful and rich.",
+      "examples": [
+        "Trade brought {prosperity} to the region."
+      ],
+      "wrong": [
+        "Prosperity is a time of great poverty."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "wealth",
+        "affluence"
+      ],
+      "ipa": "/prɑˈspɛrəti/",
+      "antonyms": [
+        "poverty",
+        "hardship"
+      ]
+    },
+    {
+      "lemma": "infrastructure",
+      "pos": "noun",
+      "meaning": "The basic systems a country needs, such as roads and power.",
+      "examples": [
+        "The country invested in {infrastructure}."
+      ],
+      "wrong": [
+        "Infrastructure means only luxury hotels."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈɪnfrəˌstrʌktʃɚ/"
+    },
+    {
+      "lemma": "levy",
+      "pos": "noun",
+      "meaning": "An amount of money that must be paid, like a tax.",
+      "examples": [
+        "The city added a {levy} on plastic bags."
+      ],
+      "wrong": [
+        "A levy is a free gift from the government."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "tax",
+        "duty"
+      ],
+      "ipa": "/ˈlɛvi/"
+    },
+    {
+      "lemma": "bureaucracy",
+      "pos": "noun",
+      "meaning": "A system with many complicated rules and processes.",
+      "examples": [
+        "Starting a business involves a lot of {bureaucracy}."
+      ],
+      "wrong": [
+        "Bureaucracy means having no rules or forms at all."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "red tape",
+        "administration"
+      ],
+      "ipa": "/bjʊˈrɑkrəsi/"
+    },
+    {
+      "lemma": "mandate",
+      "pos": "noun",
+      "meaning": "The authority to act, given by voters.",
+      "examples": [
+        "The election gave her a strong {mandate}."
+      ],
+      "wrong": [
+        "A mandate is a loss of all authority."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "authority"
+      ],
+      "ipa": "/ˈmænˌdeɪt/"
+    },
+    {
+      "lemma": "provision",
+      "pos": "noun",
+      "meaning": "The act of supplying something.",
+      "examples": [
+        "The {provision} of clean water is vital."
+      ],
+      "wrong": [
+        "Provision means taking supplies away."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "supply"
+      ],
+      "ipa": "/prəˈvɪʒən/"
+    },
+    {
+      "lemma": "allocation",
+      "pos": "noun",
+      "meaning": "An amount of something given for a purpose.",
+      "examples": [
+        "Each school gets an {allocation} of funds."
+      ],
+      "wrong": [
+        "An allocation is money that nobody receives."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "share",
+        "allotment"
+      ],
+      "ipa": "/ˌæləˈkeɪʃən/"
+    },
+    {
+      "lemma": "pension",
+      "pos": "noun",
+      "meaning": "Money paid regularly to someone after they retire.",
+      "examples": [
+        "She lives on her state {pension}."
+      ],
+      "wrong": [
+        "A pension is money you pay to your first employer."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈpɛnʃən/"
+    },
+    {
+      "lemma": "debt",
+      "pos": "noun",
+      "meaning": "Money that you owe.",
+      "examples": [
+        "They paid off their {debt}."
+      ],
+      "wrong": [
+        "A debt is money that someone owes you as a gift."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "liability"
+      ],
+      "ipa": "/dɛt/"
+    },
+    {
+      "lemma": "interest rate",
+      "pos": "noun",
+      "meaning": "The percentage charged for borrowing money.",
+      "examples": [
+        "The bank raised its {interest rate}."
+      ],
+      "wrong": [
+        "An interest rate is how interesting a bank is."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈɪntrəst ˌreɪt/"
+    },
+    {
+      "lemma": "stock market",
+      "pos": "noun",
+      "meaning": "The place where shares in companies are bought and sold.",
+      "examples": [
+        "The {stock market} fell sharply today."
+      ],
+      "wrong": [
+        "The stock market is a shop for kitchen supplies."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "stock exchange"
+      ],
+      "ipa": "/ˈstɑk ˌmɑrkɪt/"
+    },
+    {
+      "lemma": "investor",
+      "pos": "noun",
+      "meaning": "A person who puts money into a business to make a profit.",
+      "examples": [
+        "{Investors} lost money when the shares fell."
+      ],
+      "wrong": [
+        "An investor is a person who never puts money into anything."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "backer",
+        "shareholder"
+      ],
+      "ipa": "/ɪnˈvɛstɚ/"
+    },
+    {
+      "lemma": "entrepreneur",
+      "pos": "noun",
+      "meaning": "A person who starts a business and takes financial risks.",
+      "examples": [
+        "She is a successful {entrepreneur}."
+      ],
+      "wrong": [
+        "An entrepreneur avoids starting any business."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "businessperson"
+      ],
+      "ipa": "/ˌɑntrəprəˈnɝ/"
+    },
+    {
+      "lemma": "globalization",
+      "pos": "noun",
+      "meaning": "The process of economies and cultures becoming connected worldwide.",
+      "examples": [
+        "{Globalization} has changed how goods are made."
+      ],
+      "wrong": [
+        "Globalization means each country closes its borders."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌɡloʊbələˈzeɪʃən/"
+    },
+    {
+      "lemma": "downturn",
+      "pos": "noun",
+      "meaning": "A fall in business or economic activity.",
+      "examples": [
+        "Many firms struggled during the {downturn}."
+      ],
+      "wrong": [
+        "A downturn is a period of fast growth."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "slump",
+        "recession"
+      ],
+      "ipa": "/ˈdaʊnˌtɝn/",
+      "antonyms": [
+        "upturn",
+        "boom"
+      ]
+    },
+    {
+      "lemma": "boom",
+      "pos": "noun",
+      "meaning": "A period of fast economic growth.",
+      "examples": [
+        "There was a building {boom} in the city."
+      ],
+      "wrong": [
+        "A boom is a time when business collapses."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "upturn",
+        "surge"
+      ],
+      "ipa": "/bum/",
+      "antonyms": [
+        "recession",
+        "slump",
+        "bust"
+      ]
+    },
+    {
+      "lemma": "sector",
+      "pos": "noun",
+      "meaning": "A part of an economy, such as farming or banking.",
+      "examples": [
+        "The tech {sector} is growing fast."
+      ],
+      "wrong": [
+        "A sector is the whole economy of every country."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "industry",
+        "area"
+      ],
+      "ipa": "/ˈsɛktɚ/"
+    },
+    {
+      "lemma": "mortgage",
+      "pos": "noun",
+      "meaning": "A loan from a bank to buy a house.",
+      "examples": [
+        "They took out a {mortgage} to buy their flat."
+      ],
+      "wrong": [
+        "A mortgage is money the bank gives you for free."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "home loan"
+      ],
+      "ipa": "/ˈmɔrɡɪdʒ/"
+    },
+    {
+      "lemma": "tax evasion",
+      "pos": "noun",
+      "meaning": "Illegally not paying the tax you owe.",
+      "examples": [
+        "He was jailed for {tax evasion}."
+      ],
+      "wrong": [
+        "Tax evasion is paying more tax than you owe."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈtæks ɪˌveɪʒən/"
+    },
+    {
+      "lemma": "subsidize",
+      "pos": "verb",
+      "meaning": "To pay part of the cost of something.",
+      "examples": [
+        "The government {subsidizes} public transport."
+      ],
+      "wrong": [
+        "They subsidize the buses by charging extra."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "fund",
+        "support"
+      ],
+      "ipa": "/ˈsʌbsəˌdaɪz/"
+    },
+    {
+      "lemma": "affordable",
+      "pos": "adjective",
+      "meaning": "Cheap enough for people to buy.",
+      "examples": [
+        "The city needs more {affordable} housing."
+      ],
+      "wrong": [
+        "The flats are affordable, so nobody can pay for them."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "reasonable",
+        "inexpensive"
+      ],
+      "ipa": "/əˈfɔrdəbəl/",
+      "antonyms": [
+        "expensive",
+        "unaffordable"
+      ]
+    },
+    {
+      "lemma": "disposable income",
+      "pos": "noun",
+      "meaning": "Money left after paying taxes and bills.",
+      "examples": [
+        "Families have less {disposable income} now."
+      ],
+      "wrong": [
+        "Disposable income is money you must give to the government."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/dɪˌspoʊzəbəl ˈɪnˌkʌm/"
+    },
+    {
+      "lemma": "living wage",
+      "pos": "noun",
+      "meaning": "A wage high enough to pay for basic needs.",
+      "examples": [
+        "Campaigners want a {living wage} for all workers."
+      ],
+      "wrong": [
+        "A living wage is too low to buy food."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌlɪvɪŋ ˈweɪdʒ/"
+    },
+    {
+      "lemma": "cost of living",
+      "pos": "noun",
+      "meaning": "The amount of money needed for basic needs.",
+      "examples": [
+        "The {cost of living} keeps rising."
+      ],
+      "wrong": [
+        "The cost of living is the price of one coffee."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌkɔst əv ˈlɪvɪŋ/"
+    },
+    {
+      "lemma": "economic",
+      "pos": "adjective",
+      "meaning": "Connected with trade, industry and money.",
+      "examples": [
+        "The country faces {economic} problems."
+      ],
+      "wrong": [
+        "Economic growth is about the size of trees."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "commercial"
+      ],
+      "ipa": "/ˌɛkəˈnɑmɪk/"
+    },
+    {
+      "lemma": "economical",
+      "pos": "adjective",
+      "meaning": "Using money, fuel or time carefully, without waste.",
+      "examples": [
+        "This car is very {economical} on fuel."
+      ],
+      "wrong": [
+        "The car is economical, so it wastes fuel."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "thrifty",
+        "efficient"
+      ],
+      "ipa": "/ˌɛkəˈnɑmɪkəl/",
+      "antonyms": [
+        "wasteful",
+        "extravagant"
+      ]
+    },
+    {
+      "lemma": "redistribution",
+      "pos": "noun",
+      "meaning": "Sharing wealth more equally across a society.",
+      "examples": [
+        "Taxes can be a tool for {redistribution}."
+      ],
+      "wrong": [
+        "Redistribution means giving all wealth to one person."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌridɪstrəˈbjuʃən/"
+    }
+  ]
+}

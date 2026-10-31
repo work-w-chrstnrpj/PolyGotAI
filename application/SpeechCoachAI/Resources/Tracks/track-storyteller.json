@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packId": "speechcoach.track.storyteller",
-  "contentVersion": "1",
+  "contentVersion": "2",
   "locale": "en-US",
   "minimumSchemaVersion": 1,
-  "editorialApprovalReference": "Authored 2026-10-25 for the owner’s personal use. Qualified editorial review is pending. Completion records practice, not an English level.",
-  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied.",
+  "editorialApprovalReference": "Phase 13 topic consolidation authored 2026-10-26 for personal practice. Qualified editorial review and learning validation remain pending.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-25. Cited sources supply structure and ideas only; no text is copied. Phase 13 reorganizes original app teaching into topic pages with worked examples; original exercise wording is retained where suitable.",
   "assets": [],
   "track": {
     "id": "storyteller",
@@ -56,6 +56,5117 @@
     ]
   },
   "lessons": [
+    {
+      "id": "storyteller-topic-the-moment-and-the-story-arc",
+      "contentVersion": "2",
+      "level": "Foundation",
+      "title": "The moment and the story arc",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-THE-MOMENT-AND-THE-STORY-ARC",
+      "trackId": "storyteller",
+      "unitId": "shape",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Aesop’s fables and the Brothers Grimm (public domain): classic story shapes, retold in original wording",
+        "Common oral-storytelling teaching: story arc, stakes, hook and landing (concepts only)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-read-1",
+          "heading": "Picking one small moment",
+          "explanation": "A good spoken story is usually **one small moment**, not a whole life. Choose a moment when something changed:\n- a surprise\n- a mistake\n- a first time\n- a decision.\n\nAsk yourself three questions:\n- What happened?\n- Why did it matter?\n- What did I learn or feel?\n\nA true, specific moment — the morning you missed the bus and met your future business partner — is far more powerful than a long list of events. If your story covers years, look for the one scene where everything turned, and tell that.",
+          "examples": [
+            {
+              "prompt": "Too big",
+              "answer": "This is the story of my whole time at university.",
+              "explanation": "Too much to tell well."
+            },
+            {
+              "prompt": "One moment",
+              "answer": "The day I walked into the wrong exam room.",
+              "explanation": "A specific turning point."
+            },
+            {
+              "prompt": "Why it matters",
+              "answer": "That mistake taught me to ask for help.",
+              "explanation": "The meaning of the moment."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-read-2",
+          "heading": "Want, obstacle and change",
+          "explanation": "Most stories follow an **arc**:\n- a person wants something\n- something gets in the way\n- they try to overcome it\n- something changes.\n\n**Stakes** make listeners care: what could be lost if the person fails? Without stakes, there is no tension. Tell events in order, and make each step cause the next.\n\nThe change at the end can be in the situation (she got the job) or in the person (she stopped being afraid of interviews) — the most memorable stories often have both.",
+          "examples": [
+            {
+              "prompt": "Want",
+              "answer": "I wanted to impress my new boss on my first day.",
+              "explanation": "A clear goal."
+            },
+            {
+              "prompt": "Obstacle + stakes",
+              "answer": "But I spilled coffee on the only copy of the report — an hour before the meeting.",
+              "explanation": "A problem with something to lose."
+            },
+            {
+              "prompt": "Change",
+              "answer": "I told her the truth, and she trusted me more because of it.",
+              "explanation": "Something is different now."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-moment",
+        "st-arc"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the best choice for a two-minute story?",
+          "answer": "The day I got lost on my first bus ride alone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The day I got lost on my first bus ride alone",
+              "My whole life from age one",
+              "Everything I did last year",
+              "All my school years"
+            ],
+            "accepted": [
+              "The day I got lost on my first bus ride alone"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is an arc?",
+          "answer": "A change from the start to the end",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A change from the start to the end",
+              "A list of names",
+              "A picture",
+              "A joke"
+            ],
+            "accepted": [
+              "A change from the start to the end"
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What makes a moment worth a story?",
+          "answer": "Something changed",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Something changed",
+              "Nothing happened",
+              "It was very long",
+              "It was the same as every day"
+            ],
+            "accepted": [
+              "Something changed"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What are stakes?",
+          "answer": "What the character could win or lose",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What the character could win or lose",
+              "The ticket price",
+              "The setting",
+              "The title"
+            ],
+            "accepted": [
+              "What the character could win or lose"
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which question helps you find the meaning?",
+          "answer": "Why did this moment matter?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Why did this moment matter?",
+              "What color was the bus?",
+              "Who sat behind me?",
+              "What time was lunch?"
+            ],
+            "accepted": [
+              "Why did this moment matter?"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence has the higher stakes?",
+          "answer": "If she misses the bus, she will lose her job interview.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "If she misses the bus, she will lose her job interview.",
+              "If she misses the bus, she will wait.",
+              "She likes buses.",
+              "Buses run all day."
+            ],
+            "accepted": [
+              "If she misses the bus, she will lose her job interview."
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a small moment?",
+          "answer": "The first time I cooked dinner for my family",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The first time I cooked dinner for my family",
+              "My whole career",
+              "A decade of work",
+              "Every Sunday for ten years"
+            ],
+            "accepted": [
+              "The first time I cooked dinner for my family"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence shows an obstacle?",
+          "answer": "The bridge was closed, so he had to find another way.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The bridge was closed, so he had to find another way.",
+              "He walked.",
+              "He was tall.",
+              "The sun came out."
+            ],
+            "accepted": [
+              "The bridge was closed, so he had to find another way."
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is too big for one story?",
+          "answer": "My entire childhood",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My entire childhood",
+              "The day I lost my keys",
+              "My first bike ride",
+              "A surprise phone call"
+            ],
+            "accepted": [
+              "My entire childhood"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence links events by cause?",
+          "answer": "Because the bridge was closed, he took the long road and met his old teacher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Because the bridge was closed, he took the long road and met his old teacher.",
+              "He walked to the bridge, he ate his lunch there, and then he slept in the park.",
+              "Then he went home. Then he saw a dog. Then he saw a bird in a tree nearby.",
+              "A bridge, a road, a teacher, a lunch, a park, a dog and a bird in a tree."
+            ],
+            "accepted": [
+              "Because the bridge was closed, he took the long road and met his old teacher."
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each prompt with an example moment.",
+          "answer": "A first time → I rode a train alone | A mistake → I sent the email to the wrong person | A surprise → A stranger returned my wallet",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A first time",
+                "I rode a train alone"
+              ],
+              [
+                "A mistake",
+                "I sent the email to the wrong person"
+              ],
+              [
+                "A surprise",
+                "A stranger returned my wallet"
+              ]
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the arc in order.",
+          "answer": "She wants to catch the last bus | The bus leaves early | She runs across the town | She catches it and learns to leave earlier",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "She wants to catch the last bus",
+              "The bus leaves early",
+              "She runs across the town",
+              "She catches it and learns to leave earlier"
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Pick one small moment | Ask why it mattered | Decide how it starts and ends",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Pick one small moment",
+              "Ask why it mattered",
+              "Decide how it starts and ends"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each arc part with its question.",
+          "answer": "Want → What does the person want? | Obstacle → What gets in the way? | Stakes → What could be lost? | Change → What is different at the end?",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Want",
+                "What does the person want?"
+              ],
+              [
+                "Obstacle",
+                "What gets in the way?"
+              ],
+              [
+                "Stakes",
+                "What could be lost?"
+              ],
+              [
+                "Change",
+                "What is different at the end?"
+              ]
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A story can be about one small moment.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A story needs a change.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A two-minute story should cover your whole life.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "A good story is often one small moment, not a whole life."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Stakes make listeners care.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Most stories have an arc: a person wants something, something gets in the way, they try, and something changes."
+        },
+        {
+          "id": "storyteller-topic-the-moment-and-the-story-arc-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about the moment and the story arc in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-detail-hooks-and-endings",
+      "contentVersion": "2",
+      "level": "Foundation",
+      "title": "Detail, hooks and endings",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-DETAIL-HOOKS-AND-ENDINGS",
+      "trackId": "storyteller",
+      "unitId": "shape",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Aesop’s fables and the Brothers Grimm (public domain): classic story shapes, retold in original wording",
+        "Common oral-storytelling teaching: story arc, stakes, hook and landing (concepts only)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-read-1",
+          "heading": "Details that make it real",
+          "explanation": "**Details** turn a story from a summary into an experience. A name, a place, a sound, a number: \"My uncle’s green van with the broken passenger door\" is better than \"a vehicle\".\n\nGood details are specific and help the story — they show character, set mood or prepare for something later. Keep only the details that do work; one or two strong ones are better than many weak ones.\n\nWhen you rehearse, ask of every detail: would the listener miss it if it were gone?",
+          "examples": [
+            {
+              "prompt": "Vague",
+              "answer": "We went to a restaurant.",
+              "explanation": "Nothing to picture."
+            },
+            {
+              "prompt": "Specific",
+              "answer": "We squeezed into a tiny noodle bar with six stools and a radio playing football.",
+              "explanation": "A place the listener can see and hear."
+            },
+            {
+              "prompt": "Purposeful detail",
+              "answer": "She wore her lucky red scarf — the one she lost that night.",
+              "explanation": "The detail matters later."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-read-2",
+          "heading": "Hooks and landings",
+          "explanation": "Open with a **hook** that makes people want to hear more:\n- a surprising line\n- a strong image\n- a question.\n\n\"I was twelve when I accidentally sold my father’s car\" is a hook; \"I want to tell you about something that happened to me\" is not.\n\nThen **land the ending** cleanly. Return to the opening image, or finish on the change. Do not trail off with \"and… yeah, that’s my story\". Slow down, pause before your last line, say it clearly, and stop.",
+          "examples": [
+            {
+              "prompt": "Hook",
+              "answer": "The first time I met my best friend, she called the police on me.",
+              "explanation": "Raises an immediate question."
+            },
+            {
+              "prompt": "Weak opening",
+              "answer": "So, um, this is a story about my friend.",
+              "explanation": "Wastes the first moment."
+            },
+            {
+              "prompt": "Landing",
+              "answer": "Twenty years later, she still calls me — but not the police.",
+              "explanation": "Echoes the opening and ends cleanly."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-detail",
+        "st-hook"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is more vivid?",
+          "answer": "My uncle’s green van with the broken door",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My uncle’s green van with the broken door",
+              "A vehicle",
+              "A thing",
+              "Some transport"
+            ],
+            "accepted": [
+              "My uncle’s green van with the broken door"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is the best hook?",
+          "answer": "The first time I saw the sea, I was thirty-two and terrified.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The first time I saw the sea, I was thirty-two and terrified.",
+              "Hello, I want to tell you a story.",
+              "Um, so, this is about the sea.",
+              "I will now begin."
+            ],
+            "accepted": [
+              "The first time I saw the sea, I was thirty-two and terrified."
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail gives a number?",
+          "answer": "It took us forty minutes in the rain.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "It took us forty minutes in the rain.",
+              "It took a while.",
+              "It was long.",
+              "It was slow."
+            ],
+            "accepted": [
+              "It took us forty minutes in the rain."
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending “lands”?",
+          "answer": "Now, whenever it rains, I smile and take the long way home.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Now, whenever it rains, I smile and take the long way home.",
+              "So, that’s it.",
+              "Yeah, that’s all.",
+              "Thank you for listening to my entire story again."
+            ],
+            "accepted": [
+              "Now, whenever it rains, I smile and take the long way home."
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail names a place?",
+          "answer": "We waited outside the bakery on Cedar Street.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "We waited outside the bakery on Cedar Street.",
+              "We waited somewhere.",
+              "We waited.",
+              "We were in a place."
+            ],
+            "accepted": [
+              "We waited outside the bakery on Cedar Street."
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which detail should you cut?",
+          "answer": "The color of the tablecloth",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The color of the tablecloth",
+              "The sound of the door slamming right before the crash",
+              "The name of the person who helped",
+              "The broken umbrella that saved her"
+            ],
+            "accepted": [
+              "The color of the tablecloth"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening uses a question as a hook?",
+          "answer": "Have you ever sat in a stranger’s car and trusted them?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Have you ever sat in a stranger’s car and trusted them?",
+              "I am here to talk.",
+              "Today is Monday.",
+              "Let me start now."
+            ],
+            "accepted": [
+              "Have you ever sat in a stranger’s car and trusted them?"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after your last line?",
+          "answer": "Pause, then stop",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pause, then stop",
+              "Keep talking to fill the silence",
+              "Say sorry",
+              "Repeat the first line"
+            ],
+            "accepted": [
+              "Pause, then stop"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each plain phrase with a more specific one.",
+          "answer": "a car → a rusty blue taxi | a sound → a loud, sudden bang | a person → my grandmother, Rosa",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "a car",
+                "a rusty blue taxi"
+              ],
+              [
+                "a sound",
+                "a loud, sudden bang"
+              ],
+              [
+                "a person",
+                "my grandmother, Rosa"
+              ]
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story parts in order.",
+          "answer": "A strong hook | The middle of the story | A landing that returns to the opening",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "A strong hook",
+              "The middle of the story",
+              "A landing that returns to the opening"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Write the plain sentence | Find the vague words | Replace them with specific details",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Write the plain sentence",
+              "Find the vague words",
+              "Replace them with specific details"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its job.",
+          "answer": "Hook → grabs attention at the start | Landing → finishes with the change | Pause → lets the last line sink in",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Hook",
+                "grabs attention at the start"
+              ],
+              [
+                "Landing",
+                "finishes with the change"
+              ],
+              [
+                "Pause",
+                "lets the last line sink in"
+              ]
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Specific details help listeners picture the story.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A hook should come in the first sentence.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Every detail should be included.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should end by saying “and that’s my story.”",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Replace vague words with ___ details.",
+          "answer": "specific",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "specific"
+            ]
+          },
+          "explanation": "Details make a story real: a name, a place, a sound, a number."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A ___ grabs attention in the first line.",
+          "answer": "hook",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "hook"
+            ]
+          },
+          "explanation": "Open with a hook: a surprising line, a strong image or a question."
+        },
+        {
+          "id": "storyteller-topic-detail-hooks-and-endings-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about detail, hooks and endings in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-voice-and-believable-people",
+      "contentVersion": "2",
+      "level": "Foundation",
+      "title": "Voice and believable people",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-VOICE-AND-BELIEVABLE-PEOPLE",
+      "trackId": "storyteller",
+      "unitId": "tell",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Aesop’s fables and the Brothers Grimm (public domain): classic story shapes, retold in original wording",
+        "Common oral-storytelling teaching: story arc, stakes, hook and landing (concepts only)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-voice-and-believable-people-read-1",
+          "heading": "Voice, pace and pauses",
+          "explanation": "In storytelling, **your voice** carries the story. Change it to match what is happening:\n- Slow down for important moments;\n- speed up a little for action;\n- drop your volume for secrets and tension;\n- pause just before a surprise.\n\n**Silence** is a powerful tool — a pause lets the audience feel what is coming.\n\nPractise by telling the story out loud, several times, not by reading it silently; you will find where the natural pauses and speed changes belong.",
+          "examples": [
+            {
+              "prompt": "Slow down",
+              "answer": "And then… the… door… opened.",
+              "explanation": "Slow pace builds tension."
+            },
+            {
+              "prompt": "Quiet for secrets",
+              "answer": "(softly) Nobody knew she had the key.",
+              "explanation": "Lower volume draws people in."
+            },
+            {
+              "prompt": "Pause before surprise",
+              "answer": "Inside the box was… (pause) …a kitten.",
+              "explanation": "The pause sets up the reveal."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-read-2",
+          "heading": "Bringing people to life",
+          "explanation": "When you retell what someone said, give them a voice. A slight change in pace, pitch or word choice is enough to show who is speaking; you do not need an imitation.\n\n**Direct speech** brings people closer than reported speech: \"My mother looked at me and said, ‘You’re late again.’\" is more alive than \"My mother said I was late.\"\n\nKeep dialogue short, use \"said\", and show the person with one gesture or facial expression. Stay in the story; do not stop to comment on your own performance.",
+          "examples": [
+            {
+              "prompt": "Direct speech",
+              "answer": "The doctor smiled and said, “You’ll be fine. You just need sleep.”",
+              "explanation": "We hear the person."
+            },
+            {
+              "prompt": "Reported speech",
+              "answer": "The doctor told me I would be fine.",
+              "explanation": "Flatter and more distant."
+            },
+            {
+              "prompt": "Small shift",
+              "answer": "Lower your voice slightly for the grandfather, keep it steady each time.",
+              "explanation": "A consistent, simple voice."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-voice",
+        "st-people"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-voice-and-believable-people-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do you build suspense?",
+          "answer": "Slow down and pause before the surprise",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down and pause before the surprise",
+              "Speak faster and faster with no pause",
+              "Say it in a flat voice",
+              "Skip the pause"
+            ],
+            "accepted": [
+              "Slow down and pause before the surprise"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a clear way to share what someone said?",
+          "answer": "My mother looked at me and said, “You are late again.”",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "My mother looked at me and said, “You are late again.”",
+              "Then something was said.",
+              "Someone talked.",
+              "Words happened."
+            ],
+            "accepted": [
+              "My mother looked at me and said, “You are late again.”"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you show a different person speaking?",
+          "answer": "Change your pace, pitch or face a little",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Change your pace, pitch or face a little",
+              "Use an insulting accent",
+              "Read it from a list",
+              "Whisper only"
+            ],
+            "accepted": [
+              "Change your pace, pitch or face a little"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which should you avoid?",
+          "answer": "Making fun of someone’s accent",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Making fun of someone’s accent",
+              "Using a small gesture",
+              "Changing your tone",
+              "Pausing before the quote"
+            ],
+            "accepted": [
+              "Making fun of someone’s accent"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a pause do?",
+          "answer": "Gives the audience time to imagine",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Gives the audience time to imagine",
+              "Wastes time",
+              "Hides mistakes",
+              "Ends the story"
+            ],
+            "accepted": [
+              "Gives the audience time to imagine"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How long should an imitation be?",
+          "answer": "Brief, just enough to show the person",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Brief, just enough to show the person",
+              "As long as possible",
+              "Longer than the story",
+              "There is no limit"
+            ],
+            "accepted": [
+              "Brief, just enough to show the person"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which practice method helps most?",
+          "answer": "Telling the story aloud several times",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Telling the story aloud several times",
+              "Reading it silently once",
+              "Memorizing every word",
+              "Never practicing"
+            ],
+            "accepted": [
+              "Telling the story aloud several times"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which tag is the plainest?",
+          "answer": "said",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "said",
+              "hissed",
+              "bellowed",
+              "declared"
+            ],
+            "accepted": [
+              "said"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each moment with a voice choice.",
+          "answer": "Action scene → speed up a little | Secret → lower the voice | Surprise → pause before it",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Action scene",
+                "speed up a little"
+              ],
+              [
+                "Secret",
+                "lower the voice"
+              ],
+              [
+                "Surprise",
+                "pause before it"
+              ]
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "A small gesture → shows the person’s mood | A change of pace → separates the speakers | A short quote → keeps the story moving",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A small gesture",
+                "shows the person’s mood"
+              ],
+              [
+                "A change of pace",
+                "separates the speakers"
+              ],
+              [
+                "A short quote",
+                "keeps the story moving"
+              ]
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Tell the story aloud | Notice where you rush | Add pauses and slow down",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Tell the story aloud",
+              "Notice where you rush",
+              "Add pauses and slow down"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Choose one important line | Decide how the person sounds | Say it briefly and move on",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose one important line",
+              "Decide how the person sounds",
+              "Say it briefly and move on"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Silence can be part of storytelling.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Short quotes keep a story moving.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should tell every sentence at the same speed.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Imitating a person’s accent to mock them is fine.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Pause before the ___.",
+          "answer": "surprise",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "surprise",
+              "twist"
+            ]
+          },
+          "explanation": "In storytelling your voice carries the story."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use a ___ gesture to show the person.",
+          "answer": "small",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "small"
+            ]
+          },
+          "explanation": "When you retell what someone said, give them a voice: a different pace, pitch or word."
+        },
+        {
+          "id": "storyteller-topic-voice-and-believable-people-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about voice and believable people in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-audience-awareness-and-rehearsal",
+      "contentVersion": "2",
+      "level": "Foundation",
+      "title": "Audience awareness and rehearsal",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-AUDIENCE-AWARENESS-AND-REHEARSAL",
+      "trackId": "storyteller",
+      "unitId": "tell",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Aesop’s fables and the Brothers Grimm (public domain): classic story shapes, retold in original wording",
+        "Common oral-storytelling teaching: story arc, stakes, hook and landing (concepts only)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-read-1",
+          "heading": "Reading your listeners",
+          "explanation": "A story is **shared with listeners**, not performed at them. Look at people while you tell it and watch their faces:\n- If they look lost, slow down or add a quick explanation;\n- if they laugh, wait for the laugh to finish before you continue;\n- if they lean in, keep going.\n\nYou can involve them with a short question: \"Has anyone here ever missed a flight?\" Start where your audience is — with something they recognise — and lead them to where you want them to be.",
+          "examples": [
+            {
+              "prompt": "Wait for laughter",
+              "answer": "(pause until the laugh fades, then continue)",
+              "explanation": "Do not talk over the reaction."
+            },
+            {
+              "prompt": "Connect",
+              "answer": "You know that feeling when your phone dies at the worst moment?",
+              "explanation": "Starts from shared experience."
+            },
+            {
+              "prompt": "Adjust",
+              "answer": "I can see that sounds confusing — let me explain.",
+              "explanation": "Responds to faces."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-read-2",
+          "heading": "Trimming and practising",
+          "explanation": "Most first drafts of a story are too long. Cut anything that does not move the story forward:\n- repeated details\n- side trips\n- long explanations of background.\n\nFor a short spoken story, aim for **about two minutes**, roughly 250–300 words. Tell it aloud, time it, and trim again.\n\nKeep the three essentials:\n- the hook\n- the turning point\n- the landing.\n\nEvery telling teaches you something; notice where you hesitate or where listeners lose interest.",
+          "examples": [
+            {
+              "prompt": "Cut background",
+              "answer": "Not needed: “My school was built in 1960 and had three floors.”",
+              "explanation": "Doesn’t move the story."
+            },
+            {
+              "prompt": "Keep",
+              "answer": "Hook → turning point → landing.",
+              "explanation": "The three parts you never cut."
+            },
+            {
+              "prompt": "Time it",
+              "answer": "First telling: 4 minutes. After trimming: 2 minutes 10.",
+              "explanation": "Measure, then cut."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-listeners",
+        "st-trim"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do if listeners look lost?",
+          "answer": "Slow down and add a detail",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down and add a detail",
+              "Speed up",
+              "Stop looking at them",
+              "Read from the page"
+            ],
+            "accepted": [
+              "Slow down and add a detail"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "About how many words make a two-minute story?",
+          "answer": "250 to 300",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "250 to 300",
+              "50",
+              "1,000",
+              "3,000"
+            ],
+            "accepted": [
+              "250 to 300"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do when listeners laugh?",
+          "answer": "Wait until the laugh finishes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Wait until the laugh finishes",
+              "Talk over it",
+              "Skip the next part",
+              "Leave"
+            ],
+            "accepted": [
+              "Wait until the laugh finishes"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you cut first?",
+          "answer": "Details that do not move the story",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Details that do not move the story",
+              "The hook",
+              "The turning point",
+              "The landing"
+            ],
+            "accepted": [
+              "Details that do not move the story"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a good way to involve listeners?",
+          "answer": "Ask a short question",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask a short question",
+              "Ignore everyone",
+              "Look only at your notes",
+              "Whisper to yourself"
+            ],
+            "accepted": [
+              "Ask a short question"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should your eyes go?",
+          "answer": "To different listeners",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "To different listeners",
+              "To the floor",
+              "To the ceiling",
+              "To your phone"
+            ],
+            "accepted": [
+              "To different listeners"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do you check the length?",
+          "answer": "Tell it aloud and time it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tell it aloud and time it",
+              "Count the letters",
+              "Guess",
+              "Ask a stranger"
+            ],
+            "accepted": [
+              "Tell it aloud and time it"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does “start where they are” mean?",
+          "answer": "Begin with something the listeners know or feel",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Begin with something the listeners know or feel",
+              "Begin with a long introduction about you",
+              "Begin with the ending",
+              "Begin with unrelated facts"
+            ],
+            "accepted": [
+              "Begin with something the listeners know or feel"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which is a side trip?",
+          "answer": "A long explanation of how your uncle met his wife, in a story about a lost phone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A long explanation of how your uncle met his wife, in a story about a lost phone",
+              "The moment you lost the phone and ran back along the street to look for it",
+              "The ending, where you find the phone and say thank you to the kind stranger",
+              "The opening hook, where you tell the listener that you lost your phone on a bus"
+            ],
+            "accepted": [
+              "A long explanation of how your uncle met his wife, in a story about a lost phone"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each listener signal with your response.",
+          "answer": "Confused faces → slow down and clarify | Laughter → pause and wait | Leaning in → keep the energy",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Confused faces",
+                "slow down and clarify"
+              ],
+              [
+                "Laughter",
+                "pause and wait"
+              ],
+              [
+                "Leaning in",
+                "keep the energy"
+              ]
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Write or plan the story | Tell it aloud and time it | Cut what does not move the story | Practice again",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Write or plan the story",
+              "Tell it aloud and time it",
+              "Cut what does not move the story",
+              "Practice again"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Look at the listeners | Notice their reactions | Adjust your pace or detail",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Look at the listeners",
+              "Notice their reactions",
+              "Adjust your pace or detail"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with its job.",
+          "answer": "Hook → wakes the listener | Turning point → the moment of change | Landing → the final line",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Hook",
+                "wakes the listener"
+              ],
+              [
+                "Turning point",
+                "the moment of change"
+              ],
+              [
+                "Landing",
+                "the final line"
+              ]
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A good storyteller watches the listeners.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Most first drafts are too long.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You must ignore laughter.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You should cut the turning point.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Most first drafts are too long."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Look at different ___.",
+          "answer": "listeners",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "listeners",
+              "people"
+            ]
+          },
+          "explanation": "A story is shared with listeners."
+        },
+        {
+          "id": "storyteller-topic-audience-awareness-and-rehearsal-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about audience awareness and rehearsal in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-causality-and-character-choices",
+      "contentVersion": "2",
+      "level": "Intermediate",
+      "title": "Causality and character choices",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-CAUSALITY-AND-CHARACTER-CHOICES",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-causality-and-character-choices-read-1",
+          "heading": "And, but, therefore",
+          "explanation": "Many strong stories move on three small words:\n- **\"And\"** sets the scene.\n- **\"But\"** brings in the problem.\n- **\"Therefore\"** (or \"so\") shows what happens because of it.\n\n\"Rita bought a watch for her father’s birthday, but she lost it at the market, so she searched every stall.\"\n\nIf your story only uses \"and then… and then…\", it is a list of events, not a story. Look for the \"but\" and the \"therefore\" in your story and put them early; they create the cause and effect that keeps listeners hooked.",
+          "examples": [
+            {
+              "prompt": "List",
+              "answer": "We went to the beach, and then we swam, and then we ate.",
+              "explanation": "Events with no tension."
+            },
+            {
+              "prompt": "Story",
+              "answer": "We went to the beach, but the tide trapped us on the rocks, so we had to swim back.",
+              "explanation": "Problem and consequence."
+            },
+            {
+              "prompt": "Early but",
+              "answer": "I had one job at the wedding — but I forgot the rings.",
+              "explanation": "The problem arrives quickly."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-read-2",
+          "heading": "Showing character through choices",
+          "explanation": "We learn who a person really is from **what they choose** when the choice costs them something. A kind person might give up their seat on a crowded train; a stubborn person might refuse help even when lost.\n\nIn your story, let the main character face a hard choice, and **show the choice through an action** rather than a label. \"She handed him her umbrella and walked on in the rain\" says more than \"She was kind.\"",
+          "examples": [
+            {
+              "prompt": "Label",
+              "answer": "My grandfather was very generous.",
+              "explanation": "Tells, but doesn’t show."
+            },
+            {
+              "prompt": "Choice",
+              "answer": "He gave his last bus fare to a stranger and walked home in the snow.",
+              "explanation": "An action with a cost."
+            },
+            {
+              "prompt": "Hard choice",
+              "answer": "I could keep the money I found, or hand it in and miss the concert.",
+              "explanation": "The choice reveals the person."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-i-abt",
+        "st-i-choice"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-causality-and-character-choices-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Rita lost her father’s old watch on the way to the market. She searched every stall, but nobody had seen it. Then a boy brought it to her, because he had heard its tick under a cart. Which word brings the problem?",
+          "answer": "but",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "but",
+              "and",
+              "then",
+              "because"
+            ],
+            "accepted": [
+              "but"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How do we best learn about a character?",
+          "answer": "By what they choose when it costs something",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By what they choose when it costs something",
+              "By their age",
+              "By their address",
+              "By a list of adjectives"
+            ],
+            "accepted": [
+              "By what they choose when it costs something"
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which word shows a result?",
+          "answer": "therefore",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "therefore",
+              "and",
+              "maybe",
+              "also"
+            ],
+            "accepted": [
+              "therefore"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence sets the scene?",
+          "answer": "Rita went to the market and bought bread.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Rita went to the market and bought bread.",
+              "But the watch was missing.",
+              "Therefore she cried.",
+              "No one knew."
+            ],
+            "accepted": [
+              "Rita went to the market and bought bread."
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which shows stubbornness?",
+          "answer": "He pushed the helping hand away and kept dragging the box.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He pushed the helping hand away and kept dragging the box.",
+              "He was stubborn.",
+              "The box was heavy.",
+              "He sat down."
+            ],
+            "accepted": [
+              "He pushed the helping hand away and kept dragging the box."
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A story that only uses “and then” is mostly what?",
+          "answer": "A list",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A list",
+              "A mystery",
+              "A poem",
+              "A song"
+            ],
+            "accepted": [
+              "A list"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why make a choice cost something?",
+          "answer": "The cost makes the choice meaningful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The cost makes the choice meaningful",
+              "It makes the story longer",
+              "It hides the plot",
+              "It adds jokes"
+            ],
+            "accepted": [
+              "The cost makes the choice meaningful"
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should the “but” appear?",
+          "answer": "Early in the story",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Early in the story",
+              "Only at the end",
+              "Nowhere",
+              "In the title"
+            ],
+            "accepted": [
+              "Early in the story"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-09",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Luis wanted to win the town race, so he trained every morning. But on race day it rained hard and the road turned to mud. He ran slowly, laughed, and finished last, with the happiest face in the crowd. What does Luis’s choice on race day show?",
+          "answer": "He enjoys the race more than winning.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He enjoys the race more than winning.",
+              "He hates mud.",
+              "He is lazy.",
+              "He is angry."
+            ],
+            "accepted": [
+              "He enjoys the race more than winning."
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each word with its job.",
+          "answer": "And → sets the scene | But → brings the problem | Therefore → shows the result",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "And",
+                "sets the scene"
+              ],
+              [
+                "But",
+                "brings the problem"
+              ],
+              [
+                "Therefore",
+                "shows the result"
+              ]
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each action with the trait it suggests.",
+          "answer": "Gives away a seat → kind | Refuses all help → stubborn | Arrives early every day → reliable",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Gives away a seat",
+                "kind"
+              ],
+              [
+                "Refuses all help",
+                "stubborn"
+              ],
+              [
+                "Arrives early every day",
+                "reliable"
+              ]
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story in order.",
+          "answer": "Rita walks to the market | She loses the watch | She searches every stall",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Rita walks to the market",
+              "She loses the watch",
+              "She searches every stall"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A label such as “brave” shows more than an action.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “But” helps a story move forward.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A choice that costs nothing tells us little.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: “And then” again and again makes a strong plot.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Show the trait with an ___, not a label.",
+          "answer": "action",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "action"
+            ]
+          },
+          "explanation": "We learn who a person is by what they choose when it costs them something."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Rita lost the watch, ___ no one had seen it.",
+          "answer": "but",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "but"
+            ]
+          },
+          "explanation": "Many good stories move on three small words."
+        },
+        {
+          "id": "storyteller-topic-causality-and-character-choices-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about causality and character choices in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-details-setup-and-payoff",
+      "contentVersion": "2",
+      "level": "Intermediate",
+      "title": "Details, setup and payoff",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-DETAILS-SETUP-AND-PAYOFF",
+      "trackId": "storyteller",
+      "unitId": "build",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-read-1",
+          "heading": "Details for the ear",
+          "explanation": "Listeners cannot see a page, so they need to see the scene in their minds. Use **details from all the senses**:\n- the smell of the place\n- the sound of a door\n- the feel of a cold metal handle.\n\nChoose **two or three details**, not twenty, and name them in simple, concrete words. A familiar sensory detail makes listeners say, \"I know that place.\"\n\nSpoken descriptions should be short; a long list of adjectives is hard to follow by ear.",
+          "examples": [
+            {
+              "prompt": "Smell and sound",
+              "answer": "The kitchen smelled of burnt toast, and the radio was too loud.",
+              "explanation": "Two senses, one picture."
+            },
+            {
+              "prompt": "Touch",
+              "answer": "The door handle was so cold it stuck to my fingers.",
+              "explanation": "A physical detail listeners feel."
+            },
+            {
+              "prompt": "Too much",
+              "answer": "It was a big, old, dark, damp, cold, creaky, dusty house.",
+              "explanation": "Too many adjectives for the ear."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-read-2",
+          "heading": "Setup, surprise and payoff",
+          "explanation": "Humour and surprise usually work in three steps:\n- The **setup** creates an expectation.\n- The **surprise** breaks it.\n- The **payoff** is the moment people laugh or gasp.\n\nPlant a small detail early and bring it back later — a **callback**: \"the red umbrella\" mentioned in passing can return at the end with new meaning.\n\nKeep jokes short and leave a tiny pause just before the surprise. If the audience does not react, keep going calmly; never explain the joke.",
+          "examples": [
+            {
+              "prompt": "Setup",
+              "answer": "My dad insisted he didn’t need the satnav. He knew the way.",
+              "explanation": "Creates an expectation."
+            },
+            {
+              "prompt": "Surprise",
+              "answer": "Three hours later, we arrived — in the wrong country.",
+              "explanation": "Breaks the expectation."
+            },
+            {
+              "prompt": "Callback",
+              "answer": "At the border, the guard asked if we needed directions.",
+              "explanation": "Brings the earlier idea back."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-i-senses",
+        "st-i-funny"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why do spoken stories need sense details?",
+          "answer": "Listeners must picture the scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listeners must picture the scene",
+              "They fill time",
+              "They replace the plot",
+              "They make words longer"
+            ],
+            "accepted": [
+              "Listeners must picture the scene"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which phrase uses a sense detail?",
+          "answer": "the smell of bread and wet stone",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "the smell of bread and wet stone",
+              "a nice place",
+              "a big thing",
+              "something good"
+            ],
+            "accepted": [
+              "the smell of bread and wet stone"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a callback?",
+          "answer": "Bringing an early detail back later",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Bringing an early detail back later",
+              "A phone call",
+              "A new title",
+              "A loud ending"
+            ],
+            "accepted": [
+              "Bringing an early detail back later"
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each sense with a detail.",
+          "answer": "Smell → bread and wet stone | Sound → a door that sticks and squeaks | Touch → a cold metal handle",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Smell",
+                "bread and wet stone"
+              ],
+              [
+                "Sound",
+                "a door that sticks and squeaks"
+              ],
+              [
+                "Touch",
+                "a cold metal handle"
+              ]
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its job.",
+          "answer": "Setup → builds an expectation | Surprise → breaks the expectation | Payoff → gets the reaction",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Setup",
+                "builds an expectation"
+              ],
+              [
+                "Surprise",
+                "breaks the expectation"
+              ],
+              [
+                "Payoff",
+                "gets the reaction"
+              ]
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Plain words are fine for sense details.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the joke in order.",
+          "answer": "Build the expectation | Break it with a surprise | Pause for the reaction",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Build the expectation",
+              "Break it with a surprise",
+              "Pause for the reaction"
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Twenty details make a scene clearer.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A detail planted early can pay off later.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Use details from the ___.",
+          "answer": "senses",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "senses"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A long explanation makes a joke funnier.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The door squeaked loudly.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "door",
+              "squeaked",
+              "loudly.",
+              "never",
+              "squeak"
+            ],
+            "accepted": [
+              "The door squeaked loudly."
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Plant a small detail ___ and use it later.",
+          "answer": "early",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "early"
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. Which sense is NOT used?",
+          "answer": "Taste",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Taste",
+              "Smell",
+              "Sound",
+              "Touch"
+            ],
+            "accepted": [
+              "Taste"
+            ],
+            "audioText": "The market smelled of oranges and rain. A man shouted prices, and my shoes stuck to the wet stones."
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "And then the red umbrella came back.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "And",
+              "then",
+              "the",
+              "red",
+              "umbrella",
+              "came",
+              "back.",
+              "never",
+              "return"
+            ],
+            "accepted": [
+              "And then the red umbrella came back."
+            ]
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Picture the place | Choose two or three sense details | Say them in simple words",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Picture the place",
+              "Choose two or three sense details",
+              "Say them in simple words"
+            ]
+          },
+          "explanation": "Listeners cannot see the page, so they need to see the scene in their minds."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Listen. What is the callback?",
+          "answer": "The umbrella",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The umbrella",
+              "The stranger",
+              "The smile",
+              "The start"
+            ],
+            "accepted": [
+              "The umbrella"
+            ],
+            "audioText": "At the start, Leo says he never loses his umbrella. At the end of the story, the umbrella is on a stranger’s head. Leo smiles and says, Well, I never lose it. Someone borrows it."
+          },
+          "explanation": "Humor and surprise work in three steps."
+        },
+        {
+          "id": "storyteller-topic-details-setup-and-payoff-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about details, setup and payoff in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-presence-and-story-length",
+      "contentVersion": "2",
+      "level": "Intermediate",
+      "title": "Presence and story length",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-PRESENCE-AND-STORY-LENGTH",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-presence-and-story-length-read-1",
+          "heading": "Voices and gestures",
+          "explanation": "Use **your voice** to show who is speaking: change your pace, pitch or volume a little for each character, and keep each voice consistent every time that character speaks. A small shift is enough; you do not need to perform an accent.\n\nUse **one or two gestures** that fit the story, such as lifting a pretend cup or pointing to an imaginary door.\n\nKeep your body open to the audience, and stay inside the story — do not break off to comment on your own voices.",
+          "examples": [
+            {
+              "prompt": "Character voice",
+              "answer": "The child: quick and high. The teacher: slow and low.",
+              "explanation": "Simple, consistent contrast."
+            },
+            {
+              "prompt": "Fitting gesture",
+              "answer": "Mime knocking as you say, “I knocked three times.”",
+              "explanation": "Supports the words."
+            },
+            {
+              "prompt": "Breaking the story",
+              "answer": "“Sorry, I’m bad at voices — anyway…”",
+              "explanation": "Pulls the audience out."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-read-2",
+          "heading": "One story, three lengths",
+          "explanation": "A story must fit the time you have. Prepare it at **three lengths**:\n- A **30-second version** has only the want, the problem and the change.\n- A **three-minute version** adds two or three details and one short scene with dialogue.\n- A **longer version** adds more scenes and texture.\n\nKnow the one moment you will never cut — usually the turning point. When time is short, cut background first, then minor characters, but keep the turning point and the landing.\n\nPractise each version with a timer.",
+          "examples": [
+            {
+              "prompt": "30 seconds",
+              "answer": "I wanted the job, I froze in the interview, I asked to start again — and got it.",
+              "explanation": "Want, problem, change."
+            },
+            {
+              "prompt": "Never cut",
+              "answer": "The moment I said, “Can I start again?”",
+              "explanation": "The turning point."
+            },
+            {
+              "prompt": "Cut first",
+              "answer": "The details of the bus journey to the interview.",
+              "explanation": "Background goes first."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-i-voices",
+        "st-i-time"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-presence-and-story-length-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you show a different character?",
+          "answer": "Change pace, pitch or volume a little",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Change pace, pitch or volume a little",
+              "Shout every line",
+              "Whisper the whole story",
+              "Use a long pause"
+            ],
+            "accepted": [
+              "Change pace, pitch or volume a little"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Do you need to do an accent?",
+          "answer": "No, a small shift is enough",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, a small shift is enough",
+              "Yes, always",
+              "Only for children",
+              "Only at the end"
+            ],
+            "accepted": [
+              "No, a small shift is enough"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can a three-minute version add?",
+          "answer": "Two or three details and a short scene",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Two or three details and a short scene",
+              "A second plot",
+              "A lecture",
+              "A list of names"
+            ],
+            "accepted": [
+              "Two or three details and a short scene"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why keep each voice steady?",
+          "answer": "Listeners can tell who is speaking",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Listeners can tell who is speaking",
+              "It saves breath",
+              "It shortens the story",
+              "It hides the plot"
+            ],
+            "accepted": [
+              "Listeners can tell who is speaking"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you cut first when time is short?",
+          "answer": "Background",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Background",
+              "The turning point",
+              "The ending",
+              "The want"
+            ],
+            "accepted": [
+              "Background"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which gesture suits a story?",
+          "answer": "Holding a pretend cup",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Holding a pretend cup",
+              "Pointing at the audience",
+              "Checking your phone",
+              "Hiding your hands"
+            ],
+            "accepted": [
+              "Holding a pretend cup"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you avoid?",
+          "answer": "Breaking the story to comment on your voices",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Breaking the story to comment on your voices",
+              "Practicing",
+              "Listening",
+              "Smiling"
+            ],
+            "accepted": [
+              "Breaking the story to comment on your voices"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you check timing?",
+          "answer": "Practice with a timer",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Practice with a timer",
+              "Guess",
+              "Ask the room",
+              "Skip it"
+            ],
+            "accepted": [
+              "Practice with a timer"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "Slower pace → feels calm or serious | Higher pitch → feels lighter or younger | Softer volume → feels secret or close",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Slower pace",
+                "feels calm or serious"
+              ],
+              [
+                "Higher pitch",
+                "feels lighter or younger"
+              ],
+              [
+                "Softer volume",
+                "feels secret or close"
+              ]
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each version with its size.",
+          "answer": "30 seconds → want, problem, change | 3 minutes → adds details and a scene | Never cut → the turning point",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "30 seconds",
+                "want, problem, change"
+              ],
+              [
+                "3 minutes",
+                "adds details and a scene"
+              ],
+              [
+                "Never cut",
+                "the turning point"
+              ]
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A small change in voice is enough.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the cuts in order.",
+          "answer": "Cut background first | Cut side characters next | Keep the turning point",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Cut background first",
+              "Cut side characters next",
+              "Keep the turning point"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Big gestures on every word help the story.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: You can cut the turning point if time is short.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Keep each character’s voice ___.",
+          "answer": "steady",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "steady"
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Practice with a ___.",
+          "answer": "timer",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "timer"
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "She spoke softly and slowly.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "She",
+              "spoke",
+              "softly",
+              "and",
+              "slowly.",
+              "never",
+              "soft"
+            ],
+            "accepted": [
+              "She spoke softly and slowly."
+            ]
+          },
+          "explanation": "Use your voice to show who is speaking."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I need a thirty second version.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "need",
+              "a",
+              "thirty",
+              "second",
+              "version.",
+              "never",
+              "thirty-second"
+            ],
+            "accepted": [
+              "I need a thirty second version."
+            ]
+          },
+          "explanation": "A story must fit the time you have."
+        },
+        {
+          "id": "storyteller-topic-presence-and-story-length-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about presence and story length in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-callbacks-and-deliberate-practice",
+      "contentVersion": "2",
+      "level": "Intermediate",
+      "title": "Callbacks and deliberate practice",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-CALLBACKS-AND-DELIBERATE-PRACTICE",
+      "trackId": "storyteller",
+      "unitId": "perform",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: and, but, therefore; setup and payoff; time-boxed tellings (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-read-1",
+          "heading": "Openings, endings and callbacks",
+          "explanation": "**Open** with something that makes people lean in: a moment, a question or a strange fact. Do not start with \"I’m going to tell you a story.\"\n\n**End** with a line that echoes the opening, so the story feels complete and shaped. A final image or one short sentence works better than a long moral.\n\nAfter your last line, pause for a moment before saying thank you; the silence lets the ending land.",
+          "examples": [
+            {
+              "prompt": "Opening image",
+              "answer": "My grandmother kept a jar of buttons on the kitchen shelf.",
+              "explanation": "A specific image to return to."
+            },
+            {
+              "prompt": "Echo ending",
+              "answer": "Today that jar of buttons sits on my shelf.",
+              "explanation": "The callback closes the circle."
+            },
+            {
+              "prompt": "Long moral",
+              "answer": "And so I learned that family is the most important thing and we should always…",
+              "explanation": "Explains too much."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-read-2",
+          "heading": "Practising, recording and improving",
+          "explanation": "You improve fastest by telling a story aloud, listening back and **changing one thing at a time**.\n\nRecord yourself on your phone. Listen for:\n- pace\n- pauses\n- filler words such as um and like\n- places where the energy drops.\n\nChoose one change for the next telling — for example, slowing down at the turning point.\n\nThen tell it to a friend and ask two questions: \"Where were you most interested? Where did you drift?\" Their answers show you what to keep and what to cut.",
+          "examples": [
+            {
+              "prompt": "Record",
+              "answer": "Telling 1: 3 min 20, 14 “ums”.",
+              "explanation": "Measure the starting point."
+            },
+            {
+              "prompt": "One change",
+              "answer": "Telling 2: pause before the reveal.",
+              "explanation": "Improve one thing at a time."
+            },
+            {
+              "prompt": "Ask",
+              "answer": "Where did you stop listening?",
+              "explanation": "Feedback that shows what to cut."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-i-open",
+        "st-i-review"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening makes listeners lean in?",
+          "answer": "The night my brother vanished, I was holding a spoon.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The night my brother vanished, I was holding a spoon.",
+              "I am going to tell you a story.",
+              "Hello.",
+              "This is a story."
+            ],
+            "accepted": [
+              "The night my brother vanished, I was holding a spoon."
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How can you improve a spoken story?",
+          "answer": "Tell it aloud, listen back and change one thing",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Tell it aloud, listen back and change one thing",
+              "Read it silently",
+              "Never practice",
+              "Change everything each time"
+            ],
+            "accepted": [
+              "Tell it aloud, listen back and change one thing"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you listen for in a recording?",
+          "answer": "Pace, pauses and fillers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pace, pauses and fillers",
+              "Only the title",
+              "The color of the room",
+              "The brand of the phone"
+            ],
+            "accepted": [
+              "Pace, pauses and fillers"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which ending is stronger?",
+          "answer": "I still keep the spoon.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I still keep the spoon.",
+              "And that is the end of my story, and the moral is to always be careful.",
+              "Thanks for listening to all of that.",
+              "So yeah."
+            ],
+            "accepted": [
+              "I still keep the spoon."
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How many changes should you try per telling?",
+          "answer": "One",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One",
+              "Ten",
+              "None",
+              "Fifty"
+            ],
+            "accepted": [
+              "One"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after the last line?",
+          "answer": "Pause",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Pause",
+              "Run",
+              "Explain it",
+              "Start again"
+            ],
+            "accepted": [
+              "Pause"
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which opening should you avoid?",
+          "answer": "I am going to tell you a story.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "I am going to tell you a story.",
+              "A strange noise woke me up.",
+              "Nobody believed me.",
+              "It started with a letter."
+            ],
+            "accepted": [
+              "I am going to tell you a story."
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which change is specific?",
+          "answer": "Slow down at the turning point.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Slow down at the turning point.",
+              "Be better.",
+              "Try harder.",
+              "Fix it."
+            ],
+            "accepted": [
+              "Slow down at the turning point."
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its job.",
+          "answer": "Opening moment → makes people lean in | Echo in the ending → shows the story is complete | Pause → lets the ending land",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Opening moment",
+                "makes people lean in"
+              ],
+              [
+                "Echo in the ending",
+                "shows the story is complete"
+              ],
+              [
+                "Pause",
+                "lets the ending land"
+              ]
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its purpose.",
+          "answer": "Record → hear yourself | Choose one change → keep practice focused | Ask a friend → learn what worked",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Record",
+                "hear yourself"
+              ],
+              [
+                "Choose one change",
+                "keep practice focused"
+              ],
+              [
+                "Ask a friend",
+                "learn what worked"
+              ]
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A long moral is the best ending.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the practice in order.",
+          "answer": "Tell the story aloud | Listen to the recording | Choose one change and try again",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Tell the story aloud",
+              "Listen to the recording",
+              "Choose one change and try again"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: An ending can echo the opening.",
+          "answer": "True",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "True",
+              "False"
+            ],
+            "accepted": [
+              "True"
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Changing everything at once is the best way to practice.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: End with a final ___.",
+          "answer": "image",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "image"
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Listen for filler words such as ___.",
+          "answer": "um",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "um"
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I still keep the spoon.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "still",
+              "keep",
+              "the",
+              "spoon.",
+              "never",
+              "kept"
+            ],
+            "accepted": [
+              "I still keep the spoon."
+            ]
+          },
+          "explanation": "Open with something that makes people lean in: a moment, a question, or a strange fact."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I will slow down at the turning point.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "will",
+              "slow",
+              "down",
+              "at",
+              "the",
+              "turning",
+              "point.",
+              "never",
+              "slows"
+            ],
+            "accepted": [
+              "I will slow down at the turning point."
+            ]
+          },
+          "explanation": "You improve fastest when you tell a story out loud, listen back and change one thing."
+        },
+        {
+          "id": "storyteller-topic-callbacks-and-deliberate-practice-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about callbacks and deliberate practice in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-layers-restraint-and-implication",
+      "contentVersion": "2",
+      "level": "Advanced",
+      "title": "Layers, restraint and implication",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-LAYERS-RESTRAINT-AND-IMPLICATION",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-read-1",
+          "heading": "Layered tellings",
+          "explanation": "Experienced storytellers often **tell two stories at once**: the surface events and a deeper meaning underneath. A story about repairing an old boat with your father can also be a story about forgiveness.\n\nChoose a **central image** that can hold both layers, and let the surface story carry the deeper one without explaining it.\n\nA **frame** — returning to one object or place at the start and the end — helps unify the telling. Trust the audience to feel the second layer.",
+          "examples": [
+            {
+              "prompt": "Surface",
+              "answer": "We spent the summer fixing Dad’s boat.",
+              "explanation": "What happens."
+            },
+            {
+              "prompt": "Deeper layer",
+              "answer": "We hadn’t spoken properly in five years.",
+              "explanation": "What the story is really about."
+            },
+            {
+              "prompt": "Unifying image",
+              "answer": "The last plank we fitted was the one he’d broken in anger years before.",
+              "explanation": "One image holds both layers."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-read-2",
+          "heading": "Restraint and implication",
+          "explanation": "The strongest moments are often the quietest. Instead of saying that your father was afraid, show what he did: he read the letter twice, then went outside to fix a gate that was not broken.\n\n**Implication** lets listeners do the emotional work, which makes the feeling theirs. Cut the sentence that tells the audience what to feel.\n\nStop at the moment of greatest tension and let silence do part of the telling.",
+          "examples": [
+            {
+              "prompt": "Telling the feeling",
+              "answer": "I was devastated and heartbroken.",
+              "explanation": "Names the feeling."
+            },
+            {
+              "prompt": "Implied",
+              "answer": "I set the table for two, then put one plate back.",
+              "explanation": "The listener feels it."
+            },
+            {
+              "prompt": "Stop at tension",
+              "answer": "The phone rang. I looked at it. I didn’t answer.",
+              "explanation": "Ends on the moment, not the explanation."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-a-layers",
+        "st-a-restraint"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a layered telling?",
+          "answer": "A story that works on the surface and carries a deeper meaning",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A story that works on the surface and carries a deeper meaning",
+              "A very long story",
+              "A story told twice",
+              "A story with many characters"
+            ],
+            "accepted": [
+              "A story that works on the surface and carries a deeper meaning"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. When the letter came, my father read it twice, folded it into his pocket, and went out to fix the gate. It was not broken. What does the father’s action imply?",
+          "answer": "The letter upset him, and he is hiding it.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The letter upset him, and he is hiding it.",
+              "He enjoys fixing gates.",
+              "The gate needed fixing.",
+              "The letter was good news."
+            ],
+            "accepted": [
+              "The letter upset him, and he is hiding it."
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is a central image?",
+          "answer": "An image that holds both layers",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "An image that holds both layers",
+              "The title",
+              "The first line",
+              "The audience’s name"
+            ],
+            "accepted": [
+              "An image that holds both layers"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What is implication?",
+          "answer": "Letting the audience infer a feeling from action",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Letting the audience infer a feeling from action",
+              "Explaining each feeling",
+              "Skipping the plot",
+              "Using adjectives"
+            ],
+            "accepted": [
+              "Letting the audience infer a feeling from action"
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Should you explain the deeper meaning?",
+          "answer": "No, trust the audience to feel it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No, trust the audience to feel it",
+              "Yes, in every paragraph",
+              "Only in the title",
+              "Always at the start"
+            ],
+            "accepted": [
+              "No, trust the audience to feel it"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which sentence uses restraint?",
+          "answer": "He folded the letter into his pocket and went out to fix the gate.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "He folded the letter into his pocket and went out to fix the gate.",
+              "He was terribly afraid and sad.",
+              "He felt a very big emotion.",
+              "He was upset."
+            ],
+            "accepted": [
+              "He folded the letter into his pocket and went out to fix the gate."
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a frame do?",
+          "answer": "Unifies the telling by returning to an object or moment",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Unifies the telling by returning to an object or moment",
+              "Hides the plot",
+              "Lengthens the story",
+              "Replaces the ending"
+            ],
+            "accepted": [
+              "Unifies the telling by returning to an object or moment"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "A story about repairing a boat could also be about what?",
+          "answer": "Forgiveness",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Forgiveness",
+              "Boat prices",
+              "Weather",
+              "Fishing licenses"
+            ],
+            "accepted": [
+              "Forgiveness"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can silence do?",
+          "answer": "Hold the tension",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Hold the tension",
+              "End the story",
+              "Confuse people",
+              "Replace words"
+            ],
+            "accepted": [
+              "Hold the tension"
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each element with its role.",
+          "answer": "Surface story → the events | Deeper layer → the meaning underneath | Central image → holds both together",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Surface story",
+                "the events"
+              ],
+              [
+                "Deeper layer",
+                "the meaning underneath"
+              ],
+              [
+                "Central image",
+                "holds both together"
+              ]
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each telling with its approach.",
+          "answer": "He was afraid. → tells | His hands would not stop shaking the paper. → shows | He read it twice and went to fix the gate. → implies",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "He was afraid.",
+                "tells"
+              ],
+              [
+                "His hands would not stop shaking the paper.",
+                "shows"
+              ],
+              [
+                "He read it twice and went to fix the gate.",
+                "implies"
+              ]
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Find the deeper meaning | Choose an image that holds both layers | Tell the surface story without explaining the meaning",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find the deeper meaning",
+              "Choose an image that holds both layers",
+              "Tell the surface story without explaining the meaning"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the revision in order.",
+          "answer": "Find a line that names a feeling | Replace it with an action or detail | Pause after the key moment",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Find a line that names a feeling",
+              "Replace it with an action or detail",
+              "Pause after the key moment"
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Explaining the deeper meaning makes it stronger.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Naming the feeling always moves an audience more than an action.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: A ___ returns to one image at the start and end.",
+          "answer": "frame",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "frame"
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Let the audience do the ___ work.",
+          "answer": "emotional",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "emotional"
+            ]
+          },
+          "explanation": "The strongest moments are often the quietest."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "The boat is also a story about forgiveness.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "The",
+              "boat",
+              "is",
+              "also",
+              "a",
+              "story",
+              "about",
+              "forgiveness.",
+              "never",
+              "forgive"
+            ],
+            "accepted": [
+              "The boat is also a story about forgiveness."
+            ]
+          },
+          "explanation": "Experienced tellers often tell two stories at once: the surface events and a deeper meaning underneath."
+        },
+        {
+          "id": "storyteller-topic-layers-restraint-and-implication-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about layers, restraint and implication in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-true-stories-and-physical-presence",
+      "contentVersion": "2",
+      "level": "Advanced",
+      "title": "True stories and physical presence",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-TRUE-STORIES-AND-PHYSICAL-PRESENCE",
+      "trackId": "storyteller",
+      "unitId": "art",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-read-1",
+          "heading": "Shaping a true story",
+          "explanation": "A personal story is not simply \"what happened\" — **you choose what to tell**. Pick one change, such as the day you stopped pretending to understand. Compress time and cut side events, but **do not invent facts** you present as true.\n\nBe honest about your own part, including your mistakes; audiences trust a teller who is not the hero of every scene. Reflect briefly at the end on what you learned.\n\nIf real people appear in the story, consider how they would feel hearing it.",
+          "examples": [
+            {
+              "prompt": "Compressed",
+              "answer": "Over the next three months, I failed the test twice.",
+              "explanation": "Time shortened, facts kept."
+            },
+            {
+              "prompt": "Honest part",
+              "answer": "And honestly, it was my fault: I hadn’t studied.",
+              "explanation": "Not the hero of every moment."
+            },
+            {
+              "prompt": "Brief reflection",
+              "answer": "That’s when I learned that asking for help isn’t weakness.",
+              "explanation": "Short meaning at the end."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-read-2",
+          "heading": "Body, space and presence",
+          "explanation": "Your body tells the story too.\n\n- Use **space**: give each character or place its own spot on the stage and return to it, so the audience always knows who is speaking or where you are.\n- Use **stillness**: a pause with a still body can be more powerful than movement.\n- Let your eyes look where the character would be looking.\n- Keep gestures small and meaningful.\n- Breathe low and slowly to keep your voice steady, especially before emotional moments.",
+          "examples": [
+            {
+              "prompt": "Use space",
+              "answer": "Stand left for the mother, right for the son.",
+              "explanation": "The audience tracks the characters."
+            },
+            {
+              "prompt": "Stillness",
+              "answer": "Stop moving completely before the key line.",
+              "explanation": "Stillness focuses attention."
+            },
+            {
+              "prompt": "Eye line",
+              "answer": "Look up when the character looks at the tall stranger.",
+              "explanation": "Eyes place the scene."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-a-true",
+        "st-a-body"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. When I was twelve I lied to my teacher about a broken window. For years I told this story as a joke. Last spring I finally told my teacher the truth, and she remembered nothing at all. What change does the story center on?",
+          "answer": "From hiding a lie to telling the truth",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "From hiding a lie to telling the truth",
+              "From joking to crying",
+              "From school to work",
+              "From childhood to old age"
+            ],
+            "accepted": [
+              "From hiding a lie to telling the truth"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why give each character a spot in space?",
+          "answer": "The audience knows who is speaking",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The audience knows who is speaking",
+              "It uses more space",
+              "It decorates the stage",
+              "It hides the story"
+            ],
+            "accepted": [
+              "The audience knows who is speaking"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a personal story center on?",
+          "answer": "One change",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "One change",
+              "Every event of the year",
+              "A list of facts",
+              "Other people’s secrets"
+            ],
+            "accepted": [
+              "One change"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can stillness do?",
+          "answer": "Make a moment powerful",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Make a moment powerful",
+              "Confuse the story",
+              "Replace words always",
+              "End the telling"
+            ],
+            "accepted": [
+              "Make a moment powerful"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you do with time?",
+          "answer": "Compress it and cut side events",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Compress it and cut side events",
+              "Add false events",
+              "Make it longer",
+              "Invent proof"
+            ],
+            "accepted": [
+              "Compress it and cut side events"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Where should your eyes look when a character speaks to another?",
+          "answer": "Where that character would be",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Where that character would be",
+              "At your feet",
+              "At the clock",
+              "At your notes"
+            ],
+            "accepted": [
+              "Where that character would be"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you not do with facts?",
+          "answer": "Invent them and present them as true",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Invent them and present them as true",
+              "Select among them",
+              "Order them",
+              "Cut them"
+            ],
+            "accepted": [
+              "Invent them and present them as true"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why admit your own mistakes?",
+          "answer": "Audiences trust a teller who is honest about them",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Audiences trust a teller who is honest about them",
+              "It makes the story shorter",
+              "It hides the plot",
+              "It prevents laughter"
+            ],
+            "accepted": [
+              "Audiences trust a teller who is honest about them"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What helps keep the voice steady?",
+          "answer": "Breathing from low in the body",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Breathing from low in the body",
+              "Holding your breath",
+              "Speaking faster",
+              "Whispering"
+            ],
+            "accepted": [
+              "Breathing from low in the body"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each choice with its effect.",
+          "answer": "One change → gives the story focus | Compressed time → keeps the pace | Honest mistakes → builds trust",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "One change",
+                "gives the story focus"
+              ],
+              [
+                "Compressed time",
+                "keeps the pace"
+              ],
+              [
+                "Honest mistakes",
+                "builds trust"
+              ]
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each tool with its effect.",
+          "answer": "A spot for each character → clear speakers | Stillness → emphasis | A small gesture → meaning without distraction",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "A spot for each character",
+                "clear speakers"
+              ],
+              [
+                "Stillness",
+                "emphasis"
+              ],
+              [
+                "A small gesture",
+                "meaning without distraction"
+              ]
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the shaping in order.",
+          "answer": "Choose the change that matters | Cut events that do not serve it | End with a brief reflection",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Choose the change that matters",
+              "Cut events that do not serve it",
+              "End with a brief reflection"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the preparation in order.",
+          "answer": "Decide where each character stands | Practice the shifts between them | Add stillness before key moments",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Decide where each character stands",
+              "Practice the shifts between them",
+              "Add stillness before key moments"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A personal story should include everything that happened.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Big gestures on every line make a telling stronger.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Do not ___ facts you present as true.",
+          "answer": "invent",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "invent"
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Breathe from ___ in the body.",
+          "answer": "low",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "low"
+            ]
+          },
+          "explanation": "Your body tells the story too."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I told my teacher the truth.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "told",
+              "my",
+              "teacher",
+              "the",
+              "truth.",
+              "never",
+              "tells"
+            ],
+            "accepted": [
+              "I told my teacher the truth."
+            ]
+          },
+          "explanation": "Personal stories are not simply what happened; you choose what to tell."
+        },
+        {
+          "id": "storyteller-topic-true-stories-and-physical-presence-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about true stories and physical presence in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-live-audiences-and-traditional-tales",
+      "contentVersion": "2",
+      "level": "Advanced",
+      "title": "Live audiences and traditional tales",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-LIVE-AUDIENCES-AND-TRADITIONAL-TALES",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-read-1",
+          "heading": "Responding to a live audience",
+          "explanation": "A told story is a **conversation with the audience**. Watch for signals: leaning in and stillness mean you have them; checking phones or shifting means you are losing them.\n\nAdjust:\n- change pace\n- shorten a side path\n- add a vivid detail.\n\nIf something unexpected happens — a noise, a phone ringing — acknowledge it briefly and return to the story. Keep a short ending ready in case time runs out, and leave space for laughter, waiting for it to fade before continuing.",
+          "examples": [
+            {
+              "prompt": "Losing them",
+              "answer": "Faces down, phones out.",
+              "explanation": "Time to speed up or add a detail."
+            },
+            {
+              "prompt": "Interruption",
+              "answer": "(a phone rings) “Probably my mother, checking I’m telling it right.” — and continue.",
+              "explanation": "Brief acknowledgement, then back to the story."
+            },
+            {
+              "prompt": "Short ending",
+              "answer": "If time is cut: jump straight to the reunion at the station.",
+              "explanation": "A prepared shortcut."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-read-2",
+          "heading": "Retelling and adapting traditional tales",
+          "explanation": "Traditional tales belong to communities, and you can retell them with care. **Keep the core** of the tale: what it is about and what changes.\n\n**Adapt** the setting, characters and language so the tale speaks to your audience — a fox and a crow can become a slick salesperson and a proud new manager.\n\n**Credit the source** when you know it (\"This is a story from Ghana, about Anansi the spider\"). Some stories are sacred or restricted within a culture; do not present them as entertainment without permission. Be clear about what is yours and what belongs to the tradition.",
+          "examples": [
+            {
+              "prompt": "Keep the core",
+              "answer": "Pride makes the crow drop the cheese.",
+              "explanation": "The heart of the fable."
+            },
+            {
+              "prompt": "Adapt",
+              "answer": "Flattered by a compliment, the new manager agrees to a terrible deal.",
+              "explanation": "Same core, modern setting."
+            },
+            {
+              "prompt": "Credit",
+              "answer": "This is my version of an old Aesop fable.",
+              "explanation": "Names the source."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-a-live",
+        "st-a-retell"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-01",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does an audience leaning in suggest?",
+          "answer": "You have their attention",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "You have their attention",
+              "They are leaving",
+              "They are asleep",
+              "They disagree"
+            ],
+            "accepted": [
+              "You have their attention"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-02",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. The old tale says that a fox tricked a crow into dropping her cheese. In my retelling, the crow is a new employee and the fox is her manager. What has the teller adapted?",
+          "answer": "The setting and the characters",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The setting and the characters",
+              "The core idea",
+              "The moral",
+              "The animals’ names only"
+            ],
+            "accepted": [
+              "The setting and the characters"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What can you do if people check their phones?",
+          "answer": "Shorten a detour or add a vivid detail",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Shorten a detour or add a vivid detail",
+              "Stop the story",
+              "Speak louder only",
+              "Apologize"
+            ],
+            "accepted": [
+              "Shorten a detour or add a vivid detail"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should stay when you adapt a tale?",
+          "answer": "The core: what it is about and what changes",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "The core: what it is about and what changes",
+              "Nothing",
+              "Only the title",
+              "The setting"
+            ],
+            "accepted": [
+              "The core: what it is about and what changes"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after an unexpected noise?",
+          "answer": "Acknowledge briefly and return",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Acknowledge briefly and return",
+              "Ignore it forever",
+              "Stop the telling",
+              "Blame the audience"
+            ],
+            "accepted": [
+              "Acknowledge briefly and return"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Why have a short ending ready?",
+          "answer": "Time may run out",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Time may run out",
+              "It looks neat",
+              "It replaces the plot",
+              "It hides the middle"
+            ],
+            "accepted": [
+              "Time may run out"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do with the source?",
+          "answer": "Credit it when you know it",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Credit it when you know it",
+              "Hide it",
+              "Claim it as yours",
+              "Delete it"
+            ],
+            "accepted": [
+              "Credit it when you know it"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do after laughter?",
+          "answer": "Wait until it fades",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Wait until it fades",
+              "Talk over it",
+              "Stop",
+              "Repeat the joke"
+            ],
+            "accepted": [
+              "Wait until it fades"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you avoid without permission?",
+          "answer": "Telling sacred or restricted stories as entertainment",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Telling sacred or restricted stories as entertainment",
+              "Telling any story",
+              "Using animals",
+              "Using humor"
+            ],
+            "accepted": [
+              "Telling sacred or restricted stories as entertainment"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each signal with a response.",
+          "answer": "Leaning in → continue as planned | Phones out → shorten or sharpen | A loud noise → acknowledge and return",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Leaning in",
+                "continue as planned"
+              ],
+              [
+                "Phones out",
+                "shorten or sharpen"
+              ],
+              [
+                "A loud noise",
+                "acknowledge and return"
+              ]
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each step with its example.",
+          "answer": "Keep the core → someone is tricked by flattery | Adapt the setting → an office instead of a forest | Credit the source → this tale comes from an old collection",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Keep the core",
+                "someone is tricked by flattery"
+              ],
+              [
+                "Adapt the setting",
+                "an office instead of a forest"
+              ],
+              [
+                "Credit the source",
+                "this tale comes from an old collection"
+              ]
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the live adjustment in order.",
+          "answer": "Notice the audience’s signals | Adjust pace or length | Return to the story with a clear line",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Notice the audience’s signals",
+              "Adjust pace or length",
+              "Return to the story with a clear line"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the steps in order.",
+          "answer": "Understand the tale’s core | Adapt setting and characters for your audience | Credit the source and say what is yours",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Understand the tale’s core",
+              "Adapt setting and characters for your audience",
+              "Credit the source and say what is yours"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A teller should ignore the audience’s signals.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Every traditional story is open for any use.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Wait until the laughter ___.",
+          "answer": "fades",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "fades"
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Credit the ___ when you know it.",
+          "answer": "source",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "source"
+            ]
+          },
+          "explanation": "Traditional tales belong to communities."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "I will shorten this part.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "I",
+              "will",
+              "shorten",
+              "this",
+              "part.",
+              "never",
+              "short"
+            ],
+            "accepted": [
+              "I will shorten this part."
+            ]
+          },
+          "explanation": "A told story is a conversation with the audience."
+        },
+        {
+          "id": "storyteller-topic-live-audiences-and-traditional-tales-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about live audiences and traditional tales in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "storyteller-topic-workplace-stories-and-ownership",
+      "contentVersion": "2",
+      "level": "Advanced",
+      "title": "Workplace stories and ownership",
+      "objectiveId": "TOPIC-STORYTELLER-TOPIC-WORKPLACE-STORIES-AND-OWNERSHIP",
+      "trackId": "storyteller",
+      "unitId": "practice",
+      "tip": "Tell the story to someone, not merely at them. Select the moment of change, keep the details that help a listener follow it and make the ending connect to the beginning. Rehearse aloud, then shorten or expand the telling without changing what the events actually support.",
+      "sources": [
+        "Oral-storytelling traditions and public-domain folktale collections (structure ideas only; no text copied)",
+        "Common storytelling-workshop practice: layering, restraint, shaping true events, consent and cultural respect (original wording)"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-read-1",
+          "heading": "Stories at work",
+          "explanation": "A story can make a business case more memorable than data alone. A good customer or project story has:\n- a real person\n- a clear problem\n- a change\n- a result with a number: \"Ana used to spend an hour on meeting notes. Now it takes ten minutes.\"\n\nKeep it **short, true and specific**, and get the person’s permission before sharing their story. Close by linking the story to the decision or action you want from your audience.",
+          "examples": [
+            {
+              "prompt": "Person + problem",
+              "answer": "Our support agent, Kofi, was answering the same question forty times a day.",
+              "explanation": "A real, specific situation."
+            },
+            {
+              "prompt": "Result with number",
+              "answer": "After we added a help page, those calls fell by 60%.",
+              "explanation": "Measurable change."
+            },
+            {
+              "prompt": "Link to the ask",
+              "answer": "That’s why I’m asking for budget to build two more help pages.",
+              "explanation": "From story to decision."
+            }
+          ]
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-read-2",
+          "heading": "Whose story is it?",
+          "explanation": "Stories involve real people. Before telling a story with others in it, ask:\n- **Is this mine to tell?**\n- Would they be hurt or exposed?\n- Can I change names and identifying details?\n\nWhen a story is about someone else’s pain, let them speak for themselves where possible, or ask for their **consent**.\n\nAvoid stereotypes: give characters from other cultures the same depth and complexity you give your own. Tell stories that leave people with their dignity.",
+          "examples": [
+            {
+              "prompt": "Ask consent",
+              "answer": "Would you mind if I told the story about your first week here?",
+              "explanation": "Permission before sharing."
+            },
+            {
+              "prompt": "Protect identity",
+              "answer": "A colleague — I’ll call her Sara — once told me…",
+              "explanation": "Changes the name."
+            },
+            {
+              "prompt": "Dignity",
+              "answer": "Tell what he did and why it mattered, not just what went wrong for him.",
+              "explanation": "Respects the person."
+            }
+          ]
+        }
+      ],
+      "sourceLessonIDs": [
+        "st-a-work",
+        "st-a-ethics"
+      ],
+      "activities": [
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-01",
+          "kind": "reading",
+          "required": true,
+          "prompt": "Read this. Our customer, a nurse named Ana, used to spend an hour every night writing notes by hand. After she began using our app, she finished in ten minutes and had time to read to her children. What is the measurable result?",
+          "answer": "Notes now take ten minutes instead of an hour.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Notes now take ten minutes instead of an hour.",
+              "Ana reads to her children.",
+              "Ana is a nurse.",
+              "The app has a name."
+            ],
+            "accepted": [
+              "Notes now take ten minutes instead of an hour."
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-02",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you ask before telling a story with real people?",
+          "answer": "Is it mine to tell?",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Is it mine to tell?",
+              "Is it long?",
+              "Is it funny?",
+              "Is it new?"
+            ],
+            "accepted": [
+              "Is it mine to tell?"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-03",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What does a customer story need?",
+          "answer": "A real person, a problem, a change and a result",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "A real person, a problem, a change and a result",
+              "A joke and a song",
+              "A long history of the company",
+              "A list of features"
+            ],
+            "accepted": [
+              "A real person, a problem, a change and a result"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-04",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you get before sharing someone’s story?",
+          "answer": "Their permission",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Their permission",
+              "Their address",
+              "Their password",
+              "A gift"
+            ],
+            "accepted": [
+              "Their permission"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-05",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should you do about someone else’s pain?",
+          "answer": "Ask their consent or let them speak for themselves",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Ask their consent or let them speak for themselves",
+              "Tell it without asking",
+              "Make it funny",
+              "Exaggerate"
+            ],
+            "accepted": [
+              "Ask their consent or let them speak for themselves"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-06",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you close a business story?",
+          "answer": "By linking it to the decision you want",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "By linking it to the decision you want",
+              "By changing the subject",
+              "By apologizing",
+              "By silence"
+            ],
+            "accepted": [
+              "By linking it to the decision you want"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-07",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "How should you portray characters from other cultures?",
+          "answer": "With the same depth as your own",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "With the same depth as your own",
+              "As stereotypes",
+              "As villains",
+              "As background"
+            ],
+            "accepted": [
+              "With the same depth as your own"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-08",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Which result is strongest?",
+          "answer": "Notes dropped from one hour to ten minutes.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Notes dropped from one hour to ten minutes.",
+              "People liked it a lot.",
+              "It was nice.",
+              "Customers were happy."
+            ],
+            "accepted": [
+              "Notes dropped from one hour to ten minutes."
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-09",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "What should a story leave people with?",
+          "answer": "Dignity",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "Dignity",
+              "Fear",
+              "Shame",
+              "Nothing"
+            ],
+            "accepted": [
+              "Dignity"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-10",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each part with an example.",
+          "answer": "Person → Ana, a nurse | Problem → an hour of handwritten notes | Result → ten minutes and time for her children",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Person",
+                "Ana, a nurse"
+              ],
+              [
+                "Problem",
+                "an hour of handwritten notes"
+              ],
+              [
+                "Result",
+                "ten minutes and time for her children"
+              ]
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-11",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Match each question with its concern.",
+          "answer": "Is it mine to tell? → ownership | Could they be hurt or exposed? → harm | Have I asked their consent? → respect",
+          "exercise": {
+            "type": "match",
+            "pairs": [
+              [
+                "Is it mine to tell?",
+                "ownership"
+              ],
+              [
+                "Could they be hurt or exposed?",
+                "harm"
+              ],
+              [
+                "Have I asked their consent?",
+                "respect"
+              ]
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-12",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the story in order.",
+          "answer": "Introduce the person | Show the problem and the change | Give the result and link to the decision",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Introduce the person",
+              "Show the problem and the change",
+              "Give the result and link to the decision"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-13",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Put the checks in order.",
+          "answer": "Ask whether the story is yours to tell | Consider harm and exposure | Ask consent or change identifying details",
+          "exercise": {
+            "type": "order",
+            "items": [
+              "Ask whether the story is yours to tell",
+              "Consider harm and exposure",
+              "Ask consent or change identifying details"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-14",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: A made-up customer story presented as real is honest.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-15",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "True or false: Stereotypes are fine if the story is entertaining.",
+          "answer": "False",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "False",
+              "True"
+            ],
+            "accepted": [
+              "False"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-16",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Get the person’s ___ to share their story.",
+          "answer": "permission",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "permission"
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-17",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Type the missing word: Ask their ___ before telling someone’s story.",
+          "answer": "consent",
+          "exercise": {
+            "type": "fillBlank",
+            "accepted": [
+              "consent",
+              "permission"
+            ]
+          },
+          "explanation": "Stories involve people."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-18",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Build the sentence.",
+          "answer": "Notes used to take an hour.",
+          "exercise": {
+            "type": "wordBank",
+            "options": [
+              "Notes",
+              "used",
+              "to",
+              "take",
+              "an",
+              "hour.",
+              "never",
+              "uses"
+            ],
+            "accepted": [
+              "Notes used to take an hour."
+            ]
+          },
+          "explanation": "A story can make a case more memorable than data."
+        },
+        {
+          "id": "storyteller-topic-workplace-stories-and-ownership-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Use what you learned about workplace stories and ownership in a short example of your own. Explain one choice you made.",
+          "answer": "A clear example that applies the lesson’s ideas.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ],
+  "archivedLessons": [
     {
       "id": "st-moment",
       "contentVersion": "1",

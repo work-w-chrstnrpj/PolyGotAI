@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-around-town",
+    "title": "Around town",
+    "level": "A1",
+    "tagline": "Shops, streets and buildings",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "bakery",
+      "pos": "noun",
+      "meaning": "A shop that makes and sells bread and cakes.",
+      "examples": [
+        "I buy fresh bread at the {bakery}."
+      ],
+      "wrong": [
+        "We wash our clothes at the bakery."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbeɪkəri/"
+    },
+    {
+      "lemma": "cafe",
+      "pos": "noun",
+      "meaning": "A small place where you can buy coffee and simple food.",
+      "examples": [
+        "Let’s meet at the {cafe} for coffee."
+      ],
+      "wrong": [
+        "I sleep at the cafe every night with my family."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "coffee shop"
+      ],
+      "ipa": "/kæˈfeɪ/"
+    },
+    {
+      "lemma": "movie theater",
+      "pos": "noun",
+      "meaning": "A building where you go to watch films on a big screen.",
+      "examples": [
+        "We saw a funny film at the {movie theater}."
+      ],
+      "wrong": [
+        "I cook dinner in the movie theater at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cinema"
+      ],
+      "ipa": "/ˈmuvi ˈθiətɚ/"
+    },
+    {
+      "lemma": "church",
+      "pos": "noun",
+      "meaning": "A building where Christians go to pray.",
+      "examples": [
+        "The old {church} has a tall tower."
+      ],
+      "wrong": [
+        "The church is a small animal that lives in trees."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tʃɝtʃ/"
+    },
+    {
+      "lemma": "building",
+      "pos": "noun",
+      "meaning": "A thing with walls and a roof, like a house or an office.",
+      "examples": [
+        "My office is in that tall {building}."
+      ],
+      "wrong": [
+        "The building flew over the trees like a bird."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɪldɪŋ/"
+    },
+    {
+      "lemma": "bookstore",
+      "pos": "noun",
+      "meaning": "A shop that sells books.",
+      "examples": [
+        "I bought a new novel at the {bookstore}."
+      ],
+      "wrong": [
+        "You can buy fresh fish at the bookstore."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bookshop"
+      ],
+      "ipa": "/ˈbʊkˌstɔr/"
+    },
+    {
+      "lemma": "fountain",
+      "pos": "noun",
+      "meaning": "A thing in a park or square that sends water up into the air.",
+      "examples": [
+        "Children play near the {fountain} in the park."
+      ],
+      "wrong": [
+        "The fountain was dry because it sends out sand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfaʊntən/"
+    },
+    {
+      "lemma": "bench",
+      "pos": "noun",
+      "meaning": "A long seat for two or more people, often outside.",
+      "examples": [
+        "We sat on a {bench} in the park."
+      ],
+      "wrong": [
+        "I put the bench in my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "seat"
+      ],
+      "ipa": "/bɛntʃ/"
+    },
+    {
+      "lemma": "playground",
+      "pos": "noun",
+      "meaning": "An outside place with swings and slides for children.",
+      "examples": [
+        "The kids are on the slide at the {playground}."
+      ],
+      "wrong": [
+        "The playground is a place where children cannot play."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpleɪˌɡraʊnd/"
+    },
+    {
+      "lemma": "tower",
+      "pos": "noun",
+      "meaning": "A tall, narrow building or part of a building.",
+      "examples": [
+        "You can see the whole city from the {tower}."
+      ],
+      "wrong": [
+        "The tower is very short and wide."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtaʊɚ/"
+    },
+    {
+      "lemma": "town",
+      "pos": "noun",
+      "meaning": "A place where people live that is bigger than a village but smaller than a city.",
+      "examples": [
+        "I grew up in a small {town}."
+      ],
+      "wrong": [
+        "Our town is so small that only one fish lives there."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/taʊn/"
+    },
+    {
+      "lemma": "center",
+      "pos": "noun",
+      "meaning": "The middle part of a town or city, with many shops.",
+      "examples": [
+        "The bank is in the town {center}."
+      ],
+      "wrong": [
+        "The center is at the far edge of the town."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "middle",
+        "downtown"
+      ],
+      "ipa": "/ˈsɛntɚ/"
+    },
+    {
+      "lemma": "fire station",
+      "pos": "noun",
+      "meaning": "A building where firefighters and their trucks wait.",
+      "examples": [
+        "The red trucks leave the {fire station} fast."
+      ],
+      "wrong": [
+        "We buy bread and milk at the fire station."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfaɪɚ ˈsteɪʃən/"
+    },
+    {
+      "lemma": "town hall",
+      "pos": "noun",
+      "meaning": "The building where the people who run a town work.",
+      "examples": [
+        "The mayor works at the {town hall}."
+      ],
+      "wrong": [
+        "The town hall is a long room in my apartment."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "city hall"
+      ],
+      "ipa": "/taʊn hɔl/"
+    },
+    {
+      "lemma": "hair salon",
+      "pos": "noun",
+      "meaning": "A place where you go to get your hair cut.",
+      "examples": [
+        "She got a short haircut at the {hair salon}."
+      ],
+      "wrong": [
+        "I went to the hair salon to buy apples."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɛr səˈlɑn/"
+    },
+    {
+      "lemma": "mall",
+      "pos": "noun",
+      "meaning": "A big building with many shops inside.",
+      "examples": [
+        "We went shopping at the {mall} on Saturday."
+      ],
+      "wrong": [
+        "The mall has no shops at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "shopping center"
+      ],
+      "ipa": "/mɔl/"
+    },
+    {
+      "lemma": "ATM",
+      "pos": "noun",
+      "meaning": "A machine in the street where you get cash from your bank.",
+      "examples": [
+        "I need cash, so I’ll stop at the {ATM}."
+      ],
+      "wrong": [
+        "I took a hot pizza out of the ATM."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cash machine"
+      ],
+      "ipa": "/ˌeɪtiˈɛm/"
+    },
+    {
+      "lemma": "entrance",
+      "pos": "noun",
+      "meaning": "The door or place where you go into a building.",
+      "examples": [
+        "Meet me at the main {entrance}."
+      ],
+      "wrong": [
+        "We left the building through the entrance on the way out."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "way in"
+      ],
+      "ipa": "/ˈɛntrəns/",
+      "antonyms": [
+        "exit"
+      ]
+    },
+    {
+      "lemma": "exit",
+      "pos": "noun",
+      "meaning": "The door or place where you go out of a building.",
+      "examples": [
+        "The {exit} is at the back of the store."
+      ],
+      "wrong": [
+        "We came into the room through the exit sign on the window."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "way out"
+      ],
+      "ipa": "/ˈɛɡzɪt/",
+      "antonyms": [
+        "entrance"
+      ]
+    },
+    {
+      "lemma": "sign",
+      "pos": "noun",
+      "meaning": "A board with words or pictures that tells you something.",
+      "examples": [
+        "The {sign} says the shop is closed."
+      ],
+      "wrong": [
+        "The sign was empty, so it told us the way."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "notice"
+      ],
+      "ipa": "/saɪn/"
+    },
+    {
+      "lemma": "restroom",
+      "pos": "noun",
+      "meaning": "A room with a toilet in a public place.",
+      "examples": [
+        "Excuse me, where is the {restroom}?"
+      ],
+      "wrong": [
+        "I made a cake in the restroom of the restaurant."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bathroom",
+        "toilet"
+      ],
+      "ipa": "/ˈrɛstˌrum/"
+    },
+    {
+      "lemma": "shoe store",
+      "pos": "noun",
+      "meaning": "A shop that sells shoes and boots.",
+      "examples": [
+        "I got new sneakers at the {shoe store}."
+      ],
+      "wrong": [
+        "I bought eggs and milk at the shoe store."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃu stɔr/"
+    },
+    {
+      "lemma": "toy store",
+      "pos": "noun",
+      "meaning": "A shop that sells things for children to play with.",
+      "examples": [
+        "He bought a ball at the {toy store}."
+      ],
+      "wrong": [
+        "The toy store only sells cars for adults to drive."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɔɪ stɔr/"
+    },
+    {
+      "lemma": "grocery store",
+      "pos": "noun",
+      "meaning": "A shop that sells food and things for the home.",
+      "examples": [
+        "We need milk from the {grocery store}."
+      ],
+      "wrong": [
+        "I bought a new bed at the grocery store."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "supermarket"
+      ],
+      "ipa": "/ˈɡroʊsəri stɔr/"
+    },
+    {
+      "lemma": "drugstore",
+      "pos": "noun",
+      "meaning": "A shop that sells medicine and things for washing.",
+      "examples": [
+        "I bought cough medicine at the {drugstore}."
+      ],
+      "wrong": [
+        "The drugstore sells only cars."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pharmacy"
+      ],
+      "ipa": "/ˈdrʌɡˌstɔr/"
+    },
+    {
+      "lemma": "pet store",
+      "pos": "noun",
+      "meaning": "A shop that sells animals and food for them.",
+      "examples": [
+        "We got a fish at the {pet store}."
+      ],
+      "wrong": [
+        "The pet store sells only cars and bikes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɛt stɔr/"
+    },
+    {
+      "lemma": "mailbox",
+      "pos": "noun",
+      "meaning": "A box where you put letters to send them.",
+      "examples": [
+        "I put the letter in the {mailbox}."
+      ],
+      "wrong": [
+        "I keep my milk cold in the mailbox."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "postbox"
+      ],
+      "ipa": "/ˈmeɪlˌbɑks/"
+    },
+    {
+      "lemma": "statue",
+      "pos": "noun",
+      "meaning": "A figure of a person or animal made of stone or metal.",
+      "examples": [
+        "There is a {statue} of a horse in the square."
+      ],
+      "wrong": [
+        "The statue walked to the shop and bought bread."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈstætʃu/"
+    },
+    {
+      "lemma": "gate",
+      "pos": "noun",
+      "meaning": "A door in a fence or wall, often outside.",
+      "examples": [
+        "Please close the {gate} to the garden."
+      ],
+      "wrong": [
+        "The gate is a hole in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡeɪt/"
+    },
+    {
+      "lemma": "parking garage",
+      "pos": "noun",
+      "meaning": "A building with many floors where you leave your car.",
+      "examples": [
+        "We left the car in the {parking garage}."
+      ],
+      "wrong": [
+        "I swim every morning in the parking garage."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɑrkɪŋ ɡəˈrɑʒ/"
+    },
+    {
+      "lemma": "main street",
+      "pos": "noun",
+      "meaning": "The most important street in a town, with many shops.",
+      "examples": [
+        "There are lots of cafes on {Main Street}."
+      ],
+      "wrong": [
+        "Main Street is the smallest, quietest road in town."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "high street"
+      ],
+      "ipa": "/meɪn strit/"
+    },
+    {
+      "lemma": "next to",
+      "pos": "preposition",
+      "meaning": "Very close, at the side of something.",
+      "examples": [
+        "The bank is {next to} the bakery."
+      ],
+      "wrong": [
+        "The cafe is next to the bank, far away in another city."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "beside"
+      ],
+      "ipa": "/nɛkst tu/"
+    },
+    {
+      "lemma": "in front of",
+      "pos": "preposition",
+      "meaning": "Just before something, facing it.",
+      "examples": [
+        "The bus stops {in front of} the school."
+      ],
+      "wrong": [
+        "I stood in front of the house, behind it in the garden."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪn frʌnt ʌv/"
+    },
+    {
+      "lemma": "store",
+      "pos": "noun",
+      "meaning": "A place where you can buy things.",
+      "examples": [
+        "The {store} on the corner sells milk."
+      ],
+      "wrong": [
+        "The store gives everything away and sells nothing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "shop"
+      ],
+      "ipa": "/stɔr/"
+    },
+    {
+      "lemma": "flower shop",
+      "pos": "noun",
+      "meaning": "A shop that sells flowers and plants.",
+      "examples": [
+        "I bought roses at the {flower shop}."
+      ],
+      "wrong": [
+        "I bought a sofa at the flower shop."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "florist"
+      ],
+      "ipa": "/ˈflaʊɚ ʃɑp/"
+    },
+    {
+      "lemma": "clothing store",
+      "pos": "noun",
+      "meaning": "A shop that sells things to wear.",
+      "examples": [
+        "She bought a dress at the {clothing store}."
+      ],
+      "wrong": [
+        "I bought bread and cheese at the clothing store."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkloʊðɪŋ stɔr/"
+    },
+    {
+      "lemma": "barber shop",
+      "pos": "noun",
+      "meaning": "A place where men go to get their hair cut.",
+      "examples": [
+        "Dad gets his hair cut at the {barber shop}."
+      ],
+      "wrong": [
+        "I bought new shoes at the barber shop."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɑrbɚ ʃɑp/"
+    },
+    {
+      "lemma": "food court",
+      "pos": "noun",
+      "meaning": "A place in a mall with many small places to eat.",
+      "examples": [
+        "We had lunch at the {food court}."
+      ],
+      "wrong": [
+        "There is no food at the food court."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fud kɔrt/"
+    },
+    {
+      "lemma": "factory",
+      "pos": "noun",
+      "meaning": "A big building where people or machines make things.",
+      "examples": [
+        "My uncle works in a car {factory}."
+      ],
+      "wrong": [
+        "The factory is a quiet place where nothing is made."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "plant"
+      ],
+      "ipa": "/ˈfæktəri/"
+    },
+    {
+      "lemma": "streetlight",
+      "pos": "noun",
+      "meaning": "A tall light at the side of a road.",
+      "examples": [
+        "The {streetlights} come on at night."
+      ],
+      "wrong": [
+        "The streetlight was so dark we could not see."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "street lamp"
+      ],
+      "ipa": "/ˈstritˌlaɪt/"
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-linkers",
+    "title": "Linking and adverbs",
+    "level": "B1",
+    "tagline": "However, although, finally",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "although",
+      "pos": "conjunction",
+      "meaning": "Used to say something surprising after another fact.",
+      "examples": [
+        "{Although} it was raining, we went out."
+      ],
+      "wrong": [
+        "Although it was sunny, it was a sunny day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "though",
+        "even though"
+      ],
+      "ipa": "/ɔlˈðoʊ/"
+    },
+    {
+      "lemma": "however",
+      "pos": "adverb",
+      "meaning": "Used to add something that contrasts with what was said.",
+      "examples": [
+        "The hotel was nice. {However}, it was expensive."
+      ],
+      "wrong": [
+        "The food was good. However, it was good."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "but",
+        "nevertheless"
+      ],
+      "ipa": "/haʊˈɛvɚ/"
+    },
+    {
+      "lemma": "therefore",
+      "pos": "adverb",
+      "meaning": "For that reason.",
+      "examples": [
+        "He was ill and {therefore} missed the exam."
+      ],
+      "wrong": [
+        "It was sunny and therefore it rained all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "so",
+        "consequently"
+      ],
+      "ipa": "/ˈðɛrˌfɔr/"
+    },
+    {
+      "lemma": "unless",
+      "pos": "conjunction",
+      "meaning": "Except if.",
+      "examples": [
+        "We’ll walk {unless} it rains."
+      ],
+      "wrong": [
+        "I’ll come unless I can come."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "except if"
+      ],
+      "ipa": "/ənˈlɛs/"
+    },
+    {
+      "lemma": "instead",
+      "pos": "adverb",
+      "meaning": "In place of something else.",
+      "examples": [
+        "We had no coffee, so we drank tea {instead}."
+      ],
+      "wrong": [
+        "I had tea instead, so I drank coffee."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rather"
+      ],
+      "ipa": "/ɪnˈstɛd/"
+    },
+    {
+      "lemma": "while",
+      "pos": "conjunction",
+      "meaning": "During the time that.",
+      "examples": [
+        "She called {while} I was cooking."
+      ],
+      "wrong": [
+        "While I was asleep, I cooked dinner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "whilst",
+        "as"
+      ],
+      "ipa": "/waɪl/"
+    },
+    {
+      "lemma": "besides",
+      "pos": "adverb",
+      "meaning": "Also; in addition.",
+      "examples": [
+        "I don’t want to go. {Besides}, I’m tired."
+      ],
+      "wrong": [
+        "I love this job. Besides, I hate it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "also",
+        "in addition"
+      ],
+      "ipa": "/bɪˈsaɪdz/"
+    },
+    {
+      "lemma": "actually",
+      "pos": "adverb",
+      "meaning": "Used to say what is really true.",
+      "examples": [
+        "I thought he was French, but he’s {actually} Italian."
+      ],
+      "wrong": [
+        "He looks young, and he is actually young, just as everyone expected."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "really",
+        "in fact"
+      ],
+      "ipa": "/ˈæktʃuəli/"
+    },
+    {
+      "lemma": "probably",
+      "pos": "adverb",
+      "meaning": "Almost certainly.",
+      "examples": [
+        "It will {probably} rain later."
+      ],
+      "wrong": [
+        "It will probably rain, so I’m sure it won’t."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "likely"
+      ],
+      "ipa": "/ˈprɑbəbli/"
+    },
+    {
+      "lemma": "especially",
+      "pos": "adverb",
+      "meaning": "More than usual or more than others.",
+      "examples": [
+        "I love fruit, {especially} mangoes."
+      ],
+      "wrong": [
+        "I love all fruit, especially none of it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "particularly"
+      ],
+      "ipa": "/ɪˈspɛʃəli/"
+    },
+    {
+      "lemma": "suddenly",
+      "pos": "adverb",
+      "meaning": "Quickly and without warning.",
+      "examples": [
+        "{Suddenly}, the lights went out."
+      ],
+      "wrong": [
+        "Suddenly, after an hour of warning, it slowly started."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "all of a sudden"
+      ],
+      "ipa": "/ˈsʌdənli/",
+      "antonyms": [
+        "gradually"
+      ]
+    },
+    {
+      "lemma": "finally",
+      "pos": "adverb",
+      "meaning": "After a long time.",
+      "examples": [
+        "The bus {finally} arrived."
+      ],
+      "wrong": [
+        "The bus finally came, right on time and early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "at last",
+        "eventually"
+      ],
+      "ipa": "/ˈfaɪnəli/"
+    },
+    {
+      "lemma": "recently",
+      "pos": "adverb",
+      "meaning": "Not long ago.",
+      "examples": [
+        "I {recently} moved to a new flat."
+      ],
+      "wrong": [
+        "I recently moved there, about forty years ago."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "lately"
+      ],
+      "ipa": "/ˈrisəntli/"
+    },
+    {
+      "lemma": "nearly",
+      "pos": "adverb",
+      "meaning": "Almost.",
+      "examples": [
+        "It’s {nearly} midnight."
+      ],
+      "wrong": [
+        "It’s nearly midnight, so midnight was hours ago."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "almost"
+      ],
+      "ipa": "/ˈnɪrli/"
+    },
+    {
+      "lemma": "hardly",
+      "pos": "adverb",
+      "meaning": "Almost not.",
+      "examples": [
+        "I can {hardly} hear you."
+      ],
+      "wrong": [
+        "I can hardly hear you; you are very loud and clear."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "barely",
+        "scarcely"
+      ],
+      "ipa": "/ˈhɑrdli/"
+    },
+    {
+      "lemma": "certainly",
+      "pos": "adverb",
+      "meaning": "Without any doubt.",
+      "examples": [
+        "I will {certainly} be there."
+      ],
+      "wrong": [
+        "I will certainly come, but I’m not sure."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "definitely",
+        "surely"
+      ],
+      "ipa": "/ˈsɝtənli/"
+    },
+    {
+      "lemma": "perhaps",
+      "pos": "adverb",
+      "meaning": "Possibly; maybe.",
+      "examples": [
+        "{Perhaps} we can meet tomorrow."
+      ],
+      "wrong": [
+        "Perhaps it will rain; I am completely certain."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "maybe",
+        "possibly"
+      ],
+      "ipa": "/pɚˈhæps/"
+    },
+    {
+      "lemma": "quite",
+      "pos": "adverb",
+      "meaning": "Fairly; more than a little.",
+      "examples": [
+        "The film was {quite} good."
+      ],
+      "wrong": [
+        "The film was quite good, so it was terrible."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fairly",
+        "rather"
+      ],
+      "ipa": "/kwaɪt/"
+    },
+    {
+      "lemma": "already",
+      "pos": "adverb",
+      "meaning": "Before now, or earlier than expected.",
+      "examples": [
+        "I’ve {already} eaten."
+      ],
+      "wrong": [
+        "I’ve already done it, but I’ll start it tomorrow."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ɔlˈrɛdi/"
+    },
+    {
+      "lemma": "still",
+      "pos": "adverb",
+      "meaning": "Continuing until now.",
+      "examples": [
+        "Are you {still} at work?"
+      ],
+      "wrong": [
+        "I still live here, but I moved away years ago."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/stɪl/"
+    },
+    {
+      "lemma": "yet",
+      "pos": "adverb",
+      "meaning": "Until now, used in questions and negatives.",
+      "examples": [
+        "Have you finished {yet}?"
+      ],
+      "wrong": [
+        "I have finished it yet."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "so far"
+      ],
+      "ipa": "/jɛt/"
+    },
+    {
+      "lemma": "anyway",
+      "pos": "adverb",
+      "meaning": "Used to change the subject or say that something does not matter.",
+      "examples": [
+        "It was expensive, but I bought it {anyway}."
+      ],
+      "wrong": [
+        "It was cheap and I wanted it, so I bought it anyway."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "regardless",
+        "anyhow"
+      ],
+      "ipa": "/ˈɛniˌweɪ/"
+    },
+    {
+      "lemma": "according to",
+      "pos": "preposition",
+      "meaning": "As said by someone or shown by something.",
+      "examples": [
+        "{According to} the news, it will snow."
+      ],
+      "wrong": [
+        "The news said it would rain, so according to the news, it will be sunny."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "as reported by"
+      ],
+      "ipa": "/əˈkɔrdɪŋ tu/"
+    },
+    {
+      "lemma": "in case",
+      "pos": "conjunction",
+      "meaning": "Because something might happen.",
+      "examples": [
+        "Take a coat {in case} it gets cold."
+      ],
+      "wrong": [
+        "Take a coat in case it gets very hot."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ɪn ˈkeɪs/"
+    },
+    {
+      "lemma": "as long as",
+      "pos": "conjunction",
+      "meaning": "Only if.",
+      "examples": [
+        "You can go out {as long as} you’re back by ten."
+      ],
+      "wrong": [
+        "You can borrow my car as long as you never drive it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "provided that",
+        "if"
+      ],
+      "ipa": "/əz ˈlɔŋ əz/"
+    },
+    {
+      "lemma": "otherwise",
+      "pos": "adverb",
+      "meaning": "If not.",
+      "examples": [
+        "Hurry, {otherwise} we’ll be late."
+      ],
+      "wrong": [
+        "Hurry, otherwise we’ll be early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "or else"
+      ],
+      "ipa": "/ˈʌðɚˌwaɪz/"
+    },
+    {
+      "lemma": "eventually",
+      "pos": "adverb",
+      "meaning": "In the end, after a long time.",
+      "examples": [
+        "He {eventually} found a job."
+      ],
+      "wrong": [
+        "He eventually found a job in his first minute of looking."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "finally",
+        "in the end"
+      ],
+      "ipa": "/ɪˈvɛntʃuəli/"
+    },
+    {
+      "lemma": "immediately",
+      "pos": "adverb",
+      "meaning": "At once; now.",
+      "examples": [
+        "Call a doctor {immediately}!"
+      ],
+      "wrong": [
+        "Come here immediately, maybe next week."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "at once",
+        "instantly"
+      ],
+      "ipa": "/ɪˈmidiətli/"
+    },
+    {
+      "lemma": "completely",
+      "pos": "adverb",
+      "meaning": "Totally; in every way.",
+      "examples": [
+        "I {completely} forgot your birthday."
+      ],
+      "wrong": [
+        "I completely forgot, but I remembered most of it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "totally",
+        "entirely"
+      ],
+      "ipa": "/kəmˈplitli/",
+      "antonyms": [
+        "partially",
+        "partly"
+      ]
+    },
+    {
+      "lemma": "extremely",
+      "pos": "adverb",
+      "meaning": "Very; to a great degree.",
+      "examples": [
+        "It’s {extremely} cold today."
+      ],
+      "wrong": [
+        "It’s extremely cold, just a little cool."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "very",
+        "highly"
+      ],
+      "ipa": "/ɪkˈstrimli/"
+    },
+    {
+      "lemma": "slightly",
+      "pos": "adverb",
+      "meaning": "A little.",
+      "examples": [
+        "The price went up {slightly}."
+      ],
+      "wrong": [
+        "The price went up slightly; it doubled."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "a little",
+        "a bit"
+      ],
+      "ipa": "/ˈslaɪtli/"
+    },
+    {
+      "lemma": "gradually",
+      "pos": "adverb",
+      "meaning": "Slowly, over a period of time.",
+      "examples": [
+        "The weather {gradually} got warmer."
+      ],
+      "wrong": [
+        "It gradually changed in one second."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "slowly",
+        "little by little"
+      ],
+      "ipa": "/ˈɡrædʒuəli/",
+      "antonyms": [
+        "suddenly"
+      ]
+    },
+    {
+      "lemma": "unfortunately",
+      "pos": "adverb",
+      "meaning": "Used to say that something is sad or bad.",
+      "examples": [
+        "{Unfortunately}, the shop was closed."
+      ],
+      "wrong": [
+        "Unfortunately, I won the prize I wanted."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sadly"
+      ],
+      "ipa": "/ʌnˈfɔrtʃənətli/",
+      "antonyms": [
+        "fortunately",
+        "luckily"
+      ]
+    },
+    {
+      "lemma": "luckily",
+      "pos": "adverb",
+      "meaning": "Because of good luck.",
+      "examples": [
+        "{Luckily}, nobody was hurt."
+      ],
+      "wrong": [
+        "Luckily, everyone was badly hurt."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fortunately"
+      ],
+      "ipa": "/ˈlʌkəli/",
+      "antonyms": [
+        "unfortunately",
+        "unluckily"
+      ]
+    },
+    {
+      "lemma": "obviously",
+      "pos": "adverb",
+      "meaning": "In a way that is easy to see or understand.",
+      "examples": [
+        "He was {obviously} tired."
+      ],
+      "wrong": [
+        "He was obviously tired, but nobody could tell."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "clearly",
+        "evidently"
+      ],
+      "ipa": "/ˈɑbviəsli/"
+    },
+    {
+      "lemma": "generally",
+      "pos": "adverb",
+      "meaning": "Usually; in most cases.",
+      "examples": [
+        "I {generally} get up at seven."
+      ],
+      "wrong": [
+        "I generally get up at seven, but I have only done it once."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "usually",
+        "mostly"
+      ],
+      "ipa": "/ˈdʒɛnərəli/"
+    },
+    {
+      "lemma": "directly",
+      "pos": "adverb",
+      "meaning": "Without stopping or going another way.",
+      "examples": [
+        "The plane flies {directly} to Tokyo."
+      ],
+      "wrong": [
+        "The plane flies directly to Tokyo, stopping in three cities."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "straight"
+      ],
+      "ipa": "/dɪˈrɛktli/",
+      "antonyms": [
+        "indirectly"
+      ]
+    },
+    {
+      "lemma": "apart from",
+      "pos": "preposition",
+      "meaning": "Except for.",
+      "examples": [
+        "{Apart from} the rain, the trip was great."
+      ],
+      "wrong": [
+        "Apart from the rain, it rained all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "except for"
+      ],
+      "ipa": "/əˈpɑrt frəm/"
+    },
+    {
+      "lemma": "so that",
+      "pos": "conjunction",
+      "meaning": "In order that.",
+      "examples": [
+        "I left early {so that} I wouldn’t be late."
+      ],
+      "wrong": [
+        "I left early so that I would be late."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "in order that"
+      ],
+      "ipa": "/ˈsoʊ ðət/"
+    },
+    {
+      "lemma": "even",
+      "pos": "adverb",
+      "meaning": "Used to show that something is surprising.",
+      "examples": [
+        "Everyone came, {even} my busy uncle."
+      ],
+      "wrong": [
+        "Everyone came, even the people we expected most."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈivən/"
+    }
+  ]
+}

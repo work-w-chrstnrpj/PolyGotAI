@@ -1,16 +1,19 @@
 import SwiftUI
 
 /// Daily Training: due words first, then today's new words. Show the meaning, then rate Again, Hard, Good or Easy.
-/// Each button shows when the word comes back, as in Anki (FSRS-6).
+/// Each button shows when the word comes back, as in Anki (FSRS-6); a word due again within 20 minutes returns in this sitting.
 struct LexiconTrainingView: View {
     var storage: LearnerStorageController
     var bank: LexiconBank
     @Environment(\.dismiss) private var dismiss
     @Environment(\.dynamicTypeSize) private var textSize
-    @State private var cards: [VocabularyEnrollment] = []
-    @State private var index = 0
+    @State private var sitting = TrainingSitting(waiting: [])
+    @State private var current: VocabularyEnrollment?
+    /// Cards shown so far in this sitting, repeats included (for the progress bar).
+    @State private var shown = 0
     @State private var revealed = false
-    @State private var rated = 0
+    /// Words rated at least once (a word repeated after Again counts once).
+    @State private var trained: Set<String> = []
     @State private var stages: [String: LexiconStage] = [:]
     @State private var loaded = false
     @State private var message: String?
@@ -20,13 +23,11 @@ struct LexiconTrainingView: View {
             VStack(alignment: .leading, spacing: 16) {
                 if !loaded {
                     Text("One moment.").foregroundStyle(Kit.secondary)
-                } else if cards.isEmpty {
-                    finished(title: "All done for today.")
-                } else if index >= cards.count {
-                    finished(title: "Nice work.")
+                } else if let current {
+                    ProgressView(value: Double(shown - 1), total: Double(shown + sitting.remaining)).tint(Kit.accent).accessibilityHidden(true)
+                    card(current)
                 } else {
-                    ProgressView(value: Double(index), total: Double(cards.count)).tint(Kit.accent).accessibilityHidden(true)
-                    card(cards[index])
+                    finished(title: trained.isEmpty ? "All done for today." : "Nice work.")
                 }
                 if let message { Text(message).font(.callout).foregroundStyle(Kit.error) }
             }
@@ -41,7 +42,7 @@ struct LexiconTrainingView: View {
     private func finished(title: String) -> some View {
         KitCard {
             Text(title).font(.title2.bold())
-            if rated > 0 { Text("\(rated) \(rated == 1 ? "word" : "words") trained.").foregroundStyle(Kit.secondary) }
+            if !trained.isEmpty { Text("\(trained.count) \(trained.count == 1 ? "word" : "words") trained.").foregroundStyle(Kit.secondary) }
             Button("Done") { dismiss() }.buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lexicon.train.done")
         }
     }
@@ -50,7 +51,8 @@ struct LexiconTrainingView: View {
         let word = bank.word(itemId: item.itemId, senseId: item.senseId)
         return KitCard {
             HStack {
-                Text("\(index + 1) of \(cards.count)").font(.caption).foregroundStyle(Kit.secondary)
+                Text("\(sitting.remaining + 1) left").font(.caption).foregroundStyle(Kit.secondary)
+                    .accessibilityIdentifier("lexicon.left")
                 Spacer()
                 if let word, let stage = stages[word.id] {
                     Text(stage.title).font(.caption.weight(.semibold)).padding(.horizontal, 10).padding(.vertical, 4)
@@ -59,6 +61,7 @@ struct LexiconTrainingView: View {
             }
             Text(item.lemma).font(.largeTitle.bold()).fixedSize(horizontal: false, vertical: true)
                 .accessibilityIdentifier("lexicon.lemma")
+            if let ipa = word?.ipa { PronunciationText(ipa: ipa) }
             if let word { Text(word.pos).font(.subheadline).foregroundStyle(Kit.secondary) }
             if revealed {
                 Text(item.meaning ?? "").font(.title3).fixedSize(horizontal: false, vertical: true)
@@ -67,7 +70,7 @@ struct LexiconTrainingView: View {
                     Text(example.plain).font(.body).italic().foregroundStyle(Kit.secondary)
                         .fixedSize(horizontal: false, vertical: true)
                     Button { SpeechSynthesizer.shared.speak(example.plain) } label: { Label("Listen", systemImage: "speaker.wave.2.fill") }
-                        .buttonStyle(.bordered)
+                        .buttonStyle(KitSecondaryButtonStyle())
                 }
                 ratings(item)
             } else {
@@ -92,7 +95,7 @@ struct LexiconTrainingView: View {
                     }
                     .frame(maxWidth: .infinity, minHeight: 44)
                 }
-                .buttonStyle(.bordered)
+                .buttonStyle(KitSecondaryButtonStyle())
                 .accessibilityLabel(rating.title)
                 .accessibilityValue(interval.map { "Back in \($0)" } ?? "")
                 .accessibilityHint(rating.detail)
@@ -117,7 +120,8 @@ struct LexiconTrainingView: View {
             let fresh = LexiconTrainingPlan.newWords(bank: bank, state: state, enrollments: enrollments, now: Date(), startLevel: level)
             try repository.startLexiconWords(fresh, bankVersion: LexiconBankLoader.bankVersion)
             let plan = try ReviewSessionPlan(queue: repository.reviewQueue(), settings: repository.reviewSettings(), open: nil)
-            cards = plan.cards
+            sitting = TrainingSitting(waiting: plan.cards)
+            advance()
             stages = try repository.lexiconStages(bank: bank)
             loaded = true
         } catch {
@@ -126,12 +130,22 @@ struct LexiconTrainingView: View {
         }
     }
 
+    private func advance() {
+        current = sitting.next(now: Date())
+        if current != nil { shown += 1 }
+    }
+
     private func rate(_ item: VocabularyEnrollment, _ rating: RecallRating) {
         do {
             guard let repository = storage.repository else { throw LearnerStorageError.unavailable }
             _ = try repository.recordVocabularyRecall(card: item, rating: rating, draft: RecallDraft(revealed: true))
             stages = try repository.lexiconStages(bank: bank)
-            rated += 1; index += 1; revealed = false; message = nil
+            let now = Date()
+            if let due = try repository.recognitionSchedule(itemId: item.itemId, senseId: item.senseId)?.due {
+                sitting.rated(item, due: due, now: now)
+            }
+            trained.insert(item.itemId + "/" + item.senseId); revealed = false; message = nil
+            advance()
         } catch {
             message = "That rating could not be saved."
         }

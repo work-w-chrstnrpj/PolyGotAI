@@ -42,6 +42,8 @@ struct SpeechLabState: Codable, Equatable {
     var attempts: [SpeechLabAttempt] = []
     var strictDictation = false
     var missedDictation: [String] = []
+    /// Phase 15: watched videos and past timed-test items. Optional, so older stores decode unchanged.
+    var extras: LabExtrasState? = nil
 
     mutating func record(_ attempt: SpeechLabAttempt) {
         guard !attempts.contains(where: { $0.id == attempt.id }) else { return }

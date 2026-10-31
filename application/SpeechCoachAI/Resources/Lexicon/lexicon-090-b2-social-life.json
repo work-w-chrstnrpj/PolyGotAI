@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-social-life",
+    "title": "Social life",
+    "level": "B2",
+    "tagline": "Friends, groups and belonging",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "companion",
+      "pos": "noun",
+      "meaning": "A person you spend time with or travel with.",
+      "examples": [
+        "Her dog has been her loyal {companion} for ten years."
+      ],
+      "wrong": [
+        "My companion on the trip was a stranger I never met."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "partner",
+        "friend"
+      ],
+      "ipa": "/kəmˈpænjən/"
+    },
+    {
+      "lemma": "companionship",
+      "pos": "noun",
+      "meaning": "The pleasant feeling of having friendly people around you.",
+      "examples": [
+        "Many older people join clubs for {companionship}."
+      ],
+      "wrong": [
+        "She wanted companionship, so she moved to an empty island alone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "company",
+        "friendship"
+      ],
+      "ipa": "/kəmˈpænjənˌʃɪp/"
+    },
+    {
+      "lemma": "peer",
+      "pos": "noun",
+      "meaning": "A person of the same age or social group as you.",
+      "examples": [
+        "Teenagers often care most about what their {peers} think."
+      ],
+      "wrong": [
+        "The five-year-old’s peers were all retired grandparents."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "equal",
+        "contemporary"
+      ],
+      "ipa": "/pɪr/"
+    },
+    {
+      "lemma": "in-crowd",
+      "pos": "noun",
+      "meaning": "The small group of people who are the most popular and fashionable.",
+      "examples": [
+        "At school, he always wanted to be part of the {in-crowd}."
+      ],
+      "wrong": [
+        "The in-crowd was the group nobody liked or noticed."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈɪn ˌkraʊd/"
+    },
+    {
+      "lemma": "belonging",
+      "pos": "noun",
+      "meaning": "The happy feeling of being accepted as part of a group.",
+      "examples": [
+        "Joining the choir gave her a sense of {belonging}."
+      ],
+      "wrong": [
+        "His sense of belonging made him feel like an outsider everywhere."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "acceptance",
+        "inclusion"
+      ],
+      "ipa": "/bɪˈlɔŋɪŋ/"
+    },
+    {
+      "lemma": "approachable",
+      "pos": "adjective",
+      "meaning": "Friendly and easy to talk to.",
+      "examples": [
+        "Our new manager is very {approachable}, so people ask her for help."
+      ],
+      "wrong": [
+        "He is so approachable that everyone is afraid to speak to him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "friendly",
+        "open",
+        "easygoing"
+      ],
+      "ipa": "/əˈproʊtʃəbəl/",
+      "antonyms": [
+        "unapproachable",
+        "aloof"
+      ]
+    },
+    {
+      "lemma": "socialize",
+      "pos": "verb",
+      "meaning": "To spend time with other people for fun.",
+      "examples": [
+        "I like to {socialize} with my colleagues after work."
+      ],
+      "wrong": [
+        "He socializes by staying at home alone every night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "mix",
+        "mingle"
+      ],
+      "ipa": "/ˈsoʊʃəˌlaɪz/"
+    },
+    {
+      "lemma": "networking",
+      "pos": "noun",
+      "meaning": "Meeting people to build useful contacts, especially for work.",
+      "examples": [
+        "The conference is great for {networking} with people in the industry."
+      ],
+      "wrong": [
+        "Networking means avoiding everyone at a business event."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈnɛtˌwɝkɪŋ/"
+    },
+    {
+      "lemma": "wallflower",
+      "pos": "noun",
+      "meaning": "A shy person who stays at the side at a party and does not join in.",
+      "examples": [
+        "At dances, he was a {wallflower} who never asked anyone to dance."
+      ],
+      "wrong": [
+        "The wallflower danced in the middle of the room all night."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈwɔlˌflaʊɚ/"
+    },
+    {
+      "lemma": "life of the party",
+      "pos": "phrase",
+      "meaning": "A lively person who makes a social event fun for everyone.",
+      "examples": [
+        "With her jokes and stories, she’s always the {life of the party}."
+      ],
+      "wrong": [
+        "He was the life of the party, sitting silently in the kitchen all night."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈlaɪf əv ðə ˈpɑrti/"
+    },
+    {
+      "lemma": "gathering",
+      "pos": "noun",
+      "meaning": "A meeting of people, often for a social reason.",
+      "examples": [
+        "We had a small family {gathering} for Grandma’s birthday."
+      ],
+      "wrong": [
+        "The gathering was one person sitting alone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "get-together",
+        "meeting"
+      ],
+      "ipa": "/ˈɡæðərɪŋ/"
+    },
+    {
+      "lemma": "get-together",
+      "pos": "noun",
+      "meaning": "An informal meeting of friends or family.",
+      "examples": [
+        "We’re having a {get-together} on Saturday; come along!"
+      ],
+      "wrong": [
+        "The get-together was a formal exam in a silent hall."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "gathering",
+        "party"
+      ],
+      "ipa": "/ˈɡɛt təˌɡɛðɚ/"
+    },
+    {
+      "lemma": "reunion",
+      "pos": "noun",
+      "meaning": "A meeting of people who have not seen each other for a long time.",
+      "examples": [
+        "Our school {reunion} is twenty years after graduation."
+      ],
+      "wrong": [
+        "The reunion was the first time the strangers had ever met."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "get-together"
+      ],
+      "ipa": "/riˈjunjən/"
+    },
+    {
+      "lemma": "mingle",
+      "pos": "verb",
+      "meaning": "To move around and talk to different people at a social event.",
+      "examples": [
+        "At the party, try to {mingle} and meet new people."
+      ],
+      "wrong": [
+        "She mingled by staying in one corner and talking to nobody."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "circulate",
+        "socialize"
+      ],
+      "ipa": "/ˈmɪŋɡəl/"
+    },
+    {
+      "lemma": "plus-one",
+      "pos": "noun",
+      "meaning": "A person you bring with you to an event you were invited to.",
+      "examples": [
+        "The invitation says I can bring a {plus-one} to the wedding."
+      ],
+      "wrong": [
+        "My plus-one was a guest I left at home."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˌplʌs ˈwʌn/"
+    },
+    {
+      "lemma": "mutual",
+      "pos": "adjective",
+      "meaning": "Shared by two or more people.",
+      "examples": [
+        "We met through a {mutual} friend."
+      ],
+      "wrong": [
+        "Their respect was mutual: she admired him, but he looked down on her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shared",
+        "common"
+      ],
+      "ipa": "/ˈmjutʃuəl/"
+    },
+    {
+      "lemma": "loyalty",
+      "pos": "noun",
+      "meaning": "The quality of staying faithful to a friend or group.",
+      "examples": [
+        "His {loyalty} to his friends is unshakeable."
+      ],
+      "wrong": [
+        "She showed loyalty by telling everyone her friend’s secrets."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "faithfulness",
+        "devotion"
+      ],
+      "ipa": "/ˈlɔɪəlti/",
+      "antonyms": [
+        "disloyalty",
+        "betrayal"
+      ]
+    },
+    {
+      "lemma": "betray",
+      "pos": "verb",
+      "meaning": "To hurt someone who trusted you, for example by telling their secrets.",
+      "examples": [
+        "He {betrayed} his best friend by lying about him."
+      ],
+      "wrong": [
+        "She betrayed her friend by keeping his secret safe."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deceive",
+        "let down"
+      ],
+      "ipa": "/bɪˈtreɪ/"
+    },
+    {
+      "lemma": "clique",
+      "pos": "noun",
+      "meaning": "A small, close group that does not let others join easily.",
+      "examples": [
+        "The popular girls formed a {clique} that ignored everyone else."
+      ],
+      "wrong": [
+        "The clique welcomed anyone who wanted to join."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "circle",
+        "set"
+      ],
+      "ipa": "/klik/"
+    },
+    {
+      "lemma": "outsider",
+      "pos": "noun",
+      "meaning": "A person who is not accepted as part of a group.",
+      "examples": [
+        "At first, he felt like an {outsider} in the small town."
+      ],
+      "wrong": [
+        "The outsider was the most accepted member of the group."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "stranger",
+        "newcomer"
+      ],
+      "ipa": "/ˌaʊtˈsaɪdɚ/",
+      "antonyms": [
+        "insider"
+      ]
+    },
+    {
+      "lemma": "exclude",
+      "pos": "verb",
+      "meaning": "To keep someone out of a group or activity.",
+      "examples": [
+        "It’s unkind to {exclude} her from the game."
+      ],
+      "wrong": [
+        "They excluded him by inviting him to everything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "leave out",
+        "shut out"
+      ],
+      "ipa": "/ɪkˈsklud/",
+      "antonyms": [
+        "include"
+      ]
+    },
+    {
+      "lemma": "isolated",
+      "pos": "adjective",
+      "meaning": "Feeling alone and without contact with others.",
+      "examples": [
+        "Working from home made him feel {isolated}."
+      ],
+      "wrong": [
+        "She felt isolated because she was surrounded by friends all day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lonely",
+        "cut off"
+      ],
+      "ipa": "/ˈaɪsəˌleɪtɪd/"
+    },
+    {
+      "lemma": "loneliness",
+      "pos": "noun",
+      "meaning": "The sad feeling of being alone without friends.",
+      "examples": [
+        "Video calls helped her {loneliness} during the long winter."
+      ],
+      "wrong": [
+        "His loneliness came from having too many friends around."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "isolation",
+        "solitude"
+      ],
+      "ipa": "/ˈloʊnlinəs/",
+      "antonyms": [
+        "companionship"
+      ]
+    },
+    {
+      "lemma": "solidarity",
+      "pos": "noun",
+      "meaning": "Support and unity between people with the same aims.",
+      "examples": [
+        "The workers stood together in {solidarity}."
+      ],
+      "wrong": [
+        "They showed solidarity by refusing to help each other."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "unity",
+        "support"
+      ],
+      "ipa": "/ˌsɑlɪˈdærəti/"
+    },
+    {
+      "lemma": "membership",
+      "pos": "noun",
+      "meaning": "The state of belonging to a club or group.",
+      "examples": [
+        "My gym {membership} costs thirty dollars a month."
+      ],
+      "wrong": [
+        "His membership means he is not part of the club."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈmɛmbɚˌʃɪp/"
+    },
+    {
+      "lemma": "drift apart",
+      "pos": "verb",
+      "meaning": "To slowly become less close to someone over time.",
+      "examples": [
+        "We {drifted apart} after she moved to another city."
+      ],
+      "wrong": [
+        "They drifted apart and became closer than ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "grow apart"
+      ],
+      "ipa": "/ˌdrɪft əˈpɑrt/"
+    },
+    {
+      "lemma": "estranged",
+      "pos": "adjective",
+      "meaning": "No longer in contact with a family member or friend because of a quarrel.",
+      "examples": [
+        "He has been {estranged} from his brother for ten years."
+      ],
+      "wrong": [
+        "She is estranged from her sister, so they talk every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "alienated",
+        "separated"
+      ],
+      "ipa": "/ɪˈstreɪndʒd/"
+    },
+    {
+      "lemma": "look up to",
+      "pos": "verb",
+      "meaning": "To admire and respect someone.",
+      "examples": [
+        "Younger players {look up to} her as a role model."
+      ],
+      "wrong": [
+        "He looks up to his coach, so he has no respect for her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "admire",
+        "respect"
+      ],
+      "ipa": "/ˌlʊk ˈʌp tu/"
+    },
+    {
+      "lemma": "hit it off",
+      "pos": "phrase",
+      "meaning": "To like each other immediately.",
+      "examples": [
+        "Jack and Sam {hit it off} the moment they met."
+      ],
+      "wrong": [
+        "We hit it off and couldn’t stand each other."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˌhɪt ɪt ˈɔf/"
+    },
+    {
+      "lemma": "close-knit",
+      "pos": "adjective",
+      "meaning": "With members who care for and support each other strongly.",
+      "examples": [
+        "They live in a {close-knit} community where everyone helps."
+      ],
+      "wrong": [
+        "The close-knit family hardly knew or cared about each other."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tight-knit",
+        "united"
+      ],
+      "ipa": "/ˌkloʊsˈnɪt/"
+    },
+    {
+      "lemma": "inseparable",
+      "pos": "adjective",
+      "meaning": "Always together; too close to be apart.",
+      "examples": [
+        "The two sisters have been {inseparable} since childhood."
+      ],
+      "wrong": [
+        "They were inseparable, so they never saw each other."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ɪnˈsɛpərəbəl/"
+    },
+    {
+      "lemma": "confidant",
+      "pos": "noun",
+      "meaning": "A person you trust with your secrets.",
+      "examples": [
+        "Her aunt was her closest {confidant}."
+      ],
+      "wrong": [
+        "He told his confidant nothing because he didn’t trust him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "friend",
+        "intimate"
+      ],
+      "ipa": "/ˈkɑnfɪˌdɑnt/"
+    },
+    {
+      "lemma": "circle of friends",
+      "pos": "phrase",
+      "meaning": "The group of people you are friends with.",
+      "examples": [
+        "Her {circle of friends} grew when she joined the club."
+      ],
+      "wrong": [
+        "His circle of friends was a list of people he had never met."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsɝkəl əv ˈfrɛndz/"
+    },
+    {
+      "lemma": "lose touch",
+      "pos": "phrase",
+      "meaning": "To stop being in contact with someone.",
+      "examples": [
+        "We {lost touch} after high school."
+      ],
+      "wrong": [
+        "We lost touch, so we message each other every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/luz ˈtʌtʃ/"
+    },
+    {
+      "lemma": "welcoming",
+      "pos": "adjective",
+      "meaning": "Friendly to people who arrive or join.",
+      "examples": [
+        "The neighbors were very {welcoming} when we moved in."
+      ],
+      "wrong": [
+        "The welcoming hosts told us to go away."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "friendly",
+        "hospitable"
+      ],
+      "ipa": "/ˈwɛlkəmɪŋ/",
+      "antonyms": [
+        "unwelcoming",
+        "hostile"
+      ]
+    },
+    {
+      "lemma": "befriend",
+      "pos": "verb",
+      "meaning": "To become a friend of someone.",
+      "examples": [
+        "She {befriended} the new girl on her first day."
+      ],
+      "wrong": [
+        "He befriended his neighbor by never speaking to him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "make friends with"
+      ],
+      "ipa": "/bɪˈfrɛnd/"
+    },
+    {
+      "lemma": "snub",
+      "pos": "verb",
+      "meaning": "To ignore someone on purpose in an unfriendly way.",
+      "examples": [
+        "She {snubbed} me at the party and talked only to my sister."
+      ],
+      "wrong": [
+        "He snubbed her by greeting her warmly and hugging her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ignore",
+        "cold-shoulder"
+      ],
+      "ipa": "/snʌb/"
+    },
+    {
+      "lemma": "housewarming",
+      "pos": "noun",
+      "meaning": "A party for friends after you move into a new home.",
+      "examples": [
+        "We’re having a {housewarming} on Friday to show off the new apartment."
+      ],
+      "wrong": [
+        "The housewarming was held the day they moved out for good."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhaʊsˌwɔrmɪŋ/"
+    },
+    {
+      "lemma": "camaraderie",
+      "pos": "noun",
+      "meaning": "The friendly feeling between people who spend time or work together.",
+      "examples": [
+        "There was great {camaraderie} among the players."
+      ],
+      "wrong": [
+        "The camaraderie on the team meant nobody trusted anybody."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fellowship",
+        "friendship"
+      ],
+      "ipa": "/ˌkɑməˈrɑdəri/"
+    },
+    {
+      "lemma": "chatty",
+      "pos": "adjective",
+      "meaning": "Liking to talk a lot in a friendly way.",
+      "examples": [
+        "Our {chatty} neighbor always stops to talk."
+      ],
+      "wrong": [
+        "The chatty girl hardly said a word all evening."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "talkative"
+      ],
+      "ipa": "/ˈtʃæti/",
+      "antonyms": [
+        "quiet",
+        "reserved"
+      ]
+    }
+  ]
+}

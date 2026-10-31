@@ -1,0 +1,878 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-formal-nouns",
+    "title": "Formal nouns",
+    "level": "C2",
+    "tagline": "Words for ideas and situations",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "acumen",
+      "pos": "noun",
+      "meaning": "The ability to make good judgments quickly.",
+      "examples": [
+        "She has great business {acumen}."
+      ],
+      "wrong": [
+        "His acumen led to one bad decision after another."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "shrewdness",
+        "insight"
+      ],
+      "ipa": "/ˈækjəmən/"
+    },
+    {
+      "lemma": "adversity",
+      "pos": "noun",
+      "meaning": "A difficult or unlucky situation.",
+      "examples": [
+        "She showed courage in the face of {adversity}."
+      ],
+      "wrong": [
+        "Adversity is a time when everything goes well."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hardship",
+        "misfortune"
+      ],
+      "ipa": "/ædˈvɝsəti/",
+      "antonyms": [
+        "prosperity",
+        "good fortune"
+      ]
+    },
+    {
+      "lemma": "alacrity",
+      "pos": "noun",
+      "meaning": "Eager and quick willingness.",
+      "examples": [
+        "He accepted the offer with {alacrity}."
+      ],
+      "wrong": [
+        "She agreed with alacrity, slowly and unwillingly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "eagerness",
+        "readiness"
+      ],
+      "ipa": "/əˈlækrəti/",
+      "antonyms": [
+        "reluctance",
+        "hesitation"
+      ]
+    },
+    {
+      "lemma": "animosity",
+      "pos": "noun",
+      "meaning": "Strong dislike or hostility.",
+      "examples": [
+        "There’s no {animosity} between us."
+      ],
+      "wrong": [
+        "Their animosity made them close friends."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hostility",
+        "enmity"
+      ],
+      "ipa": "/ˌænɪˈmɑsəti/",
+      "antonyms": [
+        "friendship",
+        "goodwill"
+      ]
+    },
+    {
+      "lemma": "antithesis",
+      "pos": "noun",
+      "meaning": "The exact opposite.",
+      "examples": [
+        "His style is the {antithesis} of hers."
+      ],
+      "wrong": [
+        "Love is the antithesis of love."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "opposite",
+        "converse"
+      ],
+      "ipa": "/ænˈtɪθəsɪs/"
+    },
+    {
+      "lemma": "apathy",
+      "pos": "noun",
+      "meaning": "A lack of interest or concern.",
+      "examples": [
+        "Voter {apathy} is a growing problem."
+      ],
+      "wrong": [
+        "His apathy meant he cared deeply."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "indifference"
+      ],
+      "ipa": "/ˈæpəθi/",
+      "antonyms": [
+        "interest",
+        "enthusiasm"
+      ]
+    },
+    {
+      "lemma": "aplomb",
+      "pos": "noun",
+      "meaning": "Calm confidence in a difficult situation.",
+      "examples": [
+        "She handled the questions with {aplomb}."
+      ],
+      "wrong": [
+        "He spoke with aplomb, shaking with panic."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "poise",
+        "composure",
+        "equanimity"
+      ],
+      "ipa": "/əˈplɑm/"
+    },
+    {
+      "lemma": "conundrum",
+      "pos": "noun",
+      "meaning": "A confusing and difficult problem.",
+      "examples": [
+        "How to pay for it is a real {conundrum}."
+      ],
+      "wrong": [
+        "A conundrum is a problem with an easy, obvious answer."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "puzzle",
+        "dilemma",
+        "quandary"
+      ],
+      "ipa": "/kəˈnʌndrəm/"
+    },
+    {
+      "lemma": "debacle",
+      "pos": "noun",
+      "meaning": "A complete and embarrassing failure.",
+      "examples": [
+        "The launch was a {debacle}."
+      ],
+      "wrong": [
+        "The event was a debacle, so it was a great success."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fiasco",
+        "disaster"
+      ],
+      "ipa": "/dɪˈbɑkəl/"
+    },
+    {
+      "lemma": "dichotomy",
+      "pos": "noun",
+      "meaning": "A sharp division between two opposite things.",
+      "examples": [
+        "There’s a {dichotomy} between theory and practice."
+      ],
+      "wrong": [
+        "A dichotomy is a perfect blend of two similar things."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "division",
+        "split"
+      ],
+      "ipa": "/daɪˈkɑtəmi/"
+    },
+    {
+      "lemma": "diatribe",
+      "pos": "noun",
+      "meaning": "A long, angry attack in speech or writing.",
+      "examples": [
+        "He launched into a {diatribe} against the press."
+      ],
+      "wrong": [
+        "Her diatribe was a short, kind compliment."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tirade",
+        "rant"
+      ],
+      "ipa": "/ˈdaɪəˌtraɪb/"
+    },
+    {
+      "lemma": "dissonance",
+      "pos": "noun",
+      "meaning": "A lack of agreement or harmony.",
+      "examples": [
+        "There’s a {dissonance} between what he says and does."
+      ],
+      "wrong": [
+        "Dissonance is perfect harmony."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "discord",
+        "conflict"
+      ],
+      "ipa": "/ˈdɪsənəns/",
+      "antonyms": [
+        "harmony",
+        "agreement"
+      ]
+    },
+    {
+      "lemma": "epiphany",
+      "pos": "noun",
+      "meaning": "A sudden moment of understanding.",
+      "examples": [
+        "She had an {epiphany} about her career."
+      ],
+      "wrong": [
+        "An epiphany is a slow process of confusion."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "revelation",
+        "realization"
+      ],
+      "ipa": "/ɪˈpɪfəni/"
+    },
+    {
+      "lemma": "epitome",
+      "pos": "noun",
+      "meaning": "A perfect example of something.",
+      "examples": [
+        "He is the {epitome} of good manners."
+      ],
+      "wrong": [
+        "She is the epitome of style, and also its worst example."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "embodiment",
+        "essence"
+      ],
+      "ipa": "/ɪˈpɪtəmi/"
+    },
+    {
+      "lemma": "euphoria",
+      "pos": "noun",
+      "meaning": "A feeling of intense happiness.",
+      "examples": [
+        "The win brought a wave of {euphoria}."
+      ],
+      "wrong": [
+        "Euphoria is a feeling of deep sadness."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "elation",
+        "ecstasy"
+      ],
+      "ipa": "/juˈfɔriə/",
+      "antonyms": [
+        "despair",
+        "misery"
+      ]
+    },
+    {
+      "lemma": "fervor",
+      "pos": "noun",
+      "meaning": "Very strong feeling or enthusiasm.",
+      "examples": [
+        "They sang with religious {fervor}."
+      ],
+      "wrong": [
+        "He spoke with fervor, completely uninterested."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "passion",
+        "zeal"
+      ],
+      "ipa": "/ˈfɝvɚ/",
+      "antonyms": [
+        "apathy",
+        "indifference"
+      ]
+    },
+    {
+      "lemma": "hubris",
+      "pos": "noun",
+      "meaning": "Too much pride that leads to failure.",
+      "examples": [
+        "His {hubris} led to his downfall."
+      ],
+      "wrong": [
+        "Her hubris made her humble and modest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "arrogance",
+        "pride"
+      ],
+      "ipa": "/ˈhjubrɪs/",
+      "antonyms": [
+        "humility"
+      ]
+    },
+    {
+      "lemma": "impasse",
+      "pos": "noun",
+      "meaning": "A situation where no progress is possible.",
+      "examples": [
+        "The talks reached an {impasse}."
+      ],
+      "wrong": [
+        "The impasse meant rapid progress."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deadlock",
+        "stalemate"
+      ],
+      "ipa": "/ˈɪmˌpæs/"
+    },
+    {
+      "lemma": "impunity",
+      "pos": "noun",
+      "meaning": "Freedom from punishment.",
+      "examples": [
+        "They broke the rules with {impunity}."
+      ],
+      "wrong": [
+        "He acted with impunity, so he was punished severely."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "immunity",
+        "exemption"
+      ],
+      "ipa": "/ɪmˈpjunəti/"
+    },
+    {
+      "lemma": "ingenuity",
+      "pos": "noun",
+      "meaning": "Skill at inventing new things or solving problems.",
+      "examples": [
+        "The design shows great {ingenuity}."
+      ],
+      "wrong": [
+        "His ingenuity meant he had no new ideas."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inventiveness",
+        "resourcefulness"
+      ],
+      "ipa": "/ˌɪndʒəˈnuəti/"
+    },
+    {
+      "lemma": "inertia",
+      "pos": "noun",
+      "meaning": "A tendency to do nothing or stay unchanged.",
+      "examples": [
+        "Political {inertia} delayed reform."
+      ],
+      "wrong": [
+        "Inertia drove rapid change."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inaction",
+        "lethargy"
+      ],
+      "ipa": "/ɪˈnɝʃə/",
+      "antonyms": [
+        "action",
+        "activity"
+      ]
+    },
+    {
+      "lemma": "juncture",
+      "pos": "noun",
+      "meaning": "A particular point in time or events.",
+      "examples": [
+        "At this {juncture}, we must decide."
+      ],
+      "wrong": [
+        "A juncture is an unimportant, random moment."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "point",
+        "moment"
+      ],
+      "ipa": "/ˈdʒʌŋktʃɚ/"
+    },
+    {
+      "lemma": "largesse",
+      "pos": "noun",
+      "meaning": "Generosity in giving money or gifts.",
+      "examples": [
+        "The museum depends on the {largesse} of donors."
+      ],
+      "wrong": [
+        "His largesse meant he gave nothing away."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "generosity",
+        "liberality"
+      ],
+      "ipa": "/lɑrˈʒɛs/"
+    },
+    {
+      "lemma": "malaise",
+      "pos": "noun",
+      "meaning": "A general feeling of unease or weakness.",
+      "examples": [
+        "The economy is in a state of {malaise}."
+      ],
+      "wrong": [
+        "Malaise is a feeling of great energy and health."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unease",
+        "listlessness"
+      ],
+      "ipa": "/məˈleɪz/"
+    },
+    {
+      "lemma": "minutiae",
+      "pos": "noun",
+      "meaning": "Small, exact details.",
+      "examples": [
+        "He gets lost in the {minutiae}."
+      ],
+      "wrong": [
+        "The minutiae are the big, general picture."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "details",
+        "particulars"
+      ],
+      "ipa": "/mɪˈnuʃiə/"
+    },
+    {
+      "lemma": "misnomer",
+      "pos": "noun",
+      "meaning": "A name that describes something wrongly.",
+      "examples": [
+        "’Fast food’ is a {misnomer} here; it’s slow."
+      ],
+      "wrong": [
+        "A misnomer is a name that fits perfectly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/mɪsˈnoʊmɚ/"
+    },
+    {
+      "lemma": "panacea",
+      "pos": "noun",
+      "meaning": "A solution to all problems.",
+      "examples": [
+        "Technology is not a {panacea}."
+      ],
+      "wrong": [
+        "A panacea solves only one small problem."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cure-all"
+      ],
+      "ipa": "/ˌpænəˈsiə/"
+    },
+    {
+      "lemma": "paucity",
+      "pos": "noun",
+      "meaning": "A lack of something.",
+      "examples": [
+        "There is a {paucity} of evidence."
+      ],
+      "wrong": [
+        "A paucity of data means there is too much data."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "scarcity",
+        "dearth"
+      ],
+      "ipa": "/ˈpɔsəti/",
+      "antonyms": [
+        "abundance",
+        "plenty"
+      ]
+    },
+    {
+      "lemma": "penchant",
+      "pos": "noun",
+      "meaning": "A strong liking for something.",
+      "examples": [
+        "She has a {penchant} for spicy food."
+      ],
+      "wrong": [
+        "His penchant for jazz means he hates it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fondness",
+        "liking"
+      ],
+      "ipa": "/ˈpɛntʃənt/"
+    },
+    {
+      "lemma": "plethora",
+      "pos": "noun",
+      "meaning": "A very large amount, often too many.",
+      "examples": [
+        "There’s a {plethora} of options."
+      ],
+      "wrong": [
+        "A plethora means very few."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abundance",
+        "glut"
+      ],
+      "ipa": "/ˈplɛθərə/",
+      "antonyms": [
+        "shortage",
+        "dearth"
+      ]
+    },
+    {
+      "lemma": "predilection",
+      "pos": "noun",
+      "meaning": "A strong preference.",
+      "examples": [
+        "He has a {predilection} for old cars."
+      ],
+      "wrong": [
+        "Her predilection for tea means she avoids it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "preference",
+        "partiality"
+      ],
+      "ipa": "/ˌprɛdəˈlɛkʃən/"
+    },
+    {
+      "lemma": "propensity",
+      "pos": "noun",
+      "meaning": "A natural tendency to behave in a certain way.",
+      "examples": [
+        "He has a {propensity} to exaggerate."
+      ],
+      "wrong": [
+        "Her propensity for lateness means she is always on time."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tendency",
+        "inclination"
+      ],
+      "ipa": "/prəˈpɛnsəti/"
+    },
+    {
+      "lemma": "quandary",
+      "pos": "noun",
+      "meaning": "A state of not knowing what to do.",
+      "examples": [
+        "I’m in a {quandary} about the job offer."
+      ],
+      "wrong": [
+        "A quandary is a state of complete certainty."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dilemma",
+        "predicament"
+      ],
+      "ipa": "/ˈkwɑndəri/"
+    },
+    {
+      "lemma": "sophistry",
+      "pos": "noun",
+      "meaning": "Clever but false reasoning.",
+      "examples": [
+        "His argument is pure {sophistry}."
+      ],
+      "wrong": [
+        "Sophistry is honest, careful reasoning."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "casuistry"
+      ],
+      "ipa": "/ˈsɑfɪstri/"
+    },
+    {
+      "lemma": "stalemate",
+      "pos": "noun",
+      "meaning": "A situation where neither side can win.",
+      "examples": [
+        "The negotiations ended in {stalemate}."
+      ],
+      "wrong": [
+        "A stalemate is a clear win for one side."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deadlock",
+        "impasse"
+      ],
+      "ipa": "/ˈsteɪlˌmeɪt/"
+    },
+    {
+      "lemma": "tenacity",
+      "pos": "noun",
+      "meaning": "Determination to continue.",
+      "examples": [
+        "Her {tenacity} won her the case."
+      ],
+      "wrong": [
+        "His tenacity made him give up quickly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "persistence",
+        "determination"
+      ],
+      "ipa": "/təˈnæsəti/"
+    },
+    {
+      "lemma": "veracity",
+      "pos": "noun",
+      "meaning": "Truthfulness or accuracy.",
+      "examples": [
+        "I doubt the {veracity} of his story."
+      ],
+      "wrong": [
+        "Veracity means a story is false."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "truthfulness",
+        "accuracy"
+      ],
+      "ipa": "/vəˈræsəti/",
+      "antonyms": [
+        "falsehood",
+        "dishonesty"
+      ]
+    },
+    {
+      "lemma": "vicissitude",
+      "pos": "noun",
+      "meaning": "An unwelcome change in circumstances.",
+      "examples": [
+        "The {vicissitudes} of life taught her patience."
+      ],
+      "wrong": [
+        "A vicissitude is a time when nothing changes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "change",
+        "fluctuation"
+      ],
+      "ipa": "/vɪˈsɪsɪˌtud/"
+    },
+    {
+      "lemma": "zeitgeist",
+      "pos": "noun",
+      "meaning": "The general mood and ideas of a period.",
+      "examples": [
+        "The song captured the {zeitgeist} of the 1960s."
+      ],
+      "wrong": [
+        "The zeitgeist is one person’s private taste."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spirit of the age"
+      ],
+      "ipa": "/ˈzaɪtˌɡaɪst/"
+    },
+    {
+      "lemma": "rancor",
+      "pos": "noun",
+      "meaning": "Bitter, long-lasting anger.",
+      "examples": [
+        "He spoke of his old rival without {rancor}."
+      ],
+      "wrong": [
+        "Her rancor showed she had completely forgiven him."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bitterness",
+        "resentment"
+      ],
+      "ipa": "/ˈræŋkɚ/"
+    },
+    {
+      "lemma": "travesty",
+      "pos": "noun",
+      "meaning": "A ridiculous or shocking version of something.",
+      "examples": [
+        "The trial was a {travesty} of justice."
+      ],
+      "wrong": [
+        "A travesty is a perfect example of fairness."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mockery",
+        "farce"
+      ],
+      "ipa": "/ˈtrævəsti/"
+    },
+    {
+      "lemma": "conjecture",
+      "pos": "noun",
+      "meaning": "An opinion formed without proof.",
+      "examples": [
+        "That is pure {conjecture}."
+      ],
+      "wrong": [
+        "Conjecture is proven fact."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "speculation",
+        "guesswork"
+      ],
+      "ipa": "/kənˈdʒɛktʃɚ/"
+    },
+    {
+      "lemma": "detriment",
+      "pos": "noun",
+      "meaning": "Harm or damage.",
+      "examples": [
+        "He worked long hours to the {detriment} of his health."
+      ],
+      "wrong": [
+        "To the detriment of his health means it improved."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harm",
+        "damage"
+      ],
+      "ipa": "/ˈdɛtrəmənt/",
+      "antonyms": [
+        "benefit",
+        "advantage"
+      ]
+    },
+    {
+      "lemma": "equanimity",
+      "pos": "noun",
+      "meaning": "Calmness, especially in a difficult situation.",
+      "examples": [
+        "She accepted the news with {equanimity}."
+      ],
+      "wrong": [
+        "He met the crisis with equanimity, screaming in panic."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "composure",
+        "calm"
+      ],
+      "ipa": "/ˌikwəˈnɪməti/",
+      "antonyms": [
+        "agitation",
+        "anxiety"
+      ]
+    },
+    {
+      "lemma": "acrimony",
+      "pos": "noun",
+      "meaning": "Angry and bitter feeling.",
+      "examples": [
+        "The divorce was full of {acrimony}."
+      ],
+      "wrong": [
+        "The meeting ended in acrimony, with everyone happy."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bitterness",
+        "rancor"
+      ],
+      "ipa": "/ˈækrəˌmoʊni/",
+      "antonyms": [
+        "goodwill",
+        "harmony"
+      ]
+    }
+  ]
+}

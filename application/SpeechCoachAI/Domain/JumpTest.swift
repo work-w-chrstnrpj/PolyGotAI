@@ -1,8 +1,9 @@
 import Foundation
 
-/// The test that opens a locked CEFR level (owner rule, 2026-10-25: any locked level, even C2 from A1). Auto-checked
-/// items from the target level and the levels below it, every topic of the target level at least once. Wrong items are
-/// not asked again, "almost" does not count, and only a perfect score passes. A pass opens that level and all below.
+/// The test that opens a locked CEFR level (owner rule, 2026-10-25: any locked level, even C2 from A1). It checks the level
+/// you would skip, not the one you are about to learn (owner, 2026-10-30): the C1 test asks about B2, with the rest from the
+/// levels below it, and every B2 topic at least once. Wrong items are not asked again, "almost" does not count, and only a
+/// perfect score passes. A pass opens that level and all below.
 struct JumpTest: Equatable {
     struct Item: Equatable, Identifiable {
         /// "lessonID/activityID"
@@ -56,11 +57,14 @@ struct JumpTest: Equatable {
 
     // MARK: Building
 
-    /// The target level and every level below it, highest first (C1 draws from C1, B2, B1, A2 and A1).
+    /// The levels below the target, highest first (the C1 test draws from B2, B1, A2 and A1). The first is the level it checks.
     static func sourceLevels(for target: String) -> [String] {
         guard let index = LevelGate.levels.firstIndex(of: target.uppercased()), index > 0 else { return [] }
-        return Array(LevelGate.levels[0...index].reversed())
+        return Array(LevelGate.levels[0..<index].reversed())
     }
+
+    /// The level a pass lets the learner skip: the one just below the target (B2 for the C1 test).
+    static func checkedLevel(for target: String) -> String? { sourceLevels(for: target).first }
 
     /// Auto-checked, non-speaking items grouped by lesson, for one level's ready lessons.
     static func eligibleItems(level: String, install: CurriculumInstall) -> [[Item]] {
@@ -74,23 +78,24 @@ struct JumpTest: Equatable {
         }
     }
 
-    /// A test exists once the target level has typed exercises of its own and the pool is large enough.
+    /// A test exists once the checked level has typed exercises and the pool is large enough.
     static func isAvailable(target: String, install: CurriculumInstall) -> Bool {
-        let own = eligibleItems(level: target, install: install)
+        guard let checked = checkedLevel(for: target) else { return false }
+        let own = eligibleItems(level: checked, install: install)
         guard own.count >= minimumTargetTopics, own.reduce(0, { $0 + $1.count }) >= minimumTargetItems else { return false }
         let pool = sourceLevels(for: target).reduce(0) { $0 + eligibleItems(level: $1, install: install).reduce(0) { $0 + $1.count } }
         return pool >= questionCount(for: target)
     }
 
     /// A fresh test with a new question order each time; nil when no test exists for `target`. At least 60 percent of the
-    /// items come from the target level (every one of its topics once, first); the rest come from the levels below.
+    /// items come from the checked level (every one of its topics once, first); the rest come from the levels below it.
     static func make<G: RandomNumberGenerator>(target: String, install: CurriculumInstall, using generator: inout G) -> JumpTest? {
-        guard isAvailable(target: target, install: install) else { return nil }
+        guard isAvailable(target: target, install: install), let checked = checkedLevel(for: target) else { return nil }
         let count = questionCount(for: target)
         let ownTarget = Int((Double(count) * 0.6).rounded(.up))
         var chosen: [Item] = []
         var ownPool: [Item] = []
-        for group in eligibleItems(level: target, install: install).shuffled(using: &generator) {
+        for group in eligibleItems(level: checked, install: install).shuffled(using: &generator) {
             var shuffled = group.shuffled(using: &generator)
             if chosen.count < ownTarget { chosen.append(shuffled.removeFirst()) }
             ownPool.append(contentsOf: shuffled)

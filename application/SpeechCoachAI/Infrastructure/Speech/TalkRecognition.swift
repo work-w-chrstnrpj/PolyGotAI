@@ -77,6 +77,7 @@ extension TalkRecognizing {
         guard token == generation else { throw CancellationError() }
         let analyzer = SpeechAnalyzer(modules: [transcriber]); self.analyzer = analyzer
         let audio = AVAudioSession.sharedInstance()
+        SoundCenter.holdAudio("talk.listen")
         try audio.setCategory(.record, mode: .measurement, options: [.duckOthers, .allowBluetoothHFP])
         try audio.setActive(true)
         let pair = AsyncStream<AnalyzerInput>.makeStream(bufferingPolicy: .bufferingOldest(64))
@@ -123,6 +124,7 @@ extension TalkRecognizing {
         if tapped { engine.inputNode.removeTap(onBus: 0); tapped = false }
         input?.finish(); input = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("talk.listen")
     }
     private nonisolated static func authorized() async -> Bool {
         let speech = await withCheckedContinuation { continuation in

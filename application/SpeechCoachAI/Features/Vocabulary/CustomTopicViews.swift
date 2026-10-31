@@ -16,7 +16,6 @@ struct CustomTopicEditor: View {
     @State private var reviewIDs: Set<String> = []
     @State private var confirmDelete = false
     @State private var editingSense: CustomVocabularySense?
-    @State private var aiAvailable = AIFeedbackController(service: AIFeedbackController.localService()).isAvailable
 
     var body: some View {
         ScrollView {
@@ -24,41 +23,42 @@ struct CustomTopicEditor: View {
                 if let topic {
                     packActions(topic)
                     KitCard {
-                        TextField("Pack name", text: $details.title).textFieldStyle(.roundedBorder)
+                        TextField("Pack name", text: $details.title).textFieldStyle(KitFieldStyle())
                             .accessibilityIdentifier("vocabulary.topic.edit.title").dictation($details.title)
-                        TextField("Subtopic, if you want one", text: $details.subtopic).textFieldStyle(.roundedBorder)
+                        TextField("Subtopic, if you want one", text: $details.subtopic).textFieldStyle(KitFieldStyle())
                             .accessibilityIdentifier("vocabulary.topic.edit.subtopic").dictation($details.subtopic)
                         Button("Save name") { rename() }
+                            .buttonStyle(KitTextButtonStyle())
                             .disabled(!details.isDirty)
                             .accessibilityIdentifier("vocabulary.topic.rename")
                         if details.isDirty {
                             Text("Unsaved name").font(.caption).foregroundStyle(Kit.secondary)
                                 .accessibilityIdentifier("vocabulary.topic.unsaved")
-                            Button("Discard") { details.accept(topic) }
+                            Button("Discard") { details.accept(topic) }.buttonStyle(KitTextButtonStyle())
                         }
                     }
                     KitCard {
                         Text("Add a word").font(.headline)
                         TextField("Word or phrase", text: $lemma)
-                            .textFieldStyle(.roundedBorder)
+                            .textFieldStyle(KitFieldStyle())
                             .autocorrectionDisabled()
                             .accessibilityIdentifier("vocabulary.sense.lemma")
                             .focused($wordField, equals: .lemma)
                             .dictation($lemma)
                         TextField("Meaning or useful context", text: $note)
-                            .textFieldStyle(.roundedBorder)
+                            .textFieldStyle(KitFieldStyle())
                             .accessibilityIdentifier("vocabulary.sense.note")
                             .focused($wordField, equals: .meaning)
                             .dictation($note)
                         Button("Save word") { wordField = nil; add() }
-                            .buttonStyle(.borderedProminent).foregroundStyle(Kit.onAccent)
+                            .buttonStyle(KitPrimaryButtonStyle())
                             .accessibilityIdentifier("vocabulary.sense.save")
                     }
                     ForEach(topic.senses) { sense in
                         senseCard(sense)
                     }
                     Button("Delete pack") { confirmDelete = true }
-                        .foregroundStyle(Kit.error)
+                        .buttonStyle(KitTextButtonStyle(role: .destructive))
                         .accessibilityIdentifier("vocabulary.topic.delete")
                 } else if let message {
                     Text(message).foregroundStyle(Kit.secondary)
@@ -95,16 +95,16 @@ struct CustomTopicEditor: View {
                 Text(sense.note).font(.footnote).foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
             }
             Button("Edit word and meaning") { editingSense = sense }
-                .frame(minHeight: 44)
+                .buttonStyle(KitTextButtonStyle())
             Button(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)") ? "In training" : "Train") { enroll(sense, inReview: true) }
-                .buttonStyle(.bordered)
+                .buttonStyle(KitSecondaryButtonStyle())
                 .frame(maxWidth: .infinity, minHeight: 44)
                 .disabled(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)"))
                 .accessibilityIdentifier("vocabulary.sense.enroll.\(sense.senseId)")
         }
     }
 
-    /// Train every word of the pack, and fill the pack with AI words when online feedback is set up.
+    /// Train every word of the pack, and fill the pack with AI words (the key setup opens first when there is no key).
     @ViewBuilder private func packActions(_ topic: CustomVocabularyTopic) -> some View {
         let untrained = topic.senses.filter { !reviewIDs.contains("\($0.itemId)|\($0.senseId)") }
         HeroCard(eyebrow: "Your pack", title: "\(topic.senses.count) \(topic.senses.count == 1 ? "word" : "words")",
@@ -113,10 +113,10 @@ struct CustomTopicEditor: View {
                 Button("Train all") { untrained.forEach { enroll($0, inReview: true) }; message = "Added to Daily Training." }
                     .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("vocabulary.topic.trainAll")
             }
-            if aiAvailable {
-                NavigationLink("Fill with AI") { SpecializedLexiconView(storage: storage, pack: topic) }
-                    .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("vocabulary.topic.fillAI")
-            }
+            AISetupLink(isReady: { AIFeedbackController.localService() != nil }) {
+                SpecializedLexiconView(storage: storage, pack: topic)
+            } label: { Text("Fill with AI") }
+                .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("vocabulary.topic.fillAI")
         }
     }
 
@@ -219,13 +219,13 @@ private struct CustomSenseEditor: View {
     @Environment(\.dismiss) private var dismiss
     var body: some View {
         NavigationStack {
-            Form {
+            Form { KitRows {
                 TextField("Word or phrase", text: $word).dictation($word)
                 TextField("Meaning or useful context", text: $meaning, axis: .vertical).dictation($meaning)
                 Text("This updates the same word in your topics and collection. Its review schedule is kept. For a different meaning, add a separate word entry.")
                     .font(.footnote)
                 if let message { Text(message) }
-            }.navigationTitle("Edit word")
+            }}.navigationTitle("Edit word")
                 .toolbar {
                     ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
                     ToolbarItem(placement: .confirmationAction) { Button("Save") { save() } }
@@ -253,7 +253,7 @@ struct ReviewOptionsView: View {
     @FocusState private var editing: Bool
 
     var body: some View {
-        Form {
+        Form { KitRows {
             Section {
                 Text("Choose the recall target and the amount offered in one review session. These are scheduling preferences, not measured learning results.")
             }
@@ -288,7 +288,7 @@ struct ReviewOptionsView: View {
                 Text("Changing or restoring these options keeps earlier ratings and due dates. History from an unsupported scheduler stays unchanged and is not reviewed by this version. No automatic upgrade, rollback or reset is performed.")
                     .font(.footnote).foregroundStyle(Kit.secondary)
             }
-        }
+        }}
         .scrollContentBackground(.hidden)
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)

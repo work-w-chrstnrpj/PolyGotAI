@@ -1,0 +1,4797 @@
+{
+  "schemaVersion": 1,
+  "packId": "speechcoach.track.pronunciation",
+  "contentVersion": "1",
+  "locale": "en-US",
+  "minimumSchemaVersion": 1,
+  "editorialApprovalReference": "Phase 12 Pronunciation coach authored 2026-10-26 for personal practice. Qualified phonetics review pending.",
+  "rightsReference": "Original SpeechCoachAI wording written 2026-10-26. IPA and lexical-set names are used as notation only; no text is copied.",
+  "assets": [],
+  "track": {
+    "id": "pronunciation",
+    "coach": "pronunciation",
+    "stages": [
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "units": [
+          {
+            "id": "vowels",
+            "title": "Vowels"
+          },
+          {
+            "id": "diphthongs",
+            "title": "Diphthongs and r-vowels"
+          }
+        ]
+      },
+      {
+        "id": "intermediate",
+        "title": "Intermediate",
+        "units": [
+          {
+            "id": "consonant-pairs",
+            "title": "Consonant pairs"
+          },
+          {
+            "id": "tricky-consonants",
+            "title": "Tricky consonants"
+          }
+        ]
+      },
+      {
+        "id": "advanced",
+        "title": "Advanced",
+        "units": [
+          {
+            "id": "stress-rhythm",
+            "title": "Stress and rhythm"
+          },
+          {
+            "id": "intonation",
+            "title": "Intonation"
+          }
+        ]
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "pronunciation-long-and-short-vowels",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Long and short vowels",
+      "objectiveId": "PRON-LONG-AND-SHORT-VOWELS",
+      "trackId": "pronunciation",
+      "unitId": "vowels",
+      "tip": "Hear the pair, feel the mouth shape, then say it. Shape matters more than length.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-long-and-short-vowels-read-1",
+          "heading": "Sheep or ship: /iː/ and /ɪ/",
+          "explanation": "English has pairs of vowels that many learners hear as one sound. The most important is /iː/ as in sheep, see, green, and /ɪ/ as in ship, sit, fish.\n\nThe /iː/ sound is **long and tense**: spread your lips slightly, as if you are about to smile, and keep your tongue high and forward. The /ɪ/ sound is **short and relaxed**: the tongue is a little lower and further back, and the lips are loose.\n\nLength helps, but the shape of the mouth matters more; a long /ɪ/ still sounds like ship. Common spellings for /iː/ are ee, ea, e-e and ie (see, eat, these, piece); /ɪ/ is usually a single i or y (sit, gym).",
+          "examples": [
+            {
+              "prompt": "Long /iː/",
+              "answer": "sheep · leave · beat · feel",
+              "explanation": "Smile a little and hold the sound."
+            },
+            {
+              "prompt": "Short /ɪ/",
+              "answer": "ship · live · bit · fill",
+              "explanation": "Relax the lips; keep it short."
+            },
+            {
+              "prompt": "In a sentence",
+              "answer": "Please sit in this seat.",
+              "explanation": "sit has /ɪ/; seat has /iː/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-long-and-short-vowels-read-2",
+          "heading": "Pool or pull: /uː/ and /ʊ/",
+          "explanation": "The back vowels work the same way. /uː/ as in food, blue, moon is **long and tense**, with rounded lips pushed slightly forward, as if you are about to whistle. /ʊ/ as in book, good, foot is **short and relaxed**, with only lightly rounded lips.\n\nSpelling does not help much here:\n- oo can be either sound (food /uː/, good /ʊ/)\n- u can be either (rule /uː/, put /ʊ/).\n\nLearn common words in pairs and say them aloud together:\n- pool – pull\n- fool – full\n- Luke – look.",
+          "examples": [
+            {
+              "prompt": "Long /uː/",
+              "answer": "pool · fool · food · moon",
+              "explanation": "Round and push the lips forward."
+            },
+            {
+              "prompt": "Short /ʊ/",
+              "answer": "pull · full · good · book",
+              "explanation": "Lips only lightly rounded, short sound."
+            },
+            {
+              "prompt": "Same spelling, different sound",
+              "answer": "The food was good.",
+              "explanation": "Both have oo, but food is /uː/ and good is /ʊ/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-long-and-short-vowels-read-3",
+          "heading": "Practising pairs",
+          "explanation": "A **minimal pair** is two words that differ in only one sound, like sheep and ship. Minimal pairs train your ear and your mouth together:\n- First listen to both words and notice the difference.\n- Then say each word slowly, exaggerating the mouth shape, and gradually speed up to normal.\n- Finally, put the words in short sentences, because sounds change a little in real speech.\n\nIf the phone hears the other word of the pair, it is a useful signal: go back to the mouth position, not just the length.",
+          "examples": [
+            {
+              "prompt": "Step 1: hear",
+              "answer": "sheep … ship … sheep … ship",
+              "explanation": "Listen for the change in quality, not only length."
+            },
+            {
+              "prompt": "Step 2: say slowly",
+              "answer": "shee-eep … ship",
+              "explanation": "Exaggerate the smile for /iː/, relax for /ɪ/."
+            },
+            {
+              "prompt": "Step 3: in context",
+              "answer": "The ship carried sheep.",
+              "explanation": "Both sounds in one natural sentence."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “sheep” — not “ship”.",
+          "answer": "sheep",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "sheep"
+            ],
+            "audioText": "sheep"
+          },
+          "id": "pronunciation-long-and-short-vowels-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “ship” — not “sheep”.",
+          "answer": "ship",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "ship"
+            ],
+            "audioText": "ship"
+          },
+          "id": "pronunciation-long-and-short-vowels-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “leave” — not “live”.",
+          "answer": "leave",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "leave"
+            ],
+            "audioText": "leave"
+          },
+          "id": "pronunciation-long-and-short-vowels-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “sit” — not “seat”.",
+          "answer": "sit",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "sit"
+            ],
+            "audioText": "sit"
+          },
+          "id": "pronunciation-long-and-short-vowels-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “pool” — not “pull”.",
+          "answer": "pool",
+          "explanation": "Long /uː/: round and push the lips; short /ʊ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "pool"
+            ],
+            "audioText": "pool"
+          },
+          "id": "pronunciation-long-and-short-vowels-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “full” — not “fool”.",
+          "answer": "full",
+          "explanation": "Long /uː/: round and push the lips; short /ʊ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "full"
+            ],
+            "audioText": "full"
+          },
+          "id": "pronunciation-long-and-short-vowels-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “feel” — not “fill”.",
+          "answer": "feel",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "feel"
+            ],
+            "audioText": "feel"
+          },
+          "id": "pronunciation-long-and-short-vowels-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "beat",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "beat",
+              "bit"
+            ],
+            "accepted": [
+              "beat"
+            ],
+            "audioText": "beat"
+          },
+          "id": "pronunciation-long-and-short-vowels-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "live",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "live",
+              "leave"
+            ],
+            "accepted": [
+              "live"
+            ],
+            "audioText": "live"
+          },
+          "id": "pronunciation-long-and-short-vowels-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "seat",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "seat",
+              "sit"
+            ],
+            "accepted": [
+              "seat"
+            ],
+            "audioText": "seat"
+          },
+          "id": "pronunciation-long-and-short-vowels-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "fool",
+          "explanation": "Long /uː/: round and push the lips; short /ʊ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "fool",
+              "full"
+            ],
+            "accepted": [
+              "fool"
+            ],
+            "audioText": "fool"
+          },
+          "id": "pronunciation-long-and-short-vowels-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "look",
+          "explanation": "Long /uː/: round and push the lips; short /ʊ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "look",
+              "Luke"
+            ],
+            "accepted": [
+              "look"
+            ],
+            "audioText": "look"
+          },
+          "id": "pronunciation-long-and-short-vowels-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "heel",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "heel",
+              "hill"
+            ],
+            "accepted": [
+              "heel"
+            ],
+            "audioText": "heel"
+          },
+          "id": "pronunciation-long-and-short-vowels-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "green",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "green",
+              "grin"
+            ],
+            "accepted": [
+              "green"
+            ],
+            "audioText": "green"
+          },
+          "id": "pronunciation-long-and-short-vowels-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel as “sheep”?",
+          "answer": "team",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "team",
+              "tip",
+              "top",
+              "tape"
+            ],
+            "accepted": [
+              "team"
+            ]
+          },
+          "id": "pronunciation-long-and-short-vowels-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the long /uː/ sound?",
+          "answer": "moon",
+          "explanation": "Long /uː/: round and push the lips; short /ʊ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "moon",
+              "book",
+              "good",
+              "foot"
+            ],
+            "accepted": [
+              "moon"
+            ]
+          },
+          "id": "pronunciation-long-and-short-vowels-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the short /ɪ/ sound?",
+          "answer": "gym",
+          "explanation": "Long /iː/: smile a little and hold it; short /ɪ/ is relaxed.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "gym",
+              "seen",
+              "team",
+              "meal"
+            ],
+            "accepted": [
+              "gym"
+            ]
+          },
+          "id": "pronunciation-long-and-short-vowels-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-long-and-short-vowels-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three more words with the long /iː/ sound and three with the short /ɪ/ sound, then say them aloud.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-open-vowels",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Open vowels",
+      "objectiveId": "PRON-OPEN-VOWELS",
+      "trackId": "pronunciation",
+      "unitId": "vowels",
+      "tip": "Hear the pair, feel the mouth shape, then say it. Shape matters more than length.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-open-vowels-read-1",
+          "heading": "Bed or bad: /e/ and /æ/",
+          "explanation": "The vowel /e/ as in bed, red, ten is made with the mouth **half open** and the tongue in the middle-front of the mouth. The vowel /æ/ as in cat, bad, map needs a **wider mouth**: drop your jaw and spread your lips, and let the tongue lie low at the front.\n\nMany learners say both as /e/, so bad sounds like bed and man like men. A good test is to put a finger on your chin: it should move down further for /æ/.\n\nIn American English /æ/ is often a little longer than in British English.",
+          "examples": [
+            {
+              "prompt": "Half open /e/",
+              "answer": "bed · pen · men · said",
+              "explanation": "Jaw half open."
+            },
+            {
+              "prompt": "Wide open /æ/",
+              "answer": "bad · pan · man · sad",
+              "explanation": "Drop the jaw further and spread the lips."
+            },
+            {
+              "prompt": "In a sentence",
+              "answer": "The man met ten men.",
+              "explanation": "man has /æ/; met, ten and men have /e/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-open-vowels-read-2",
+          "heading": "Cup, cop and calm: /ʌ/ and /ɑː/",
+          "explanation": "The vowel /ʌ/ as in cup, bus, sun is **short and central**: the mouth is relaxed and slightly open, and the tongue sits in the middle. The vowel /ɑː/ as in father, calm, palm is **long and open at the back**, with the jaw down and the tongue low.\n\nIn American English, words like hot, cop and lock also use an open /ɑ/ sound, while British English uses a short rounded /ɒ/.\n\nThe key contrast for most learners is between the short, central /ʌ/ (cup, luck) and the open back vowel (cop, lock).",
+          "examples": [
+            {
+              "prompt": "Short central /ʌ/",
+              "answer": "cup · luck · hut · run",
+              "explanation": "Relaxed, short, in the middle of the mouth."
+            },
+            {
+              "prompt": "Open back vowel",
+              "answer": "cop · lock · hot · calm",
+              "explanation": "Jaw down, tongue low and back."
+            },
+            {
+              "prompt": "Pair",
+              "answer": "Good luck with the lock.",
+              "explanation": "luck /ʌ/ versus lock (open back vowel)."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-open-vowels-read-3",
+          "heading": "Feeling the jaw move",
+          "explanation": "Front and open vowels form a **ladder**: /iː/ (see) at the top, then /ɪ/ (sit), /e/ (bed), and /æ/ (bad) at the bottom. Slide slowly down the ladder — see, sit, set, sat — and feel your jaw open a little more at each step. This makes the differences physical rather than only something you try to hear.\n\nUse a mirror or your phone’s camera: if your mouth does not change between bed and bad, the listener will not hear a difference either.",
+          "examples": [
+            {
+              "prompt": "The ladder",
+              "answer": "see → sit → set → sat",
+              "explanation": "The jaw opens a little more at each step."
+            },
+            {
+              "prompt": "Contrast set",
+              "answer": "pen · pan · pun",
+              "explanation": "/e/ · /æ/ · /ʌ/."
+            },
+            {
+              "prompt": "Mirror check",
+              "answer": "bed … bad … bed … bad",
+              "explanation": "You should see the jaw drop for bad."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “bad” — not “bed”.",
+          "answer": "bad",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "bad"
+            ],
+            "audioText": "bad"
+          },
+          "id": "pronunciation-open-vowels-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “bed” — not “bad”.",
+          "answer": "bed",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "bed"
+            ],
+            "audioText": "bed"
+          },
+          "id": "pronunciation-open-vowels-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “man” — not “men”.",
+          "answer": "man",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "man"
+            ],
+            "audioText": "man"
+          },
+          "id": "pronunciation-open-vowels-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “cup” — not “cop”.",
+          "answer": "cup",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "cup"
+            ],
+            "audioText": "cup"
+          },
+          "id": "pronunciation-open-vowels-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “lock” — not “luck”.",
+          "answer": "lock",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "lock"
+            ],
+            "audioText": "lock"
+          },
+          "id": "pronunciation-open-vowels-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “cat” — not “cut”.",
+          "answer": "cat",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "cat"
+            ],
+            "audioText": "cat"
+          },
+          "id": "pronunciation-open-vowels-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “pan” — not “pen”.",
+          "answer": "pan",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "pan"
+            ],
+            "audioText": "pan"
+          },
+          "id": "pronunciation-open-vowels-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "pen",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "pen",
+              "pan"
+            ],
+            "accepted": [
+              "pen"
+            ],
+            "audioText": "pen"
+          },
+          "id": "pronunciation-open-vowels-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "men",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "men",
+              "man"
+            ],
+            "accepted": [
+              "men"
+            ],
+            "audioText": "men"
+          },
+          "id": "pronunciation-open-vowels-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "cut",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "cut",
+              "cat"
+            ],
+            "accepted": [
+              "cut"
+            ],
+            "audioText": "cut"
+          },
+          "id": "pronunciation-open-vowels-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "cop",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "cop",
+              "cup"
+            ],
+            "accepted": [
+              "cop"
+            ],
+            "audioText": "cop"
+          },
+          "id": "pronunciation-open-vowels-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "luck",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "luck",
+              "lock"
+            ],
+            "accepted": [
+              "luck"
+            ],
+            "audioText": "luck"
+          },
+          "id": "pronunciation-open-vowels-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "hat",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "hat",
+              "hut"
+            ],
+            "accepted": [
+              "hat"
+            ],
+            "audioText": "hat"
+          },
+          "id": "pronunciation-open-vowels-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "said",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "said",
+              "sad"
+            ],
+            "accepted": [
+              "said"
+            ],
+            "audioText": "said"
+          },
+          "id": "pronunciation-open-vowels-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel as “cat”?",
+          "answer": "map",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "map",
+              "cup",
+              "met",
+              "cot"
+            ],
+            "accepted": [
+              "map"
+            ]
+          },
+          "id": "pronunciation-open-vowels-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel as “cup”?",
+          "answer": "sun",
+          "explanation": "/ʌ/ is short and central; the open back vowel needs the jaw down.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "sun",
+              "sand",
+              "send",
+              "soon"
+            ],
+            "accepted": [
+              "sun"
+            ]
+          },
+          "id": "pronunciation-open-vowels-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word needs the widest open mouth?",
+          "answer": "bad",
+          "explanation": "Drop the jaw further for /æ/ than for /e/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "bad",
+              "bed",
+              "bid",
+              "bead"
+            ],
+            "accepted": [
+              "bad"
+            ]
+          },
+          "id": "pronunciation-open-vowels-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-open-vowels-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a sentence that uses bed, bad and bud, then say it slowly and watch your jaw.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-schwa-and-weak-syllables",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Schwa and weak syllables",
+      "objectiveId": "PRON-SCHWA-AND-WEAK-SYLLABLES",
+      "trackId": "pronunciation",
+      "unitId": "vowels",
+      "tip": "Hear the pair, feel the mouth shape, then say it. Shape matters more than length.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-schwa-and-weak-syllables-read-1",
+          "heading": "The schwa /ə/",
+          "explanation": "The **schwa /ə/** is the most common vowel sound in English. It is short, quiet and relaxed — like the sound you make when you hesitate: \"uh\". It appears in **unstressed syllables**, whatever the spelling:\n- the a in about\n- the o in today\n- the e in problem\n- the u in support\n- the er in teacher (in British English).\n\nNative speakers rarely pronounce every vowel fully. Saying banana as ba-NA-na with three clear a sounds sounds foreign; natural English is /bəˈnɑːnə/, with two schwas.\n\nLearning to relax the unstressed syllables is one of the fastest ways to sound more natural.",
+          "examples": [
+            {
+              "prompt": "a as schwa",
+              "answer": "about · again · sofa",
+              "explanation": "The unstressed a becomes /ə/."
+            },
+            {
+              "prompt": "o and e as schwa",
+              "answer": "today · problem · system",
+              "explanation": "Different spellings, same weak sound."
+            },
+            {
+              "prompt": "Two schwas",
+              "answer": "banana /bəˈnɑːnə/",
+              "explanation": "Only the middle syllable is strong."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-schwa-and-weak-syllables-read-2",
+          "heading": "Weak forms of small words",
+          "explanation": "Many short grammar words — a, the, to, of, for, and, can, was, have — have a **strong form** and a **weak form**. In normal speech they are unstressed, so they use the weak form with a schwa:\n- to becomes /tə/\n- of becomes /əv/ or even /ə/\n- and becomes /ən/ or /n/\n- can becomes /kən/.\n\n\"A cup of tea\" sounds like \"a cuppa tea\"; \"fish and chips\" sounds like \"fish ’n’ chips\".\n\nUse the strong form only when the word is stressed for meaning, or at the end of a phrase: \"Yes, I CAN.\" \"Where are you from?\"",
+          "examples": [
+            {
+              "prompt": "to",
+              "answer": "I want to go. → /tə/",
+              "explanation": "Weak in the middle of the sentence."
+            },
+            {
+              "prompt": "of",
+              "answer": "a cup of tea → \"a cuppa tea\"",
+              "explanation": "of shrinks to a schwa."
+            },
+            {
+              "prompt": "Strong form",
+              "answer": "Who is it for?",
+              "explanation": "At the end of a question, for keeps its full vowel."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-schwa-and-weak-syllables-read-3",
+          "heading": "Weak syllables and listening",
+          "explanation": "Because so many syllables are weak, English rhythm is made of **strong beats** separated by quick, weak syllables. This is why fast English can be hard to understand: the weak syllables almost disappear.\n\nWhen you listen, focus on the stressed words; the weak ones fill themselves in from context.\n\nWhen you speak, do the opposite of what feels natural to many learners: say the stressed syllables clearly and let the weak ones be short and relaxed.",
+          "examples": [
+            {
+              "prompt": "Strong and weak",
+              "answer": "I’d like a glass of water.",
+              "explanation": "like, glass and wa- are strong; the rest are weak."
+            },
+            {
+              "prompt": "Letter /ə/",
+              "answer": "teacher · water · doctor",
+              "explanation": "The final syllable is a weak schwa (with r in American English)."
+            },
+            {
+              "prompt": "Fast speech",
+              "answer": "What do you want? → \"Whaddaya want?\"",
+              "explanation": "Weak forms blend together."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “about”.",
+          "answer": "about",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "about"
+            ],
+            "audioText": "about"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “today”.",
+          "answer": "today",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "today"
+            ],
+            "audioText": "today"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “banana”.",
+          "answer": "banana",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "banana"
+            ],
+            "audioText": "banana"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “teacher”.",
+          "answer": "teacher",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "teacher"
+            ],
+            "audioText": "teacher"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “a cup of tea”.",
+          "answer": "a cup of tea",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "a cup of tea"
+            ],
+            "audioText": "a cup of tea"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “fish and chips”.",
+          "answer": "fish and chips",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "fish and chips"
+            ],
+            "audioText": "fish and chips"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “I want to go”.",
+          "answer": "I want to go",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "I want to go"
+            ],
+            "audioText": "I want to go"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which part of “about” has the weak schwa sound?",
+          "answer": "a",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "a",
+              "bout"
+            ],
+            "accepted": [
+              "a"
+            ],
+            "audioText": "about"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which part of “today” is weak?",
+          "answer": "to",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "to",
+              "day"
+            ],
+            "accepted": [
+              "to"
+            ],
+            "audioText": "today"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable of “banana” is stressed?",
+          "answer": "second",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first",
+              "third"
+            ],
+            "accepted": [
+              "second"
+            ],
+            "audioText": "banana"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "How many schwa sounds are in “banana”?",
+          "answer": "two",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "two",
+              "one",
+              "three"
+            ],
+            "accepted": [
+              "two"
+            ]
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word is usually weak in “a cup of tea”?",
+          "answer": "of",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "of",
+              "cup",
+              "tea"
+            ],
+            "accepted": [
+              "of"
+            ]
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word is usually weak in “fish and chips”?",
+          "answer": "and",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "and",
+              "fish",
+              "chips"
+            ],
+            "accepted": [
+              "and"
+            ]
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word ends in a weak schwa sound?",
+          "answer": "sofa",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "sofa",
+              "see",
+              "saw",
+              "sigh"
+            ],
+            "accepted": [
+              "sofa"
+            ]
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which part of “problem” has the schwa?",
+          "answer": "lem",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "lem",
+              "prob"
+            ],
+            "accepted": [
+              "lem"
+            ],
+            "audioText": "problem"
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Where does “at” keep its strong form?",
+          "answer": "What are you looking at?",
+          "explanation": "Unstressed syllables and small words relax into the schwa /ə/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "What are you looking at?",
+              "Look at this.",
+              "I’m at home."
+            ],
+            "accepted": [
+              "What are you looking at?"
+            ]
+          },
+          "id": "pronunciation-schwa-and-weak-syllables-16",
+          "required": true
+        },
+        {
+          "id": "pronunciation-schwa-and-weak-syllables-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write one sentence with “to”, “of” and “and”, mark the weak words, then say it with weak forms.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-diphthongs",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "Diphthongs",
+      "objectiveId": "PRON-DIPHTHONGS",
+      "trackId": "pronunciation",
+      "unitId": "diphthongs",
+      "tip": "Hear the pair, feel the mouth shape, then say it. Shape matters more than length.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-diphthongs-read-1",
+          "heading": "What a diphthong is",
+          "explanation": "A **diphthong** is a vowel that **glides** from one position to another within one syllable. Your tongue and lips move during the sound. English has several:\n- /eɪ/ as in day\n- /aɪ/ as in time\n- /ɔɪ/ as in boy\n- /aʊ/ as in now\n- /əʊ/ (British) or /oʊ/ (American) as in go.\n\nLearners often make these too short or keep the mouth still, so late sounds like let, and time sounds like tame. Make the glide clear: start at the first position and move smoothly to the second.",
+          "examples": [
+            {
+              "prompt": "/eɪ/",
+              "answer": "day · rain · late · pain",
+              "explanation": "Glide from /e/ towards /ɪ/."
+            },
+            {
+              "prompt": "/aɪ/",
+              "answer": "time · my · light · nice",
+              "explanation": "Start open, glide up to /ɪ/."
+            },
+            {
+              "prompt": "/ɔɪ/",
+              "answer": "boy · coin · toy · choice",
+              "explanation": "Start rounded, glide to /ɪ/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-diphthongs-read-2",
+          "heading": "Mouth and goat: /aʊ/ and /əʊ/",
+          "explanation": "Two diphthongs end with the lips rounding. **/aʊ/** as in now, house, town starts wide open, like /æ/ or /a/, and closes towards a rounded /ʊ/. **/əʊ/** (British) or /oʊ/ (American) as in go, home, road starts in the middle and rounds towards /ʊ/.\n\nIf you keep the lips still, now can sound like no, and town like tone; if you do not round at all, boat can sound like bought. Watch your lips in a mirror: they should move during the vowel.",
+          "examples": [
+            {
+              "prompt": "/aʊ/",
+              "answer": "now · town · house · loud",
+              "explanation": "Open wide, then round."
+            },
+            {
+              "prompt": "/əʊ/ or /oʊ/",
+              "answer": "no · tone · boat · home",
+              "explanation": "Start in the middle, then round."
+            },
+            {
+              "prompt": "Pair",
+              "answer": "Go now, not later.",
+              "explanation": "go has /əʊ/; now has /aʊ/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-diphthongs-read-3",
+          "heading": "Spelling and diphthongs",
+          "explanation": "Diphthongs have **many spellings**. /eɪ/: a-e (late), ai (rain), ay (day), ei (eight).\n- /aɪ/: i-e (time), y (my), igh (light).\n- /ɔɪ/: oi (coin), oy (boy).\n- /aʊ/: ou (house), ow (now).\n- /əʊ/: o-e (home), oa (boat), ow (show).\n\nNotice that ow has two sounds: now /aʊ/ and show /əʊ/. When you learn a new word, check its sound in a dictionary and say it aloud, rather than guessing from the letters.",
+          "examples": [
+            {
+              "prompt": "Same spelling, two sounds",
+              "answer": "How now? · Show me.",
+              "explanation": "ow is /aʊ/ in how and now, /əʊ/ in show."
+            },
+            {
+              "prompt": "a-e pattern",
+              "answer": "late · made · name",
+              "explanation": "Silent e makes the a say /eɪ/."
+            },
+            {
+              "prompt": "igh pattern",
+              "answer": "light · night · high",
+              "explanation": "igh is /aɪ/."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “late” — not “let”.",
+          "answer": "late",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "late"
+            ],
+            "audioText": "late"
+          },
+          "id": "pronunciation-diphthongs-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “time” — not “tame”.",
+          "answer": "time",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "time"
+            ],
+            "audioText": "time"
+          },
+          "id": "pronunciation-diphthongs-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “boy” — not “buy”.",
+          "answer": "boy",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "boy"
+            ],
+            "audioText": "boy"
+          },
+          "id": "pronunciation-diphthongs-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “now” — not “no”.",
+          "answer": "now",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "now"
+            ],
+            "audioText": "now"
+          },
+          "id": "pronunciation-diphthongs-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “boat” — not “bought”.",
+          "answer": "boat",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "boat"
+            ],
+            "audioText": "boat"
+          },
+          "id": "pronunciation-diphthongs-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “pain” — not “pen”.",
+          "answer": "pain",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "pain"
+            ],
+            "audioText": "pain"
+          },
+          "id": "pronunciation-diphthongs-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “toy” — not “tie”.",
+          "answer": "toy",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "toy"
+            ],
+            "audioText": "toy"
+          },
+          "id": "pronunciation-diphthongs-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "let",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "let",
+              "late"
+            ],
+            "accepted": [
+              "let"
+            ],
+            "audioText": "let"
+          },
+          "id": "pronunciation-diphthongs-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "tame",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tame",
+              "time"
+            ],
+            "accepted": [
+              "tame"
+            ],
+            "audioText": "tame"
+          },
+          "id": "pronunciation-diphthongs-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "may",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "may",
+              "my"
+            ],
+            "accepted": [
+              "may"
+            ],
+            "audioText": "may"
+          },
+          "id": "pronunciation-diphthongs-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "no",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "no",
+              "now"
+            ],
+            "accepted": [
+              "no"
+            ],
+            "audioText": "no"
+          },
+          "id": "pronunciation-diphthongs-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "tone",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tone",
+              "town"
+            ],
+            "accepted": [
+              "tone"
+            ],
+            "audioText": "tone"
+          },
+          "id": "pronunciation-diphthongs-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "coat",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "coat",
+              "caught"
+            ],
+            "accepted": [
+              "coat"
+            ],
+            "audioText": "coat"
+          },
+          "id": "pronunciation-diphthongs-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "buy",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "buy",
+              "boy"
+            ],
+            "accepted": [
+              "buy"
+            ],
+            "audioText": "buy"
+          },
+          "id": "pronunciation-diphthongs-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel sound as “day”?",
+          "answer": "rain",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "rain",
+              "red",
+              "ran",
+              "rice"
+            ],
+            "accepted": [
+              "rain"
+            ]
+          },
+          "id": "pronunciation-diphthongs-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "In which word is “ow” said /aʊ/?",
+          "answer": "town",
+          "explanation": "For /aʊ/ and /əʊ/, the lips round at the end.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "town",
+              "show",
+              "snow",
+              "grow"
+            ],
+            "accepted": [
+              "town"
+            ]
+          },
+          "id": "pronunciation-diphthongs-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the /ɔɪ/ sound?",
+          "answer": "coin",
+          "explanation": "Glide: the tongue moves during the vowel.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "coin",
+              "cone",
+              "con",
+              "cane"
+            ],
+            "accepted": [
+              "coin"
+            ]
+          },
+          "id": "pronunciation-diphthongs-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-diphthongs-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write five words with the /aɪ/ sound in different spellings (time, my, light…), then say them aloud.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-r-coloured-vowels",
+      "contentVersion": "1",
+      "level": "Foundation",
+      "title": "R-coloured vowels",
+      "objectiveId": "PRON-R-COLOURED-VOWELS",
+      "trackId": "pronunciation",
+      "unitId": "diphthongs",
+      "tip": "Hear the pair, feel the mouth shape, then say it. Shape matters more than length.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-r-coloured-vowels-read-1",
+          "heading": "Nurse: /ɜː/",
+          "explanation": "The vowel /ɜː/ as in bird, turn, learn, word is **long and central**. Keep your lips neutral (not rounded, not spread) and your tongue in the middle of the mouth.\n\nIn American English the tongue also curls or bunches for an r sound, so bird is /bɝd/.\n\nMany learners replace it with /e/, /ʌ/ or /ɔː/: bird becomes bud, and work becomes walk. Its spellings are varied:\n- ir (bird)\n- ur (turn)\n- er (her)\n- ear (learn)\n- after w (word, work, world).",
+          "examples": [
+            {
+              "prompt": "/ɜː/",
+              "answer": "bird · turn · learn · word",
+              "explanation": "Long, central, lips neutral."
+            },
+            {
+              "prompt": "Pair",
+              "answer": "hurt · hut",
+              "explanation": "hurt has the long central vowel; hut has short /ʌ/."
+            },
+            {
+              "prompt": "or after w",
+              "answer": "I work all over the world.",
+              "explanation": "work and world have /ɜː/, not /ɔː/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-r-coloured-vowels-read-2",
+          "heading": "Start and north: /ɑː/ and /ɔː/",
+          "explanation": "The vowel in car, park, heart is **long and open at the back**: /ɑː/ in British English, /ɑr/ in American English.\n\nThe vowel in door, short, north is **long and rounded**: /ɔː/ in British English, /ɔr/ in American English.\n\nKeep these long. If you make them short, heart can sound like hot, and short like shot. Round your lips for /ɔː/ and keep them open and relaxed for /ɑː/.",
+          "examples": [
+            {
+              "prompt": "/ɑː/",
+              "answer": "car · card · heart · park",
+              "explanation": "Long and open."
+            },
+            {
+              "prompt": "/ɔː/",
+              "answer": "door · short · port · four",
+              "explanation": "Long and rounded."
+            },
+            {
+              "prompt": "Pairs",
+              "answer": "heart / hot · short / shot",
+              "explanation": "Keep the first word of each pair long."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-r-coloured-vowels-read-3",
+          "heading": "Rhotic and non-rhotic accents",
+          "explanation": "English accents differ in how they treat the letter r after a vowel. In **rhotic accents** — most American, Canadian, Scottish and Irish English — you pronounce it: car /kɑr/. In **non-rhotic accents** — most of England, Australia and New Zealand — the r is silent unless a vowel follows: car /kɑː/, but \"car engine\" links with an r.\n\nBoth are correct. Choose one model and be consistent; mixing them in one sentence sounds odd. Either way, the vowel before the r should be long.",
+          "examples": [
+            {
+              "prompt": "Rhotic (American)",
+              "answer": "car · far · water → r pronounced",
+              "explanation": "The tongue curls for r."
+            },
+            {
+              "prompt": "Non-rhotic (British)",
+              "answer": "car · far · water → no r sound",
+              "explanation": "The vowel is long instead."
+            },
+            {
+              "prompt": "Linking r",
+              "answer": "far away → \"fa-raway\"",
+              "explanation": "Non-rhotic speakers say the r before a vowel."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “hurt” — not “hut”.",
+          "answer": "hurt",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "hurt"
+            ],
+            "audioText": "hurt"
+          },
+          "id": "pronunciation-r-coloured-vowels-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “bird” — not “bud”.",
+          "answer": "bird",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "bird"
+            ],
+            "audioText": "bird"
+          },
+          "id": "pronunciation-r-coloured-vowels-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “heart” — not “hot”.",
+          "answer": "heart",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "heart"
+            ],
+            "audioText": "heart"
+          },
+          "id": "pronunciation-r-coloured-vowels-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “short” — not “shot”.",
+          "answer": "short",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "short"
+            ],
+            "audioText": "short"
+          },
+          "id": "pronunciation-r-coloured-vowels-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “card” — not “cod”.",
+          "answer": "card",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "card"
+            ],
+            "audioText": "card"
+          },
+          "id": "pronunciation-r-coloured-vowels-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “port” — not “pot”.",
+          "answer": "port",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "port"
+            ],
+            "audioText": "port"
+          },
+          "id": "pronunciation-r-coloured-vowels-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “work” — not “walk”.",
+          "answer": "work",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "work"
+            ],
+            "audioText": "work"
+          },
+          "id": "pronunciation-r-coloured-vowels-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "hut",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "hut",
+              "hurt"
+            ],
+            "accepted": [
+              "hut"
+            ],
+            "audioText": "hut"
+          },
+          "id": "pronunciation-r-coloured-vowels-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "bud",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "bud",
+              "bird"
+            ],
+            "accepted": [
+              "bud"
+            ],
+            "audioText": "bud"
+          },
+          "id": "pronunciation-r-coloured-vowels-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "hot",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "hot",
+              "heart"
+            ],
+            "accepted": [
+              "hot"
+            ],
+            "audioText": "hot"
+          },
+          "id": "pronunciation-r-coloured-vowels-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "shot",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "shot",
+              "short"
+            ],
+            "accepted": [
+              "shot"
+            ],
+            "audioText": "shot"
+          },
+          "id": "pronunciation-r-coloured-vowels-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "cod",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "cod",
+              "card"
+            ],
+            "accepted": [
+              "cod"
+            ],
+            "audioText": "cod"
+          },
+          "id": "pronunciation-r-coloured-vowels-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "walk",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "walk",
+              "work"
+            ],
+            "accepted": [
+              "walk"
+            ],
+            "audioText": "walk"
+          },
+          "id": "pronunciation-r-coloured-vowels-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "firm",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "firm",
+              "farm"
+            ],
+            "accepted": [
+              "firm"
+            ],
+            "audioText": "firm"
+          },
+          "id": "pronunciation-r-coloured-vowels-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel as “bird”?",
+          "answer": "learn",
+          "explanation": "/ɜː/ is long and central, lips neutral.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "learn",
+              "lean",
+              "lane",
+              "lawn"
+            ],
+            "accepted": [
+              "learn"
+            ]
+          },
+          "id": "pronunciation-r-coloured-vowels-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "In most British accents, do you hear the r in “car”?",
+          "answer": "No",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No",
+              "Yes"
+            ],
+            "accepted": [
+              "No"
+            ]
+          },
+          "id": "pronunciation-r-coloured-vowels-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the same vowel as “door”?",
+          "answer": "four",
+          "explanation": "Keep /ɑː/ and /ɔː/ long; round the lips for /ɔː/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "four",
+              "far",
+              "fur",
+              "foe"
+            ],
+            "accepted": [
+              "four"
+            ]
+          },
+          "id": "pronunciation-r-coloured-vowels-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-r-coloured-vowels-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Choose British or American r. Write three words with /ɜː/ and say them in your chosen accent.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-voiced-and-voiceless-pairs",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "Voiced and voiceless pairs",
+      "objectiveId": "PRON-VOICED-AND-VOICELESS-PAIRS",
+      "trackId": "pronunciation",
+      "unitId": "consonant-pairs",
+      "tip": "Check the tongue, lips and voice: one small change separates each pair.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-voiced-and-voiceless-pairs-read-1",
+          "heading": "Voice: the buzz in your throat",
+          "explanation": "Many English consonants come in pairs made in the same place in the mouth. The only difference is **voicing**: whether your vocal cords vibrate.\n\nPut your fingers on your throat and say a long \"sssss\" then \"zzzzz\". You will feel a buzz for /z/ but not for /s/. The pairs are:\n- /p/–/b/\n- /t/–/d/\n- /k/–/ɡ/\n- /f/–/v/\n- /s/–/z/\n- /θ/–/ð/\n- /ʃ/–/ʒ/\n- /tʃ/–/dʒ/.\n\nThe first of each pair is voiceless, the second voiced. Getting this wrong changes meaning:\n- pig and big\n- fan and van\n- sip and zip.",
+          "examples": [
+            {
+              "prompt": "Feel the buzz",
+              "answer": "sssss → zzzzz",
+              "explanation": "Vocal cords vibrate only for /z/."
+            },
+            {
+              "prompt": "/p/ and /b/",
+              "answer": "pig · big · pen · Ben",
+              "explanation": "Same lips, different voice."
+            },
+            {
+              "prompt": "/f/ and /v/",
+              "answer": "fan · van · fine · vine",
+              "explanation": "Top teeth on lower lip for both."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-voiced-and-voiceless-pairs-read-2",
+          "heading": "The puff of air",
+          "explanation": "At the start of a stressed syllable, English /p/, /t/ and /k/ are **aspirated**: they are followed by a small puff of air.\n\nHold a piece of paper in front of your mouth and say pen: the paper should move. Say Ben and it should not.\n\nIn many languages /p/, /t/, /k/ have no puff, so English listeners hear them as /b/, /d/, /ɡ/: pear can sound like bear, and coat like goat. Add a clear puff to /p/, /t/, /k/ at the beginning of words.",
+          "examples": [
+            {
+              "prompt": "With a puff",
+              "answer": "pen · tie · coat",
+              "explanation": "Paper moves: aspirated."
+            },
+            {
+              "prompt": "No puff",
+              "answer": "Ben · die · goat",
+              "explanation": "Voiced, no strong puff."
+            },
+            {
+              "prompt": "After s, no puff",
+              "answer": "spin · stop · sky",
+              "explanation": "After /s/, p, t and k lose their puff."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-voiced-and-voiceless-pairs-read-3",
+          "heading": "Endings and vowel length",
+          "explanation": "At the end of a word, voicing also changes the vowel before it: the vowel is **longer before a voiced consonant**. Compare bet (short vowel, /t/) with bed (longer vowel, /d/), and back with bag.\n\nMany learners drop the final consonant or devoice it, so bed sounds like bet. Lengthen the vowel slightly before voiced endings and finish the consonant clearly.\n\nThis is especially important for past tense -ed and plural -s, which carry grammar.",
+          "examples": [
+            {
+              "prompt": "Short before voiceless",
+              "answer": "bet · back · rice",
+              "explanation": "The vowel is clipped."
+            },
+            {
+              "prompt": "Longer before voiced",
+              "answer": "bed · bag · rise",
+              "explanation": "The vowel is a little longer."
+            },
+            {
+              "prompt": "Grammar endings",
+              "answer": "played /d/ · cats /s/ · dogs /z/",
+              "explanation": "The ending follows the sound before it."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “pig” — not “big”.",
+          "answer": "pig",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "pig"
+            ],
+            "audioText": "pig"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “big” — not “pig”.",
+          "answer": "big",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "big"
+            ],
+            "audioText": "big"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “fan” — not “van”.",
+          "answer": "fan",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "fan"
+            ],
+            "audioText": "fan"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “van” — not “fan”.",
+          "answer": "van",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "van"
+            ],
+            "audioText": "van"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “zip” — not “sip”.",
+          "answer": "zip",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "zip"
+            ],
+            "audioText": "zip"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “coat” — not “goat”.",
+          "answer": "coat",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "coat"
+            ],
+            "audioText": "coat"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “bag” — not “back”.",
+          "answer": "bag",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "bag"
+            ],
+            "audioText": "bag"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "pen",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "pen",
+              "Ben"
+            ],
+            "accepted": [
+              "pen"
+            ],
+            "audioText": "pen"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "two",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "two",
+              "do"
+            ],
+            "accepted": [
+              "two"
+            ],
+            "audioText": "two"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "tie",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tie",
+              "die"
+            ],
+            "accepted": [
+              "tie"
+            ],
+            "audioText": "tie"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "time",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "time",
+              "dime"
+            ],
+            "accepted": [
+              "time"
+            ],
+            "audioText": "time"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "fine",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "fine",
+              "vine"
+            ],
+            "accepted": [
+              "fine"
+            ],
+            "audioText": "fine"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "very",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "very",
+              "berry"
+            ],
+            "accepted": [
+              "very"
+            ],
+            "audioText": "very"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "zoo",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "zoo",
+              "Sue"
+            ],
+            "accepted": [
+              "zoo"
+            ],
+            "audioText": "zoo"
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which sound buzzes in your throat?",
+          "answer": "/z/",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "/z/",
+              "/s/"
+            ],
+            "accepted": [
+              "/z/"
+            ]
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word starts with a puff of air?",
+          "answer": "pen",
+          "explanation": "Start /p/, /t/, /k/ with a small puff of air.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "pen",
+              "Ben",
+              "men"
+            ],
+            "accepted": [
+              "pen"
+            ]
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "In which word is the vowel a little longer?",
+          "answer": "bed",
+          "explanation": "Voiced sounds buzz in the throat; voiceless ones do not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "bed",
+              "bet"
+            ],
+            "accepted": [
+              "bed"
+            ]
+          },
+          "id": "pronunciation-voiced-and-voiceless-pairs-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-voiced-and-voiceless-pairs-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three pairs like pig / big and say each pair with your fingers on your throat.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-th-sounds",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "TH sounds",
+      "objectiveId": "PRON-TH-SOUNDS",
+      "trackId": "pronunciation",
+      "unitId": "consonant-pairs",
+      "tip": "Check the tongue, lips and voice: one small change separates each pair.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-th-sounds-read-1",
+          "heading": "Making the TH sounds",
+          "explanation": "English has two TH sounds, and few other languages have them. Both are made the same way: put the tip of your tongue lightly between your top and bottom teeth, or just behind your top teeth, and blow air gently over it. The **voiceless /θ/** in think, three, bath has no buzz. The **voiced /ð/** in this, that, mother has a buzz.\n\nLearners often replace them with /s/, /t/, /f/ (think → sink, tink or fink) or /z/, /d/ (this → zis, dis). Show your tongue tip — a mirror helps.",
+          "examples": [
+            {
+              "prompt": "Voiceless /θ/",
+              "answer": "think · three · thin · bath",
+              "explanation": "Tongue between the teeth, no buzz."
+            },
+            {
+              "prompt": "Voiced /ð/",
+              "answer": "this · they · then · mother",
+              "explanation": "Same tongue position, with a buzz."
+            },
+            {
+              "prompt": "Common slip",
+              "answer": "think, not sink",
+              "explanation": "Keep the tongue forward; don’t hiss."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-th-sounds-read-2",
+          "heading": "Where each TH appears",
+          "explanation": "The **voiced /ð/** is very common in small grammar words: the, this, that, these, those, they, them, there, than, then, though. It also appears between vowels in words like mother, father, weather, together. The **voiceless /θ/** appears in most content words: think, thank, thing, three, Thursday, health, month, birthday.\n\nSome pairs differ only in TH:\n- teeth (noun, /θ/) and teethe (verb, /ð/)\n- bath (noun) and bathe (verb).",
+          "examples": [
+            {
+              "prompt": "Grammar words /ð/",
+              "answer": "the · this · they · there",
+              "explanation": "Very frequent, so worth practising."
+            },
+            {
+              "prompt": "Content words /θ/",
+              "answer": "thank · thing · month · health",
+              "explanation": "Mostly voiceless."
+            },
+            {
+              "prompt": "Noun and verb",
+              "answer": "bath /θ/ · bathe /ð/",
+              "explanation": "The verb has the voiced sound."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-th-sounds-read-3",
+          "heading": "TH in fast speech",
+          "explanation": "In **connected speech**, TH words can blend with neighbouring sounds. In \"in the\", the /n/ and /ð/ often merge; in \"what’s that\", the /s/ and /ð/ are close together.\n\nDon’t slow down so much that every TH becomes heavy, but keep the tongue forward so the sound is still TH. Practise phrases rather than single words:\n- \"thank you\"\n- \"think about it\"\n- \"one of the three\"\n- \"this and that\".\n\nA light, quick TH is more natural than an exaggerated one.",
+          "examples": [
+            {
+              "prompt": "Phrase",
+              "answer": "Thank you for the three things.",
+              "explanation": "Several TH sounds in a natural phrase."
+            },
+            {
+              "prompt": "Linking",
+              "answer": "in the morning",
+              "explanation": "The n and the voiced TH flow together."
+            },
+            {
+              "prompt": "Light touch",
+              "answer": "this and that",
+              "explanation": "A quick, light tongue touch for each TH."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “think” — not “sink”.",
+          "answer": "think",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "think"
+            ],
+            "audioText": "think"
+          },
+          "id": "pronunciation-th-sounds-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “three” — not “tree”.",
+          "answer": "three",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "three"
+            ],
+            "audioText": "three"
+          },
+          "id": "pronunciation-th-sounds-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “thin” — not “tin”.",
+          "answer": "thin",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "thin"
+            ],
+            "audioText": "thin"
+          },
+          "id": "pronunciation-th-sounds-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “they” — not “day”.",
+          "answer": "they",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "they"
+            ],
+            "audioText": "they"
+          },
+          "id": "pronunciation-th-sounds-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “then” — not “den”.",
+          "answer": "then",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "then"
+            ],
+            "audioText": "then"
+          },
+          "id": "pronunciation-th-sounds-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “those” — not “doze”.",
+          "answer": "those",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "those"
+            ],
+            "audioText": "those"
+          },
+          "id": "pronunciation-th-sounds-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “bath” — not “bass”.",
+          "answer": "bath",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "bath"
+            ],
+            "audioText": "bath"
+          },
+          "id": "pronunciation-th-sounds-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "sink",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "sink",
+              "think"
+            ],
+            "accepted": [
+              "sink"
+            ],
+            "audioText": "sink"
+          },
+          "id": "pronunciation-th-sounds-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "tree",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tree",
+              "three"
+            ],
+            "accepted": [
+              "tree"
+            ],
+            "audioText": "tree"
+          },
+          "id": "pronunciation-th-sounds-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "tin",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "tin",
+              "thin"
+            ],
+            "accepted": [
+              "tin"
+            ],
+            "audioText": "tin"
+          },
+          "id": "pronunciation-th-sounds-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "day",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "day",
+              "they"
+            ],
+            "accepted": [
+              "day"
+            ],
+            "audioText": "day"
+          },
+          "id": "pronunciation-th-sounds-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "den",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "den",
+              "then"
+            ],
+            "accepted": [
+              "den"
+            ],
+            "audioText": "den"
+          },
+          "id": "pronunciation-th-sounds-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "mouth",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "mouth",
+              "mouse"
+            ],
+            "accepted": [
+              "mouth"
+            ],
+            "audioText": "mouth"
+          },
+          "id": "pronunciation-th-sounds-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "thank",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "thank",
+              "tank"
+            ],
+            "accepted": [
+              "thank"
+            ],
+            "audioText": "thank"
+          },
+          "id": "pronunciation-th-sounds-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Where does your tongue go for TH?",
+          "answer": "lightly between the teeth",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "lightly between the teeth",
+              "behind the bottom teeth",
+              "on the lower lip"
+            ],
+            "accepted": [
+              "lightly between the teeth"
+            ]
+          },
+          "id": "pronunciation-th-sounds-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word starts with the voiced TH /ð/?",
+          "answer": "this",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "this",
+              "think",
+              "thank",
+              "three"
+            ],
+            "accepted": [
+              "this"
+            ]
+          },
+          "id": "pronunciation-th-sounds-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the voiceless TH /θ/?",
+          "answer": "month",
+          "explanation": "Tongue tip lightly between the teeth; /ð/ buzzes, /θ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "month",
+              "mother",
+              "this",
+              "they"
+            ],
+            "accepted": [
+              "month"
+            ]
+          },
+          "id": "pronunciation-th-sounds-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-th-sounds-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a sentence with at least four TH words, then say it slowly with your tongue forward.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-s-sh-ch-and-j",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "S, SH, CH and J",
+      "objectiveId": "PRON-S-SH-CH-AND-J",
+      "trackId": "pronunciation",
+      "unitId": "tricky-consonants",
+      "tip": "Check the tongue, lips and voice: one small change separates each pair.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-s-sh-ch-and-j-read-1",
+          "heading": "S and SH: /s/ and /ʃ/",
+          "explanation": "For **/s/** as in see, sun, rice, the tongue tip is close to the ridge behind your top teeth, the lips are spread, and air hisses through a narrow gap. For **/ʃ/** as in she, shoe, wish, the tongue pulls back a little, the lips round and push forward, and the sound is softer and deeper — like asking someone to be quiet: \"shhh\". Confusing them changes meaning:\n- see / she\n- sip / ship\n- sea / she\n- mess / mesh.\n\nThe voiced partner of /ʃ/ is /ʒ/, as in measure, vision, usually.",
+          "examples": [
+            {
+              "prompt": "/s/",
+              "answer": "see · sip · sock",
+              "explanation": "Spread lips, sharp hiss."
+            },
+            {
+              "prompt": "/ʃ/",
+              "answer": "she · ship · shock",
+              "explanation": "Rounded lips, softer \"shhh\"."
+            },
+            {
+              "prompt": "/ʒ/",
+              "answer": "measure · vision · usually",
+              "explanation": "The voiced partner of /ʃ/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-s-sh-ch-and-j-read-2",
+          "heading": "SH and CH: /ʃ/ and /tʃ/",
+          "explanation": "The sound **/tʃ/** as in chip, chair, watch is a /t/ followed immediately by /ʃ/. Start with your tongue blocking the air, then release it into the \"shh\" sound.\n\nIf there is no stop at the start, chip sounds like ship and choose like shoes. The voiced partner is **/dʒ/** as in jam, job, bridge. Spellings:\n- ch and tch for /tʃ/ (chair, watch)\n- j, g and dge for /dʒ/ (job, gym, bridge).",
+          "examples": [
+            {
+              "prompt": "/tʃ/ has a stop",
+              "answer": "chip · chair · choose",
+              "explanation": "Block, then release."
+            },
+            {
+              "prompt": "/ʃ/ has no stop",
+              "answer": "ship · share · shoes",
+              "explanation": "Air flows from the start."
+            },
+            {
+              "prompt": "/dʒ/",
+              "answer": "jam · job · bridge",
+              "explanation": "The voiced partner of /tʃ/."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-s-sh-ch-and-j-read-3",
+          "heading": "J and Y: /dʒ/ and /j/",
+          "explanation": "The letter y at the start of a word is a **glide /j/**, as in yes, yellow, young: the tongue rises towards the roof of the mouth but does not touch it.\n\nThe /dʒ/ in jet, joke, jam has a full stop: the tongue touches the roof of the mouth, then releases.\n\nSpeakers of some languages swap them, so yet sounds like jet, or jam like yam. The /j/ sound also hides inside some words:\n- use /juːz/\n- music /ˈmjuːzɪk/\n- few /fjuː/.",
+          "examples": [
+            {
+              "prompt": "Glide /j/",
+              "answer": "yes · yet · yellow",
+              "explanation": "Tongue rises, no full contact."
+            },
+            {
+              "prompt": "Stop /dʒ/",
+              "answer": "jet · jam · joke",
+              "explanation": "Tongue touches, then releases."
+            },
+            {
+              "prompt": "Hidden /j/",
+              "answer": "music · use · few",
+              "explanation": "A y sound before the u."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “she” — not “see”.",
+          "answer": "she",
+          "explanation": "/s/ is a sharp hiss; /ʃ/ is softer with rounded lips.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "she"
+            ],
+            "audioText": "she"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “see” — not “she”.",
+          "answer": "see",
+          "explanation": "/s/ is a sharp hiss; /ʃ/ is softer with rounded lips.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "see"
+            ],
+            "audioText": "see"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “ship” — not “chip”.",
+          "answer": "ship",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "ship"
+            ],
+            "audioText": "ship"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “chip” — not “ship”.",
+          "answer": "chip",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "chip"
+            ],
+            "audioText": "chip"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “choose” — not “shoes”.",
+          "answer": "choose",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "choose"
+            ],
+            "audioText": "choose"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “jet” — not “yet”.",
+          "answer": "jet",
+          "explanation": "/dʒ/ has a full stop; /j/ is a glide.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "jet"
+            ],
+            "audioText": "jet"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “yam” — not “jam”.",
+          "answer": "yam",
+          "explanation": "/dʒ/ has a full stop; /j/ is a glide.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "yam"
+            ],
+            "audioText": "yam"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "shoes",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "shoes",
+              "choose"
+            ],
+            "accepted": [
+              "shoes"
+            ],
+            "audioText": "shoes"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "chair",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "chair",
+              "share"
+            ],
+            "accepted": [
+              "chair"
+            ],
+            "audioText": "chair"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "share",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "share",
+              "chair"
+            ],
+            "accepted": [
+              "share"
+            ],
+            "audioText": "share"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "joke",
+          "explanation": "/dʒ/ has a full stop; /j/ is a glide.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "joke",
+              "choke"
+            ],
+            "accepted": [
+              "joke"
+            ],
+            "audioText": "joke"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "yet",
+          "explanation": "/dʒ/ has a full stop; /j/ is a glide.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "yet",
+              "jet"
+            ],
+            "accepted": [
+              "yet"
+            ],
+            "audioText": "yet"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "sip",
+          "explanation": "/s/ is a sharp hiss; /ʃ/ is softer with rounded lips.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "sip",
+              "ship"
+            ],
+            "accepted": [
+              "sip"
+            ],
+            "audioText": "sip"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "sock",
+          "explanation": "/s/ is a sharp hiss; /ʃ/ is softer with rounded lips.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "sock",
+              "shock"
+            ],
+            "accepted": [
+              "sock"
+            ],
+            "audioText": "sock"
+          },
+          "id": "pronunciation-s-sh-ch-and-j-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word starts with a stop, then a hiss?",
+          "answer": "chip",
+          "explanation": "/tʃ/ starts with a stop; /ʃ/ does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "chip",
+              "ship"
+            ],
+            "accepted": [
+              "chip"
+            ]
+          },
+          "id": "pronunciation-s-sh-ch-and-j-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has the /ʒ/ sound?",
+          "answer": "measure",
+          "explanation": "/s/ is a sharp hiss; /ʃ/ is softer with rounded lips.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "measure",
+              "mesh",
+              "match",
+              "mass"
+            ],
+            "accepted": [
+              "measure"
+            ]
+          },
+          "id": "pronunciation-s-sh-ch-and-j-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word has a hidden /j/ sound?",
+          "answer": "music",
+          "explanation": "/dʒ/ has a full stop; /j/ is a glide.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "music",
+              "moon",
+              "mood",
+              "move"
+            ],
+            "accepted": [
+              "music"
+            ]
+          },
+          "id": "pronunciation-s-sh-ch-and-j-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-s-sh-ch-and-j-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write three words each with /ʃ/ and /tʃ/, then say them in pairs (ship – chip).",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-l-r-w-v-h-and-ng",
+      "contentVersion": "1",
+      "level": "Intermediate",
+      "title": "L, R, W, V, H and NG",
+      "objectiveId": "PRON-L-R-W-V-H-AND-NG",
+      "trackId": "pronunciation",
+      "unitId": "tricky-consonants",
+      "tip": "Check the tongue, lips and voice: one small change separates each pair.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-l-r-w-v-h-and-ng-read-1",
+          "heading": "L and R",
+          "explanation": "For /l/ as in light, long, feel, the tongue tip **touches the ridge** behind the top teeth and air flows around the sides of the tongue.\n\nFor the English /r/ as in right, red, road, the tongue tip **does not touch anything**: it curls back slightly or bunches up, and the lips round a little.\n\nMany learners swap them, so light sounds like right, or lead like read. Practise the tongue touch:\n- for /l/ you should feel contact\n- for /r/ there should be no contact at all.",
+          "examples": [
+            {
+              "prompt": "/l/ with contact",
+              "answer": "light · long · lead · lice",
+              "explanation": "Tongue tip touches the ridge."
+            },
+            {
+              "prompt": "/r/ without contact",
+              "answer": "right · wrong · read · rice",
+              "explanation": "Tongue curls back, no touch."
+            },
+            {
+              "prompt": "Both together",
+              "answer": "The red light is really bright.",
+              "explanation": "Alternate the two tongue positions."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-l-r-w-v-h-and-ng-read-2",
+          "heading": "W and V",
+          "explanation": "For /w/ as in we, wet, west, **round your lips tightly**, as if to blow out a candle, and then open them into the vowel. Your teeth do not touch your lip.\n\nFor /v/ as in van, very, vest, put your **top teeth gently on your lower lip** and let the voice buzz through.\n\nIf you use your teeth for /w/, wet sounds like vet; if you only round your lips for /v/, vest sounds like west. Check in a mirror:\n- teeth on lip for /v/\n- rounded lips only for /w/.",
+          "examples": [
+            {
+              "prompt": "/w/: rounded lips",
+              "answer": "west · wine · wet · we",
+              "explanation": "No teeth on the lip."
+            },
+            {
+              "prompt": "/v/: teeth on lip",
+              "answer": "vest · vine · vet · very",
+              "explanation": "Top teeth touch the lower lip."
+            },
+            {
+              "prompt": "Mixed",
+              "answer": "We visited very wet villages.",
+              "explanation": "Switch between the two positions."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-l-r-w-v-h-and-ng-read-3",
+          "heading": "H and NG",
+          "explanation": "The sound **/h/** as in hat, home, behind is simply a breath of air before a vowel, with the mouth already in the shape of that vowel. Some learners drop it (hat → at), and others add a rough, scraping sound from the throat; English /h/ is gentle. The sound **/ŋ/** as in sing, long, thing is made with the back of the tongue against the soft palate, like /ɡ/ but with air through the nose.\n\nAt the end of a word, do not add a /ɡ/ after it in standard British or American English: sing is /sɪŋ/, not /sɪŋɡ/. And keep it different from /n/: sin and sing are different words.",
+          "examples": [
+            {
+              "prompt": "/h/ as breath",
+              "answer": "hat · hair · heat",
+              "explanation": "Just air, no scrape."
+            },
+            {
+              "prompt": "Dropped /h/",
+              "answer": "hat → at · hair → air",
+              "explanation": "Without /h/ the meaning changes."
+            },
+            {
+              "prompt": "/ŋ/ versus /n/",
+              "answer": "sing / sin · thing / thin",
+              "explanation": "Back of the tongue for /ŋ/, tip for /n/."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “light” — not “right”.",
+          "answer": "light",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "light"
+            ],
+            "audioText": "light"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “right” — not “light”.",
+          "answer": "right",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "right"
+            ],
+            "audioText": "right"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “west” — not “vest”.",
+          "answer": "west",
+          "explanation": "Rounded lips for /w/; top teeth on the lip for /v/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "west"
+            ],
+            "audioText": "west"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “vest” — not “west”.",
+          "answer": "vest",
+          "explanation": "Rounded lips for /w/; top teeth on the lip for /v/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "vest"
+            ],
+            "audioText": "vest"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “hat” — not “at”.",
+          "answer": "hat",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "hat"
+            ],
+            "audioText": "hat"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “sing” — not “sin”.",
+          "answer": "sing",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "sing"
+            ],
+            "audioText": "sing"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “wine” — not “vine”.",
+          "answer": "wine",
+          "explanation": "Rounded lips for /w/; top teeth on the lip for /v/.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "wine"
+            ],
+            "audioText": "wine"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "long",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "long",
+              "wrong"
+            ],
+            "accepted": [
+              "long"
+            ],
+            "audioText": "long"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "lead",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "lead",
+              "read"
+            ],
+            "accepted": [
+              "lead"
+            ],
+            "audioText": "lead"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "rice",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "rice",
+              "lice"
+            ],
+            "accepted": [
+              "rice"
+            ],
+            "audioText": "rice"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "wet",
+          "explanation": "Rounded lips for /w/; top teeth on the lip for /v/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "wet",
+              "vet"
+            ],
+            "accepted": [
+              "wet"
+            ],
+            "audioText": "wet"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "hair",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "hair",
+              "air"
+            ],
+            "accepted": [
+              "hair"
+            ],
+            "audioText": "hair"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "thing",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "thing",
+              "thin"
+            ],
+            "accepted": [
+              "thing"
+            ],
+            "audioText": "thing"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Listen. Which word do you hear?",
+          "answer": "ran",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "ran",
+              "rang"
+            ],
+            "accepted": [
+              "ran"
+            ],
+            "audioText": "ran"
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "For which sound does your tongue touch the ridge behind your top teeth?",
+          "answer": "/l/",
+          "explanation": "For /l/ the tongue touches the ridge; for /r/ it does not.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "/l/",
+              "/r/"
+            ],
+            "accepted": [
+              "/l/"
+            ]
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "For /v/, what touches your lower lip?",
+          "answer": "teeth",
+          "explanation": "Rounded lips for /w/; top teeth on the lip for /v/.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "teeth",
+              "tongue",
+              "nothing"
+            ],
+            "accepted": [
+              "teeth"
+            ]
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Do you add a /ɡ/ sound at the end of “sing”?",
+          "answer": "No",
+          "explanation": "/h/ is gentle breath; /ŋ/ uses the back of the tongue.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "No",
+              "Yes"
+            ],
+            "accepted": [
+              "No"
+            ]
+          },
+          "id": "pronunciation-l-r-w-v-h-and-ng-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-l-r-w-v-h-and-ng-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a sentence that mixes l, r, w and v words, then say it slowly.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-word-stress",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Word stress",
+      "objectiveId": "PRON-WORD-STRESS",
+      "trackId": "pronunciation",
+      "unitId": "stress-rhythm",
+      "tip": "Stress, rhythm and tune carry meaning; practise whole phrases, not single words.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-word-stress-read-1",
+          "heading": "What word stress is",
+          "explanation": "In English words of two or more syllables, **one syllable is stressed**: it is louder, longer and higher in pitch, with a full vowel. The others are weaker, often with a schwa.\n\nPHOtograph, phoTOgraphy, photoGRAPHic — the stress moves, and the vowels change with it. Stress is part of how a word is recognised. If you stress the wrong syllable, listeners may not understand the word even when every sound is correct.\n\nDictionaries mark stress with a small vertical line before the stressed syllable: /ˈfəʊtəɡrɑːf/.",
+          "examples": [
+            {
+              "prompt": "First syllable",
+              "answer": "PHOtograph · COMfortable · INteresting",
+              "explanation": "The stress comes first."
+            },
+            {
+              "prompt": "Second syllable",
+              "answer": "phoTOgraphy · comPUter · baNAna",
+              "explanation": "The stress is second."
+            },
+            {
+              "prompt": "Later syllable",
+              "answer": "underSTAND · engiNEER · JapaNESE",
+              "explanation": "The stress comes near the end."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-word-stress-read-2",
+          "heading": "Useful stress patterns",
+          "explanation": "There are no perfect rules, but some patterns help:\n- Most two-syllable nouns and adjectives are stressed on the **first syllable**: TAble, HAPpy, WINdow.\n- Most two-syllable verbs are stressed on the **second**: deCIDE, beGIN, reLAX.\n- Some words change stress with their job: a PREsent (noun), to preSENT (verb); a REcord, to reCORD.\n- **Suffixes** often decide the stress: words ending in -tion, -sion and -ic are stressed on the syllable just before the ending (eduCAtion, deCIsion, ecoNOMic).\n- **Compound nouns** are usually stressed on the first part: BUS stop, BEDroom, TOOTHbrush.",
+          "examples": [
+            {
+              "prompt": "Noun / verb pair",
+              "answer": "a PREsent · to preSENT",
+              "explanation": "Same spelling, stress shows the job."
+            },
+            {
+              "prompt": "-tion",
+              "answer": "eduCAtion · inforMAtion",
+              "explanation": "Stress just before -tion."
+            },
+            {
+              "prompt": "Compound",
+              "answer": "BUS stop · SUNglasses",
+              "explanation": "Stress on the first part."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-word-stress-read-3",
+          "heading": "Practising stress",
+          "explanation": "Clap, tap or nod on the **stressed syllable** as you say a word: ba-NA-na. Make that syllable clearly louder and longer, and let the others shrink.\n\nWhen you learn a new word, learn its stress at the same time; mark it in your notes with capitals or a dot above the syllable.\n\nPay attention to **word families**, where the stress moves: eCOnomy, ecoNOMic, eCOnomist; PHOtograph, phoTOgrapher. Say them in a row to feel the shift.",
+          "examples": [
+            {
+              "prompt": "Tap it",
+              "answer": "ba-NA-na · to-MOR-row",
+              "explanation": "Tap on the strong syllable."
+            },
+            {
+              "prompt": "Family shift",
+              "answer": "eCOnomy · ecoNOMic",
+              "explanation": "The stress moves when the ending changes."
+            },
+            {
+              "prompt": "Mark it",
+              "answer": "deVELop · deVELopment",
+              "explanation": "Write the stress in your notes, and check new words in a dictionary."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “photograph”?",
+          "answer": "first",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "first",
+              "second",
+              "third"
+            ],
+            "accepted": [
+              "first"
+            ],
+            "audioText": "photograph"
+          },
+          "id": "pronunciation-word-stress-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “photography”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first",
+              "third",
+              "fourth"
+            ],
+            "accepted": [
+              "second"
+            ],
+            "audioText": "photography"
+          },
+          "id": "pronunciation-word-stress-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “photographic”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second",
+              "fourth"
+            ],
+            "accepted": [
+              "third"
+            ]
+          },
+          "id": "pronunciation-word-stress-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “computer”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first",
+              "third"
+            ],
+            "accepted": [
+              "second"
+            ],
+            "audioText": "computer"
+          },
+          "id": "pronunciation-word-stress-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “hotel”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first"
+            ],
+            "accepted": [
+              "second"
+            ]
+          },
+          "id": "pronunciation-word-stress-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “comfortable”?",
+          "answer": "first",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "first",
+              "second",
+              "third"
+            ],
+            "accepted": [
+              "first"
+            ],
+            "audioText": "comfortable"
+          },
+          "id": "pronunciation-word-stress-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “interesting”?",
+          "answer": "first",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "first",
+              "second",
+              "third"
+            ],
+            "accepted": [
+              "first"
+            ]
+          },
+          "id": "pronunciation-word-stress-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “understand”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second"
+            ],
+            "accepted": [
+              "third"
+            ],
+            "audioText": "understand"
+          },
+          "id": "pronunciation-word-stress-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “engineer”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second"
+            ],
+            "accepted": [
+              "third"
+            ]
+          },
+          "id": "pronunciation-word-stress-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “Japanese”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second"
+            ],
+            "accepted": [
+              "third"
+            ],
+            "audioText": "Japanese"
+          },
+          "id": "pronunciation-word-stress-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “education”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second",
+              "fourth"
+            ],
+            "accepted": [
+              "third"
+            ]
+          },
+          "id": "pronunciation-word-stress-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “decide”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first"
+            ],
+            "accepted": [
+              "second"
+            ],
+            "audioText": "decide"
+          },
+          "id": "pronunciation-word-stress-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “window”?",
+          "answer": "first",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "first",
+              "second"
+            ],
+            "accepted": [
+              "first"
+            ]
+          },
+          "id": "pronunciation-word-stress-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “economy”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first",
+              "third",
+              "fourth"
+            ],
+            "accepted": [
+              "second"
+            ],
+            "audioText": "economy"
+          },
+          "id": "pronunciation-word-stress-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “economic”?",
+          "answer": "third",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "third",
+              "first",
+              "second",
+              "fourth"
+            ],
+            "accepted": [
+              "third"
+            ]
+          },
+          "id": "pronunciation-word-stress-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“I have a present for you.” Which syllable of “present” is stressed?",
+          "answer": "first",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "first",
+              "second"
+            ],
+            "accepted": [
+              "first"
+            ]
+          },
+          "id": "pronunciation-word-stress-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“Let me present the plan.” Which syllable of “present” is stressed?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first"
+            ],
+            "accepted": [
+              "second"
+            ]
+          },
+          "id": "pronunciation-word-stress-17",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which syllable is stressed in “development”?",
+          "answer": "second",
+          "explanation": "The stressed syllable is louder, longer and higher.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "second",
+              "first",
+              "third",
+              "fourth"
+            ],
+            "accepted": [
+              "second"
+            ]
+          },
+          "id": "pronunciation-word-stress-18",
+          "required": true
+        },
+        {
+          "id": "pronunciation-word-stress-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write five new words you learned this week, mark the stressed syllable in capitals, and say them aloud.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-sentence-stress-and-rhythm",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Sentence stress and rhythm",
+      "objectiveId": "PRON-SENTENCE-STRESS-AND-RHYTHM",
+      "trackId": "pronunciation",
+      "unitId": "stress-rhythm",
+      "tip": "Stress, rhythm and tune carry meaning; practise whole phrases, not single words.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-sentence-stress-and-rhythm-read-1",
+          "heading": "Content words and function words",
+          "explanation": "In a sentence, not every word is stressed. **Content words** — nouns, main verbs, adjectives, adverbs and negatives — carry the meaning and are usually stressed. **Function words** — articles, pronouns, prepositions, auxiliaries and conjunctions — are usually unstressed and use weak forms.\n\n\"I WANT to GO HOME.\" \"She’s BEEN to PAris TWICE.\"\n\nIf you stress every word equally, your English sounds mechanical and is harder to follow. If you stress the content words, listeners can pick out the message even when they miss the small words.",
+          "examples": [
+            {
+              "prompt": "Stressed content words",
+              "answer": "I WANT to GO HOME.",
+              "explanation": "want, go, home carry the meaning."
+            },
+            {
+              "prompt": "Weak function words",
+              "answer": "a cup of tea → a CUP of TEA",
+              "explanation": "a and of are quick and weak."
+            },
+            {
+              "prompt": "Negatives are stressed",
+              "answer": "I CAN’T COME toNIGHT.",
+              "explanation": "can’t is stressed because it changes the meaning."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-sentence-stress-and-rhythm-read-2",
+          "heading": "Rhythm: stress timing",
+          "explanation": "English rhythm is based on **stressed syllables**. The time between stressed syllables stays roughly the same, so the unstressed syllables between them are squeezed to fit.\n\nSay \"CATS EAT FISH\" and then \"The CATS will have EATen the FISH\": the second sentence takes only a little longer, because the extra words are squeezed.\n\nMany languages give every syllable equal time, which can make English sound choppy when transferred. Let the weak syllables run together and land on the beats.",
+          "examples": [
+            {
+              "prompt": "Same beats",
+              "answer": "CATS · EAT · FISH",
+              "explanation": "Three strong beats."
+            },
+            {
+              "prompt": "Squeezed",
+              "answer": "The CATS will have EATen the FISH.",
+              "explanation": "Still three main beats; the rest is fast."
+            },
+            {
+              "prompt": "Practise with a beat",
+              "answer": "ONE and a TWO and a THREE",
+              "explanation": "Tap the beat and fit the words between."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-sentence-stress-and-rhythm-read-3",
+          "heading": "Linking and contrastive stress",
+          "explanation": "In connected speech, words **link together**. A consonant at the end of a word links to a vowel at the start of the next:\n- \"an apple\" sounds like \"a-napple\"\n- \"turn off\" like \"tur-noff\".\n\nSome sounds disappear between consonants: \"next day\" often sounds like \"nex day\".\n\nStress can also move to show **contrast** or correction: \"I said the BLUE one\" (not the red one), \"SHE called\" (not he). Moving the stress is a powerful way to clarify what you mean without extra words.",
+          "examples": [
+            {
+              "prompt": "Linking",
+              "answer": "pick it up → \"pi-ki-tup\"",
+              "explanation": "Final consonants join the next vowel."
+            },
+            {
+              "prompt": "Dropped sound",
+              "answer": "next week → \"nex week\"",
+              "explanation": "The /t/ disappears between consonants."
+            },
+            {
+              "prompt": "Contrast",
+              "answer": "I wanted TEA, not coffee.",
+              "explanation": "Stress shows the correction."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “a cup of tea”.",
+          "answer": "a cup of tea",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "a cup of tea"
+            ],
+            "audioText": "a cup of tea"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “fish and chips”.",
+          "answer": "fish and chips",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "fish and chips"
+            ],
+            "audioText": "fish and chips"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “I want to go home”.",
+          "answer": "I want to go home",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "I want to go home"
+            ],
+            "audioText": "I want to go home"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “What do you want”.",
+          "answer": "What do you want",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "What do you want"
+            ],
+            "audioText": "What do you want"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “next week”.",
+          "answer": "next week",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "next week"
+            ],
+            "audioText": "next week"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “pick it up”.",
+          "answer": "pick it up",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "pick it up"
+            ],
+            "audioText": "pick it up"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “turn it off”.",
+          "answer": "turn it off",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "turn it off"
+            ],
+            "audioText": "turn it off"
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word is usually stressed in “I want to go home”?",
+          "answer": "home",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "home",
+              "to",
+              "I"
+            ],
+            "accepted": [
+              "home"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word is usually weak in “She’s been to Paris twice”?",
+          "answer": "to",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "to",
+              "Paris",
+              "twice"
+            ],
+            "accepted": [
+              "to"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which word is stressed in “I can’t come tonight”?",
+          "answer": "can’t",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "can’t",
+              "I"
+            ],
+            "accepted": [
+              "can’t"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which kind of word is usually stressed?",
+          "answer": "nouns",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "nouns",
+              "articles",
+              "prepositions"
+            ],
+            "accepted": [
+              "nouns"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which kind of word is usually weak?",
+          "answer": "prepositions",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "prepositions",
+              "adjectives",
+              "nouns"
+            ],
+            "accepted": [
+              "prepositions"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“I wanted TEA, not coffee.” Why is “tea” stressed?",
+          "answer": "contrast",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "contrast",
+              "rhythm",
+              "habit"
+            ],
+            "accepted": [
+              "contrast"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“SHE called.” What does the stress on “she” tell you?",
+          "answer": "not him",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "not him",
+              "it was late",
+              "a question"
+            ],
+            "accepted": [
+              "not him"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which sound often disappears in “next week”?",
+          "answer": "t",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "t",
+              "k",
+              "w"
+            ],
+            "accepted": [
+              "t"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "How many strong beats are in “The CATS will have EATen the FISH”?",
+          "answer": "three",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "three",
+              "seven",
+              "nine"
+            ],
+            "accepted": [
+              "three"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "How does “an apple” usually sound?",
+          "answer": "a-napple",
+          "explanation": "Content words are stressed; function words are weak.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "a-napple",
+              "an … apple, with a pause"
+            ],
+            "accepted": [
+              "a-napple"
+            ]
+          },
+          "id": "pronunciation-sentence-stress-and-rhythm-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-sentence-stress-and-rhythm-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a sentence of eight to ten words, underline the content words, then say it with strong beats on them.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronunciation-intonation",
+      "contentVersion": "1",
+      "level": "Advanced",
+      "title": "Intonation",
+      "objectiveId": "PRON-INTONATION",
+      "trackId": "pronunciation",
+      "unitId": "intonation",
+      "tip": "Stress, rhythm and tune carry meaning; practise whole phrases, not single words.",
+      "sources": [
+        "International Phonetic Alphabet symbols (common learner-dictionary conventions), used for notation only",
+        "Lexical-set names (FLEECE, KIT…) after J. C. Wells, used as labels only",
+        "SpeechCoachAI Speech Lab minimal pairs and tips, 2026-10-25"
+      ],
+      "senses": [],
+      "reading": [
+        {
+          "id": "pronunciation-intonation-read-1",
+          "heading": "Rising and falling tunes",
+          "explanation": "**Intonation** is the rise and fall of your voice across a sentence. It adds meaning beyond the words. A **falling tune** at the end usually signals that you are finished and certain: statements, commands, and questions that start with a question word. \"I live in Paris.\" \"Close the door.\" \"Where do you live?\" A **rising tune** often signals a yes/no question, surprise, or that you have not finished: \"Are you ready?\" \"Really?\" The movement happens mainly on the last stressed word of the phrase.",
+          "examples": [
+            {
+              "prompt": "Statement: fall",
+              "answer": "I live in PAris. ↘",
+              "explanation": "Finished and certain."
+            },
+            {
+              "prompt": "Wh- question: fall",
+              "answer": "Where do you LIVE? ↘",
+              "explanation": "Question words usually take a fall."
+            },
+            {
+              "prompt": "Yes/no question: rise",
+              "answer": "Are you READy? ↗",
+              "explanation": "Asks for yes or no."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-intonation-read-2",
+          "heading": "Lists, choices and tags",
+          "explanation": "In a **list**, the voice usually rises on each item and falls on the last, so the listener knows the list is complete: \"I bought apples ↗, bread ↗ and milk ↘.\" In a **choice question**, the voice rises on the first option and falls on the last: \"Do you want tea ↗ or coffee ↘?\" **Question tags** change meaning with intonation:\n- A falling tag expects agreement: \"It’s cold, isn’t it ↘?\"\n- A rising tag is a real question: \"You’re coming, aren’t you ↗?\"\n\nUsing these patterns makes your meaning clear without extra words.",
+          "examples": [
+            {
+              "prompt": "List",
+              "answer": "Red ↗, green ↗ and blue ↘.",
+              "explanation": "Rise, rise, fall at the end."
+            },
+            {
+              "prompt": "Choice",
+              "answer": "Tea ↗ or coffee ↘?",
+              "explanation": "The fall shows these are the only options."
+            },
+            {
+              "prompt": "Tag",
+              "answer": "Nice day, isn’t it ↘?",
+              "explanation": "Falling: you expect the listener to agree."
+            }
+          ]
+        },
+        {
+          "id": "pronunciation-intonation-read-3",
+          "heading": "Intonation and feeling",
+          "explanation": "Intonation also shows **attitude**. A wide range — big rises and falls — sounds interested, warm or excited; a narrow, flat range can sound bored, tired or even rude, whatever the words.\n\n\"Thank you\" said with a clear fall sounds sincere; said flat and quick it can sound dismissive.\n\nEnglish speakers use more pitch movement than speakers of many other languages, so learners often need to exaggerate slightly to sound natural. Listen to how native speakers say short reactions — \"Really?\", \"Oh no!\", \"That’s great!\" — and copy the tune, not only the words.",
+          "examples": [
+            {
+              "prompt": "Warm",
+              "answer": "That’s GREAT! ↗↘",
+              "explanation": "A wide rise and fall sounds enthusiastic."
+            },
+            {
+              "prompt": "Flat",
+              "answer": "That’s great. →",
+              "explanation": "Flat pitch can sound sarcastic or bored."
+            },
+            {
+              "prompt": "Surprise",
+              "answer": "Really? ↗",
+              "explanation": "A high rise shows surprise."
+            }
+          ]
+        }
+      ],
+      "activities": [
+        {
+          "kind": "grammar",
+          "prompt": "Say “Are you ready”.",
+          "answer": "Are you ready",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "Are you ready"
+            ],
+            "audioText": "Are you ready"
+          },
+          "id": "pronunciation-intonation-01",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “Where do you live”.",
+          "answer": "Where do you live",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "Where do you live"
+            ],
+            "audioText": "Where do you live"
+          },
+          "id": "pronunciation-intonation-02",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “Tea or coffee”.",
+          "answer": "Tea or coffee",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "Tea or coffee"
+            ],
+            "audioText": "Tea or coffee"
+          },
+          "id": "pronunciation-intonation-03",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “That’s great”.",
+          "answer": "That’s great",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "That’s great"
+            ],
+            "audioText": "That’s great"
+          },
+          "id": "pronunciation-intonation-04",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Say “It’s cold, isn’t it”.",
+          "answer": "It’s cold, isn’t it",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "speak",
+            "accepted": [
+              "It’s cold, isn’t it"
+            ],
+            "audioText": "It’s cold, isn’t it"
+          },
+          "id": "pronunciation-intonation-05",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “Are you ready?”, does the voice usually go up or down?",
+          "answer": "up",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "up",
+              "down"
+            ],
+            "accepted": [
+              "up"
+            ]
+          },
+          "id": "pronunciation-intonation-06",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “Where do you live?”, does the voice usually go up or down?",
+          "answer": "down",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "down",
+              "up"
+            ],
+            "accepted": [
+              "down"
+            ]
+          },
+          "id": "pronunciation-intonation-07",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “I live in Paris.”, does the voice usually go up or down?",
+          "answer": "down",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "down",
+              "up"
+            ],
+            "accepted": [
+              "down"
+            ]
+          },
+          "id": "pronunciation-intonation-08",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “Close the door.”, does the voice usually go up or down?",
+          "answer": "down",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "down",
+              "up"
+            ],
+            "accepted": [
+              "down"
+            ]
+          },
+          "id": "pronunciation-intonation-09",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “Is it far?”, does the voice usually go up or down?",
+          "answer": "up",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "up",
+              "down"
+            ],
+            "accepted": [
+              "up"
+            ]
+          },
+          "id": "pronunciation-intonation-10",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "At the end of “What time is it?”, does the voice usually go up or down?",
+          "answer": "down",
+          "explanation": "Statements and wh- questions fall; yes/no questions rise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "down",
+              "up"
+            ],
+            "accepted": [
+              "down"
+            ]
+          },
+          "id": "pronunciation-intonation-11",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "In “apples, bread and milk”, where does the voice fall?",
+          "answer": "on milk",
+          "explanation": "In a list, rise on each item and fall on the last.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "on milk",
+              "on apples",
+              "on bread"
+            ],
+            "accepted": [
+              "on milk"
+            ]
+          },
+          "id": "pronunciation-intonation-12",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "In “Tea or coffee?”, where does the voice fall?",
+          "answer": "on coffee",
+          "explanation": "In a choice, rise on the first option and fall on the last.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "on coffee",
+              "on tea"
+            ],
+            "accepted": [
+              "on coffee"
+            ]
+          },
+          "id": "pronunciation-intonation-13",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“It’s cold, isn’t it ↘?” A falling tag means…",
+          "answer": "you expect agreement",
+          "explanation": "A falling tag asks for agreement; a rising tag is a real question.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "you expect agreement",
+              "you really don’t know"
+            ],
+            "accepted": [
+              "you expect agreement"
+            ]
+          },
+          "id": "pronunciation-intonation-14",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "“You’re coming, aren’t you ↗?” A rising tag means…",
+          "answer": "it is a real question",
+          "explanation": "A falling tag asks for agreement; a rising tag is a real question.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "it is a real question",
+              "you are sure"
+            ],
+            "accepted": [
+              "it is a real question"
+            ]
+          },
+          "id": "pronunciation-intonation-15",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which kind of tune can sound bored or rude?",
+          "answer": "flat",
+          "explanation": "A wide range sounds interested; a flat one can sound bored.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "flat",
+              "wide",
+              "rising"
+            ],
+            "accepted": [
+              "flat"
+            ]
+          },
+          "id": "pronunciation-intonation-16",
+          "required": true
+        },
+        {
+          "kind": "grammar",
+          "prompt": "Which tune shows surprise in “Really?”",
+          "answer": "high rise",
+          "explanation": "A high rise shows surprise.",
+          "exercise": {
+            "type": "choice",
+            "options": [
+              "high rise",
+              "low fall"
+            ],
+            "accepted": [
+              "high rise"
+            ]
+          },
+          "id": "pronunciation-intonation-17",
+          "required": true
+        },
+        {
+          "id": "pronunciation-intonation-your-turn",
+          "kind": "grammar",
+          "required": true,
+          "prompt": "Your turn. Write a yes/no question, a wh- question and a list. Mark ↗ or ↘ at the end of each, then say them aloud.",
+          "answer": "Your own words, said aloud.",
+          "exercise": {
+            "type": "open"
+          }
+        }
+      ]
+    }
+  ],
+  "archivedLessons": []
+}

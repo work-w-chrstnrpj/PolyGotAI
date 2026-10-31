@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-holidays",
+    "title": "Holidays",
+    "level": "A2",
+    "tagline": "Trips, hotels and packing",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "pack",
+      "pos": "verb",
+      "meaning": "To put clothes and things into a bag for a trip.",
+      "examples": [
+        "I need to {pack} my suitcase tonight."
+      ],
+      "wrong": [
+        "I packed my bag by taking everything out of it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pæk/",
+      "antonyms": [
+        "unpack"
+      ]
+    },
+    {
+      "lemma": "baggage",
+      "pos": "noun",
+      "meaning": "The bags and cases you take on a trip.",
+      "examples": [
+        "Please collect your {baggage} after the flight."
+      ],
+      "wrong": [
+        "Baggage is the ticket you show to the driver."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "luggage",
+        "bags"
+      ],
+      "ipa": "/ˈbæɡɪdʒ/"
+    },
+    {
+      "lemma": "reception",
+      "pos": "noun",
+      "meaning": "The desk near the door of a hotel where guests are welcomed.",
+      "examples": [
+        "Leave your key at {reception} when you go out."
+      ],
+      "wrong": [
+        "We slept in the reception of our room every night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "front desk"
+      ],
+      "ipa": "/rɪˈsɛpʃən/"
+    },
+    {
+      "lemma": "hotel room",
+      "pos": "noun",
+      "meaning": "A room you pay to sleep in at a hotel.",
+      "examples": [
+        "Our {hotel room} has two beds and a big window."
+      ],
+      "wrong": [
+        "We cooked dinner for fifty people in our small hotel room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/hoʊˈtɛl rum/"
+    },
+    {
+      "lemma": "booking",
+      "pos": "noun",
+      "meaning": "An arrangement to have a room, seat or table kept for you.",
+      "examples": [
+        "I made a {booking} for three nights."
+      ],
+      "wrong": [
+        "We made a booking, so there was no room for us."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reservation"
+      ],
+      "ipa": "/ˈbʊkɪŋ/"
+    },
+    {
+      "lemma": "key card",
+      "pos": "noun",
+      "meaning": "A plastic card that opens your hotel room door.",
+      "examples": [
+        "Put the {key card} in the slot to open the door."
+      ],
+      "wrong": [
+        "I paid for lunch with my hotel key card from the bank."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈki kɑrd/"
+    },
+    {
+      "lemma": "view",
+      "pos": "noun",
+      "meaning": "What you can see from a place, for example from a window.",
+      "examples": [
+        "Our room has a lovely {view} of the mountains."
+      ],
+      "wrong": [
+        "The room had a beautiful view because it had no windows."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "scenery"
+      ],
+      "ipa": "/vju/"
+    },
+    {
+      "lemma": "sleeping bag",
+      "pos": "noun",
+      "meaning": "A long warm bag that you sleep inside, for example in a tent.",
+      "examples": [
+        "Bring a {sleeping bag} because the nights are cold."
+      ],
+      "wrong": [
+        "He carried water to the camp in his sleeping bag."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈslipɪŋ bæɡ/"
+    },
+    {
+      "lemma": "backpack",
+      "pos": "noun",
+      "meaning": "A bag that you carry on your back.",
+      "examples": [
+        "She carried her water and map in her {backpack}."
+      ],
+      "wrong": [
+        "He wore his backpack on his head like a hat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rucksack"
+      ],
+      "ipa": "/ˈbækˌpæk/"
+    },
+    {
+      "lemma": "guesthouse",
+      "pos": "noun",
+      "meaning": "A small, simple hotel, often in a family home.",
+      "examples": [
+        "We stayed in a quiet {guesthouse} near the harbor."
+      ],
+      "wrong": [
+        "The guesthouse is a huge hotel with a thousand rooms."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bed and breakfast"
+      ],
+      "ipa": "/ˈɡɛstˌhaʊs/"
+    },
+    {
+      "lemma": "campfire",
+      "pos": "noun",
+      "meaning": "A fire that people make outside when they are camping.",
+      "examples": [
+        "We sang songs around the {campfire}."
+      ],
+      "wrong": [
+        "We lit a campfire in the hotel bathroom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bonfire"
+      ],
+      "ipa": "/ˈkæmpˌfaɪr/"
+    },
+    {
+      "lemma": "tour",
+      "pos": "noun",
+      "meaning": "A visit around a place to see the interesting parts.",
+      "examples": [
+        "We took a bus {tour} of the city."
+      ],
+      "wrong": [
+        "The tour stayed in one room and saw nothing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trip"
+      ],
+      "ipa": "/tʊr/"
+    },
+    {
+      "lemma": "harbor",
+      "pos": "noun",
+      "meaning": "A place on the coast where boats stay safe from the sea.",
+      "examples": [
+        "The fishing boats came back to the {harbor}."
+      ],
+      "wrong": [
+        "The harbor is in the desert, far from any water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "port"
+      ],
+      "ipa": "/ˈhɑrbɚ/"
+    },
+    {
+      "lemma": "abroad",
+      "pos": "adverb",
+      "meaning": "In or to a foreign country.",
+      "examples": [
+        "We go {abroad} every summer, usually to Spain."
+      ],
+      "wrong": [
+        "She went abroad to the shop on her street."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "overseas"
+      ],
+      "ipa": "/əˈbrɔd/",
+      "antonyms": [
+        "at home"
+      ]
+    },
+    {
+      "lemma": "delayed",
+      "pos": "adjective",
+      "meaning": "Late; happening later than planned.",
+      "examples": [
+        "Our flight was {delayed} by two hours."
+      ],
+      "wrong": [
+        "The train was delayed, so it left early."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "late"
+      ],
+      "ipa": "/dɪˈleɪd/",
+      "antonyms": [
+        "on time",
+        "early"
+      ]
+    },
+    {
+      "lemma": "snorkel",
+      "pos": "verb",
+      "meaning": "To swim with your face in the water, breathing through a tube.",
+      "examples": [
+        "We {snorkeled} and saw colorful fish."
+      ],
+      "wrong": [
+        "We snorkeled on the dry sand all afternoon."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsnɔrkəl/"
+    },
+    {
+      "lemma": "vacation",
+      "pos": "noun",
+      "meaning": "A time when you don’t work or study and often travel.",
+      "examples": [
+        "We’re going to the beach on {vacation}."
+      ],
+      "wrong": [
+        "I’m on vacation, so I have to go to the office all week."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "holiday"
+      ],
+      "ipa": "/veɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "ski resort",
+      "pos": "noun",
+      "meaning": "A place in the mountains where people go to ski.",
+      "examples": [
+        "The {ski resort} has lots of snow this year."
+      ],
+      "wrong": [
+        "We went to a ski resort on a hot, flat beach."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈski rɪˌzɔrt/"
+    },
+    {
+      "lemma": "guide",
+      "pos": "noun",
+      "meaning": "A person whose job is to show visitors around a place.",
+      "examples": [
+        "Our {guide} told us about the old church."
+      ],
+      "wrong": [
+        "The guide got lost and asked us the way."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɡaɪd/"
+    },
+    {
+      "lemma": "take a photo",
+      "pos": "phrase",
+      "meaning": "To use a camera or phone to make a picture.",
+      "examples": [
+        "Can you {take a photo} of us by the lake?"
+      ],
+      "wrong": [
+        "I took a photo by closing my eyes and singing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "take a picture"
+      ],
+      "ipa": "/teɪk ə ˈfoʊtoʊ/"
+    },
+    {
+      "lemma": "seaside",
+      "pos": "noun",
+      "meaning": "A place by the sea where people go on holiday.",
+      "examples": [
+        "We spent a week at the {seaside}."
+      ],
+      "wrong": [
+        "The seaside is far from any water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "coast"
+      ],
+      "ipa": "/ˈsiˌsaɪd/"
+    },
+    {
+      "lemma": "rental car",
+      "pos": "noun",
+      "meaning": "A car that you pay to use for a short time.",
+      "examples": [
+        "We picked up a {rental car} at the airport."
+      ],
+      "wrong": [
+        "I bought a rental car, so it’s mine forever."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "hire car"
+      ],
+      "ipa": "/ˈrɛntəl kɑr/"
+    },
+    {
+      "lemma": "cancel",
+      "pos": "verb",
+      "meaning": "To say that something you planned will not happen.",
+      "examples": [
+        "We had to {cancel} our trip because of the storm."
+      ],
+      "wrong": [
+        "They canceled the flight, so it left on time."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "call off"
+      ],
+      "ipa": "/ˈkænsəl/"
+    },
+    {
+      "lemma": "land",
+      "pos": "verb",
+      "meaning": "To come down from the air onto the ground.",
+      "examples": [
+        "The plane {landed} at six in the morning."
+      ],
+      "wrong": [
+        "The plane landed and flew high above the clouds."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "touch down"
+      ],
+      "ipa": "/lænd/",
+      "antonyms": [
+        "take off"
+      ]
+    },
+    {
+      "lemma": "tan",
+      "pos": "noun",
+      "meaning": "The darker color your skin gets after being in the sun.",
+      "examples": [
+        "She came back from the beach with a nice {tan}."
+      ],
+      "wrong": [
+        "He got a tan by staying inside all summer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "suntan"
+      ],
+      "ipa": "/tæn/"
+    },
+    {
+      "lemma": "cable car",
+      "pos": "noun",
+      "meaning": "A small cabin that hangs from a wire and carries people up a mountain.",
+      "examples": [
+        "We took the {cable car} to the top of the mountain."
+      ],
+      "wrong": [
+        "The cable car drove us along the highway."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkeɪbəl kɑr/"
+    },
+    {
+      "lemma": "mosquito",
+      "pos": "noun",
+      "meaning": "A small flying insect that bites people.",
+      "examples": [
+        "A {mosquito} bit me on the arm last night."
+      ],
+      "wrong": [
+        "The mosquito barked at the mailman."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/məˈskitoʊ/"
+    },
+    {
+      "lemma": "flip-flops",
+      "pos": "noun",
+      "meaning": "Light open shoes held on by a strap between your toes.",
+      "examples": [
+        "I wear {flip-flops} at the beach."
+      ],
+      "wrong": [
+        "He wore his flip-flops to climb the snowy mountain."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sandals"
+      ],
+      "ipa": "/ˈflɪpˌflɑps/"
+    },
+    {
+      "lemma": "sandals",
+      "pos": "noun",
+      "meaning": "Open shoes with straps, worn in warm weather.",
+      "examples": [
+        "It’s hot, so I’m wearing {sandals}."
+      ],
+      "wrong": [
+        "She wore her sandals on her hands to keep warm."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsændəlz/"
+    },
+    {
+      "lemma": "toiletries",
+      "pos": "noun",
+      "meaning": "Things you use to wash and clean yourself, like soap.",
+      "examples": [
+        "I keep my {toiletries} in a small bag."
+      ],
+      "wrong": [
+        "I packed my toiletries: two books and a pen."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtɔɪlətriz/"
+    },
+    {
+      "lemma": "shell",
+      "pos": "noun",
+      "meaning": "The hard outside part of a small sea animal, found on beaches.",
+      "examples": [
+        "The children collected {shells} on the beach."
+      ],
+      "wrong": [
+        "We picked shells from the apple tree."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "seashell"
+      ],
+      "ipa": "/ʃɛl/"
+    },
+    {
+      "lemma": "adapter",
+      "pos": "noun",
+      "meaning": "A small object that lets your plug fit a foreign socket.",
+      "examples": [
+        "Bring an {adapter} for your phone charger."
+      ],
+      "wrong": [
+        "I used an adapter to open the bottle."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/əˈdæptɚ/"
+    },
+    {
+      "lemma": "bed and breakfast",
+      "pos": "noun",
+      "meaning": "A small hotel or house where you get a room and a morning meal.",
+      "examples": [
+        "We stayed at a {bed and breakfast} by the sea."
+      ],
+      "wrong": [
+        "The bed and breakfast gave us no bed and no food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "guesthouse"
+      ],
+      "ipa": "/ˈbɛd ən ˈbrɛkfəst/"
+    },
+    {
+      "lemma": "lobby",
+      "pos": "noun",
+      "meaning": "The large area inside the front door of a hotel.",
+      "examples": [
+        "Let’s meet in the hotel {lobby} at eight."
+      ],
+      "wrong": [
+        "We had a bath in the hotel lobby."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "entrance hall",
+        "foyer"
+      ],
+      "ipa": "/ˈlɑbi/"
+    },
+    {
+      "lemma": "traveler",
+      "pos": "noun",
+      "meaning": "A person who is on a trip or who travels often.",
+      "examples": [
+        "The hostel was full of young {travelers}."
+      ],
+      "wrong": [
+        "She is a traveler because she has never left her town."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tourist"
+      ],
+      "ipa": "/ˈtrævəlɚ/"
+    },
+    {
+      "lemma": "castle",
+      "pos": "noun",
+      "meaning": "A large old building with thick walls, built to protect people.",
+      "examples": [
+        "We visited a {castle} on the hill."
+      ],
+      "wrong": [
+        "The castle is a small tent made of paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fortress"
+      ],
+      "ipa": "/ˈkæsəl/"
+    },
+    {
+      "lemma": "deck chair",
+      "pos": "noun",
+      "meaning": "A folding chair you sit or lie on at the beach.",
+      "examples": [
+        "Dad slept in a {deck chair} by the pool."
+      ],
+      "wrong": [
+        "I washed the dishes in the deck chair."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sunbed"
+      ],
+      "ipa": "/ˈdɛk tʃɛr/"
+    },
+    {
+      "lemma": "sea view",
+      "pos": "noun",
+      "meaning": "What you can see of the ocean from a window or balcony.",
+      "examples": [
+        "We paid more for a room with a {sea view}."
+      ],
+      "wrong": [
+        "Our room had a sea view, so we could only see a parking lot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsi vju/"
+    },
+    {
+      "lemma": "flight attendant",
+      "pos": "noun",
+      "meaning": "A person who looks after passengers on a plane.",
+      "examples": [
+        "The {flight attendant} brought us drinks."
+      ],
+      "wrong": [
+        "The flight attendant drove the bus to the city."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cabin crew"
+      ],
+      "ipa": "/ˈflaɪt əˌtɛndənt/"
+    },
+    {
+      "lemma": "surf",
+      "pos": "verb",
+      "meaning": "To ride on the waves of the sea standing on a board.",
+      "examples": [
+        "They {surf} every morning when the waves are big."
+      ],
+      "wrong": [
+        "He surfed down the snowy mountain on skis."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sɝf/"
+    }
+  ]
+}

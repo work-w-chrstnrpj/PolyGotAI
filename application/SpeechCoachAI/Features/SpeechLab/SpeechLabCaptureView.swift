@@ -26,7 +26,7 @@ struct SpeechLabCaptureView: View {
                 } else if capture.recognizing { ProgressView("Listening…") }
                 else if let transcript = capture.transcript {
                     if !saved || keepAudio {
-                        Button("Play yours") { capture.replay() }.buttonStyle(.bordered).accessibilityIdentifier("speechlab.replay")
+                        Button("Play yours") { capture.replay() }.buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("speechlab.replay")
                     }
                     Text("We heard: \(transcript.text)").font(.headline).accessibilityIdentifier("speechlab.heard")
                     SpeechLabDiffView(entries: AnswerChecker.diff(response: transcript.text, expected: text))
@@ -38,7 +38,7 @@ struct SpeechLabCaptureView: View {
                             .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("speechlab.save")
                     } else { Text("Saved").foregroundStyle(Kit.accent).accessibilityIdentifier("speechlab.saved") }
                     Button("Retry") { capture.leave(); capture.start(); saved = false; pending = nil }
-                        .buttonStyle(.bordered).accessibilityIdentifier("speechlab.retry")
+                        .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("speechlab.retry")
                 } else {
                     Button("Record") { capture.start() }.buttonStyle(KitPrimaryButtonStyle())
                         .disabled(capture.busy).accessibilityIdentifier("speechlab.record")

@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-relationships",
+    "title": "Family and relationships",
+    "level": "A2",
+    "tagline": "Friends, partners and family",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "stepbrother",
+      "pos": "noun",
+      "meaning": "A boy or man who is the son of your stepmother or stepfather.",
+      "examples": [
+        "My {stepbrother} moved in when our parents got married."
+      ],
+      "wrong": [
+        "My stepbrother is my real brother; we have the same mother and father."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstɛpˌbrʌðɚ/"
+    },
+    {
+      "lemma": "stepsister",
+      "pos": "noun",
+      "meaning": "A girl or woman who is the daughter of your stepmother or stepfather.",
+      "examples": [
+        "My {stepsister} and I share a bedroom now."
+      ],
+      "wrong": [
+        "My stepsister is my aunt, my father’s sister."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstɛpˌsɪstɚ/"
+    },
+    {
+      "lemma": "half-brother",
+      "pos": "noun",
+      "meaning": "A brother who has only one of the same parents as you.",
+      "examples": [
+        "My {half-brother} has the same dad as me but a different mom."
+      ],
+      "wrong": [
+        "My half-brother and I have the same mother and the same father."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhæfˌbrʌðɚ/"
+    },
+    {
+      "lemma": "great-grandmother",
+      "pos": "noun",
+      "meaning": "The mother of your grandmother or grandfather.",
+      "examples": [
+        "My {great-grandmother} is ninety-five years old."
+      ],
+      "wrong": [
+        "My great-grandmother is younger than my mother."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌɡreɪtˈɡrænˌmʌðɚ/"
+    },
+    {
+      "lemma": "divorced",
+      "pos": "adjective",
+      "meaning": "No longer married because the marriage ended by law.",
+      "examples": [
+        "Her parents are {divorced}, so she has two homes."
+      ],
+      "wrong": [
+        "They are divorced and still live together as husband and wife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪˈvɔrst/"
+    },
+    {
+      "lemma": "widower",
+      "pos": "noun",
+      "meaning": "A man whose wife has died.",
+      "examples": [
+        "He became a {widower} when his wife died last year."
+      ],
+      "wrong": [
+        "He is a widower, and his wife is waiting for him at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɪdoʊɚ/"
+    },
+    {
+      "lemma": "go on a date",
+      "pos": "phrase",
+      "meaning": "To go out with someone you like to see if you want a romantic relationship.",
+      "examples": [
+        "They {went on a date} to the movies on Saturday."
+      ],
+      "wrong": [
+        "We went on a date, but we never met or spoke that day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "go out"
+      ],
+      "ipa": "/ˈɡoʊ ɑn ə ˈdeɪt/"
+    },
+    {
+      "lemma": "family reunion",
+      "pos": "phrase",
+      "meaning": "A party where relatives from many places meet after a long time apart.",
+      "examples": [
+        "All my cousins came to the {family reunion} last summer."
+      ],
+      "wrong": [
+        "At the family reunion, no relatives came at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "family gathering"
+      ],
+      "ipa": "/ˈfæmli riˈjunjən/"
+    },
+    {
+      "lemma": "fall in love",
+      "pos": "phrase",
+      "meaning": "To start to love someone in a romantic way.",
+      "examples": [
+        "They {fell in love} at university."
+      ],
+      "wrong": [
+        "They fell in love, so they never wanted to see each other again."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɔl ɪn ˈlʌv/"
+    },
+    {
+      "lemma": "kiss",
+      "pos": "verb",
+      "meaning": "To touch someone with your lips to show love or say hello.",
+      "examples": [
+        "She {kissed} her baby goodnight."
+      ],
+      "wrong": [
+        "He kissed his mother on the cheek with his elbow."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɪs/"
+    },
+    {
+      "lemma": "marriage",
+      "pos": "noun",
+      "meaning": "The relationship between two people who are husband and wife.",
+      "examples": [
+        "Their {marriage} has lasted fifty years."
+      ],
+      "wrong": [
+        "A marriage is a short chat between two strangers on a bus."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɛrɪdʒ/"
+    },
+    {
+      "lemma": "stepmother",
+      "pos": "noun",
+      "meaning": "The woman who is married to your father but is not your mother.",
+      "examples": [
+        "My {stepmother} married my dad when I was six."
+      ],
+      "wrong": [
+        "My stepmother is the woman who gave birth to me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstɛpˌmʌðɚ/"
+    },
+    {
+      "lemma": "stepfather",
+      "pos": "noun",
+      "meaning": "The man who is married to your mother but is not your father.",
+      "examples": [
+        "My {stepfather} drives me to school every day."
+      ],
+      "wrong": [
+        "My stepfather is my real dad, who was there when I was born."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstɛpˌfɑðɚ/"
+    },
+    {
+      "lemma": "adopt",
+      "pos": "verb",
+      "meaning": "To take another person’s child into your family and raise it as your own.",
+      "examples": [
+        "They {adopted} a baby girl from another country."
+      ],
+      "wrong": [
+        "They adopted a son, so they had no children in their family."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/əˈdɑpt/"
+    },
+    {
+      "lemma": "mother-in-law",
+      "pos": "noun",
+      "meaning": "The mother of your husband or wife.",
+      "examples": [
+        "My {mother-in-law} visits us every Sunday."
+      ],
+      "wrong": [
+        "My mother-in-law is my own mother’s sister."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmʌðɚ ɪn ˌlɔ/"
+    },
+    {
+      "lemma": "father-in-law",
+      "pos": "noun",
+      "meaning": "The father of your husband or wife.",
+      "examples": [
+        "Her {father-in-law} gave a speech at the wedding."
+      ],
+      "wrong": [
+        "My father-in-law is my wife’s brother."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɑðɚ ɪn ˌlɔ/"
+    },
+    {
+      "lemma": "sibling",
+      "pos": "noun",
+      "meaning": "A brother or sister.",
+      "examples": [
+        "I have two {siblings}, a brother and a sister."
+      ],
+      "wrong": [
+        "My sibling is my grandfather."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɪblɪŋ/"
+    },
+    {
+      "lemma": "honeymoon",
+      "pos": "noun",
+      "meaning": "A holiday that two people take just after their wedding.",
+      "examples": [
+        "They went to Italy for their {honeymoon}."
+      ],
+      "wrong": [
+        "They went on their honeymoon ten years before they met."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhʌniˌmun/"
+    },
+    {
+      "lemma": "groom",
+      "pos": "noun",
+      "meaning": "The man who is getting married at a wedding.",
+      "examples": [
+        "The {groom} waited nervously for his bride."
+      ],
+      "wrong": [
+        "The groom is the woman in the white wedding dress."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bridegroom"
+      ],
+      "ipa": "/ɡrum/"
+    },
+    {
+      "lemma": "pen pal",
+      "pos": "phrase",
+      "meaning": "A friend in another place who you write letters or messages to.",
+      "examples": [
+        "My {pen pal} in Brazil sends me a letter every month."
+      ],
+      "wrong": [
+        "My pen pal lives next door, and we never write to each other."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɛn ˌpæl/"
+    },
+    {
+      "lemma": "get married",
+      "pos": "phrase",
+      "meaning": "To become husband and wife in a ceremony.",
+      "examples": [
+        "They {got married} on the beach last summer."
+      ],
+      "wrong": [
+        "They got married, so now they are not husband and wife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "marry"
+      ],
+      "ipa": "/ˈɡɛt ˈmɛrid/",
+      "antonyms": [
+        "get divorced"
+      ]
+    },
+    {
+      "lemma": "close friend",
+      "pos": "phrase",
+      "meaning": "A friend you know very well and like a lot.",
+      "examples": [
+        "Anna is a {close friend}, so I tell her everything."
+      ],
+      "wrong": [
+        "He is a close friend, but I have never spoken to him."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "good friend"
+      ],
+      "ipa": "/ˈkloʊs ˈfrɛnd/"
+    },
+    {
+      "lemma": "nickname",
+      "pos": "noun",
+      "meaning": "A short or funny name that friends or family call you.",
+      "examples": [
+        "His {nickname} is Bear because he is very big."
+      ],
+      "wrong": [
+        "A nickname is the official name in your passport."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnɪkˌneɪm/"
+    },
+    {
+      "lemma": "surname",
+      "pos": "noun",
+      "meaning": "Your family name, which usually comes last.",
+      "examples": [
+        "Her first name is Maria and her {surname} is Lopez."
+      ],
+      "wrong": [
+        "My surname is the first name my friends call me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "last name",
+        "family name"
+      ],
+      "ipa": "/ˈsɝˌneɪm/"
+    },
+    {
+      "lemma": "meet up",
+      "pos": "verb",
+      "meaning": "To come together with someone, usually as planned.",
+      "examples": [
+        "Let’s {meet up} for coffee after work."
+      ],
+      "wrong": [
+        "We met up, so we never saw each other that day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "get together"
+      ],
+      "ipa": "/ˈmit ˈʌp/"
+    },
+    {
+      "lemma": "each other",
+      "pos": "pronoun",
+      "meaning": "Used to show that two or more people do the same thing to one another.",
+      "examples": [
+        "The two sisters help {each other} with homework."
+      ],
+      "wrong": [
+        "Tom and Sue love each other, but Sue does not love Tom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "one another"
+      ],
+      "ipa": "/ˈitʃ ˈʌðɚ/"
+    },
+    {
+      "lemma": "eldest",
+      "pos": "adjective",
+      "meaning": "Oldest of the children in a family.",
+      "examples": [
+        "Their {eldest} son is at university now."
+      ],
+      "wrong": [
+        "Their eldest daughter is the baby, born last month after the others."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "oldest"
+      ],
+      "ipa": "/ˈɛldɪst/"
+    },
+    {
+      "lemma": "widow",
+      "pos": "noun",
+      "meaning": "A woman whose husband has died.",
+      "examples": [
+        "She became a {widow} when her husband died last year."
+      ],
+      "wrong": [
+        "She is a widow, and her husband is cooking dinner."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɪdoʊ/"
+    },
+    {
+      "lemma": "related",
+      "pos": "adjective",
+      "meaning": "Part of the same family.",
+      "examples": [
+        "Are you two {related}? You look alike."
+      ],
+      "wrong": [
+        "We are related, but we are not in the same family at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/rɪˈleɪtɪd/"
+    },
+    {
+      "lemma": "care about",
+      "pos": "verb",
+      "meaning": "To feel that someone or something is important to you.",
+      "examples": [
+        "I really {care about} my friends."
+      ],
+      "wrong": [
+        "She cares about her brother, so she never thinks about him."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɛr əˌbaʊt/"
+    },
+    {
+      "lemma": "middle child",
+      "pos": "phrase",
+      "meaning": "A child who has an older and a younger brother or sister.",
+      "examples": [
+        "As the {middle child}, I have one older sister and one younger brother."
+      ],
+      "wrong": [
+        "She is the middle child because she has no brothers or sisters."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɪdəl ˈtʃaɪld/"
+    },
+    {
+      "lemma": "alone",
+      "pos": "adverb",
+      "meaning": "Without other people.",
+      "examples": [
+        "He lives {alone} in a small apartment."
+      ],
+      "wrong": [
+        "She lives alone with her parents and three brothers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "by yourself"
+      ],
+      "ipa": "/əˈloʊn/",
+      "antonyms": [
+        "together"
+      ]
+    },
+    {
+      "lemma": "have a baby",
+      "pos": "phrase",
+      "meaning": "To give birth to a child and become a parent.",
+      "examples": [
+        "My sister is going to {have a baby} in May."
+      ],
+      "wrong": [
+        "They had a baby, so there were no children in the family."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhæv ə ˈbeɪbi/"
+    },
+    {
+      "lemma": "newborn",
+      "pos": "noun",
+      "meaning": "A baby that was born only a few days or weeks ago.",
+      "examples": [
+        "The {newborn} slept in her mother’s arms."
+      ],
+      "wrong": [
+        "The newborn just celebrated his eightieth birthday."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnuˌbɔrn/"
+    },
+    {
+      "lemma": "engagement",
+      "pos": "noun",
+      "meaning": "An agreement between two people to get married.",
+      "examples": [
+        "They announced their {engagement} at dinner."
+      ],
+      "wrong": [
+        "Their engagement means they have decided never to marry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪnˈɡeɪdʒmənt/"
+    },
+    {
+      "lemma": "ex",
+      "pos": "noun",
+      "meaning": "A person you used to be married to or used to date.",
+      "examples": [
+        "She is still friends with her {ex}."
+      ],
+      "wrong": [
+        "My ex is the person I am dating right now."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "former partner"
+      ],
+      "ipa": "/ɛks/"
+    },
+    {
+      "lemma": "childhood friend",
+      "pos": "phrase",
+      "meaning": "A friend you have known since you were young.",
+      "examples": [
+        "Sam is a {childhood friend}; we met when we were six."
+      ],
+      "wrong": [
+        "She is my childhood friend; we met last week at work."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtʃaɪldˌhʊd ˈfrɛnd/"
+    },
+    {
+      "lemma": "get together",
+      "pos": "verb",
+      "meaning": "To meet in a group and spend time with each other.",
+      "examples": [
+        "The whole family {gets together} at New Year."
+      ],
+      "wrong": [
+        "We got together, so we all stayed at home alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "meet up"
+      ],
+      "ipa": "/ˈɡɛt təˈɡɛðɚ/"
+    },
+    {
+      "lemma": "hold hands",
+      "pos": "phrase",
+      "meaning": "To walk or sit with your hand in another person’s hand.",
+      "examples": [
+        "The couple {held hands} as they walked in the park."
+      ],
+      "wrong": [
+        "They held hands while standing on opposite sides of the room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊld ˈhændz/"
+    },
+    {
+      "lemma": "toddler",
+      "pos": "noun",
+      "meaning": "A young child who is just learning to walk.",
+      "examples": [
+        "The {toddler} fell over and laughed."
+      ],
+      "wrong": [
+        "The toddler drove his car to work."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtɑdlɚ/"
+    }
+  ]
+}

@@ -46,6 +46,7 @@ final class DictationRecognizer {
         request.shouldReportPartialResults = true
         do {
             let session = AVAudioSession.sharedInstance()
+            SoundCenter.holdAudio("dictation")
             try session.setCategory(.record, mode: .measurement, options: [.duckOthers, .allowBluetoothHFP])
             try session.setActive(true, options: .notifyOthersOnDeactivation)
             let input = engine.inputNode
@@ -116,6 +117,7 @@ final class DictationRecognizer {
         request = nil
         if state == .listening { state = .idle }
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("dictation")
     }
 
     // MARK: Permissions and audio plumbing (nonisolated: these closures run on audio and recognition threads)

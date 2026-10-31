@@ -79,7 +79,7 @@ struct ResourceLibraryView: View {
                         Text("Search your library").font(.caption).foregroundStyle(Kit.secondary)
                         TextField("Title, topic or notes", text: $query,
                                   prompt: Text("Title, topic or notes").foregroundStyle(Kit.secondary))
-                            .textFieldStyle(.roundedBorder).focused($searchFocused)
+                            .textFieldStyle(KitFieldStyle()).focused($searchFocused)
                             .submitLabel(.search).onSubmit { searchFocused = false }
                             .accessibilityIdentifier("resources.search")
                     }

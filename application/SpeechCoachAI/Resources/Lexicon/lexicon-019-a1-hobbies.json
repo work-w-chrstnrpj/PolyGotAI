@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-hobbies",
+    "title": "Hobbies",
+    "level": "A1",
+    "tagline": "Things you like to do",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "reading",
+      "pos": "noun",
+      "meaning": "Looking at books and taking in the words for fun.",
+      "examples": [
+        "My mom loves {reading} in bed."
+      ],
+      "wrong": [
+        "I do my reading with my ears closed and no book."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈridɪŋ/"
+    },
+    {
+      "lemma": "cooking",
+      "pos": "noun",
+      "meaning": "Making food hot and ready to eat.",
+      "examples": [
+        "Dad does the {cooking} on Sundays."
+      ],
+      "wrong": [
+        "His cooking is a song he plays on the piano."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkʊkɪŋ/"
+    },
+    {
+      "lemma": "painting",
+      "pos": "noun",
+      "meaning": "Making pictures with a brush and colors.",
+      "examples": [
+        "Her hobby is {painting} flowers."
+      ],
+      "wrong": [
+        "I do painting with a ball and a goal."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpeɪntɪŋ/"
+    },
+    {
+      "lemma": "gardening",
+      "pos": "noun",
+      "meaning": "Looking after plants and flowers outside your home.",
+      "examples": [
+        "Grandpa enjoys {gardening} in spring."
+      ],
+      "wrong": [
+        "I do gardening in the bath with my rubber duck."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡɑrdənɪŋ/"
+    },
+    {
+      "lemma": "dancing",
+      "pos": "noun",
+      "meaning": "Moving your body to music.",
+      "examples": [
+        "We go {dancing} on Friday night."
+      ],
+      "wrong": [
+        "Dancing is when you sit still and do not move."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdænsɪŋ/"
+    },
+    {
+      "lemma": "singing",
+      "pos": "noun",
+      "meaning": "Making music with your voice.",
+      "examples": [
+        "Her {singing} is very beautiful."
+      ],
+      "wrong": [
+        "His singing has no sound at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɪŋɪŋ/"
+    },
+    {
+      "lemma": "swimming",
+      "pos": "noun",
+      "meaning": "Moving through water with your arms and legs.",
+      "examples": [
+        "I go {swimming} at the pool."
+      ],
+      "wrong": [
+        "We do our swimming on the dry road."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈswɪmɪŋ/"
+    },
+    {
+      "lemma": "running",
+      "pos": "noun",
+      "meaning": "Moving very fast on your feet as a sport.",
+      "examples": [
+        "{Running} in the park is good for you."
+      ],
+      "wrong": [
+        "Running is a sport you do while you sleep."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈrʌnɪŋ/"
+    },
+    {
+      "lemma": "jogging",
+      "pos": "noun",
+      "meaning": "Running slowly for exercise.",
+      "examples": [
+        "She goes {jogging} every morning."
+      ],
+      "wrong": [
+        "He does his jogging lying on the sofa."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdʒɑɡɪŋ/"
+    },
+    {
+      "lemma": "yoga",
+      "pos": "noun",
+      "meaning": "Slow exercise with stretching and calm breathing.",
+      "examples": [
+        "I do {yoga} on a mat at home."
+      ],
+      "wrong": [
+        "Yoga is a fast car race."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈjoʊɡə/"
+    },
+    {
+      "lemma": "soccer",
+      "pos": "noun",
+      "meaning": "A game where two teams kick a ball into a goal.",
+      "examples": [
+        "The boys play {soccer} after school."
+      ],
+      "wrong": [
+        "In soccer you hit the ball with a bat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "football"
+      ],
+      "ipa": "/ˈsɑkɚ/"
+    },
+    {
+      "lemma": "volleyball",
+      "pos": "noun",
+      "meaning": "A game where teams hit a ball over a high net with their hands.",
+      "examples": [
+        "We play {volleyball} on the beach."
+      ],
+      "wrong": [
+        "In volleyball you kick the ball along the ground."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈvɑliˌbɔl/"
+    },
+    {
+      "lemma": "baseball",
+      "pos": "noun",
+      "meaning": "A game where you hit a ball with a bat and run around four bases.",
+      "examples": [
+        "He hit the ball hard in the {baseball} game."
+      ],
+      "wrong": [
+        "Baseball is a game you play in the swimming pool."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbeɪsˌbɔl/"
+    },
+    {
+      "lemma": "golf",
+      "pos": "noun",
+      "meaning": "A game where you hit a small ball into holes on grass.",
+      "examples": [
+        "My uncle plays {golf} on Saturdays."
+      ],
+      "wrong": [
+        "In golf you throw a big ball into a basket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɑlf/"
+    },
+    {
+      "lemma": "table tennis",
+      "pos": "noun",
+      "meaning": "A game where you hit a small light ball over a net on a table.",
+      "examples": [
+        "We play {table tennis} in the garage."
+      ],
+      "wrong": [
+        "Table tennis is a game you play on a big field with a horse."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ping-pong"
+      ],
+      "ipa": "/ˈteɪbəl ˈtɛnɪs/"
+    },
+    {
+      "lemma": "badminton",
+      "pos": "noun",
+      "meaning": "A game where you hit a light thing with feathers over a high net.",
+      "examples": [
+        "We play {badminton} in the garden."
+      ],
+      "wrong": [
+        "In badminton you throw heavy stones into the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbædˌmɪntən/"
+    },
+    {
+      "lemma": "bowling",
+      "pos": "noun",
+      "meaning": "A game where you roll a heavy ball to knock down pins.",
+      "examples": [
+        "We went {bowling} for my birthday."
+      ],
+      "wrong": [
+        "In bowling you climb a tree with a ball."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈboʊlɪŋ/"
+    },
+    {
+      "lemma": "karate",
+      "pos": "noun",
+      "meaning": "A sport from Japan where you fight with your hands and feet.",
+      "examples": [
+        "My sister learns {karate} at a club."
+      ],
+      "wrong": [
+        "Karate is a quiet game you play with cards."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kəˈrɑti/"
+    },
+    {
+      "lemma": "skateboard",
+      "pos": "noun",
+      "meaning": "A short board with four small wheels that you stand on and ride.",
+      "examples": [
+        "He rides his {skateboard} to the park."
+      ],
+      "wrong": [
+        "I eat my soup from a skateboard."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈskeɪtˌbɔrd/"
+    },
+    {
+      "lemma": "skate",
+      "pos": "verb",
+      "meaning": "To move on ice or the ground with special shoes that have blades or wheels.",
+      "examples": [
+        "The kids {skate} on the frozen lake."
+      ],
+      "wrong": [
+        "I skate on the ice in my bare feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skeɪt/"
+    },
+    {
+      "lemma": "puzzle",
+      "pos": "noun",
+      "meaning": "A picture in many small pieces that you put back together.",
+      "examples": [
+        "This {puzzle} has a thousand pieces."
+      ],
+      "wrong": [
+        "I drink my tea from a puzzle."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpʌzəl/"
+    },
+    {
+      "lemma": "kite",
+      "pos": "noun",
+      "meaning": "A light toy that flies in the wind on a long string.",
+      "examples": [
+        "We fly a {kite} on windy days."
+      ],
+      "wrong": [
+        "My kite flies best when there is no wind at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kaɪt/"
+    },
+    {
+      "lemma": "doll",
+      "pos": "noun",
+      "meaning": "A small toy that looks like a person.",
+      "examples": [
+        "The little girl has a {doll} with red hair."
+      ],
+      "wrong": [
+        "The doll cooked dinner for the whole family."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɑl/"
+    },
+    {
+      "lemma": "video game",
+      "pos": "noun",
+      "meaning": "A game you play on a screen.",
+      "examples": [
+        "He plays a {video game} on his phone."
+      ],
+      "wrong": [
+        "I play my video game on a piece of paper with a pencil."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "computer game"
+      ],
+      "ipa": "/ˈvɪdioʊ ɡeɪm/"
+    },
+    {
+      "lemma": "comic",
+      "pos": "noun",
+      "meaning": "A thin book that tells a story in pictures.",
+      "examples": [
+        "I read a funny {comic} about a cat."
+      ],
+      "wrong": [
+        "A comic has no pictures, only numbers."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkɑmɪk/"
+    },
+    {
+      "lemma": "story",
+      "pos": "noun",
+      "meaning": "Words that tell what happened to people, true or made up.",
+      "examples": [
+        "Mom reads me a {story} at night."
+      ],
+      "wrong": [
+        "The story had no people and nothing happened."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tale"
+      ],
+      "ipa": "/ˈstɔri/"
+    },
+    {
+      "lemma": "sticker",
+      "pos": "noun",
+      "meaning": "A small picture with glue on the back.",
+      "examples": [
+        "She put a star {sticker} on her book."
+      ],
+      "wrong": [
+        "My sticker will not stick because it has glue on it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈstɪkɚ/"
+    },
+    {
+      "lemma": "drum",
+      "pos": "noun",
+      "meaning": "A round music instrument that you hit with sticks.",
+      "examples": [
+        "He plays the {drum} in a band."
+      ],
+      "wrong": [
+        "I play my drum very quietly by blowing into it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/drʌm/"
+    },
+    {
+      "lemma": "violin",
+      "pos": "noun",
+      "meaning": "A wooden music instrument with strings that you hold under your chin.",
+      "examples": [
+        "She plays the {violin} in the school band."
+      ],
+      "wrong": [
+        "He plays the violin by kicking it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌvaɪəˈlɪn/"
+    },
+    {
+      "lemma": "flute",
+      "pos": "noun",
+      "meaning": "A long thin music instrument that you blow into.",
+      "examples": [
+        "She plays a sweet song on the {flute}."
+      ],
+      "wrong": [
+        "I play the flute by hitting it with a hammer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/flut/"
+    },
+    {
+      "lemma": "art",
+      "pos": "noun",
+      "meaning": "Making pictures and other beautiful things.",
+      "examples": [
+        "My favorite class is {art}."
+      ],
+      "wrong": [
+        "In art class we only do math."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɑrt/"
+    },
+    {
+      "lemma": "trumpet",
+      "pos": "noun",
+      "meaning": "A metal music instrument that you blow into to make a loud sound.",
+      "examples": [
+        "He plays the {trumpet} very loudly."
+      ],
+      "wrong": [
+        "The trumpet makes no sound when you blow into it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtrʌmpɪt/"
+    },
+    {
+      "lemma": "sewing",
+      "pos": "noun",
+      "meaning": "Making or fixing clothes with a needle and thread.",
+      "examples": [
+        "Grandma does her {sewing} by the window."
+      ],
+      "wrong": [
+        "She does her sewing with a hammer and nails."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsoʊɪŋ/"
+    },
+    {
+      "lemma": "hide and seek",
+      "pos": "phrase",
+      "meaning": "A game where one child looks for the others.",
+      "examples": [
+        "The kids play {hide and seek} in the house."
+      ],
+      "wrong": [
+        "In hide and seek everyone stands in the middle of the room."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhaɪd ən ˈsik/"
+    },
+    {
+      "lemma": "go for a walk",
+      "pos": "phrase",
+      "meaning": "To walk outside for fun, not to get somewhere.",
+      "examples": [
+        "Let’s {go for a walk} in the park."
+      ],
+      "wrong": [
+        "I go for a walk by sitting on the sofa all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ fɚ ə ˈwɔk/"
+    },
+    {
+      "lemma": "watch TV",
+      "pos": "phrase",
+      "meaning": "To look at shows on a television.",
+      "examples": [
+        "We {watch TV} after dinner."
+      ],
+      "wrong": [
+        "I watch TV with my eyes closed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɑtʃ ˌtiˈvi/"
+    },
+    {
+      "lemma": "horse riding",
+      "pos": "noun",
+      "meaning": "Sitting on a horse and moving on it for fun or sport.",
+      "examples": [
+        "She goes {horse riding} on the farm."
+      ],
+      "wrong": [
+        "I go horse riding on my bicycle."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhɔrs ˌraɪdɪŋ/"
+    },
+    {
+      "lemma": "camp",
+      "pos": "verb",
+      "meaning": "To sleep outside in a tent.",
+      "examples": [
+        "We {camp} by the lake every summer."
+      ],
+      "wrong": [
+        "We camp in a big hotel room."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kæmp/"
+    },
+    {
+      "lemma": "listen to music",
+      "pos": "phrase",
+      "meaning": "To hear songs for fun.",
+      "examples": [
+        "I {listen to music} on the bus."
+      ],
+      "wrong": [
+        "I listen to music on my mute phone with no sound."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɪsən tə ˈmjuzɪk/"
+    },
+    {
+      "lemma": "bike ride",
+      "pos": "noun",
+      "meaning": "A trip on a bicycle.",
+      "examples": [
+        "We went for a {bike ride} by the river."
+      ],
+      "wrong": [
+        "We went on a bike ride in a car."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbaɪk ˌraɪd/"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ Settings (profile button): appearance, background, default coach, reminders, rew
 
 ## The lesson experience
 
-Every lesson, in the course or a coach track, follows the same pattern:
+The CEFR course keeps the following pattern. Coach tracks use the Phase 13 topic format described below.
 
 1. **Coach tip.** 2–6 sentences that teach one idea, with an example.
 2. **Exercises (8–15).** Auto-checked and quick: multiple choice, tap words to build a sentence, fill in the blank, match pairs, listen and type, speak the sentence.
@@ -33,6 +33,10 @@ Every lesson, in the course or a coach track, follows the same pattern:
 5. **Finish.** XP, accuracy, and words to keep.
 
 Mistakes come back at the end of the lesson and in later review. A lesson takes about 3–6 minutes.
+
+### Coach topic lessons (Phase 13)
+
+All ten coaches use fuller topic lessons: reading pages and worked examples, followed by 15–18 checked exercises and one open task. Related micro-lessons are consolidated (for example, Nouns covers common/proper nouns, plurals, noun kinds and countability). Reading position and exercise answers survive leaving and relaunching; contents supports rereading. The 137 new topics have separate progress identities; 296 retired lessons remain available for saved attempts. See [coach tracks](coach-tracks.md).
 
 ## Lexicon
 

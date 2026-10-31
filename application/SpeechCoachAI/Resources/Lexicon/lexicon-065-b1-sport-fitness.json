@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-sport-fitness",
+    "title": "Sport and fitness",
+    "level": "B1",
+    "tagline": "Games, training and health",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "athlete",
+      "pos": "noun",
+      "meaning": "A person who is good at sport and trains to take part in it.",
+      "examples": [
+        "Olympic {athletes} train for many hours every day."
+      ],
+      "wrong": [
+        "He’s a top athlete, so he has never done any sport."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sportsperson"
+      ],
+      "ipa": "/ˈæθlit/"
+    },
+    {
+      "lemma": "referee",
+      "pos": "noun",
+      "meaning": "The person who controls a game and makes sure players follow the rules.",
+      "examples": [
+        "The {referee} blew the whistle to end the game."
+      ],
+      "wrong": [
+        "The referee scored the winning goal for his team."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "umpire",
+        "official"
+      ],
+      "ipa": "/ˌrɛfəˈri/"
+    },
+    {
+      "lemma": "opponent",
+      "pos": "noun",
+      "meaning": "The person or team you play against in a game.",
+      "examples": [
+        "She shook hands with her {opponent} after the match."
+      ],
+      "wrong": [
+        "My opponent and I played on the same team and helped each other."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rival",
+        "challenger"
+      ],
+      "ipa": "/əˈpoʊnənt/"
+    },
+    {
+      "lemma": "tournament",
+      "pos": "noun",
+      "meaning": "A competition with many players or teams and a series of games.",
+      "examples": [
+        "Thirty-two teams took part in the {tournament}."
+      ],
+      "wrong": [
+        "The tournament was a single game between two friends in the garden."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "contest",
+        "championship"
+      ],
+      "ipa": "/ˈtʊrnəmənt/"
+    },
+    {
+      "lemma": "championship",
+      "pos": "noun",
+      "meaning": "A competition to find the best player or team in a sport.",
+      "examples": [
+        "They won the national {championship} last year."
+      ],
+      "wrong": [
+        "The championship is a practice session where nobody wins."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "title",
+        "tournament"
+      ],
+      "ipa": "/ˈtʃæmpiənˌʃɪp/"
+    },
+    {
+      "lemma": "league",
+      "pos": "noun",
+      "meaning": "A group of teams that play against each other during a season.",
+      "examples": [
+        "Our team finished third in the {league}."
+      ],
+      "wrong": [
+        "A league is the ball used in tennis."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "division"
+      ],
+      "ipa": "/liɡ/"
+    },
+    {
+      "lemma": "spectator",
+      "pos": "noun",
+      "meaning": "A person who watches a sports event or show.",
+      "examples": [
+        "Thousands of {spectators} filled the stadium."
+      ],
+      "wrong": [
+        "The spectators played the whole match while the team watched."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "viewer",
+        "onlooker"
+      ],
+      "ipa": "/ˈspɛkˌteɪtɚ/"
+    },
+    {
+      "lemma": "track",
+      "pos": "noun",
+      "meaning": "A path or ring made for running or racing.",
+      "examples": [
+        "The runners lined up on the {track}."
+      ],
+      "wrong": [
+        "We swam ten lengths of the running track."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "course"
+      ],
+      "ipa": "/træk/"
+    },
+    {
+      "lemma": "pitch",
+      "pos": "noun",
+      "meaning": "An area of grass where games such as soccer are played.",
+      "examples": [
+        "The players ran onto the {pitch}."
+      ],
+      "wrong": [
+        "We played the soccer match on the pitch in the swimming pool."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "field"
+      ],
+      "ipa": "/pɪtʃ/"
+    },
+    {
+      "lemma": "umpire",
+      "pos": "noun",
+      "meaning": "The person who makes sure the rules are followed in games like tennis and baseball.",
+      "examples": [
+        "The {umpire} said the ball was out."
+      ],
+      "wrong": [
+        "The umpire hit the ball over the net to win the point."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "referee",
+        "official"
+      ],
+      "ipa": "/ˈʌmpaɪɚ/"
+    },
+    {
+      "lemma": "defeat",
+      "pos": "verb",
+      "meaning": "To win against someone in a game or fight.",
+      "examples": [
+        "Our team {defeated} the champions 3-1."
+      ],
+      "wrong": [
+        "We defeated them, so they won the game."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "beat",
+        "overcome"
+      ],
+      "ipa": "/dɪˈfit/",
+      "antonyms": [
+        "lose to"
+      ]
+    },
+    {
+      "lemma": "tie",
+      "pos": "noun",
+      "meaning": "A result in which both teams or players have the same score.",
+      "examples": [
+        "The game ended in a {tie}, two goals each."
+      ],
+      "wrong": [
+        "It was a tie because one team scored five and the other scored none."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "draw"
+      ],
+      "ipa": "/taɪ/"
+    },
+    {
+      "lemma": "trophy",
+      "pos": "noun",
+      "meaning": "A prize, often a silver cup, given to the winner of a competition.",
+      "examples": [
+        "The captain lifted the {trophy} above his head."
+      ],
+      "wrong": [
+        "The losing team was given the trophy as a punishment."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cup",
+        "prize"
+      ],
+      "ipa": "/ˈtroʊfi/"
+    },
+    {
+      "lemma": "record",
+      "pos": "noun",
+      "meaning": "The best result that anyone has ever achieved in a sport.",
+      "examples": [
+        "She broke the world {record} for the 100 meters."
+      ],
+      "wrong": [
+        "He set a new record by finishing last in the slowest time ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "best"
+      ],
+      "ipa": "/ˈrɛkɚd/"
+    },
+    {
+      "lemma": "halftime",
+      "pos": "noun",
+      "meaning": "The short break between the two halves of a game.",
+      "examples": [
+        "The players drank water at {halftime}."
+      ],
+      "wrong": [
+        "At halftime, the game was completely over and the players went home."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "interval",
+        "break"
+      ],
+      "ipa": "/ˈhæfˌtaɪm/"
+    },
+    {
+      "lemma": "foul",
+      "pos": "noun",
+      "meaning": "An action in a game that is against the rules.",
+      "examples": [
+        "The referee saw the {foul} and stopped the game."
+      ],
+      "wrong": [
+        "It was a foul because he played fairly and kindly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "violation"
+      ],
+      "ipa": "/faʊl/"
+    },
+    {
+      "lemma": "captain",
+      "pos": "noun",
+      "meaning": "The leader of a sports team.",
+      "examples": [
+        "The {captain} spoke to the team before the game."
+      ],
+      "wrong": [
+        "The captain is the player who has no say in the team."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "leader",
+        "skipper"
+      ],
+      "ipa": "/ˈkæptən/"
+    },
+    {
+      "lemma": "warm up",
+      "pos": "verb",
+      "meaning": "To do gentle exercise to get your body ready before sport.",
+      "examples": [
+        "Always {warm up} before you go for a run."
+      ],
+      "wrong": [
+        "We warmed up after the race by lying down and going to sleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "loosen up"
+      ],
+      "ipa": "/wɔrm ˈʌp/",
+      "antonyms": [
+        "cool down"
+      ]
+    },
+    {
+      "lemma": "cool down",
+      "pos": "verb",
+      "meaning": "To do slow, easy exercise after hard training so your body can relax.",
+      "examples": [
+        "After the race, we walked slowly to {cool down}."
+      ],
+      "wrong": [
+        "She cooled down by sprinting as fast as she could."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "wind down"
+      ],
+      "ipa": "/kul ˈdaʊn/",
+      "antonyms": [
+        "warm up"
+      ]
+    },
+    {
+      "lemma": "stretch",
+      "pos": "verb",
+      "meaning": "To make your arms, legs or body as long as possible to loosen your muscles.",
+      "examples": [
+        "He {stretched} his legs before the match."
+      ],
+      "wrong": [
+        "I stretched my arms by holding them tightly against my body."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "extend"
+      ],
+      "ipa": "/strɛtʃ/"
+    },
+    {
+      "lemma": "fitness",
+      "pos": "noun",
+      "meaning": "How healthy and strong your body is, especially from regular exercise.",
+      "examples": [
+        "Swimming is great for your {fitness}."
+      ],
+      "wrong": [
+        "His fitness improved because he stopped all exercise."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "health",
+        "shape"
+      ],
+      "ipa": "/ˈfɪtnəs/"
+    },
+    {
+      "lemma": "jog",
+      "pos": "verb",
+      "meaning": "To run slowly and steadily for exercise.",
+      "examples": [
+        "I {jog} in the park every morning."
+      ],
+      "wrong": [
+        "She jogged to the station by sitting in a taxi."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "run"
+      ],
+      "ipa": "/dʒɑɡ/"
+    },
+    {
+      "lemma": "sweat",
+      "pos": "verb",
+      "meaning": "To lose liquid through your skin because you are hot or working hard.",
+      "examples": [
+        "We {sweated} a lot during the hot game."
+      ],
+      "wrong": [
+        "He sweated because the room was freezing and he was resting."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "perspire"
+      ],
+      "ipa": "/swɛt/"
+    },
+    {
+      "lemma": "injure",
+      "pos": "verb",
+      "meaning": "To hurt a part of your body.",
+      "examples": [
+        "He {injured} his knee during the match."
+      ],
+      "wrong": [
+        "She injured her ankle, so it felt better than ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hurt",
+        "harm",
+        "wound"
+      ],
+      "ipa": "/ˈɪndʒɚ/"
+    },
+    {
+      "lemma": "amateur",
+      "pos": "adjective",
+      "meaning": "Doing a sport for fun, not as a paid job.",
+      "examples": [
+        "He plays for an {amateur} soccer team on Sundays."
+      ],
+      "wrong": [
+        "She’s an amateur player, so she earns millions from the game."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "nonprofessional"
+      ],
+      "ipa": "/ˈæmətʃɚ/",
+      "antonyms": [
+        "professional"
+      ]
+    },
+    {
+      "lemma": "compete",
+      "pos": "verb",
+      "meaning": "To take part in a race or competition and try to win.",
+      "examples": [
+        "Over 200 runners will {compete} in the race."
+      ],
+      "wrong": [
+        "She competed in the race by watching it on television."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take part",
+        "contend"
+      ],
+      "ipa": "/kəmˈpit/"
+    },
+    {
+      "lemma": "victory",
+      "pos": "noun",
+      "meaning": "The fact of winning a game, competition or fight.",
+      "examples": [
+        "The fans celebrated the team’s {victory}."
+      ],
+      "wrong": [
+        "After their victory, the team was sad that they had lost."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "win",
+        "triumph"
+      ],
+      "ipa": "/ˈvɪktəri/",
+      "antonyms": [
+        "defeat",
+        "loss"
+      ]
+    },
+    {
+      "lemma": "kick off",
+      "pos": "verb",
+      "meaning": "To start a soccer game by kicking the ball.",
+      "examples": [
+        "The match {kicks off} at three o’clock."
+      ],
+      "wrong": [
+        "The game kicked off at the end, when the players went home."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "begin",
+        "start"
+      ],
+      "ipa": "/kɪk ˈɔf/"
+    },
+    {
+      "lemma": "marathon",
+      "pos": "noun",
+      "meaning": "A running race of about 42 kilometers.",
+      "examples": [
+        "She trained for months to run the {marathon}."
+      ],
+      "wrong": [
+        "A marathon is a short race of about one hundred meters."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmærəˌθɑn/"
+    },
+    {
+      "lemma": "personal best",
+      "pos": "phrase",
+      "meaning": "The best result a person has ever achieved in a sport.",
+      "examples": [
+        "He ran a {personal best} of 41 minutes."
+      ],
+      "wrong": [
+        "My personal best is my slowest time ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "PB"
+      ],
+      "ipa": "/ˈpɝsənəl ˈbɛst/"
+    },
+    {
+      "lemma": "workout",
+      "pos": "noun",
+      "meaning": "A period of physical exercise to keep fit.",
+      "examples": [
+        "I did a 30-minute {workout} before breakfast."
+      ],
+      "wrong": [
+        "My workout was an hour of lying on the sofa."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "exercise session",
+        "training"
+      ],
+      "ipa": "/ˈwɝkˌaʊt/"
+    },
+    {
+      "lemma": "strength",
+      "pos": "noun",
+      "meaning": "The quality of being physically strong.",
+      "examples": [
+        "Lifting weights builds {strength}."
+      ],
+      "wrong": [
+        "He had the strength of ten men, so he couldn’t lift the bag."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "power",
+        "might"
+      ],
+      "ipa": "/strɛŋθ/"
+    },
+    {
+      "lemma": "out of breath",
+      "pos": "phrase",
+      "meaning": "Breathing hard and fast after running or exercise.",
+      "examples": [
+        "I was {out of breath} after climbing the stairs."
+      ],
+      "wrong": [
+        "She was out of breath after sitting quietly in a chair."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "breathless",
+        "puffed"
+      ],
+      "ipa": "/ˈaʊt əv ˈbrɛθ/"
+    },
+    {
+      "lemma": "in shape",
+      "pos": "phrase",
+      "meaning": "Fit and healthy because you exercise.",
+      "examples": [
+        "She runs every day to stay {in shape}."
+      ],
+      "wrong": [
+        "He is in shape because he never moves from the sofa."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fit"
+      ],
+      "ipa": "/ɪn ˈʃeɪp/",
+      "antonyms": [
+        "out of shape"
+      ]
+    },
+    {
+      "lemma": "lift weights",
+      "pos": "phrase",
+      "meaning": "To raise heavy metal bars or objects to make your muscles stronger.",
+      "examples": [
+        "He {lifts weights} at the gym three times a week."
+      ],
+      "wrong": [
+        "She lifted weights by picking up a feather."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈlɪft ˈweɪts/"
+    },
+    {
+      "lemma": "push-up",
+      "pos": "noun",
+      "meaning": "An exercise where you lie face down and push your body up with your arms.",
+      "examples": [
+        "He did twenty {push-ups} before breakfast."
+      ],
+      "wrong": [
+        "A push-up is an exercise you do while lying on your back and resting."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpʊʃˌʌp/"
+    },
+    {
+      "lemma": "lap",
+      "pos": "noun",
+      "meaning": "One complete trip around a track or along a pool.",
+      "examples": [
+        "She ran four {laps} of the track."
+      ],
+      "wrong": [
+        "One lap is half of the way around the track."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "circuit"
+      ],
+      "ipa": "/læp/"
+    },
+    {
+      "lemma": "finish line",
+      "pos": "noun",
+      "meaning": "The line that marks the end of a race.",
+      "examples": [
+        "He crossed the {finish line} in first place."
+      ],
+      "wrong": [
+        "The runners started the race at the finish line."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "finish"
+      ],
+      "ipa": "/ˈfɪnɪʃ ˌlaɪn/"
+    },
+    {
+      "lemma": "cheer",
+      "pos": "verb",
+      "meaning": "To shout to show support or happiness.",
+      "examples": [
+        "The crowd {cheered} when the team scored."
+      ],
+      "wrong": [
+        "The fans cheered by sitting in total silence."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "shout",
+        "applaud"
+      ],
+      "ipa": "/tʃɪr/"
+    },
+    {
+      "lemma": "substitute",
+      "pos": "noun",
+      "meaning": "A player who comes on during a game to replace another player.",
+      "examples": [
+        "The {substitute} scored two minutes after coming on."
+      ],
+      "wrong": [
+        "The substitute played the full match from the very first minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "replacement",
+        "sub"
+      ],
+      "ipa": "/ˈsʌbstɪˌtut/"
+    }
+  ]
+}

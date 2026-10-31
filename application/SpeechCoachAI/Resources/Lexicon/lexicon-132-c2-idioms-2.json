@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-idioms-2",
+    "title": "More idioms",
+    "level": "C2",
+    "tagline": "Everyday expressions natives use",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "beat around the bush",
+      "pos": "phrase",
+      "meaning": "To avoid saying something directly.",
+      "examples": [
+        "Stop {beating around the bush} and tell me."
+      ],
+      "wrong": [
+        "She beat around the bush by saying it directly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "prevaricate"
+      ],
+      "ipa": "/ˌbit əˌraʊnd ðə ˈbʊʃ/"
+    },
+    {
+      "lemma": "a drop in the ocean",
+      "pos": "phrase",
+      "meaning": "A very small amount compared to what is needed.",
+      "examples": [
+        "The donation is {a drop in the ocean}."
+      ],
+      "wrong": [
+        "A million dollars for one coffee is a drop in the ocean."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə ˈdrɑp ɪn ði ˈoʊʃən/"
+    },
+    {
+      "lemma": "back to square one",
+      "pos": "phrase",
+      "meaning": "Back to the beginning after a failed attempt.",
+      "examples": [
+        "The plan failed, so we’re {back to square one}."
+      ],
+      "wrong": [
+        "We finished it perfectly, so we’re back to square one."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "back to the drawing board"
+      ],
+      "ipa": "/ˌbæk tə ˌskwɛr ˈwʌn/"
+    },
+    {
+      "lemma": "bite off more than you can chew",
+      "pos": "phrase",
+      "meaning": "To take on more than you can manage.",
+      "examples": [
+        "I {bit off more than I could chew} with three jobs."
+      ],
+      "wrong": [
+        "He bit off more than he could chew, so the work was easy."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "overcommit"
+      ],
+      "ipa": "/ˌbaɪt ˈɔf ˈmɔr ðən ju kən ˈtʃu/"
+    },
+    {
+      "lemma": "burn the midnight oil",
+      "pos": "phrase",
+      "meaning": "To work or study late at night.",
+      "examples": [
+        "She {burned the midnight oil} before the exam."
+      ],
+      "wrong": [
+        "I burned the midnight oil, so I went to bed at eight."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "stay up late"
+      ],
+      "ipa": "/ˌbɝn ðə ˈmɪdˌnaɪt ˈɔɪl/"
+    },
+    {
+      "lemma": "by the skin of your teeth",
+      "pos": "phrase",
+      "meaning": "Only just; by a very small margin.",
+      "examples": [
+        "He passed {by the skin of his teeth}."
+      ],
+      "wrong": [
+        "She won by the skin of her teeth, by a huge margin."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "narrowly",
+        "barely"
+      ],
+      "ipa": "/baɪ ðə ˈskɪn əv jɚ ˈtiθ/"
+    },
+    {
+      "lemma": "cost an arm and a leg",
+      "pos": "phrase",
+      "meaning": "To be very expensive.",
+      "examples": [
+        "That car must {cost an arm and a leg}."
+      ],
+      "wrong": [
+        "The coffee cost an arm and a leg: just one cent."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌkɔst ən ˈɑrm ənd ə ˈlɛɡ/"
+    },
+    {
+      "lemma": "cry over spilt milk",
+      "pos": "phrase",
+      "meaning": "To be upset about something that can’t be changed.",
+      "examples": [
+        "It’s done; don’t {cry over spilt milk}."
+      ],
+      "wrong": [
+        "The vase is broken; let’s cry over spilt milk and glue it back so it looks new."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌkraɪ ˈoʊvɚ ˌspɪlt ˈmɪlk/"
+    },
+    {
+      "lemma": "get cold feet",
+      "pos": "phrase",
+      "meaning": "To become nervous and decide not to do something.",
+      "examples": [
+        "He {got cold feet} before the wedding."
+      ],
+      "wrong": [
+        "She got cold feet, so she went ahead happily."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "lose your nerve"
+      ],
+      "ipa": "/ˌɡɛt ˌkoʊld ˈfit/"
+    },
+    {
+      "lemma": "get the ball rolling",
+      "pos": "phrase",
+      "meaning": "To start an activity.",
+      "examples": [
+        "Let’s {get the ball rolling} with introductions."
+      ],
+      "wrong": [
+        "We got the ball rolling by ending the meeting."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "kick off"
+      ],
+      "ipa": "/ˌɡɛt ðə ˈbɔl ˈroʊlɪŋ/"
+    },
+    {
+      "lemma": "go the extra mile",
+      "pos": "phrase",
+      "meaning": "To make more effort than is expected.",
+      "examples": [
+        "She always {goes the extra mile} for customers."
+      ],
+      "wrong": [
+        "He went the extra mile by doing as little as possible."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌɡoʊ ði ˈɛkstrə ˈmaɪl/"
+    },
+    {
+      "lemma": "hit the nail on the head",
+      "pos": "phrase",
+      "meaning": "To describe something exactly right.",
+      "examples": [
+        "You {hit the nail on the head} with that point."
+      ],
+      "wrong": [
+        "She hit the nail on the head, so her answer was wrong."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "be spot on"
+      ],
+      "ipa": "/ˌhɪt ðə ˈneɪl ɑn ðə ˈhɛd/"
+    },
+    {
+      "lemma": "in hot water",
+      "pos": "phrase",
+      "meaning": "In trouble.",
+      "examples": [
+        "He’s {in hot water} for missing the deadline."
+      ],
+      "wrong": [
+        "She’s in hot water, so her boss is very pleased."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "in trouble"
+      ],
+      "ipa": "/ɪn ˌhɑt ˈwɔtɚ/"
+    },
+    {
+      "lemma": "jump on the bandwagon",
+      "pos": "phrase",
+      "meaning": "To join something because it is popular.",
+      "examples": [
+        "Many firms {jumped on the bandwagon} of AI."
+      ],
+      "wrong": [
+        "He jumped on the bandwagon by doing what nobody else did."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "follow the crowd"
+      ],
+      "ipa": "/ˌdʒʌmp ɑn ðə ˈbændˌwæɡən/"
+    },
+    {
+      "lemma": "let sleeping dogs lie",
+      "pos": "phrase",
+      "meaning": "To avoid talking about an old problem.",
+      "examples": [
+        "I decided to {let sleeping dogs lie}."
+      ],
+      "wrong": [
+        "I let sleeping dogs lie by bringing up the old fight again."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "leave well alone"
+      ],
+      "ipa": "/ˌlɛt ˈslipɪŋ ˈdɔɡz ˈlaɪ/"
+    },
+    {
+      "lemma": "miss the boat",
+      "pos": "phrase",
+      "meaning": "To lose a chance by being too slow.",
+      "examples": [
+        "If you don’t apply now, you’ll {miss the boat}."
+      ],
+      "wrong": [
+        "I missed the boat, so I got the chance I wanted."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌmɪs ðə ˈboʊt/"
+    },
+    {
+      "lemma": "on thin ice",
+      "pos": "phrase",
+      "meaning": "In a risky situation.",
+      "examples": [
+        "After two warnings, he’s {on thin ice}."
+      ],
+      "wrong": [
+        "He’s on thin ice, so his job is perfectly safe."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɑn ˌθɪn ˈaɪs/"
+    },
+    {
+      "lemma": "play devil’s advocate",
+      "pos": "phrase",
+      "meaning": "To argue the opposite view to test an idea.",
+      "examples": [
+        "Let me {play devil’s advocate} for a minute."
+      ],
+      "wrong": [
+        "She played devil’s advocate by agreeing with everyone in the room."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "argue the other side"
+      ],
+      "ipa": "/ˌpleɪ ˈdɛvəlz ˈædvəkət/"
+    },
+    {
+      "lemma": "pull your weight",
+      "pos": "phrase",
+      "meaning": "To do your fair share of work.",
+      "examples": [
+        "Everyone must {pull their weight}."
+      ],
+      "wrong": [
+        "He pulled his weight by letting others do his work."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌpʊl jɚ ˈweɪt/"
+    },
+    {
+      "lemma": "read between the lines",
+      "pos": "phrase",
+      "meaning": "To understand a hidden meaning.",
+      "examples": [
+        "If you {read between the lines}, he’s unhappy."
+      ],
+      "wrong": [
+        "I read between the lines, so I only understood the exact words."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌrid bɪˈtwin ðə ˈlaɪnz/"
+    },
+    {
+      "lemma": "see eye to eye",
+      "pos": "phrase",
+      "meaning": "To agree with someone.",
+      "examples": [
+        "We don’t always {see eye to eye}."
+      ],
+      "wrong": [
+        "We see eye to eye, so we disagree on everything."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "agree"
+      ],
+      "ipa": "/ˌsi ˈaɪ tə ˈaɪ/"
+    },
+    {
+      "lemma": "sit on the fence",
+      "pos": "phrase",
+      "meaning": "To avoid choosing a side.",
+      "examples": [
+        "Stop {sitting on the fence} and decide."
+      ],
+      "wrong": [
+        "She sat on the fence by choosing a side clearly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "be noncommittal"
+      ],
+      "ipa": "/ˌsɪt ɑn ðə ˈfɛns/"
+    },
+    {
+      "lemma": "steal someone’s thunder",
+      "pos": "phrase",
+      "meaning": "To take attention or praise from someone else.",
+      "examples": [
+        "His announcement {stole her thunder}."
+      ],
+      "wrong": [
+        "He stole her thunder by praising her success in front of everyone."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "upstage"
+      ],
+      "ipa": "/ˌstil ˈsʌmˌwʌnz ˈθʌndɚ/"
+    },
+    {
+      "lemma": "with a pinch of salt",
+      "pos": "phrase",
+      "meaning": "With doubt; not believing something completely.",
+      "examples": [
+        "Take his stories {with a pinch of salt}."
+      ],
+      "wrong": [
+        "I took the news with a pinch of salt, so I believed every word."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "skeptically"
+      ],
+      "ipa": "/wɪð ə ˈpɪntʃ əv ˈsɔlt/"
+    },
+    {
+      "lemma": "the ball is in your court",
+      "pos": "phrase",
+      "meaning": "It is your turn to decide or act.",
+      "examples": [
+        "I’ve made my offer; {the ball is in your court}."
+      ],
+      "wrong": [
+        "The ball is in your court, so I have to decide what we do next."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈbɔl ɪz ɪn jɚ ˈkɔrt/"
+    },
+    {
+      "lemma": "throw in the towel",
+      "pos": "phrase",
+      "meaning": "To give up.",
+      "examples": [
+        "After ten defeats, he {threw in the towel}."
+      ],
+      "wrong": [
+        "She threw in the towel and kept going for years."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "give up",
+        "quit"
+      ],
+      "ipa": "/ˌθroʊ ɪn ðə ˈtaʊəl/"
+    },
+    {
+      "lemma": "turn a blind eye",
+      "pos": "phrase",
+      "meaning": "To pretend not to notice something wrong.",
+      "examples": [
+        "The manager {turned a blind eye} to the late arrivals."
+      ],
+      "wrong": [
+        "He turned a blind eye by reporting every case."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "ignore"
+      ],
+      "ipa": "/ˌtɝn ə ˌblaɪnd ˈaɪ/"
+    },
+    {
+      "lemma": "when pigs fly",
+      "pos": "phrase",
+      "meaning": "Never; used to say something will not happen.",
+      "examples": [
+        "He’ll apologize {when pigs fly}."
+      ],
+      "wrong": [
+        "He’ll arrive when pigs fly, probably at six o’clock tonight."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/wɛn ˈpɪɡz ˈflaɪ/"
+    },
+    {
+      "lemma": "add insult to injury",
+      "pos": "phrase",
+      "meaning": "To make a bad situation worse.",
+      "examples": [
+        "To {add insult to injury}, it started to rain."
+      ],
+      "wrong": [
+        "To add insult to injury, the sun came out and the day got better."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "make matters worse"
+      ],
+      "ipa": "/ˌæd ˈɪnˌsʌlt tə ˈɪndʒəri/"
+    },
+    {
+      "lemma": "the best of both worlds",
+      "pos": "phrase",
+      "meaning": "The advantages of two different things at once.",
+      "examples": [
+        "Working from home gives me {the best of both worlds}."
+      ],
+      "wrong": [
+        "The job is boring and badly paid; it’s the best of both worlds."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈbɛst əv ˈboʊθ ˈwɝldz/"
+    },
+    {
+      "lemma": "call the shots",
+      "pos": "phrase",
+      "meaning": "To be the person who makes decisions.",
+      "examples": [
+        "In this office, she {calls the shots}."
+      ],
+      "wrong": [
+        "He calls the shots, so he never decides anything."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "be in charge"
+      ],
+      "ipa": "/ˌkɔl ðə ˈʃɑts/"
+    },
+    {
+      "lemma": "cut to the chase",
+      "pos": "phrase",
+      "meaning": "To get to the main point without wasting time.",
+      "examples": [
+        "Let’s {cut to the chase}: how much?"
+      ],
+      "wrong": [
+        "He cut to the chase by talking about the weather for an hour."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "get to the point"
+      ],
+      "ipa": "/ˌkʌt tə ðə ˈtʃeɪs/"
+    },
+    {
+      "lemma": "the elephant in the room",
+      "pos": "phrase",
+      "meaning": "An obvious problem that nobody talks about.",
+      "examples": [
+        "Money was {the elephant in the room}."
+      ],
+      "wrong": [
+        "The elephant in the room was the topic everyone discussed openly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ði ˈɛləfənt ɪn ðə ˈrum/"
+    },
+    {
+      "lemma": "face the music",
+      "pos": "phrase",
+      "meaning": "To accept punishment for what you did.",
+      "examples": [
+        "He finally had to {face the music}."
+      ],
+      "wrong": [
+        "She faced the music by running away."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "take responsibility"
+      ],
+      "ipa": "/ˌfeɪs ðə ˈmjuzɪk/"
+    },
+    {
+      "lemma": "get out of hand",
+      "pos": "phrase",
+      "meaning": "To become impossible to control.",
+      "examples": [
+        "The party {got out of hand}."
+      ],
+      "wrong": [
+        "Things got out of hand, so everything stayed calm."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "spiral out of control"
+      ],
+      "ipa": "/ˌɡɛt ˌaʊt əv ˈhænd/"
+    },
+    {
+      "lemma": "hit the ground running",
+      "pos": "phrase",
+      "meaning": "To start something with energy and speed.",
+      "examples": [
+        "The new manager {hit the ground running}."
+      ],
+      "wrong": [
+        "She hit the ground running by waiting a month to start."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌhɪt ðə ˈɡraʊnd ˈrʌnɪŋ/"
+    },
+    {
+      "lemma": "learn the ropes",
+      "pos": "phrase",
+      "meaning": "To learn how to do a job.",
+      "examples": [
+        "It took a month to {learn the ropes}."
+      ],
+      "wrong": [
+        "After twenty years in the job, she was still learning the ropes on her first day."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "find your feet"
+      ],
+      "ipa": "/ˌlɝn ðə ˈroʊps/"
+    },
+    {
+      "lemma": "move the goalposts",
+      "pos": "phrase",
+      "meaning": "To change the rules unfairly.",
+      "examples": [
+        "Just as we finished, they {moved the goalposts}."
+      ],
+      "wrong": [
+        "They moved the goalposts by keeping every rule exactly the same."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "change the rules"
+      ],
+      "ipa": "/ˌmuv ðə ˈɡoʊlˌpoʊsts/"
+    },
+    {
+      "lemma": "nip it in the bud",
+      "pos": "phrase",
+      "meaning": "To stop a problem early.",
+      "examples": [
+        "If you see bullying, {nip it in the bud}."
+      ],
+      "wrong": [
+        "We nipped it in the bud by letting it grow for years."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "stop early"
+      ],
+      "ipa": "/ˌnɪp ɪt ɪn ðə ˈbʌd/"
+    },
+    {
+      "lemma": "back to the drawing board",
+      "pos": "phrase",
+      "meaning": "Time to start planning again after failure.",
+      "examples": [
+        "The test failed, so it’s {back to the drawing board}."
+      ],
+      "wrong": [
+        "The plan worked perfectly, so it’s back to the drawing board."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "back to square one"
+      ],
+      "ipa": "/ˌbæk tə ðə ˈdrɔɪŋ ˌbɔrd/"
+    },
+    {
+      "lemma": "think outside the box",
+      "pos": "phrase",
+      "meaning": "To think in a new and creative way.",
+      "examples": [
+        "We need to {think outside the box}."
+      ],
+      "wrong": [
+        "He thought outside the box by copying the usual plan exactly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "be creative"
+      ],
+      "ipa": "/ˌθɪŋk ˌaʊtˈsaɪd ðə ˈbɑks/"
+    },
+    {
+      "lemma": "a piece of cake",
+      "pos": "phrase",
+      "meaning": "Something very easy.",
+      "examples": [
+        "The exam was {a piece of cake}."
+      ],
+      "wrong": [
+        "The test was a piece of cake, so nobody passed."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "a breeze"
+      ],
+      "ipa": "/ə ˌpis əv ˈkeɪk/"
+    },
+    {
+      "lemma": "under the radar",
+      "pos": "phrase",
+      "meaning": "Without being noticed.",
+      "examples": [
+        "The deal went {under the radar}."
+      ],
+      "wrong": [
+        "The scandal went under the radar, on every front page."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "unnoticed"
+      ],
+      "ipa": "/ˌʌndɚ ðə ˈreɪdɑr/"
+    },
+    {
+      "lemma": "the tip of the iceberg",
+      "pos": "phrase",
+      "meaning": "A small visible part of a much bigger problem.",
+      "examples": [
+        "These complaints are just {the tip of the iceberg}."
+      ],
+      "wrong": [
+        "These five complaints are the tip of the iceberg; there are no others."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈtɪp əv ði ˈaɪsˌbɝɡ/"
+    },
+    {
+      "lemma": "break new ground",
+      "pos": "phrase",
+      "meaning": "To do something that has not been done before.",
+      "examples": [
+        "The study {broke new ground} in medicine."
+      ],
+      "wrong": [
+        "The study broke new ground by repeating an old experiment exactly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "innovate",
+        "pioneer"
+      ],
+      "ipa": "/ˌbreɪk ˌnu ˈɡraʊnd/"
+    }
+  ]
+}

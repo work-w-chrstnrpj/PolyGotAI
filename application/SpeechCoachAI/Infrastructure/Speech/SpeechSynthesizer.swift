@@ -57,10 +57,12 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
         utteranceID = nil
         if synthesizer.isSpeaking { synthesizer.stopSpeaking(at: .immediate) }
         isSpeaking = false
+        SoundCenter.shared.release("speech")
     }
 
     /// Plays through the speaker even with the silent switch on, unless a recording session is already active.
     private func prepareAudioSession() {
+        SoundCenter.shared.hold("speech")
         let session = AVAudioSession.sharedInstance()
         if session.category == .playAndRecord { return }
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
@@ -80,6 +82,7 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
     private func finish(_ id: ObjectIdentifier) {
         guard utteranceID == id else { return }; utteranceID = nil
         isSpeaking = false
+        SoundCenter.shared.release("speech")
         onFinish?()
     }
 }

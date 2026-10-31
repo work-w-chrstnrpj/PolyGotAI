@@ -1,0 +1,736 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-law-ethics",
+    "title": "Law and ethics",
+    "level": "C1",
+    "tagline": "Rights, duties and right and wrong",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "loophole",
+      "pos": "noun",
+      "meaning": "A small gap in a law that lets people avoid it legally.",
+      "examples": [
+        "The company used a tax {loophole} to pay less."
+      ],
+      "wrong": [
+        "A loophole is a rule that closes every gap in a law."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "gap",
+        "technicality"
+      ],
+      "ipa": "/ˈlupˌhoʊl/"
+    },
+    {
+      "lemma": "decriminalize",
+      "pos": "verb",
+      "meaning": "To change the law so that something is no longer a crime.",
+      "examples": [
+        "Some countries have {decriminalized} jaywalking."
+      ],
+      "wrong": [
+        "They decriminalized the act by making it a serious crime."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "legalize"
+      ],
+      "ipa": "/diˈkrɪmənəˌlaɪz/",
+      "antonyms": [
+        "criminalize"
+      ]
+    },
+    {
+      "lemma": "civil liberties",
+      "pos": "phrase",
+      "meaning": "Basic freedoms, such as free speech, that the state must protect.",
+      "examples": [
+        "Critics say the new spy law threatens {civil liberties}."
+      ],
+      "wrong": [
+        "Civil liberties are rules that let the state silence anyone it likes."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "civil rights",
+        "freedoms"
+      ],
+      "ipa": "/ˈsɪvəl ˈlɪbɚtiz/"
+    },
+    {
+      "lemma": "plea",
+      "pos": "noun",
+      "meaning": "A statement in court saying whether you are guilty or not.",
+      "examples": [
+        "She entered a {plea} of not guilty."
+      ],
+      "wrong": [
+        "The plea was the judge’s final sentence."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/pli/"
+    },
+    {
+      "lemma": "alleged",
+      "pos": "adjective",
+      "meaning": "Said to be true or to have happened, but not yet proved.",
+      "examples": [
+        "The {alleged} thief has not been charged yet."
+      ],
+      "wrong": [
+        "The alleged crime was proved beyond all doubt in court."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "supposed",
+        "claimed"
+      ],
+      "ipa": "/əˈlɛdʒd/",
+      "antonyms": [
+        "proven",
+        "confirmed"
+      ]
+    },
+    {
+      "lemma": "burden of proof",
+      "pos": "phrase",
+      "meaning": "The duty to show that a claim is true, especially in court.",
+      "examples": [
+        "In a criminal trial, the {burden of proof} lies with the state."
+      ],
+      "wrong": [
+        "The burden of proof means the accused must prove nothing ever happened."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "onus"
+      ],
+      "ipa": "/ˈbɝdən əv ˈpruf/"
+    },
+    {
+      "lemma": "due process",
+      "pos": "phrase",
+      "meaning": "The fair legal steps the state must follow before punishing anyone.",
+      "examples": [
+        "Everyone has the right to {due process} under the law."
+      ],
+      "wrong": [
+        "Due process allows the police to punish people without a trial."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈdu ˈprɑsɛs/"
+    },
+    {
+      "lemma": "rule of law",
+      "pos": "phrase",
+      "meaning": "The idea that everyone, including leaders, must obey the same laws.",
+      "examples": [
+        "Democracy depends on the {rule of law}."
+      ],
+      "wrong": [
+        "The rule of law means leaders can ignore any law they dislike."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈrul əv ˈlɔ/"
+    },
+    {
+      "lemma": "moral dilemma",
+      "pos": "phrase",
+      "meaning": "A hard choice between two options that both seem right or wrong.",
+      "examples": [
+        "Lying to protect a friend is a classic {moral dilemma}."
+      ],
+      "wrong": [
+        "It was a moral dilemma because the right choice was totally obvious."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmɔrəl dɪˈlɛmə/"
+    },
+    {
+      "lemma": "unethical",
+      "pos": "adjective",
+      "meaning": "Not morally acceptable, especially in work or business.",
+      "examples": [
+        "Testing on people without telling them is {unethical}."
+      ],
+      "wrong": [
+        "Her unethical behavior earned her a prize for honesty."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "immoral",
+        "dishonest"
+      ],
+      "ipa": "/ʌnˈɛθɪkəl/",
+      "antonyms": [
+        "ethical",
+        "moral"
+      ]
+    },
+    {
+      "lemma": "conscience",
+      "pos": "noun",
+      "meaning": "The inner sense that tells you whether what you do is right or wrong.",
+      "examples": [
+        "His {conscience} would not let him keep the money."
+      ],
+      "wrong": [
+        "With a clear conscience, he felt terribly guilty."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "moral sense"
+      ],
+      "ipa": "/ˈkɑnʃəns/"
+    },
+    {
+      "lemma": "bribery",
+      "pos": "noun",
+      "meaning": "The crime of giving money or gifts to make someone act dishonestly.",
+      "examples": [
+        "The official was jailed for {bribery}."
+      ],
+      "wrong": [
+        "Bribery is paying your taxes on time."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "corruption"
+      ],
+      "ipa": "/ˈbraɪbəri/"
+    },
+    {
+      "lemma": "accomplice",
+      "pos": "noun",
+      "meaning": "A person who helps someone else commit a crime.",
+      "examples": [
+        "The robber’s {accomplice} waited in the car."
+      ],
+      "wrong": [
+        "His accomplice tried to stop the robbery and called the police."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "partner in crime"
+      ],
+      "ipa": "/əˈkɑmplɪs/"
+    },
+    {
+      "lemma": "whistleblower",
+      "pos": "noun",
+      "meaning": "A person who reveals wrongdoing inside an organization.",
+      "examples": [
+        "A {whistleblower} told reporters about the hidden safety reports."
+      ],
+      "wrong": [
+        "The whistleblower helped the firm keep its crimes secret."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "informant"
+      ],
+      "ipa": "/ˈwɪsəlˌbloʊɚ/"
+    },
+    {
+      "lemma": "confidentiality",
+      "pos": "noun",
+      "meaning": "The duty to keep private information secret.",
+      "examples": [
+        "Doctors must respect patient {confidentiality}."
+      ],
+      "wrong": [
+        "Confidentiality means sharing private details with everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "privacy",
+        "secrecy"
+      ],
+      "ipa": "/ˌkɑnfɪˌdɛnʃiˈæləti/"
+    },
+    {
+      "lemma": "consent",
+      "pos": "noun",
+      "meaning": "Permission to do something, freely given.",
+      "examples": [
+        "You cannot use her photo without her {consent}."
+      ],
+      "wrong": [
+        "He gave his consent by clearly refusing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "permission",
+        "agreement"
+      ],
+      "ipa": "/kənˈsɛnt/"
+    },
+    {
+      "lemma": "moral compass",
+      "pos": "phrase",
+      "meaning": "A person’s inner sense of what is right and wrong, used to guide choices.",
+      "examples": [
+        "Her strong {moral compass} kept her honest under pressure."
+      ],
+      "wrong": [
+        "With no moral compass, he always knew the right thing to do."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conscience",
+        "principles"
+      ],
+      "ipa": "/ˈmɔrəl ˈkʌmpəs/"
+    },
+    {
+      "lemma": "legislate",
+      "pos": "verb",
+      "meaning": "To make new laws.",
+      "examples": [
+        "Parliament plans to {legislate} against online scams."
+      ],
+      "wrong": [
+        "The judge legislated by applying an old law to one case."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "make laws",
+        "enact laws"
+      ],
+      "ipa": "/ˈlɛdʒɪˌsleɪt/"
+    },
+    {
+      "lemma": "uphold",
+      "pos": "verb",
+      "meaning": "To support or keep a law, decision or principle.",
+      "examples": [
+        "The court {upheld} the original ruling."
+      ],
+      "wrong": [
+        "Judges uphold the law by ignoring it completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "maintain",
+        "support"
+      ],
+      "ipa": "/ʌpˈhoʊld/",
+      "antonyms": [
+        "overturn",
+        "reverse"
+      ]
+    },
+    {
+      "lemma": "infringe",
+      "pos": "verb",
+      "meaning": "To break a law or limit someone’s rights.",
+      "examples": [
+        "The new rule may {infringe} on free speech."
+      ],
+      "wrong": [
+        "The law infringes on our rights by protecting them fully."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "violate",
+        "breach"
+      ],
+      "ipa": "/ɪnˈfrɪndʒ/"
+    },
+    {
+      "lemma": "violate",
+      "pos": "verb",
+      "meaning": "To break a law, rule or agreement.",
+      "examples": [
+        "The company {violated} safety rules."
+      ],
+      "wrong": [
+        "He violated the contract by doing exactly what it said."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "break",
+        "breach"
+      ],
+      "ipa": "/ˈvaɪəˌleɪt/"
+    },
+    {
+      "lemma": "justifiable",
+      "pos": "adjective",
+      "meaning": "Having a good reason, so it can be accepted as right.",
+      "examples": [
+        "Self-defense can be a {justifiable} reason for using force."
+      ],
+      "wrong": [
+        "His justifiable anger had no reason behind it at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "defensible",
+        "reasonable",
+        "warranted"
+      ],
+      "ipa": "/ˈdʒʌstəˌfaɪəbəl/",
+      "antonyms": [
+        "unjustifiable"
+      ]
+    },
+    {
+      "lemma": "lawful",
+      "pos": "adjective",
+      "meaning": "Allowed by the law.",
+      "examples": [
+        "Peaceful protest is {lawful} in most countries."
+      ],
+      "wrong": [
+        "Stealing a car is a lawful activity."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "legal",
+        "legitimate"
+      ],
+      "ipa": "/ˈlɔfəl/",
+      "antonyms": [
+        "unlawful",
+        "illegal"
+      ]
+    },
+    {
+      "lemma": "illicit",
+      "pos": "adjective",
+      "meaning": "Not allowed by law or by accepted rules.",
+      "examples": [
+        "Police found {illicit} drugs in the van."
+      ],
+      "wrong": [
+        "The illicit trade was fully approved by the government."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "illegal",
+        "unlawful"
+      ],
+      "ipa": "/ɪˈlɪsɪt/",
+      "antonyms": [
+        "legal",
+        "lawful"
+      ]
+    },
+    {
+      "lemma": "prosecution",
+      "pos": "noun",
+      "meaning": "The lawyers who try to prove in court that someone is guilty.",
+      "examples": [
+        "The {prosecution} called its first witness."
+      ],
+      "wrong": [
+        "The prosecution argued that the accused was innocent."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌprɑsəˈkjuʃən/",
+      "antonyms": [
+        "defense"
+      ]
+    },
+    {
+      "lemma": "law enforcement",
+      "pos": "noun",
+      "meaning": "The police and other groups whose job is to make people obey laws.",
+      "examples": [
+        "Local {law enforcement} closed the road after the crash."
+      ],
+      "wrong": [
+        "Law enforcement is the group that helps criminals escape."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "police"
+      ],
+      "ipa": "/ˈlɔ ɪnˌfɔrsmənt/"
+    },
+    {
+      "lemma": "litigation",
+      "pos": "noun",
+      "meaning": "The process of taking a dispute to court.",
+      "examples": [
+        "The two firms are locked in costly {litigation}."
+      ],
+      "wrong": [
+        "They avoided litigation by suing each other in court."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "legal action",
+        "lawsuit"
+      ],
+      "ipa": "/ˌlɪtəˈɡeɪʃən/"
+    },
+    {
+      "lemma": "inadmissible",
+      "pos": "adjective",
+      "meaning": "Not allowed to be used as evidence in court.",
+      "examples": [
+        "The recording was ruled {inadmissible} by the judge."
+      ],
+      "wrong": [
+        "The inadmissible evidence was the main proof shown to the jury."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unacceptable"
+      ],
+      "ipa": "/ˌɪnədˈmɪsəbəl/",
+      "antonyms": [
+        "admissible"
+      ]
+    },
+    {
+      "lemma": "perjury",
+      "pos": "noun",
+      "meaning": "The crime of lying in court after promising to tell the truth.",
+      "examples": [
+        "The witness was charged with {perjury}."
+      ],
+      "wrong": [
+        "Perjury is telling the full truth in court."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lying under oath"
+      ],
+      "ipa": "/ˈpɝdʒəri/"
+    },
+    {
+      "lemma": "slander",
+      "pos": "noun",
+      "meaning": "A false spoken statement that harms someone’s reputation.",
+      "examples": [
+        "He sued his neighbor for {slander}."
+      ],
+      "wrong": [
+        "Her slander praised him and told only the truth."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "defamation"
+      ],
+      "ipa": "/ˈslændɚ/"
+    },
+    {
+      "lemma": "entitlement",
+      "pos": "noun",
+      "meaning": "A right to have or receive something.",
+      "examples": [
+        "Paid leave is a legal {entitlement} for workers."
+      ],
+      "wrong": [
+        "An entitlement is something you have no right to."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "right",
+        "claim"
+      ],
+      "ipa": "/ɪnˈtaɪtəlmənt/"
+    },
+    {
+      "lemma": "scruples",
+      "pos": "noun",
+      "meaning": "Moral beliefs that stop you from doing something wrong.",
+      "examples": [
+        "A man with no {scruples} will lie to anyone."
+      ],
+      "wrong": [
+        "Her scruples made her happy to cheat her friends."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "principles",
+        "morals"
+      ],
+      "ipa": "/ˈskrupəlz/"
+    },
+    {
+      "lemma": "virtue",
+      "pos": "noun",
+      "meaning": "A good moral quality in a person.",
+      "examples": [
+        "Patience is a {virtue}."
+      ],
+      "wrong": [
+        "Cruelty is one of her finest virtues."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "merit",
+        "goodness"
+      ],
+      "ipa": "/ˈvɝtʃu/",
+      "antonyms": [
+        "vice"
+      ]
+    },
+    {
+      "lemma": "hypocrisy",
+      "pos": "noun",
+      "meaning": "Saying you have beliefs that you do not follow yourself.",
+      "examples": [
+        "It’s {hypocrisy} to preach saving water and fill a pool every day."
+      ],
+      "wrong": [
+        "His hypocrisy showed in how closely he followed his own advice."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "double standards",
+        "insincerity"
+      ],
+      "ipa": "/hɪˈpɑkrəsi/"
+    },
+    {
+      "lemma": "double standard",
+      "pos": "phrase",
+      "meaning": "A rule applied unfairly, more strictly to some people than to others.",
+      "examples": [
+        "Punishing girls but not boys for the same thing is a {double standard}."
+      ],
+      "wrong": [
+        "A double standard means everyone is judged by exactly the same rule."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈdʌbəl ˈstændɚd/"
+    },
+    {
+      "lemma": "the greater good",
+      "pos": "phrase",
+      "meaning": "The benefit of most people, even if a few lose out.",
+      "examples": [
+        "She gave up her bonus for {the greater good} of the team."
+      ],
+      "wrong": [
+        "He acted for the greater good by helping only himself."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "common good"
+      ],
+      "ipa": "/ðə ˈɡreɪtɚ ˈɡʊd/"
+    },
+    {
+      "lemma": "above the law",
+      "pos": "phrase",
+      "meaning": "Not having to obey the laws that apply to everyone else.",
+      "examples": [
+        "No one, not even a president, is {above the law}."
+      ],
+      "wrong": [
+        "He thinks he is above the law, so he obeys every rule carefully."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/əˈbʌv ðə ˈlɔ/"
+    },
+    {
+      "lemma": "culpable",
+      "pos": "adjective",
+      "meaning": "Responsible for something wrong and deserving blame.",
+      "examples": [
+        "The court found the driver {culpable} for the crash."
+      ],
+      "wrong": [
+        "She was culpable, so she was not to blame at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "guilty",
+        "blameworthy"
+      ],
+      "ipa": "/ˈkʌlpəbəl/",
+      "antonyms": [
+        "innocent",
+        "blameless"
+      ]
+    },
+    {
+      "lemma": "misconduct",
+      "pos": "noun",
+      "meaning": "Bad or dishonest behavior by someone in a position of trust.",
+      "examples": [
+        "The officer was fired for serious {misconduct}."
+      ],
+      "wrong": [
+        "He got a promotion for his professional misconduct."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "wrongdoing",
+        "malpractice"
+      ],
+      "ipa": "/mɪsˈkɑndʌkt/"
+    },
+    {
+      "lemma": "malpractice",
+      "pos": "noun",
+      "meaning": "Careless or wrong work by a professional, such as a doctor or lawyer.",
+      "examples": [
+        "The surgeon was sued for {malpractice} after the failed operation."
+      ],
+      "wrong": [
+        "Malpractice is the careful, correct work of a skilled professional."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "negligence",
+        "misconduct"
+      ],
+      "ipa": "/mælˈpræktɪs/"
+    }
+  ]
+}

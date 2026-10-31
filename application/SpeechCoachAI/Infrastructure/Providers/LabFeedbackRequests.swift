@@ -53,6 +53,12 @@ extension LabFeedbackRequest {
         LabFeedbackRequest(mode: .coachReview, transcript: clip(answer, maximumScalars), task: clip(task, 800), level: level,
                            details: ["coach": clip(coach, 80), "lesson": clip(lessonTitle, 120), "objective": clip(objective, 300)])
     }
+
+    /// Phase 15: what the learner wrote in an impromptu writing test, sent when they finish or when time runs out.
+    static func timedWriting(topic: String, text: String, seconds: Int, level: String? = nil) -> LabFeedbackRequest {
+        LabFeedbackRequest(mode: .writing, transcript: clip(text, maximumScalars), task: clip(topic, 400), level: level,
+                           details: ["time": "\(seconds / 60) minutes", "words": String(SpeechLabDictationChecker.tokens(text, strict: false).count)])
+    }
 }
 
 /// A short, neutral summary of the saved results of one mode. It counts practice and repeats tips; it never scores.

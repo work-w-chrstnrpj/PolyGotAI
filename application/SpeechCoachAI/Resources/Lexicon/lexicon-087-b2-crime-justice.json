@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-crime-justice",
+    "title": "Crime and justice",
+    "level": "B2",
+    "tagline": "Courts, offences and punishment",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "courtroom",
+      "pos": "noun",
+      "meaning": "The room where a legal trial takes place.",
+      "examples": [
+        "The {courtroom} was silent as the judge spoke."
+      ],
+      "wrong": [
+        "A courtroom is a place where people play tennis."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈkɔrtˌrum/"
+    },
+    {
+      "lemma": "eyewitness",
+      "pos": "noun",
+      "meaning": "A person who saw a crime or accident happen.",
+      "examples": [
+        "An {eyewitness} saw the driver run the red light."
+      ],
+      "wrong": [
+        "The eyewitness was asleep at home and saw nothing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "witness",
+        "observer"
+      ],
+      "ipa": "/ˈaɪˌwɪtnɪs/"
+    },
+    {
+      "lemma": "hostage",
+      "pos": "noun",
+      "meaning": "A person held prisoner by criminals until their demands are met.",
+      "examples": [
+        "The robbers held three bank workers {hostage}."
+      ],
+      "wrong": [
+        "The hostage was free to leave the building whenever he liked."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "captive"
+      ],
+      "ipa": "/ˈhɑstɪdʒ/"
+    },
+    {
+      "lemma": "conviction",
+      "pos": "noun",
+      "meaning": "An official decision by a court that someone is guilty.",
+      "examples": [
+        "He has two previous {convictions} for driving offenses."
+      ],
+      "wrong": [
+        "His conviction showed that the court believed he was innocent."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kənˈvɪkʃən/",
+      "antonyms": [
+        "acquittal"
+      ]
+    },
+    {
+      "lemma": "offense",
+      "pos": "noun",
+      "meaning": "A crime or an illegal act.",
+      "examples": [
+        "Driving without a license is a serious {offense}."
+      ],
+      "wrong": [
+        "Helping an old lady cross the road is an offense."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "crime"
+      ],
+      "ipa": "/əˈfɛns/"
+    },
+    {
+      "lemma": "offender",
+      "pos": "noun",
+      "meaning": "A person who has committed a crime.",
+      "examples": [
+        "Young {offenders} are often given community work."
+      ],
+      "wrong": [
+        "An offender is a person who has never broken the law."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "criminal",
+        "lawbreaker"
+      ],
+      "ipa": "/əˈfɛndɚ/"
+    },
+    {
+      "lemma": "ransom",
+      "pos": "noun",
+      "meaning": "Money that criminals demand before they will free someone they have taken.",
+      "examples": [
+        "The kidnappers asked for a {ransom} of a million dollars."
+      ],
+      "wrong": [
+        "A ransom is a reward the police give to good citizens."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈrænsəm/"
+    },
+    {
+      "lemma": "testify",
+      "pos": "verb",
+      "meaning": "To make a formal statement about what you know in a court.",
+      "examples": [
+        "Two neighbors agreed to {testify} at the trial."
+      ],
+      "wrong": [
+        "She testified by staying silent and refusing to speak."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "give evidence"
+      ],
+      "ipa": "/ˈtɛstəˌfaɪ/"
+    },
+    {
+      "lemma": "prosecutor",
+      "pos": "noun",
+      "meaning": "A lawyer who tries to prove in court that someone is guilty.",
+      "examples": [
+        "The {prosecutor} showed the jury the video."
+      ],
+      "wrong": [
+        "The prosecutor tried hard to prove that the man was innocent."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈprɑsəˌkjutɚ/"
+    },
+    {
+      "lemma": "arson",
+      "pos": "noun",
+      "meaning": "The crime of setting fire to property on purpose.",
+      "examples": [
+        "The fire at the warehouse was caused by {arson}."
+      ],
+      "wrong": [
+        "The fire was arson, so it started by accident from lightning."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɑrsən/"
+    },
+    {
+      "lemma": "mugging",
+      "pos": "noun",
+      "meaning": "An attack on someone in a public place in order to steal from them.",
+      "examples": [
+        "There has been a rise in {muggings} near the station."
+      ],
+      "wrong": [
+        "The mugging was a friendly chat between two strangers in the park."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "robbery"
+      ],
+      "ipa": "/ˈmʌɡɪŋ/"
+    },
+    {
+      "lemma": "fraud",
+      "pos": "noun",
+      "meaning": "The crime of tricking people to get money.",
+      "examples": [
+        "He was jailed for credit card {fraud}."
+      ],
+      "wrong": [
+        "The fraud was an honest deal that cheated no one."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deception",
+        "scam"
+      ],
+      "ipa": "/frɔd/"
+    },
+    {
+      "lemma": "bribe",
+      "pos": "noun",
+      "meaning": "Money or a gift given to someone to persuade them to act dishonestly.",
+      "examples": [
+        "The official was caught taking a {bribe}."
+      ],
+      "wrong": [
+        "A bribe is the honest salary a worker gets each month."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "payoff",
+        "kickback"
+      ],
+      "ipa": "/braɪb/"
+    },
+    {
+      "lemma": "smuggle",
+      "pos": "verb",
+      "meaning": "To take goods or people secretly and illegally into or out of a country.",
+      "examples": [
+        "They tried to {smuggle} cigarettes across the border."
+      ],
+      "wrong": [
+        "They smuggled the goods by declaring them openly at customs."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsmʌɡəl/"
+    },
+    {
+      "lemma": "kidnap",
+      "pos": "verb",
+      "meaning": "To take someone away by force and keep them as a prisoner.",
+      "examples": [
+        "The gang {kidnapped} the businessman and asked for money."
+      ],
+      "wrong": [
+        "They kidnapped the child by taking her home safely to her parents."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "abduct"
+      ],
+      "ipa": "/ˈkɪdˌnæp/"
+    },
+    {
+      "lemma": "assault",
+      "pos": "noun",
+      "meaning": "A violent physical attack on someone.",
+      "examples": [
+        "He was arrested for {assault} after the fight."
+      ],
+      "wrong": [
+        "The assault was a friendly hug between two old friends."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "attack"
+      ],
+      "ipa": "/əˈsɔlt/"
+    },
+    {
+      "lemma": "death penalty",
+      "pos": "noun",
+      "meaning": "Punishment by being killed by the state for a serious crime.",
+      "examples": [
+        "Many countries have ended the {death penalty}."
+      ],
+      "wrong": [
+        "The death penalty is a small fine for parking in the wrong place."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "capital punishment"
+      ],
+      "ipa": "/ˈdɛθ ˌpɛnəlti/"
+    },
+    {
+      "lemma": "penalty",
+      "pos": "noun",
+      "meaning": "A punishment for breaking a law or rule.",
+      "examples": [
+        "The {penalty} for littering is a $200 fine."
+      ],
+      "wrong": [
+        "The penalty for breaking the rule was a free holiday."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "punishment",
+        "sanction"
+      ],
+      "ipa": "/ˈpɛnəlti/"
+    },
+    {
+      "lemma": "community service",
+      "pos": "noun",
+      "meaning": "Unpaid work that an offender is ordered to do instead of going to prison.",
+      "examples": [
+        "He was given 100 hours of {community service}."
+      ],
+      "wrong": [
+        "Community service is a well-paid job you apply for."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəˈmjunəti ˈsɝvɪs/"
+    },
+    {
+      "lemma": "parole",
+      "pos": "noun",
+      "meaning": "Permission for a prisoner to leave prison early if they behave well.",
+      "examples": [
+        "She was released on {parole} after three years."
+      ],
+      "wrong": [
+        "On parole, he had to stay in his prison cell every day."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/pəˈroʊl/"
+    },
+    {
+      "lemma": "probation",
+      "pos": "noun",
+      "meaning": "A period when an offender lives normally but is watched by an officer instead of going to prison.",
+      "examples": [
+        "He got two years’ {probation} for the theft."
+      ],
+      "wrong": [
+        "During probation, nobody checks what he does."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "ipa": "/proʊˈbeɪʃən/"
+    },
+    {
+      "lemma": "investigation",
+      "pos": "noun",
+      "meaning": "A careful official search for the facts about a crime.",
+      "examples": [
+        "The police have started an {investigation} into the fire."
+      ],
+      "wrong": [
+        "The investigation began when the police stopped looking at the case."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "inquiry",
+        "probe"
+      ],
+      "ipa": "/ɪnˌvɛstəˈɡeɪʃən/"
+    },
+    {
+      "lemma": "self-defense",
+      "pos": "noun",
+      "meaning": "The use of force to protect yourself from attack.",
+      "examples": [
+        "He said he hit the man in {self-defense}."
+      ],
+      "wrong": [
+        "She acted in self-defense by attacking a stranger who did nothing to her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌsɛlf dɪˈfɛns/"
+    },
+    {
+      "lemma": "forensic",
+      "pos": "adjective",
+      "meaning": "Using science to help solve crimes.",
+      "examples": [
+        "{Forensic} experts examined the blood on the shirt."
+      ],
+      "wrong": [
+        "The forensic team solved the case without any science at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/fəˈrɛnsɪk/"
+    },
+    {
+      "lemma": "forgery",
+      "pos": "noun",
+      "meaning": "The crime of making a copy of a document or signature to trick people.",
+      "examples": [
+        "The painting turned out to be a {forgery}."
+      ],
+      "wrong": [
+        "The forgery was the original letter written by the author herself."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fake",
+        "counterfeit"
+      ],
+      "ipa": "/ˈfɔrdʒəri/"
+    },
+    {
+      "lemma": "alibi",
+      "pos": "noun",
+      "meaning": "Proof that you were somewhere else when a crime happened.",
+      "examples": [
+        "His {alibi} was that he was at the cinema all evening."
+      ],
+      "wrong": [
+        "Her alibi proved she was at the scene of the crime."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈæləˌbaɪ/"
+    },
+    {
+      "lemma": "law-abiding",
+      "pos": "adjective",
+      "meaning": "Always obeying the law.",
+      "examples": [
+        "Most people are {law-abiding} citizens."
+      ],
+      "wrong": [
+        "He’s very law-abiding and steals from shops every week."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "honest"
+      ],
+      "ipa": "/ˈlɔ əˌbaɪdɪŋ/",
+      "antonyms": [
+        "lawless"
+      ]
+    },
+    {
+      "lemma": "crack down on",
+      "pos": "verb",
+      "meaning": "To start dealing with a crime or problem much more strictly.",
+      "examples": [
+        "The city is {cracking down on} illegal parking."
+      ],
+      "wrong": [
+        "The police cracked down on speeding by ignoring all fast drivers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clamp down on"
+      ],
+      "ipa": "/ˈkræk ˈdaʊn ɑn/"
+    },
+    {
+      "lemma": "blackmail",
+      "pos": "noun",
+      "meaning": "Demanding money from someone by threatening to tell their secrets.",
+      "examples": [
+        "He paid the money because of {blackmail}."
+      ],
+      "wrong": [
+        "Blackmail is a kind and generous gift to a friend."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "extortion"
+      ],
+      "ipa": "/ˈblækˌmeɪl/"
+    },
+    {
+      "lemma": "plead guilty",
+      "pos": "phrase",
+      "meaning": "To say officially in court that you did the crime.",
+      "examples": [
+        "He {pleaded guilty} to driving too fast."
+      ],
+      "wrong": [
+        "She pleaded guilty by telling the court she had done nothing wrong."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "admit"
+      ],
+      "ipa": "/ˈplid ˈɡɪlti/"
+    },
+    {
+      "lemma": "deterrent",
+      "pos": "noun",
+      "meaning": "Something that makes people decide not to do something.",
+      "examples": [
+        "Cameras act as a {deterrent} to thieves."
+      ],
+      "wrong": [
+        "The high fines are a deterrent, so more people break the rule."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "disincentive"
+      ],
+      "ipa": "/dɪˈtɝənt/"
+    },
+    {
+      "lemma": "reoffend",
+      "pos": "verb",
+      "meaning": "To commit a crime again after being punished.",
+      "examples": [
+        "Programs that teach skills help prisoners not to {reoffend}."
+      ],
+      "wrong": [
+        "He reoffended by never breaking the law again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌriəˈfɛnd/"
+    },
+    {
+      "lemma": "life sentence",
+      "pos": "noun",
+      "meaning": "A punishment of spending the rest of your life, or a very long time, in prison.",
+      "examples": [
+        "The murderer received a {life sentence}."
+      ],
+      "wrong": [
+        "A life sentence is a two-day stay in prison."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈlaɪf ˈsɛntəns/"
+    },
+    {
+      "lemma": "custody",
+      "pos": "noun",
+      "meaning": "The state of being kept by the police until a trial.",
+      "examples": [
+        "The suspect is being held in {custody}."
+      ],
+      "wrong": [
+        "He was in custody, so he was free to go wherever he liked."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "detention"
+      ],
+      "ipa": "/ˈkʌstədi/"
+    },
+    {
+      "lemma": "criminal record",
+      "pos": "noun",
+      "meaning": "An official list of the crimes a person has committed.",
+      "examples": [
+        "Applicants with a {criminal record} cannot work at the school."
+      ],
+      "wrong": [
+        "He has a criminal record, so he has never broken the law."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "record"
+      ],
+      "ipa": "/ˈkrɪmənəl ˈrɛkɚd/"
+    },
+    {
+      "lemma": "warrant",
+      "pos": "noun",
+      "meaning": "An official paper from a judge that allows the police to do something, such as arrest someone.",
+      "examples": [
+        "The police had a {warrant} to search the house."
+      ],
+      "wrong": [
+        "A warrant is a letter that stops the police from doing anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈwɔrənt/"
+    },
+    {
+      "lemma": "inmate",
+      "pos": "noun",
+      "meaning": "A person kept in a prison.",
+      "examples": [
+        "The prison holds about five hundred {inmates}."
+      ],
+      "wrong": [
+        "An inmate is a guard who goes home every night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "prisoner",
+        "convict"
+      ],
+      "ipa": "/ˈɪnˌmeɪt/"
+    },
+    {
+      "lemma": "behind bars",
+      "pos": "phrase",
+      "meaning": "In prison.",
+      "examples": [
+        "The robber will spend the next ten years {behind bars}."
+      ],
+      "wrong": [
+        "He’s behind bars, so he’s free to travel the world."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "in prison",
+        "locked up"
+      ],
+      "ipa": "/bɪˈhaɪnd ˈbɑrz/"
+    },
+    {
+      "lemma": "white-collar crime",
+      "pos": "noun",
+      "meaning": "Crime such as fraud done by people in offices or business jobs.",
+      "examples": [
+        "Stealing from the company accounts is a {white-collar crime}."
+      ],
+      "wrong": [
+        "A white-collar crime is a violent street fight between gangs."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌwaɪt ˈkɑlɚ ˈkraɪm/"
+    },
+    {
+      "lemma": "handcuffs",
+      "pos": "noun",
+      "meaning": "Two metal rings joined by a chain, put on a prisoner’s wrists.",
+      "examples": [
+        "The officer put {handcuffs} on the suspect."
+      ],
+      "wrong": [
+        "The police put handcuffs on his wrists so he could move his hands freely."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cuffs"
+      ],
+      "ipa": "/ˈhændˌkʌfs/"
+    }
+  ]
+}

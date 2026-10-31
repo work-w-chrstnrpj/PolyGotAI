@@ -26,6 +26,16 @@ struct AppShell: View {
     @State private var recordingPresentation: RecordingPresentation?
     @State private var practiceContext: PracticeSessionContext?
 
+    /// Applies music, sound effect and haptic choices (on by default since 2026-10-30; off in UI tests with fixtures).
+    private func configureSound() {
+        guard let repository = storage.repository else { return }
+        #if DEBUG
+        if SpeakingEnvironment.fixtureID != nil { return }
+        #endif
+        try? repository.applySoundDefaultsOnce()
+        if let ledger = try? repository.rewardLedger() { SoundCenter.shared.configure(ledger.settings) }
+    }
+
     var body: some View {
         ZStack {
             // Sheets stay on this unchanging anchor. Attaching them to the
@@ -58,7 +68,14 @@ struct AppShell: View {
         }
         // Every sheet and cover below inherits the theme, including the recording sheet on the anchor.
         .environment(\.kitTheme, KitTheme(storage.preferences.background))
-        .onChange(of: rewardScene) { _, phase in storage.rewardEngagement.setActive(phase == .active) }
+        .modifier(CelebrationOverlay(storage: storage, install: CurriculumCatalogLoader.bundled))
+        .onChange(of: rewardScene) { _, phase in
+            storage.rewardEngagement.setActive(phase == .active)
+            SoundCenter.shared.setAppActive(phase == .active)
+        }
+        .onAppear(perform: configureSound)
+        .onChange(of: storage.repository != nil) { _, _ in configureSound() }
+        .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in configureSound() }
     }
 
     /// iPhone: the system tab bar. iPad: one bottom bar in portrait and a sidebar in landscape. Both iPad chromes
@@ -149,21 +166,18 @@ struct AppShell: View {
     private func navigationContent(_ item: AppDestination) -> some View {
         NavigationStack {
             Group {
-                if item == .speechLab {
-                    SpeechLabContent(storage: storage, context: $practiceContext)
-                } else {
                     ScrollView {
                         VStack(alignment: .leading, spacing: 16) {
                             if storage.hasStorageFailure {
                                 AvailabilityCard(title: "Local data unavailable", detail: "Unlock your device and try again. Your existing data has been kept.", symbol: "exclamationmark.triangle")
                                     .accessibilityIdentifier("storage.unavailable")
-                                Button("Try Again") { storage.open() }.buttonStyle(.borderedProminent)
+                                Button("Try Again") { storage.open() }.buttonStyle(KitPrimaryButtonStyle())
                             }
                             switch item {
                             case .today: TodayView(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
                             case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
                             case .vocabulary: LexiconHome(storage: storage)
-                            case .speechLab: EmptyView()
+                            case .speechLab: SpeechLabContent(storage: storage, context: $practiceContext)
                             case .progress:
                                 ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
                             }
@@ -172,7 +186,6 @@ struct AppShell: View {
                         .padding(20)
                         .frame(maxWidth: .infinity)
                     }
-                }
             }
             .background(Kit.canvas(storage.preferences.background))
             .foregroundStyle(Kit.ink)
@@ -225,6 +238,7 @@ struct SpeechLabContent: View {
     var storage: LearnerStorageController
     @Binding var context: PracticeSessionContext?
     @State private var feedbackAvailable = false
+    @State private var watchedCount = 0
     private var talkClient: (any TalkStreaming)? {
         #if DEBUG
         if TalkFixtureClient.enabled { return TalkFixtureClient() }
@@ -232,36 +246,36 @@ struct SpeechLabContent: View {
         return TalkStreamingClient.local()
     }
     var body: some View {
-        List {
-            Section {
-                if let client = talkClient {
-                    NavigationLink { TalkView(storage: storage, client: client) } label: {
-                        Label("Talk", systemImage: "bubble.left.and.bubble.right")
-                    }.accessibilityIdentifier("speech.talk")
-                }
-                NavigationLink { SpeechLabPronunciationView(storage: storage) } label: {
-                    Label("Pronunciation", systemImage: "character.phonetic")
-                }.accessibilityIdentifier("speech.pronunciation")
-                NavigationLink { SpeechLabVoiceView(storage: storage) } label: {
-                    Label("Speaking", systemImage: "waveform.path")
-                }.accessibilityIdentifier("speech.speaking")
-                NavigationLink { SpellingView(storage: storage) } label: {
-                    Label("Spelling", systemImage: "textformat.abc")
-                }.accessibilityIdentifier("speech.spelling")
-            } header: { Text("Practice") }
-            Section {
-                NavigationLink { VoiceSettingsView(storage: storage) } label: {
-                    Label("Voice", systemImage: "speaker.wave.2")
-                }.accessibilityIdentifier("speech.voice")
-                if feedbackAvailable {
-                    NavigationLink("Feedback history") { LabFeedbackHistoryView(storage: storage) }.accessibilityIdentifier("speech.feedbackHistory")
-                }
-            }
-        }.listStyle(.insetGrouped).scrollContentBackground(.hidden)
-            .background(Kit.canvas(storage.preferences.background))
+        Text("Talk, test and watch.").foregroundStyle(Kit.secondary).lineLimit(1).minimumScaleFactor(0.7)
+        SectionHeader(title: "Practice")
+        AISetupLink(isReady: { talkClient != nil }) {
+            if let client = talkClient { TalkView(storage: storage, client: client) }
+        } label: {
+            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Talk", detail: "Speak with an AI partner", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.talk")
+        NavigationLink { LabTimedTestsView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "timer", title: "Timed tests", detail: "Writing, reading and analogies", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.timedTests")
+        SectionHeader(title: "Watch")
+        NavigationLink { LabVideosView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "play.rectangle", title: "Videos", detail: videosDetail, showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.videos")
+        SectionHeader(title: "Settings")
+        NavigationLink { VoiceSettingsView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "speaker.wave.2", title: "Voice", detail: "How the app reads aloud", showsChevron: true) }
+        }.buttonStyle(.plain).accessibilityIdentifier("speech.voice")
+        if feedbackAvailable {
+            NavigationLink { LabFeedbackHistoryView(storage: storage) } label: {
+                KitCard { KitContentRow(symbol: "clock.arrow.circlepath", title: "Feedback history", detail: "Your past AI feedback", showsChevron: true) }
+            }.buttonStyle(.plain).accessibilityIdentifier("speech.feedbackHistory")
+        }
+        Color.clear.frame(height: 0)
             .onAppear {
                 feedbackAvailable = ((try? storage.repository?.labFeedbackHistory()) ?? []).isEmpty == false
+                watchedCount = LabVideoCatalog.watchedCount((try? storage.repository?.labExtras().watched) ?? [:])
                 SpeechSynthesizer.shared.settings = storage.preferences.voiceSettings ?? VoiceSettings()
             }
     }
+
+    private var videosDetail: String { "\(watchedCount) of \(LabVideoCatalog.all.count) watched" }
 }

@@ -16,7 +16,7 @@ final class Phase9LabTests: XCTestCase {
         let tab = app.tabBars.buttons["Lab"]
         if tab.waitForExistence(timeout: 5) { tab.tap() }
         else { app.buttons["navigation.speechLab"].firstMatch.tap() }
-        XCTAssertTrue(app.buttons["speech.spelling"].waitForExistence(timeout: 8))
+        XCTAssertTrue(app.buttons["speech.talk"].waitForExistence(timeout: 8))
     }
     @MainActor private func tap(_ app: XCUIApplication, _ element: XCUIElement) {
         for _ in 0..<8 {
@@ -32,24 +32,14 @@ final class Phase9LabTests: XCTestCase {
         try? FileManager.default.createDirectory(at: folder, withIntermediateDirectories: true)
         try? screenshot.pngRepresentation.write(to: folder.appendingPathComponent(name + ".png"))
     }
-    @MainActor func testOfflineLabHidesTalkAndSpellingPersists() {
+    /// Phase 12: without a key, Talk still shows and opens the key setup. Speaking and Spelling left the Lab on 2026-10-30.
+    @MainActor func testOfflineLabTalkOpensSetup() {
         let app = launch(online: false)
-        XCTAssertFalse(app.buttons["speech.talk"].exists)
-        XCTAssertFalse(app.buttons["speech.dictation"].exists)
-        XCTAssertFalse(app.buttons["speech.interview"].exists)
+        tap(app, app.buttons["speech.talk"])
+        tap(app, app.buttons["ai.setup.done"])
+        XCTAssertFalse(app.buttons["speech.speaking"].exists)
+        XCTAssertFalse(app.buttons["speech.spelling"].exists)
         capture("lab-offline-light")
-        tap(app, app.buttons["speech.spelling"])
-        tap(app, app.buttons["spelling.start"])
-        let answer = app.textFields["spelling.answer"]
-        XCTAssertTrue(answer.waitForExistence(timeout: 5)); answer.tap(); answer.typeText("zzzz")
-        tap(app, app.buttons["spelling.check"])
-        XCTAssertTrue(app.staticTexts["spelling.result"].waitForExistence(timeout: 5))
-        capture("spelling-correction-light")
-        tap(app, app.buttons["spelling.next"])
-        XCTAssertTrue(answer.waitForExistence(timeout: 5))
-        app.terminate(); app.launch(); openLab(app)
-        tap(app, app.buttons["speech.spelling"])
-        XCTAssertTrue(app.staticTexts["speechlab.last"].waitForExistence(timeout: 5))
     }
     @MainActor func testTalkModesStopClearAndVoice() {
         let app = launch()
@@ -89,11 +79,11 @@ final class Phase9LabTests: XCTestCase {
     @MainActor func testLargestTextAndRotation() {
         let app = launch(large: true)
         capture("lab-largest-text")
-        tap(app, app.buttons["speech.spelling"])
-        XCTAssertTrue(app.buttons["spelling.start"].waitForExistence(timeout: 5))
+        tap(app, app.buttons["speech.timedTests"])
+        XCTAssertTrue(app.buttons["timed.writing"].waitForExistence(timeout: 5))
         XCUIDevice.shared.orientation = .landscapeLeft
-        XCTAssertTrue(app.buttons["spelling.start"].exists)
-        capture("spelling-largest-landscape")
+        XCTAssertTrue(app.buttons["timed.writing"].exists)
+        capture("timed-largest-landscape")
         XCUIDevice.shared.orientation = .portrait
         app.navigationBars.buttons.firstMatch.tap()
         tap(app, app.buttons["speech.talk"])
@@ -121,9 +111,9 @@ final class Phase9LabTests: XCTestCase {
         app.navigationBars.buttons.firstMatch.tap()
         tap(app, app.buttons["speech.voice"]); capture("voice-dark")
         app.navigationBars.buttons.firstMatch.tap()
-        tap(app, app.buttons["speech.spelling"]); capture("spelling-dark")
+        tap(app, app.buttons["speech.videos"]); capture("videos-dark")
         XCUIDevice.shared.orientation = .landscapeLeft
-        capture("spelling-landscape")
+        capture("videos-landscape")
         XCUIDevice.shared.orientation = .portrait
     }
 }

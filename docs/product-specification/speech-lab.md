@@ -81,15 +81,24 @@ Anywhere the learner types an answer or note (lesson answers, fill-in-the-blank,
 
 ## Lab v3 (Phases 9 and 10, 2026-10-26)
 
-The tab is now called **Lab**. Its list has four entries, **Talk, Pronunciation, Speaking and Spelling**, followed by Voice and Feedback history.
+The tab is now called **Lab**. Since 2026-10-30 (owner play-test) it shows **Talk** and **Timed tests** under Practice, **Videos** under Watch, and **Voice** (plus Feedback history once there is some) under Settings, as Kit cards like the other tabs. Speaking and Spelling were removed on the owner's request; their screens are gone, while the Speech Lab data and content files stay for the Pronunciation coach. Pronunciation moved to the Lesson tab as a coach (see below).
 
 - **Talk** (Phase 9, Codex). Speech is recognised on the phone (SpeechAnalyzer on iOS 26+, SFSpeechRecognizer on-device before that). The final text goes to Qwen (`qwen-flash`, streamed). Each finished sentence is spoken with the chosen system voice. There are three modes: Free talk, Interview and Scenario. A Stop button cancels both speech and the request. Turns are hands-free after a pause, or push-to-talk. Talk is kept in memory only, unless you save its feedback. It is hidden until the provider key and verification are set up. Talk replaces Conversation, Communication and the scripted Interview.
-- **Spelling** (Phase 9) replaces sentence Dictation. The app says the word, its meaning and an example; you type the word, and a miss is spelled back. Rounds are 10 words from the Lexicon bank, filtered by rank.
+- **Spelling** (Phase 9, removed 2026-10-30) replaced sentence Dictation. The app says the word, its meaning and an example; you type the word, and a miss is spelled back. Rounds are 10 words from the Lexicon bank, filtered by rank.
 - **Voice** (Phase 9). Choose an installed English voice (Premium voices first), preview it and set the rate. All app speech uses this voice.
-- **Pronunciation is speak-first** (Phase 10, Claude):
-  - Each sound runs Hear → **Say** a minimal-pair word → verdict. There are 89 pairs in `speechlab-minimal-pairs.json`.
-  - The recogniser is told only the two words of the pair. The verdicts are: Clear (it heard the target), "That sounded like *ship*" (it heard the contrast, with a fix tip), or "We heard …".
-  - Stress and intonation items draw your pitch line (YIN, computed on the phone) next to the model voice's line, which is rendered with `AVSpeechSynthesizer.write`. Intonation items say whether your voice rose or fell at the end, compared with what the sentence needs.
-  - The old listening questions remain as optional **Ear training**. Clear speech also records first.
-  - No phoneme scores or percentages. "Clear" means "understood as the target word".
+- **Pronunciation moved to the Lesson tab** (Phase 12, 2026-10-26). The owner asked the Lab to stop imitating ELSA, so the pitch graph, YIN pitch tracking and intonation judging were removed, and the Phase 10 sound screens were replaced by the **Pronunciation coach** ([coach-tracks.md](coach-tracks.md)). Its "Say it" exercises keep the speak-first idea: the phone recognises the word on the device and checks that it heard the target as whole words; there is no text field. No phoneme scores or percentages. The minimal-pair list (`speechlab-minimal-pairs.json`, 89 pairs) is the source for the coach's pairs.
+
+## Videos and Timed tests (Phase 15, 2026-10-26)
+
+The Lab list adds **Timed tests** under Practice and a **Watch** group with **Videos**.
+
+- **Videos** (expanded 2026-10-30). 131 videos from about 45 channels in 14 topics: Pronunciation, Grammar, Vocabulary, Listening, Speaking, Voice, Conversation, Confidence, Public speaking, Storytelling, Persuasion, Debate and reasoning, Writing, Work and interviews. The screen shows topic chips and the watched count. Tapping a video opens it in the YouTube app (or the browser); when the learner comes back to the app it counts as **Watched**. The circle can undo or set that by hand. **Channels** are a preference, not a limit: the learner marks favorite channels, and their videos sort first in every topic, then unwatched before watched. Links only, nothing embedded or copied. Every ID and channel was checked with YouTube's oEmbed endpoint; titles are shortened for display. Run `python3 tools/curriculum/check_lab_videos.py` before you add or change one. The list lives in `Domain/LabVideos.swift`; watched videos and favorite channels are stored in `LabExtrasState` (`favoriteChannels` is optional, so older stores decode unchanged).
+- **Timed tests.** There are three tests, and the AI (`qwen-flash`, the learner's key) writes each one:
+  - **Impromptu writing**: a new topic and 5 minutes. The text is sent for AI feedback when you tap Send now or when time runs out. Feedback never gives a score, and it is saved in Feedback history as "Timed writing". With nothing written, nothing is sent.
+  - **Timed reading**: a 150–260 word passage and 5 multiple-choice questions in 6 minutes. Answers are checked on the phone ("3 of 5 correct").
+  - **Analogies**: 10 items ("hot is to cold as tall is to …") in 4 minutes, checked on the phone.
+- **No repeats.** The app keeps short hashes of every past topic, passage and analogy. A reply that repeats one is rejected (an analogy that repeats is just dropped; at least 8 new ones must remain). Each test uses a random theme from 30 everyday themes, avoiding the recent ones.
+- **Strict replies.** The exact keys, counts, lengths and answer indexes are checked. Options are shuffled on the phone, so the right answer can be in any position. A bad reply is asked for again **once**, with a new seed. Network and key errors are not retried.
+- **Consent and setup.** The cost and privacy line shows under Start, and tapping Start counts as consent for the test and for the auto-sent writing. Without a key, Start opens the provider setup (the Phase 12 rule).
+- The clock runs from dates, so it keeps counting in the background; a test that ran out while the app was away finishes when you come back.
 

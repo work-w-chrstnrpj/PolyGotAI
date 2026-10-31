@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-shopping",
+    "title": "Shopping",
+    "level": "A1",
+    "tagline": "Buying things",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "shop",
+      "pos": "verb",
+      "meaning": "To go to stores and buy things.",
+      "examples": [
+        "We {shop} at the market on Saturday."
+      ],
+      "wrong": [
+        "I shop at the store by selling my things."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃɑp/"
+    },
+    {
+      "lemma": "go shopping",
+      "pos": "phrase",
+      "meaning": "To go to stores to buy things.",
+      "examples": [
+        "Let’s {go shopping} for new shoes."
+      ],
+      "wrong": [
+        "I go shopping when I want to stay at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ ˈʃɑpɪŋ/"
+    },
+    {
+      "lemma": "dollar",
+      "pos": "noun",
+      "meaning": "Money used in the US and some other countries. It has 100 cents.",
+      "examples": [
+        "This pen costs one {dollar}."
+      ],
+      "wrong": [
+        "A dollar is a kind of fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdɑlɚ/"
+    },
+    {
+      "lemma": "cent",
+      "pos": "noun",
+      "meaning": "A very small coin. There are 100 in a dollar.",
+      "examples": [
+        "The candy costs fifty {cents}."
+      ],
+      "wrong": [
+        "One cent is more money than ten dollars."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɛnt/"
+    },
+    {
+      "lemma": "how much",
+      "pos": "phrase",
+      "meaning": "Words you use to ask the price of something.",
+      "examples": [
+        "{How much} is this T-shirt?"
+      ],
+      "wrong": [
+        "How much is the color of your hair?"
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhaʊ ˈmʌtʃ/"
+    },
+    {
+      "lemma": "shopping list",
+      "pos": "noun",
+      "meaning": "A list of things you need to buy.",
+      "examples": [
+        "Milk and eggs are on my {shopping list}."
+      ],
+      "wrong": [
+        "I wrote a song on my shopping list and sang it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʃɑpɪŋ ˌlɪst/"
+    },
+    {
+      "lemma": "shopping bag",
+      "pos": "noun",
+      "meaning": "A bag you carry the things you buy in.",
+      "examples": [
+        "Put the apples in the {shopping bag}."
+      ],
+      "wrong": [
+        "I wear my shopping bag on my head as a hat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʃɑpɪŋ ˌbæɡ/"
+    },
+    {
+      "lemma": "shopping cart",
+      "pos": "noun",
+      "meaning": "A big metal basket on wheels that you push in a store.",
+      "examples": [
+        "Push the {shopping cart} to the checkout."
+      ],
+      "wrong": [
+        "I fly the shopping cart over the store."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "trolley"
+      ],
+      "ipa": "/ˈʃɑpɪŋ ˌkɑrt/"
+    },
+    {
+      "lemma": "half price",
+      "pos": "phrase",
+      "meaning": "Costing half of the normal money.",
+      "examples": [
+        "These shoes are {half price} today."
+      ],
+      "wrong": [
+        "It is half price, so it costs two times more."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhæf ˈpraɪs/"
+    },
+    {
+      "lemma": "plastic bag",
+      "pos": "noun",
+      "meaning": "A thin bag you get in a store to carry what you buy.",
+      "examples": [
+        "Do you need a {plastic bag}?"
+      ],
+      "wrong": [
+        "I put my soup in a plastic bag and drink it with a straw."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "carrier bag"
+      ],
+      "ipa": "/ˈplæstɪk ˌbæɡ/"
+    },
+    {
+      "lemma": "pair",
+      "pos": "noun",
+      "meaning": "Two things of the same kind that you use together.",
+      "examples": [
+        "I bought a new {pair} of socks."
+      ],
+      "wrong": [
+        "A pair of shoes is just one shoe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɛr/"
+    },
+    {
+      "lemma": "kilo",
+      "pos": "noun",
+      "meaning": "A weight of one thousand grams.",
+      "examples": [
+        "A {kilo} of apples, please."
+      ],
+      "wrong": [
+        "A kilo is how long a road is."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "kilogram"
+      ],
+      "ipa": "/ˈkiloʊ/"
+    },
+    {
+      "lemma": "jar",
+      "pos": "noun",
+      "meaning": "A glass pot with a lid for food.",
+      "examples": [
+        "We bought a {jar} of jam."
+      ],
+      "wrong": [
+        "A jar is a soft hat made of wool."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dʒɑr/"
+    },
+    {
+      "lemma": "packet",
+      "pos": "noun",
+      "meaning": "A small paper or plastic bag or box with food in it.",
+      "examples": [
+        "I bought a {packet} of cookies."
+      ],
+      "wrong": [
+        "A packet is a large truck for moving houses."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pack"
+      ],
+      "ipa": "/ˈpækɪt/"
+    },
+    {
+      "lemma": "cash register",
+      "pos": "noun",
+      "meaning": "The machine in a store that keeps the money when you pay.",
+      "examples": [
+        "The woman put my money in the {cash register}."
+      ],
+      "wrong": [
+        "I cook my eggs in the cash register."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "till"
+      ],
+      "ipa": "/ˈkæʃ ˌrɛdʒɪstɚ/"
+    },
+    {
+      "lemma": "clothes",
+      "pos": "noun",
+      "meaning": "Things you wear on your body, like shirts and pants.",
+      "examples": [
+        "I need new {clothes} for school."
+      ],
+      "wrong": [
+        "I eat my clothes for breakfast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kloʊðz/"
+    },
+    {
+      "lemma": "T-shirt",
+      "pos": "noun",
+      "meaning": "A soft shirt with short arms and no buttons.",
+      "examples": [
+        "He wears a white {T-shirt} in summer."
+      ],
+      "wrong": [
+        "I wear my T-shirt on my feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tee"
+      ],
+      "ipa": "/ˈtiˌʃɝt/"
+    },
+    {
+      "lemma": "jeans",
+      "pos": "noun",
+      "meaning": "Strong blue pants made of cotton.",
+      "examples": [
+        "These {jeans} are too long for me."
+      ],
+      "wrong": [
+        "I put my jeans on my head to keep my ears warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dʒinz/"
+    },
+    {
+      "lemma": "excuse me",
+      "pos": "phrase",
+      "meaning": "Polite words to ask someone for help or attention.",
+      "examples": [
+        "{Excuse me}, where is the milk?"
+      ],
+      "wrong": [
+        "Excuse me, I shouted, and pushed the man out of the way."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪkˈskjuz mi/"
+    },
+    {
+      "lemma": "here you are",
+      "pos": "phrase",
+      "meaning": "Words you say when you give something to someone.",
+      "examples": [
+        "{Here you are}, your change is two dollars."
+      ],
+      "wrong": [
+        "Here you are, she said, and kept the money in her hand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "here you go"
+      ],
+      "ipa": "/ˈhɪr ju ˈɑr/"
+    },
+    {
+      "lemma": "I’ll take it",
+      "pos": "phrase",
+      "meaning": "Words you say when you decide to buy something.",
+      "examples": [
+        "This bag is nice. {I’ll take it}."
+      ],
+      "wrong": [
+        "I’ll take it, he said, and walked out without buying it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈaɪl ˈteɪk ɪt/"
+    },
+    {
+      "lemma": "changing room",
+      "pos": "noun",
+      "meaning": "A small room in a store where you try on clothes.",
+      "examples": [
+        "You can try the dress in the {changing room}."
+      ],
+      "wrong": [
+        "We cook dinner in the changing room."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fitting room"
+      ],
+      "ipa": "/ˈtʃeɪndʒɪŋ ˌrum/"
+    },
+    {
+      "lemma": "aisle",
+      "pos": "noun",
+      "meaning": "A long path between shelves in a store.",
+      "examples": [
+        "The rice is in {aisle} three."
+      ],
+      "wrong": [
+        "I swim in the aisle of the store."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/aɪl/"
+    },
+    {
+      "lemma": "seller",
+      "pos": "noun",
+      "meaning": "A person who gives you things for money.",
+      "examples": [
+        "The fruit {seller} has fresh apples."
+      ],
+      "wrong": [
+        "The seller only buys things and never gives anything away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "vendor"
+      ],
+      "ipa": "/ˈsɛlɚ/",
+      "antonyms": [
+        "buyer"
+      ]
+    },
+    {
+      "lemma": "buyer",
+      "pos": "noun",
+      "meaning": "A person who pays money for something.",
+      "examples": [
+        "The {buyer} paid for the bike."
+      ],
+      "wrong": [
+        "The buyer got the money and gave nothing back."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "customer"
+      ],
+      "ipa": "/ˈbaɪɚ/",
+      "antonyms": [
+        "seller"
+      ]
+    },
+    {
+      "lemma": "stall",
+      "pos": "noun",
+      "meaning": "A small table or shop at a market.",
+      "examples": [
+        "She sells flowers at a {stall} in the market."
+      ],
+      "wrong": [
+        "The stall is a big building with twenty floors."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/stɔl/"
+    },
+    {
+      "lemma": "special offer",
+      "pos": "noun",
+      "meaning": "A lower price for a short time.",
+      "examples": [
+        "Buy two, get one free. It’s a {special offer}!"
+      ],
+      "wrong": [
+        "The special offer makes everything cost more."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "deal"
+      ],
+      "ipa": "/ˈspɛʃəl ˈɔfɚ/"
+    },
+    {
+      "lemma": "bank card",
+      "pos": "noun",
+      "meaning": "A small plastic card you use to pay with money from your bank.",
+      "examples": [
+        "Can I pay with my {bank card}?"
+      ],
+      "wrong": [
+        "I open the door of my house with my bank card and a key."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbæŋk ˌkɑrd/"
+    },
+    {
+      "lemma": "carton",
+      "pos": "noun",
+      "meaning": "A box made of thick paper for milk or eggs.",
+      "examples": [
+        "Buy a {carton} of milk, please."
+      ],
+      "wrong": [
+        "The carton is made of heavy stone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkɑrtən/"
+    },
+    {
+      "lemma": "loaf",
+      "pos": "noun",
+      "meaning": "Bread that is made in one big piece.",
+      "examples": [
+        "I bought a {loaf} of bread."
+      ],
+      "wrong": [
+        "A loaf of bread is one small crumb."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/loʊf/"
+    },
+    {
+      "lemma": "too expensive",
+      "pos": "phrase",
+      "meaning": "Costing more money than you want to pay.",
+      "examples": [
+        "I can’t buy it. It’s {too expensive}."
+      ],
+      "wrong": [
+        "It costs one cent, so it is too expensive for me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtu ɪkˈspɛnsɪv/"
+    },
+    {
+      "lemma": "opening hours",
+      "pos": "noun",
+      "meaning": "The times when a store is open.",
+      "examples": [
+        "The {opening hours} are nine to five."
+      ],
+      "wrong": [
+        "The opening hours are the times when the store is closed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈoʊpənɪŋ ˌaʊɚz/"
+    },
+    {
+      "lemma": "for sale",
+      "pos": "phrase",
+      "meaning": "Ready to be bought.",
+      "examples": [
+        "This old bike is {for sale}."
+      ],
+      "wrong": [
+        "The house is for sale, but nobody can buy it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɚ ˈseɪl/"
+    },
+    {
+      "lemma": "online shopping",
+      "pos": "noun",
+      "meaning": "Buying things on the internet.",
+      "examples": [
+        "I do my {online shopping} on my phone."
+      ],
+      "wrong": [
+        "I do my online shopping at the market with no phone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɑnˌlaɪn ˈʃɑpɪŋ/"
+    },
+    {
+      "lemma": "that’s all",
+      "pos": "phrase",
+      "meaning": "Words you say when you do not want anything more.",
+      "examples": [
+        "Two coffees, please. {That’s all}."
+      ],
+      "wrong": [
+        "That’s all, he said, and asked for ten more things."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈðæts ˈɔl/"
+    },
+    {
+      "lemma": "pay by card",
+      "pos": "phrase",
+      "meaning": "To use a plastic bank card, not cash, to buy something.",
+      "examples": [
+        "Can I {pay by card} here?"
+      ],
+      "wrong": [
+        "I pay by card with coins from my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpeɪ baɪ ˈkɑrd/"
+    },
+    {
+      "lemma": "shop window",
+      "pos": "noun",
+      "meaning": "The big glass at the front of a store where things are shown.",
+      "examples": [
+        "I saw a nice dress in the {shop window}."
+      ],
+      "wrong": [
+        "I hid the shop window under my bed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʃɑp ˈwɪndoʊ/"
+    },
+    {
+      "lemma": "groceries",
+      "pos": "noun",
+      "meaning": "Food and things for the home that you buy at a store.",
+      "examples": [
+        "Can you help me carry the {groceries}?"
+      ],
+      "wrong": [
+        "I wear my groceries to the party."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡroʊsəriz/"
+    },
+    {
+      "lemma": "dozen",
+      "pos": "noun",
+      "meaning": "A group of twelve.",
+      "examples": [
+        "I bought a {dozen} eggs."
+      ],
+      "wrong": [
+        "A dozen eggs is three eggs."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdʌzən/"
+    },
+    {
+      "lemma": "item",
+      "pos": "noun",
+      "meaning": "One thing in a list or a group of things.",
+      "examples": [
+        "Each {item} costs one dollar."
+      ],
+      "wrong": [
+        "I bought ten items, so I have only one thing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "thing"
+      ],
+      "ipa": "/ˈaɪtəm/"
+    }
+  ]
+}

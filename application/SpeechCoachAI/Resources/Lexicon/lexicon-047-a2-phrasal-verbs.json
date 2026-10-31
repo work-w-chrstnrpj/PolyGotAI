@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-phrasal-verbs",
+    "title": "First phrasal verbs",
+    "level": "A2",
+    "tagline": "Get up, turn on, look for",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "fall down",
+      "pos": "verb",
+      "meaning": "To drop to the ground.",
+      "examples": [
+        "Be careful on the ice, or you’ll {fall down}."
+      ],
+      "wrong": [
+        "He fell down and stayed standing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fall"
+      ],
+      "ipa": "/ˈfɔl ˈdaʊn/"
+    },
+    {
+      "lemma": "trip over",
+      "pos": "verb",
+      "meaning": "To hit your foot on something and almost fall.",
+      "examples": [
+        "I {tripped over} a shoe on the stairs."
+      ],
+      "wrong": [
+        "She tripped over the air in an empty room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stumble over"
+      ],
+      "ipa": "/ˈtrɪp ˈoʊvɚ/"
+    },
+    {
+      "lemma": "stay in",
+      "pos": "verb",
+      "meaning": "To spend time at home and not go out.",
+      "examples": [
+        "It’s raining, so let’s {stay in} tonight."
+      ],
+      "wrong": [
+        "We stayed in and went to a club all night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stay home"
+      ],
+      "ipa": "/ˈsteɪ ˈɪn/",
+      "antonyms": [
+        "go out"
+      ]
+    },
+    {
+      "lemma": "come in",
+      "pos": "verb",
+      "meaning": "To enter a room or building.",
+      "examples": [
+        "Please {come in} and sit down."
+      ],
+      "wrong": [
+        "She came in and stayed outside the door."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "enter"
+      ],
+      "ipa": "/ˈkʌm ˈɪn/",
+      "antonyms": [
+        "go out"
+      ]
+    },
+    {
+      "lemma": "go back",
+      "pos": "verb",
+      "meaning": "To return to a place where you were before.",
+      "examples": [
+        "I want to {go back} to Paris next year."
+      ],
+      "wrong": [
+        "He went back to a place he had never been."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "return"
+      ],
+      "ipa": "/ˈɡoʊ ˈbæk/"
+    },
+    {
+      "lemma": "go away",
+      "pos": "verb",
+      "meaning": "To leave a place or person.",
+      "examples": [
+        "Please {go away}, I’m busy."
+      ],
+      "wrong": [
+        "He went away and stayed right next to me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "leave"
+      ],
+      "ipa": "/ˈɡoʊ əˈweɪ/"
+    },
+    {
+      "lemma": "fill out",
+      "pos": "verb",
+      "meaning": "To write the needed information on a form.",
+      "examples": [
+        "{Fill out} this form with your name and address."
+      ],
+      "wrong": [
+        "I filled out the form and left every box empty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "complete",
+        "fill in"
+      ],
+      "ipa": "/ˈfɪl ˈaʊt/"
+    },
+    {
+      "lemma": "hurry up",
+      "pos": "verb",
+      "meaning": "To do something more quickly.",
+      "examples": [
+        "{Hurry up}! The train leaves in five minutes."
+      ],
+      "wrong": [
+        "She hurried up and walked very slowly."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rush"
+      ],
+      "ipa": "/ˈhɝi ˈʌp/",
+      "antonyms": [
+        "slow down"
+      ]
+    },
+    {
+      "lemma": "write down",
+      "pos": "verb",
+      "meaning": "To put words or numbers on paper so you remember them.",
+      "examples": [
+        "{Write down} my phone number."
+      ],
+      "wrong": [
+        "I wrote down his name only in my head."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "note down"
+      ],
+      "ipa": "/ˈraɪt ˈdaʊn/"
+    },
+    {
+      "lemma": "run out",
+      "pos": "verb",
+      "meaning": "To have none of something left.",
+      "examples": [
+        "We’ve {run out} of milk."
+      ],
+      "wrong": [
+        "We ran out of bread, so we have lots left."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrʌn ˈaʊt/"
+    },
+    {
+      "lemma": "wait for",
+      "pos": "verb",
+      "meaning": "To stay until someone comes or something happens.",
+      "examples": [
+        "I’ll {wait for} you at the station."
+      ],
+      "wrong": [
+        "She waited for the bus by leaving at once."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈweɪt fɔr/"
+    },
+    {
+      "lemma": "lock up",
+      "pos": "verb",
+      "meaning": "To close all the doors and windows with a key.",
+      "examples": [
+        "Don’t forget to {lock up} before you leave."
+      ],
+      "wrong": [
+        "He locked up the house and left every door open."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈlɑk ˈʌp/",
+      "antonyms": [
+        "unlock"
+      ]
+    },
+    {
+      "lemma": "clean up",
+      "pos": "verb",
+      "meaning": "To make a place clean and in order.",
+      "examples": [
+        "Let’s {clean up} the kitchen after dinner."
+      ],
+      "wrong": [
+        "We cleaned up the room by throwing food on the floor."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tidy up"
+      ],
+      "ipa": "/ˈklin ˈʌp/"
+    },
+    {
+      "lemma": "keep out",
+      "pos": "verb",
+      "meaning": "To not go into a place, or to stop something from going in.",
+      "examples": [
+        "The sign said ’{Keep out}’."
+      ],
+      "wrong": [
+        "Keep out means everyone is welcome to come in."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stay out"
+      ],
+      "ipa": "/ˈkip ˈaʊt/"
+    },
+    {
+      "lemma": "get down",
+      "pos": "verb",
+      "meaning": "To move to a lower place, for example from a chair or tree.",
+      "examples": [
+        "{Get down} from that table right now!"
+      ],
+      "wrong": [
+        "He got down from the tree by climbing higher."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "climb down"
+      ],
+      "ipa": "/ˈɡɛt ˈdaʊn/",
+      "antonyms": [
+        "get up"
+      ]
+    },
+    {
+      "lemma": "move in",
+      "pos": "verb",
+      "meaning": "To start living in a new home.",
+      "examples": [
+        "We {moved in} last week, so there are boxes everywhere."
+      ],
+      "wrong": [
+        "They moved in to the house and never lived there."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmuv ˈɪn/",
+      "antonyms": [
+        "move out"
+      ]
+    },
+    {
+      "lemma": "move out",
+      "pos": "verb",
+      "meaning": "To leave your home and go to live somewhere else.",
+      "examples": [
+        "My sister {moved out} when she was twenty."
+      ],
+      "wrong": [
+        "He moved out but still lives in the same flat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmuv ˈaʊt/",
+      "antonyms": [
+        "move in"
+      ]
+    },
+    {
+      "lemma": "turn around",
+      "pos": "verb",
+      "meaning": "To move so that you face the other way.",
+      "examples": [
+        "{Turn around} and look behind you."
+      ],
+      "wrong": [
+        "She turned around and kept looking the same way."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "turn back"
+      ],
+      "ipa": "/ˈtɝn əˈraʊnd/"
+    },
+    {
+      "lemma": "come along",
+      "pos": "verb",
+      "meaning": "To go somewhere with someone.",
+      "examples": [
+        "We’re going to the park. Do you want to {come along}?"
+      ],
+      "wrong": [
+        "She came along with us by staying at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "join"
+      ],
+      "ipa": "/ˈkʌm əˈlɔŋ/"
+    },
+    {
+      "lemma": "go off",
+      "pos": "verb",
+      "meaning": "When an alarm suddenly starts to ring.",
+      "examples": [
+        "My alarm {went off} at six."
+      ],
+      "wrong": [
+        "The alarm went off, so the house was silent."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "ring",
+        "sound"
+      ],
+      "ipa": "/ˈɡoʊ ˈɔf/"
+    },
+    {
+      "lemma": "put down",
+      "pos": "verb",
+      "meaning": "To place something you are holding on a surface.",
+      "examples": [
+        "{Put down} that heavy bag and rest."
+      ],
+      "wrong": [
+        "He put down the box and kept holding it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "set down"
+      ],
+      "ipa": "/ˈpʊt ˈdaʊn/"
+    },
+    {
+      "lemma": "come over",
+      "pos": "verb",
+      "meaning": "To visit someone at their home.",
+      "examples": [
+        "Why don’t you {come over} for dinner tonight?"
+      ],
+      "wrong": [
+        "She came over to my house but never visited."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "drop in",
+        "visit"
+      ],
+      "ipa": "/ˈkʌm ˈoʊvɚ/"
+    },
+    {
+      "lemma": "go up",
+      "pos": "verb",
+      "meaning": "To become higher or to rise.",
+      "examples": [
+        "Prices {go up} every year."
+      ],
+      "wrong": [
+        "The price went up from ten dollars to five."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rise",
+        "increase"
+      ],
+      "ipa": "/ˈɡoʊ ˈʌp/",
+      "antonyms": [
+        "go down"
+      ]
+    },
+    {
+      "lemma": "go down",
+      "pos": "verb",
+      "meaning": "To become lower or to fall.",
+      "examples": [
+        "The temperature {went down} at night."
+      ],
+      "wrong": [
+        "The number went down from three to nine."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fall",
+        "drop"
+      ],
+      "ipa": "/ˈɡoʊ ˈdaʊn/",
+      "antonyms": [
+        "go up"
+      ]
+    },
+    {
+      "lemma": "step out",
+      "pos": "verb",
+      "meaning": "To leave a place for a short time.",
+      "examples": [
+        "She just {stepped out}, but she’ll be back soon."
+      ],
+      "wrong": [
+        "He stepped out of the office and stayed away for a year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pop out"
+      ],
+      "ipa": "/ˈstɛp ˈaʊt/"
+    },
+    {
+      "lemma": "get lost",
+      "pos": "verb",
+      "meaning": "To not know where you are or how to get somewhere.",
+      "examples": [
+        "We {got lost} in the old part of the city."
+      ],
+      "wrong": [
+        "I got lost, so I knew exactly where I was."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "lose your way"
+      ],
+      "ipa": "/ˈɡɛt ˈlɔst/"
+    },
+    {
+      "lemma": "put back",
+      "pos": "verb",
+      "meaning": "To return something to where it was.",
+      "examples": [
+        "Please {put back} the milk when you are done."
+      ],
+      "wrong": [
+        "I put back the book by taking it to my room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "return",
+        "replace"
+      ],
+      "ipa": "/ˈpʊt ˈbæk/"
+    },
+    {
+      "lemma": "take back",
+      "pos": "verb",
+      "meaning": "To return something to the shop where you bought it.",
+      "examples": [
+        "The shoes were too small, so I had to {take back} the pair."
+      ],
+      "wrong": [
+        "I took back the shirt and kept it at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "return"
+      ],
+      "ipa": "/ˈteɪk ˈbæk/"
+    },
+    {
+      "lemma": "give back",
+      "pos": "verb",
+      "meaning": "To return something to the person who owns it.",
+      "examples": [
+        "Can you {give back} my pen, please?"
+      ],
+      "wrong": [
+        "She gave back the book and never returned it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "return",
+        "hand back"
+      ],
+      "ipa": "/ˈɡɪv ˈbæk/"
+    },
+    {
+      "lemma": "sleep in",
+      "pos": "verb",
+      "meaning": "To sleep later than usual in the morning.",
+      "examples": [
+        "On Sundays I {sleep in} until ten."
+      ],
+      "wrong": [
+        "He slept in and got up at five, earlier than usual."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "lie in"
+      ],
+      "ipa": "/ˈslip ˈɪn/"
+    },
+    {
+      "lemma": "throw out",
+      "pos": "verb",
+      "meaning": "To get rid of something you do not want.",
+      "examples": [
+        "{Throw out} those old newspapers."
+      ],
+      "wrong": [
+        "I threw out the old shoes and put them back in the closet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "throw away",
+        "get rid of"
+      ],
+      "ipa": "/ˈθroʊ ˈaʊt/"
+    },
+    {
+      "lemma": "take out",
+      "pos": "verb",
+      "meaning": "To remove something from a place.",
+      "examples": [
+        "She {took out} her keys from her bag."
+      ],
+      "wrong": [
+        "He took out the money and left it in his wallet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "remove"
+      ],
+      "ipa": "/ˈteɪk ˈaʊt/"
+    },
+    {
+      "lemma": "bring back",
+      "pos": "verb",
+      "meaning": "To return with something.",
+      "examples": [
+        "Can you {bring back} some bread from the store?"
+      ],
+      "wrong": [
+        "He brought back nothing, but carried a bag of bread home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "return with"
+      ],
+      "ipa": "/ˈbrɪŋ ˈbæk/"
+    },
+    {
+      "lemma": "drop by",
+      "pos": "verb",
+      "meaning": "To visit someone for a short time without a plan.",
+      "examples": [
+        "{Drop by} any time you’re near my house."
+      ],
+      "wrong": [
+        "She dropped by and stayed for a whole month."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "stop by",
+        "pop in"
+      ],
+      "ipa": "/ˈdrɑp ˈbaɪ/"
+    },
+    {
+      "lemma": "plug in",
+      "pos": "verb",
+      "meaning": "To connect a machine to electricity.",
+      "examples": [
+        "{Plug in} the lamp next to the bed."
+      ],
+      "wrong": [
+        "I plugged in the fridge to stop the electricity reaching it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "connect"
+      ],
+      "ipa": "/ˈplʌɡ ˈɪn/"
+    },
+    {
+      "lemma": "turn over",
+      "pos": "verb",
+      "meaning": "To move something so the other side is on top.",
+      "examples": [
+        "{Turn over} the page and read the next question."
+      ],
+      "wrong": [
+        "He turned over the pancake so the same side stayed on top."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "flip"
+      ],
+      "ipa": "/ˈtɝn ˈoʊvɚ/"
+    },
+    {
+      "lemma": "pass by",
+      "pos": "verb",
+      "meaning": "To go past a person or place.",
+      "examples": [
+        "I {pass by} the bakery on my way to school."
+      ],
+      "wrong": [
+        "We passed by the shop by going inside and staying."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "go past"
+      ],
+      "ipa": "/ˈpæs ˈbaɪ/"
+    },
+    {
+      "lemma": "knock over",
+      "pos": "verb",
+      "meaning": "To hit something so that it falls.",
+      "examples": [
+        "The cat {knocked over} my glass of water."
+      ],
+      "wrong": [
+        "He knocked over the vase and it stood still."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tip over"
+      ],
+      "ipa": "/ˈnɑk ˈoʊvɚ/"
+    },
+    {
+      "lemma": "look around",
+      "pos": "verb",
+      "meaning": "To walk around a place to see what is there.",
+      "examples": [
+        "We {looked around} the market before buying."
+      ],
+      "wrong": [
+        "We looked around the museum with our eyes closed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "explore"
+      ],
+      "ipa": "/ˈlʊk əˈraʊnd/"
+    },
+    {
+      "lemma": "pick out",
+      "pos": "verb",
+      "meaning": "To choose one thing from a group.",
+      "examples": [
+        "She {picked out} a red dress from the rack."
+      ],
+      "wrong": [
+        "He picked out a shirt by not choosing any."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "choose",
+        "select"
+      ],
+      "ipa": "/ˈpɪk ˈaʊt/"
+    }
+  ]
+}

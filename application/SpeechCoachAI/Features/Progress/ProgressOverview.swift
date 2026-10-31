@@ -34,6 +34,7 @@ struct ProgressOverview: View {
 
     private func reload() {
         guard let repository = storage.repository else { return }
+        try? repository.refreshAwards()
         ledger = try? repository.rewardLedger()
         if var log = try? repository.usageLog() {
             if let open = storage.usage.openStretch() { log.record(start: open.start, end: open.end) }
@@ -92,7 +93,7 @@ private struct BadgeGrid: View {
         let earnedIDs = ledger.awards.sorted { $0.earnedAt > $1.earnedAt }.map(\.family)
         let earned = AwardFamily.catalog.filter { earnedIDs.contains($0.id) }
             .sorted { (earnedIDs.firstIndex(of: $0.id) ?? 0) < (earnedIDs.firstIndex(of: $1.id) ?? 0) }
-        let next = AwardFamily.catalog.filter { $0.collectible && !earnedIDs.contains($0.id) }
+        let next = AwardFamily.catalog.filter { $0.collectible && !earnedIDs.contains($0.id) && $0.isShown(in: ledger) }
         let shown = Array((earned + next).prefix(6))
         VStack(alignment: .leading, spacing: Kit.Space.m) {
             SectionHeader(title: "Badges · \(earned.count) earned") {

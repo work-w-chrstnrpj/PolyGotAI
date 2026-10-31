@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-more-verbs",
+    "title": "More action words",
+    "level": "A1",
+    "tagline": "Simple everyday verbs",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "get",
+      "pos": "verb",
+      "meaning": "To receive something or go and bring it.",
+      "examples": [
+        "I {got} a card from my aunt."
+      ],
+      "wrong": [
+        "I got a letter, so nobody gave me anything."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "receive",
+        "fetch"
+      ],
+      "ipa": "/ɡɛt/"
+    },
+    {
+      "lemma": "tell",
+      "pos": "verb",
+      "meaning": "To give words or news to a person.",
+      "examples": [
+        "Please {tell} me your name."
+      ],
+      "wrong": [
+        "She told me the story without saying a word."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "inform"
+      ],
+      "ipa": "/tɛl/"
+    },
+    {
+      "lemma": "talk",
+      "pos": "verb",
+      "meaning": "To say words to someone and have a chat.",
+      "examples": [
+        "We {talk} on the phone every day."
+      ],
+      "wrong": [
+        "The two friends talked for an hour in total silence."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "speak",
+        "chat"
+      ],
+      "ipa": "/tɔk/"
+    },
+    {
+      "lemma": "stop",
+      "pos": "verb",
+      "meaning": "To not move or not do something any more.",
+      "examples": [
+        "The bus {stops} at the corner."
+      ],
+      "wrong": [
+        "The car stopped, so it went faster down the road."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "halt",
+        "end"
+      ],
+      "ipa": "/stɑp/",
+      "antonyms": [
+        "start",
+        "go"
+      ]
+    },
+    {
+      "lemma": "begin",
+      "pos": "verb",
+      "meaning": "To do the first part of something.",
+      "examples": [
+        "The film will {begin} at eight."
+      ],
+      "wrong": [
+        "The class began at nine, when it was all over."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "start"
+      ],
+      "ipa": "/bɪˈɡɪn/",
+      "antonyms": [
+        "end",
+        "finish"
+      ]
+    },
+    {
+      "lemma": "show",
+      "pos": "verb",
+      "meaning": "To let someone look at something.",
+      "examples": [
+        "{Show} me your new shoes!"
+      ],
+      "wrong": [
+        "He showed me his photo but kept it hidden in his bag."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "display"
+      ],
+      "ipa": "/ʃoʊ/"
+    },
+    {
+      "lemma": "use",
+      "pos": "verb",
+      "meaning": "To do a job with a thing.",
+      "examples": [
+        "I {use} a pen to write."
+      ],
+      "wrong": [
+        "She used a cup to cut the bread."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "employ"
+      ],
+      "ipa": "/juz/"
+    },
+    {
+      "lemma": "fall",
+      "pos": "verb",
+      "meaning": "To go down to the ground by accident.",
+      "examples": [
+        "The apple {fell} from the tree."
+      ],
+      "wrong": [
+        "The ball fell up into the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "drop",
+        "tumble"
+      ],
+      "ipa": "/fɔl/"
+    },
+    {
+      "lemma": "hit",
+      "pos": "verb",
+      "meaning": "To touch something hard and fast.",
+      "examples": [
+        "He {hit} the ball with a bat."
+      ],
+      "wrong": [
+        "She hit the door very softly, so it made no sound."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "strike",
+        "knock"
+      ],
+      "ipa": "/hɪt/"
+    },
+    {
+      "lemma": "clean",
+      "pos": "verb",
+      "meaning": "To take the dirt off something.",
+      "examples": [
+        "I {clean} my room on Saturday."
+      ],
+      "wrong": [
+        "He cleaned the floor by putting mud on it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wash",
+        "tidy"
+      ],
+      "ipa": "/klin/"
+    },
+    {
+      "lemma": "taste",
+      "pos": "verb",
+      "meaning": "To put food in your mouth to know what it is like.",
+      "examples": [
+        "{Taste} the soup. Is it hot?"
+      ],
+      "wrong": [
+        "I tasted the song with my ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "try"
+      ],
+      "ipa": "/teɪst/"
+    },
+    {
+      "lemma": "cry",
+      "pos": "verb",
+      "meaning": "To have water come from your eyes because you are sad or hurt.",
+      "examples": [
+        "The baby {cries} when she is hungry."
+      ],
+      "wrong": [
+        "He was so happy at the party that he cried all night from pain."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "weep",
+        "sob"
+      ],
+      "ipa": "/kraɪ/"
+    },
+    {
+      "lemma": "spill",
+      "pos": "verb",
+      "meaning": "To let a drink fall out of a cup by mistake.",
+      "examples": [
+        "Oh no, I {spilled} my milk!"
+      ],
+      "wrong": [
+        "He spilled his juice, so every drop stayed in the glass."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/spɪl/"
+    },
+    {
+      "lemma": "hate",
+      "pos": "verb",
+      "meaning": "To not like something at all.",
+      "examples": [
+        "I {hate} cold coffee."
+      ],
+      "wrong": [
+        "I hate chocolate, so I eat it every day with joy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "dislike"
+      ],
+      "ipa": "/heɪt/",
+      "antonyms": [
+        "love"
+      ]
+    },
+    {
+      "lemma": "shout",
+      "pos": "verb",
+      "meaning": "To say something very loudly.",
+      "examples": [
+        "Don’t {shout}. The baby is asleep."
+      ],
+      "wrong": [
+        "He shouted so quietly that nobody heard."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "yell",
+        "call out"
+      ],
+      "ipa": "/ʃaʊt/"
+    },
+    {
+      "lemma": "bite",
+      "pos": "verb",
+      "meaning": "To cut into something with your teeth.",
+      "examples": [
+        "The dog {bit} my shoe."
+      ],
+      "wrong": [
+        "She bit the apple with her fingers."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "chew"
+      ],
+      "ipa": "/baɪt/"
+    },
+    {
+      "lemma": "blow",
+      "pos": "verb",
+      "meaning": "To push air out of your mouth.",
+      "examples": [
+        "{Blow} out the candles on your cake!"
+      ],
+      "wrong": [
+        "He blew out the candles by pouring water on them."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "puff"
+      ],
+      "ipa": "/bloʊ/"
+    },
+    {
+      "lemma": "cover",
+      "pos": "verb",
+      "meaning": "To put something over another thing.",
+      "examples": [
+        "{Cover} the bread with a cloth."
+      ],
+      "wrong": [
+        "She covered the box, so everyone could see inside."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wrap",
+        "hide"
+      ],
+      "ipa": "/ˈkʌvɚ/",
+      "antonyms": [
+        "uncover"
+      ]
+    },
+    {
+      "lemma": "dig",
+      "pos": "verb",
+      "meaning": "To make a hole in the ground.",
+      "examples": [
+        "The children {dug} a hole in the sand."
+      ],
+      "wrong": [
+        "He dug a hole in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɪɡ/"
+    },
+    {
+      "lemma": "fight",
+      "pos": "verb",
+      "meaning": "To try to hurt someone with your body or with angry words.",
+      "examples": [
+        "The two cats {fight} every night."
+      ],
+      "wrong": [
+        "The brothers fought, so they hugged and smiled all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "argue",
+        "battle"
+      ],
+      "ipa": "/faɪt/"
+    },
+    {
+      "lemma": "knock",
+      "pos": "verb",
+      "meaning": "To hit a door with your hand so people hear you.",
+      "examples": [
+        "{Knock} on the door before you go in."
+      ],
+      "wrong": [
+        "She knocked on the door, but she made no sound."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tap",
+        "bang"
+      ],
+      "ipa": "/nɑk/"
+    },
+    {
+      "lemma": "point",
+      "pos": "verb",
+      "meaning": "To show where something is with your finger.",
+      "examples": [
+        "He {pointed} at the big red car."
+      ],
+      "wrong": [
+        "She pointed at the cat with her ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "indicate"
+      ],
+      "ipa": "/pɔɪnt/"
+    },
+    {
+      "lemma": "press",
+      "pos": "verb",
+      "meaning": "To push on something with your finger.",
+      "examples": [
+        "{Press} the green button to start."
+      ],
+      "wrong": [
+        "I pressed the button without touching it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "push"
+      ],
+      "ipa": "/prɛs/"
+    },
+    {
+      "lemma": "shut",
+      "pos": "verb",
+      "meaning": "To move a door or window so it is not open.",
+      "examples": [
+        "Please {shut} the window. It’s cold."
+      ],
+      "wrong": [
+        "He shut the door, so the room was wide open."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "close"
+      ],
+      "ipa": "/ʃʌt/",
+      "antonyms": [
+        "open"
+      ]
+    },
+    {
+      "lemma": "tie",
+      "pos": "verb",
+      "meaning": "To join two ends with a knot.",
+      "examples": [
+        "Can you {tie} your shoes?"
+      ],
+      "wrong": [
+        "She tied her shoes with a pair of scissors."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "knot",
+        "fasten"
+      ],
+      "ipa": "/taɪ/"
+    },
+    {
+      "lemma": "wave",
+      "pos": "verb",
+      "meaning": "To move your hand from side to side to say hello or bye.",
+      "examples": [
+        "The kids {waved} at the train."
+      ],
+      "wrong": [
+        "He waved goodbye with his feet under the table."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/weɪv/"
+    },
+    {
+      "lemma": "wish",
+      "pos": "verb",
+      "meaning": "To want something you may not get.",
+      "examples": [
+        "I {wish} I had a dog."
+      ],
+      "wrong": [
+        "She wished for a bike, but she didn’t want one."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "hope",
+        "want"
+      ],
+      "ipa": "/wɪʃ/"
+    },
+    {
+      "lemma": "hurt",
+      "pos": "verb",
+      "meaning": "To feel pain, or to give pain to someone.",
+      "examples": [
+        "My leg {hurts} after the game."
+      ],
+      "wrong": [
+        "My tooth hurts, so it feels really great."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ache",
+        "injure"
+      ],
+      "ipa": "/hɝt/"
+    },
+    {
+      "lemma": "lock",
+      "pos": "verb",
+      "meaning": "To close something with a key.",
+      "examples": [
+        "Did you {lock} the front door?"
+      ],
+      "wrong": [
+        "I locked the door, so anyone can walk in."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fasten"
+      ],
+      "ipa": "/lɑk/",
+      "antonyms": [
+        "unlock"
+      ]
+    },
+    {
+      "lemma": "ring",
+      "pos": "verb",
+      "meaning": "To make the sound of a bell.",
+      "examples": [
+        "The phone is {ringing}. Answer it!"
+      ],
+      "wrong": [
+        "The bell rang, but nobody heard any sound."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "buzz"
+      ],
+      "ipa": "/rɪŋ/"
+    },
+    {
+      "lemma": "float",
+      "pos": "verb",
+      "meaning": "To stay on top of water and not go down.",
+      "examples": [
+        "The little boat {floats} on the lake."
+      ],
+      "wrong": [
+        "The heavy stone floated on the water like a leaf."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/floʊt/"
+    },
+    {
+      "lemma": "hang",
+      "pos": "verb",
+      "meaning": "To put something up so the top is held and the rest is free.",
+      "examples": [
+        "{Hang} your coat on the hook."
+      ],
+      "wrong": [
+        "She hung the picture on the floor under the rug."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hæŋ/"
+    },
+    {
+      "lemma": "burn",
+      "pos": "verb",
+      "meaning": "To be on fire, or to hurt something with fire or heat.",
+      "examples": [
+        "The toast is {burning}!"
+      ],
+      "wrong": [
+        "The ice cube burned the paper."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɝn/"
+    },
+    {
+      "lemma": "enter",
+      "pos": "verb",
+      "meaning": "To go into a place.",
+      "examples": [
+        "Please {enter} the room quietly."
+      ],
+      "wrong": [
+        "He entered the house by walking away from it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "come in",
+        "go in"
+      ],
+      "ipa": "/ˈɛntɚ/",
+      "antonyms": [
+        "leave",
+        "exit"
+      ]
+    },
+    {
+      "lemma": "lie",
+      "pos": "verb",
+      "meaning": "To rest with your body flat, for example on a bed.",
+      "examples": [
+        "I {lie} on the grass and look up."
+      ],
+      "wrong": [
+        "He lay on the sofa standing up."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rest"
+      ],
+      "ipa": "/laɪ/"
+    },
+    {
+      "lemma": "have",
+      "pos": "verb",
+      "meaning": "To own or hold something.",
+      "examples": [
+        "I {have} two brothers."
+      ],
+      "wrong": [
+        "She has a car, but she doesn’t own one."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "own",
+        "possess"
+      ],
+      "ipa": "/hæv/"
+    },
+    {
+      "lemma": "do",
+      "pos": "verb",
+      "meaning": "To carry out an action or a job.",
+      "examples": [
+        "I {do} my homework after dinner."
+      ],
+      "wrong": [
+        "He did the dishes by not touching them."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "make",
+        "perform"
+      ],
+      "ipa": "/du/"
+    },
+    {
+      "lemma": "wake",
+      "pos": "verb",
+      "meaning": "To stop sleeping, or to make someone stop sleeping.",
+      "examples": [
+        "I {wake} at seven every day."
+      ],
+      "wrong": [
+        "She woke at six and slept until noon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wake up"
+      ],
+      "ipa": "/weɪk/"
+    },
+    {
+      "lemma": "roll",
+      "pos": "verb",
+      "meaning": "To move by turning over and over, like a ball.",
+      "examples": [
+        "The ball {rolled} down the hill."
+      ],
+      "wrong": [
+        "The box rolled down the hill like a ball, but it never moved."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "turn",
+        "spin"
+      ],
+      "ipa": "/roʊl/"
+    },
+    {
+      "lemma": "dream",
+      "pos": "verb",
+      "meaning": "To see pictures and stories in your head while you sleep.",
+      "examples": [
+        "Last night I {dreamed} about a big dog."
+      ],
+      "wrong": [
+        "I dreamed about the sea while I was wide awake at work."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/drim/"
+    }
+  ]
+}

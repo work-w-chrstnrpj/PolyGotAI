@@ -6,7 +6,7 @@ struct VoiceSettingsView: View {
     @State private var message: String?
     @Environment(\.scenePhase) private var scene
     var body: some View {
-        Form {
+        Form { KitRows {
             Section {
                 Picker("Voice", selection: $settings.voiceIdentifier) {
                     Text("Best installed").tag(nil as String?)
@@ -24,7 +24,7 @@ struct VoiceSettingsView: View {
                 Text("\(Int(settings.safeRate * 100))%").monospacedDigit().accessibilityIdentifier("voice.rateValue")
             }
             if let message { Text(message).foregroundStyle(Kit.error) }
-        }.scrollContentBackground(.hidden).background(Kit.canvas(storage.preferences.background))
+        }}.scrollContentBackground(.hidden).background(Kit.canvas(storage.preferences.background))
             .navigationTitle("Voice").navigationBarTitleDisplayMode(.inline)
             .onAppear { settings = storage.preferences.voiceSettings ?? VoiceSettings(); SpeechSynthesizer.shared.settings = settings }
             .onChange(of: settings) { _, value in

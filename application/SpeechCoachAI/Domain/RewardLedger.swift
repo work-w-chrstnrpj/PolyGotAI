@@ -56,6 +56,8 @@ struct RewardLedger: Codable, Equatable {
     var clockHighWaterDay: String? = nil
     var plans: [RewardPlan] = []
     var checkpoints: [RewardCheckpoint] = []
+    /// Milestones already celebrated. Nil until the first check, which marks what is already reached without a celebration.
+    var celebratedMilestones: [String]? = nil
     var xp: Int { transactions.reduce(0) { $0 + $1.xp } }
     var practiceDays: [String] { Array(Set(transactions.filter { ["exercise", "speaking", "review"].contains($0.kind) && $0.multiplier > 0 }.map(\.day))).sorted() }
     var pendingAwards: [RewardAward] { awards.filter { !acknowledged.contains($0.id) } }

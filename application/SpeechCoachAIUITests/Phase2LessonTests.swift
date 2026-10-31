@@ -127,12 +127,13 @@ final class Phase2LessonTests: XCTestCase {
         XCTAssertTrue(app.buttons["track.unit.be-have-do"].exists)
         capture(app, "coach-units")
         app.buttons["track.unit.sentences"].tap()
-        XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.lesson.")).count, 4)
-        app.buttons["track.lesson.gram-sent-subject"].tap()
-        XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.lesson.")).count, 3)
+        app.buttons["track.lesson.grammarian-topic-sentence-building"].tap()
+        XCTAssertTrue(app.buttons["lesson.reading.next"].waitForExistence(timeout: 5))
         XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Grammarian")
         capture(app, "coach-intro")
-        app.buttons["lesson.begin"].tap()
+        // Page through the reading, however many pages the topic has.
+        for _ in 0..<12 where app.buttons["lesson.reading.next"].waitForExistence(timeout: 2) { app.buttons["lesson.reading.next"].tap() }
         XCTAssertTrue(app.buttons["exercise.choice.Maria runs."].waitForExistence(timeout: 5))
         app.buttons["exercise.choice.Maria runs."].tap(); app.buttons["exercise.check"].tap()
         XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
@@ -140,7 +141,7 @@ final class Phase2LessonTests: XCTestCase {
         for _ in 0..<3 { app.navigationBars.buttons.firstMatch.tap() }
         XCTAssertTrue(app.buttons["coach.continue"].waitForExistence(timeout: 5))
         app.buttons["coach.continue"].tap()
-        XCTAssertTrue(app.navigationBars["Subject and verb"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Sentence building"].waitForExistence(timeout: 5))
     }
 
     @MainActor
@@ -181,6 +182,6 @@ final class Phase2LessonTests: XCTestCase {
             for _ in 0..<4 where !unit.isHittable { app.swipeUp() }
         }
         XCTAssertTrue(unit.isHittable); unit.tap()
-        XCTAssertTrue(app.buttons["track.lesson.gram-sent-subject"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["track.lesson.grammarian-topic-sentence-building"].waitForExistence(timeout: 5))
     }
 }

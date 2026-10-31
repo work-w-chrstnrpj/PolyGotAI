@@ -43,3 +43,9 @@ This builds the app and runs all hosted unit tests and UI tests on the iPhone 18
 ## Existing suites (v1, kept)
 
 `BootstrapConfiguration`, `CaptureRecovery`, `CoachingValidation`, `CommunicationDelivery`, `ConversationDelivery`, `CurriculumCatalog`, `CustomVocabulary`, `DailyProgressDelivery`, `GeneratedPracticeDelivery`, `IntroductionDelivery`, `LearnerRepository`, `LessonJourney`, `PracticePreferences`, `PracticeRecommendation`, `ProviderCredential`, `ResourceLibraryAcceptance`, `ResourceLibraryDelivery`, `ReviewCredit`, `ReviewSchedule`, `RewardDelivery`, `SmallA1Course`, `SpeakingLoopIntegration`, `TranscriptionLifecycle`, `VocabularyDiscoveryDelivery`, `VocabularyLink`, `VocabularyRecall`; UI: `BootstrapLaunchTests`. When a v2 change makes a test's expectation obsolete (e.g. a removed screen), update or remove the test in the same change and say so in the report.
+
+## Phase 13 — topic lessons
+
+`TopicLessonTests` verifies all ten coaches have valid teaching/examples and 15–20 activities, exact retired-version recovery, no old-to-new credit transfer, repository checkpoint/answer retention, legacy JSON compatibility and malformed-page rejection. `TrackContentTests` checks every current model answer and syllabus shape. `validate.py` checks reading examples/counts and archived content; the topic builder must produce byte-identical output when repeated.
+
+`Phase13TopicLessonTests`: open Nouns, read/back, relaunch at the saved page, enter exercises, answer, reread and return to the same next exercise; Business topic reading at largest text in dark mode, portrait/landscape. Repeat on iPhone/iPad. Phase 2 coach continuation and the real Grammarian stage test use the new topic IDs/counts. Evidence/results: [Phase 13](../development-plan/phases/phase-13/README.md). Content review, real VoiceOver and owner acceptance remain separate gates.

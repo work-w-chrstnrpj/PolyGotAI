@@ -21,7 +21,7 @@ struct RewardGoalsView: View {
             } else {
                 Picker("Choose today's lesson plan", selection: $lessonID) {
                     Text("Choose a lesson").tag("")
-                    ForEach(CurriculumCatalogLoader.bundled.lessons.filter(\.isReady)) { lesson in Text(lesson.title).tag(lesson.id) }
+                    ForEach(CurriculumCatalogLoader.bundled.lessons.filter { $0.isReady && !$0.isIntroduction }) { lesson in Text(lesson.title).tag(lesson.id) }
                 }
                 Button("Start this lesson plan") { startPlan() }.disabled(lessonID.isEmpty).frame(minHeight: 44).accessibilityIdentifier("rewards.plan.start")
                 Text("Only its named current-version tasks completed after you start count. One plan bonus per local date; learning remains available without a plan.").font(.footnote)

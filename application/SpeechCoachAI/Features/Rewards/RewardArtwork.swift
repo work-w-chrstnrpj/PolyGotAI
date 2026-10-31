@@ -24,6 +24,10 @@ struct RewardArtwork: View {
     var body: some View {
         Group {
             if !family.collectible { Image(systemName: "book.closed").resizable().scaledToFit().padding(14) }
+            else if family.filename.isEmpty, let symbol = family.symbol {
+                // New v2 badges use an SF Symbol until artwork is made.
+                Image(systemName: symbol).resizable().scaledToFit().padding(size * 0.2).foregroundStyle(Kit.accent)
+            }
             else if let image { Image(uiImage: image).resizable().scaledToFit() }
             else { Image(systemName: family.collectible ? "seal" : "book.closed").resizable().scaledToFit() }
         }

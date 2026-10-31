@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-subtle-emotions",
+    "title": "Subtle emotions",
+    "level": "C2",
+    "tagline": "Fine shades of feeling",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "chagrin",
+      "pos": "noun",
+      "meaning": "Annoyance mixed with embarrassment because something has gone wrong or made you look foolish.",
+      "examples": [
+        "Much to his {chagrin}, the rival he had mocked won the prize."
+      ],
+      "wrong": [
+        "She felt pure chagrin when everything went exactly as she had hoped."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "vexation",
+        "mortification"
+      ],
+      "ipa": "/ʃəˈɡrɪn/"
+    },
+    {
+      "lemma": "pique",
+      "pos": "noun",
+      "meaning": "A brief feeling of irritation, often because your pride has been hurt.",
+      "examples": [
+        "He left the meeting in a fit of {pique} after his idea was ignored."
+      ],
+      "wrong": [
+        "In a fit of pique, she thanked everyone warmly and stayed calm."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "resentment",
+        "irritation"
+      ],
+      "ipa": "/pik/"
+    },
+    {
+      "lemma": "schadenfreude",
+      "pos": "noun",
+      "meaning": "Pleasure felt at another person’s bad luck or failure.",
+      "examples": [
+        "There was a hint of {schadenfreude} in his smile when his rival tripped on stage."
+      ],
+      "wrong": [
+        "Out of schadenfreude, she wept when her enemy failed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "gloating"
+      ],
+      "ipa": "/ˈʃɑdənˌfrɔɪdə/"
+    },
+    {
+      "lemma": "despondent",
+      "pos": "adjective",
+      "meaning": "Without hope and in very low spirits.",
+      "examples": [
+        "After the third rejection letter, she grew {despondent} about finding work."
+      ],
+      "wrong": [
+        "He was despondent and could not stop smiling about his future."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dejected",
+        "disheartened"
+      ],
+      "ipa": "/dɪˈspɑndənt/",
+      "antonyms": [
+        "hopeful",
+        "cheerful"
+      ]
+    },
+    {
+      "lemma": "misgiving",
+      "pos": "noun",
+      "meaning": "A feeling of doubt or worry about whether something is right or will work.",
+      "examples": [
+        "I signed the contract, but I had serious {misgivings} about the deadline."
+      ],
+      "wrong": [
+        "My misgivings about the plan made me completely sure it would work."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "doubt",
+        "qualm"
+      ],
+      "ipa": "/mɪsˈɡɪvɪŋ/"
+    },
+    {
+      "lemma": "compunction",
+      "pos": "noun",
+      "meaning": "A feeling of guilt that stops you doing wrong or follows a wrong act.",
+      "examples": [
+        "He took the last slice without the slightest {compunction}."
+      ],
+      "wrong": [
+        "She felt deep compunction about the kind gift she had given."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "scruple",
+        "remorse"
+      ],
+      "ipa": "/kəmˈpʌŋkʃən/"
+    },
+    {
+      "lemma": "contrition",
+      "pos": "noun",
+      "meaning": "Sincere sorrow for something wrong you have done.",
+      "examples": [
+        "His {contrition} seemed genuine as he apologized to every guest."
+      ],
+      "wrong": [
+        "Full of contrition, he boasted about the harm he had done."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "repentance",
+        "penitence"
+      ],
+      "ipa": "/kənˈtrɪʃən/",
+      "antonyms": [
+        "defiance"
+      ]
+    },
+    {
+      "lemma": "pang",
+      "pos": "noun",
+      "meaning": "A sudden, sharp feeling of a painful emotion.",
+      "examples": [
+        "She felt a {pang} of jealousy when she saw them together."
+      ],
+      "wrong": [
+        "A pang of guilt lasted calmly for many peaceful years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "twinge",
+        "stab"
+      ],
+      "ipa": "/pæŋ/"
+    },
+    {
+      "lemma": "yearning",
+      "pos": "noun",
+      "meaning": "A strong, often sad desire for something you do not have.",
+      "examples": [
+        "Living abroad, he felt a deep {yearning} for his mother’s cooking."
+      ],
+      "wrong": [
+        "Her yearning for the sea meant she never wanted to see it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "longing",
+        "craving"
+      ],
+      "ipa": "/ˈjɝnɪŋ/"
+    },
+    {
+      "lemma": "bittersweet",
+      "pos": "adjective",
+      "meaning": "Pleasant and sad at the same time.",
+      "examples": [
+        "Graduation was {bittersweet}: proud of the past, sorry to leave friends."
+      ],
+      "wrong": [
+        "The day was bittersweet, purely joyful with no sadness at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "poignant"
+      ],
+      "ipa": "/ˈbɪtɚˌswit/"
+    },
+    {
+      "lemma": "disquiet",
+      "pos": "noun",
+      "meaning": "A feeling of worry or unease that is quiet but persistent.",
+      "examples": [
+        "The rumors of job cuts caused growing {disquiet} among the staff."
+      ],
+      "wrong": [
+        "The good news filled the office with disquiet and relief."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unease",
+        "anxiety"
+      ],
+      "ipa": "/dɪsˈkwaɪət/"
+    },
+    {
+      "lemma": "ennui",
+      "pos": "noun",
+      "meaning": "A weary, dissatisfied feeling caused by having nothing interesting to do.",
+      "examples": [
+        "Long summer afternoons filled the teenagers with {ennui}."
+      ],
+      "wrong": [
+        "The thrilling adventure filled her with ennui from start to finish."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "boredom",
+        "listlessness"
+      ],
+      "ipa": "/ɑnˈwi/"
+    },
+    {
+      "lemma": "languor",
+      "pos": "noun",
+      "meaning": "A pleasant tiredness or lack of energy, often in warm weather.",
+      "examples": [
+        "The heat of the afternoon brought a sweet {languor} over the town."
+      ],
+      "wrong": [
+        "Full of languor, he sprinted around the track ten times."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "lethargy",
+        "lassitude"
+      ],
+      "ipa": "/ˈlæŋɡɚ/"
+    },
+    {
+      "lemma": "listless",
+      "pos": "adjective",
+      "meaning": "Having no energy or interest in anything.",
+      "examples": [
+        "The illness left him pale and {listless} for weeks."
+      ],
+      "wrong": [
+        "She was listless and eagerly threw herself into every task."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lethargic",
+        "languid"
+      ],
+      "ipa": "/ˈlɪstləs/",
+      "antonyms": [
+        "energetic",
+        "lively"
+      ]
+    },
+    {
+      "lemma": "morose",
+      "pos": "adjective",
+      "meaning": "Gloomy, silent and bad-tempered.",
+      "examples": [
+        "After losing the match, he sat {morose} in a corner all evening."
+      ],
+      "wrong": [
+        "He was morose, laughing and chatting cheerfully with everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sullen",
+        "glum"
+      ],
+      "ipa": "/məˈroʊs/",
+      "antonyms": [
+        "cheerful"
+      ]
+    },
+    {
+      "lemma": "petulant",
+      "pos": "adjective",
+      "meaning": "Childishly sulky and bad-tempered when you do not get your way.",
+      "examples": [
+        "The star gave a {petulant} reply when asked to wait."
+      ],
+      "wrong": [
+        "She stayed petulant and gracious when her request was refused."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sulky",
+        "peevish"
+      ],
+      "ipa": "/ˈpɛtʃələnt/"
+    },
+    {
+      "lemma": "querulous",
+      "pos": "adjective",
+      "meaning": "Complaining in an irritable, whining way.",
+      "examples": [
+        "The old man’s {querulous} voice rose from the back seat again."
+      ],
+      "wrong": [
+        "Her querulous tone showed how content and uncomplaining she was."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "whining",
+        "peevish"
+      ],
+      "ipa": "/ˈkwɛrələs/"
+    },
+    {
+      "lemma": "take umbrage",
+      "pos": "phrase",
+      "meaning": "To feel offended by something someone says or does.",
+      "examples": [
+        "She {took umbrage} at the suggestion that she had been careless."
+      ],
+      "wrong": [
+        "He took umbrage at the compliment and thanked her warmly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/teɪk ˈʌmbrɪdʒ/"
+    },
+    {
+      "lemma": "enmity",
+      "pos": "noun",
+      "meaning": "A strong, lasting feeling of hostility between people or groups.",
+      "examples": [
+        "The {enmity} between the two families lasted for generations."
+      ],
+      "wrong": [
+        "Their enmity was so strong that they became best friends."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hostility",
+        "antagonism"
+      ],
+      "ipa": "/ˈɛnmɪti/",
+      "antonyms": [
+        "friendship",
+        "amity"
+      ]
+    },
+    {
+      "lemma": "rapture",
+      "pos": "noun",
+      "meaning": "A feeling of intense joy or delight.",
+      "examples": [
+        "The audience listened in {rapture} as she sang."
+      ],
+      "wrong": [
+        "He listened in rapture, bored and checking his watch."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "ecstasy",
+        "bliss"
+      ],
+      "ipa": "/ˈræptʃɚ/"
+    },
+    {
+      "lemma": "mortified",
+      "pos": "adjective",
+      "meaning": "Extremely embarrassed and ashamed.",
+      "examples": [
+        "I was {mortified} when I called my teacher by the wrong name."
+      ],
+      "wrong": [
+        "She felt mortified, proud and at ease after her mistake."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "humiliated",
+        "ashamed"
+      ],
+      "ipa": "/ˈmɔrtəˌfaɪd/",
+      "antonyms": [
+        "proud"
+      ]
+    },
+    {
+      "lemma": "abashed",
+      "pos": "adjective",
+      "meaning": "Embarrassed and a little ashamed, especially after being corrected.",
+      "examples": [
+        "The boy looked {abashed} when his mother found the broken vase."
+      ],
+      "wrong": [
+        "He looked abashed, bold and completely unbothered by the scolding."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sheepish",
+        "shamefaced"
+      ],
+      "ipa": "/əˈbæʃt/"
+    },
+    {
+      "lemma": "sheepish",
+      "pos": "adjective",
+      "meaning": "Slightly embarrassed because you have done something silly.",
+      "examples": [
+        "He gave a {sheepish} grin when he realized he had the wrong date."
+      ],
+      "wrong": [
+        "She gave a sheepish smile, proud of her brilliant success."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abashed",
+        "embarrassed"
+      ],
+      "ipa": "/ˈʃipɪʃ/"
+    },
+    {
+      "lemma": "disconsolate",
+      "pos": "adjective",
+      "meaning": "So unhappy that nothing can comfort you.",
+      "examples": [
+        "The {disconsolate} fans stood in the rain long after the loss."
+      ],
+      "wrong": [
+        "She was disconsolate, quickly cheered by a single kind word."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inconsolable",
+        "heartbroken"
+      ],
+      "ipa": "/dɪsˈkɑnsələt/"
+    },
+    {
+      "lemma": "frisson",
+      "pos": "noun",
+      "meaning": "A sudden brief thrill of excitement or fear.",
+      "examples": [
+        "A {frisson} of excitement ran through the crowd as the lights dimmed."
+      ],
+      "wrong": [
+        "The dull lecture sent a frisson of total boredom through me."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "thrill",
+        "shiver"
+      ],
+      "ipa": "/friˈsoʊn/"
+    },
+    {
+      "lemma": "vexation",
+      "pos": "noun",
+      "meaning": "The state of being annoyed or troubled.",
+      "examples": [
+        "To his {vexation}, the train was delayed yet again."
+      ],
+      "wrong": [
+        "To her vexation, everything ran smoothly and on time."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "annoyance",
+        "irritation"
+      ],
+      "ipa": "/vɛkˈseɪʃən/"
+    },
+    {
+      "lemma": "consternation",
+      "pos": "noun",
+      "meaning": "Shock and worry caused by something unexpected.",
+      "examples": [
+        "The sudden closure of the factory caused {consternation} in the town."
+      ],
+      "wrong": [
+        "The good news was met with calm consternation and cheers."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dismay",
+        "alarm"
+      ],
+      "ipa": "/ˌkɑnstɚˈneɪʃən/"
+    },
+    {
+      "lemma": "disgruntled",
+      "pos": "adjective",
+      "meaning": "Annoyed and dissatisfied, especially about how you have been treated.",
+      "examples": [
+        "{Disgruntled} passengers queued at the desk to complain."
+      ],
+      "wrong": [
+        "The disgruntled staff were delighted with their new pay."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dissatisfied",
+        "aggrieved"
+      ],
+      "ipa": "/dɪsˈɡrʌntəld/",
+      "antonyms": [
+        "satisfied",
+        "content"
+      ]
+    },
+    {
+      "lemma": "ebullient",
+      "pos": "adjective",
+      "meaning": "Cheerful, full of energy and enthusiasm.",
+      "examples": [
+        "The {ebullient} host greeted every guest with a joke."
+      ],
+      "wrong": [
+        "She was ebullient, quiet and gloomy all evening."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exuberant",
+        "buoyant"
+      ],
+      "ipa": "/ɪˈbʊljənt/",
+      "antonyms": [
+        "subdued",
+        "glum"
+      ]
+    },
+    {
+      "lemma": "jubilant",
+      "pos": "adjective",
+      "meaning": "Feeling or showing great happiness, especially after a success.",
+      "examples": [
+        "{Jubilant} supporters poured onto the field after the final whistle."
+      ],
+      "wrong": [
+        "The jubilant crowd wept bitterly over the defeat."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "triumphant",
+        "elated"
+      ],
+      "ipa": "/ˈdʒubələnt/",
+      "antonyms": [
+        "dejected"
+      ]
+    },
+    {
+      "lemma": "maudlin",
+      "pos": "adjective",
+      "meaning": "Sad and sentimental in a foolish or tearful way.",
+      "examples": [
+        "After midnight the party turned {maudlin}, with old songs and tears."
+      ],
+      "wrong": [
+        "The maudlin speech was brisk, dry and free of feeling."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mawkish",
+        "tearful"
+      ],
+      "ipa": "/ˈmɔdlɪn/"
+    },
+    {
+      "lemma": "lachrymose",
+      "pos": "adjective",
+      "meaning": "Tending to cry easily, or causing tears.",
+      "examples": [
+        "The film’s {lachrymose} ending left the audience reaching for tissues."
+      ],
+      "wrong": [
+        "The lachrymose comedy had everyone laughing without a single tear."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "tearful",
+        "weepy"
+      ],
+      "ipa": "/ˈlækrəˌmoʊs/"
+    },
+    {
+      "lemma": "doleful",
+      "pos": "adjective",
+      "meaning": "Expressing sorrow; looking or sounding mournful.",
+      "examples": [
+        "The puppy gazed up with {doleful} eyes as we left."
+      ],
+      "wrong": [
+        "His doleful expression showed how cheerful he felt."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "mournful",
+        "woeful"
+      ],
+      "ipa": "/ˈdoʊlfəl/"
+    },
+    {
+      "lemma": "rankle",
+      "pos": "verb",
+      "meaning": "To keep causing bitterness or irritation over a long time.",
+      "examples": [
+        "The unfair decision still {rankles} with him years later."
+      ],
+      "wrong": [
+        "The kind remark rankled, so she forgot it at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fester",
+        "irk"
+      ],
+      "ipa": "/ˈræŋkəl/"
+    },
+    {
+      "lemma": "exult",
+      "pos": "verb",
+      "meaning": "To show or feel great happiness, especially at a triumph.",
+      "examples": [
+        "The team {exulted} in their unexpected victory."
+      ],
+      "wrong": [
+        "They exulted in their crushing defeat, heads bowed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rejoice",
+        "revel"
+      ],
+      "ipa": "/ɪɡˈzʌlt/"
+    },
+    {
+      "lemma": "elation",
+      "pos": "noun",
+      "meaning": "Great happiness and excitement.",
+      "examples": [
+        "There was {elation} in the lab when the experiment finally worked."
+      ],
+      "wrong": [
+        "Her elation at the bad news brought her to despair."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "euphoria",
+        "exhilaration"
+      ],
+      "ipa": "/ɪˈleɪʃən/",
+      "antonyms": [
+        "despair",
+        "dejection"
+      ]
+    },
+    {
+      "lemma": "torpor",
+      "pos": "noun",
+      "meaning": "A state of mental or physical inactivity and dullness.",
+      "examples": [
+        "A heavy meal left the whole family in a state of {torpor}."
+      ],
+      "wrong": [
+        "In his torpor, he leapt up and ran around the garden."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lethargy",
+        "sluggishness"
+      ],
+      "ipa": "/ˈtɔrpɚ/"
+    },
+    {
+      "lemma": "foreboding",
+      "pos": "noun",
+      "meaning": "A strong feeling that something bad is going to happen.",
+      "examples": [
+        "She opened the letter with a sense of {foreboding}."
+      ],
+      "wrong": [
+        "Full of foreboding, he was sure only good things lay ahead."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "apprehension",
+        "dread"
+      ],
+      "ipa": "/fɔrˈboʊdɪŋ/"
+    },
+    {
+      "lemma": "disenchantment",
+      "pos": "noun",
+      "meaning": "The feeling of no longer believing in or admiring something.",
+      "examples": [
+        "His {disenchantment} with politics began after the scandal."
+      ],
+      "wrong": [
+        "Her disenchantment with the job made her love it more than ever."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "disillusionment",
+        "disappointment"
+      ],
+      "ipa": "/ˌdɪsɪnˈtʃæntmənt/"
+    },
+    {
+      "lemma": "bereft",
+      "pos": "adjective",
+      "meaning": "Deeply sad and lonely after a loss; completely lacking something.",
+      "examples": [
+        "She felt utterly {bereft} after her closest friend moved away."
+      ],
+      "wrong": [
+        "He was bereft of ideas, so his notebook overflowed with them."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "forlorn",
+        "desolate"
+      ],
+      "ipa": "/bɪˈrɛft/"
+    }
+  ]
+}

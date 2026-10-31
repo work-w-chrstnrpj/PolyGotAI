@@ -121,7 +121,7 @@ struct SpeechLabModelAudio: View {
         ViewThatFits(in: .horizontal) {
             HStack { buttons }
             VStack(alignment: .leading) { buttons }
-        }.buttonStyle(.bordered).controlSize(.large)
+        }.buttonStyle(KitSecondaryButtonStyle()).controlSize(.large)
     }
     @ViewBuilder private var buttons: some View {
         Button { SpeechSynthesizer.shared.speak(text) } label: { Label("Listen", systemImage: "speaker.wave.2") }
@@ -158,6 +158,7 @@ private struct SpeechLabSavedAudio: View {
         Button("Play recording") {
             do {
                 stop(); SpeechSynthesizer.shared.stop()
+                SoundCenter.holdAudio("speechlab.replay")
                 try AVAudioSession.sharedInstance().setCategory(.playback)
                 try AVAudioSession.sharedInstance().setActive(true)
                 player = try AVAudioPlayer(contentsOf: repository.recordingURL(recordingID))
@@ -172,5 +173,6 @@ private struct SpeechLabSavedAudio: View {
         guard player != nil else { return }
         player?.stop(); player = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("speechlab.replay")
     }
 }

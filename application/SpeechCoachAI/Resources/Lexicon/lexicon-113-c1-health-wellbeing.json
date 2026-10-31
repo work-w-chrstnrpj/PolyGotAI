@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-health-wellbeing",
+    "title": "Health and wellbeing",
+    "level": "C1",
+    "tagline": "Body, mind and lifestyle",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "nutrient",
+      "pos": "noun",
+      "meaning": "A substance in food that the body needs to grow and stay healthy.",
+      "examples": [
+        "Spinach is full of {nutrients} like iron."
+      ],
+      "wrong": [
+        "A nutrient is a harmful substance with no use to the body."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nourishment"
+      ],
+      "ipa": "/ˈnutriənt/"
+    },
+    {
+      "lemma": "metabolism",
+      "pos": "noun",
+      "meaning": "The chemical processes in the body that turn food into energy.",
+      "examples": [
+        "Exercise can speed up your {metabolism}."
+      ],
+      "wrong": [
+        "Metabolism is the name of a bone in the arm."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/məˈtæbəˌlɪzəm/"
+    },
+    {
+      "lemma": "sedentary",
+      "pos": "adjective",
+      "meaning": "Involving a lot of sitting and little physical activity.",
+      "examples": [
+        "Office workers often have {sedentary} lifestyles."
+      ],
+      "wrong": [
+        "His sedentary job keeps him running all day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "inactive",
+        "desk-bound"
+      ],
+      "ipa": "/ˈsɛdənˌtɛri/",
+      "antonyms": [
+        "active"
+      ]
+    },
+    {
+      "lemma": "wholesome",
+      "pos": "adjective",
+      "meaning": "Good for your health or morally good.",
+      "examples": [
+        "She cooks simple, {wholesome} meals."
+      ],
+      "wrong": [
+        "The wholesome meal was full of junk and sugar."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nourishing",
+        "healthy"
+      ],
+      "ipa": "/ˈhoʊlsəm/",
+      "antonyms": [
+        "unhealthy",
+        "unwholesome"
+      ]
+    },
+    {
+      "lemma": "mindfulness",
+      "pos": "noun",
+      "meaning": "Calmly paying full attention to the present moment.",
+      "examples": [
+        "Ten minutes of {mindfulness} each morning helps me focus."
+      ],
+      "wrong": [
+        "Mindfulness means worrying about the future all day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "awareness"
+      ],
+      "ipa": "/ˈmaɪndfəlnəs/"
+    },
+    {
+      "lemma": "regimen",
+      "pos": "noun",
+      "meaning": "A fixed plan of diet, exercise or treatment that you follow.",
+      "examples": [
+        "His daily {regimen} includes a run and a cold shower."
+      ],
+      "wrong": [
+        "A regimen is a plan you change randomly every hour."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "routine",
+        "program"
+      ],
+      "ipa": "/ˈrɛdʒəmən/"
+    },
+    {
+      "lemma": "posture",
+      "pos": "noun",
+      "meaning": "The way you hold your body when standing or sitting.",
+      "examples": [
+        "Sitting up straight improves your {posture}."
+      ],
+      "wrong": [
+        "Good posture means slouching over your desk all day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stance",
+        "bearing"
+      ],
+      "ipa": "/ˈpɑstʃɚ/"
+    },
+    {
+      "lemma": "hydration",
+      "pos": "noun",
+      "meaning": "Taking in enough water for the body to work well.",
+      "examples": [
+        "Good {hydration} matters most on hot days."
+      ],
+      "wrong": [
+        "For better hydration, drink as little water as possible."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/haɪˈdreɪʃən/"
+    },
+    {
+      "lemma": "dehydrated",
+      "pos": "adjective",
+      "meaning": "Lacking enough water in the body.",
+      "examples": [
+        "Drink more water or you’ll get {dehydrated}."
+      ],
+      "wrong": [
+        "He was dehydrated after drinking five liters of water."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "parched",
+        "thirsty"
+      ],
+      "ipa": "/diˈhaɪˌdreɪtɪd/",
+      "antonyms": [
+        "hydrated"
+      ]
+    },
+    {
+      "lemma": "cardiovascular",
+      "pos": "adjective",
+      "meaning": "Connected with the heart and blood vessels.",
+      "examples": [
+        "Swimming is great for {cardiovascular} health."
+      ],
+      "wrong": [
+        "Cardiovascular disease affects only the hair."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌkɑrdioʊˈvæskjəlɚ/"
+    },
+    {
+      "lemma": "stamina",
+      "pos": "noun",
+      "meaning": "The energy and strength to keep going for a long time.",
+      "examples": [
+        "Marathon runners need great {stamina}."
+      ],
+      "wrong": [
+        "With his stamina, he was tired after ten steps."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "endurance",
+        "staying power"
+      ],
+      "ipa": "/ˈstæmənə/"
+    },
+    {
+      "lemma": "moderation",
+      "pos": "noun",
+      "meaning": "Keeping within sensible limits, not having too much.",
+      "examples": [
+        "You can eat sweets in {moderation}."
+      ],
+      "wrong": [
+        "Eating in moderation means having as much as you can."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "restraint",
+        "self-control"
+      ],
+      "ipa": "/ˌmɑdəˈreɪʃən/",
+      "antonyms": [
+        "excess",
+        "overindulgence"
+      ]
+    },
+    {
+      "lemma": "cholesterol",
+      "pos": "noun",
+      "meaning": "A fatty substance in the blood; too much can harm the heart.",
+      "examples": [
+        "Fried food can raise your {cholesterol}."
+      ],
+      "wrong": [
+        "Cholesterol is a vitamin found only in fresh fruit."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/kəˈlɛstəˌrɔl/"
+    },
+    {
+      "lemma": "fad diet",
+      "pos": "noun",
+      "meaning": "A popular eating plan that promises quick weight loss but rarely lasts.",
+      "examples": [
+        "The cabbage soup {fad diet} was popular for one summer."
+      ],
+      "wrong": [
+        "A fad diet is a balanced eating plan doctors trust for life."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "crash diet"
+      ],
+      "ipa": "/ˈfæd ˌdaɪət/"
+    },
+    {
+      "lemma": "toxin",
+      "pos": "noun",
+      "meaning": "A poisonous substance, often made by a plant or living thing.",
+      "examples": [
+        "Some mushrooms contain deadly {toxins}."
+      ],
+      "wrong": [
+        "Toxins are vitamins that keep the body healthy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "poison"
+      ],
+      "ipa": "/ˈtɑksɪn/"
+    },
+    {
+      "lemma": "preventive",
+      "pos": "adjective",
+      "meaning": "Meant to stop illness or problems before they happen.",
+      "examples": [
+        "Regular checkups are a form of {preventive} care."
+      ],
+      "wrong": [
+        "Preventive medicine is given only after the illness is serious."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "protective",
+        "precautionary"
+      ],
+      "ipa": "/prɪˈvɛntɪv/"
+    },
+    {
+      "lemma": "malnutrition",
+      "pos": "noun",
+      "meaning": "Poor health caused by not eating enough or the right kinds of food.",
+      "examples": [
+        "Many children in the camp suffered from {malnutrition}."
+      ],
+      "wrong": [
+        "His malnutrition came from eating a perfect, varied diet."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "undernourishment"
+      ],
+      "ipa": "/ˌmælnuˈtrɪʃən/"
+    },
+    {
+      "lemma": "recuperate",
+      "pos": "verb",
+      "meaning": "To get back your health and strength after illness or effort.",
+      "examples": [
+        "She went to the coast to {recuperate} after surgery."
+      ],
+      "wrong": [
+        "He recuperated by working day and night without sleep."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "recover",
+        "convalesce"
+      ],
+      "ipa": "/rɪˈkupəˌreɪt/"
+    },
+    {
+      "lemma": "rejuvenate",
+      "pos": "verb",
+      "meaning": "To make someone feel or look young and full of energy again.",
+      "examples": [
+        "A week in the mountains {rejuvenated} me."
+      ],
+      "wrong": [
+        "The rest rejuvenated her, so she felt old and drained."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refresh",
+        "revitalize"
+      ],
+      "ipa": "/rɪˈdʒuvəˌneɪt/"
+    },
+    {
+      "lemma": "invigorating",
+      "pos": "adjective",
+      "meaning": "Making you feel healthy and full of energy.",
+      "examples": [
+        "We took an {invigorating} swim in the cold lake."
+      ],
+      "wrong": [
+        "The invigorating walk left him weak and sleepy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refreshing",
+        "energizing"
+      ],
+      "ipa": "/ɪnˈvɪɡəˌreɪtɪŋ/",
+      "antonyms": [
+        "exhausting",
+        "draining"
+      ]
+    },
+    {
+      "lemma": "therapeutic",
+      "pos": "adjective",
+      "meaning": "Helping you feel better or heal.",
+      "examples": [
+        "Gardening can be very {therapeutic}."
+      ],
+      "wrong": [
+        "The therapeutic massage made her pain much worse."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "healing",
+        "restorative"
+      ],
+      "ipa": "/ˌθɛrəˈpjutɪk/"
+    },
+    {
+      "lemma": "detox",
+      "pos": "noun",
+      "meaning": "A period of avoiding harmful things, such as junk food or screens.",
+      "examples": [
+        "I’m on a digital {detox} this weekend, no phone at all."
+      ],
+      "wrong": [
+        "During his phone detox, he checked his phone every minute."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "cleanse"
+      ],
+      "ipa": "/ˈdiˌtɑks/"
+    },
+    {
+      "lemma": "self-care",
+      "pos": "noun",
+      "meaning": "Things you do to look after your own health and happiness.",
+      "examples": [
+        "A long bath is my favorite kind of {self-care}."
+      ],
+      "wrong": [
+        "Self-care means ignoring your own needs completely."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/ˌsɛlf ˈkɛr/"
+    },
+    {
+      "lemma": "work-life balance",
+      "pos": "noun",
+      "meaning": "A healthy split of time between your job and your private life.",
+      "examples": [
+        "Working every weekend ruined his {work-life balance}."
+      ],
+      "wrong": [
+        "She has a great work-life balance, so she never sees her family."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/ˌwɝk ˈlaɪf ˈbæləns/"
+    },
+    {
+      "lemma": "unwind",
+      "pos": "verb",
+      "meaning": "To relax after a period of work or stress.",
+      "examples": [
+        "I like to {unwind} with a book after work."
+      ],
+      "wrong": [
+        "He unwound by taking on three extra projects."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "relax",
+        "de-stress"
+      ],
+      "ipa": "/ʌnˈwaɪnd/"
+    },
+    {
+      "lemma": "ailment",
+      "pos": "noun",
+      "meaning": "A minor illness.",
+      "examples": [
+        "Colds and headaches are common {ailments}."
+      ],
+      "wrong": [
+        "An ailment is a medal for good health."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "illness",
+        "complaint"
+      ],
+      "ipa": "/ˈeɪlmənt/"
+    },
+    {
+      "lemma": "vitality",
+      "pos": "noun",
+      "meaning": "Great energy and liveliness.",
+      "examples": [
+        "At eighty, she is still full of {vitality}."
+      ],
+      "wrong": [
+        "His vitality made him dull and lifeless."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "energy",
+        "vigor"
+      ],
+      "ipa": "/vaɪˈtæləti/"
+    },
+    {
+      "lemma": "frail",
+      "pos": "adjective",
+      "meaning": "Weak and thin, often because of old age or illness.",
+      "examples": [
+        "Her grandfather is too {frail} to climb stairs."
+      ],
+      "wrong": [
+        "The frail old man lifted the heavy piano alone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "weak",
+        "delicate"
+      ],
+      "ipa": "/freɪl/",
+      "antonyms": [
+        "robust",
+        "sturdy"
+      ]
+    },
+    {
+      "lemma": "sanitation",
+      "pos": "noun",
+      "meaning": "Systems that keep places clean, such as clean water and drains.",
+      "examples": [
+        "Poor {sanitation} spreads disease."
+      ],
+      "wrong": [
+        "Good sanitation means letting dirty water run in the streets."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hygiene"
+      ],
+      "ipa": "/ˌsænəˈteɪʃən/"
+    },
+    {
+      "lemma": "overindulge",
+      "pos": "verb",
+      "meaning": "To have too much of something you enjoy, such as food or drink.",
+      "examples": [
+        "It’s easy to {overindulge} during the holidays."
+      ],
+      "wrong": [
+        "She overindulged by eating a single grape."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "overdo it",
+        "binge"
+      ],
+      "ipa": "/ˌoʊvɚɪnˈdʌldʒ/"
+    },
+    {
+      "lemma": "restorative",
+      "pos": "adjective",
+      "meaning": "Helping to bring back your health, strength or energy.",
+      "examples": [
+        "Deep sleep has a {restorative} effect."
+      ],
+      "wrong": [
+        "The restorative break left everyone more worn out."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "healing",
+        "refreshing"
+      ],
+      "ipa": "/rɪˈstɔrətɪv/"
+    },
+    {
+      "lemma": "sleep deprivation",
+      "pos": "noun",
+      "meaning": "Not getting enough rest at night over a period of time.",
+      "examples": [
+        "{Sleep deprivation} makes it hard to concentrate."
+      ],
+      "wrong": [
+        "Sleep deprivation is caused by sleeping ten hours a night."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lack of sleep"
+      ],
+      "ipa": "/ˈslip ˌdɛprəˈveɪʃən/"
+    },
+    {
+      "lemma": "processed food",
+      "pos": "noun",
+      "meaning": "Meals and snacks changed in factories, often with added salt, sugar or fat.",
+      "examples": [
+        "Try to cut down on {processed food} like chips and sausages."
+      ],
+      "wrong": [
+        "Processed food is fruit picked fresh from the tree."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/ˈprɑsɛst ˈfud/"
+    },
+    {
+      "lemma": "physique",
+      "pos": "noun",
+      "meaning": "The shape and size of a person’s body.",
+      "examples": [
+        "Years of swimming gave him a strong {physique}."
+      ],
+      "wrong": [
+        "Physique is a person’s sense of humor."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "build",
+        "figure"
+      ],
+      "ipa": "/fɪˈzik/"
+    },
+    {
+      "lemma": "immunity",
+      "pos": "noun",
+      "meaning": "The body’s ability to resist a disease.",
+      "examples": [
+        "Vaccines give you {immunity} to some diseases."
+      ],
+      "wrong": [
+        "Strong immunity means you catch every cold going."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "resistance",
+        "protection"
+      ],
+      "ipa": "/ɪˈmjunəti/"
+    },
+    {
+      "lemma": "susceptible",
+      "pos": "adjective",
+      "meaning": "Easily affected or harmed by something, such as an illness.",
+      "examples": [
+        "Older people are more {susceptible} to flu."
+      ],
+      "wrong": [
+        "Being susceptible to colds means you never catch them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "vulnerable",
+        "prone"
+      ],
+      "ipa": "/səˈsɛptəbəl/",
+      "antonyms": [
+        "resistant",
+        "immune"
+      ]
+    },
+    {
+      "lemma": "deficiency",
+      "pos": "noun",
+      "meaning": "A lack of something the body needs.",
+      "examples": [
+        "A vitamin D {deficiency} can make you tired."
+      ],
+      "wrong": [
+        "An iron deficiency means you have far too much iron."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "shortage",
+        "lack"
+      ],
+      "ipa": "/dɪˈfɪʃənsi/",
+      "antonyms": [
+        "surplus",
+        "excess"
+      ]
+    },
+    {
+      "lemma": "convalesce",
+      "pos": "verb",
+      "meaning": "To rest and slowly get well after a serious illness.",
+      "examples": [
+        "She spent a month {convalescing} at her sister’s house."
+      ],
+      "wrong": [
+        "He convalesced by running a marathon the day after surgery."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "recover",
+        "get better"
+      ],
+      "ipa": "/ˌkɑnvəˈlɛs/"
+    },
+    {
+      "lemma": "lethargic",
+      "pos": "adjective",
+      "meaning": "Lacking energy and not wanting to do anything.",
+      "examples": [
+        "The heat made everyone {lethargic}."
+      ],
+      "wrong": [
+        "Feeling lethargic, she ran ten miles with great energy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sluggish",
+        "listless"
+      ],
+      "ipa": "/ləˈθɑrdʒɪk/",
+      "antonyms": [
+        "energetic",
+        "lively"
+      ]
+    },
+    {
+      "lemma": "longevity",
+      "pos": "noun",
+      "meaning": "Long life.",
+      "examples": [
+        "Diet and exercise both play a part in {longevity}."
+      ],
+      "wrong": [
+        "His longevity meant he died very young."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "long life"
+      ],
+      "ipa": "/lɔnˈdʒɛvəti/"
+    }
+  ]
+}

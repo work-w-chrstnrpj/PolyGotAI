@@ -238,6 +238,14 @@ struct UsageReport {
     }
 }
 
+extension UsageReport {
+    /// Average screen time per day over the `count` days before `date` (days without use count as zero).
+    func average(before date: Date, days count: Int = 7) -> Int {
+        guard count > 0, let first = calendar.date(byAdding: .day, value: -count, to: calendar.startOfDay(for: date)) else { return 0 }
+        return days(from: first, count: count).reduce(0) { $0 + $1.seconds } / count
+    }
+}
+
 enum UsageFormat {
     /// "1 h 05 min", "42 min", "0 min".
     static func duration(_ seconds: Int) -> String {

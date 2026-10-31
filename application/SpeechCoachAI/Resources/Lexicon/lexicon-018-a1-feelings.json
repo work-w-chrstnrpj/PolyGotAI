@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-feelings",
+    "title": "Feelings",
+    "level": "A1",
+    "tagline": "Happy, sad and tired",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "afraid",
+      "pos": "adjective",
+      "meaning": "Feeling that something bad may happen to you.",
+      "examples": [
+        "My little brother is {afraid} of the dark."
+      ],
+      "wrong": [
+        "She was afraid of the kitten, so she hugged it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "scared",
+        "frightened"
+      ],
+      "ipa": "/əˈfreɪd/",
+      "antonyms": [
+        "brave"
+      ]
+    },
+    {
+      "lemma": "scared",
+      "pos": "adjective",
+      "meaning": "Feeling fear.",
+      "examples": [
+        "I was {scared} during the storm."
+      ],
+      "wrong": [
+        "He was scared, so he laughed and felt safe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "afraid",
+        "frightened"
+      ],
+      "ipa": "/skɛrd/"
+    },
+    {
+      "lemma": "bored",
+      "pos": "adjective",
+      "meaning": "Feeling that nothing is fun or interesting.",
+      "examples": [
+        "I’m {bored}. There’s nothing to do."
+      ],
+      "wrong": [
+        "I was bored because the game was so much fun."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɔrd/",
+      "antonyms": [
+        "interested"
+      ]
+    },
+    {
+      "lemma": "glad",
+      "pos": "adjective",
+      "meaning": "Happy about something.",
+      "examples": [
+        "I’m {glad} you came to my party."
+      ],
+      "wrong": [
+        "I was glad you came, so I cried all night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "happy",
+        "pleased"
+      ],
+      "ipa": "/ɡlæd/"
+    },
+    {
+      "lemma": "sorry",
+      "pos": "adjective",
+      "meaning": "Feeling bad about something you did.",
+      "examples": [
+        "I’m {sorry} I broke your cup."
+      ],
+      "wrong": [
+        "I’m sorry, I was so happy I broke your cup."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɑri/"
+    },
+    {
+      "lemma": "okay",
+      "pos": "adjective",
+      "meaning": "Not bad; all right.",
+      "examples": [
+        "Are you {okay}? You look tired."
+      ],
+      "wrong": [
+        "I’m okay, I’m very ill and in a lot of pain."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "fine",
+        "all right"
+      ],
+      "ipa": "/ˌoʊˈkeɪ/"
+    },
+    {
+      "lemma": "feeling",
+      "pos": "noun",
+      "meaning": "Something you feel inside, like being happy or sad.",
+      "examples": [
+        "Love is a strong {feeling}."
+      ],
+      "wrong": [
+        "A feeling is a kind of shoe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "emotion"
+      ],
+      "ipa": "/ˈfilɪŋ/"
+    },
+    {
+      "lemma": "unhappy",
+      "pos": "adjective",
+      "meaning": "Sad; not pleased with how things are.",
+      "examples": [
+        "She is {unhappy} at her new school."
+      ],
+      "wrong": [
+        "He was unhappy, so he smiled and sang all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "sad"
+      ],
+      "ipa": "/ʌnˈhæpi/",
+      "antonyms": [
+        "happy"
+      ]
+    },
+    {
+      "lemma": "pleased",
+      "pos": "adjective",
+      "meaning": "Happy about something that happened.",
+      "examples": [
+        "Mom was {pleased} with my test."
+      ],
+      "wrong": [
+        "She was pleased, so she shouted in anger."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "glad",
+        "happy"
+      ],
+      "ipa": "/plizd/"
+    },
+    {
+      "lemma": "worried",
+      "pos": "adjective",
+      "meaning": "Thinking about problems and feeling bad.",
+      "examples": [
+        "I’m {worried} about my test tomorrow."
+      ],
+      "wrong": [
+        "He was worried, so he slept well and felt calm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "nervous"
+      ],
+      "ipa": "/ˈwɝid/",
+      "antonyms": [
+        "calm"
+      ]
+    },
+    {
+      "lemma": "sleepy",
+      "pos": "adjective",
+      "meaning": "Wanting to go to bed.",
+      "examples": [
+        "The baby is {sleepy} after lunch."
+      ],
+      "wrong": [
+        "I was so sleepy I ran a marathon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tired"
+      ],
+      "ipa": "/ˈslipi/",
+      "antonyms": [
+        "awake"
+      ]
+    },
+    {
+      "lemma": "joy",
+      "pos": "noun",
+      "meaning": "A very happy feeling.",
+      "examples": [
+        "She jumped for {joy} when she won."
+      ],
+      "wrong": [
+        "He cried with joy at the very sad news."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "happiness"
+      ],
+      "ipa": "/dʒɔɪ/",
+      "antonyms": [
+        "sadness"
+      ]
+    },
+    {
+      "lemma": "fear",
+      "pos": "noun",
+      "meaning": "The bad feeling you have when you think you are in danger.",
+      "examples": [
+        "He has a {fear} of big dogs."
+      ],
+      "wrong": [
+        "She felt fear, so she smiled and relaxed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɪr/"
+    },
+    {
+      "lemma": "tear",
+      "pos": "noun",
+      "meaning": "A drop of water that comes from your eye when you cry.",
+      "examples": [
+        "{Tears} ran down her face."
+      ],
+      "wrong": [
+        "Tears came out of her ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɪr/"
+    },
+    {
+      "lemma": "frown",
+      "pos": "verb",
+      "meaning": "To make lines on your face when you are angry or unhappy.",
+      "examples": [
+        "Dad {frowned} at the mess."
+      ],
+      "wrong": [
+        "She frowned because she was so happy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fraʊn/",
+      "antonyms": [
+        "smile"
+      ]
+    },
+    {
+      "lemma": "yawn",
+      "pos": "verb",
+      "meaning": "To open your mouth wide because you are tired.",
+      "examples": [
+        "He {yawned} at the end of the long day."
+      ],
+      "wrong": [
+        "I yawned because I was full of energy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/jɔn/"
+    },
+    {
+      "lemma": "scream",
+      "pos": "verb",
+      "meaning": "To make a very loud, high sound.",
+      "examples": [
+        "She {screamed} when she saw the spider."
+      ],
+      "wrong": [
+        "He screamed in a very quiet, soft voice."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "yell",
+        "shout"
+      ],
+      "ipa": "/skrim/"
+    },
+    {
+      "lemma": "mad",
+      "pos": "adjective",
+      "meaning": "Angry.",
+      "examples": [
+        "Mom is {mad} at me for being late."
+      ],
+      "wrong": [
+        "She was mad at me, so she gave me a hug and a kiss."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "angry"
+      ],
+      "ipa": "/mæd/"
+    },
+    {
+      "lemma": "feel better",
+      "pos": "phrase",
+      "meaning": "To be less sick or less sad than before.",
+      "examples": [
+        "Drink some tea. You’ll {feel better}."
+      ],
+      "wrong": [
+        "I feel better, so I need to stay in bed longer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fil ˈbɛtɚ/"
+    },
+    {
+      "lemma": "relaxed",
+      "pos": "adjective",
+      "meaning": "Calm and not worried.",
+      "examples": [
+        "I feel {relaxed} on holiday."
+      ],
+      "wrong": [
+        "I felt relaxed, so my hands shook with worry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "calm"
+      ],
+      "ipa": "/rɪˈlækst/",
+      "antonyms": [
+        "nervous",
+        "worried"
+      ]
+    },
+    {
+      "lemma": "happiness",
+      "pos": "noun",
+      "meaning": "The feeling of being glad and full of joy.",
+      "examples": [
+        "Money can’t buy {happiness}."
+      ],
+      "wrong": [
+        "Her happiness made her cry with sadness."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "joy"
+      ],
+      "ipa": "/ˈhæpinəs/",
+      "antonyms": [
+        "sadness"
+      ]
+    },
+    {
+      "lemma": "sadness",
+      "pos": "noun",
+      "meaning": "The feeling you have when you are unhappy.",
+      "examples": [
+        "There was {sadness} in his eyes."
+      ],
+      "wrong": [
+        "Her sadness made her laugh and dance."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "sorrow"
+      ],
+      "ipa": "/ˈsædnəs/",
+      "antonyms": [
+        "happiness",
+        "joy"
+      ]
+    },
+    {
+      "lemma": "surprise",
+      "pos": "noun",
+      "meaning": "Something you did not know would happen.",
+      "examples": [
+        "The party was a big {surprise}!"
+      ],
+      "wrong": [
+        "It was a surprise, so we knew about it all week."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɚˈpraɪz/"
+    },
+    {
+      "lemma": "bad mood",
+      "pos": "phrase",
+      "meaning": "A time when you feel angry or not happy.",
+      "examples": [
+        "He’s in a {bad mood} today."
+      ],
+      "wrong": [
+        "He was in a bad mood, so he smiled at everyone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bæd mud/",
+      "antonyms": [
+        "good mood"
+      ]
+    },
+    {
+      "lemma": "good mood",
+      "pos": "phrase",
+      "meaning": "A time when you feel happy and friendly.",
+      "examples": [
+        "She’s in a {good mood} today."
+      ],
+      "wrong": [
+        "She was in a good mood, so she shouted at everyone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡʊd mud/",
+      "antonyms": [
+        "bad mood"
+      ]
+    },
+    {
+      "lemma": "scary",
+      "pos": "adjective",
+      "meaning": "Making you feel afraid.",
+      "examples": [
+        "That was a {scary} movie."
+      ],
+      "wrong": [
+        "The scary movie made me feel safe and happy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "frightening"
+      ],
+      "ipa": "/ˈskɛri/"
+    },
+    {
+      "lemma": "not bad",
+      "pos": "phrase",
+      "meaning": "Quite good; a short answer to say you are fine.",
+      "examples": [
+        "\"How are you?\" \"{Not bad}, thanks.\""
+      ],
+      "wrong": [
+        "\"Not bad,\" he said, crying in pain."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "okay",
+        "all right"
+      ],
+      "ipa": "/nɑt bæd/"
+    },
+    {
+      "lemma": "how are you?",
+      "pos": "phrase",
+      "meaning": "A question you ask to learn if someone is well.",
+      "examples": [
+        "Hi, Tom! {How are you}?"
+      ],
+      "wrong": [
+        "\"How are you?\" she asked, to learn the time."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "how’s it going?"
+      ],
+      "ipa": "/haʊ ɑr ju/"
+    },
+    {
+      "lemma": "frightened",
+      "pos": "adjective",
+      "meaning": "Afraid of something.",
+      "examples": [
+        "The cat is {frightened} of the dog."
+      ],
+      "wrong": [
+        "She was frightened, so she felt brave and calm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "scared",
+        "afraid"
+      ],
+      "ipa": "/ˈfraɪtənd/"
+    },
+    {
+      "lemma": "in love",
+      "pos": "phrase",
+      "meaning": "Having strong, warm feelings for someone.",
+      "examples": [
+        "They are {in love} and want to get married."
+      ],
+      "wrong": [
+        "They were in love, so they never wanted to see each other."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪn lʌv/"
+    },
+    {
+      "lemma": "love",
+      "pos": "noun",
+      "meaning": "A very strong, warm feeling for someone.",
+      "examples": [
+        "A mother’s {love} for her baby is strong."
+      ],
+      "wrong": [
+        "His love for her made him want to hurt her."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lʌv/",
+      "antonyms": [
+        "hate"
+      ]
+    },
+    {
+      "lemma": "don’t worry",
+      "pos": "phrase",
+      "meaning": "Words you say to tell someone to stay calm.",
+      "examples": [
+        "{Don’t worry}, everything will be fine."
+      ],
+      "wrong": [
+        "\"Don’t worry,\" she said, to make him more afraid."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "never mind"
+      ],
+      "ipa": "/doʊnt ˈwɝi/"
+    },
+    {
+      "lemma": "have fun",
+      "pos": "phrase",
+      "meaning": "To enjoy yourself.",
+      "examples": [
+        "{Have fun} at the party!"
+      ],
+      "wrong": [
+        "We had fun, so we were bored all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "enjoy yourself"
+      ],
+      "ipa": "/hæv fʌn/"
+    },
+    {
+      "lemma": "big smile",
+      "pos": "phrase",
+      "meaning": "A wide, happy look on your face.",
+      "examples": [
+        "She had a {big smile} on her face."
+      ],
+      "wrong": [
+        "He had a big smile because he was very sad."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɪɡ smaɪl/"
+    },
+    {
+      "lemma": "bad dream",
+      "pos": "phrase",
+      "meaning": "A dream that makes you feel afraid.",
+      "examples": [
+        "I had a {bad dream} about a monster."
+      ],
+      "wrong": [
+        "I had a bad dream, so I woke up happy and calm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "nightmare"
+      ],
+      "ipa": "/bæd drim/"
+    },
+    {
+      "lemma": "nightmare",
+      "pos": "noun",
+      "meaning": "A very scary dream.",
+      "examples": [
+        "The child woke up after a {nightmare}."
+      ],
+      "wrong": [
+        "I had a nightmare, a lovely dream about candy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bad dream"
+      ],
+      "ipa": "/ˈnaɪtˌmɛr/"
+    },
+    {
+      "lemma": "giggle",
+      "pos": "verb",
+      "meaning": "To laugh in a quiet, silly way.",
+      "examples": [
+        "The girls {giggled} at the joke."
+      ],
+      "wrong": [
+        "She giggled because the news made her so sad."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "laugh"
+      ],
+      "ipa": "/ˈɡɪɡəl/"
+    },
+    {
+      "lemma": "feel good",
+      "pos": "phrase",
+      "meaning": "To be happy or well.",
+      "examples": [
+        "I {feel good} after a long walk."
+      ],
+      "wrong": [
+        "I feel good, so I’m going to the doctor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fil ɡʊd/",
+      "antonyms": [
+        "feel bad"
+      ]
+    },
+    {
+      "lemma": "anger",
+      "pos": "noun",
+      "meaning": "The strong feeling of being angry.",
+      "examples": [
+        "His face was red with {anger}."
+      ],
+      "wrong": [
+        "He shouted in anger because he was so happy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈæŋɡɚ/"
+    },
+    {
+      "lemma": "hurt feelings",
+      "pos": "phrase",
+      "meaning": "The sad feeling when someone is unkind to you.",
+      "examples": [
+        "Her mean words gave me {hurt feelings}."
+      ],
+      "wrong": [
+        "His kind words gave me hurt feelings."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɝt ˈfilɪŋz/"
+    }
+  ]
+}

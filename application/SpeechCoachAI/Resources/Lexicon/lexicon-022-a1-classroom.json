@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-classroom",
+    "title": "In the classroom",
+    "level": "A1",
+    "tagline": "Words for lessons",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "whiteboard",
+      "pos": "noun",
+      "meaning": "A big white board on the wall that the teacher writes on.",
+      "examples": [
+        "The teacher writes on the {whiteboard}."
+      ],
+      "wrong": [
+        "We sleep on the whiteboard at night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "board"
+      ],
+      "ipa": "/ˈwaɪtˌbɔrd/"
+    },
+    {
+      "lemma": "eraser",
+      "pos": "noun",
+      "meaning": "A small thing that takes away pencil marks.",
+      "examples": [
+        "Can I use your {eraser}?"
+      ],
+      "wrong": [
+        "I use my eraser to make my words darker."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rubber"
+      ],
+      "ipa": "/ɪˈreɪsɚ/"
+    },
+    {
+      "lemma": "ruler",
+      "pos": "noun",
+      "meaning": "A flat stick for drawing straight lines.",
+      "examples": [
+        "Draw a line with your {ruler}."
+      ],
+      "wrong": [
+        "I use my ruler to draw round circles."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈrulɚ/"
+    },
+    {
+      "lemma": "scissors",
+      "pos": "noun",
+      "meaning": "A tool with two blades for cutting paper.",
+      "examples": [
+        "Cut the paper with {scissors}."
+      ],
+      "wrong": [
+        "I drink water from my scissors."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɪzɚz/"
+    },
+    {
+      "lemma": "glue",
+      "pos": "noun",
+      "meaning": "A sticky thing that holds paper together.",
+      "examples": [
+        "Put {glue} on the back of the picture."
+      ],
+      "wrong": [
+        "I use glue to take the pictures off the paper."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡlu/"
+    },
+    {
+      "lemma": "colored pencil",
+      "pos": "noun",
+      "meaning": "A pencil that draws in a color, like red or green.",
+      "examples": [
+        "Draw the grass with a green {colored pencil}."
+      ],
+      "wrong": [
+        "My colored pencil only writes in no color at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkʌlɚd ˈpɛnsəl/"
+    },
+    {
+      "lemma": "marker",
+      "pos": "noun",
+      "meaning": "A thick pen with bright ink.",
+      "examples": [
+        "Write your name with a red {marker}."
+      ],
+      "wrong": [
+        "My marker writes nothing because it is full of ink."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmɑrkɚ/"
+    },
+    {
+      "lemma": "schoolbag",
+      "pos": "noun",
+      "meaning": "A bag for carrying your books to school.",
+      "examples": [
+        "My books are in my {schoolbag}."
+      ],
+      "wrong": [
+        "I wear my schoolbag on my feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "backpack"
+      ],
+      "ipa": "/ˈskulˌbæɡ/"
+    },
+    {
+      "lemma": "pencil case",
+      "pos": "noun",
+      "meaning": "A small bag or box for your pens and pencils.",
+      "examples": [
+        "My pens are in my {pencil case}."
+      ],
+      "wrong": [
+        "I keep my lunch soup in my pencil case."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɛnsəl ˌkeɪs/"
+    },
+    {
+      "lemma": "pencil sharpener",
+      "pos": "noun",
+      "meaning": "A small tool that makes the end of a pencil sharp.",
+      "examples": [
+        "My pencil is not sharp. Where is the {pencil sharpener}?"
+      ],
+      "wrong": [
+        "I use my pencil sharpener to make my pencil longer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɛnsəl ˌʃɑrpənɚ/"
+    },
+    {
+      "lemma": "answer",
+      "pos": "noun",
+      "meaning": "What you say or write after a question.",
+      "examples": [
+        "Write your {answer} in the box."
+      ],
+      "wrong": [
+        "The answer came before anybody asked a question."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "reply"
+      ],
+      "ipa": "/ˈænsɚ/"
+    },
+    {
+      "lemma": "alphabet",
+      "pos": "noun",
+      "meaning": "All the letters from A to Z.",
+      "examples": [
+        "Children learn the {alphabet} in their first year."
+      ],
+      "wrong": [
+        "The alphabet has only three letters."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈælfəˌbɛt/"
+    },
+    {
+      "lemma": "page number",
+      "pos": "noun",
+      "meaning": "The number on a page of a book.",
+      "examples": [
+        "Look at {page number} ten."
+      ],
+      "wrong": [
+        "The page number tells you the name of the writer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpeɪdʒ ˌnʌmbɚ/"
+    },
+    {
+      "lemma": "meaning",
+      "pos": "noun",
+      "meaning": "What a word tells you.",
+      "examples": [
+        "What is the {meaning} of this word?"
+      ],
+      "wrong": [
+        "The meaning of ’hot’ is ’cold’."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈminɪŋ/"
+    },
+    {
+      "lemma": "grammar",
+      "pos": "noun",
+      "meaning": "The rules for putting words together in a language.",
+      "examples": [
+        "We study English {grammar} on Tuesdays."
+      ],
+      "wrong": [
+        "Grammar is the color of the classroom walls."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡræmɚ/"
+    },
+    {
+      "lemma": "English",
+      "pos": "noun",
+      "meaning": "The language of the US, the UK and many other countries.",
+      "examples": [
+        "We speak {English} in this class."
+      ],
+      "wrong": [
+        "English is a fruit that grows on trees."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɪŋɡlɪʃ/"
+    },
+    {
+      "lemma": "raise your hand",
+      "pos": "phrase",
+      "meaning": "To put your arm up to ask or answer.",
+      "examples": [
+        "{Raise your hand} if you know the answer."
+      ],
+      "wrong": [
+        "Raise your hand by putting it in your pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "put your hand up"
+      ],
+      "ipa": "/ˈreɪz jɚ ˈhænd/"
+    },
+    {
+      "lemma": "circle",
+      "pos": "verb",
+      "meaning": "To draw a ring around something.",
+      "examples": [
+        "{Circle} the right answer."
+      ],
+      "wrong": [
+        "Circle the word by drawing a straight line under it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɝkəl/"
+    },
+    {
+      "lemma": "underline",
+      "pos": "verb",
+      "meaning": "To draw a line under a word.",
+      "examples": [
+        "{Underline} the verbs in the text."
+      ],
+      "wrong": [
+        "Underline the word by drawing a line above it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʌndɚˌlaɪn/"
+    },
+    {
+      "lemma": "pupil",
+      "pos": "noun",
+      "meaning": "A child who goes to school.",
+      "examples": [
+        "There are twenty {pupils} in my class."
+      ],
+      "wrong": [
+        "The pupil teaches all the teachers at the school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "student"
+      ],
+      "ipa": "/ˈpjupəl/"
+    },
+    {
+      "lemma": "true or false",
+      "pos": "phrase",
+      "meaning": "A kind of exercise where you say if a sentence is right or wrong.",
+      "examples": [
+        "Read the sentences and write {true or false}."
+      ],
+      "wrong": [
+        "In true or false you draw a picture of a cat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtru ɚ ˈfɔls/"
+    },
+    {
+      "lemma": "group",
+      "pos": "noun",
+      "meaning": "A few people together.",
+      "examples": [
+        "We work in a {group} of four."
+      ],
+      "wrong": [
+        "A group is one person alone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "team"
+      ],
+      "ipa": "/ɡrup/"
+    },
+    {
+      "lemma": "break",
+      "pos": "noun",
+      "meaning": "A short time to rest between lessons.",
+      "examples": [
+        "We play outside at {break}."
+      ],
+      "wrong": [
+        "During the break we work very hard on a test."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "recess"
+      ],
+      "ipa": "/breɪk/"
+    },
+    {
+      "lemma": "bell",
+      "pos": "noun",
+      "meaning": "A thing that rings to tell you a time.",
+      "examples": [
+        "The {bell} rings at three, and school is over."
+      ],
+      "wrong": [
+        "The bell is so quiet that nobody can hear it ring."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɛl/"
+    },
+    {
+      "lemma": "chalk",
+      "pos": "noun",
+      "meaning": "A white stick for writing on a dark board.",
+      "examples": [
+        "The teacher writes with {chalk}."
+      ],
+      "wrong": [
+        "I write on the board with chalk made of ice cream."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tʃɔk/"
+    },
+    {
+      "lemma": "poster",
+      "pos": "noun",
+      "meaning": "A big picture or notice on a wall.",
+      "examples": [
+        "There is a {poster} of animals on the wall."
+      ],
+      "wrong": [
+        "The poster is so small you cannot see it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpoʊstɚ/"
+    },
+    {
+      "lemma": "worksheet",
+      "pos": "noun",
+      "meaning": "A paper with exercises for students to do.",
+      "examples": [
+        "Do the {worksheet} in pencil."
+      ],
+      "wrong": [
+        "I read the worksheet on the radio."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɝkˌʃit/"
+    },
+    {
+      "lemma": "locker",
+      "pos": "noun",
+      "meaning": "A small metal cupboard at school where you keep your things.",
+      "examples": [
+        "I put my coat in my {locker}."
+      ],
+      "wrong": [
+        "I keep my horse in my school locker."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɑkɚ/"
+    },
+    {
+      "lemma": "uniform",
+      "pos": "noun",
+      "meaning": "Special clothes that all students at a school wear.",
+      "examples": [
+        "Our school {uniform} is blue and white."
+      ],
+      "wrong": [
+        "Every student wears a different uniform in every color."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈjunəˌfɔrm/"
+    },
+    {
+      "lemma": "capital letter",
+      "pos": "noun",
+      "meaning": "A big letter, like A, B or C.",
+      "examples": [
+        "Start your name with a {capital letter}."
+      ],
+      "wrong": [
+        "A capital letter is the smallest letter."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkæpətəl ˈlɛtɚ/"
+    },
+    {
+      "lemma": "question mark",
+      "pos": "noun",
+      "meaning": "The sign ? at the end of a question.",
+      "examples": [
+        "Put a {question mark} after ’Who are you’."
+      ],
+      "wrong": [
+        "Put a question mark at the end of ’I am happy.’"
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkwɛstʃən ˌmɑrk/"
+    },
+    {
+      "lemma": "spelling",
+      "pos": "noun",
+      "meaning": "The way the letters of a word are written.",
+      "examples": [
+        "Check your {spelling} before you hand it in."
+      ],
+      "wrong": [
+        "My spelling is the way I say a word."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈspɛlɪŋ/"
+    },
+    {
+      "lemma": "color",
+      "pos": "verb",
+      "meaning": "To put colors on a picture with pens or crayons.",
+      "examples": [
+        "{Color} the apple red."
+      ],
+      "wrong": [
+        "Color the picture with only water and no paint."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkʌlɚ/"
+    },
+    {
+      "lemma": "highlighter",
+      "pos": "noun",
+      "meaning": "A pen with bright ink to mark important words.",
+      "examples": [
+        "Mark the new words with a yellow {highlighter}."
+      ],
+      "wrong": [
+        "I use my highlighter to make the words disappear."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhaɪˌlaɪtɚ/"
+    },
+    {
+      "lemma": "I don’t understand",
+      "pos": "phrase",
+      "meaning": "Words you say when something is not clear to you.",
+      "examples": [
+        "Sorry, {I don’t understand}. Can you say it again?"
+      ],
+      "wrong": [
+        "I don’t understand, he said, and then he explained it all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/aɪ ˈdoʊnt ˌʌndɚˈstænd/"
+    },
+    {
+      "lemma": "flashcard",
+      "pos": "noun",
+      "meaning": "A small card with a word or picture to help you learn.",
+      "examples": [
+        "The teacher shows a {flashcard} with a cat."
+      ],
+      "wrong": [
+        "A flashcard is a big table for the class."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈflæʃˌkɑrd/"
+    },
+    {
+      "lemma": "stapler",
+      "pos": "noun",
+      "meaning": "A tool that joins papers with small metal pins.",
+      "examples": [
+        "Use the {stapler} to join the pages."
+      ],
+      "wrong": [
+        "I use a stapler to cut paper in half."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsteɪplɚ/"
+    },
+    {
+      "lemma": "paper clip",
+      "pos": "noun",
+      "meaning": "A small bent wire that holds papers together.",
+      "examples": [
+        "Hold the pages with a {paper clip}."
+      ],
+      "wrong": [
+        "I use a paper clip to write my name."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpeɪpɚ ˌklɪp/"
+    },
+    {
+      "lemma": "listen and repeat",
+      "pos": "phrase",
+      "meaning": "To hear words and then say them again.",
+      "examples": [
+        "{Listen and repeat} after me: ’apple’."
+      ],
+      "wrong": [
+        "Listen and repeat means say nothing at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɪsən ən rɪˈpit/"
+    },
+    {
+      "lemma": "lunchbox",
+      "pos": "noun",
+      "meaning": "A small box for carrying your lunch to school.",
+      "examples": [
+        "My sandwich is in my {lunchbox}."
+      ],
+      "wrong": [
+        "I keep my pencils and books in my lunchbox and my lunch in my pencil case."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlʌntʃˌbɑks/"
+    }
+  ]
+}

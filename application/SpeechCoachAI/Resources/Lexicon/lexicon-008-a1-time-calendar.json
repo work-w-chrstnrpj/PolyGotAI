@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-time-calendar",
+    "title": "Time and calendar",
+    "level": "A1",
+    "tagline": "Days, seasons and when",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "day",
+      "pos": "noun",
+      "meaning": "A period of 24 hours.",
+      "examples": [
+        "There are seven {days} in a week."
+      ],
+      "wrong": [
+        "A day is one minute long."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/deɪ/"
+    },
+    {
+      "lemma": "hour",
+      "pos": "noun",
+      "meaning": "A period of sixty minutes.",
+      "examples": [
+        "The film is two {hours} long."
+      ],
+      "wrong": [
+        "An hour has ten minutes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/aʊɚ/"
+    },
+    {
+      "lemma": "minute",
+      "pos": "noun",
+      "meaning": "A period of sixty seconds.",
+      "examples": [
+        "Wait a {minute}, please."
+      ],
+      "wrong": [
+        "A minute is longer than a day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmɪnɪt/"
+    },
+    {
+      "lemma": "second",
+      "pos": "noun",
+      "meaning": "A very short time; one sixtieth of a minute.",
+      "examples": [
+        "It only takes a {second}."
+      ],
+      "wrong": [
+        "A second is longer than a year."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "moment"
+      ],
+      "ipa": "/ˈsɛkənd/"
+    },
+    {
+      "lemma": "weekend",
+      "pos": "noun",
+      "meaning": "Saturday and Sunday.",
+      "examples": [
+        "What are you doing this {weekend}?"
+      ],
+      "wrong": [
+        "The weekend is Monday and Tuesday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwikˌɛnd/"
+    },
+    {
+      "lemma": "Monday",
+      "pos": "noun",
+      "meaning": "The day after Sunday.",
+      "examples": [
+        "School starts on {Monday}."
+      ],
+      "wrong": [
+        "Monday is the day after Tuesday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmʌndeɪ/"
+    },
+    {
+      "lemma": "Friday",
+      "pos": "noun",
+      "meaning": "The day before Saturday.",
+      "examples": [
+        "We go out on {Friday} nights."
+      ],
+      "wrong": [
+        "Friday comes after Saturday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfraɪdeɪ/"
+    },
+    {
+      "lemma": "Sunday",
+      "pos": "noun",
+      "meaning": "The day after Saturday.",
+      "examples": [
+        "We visit Grandma on {Sunday}."
+      ],
+      "wrong": [
+        "Sunday is in the middle of the week."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsʌndeɪ/"
+    },
+    {
+      "lemma": "January",
+      "pos": "noun",
+      "meaning": "The first month of the year.",
+      "examples": [
+        "It’s very cold in {January}."
+      ],
+      "wrong": [
+        "January is the last month of the year."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdʒænjuˌɛri/"
+    },
+    {
+      "lemma": "summer",
+      "pos": "noun",
+      "meaning": "The hottest season of the year.",
+      "examples": [
+        "We go to the beach in {summer}."
+      ],
+      "wrong": [
+        "Summer is the coldest time of the year."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsʌmɚ/",
+      "antonyms": [
+        "winter"
+      ]
+    },
+    {
+      "lemma": "winter",
+      "pos": "noun",
+      "meaning": "The coldest season of the year.",
+      "examples": [
+        "It snows here in {winter}."
+      ],
+      "wrong": [
+        "In winter we swim in the hot sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɪntɚ/",
+      "antonyms": [
+        "summer"
+      ]
+    },
+    {
+      "lemma": "spring",
+      "pos": "noun",
+      "meaning": "The season after winter, when plants start to grow.",
+      "examples": [
+        "Flowers come out in {spring}."
+      ],
+      "wrong": [
+        "Spring comes after summer and before autumn."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sprɪŋ/"
+    },
+    {
+      "lemma": "autumn",
+      "pos": "noun",
+      "meaning": "The season after summer, when leaves fall.",
+      "examples": [
+        "The leaves turn brown in {autumn}."
+      ],
+      "wrong": [
+        "In autumn the trees get new green leaves."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fall"
+      ],
+      "ipa": "/ˈɔtəm/"
+    },
+    {
+      "lemma": "now",
+      "pos": "adverb",
+      "meaning": "At this time.",
+      "examples": [
+        "I’m busy {now}; call me later."
+      ],
+      "wrong": [
+        "I am doing it now, last year."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/naʊ/",
+      "antonyms": [
+        "then"
+      ]
+    },
+    {
+      "lemma": "later",
+      "pos": "adverb",
+      "meaning": "At a time after now.",
+      "examples": [
+        "See you {later}!"
+      ],
+      "wrong": [
+        "I’ll do it later, yesterday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "afterwards"
+      ],
+      "ipa": "/ˈleɪtɚ/",
+      "antonyms": [
+        "earlier"
+      ]
+    },
+    {
+      "lemma": "soon",
+      "pos": "adverb",
+      "meaning": "In a short time from now.",
+      "examples": [
+        "The bus will come {soon}."
+      ],
+      "wrong": [
+        "Dinner is ready soon, in ten years."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "shortly"
+      ],
+      "ipa": "/sun/"
+    },
+    {
+      "lemma": "sometimes",
+      "pos": "adverb",
+      "meaning": "On some occasions, but not always.",
+      "examples": [
+        "I {sometimes} walk to work."
+      ],
+      "wrong": [
+        "I sometimes eat, every minute of every day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "occasionally"
+      ],
+      "ipa": "/ˈsʌmˌtaɪmz/"
+    },
+    {
+      "lemma": "usually",
+      "pos": "adverb",
+      "meaning": "In the normal way; most times.",
+      "examples": [
+        "I {usually} have tea for breakfast."
+      ],
+      "wrong": [
+        "I usually go by bus, but I have never taken a bus."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "normally"
+      ],
+      "ipa": "/ˈjuʒuəli/"
+    },
+    {
+      "lemma": "again",
+      "pos": "adverb",
+      "meaning": "One more time.",
+      "examples": [
+        "Can you say that {again}?"
+      ],
+      "wrong": [
+        "I saw the film again for the first time."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "once more"
+      ],
+      "ipa": "/əˈɡɛn/"
+    },
+    {
+      "lemma": "late",
+      "pos": "adjective",
+      "meaning": "After the usual or expected time.",
+      "examples": [
+        "Sorry I’m {late}; the train was slow."
+      ],
+      "wrong": [
+        "I was late, so I arrived first."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/leɪt/",
+      "antonyms": [
+        "early"
+      ]
+    },
+    {
+      "lemma": "birthday party",
+      "pos": "noun",
+      "meaning": "A party to celebrate the day someone was born.",
+      "examples": [
+        "Come to my {birthday party} on Saturday."
+      ],
+      "wrong": [
+        "We had a birthday party to say goodbye to a stranger."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɝθˌdeɪ ˌpɑrti/"
+    },
+    {
+      "lemma": "holiday",
+      "pos": "noun",
+      "meaning": "A time when you don’t work or go to school.",
+      "examples": [
+        "We are on {holiday} in August."
+      ],
+      "wrong": [
+        "On holiday I work every day at the office."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "vacation"
+      ],
+      "ipa": "/ˈhɑləˌdeɪ/"
+    },
+    {
+      "lemma": "date",
+      "pos": "noun",
+      "meaning": "The number of the day, month and year.",
+      "examples": [
+        "What’s the {date} today?"
+      ],
+      "wrong": [
+        "The date is a blue color."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/deɪt/"
+    },
+    {
+      "lemma": "noon",
+      "pos": "noun",
+      "meaning": "Twelve o’clock in the middle of the day.",
+      "examples": [
+        "We eat lunch at {noon}."
+      ],
+      "wrong": [
+        "Noon is in the middle of the night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "midday"
+      ],
+      "ipa": "/nun/",
+      "antonyms": [
+        "midnight"
+      ]
+    },
+    {
+      "lemma": "midnight",
+      "pos": "noun",
+      "meaning": "Twelve o’clock at night.",
+      "examples": [
+        "The party ended at {midnight}."
+      ],
+      "wrong": [
+        "At midnight the sun is high in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmɪdˌnaɪt/",
+      "antonyms": [
+        "noon"
+      ]
+    },
+    {
+      "lemma": "calendar",
+      "pos": "noun",
+      "meaning": "A page or chart showing the days, weeks and months.",
+      "examples": [
+        "Write the date on the {calendar}."
+      ],
+      "wrong": [
+        "I check the calendar to know the weather."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkæləndɚ/"
+    },
+    {
+      "lemma": "o’clock",
+      "pos": "adverb",
+      "meaning": "Used with numbers to say the exact hour.",
+      "examples": [
+        "The class starts at nine {o’clock}."
+      ],
+      "wrong": [
+        "The class starts at nine o’clock and a half minute."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈklɑk/"
+    },
+    {
+      "lemma": "first",
+      "pos": "adjective",
+      "meaning": "Coming before all others.",
+      "examples": [
+        "January is the {first} month."
+      ],
+      "wrong": [
+        "He finished first, after everyone else."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɝst/",
+      "antonyms": [
+        "last"
+      ]
+    },
+    {
+      "lemma": "last",
+      "pos": "adjective",
+      "meaning": "Coming after all others.",
+      "examples": [
+        "December is the {last} month of the year."
+      ],
+      "wrong": [
+        "Z is the last letter, before A."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "final"
+      ],
+      "ipa": "/læst/",
+      "antonyms": [
+        "first"
+      ]
+    },
+    {
+      "lemma": "next",
+      "pos": "adjective",
+      "meaning": "Coming just after this one.",
+      "examples": [
+        "See you {next} week."
+      ],
+      "wrong": [
+        "I’ll see you next week, which was yesterday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "following"
+      ],
+      "ipa": "/nɛkst/",
+      "antonyms": [
+        "previous",
+        "last"
+      ]
+    },
+    {
+      "lemma": "before",
+      "pos": "preposition",
+      "meaning": "Earlier than.",
+      "examples": [
+        "Wash your hands {before} dinner."
+      ],
+      "wrong": [
+        "I eat breakfast before I wake up."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɪˈfɔr/",
+      "antonyms": [
+        "after"
+      ]
+    },
+    {
+      "lemma": "after",
+      "pos": "preposition",
+      "meaning": "Later than.",
+      "examples": [
+        "We play {after} school."
+      ],
+      "wrong": [
+        "I go to bed after I wake up in the morning."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈæftɚ/",
+      "antonyms": [
+        "before"
+      ]
+    },
+    {
+      "lemma": "during",
+      "pos": "preposition",
+      "meaning": "All through a period of time, or at some point in it.",
+      "examples": [
+        "Don’t talk {during} the film."
+      ],
+      "wrong": [
+        "He slept during the whole film, so he saw all of it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "throughout"
+      ],
+      "ipa": "/ˈdʊrɪŋ/"
+    },
+    {
+      "lemma": "age",
+      "pos": "noun",
+      "meaning": "How old someone is.",
+      "examples": [
+        "What is your {age}?"
+      ],
+      "wrong": [
+        "My age is ten kilos."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/eɪdʒ/"
+    },
+    {
+      "lemma": "hurry",
+      "pos": "verb",
+      "meaning": "To move or do something quickly because there is little time.",
+      "examples": [
+        "{Hurry}, or we’ll miss the bus!"
+      ],
+      "wrong": [
+        "I hurry, so I walk very slowly."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rush"
+      ],
+      "ipa": "/ˈhɝi/"
+    },
+    {
+      "lemma": "wake up",
+      "pos": "phrase",
+      "meaning": "To stop sleeping.",
+      "examples": [
+        "I {wake up} at seven."
+      ],
+      "wrong": [
+        "I wake up and fall asleep at once."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌweɪk ˈʌp/",
+      "antonyms": [
+        "fall asleep"
+      ]
+    },
+    {
+      "lemma": "stay",
+      "pos": "verb",
+      "meaning": "To remain in a place.",
+      "examples": [
+        "Can you {stay} for dinner?"
+      ],
+      "wrong": [
+        "I stay at home by going to the shop."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "remain"
+      ],
+      "ipa": "/steɪ/",
+      "antonyms": [
+        "leave",
+        "go"
+      ]
+    },
+    {
+      "lemma": "leave",
+      "pos": "verb",
+      "meaning": "To go away from a place.",
+      "examples": [
+        "The train {leaves} at five."
+      ],
+      "wrong": [
+        "I leave the house by coming inside."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "depart"
+      ],
+      "ipa": "/liv/",
+      "antonyms": [
+        "arrive",
+        "stay"
+      ]
+    },
+    {
+      "lemma": "arrive",
+      "pos": "verb",
+      "meaning": "To reach a place.",
+      "examples": [
+        "We {arrive} at the airport at noon."
+      ],
+      "wrong": [
+        "I arrived home, so I was still at work."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "reach"
+      ],
+      "ipa": "/əˈraɪv/",
+      "antonyms": [
+        "leave",
+        "depart"
+      ]
+    },
+    {
+      "lemma": "past",
+      "pos": "noun",
+      "meaning": "The time before now.",
+      "examples": [
+        "In the {past}, people wrote letters."
+      ],
+      "wrong": [
+        "In the past means tomorrow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pæst/",
+      "antonyms": [
+        "future"
+      ]
+    }
+  ]
+}

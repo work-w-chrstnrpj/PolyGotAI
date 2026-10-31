@@ -34,7 +34,16 @@ struct CourseCatalogView: View {
                 KitCard {
                     Label(level, systemImage: "lock.fill").font(.title2.bold())
                         .accessibilityLabel("\(level), locked")
-                    if gate.canTakeJumpTest(to: level) {
+                    if let previous = JumpTest.checkedLevel(for: level), let progress = gate.progressToward(level) {
+                        // Natural unlock: every lesson of the level before, at 50% or more on the first try.
+                        Text("\(progress.done) of \(progress.total) \(previous) lessons done at 50%+")
+                            .font(.subheadline).foregroundStyle(Kit.secondary)
+                            .accessibilityIdentifier("level.progress.\(level)")
+                        ProgressView(value: Double(progress.done), total: Double(max(progress.total, 1))).tint(Kit.accent)
+                            .accessibilityHidden(true)
+                    }
+                    if gate.canTakeJumpTest(to: level), let checked = JumpTest.checkedLevel(for: level) {
+                        Text("Or skip ahead: a test on \(checked)").font(.subheadline).foregroundStyle(Kit.secondary)
                         Button("Take the \(level) test") {
                             testTarget = level
                             showTest = true

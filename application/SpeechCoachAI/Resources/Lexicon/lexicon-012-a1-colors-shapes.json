@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-colors-shapes",
+    "title": "Colors and shapes",
+    "level": "A1",
+    "tagline": "Red, round, big and small",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "yellow",
+      "pos": "adjective",
+      "meaning": "The color of the sun or a lemon.",
+      "examples": [
+        "She has a {yellow} raincoat."
+      ],
+      "wrong": [
+        "The night sky is yellow and black."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈjɛloʊ/"
+    },
+    {
+      "lemma": "orange",
+      "pos": "adjective",
+      "meaning": "The color between red and yellow, like a carrot.",
+      "examples": [
+        "The leaves turn {orange} in autumn."
+      ],
+      "wrong": [
+        "The grass is bright orange in spring."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɔrɪndʒ/"
+    },
+    {
+      "lemma": "pink",
+      "pos": "adjective",
+      "meaning": "A light red color.",
+      "examples": [
+        "She is wearing {pink} shoes."
+      ],
+      "wrong": [
+        "Snow is pink and cold."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɪŋk/"
+    },
+    {
+      "lemma": "purple",
+      "pos": "adjective",
+      "meaning": "A color made of red and blue.",
+      "examples": [
+        "Grapes are often {purple}."
+      ],
+      "wrong": [
+        "Milk is purple and white."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "violet"
+      ],
+      "ipa": "/ˈpɝpəl/"
+    },
+    {
+      "lemma": "brown",
+      "pos": "adjective",
+      "meaning": "The color of chocolate or wood.",
+      "examples": [
+        "He has {brown} eyes."
+      ],
+      "wrong": [
+        "Snow is brown and white."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/braʊn/"
+    },
+    {
+      "lemma": "gray",
+      "pos": "adjective",
+      "meaning": "The color between black and white, like rain clouds.",
+      "examples": [
+        "The sky is {gray} today."
+      ],
+      "wrong": [
+        "The gray sun is shining in the blue sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡreɪ/"
+    },
+    {
+      "lemma": "gold",
+      "pos": "adjective",
+      "meaning": "Having a bright yellow color like a ring or a coin.",
+      "examples": [
+        "She has a {gold} watch."
+      ],
+      "wrong": [
+        "Her gold dress is dark green."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "golden"
+      ],
+      "ipa": "/ɡoʊld/"
+    },
+    {
+      "lemma": "silver",
+      "pos": "adjective",
+      "meaning": "Having a shiny gray color like a spoon or a coin.",
+      "examples": [
+        "He drives a {silver} car."
+      ],
+      "wrong": [
+        "The silver box is bright red."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsɪlvɚ/"
+    },
+    {
+      "lemma": "colorful",
+      "pos": "adjective",
+      "meaning": "Having many bright colors.",
+      "examples": [
+        "The garden is full of {colorful} flowers."
+      ],
+      "wrong": [
+        "The colorful picture is all gray."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bright"
+      ],
+      "ipa": "/ˈkʌlɚfəl/"
+    },
+    {
+      "lemma": "top",
+      "pos": "noun",
+      "meaning": "The highest part of something.",
+      "examples": [
+        "Write your name at the {top} of the page."
+      ],
+      "wrong": [
+        "The top of the box is the part on the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɑp/",
+      "antonyms": [
+        "bottom"
+      ]
+    },
+    {
+      "lemma": "shiny",
+      "pos": "adjective",
+      "meaning": "Smooth and giving back light.",
+      "examples": [
+        "She has new {shiny} shoes."
+      ],
+      "wrong": [
+        "The shiny car is dirty and dull."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bright"
+      ],
+      "ipa": "/ˈʃaɪni/",
+      "antonyms": [
+        "dull"
+      ]
+    },
+    {
+      "lemma": "shape",
+      "pos": "noun",
+      "meaning": "The outside form of something, like round or square.",
+      "examples": [
+        "A ball has a round {shape}."
+      ],
+      "wrong": [
+        "Red is my favorite shape."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "form"
+      ],
+      "ipa": "/ʃeɪp/"
+    },
+    {
+      "lemma": "circle",
+      "pos": "noun",
+      "meaning": "A round shape like the letter O.",
+      "examples": [
+        "Draw a {circle} for the sun."
+      ],
+      "wrong": [
+        "A circle has four straight sides."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ring"
+      ],
+      "ipa": "/ˈsɝkəl/"
+    },
+    {
+      "lemma": "square",
+      "pos": "noun",
+      "meaning": "A shape with four equal sides.",
+      "examples": [
+        "The window is a {square}."
+      ],
+      "wrong": [
+        "A square has only three sides."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skwɛr/"
+    },
+    {
+      "lemma": "triangle",
+      "pos": "noun",
+      "meaning": "A shape with three straight sides.",
+      "examples": [
+        "Cut the paper into a {triangle}."
+      ],
+      "wrong": [
+        "A triangle is as round as a ball."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtraɪˌæŋɡəl/"
+    },
+    {
+      "lemma": "rectangle",
+      "pos": "noun",
+      "meaning": "A shape with four sides, two long and two short.",
+      "examples": [
+        "A door is a {rectangle}."
+      ],
+      "wrong": [
+        "A rectangle has five round sides."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈrɛkˌtæŋɡəl/"
+    },
+    {
+      "lemma": "oval",
+      "pos": "noun",
+      "meaning": "A shape like an egg.",
+      "examples": [
+        "The mirror is an {oval}."
+      ],
+      "wrong": [
+        "An oval has three sharp corners."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈoʊvəl/"
+    },
+    {
+      "lemma": "cube",
+      "pos": "noun",
+      "meaning": "A solid shape with six square sides, like a dice.",
+      "examples": [
+        "Put an ice {cube} in my drink."
+      ],
+      "wrong": [
+        "A cube is flat like a piece of paper."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "block"
+      ],
+      "ipa": "/kjub/"
+    },
+    {
+      "lemma": "line",
+      "pos": "noun",
+      "meaning": "A long thin mark.",
+      "examples": [
+        "Draw a {line} under the word."
+      ],
+      "wrong": [
+        "A line is a big round spot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "stripe"
+      ],
+      "ipa": "/laɪn/"
+    },
+    {
+      "lemma": "dot",
+      "pos": "noun",
+      "meaning": "A very small round mark.",
+      "examples": [
+        "Put a {dot} at the end of the sentence."
+      ],
+      "wrong": [
+        "The dot is so big it covers the whole page."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "spot",
+        "point"
+      ],
+      "ipa": "/dɑt/"
+    },
+    {
+      "lemma": "stripe",
+      "pos": "noun",
+      "meaning": "A long thin band of color.",
+      "examples": [
+        "The flag has a red {stripe}."
+      ],
+      "wrong": [
+        "A stripe is a round spot of color."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "line",
+        "band"
+      ],
+      "ipa": "/straɪp/"
+    },
+    {
+      "lemma": "spot",
+      "pos": "noun",
+      "meaning": "A small round mark of a different color.",
+      "examples": [
+        "The dog has a black {spot} on its back."
+      ],
+      "wrong": [
+        "The spot covers the whole wall."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "dot"
+      ],
+      "ipa": "/spɑt/"
+    },
+    {
+      "lemma": "arrow",
+      "pos": "noun",
+      "meaning": "A sign like a line with a point that shows a direction.",
+      "examples": [
+        "Follow the {arrow} to the exit."
+      ],
+      "wrong": [
+        "The arrow points in no direction."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈæroʊ/"
+    },
+    {
+      "lemma": "diamond",
+      "pos": "noun",
+      "meaning": "A shape with four equal sides that stands on one corner.",
+      "examples": [
+        "The kite is a {diamond}."
+      ],
+      "wrong": [
+        "A diamond is a round shape with no corners."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdaɪmənd/"
+    },
+    {
+      "lemma": "crayon",
+      "pos": "noun",
+      "meaning": "A colored stick of wax that children draw with.",
+      "examples": [
+        "The child draws with a green {crayon}."
+      ],
+      "wrong": [
+        "I eat soup with a crayon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkreɪˌɑn/"
+    },
+    {
+      "lemma": "round",
+      "pos": "adjective",
+      "meaning": "Shaped like a circle or a ball.",
+      "examples": [
+        "The table is {round}."
+      ],
+      "wrong": [
+        "The round box has four sharp corners."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "circular"
+      ],
+      "ipa": "/raʊnd/"
+    },
+    {
+      "lemma": "black and white",
+      "pos": "phrase",
+      "meaning": "Having only black, white and gray, with no other colors.",
+      "examples": [
+        "We watched an old {black and white} film."
+      ],
+      "wrong": [
+        "The black and white photo is full of red and green."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌblæk ən ˈwaɪt/"
+    },
+    {
+      "lemma": "tiny",
+      "pos": "adjective",
+      "meaning": "Very, very small.",
+      "examples": [
+        "A {tiny} ant is on my hand."
+      ],
+      "wrong": [
+        "The tiny elephant is as big as a house."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "very small"
+      ],
+      "ipa": "/ˈtaɪni/",
+      "antonyms": [
+        "huge",
+        "giant"
+      ]
+    },
+    {
+      "lemma": "huge",
+      "pos": "adjective",
+      "meaning": "Very, very big.",
+      "examples": [
+        "They live in a {huge} house."
+      ],
+      "wrong": [
+        "The huge mouse fits in my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "very big",
+        "enormous"
+      ],
+      "ipa": "/hjudʒ/",
+      "antonyms": [
+        "tiny"
+      ]
+    },
+    {
+      "lemma": "pattern",
+      "pos": "noun",
+      "meaning": "Lines, shapes or colors repeated on something.",
+      "examples": [
+        "Her dress has a {pattern} of red spots."
+      ],
+      "wrong": [
+        "The plain white wall has a busy pattern."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "design"
+      ],
+      "ipa": "/ˈpætɚn/"
+    },
+    {
+      "lemma": "large",
+      "pos": "adjective",
+      "meaning": "Big in size.",
+      "examples": [
+        "Can I have a {large} coffee?"
+      ],
+      "wrong": [
+        "The large shoe is too small for a baby."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "big"
+      ],
+      "ipa": "/lɑrdʒ/",
+      "antonyms": [
+        "small"
+      ]
+    },
+    {
+      "lemma": "medium",
+      "pos": "adjective",
+      "meaning": "Not big and not small.",
+      "examples": [
+        "I wear a {medium} T-shirt."
+      ],
+      "wrong": [
+        "Medium is the biggest size of all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "middle-sized"
+      ],
+      "ipa": "/ˈmidiəm/"
+    },
+    {
+      "lemma": "pyramid",
+      "pos": "noun",
+      "meaning": "A shape with a square base and three-sided walls that meet at the top.",
+      "examples": [
+        "The children built a {pyramid} of blocks."
+      ],
+      "wrong": [
+        "A pyramid is as round as a ball."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɪrəmɪd/"
+    },
+    {
+      "lemma": "bottom",
+      "pos": "noun",
+      "meaning": "The lowest part of something.",
+      "examples": [
+        "Sign your name at the {bottom} of the page."
+      ],
+      "wrong": [
+        "The bottom of the hill is its highest point."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɑtəm/",
+      "antonyms": [
+        "top"
+      ]
+    },
+    {
+      "lemma": "cone",
+      "pos": "noun",
+      "meaning": "A shape that is round at one end and pointed at the other.",
+      "examples": [
+        "I had ice cream in a {cone}."
+      ],
+      "wrong": [
+        "A cone is flat and square like a card."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/koʊn/"
+    },
+    {
+      "lemma": "giant",
+      "pos": "adjective",
+      "meaning": "Very, very big.",
+      "examples": [
+        "There is a {giant} tree in the park."
+      ],
+      "wrong": [
+        "The giant ant is too small to see."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "huge",
+        "enormous"
+      ],
+      "ipa": "/ˈdʒaɪənt/",
+      "antonyms": [
+        "tiny"
+      ]
+    },
+    {
+      "lemma": "half",
+      "pos": "noun",
+      "meaning": "One of two equal parts of something.",
+      "examples": [
+        "Cut the apple in {half}."
+      ],
+      "wrong": [
+        "Half of the cake is all of it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hæf/",
+      "antonyms": [
+        "whole"
+      ]
+    },
+    {
+      "lemma": "middle",
+      "pos": "noun",
+      "meaning": "The part in the center of something.",
+      "examples": [
+        "Stand in the {middle} of the room."
+      ],
+      "wrong": [
+        "The middle is the very end of the line."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "center"
+      ],
+      "ipa": "/ˈmɪdəl/"
+    },
+    {
+      "lemma": "side",
+      "pos": "noun",
+      "meaning": "The left or right part of something.",
+      "examples": [
+        "There is a door on the {side} of the house."
+      ],
+      "wrong": [
+        "The side of the box is its top."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/saɪd/"
+    },
+    {
+      "lemma": "edge",
+      "pos": "noun",
+      "meaning": "The outside line or end of something.",
+      "examples": [
+        "Don’t stand near the {edge} of the table."
+      ],
+      "wrong": [
+        "The edge of the plate is in its middle."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "border"
+      ],
+      "ipa": "/ɛdʒ/"
+    }
+  ]
+}

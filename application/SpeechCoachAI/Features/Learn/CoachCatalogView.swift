@@ -95,6 +95,12 @@ struct CoachTrackView: View {
                 } else {
                     FlowLayout(spacing: 10) { stageButtons }
                 }
+                if !earlierLessons.isEmpty {
+                    NavigationLink("Earlier lessons") {
+                        CoachUnitView(storage: storage, install: install,
+                                      unit: TrackUnit(id: "archived", title: "Earlier lessons", lessons: earlierLessons), onSpeak: onSpeak)
+                    }.accessibilityIdentifier("track.archived")
+                }
                 if let stage {
                     ForEach(stage.units) { unit in
                         NavigationLink {
@@ -110,15 +116,16 @@ struct CoachTrackView: View {
         .onAppear { journeys = (try? storage.repository?.allLessonJourneys()) ?? [] }
     }
 
+    private var earlierLessons: [ResolvedLesson] {
+        install.tracks.archivedLessons.filter { lesson in
+            lesson.trackId == track.id && journeys.contains { $0.lessonID == lesson.id && $0.contentVersion == lesson.contentVersion }
+        }
+    }
+
     private var stageButtons: some View {
         ForEach(track.stages) { item in
-            Button { selectedStage = item.id } label: {
-                Text(item.title).font(.headline).fixedSize(horizontal: false, vertical: true)
-                    .padding(.horizontal, 16).padding(.vertical, 10).frame(minHeight: 44)
-                    .foregroundStyle(Kit.ink)
-                    .background(stage?.id == item.id ? Kit.soft : Kit.surface, in: Capsule())
-                    .overlay(Capsule().stroke(stage?.id == item.id ? Kit.accent : .clear))
-            }.buttonStyle(.plain)
+            Button(item.title) { selectedStage = item.id }
+                .buttonStyle(KitChipStyle(selected: stage?.id == item.id))
                 .accessibilityAddTraits(stage?.id == item.id ? .isSelected : [])
                 .accessibilityIdentifier("track.stage.\(item.id)")
         }

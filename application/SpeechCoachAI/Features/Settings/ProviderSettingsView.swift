@@ -12,7 +12,7 @@ struct ProviderSettingsView: View {
     }
 
     var body: some View {
-        Form {
+        Form { KitRows {
             Section("Alibaba Cloud · Singapore") {
                 SecureField("Workspace ID", text: $model.workspace)
                     .textInputAutocapitalization(.never).autocorrectionDisabled().privacySensitive()
@@ -36,7 +36,7 @@ struct ProviderSettingsView: View {
                 }
             }
             if let message = model.message { Section { Text(message).accessibilityIdentifier("provider.message") } }
-        }
+        }}
         .navigationTitle("Provider setup").navigationBarTitleDisplayMode(.inline).foregroundStyle(Kit.ink)
         .confirmationDialog("Remove the saved key?", isPresented: $showRemoval, titleVisibility: .visible) {
             Button("Remove key", role: .destructive) { model.remove() }

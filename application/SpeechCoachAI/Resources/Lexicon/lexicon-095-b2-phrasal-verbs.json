@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-phrasal-verbs",
+    "title": "Phrasal verbs",
+    "level": "B2",
+    "tagline": "Bring about, come across, rule out",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "bring about",
+      "pos": "verb",
+      "meaning": "To make something happen, especially a change.",
+      "examples": [
+        "The new law {brought about} big changes in schools."
+      ],
+      "wrong": [
+        "Her campaign brought about change by stopping anything from happening."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cause",
+        "lead to",
+        "produce"
+      ],
+      "ipa": "/brɪŋ əˈbaʊt/"
+    },
+    {
+      "lemma": "rule out",
+      "pos": "verb",
+      "meaning": "To decide that something is not possible or not suitable.",
+      "examples": [
+        "Police have {ruled out} an accident."
+      ],
+      "wrong": [
+        "The doctor ruled out the flu, so she said it was definitely the flu."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exclude",
+        "eliminate"
+      ],
+      "ipa": "/rul ˈaʊt/"
+    },
+    {
+      "lemma": "hold back",
+      "pos": "verb",
+      "meaning": "To stop yourself from showing a feeling or doing something.",
+      "examples": [
+        "She {held back} her tears during the speech."
+      ],
+      "wrong": [
+        "He held back his anger by shouting at everyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "restrain",
+        "suppress"
+      ],
+      "ipa": "/hoʊld ˈbæk/"
+    },
+    {
+      "lemma": "bring forward",
+      "pos": "verb",
+      "meaning": "To move an event to an earlier date or time.",
+      "examples": [
+        "The meeting has been {brought forward} to Monday."
+      ],
+      "wrong": [
+        "They brought the exam forward by moving it two weeks later."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "move up"
+      ],
+      "ipa": "/brɪŋ ˈfɔrwɚd/",
+      "antonyms": [
+        "postpone"
+      ]
+    },
+    {
+      "lemma": "call for",
+      "pos": "verb",
+      "meaning": "To say publicly that something is needed or should happen.",
+      "examples": [
+        "Parents are {calling for} safer roads near the school."
+      ],
+      "wrong": [
+        "The group called for a new park by saying nobody needs one."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "demand",
+        "urge"
+      ],
+      "ipa": "/ˈkɔl fɔr/"
+    },
+    {
+      "lemma": "come forward",
+      "pos": "verb",
+      "meaning": "To offer help or information, especially to the police.",
+      "examples": [
+        "Two witnesses {came forward} after the crash."
+      ],
+      "wrong": [
+        "She came forward with information by hiding and saying nothing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "step forward"
+      ],
+      "ipa": "/kʌm ˈfɔrwɚd/"
+    },
+    {
+      "lemma": "do without",
+      "pos": "verb",
+      "meaning": "To manage even though you do not have something.",
+      "examples": [
+        "We’ll have to {do without} a car for a while."
+      ],
+      "wrong": [
+        "I can’t do without coffee, so I never drink it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "manage without",
+        "go without"
+      ],
+      "ipa": "/du wɪðˈaʊt/"
+    },
+    {
+      "lemma": "go along with",
+      "pos": "verb",
+      "meaning": "To agree with or accept an idea or plan.",
+      "examples": [
+        "I’ll {go along with} whatever you decide."
+      ],
+      "wrong": [
+        "He went along with the plan by refusing to take part."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "agree to",
+        "accept"
+      ],
+      "ipa": "/ɡoʊ əˈlɔŋ wɪð/"
+    },
+    {
+      "lemma": "die down",
+      "pos": "verb",
+      "meaning": "To become gradually weaker or quieter.",
+      "examples": [
+        "We waited for the wind to {die down}."
+      ],
+      "wrong": [
+        "The noise died down until it was louder than ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "subside",
+        "fade"
+      ],
+      "ipa": "/daɪ ˈdaʊn/"
+    },
+    {
+      "lemma": "pull through",
+      "pos": "verb",
+      "meaning": "To get better after a serious illness, or survive a hard time.",
+      "examples": [
+        "The doctors think he will {pull through}."
+      ],
+      "wrong": [
+        "She pulled through the illness and never recovered."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "recover",
+        "survive"
+      ],
+      "ipa": "/pʊl ˈθru/"
+    },
+    {
+      "lemma": "get across",
+      "pos": "verb",
+      "meaning": "To make people understand an idea or message.",
+      "examples": [
+        "The ad {gets across} a simple message."
+      ],
+      "wrong": [
+        "She got her point across, so nobody understood what she meant."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "communicate",
+        "convey"
+      ],
+      "ipa": "/ɡɛt əˈkrɔs/"
+    },
+    {
+      "lemma": "single out",
+      "pos": "verb",
+      "meaning": "To choose one person or thing from a group for special attention.",
+      "examples": [
+        "The teacher {singled out} Maria for praise."
+      ],
+      "wrong": [
+        "The coach singled out the whole team equally, without picking anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pick out",
+        "select"
+      ],
+      "ipa": "/ˈsɪŋɡəl ˈaʊt/"
+    },
+    {
+      "lemma": "play down",
+      "pos": "verb",
+      "meaning": "To make something seem less important or serious than it is.",
+      "examples": [
+        "The company {played down} the problem."
+      ],
+      "wrong": [
+        "He played down the danger by shouting that it was a disaster."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "downplay",
+        "minimize"
+      ],
+      "ipa": "/pleɪ ˈdaʊn/",
+      "antonyms": [
+        "exaggerate"
+      ]
+    },
+    {
+      "lemma": "back down",
+      "pos": "verb",
+      "meaning": "To stop insisting on something after people oppose you.",
+      "examples": [
+        "After the protest, the council {backed down}."
+      ],
+      "wrong": [
+        "He backed down and refused to change his position at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "give way",
+        "yield"
+      ],
+      "ipa": "/bæk ˈdaʊn/"
+    },
+    {
+      "lemma": "wipe out",
+      "pos": "verb",
+      "meaning": "To destroy something completely.",
+      "examples": [
+        "The flood {wiped out} the whole crop."
+      ],
+      "wrong": [
+        "The disease wiped out the population, which grew larger than ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "destroy",
+        "eliminate",
+        "erase"
+      ],
+      "ipa": "/waɪp ˈaʊt/"
+    },
+    {
+      "lemma": "think through",
+      "pos": "verb",
+      "meaning": "To consider all the possible results of a plan carefully.",
+      "examples": [
+        "Have you {thought through} what you’ll do next?"
+      ],
+      "wrong": [
+        "She thought the plan through by deciding in two seconds without any thought."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "consider",
+        "think over"
+      ],
+      "ipa": "/θɪŋk ˈθru/"
+    },
+    {
+      "lemma": "narrow down",
+      "pos": "verb",
+      "meaning": "To reduce a number of choices to fewer.",
+      "examples": [
+        "We {narrowed down} the list to three hotels."
+      ],
+      "wrong": [
+        "They narrowed down the options from five to fifty."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "reduce",
+        "limit"
+      ],
+      "ipa": "/ˈnæroʊ ˈdaʊn/"
+    },
+    {
+      "lemma": "put forward",
+      "pos": "verb",
+      "meaning": "To suggest an idea or plan for people to consider.",
+      "examples": [
+        "She {put forward} a plan to save money."
+      ],
+      "wrong": [
+        "He put forward a proposal by keeping it secret from everyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "propose",
+        "suggest"
+      ],
+      "ipa": "/pʊt ˈfɔrwɚd/"
+    },
+    {
+      "lemma": "win over",
+      "pos": "verb",
+      "meaning": "To persuade someone to support or like you.",
+      "examples": [
+        "Her honest speech {won over} the audience."
+      ],
+      "wrong": [
+        "He won over the voters, so they all turned against him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "persuade",
+        "convince"
+      ],
+      "ipa": "/wɪn ˈoʊvɚ/"
+    },
+    {
+      "lemma": "account for",
+      "pos": "verb",
+      "meaning": "To explain the reason for something, or to form a part of a total.",
+      "examples": [
+        "Bad weather {accounts for} the late trains."
+      ],
+      "wrong": [
+        "Students account for half the town’s population, so there are hardly any students."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "explain",
+        "make up"
+      ],
+      "ipa": "/əˈkaʊnt fɔr/"
+    },
+    {
+      "lemma": "pull out",
+      "pos": "verb",
+      "meaning": "To stop taking part in something, or to leave an agreement.",
+      "examples": [
+        "Two teams {pulled out} of the tournament."
+      ],
+      "wrong": [
+        "She pulled out of the race and finished in first place."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "withdraw",
+        "quit"
+      ],
+      "ipa": "/pʊl ˈaʊt/"
+    },
+    {
+      "lemma": "back out",
+      "pos": "verb",
+      "meaning": "To decide not to do something you agreed to do.",
+      "examples": [
+        "He {backed out} of the deal at the last minute."
+      ],
+      "wrong": [
+        "She backed out of the trip and went on it just as she had promised."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "withdraw",
+        "go back on"
+      ],
+      "ipa": "/bæk ˈaʊt/"
+    },
+    {
+      "lemma": "catch on",
+      "pos": "verb",
+      "meaning": "To become popular.",
+      "examples": [
+        "The new dance quickly {caught on} with teenagers."
+      ],
+      "wrong": [
+        "The app caught on, so nobody ever used it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "take off"
+      ],
+      "ipa": "/kætʃ ˈɑn/"
+    },
+    {
+      "lemma": "draw up",
+      "pos": "verb",
+      "meaning": "To prepare and write a plan, list or document.",
+      "examples": [
+        "The lawyer {drew up} a new contract."
+      ],
+      "wrong": [
+        "They drew up a list without writing anything down."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "draft",
+        "prepare"
+      ],
+      "ipa": "/drɔ ˈʌp/"
+    },
+    {
+      "lemma": "fall through",
+      "pos": "verb",
+      "meaning": "Of a plan or deal: to fail to happen.",
+      "examples": [
+        "Our holiday plans {fell through} when the flight was canceled."
+      ],
+      "wrong": [
+        "The deal fell through, so it went ahead exactly as planned."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "collapse",
+        "fail"
+      ],
+      "ipa": "/fɔl ˈθru/"
+    },
+    {
+      "lemma": "see through",
+      "pos": "verb",
+      "meaning": "To realize that someone is trying to trick you.",
+      "examples": [
+        "She {saw through} his excuses at once."
+      ],
+      "wrong": [
+        "He saw through the lie, so he believed every word of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/si ˈθru/"
+    },
+    {
+      "lemma": "step down",
+      "pos": "verb",
+      "meaning": "To leave an important job or position.",
+      "examples": [
+        "The chairman {stepped down} after twenty years."
+      ],
+      "wrong": [
+        "She stepped down as director and stayed in the role."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "resign",
+        "quit"
+      ],
+      "ipa": "/stɛp ˈdaʊn/"
+    },
+    {
+      "lemma": "sum up",
+      "pos": "verb",
+      "meaning": "To give the main points of something in a short form.",
+      "examples": [
+        "To {sum up}, the plan is cheap and quick."
+      ],
+      "wrong": [
+        "He summed up the report by reading every page aloud in full."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "summarize",
+        "recap"
+      ],
+      "ipa": "/sʌm ˈʌp/"
+    },
+    {
+      "lemma": "pick up on",
+      "pos": "verb",
+      "meaning": "To notice something that is not obvious.",
+      "examples": [
+        "She {picked up on} the tension in the room."
+      ],
+      "wrong": [
+        "He picked up on her mood, so he didn’t notice anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "notice",
+        "sense"
+      ],
+      "ipa": "/pɪk ˈʌp ɑn/"
+    },
+    {
+      "lemma": "come about",
+      "pos": "verb",
+      "meaning": "To happen, especially in a way that was not planned.",
+      "examples": [
+        "How did this mess {come about}?"
+      ],
+      "wrong": [
+        "The change came about, so nothing happened."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "happen",
+        "occur"
+      ],
+      "ipa": "/kʌm əˈbaʊt/"
+    },
+    {
+      "lemma": "crop up",
+      "pos": "verb",
+      "meaning": "To appear or happen suddenly and unexpectedly.",
+      "examples": [
+        "A problem {cropped up} just before the launch."
+      ],
+      "wrong": [
+        "Something cropped up that we had planned for months."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "arise",
+        "come up"
+      ],
+      "ipa": "/krɑp ˈʌp/"
+    },
+    {
+      "lemma": "face up to",
+      "pos": "verb",
+      "meaning": "To accept and deal with a difficult truth or situation.",
+      "examples": [
+        "You need to {face up to} your mistakes."
+      ],
+      "wrong": [
+        "He faced up to the problem by pretending it didn’t exist."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "confront",
+        "accept"
+      ],
+      "ipa": "/feɪs ˈʌp tu/"
+    },
+    {
+      "lemma": "wear off",
+      "pos": "verb",
+      "meaning": "Of a feeling or effect: to slowly disappear.",
+      "examples": [
+        "The painkillers {wore off} after a few hours."
+      ],
+      "wrong": [
+        "The excitement wore off and grew stronger every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fade",
+        "pass"
+      ],
+      "ipa": "/wɛr ˈɔf/"
+    },
+    {
+      "lemma": "sink in",
+      "pos": "verb",
+      "meaning": "Of news or a fact: to become fully understood.",
+      "examples": [
+        "It took a while for the news to {sink in}."
+      ],
+      "wrong": [
+        "The bad news sank in, so she still didn’t understand it at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "register"
+      ],
+      "ipa": "/sɪŋk ˈɪn/"
+    },
+    {
+      "lemma": "make up for",
+      "pos": "verb",
+      "meaning": "To do something good to correct a past problem or loss.",
+      "examples": [
+        "I bought her lunch to {make up for} being late."
+      ],
+      "wrong": [
+        "He made up for his rudeness by being rude again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "compensate for"
+      ],
+      "ipa": "/meɪk ˈʌp fɔr/"
+    },
+    {
+      "lemma": "own up",
+      "pos": "verb",
+      "meaning": "To admit that you did something wrong.",
+      "examples": [
+        "Nobody {owned up} to breaking the window."
+      ],
+      "wrong": [
+        "She owned up to the mistake by blaming her brother."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "admit",
+        "confess"
+      ],
+      "ipa": "/oʊn ˈʌp/"
+    },
+    {
+      "lemma": "slip up",
+      "pos": "verb",
+      "meaning": "To make a careless mistake.",
+      "examples": [
+        "The goalkeeper {slipped up} and let in an easy goal."
+      ],
+      "wrong": [
+        "She slipped up by doing everything perfectly."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "make a mistake",
+        "blunder"
+      ],
+      "ipa": "/slɪp ˈʌp/"
+    },
+    {
+      "lemma": "set aside",
+      "pos": "verb",
+      "meaning": "To keep something, like time or money, for a special purpose.",
+      "examples": [
+        "I {set aside} an hour every day for reading."
+      ],
+      "wrong": [
+        "She set aside money for the trip by spending it all at once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "save",
+        "reserve",
+        "put by"
+      ],
+      "ipa": "/sɛt əˈsaɪd/"
+    },
+    {
+      "lemma": "stand up for",
+      "pos": "verb",
+      "meaning": "To defend or support someone or something that is being attacked.",
+      "examples": [
+        "You should {stand up for} your friends."
+      ],
+      "wrong": [
+        "He stood up for his sister by joining the bullies against her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "defend",
+        "support"
+      ],
+      "ipa": "/stænd ˈʌp fɔr/"
+    },
+    {
+      "lemma": "live up to",
+      "pos": "verb",
+      "meaning": "To be as good as people expected.",
+      "examples": [
+        "The movie didn’t {live up to} the reviews."
+      ],
+      "wrong": [
+        "The hotel lived up to our hopes and was a big disappointment."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "meet",
+        "match"
+      ],
+      "ipa": "/lɪv ˈʌp tu/"
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-people-traits",
+    "title": "People and personality",
+    "level": "C1",
+    "tagline": "Precise words for character",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "conscientious",
+      "pos": "adjective",
+      "meaning": "Careful to do your work well and thoroughly.",
+      "examples": [
+        "She is a {conscientious} employee."
+      ],
+      "wrong": [
+        "He is conscientious, so his work is careless."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "diligent",
+        "thorough"
+      ],
+      "ipa": "/ˌkɑnʃiˈɛnʃəs/",
+      "antonyms": [
+        "careless",
+        "negligent"
+      ]
+    },
+    {
+      "lemma": "complacent",
+      "pos": "adjective",
+      "meaning": "Too satisfied with yourself, so you stop trying.",
+      "examples": [
+        "We can’t afford to be {complacent}."
+      ],
+      "wrong": [
+        "The team grew complacent, so they trained harder than ever."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "smug"
+      ],
+      "ipa": "/kəmˈpleɪsənt/"
+    },
+    {
+      "lemma": "compassionate",
+      "pos": "adjective",
+      "meaning": "Feeling sympathy and wanting to help.",
+      "examples": [
+        "The nurse was kind and {compassionate}."
+      ],
+      "wrong": [
+        "He is compassionate, so he doesn’t care who suffers."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "caring",
+        "sympathetic"
+      ],
+      "ipa": "/kəmˈpæʃənət/",
+      "antonyms": [
+        "cruel",
+        "callous"
+      ]
+    },
+    {
+      "lemma": "condescending",
+      "pos": "adjective",
+      "meaning": "Acting as if you are better than others.",
+      "examples": [
+        "His {condescending} tone annoyed everyone."
+      ],
+      "wrong": [
+        "She is condescending, so she treats everyone as her equal."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "patronizing"
+      ],
+      "ipa": "/ˌkɑndɪˈsɛndɪŋ/"
+    },
+    {
+      "lemma": "eccentric",
+      "pos": "adjective",
+      "meaning": "Unusual and a little strange in behavior.",
+      "examples": [
+        "My {eccentric} uncle wears a hat indoors."
+      ],
+      "wrong": [
+        "He is eccentric, so he is completely ordinary."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "unconventional",
+        "odd"
+      ],
+      "ipa": "/ɪkˈsɛntrɪk/"
+    },
+    {
+      "lemma": "gullible",
+      "pos": "adjective",
+      "meaning": "Easily tricked because you believe too much.",
+      "examples": [
+        "Scammers target {gullible} people."
+      ],
+      "wrong": [
+        "She is gullible, so she never believes anything."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "naive",
+        "credulous"
+      ],
+      "ipa": "/ˈɡʌləbəl/",
+      "antonyms": [
+        "skeptical",
+        "suspicious"
+      ]
+    },
+    {
+      "lemma": "cynical",
+      "pos": "adjective",
+      "meaning": "Believing that people act only for selfish reasons.",
+      "examples": [
+        "He’s {cynical} about politicians."
+      ],
+      "wrong": [
+        "She is cynical, so she trusts everyone’s good intentions."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "distrustful"
+      ],
+      "ipa": "/ˈsɪnɪkəl/",
+      "antonyms": [
+        "trusting",
+        "idealistic"
+      ]
+    },
+    {
+      "lemma": "diplomatic",
+      "pos": "adjective",
+      "meaning": "Good at dealing with people without upsetting them.",
+      "examples": [
+        "Give a {diplomatic} answer."
+      ],
+      "wrong": [
+        "His reply was diplomatic, so it offended everyone."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "tactful"
+      ],
+      "ipa": "/ˌdɪpləˈmætɪk/",
+      "antonyms": [
+        "tactless",
+        "blunt"
+      ]
+    },
+    {
+      "lemma": "tactful",
+      "pos": "adjective",
+      "meaning": "Careful not to upset people.",
+      "examples": [
+        "She was {tactful} about his mistake."
+      ],
+      "wrong": [
+        "He was tactful, so he hurt her feelings."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "diplomatic",
+        "discreet"
+      ],
+      "ipa": "/ˈtæktfəl/",
+      "antonyms": [
+        "tactless",
+        "blunt"
+      ]
+    },
+    {
+      "lemma": "tactless",
+      "pos": "adjective",
+      "meaning": "Saying things that upset people without meaning to.",
+      "examples": [
+        "It was a {tactless} remark."
+      ],
+      "wrong": [
+        "His remark was tactless, so it was very sensitive."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "insensitive"
+      ],
+      "ipa": "/ˈtæktləs/",
+      "antonyms": [
+        "tactful",
+        "diplomatic"
+      ]
+    },
+    {
+      "lemma": "resourceful",
+      "pos": "adjective",
+      "meaning": "Good at finding ways to solve problems.",
+      "examples": [
+        "She’s very {resourceful} in a crisis."
+      ],
+      "wrong": [
+        "He is resourceful, so he never knows what to do."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "inventive",
+        "enterprising"
+      ],
+      "ipa": "/rɪˈsɔrsfəl/"
+    },
+    {
+      "lemma": "obstinate",
+      "pos": "adjective",
+      "meaning": "Refusing to change your opinion.",
+      "examples": [
+        "He was {obstinate} and wouldn’t listen."
+      ],
+      "wrong": [
+        "She is obstinate, so she changes her mind easily."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "stubborn",
+        "headstrong"
+      ],
+      "ipa": "/ˈɑbstənət/",
+      "antonyms": [
+        "flexible",
+        "compliant"
+      ]
+    },
+    {
+      "lemma": "timid",
+      "pos": "adjective",
+      "meaning": "Shy and easily frightened.",
+      "examples": [
+        "The {timid} child hid behind her mother."
+      ],
+      "wrong": [
+        "He is timid, so he is bold and fearless."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "shy",
+        "fearful"
+      ],
+      "ipa": "/ˈtɪmɪd/",
+      "antonyms": [
+        "bold",
+        "confident"
+      ]
+    },
+    {
+      "lemma": "vain",
+      "pos": "adjective",
+      "meaning": "Too proud of your appearance or abilities.",
+      "examples": [
+        "He’s so {vain}; he always checks the mirror."
+      ],
+      "wrong": [
+        "She is vain, so she never thinks about her looks."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "conceited"
+      ],
+      "ipa": "/veɪn/",
+      "antonyms": [
+        "modest",
+        "humble"
+      ]
+    },
+    {
+      "lemma": "hypocritical",
+      "pos": "adjective",
+      "meaning": "Saying one thing but doing the opposite.",
+      "examples": [
+        "It’s {hypocritical} to preach saving and then waste money."
+      ],
+      "wrong": [
+        "He is hypocritical, so his actions always match his words."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "two-faced"
+      ],
+      "ipa": "/ˌhɪpəˈkrɪtɪkəl/",
+      "antonyms": [
+        "sincere",
+        "genuine"
+      ]
+    },
+    {
+      "lemma": "altruistic",
+      "pos": "adjective",
+      "meaning": "Caring about others more than yourself.",
+      "examples": [
+        "Her donation was purely {altruistic}."
+      ],
+      "wrong": [
+        "He is altruistic, so he only cares about himself."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "selfless",
+        "unselfish"
+      ],
+      "ipa": "/ˌæltruˈɪstɪk/",
+      "antonyms": [
+        "selfish"
+      ]
+    },
+    {
+      "lemma": "charismatic",
+      "pos": "adjective",
+      "meaning": "Having a strong personal charm that attracts people.",
+      "examples": [
+        "She is a {charismatic} leader."
+      ],
+      "wrong": [
+        "He is charismatic, so nobody notices him."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "magnetic",
+        "captivating"
+      ],
+      "ipa": "/ˌkærɪzˈmætɪk/"
+    },
+    {
+      "lemma": "perceptive",
+      "pos": "adjective",
+      "meaning": "Quick to notice and understand things.",
+      "examples": [
+        "That’s a very {perceptive} comment."
+      ],
+      "wrong": [
+        "She is perceptive, so she never notices anything."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "insightful",
+        "observant"
+      ],
+      "ipa": "/pɚˈsɛptɪv/"
+    },
+    {
+      "lemma": "intuitive",
+      "pos": "adjective",
+      "meaning": "Understanding things from feelings rather than facts.",
+      "examples": [
+        "She has an {intuitive} sense of what people need."
+      ],
+      "wrong": [
+        "His choice was intuitive, so he calculated it carefully."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "instinctive"
+      ],
+      "ipa": "/ɪnˈtuɪtɪv/"
+    },
+    {
+      "lemma": "inquisitive",
+      "pos": "adjective",
+      "meaning": "Eager to learn and ask questions.",
+      "examples": [
+        "Children are naturally {inquisitive}."
+      ],
+      "wrong": [
+        "He is inquisitive, so he never asks questions."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "curious"
+      ],
+      "ipa": "/ɪnˈkwɪzətɪv/",
+      "antonyms": [
+        "incurious",
+        "uninterested"
+      ]
+    },
+    {
+      "lemma": "apathetic",
+      "pos": "adjective",
+      "meaning": "Showing no interest or energy.",
+      "examples": [
+        "Many voters feel {apathetic}."
+      ],
+      "wrong": [
+        "She is apathetic, so she is passionate about everything."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "indifferent",
+        "uninterested"
+      ],
+      "ipa": "/ˌæpəˈθɛtɪk/",
+      "antonyms": [
+        "enthusiastic",
+        "passionate"
+      ]
+    },
+    {
+      "lemma": "frank",
+      "pos": "adjective",
+      "meaning": "Honest and direct.",
+      "examples": [
+        "Let me be {frank} with you."
+      ],
+      "wrong": [
+        "He was frank, so he hid what he thought."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "candid",
+        "direct",
+        "blunt"
+      ],
+      "ipa": "/fræŋk/",
+      "antonyms": [
+        "evasive",
+        "guarded"
+      ]
+    },
+    {
+      "lemma": "blunt",
+      "pos": "adjective",
+      "meaning": "Saying what you think without trying to be polite.",
+      "examples": [
+        "Her {blunt} reply surprised us."
+      ],
+      "wrong": [
+        "He is blunt, so he always softens his words."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "direct",
+        "outspoken"
+      ],
+      "ipa": "/blʌnt/",
+      "antonyms": [
+        "tactful",
+        "diplomatic"
+      ]
+    },
+    {
+      "lemma": "devious",
+      "pos": "adjective",
+      "meaning": "Dishonest in a clever, hidden way.",
+      "examples": [
+        "He used {devious} methods to win."
+      ],
+      "wrong": [
+        "Her plan was devious, so it was open and honest."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "sly",
+        "cunning"
+      ],
+      "ipa": "/ˈdiviəs/",
+      "antonyms": [
+        "honest",
+        "straightforward"
+      ]
+    },
+    {
+      "lemma": "gracious",
+      "pos": "adjective",
+      "meaning": "Kind and polite, especially in difficult moments.",
+      "examples": [
+        "She was {gracious} in defeat."
+      ],
+      "wrong": [
+        "He was gracious, so he was rude to everyone."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "courteous",
+        "kind"
+      ],
+      "ipa": "/ˈɡreɪʃəs/",
+      "antonyms": [
+        "rude",
+        "ungracious"
+      ]
+    },
+    {
+      "lemma": "humble",
+      "pos": "adjective",
+      "meaning": "Not thinking you are better than others.",
+      "examples": [
+        "Despite his fame, he stayed {humble}."
+      ],
+      "wrong": [
+        "She is humble, so she boasts all the time."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "modest"
+      ],
+      "ipa": "/ˈhʌmbəl/",
+      "antonyms": [
+        "arrogant",
+        "proud"
+      ]
+    },
+    {
+      "lemma": "idealistic",
+      "pos": "adjective",
+      "meaning": "Believing that very good things are possible.",
+      "examples": [
+        "Young people are often {idealistic}."
+      ],
+      "wrong": [
+        "He is idealistic, so he expects the worst from the world."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "visionary"
+      ],
+      "ipa": "/aɪˌdiəˈlɪstɪk/",
+      "antonyms": [
+        "realistic",
+        "pragmatic",
+        "cynical"
+      ]
+    },
+    {
+      "lemma": "introverted",
+      "pos": "adjective",
+      "meaning": "Quiet and preferring to be alone.",
+      "examples": [
+        "She’s {introverted} and enjoys reading alone."
+      ],
+      "wrong": [
+        "He is introverted, so he loves big parties."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "reserved",
+        "withdrawn"
+      ],
+      "ipa": "/ˈɪntrəˌvɝtɪd/",
+      "antonyms": [
+        "extroverted",
+        "outgoing"
+      ]
+    },
+    {
+      "lemma": "extroverted",
+      "pos": "adjective",
+      "meaning": "Lively and enjoying being with people.",
+      "examples": [
+        "He is {extroverted} and loves parties."
+      ],
+      "wrong": [
+        "She is extroverted, so she avoids people."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "outgoing",
+        "sociable"
+      ],
+      "ipa": "/ˈɛkstrəˌvɝtɪd/",
+      "antonyms": [
+        "introverted",
+        "shy"
+      ]
+    },
+    {
+      "lemma": "opinionated",
+      "pos": "adjective",
+      "meaning": "Having strong opinions and saying them often.",
+      "examples": [
+        "He’s very {opinionated} about politics."
+      ],
+      "wrong": [
+        "She is opinionated, so she never says what she thinks."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "dogmatic"
+      ],
+      "ipa": "/əˈpɪnjəˌneɪtɪd/"
+    },
+    {
+      "lemma": "perseverance",
+      "pos": "noun",
+      "meaning": "Continued effort despite difficulties.",
+      "examples": [
+        "Learning a language takes {perseverance}."
+      ],
+      "wrong": [
+        "He showed perseverance by giving up at once."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "persistence",
+        "determination"
+      ],
+      "ipa": "/ˌpɝsəˈvɪrəns/"
+    },
+    {
+      "lemma": "composure",
+      "pos": "noun",
+      "meaning": "The state of being calm and in control.",
+      "examples": [
+        "She kept her {composure} during the interview."
+      ],
+      "wrong": [
+        "He lost his composure, so he stayed perfectly calm."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "calm",
+        "self-control"
+      ],
+      "ipa": "/kəmˈpoʊʒɚ/"
+    },
+    {
+      "lemma": "principled",
+      "pos": "adjective",
+      "meaning": "Acting according to strong moral beliefs.",
+      "examples": [
+        "She took a {principled} stand against the plan."
+      ],
+      "wrong": [
+        "He is principled, so he changes his values for money."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "ethical",
+        "honorable"
+      ],
+      "ipa": "/ˈprɪnsəpəld/",
+      "antonyms": [
+        "unprincipled",
+        "unscrupulous"
+      ]
+    },
+    {
+      "lemma": "candor",
+      "pos": "noun",
+      "meaning": "Honesty in what you say.",
+      "examples": [
+        "I appreciate your {candor}."
+      ],
+      "wrong": [
+        "His candor meant he hid the truth."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "frankness",
+        "honesty"
+      ],
+      "ipa": "/ˈkændɚ/",
+      "antonyms": [
+        "dishonesty",
+        "evasiveness"
+      ]
+    },
+    {
+      "lemma": "self-aware",
+      "pos": "adjective",
+      "meaning": "Understanding your own character and feelings.",
+      "examples": [
+        "He is {self-aware} enough to admit his faults."
+      ],
+      "wrong": [
+        "She is self-aware, so she has no idea how she behaves."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "introspective"
+      ],
+      "ipa": "/ˌsɛlf əˈwɛr/"
+    },
+    {
+      "lemma": "hostile",
+      "pos": "adjective",
+      "meaning": "Unfriendly and ready to argue or fight.",
+      "examples": [
+        "The crowd was {hostile} to the speaker."
+      ],
+      "wrong": [
+        "They were hostile, so they welcomed us warmly."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "unfriendly",
+        "antagonistic"
+      ],
+      "ipa": "/ˈhɑstəl/",
+      "antonyms": [
+        "friendly",
+        "welcoming"
+      ]
+    },
+    {
+      "lemma": "benevolent",
+      "pos": "adjective",
+      "meaning": "Kind and wishing to help.",
+      "examples": [
+        "A {benevolent} donor paid for the hospital."
+      ],
+      "wrong": [
+        "He is benevolent, so he wishes harm on others."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "charitable",
+        "kindly"
+      ],
+      "ipa": "/bəˈnɛvələnt/",
+      "antonyms": [
+        "malevolent",
+        "cruel"
+      ]
+    },
+    {
+      "lemma": "spiteful",
+      "pos": "adjective",
+      "meaning": "Wanting to hurt or upset someone.",
+      "examples": [
+        "That was a {spiteful} comment."
+      ],
+      "wrong": [
+        "Her comment was spiteful, so it was meant kindly."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "malicious",
+        "vindictive"
+      ],
+      "ipa": "/ˈspaɪtfəl/",
+      "antonyms": [
+        "kind",
+        "benevolent"
+      ]
+    },
+    {
+      "lemma": "self-centered",
+      "pos": "adjective",
+      "meaning": "Thinking only about yourself.",
+      "examples": [
+        "He’s too {self-centered} to notice."
+      ],
+      "wrong": [
+        "She is self-centered, so she always puts others first."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "selfish",
+        "egotistical"
+      ],
+      "ipa": "/ˌsɛlf ˈsɛntɚd/",
+      "antonyms": [
+        "selfless",
+        "altruistic"
+      ]
+    },
+    {
+      "lemma": "level-headed",
+      "pos": "adjective",
+      "meaning": "Calm and sensible.",
+      "examples": [
+        "We need someone {level-headed} in charge."
+      ],
+      "wrong": [
+        "He is level-headed, so he panics at every problem."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "synonyms": [
+        "sensible",
+        "calm"
+      ],
+      "ipa": "/ˌlɛvəl ˈhɛdɪd/",
+      "antonyms": [
+        "hotheaded",
+        "rash"
+      ]
+    }
+  ]
+}

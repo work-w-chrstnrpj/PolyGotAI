@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-health-body",
+    "title": "Health and the body",
+    "level": "A2",
+    "tagline": "Feeling ill and getting better",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "stomachache",
+      "pos": "noun",
+      "meaning": "A pain in your belly.",
+      "examples": [
+        "I ate too much cake and now I have a {stomachache}."
+      ],
+      "wrong": [
+        "My stomachache is in my left ear."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tummy ache",
+        "bellyache"
+      ],
+      "ipa": "/ˈstʌməkˌeɪk/"
+    },
+    {
+      "lemma": "toothache",
+      "pos": "noun",
+      "meaning": "A pain in a tooth or in your teeth.",
+      "examples": [
+        "She went to the dentist because of her {toothache}."
+      ],
+      "wrong": [
+        "I have a toothache in my foot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtuθˌeɪk/"
+    },
+    {
+      "lemma": "earache",
+      "pos": "noun",
+      "meaning": "A pain inside your ear.",
+      "examples": [
+        "The loud music gave him an {earache}."
+      ],
+      "wrong": [
+        "My earache hurts the bottom of my foot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪrˌeɪk/"
+    },
+    {
+      "lemma": "backache",
+      "pos": "noun",
+      "meaning": "A pain in your back.",
+      "examples": [
+        "Carrying heavy boxes gave me a {backache}."
+      ],
+      "wrong": [
+        "I have a backache in my eye."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "back pain"
+      ],
+      "ipa": "/ˈbækˌeɪk/"
+    },
+    {
+      "lemma": "flu",
+      "pos": "noun",
+      "meaning": "An illness like a bad cold, with a high temperature and pain all over.",
+      "examples": [
+        "He stayed home for a week with the {flu}."
+      ],
+      "wrong": [
+        "The flu made her feel full of energy and very well."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "influenza"
+      ],
+      "ipa": "/flu/"
+    },
+    {
+      "lemma": "cold",
+      "pos": "noun",
+      "meaning": "A common, mild illness that gives you a runny nose and a cough.",
+      "examples": [
+        "I have a {cold}, so I keep sneezing."
+      ],
+      "wrong": [
+        "I have a cold, so I feel perfectly healthy today."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/koʊld/"
+    },
+    {
+      "lemma": "runny nose",
+      "pos": "phrase",
+      "meaning": "When liquid keeps coming out of your nose because you are ill.",
+      "examples": [
+        "I need tissues because I have a {runny nose}."
+      ],
+      "wrong": [
+        "My runny nose is completely dry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrʌni noʊz/"
+    },
+    {
+      "lemma": "catch a cold",
+      "pos": "phrase",
+      "meaning": "To become ill with a mild illness that makes you sneeze.",
+      "examples": [
+        "Wear a coat or you’ll {catch a cold}."
+      ],
+      "wrong": [
+        "I caught a cold, so I felt better than ever."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kætʃ ə koʊld/"
+    },
+    {
+      "lemma": "feel sick",
+      "pos": "phrase",
+      "meaning": "To feel that you might bring food up from your stomach.",
+      "examples": [
+        "I {feel sick} when I read in the car."
+      ],
+      "wrong": [
+        "I feel sick, so I’d love a big plate of food right now."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "feel ill"
+      ],
+      "ipa": "/fil sɪk/"
+    },
+    {
+      "lemma": "get better",
+      "pos": "phrase",
+      "meaning": "To become healthy again after being ill.",
+      "examples": [
+        "Drink lots of water and you’ll {get better} soon."
+      ],
+      "wrong": [
+        "She got better, so she had to stay in the hospital longer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "recover"
+      ],
+      "ipa": "/ɡɛt ˈbɛtɚ/",
+      "antonyms": [
+        "get worse"
+      ]
+    },
+    {
+      "lemma": "cough syrup",
+      "pos": "noun",
+      "meaning": "A sweet liquid medicine you drink to stop coughing.",
+      "examples": [
+        "Take a spoon of {cough syrup} before bed."
+      ],
+      "wrong": [
+        "I put cough syrup on my cut knee."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cough medicine"
+      ],
+      "ipa": "/ˈkɔf ˌsɪrəp/"
+    },
+    {
+      "lemma": "elbow",
+      "pos": "noun",
+      "meaning": "The part in the middle of your arm where it bends.",
+      "examples": [
+        "He hit his {elbow} on the table."
+      ],
+      "wrong": [
+        "She bent her leg at the elbow."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɛlboʊ/"
+    },
+    {
+      "lemma": "ankle",
+      "pos": "noun",
+      "meaning": "The part of your leg just above your foot, where it bends.",
+      "examples": [
+        "She fell and hurt her {ankle}."
+      ],
+      "wrong": [
+        "He wears his watch on his ankle near his hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈæŋkəl/"
+    },
+    {
+      "lemma": "wrist",
+      "pos": "noun",
+      "meaning": "The part of your arm that joins it to your hand.",
+      "examples": [
+        "She wears a watch on her {wrist}."
+      ],
+      "wrong": [
+        "My wrist is between my knee and my foot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/rɪst/"
+    },
+    {
+      "lemma": "chin",
+      "pos": "noun",
+      "meaning": "The part of your face below your mouth.",
+      "examples": [
+        "He has a small beard on his {chin}."
+      ],
+      "wrong": [
+        "She put her hat on top of her chin."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃɪn/"
+    },
+    {
+      "lemma": "forehead",
+      "pos": "noun",
+      "meaning": "The part of your face above your eyes.",
+      "examples": [
+        "Mom touched my {forehead} to see if I was hot."
+      ],
+      "wrong": [
+        "He wears glasses on his forehead to see better."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "brow"
+      ],
+      "ipa": "/ˈfɔrˌhɛd/"
+    },
+    {
+      "lemma": "cheek",
+      "pos": "noun",
+      "meaning": "One of the two soft sides of your face below your eyes.",
+      "examples": [
+        "The baby has round pink {cheeks}."
+      ],
+      "wrong": [
+        "She has a cheek on the bottom of each foot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃik/"
+    },
+    {
+      "lemma": "eyebrow",
+      "pos": "noun",
+      "meaning": "The line of hair above each eye.",
+      "examples": [
+        "He raised one {eyebrow} in surprise."
+      ],
+      "wrong": [
+        "My eyebrows grow on my chin."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈaɪˌbraʊ/"
+    },
+    {
+      "lemma": "lip",
+      "pos": "noun",
+      "meaning": "One of the two soft edges of your mouth.",
+      "examples": [
+        "Cold wind makes my {lips} dry."
+      ],
+      "wrong": [
+        "He wears his lips on his fingers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/lɪp/"
+    },
+    {
+      "lemma": "tongue",
+      "pos": "noun",
+      "meaning": "The soft part inside your mouth that you use to taste and speak.",
+      "examples": [
+        "The soup was so hot it burned my {tongue}."
+      ],
+      "wrong": [
+        "I tasted the soup with my elbow, not my tongue."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʌŋ/"
+    },
+    {
+      "lemma": "chest",
+      "pos": "noun",
+      "meaning": "The front part of your body between your neck and your stomach.",
+      "examples": [
+        "He felt a pain in his {chest} when he coughed."
+      ],
+      "wrong": [
+        "My chest is the part of my body under my feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃɛst/"
+    },
+    {
+      "lemma": "thumb",
+      "pos": "noun",
+      "meaning": "The short, thick finger at the side of your hand.",
+      "examples": [
+        "The baby sucks her {thumb}."
+      ],
+      "wrong": [
+        "I put my thumb in my shoe next to my toes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/θʌm/"
+    },
+    {
+      "lemma": "toe",
+      "pos": "noun",
+      "meaning": "One of the five small parts at the end of your foot.",
+      "examples": [
+        "I hit my {toe} on the door."
+      ],
+      "wrong": [
+        "She wears a ring on her toe of her hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/toʊ/"
+    },
+    {
+      "lemma": "hip",
+      "pos": "noun",
+      "meaning": "One of the two sides of your body below your waist.",
+      "examples": [
+        "She stood with her hands on her {hips}."
+      ],
+      "wrong": [
+        "His hips are on his head, just above his ears."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/hɪp/"
+    },
+    {
+      "lemma": "check-up",
+      "pos": "noun",
+      "meaning": "A visit to a doctor or dentist to see that you are healthy.",
+      "examples": [
+        "I go to the dentist for a {check-up} twice a year."
+      ],
+      "wrong": [
+        "A check-up is a party with cake and music."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "examination"
+      ],
+      "ipa": "/ˈtʃɛkˌʌp/"
+    },
+    {
+      "lemma": "throw up",
+      "pos": "verb",
+      "meaning": "To bring food back up from your stomach through your mouth.",
+      "examples": [
+        "The boat moved so much that he {threw up}."
+      ],
+      "wrong": [
+        "She threw up her lunch, so it stayed in her stomach."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "vomit",
+        "be sick"
+      ],
+      "ipa": "/θroʊ ʌp/"
+    },
+    {
+      "lemma": "unwell",
+      "pos": "adjective",
+      "meaning": "Ill; not feeling healthy.",
+      "examples": [
+        "She felt {unwell}, so she went home early."
+      ],
+      "wrong": [
+        "He was unwell, so he ran a marathon full of energy."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "ill",
+        "sick"
+      ],
+      "ipa": "/ʌnˈwɛl/",
+      "antonyms": [
+        "well",
+        "healthy"
+      ]
+    },
+    {
+      "lemma": "waiting room",
+      "pos": "noun",
+      "meaning": "A room where people sit until the doctor can see them.",
+      "examples": [
+        "We sat in the {waiting room} for twenty minutes."
+      ],
+      "wrong": [
+        "The doctor operates on patients in the waiting room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈweɪtɪŋ rum/"
+    },
+    {
+      "lemma": "lie down",
+      "pos": "verb",
+      "meaning": "To put your body flat on a bed or the floor to rest.",
+      "examples": [
+        "If you feel dizzy, {lie down} for a while."
+      ],
+      "wrong": [
+        "She lay down by standing up very straight."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/laɪ daʊn/",
+      "antonyms": [
+        "stand up",
+        "get up"
+      ]
+    },
+    {
+      "lemma": "stay in bed",
+      "pos": "phrase",
+      "meaning": "To not get up because you are ill or tired.",
+      "examples": [
+        "The doctor told me to {stay in bed} for two days."
+      ],
+      "wrong": [
+        "I stayed in bed all day, walking around the city."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/steɪ ɪn bɛd/"
+    },
+    {
+      "lemma": "blow your nose",
+      "pos": "phrase",
+      "meaning": "To push air out through your nose into a tissue to clear it.",
+      "examples": [
+        "Here’s a tissue, so you can {blow your nose}."
+      ],
+      "wrong": [
+        "I blew my nose by drinking a glass of water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bloʊ jɚ noʊz/"
+    },
+    {
+      "lemma": "painful",
+      "pos": "adjective",
+      "meaning": "Causing pain; hurting a lot.",
+      "examples": [
+        "A broken leg is very {painful}."
+      ],
+      "wrong": [
+        "The injection was painful, so I didn’t feel anything."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sore"
+      ],
+      "ipa": "/ˈpeɪnfəl/",
+      "antonyms": [
+        "painless"
+      ]
+    },
+    {
+      "lemma": "x-ray",
+      "pos": "noun",
+      "meaning": "A picture of the inside of your body, made by a special machine.",
+      "examples": [
+        "The {x-ray} showed that his arm was broken."
+      ],
+      "wrong": [
+        "She took an x-ray of the beach with her phone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "scan"
+      ],
+      "ipa": "/ˈɛksˌreɪ/"
+    },
+    {
+      "lemma": "itchy",
+      "pos": "adjective",
+      "meaning": "Making you want to scratch your skin.",
+      "examples": [
+        "The mosquito bite is red and {itchy}."
+      ],
+      "wrong": [
+        "My skin is itchy, so I don’t want to touch it at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪtʃi/"
+    },
+    {
+      "lemma": "medical",
+      "pos": "adjective",
+      "meaning": "Connected with health and treating people who are ill.",
+      "examples": [
+        "You need a {medical} test before you start the job."
+      ],
+      "wrong": [
+        "She studied medical science to learn how to build cars."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɛdɪkəl/"
+    },
+    {
+      "lemma": "wheelchair",
+      "pos": "noun",
+      "meaning": "A chair with wheels for people who cannot walk.",
+      "examples": [
+        "After the accident he used a {wheelchair} for a month."
+      ],
+      "wrong": [
+        "He sat in his wheelchair because he loved to run."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwilˌtʃɛr/"
+    },
+    {
+      "lemma": "keep fit",
+      "pos": "phrase",
+      "meaning": "To stay healthy and strong by doing exercise.",
+      "examples": [
+        "I swim twice a week to {keep fit}."
+      ],
+      "wrong": [
+        "She keeps fit by sitting on the sofa all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stay in shape"
+      ],
+      "ipa": "/kip fɪt/"
+    },
+    {
+      "lemma": "tissue",
+      "pos": "noun",
+      "meaning": "A piece of soft paper you use to clean your nose.",
+      "examples": [
+        "Can I have a {tissue}? I need to sneeze."
+      ],
+      "wrong": [
+        "I wrote a long letter on a tissue and posted it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "handkerchief"
+      ],
+      "ipa": "/ˈtɪʃu/"
+    },
+    {
+      "lemma": "twist",
+      "pos": "verb",
+      "meaning": "To hurt a joint by turning it the wrong way.",
+      "examples": [
+        "He {twisted} his ankle playing soccer."
+      ],
+      "wrong": [
+        "She twisted her ankle, so it felt stronger than before."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sprain"
+      ],
+      "ipa": "/twɪst/"
+    },
+    {
+      "lemma": "fall over",
+      "pos": "verb",
+      "meaning": "To fall to the ground from standing.",
+      "examples": [
+        "The little boy {fell over} and cut his knee."
+      ],
+      "wrong": [
+        "He fell over and stayed standing the whole time."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trip",
+        "fall down"
+      ],
+      "ipa": "/fɔl ˈoʊvɚ/"
+    }
+  ]
+}

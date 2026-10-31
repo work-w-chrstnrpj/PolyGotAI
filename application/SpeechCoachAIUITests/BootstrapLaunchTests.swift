@@ -632,8 +632,12 @@ final class BootstrapLaunchTests: XCTestCase {
             app.swipeUp()
         }
         tapReachable(app, app.buttons["rewards.category"])
-        app.buttons["Learning"].firstMatch.tap()
-        tapReachable(app, app.buttons["rewards.family.AW-LE-01"])
+        app.buttons["Completion"].firstMatch.tap()
+        // v2: badges nothing can earn are hidden; a new coach badge shows instead.
+        XCTAssertFalse(app.buttons["rewards.family.AW-LE-01"].exists)
+        let coach = app.buttons["rewards.family.AW-TK-01"]
+        for _ in 0..<12 where !coach.exists { app.swipeUp() }   // the badge list is lazy
+        tapReachable(app, coach)
         XCTAssertTrue(app.staticTexts["Not earned yet"].firstMatch.waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons["rewards.purchase.confirm"].exists)
         let detail = XCTAttachment(screenshot: app.screenshot()); detail.name = "SC-D005-unavailable-learning-detail"; detail.lifetime = .keepAlways; add(detail)

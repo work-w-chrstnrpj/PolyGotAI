@@ -5,6 +5,8 @@ import SwiftUI
 struct TalkView: View {
     var storage: LearnerStorageController
     @State private var session: TalkSession
+    /// One ID per conversation, so a conversation counts once toward the Talk badges.
+    @State private var conversationID = UUID()
     @Environment(\.scenePhase) private var scene
     private let timer = Timer.publish(every: 0.15, on: .main, in: .common).autoconnect()
     init(storage: LearnerStorageController, client: any TalkStreaming) {
@@ -31,7 +33,7 @@ struct TalkView: View {
                         }
                     }.accessibilityIdentifier("talk.scenarios")
                     TextField("Situation", text: $session.scenario, axis: .vertical)
-                        .lineLimit(2...4).textFieldStyle(.roundedBorder).dictation($session.scenario)
+                        .lineLimit(2...4).textFieldStyle(KitFieldStyle()).dictation($session.scenario)
                         .accessibilityIdentifier("talk.scenario")
                         .onChange(of: session.scenario) { _, text in if text.count > 1000 { session.scenario = String(text.prefix(1000)) } }
                 }
@@ -82,7 +84,13 @@ struct TalkView: View {
         }
         .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Clear") { session.clear() }.accessibilityIdentifier("talk.clear") } }
         .onReceive(timer) { now in session.tick(now: now) }
-        .onDisappear { session.stop() }
+        .onChange(of: session.turns.filter { $0.role == .assistant && !$0.text.isEmpty }.count) { _, replies in
+            // Two answered turns make a conversation; Clear starts a new one.
+            if replies == 0 { conversationID = UUID() }
+            if replies >= 2 { try? storage.repository?.recordLabActivity("talk." + session.mode.rawValue, id: conversationID) }
+        }
+        .onAppear { SoundCenter.shared.hold("talk") }
+        .onDisappear { session.stop(); SoundCenter.shared.release("talk") }
         .onChange(of: scene) { _, phase in if phase != .active { session.stop() } }
         .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.interruptionNotification)) { _ in session.stop() }
         .onReceive(NotificationCenter.default.publisher(for: AVAudioSession.routeChangeNotification)) { note in

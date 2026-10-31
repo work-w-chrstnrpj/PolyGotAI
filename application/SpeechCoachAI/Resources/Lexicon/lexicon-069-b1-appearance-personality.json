@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-appearance-personality",
+    "title": "Appearance and personality",
+    "level": "B1",
+    "tagline": "How people look and behave",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "skinny",
+      "pos": "adjective",
+      "meaning": "Very thin, often too thin.",
+      "examples": [
+        "The {skinny} boy needed a smaller belt."
+      ],
+      "wrong": [
+        "He was so skinny that he couldn’t fit through the door."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "thin",
+        "bony"
+      ],
+      "ipa": "/ˈskɪni/",
+      "antonyms": [
+        "fat",
+        "plump"
+      ]
+    },
+    {
+      "lemma": "plump",
+      "pos": "adjective",
+      "meaning": "A little fat in a pleasant, round way.",
+      "examples": [
+        "The baby had {plump} pink cheeks."
+      ],
+      "wrong": [
+        "The plump man was very thin and bony."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chubby",
+        "round"
+      ],
+      "ipa": "/plʌmp/",
+      "antonyms": [
+        "thin",
+        "skinny"
+      ]
+    },
+    {
+      "lemma": "muscular",
+      "pos": "adjective",
+      "meaning": "Having large, strong muscles.",
+      "examples": [
+        "The swimmer has {muscular} arms."
+      ],
+      "wrong": [
+        "He was so muscular that he could not lift a cup."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "strong",
+        "brawny"
+      ],
+      "ipa": "/ˈmʌskjəlɚ/"
+    },
+    {
+      "lemma": "well-built",
+      "pos": "adjective",
+      "meaning": "Having a big, strong body.",
+      "examples": [
+        "The {well-built} guard stood at the door."
+      ],
+      "wrong": [
+        "The well-built man was small and weak."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sturdy",
+        "strong"
+      ],
+      "ipa": "/ˌwɛlˈbɪlt/"
+    },
+    {
+      "lemma": "bald",
+      "pos": "adjective",
+      "meaning": "Having little or no hair on the head.",
+      "examples": [
+        "My grandfather went {bald} in his forties."
+      ],
+      "wrong": [
+        "He is bald and has long, thick hair."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hairless"
+      ],
+      "ipa": "/bɔld/"
+    },
+    {
+      "lemma": "wavy",
+      "pos": "adjective",
+      "meaning": "Describes hair that curves gently up and down.",
+      "examples": [
+        "She has long, {wavy} brown hair."
+      ],
+      "wrong": [
+        "Her wavy hair was completely straight."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈweɪvi/"
+    },
+    {
+      "lemma": "fair",
+      "pos": "adjective",
+      "meaning": "Light in color, used about hair or skin.",
+      "examples": [
+        "He has {fair} hair and blue eyes."
+      ],
+      "wrong": [
+        "Her fair hair was jet black."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "light",
+        "pale"
+      ],
+      "ipa": "/fɛr/",
+      "antonyms": [
+        "dark"
+      ]
+    },
+    {
+      "lemma": "blond",
+      "pos": "adjective",
+      "meaning": "Describes hair that is pale yellow or golden.",
+      "examples": [
+        "The {blond} girl is my cousin."
+      ],
+      "wrong": [
+        "His blond hair was as dark as coal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fair",
+        "fair-haired"
+      ],
+      "ipa": "/blɑnd/"
+    },
+    {
+      "lemma": "freckles",
+      "pos": "noun",
+      "meaning": "Small brown spots on the skin, often on the face.",
+      "examples": [
+        "She has red hair and {freckles} on her nose."
+      ],
+      "wrong": [
+        "Freckles are long hairs that grow on the chin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfrɛkəlz/"
+    },
+    {
+      "lemma": "mustache",
+      "pos": "noun",
+      "meaning": "Hair that grows above a man’s top lip.",
+      "examples": [
+        "My uncle has a thick black {mustache}."
+      ],
+      "wrong": [
+        "He grew a mustache on top of his head."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmʌstæʃ/"
+    },
+    {
+      "lemma": "wrinkle",
+      "pos": "noun",
+      "meaning": "A small line in the skin that comes with age.",
+      "examples": [
+        "My grandmother has {wrinkles} around her eyes."
+      ],
+      "wrong": [
+        "The baby’s face was full of deep wrinkles from old age."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "line",
+        "crease"
+      ],
+      "ipa": "/ˈrɪŋkəl/"
+    },
+    {
+      "lemma": "good-looking",
+      "pos": "adjective",
+      "meaning": "Having a nice face; attractive.",
+      "examples": [
+        "The actor is very {good-looking}."
+      ],
+      "wrong": [
+        "He’s so good-looking that nobody wants to look at him."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "attractive",
+        "handsome"
+      ],
+      "ipa": "/ˌɡʊdˈlʊkɪŋ/",
+      "antonyms": [
+        "ugly",
+        "unattractive"
+      ]
+    },
+    {
+      "lemma": "gorgeous",
+      "pos": "adjective",
+      "meaning": "Very beautiful or attractive.",
+      "examples": [
+        "She looked {gorgeous} in her wedding dress."
+      ],
+      "wrong": [
+        "The view was gorgeous, so we turned away quickly."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "beautiful",
+        "stunning"
+      ],
+      "ipa": "/ˈɡɔrdʒəs/"
+    },
+    {
+      "lemma": "elegant",
+      "pos": "adjective",
+      "meaning": "Stylish and graceful in the way you look or move.",
+      "examples": [
+        "She wore an {elegant} black dress to the party."
+      ],
+      "wrong": [
+        "He looked elegant in his dirty, torn clothes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stylish",
+        "graceful"
+      ],
+      "ipa": "/ˈɛlɪɡənt/"
+    },
+    {
+      "lemma": "scruffy",
+      "pos": "adjective",
+      "meaning": "Untidy and a bit dirty in the way you look.",
+      "examples": [
+        "He came to work in {scruffy} old jeans."
+      ],
+      "wrong": [
+        "He looked scruffy in his clean new suit."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "untidy",
+        "messy"
+      ],
+      "ipa": "/ˈskrʌfi/",
+      "antonyms": [
+        "smart",
+        "neat"
+      ]
+    },
+    {
+      "lemma": "well-dressed",
+      "pos": "adjective",
+      "meaning": "Wearing nice, smart clothes.",
+      "examples": [
+        "The guests at the wedding were all {well-dressed}."
+      ],
+      "wrong": [
+        "He was well-dressed in a dirty old shirt with holes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "smart",
+        "stylish"
+      ],
+      "ipa": "/ˌwɛlˈdrɛst/",
+      "antonyms": [
+        "scruffy"
+      ]
+    },
+    {
+      "lemma": "ponytail",
+      "pos": "noun",
+      "meaning": "Hair tied together at the back of the head so it hangs down.",
+      "examples": [
+        "She ties her hair in a {ponytail} when she runs."
+      ],
+      "wrong": [
+        "He wears his ponytail on his feet."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpoʊniˌteɪl/"
+    },
+    {
+      "lemma": "middle-aged",
+      "pos": "adjective",
+      "meaning": "Neither young nor old, about 45 to 65 years old.",
+      "examples": [
+        "A {middle-aged} couple lives next door."
+      ],
+      "wrong": [
+        "The middle-aged man was only six years old."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌmɪdəlˈeɪdʒd/"
+    },
+    {
+      "lemma": "height",
+      "pos": "noun",
+      "meaning": "How tall a person or thing is.",
+      "examples": [
+        "He is of average {height}."
+      ],
+      "wrong": [
+        "We measured his height with a kitchen scale."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tallness"
+      ],
+      "ipa": "/haɪt/"
+    },
+    {
+      "lemma": "pale",
+      "pos": "adjective",
+      "meaning": "Having skin that is lighter than usual, often because you are ill.",
+      "examples": [
+        "You look {pale}. Are you feeling sick?"
+      ],
+      "wrong": [
+        "She was pale because her face was bright red."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "white",
+        "pasty"
+      ],
+      "ipa": "/peɪl/",
+      "antonyms": [
+        "tanned",
+        "rosy"
+      ]
+    },
+    {
+      "lemma": "tanned",
+      "pos": "adjective",
+      "meaning": "Having skin made darker by the sun.",
+      "examples": [
+        "She came back from the beach very {tanned}."
+      ],
+      "wrong": [
+        "He was tanned because he stayed inside all summer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "brown",
+        "sunburned"
+      ],
+      "ipa": "/tænd/",
+      "antonyms": [
+        "pale"
+      ]
+    },
+    {
+      "lemma": "take after",
+      "pos": "verb",
+      "meaning": "To look or behave like an older member of your family.",
+      "examples": [
+        "She {takes after} her mother; they have the same smile."
+      ],
+      "wrong": [
+        "He takes after his father, who is nothing like him."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "resemble"
+      ],
+      "ipa": "/teɪk ˈæftɚ/"
+    },
+    {
+      "lemma": "resemble",
+      "pos": "verb",
+      "meaning": "To look like or be similar to someone or something.",
+      "examples": [
+        "He strongly {resembles} his older brother."
+      ],
+      "wrong": [
+        "The two sisters resemble each other because they look totally different."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look like"
+      ],
+      "ipa": "/rɪˈzɛmbəl/"
+    },
+    {
+      "lemma": "appearance",
+      "pos": "noun",
+      "meaning": "The way someone or something looks.",
+      "examples": [
+        "She cares a lot about her {appearance}."
+      ],
+      "wrong": [
+        "His appearance is the sound of his voice."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look",
+        "looks"
+      ],
+      "ipa": "/əˈpɪrəns/"
+    },
+    {
+      "lemma": "personality",
+      "pos": "noun",
+      "meaning": "The kind of person you are and how you behave.",
+      "examples": [
+        "She has a warm, friendly {personality}."
+      ],
+      "wrong": [
+        "Her personality is the color of her eyes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "character",
+        "nature"
+      ],
+      "ipa": "/ˌpɝsəˈnæləti/"
+    },
+    {
+      "lemma": "sense of humor",
+      "pos": "phrase",
+      "meaning": "The ability to find things funny and make others laugh.",
+      "examples": [
+        "He has a great {sense of humor} and tells good jokes."
+      ],
+      "wrong": [
+        "With his good sense of humor, he never laughs at anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsɛns əv ˈhjumɚ/"
+    },
+    {
+      "lemma": "dishonest",
+      "pos": "adjective",
+      "meaning": "Not telling the truth; likely to lie or cheat.",
+      "examples": [
+        "The {dishonest} seller lied about the car."
+      ],
+      "wrong": [
+        "He was dishonest, so he always told the truth."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "untruthful",
+        "deceitful"
+      ],
+      "ipa": "/dɪsˈɑnɪst/",
+      "antonyms": [
+        "honest"
+      ]
+    },
+    {
+      "lemma": "bad-tempered",
+      "pos": "adjective",
+      "meaning": "Often angry or easily annoyed.",
+      "examples": [
+        "He is always {bad-tempered} before breakfast."
+      ],
+      "wrong": [
+        "She’s so bad-tempered that she never gets angry."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "grumpy",
+        "irritable"
+      ],
+      "ipa": "/ˌbædˈtɛmpɚd/",
+      "antonyms": [
+        "good-tempered",
+        "easy-going"
+      ]
+    },
+    {
+      "lemma": "impatient",
+      "pos": "adjective",
+      "meaning": "Not able to wait calmly; easily annoyed by delays.",
+      "examples": [
+        "He gets {impatient} when the bus is late."
+      ],
+      "wrong": [
+        "She is impatient and happy to wait for hours."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "restless"
+      ],
+      "ipa": "/ɪmˈpeɪʃənt/",
+      "antonyms": [
+        "patient"
+      ]
+    },
+    {
+      "lemma": "sociable",
+      "pos": "adjective",
+      "meaning": "Enjoying meeting and spending time with other people.",
+      "examples": [
+        "She’s very {sociable} and loves parties."
+      ],
+      "wrong": [
+        "He is sociable, so he avoids people and stays alone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "outgoing",
+        "friendly"
+      ],
+      "ipa": "/ˈsoʊʃəbəl/",
+      "antonyms": [
+        "unsociable",
+        "shy"
+      ]
+    },
+    {
+      "lemma": "open-minded",
+      "pos": "adjective",
+      "meaning": "Happy to listen to and accept new or different ideas.",
+      "examples": [
+        "My grandmother is very {open-minded} about new music."
+      ],
+      "wrong": [
+        "He is so open-minded that he refuses to hear new ideas."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tolerant"
+      ],
+      "ipa": "/ˌoʊpənˈmaɪndɪd/",
+      "antonyms": [
+        "narrow-minded"
+      ]
+    },
+    {
+      "lemma": "big-headed",
+      "pos": "adjective",
+      "meaning": "Thinking you are better or more important than others.",
+      "examples": [
+        "He became {big-headed} after he won the prize."
+      ],
+      "wrong": [
+        "She is big-headed and thinks she is worse than everyone."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "arrogant",
+        "conceited"
+      ],
+      "ipa": "/ˌbɪɡˈhɛdɪd/",
+      "antonyms": [
+        "modest"
+      ]
+    },
+    {
+      "lemma": "cowardly",
+      "pos": "adjective",
+      "meaning": "Not brave; too afraid to do what is right.",
+      "examples": [
+        "It was {cowardly} of him to run away."
+      ],
+      "wrong": [
+        "The cowardly soldier ran toward the danger to save his friend."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "timid",
+        "fearful"
+      ],
+      "ipa": "/ˈkaʊɚdli/",
+      "antonyms": [
+        "brave",
+        "courageous"
+      ]
+    },
+    {
+      "lemma": "clumsy",
+      "pos": "adjective",
+      "meaning": "Moving in a careless way and often dropping or breaking things.",
+      "examples": [
+        "I’m so {clumsy}; I dropped another glass."
+      ],
+      "wrong": [
+        "She is clumsy, so she never drops or breaks anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "awkward"
+      ],
+      "ipa": "/ˈklʌmzi/",
+      "antonyms": [
+        "graceful",
+        "careful"
+      ]
+    },
+    {
+      "lemma": "immature",
+      "pos": "adjective",
+      "meaning": "Behaving like a younger person; not sensible for your age.",
+      "examples": [
+        "It’s {immature} to laugh at someone who falls."
+      ],
+      "wrong": [
+        "He was immature and acted very wisely for his age."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "childish"
+      ],
+      "ipa": "/ˌɪməˈtʃʊr/",
+      "antonyms": [
+        "mature"
+      ]
+    },
+    {
+      "lemma": "careless",
+      "pos": "adjective",
+      "meaning": "Not paying enough attention to what you do.",
+      "examples": [
+        "A {careless} mistake cost him the exam."
+      ],
+      "wrong": [
+        "He is careless and checks every detail twice."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sloppy"
+      ],
+      "ipa": "/ˈkɛrləs/",
+      "antonyms": [
+        "careful"
+      ]
+    },
+    {
+      "lemma": "down-to-earth",
+      "pos": "adjective",
+      "meaning": "Practical, honest and easy to talk to.",
+      "examples": [
+        "Even though she’s famous, she is very {down-to-earth}."
+      ],
+      "wrong": [
+        "He is down-to-earth and thinks he is better than everyone."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "practical",
+        "sensible"
+      ],
+      "ipa": "/ˌdaʊn tu ˈɝθ/"
+    },
+    {
+      "lemma": "talkative",
+      "pos": "adjective",
+      "meaning": "Liking to talk a lot.",
+      "examples": [
+        "My little sister is very {talkative}."
+      ],
+      "wrong": [
+        "He is talkative, so he hardly says a word."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chatty"
+      ],
+      "ipa": "/ˈtɔkətɪv/",
+      "antonyms": [
+        "quiet"
+      ]
+    },
+    {
+      "lemma": "grumpy",
+      "pos": "adjective",
+      "meaning": "Easily annoyed and in a bad mood.",
+      "examples": [
+        "Dad is always {grumpy} when he is tired."
+      ],
+      "wrong": [
+        "She was grumpy and smiled happily at everyone."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "bad-tempered",
+        "cross"
+      ],
+      "ipa": "/ˈɡrʌmpi/",
+      "antonyms": [
+        "cheerful"
+      ]
+    },
+    {
+      "lemma": "absent-minded",
+      "pos": "adjective",
+      "meaning": "Often forgetting things because you are thinking about something else.",
+      "examples": [
+        "My {absent-minded} uncle left his keys in the fridge."
+      ],
+      "wrong": [
+        "He is absent-minded and never forgets anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "forgetful"
+      ],
+      "ipa": "/ˌæbsəntˈmaɪndɪd/"
+    }
+  ]
+}

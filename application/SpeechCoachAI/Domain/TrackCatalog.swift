@@ -1,9 +1,9 @@
 import Foundation
 
-/// The ten coach tracks of the Lesson tab. The Teacher hosts the CEFR course and is not one of them.
+/// The eleven coach tracks of the Lesson tab (Pronunciation joined in Phase 12). The Teacher hosts the CEFR course and is not one of them.
 /// `artwork` names an asset when final art exists; otherwise `symbol` (an SF Symbol) stands in.
 enum TrackCoach: String, Codable, CaseIterable, Identifiable {
-    case grammarian, readingListening, debater, negotiator, publicSpeaker
+    case grammarian, pronunciation, readingListening, debater, negotiator, publicSpeaker
     case journalist, creativeWriter, business, storyteller, copywriter
 
     var id: String { rawValue }
@@ -11,6 +11,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
     var title: String {
         switch self {
         case .grammarian: "Grammarian"
+        case .pronunciation: "Pronunciation"
         case .readingListening: "Reading & Listening"
         case .debater: "Debater & Argument"
         case .negotiator: "Persuasion & Negotiation"
@@ -27,6 +28,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
     var tagline: String {
         switch self {
         case .grammarian: "Build accurate sentences"
+        case .pronunciation: "Sound clear and natural"
         case .readingListening: "Read and listen closely"
         case .debater: "Argue clearly and fairly"
         case .negotiator: "Persuade and agree"
@@ -47,7 +49,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
         case .publicSpeaker: "CoachSpeaker"
         case .journalist: "CoachJournalist"
         case .business: "CoachBusiness"
-        case .debater, .negotiator, .creativeWriter, .storyteller, .copywriter: nil
+        case .pronunciation, .debater, .negotiator, .creativeWriter, .storyteller, .copywriter: nil
         }
     }
 
@@ -55,6 +57,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
     var symbol: String {
         switch self {
         case .grammarian: "text.book.closed"
+        case .pronunciation: "mouth"
         case .readingListening: "book"
         case .debater: "scale.3d"
         case .negotiator: "arrow.left.arrow.right"
@@ -120,6 +123,7 @@ struct TrackCatalog: Equatable {
     /// Only coaches that have at least one ready lesson, in `TrackCoach` order.
     var tracks: [Track] = []
     var problem: String?
+    var archivedLessons: [ResolvedLesson] = []
 
     var lessons: [ResolvedLesson] { tracks.flatMap(\.lessons) }
 
@@ -127,6 +131,10 @@ struct TrackCatalog: Equatable {
 
     /// The "Continue" card: the unfinished coach lesson, if any.
     func continueLesson(journeys: [LessonJourney]) -> (track: Track, lesson: ResolvedLesson)? {
+        for journey in journeys.reversed() where journey.completedAt == nil {
+            if let lesson = archivedLessons.first(where: { $0.id == journey.lessonID && $0.contentVersion == journey.contentVersion }),
+               let track = tracks.first(where: { $0.id == lesson.trackId }) { return (track, lesson) }
+        }
         for track in tracks {
             if let lesson = track.lessonInProgress(journeys: journeys) { return (track, lesson) }
         }

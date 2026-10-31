@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-finance-advanced",
+    "title": "Advanced finance",
+    "level": "C2",
+    "tagline": "Markets, risk and capital",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "tranche",
+      "pos": "noun",
+      "meaning": "One of several portions into which an amount of money or a loan is divided.",
+      "examples": [
+        "The loan will be paid in three {tranches} as each stage is finished."
+      ],
+      "wrong": [
+        "The tranche was the whole loan, paid in one single sum."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "installment",
+        "portion"
+      ],
+      "ipa": "/trɑnʃ/"
+    },
+    {
+      "lemma": "solvency",
+      "pos": "noun",
+      "meaning": "The state of being able to pay all your debts.",
+      "examples": [
+        "The auditors raised doubts about the insurer’s {solvency}."
+      ],
+      "wrong": [
+        "Its solvency meant it could not pay any of its debts."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "creditworthiness"
+      ],
+      "ipa": "/ˈsɑlvənsi/",
+      "antonyms": [
+        "insolvency"
+      ]
+    },
+    {
+      "lemma": "insolvent",
+      "pos": "adjective",
+      "meaning": "Unable to pay what you owe.",
+      "examples": [
+        "The airline was declared {insolvent} and stopped flying."
+      ],
+      "wrong": [
+        "The insolvent company paid all its debts with ease."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bankrupt",
+        "broke"
+      ],
+      "ipa": "/ɪnˈsɑlvənt/",
+      "antonyms": [
+        "solvent"
+      ]
+    },
+    {
+      "lemma": "arbitrage",
+      "pos": "noun",
+      "meaning": "Buying something in one market and selling it at once in another for a higher price.",
+      "examples": [
+        "Traders profited through {arbitrage} between the two exchanges."
+      ],
+      "wrong": [
+        "Arbitrage means buying and selling at exactly the same price everywhere."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈɑrbɪˌtrɑʒ/"
+    },
+    {
+      "lemma": "hedge",
+      "pos": "verb",
+      "meaning": "To reduce the risk of loss by making a balancing investment.",
+      "examples": [
+        "Farmers {hedge} against falling prices by selling their crop in advance."
+      ],
+      "wrong": [
+        "He hedged his bets by putting all his money on one horse."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "offset",
+        "insure"
+      ],
+      "ipa": "/hɛdʒ/"
+    },
+    {
+      "lemma": "derivative",
+      "pos": "noun",
+      "meaning": "A financial contract whose value depends on another asset, such as a share or currency.",
+      "examples": [
+        "The bank lost billions on complex {derivatives} linked to housing loans."
+      ],
+      "wrong": [
+        "A derivative is a simple coin that has value on its own."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/dɪˈrɪvətɪv/"
+    },
+    {
+      "lemma": "futures",
+      "pos": "noun",
+      "meaning": "Contracts to buy or sell something at a fixed price on a future date.",
+      "examples": [
+        "Oil {futures} rose sharply after the supply cut."
+      ],
+      "wrong": [
+        "Futures are deals that are settled and paid for in the past."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "forward contracts"
+      ],
+      "ipa": "/ˈfjutʃɚz/"
+    },
+    {
+      "lemma": "short selling",
+      "pos": "noun",
+      "meaning": "Trading borrowed shares: you sell them now, hoping to buy them back later for less.",
+      "examples": [
+        "{Short selling} lets traders profit when a stock falls."
+      ],
+      "wrong": [
+        "Short selling pays off only when the share price rises."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "shorting"
+      ],
+      "ipa": "/ˈʃɔrt ˈsɛlɪŋ/"
+    },
+    {
+      "lemma": "bear market",
+      "pos": "noun",
+      "meaning": "A long period when share prices are falling.",
+      "examples": [
+        "Many investors lost heavily during the {bear market}."
+      ],
+      "wrong": [
+        "In the bear market, prices climbed steadily for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "downturn"
+      ],
+      "ipa": "/ˈbɛr ˈmɑrkɪt/",
+      "antonyms": [
+        "bull market"
+      ]
+    },
+    {
+      "lemma": "bull market",
+      "pos": "noun",
+      "meaning": "A long period when share prices are rising.",
+      "examples": [
+        "Pension funds grew fast during the long {bull market}."
+      ],
+      "wrong": [
+        "In the bull market, share prices fell month after month."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "upswing"
+      ],
+      "ipa": "/ˈbʊl ˈmɑrkɪt/",
+      "antonyms": [
+        "bear market"
+      ]
+    },
+    {
+      "lemma": "volatility",
+      "pos": "noun",
+      "meaning": "How quickly and sharply prices go up and down.",
+      "examples": [
+        "{Volatility} rose as markets reacted to the election."
+      ],
+      "wrong": [
+        "The market’s volatility kept prices perfectly steady all year."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "instability",
+        "fluctuation"
+      ],
+      "ipa": "/ˌvɑləˈtɪlɪti/"
+    },
+    {
+      "lemma": "yield",
+      "pos": "noun",
+      "meaning": "The income an investment earns, shown as a percentage of its price.",
+      "examples": [
+        "The bond offers a {yield} of four percent a year."
+      ],
+      "wrong": [
+        "The yield is the price you pay a broker to open an account."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "return"
+      ],
+      "ipa": "/jild/"
+    },
+    {
+      "lemma": "basis point",
+      "pos": "noun",
+      "meaning": "One hundredth of one percent, used for interest rates and yields.",
+      "examples": [
+        "The central bank raised rates by 25 {basis points}."
+      ],
+      "wrong": [
+        "A basis point is a full ten percent rise in rates."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈbeɪsɪs ˌpɔɪnt/"
+    },
+    {
+      "lemma": "diversification",
+      "pos": "noun",
+      "meaning": "Spreading money across different investments to reduce risk.",
+      "examples": [
+        "{Diversification} protected her savings when one sector crashed."
+      ],
+      "wrong": [
+        "His diversification meant putting everything into one stock."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spreading risk"
+      ],
+      "ipa": "/dɪˌvɝsəfəˈkeɪʃən/"
+    },
+    {
+      "lemma": "capital gains",
+      "pos": "noun",
+      "meaning": "Profit made by selling an asset for more than you paid.",
+      "examples": [
+        "She paid tax on the {capital gains} from selling her shares."
+      ],
+      "wrong": [
+        "He reported capital gains after selling his house at a loss."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈkæpɪtəl ˈɡeɪnz/"
+    },
+    {
+      "lemma": "amortize",
+      "pos": "verb",
+      "meaning": "To pay off a debt, or spread a cost, in regular parts over time.",
+      "examples": [
+        "The loan is {amortized} over twenty years."
+      ],
+      "wrong": [
+        "They amortized the debt by paying it all on day one."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "pay off",
+        "write down"
+      ],
+      "ipa": "/ˈæmɚˌtaɪz/"
+    },
+    {
+      "lemma": "accrue",
+      "pos": "verb",
+      "meaning": "To build up gradually over time, especially interest or costs.",
+      "examples": [
+        "Interest {accrues} daily on the unpaid balance."
+      ],
+      "wrong": [
+        "The interest accrued, so the amount owed got smaller each day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accumulate",
+        "build up"
+      ],
+      "ipa": "/əˈkru/"
+    },
+    {
+      "lemma": "collateral",
+      "pos": "noun",
+      "meaning": "Property promised to a lender, which they can take if a loan is not repaid.",
+      "examples": [
+        "He offered his house as {collateral} for the business loan."
+      ],
+      "wrong": [
+        "The collateral is the money the lender gives you as a gift."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "security",
+        "guarantee"
+      ],
+      "ipa": "/kəˈlætərəl/"
+    },
+    {
+      "lemma": "securitization",
+      "pos": "noun",
+      "meaning": "Bundling loans together and selling them to investors as securities.",
+      "examples": [
+        "The {securitization} of mortgages spread risk across the world."
+      ],
+      "wrong": [
+        "Securitization means keeping each loan locked in one bank’s safe."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/sɪˌkjʊrɪtəˈzeɪʃən/"
+    },
+    {
+      "lemma": "underwrite",
+      "pos": "verb",
+      "meaning": "To guarantee to buy unsold shares or to cover a risk for a fee.",
+      "examples": [
+        "Three banks agreed to {underwrite} the share issue."
+      ],
+      "wrong": [
+        "The bank underwrote the deal by refusing to accept any risk."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "guarantee",
+        "insure"
+      ],
+      "ipa": "/ˌʌndɚˈraɪt/"
+    },
+    {
+      "lemma": "initial public offering",
+      "pos": "noun",
+      "meaning": "The first time a company offers its shares for sale to ordinary investors.",
+      "examples": [
+        "The tech firm raised billions in its {initial public offering}."
+      ],
+      "wrong": [
+        "The initial public offering was the company’s tenth share sale."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "flotation",
+        "listing"
+      ],
+      "ipa": "/ɪˈnɪʃəl ˈpʌblɪk ˈɔfərɪŋ/"
+    },
+    {
+      "lemma": "valuation",
+      "pos": "noun",
+      "meaning": "An estimate of what a company or asset is worth.",
+      "examples": [
+        "The startup’s {valuation} doubled after the new contract."
+      ],
+      "wrong": [
+        "The valuation told us the color of the company’s logo."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "appraisal",
+        "assessment"
+      ],
+      "ipa": "/ˌvæljuˈeɪʃən/"
+    },
+    {
+      "lemma": "blue-chip",
+      "pos": "adjective",
+      "meaning": "Describing large, reliable companies with a long record of success.",
+      "examples": [
+        "Retirees prefer {blue-chip} stocks that pay steady dividends."
+      ],
+      "wrong": [
+        "The blue-chip firm was a tiny, risky startup with no record."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "established",
+        "top-tier"
+      ],
+      "ipa": "/ˈblu ˌtʃɪp/"
+    },
+    {
+      "lemma": "stagflation",
+      "pos": "noun",
+      "meaning": "Slow economic growth combined with high inflation and unemployment.",
+      "examples": [
+        "The country suffered a decade of {stagflation}."
+      ],
+      "wrong": [
+        "Stagflation is a boom with fast growth and stable prices."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/stæɡˈfleɪʃən/"
+    },
+    {
+      "lemma": "quantitative easing",
+      "pos": "noun",
+      "meaning": "When a central bank creates money to buy bonds and boost the economy.",
+      "examples": [
+        "{Quantitative easing} pushed bond prices up and rates down."
+      ],
+      "wrong": [
+        "Quantitative easing removes money from the economy to slow it."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈkwɑntəˌteɪtɪv ˈizɪŋ/"
+    },
+    {
+      "lemma": "sovereign debt",
+      "pos": "noun",
+      "meaning": "Money owed by a national government.",
+      "examples": [
+        "Rising {sovereign debt} worried investors in the eurozone."
+      ],
+      "wrong": [
+        "Sovereign debt is a loan that a family owes to a shop."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "government debt",
+        "national debt"
+      ],
+      "ipa": "/ˈsɑvrən ˈdɛt/"
+    },
+    {
+      "lemma": "receivership",
+      "pos": "noun",
+      "meaning": "The state of a failing company run by an official who sells assets to pay debts.",
+      "examples": [
+        "The chain went into {receivership} after years of losses."
+      ],
+      "wrong": [
+        "In receivership, the company was free to spend as it liked."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "administration"
+      ],
+      "ipa": "/rɪˈsivɚˌʃɪp/"
+    },
+    {
+      "lemma": "liquidate",
+      "pos": "verb",
+      "meaning": "To close a business and sell its assets to pay its debts; to convert into cash.",
+      "examples": [
+        "The court ordered the firm to {liquidate} its assets."
+      ],
+      "wrong": [
+        "They liquidated the company by opening ten new branches."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "wind up",
+        "sell off"
+      ],
+      "ipa": "/ˈlɪkwɪˌdeɪt/"
+    },
+    {
+      "lemma": "capital flight",
+      "pos": "noun",
+      "meaning": "The rapid movement of money out of a country by worried investors.",
+      "examples": [
+        "Political unrest triggered {capital flight} and a falling currency."
+      ],
+      "wrong": [
+        "Capital flight brought a wave of foreign money into the country."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈkæpɪtəl ˈflaɪt/"
+    },
+    {
+      "lemma": "escrow",
+      "pos": "noun",
+      "meaning": "An arrangement where a third party holds money until a deal is completed.",
+      "examples": [
+        "The deposit is held in {escrow} until the house sale closes."
+      ],
+      "wrong": [
+        "Money in escrow goes straight to the seller before any deal."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "trust account"
+      ],
+      "ipa": "/ˈɛskroʊ/"
+    },
+    {
+      "lemma": "margin call",
+      "pos": "noun",
+      "meaning": "A broker’s demand for more money when a borrowed investment loses value.",
+      "examples": [
+        "When prices fell, he faced a {margin call} he could not meet."
+      ],
+      "wrong": [
+        "A margin call is a bonus paid when your investments rise."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈmɑrdʒɪn ˌkɔl/"
+    },
+    {
+      "lemma": "contagion",
+      "pos": "noun",
+      "meaning": "The spread of financial trouble from one market or country to others.",
+      "examples": [
+        "Regulators feared {contagion} from the collapse of one large bank."
+      ],
+      "wrong": [
+        "Contagion kept the crisis neatly contained in one small firm."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spillover"
+      ],
+      "ipa": "/kənˈteɪdʒən/"
+    },
+    {
+      "lemma": "counterparty",
+      "pos": "noun",
+      "meaning": "The other side in a financial contract or trade.",
+      "examples": [
+        "If the {counterparty} defaults, the bank may not get paid."
+      ],
+      "wrong": [
+        "The counterparty is the same person who started the trade."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈkaʊntɚˌpɑrti/"
+    },
+    {
+      "lemma": "risk-averse",
+      "pos": "adjective",
+      "meaning": "Preferring safer choices even if they earn less.",
+      "examples": [
+        "{Risk-averse} savers kept their money in government bonds."
+      ],
+      "wrong": [
+        "Being risk-averse, she gambled her savings on a new coin."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cautious",
+        "conservative"
+      ],
+      "ipa": "/ˈrɪsk əˌvɝs/",
+      "antonyms": [
+        "risk-seeking"
+      ]
+    },
+    {
+      "lemma": "risk premium",
+      "pos": "noun",
+      "meaning": "The extra return investors demand for accepting a greater chance of loss.",
+      "examples": [
+        "Investors want a higher {risk premium} to lend to unstable countries."
+      ],
+      "wrong": [
+        "The risk premium is lower for the riskiest loans."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈrɪsk ˌprimiəm/"
+    },
+    {
+      "lemma": "hedge fund",
+      "pos": "noun",
+      "meaning": "A private investment pool using bold, complex strategies for wealthy clients.",
+      "examples": [
+        "The {hedge fund} made a fortune betting against the housing market."
+      ],
+      "wrong": [
+        "A hedge fund is a government savings scheme for small children."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈhɛdʒ ˌfʌnd/"
+    },
+    {
+      "lemma": "venture capital",
+      "pos": "noun",
+      "meaning": "Money invested in new, risky companies in exchange for a share.",
+      "examples": [
+        "The startup raised {venture capital} to build its first factory."
+      ],
+      "wrong": [
+        "Venture capital is a loan only for old, safe companies."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "risk capital"
+      ],
+      "ipa": "/ˈvɛntʃɚ ˈkæpɪtəl/"
+    },
+    {
+      "lemma": "yield curve",
+      "pos": "noun",
+      "meaning": "A graph comparing interest rates on bonds of different lengths.",
+      "examples": [
+        "An inverted {yield curve} has often come before a recession."
+      ],
+      "wrong": [
+        "The yield curve shows how many staff a bank employs each year."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈjild ˌkɝv/"
+    },
+    {
+      "lemma": "divest",
+      "pos": "verb",
+      "meaning": "To sell off a business, investment or asset.",
+      "examples": [
+        "The university chose to {divest} from fossil fuel companies."
+      ],
+      "wrong": [
+        "The firm divested by buying more shares in the same business."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sell off",
+        "dispose of"
+      ],
+      "ipa": "/daɪˈvɛst/"
+    },
+    {
+      "lemma": "dead cat bounce",
+      "pos": "phrase",
+      "meaning": "A brief recovery in a falling price before it falls again.",
+      "examples": [
+        "The rally turned out to be a {dead cat bounce}; prices sank the next week."
+      ],
+      "wrong": [
+        "The dead cat bounce began a long, steady rise in prices."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈdɛd ˈkæt ˈbaʊns/"
+    }
+  ]
+}

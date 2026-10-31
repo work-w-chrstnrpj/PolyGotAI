@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-shopping-money",
+    "title": "Shopping and money",
+    "level": "A2",
+    "tagline": "Prices, paying and shops",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "price",
+      "pos": "noun",
+      "meaning": "The amount of money you must pay for something.",
+      "examples": [
+        "The {price} of bread went up again."
+      ],
+      "wrong": [
+        "The price of the bag is blue."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cost"
+      ],
+      "ipa": "/praɪs/"
+    },
+    {
+      "lemma": "cost",
+      "pos": "verb",
+      "meaning": "To have a price of a certain amount.",
+      "examples": [
+        "How much does this shirt {cost}?"
+      ],
+      "wrong": [
+        "The ticket costs nothing, so it is very expensive."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɔst/"
+    },
+    {
+      "lemma": "pay",
+      "pos": "verb",
+      "meaning": "To give money for something you buy.",
+      "examples": [
+        "Can I {pay} by card?"
+      ],
+      "wrong": [
+        "I paid for the coffee, so the shop gave me money."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/peɪ/"
+    },
+    {
+      "lemma": "spend",
+      "pos": "verb",
+      "meaning": "To use money to buy things.",
+      "examples": [
+        "I {spend} too much on clothes."
+      ],
+      "wrong": [
+        "I spent all my money, so now I have more than before."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/spɛnd/",
+      "antonyms": [
+        "save"
+      ]
+    },
+    {
+      "lemma": "sell",
+      "pos": "verb",
+      "meaning": "To give something to someone for money.",
+      "examples": [
+        "They {sell} fresh fish at the market."
+      ],
+      "wrong": [
+        "The shop sells bread, so you can’t buy any there."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sɛl/",
+      "antonyms": [
+        "buy"
+      ]
+    },
+    {
+      "lemma": "coin",
+      "pos": "noun",
+      "meaning": "A small flat round piece of metal money.",
+      "examples": [
+        "I found a {coin} under the sofa."
+      ],
+      "wrong": [
+        "A coin is a paper note that you fold."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɔɪn/"
+    },
+    {
+      "lemma": "change",
+      "pos": "noun",
+      "meaning": "The money you get back when you pay too much.",
+      "examples": [
+        "Here is your {change}: two dollars."
+      ],
+      "wrong": [
+        "I paid the exact price, so I got a lot of change."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃeɪndʒ/"
+    },
+    {
+      "lemma": "cash",
+      "pos": "noun",
+      "meaning": "Money in coins and notes, not a card.",
+      "examples": [
+        "Do you have any {cash} for the taxi?"
+      ],
+      "wrong": [
+        "I paid in cash with my credit card."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kæʃ/"
+    },
+    {
+      "lemma": "credit card",
+      "pos": "noun",
+      "meaning": "A plastic card you use to buy now and pay later.",
+      "examples": [
+        "I paid for the hotel with my {credit card}."
+      ],
+      "wrong": [
+        "I pay with a credit card made of coins."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkrɛdɪt ˌkɑrd/"
+    },
+    {
+      "lemma": "wallet",
+      "pos": "noun",
+      "meaning": "A small flat case for money and cards.",
+      "examples": [
+        "He keeps his cards in his {wallet}."
+      ],
+      "wrong": [
+        "I keep my soup in my wallet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "purse"
+      ],
+      "ipa": "/ˈwɑlɪt/"
+    },
+    {
+      "lemma": "bill",
+      "pos": "noun",
+      "meaning": "A paper that shows how much you must pay.",
+      "examples": [
+        "Can we have the {bill}, please?"
+      ],
+      "wrong": [
+        "The waiter brought the bill before we ordered."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "check"
+      ],
+      "ipa": "/bɪl/"
+    },
+    {
+      "lemma": "sale",
+      "pos": "noun",
+      "meaning": "A time when a shop sells things at lower prices.",
+      "examples": [
+        "I bought these shoes in the {sale}."
+      ],
+      "wrong": [
+        "Everything costs more in the sale."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/seɪl/"
+    },
+    {
+      "lemma": "shopping",
+      "pos": "noun",
+      "meaning": "The activity of going to shops to buy things.",
+      "examples": [
+        "We do our {shopping} on Saturday."
+      ],
+      "wrong": [
+        "I went shopping, but I never visited a shop."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈʃɑpɪŋ/"
+    },
+    {
+      "lemma": "size",
+      "pos": "noun",
+      "meaning": "How big or small something is.",
+      "examples": [
+        "What {size} are your shoes?"
+      ],
+      "wrong": [
+        "This shirt is the wrong size, so it fits perfectly."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/saɪz/"
+    },
+    {
+      "lemma": "try on",
+      "pos": "phrase",
+      "meaning": "To put on clothes to see if they fit.",
+      "examples": [
+        "Can I {try on} this jacket?"
+      ],
+      "wrong": [
+        "I tried on the soup to see if it fit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌtraɪ ˈɑn/"
+    },
+    {
+      "lemma": "fit",
+      "pos": "verb",
+      "meaning": "To be the right size for someone.",
+      "examples": [
+        "These jeans don’t {fit} me."
+      ],
+      "wrong": [
+        "The shoes fit well, so they hurt my feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fɪt/"
+    },
+    {
+      "lemma": "return",
+      "pos": "verb",
+      "meaning": "To take something back to the shop.",
+      "examples": [
+        "I want to {return} this broken phone."
+      ],
+      "wrong": [
+        "I returned the shirt, so I still have it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "take back"
+      ],
+      "ipa": "/rɪˈtɝn/"
+    },
+    {
+      "lemma": "queue",
+      "pos": "noun",
+      "meaning": "A line of people waiting for something.",
+      "examples": [
+        "There was a long {queue} at the bank."
+      ],
+      "wrong": [
+        "There was a queue, so nobody was waiting."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "line"
+      ],
+      "ipa": "/kju/"
+    },
+    {
+      "lemma": "shop assistant",
+      "pos": "noun",
+      "meaning": "A person who helps customers in a shop.",
+      "examples": [
+        "The {shop assistant} found my size."
+      ],
+      "wrong": [
+        "The shop assistant is the person who buys everything in the shop."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "salesperson",
+        "clerk"
+      ],
+      "ipa": "/ˈʃɑp əˌsɪstənt/"
+    },
+    {
+      "lemma": "purse",
+      "pos": "noun",
+      "meaning": "A small bag for money and cards.",
+      "examples": [
+        "She took a coin out of her {purse}."
+      ],
+      "wrong": [
+        "I keep my car in my purse."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pɝs/"
+    },
+    {
+      "lemma": "bargain",
+      "pos": "noun",
+      "meaning": "Something you buy for less than it is worth.",
+      "examples": [
+        "This coat was a {bargain} at ten dollars."
+      ],
+      "wrong": [
+        "It was a bargain because it cost twice the usual price."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "good deal"
+      ],
+      "ipa": "/ˈbɑrɡən/"
+    },
+    {
+      "lemma": "label",
+      "pos": "noun",
+      "meaning": "A small piece of paper or cloth that gives information about a thing.",
+      "examples": [
+        "Read the {label} before you wash it."
+      ],
+      "wrong": [
+        "A label is a kind of pocket."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tag"
+      ],
+      "ipa": "/ˈleɪbəl/"
+    },
+    {
+      "lemma": "counter",
+      "pos": "noun",
+      "meaning": "A long flat surface in a shop where you pay.",
+      "examples": [
+        "Please pay at the {counter}."
+      ],
+      "wrong": [
+        "I sleep on the counter in my bedroom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkaʊntɚ/"
+    },
+    {
+      "lemma": "trolley",
+      "pos": "noun",
+      "meaning": "A metal basket on wheels that you push in a supermarket.",
+      "examples": [
+        "Put the bags in the {trolley}."
+      ],
+      "wrong": [
+        "I drink coffee from a trolley."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shopping cart",
+        "cart"
+      ],
+      "ipa": "/ˈtrɑli/"
+    },
+    {
+      "lemma": "basket",
+      "pos": "noun",
+      "meaning": "A container for carrying things, often with a handle.",
+      "examples": [
+        "She put the apples in her {basket}."
+      ],
+      "wrong": [
+        "A basket is a kind of hat that you eat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbæskɪt/"
+    },
+    {
+      "lemma": "cheaply",
+      "pos": "adverb",
+      "meaning": "Without spending much money.",
+      "examples": [
+        "You can eat {cheaply} in this town."
+      ],
+      "wrong": [
+        "We lived cheaply, so we spent all our money."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "inexpensively"
+      ],
+      "ipa": "/ˈtʃipli/",
+      "antonyms": [
+        "expensively"
+      ]
+    },
+    {
+      "lemma": "afford",
+      "pos": "verb",
+      "meaning": "To have enough money to buy something.",
+      "examples": [
+        "We can’t {afford} a new car."
+      ],
+      "wrong": [
+        "I can afford it, so I don’t have enough money."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/əˈfɔrd/"
+    },
+    {
+      "lemma": "lend",
+      "pos": "verb",
+      "meaning": "To give something to someone for a short time.",
+      "examples": [
+        "Can you {lend} me your bike?"
+      ],
+      "wrong": [
+        "I lent him money, so he never has to give it back."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "loan"
+      ],
+      "ipa": "/lɛnd/",
+      "antonyms": [
+        "borrow"
+      ]
+    },
+    {
+      "lemma": "owe",
+      "pos": "verb",
+      "meaning": "To need to pay money back to someone.",
+      "examples": [
+        "I {owe} you ten dollars."
+      ],
+      "wrong": [
+        "I owe him money, so he must pay me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/oʊ/"
+    },
+    {
+      "lemma": "note",
+      "pos": "noun",
+      "meaning": "A piece of paper money.",
+      "examples": [
+        "She paid with a twenty-dollar {note}."
+      ],
+      "wrong": [
+        "A note is a metal coin."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bill",
+        "banknote"
+      ],
+      "ipa": "/noʊt/"
+    },
+    {
+      "lemma": "department store",
+      "pos": "noun",
+      "meaning": "A large shop that sells many kinds of things.",
+      "examples": [
+        "We bought a bed at the {department store}."
+      ],
+      "wrong": [
+        "A department store is a tiny shop that sells only stamps."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪˈpɑrtmənt ˌstɔr/"
+    },
+    {
+      "lemma": "open",
+      "pos": "adjective",
+      "meaning": "Ready for customers to come in.",
+      "examples": [
+        "Is the shop {open} on Sunday?"
+      ],
+      "wrong": [
+        "The shop is open, so we can’t go in."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈoʊpən/",
+      "antonyms": [
+        "closed"
+      ]
+    },
+    {
+      "lemma": "closed",
+      "pos": "adjective",
+      "meaning": "Not open for customers.",
+      "examples": [
+        "The bank is {closed} today."
+      ],
+      "wrong": [
+        "The shop is closed, so let’s go in and buy bread."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shut"
+      ],
+      "ipa": "/kloʊzd/",
+      "antonyms": [
+        "open"
+      ]
+    },
+    {
+      "lemma": "total",
+      "pos": "noun",
+      "meaning": "The whole amount after you add everything.",
+      "examples": [
+        "The {total} is forty dollars."
+      ],
+      "wrong": [
+        "The total is smaller than each of the prices."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sum"
+      ],
+      "ipa": "/ˈtoʊtəl/"
+    },
+    {
+      "lemma": "refund",
+      "pos": "noun",
+      "meaning": "Money that a shop gives back to you.",
+      "examples": [
+        "I asked for a {refund} for the broken lamp."
+      ],
+      "wrong": [
+        "A refund is money you pay twice for the same thing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "repayment"
+      ],
+      "ipa": "/ˈrifʌnd/"
+    },
+    {
+      "lemma": "pocket money",
+      "pos": "noun",
+      "meaning": "Money that parents give to children each week.",
+      "examples": [
+        "She saves her {pocket money} for books."
+      ],
+      "wrong": [
+        "Pocket money is the salary a manager gets."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "allowance"
+      ],
+      "ipa": "/ˈpɑkɪt ˌmʌni/"
+    },
+    {
+      "lemma": "deliver",
+      "pos": "verb",
+      "meaning": "To bring goods to a person’s home or office.",
+      "examples": [
+        "They {deliver} the pizza in thirty minutes."
+      ],
+      "wrong": [
+        "They delivered the sofa, so it is still in the shop."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bring"
+      ],
+      "ipa": "/dɪˈlɪvɚ/"
+    },
+    {
+      "lemma": "stock",
+      "pos": "noun",
+      "meaning": "The goods a shop has to sell.",
+      "examples": [
+        "Sorry, that phone is out of {stock}."
+      ],
+      "wrong": [
+        "It is in stock, so the shop has none."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "supply"
+      ],
+      "ipa": "/stɑk/"
+    },
+    {
+      "lemma": "checkout",
+      "pos": "noun",
+      "meaning": "The place in a supermarket where you pay.",
+      "examples": [
+        "The {checkout} was very busy."
+      ],
+      "wrong": [
+        "The checkout is where you choose your vegetables."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "till"
+      ],
+      "ipa": "/ˈtʃɛkaʊt/"
+    },
+    {
+      "lemma": "worth",
+      "pos": "adjective",
+      "meaning": "Having a value of a certain amount.",
+      "examples": [
+        "This old coin is {worth} a lot of money."
+      ],
+      "wrong": [
+        "The car is worth nothing, so people pay a lot for it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/wɝθ/"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-celebrations",
+    "title": "Celebrations",
+    "level": "A2",
+    "tagline": "Parties, gifts and holidays",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "celebration",
+      "pos": "noun",
+      "meaning": "A special event or party for something good that happened.",
+      "examples": [
+        "There was a big {celebration} after the team won."
+      ],
+      "wrong": [
+        "The celebration was sad and nobody came."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "party",
+        "festivity"
+      ],
+      "ipa": "/ˌsɛləˈbreɪʃən/"
+    },
+    {
+      "lemma": "celebrate",
+      "pos": "verb",
+      "meaning": "To do something fun because it is a special day or good news.",
+      "examples": [
+        "We {celebrated} her new job with dinner."
+      ],
+      "wrong": [
+        "They celebrated the good news by sitting in silence alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɛləˌbreɪt/"
+    },
+    {
+      "lemma": "gift",
+      "pos": "noun",
+      "meaning": "Something you give to someone, for example on their birthday.",
+      "examples": [
+        "Thank you for the lovely {gift}!"
+      ],
+      "wrong": [
+        "She paid me back for the gift I gave her."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "present"
+      ],
+      "ipa": "/ɡɪft/"
+    },
+    {
+      "lemma": "present",
+      "pos": "noun",
+      "meaning": "A thing you give to someone on a special day.",
+      "examples": [
+        "I got a book as a birthday {present}."
+      ],
+      "wrong": [
+        "He bought himself a present and kept it in the shop."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "gift"
+      ],
+      "ipa": "/ˈprɛzənt/"
+    },
+    {
+      "lemma": "invitation",
+      "pos": "noun",
+      "meaning": "A card or message asking someone to come to an event.",
+      "examples": [
+        "I got an {invitation} to their wedding."
+      ],
+      "wrong": [
+        "The invitation told me not to come."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "invite"
+      ],
+      "ipa": "/ˌɪnvɪˈteɪʃən/"
+    },
+    {
+      "lemma": "host",
+      "pos": "noun",
+      "meaning": "The person who invites guests and looks after them at a party.",
+      "examples": [
+        "The {host} gave everyone a drink at the door."
+      ],
+      "wrong": [
+        "The host was a guest who came to the party late."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/hoʊst/"
+    },
+    {
+      "lemma": "candle",
+      "pos": "noun",
+      "meaning": "A stick of wax with a string in the middle that you burn for light.",
+      "examples": [
+        "There were ten {candles} on the birthday cake."
+      ],
+      "wrong": [
+        "She turned on the candle with a switch."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkændəl/"
+    },
+    {
+      "lemma": "balloon",
+      "pos": "noun",
+      "meaning": "A small colored rubber bag that you fill with air.",
+      "examples": [
+        "The children played with red {balloons} at the party."
+      ],
+      "wrong": [
+        "The balloon was heavy, like a rock."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bəˈlun/"
+    },
+    {
+      "lemma": "decoration",
+      "pos": "noun",
+      "meaning": "A pretty thing you put up to make a place look nice for a party.",
+      "examples": [
+        "We put {decorations} on the walls for the party."
+      ],
+      "wrong": [
+        "The decorations made the room look plain and empty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "ornament"
+      ],
+      "ipa": "/ˌdɛkəˈreɪʃən/"
+    },
+    {
+      "lemma": "Christmas",
+      "pos": "noun",
+      "meaning": "A holiday on December 25 when many people give presents.",
+      "examples": [
+        "We eat a big dinner with family at {Christmas}."
+      ],
+      "wrong": [
+        "Christmas is in July every year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkrɪsməs/"
+    },
+    {
+      "lemma": "New Year",
+      "pos": "noun",
+      "meaning": "The first day of January, when the calendar starts again.",
+      "examples": [
+        "Happy {New Year}! Let’s hope this year is great."
+      ],
+      "wrong": [
+        "We celebrate New Year in the middle of June."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnu ˈjɪr/"
+    },
+    {
+      "lemma": "Halloween",
+      "pos": "noun",
+      "meaning": "October 31, when children dress up and ask for candy.",
+      "examples": [
+        "My son was a ghost for {Halloween}."
+      ],
+      "wrong": [
+        "Halloween is a summer holiday in August."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌhæləˈwin/"
+    },
+    {
+      "lemma": "Thanksgiving",
+      "pos": "noun",
+      "meaning": "An American holiday in November when families eat a big meal together.",
+      "examples": [
+        "We eat turkey at {Thanksgiving}."
+      ],
+      "wrong": [
+        "Thanksgiving is a day when nobody eats."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌθæŋksˈɡɪvɪŋ/"
+    },
+    {
+      "lemma": "toast",
+      "pos": "noun",
+      "meaning": "When people lift their glasses and drink to wish someone well.",
+      "examples": [
+        "Let’s make a {toast} to the happy couple!"
+      ],
+      "wrong": [
+        "He gave a toast by putting his glass down and leaving."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/toʊst/"
+    },
+    {
+      "lemma": "cheers",
+      "pos": "phrase",
+      "meaning": "Something you say when you touch glasses before drinking.",
+      "examples": [
+        "Everyone lifted their glasses and said, ’{Cheers}!’"
+      ],
+      "wrong": [
+        "He said cheers when he was angry and wanted to leave."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/tʃɪrz/"
+    },
+    {
+      "lemma": "congratulations",
+      "pos": "phrase",
+      "meaning": "What you say to someone when they do something good.",
+      "examples": [
+        "{Congratulations} on passing your driving test!"
+      ],
+      "wrong": [
+        "She said congratulations because he failed his exam."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "well done"
+      ],
+      "ipa": "/kənˌɡrætʃəˈleɪʃənz/"
+    },
+    {
+      "lemma": "ribbon",
+      "pos": "noun",
+      "meaning": "A long thin piece of pretty cloth tied around a gift or in hair.",
+      "examples": [
+        "The box was tied with a gold {ribbon}."
+      ],
+      "wrong": [
+        "The ribbon was a thick, heavy piece of wood."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bow"
+      ],
+      "ipa": "/ˈrɪbən/"
+    },
+    {
+      "lemma": "greeting card",
+      "pos": "noun",
+      "meaning": "A folded card with a picture and a message for a special day.",
+      "examples": [
+        "I wrote a short message in her {greeting card}."
+      ],
+      "wrong": [
+        "He opened the door with a greeting card."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "card"
+      ],
+      "ipa": "/ˈɡritɪŋ ˌkɑrd/"
+    },
+    {
+      "lemma": "bridesmaid",
+      "pos": "noun",
+      "meaning": "A woman or girl who helps the bride on her wedding day.",
+      "examples": [
+        "My sister was a {bridesmaid} at her friend’s wedding."
+      ],
+      "wrong": [
+        "The bridesmaid was the man getting married."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbraɪdzˌmeɪd/"
+    },
+    {
+      "lemma": "feast",
+      "pos": "noun",
+      "meaning": "A very large, special meal for many people.",
+      "examples": [
+        "The wedding {feast} had ten kinds of food."
+      ],
+      "wrong": [
+        "The feast was one small cookie."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "banquet"
+      ],
+      "ipa": "/fist/"
+    },
+    {
+      "lemma": "surprise party",
+      "pos": "noun",
+      "meaning": "A party that is kept secret from the person it is for.",
+      "examples": [
+        "We planned a {surprise party} for Mom’s fiftieth birthday."
+      ],
+      "wrong": [
+        "We told her all about the surprise party a month before."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/sɚˈpraɪz ˌpɑrti/"
+    },
+    {
+      "lemma": "ceremony",
+      "pos": "noun",
+      "meaning": "A formal event with special actions, like a wedding.",
+      "examples": [
+        "The wedding {ceremony} was in a small church."
+      ],
+      "wrong": [
+        "The ceremony was a quick chat in the kitchen."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɛrəˌmoʊni/"
+    },
+    {
+      "lemma": "wedding ring",
+      "pos": "noun",
+      "meaning": "A ring that a married person wears, often gold.",
+      "examples": [
+        "He put the {wedding ring} on her finger."
+      ],
+      "wrong": [
+        "She wore her wedding ring on her nose."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "band"
+      ],
+      "ipa": "/ˈwɛdɪŋ ˌrɪŋ/"
+    },
+    {
+      "lemma": "birthday card",
+      "pos": "noun",
+      "meaning": "A card you give someone on the day they were born.",
+      "examples": [
+        "Everyone in the office signed her {birthday card}."
+      ],
+      "wrong": [
+        "He sent me a birthday card on the wrong person’s wedding."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɝθˌdeɪ ˌkɑrd/"
+    },
+    {
+      "lemma": "traditional",
+      "pos": "adjective",
+      "meaning": "Done in the same way for a very long time.",
+      "examples": [
+        "We cook a {traditional} dish every New Year."
+      ],
+      "wrong": [
+        "It is a traditional song, so nobody has heard it before."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "customary",
+        "classic"
+      ],
+      "ipa": "/trəˈdɪʃənəl/",
+      "antonyms": [
+        "modern"
+      ]
+    },
+    {
+      "lemma": "unwrap",
+      "pos": "verb",
+      "meaning": "To take the paper off a present.",
+      "examples": [
+        "The kids couldn’t wait to {unwrap} their gifts."
+      ],
+      "wrong": [
+        "She unwrapped the gift by putting more paper on it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "open"
+      ],
+      "ipa": "/ʌnˈræp/"
+    },
+    {
+      "lemma": "bouquet",
+      "pos": "noun",
+      "meaning": "A bunch of flowers tied together as a gift.",
+      "examples": [
+        "He gave her a {bouquet} of roses."
+      ],
+      "wrong": [
+        "A bouquet is one dead leaf."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bunch of flowers"
+      ],
+      "ipa": "/boʊˈkeɪ/"
+    },
+    {
+      "lemma": "throw a party",
+      "pos": "phrase",
+      "meaning": "To plan a party and invite people to it.",
+      "examples": [
+        "Let’s {throw a party} for his birthday."
+      ],
+      "wrong": [
+        "They threw a party and invited nobody."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "have a party"
+      ],
+      "ipa": "/ˈθroʊ ə ˈpɑrti/"
+    },
+    {
+      "lemma": "bonfire",
+      "pos": "noun",
+      "meaning": "A big fire outside, often for a party.",
+      "examples": [
+        "We sat around the {bonfire} and sang songs."
+      ],
+      "wrong": [
+        "We lit a bonfire inside the small bedroom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "campfire"
+      ],
+      "ipa": "/ˈbɑnˌfaɪɚ/"
+    },
+    {
+      "lemma": "countdown",
+      "pos": "noun",
+      "meaning": "Saying numbers backward, like ten to zero, before a special moment.",
+      "examples": [
+        "We did the {countdown} together just before midnight."
+      ],
+      "wrong": [
+        "The countdown went from one up to twenty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkaʊntˌdaʊn/"
+    },
+    {
+      "lemma": "candy",
+      "pos": "noun",
+      "meaning": "Small sweet foods made with sugar.",
+      "examples": [
+        "The kids got lots of {candy} on Halloween."
+      ],
+      "wrong": [
+        "Candy is very salty and good for your teeth."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sweets"
+      ],
+      "ipa": "/ˈkændi/"
+    },
+    {
+      "lemma": "wrapping paper",
+      "pos": "noun",
+      "meaning": "Pretty paper you use to cover a present.",
+      "examples": [
+        "I need {wrapping paper} for her gift."
+      ],
+      "wrong": [
+        "He wrote a letter on the wrapping paper and posted it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "gift wrap"
+      ],
+      "ipa": "/ˈræpɪŋ ˌpeɪpɚ/"
+    },
+    {
+      "lemma": "confetti",
+      "pos": "noun",
+      "meaning": "Tiny pieces of colored paper thrown at parties and weddings.",
+      "examples": [
+        "They threw {confetti} over the bride and groom."
+      ],
+      "wrong": [
+        "They threw confetti, big heavy stones, at the couple."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kənˈfɛti/"
+    },
+    {
+      "lemma": "make a wish",
+      "pos": "phrase",
+      "meaning": "To hope silently for something, often when you blow out candles.",
+      "examples": [
+        "Close your eyes and {make a wish}!"
+      ],
+      "wrong": [
+        "She made a wish by shouting it to everyone in the room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmeɪk ə ˈwɪʃ/"
+    },
+    {
+      "lemma": "blow out",
+      "pos": "verb",
+      "meaning": "To stop a flame by blowing air on it.",
+      "examples": [
+        "She {blew out} all the candles on her cake."
+      ],
+      "wrong": [
+        "He blew out the candles and they burned brighter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "put out"
+      ],
+      "ipa": "/ˈbloʊ ˈaʊt/"
+    },
+    {
+      "lemma": "happy birthday",
+      "pos": "phrase",
+      "meaning": "What you say to someone on the day they were born.",
+      "examples": [
+        "{Happy birthday}! How old are you today?"
+      ],
+      "wrong": [
+        "I said happy birthday to him at his wedding."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "many happy returns"
+      ],
+      "ipa": "/ˈhæpi ˈbɝθˌdeɪ/"
+    },
+    {
+      "lemma": "best man",
+      "pos": "noun",
+      "meaning": "A male friend who helps the groom at his wedding.",
+      "examples": [
+        "The {best man} gave a funny speech."
+      ],
+      "wrong": [
+        "The best man was the person getting married."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɛst ˈmæn/"
+    },
+    {
+      "lemma": "dress up",
+      "pos": "verb",
+      "meaning": "To put on special or fancy clothes.",
+      "examples": [
+        "We all {dressed up} for the wedding."
+      ],
+      "wrong": [
+        "He dressed up for the party in his old pajamas."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdrɛs ˈʌp/"
+    },
+    {
+      "lemma": "barbecue",
+      "pos": "noun",
+      "meaning": "A party outside where food is cooked over a fire.",
+      "examples": [
+        "We’re having a {barbecue} in the garden on Saturday."
+      ],
+      "wrong": [
+        "We had a barbecue in the cold kitchen with no food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cookout"
+      ],
+      "ipa": "/ˈbɑrbɪˌkju/"
+    },
+    {
+      "lemma": "public holiday",
+      "pos": "noun",
+      "meaning": "A day when most people do not go to work or school.",
+      "examples": [
+        "The banks are closed because it’s a {public holiday}."
+      ],
+      "wrong": [
+        "On the public holiday, everyone went to work as usual."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "national holiday"
+      ],
+      "ipa": "/ˈpʌblɪk ˈhɑləˌdeɪ/"
+    }
+  ]
+}

@@ -56,12 +56,14 @@ struct CurrentLessons: Equatable {
 
     private static func coaches(tracks: TrackCatalog, journeys: [LessonJourney]) -> [Entry] {
         var trackOf: [String: Track] = [:]
-        for track in tracks.tracks { for lesson in track.lessons { trackOf[lesson.id] = track } }
+        for track in tracks.tracks {
+            for lesson in track.lessons + tracks.archivedLessons.filter({ $0.trackId == track.id }) { trackOf[lesson.id] = track }
+        }
         let attempts = journeys.filter { trackOf[$0.lessonID] != nil && $0.practiceOrigin == nil }
         var entries: [Entry] = []
         for journey in attempts.reversed() where journey.completedAt == nil && entries.count < maximumCoaches {
             guard let track = trackOf[journey.lessonID],
-                  let lesson = track.lessons.first(where: { $0.id == journey.lessonID }),
+                  let lesson = (track.lessons + tracks.archivedLessons).first(where: { $0.id == journey.lessonID && $0.contentVersion == journey.contentVersion }),
                   !isFinished(lesson, attempts), !entries.contains(where: { $0.id == lesson.id }) else { continue }
             entries.append(Entry(lesson: lesson, resuming: true, coach: track.coach, rank: nil))
         }

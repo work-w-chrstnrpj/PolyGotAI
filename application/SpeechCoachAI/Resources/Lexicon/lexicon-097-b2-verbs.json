@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-verbs",
+    "title": "Useful verbs",
+    "level": "B2",
+    "tagline": "Precise B2 verbs",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "abandon",
+      "pos": "verb",
+      "meaning": "To leave someone or something and never come back for them.",
+      "examples": [
+        "The crew had to {abandon} the sinking ship."
+      ],
+      "wrong": [
+        "They abandoned the old car by driving it every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "desert",
+        "leave"
+      ],
+      "ipa": "/əˈbændən/",
+      "antonyms": [
+        "keep"
+      ]
+    },
+    {
+      "lemma": "coincide",
+      "pos": "verb",
+      "meaning": "To happen at the same time as something else.",
+      "examples": [
+        "My birthday {coincides} with a national holiday this year."
+      ],
+      "wrong": [
+        "The two events coincided: one was in May and the other in July."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clash"
+      ],
+      "ipa": "/ˌkoʊɪnˈsaɪd/"
+    },
+    {
+      "lemma": "compensate",
+      "pos": "verb",
+      "meaning": "To pay or give something to make up for a loss or damage.",
+      "examples": [
+        "The airline {compensated} us for the lost luggage."
+      ],
+      "wrong": [
+        "They compensated us by taking more money from us."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "repay",
+        "reimburse"
+      ],
+      "ipa": "/ˈkɑmpənˌseɪt/"
+    },
+    {
+      "lemma": "conceal",
+      "pos": "verb",
+      "meaning": "To hide something so others cannot see or know it.",
+      "examples": [
+        "She tried to {conceal} her disappointment."
+      ],
+      "wrong": [
+        "He concealed the note by pinning it to the front door."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hide"
+      ],
+      "ipa": "/kənˈsil/",
+      "antonyms": [
+        "reveal",
+        "show"
+      ]
+    },
+    {
+      "lemma": "confront",
+      "pos": "verb",
+      "meaning": "To face a person or problem directly, often in a difficult way.",
+      "examples": [
+        "She finally {confronted} her boss about the unfair rota."
+      ],
+      "wrong": [
+        "He confronted the problem by pretending it wasn’t there."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "face",
+        "challenge"
+      ],
+      "ipa": "/kənˈfrʌnt/"
+    },
+    {
+      "lemma": "contemplate",
+      "pos": "verb",
+      "meaning": "To think about something carefully for a long time.",
+      "examples": [
+        "He sat by the lake, {contemplating} his future."
+      ],
+      "wrong": [
+        "She contemplated the offer without thinking about it once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "consider",
+        "ponder"
+      ],
+      "ipa": "/ˈkɑntəmˌpleɪt/"
+    },
+    {
+      "lemma": "deceive",
+      "pos": "verb",
+      "meaning": "To make someone believe something that is not true.",
+      "examples": [
+        "The ad {deceived} buyers about the price."
+      ],
+      "wrong": [
+        "He deceived us by telling the complete truth."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "mislead",
+        "trick"
+      ],
+      "ipa": "/dɪˈsiv/"
+    },
+    {
+      "lemma": "discard",
+      "pos": "verb",
+      "meaning": "To throw away something you no longer want.",
+      "examples": [
+        "{Discard} the outer leaves of the lettuce."
+      ],
+      "wrong": [
+        "I discarded the letter and kept it in a safe place."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "throw away",
+        "dispose of"
+      ],
+      "ipa": "/dɪˈskɑrd/",
+      "antonyms": [
+        "keep"
+      ]
+    },
+    {
+      "lemma": "distract",
+      "pos": "verb",
+      "meaning": "To take someone’s attention away from what they are doing.",
+      "examples": [
+        "The noise outside {distracted} me from my work."
+      ],
+      "wrong": [
+        "The quiet room distracted me, so I focused better."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "divert"
+      ],
+      "ipa": "/dɪˈstrækt/"
+    },
+    {
+      "lemma": "endure",
+      "pos": "verb",
+      "meaning": "To suffer something painful or hard for a long time.",
+      "examples": [
+        "The climbers {endured} freezing nights on the mountain."
+      ],
+      "wrong": [
+        "She endured the pain by never feeling any."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "bear",
+        "tolerate"
+      ],
+      "ipa": "/ɪnˈdʊr/"
+    },
+    {
+      "lemma": "enhance",
+      "pos": "verb",
+      "meaning": "To improve the quality or value of something.",
+      "examples": [
+        "Good lighting can {enhance} a photograph."
+      ],
+      "wrong": [
+        "The scratch enhanced the car by making it look worse."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "improve",
+        "boost"
+      ],
+      "ipa": "/ɪnˈhæns/",
+      "antonyms": [
+        "worsen",
+        "spoil"
+      ]
+    },
+    {
+      "lemma": "exploit",
+      "pos": "verb",
+      "meaning": "To use someone unfairly for your own benefit.",
+      "examples": [
+        "The factory {exploited} workers with long hours and low pay."
+      ],
+      "wrong": [
+        "They exploited their staff by paying them fairly and well."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "take advantage of",
+        "abuse"
+      ],
+      "ipa": "/ɪkˈsplɔɪt/"
+    },
+    {
+      "lemma": "inhabit",
+      "pos": "verb",
+      "meaning": "To live in a place.",
+      "examples": [
+        "Rare birds {inhabit} these islands."
+      ],
+      "wrong": [
+        "Nobody inhabits the house, and a family of five lives there."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "live in",
+        "occupy"
+      ],
+      "ipa": "/ɪnˈhæbɪt/"
+    },
+    {
+      "lemma": "interfere",
+      "pos": "verb",
+      "meaning": "To get involved in something that is not your business.",
+      "examples": [
+        "Please don’t {interfere} in our argument."
+      ],
+      "wrong": [
+        "He interfered by staying completely out of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "meddle"
+      ],
+      "ipa": "/ˌɪntɚˈfɪr/"
+    },
+    {
+      "lemma": "neglect",
+      "pos": "verb",
+      "meaning": "To fail to give someone or something enough care.",
+      "examples": [
+        "The garden was {neglected} and full of weeds."
+      ],
+      "wrong": [
+        "She neglected her plants by watering them every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ignore"
+      ],
+      "ipa": "/nɪˈɡlɛkt/",
+      "antonyms": [
+        "care for"
+      ]
+    },
+    {
+      "lemma": "overlook",
+      "pos": "verb",
+      "meaning": "To fail to notice or think about something.",
+      "examples": [
+        "The editor {overlooked} a spelling mistake on page one."
+      ],
+      "wrong": [
+        "I overlooked the error, so I fixed it right away."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "miss"
+      ],
+      "ipa": "/ˌoʊvɚˈlʊk/"
+    },
+    {
+      "lemma": "persist",
+      "pos": "verb",
+      "meaning": "To continue doing something even when it is hard.",
+      "examples": [
+        "If the pain {persists}, see a doctor."
+      ],
+      "wrong": [
+        "The rain persisted, so it stopped after a minute."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "continue",
+        "carry on"
+      ],
+      "ipa": "/pɚˈsɪst/",
+      "antonyms": [
+        "stop",
+        "give up"
+      ]
+    },
+    {
+      "lemma": "provoke",
+      "pos": "verb",
+      "meaning": "To cause a reaction, often anger, on purpose.",
+      "examples": [
+        "His rude comment {provoked} an angry reply."
+      ],
+      "wrong": [
+        "She provoked him by speaking kindly and calmly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cause",
+        "stir up"
+      ],
+      "ipa": "/prəˈvoʊk/"
+    },
+    {
+      "lemma": "refrain",
+      "pos": "verb",
+      "meaning": "To stop yourself from doing something.",
+      "examples": [
+        "Please {refrain} from using your phone during the show."
+      ],
+      "wrong": [
+        "He refrained from eating cake and ate three slices."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "avoid",
+        "hold back"
+      ],
+      "ipa": "/rɪˈfreɪn/"
+    },
+    {
+      "lemma": "retain",
+      "pos": "verb",
+      "meaning": "To keep or continue to have something.",
+      "examples": [
+        "The town has {retained} its old charm."
+      ],
+      "wrong": [
+        "The team retained the trophy by losing it to another club."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "keep",
+        "hold on to"
+      ],
+      "ipa": "/rɪˈteɪn/",
+      "antonyms": [
+        "lose"
+      ]
+    },
+    {
+      "lemma": "scatter",
+      "pos": "verb",
+      "meaning": "To throw or spread things over a wide area.",
+      "examples": [
+        "He {scattered} seeds across the field."
+      ],
+      "wrong": [
+        "The wind scattered the leaves into one neat pile."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "spread",
+        "sprinkle"
+      ],
+      "ipa": "/ˈskætɚ/",
+      "antonyms": [
+        "gather",
+        "collect"
+      ]
+    },
+    {
+      "lemma": "seize",
+      "pos": "verb",
+      "meaning": "To take hold of something quickly and firmly.",
+      "examples": [
+        "She {seized} the rope just before she fell."
+      ],
+      "wrong": [
+        "He seized the handle by letting go of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "grab",
+        "snatch"
+      ],
+      "ipa": "/siz/"
+    },
+    {
+      "lemma": "strive",
+      "pos": "verb",
+      "meaning": "To try very hard to get or do something.",
+      "examples": [
+        "We {strive} to answer every email within a day."
+      ],
+      "wrong": [
+        "She strove for success by making no effort at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "struggle",
+        "try hard"
+      ],
+      "ipa": "/straɪv/"
+    },
+    {
+      "lemma": "surpass",
+      "pos": "verb",
+      "meaning": "To be better or greater than someone or something.",
+      "examples": [
+        "The results {surpassed} all our expectations."
+      ],
+      "wrong": [
+        "Sales surpassed our goal by falling far below it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exceed",
+        "outdo"
+      ],
+      "ipa": "/sɚˈpæs/"
+    },
+    {
+      "lemma": "cling",
+      "pos": "verb",
+      "meaning": "To hold on to someone or something very tightly.",
+      "examples": [
+        "The child {clung} to her mother’s hand in the crowd."
+      ],
+      "wrong": [
+        "She clung to the rope by letting it go."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hold on",
+        "grip"
+      ],
+      "ipa": "/klɪŋ/"
+    },
+    {
+      "lemma": "stumble",
+      "pos": "verb",
+      "meaning": "To almost fall after hitting your foot on something.",
+      "examples": [
+        "I {stumbled} on the dark stairs."
+      ],
+      "wrong": [
+        "She stumbled and walked perfectly smoothly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "trip"
+      ],
+      "ipa": "/ˈstʌmbəl/"
+    },
+    {
+      "lemma": "shrug",
+      "pos": "verb",
+      "meaning": "To lift your shoulders to show you don’t know or care.",
+      "examples": [
+        "When I asked where he’d been, he just {shrugged}."
+      ],
+      "wrong": [
+        "He shrugged his shoulders by pushing them down firmly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ʃrʌɡ/"
+    },
+    {
+      "lemma": "flee",
+      "pos": "verb",
+      "meaning": "To run away from danger quickly.",
+      "examples": [
+        "Families {fled} the village as the flood water rose."
+      ],
+      "wrong": [
+        "They fled the fire by walking toward it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "escape",
+        "run away"
+      ],
+      "ipa": "/fli/"
+    },
+    {
+      "lemma": "dwell",
+      "pos": "verb",
+      "meaning": "To keep thinking or talking about something unpleasant for too long.",
+      "examples": [
+        "Don’t {dwell} on your mistakes; learn from them."
+      ],
+      "wrong": [
+        "She dwelled on the problem, so she never thought about it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "brood"
+      ],
+      "ipa": "/dwɛl/"
+    },
+    {
+      "lemma": "anticipate",
+      "pos": "verb",
+      "meaning": "To expect something and prepare for it.",
+      "examples": [
+        "We {anticipate} heavy traffic over the holiday."
+      ],
+      "wrong": [
+        "Nobody anticipated the storm, so everyone was ready for it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "expect",
+        "foresee"
+      ],
+      "ipa": "/ænˈtɪsəˌpeɪt/"
+    },
+    {
+      "lemma": "foresee",
+      "pos": "verb",
+      "meaning": "To know that something will happen before it does.",
+      "examples": [
+        "No one could have {foreseen} the sudden change."
+      ],
+      "wrong": [
+        "She foresaw the problem only after it happened."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "predict"
+      ],
+      "ipa": "/fɔrˈsi/"
+    },
+    {
+      "lemma": "portray",
+      "pos": "verb",
+      "meaning": "To show or describe someone or something in a certain way.",
+      "examples": [
+        "The film {portrays} the city as a lonely place."
+      ],
+      "wrong": [
+        "The painting portrays a horse, but there is no horse in it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "depict",
+        "represent"
+      ],
+      "ipa": "/pɔrˈtreɪ/"
+    },
+    {
+      "lemma": "relieve",
+      "pos": "verb",
+      "meaning": "To make pain or worry less bad.",
+      "examples": [
+        "This cream will {relieve} the itching."
+      ],
+      "wrong": [
+        "The medicine relieved the pain by making it much worse."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ease",
+        "soothe"
+      ],
+      "ipa": "/rɪˈliv/",
+      "antonyms": [
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "resolve",
+      "pos": "verb",
+      "meaning": "To find an answer to a problem or end a disagreement.",
+      "examples": [
+        "The two sides {resolved} their dispute peacefully."
+      ],
+      "wrong": [
+        "We resolved the problem, so it is still unsolved."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "settle",
+        "solve"
+      ],
+      "ipa": "/rɪˈzɑlv/"
+    },
+    {
+      "lemma": "tackle",
+      "pos": "verb",
+      "meaning": "To make a real effort to deal with a difficult problem.",
+      "examples": [
+        "The city plans to {tackle} its traffic problem."
+      ],
+      "wrong": [
+        "He tackled the issue by avoiding it for years."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deal with",
+        "address"
+      ],
+      "ipa": "/ˈtækəl/"
+    },
+    {
+      "lemma": "tolerate",
+      "pos": "verb",
+      "meaning": "To accept something unpleasant without complaining.",
+      "examples": [
+        "I can’t {tolerate} that loud music any longer."
+      ],
+      "wrong": [
+        "She tolerates noise, so she complains about every sound."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "put up with",
+        "bear"
+      ],
+      "ipa": "/ˈtɑləˌreɪt/"
+    },
+    {
+      "lemma": "trigger",
+      "pos": "verb",
+      "meaning": "To make something start to happen.",
+      "examples": [
+        "Dust can {trigger} an allergy attack."
+      ],
+      "wrong": [
+        "The smoke triggered the alarm, so it stayed silent."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "set off",
+        "spark"
+      ],
+      "ipa": "/ˈtrɪɡɚ/"
+    },
+    {
+      "lemma": "yield",
+      "pos": "verb",
+      "meaning": "To produce something useful, such as a crop or result.",
+      "examples": [
+        "The research {yielded} some surprising results."
+      ],
+      "wrong": [
+        "The trees yielded a large crop, but we found no fruit."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "produce",
+        "give"
+      ],
+      "ipa": "/jild/"
+    },
+    {
+      "lemma": "embrace",
+      "pos": "verb",
+      "meaning": "To accept a new idea or change eagerly.",
+      "examples": [
+        "The school quickly {embraced} online learning."
+      ],
+      "wrong": [
+        "The town embraced the new park by protesting against it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "welcome",
+        "adopt"
+      ],
+      "ipa": "/ɪmˈbreɪs/",
+      "antonyms": [
+        "reject"
+      ]
+    },
+    {
+      "lemma": "boast",
+      "pos": "verb",
+      "meaning": "To talk too proudly about what you have or can do.",
+      "examples": [
+        "He’s always {boasting} about his expensive car."
+      ],
+      "wrong": [
+        "She boasted about her prize by never mentioning it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "brag",
+        "show off"
+      ],
+      "ipa": "/boʊst/"
+    }
+  ]
+}

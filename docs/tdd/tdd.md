@@ -211,6 +211,21 @@ The existing gated provider clients (`Infrastructure/Providers/`) stay disabled 
 - **Repository.** `LearnerRepository.swift` keeps the store, attempts, files and maintenance; areas live in `LearnerRepository+{Vocabulary,Lexicon,Rewards,Lessons,Lab,Usage,Resources,Today}.swift` and `LearnerDocument.swift`. Helpers shared by these files are internal and meant for them only.
 - **Copy audit.** `tools/native/copy-audit.sh` fails on screen strings that explain what the app can't do; `verify.sh` runs it and reports it after the tests.
 
+## Phase 10 speak-first pronunciation (2026-10-26)
+
+- `Domain/PronunciationCheck.swift` holds:
+  - `MinimalPair`, plus `MinimalPairJudge.judge(pair, heard:)` → `.clear`, `.soundedLike(word)`, `.heard(text)` or `.nothing`, matching whole words only;
+  - `PitchTracker.track(samples, sampleRate:)`: YIN for 70–450 Hz, vectorised with Accelerate, with silent frames returning nil;
+  - `PitchContour`: semitones around the speaker's median, a five-point median filter, and `normalised` time from 0 to 1;
+  - `IntonationJudge`: compares the last fifth of the line with its middle, using a ±1.5-semitone threshold. `expected(for:)` is rising for a final "?" and falling otherwise.
+- `Infrastructure/Speech/PitchAnalysis.swift` holds:
+  - `contour(of: url)`, which runs off the main actor and reads the private WAV converted to mono 16 kHz;
+  - `modelContour(text, settings:)`, which uses `ModelVoiceRenderer` (`AVSpeechSynthesizer.write`, with an `@Sendable` buffer callback and a 10-second timeout).
+- `SpeechLabRecognizer.recognize(url, hints:)` sets `contextualStrings` and `taskHint = .search`.
+- `SpeechLabCapture.hints` and `wantsPitch` produce `capture.contour`.
+- `SpeechLabCatalog.pairs`, with `pairs(for: sound)`.
+- In the UI, `SpeakCheckView` (modes `.pair`, `.intonation` and `.stress`) and `PitchChart` (Swift Charts) save one `SpeechLabAttempt` (`.phonetics`, `correct` 0 or 1) per result.
+
 ## Xcode project
 
 `project.pbxproj` uses explicit file references (objectVersion 56), so every new file must be registered, and two people editing it at once conflict. **Phase 0 (Claude):** convert the app and test groups to folder-synchronized groups so that new files under the source folders are picked up automatically. Until that lands, only one engineer edits `project.pbxproj` at a time.
@@ -218,3 +233,13 @@ The existing gated provider clients (`Infrastructure/Providers/`) stay disabled 
 ## Testing
 
 See the [test specification](../testing/test-specification.md). Domain logic (AnswerChecker, catalog validation, metrics) gets Swift Testing unit tests. Each new screen gets one XCUITest happy path. `tools/native/verify.sh <SIMULATOR_UUID>` must pass before a phase is reviewed.
+
+## Phase 13 topic lessons (2026-10-26)
+
+`CurriculumLesson.reading` optionally stores ordered `LessonReading` pages (id, heading, explanation, worked examples with prompt/answer/explanation). Availability rejects empty/malformed pages and duplicate page identities. Resolved lessons expose teaching only when ready. CEFR and archived lessons omit the field and retain their existing player flow.
+
+`LessonPlayerView` displays one reading page before exercises, commits the checkpoint before advancing, and keeps the existing exercise activity/answer state while rereading. `LessonJourney.readingPageIndex` and `readingCompletedAt` are optional JSON values. Index equal to page count means return to exercises; invalid values restart reading safely. No SwiftData schema change or migration.
+
+Track manifests now carry `archivedLessons`. The loader resolves each archived identity independently; `TrackCatalog.archivedLessons` is excluded from current lesson/progress lists. Exact lookup includes those archives. Coach Continue and Today can resume archived attempts; Earlier lessons exposes saved archived work. New topic IDs/version 2 have their own reward targets, leaving earlier reward/attempt identities intact.
+
+Content is produced by `build_topic_lessons.py` from frozen app-original source manifests and `topic_outline.py`. It consolidates related teaching, retains suitable checked exercises, includes every old subtopic once, and adds a transfer page. The builder is byte-idempotent; `validate.py` checks current and archived content, examples, exercise counts and answer give-aways. See [Phase 13](../development-plan/phases/phase-13/README.md) for scope and evidence.

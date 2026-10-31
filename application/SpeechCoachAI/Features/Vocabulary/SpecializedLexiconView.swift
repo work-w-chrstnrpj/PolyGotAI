@@ -27,7 +27,7 @@ struct SpecializedLexiconView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                TextField("Topic", text: $topic).textFieldStyle(.roundedBorder).accessibilityIdentifier("specialized.topic").dictation($topic)
+                TextField("Topic", text: $topic).textFieldStyle(KitFieldStyle()).accessibilityIdentifier("specialized.topic").dictation($topic)
                 Picker("Rank", selection: $level) {
                     ForEach(LevelGate.levels, id: \.self) { Text($0).tag($0) }
                 }.accessibilityIdentifier("specialized.level")

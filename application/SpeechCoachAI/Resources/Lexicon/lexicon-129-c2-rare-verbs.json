@@ -1,0 +1,924 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rare-verbs",
+    "title": "Rare and formal verbs",
+    "level": "C2",
+    "tagline": "Precise verbs for formal English",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "abdicate",
+      "pos": "verb",
+      "meaning": "To give up a position of power, or to fail to accept a duty.",
+      "examples": [
+        "The king {abdicated} in favor of his son."
+      ],
+      "wrong": [
+        "She abdicated the throne by taking power for the first time."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "renounce",
+        "resign"
+      ],
+      "ipa": "/ˈæbdɪˌkeɪt/"
+    },
+    {
+      "lemma": "admonish",
+      "pos": "verb",
+      "meaning": "To warn or tell someone off firmly but calmly.",
+      "examples": [
+        "The teacher {admonished} him for talking."
+      ],
+      "wrong": [
+        "She admonished him by praising his behavior warmly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reprimand",
+        "rebuke"
+      ],
+      "ipa": "/ədˈmɑnɪʃ/",
+      "antonyms": [
+        "praise",
+        "commend"
+      ]
+    },
+    {
+      "lemma": "assuage",
+      "pos": "verb",
+      "meaning": "To make an unpleasant feeling less strong.",
+      "examples": [
+        "Nothing could {assuage} her guilt."
+      ],
+      "wrong": [
+        "His apology assuaged her anger, so she grew furious."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "ease",
+        "soothe"
+      ],
+      "ipa": "/əˈsweɪdʒ/",
+      "antonyms": [
+        "aggravate",
+        "intensify"
+      ]
+    },
+    {
+      "lemma": "beguile",
+      "pos": "verb",
+      "meaning": "To charm someone, sometimes in order to deceive them.",
+      "examples": [
+        "The story {beguiled} the children."
+      ],
+      "wrong": [
+        "The music beguiled us, so we found it dull and left."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "charm",
+        "enchant"
+      ],
+      "ipa": "/bɪˈɡaɪl/"
+    },
+    {
+      "lemma": "bolster",
+      "pos": "verb",
+      "meaning": "To support or strengthen something.",
+      "examples": [
+        "The win {bolstered} the team’s confidence."
+      ],
+      "wrong": [
+        "The good news bolstered his confidence by weakening it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "strengthen",
+        "reinforce"
+      ],
+      "ipa": "/ˈboʊlstɚ/",
+      "antonyms": [
+        "undermine",
+        "weaken"
+      ]
+    },
+    {
+      "lemma": "castigate",
+      "pos": "verb",
+      "meaning": "To criticize someone severely.",
+      "examples": [
+        "The report {castigated} the company’s managers."
+      ],
+      "wrong": [
+        "The critic castigated the film by praising it highly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "censure",
+        "berate"
+      ],
+      "ipa": "/ˈkæstɪˌɡeɪt/",
+      "antonyms": [
+        "praise",
+        "commend"
+      ]
+    },
+    {
+      "lemma": "circumvent",
+      "pos": "verb",
+      "meaning": "To find a way around a rule or problem.",
+      "examples": [
+        "They found a way to {circumvent} the rules."
+      ],
+      "wrong": [
+        "He circumvented the law by following it exactly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "evade",
+        "bypass"
+      ],
+      "ipa": "/ˌsɝkəmˈvɛnt/"
+    },
+    {
+      "lemma": "coalesce",
+      "pos": "verb",
+      "meaning": "To come together to form one group or mass.",
+      "examples": [
+        "The small groups {coalesced} into a movement."
+      ],
+      "wrong": [
+        "The parties coalesced by splitting into ten groups."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "merge",
+        "unite"
+      ],
+      "ipa": "/ˌkoʊəˈlɛs/",
+      "antonyms": [
+        "separate",
+        "divide"
+      ]
+    },
+    {
+      "lemma": "condone",
+      "pos": "verb",
+      "meaning": "To accept behavior that is morally wrong.",
+      "examples": [
+        "We cannot {condone} violence."
+      ],
+      "wrong": [
+        "The school condones bullying, so it punishes every case."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "excuse",
+        "tolerate"
+      ],
+      "ipa": "/kənˈdoʊn/",
+      "antonyms": [
+        "condemn",
+        "censure"
+      ]
+    },
+    {
+      "lemma": "debunk",
+      "pos": "verb",
+      "meaning": "To show that a popular belief is false.",
+      "examples": [
+        "The scientist {debunked} the myth."
+      ],
+      "wrong": [
+        "The study debunked the myth by proving it true."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "expose",
+        "refute"
+      ],
+      "ipa": "/dɪˈbʌŋk/",
+      "antonyms": [
+        "confirm",
+        "validate"
+      ]
+    },
+    {
+      "lemma": "decry",
+      "pos": "verb",
+      "meaning": "To criticize something publicly.",
+      "examples": [
+        "Critics {decried} the decision as unfair."
+      ],
+      "wrong": [
+        "They decried the plan by publicly supporting it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "condemn",
+        "denounce"
+      ],
+      "ipa": "/dɪˈkraɪ/",
+      "antonyms": [
+        "praise",
+        "extol"
+      ]
+    },
+    {
+      "lemma": "delineate",
+      "pos": "verb",
+      "meaning": "To describe or mark something precisely.",
+      "examples": [
+        "The contract {delineates} each person’s duties."
+      ],
+      "wrong": [
+        "The map delineates the border by leaving it out."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "outline",
+        "define"
+      ],
+      "ipa": "/dɪˈlɪniˌeɪt/"
+    },
+    {
+      "lemma": "denigrate",
+      "pos": "verb",
+      "meaning": "To criticize unfairly and make seem unimportant.",
+      "examples": [
+        "Don’t {denigrate} other people’s work."
+      ],
+      "wrong": [
+        "He denigrated her achievement by praising it to everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "belittle",
+        "disparage"
+      ],
+      "ipa": "/ˈdɛnɪˌɡreɪt/",
+      "antonyms": [
+        "praise",
+        "extol"
+      ]
+    },
+    {
+      "lemma": "deride",
+      "pos": "verb",
+      "meaning": "To laugh at someone or something with contempt.",
+      "examples": [
+        "His ideas were {derided} at first."
+      ],
+      "wrong": [
+        "They derided the plan by admiring it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mock",
+        "ridicule"
+      ],
+      "ipa": "/dɪˈraɪd/",
+      "antonyms": [
+        "praise",
+        "respect"
+      ]
+    },
+    {
+      "lemma": "dissuade",
+      "pos": "verb",
+      "meaning": "To persuade someone not to do something.",
+      "examples": [
+        "Friends tried to {dissuade} her from quitting."
+      ],
+      "wrong": [
+        "He dissuaded me from going by urging me to go."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deter",
+        "discourage"
+      ],
+      "ipa": "/dɪˈsweɪd/",
+      "antonyms": [
+        "persuade",
+        "encourage"
+      ]
+    },
+    {
+      "lemma": "elucidate",
+      "pos": "verb",
+      "meaning": "To make something clear by explaining it.",
+      "examples": [
+        "Could you {elucidate} that point?"
+      ],
+      "wrong": [
+        "Her notes elucidated the topic, so it became more confusing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "clarify",
+        "explain"
+      ],
+      "ipa": "/ɪˈlusɪˌdeɪt/",
+      "antonyms": [
+        "obscure",
+        "confuse"
+      ]
+    },
+    {
+      "lemma": "emulate",
+      "pos": "verb",
+      "meaning": "To try to be like someone you admire.",
+      "examples": [
+        "Young players {emulate} their heroes."
+      ],
+      "wrong": [
+        "He emulates his idol by doing the opposite of everything she does."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imitate",
+        "copy"
+      ],
+      "ipa": "/ˈɛmjəˌleɪt/"
+    },
+    {
+      "lemma": "engender",
+      "pos": "verb",
+      "meaning": "To cause a feeling or situation.",
+      "examples": [
+        "The policy {engendered} distrust."
+      ],
+      "wrong": [
+        "His honesty engendered trust, so nobody believed him."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "generate",
+        "produce"
+      ],
+      "ipa": "/ɪnˈdʒɛndɚ/"
+    },
+    {
+      "lemma": "eschew",
+      "pos": "verb",
+      "meaning": "To avoid something on purpose.",
+      "examples": [
+        "She {eschews} social media."
+      ],
+      "wrong": [
+        "He eschews sugar by eating sweets all day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "avoid",
+        "abstain from"
+      ],
+      "ipa": "/ɛsˈtʃu/",
+      "antonyms": [
+        "embrace",
+        "seek"
+      ]
+    },
+    {
+      "lemma": "extol",
+      "pos": "verb",
+      "meaning": "To praise something very highly.",
+      "examples": [
+        "The guide {extolled} the beauty of the coast."
+      ],
+      "wrong": [
+        "He extolled the hotel by complaining about everything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "praise",
+        "acclaim"
+      ],
+      "ipa": "/ɪkˈstoʊl/",
+      "antonyms": [
+        "criticize",
+        "condemn"
+      ]
+    },
+    {
+      "lemma": "extricate",
+      "pos": "verb",
+      "meaning": "To free someone from a difficult situation.",
+      "examples": [
+        "He {extricated} himself from the deal."
+      ],
+      "wrong": [
+        "She extricated herself from the problem by getting more involved."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "free",
+        "release"
+      ],
+      "ipa": "/ˈɛkstrɪˌkeɪt/"
+    },
+    {
+      "lemma": "galvanize",
+      "pos": "verb",
+      "meaning": "To shock or excite someone into action.",
+      "examples": [
+        "The speech {galvanized} the volunteers."
+      ],
+      "wrong": [
+        "The news galvanized them, so nobody did anything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spur",
+        "rouse"
+      ],
+      "ipa": "/ˈɡælvəˌnaɪz/"
+    },
+    {
+      "lemma": "impede",
+      "pos": "verb",
+      "meaning": "To slow down or block progress.",
+      "examples": [
+        "Heavy snow {impeded} the rescue."
+      ],
+      "wrong": [
+        "The new road impeded traffic by making it flow faster."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "ipa": "/ɪmˈpid/",
+      "antonyms": [
+        "help",
+        "facilitate"
+      ]
+    },
+    {
+      "lemma": "implore",
+      "pos": "verb",
+      "meaning": "To beg someone urgently.",
+      "examples": [
+        "She {implored} him to stay."
+      ],
+      "wrong": [
+        "He implored her to stay by telling her calmly to leave."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "beg",
+        "plead with"
+      ],
+      "ipa": "/ɪmˈplɔr/"
+    },
+    {
+      "lemma": "inculcate",
+      "pos": "verb",
+      "meaning": "To fix an idea in someone’s mind by repeating it.",
+      "examples": [
+        "Parents try to {inculcate} good habits."
+      ],
+      "wrong": [
+        "The coach inculcated discipline by never mentioning it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "instill"
+      ],
+      "ipa": "/ɪnˈkʌlˌkeɪt/"
+    },
+    {
+      "lemma": "mollify",
+      "pos": "verb",
+      "meaning": "To make someone less angry.",
+      "examples": [
+        "A refund {mollified} the customer."
+      ],
+      "wrong": [
+        "The apology mollified her, so she became angrier."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "placate",
+        "appease"
+      ],
+      "ipa": "/ˈmɑlɪˌfaɪ/",
+      "antonyms": [
+        "anger",
+        "enrage"
+      ]
+    },
+    {
+      "lemma": "negate",
+      "pos": "verb",
+      "meaning": "To cancel the effect of something.",
+      "examples": [
+        "Late fees {negated} any savings."
+      ],
+      "wrong": [
+        "The discount negated the savings by adding to them."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cancel out",
+        "nullify"
+      ],
+      "ipa": "/nɪˈɡeɪt/",
+      "antonyms": [
+        "affirm",
+        "confirm"
+      ]
+    },
+    {
+      "lemma": "obviate",
+      "pos": "verb",
+      "meaning": "To remove a need or problem.",
+      "examples": [
+        "The new system {obviates} the need for paper forms."
+      ],
+      "wrong": [
+        "The app obviates the need for paper, so we print more forms."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "preclude",
+        "remove"
+      ],
+      "ipa": "/ˈɑbviˌeɪt/"
+    },
+    {
+      "lemma": "ostracize",
+      "pos": "verb",
+      "meaning": "To exclude someone from a group.",
+      "examples": [
+        "He was {ostracized} by his colleagues."
+      ],
+      "wrong": [
+        "They ostracized her by inviting her to every event."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exclude",
+        "shun"
+      ],
+      "ipa": "/ˈɑstrəˌsaɪz/",
+      "antonyms": [
+        "include",
+        "welcome"
+      ]
+    },
+    {
+      "lemma": "placate",
+      "pos": "verb",
+      "meaning": "To make someone stop being angry by doing something for them.",
+      "examples": [
+        "The manager tried to {placate} the angry guests."
+      ],
+      "wrong": [
+        "He placated the crowd by insulting them."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "appease",
+        "pacify"
+      ],
+      "ipa": "/ˈpleɪˌkeɪt/",
+      "antonyms": [
+        "provoke",
+        "anger"
+      ]
+    },
+    {
+      "lemma": "precipitate",
+      "pos": "verb",
+      "meaning": "To make something bad happen suddenly.",
+      "examples": [
+        "The crisis {precipitated} his resignation."
+      ],
+      "wrong": [
+        "The scandal precipitated his fall by delaying it for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "trigger",
+        "spark"
+      ],
+      "ipa": "/prɪˈsɪpɪˌteɪt/"
+    },
+    {
+      "lemma": "procrastinate",
+      "pos": "verb",
+      "meaning": "To delay doing something you should do.",
+      "examples": [
+        "I always {procrastinate} before exams."
+      ],
+      "wrong": [
+        "She procrastinated by finishing everything early."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "delay",
+        "dawdle"
+      ],
+      "ipa": "/prəˈkræstəˌneɪt/"
+    },
+    {
+      "lemma": "relinquish",
+      "pos": "verb",
+      "meaning": "To give up control or a right.",
+      "examples": [
+        "He refused to {relinquish} power."
+      ],
+      "wrong": [
+        "She relinquished control by tightening her grip."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "surrender",
+        "give up"
+      ],
+      "ipa": "/rɪˈlɪŋkwɪʃ/",
+      "antonyms": [
+        "keep",
+        "retain"
+      ]
+    },
+    {
+      "lemma": "repudiate",
+      "pos": "verb",
+      "meaning": "To refuse to accept or be connected with something.",
+      "examples": [
+        "She {repudiated} the claims."
+      ],
+      "wrong": [
+        "He repudiated the statement by repeating it proudly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reject",
+        "disown"
+      ],
+      "ipa": "/rɪˈpjudiˌeɪt/",
+      "antonyms": [
+        "accept",
+        "embrace"
+      ]
+    },
+    {
+      "lemma": "rescind",
+      "pos": "verb",
+      "meaning": "To officially cancel a law, decision or offer.",
+      "examples": [
+        "The council {rescinded} the order."
+      ],
+      "wrong": [
+        "They rescinded the offer by making it final."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "revoke",
+        "cancel"
+      ],
+      "ipa": "/rɪˈsɪnd/",
+      "antonyms": [
+        "enact",
+        "uphold"
+      ]
+    },
+    {
+      "lemma": "stymie",
+      "pos": "verb",
+      "meaning": "To prevent someone from making progress.",
+      "examples": [
+        "Lack of funds {stymied} the project."
+      ],
+      "wrong": [
+        "The money stymied the project by helping it move fast."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "thwart",
+        "hamper"
+      ],
+      "ipa": "/ˈstaɪmi/"
+    },
+    {
+      "lemma": "supplant",
+      "pos": "verb",
+      "meaning": "To take the place of something.",
+      "examples": [
+        "Streaming has {supplanted} DVDs."
+      ],
+      "wrong": [
+        "The new model supplanted the old one, which is still the only one used."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "replace",
+        "supersede"
+      ],
+      "ipa": "/səˈplænt/"
+    },
+    {
+      "lemma": "usurp",
+      "pos": "verb",
+      "meaning": "To take a position of power illegally or by force.",
+      "examples": [
+        "The general {usurped} the throne."
+      ],
+      "wrong": [
+        "He usurped power by giving it back to the elected leader."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "seize",
+        "take over"
+      ],
+      "ipa": "/juˈsɝp/"
+    },
+    {
+      "lemma": "vilify",
+      "pos": "verb",
+      "meaning": "To say very bad things about someone.",
+      "examples": [
+        "The press {vilified} the minister."
+      ],
+      "wrong": [
+        "The newspapers vilified her by calling her a hero."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "malign",
+        "demonize"
+      ],
+      "ipa": "/ˈvɪlɪˌfaɪ/",
+      "antonyms": [
+        "praise",
+        "glorify"
+      ]
+    },
+    {
+      "lemma": "vacillate",
+      "pos": "verb",
+      "meaning": "To keep changing your mind.",
+      "examples": [
+        "He {vacillated} between two jobs."
+      ],
+      "wrong": [
+        "She vacillated, so she decided at once and never changed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "waver",
+        "hesitate"
+      ],
+      "ipa": "/ˈvæsəˌleɪt/"
+    },
+    {
+      "lemma": "abate",
+      "pos": "verb",
+      "meaning": "To become less strong.",
+      "examples": [
+        "The storm finally {abated}."
+      ],
+      "wrong": [
+        "The wind abated, so it blew harder than ever."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "subside",
+        "lessen"
+      ],
+      "ipa": "/əˈbeɪt/",
+      "antonyms": [
+        "intensify",
+        "increase"
+      ]
+    },
+    {
+      "lemma": "exonerate",
+      "pos": "verb",
+      "meaning": "To show that someone is not guilty.",
+      "examples": [
+        "New evidence {exonerated} the suspect."
+      ],
+      "wrong": [
+        "The evidence exonerated him, so he was found guilty."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "clear",
+        "acquit"
+      ],
+      "ipa": "/ɪɡˈzɑnəˌreɪt/",
+      "antonyms": [
+        "convict",
+        "blame"
+      ]
+    },
+    {
+      "lemma": "instigate",
+      "pos": "verb",
+      "meaning": "To cause something to begin, often trouble.",
+      "examples": [
+        "Who {instigated} the fight?"
+      ],
+      "wrong": [
+        "She instigated the reform by stopping it before it began."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "provoke",
+        "initiate"
+      ],
+      "ipa": "/ˈɪnstɪˌɡeɪt/"
+    },
+    {
+      "lemma": "pontificate",
+      "pos": "verb",
+      "meaning": "To give opinions in a superior, annoying way.",
+      "examples": [
+        "He loves to {pontificate} about wine."
+      ],
+      "wrong": [
+        "She pontificated humbly, saying nothing at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "preach",
+        "lecture"
+      ],
+      "ipa": "/pɑnˈtɪfɪˌkeɪt/"
+    },
+    {
+      "lemma": "reconcile",
+      "pos": "verb",
+      "meaning": "To make two ideas or facts fit together.",
+      "examples": [
+        "It’s hard to {reconcile} his words with his actions."
+      ],
+      "wrong": [
+        "She reconciled the two accounts by showing they could never fit together."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harmonize",
+        "square"
+      ],
+      "ipa": "/ˈrɛkənˌsaɪl/"
+    }
+  ]
+}

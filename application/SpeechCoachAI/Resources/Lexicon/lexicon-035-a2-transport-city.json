@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-transport-city",
+    "title": "Getting around town",
+    "level": "A2",
+    "tagline": "Transport, places and directions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "post office",
+      "pos": "noun",
+      "meaning": "A place where you send letters and packages.",
+      "examples": [
+        "I bought stamps at the {post office}."
+      ],
+      "wrong": [
+        "A post office is a place where you swim."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpoʊst ˌɔfɪs/"
+    },
+    {
+      "lemma": "police station",
+      "pos": "noun",
+      "meaning": "The building where the police work.",
+      "examples": [
+        "We reported the theft at the {police station}."
+      ],
+      "wrong": [
+        "A police station is a place where you buy food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pəˈlis ˌsteɪʃən/"
+    },
+    {
+      "lemma": "police officer",
+      "pos": "noun",
+      "meaning": "A person whose job is to keep people safe and stop crime.",
+      "examples": [
+        "A {police officer} helped us find the way."
+      ],
+      "wrong": [
+        "A police officer is a person who teaches music."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "officer",
+        "cop"
+      ],
+      "ipa": "/pəˈlis ˌɔfɪsɚ/"
+    },
+    {
+      "lemma": "firefighter",
+      "pos": "noun",
+      "meaning": "A person whose job is to stop fires.",
+      "examples": [
+        "The {firefighters} put out the fire."
+      ],
+      "wrong": [
+        "A firefighter is a person who starts fires."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfaɪɚˌfaɪtɚ/"
+    },
+    {
+      "lemma": "mechanic",
+      "pos": "noun",
+      "meaning": "A person who repairs cars and machines.",
+      "examples": [
+        "The {mechanic} fixed my car."
+      ],
+      "wrong": [
+        "A mechanic is a person who cooks in a restaurant."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/məˈkænɪk/"
+    },
+    {
+      "lemma": "driver",
+      "pos": "noun",
+      "meaning": "A person who drives a car, bus or truck.",
+      "examples": [
+        "The bus {driver} was very kind."
+      ],
+      "wrong": [
+        "The driver is the passenger in the back seat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdraɪvɚ/"
+    },
+    {
+      "lemma": "pilot",
+      "pos": "noun",
+      "meaning": "A person who flies a plane.",
+      "examples": [
+        "The {pilot} said we would land soon."
+      ],
+      "wrong": [
+        "A pilot is a person who drives a train."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "aviator"
+      ],
+      "ipa": "/ˈpaɪlət/"
+    },
+    {
+      "lemma": "bus stop",
+      "pos": "noun",
+      "meaning": "A place where a bus stops to let people on and off.",
+      "examples": [
+        "Wait for me at the {bus stop}."
+      ],
+      "wrong": [
+        "A bus stop is a place where planes land."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbʌs ˌstɑp/"
+    },
+    {
+      "lemma": "traffic light",
+      "pos": "noun",
+      "meaning": "A set of red, yellow and green lights that controls traffic.",
+      "examples": [
+        "Stop at the {traffic light}."
+      ],
+      "wrong": [
+        "A traffic light is a lamp in your bedroom."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "signal"
+      ],
+      "ipa": "/ˈtræfɪk ˌlaɪt/"
+    },
+    {
+      "lemma": "crossroads",
+      "pos": "noun",
+      "meaning": "A place where two roads cross.",
+      "examples": [
+        "Turn right at the {crossroads}."
+      ],
+      "wrong": [
+        "A crossroads is a road with no turns at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "intersection"
+      ],
+      "ipa": "/ˈkrɔsroʊdz/"
+    },
+    {
+      "lemma": "parking",
+      "pos": "noun",
+      "meaning": "Leaving a car in a place for a time.",
+      "examples": [
+        "{Parking} is free on Sundays."
+      ],
+      "wrong": [
+        "Parking means driving fast on the highway."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɑrkɪŋ/"
+    },
+    {
+      "lemma": "highway",
+      "pos": "noun",
+      "meaning": "A wide road for fast traffic between cities.",
+      "examples": [
+        "We drove on the {highway} for three hours."
+      ],
+      "wrong": [
+        "A highway is a small path in a garden."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "motorway",
+        "freeway"
+      ],
+      "ipa": "/ˈhaɪweɪ/"
+    },
+    {
+      "lemma": "tram",
+      "pos": "noun",
+      "meaning": "An electric vehicle that runs on rails in city streets.",
+      "examples": [
+        "Take the {tram} to the city center."
+      ],
+      "wrong": [
+        "A tram is a boat that sails on the sea."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "streetcar"
+      ],
+      "ipa": "/træm/"
+    },
+    {
+      "lemma": "subway",
+      "pos": "noun",
+      "meaning": "Trains that run under the ground in a city.",
+      "examples": [
+        "I take the {subway} to work."
+      ],
+      "wrong": [
+        "The subway is a plane that flies over the city."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "underground",
+        "metro"
+      ],
+      "ipa": "/ˈsʌbweɪ/"
+    },
+    {
+      "lemma": "ship",
+      "pos": "noun",
+      "meaning": "A large boat that carries people or goods across the sea.",
+      "examples": [
+        "The {ship} sailed to New York."
+      ],
+      "wrong": [
+        "A ship is a car that drives on the highway."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "vessel"
+      ],
+      "ipa": "/ʃɪp/"
+    },
+    {
+      "lemma": "boat",
+      "pos": "noun",
+      "meaning": "A small vehicle that moves on water.",
+      "examples": [
+        "We rowed the {boat} across the lake."
+      ],
+      "wrong": [
+        "A boat is a vehicle that flies in the sky."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/boʊt/"
+    },
+    {
+      "lemma": "truck",
+      "pos": "noun",
+      "meaning": "A large vehicle for carrying goods.",
+      "examples": [
+        "A {truck} delivered the sofa."
+      ],
+      "wrong": [
+        "A truck is a very small bicycle."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "lorry"
+      ],
+      "ipa": "/trʌk/"
+    },
+    {
+      "lemma": "motorbike",
+      "pos": "noun",
+      "meaning": "A vehicle with two wheels and an engine.",
+      "examples": [
+        "He rides a {motorbike} to work."
+      ],
+      "wrong": [
+        "A motorbike has no engine and four wheels."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "motorcycle"
+      ],
+      "ipa": "/ˈmoʊtɚbaɪk/"
+    },
+    {
+      "lemma": "helmet",
+      "pos": "noun",
+      "meaning": "A hard hat that protects your head.",
+      "examples": [
+        "Always wear a {helmet} on a bike."
+      ],
+      "wrong": [
+        "A helmet is a soft pillow for your feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɛlmɪt/"
+    },
+    {
+      "lemma": "seat belt",
+      "pos": "noun",
+      "meaning": "A belt in a car that keeps you safe.",
+      "examples": [
+        "Fasten your {seat belt}."
+      ],
+      "wrong": [
+        "A seat belt is a belt for your trousers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "safety belt"
+      ],
+      "ipa": "/ˈsit ˌbɛlt/"
+    },
+    {
+      "lemma": "gas",
+      "pos": "noun",
+      "meaning": "Fuel for cars.",
+      "examples": [
+        "We need to stop for {gas}."
+      ],
+      "wrong": [
+        "My car runs on orange juice instead of gas."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fuel",
+        "petrol"
+      ],
+      "ipa": "/ɡæs/"
+    },
+    {
+      "lemma": "direction",
+      "pos": "noun",
+      "meaning": "The way that someone or something is going.",
+      "examples": [
+        "Which {direction} is the station?"
+      ],
+      "wrong": [
+        "The direction is the color of the road."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "way"
+      ],
+      "ipa": "/dɪˈrɛkʃən/"
+    },
+    {
+      "lemma": "straight",
+      "pos": "adverb",
+      "meaning": "In a line, without turning.",
+      "examples": [
+        "Go {straight} on for two blocks."
+      ],
+      "wrong": [
+        "Go straight on means turn left."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/streɪt/"
+    },
+    {
+      "lemma": "opposite",
+      "pos": "preposition",
+      "meaning": "Facing someone or something on the other side.",
+      "examples": [
+        "The bank is {opposite} the park."
+      ],
+      "wrong": [
+        "The shop is opposite the bank, so it is behind it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "across from"
+      ],
+      "ipa": "/ˈɑpəzɪt/"
+    },
+    {
+      "lemma": "between",
+      "pos": "preposition",
+      "meaning": "In the space that separates two things.",
+      "examples": [
+        "The café is {between} the bank and the shop."
+      ],
+      "wrong": [
+        "I sat between my friend."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɪˈtwin/"
+    },
+    {
+      "lemma": "behind",
+      "pos": "preposition",
+      "meaning": "At the back of something.",
+      "examples": [
+        "The garden is {behind} the house."
+      ],
+      "wrong": [
+        "The car is behind the house, in front of it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɪˈhaɪnd/",
+      "antonyms": [
+        "in front of"
+      ]
+    },
+    {
+      "lemma": "near",
+      "pos": "preposition",
+      "meaning": "Not far from.",
+      "examples": [
+        "I live {near} the station."
+      ],
+      "wrong": [
+        "I live near the station, about a day’s drive away."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "close to"
+      ],
+      "ipa": "/nɪr/",
+      "antonyms": [
+        "far from"
+      ]
+    },
+    {
+      "lemma": "far",
+      "pos": "adverb",
+      "meaning": "A long way.",
+      "examples": [
+        "Is the airport {far} from here?"
+      ],
+      "wrong": [
+        "The shop is far; it’s next door."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fɑr/",
+      "antonyms": [
+        "near",
+        "close"
+      ]
+    },
+    {
+      "lemma": "across",
+      "pos": "preposition",
+      "meaning": "From one side to the other.",
+      "examples": [
+        "We walked {across} the bridge."
+      ],
+      "wrong": [
+        "We swam across the river by staying on the bank."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/əˈkrɔs/"
+    },
+    {
+      "lemma": "along",
+      "pos": "preposition",
+      "meaning": "From one part of a road or river to another.",
+      "examples": [
+        "We walked {along} the beach."
+      ],
+      "wrong": [
+        "We walked along the river by flying over it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/əˈlɔŋ/"
+    },
+    {
+      "lemma": "through",
+      "pos": "preposition",
+      "meaning": "From one end or side of something to the other.",
+      "examples": [
+        "The train goes {through} a tunnel."
+      ],
+      "wrong": [
+        "We drove through the park without going into it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/θru/"
+    },
+    {
+      "lemma": "cross",
+      "pos": "verb",
+      "meaning": "To go from one side of something to the other.",
+      "examples": [
+        "Look both ways before you {cross} the road."
+      ],
+      "wrong": [
+        "I crossed the road, so I stayed on the same side."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/krɔs/"
+    },
+    {
+      "lemma": "lost",
+      "pos": "adjective",
+      "meaning": "Not knowing where you are.",
+      "examples": [
+        "We got {lost} in the old town."
+      ],
+      "wrong": [
+        "I was lost because I knew exactly where I was."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/lɔst/"
+    },
+    {
+      "lemma": "block",
+      "pos": "noun",
+      "meaning": "The distance along a street from one corner to the next.",
+      "examples": [
+        "The museum is two {blocks} away."
+      ],
+      "wrong": [
+        "A block is a kind of fruit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/blɑk/"
+    },
+    {
+      "lemma": "tunnel",
+      "pos": "noun",
+      "meaning": "A long passage under the ground or through a hill.",
+      "examples": [
+        "The train went through a {tunnel}."
+      ],
+      "wrong": [
+        "A tunnel is a bridge high in the air."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtʌnəl/"
+    },
+    {
+      "lemma": "fine",
+      "pos": "noun",
+      "meaning": "Money you must pay for breaking a rule.",
+      "examples": [
+        "I got a {fine} for parking there."
+      ],
+      "wrong": [
+        "A fine is a prize for good driving."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "penalty"
+      ],
+      "ipa": "/faɪn/"
+    },
+    {
+      "lemma": "speed",
+      "pos": "noun",
+      "meaning": "How fast something moves.",
+      "examples": [
+        "The car was going at a high {speed}."
+      ],
+      "wrong": [
+        "Speed is the color of a car."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pace"
+      ],
+      "ipa": "/spid/"
+    },
+    {
+      "lemma": "crowd",
+      "pos": "noun",
+      "meaning": "A large group of people in one place.",
+      "examples": [
+        "A big {crowd} waited outside the stadium."
+      ],
+      "wrong": [
+        "A crowd is one person alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "throng"
+      ],
+      "ipa": "/kraʊd/"
+    },
+    {
+      "lemma": "parking lot",
+      "pos": "noun",
+      "meaning": "An area where people leave their cars.",
+      "examples": [
+        "The {parking lot} was full."
+      ],
+      "wrong": [
+        "A parking lot is a place to swim."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "car park"
+      ],
+      "ipa": "/ˈpɑrkɪŋ ˌlɑt/"
+    },
+    {
+      "lemma": "downtown",
+      "pos": "adverb",
+      "meaning": "In or to the center of a city.",
+      "examples": [
+        "Let’s go {downtown} for dinner."
+      ],
+      "wrong": [
+        "We went downtown to the farm in the countryside."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌdaʊnˈtaʊn/",
+      "antonyms": [
+        "uptown"
+      ]
+    }
+  ]
+}

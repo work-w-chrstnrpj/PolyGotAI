@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-arts-media",
+    "title": "Arts and books",
+    "level": "B2",
+    "tagline": "Film, music, books and art",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "novel",
+      "pos": "noun",
+      "meaning": "A long written story about invented people and events.",
+      "examples": [
+        "She is writing her first {novel}."
+      ],
+      "wrong": [
+        "A novel is a short poem of four lines."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "book"
+      ],
+      "ipa": "/ˈnɑvəl/"
+    },
+    {
+      "lemma": "author",
+      "pos": "noun",
+      "meaning": "A person who writes books.",
+      "examples": [
+        "The {author} signed copies of her book."
+      ],
+      "wrong": [
+        "The author is the person who reads the book."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "writer"
+      ],
+      "ipa": "/ˈɔθɚ/"
+    },
+    {
+      "lemma": "plot",
+      "pos": "noun",
+      "meaning": "The events that form the story of a book or film.",
+      "examples": [
+        "The film has a very clever {plot}."
+      ],
+      "wrong": [
+        "The plot is the color of the book cover."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "storyline"
+      ],
+      "ipa": "/plɑt/"
+    },
+    {
+      "lemma": "genre",
+      "pos": "noun",
+      "meaning": "A type of art, music or writing, like horror or jazz.",
+      "examples": [
+        "Science fiction is my favorite {genre}."
+      ],
+      "wrong": [
+        "A genre is the name of one actor."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "category",
+        "type"
+      ],
+      "ipa": "/ˈʒɑnrə/"
+    },
+    {
+      "lemma": "critic",
+      "pos": "noun",
+      "meaning": "A person whose job is to give opinions on books, films or art.",
+      "examples": [
+        "The {critic} gave the play five stars."
+      ],
+      "wrong": [
+        "A critic is a person who never gives opinions."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "reviewer"
+      ],
+      "ipa": "/ˈkrɪtɪk/"
+    },
+    {
+      "lemma": "sculpture",
+      "pos": "noun",
+      "meaning": "A work of art made from stone, wood or metal.",
+      "examples": [
+        "There’s a bronze {sculpture} in the square."
+      ],
+      "wrong": [
+        "A sculpture is a song for the piano."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "statue"
+      ],
+      "ipa": "/ˈskʌlptʃɚ/"
+    },
+    {
+      "lemma": "portrait",
+      "pos": "noun",
+      "meaning": "A painting, drawing or photo of a person.",
+      "examples": [
+        "A {portrait} of the queen hangs in the hall."
+      ],
+      "wrong": [
+        "A portrait is a painting of a mountain with no people."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "likeness"
+      ],
+      "ipa": "/ˈpɔrtrɪt/"
+    },
+    {
+      "lemma": "landscape",
+      "pos": "noun",
+      "meaning": "A view of land, or a painting of it.",
+      "examples": [
+        "He paints {landscapes} of the countryside."
+      ],
+      "wrong": [
+        "A landscape is a painting of a person’s face."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "scenery"
+      ],
+      "ipa": "/ˈlændˌskeɪp/"
+    },
+    {
+      "lemma": "performance",
+      "pos": "noun",
+      "meaning": "The act of playing music, acting or dancing for an audience.",
+      "examples": [
+        "Her {performance} in the play was amazing."
+      ],
+      "wrong": [
+        "A performance is a private practice with no audience."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "show"
+      ],
+      "ipa": "/pɚˈfɔrməns/"
+    },
+    {
+      "lemma": "rehearsal",
+      "pos": "noun",
+      "meaning": "A practice before a public performance.",
+      "examples": [
+        "The final {rehearsal} is on Friday."
+      ],
+      "wrong": [
+        "A rehearsal is the last show after everything ends."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "practice"
+      ],
+      "ipa": "/rɪˈhɝsəl/"
+    },
+    {
+      "lemma": "playwright",
+      "pos": "noun",
+      "meaning": "A person who writes plays.",
+      "examples": [
+        "Shakespeare is a famous {playwright}."
+      ],
+      "wrong": [
+        "A playwright is a child who plays games."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "dramatist"
+      ],
+      "ipa": "/ˈpleɪˌraɪt/"
+    },
+    {
+      "lemma": "director",
+      "pos": "noun",
+      "meaning": "A person who controls how a film or play is made.",
+      "examples": [
+        "The {director} told the actors where to stand."
+      ],
+      "wrong": [
+        "The director is the person who sells tickets."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "filmmaker"
+      ],
+      "ipa": "/dɪˈrɛktɚ/"
+    },
+    {
+      "lemma": "scene",
+      "pos": "noun",
+      "meaning": "One part of a play or film in one place.",
+      "examples": [
+        "The last {scene} made me cry."
+      ],
+      "wrong": [
+        "A scene is the music in a film."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/sin/"
+    },
+    {
+      "lemma": "soundtrack",
+      "pos": "noun",
+      "meaning": "The music of a film.",
+      "examples": [
+        "I love the {soundtrack} of that movie."
+      ],
+      "wrong": [
+        "A soundtrack is the list of actors."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "score"
+      ],
+      "ipa": "/ˈsaʊndˌtræk/"
+    },
+    {
+      "lemma": "lyrics",
+      "pos": "noun",
+      "meaning": "The words of a song.",
+      "examples": [
+        "I don’t know the {lyrics} of this song."
+      ],
+      "wrong": [
+        "Lyrics are the notes a piano plays with no words."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "words"
+      ],
+      "ipa": "/ˈlɪrɪks/"
+    },
+    {
+      "lemma": "composer",
+      "pos": "noun",
+      "meaning": "A person who writes music.",
+      "examples": [
+        "Mozart was a great {composer}."
+      ],
+      "wrong": [
+        "A composer is a person who only listens to music."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəmˈpoʊzɚ/"
+    },
+    {
+      "lemma": "orchestra",
+      "pos": "noun",
+      "meaning": "A large group of musicians who play together.",
+      "examples": [
+        "The {orchestra} played Beethoven."
+      ],
+      "wrong": [
+        "An orchestra is one person singing alone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɔrkɪstrə/"
+    },
+    {
+      "lemma": "documentary",
+      "pos": "noun",
+      "meaning": "A film or TV program that gives facts about real events.",
+      "examples": [
+        "We watched a {documentary} about whales."
+      ],
+      "wrong": [
+        "A documentary is an invented story with dragons."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌdɑkjəˈmɛntəri/"
+    },
+    {
+      "lemma": "animation",
+      "pos": "noun",
+      "meaning": "A film made from drawings or computer images that move.",
+      "examples": [
+        "The studio makes {animation} for children."
+      ],
+      "wrong": [
+        "Animation is a film with only real actors and no drawings."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cartoon"
+      ],
+      "ipa": "/ˌænəˈmeɪʃən/"
+    },
+    {
+      "lemma": "sequel",
+      "pos": "noun",
+      "meaning": "A book or film that continues an earlier story.",
+      "examples": [
+        "The {sequel} was even better than the first film."
+      ],
+      "wrong": [
+        "A sequel comes before the first film in the story."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "follow-up"
+      ],
+      "ipa": "/ˈsikwəl/"
+    },
+    {
+      "lemma": "premiere",
+      "pos": "noun",
+      "meaning": "The first public showing of a film or play.",
+      "examples": [
+        "The stars arrived for the {premiere}."
+      ],
+      "wrong": [
+        "The premiere is the last show after years of performances."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "opening"
+      ],
+      "ipa": "/prɪˈmɪr/"
+    },
+    {
+      "lemma": "publish",
+      "pos": "verb",
+      "meaning": "To prepare and print a book or article for sale.",
+      "examples": [
+        "Her book will be {published} next year."
+      ],
+      "wrong": [
+        "They published the book, so nobody can buy it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "print",
+        "release"
+      ],
+      "ipa": "/ˈpʌblɪʃ/"
+    },
+    {
+      "lemma": "chapter",
+      "pos": "noun",
+      "meaning": "One of the parts of a book.",
+      "examples": [
+        "I read the first {chapter} last night."
+      ],
+      "wrong": [
+        "A chapter is a whole library of books."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "section"
+      ],
+      "ipa": "/ˈtʃæptɚ/"
+    },
+    {
+      "lemma": "biography",
+      "pos": "noun",
+      "meaning": "A book about someone’s life, written by another person.",
+      "examples": [
+        "I’m reading a {biography} of Einstein."
+      ],
+      "wrong": [
+        "A biography is a book about invented animals."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "life story"
+      ],
+      "ipa": "/baɪˈɑɡrəfi/"
+    },
+    {
+      "lemma": "fiction",
+      "pos": "noun",
+      "meaning": "Stories about imaginary people and events.",
+      "examples": [
+        "I prefer {fiction} to history books."
+      ],
+      "wrong": [
+        "Fiction is only true facts about real events."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈfɪkʃən/",
+      "antonyms": [
+        "nonfiction"
+      ]
+    },
+    {
+      "lemma": "poetry",
+      "pos": "noun",
+      "meaning": "Poems as a type of writing.",
+      "examples": [
+        "She reads {poetry} in the evenings."
+      ],
+      "wrong": [
+        "Poetry is a type of math."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "verse"
+      ],
+      "ipa": "/ˈpoʊətri/"
+    },
+    {
+      "lemma": "illustration",
+      "pos": "noun",
+      "meaning": "A picture in a book.",
+      "examples": [
+        "The children’s book has beautiful {illustrations}."
+      ],
+      "wrong": [
+        "An illustration is a page of text with no pictures."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "picture",
+        "drawing"
+      ],
+      "ipa": "/ˌɪləˈstreɪʃən/"
+    },
+    {
+      "lemma": "auction",
+      "pos": "noun",
+      "meaning": "A sale where things go to the person who offers the most money.",
+      "examples": [
+        "The painting sold at {auction} for a million dollars."
+      ],
+      "wrong": [
+        "At an auction, the lowest offer always wins."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɔkʃən/"
+    },
+    {
+      "lemma": "cast",
+      "pos": "noun",
+      "meaning": "All the actors in a play or film.",
+      "examples": [
+        "The {cast} took a bow at the end."
+      ],
+      "wrong": [
+        "The cast is the people who watch the play."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kæst/"
+    },
+    {
+      "lemma": "studio",
+      "pos": "noun",
+      "meaning": "A room where an artist works, or where films or music are made.",
+      "examples": [
+        "The band recorded the album in a {studio}."
+      ],
+      "wrong": [
+        "A studio is a field where cows live."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈstudiˌoʊ/"
+    },
+    {
+      "lemma": "masterpiece",
+      "pos": "noun",
+      "meaning": "A work of art of the highest quality.",
+      "examples": [
+        "Many think this painting is his {masterpiece}."
+      ],
+      "wrong": [
+        "A masterpiece is his worst and weakest work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "classic"
+      ],
+      "ipa": "/ˈmæstɚˌpis/"
+    },
+    {
+      "lemma": "contemporary",
+      "pos": "adjective",
+      "meaning": "Belonging to the present time.",
+      "examples": [
+        "The museum shows {contemporary} art."
+      ],
+      "wrong": [
+        "Contemporary art is from five hundred years ago."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "modern",
+        "current"
+      ],
+      "ipa": "/kənˈtɛmpəˌrɛri/"
+    },
+    {
+      "lemma": "creative writing",
+      "pos": "noun",
+      "meaning": "Writing stories and poems using imagination.",
+      "examples": [
+        "She teaches {creative writing} at college."
+      ],
+      "wrong": [
+        "Creative writing means copying a phone book."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kriˈeɪtɪv ˈraɪtɪŋ/"
+    },
+    {
+      "lemma": "bestseller",
+      "pos": "noun",
+      "meaning": "A book that sells a very large number of copies.",
+      "examples": [
+        "Her new novel is already a {bestseller}."
+      ],
+      "wrong": [
+        "A bestseller is a book nobody buys."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hit"
+      ],
+      "ipa": "/ˌbɛstˈsɛlɚ/"
+    },
+    {
+      "lemma": "applause",
+      "pos": "noun",
+      "meaning": "The sound of people clapping.",
+      "examples": [
+        "The singer was met with loud {applause}."
+      ],
+      "wrong": [
+        "Applause is the silence after a bad show."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clapping"
+      ],
+      "ipa": "/əˈplɔz/"
+    },
+    {
+      "lemma": "stage",
+      "pos": "noun",
+      "meaning": "The raised area where actors and musicians perform.",
+      "examples": [
+        "The band walked onto the {stage}."
+      ],
+      "wrong": [
+        "The stage is where the audience sits."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/steɪdʒ/"
+    },
+    {
+      "lemma": "perform",
+      "pos": "verb",
+      "meaning": "To act, sing or play music for an audience.",
+      "examples": [
+        "The band will {perform} live tonight."
+      ],
+      "wrong": [
+        "She performed by staying at home in silence."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "play",
+        "act"
+      ],
+      "ipa": "/pɚˈfɔrm/"
+    },
+    {
+      "lemma": "exhibit",
+      "pos": "verb",
+      "meaning": "To show something in public, like art in a museum.",
+      "examples": [
+        "The gallery {exhibits} young artists."
+      ],
+      "wrong": [
+        "They exhibited the paintings by hiding them."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "display",
+        "show"
+      ],
+      "ipa": "/ɪɡˈzɪbɪt/"
+    },
+    {
+      "lemma": "craft",
+      "pos": "noun",
+      "meaning": "Making things by hand with skill.",
+      "examples": [
+        "Pottery is a traditional {craft}."
+      ],
+      "wrong": [
+        "A craft is a machine that makes everything for you."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "handicraft"
+      ],
+      "ipa": "/kræft/"
+    },
+    {
+      "lemma": "heritage",
+      "pos": "noun",
+      "meaning": "The history, traditions and buildings of a country.",
+      "examples": [
+        "The old town is part of our cultural {heritage}."
+      ],
+      "wrong": [
+        "Heritage is something built last week with no history."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tradition"
+      ],
+      "ipa": "/ˈhɛrɪtɪdʒ/"
+    }
+  ]
+}

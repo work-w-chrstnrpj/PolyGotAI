@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the predefined Lexicon bank: Resources/Lexicon/lexicon-*.json (3 groups x 40 words).
+"""Build the predefined Lexicon bank: Resources/Lexicon/lexicon-*.json (packs of about 40 words per CEFR rank, plus field packs).
 
 Every meaning and sentence is original wording written for this app. Word choice follows general-purpose and academic
 frequency ideas (no list text is copied or bundled). Each entry is
@@ -154,6 +154,7 @@ import sys  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lexdata import a1, a2, b1, b2, c1, c2, fields  # noqa: E402
+from lexdata import more_a1, more_a2, more_b1, more_b2, more_c1, more_c2  # noqa: E402
 
 REGISTERS = {"everyday", "formal", "term", "jargon", "slang", "informal", "literary"}
 JARGON = {"stakeholder", "outsource", "milestone", "turnover", "touch base", "leverage", "paradigm"}
@@ -184,6 +185,20 @@ def fresh(rows, level, register):
         override = row[5] if len(row) > 5 and row[5] in REGISTERS else None
         out.append(dict(lemma=lemma, pos=pos, meaning=meaning, example=example, wrong1=wrong1, wrong2=None, cefr=level,
                         register="jargon" if lemma in JARGON else (override or register), id=None, wrong_count=1))
+    return out
+
+
+def rich(rows, level, register):
+    """Phase 14 words: (lemma, pos, meaning, example, wrong, "synonym; synonym"[, register]). One wrong sentence each."""
+    out = []
+    for row in rows:
+        lemma, pos, meaning, example, wrong1, synonyms = row[:6]
+        override = row[6] if len(row) > 6 else None
+        if override is not None and override not in REGISTERS:
+            raise SystemExit(f"{lemma}: unknown register {override}")
+        out.append(dict(lemma=lemma, pos=pos, meaning=meaning, example=example, wrong1=wrong1, wrong2=None, cefr=level,
+                        register=override or register, id=None, wrong_count=1,
+                        synonyms=[v.strip() for v in synonyms.split(";") if v.strip()]))
     return out
 
 
@@ -254,6 +269,22 @@ GROUPS = [
     ("18-c2-literary", "c2-literary", "Literary language", "C2", "Words from stories and poems", fresh(c2.LITERARY, "C2", "literary")),
 ]
 
+# Phase 14 packs (about 2,400 words in all): each module lists (stem, group id, title, tagline, register, rows) per pack.
+# They follow the older packs of the same rank. File numbers are assigned in build(), so packs stay in rank order.
+LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
+for level, module in zip(LEVEL_ORDER, (more_a1, more_a2, more_b1, more_b2, more_c1, more_c2)):
+    for stem, group_id, title, tagline, register, rows in module.PACKS:
+        GROUPS.append((stem, group_id, title, level, tagline, rich(rows, level, register)))
+# Expansion 2026-10-30 (B1–C2 to about 1,000 words each): lexdata/extra_<rank>_<n>.py, same row format, after the packs above.
+import importlib  # noqa: E402
+
+EXTRA_MODULES = sorted(Path(__file__).resolve().parent.joinpath("lexdata").glob("extra_*.py"))
+for path in EXTRA_MODULES:
+    module = importlib.import_module(f"lexdata.{path.stem}")
+    for stem, group_id, title, tagline, register, rows in module.PACKS:
+        GROUPS.append((stem, group_id, title, module.LEVEL, tagline, rich(rows, module.LEVEL, register)))
+GROUPS.sort(key=lambda group: LEVEL_ORDER.index(group[3]))
+
 # Field packs (L2.3): opt-in groups, never the default, never suggested as "Next", not in the daily word unless switched on.
 FIELD_GROUPS = [
     ("19-field-business", "field-business", "Business and finance", "B2", "Money, deals and companies", unique_field_rows(fresh(fields.BUSINESS, "B2", "term"))),
@@ -307,20 +338,47 @@ def curl(value):
     return value
 
 
+# Field pack sizes before Phase 14: a new level word must never take a word out of a field pack (its id would change).
+FIELD_SIZES = {"field-business": 27, "field-tech": 30, "field-health": 28, "field-travel": 29, "field-law": 30}
+
+
+def check_bank() -> None:
+    problems, seen = [], {}
+    for _, group_id, _, _, _, rows in [*GROUPS, *FIELD_GROUPS]:
+        for row in rows:
+            key = (LexiconKey(row["lemma"]), row["pos"])
+            if key in seen:
+                problems.append(f"{row['lemma']} ({row['pos']}) in {group_id} repeats {seen[key]}")
+            seen[key] = group_id
+            if row["example"].count("{") != 1 or "{" in row["wrong1"] or len(row["meaning"]) > 140:
+                problems.append(f"{group_id}: {row['lemma']}: example marker, wrong sentence or meaning length")
+            if any(LexiconKey(v) == LexiconKey(row["lemma"]) for v in row.get("synonyms", [])):
+                problems.append(f"{group_id}: {row['lemma']}: synonym equals the word")
+    for _, group_id, _, _, _, rows in FIELD_GROUPS:
+        if len(rows) != FIELD_SIZES[group_id]:
+            problems.append(f"{group_id}: {len(rows)} words, expected {FIELD_SIZES[group_id]} (a level word took a field word)")
+    if problems:
+        raise SystemExit("\n".join(problems))
+
+
 def build() -> None:
+    check_bank()
     apply_word_fixes()
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("lexicon-*.json"):
         old.unlink()
     total = 0
-    for stem, group_id, title, level, tagline, rows in [*GROUPS, *FIELD_GROUPS]:
-        is_field = (stem, group_id, title, level, tagline, rows) in FIELD_GROUPS
+    for number, (stem, group_id, title, level, tagline, rows) in enumerate([*GROUPS, *FIELD_GROUPS], start=1):
+        is_field = number > len(GROUPS)
+        stem = f"{number:03d}-{stem.split('-', 1)[1] if stem[:2].isdigit() else stem}"
         words = []
         for row in rows:
             word = {"lemma": row["lemma"], "pos": row["pos"], "meaning": row["meaning"], "examples": [row["example"]],
                     "wrong": [row["wrong1"]] + ([row["wrong2"]] if row["wrong2"] else []), "cefr": row["cefr"], "register": row["register"]}
             if row["id"]:
                 word["id"] = row["id"]
+            if row.get("synonyms"):
+                word["synonyms"] = row["synonyms"]
             words.append(word)
         header = {"id": group_id, "title": title, "level": level, "tagline": tagline, "sources": SOURCES}
         if is_field:

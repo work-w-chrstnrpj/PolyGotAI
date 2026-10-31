@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-collocations",
+    "title": "Collocations",
+    "level": "B2",
+    "tagline": "Word partners at B2",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "draw a conclusion",
+      "pos": "phrase",
+      "meaning": "To decide what is true after thinking about the facts.",
+      "examples": [
+        "It’s too early to {draw a conclusion} from these results."
+      ],
+      "wrong": [
+        "She drew a conclusion before looking at any of the facts, and it was well supported."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "conclude",
+        "infer"
+      ],
+      "ipa": "/drɔ ə kənˈkluʒən/"
+    },
+    {
+      "lemma": "reach an agreement",
+      "pos": "phrase",
+      "meaning": "To finally agree after discussing something.",
+      "examples": [
+        "After hours of talks, they {reached an agreement}."
+      ],
+      "wrong": [
+        "They reached an agreement and still disagreed on every point."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "agree",
+        "settle"
+      ],
+      "ipa": "/ritʃ ən əˈɡrimənt/"
+    },
+    {
+      "lemma": "take into account",
+      "pos": "phrase",
+      "meaning": "To think about something when making a decision.",
+      "examples": [
+        "We must {take into account} the cost of transport."
+      ],
+      "wrong": [
+        "I took the weather into account and forgot about it completely."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "consider",
+        "allow for"
+      ],
+      "ipa": "/teɪk ˈɪntu əˈkaʊnt/"
+    },
+    {
+      "lemma": "raise awareness",
+      "pos": "phrase",
+      "meaning": "To help people know more about a problem.",
+      "examples": [
+        "The campaign aims to {raise awareness} of water waste."
+      ],
+      "wrong": [
+        "The poster raised awareness by hiding the facts from everyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "inform",
+        "publicize"
+      ],
+      "ipa": "/reɪz əˈwɛrnəs/"
+    },
+    {
+      "lemma": "meet a deadline",
+      "pos": "phrase",
+      "meaning": "To finish something by the time it must be done.",
+      "examples": [
+        "We worked late to {meet the deadline}."
+      ],
+      "wrong": [
+        "He met the deadline by handing it in a week late."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/mit ə ˈdɛdˌlaɪn/"
+    },
+    {
+      "lemma": "bear in mind",
+      "pos": "phrase",
+      "meaning": "To remember and think about something.",
+      "examples": [
+        "{Bear in mind} that the shop closes at six."
+      ],
+      "wrong": [
+        "Bear in mind the closing time, then forget it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "remember",
+        "keep in mind"
+      ],
+      "ipa": "/bɛr ɪn maɪnd/"
+    },
+    {
+      "lemma": "catch someone’s eye",
+      "pos": "phrase",
+      "meaning": "To get someone’s attention.",
+      "examples": [
+        "A red dress in the window {caught my eye}."
+      ],
+      "wrong": [
+        "The bright sign caught my eye, so I didn’t notice it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "attract attention"
+      ],
+      "ipa": "/kætʃ ˈsʌmˌwʌnz aɪ/"
+    },
+    {
+      "lemma": "come to terms with",
+      "pos": "phrase",
+      "meaning": "To slowly accept a sad or difficult situation.",
+      "examples": [
+        "It took him years to {come to terms with} the loss."
+      ],
+      "wrong": [
+        "She came to terms with the change by refusing to accept it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "accept"
+      ],
+      "ipa": "/kʌm tə tɝmz wɪð/"
+    },
+    {
+      "lemma": "do more harm than good",
+      "pos": "phrase",
+      "meaning": "To cause more problems than it helps.",
+      "examples": [
+        "Too much exercise can {do more harm than good}."
+      ],
+      "wrong": [
+        "The medicine did more harm than good, so I felt much better."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "backfire"
+      ],
+      "ipa": "/du mɔr hɑrm ðən ɡʊd/"
+    },
+    {
+      "lemma": "gain experience",
+      "pos": "phrase",
+      "meaning": "To learn skills by doing something.",
+      "examples": [
+        "Volunteering helped her {gain experience} with children."
+      ],
+      "wrong": [
+        "He gained experience by never trying the job."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ɡeɪn ɪkˈspɪriəns/"
+    },
+    {
+      "lemma": "lose track of",
+      "pos": "phrase",
+      "meaning": "To stop knowing where something is or what is happening.",
+      "examples": [
+        "I {lost track of} time while reading."
+      ],
+      "wrong": [
+        "I lost track of the score, so I knew it exactly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lose sight of"
+      ],
+      "ipa": "/luz træk əv/"
+    },
+    {
+      "lemma": "make a fuss",
+      "pos": "phrase",
+      "meaning": "To show too much worry, anger or excitement about something small.",
+      "examples": [
+        "Please don’t {make a fuss}; it’s only a small scratch."
+      ],
+      "wrong": [
+        "She made a fuss by calmly saying nothing at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "complain"
+      ],
+      "ipa": "/meɪk ə fʌs/"
+    },
+    {
+      "lemma": "pose a threat",
+      "pos": "phrase",
+      "meaning": "To be a possible danger to someone or something.",
+      "examples": [
+        "Rising water levels {pose a threat} to the village."
+      ],
+      "wrong": [
+        "The tiny kitten posed a threat to the whole army."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "endanger",
+        "threaten"
+      ],
+      "ipa": "/poʊz ə θrɛt/"
+    },
+    {
+      "lemma": "run a risk",
+      "pos": "phrase",
+      "meaning": "To be in a situation where something bad could happen.",
+      "examples": [
+        "If you don’t back up your files, you {run the risk} of losing them."
+      ],
+      "wrong": [
+        "He ran a risk by doing the safest possible thing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "risk"
+      ],
+      "ipa": "/rʌn ə rɪsk/"
+    },
+    {
+      "lemma": "strike a balance",
+      "pos": "phrase",
+      "meaning": "To find a fair middle point between two needs.",
+      "examples": [
+        "It’s hard to {strike a balance} between work and family."
+      ],
+      "wrong": [
+        "She struck a balance by giving all her time to work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "compromise"
+      ],
+      "ipa": "/straɪk ə ˈbæləns/"
+    },
+    {
+      "lemma": "take something for granted",
+      "pos": "phrase",
+      "meaning": "To expect something to always be there and not value it.",
+      "examples": [
+        "We often {take clean water for granted}."
+      ],
+      "wrong": [
+        "He took his friends for granted and thanked them every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/teɪk ˈsʌmθɪŋ fɚ ˈɡræntɪd/"
+    },
+    {
+      "lemma": "hold your breath",
+      "pos": "phrase",
+      "meaning": "To stop breathing for a short time, or to wait anxiously.",
+      "examples": [
+        "He {held his breath} as he swam under the water."
+      ],
+      "wrong": [
+        "She held her breath by breathing quickly and deeply."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/hoʊld jɚ brɛθ/"
+    },
+    {
+      "lemma": "break a habit",
+      "pos": "phrase",
+      "meaning": "To stop doing something you have done regularly for a long time.",
+      "examples": [
+        "It took me months to {break the habit} of biting my nails."
+      ],
+      "wrong": [
+        "She broke the habit of smoking and smoked more than ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "kick a habit"
+      ],
+      "ipa": "/breɪk ə ˈhæbɪt/"
+    },
+    {
+      "lemma": "draw attention to",
+      "pos": "phrase",
+      "meaning": "To make people notice something.",
+      "examples": [
+        "The report {draws attention to} the lack of parks."
+      ],
+      "wrong": [
+        "She drew attention to the mistake by keeping it secret."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "highlight",
+        "point out"
+      ],
+      "ipa": "/drɔ əˈtɛnʃən tu/"
+    },
+    {
+      "lemma": "bitterly disappointed",
+      "pos": "phrase",
+      "meaning": "Very unhappy because something was not as good as hoped.",
+      "examples": [
+        "The fans were {bitterly disappointed} by the loss."
+      ],
+      "wrong": [
+        "I was bitterly disappointed with the wonderful gift I wanted."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "devastated",
+        "crushed"
+      ],
+      "ipa": "/ˈbɪtɚli ˌdɪsəˈpɔɪntɪd/"
+    },
+    {
+      "lemma": "deeply concerned",
+      "pos": "phrase",
+      "meaning": "Very worried about something serious.",
+      "examples": [
+        "Parents are {deeply concerned} about the new road."
+      ],
+      "wrong": [
+        "She was deeply concerned, so she didn’t care at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "very worried"
+      ],
+      "ipa": "/ˈdipli kənˈsɝnd/"
+    },
+    {
+      "lemma": "highly recommended",
+      "pos": "phrase",
+      "meaning": "Praised by many people as very good.",
+      "examples": [
+        "The new museum is {highly recommended}."
+      ],
+      "wrong": [
+        "The hotel is highly recommended, so everyone tells you to avoid it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhaɪli ˌrɛkəˈmɛndɪd/"
+    },
+    {
+      "lemma": "fully aware",
+      "pos": "phrase",
+      "meaning": "Knowing about something completely.",
+      "examples": [
+        "I’m {fully aware} of the risks."
+      ],
+      "wrong": [
+        "He was fully aware of the plan, but had never heard of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈfʊli əˈwɛr/",
+      "antonyms": [
+        "unaware"
+      ]
+    },
+    {
+      "lemma": "widely known",
+      "pos": "phrase",
+      "meaning": "Known by many people.",
+      "examples": [
+        "It’s {widely known} that the old bridge is unsafe."
+      ],
+      "wrong": [
+        "The fact is widely known, but only two people know it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "well known"
+      ],
+      "ipa": "/ˈwaɪdli noʊn/"
+    },
+    {
+      "lemma": "play a part",
+      "pos": "phrase",
+      "meaning": "To be one of the causes of something or help it happen.",
+      "examples": [
+        "Luck {played a part} in our success."
+      ],
+      "wrong": [
+        "Luck played a part, but had nothing to do with it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "contribute"
+      ],
+      "ipa": "/pleɪ ə pɑrt/"
+    },
+    {
+      "lemma": "make amends",
+      "pos": "phrase",
+      "meaning": "To do something good to make up for a wrong you did.",
+      "examples": [
+        "He tried to {make amends} by buying her flowers."
+      ],
+      "wrong": [
+        "She made amends by insulting him again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "make up for"
+      ],
+      "ipa": "/meɪk əˈmɛndz/"
+    },
+    {
+      "lemma": "address an issue",
+      "pos": "phrase",
+      "meaning": "To start dealing with a problem.",
+      "examples": [
+        "The council promised to {address the issue} of litter."
+      ],
+      "wrong": [
+        "They addressed the issue by ignoring it for years."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tackle",
+        "deal with"
+      ],
+      "ipa": "/əˈdrɛs ən ˈɪʃu/"
+    },
+    {
+      "lemma": "face a challenge",
+      "pos": "phrase",
+      "meaning": "To have to deal with something difficult.",
+      "examples": [
+        "Every new team will {face a challenge} in its first year."
+      ],
+      "wrong": [
+        "We faced a challenge, an easy task with no problems."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "confront"
+      ],
+      "ipa": "/feɪs ə ˈtʃælɪndʒ/"
+    },
+    {
+      "lemma": "have second thoughts",
+      "pos": "phrase",
+      "meaning": "To start to doubt a decision you made.",
+      "examples": [
+        "I’m {having second thoughts} about moving abroad."
+      ],
+      "wrong": [
+        "She had second thoughts and felt totally sure of her choice."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "reconsider"
+      ],
+      "ipa": "/hæv ˈsɛkənd θɔts/"
+    },
+    {
+      "lemma": "reach a compromise",
+      "pos": "phrase",
+      "meaning": "To agree by both sides giving up something.",
+      "examples": [
+        "After a long debate, we {reached a compromise}."
+      ],
+      "wrong": [
+        "They reached a compromise, and one side got everything it wanted."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "meet halfway"
+      ],
+      "ipa": "/ritʃ ə ˈkɑmprəˌmaɪz/"
+    },
+    {
+      "lemma": "express concern",
+      "pos": "phrase",
+      "meaning": "To say that you are worried about something.",
+      "examples": [
+        "Doctors have {expressed concern} about the new diet."
+      ],
+      "wrong": [
+        "He expressed concern by saying nothing worried him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "voice worries"
+      ],
+      "ipa": "/ɪkˈsprɛs kənˈsɝn/"
+    },
+    {
+      "lemma": "keep a low profile",
+      "pos": "phrase",
+      "meaning": "To avoid attracting attention.",
+      "examples": [
+        "After the scandal, he {kept a low profile}."
+      ],
+      "wrong": [
+        "She kept a low profile by giving interviews on every TV show."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lie low"
+      ],
+      "ipa": "/kip ə loʊ ˈproʊˌfaɪl/"
+    },
+    {
+      "lemma": "set an example",
+      "pos": "phrase",
+      "meaning": "To behave well so others copy you.",
+      "examples": [
+        "Parents should {set a good example} for their children."
+      ],
+      "wrong": [
+        "He set an example by doing everything his rules banned."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lead by example"
+      ],
+      "ipa": "/sɛt ən ɪɡˈzæmpəl/"
+    },
+    {
+      "lemma": "tell the difference",
+      "pos": "phrase",
+      "meaning": "To see how two things are not the same.",
+      "examples": [
+        "Can you {tell the difference} between the twins?"
+      ],
+      "wrong": [
+        "I can tell the difference, so they look identical to me."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "distinguish"
+      ],
+      "ipa": "/tɛl ðə ˈdɪfrəns/"
+    },
+    {
+      "lemma": "pay a compliment",
+      "pos": "phrase",
+      "meaning": "To say something nice about someone.",
+      "examples": [
+        "It costs nothing to {pay a compliment} to a colleague."
+      ],
+      "wrong": [
+        "She paid me a compliment by calling my work rubbish."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "praise"
+      ],
+      "ipa": "/peɪ ə ˈkɑmpləmənt/"
+    },
+    {
+      "lemma": "lose your temper",
+      "pos": "phrase",
+      "meaning": "To suddenly become very angry.",
+      "examples": [
+        "The coach {lost his temper} and shouted at the players."
+      ],
+      "wrong": [
+        "He lost his temper and stayed perfectly calm."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "blow up",
+        "snap"
+      ],
+      "ipa": "/luz jɚ ˈtɛmpɚ/"
+    },
+    {
+      "lemma": "take a stand",
+      "pos": "phrase",
+      "meaning": "To say clearly what you believe and defend it publicly.",
+      "examples": [
+        "The students {took a stand} against the new fees."
+      ],
+      "wrong": [
+        "She took a stand by keeping her opinion to herself."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "speak out"
+      ],
+      "ipa": "/teɪk ə stænd/"
+    },
+    {
+      "lemma": "fall short of",
+      "pos": "phrase",
+      "meaning": "To fail to reach a level or goal.",
+      "examples": [
+        "Sales {fell short of} our target this month."
+      ],
+      "wrong": [
+        "The results fell short of the goal, beating it by miles."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "miss"
+      ],
+      "ipa": "/fɔl ʃɔrt əv/"
+    },
+    {
+      "lemma": "put pressure on",
+      "pos": "phrase",
+      "meaning": "To try hard to make someone do something.",
+      "examples": [
+        "His parents {put pressure on} him to study medicine."
+      ],
+      "wrong": [
+        "They put pressure on her by letting her choose freely."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "push"
+      ],
+      "ipa": "/pʊt ˈprɛʃɚ ɑn/"
+    },
+    {
+      "lemma": "make an exception",
+      "pos": "phrase",
+      "meaning": "To not follow the usual rule in one case.",
+      "examples": [
+        "Dogs aren’t allowed, but we’ll {make an exception} for guide dogs."
+      ],
+      "wrong": [
+        "They made an exception and applied the rule as usual."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/meɪk ən ɪkˈsɛpʃən/"
+    }
+  ]
+}

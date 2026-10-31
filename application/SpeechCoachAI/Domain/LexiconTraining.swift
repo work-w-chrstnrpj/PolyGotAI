@@ -100,6 +100,69 @@ enum LexiconPracticeBuilder {
         return LexiconQuestion(wordID: word.id, lemma: word.lemma, kind: .chooseSentence, activity: activity)
     }
 
+    // MARK: Vocabulary Enricher
+
+    /// Vocabulary Enricher: any word of the packs in training, learned or not. Each question is one of: the meaning → choose
+    /// the word, choose the synonym, choose the opposite, or choose the word that completes the sentence. Never rated.
+    static func enricherPool(bank: LexiconBank, state: LexiconState, startLevel: String) -> [LexiconWord] {
+        state.trainingGroups(in: bank, startLevel: startLevel).flatMap(\.words)
+    }
+
+    static func enricherQuestions<G: RandomNumberGenerator>(words: [LexiconWord], bank: LexiconBank, count: Int = sessionSize,
+                                                            using generator: inout G) -> [LexiconQuestion] {
+        var result: [LexiconQuestion] = []
+        for word in words.shuffled(using: &generator) where result.count < count {
+            let makers: [(inout G) -> LexiconQuestion?] = [
+                { meaningQuestion(word, bank: bank, using: &$0) },
+                { synonymQuestion(word, bank: bank, using: &$0) },
+                { antonymQuestion(word, bank: bank, using: &$0) },
+                { sentenceQuestion(word, bank: bank, using: &$0) },
+            ]
+            for make in makers.shuffled(using: &generator) {
+                if let question = make(&generator) { result.append(question); break }
+            }
+        }
+        return result
+    }
+
+    static func enricherQuestions(words: [LexiconWord], bank: LexiconBank, count: Int = sessionSize) -> [LexiconQuestion] {
+        var generator = SystemRandomNumberGenerator()
+        return enricherQuestions(words: words, bank: bank, count: count, using: &generator)
+    }
+
+    /// "Which word means …?": the meaning and four words of the same part of speech. Skipped when the meaning gives the word away.
+    static func meaningQuestion<G: RandomNumberGenerator>(_ word: LexiconWord, bank: LexiconBank, using generator: inout G) -> LexiconQuestion? {
+        guard !mentions(word.meaning, word.lemma) else { return nil }
+        let others = distractors(for: word, bank: bank, exclude: [word.lemma] + word.synonyms, using: &generator) { $0.lemma }
+        guard others.count == 3 else { return nil }
+        let options = ([word.lemma] + others).shuffled(using: &generator)
+        let activity = CurriculumActivity(
+            id: "\(word.id)#enricher-meaning", kind: "grammar", required: true,
+            prompt: "Which word means: \(word.meaning)", answer: word.lemma,
+            exercise: ExerciseSpec(type: "choice", options: options, accepted: [word.lemma]))
+        return LexiconQuestion(wordID: word.id, lemma: word.lemma, kind: .chooseSentence, activity: activity)
+    }
+
+    /// Whether `text` contains `lemma` as whole words ("art" is not in "start").
+    static func mentions(_ text: String, _ lemma: String) -> Bool {
+        let words = AnswerChecker.words(in: text), target = AnswerChecker.words(in: lemma)
+        guard !target.isEmpty, words.count >= target.count else { return false }
+        return (0...(words.count - target.count)).contains { Array(words[$0..<($0 + target.count)]) == target }
+    }
+
+    /// "Which word is opposite in meaning to …?": one antonym and three words that are neither the word, its synonyms nor its antonyms.
+    static func antonymQuestion<G: RandomNumberGenerator>(_ word: LexiconWord, bank: LexiconBank, using generator: inout G) -> LexiconQuestion? {
+        guard let antonym = word.antonyms.shuffled(using: &generator).first else { return nil }
+        let others = distractors(for: word, bank: bank, exclude: [word.lemma] + word.synonyms + word.antonyms, using: &generator) { $0.lemma }
+        guard others.count == 3 else { return nil }
+        let options = ([antonym] + others).shuffled(using: &generator)
+        let activity = CurriculumActivity(
+            id: "\(word.id)#enricher-antonym", kind: "grammar", required: true,
+            prompt: "Which word is opposite in meaning to “\(word.lemma)”?", answer: antonym,
+            exercise: ExerciseSpec(type: "choice", options: options, accepted: [antonym]))
+        return LexiconQuestion(wordID: word.id, lemma: word.lemma, kind: .chooseSentence, activity: activity)
+    }
+
     /// Three distinct options from other words, same part of speech first, then same pack, then the bank.
     /// A candidate is skipped when it is the word, one of its synonyms, or lists the word as its own synonym.
     private static func distractors<G: RandomNumberGenerator>(for word: LexiconWord, bank: LexiconBank, exclude: [String],

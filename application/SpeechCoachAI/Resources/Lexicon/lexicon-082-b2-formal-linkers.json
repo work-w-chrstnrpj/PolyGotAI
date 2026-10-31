@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-formal-linkers",
+    "title": "Formal linking words",
+    "level": "B2",
+    "tagline": "Moreover, whereas, despite",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "furthermore",
+      "pos": "adverb",
+      "meaning": "In addition to what has been said.",
+      "examples": [
+        "The flat is cheap. {Furthermore}, it is near the station."
+      ],
+      "wrong": [
+        "The flat is cheap. Furthermore, it is very expensive."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "moreover",
+        "in addition"
+      ],
+      "ipa": "/ˈfɝðɚˌmɔr/"
+    },
+    {
+      "lemma": "moreover",
+      "pos": "adverb",
+      "meaning": "Also, and more importantly.",
+      "examples": [
+        "The plan is costly; {moreover}, it will take years."
+      ],
+      "wrong": [
+        "The food was cold. Moreover, it was hot."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "furthermore",
+        "besides",
+        "in addition"
+      ],
+      "ipa": "/mɔrˈoʊvɚ/"
+    },
+    {
+      "lemma": "nevertheless",
+      "pos": "adverb",
+      "meaning": "Despite what has just been said.",
+      "examples": [
+        "It was raining. {Nevertheless}, we went for a walk."
+      ],
+      "wrong": [
+        "It was sunny. Nevertheless, it was a sunny day."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "nonetheless",
+        "however"
+      ],
+      "ipa": "/ˌnɛvɚðəˈlɛs/"
+    },
+    {
+      "lemma": "whereas",
+      "pos": "conjunction",
+      "meaning": "Used to compare two different facts.",
+      "examples": [
+        "I like tea, {whereas} my sister prefers coffee."
+      ],
+      "wrong": [
+        "I like tea, whereas I also like tea."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "while"
+      ],
+      "ipa": "/wɛrˈæz/"
+    },
+    {
+      "lemma": "despite",
+      "pos": "preposition",
+      "meaning": "Without being stopped by something.",
+      "examples": [
+        "We played {despite} the rain."
+      ],
+      "wrong": [
+        "We played despite the perfect sunny weather."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "in spite of"
+      ],
+      "ipa": "/dɪˈspaɪt/"
+    },
+    {
+      "lemma": "in spite of",
+      "pos": "preposition",
+      "meaning": "Even though something happened.",
+      "examples": [
+        "He finished the race {in spite of} his injury."
+      ],
+      "wrong": [
+        "She won in spite of her excellent training."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "despite"
+      ],
+      "ipa": "/ɪn ˈspaɪt əv/"
+    },
+    {
+      "lemma": "consequently",
+      "pos": "adverb",
+      "meaning": "As a result.",
+      "examples": [
+        "He missed the bus; {consequently}, he was late."
+      ],
+      "wrong": [
+        "He left early; consequently, he was late."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "as a result",
+        "therefore",
+        "thus",
+        "hence"
+      ],
+      "ipa": "/ˈkɑnsəˌkwɛntli/"
+    },
+    {
+      "lemma": "thus",
+      "pos": "adverb",
+      "meaning": "In this way; for this reason.",
+      "examples": [
+        "Sales fell; {thus} the shop had to close."
+      ],
+      "wrong": [
+        "Sales rose; thus the shop had to close because of low sales."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "therefore",
+        "hence",
+        "as a result"
+      ],
+      "ipa": "/ðʌs/"
+    },
+    {
+      "lemma": "meanwhile",
+      "pos": "adverb",
+      "meaning": "At the same time.",
+      "examples": [
+        "I cooked dinner. {Meanwhile}, she set the table."
+      ],
+      "wrong": [
+        "First I cooked, and meanwhile, a week later, she set the table."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "in the meantime"
+      ],
+      "ipa": "/ˈminˌwaɪl/"
+    },
+    {
+      "lemma": "similarly",
+      "pos": "adverb",
+      "meaning": "In a way that is almost the same.",
+      "examples": [
+        "Cats need care; {similarly}, dogs need attention."
+      ],
+      "wrong": [
+        "Cats like fish; similarly, dogs hate fish completely."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "likewise"
+      ],
+      "ipa": "/ˈsɪməlɚli/",
+      "antonyms": [
+        "differently"
+      ]
+    },
+    {
+      "lemma": "likewise",
+      "pos": "adverb",
+      "meaning": "In the same way.",
+      "examples": [
+        "He was polite, and I did {likewise}."
+      ],
+      "wrong": [
+        "She smiled, and I did likewise by frowning."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "similarly"
+      ],
+      "ipa": "/ˈlaɪkˌwaɪz/"
+    },
+    {
+      "lemma": "in addition",
+      "pos": "adverb",
+      "meaning": "Also; as well as.",
+      "examples": [
+        "{In addition}, the hotel has a pool."
+      ],
+      "wrong": [
+        "The hotel is great. In addition, it is terrible."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "furthermore",
+        "also"
+      ],
+      "ipa": "/ɪn əˈdɪʃən/"
+    },
+    {
+      "lemma": "on the other hand",
+      "pos": "phrase",
+      "meaning": "Used to give a different point of view.",
+      "examples": [
+        "The job pays well. {On the other hand}, the hours are long."
+      ],
+      "wrong": [
+        "The job pays well. On the other hand, the money is great."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "however"
+      ],
+      "ipa": "/ɑn ði ˌʌðɚ ˈhænd/"
+    },
+    {
+      "lemma": "in contrast",
+      "pos": "adverb",
+      "meaning": "Used to show a clear difference.",
+      "examples": [
+        "The north is wet. {In contrast}, the south is dry."
+      ],
+      "wrong": [
+        "The north is wet. In contrast, the south is wet too."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "by contrast",
+        "conversely"
+      ],
+      "ipa": "/ɪn ˈkɑnˌtræst/"
+    },
+    {
+      "lemma": "as a result",
+      "pos": "adverb",
+      "meaning": "Because of this.",
+      "examples": [
+        "It snowed. {As a result}, schools closed."
+      ],
+      "wrong": [
+        "It was sunny. As a result, schools closed because of the snow."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "therefore",
+        "hence"
+      ],
+      "ipa": "/əz ə rɪˈzʌlt/"
+    },
+    {
+      "lemma": "due to",
+      "pos": "preposition",
+      "meaning": "Because of.",
+      "examples": [
+        "The flight was late {due to} fog."
+      ],
+      "wrong": [
+        "The flight was on time due to the fog that delayed it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "because of",
+        "owing to"
+      ],
+      "ipa": "/ˈdu tu/"
+    },
+    {
+      "lemma": "owing to",
+      "pos": "preposition",
+      "meaning": "Because of.",
+      "examples": [
+        "The match was cancelled {owing to} rain."
+      ],
+      "wrong": [
+        "The match went ahead owing to the rain that cancelled it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "due to",
+        "because of"
+      ],
+      "ipa": "/ˈoʊɪŋ tu/"
+    },
+    {
+      "lemma": "provided that",
+      "pos": "conjunction",
+      "meaning": "Only if.",
+      "examples": [
+        "You can go {provided that} you finish your work."
+      ],
+      "wrong": [
+        "You can go provided that you never finish your work, which you must finish."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "as long as",
+        "on condition that"
+      ],
+      "ipa": "/prəˈvaɪdɪd ðæt/"
+    },
+    {
+      "lemma": "regardless",
+      "pos": "adverb",
+      "meaning": "Without being affected by something.",
+      "examples": [
+        "It may rain, but we’ll go {regardless}."
+      ],
+      "wrong": [
+        "It might rain, so we’ll go regardless only if it is sunny."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "anyway",
+        "anyhow"
+      ],
+      "ipa": "/rɪˈɡɑrdləs/"
+    },
+    {
+      "lemma": "namely",
+      "pos": "adverb",
+      "meaning": "Used to give exact details of what you just mentioned.",
+      "examples": [
+        "Two students, {namely} Ana and Ben, won prizes."
+      ],
+      "wrong": [
+        "Two students won, namely nobody."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "specifically",
+        "that is"
+      ],
+      "ipa": "/ˈneɪmli/"
+    },
+    {
+      "lemma": "overall",
+      "pos": "adverb",
+      "meaning": "Considering everything.",
+      "examples": [
+        "{Overall}, the trip was a success."
+      ],
+      "wrong": [
+        "Overall, looking only at one small detail, it was good."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "on the whole",
+        "generally"
+      ],
+      "ipa": "/ˌoʊvɚˈɔl/"
+    },
+    {
+      "lemma": "in particular",
+      "pos": "adverb",
+      "meaning": "Especially.",
+      "examples": [
+        "I like Italian food, pasta {in particular}."
+      ],
+      "wrong": [
+        "I like all Italian food, in particular nothing."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "especially",
+        "particularly"
+      ],
+      "ipa": "/ɪn pɚˈtɪkjəlɚ/"
+    },
+    {
+      "lemma": "to some extent",
+      "pos": "phrase",
+      "meaning": "Partly, but not completely.",
+      "examples": [
+        "I agree with you {to some extent}."
+      ],
+      "wrong": [
+        "I agree to some extent; I agree with every single word."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "partly"
+      ],
+      "ipa": "/tə ˌsʌm ɪkˈstɛnt/"
+    },
+    {
+      "lemma": "admittedly",
+      "pos": "adverb",
+      "meaning": "Used to accept that something is true.",
+      "examples": [
+        "{Admittedly}, the plan has some risks."
+      ],
+      "wrong": [
+        "Admittedly, the plan has risks, which I strongly deny."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "granted",
+        "it is true that"
+      ],
+      "ipa": "/ədˈmɪtɪdli/"
+    },
+    {
+      "lemma": "presumably",
+      "pos": "adverb",
+      "meaning": "Used to say what you think is probably true.",
+      "examples": [
+        "{Presumably}, the train is delayed."
+      ],
+      "wrong": [
+        "Presumably the train is late; I know this for a fact because I am driving it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "probably",
+        "I suppose"
+      ],
+      "ipa": "/prɪˈzuməbli/"
+    },
+    {
+      "lemma": "apparently",
+      "pos": "adverb",
+      "meaning": "According to what you have heard.",
+      "examples": [
+        "{Apparently}, the shop is closing."
+      ],
+      "wrong": [
+        "Apparently the shop is closing; I closed it myself this morning."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "seemingly",
+        "reportedly"
+      ],
+      "ipa": "/əˈpɛrəntli/"
+    },
+    {
+      "lemma": "undoubtedly",
+      "pos": "adverb",
+      "meaning": "Certainly; without any doubt.",
+      "examples": [
+        "She is {undoubtedly} the best player."
+      ],
+      "wrong": [
+        "She is undoubtedly the best, but I really doubt it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "certainly",
+        "definitely"
+      ],
+      "ipa": "/ʌnˈdaʊtɪdli/"
+    },
+    {
+      "lemma": "relatively",
+      "pos": "adverb",
+      "meaning": "Compared with other things.",
+      "examples": [
+        "The test was {relatively} easy."
+      ],
+      "wrong": [
+        "The test was relatively easy, compared with nothing at all."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "comparatively",
+        "fairly"
+      ],
+      "ipa": "/ˈrɛlətɪvli/",
+      "antonyms": [
+        "absolutely"
+      ]
+    },
+    {
+      "lemma": "considerably",
+      "pos": "adverb",
+      "meaning": "Much; a lot.",
+      "examples": [
+        "Prices have risen {considerably}."
+      ],
+      "wrong": [
+        "Prices rose considerably, by only one cent."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "significantly",
+        "substantially"
+      ],
+      "ipa": "/kənˈsɪdɚəbli/",
+      "antonyms": [
+        "slightly"
+      ]
+    },
+    {
+      "lemma": "approximately",
+      "pos": "adverb",
+      "meaning": "Close to an exact number, but not exactly.",
+      "examples": [
+        "The trip takes {approximately} two hours."
+      ],
+      "wrong": [
+        "It takes approximately two hours, exactly to the second."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "about",
+        "roughly"
+      ],
+      "ipa": "/əˈprɑksəmətli/",
+      "antonyms": [
+        "exactly",
+        "precisely"
+      ]
+    },
+    {
+      "lemma": "roughly",
+      "pos": "adverb",
+      "meaning": "Not exactly; about.",
+      "examples": [
+        "{Roughly} fifty people came."
+      ],
+      "wrong": [
+        "Roughly fifty people came, exactly fifty and no more or less."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "approximately",
+        "about"
+      ],
+      "ipa": "/ˈrʌfli/",
+      "antonyms": [
+        "exactly",
+        "precisely"
+      ]
+    },
+    {
+      "lemma": "merely",
+      "pos": "adverb",
+      "meaning": "Only; just.",
+      "examples": [
+        "It was {merely} a suggestion."
+      ],
+      "wrong": [
+        "It was merely a huge, life-changing decision."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "only",
+        "just"
+      ],
+      "ipa": "/ˈmɪrli/"
+    },
+    {
+      "lemma": "primarily",
+      "pos": "adverb",
+      "meaning": "Mainly; mostly.",
+      "examples": [
+        "The course is {primarily} for beginners."
+      ],
+      "wrong": [
+        "The course is primarily for beginners, but almost no beginners take it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "mainly",
+        "chiefly",
+        "largely"
+      ],
+      "ipa": "/praɪˈmɛrəli/"
+    },
+    {
+      "lemma": "largely",
+      "pos": "adverb",
+      "meaning": "Mostly; to a great degree.",
+      "examples": [
+        "The plan was {largely} successful."
+      ],
+      "wrong": [
+        "The plan was largely successful, although almost every part failed."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "mostly",
+        "mainly"
+      ],
+      "ipa": "/ˈlɑrdʒli/"
+    },
+    {
+      "lemma": "initially",
+      "pos": "adverb",
+      "meaning": "At the beginning.",
+      "examples": [
+        "{Initially}, I didn’t like the city."
+      ],
+      "wrong": [
+        "Initially, at the very end, I liked it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "at first",
+        "originally"
+      ],
+      "ipa": "/ɪˈnɪʃəli/",
+      "antonyms": [
+        "finally",
+        "ultimately"
+      ]
+    },
+    {
+      "lemma": "subsequently",
+      "pos": "adverb",
+      "meaning": "After that; later.",
+      "examples": [
+        "He was arrested and {subsequently} released."
+      ],
+      "wrong": [
+        "He was released and subsequently arrested before that."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "later",
+        "afterwards"
+      ],
+      "ipa": "/ˈsʌbsəkwəntli/"
+    },
+    {
+      "lemma": "ultimately",
+      "pos": "adverb",
+      "meaning": "In the end, after a long process.",
+      "examples": [
+        "{Ultimately}, the decision is yours."
+      ],
+      "wrong": [
+        "Ultimately, at the very start, we chose the blue one."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "finally",
+        "in the end"
+      ],
+      "ipa": "/ˈʌltəmətli/",
+      "antonyms": [
+        "initially"
+      ]
+    },
+    {
+      "lemma": "hence",
+      "pos": "adverb",
+      "meaning": "For this reason.",
+      "examples": [
+        "The road was closed, {hence} the delay."
+      ],
+      "wrong": [
+        "The road was open and clear, hence the long delay."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "therefore",
+        "thus"
+      ],
+      "ipa": "/hɛns/"
+    },
+    {
+      "lemma": "whereby",
+      "pos": "adverb",
+      "meaning": "By which; through which.",
+      "examples": [
+        "We have a system {whereby} staff can work from home."
+      ],
+      "wrong": [
+        "We have a system whereby, which is good."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "by which"
+      ],
+      "ipa": "/wɛrˈbaɪ/"
+    },
+    {
+      "lemma": "notwithstanding",
+      "pos": "preposition",
+      "meaning": "Despite.",
+      "examples": [
+        "{Notwithstanding} the cost, we went ahead."
+      ],
+      "wrong": [
+        "Notwithstanding the low cost, we went ahead because it was cheap."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "despite",
+        "in spite of"
+      ],
+      "ipa": "/ˌnɑtwɪθˈstændɪŋ/"
+    }
+  ]
+}

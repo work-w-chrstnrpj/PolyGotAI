@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-professional",
+    "title": "Professional verbs",
+    "level": "C1",
+    "tagline": "Formal work language",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "allocate",
+      "pos": "verb",
+      "meaning": "To give something officially for a particular purpose.",
+      "examples": [
+        "The city will {allocate} funds for new schools."
+      ],
+      "wrong": [
+        "To allocate money is to keep it all and give none to any purpose."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "assign",
+        "distribute"
+      ],
+      "ipa": "/ˈæləˌkeɪt/"
+    },
+    {
+      "lemma": "advocate",
+      "pos": "verb",
+      "meaning": "To publicly support an idea or a plan.",
+      "examples": [
+        "She will {advocate} for better public transport."
+      ],
+      "wrong": [
+        "To advocate an idea is to argue strongly against it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "support",
+        "champion"
+      ],
+      "ipa": "/ˈædvəˌkeɪt/",
+      "antonyms": [
+        "oppose"
+      ]
+    },
+    {
+      "lemma": "articulate",
+      "pos": "verb",
+      "meaning": "To express ideas clearly in words.",
+      "examples": [
+        "She can {articulate} her ideas clearly."
+      ],
+      "wrong": [
+        "To articulate an idea is to hide it and say nothing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "express",
+        "state"
+      ],
+      "ipa": "/ɑrˈtɪkjəˌleɪt/"
+    },
+    {
+      "lemma": "compile",
+      "pos": "verb",
+      "meaning": "To collect information from different places and put it together.",
+      "examples": [
+        "I will {compile} the data into one report."
+      ],
+      "wrong": [
+        "To compile a report is to delete all the information from it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "collect",
+        "assemble"
+      ],
+      "ipa": "/kəmˈpaɪl/"
+    },
+    {
+      "lemma": "constitute",
+      "pos": "verb",
+      "meaning": "To be or form something.",
+      "examples": [
+        "Women {constitute} half of the workforce."
+      ],
+      "wrong": [
+        "Ten percent constitutes the whole of the workforce."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "make up",
+        "form"
+      ],
+      "ipa": "/ˈkɑnstɪˌtut/"
+    },
+    {
+      "lemma": "curtail",
+      "pos": "verb",
+      "meaning": "To make something shorter or less.",
+      "examples": [
+        "The company had to {curtail} its travel budget."
+      ],
+      "wrong": [
+        "To curtail a budget is to make it much larger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reduce",
+        "cut back"
+      ],
+      "ipa": "/kɚˈteɪl/"
+    },
+    {
+      "lemma": "derive",
+      "pos": "verb",
+      "meaning": "To get something from a source.",
+      "examples": [
+        "Many English words {derive} from Latin."
+      ],
+      "wrong": [
+        "To derive a word is to invent it from nothing, with no source."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "obtain",
+        "draw"
+      ],
+      "ipa": "/dɪˈraɪv/"
+    },
+    {
+      "lemma": "disclose",
+      "pos": "verb",
+      "meaning": "To make secret information known.",
+      "examples": [
+        "The company must {disclose} its profits."
+      ],
+      "wrong": [
+        "To disclose a secret is to keep it hidden forever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reveal",
+        "make known"
+      ],
+      "ipa": "/dɪsˈkloʊz/",
+      "antonyms": [
+        "conceal",
+        "hide"
+      ]
+    },
+    {
+      "lemma": "enforce",
+      "pos": "verb",
+      "meaning": "To make people obey a rule or a law.",
+      "examples": [
+        "The police {enforce} the speed limit."
+      ],
+      "wrong": [
+        "To enforce a law is to ignore it and let people break it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "impose",
+        "apply"
+      ],
+      "ipa": "/ɪnˈfɔrs/"
+    },
+    {
+      "lemma": "facilitate",
+      "pos": "verb",
+      "meaning": "To make a process easier.",
+      "examples": [
+        "New software will {facilitate} the work."
+      ],
+      "wrong": [
+        "To facilitate a process is to make it harder and slower."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ease",
+        "help"
+      ],
+      "ipa": "/fəˈsɪlɪˌteɪt/",
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ]
+    },
+    {
+      "lemma": "foster",
+      "pos": "verb",
+      "meaning": "To encourage something to grow or develop.",
+      "examples": [
+        "Good teachers {foster} a love of reading."
+      ],
+      "wrong": [
+        "To foster a skill is to stop it from developing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "encourage",
+        "promote"
+      ],
+      "ipa": "/ˈfɔstɚ/",
+      "antonyms": [
+        "suppress",
+        "hinder"
+      ]
+    },
+    {
+      "lemma": "hinder",
+      "pos": "verb",
+      "meaning": "To make it difficult for something to happen.",
+      "examples": [
+        "Bad weather will {hinder} the search."
+      ],
+      "wrong": [
+        "To hinder a task is to help it finish more quickly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "obstruct",
+        "hamper"
+      ],
+      "ipa": "/ˈhɪndɚ/",
+      "antonyms": [
+        "help",
+        "facilitate"
+      ]
+    },
+    {
+      "lemma": "incorporate",
+      "pos": "verb",
+      "meaning": "To include something as part of a whole.",
+      "examples": [
+        "We will {incorporate} your ideas into the plan."
+      ],
+      "wrong": [
+        "To incorporate an idea is to leave it out of the plan completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "include",
+        "integrate"
+      ],
+      "ipa": "/ɪnˈkɔrpəˌreɪt/",
+      "antonyms": [
+        "exclude",
+        "omit"
+      ]
+    },
+    {
+      "lemma": "mitigate",
+      "pos": "verb",
+      "meaning": "To make something less harmful or severe.",
+      "examples": [
+        "Trees help to {mitigate} the effects of heat."
+      ],
+      "wrong": [
+        "To mitigate a problem is to make it worse."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lessen",
+        "ease"
+      ],
+      "ipa": "/ˈmɪtɪˌɡeɪt/",
+      "antonyms": [
+        "aggravate",
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "oversee",
+      "pos": "verb",
+      "meaning": "To watch over a task or people to be sure all is done properly.",
+      "examples": [
+        "She will {oversee} the building work."
+      ],
+      "wrong": [
+        "To oversee a project is to ignore it completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "supervise",
+        "manage"
+      ],
+      "ipa": "/ˌoʊvɚˈsi/"
+    },
+    {
+      "lemma": "rectify",
+      "pos": "verb",
+      "meaning": "To put right something that is wrong.",
+      "examples": [
+        "We will {rectify} the mistake at once."
+      ],
+      "wrong": [
+        "To rectify an error is to repeat it again and again."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "correct",
+        "fix"
+      ],
+      "ipa": "/ˈrɛktəˌfaɪ/"
+    },
+    {
+      "lemma": "reinforce",
+      "pos": "verb",
+      "meaning": "To make something stronger.",
+      "examples": [
+        "The results {reinforce} our argument."
+      ],
+      "wrong": [
+        "To reinforce a wall is to make it weaker."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "strengthen",
+        "support"
+      ],
+      "ipa": "/ˌriɪnˈfɔrs/",
+      "antonyms": [
+        "weaken",
+        "undermine"
+      ]
+    },
+    {
+      "lemma": "scrutinize",
+      "pos": "verb",
+      "meaning": "To examine something very carefully.",
+      "examples": [
+        "Experts will {scrutinize} the contract."
+      ],
+      "wrong": [
+        "To scrutinize a paper is to glance at it for a second and ignore the details."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "examine",
+        "inspect"
+      ],
+      "ipa": "/ˈskrutəˌnaɪz/"
+    },
+    {
+      "lemma": "streamline",
+      "pos": "verb",
+      "meaning": "To make a process simpler and more efficient.",
+      "examples": [
+        "We want to {streamline} the application process."
+      ],
+      "wrong": [
+        "To streamline a process is to make it longer and more complicated."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "simplify"
+      ],
+      "ipa": "/ˈstrimˌlaɪn/"
+    },
+    {
+      "lemma": "undermine",
+      "pos": "verb",
+      "meaning": "To make something weaker or less effective.",
+      "examples": [
+        "Constant criticism can {undermine} her confidence."
+      ],
+      "wrong": [
+        "To undermine confidence is to build it up."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "weaken",
+        "subvert"
+      ],
+      "ipa": "/ˌʌndɚˈmaɪn/",
+      "antonyms": [
+        "strengthen",
+        "support"
+      ]
+    },
+    {
+      "lemma": "accommodate",
+      "pos": "verb",
+      "meaning": "To provide enough space or what is needed for someone.",
+      "examples": [
+        "The hotel can {accommodate} three hundred guests."
+      ],
+      "wrong": [
+        "A room that accommodates fifty people holds only two."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "house",
+        "make room for"
+      ],
+      "ipa": "/əˈkɑməˌdeɪt/"
+    },
+    {
+      "lemma": "acknowledge",
+      "pos": "verb",
+      "meaning": "To accept that something is true or exists.",
+      "examples": [
+        "He had to {acknowledge} his mistake."
+      ],
+      "wrong": [
+        "To acknowledge a mistake is to deny that it happened."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "admit",
+        "recognize"
+      ],
+      "ipa": "/əkˈnɑlɪdʒ/",
+      "antonyms": [
+        "deny",
+        "ignore"
+      ]
+    },
+    {
+      "lemma": "adhere",
+      "pos": "verb",
+      "meaning": "To follow a rule or a plan exactly.",
+      "examples": [
+        "All staff must {adhere} to the safety rules."
+      ],
+      "wrong": [
+        "To adhere to a rule is to break it on purpose."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "follow",
+        "stick to"
+      ],
+      "ipa": "/ədˈhɪr/"
+    },
+    {
+      "lemma": "alleviate",
+      "pos": "verb",
+      "meaning": "To make pain or a problem less severe.",
+      "examples": [
+        "The medicine will {alleviate} the pain."
+      ],
+      "wrong": [
+        "To alleviate pain is to make it much stronger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "relieve",
+        "ease"
+      ],
+      "ipa": "/əˈliviˌeɪt/",
+      "antonyms": [
+        "aggravate",
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "ascertain",
+      "pos": "verb",
+      "meaning": "To find out something for certain.",
+      "examples": [
+        "The police tried to {ascertain} the facts."
+      ],
+      "wrong": [
+        "To ascertain a fact is to guess it without checking."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "find out",
+        "determine"
+      ],
+      "ipa": "/ˌæsɚˈteɪn/"
+    },
+    {
+      "lemma": "circulate",
+      "pos": "verb",
+      "meaning": "To pass from person to person or place to place.",
+      "examples": [
+        "Please {circulate} the report to the whole team."
+      ],
+      "wrong": [
+        "To circulate a report is to keep it locked in a drawer."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "spread",
+        "distribute"
+      ],
+      "ipa": "/ˈsɝkjəˌleɪt/"
+    },
+    {
+      "lemma": "comply",
+      "pos": "verb",
+      "meaning": "To obey a rule or request.",
+      "examples": [
+        "Companies must {comply} with the law."
+      ],
+      "wrong": [
+        "To comply with a rule is to refuse to follow it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "obey",
+        "conform"
+      ],
+      "ipa": "/kəmˈplaɪ/",
+      "antonyms": [
+        "disobey",
+        "defy"
+      ]
+    },
+    {
+      "lemma": "conduct",
+      "pos": "verb",
+      "meaning": "To organize and carry out an activity.",
+      "examples": [
+        "The team will {conduct} a survey."
+      ],
+      "wrong": [
+        "To conduct a survey is to cancel it before it starts."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "carry out",
+        "run"
+      ],
+      "ipa": "/kənˈdʌkt/"
+    },
+    {
+      "lemma": "consolidate",
+      "pos": "verb",
+      "meaning": "To combine things into one stronger whole.",
+      "examples": [
+        "The bank plans to {consolidate} its branches."
+      ],
+      "wrong": [
+        "To consolidate offices is to split them into many tiny ones."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "combine",
+        "strengthen"
+      ],
+      "ipa": "/kənˈsɑlɪˌdeɪt/"
+    },
+    {
+      "lemma": "contend",
+      "pos": "verb",
+      "meaning": "To claim that something is true.",
+      "examples": [
+        "She {contends} that the law is unfair."
+      ],
+      "wrong": [
+        "To contend a point is to agree with every other person."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "argue",
+        "maintain"
+      ],
+      "ipa": "/kənˈtɛnd/"
+    },
+    {
+      "lemma": "convene",
+      "pos": "verb",
+      "meaning": "To bring people together for a meeting.",
+      "examples": [
+        "The committee will {convene} on Monday."
+      ],
+      "wrong": [
+        "To convene a meeting is to send everyone away."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "assemble",
+        "call together"
+      ],
+      "ipa": "/kənˈvin/"
+    },
+    {
+      "lemma": "deter",
+      "pos": "verb",
+      "meaning": "To make someone decide not to do something.",
+      "examples": [
+        "High prices may {deter} customers."
+      ],
+      "wrong": [
+        "To deter people is to invite them and encourage them to come."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "discourage",
+        "prevent"
+      ],
+      "ipa": "/dɪˈtɝ/",
+      "antonyms": [
+        "encourage"
+      ]
+    },
+    {
+      "lemma": "endorse",
+      "pos": "verb",
+      "meaning": "To publicly support a person or a plan.",
+      "examples": [
+        "Several doctors {endorse} the new treatment."
+      ],
+      "wrong": [
+        "To endorse a product is to warn people against it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "approve",
+        "back"
+      ],
+      "ipa": "/ɪnˈdɔrs/",
+      "antonyms": [
+        "oppose",
+        "reject"
+      ]
+    },
+    {
+      "lemma": "exempt",
+      "pos": "adjective",
+      "meaning": "Not required to follow a rule or to pay.",
+      "examples": [
+        "Students are {exempt} from the fee."
+      ],
+      "wrong": [
+        "People who are exempt from a fee must pay a higher fee."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "free",
+        "excused"
+      ],
+      "ipa": "/ɪɡˈzɛmpt/"
+    },
+    {
+      "lemma": "finalize",
+      "pos": "verb",
+      "meaning": "To complete the last details of something.",
+      "examples": [
+        "We will {finalize} the contract tomorrow."
+      ],
+      "wrong": [
+        "To finalize a plan is to start it from the beginning."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "complete",
+        "settle"
+      ],
+      "ipa": "/ˈfaɪnəˌlaɪz/"
+    },
+    {
+      "lemma": "outline",
+      "pos": "verb",
+      "meaning": "To describe the main points of something.",
+      "examples": [
+        "I will {outline} the plan in a few words."
+      ],
+      "wrong": [
+        "To outline a plan is to explain every small detail at great length."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sketch",
+        "summarize"
+      ],
+      "ipa": "/ˈaʊtˌlaɪn/"
+    },
+    {
+      "lemma": "pursue",
+      "pos": "verb",
+      "meaning": "To follow or try to achieve something.",
+      "examples": [
+        "She decided to {pursue} a career in law."
+      ],
+      "wrong": [
+        "To pursue a goal is to run away from it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "chase",
+        "follow"
+      ],
+      "ipa": "/pɚˈsu/"
+    },
+    {
+      "lemma": "ratify",
+      "pos": "verb",
+      "meaning": "To make an agreement official by signing or voting.",
+      "examples": [
+        "The parliament voted to {ratify} the treaty."
+      ],
+      "wrong": [
+        "To ratify a treaty is to tear it up and cancel it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "approve",
+        "confirm"
+      ],
+      "ipa": "/ˈrætəˌfaɪ/",
+      "antonyms": [
+        "reject"
+      ]
+    },
+    {
+      "lemma": "revoke",
+      "pos": "verb",
+      "meaning": "To officially cancel something.",
+      "examples": [
+        "The city may {revoke} the license."
+      ],
+      "wrong": [
+        "To revoke a license is to give a new one."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cancel",
+        "withdraw"
+      ],
+      "ipa": "/rɪˈvoʊk/",
+      "antonyms": [
+        "grant",
+        "restore"
+      ]
+    },
+    {
+      "lemma": "sustain",
+      "pos": "verb",
+      "meaning": "To keep something going over time.",
+      "examples": [
+        "It is hard to {sustain} growth for ten years."
+      ],
+      "wrong": [
+        "To sustain growth is to stop it at once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "maintain",
+        "keep up"
+      ],
+      "ipa": "/səˈsteɪn/"
+    }
+  ]
+}

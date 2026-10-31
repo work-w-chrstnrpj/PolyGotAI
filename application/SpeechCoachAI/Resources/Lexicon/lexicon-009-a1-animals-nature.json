@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-animals-nature",
+    "title": "Animals and nature",
+    "level": "A1",
+    "tagline": "Pets, wild animals and the sky",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "dog",
+      "pos": "noun",
+      "meaning": "An animal that people keep as a pet, which barks.",
+      "examples": [
+        "Our {dog} likes to run in the park."
+      ],
+      "wrong": [
+        "My dog has wings and flies to school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɔɡ/"
+    },
+    {
+      "lemma": "cat",
+      "pos": "noun",
+      "meaning": "A small furry pet that says meow.",
+      "examples": [
+        "The {cat} is sleeping on the sofa."
+      ],
+      "wrong": [
+        "The cat barks at the door."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kæt/"
+    },
+    {
+      "lemma": "bird",
+      "pos": "noun",
+      "meaning": "An animal with feathers and wings.",
+      "examples": [
+        "A {bird} is singing in the tree."
+      ],
+      "wrong": [
+        "The bird swims at the bottom of the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɝd/"
+    },
+    {
+      "lemma": "horse",
+      "pos": "noun",
+      "meaning": "A large animal that people ride.",
+      "examples": [
+        "She rides a {horse} on the farm."
+      ],
+      "wrong": [
+        "A horse is a small insect."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɔrs/"
+    },
+    {
+      "lemma": "cow",
+      "pos": "noun",
+      "meaning": "A large farm animal that gives milk.",
+      "examples": [
+        "The {cow} is in the field."
+      ],
+      "wrong": [
+        "A cow is a kind of bird that sings."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kaʊ/"
+    },
+    {
+      "lemma": "chicken",
+      "pos": "noun",
+      "meaning": "A farm bird kept for its eggs and meat.",
+      "examples": [
+        "The {chickens} lay eggs every day."
+      ],
+      "wrong": [
+        "A chicken is a large animal that gives milk."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "hen"
+      ],
+      "ipa": "/ˈtʃɪkən/"
+    },
+    {
+      "lemma": "sheep",
+      "pos": "noun",
+      "meaning": "A farm animal with thick wool.",
+      "examples": [
+        "There are many {sheep} on the hill."
+      ],
+      "wrong": [
+        "A sheep has feathers and flies."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃip/"
+    },
+    {
+      "lemma": "pig",
+      "pos": "noun",
+      "meaning": "A pink farm animal with a short tail.",
+      "examples": [
+        "The {pig} is eating in the mud."
+      ],
+      "wrong": [
+        "A pig lives in the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɪɡ/"
+    },
+    {
+      "lemma": "duck",
+      "pos": "noun",
+      "meaning": "A bird that swims and says quack.",
+      "examples": [
+        "The {ducks} are on the lake."
+      ],
+      "wrong": [
+        "Ducks can’t go near water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dʌk/"
+    },
+    {
+      "lemma": "rabbit",
+      "pos": "noun",
+      "meaning": "A small animal with long ears.",
+      "examples": [
+        "The {rabbit} ate the carrots."
+      ],
+      "wrong": [
+        "A rabbit is a very big animal with short ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bunny"
+      ],
+      "ipa": "/ˈræbɪt/"
+    },
+    {
+      "lemma": "mouse",
+      "pos": "noun",
+      "meaning": "A very small animal with a long tail.",
+      "examples": [
+        "The cat chased a {mouse}."
+      ],
+      "wrong": [
+        "A mouse is bigger than an elephant."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/maʊs/"
+    },
+    {
+      "lemma": "lion",
+      "pos": "noun",
+      "meaning": "A big wild cat from Africa.",
+      "examples": [
+        "The {lion} is sleeping in the sun."
+      ],
+      "wrong": [
+        "A lion is a small pet that lives in a box."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlaɪən/"
+    },
+    {
+      "lemma": "elephant",
+      "pos": "noun",
+      "meaning": "A very big gray animal with a long nose.",
+      "examples": [
+        "The {elephant} drank from the river."
+      ],
+      "wrong": [
+        "An elephant is a tiny insect."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɛləfənt/"
+    },
+    {
+      "lemma": "monkey",
+      "pos": "noun",
+      "meaning": "An animal with a long tail that climbs trees.",
+      "examples": [
+        "The {monkey} is eating a banana."
+      ],
+      "wrong": [
+        "A monkey lives under the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmʌŋki/"
+    },
+    {
+      "lemma": "bear",
+      "pos": "noun",
+      "meaning": "A big strong wild animal with thick fur.",
+      "examples": [
+        "A {bear} lives in the forest."
+      ],
+      "wrong": [
+        "A bear is a small bird."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɛr/"
+    },
+    {
+      "lemma": "snake",
+      "pos": "noun",
+      "meaning": "A long thin animal with no legs.",
+      "examples": [
+        "A {snake} moved through the grass."
+      ],
+      "wrong": [
+        "A snake has four legs and runs fast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sneɪk/"
+    },
+    {
+      "lemma": "insect",
+      "pos": "noun",
+      "meaning": "A very small animal with six legs, like an ant.",
+      "examples": [
+        "An ant is an {insect}."
+      ],
+      "wrong": [
+        "An insect is a big animal with four legs."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bug"
+      ],
+      "ipa": "/ˈɪnsɛkt/"
+    },
+    {
+      "lemma": "pet",
+      "pos": "noun",
+      "meaning": "An animal that you keep at home.",
+      "examples": [
+        "Do you have a {pet}?"
+      ],
+      "wrong": [
+        "My pet is a wild lion in Africa."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pɛt/"
+    },
+    {
+      "lemma": "animal",
+      "pos": "noun",
+      "meaning": "A living thing that can move, such as a dog or a fish.",
+      "examples": [
+        "The zoo has many {animals}."
+      ],
+      "wrong": [
+        "A table is my favorite animal."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "creature"
+      ],
+      "ipa": "/ˈænəməl/"
+    },
+    {
+      "lemma": "sky",
+      "pos": "noun",
+      "meaning": "The space above the earth, where you see clouds.",
+      "examples": [
+        "The {sky} is blue today."
+      ],
+      "wrong": [
+        "Fish swim in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skaɪ/"
+    },
+    {
+      "lemma": "sun",
+      "pos": "noun",
+      "meaning": "The bright star that gives us light in the day.",
+      "examples": [
+        "The {sun} is very hot today."
+      ],
+      "wrong": [
+        "The sun comes out at night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sʌn/"
+    },
+    {
+      "lemma": "moon",
+      "pos": "noun",
+      "meaning": "The round object you see in the sky at night.",
+      "examples": [
+        "The {moon} is full tonight."
+      ],
+      "wrong": [
+        "We see the moon in the kitchen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/mun/"
+    },
+    {
+      "lemma": "star",
+      "pos": "noun",
+      "meaning": "A small bright light in the sky at night.",
+      "examples": [
+        "Look at all the {stars}!"
+      ],
+      "wrong": [
+        "The stars shine in the middle of the day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/stɑr/"
+    },
+    {
+      "lemma": "rain",
+      "pos": "noun",
+      "meaning": "Water that falls from clouds.",
+      "examples": [
+        "The {rain} made the streets wet."
+      ],
+      "wrong": [
+        "The rain made everything dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/reɪn/"
+    },
+    {
+      "lemma": "snow",
+      "pos": "noun",
+      "meaning": "Soft white pieces of ice that fall from the sky.",
+      "examples": [
+        "The children played in the {snow}."
+      ],
+      "wrong": [
+        "Snow is hot and black."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/snoʊ/"
+    },
+    {
+      "lemma": "wind",
+      "pos": "noun",
+      "meaning": "Air that moves.",
+      "examples": [
+        "The {wind} blew my hat off."
+      ],
+      "wrong": [
+        "The wind is a kind of fish."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "breeze"
+      ],
+      "ipa": "/wɪnd/"
+    },
+    {
+      "lemma": "rainbow",
+      "pos": "noun",
+      "meaning": "A curve of colors in the sky after rain.",
+      "examples": [
+        "Look, a {rainbow} over the hill!"
+      ],
+      "wrong": [
+        "We saw a rainbow in the dark at midnight."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈreɪnˌboʊ/"
+    },
+    {
+      "lemma": "sea",
+      "pos": "noun",
+      "meaning": "A very large area of salty water.",
+      "examples": [
+        "We swam in the {sea}."
+      ],
+      "wrong": [
+        "The sea is a small dry room."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ocean"
+      ],
+      "ipa": "/si/"
+    },
+    {
+      "lemma": "lake",
+      "pos": "noun",
+      "meaning": "A large area of water with land all around it.",
+      "examples": [
+        "We went fishing on the {lake}."
+      ],
+      "wrong": [
+        "A lake is a high mountain."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/leɪk/"
+    },
+    {
+      "lemma": "hill",
+      "pos": "noun",
+      "meaning": "High land, smaller than a mountain.",
+      "examples": [
+        "Our house is on a {hill}."
+      ],
+      "wrong": [
+        "A hill is a hole in the ground."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɪl/"
+    },
+    {
+      "lemma": "grass",
+      "pos": "noun",
+      "meaning": "A green plant that covers the ground in parks.",
+      "examples": [
+        "The children sat on the {grass}."
+      ],
+      "wrong": [
+        "Grass is blue and grows on the moon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "lawn"
+      ],
+      "ipa": "/ɡræs/"
+    },
+    {
+      "lemma": "leaf",
+      "pos": "noun",
+      "meaning": "One of the flat green parts of a tree or plant.",
+      "examples": [
+        "A {leaf} fell from the tree."
+      ],
+      "wrong": [
+        "A leaf is the root of a tree."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lif/"
+    },
+    {
+      "lemma": "stone",
+      "pos": "noun",
+      "meaning": "A small piece of rock.",
+      "examples": [
+        "He threw a {stone} into the river."
+      ],
+      "wrong": [
+        "A stone is soft like a pillow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rock"
+      ],
+      "ipa": "/stoʊn/"
+    },
+    {
+      "lemma": "plant",
+      "pos": "noun",
+      "meaning": "A living thing that grows in soil, like a tree or flower.",
+      "examples": [
+        "Water the {plants} every day."
+      ],
+      "wrong": [
+        "A plant is a kind of animal that barks."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/plænt/"
+    },
+    {
+      "lemma": "field",
+      "pos": "noun",
+      "meaning": "An area of open land, often on a farm.",
+      "examples": [
+        "Cows are eating in the {field}."
+      ],
+      "wrong": [
+        "A field is a small box."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "meadow"
+      ],
+      "ipa": "/fild/"
+    },
+    {
+      "lemma": "fire",
+      "pos": "noun",
+      "meaning": "Heat and flames from something burning.",
+      "examples": [
+        "We sat by the {fire} to get warm."
+      ],
+      "wrong": [
+        "We sat in the fire to cool down."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "flame"
+      ],
+      "ipa": "/faɪɚ/"
+    },
+    {
+      "lemma": "ice",
+      "pos": "noun",
+      "meaning": "Water that is so cold it is hard.",
+      "examples": [
+        "Put some {ice} in my drink."
+      ],
+      "wrong": [
+        "Ice is hot and keeps food warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/aɪs/"
+    },
+    {
+      "lemma": "earth",
+      "pos": "noun",
+      "meaning": "The world we live on.",
+      "examples": [
+        "The {earth} goes around the sun."
+      ],
+      "wrong": [
+        "The earth is a small star."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "world"
+      ],
+      "ipa": "/ɝθ/"
+    },
+    {
+      "lemma": "air",
+      "pos": "noun",
+      "meaning": "What we breathe; the space around us.",
+      "examples": [
+        "Open the window for fresh {air}."
+      ],
+      "wrong": [
+        "Fish breathe air on the beach."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɛr/"
+    },
+    {
+      "lemma": "zoo",
+      "pos": "noun",
+      "meaning": "A place where people go to see wild animals.",
+      "examples": [
+        "We saw lions at the {zoo}."
+      ],
+      "wrong": [
+        "A zoo is a shop that sells shoes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/zu/"
+    }
+  ]
+}

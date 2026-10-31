@@ -10,7 +10,7 @@ struct CurriculumInstall: Equatable {
 
     /// Ambiguous, missing or mismatched identities never fall forward to the current tasks.
     func lesson(id: String, version: String) -> ResolvedLesson? {
-        let matches = (lessons + archivedLessons + tracks.lessons).filter { $0.id == id && $0.contentVersion == version }
+        let matches = (lessons + archivedLessons + tracks.lessons + tracks.archivedLessons).filter { $0.id == id && $0.contentVersion == version }
         if !matches.isEmpty { return matches.count == 1 ? matches.first : nil }
         // Optional practice also resumes using its exact source version after a later course update.
         for kind in CurriculumPracticeKind.allCases {
@@ -91,14 +91,22 @@ struct CurriculumCatalogLoader {
             .sorted { $0.lastPathComponent < $1.lastPathComponent }
         var definitions: [TrackDefinition] = []
         var lessons: [ResolvedLesson] = []
+        var archives: [ResolvedLesson] = []
         for file in files {
             guard let data = try? Data(contentsOf: file),
                   let manifest = try? JSONDecoder().decode(CurriculumManifest.self, from: data),
                   let wrapper = try? JSONDecoder().decode(TrackFile.self, from: data) else { continue }
             definitions.append(wrapper.track)
-            lessons += CurriculumAvailability.resolve(manifest: manifest, inspected: inspect(manifest.assets, in: directory))
+            let inspected = inspect(manifest.assets, in: directory)
+            lessons += CurriculumAvailability.resolve(manifest: manifest, inspected: inspected)
+            for lesson in manifest.archivedLessons ?? [] {
+                var archive = manifest; archive.lessons = [lesson]; archive.archivedLessons = nil
+                archives += CurriculumAvailability.resolve(manifest: archive, inspected: inspected)
+            }
         }
-        return TrackCatalog.resolve(definitions: definitions, lessons: lessons)
+        var catalog = TrackCatalog.resolve(definitions: definitions, lessons: lessons)
+        catalog.archivedLessons = archives.filter(\.isReady)
+        return catalog
     }
 
     private struct TrackFile: Decodable { var track: TrackDefinition }

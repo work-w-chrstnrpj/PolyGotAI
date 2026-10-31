@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rare-adjectives-2",
+    "title": "More rare adjectives",
+    "level": "C2",
+    "tagline": "Uncommon describing words",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "anodyne",
+      "pos": "adjective",
+      "meaning": "Unlikely to offend anyone, and often rather dull.",
+      "examples": [
+        "The speech was polite but {anodyne}."
+      ],
+      "wrong": [
+        "The anodyne remarks shocked and offended the whole audience."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bland",
+        "inoffensive"
+      ],
+      "ipa": "/ˈænəˌdaɪn/"
+    },
+    {
+      "lemma": "apocryphal",
+      "pos": "adjective",
+      "meaning": "Widely told but probably not true.",
+      "examples": [
+        "The story about the famous apple is probably {apocryphal}."
+      ],
+      "wrong": [
+        "The apocryphal story is fully proved by many records."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "legendary",
+        "dubious"
+      ],
+      "ipa": "/əˈpɑkrəfəl/"
+    },
+    {
+      "lemma": "auspicious",
+      "pos": "adjective",
+      "meaning": "Showing signs of future success.",
+      "examples": [
+        "The team made an {auspicious} start to the season."
+      ],
+      "wrong": [
+        "It was an auspicious start: everything went wrong at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "promising",
+        "favorable"
+      ],
+      "ipa": "/ɔˈspɪʃəs/",
+      "antonyms": [
+        "inauspicious",
+        "ominous"
+      ]
+    },
+    {
+      "lemma": "baleful",
+      "pos": "adjective",
+      "meaning": "Threatening harm or evil.",
+      "examples": [
+        "The dog gave the stranger a {baleful} stare."
+      ],
+      "wrong": [
+        "Her baleful smile made the children feel safe and welcome."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "menacing",
+        "sinister"
+      ],
+      "ipa": "/ˈbeɪlfəl/"
+    },
+    {
+      "lemma": "bucolic",
+      "pos": "adjective",
+      "meaning": "Connected with pleasant country life.",
+      "examples": [
+        "They left the city for a {bucolic} life on a farm."
+      ],
+      "wrong": [
+        "The bucolic scene showed crowded streets and traffic jams."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rural",
+        "pastoral"
+      ],
+      "ipa": "/bjuˈkɑlɪk/"
+    },
+    {
+      "lemma": "byzantine",
+      "pos": "adjective",
+      "meaning": "So complicated that it is hard to understand.",
+      "examples": [
+        "The tax rules are {byzantine}."
+      ],
+      "wrong": [
+        "The byzantine form had one simple question on it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "labyrinthine",
+        "intricate"
+      ],
+      "ipa": "/ˈbɪzənˌtin/"
+    },
+    {
+      "lemma": "chimerical",
+      "pos": "adjective",
+      "meaning": "Only imagined, and impossible in reality.",
+      "examples": [
+        "His dream of free energy proved {chimerical}."
+      ],
+      "wrong": [
+        "The chimerical plan was simple and already working well."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fanciful",
+        "illusory"
+      ],
+      "ipa": "/kaɪˈmɛrɪkəl/"
+    },
+    {
+      "lemma": "cloying",
+      "pos": "adjective",
+      "meaning": "Too sweet or too sentimental, so it becomes unpleasant.",
+      "examples": [
+        "The film’s ending was {cloying}."
+      ],
+      "wrong": [
+        "The cloying dessert had almost no sugar in it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sickly",
+        "saccharine"
+      ],
+      "ipa": "/ˈklɔɪɪŋ/"
+    },
+    {
+      "lemma": "desultory",
+      "pos": "adjective",
+      "meaning": "Done without a plan, purpose or enthusiasm.",
+      "examples": [
+        "They made {desultory} conversation while waiting."
+      ],
+      "wrong": [
+        "His desultory search was careful, planned and thorough."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "halfhearted",
+        "aimless"
+      ],
+      "ipa": "/ˈdɛsəlˌtɔri/"
+    },
+    {
+      "lemma": "dilatory",
+      "pos": "adjective",
+      "meaning": "Slow to act, often causing delay.",
+      "examples": [
+        "The council was criticized for its {dilatory} response."
+      ],
+      "wrong": [
+        "Her dilatory reply arrived within five minutes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tardy",
+        "sluggish"
+      ],
+      "ipa": "/ˈdɪləˌtɔri/"
+    },
+    {
+      "lemma": "extant",
+      "pos": "adjective",
+      "meaning": "Still existing, especially of old documents.",
+      "examples": [
+        "Only two copies of the letter are still {extant}."
+      ],
+      "wrong": [
+        "The extant manuscript was lost centuries ago."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "surviving",
+        "existing"
+      ],
+      "ipa": "/ˈɛkstənt/",
+      "antonyms": [
+        "extinct",
+        "lost"
+      ]
+    },
+    {
+      "lemma": "fatuous",
+      "pos": "adjective",
+      "meaning": "Silly and pointless, without seeming to know it.",
+      "examples": [
+        "He made a {fatuous} remark about the weather."
+      ],
+      "wrong": [
+        "Her fatuous comment was wise and very helpful."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "foolish",
+        "inane"
+      ],
+      "ipa": "/ˈfætʃuəs/"
+    },
+    {
+      "lemma": "fortuitous",
+      "pos": "adjective",
+      "meaning": "Happening by lucky chance.",
+      "examples": [
+        "Our meeting at the airport was {fortuitous}."
+      ],
+      "wrong": [
+        "The fortuitous meeting had been planned for months."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lucky",
+        "accidental"
+      ],
+      "ipa": "/fɔrˈtuətəs/",
+      "antonyms": [
+        "planned",
+        "deliberate"
+      ]
+    },
+    {
+      "lemma": "frenetic",
+      "pos": "adjective",
+      "meaning": "Fast, energetic and rather wild or out of control.",
+      "examples": [
+        "The last week before the launch was {frenetic}."
+      ],
+      "wrong": [
+        "The frenetic afternoon was slow, calm and quiet."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "frantic",
+        "hectic"
+      ],
+      "ipa": "/frəˈnɛtɪk/",
+      "antonyms": [
+        "calm",
+        "leisurely"
+      ]
+    },
+    {
+      "lemma": "fulsome",
+      "pos": "adjective",
+      "meaning": "Too much, so it seems insincere, especially of praise.",
+      "examples": [
+        "His {fulsome} praise of the boss embarrassed everyone."
+      ],
+      "wrong": [
+        "Her fulsome praise was just one brief, cool word."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "effusive",
+        "excessive"
+      ],
+      "ipa": "/ˈfʊlsəm/"
+    },
+    {
+      "lemma": "germane",
+      "pos": "adjective",
+      "meaning": "Closely related to the subject being discussed.",
+      "examples": [
+        "Her point was not {germane} to the debate."
+      ],
+      "wrong": [
+        "The germane fact had nothing to do with the case."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "relevant",
+        "pertinent"
+      ],
+      "ipa": "/dʒɚˈmeɪn/",
+      "antonyms": [
+        "irrelevant",
+        "extraneous"
+      ]
+    },
+    {
+      "lemma": "ignominious",
+      "pos": "adjective",
+      "meaning": "Causing deep public shame.",
+      "examples": [
+        "The champion suffered an {ignominious} defeat."
+      ],
+      "wrong": [
+        "His ignominious exit made him a proud national hero."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "humiliating",
+        "shameful"
+      ],
+      "ipa": "/ˌɪɡnəˈmɪniəs/"
+    },
+    {
+      "lemma": "immutable",
+      "pos": "adjective",
+      "meaning": "Never changing and impossible to change.",
+      "examples": [
+        "Some believe the laws of nature are {immutable}."
+      ],
+      "wrong": [
+        "The immutable rules change every week."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unchangeable",
+        "fixed"
+      ],
+      "ipa": "/ɪˈmjutəbəl/",
+      "antonyms": [
+        "changeable",
+        "mutable"
+      ]
+    },
+    {
+      "lemma": "impecunious",
+      "pos": "adjective",
+      "meaning": "Having very little money.",
+      "examples": [
+        "As an {impecunious} student, he lived on bread and soup."
+      ],
+      "wrong": [
+        "The impecunious family bought a yacht for fun."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "poor",
+        "penniless"
+      ],
+      "ipa": "/ˌɪmpəˈkjuniəs/",
+      "antonyms": [
+        "wealthy",
+        "affluent"
+      ]
+    },
+    {
+      "lemma": "inchoate",
+      "pos": "adjective",
+      "meaning": "Just begun, and not yet fully formed.",
+      "examples": [
+        "Her plans were still {inchoate}."
+      ],
+      "wrong": [
+        "The inchoate design was finished down to the last detail."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "undeveloped",
+        "embryonic"
+      ],
+      "ipa": "/ɪnˈkoʊət/"
+    },
+    {
+      "lemma": "indelible",
+      "pos": "adjective",
+      "meaning": "Impossible to remove or forget.",
+      "examples": [
+        "The trip left an {indelible} memory."
+      ],
+      "wrong": [
+        "The indelible ink washed off in seconds."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "permanent",
+        "lasting"
+      ],
+      "ipa": "/ɪnˈdɛləbəl/",
+      "antonyms": [
+        "erasable",
+        "fleeting"
+      ]
+    },
+    {
+      "lemma": "inimical",
+      "pos": "adjective",
+      "meaning": "Harmful to something or working against it.",
+      "examples": [
+        "Constant noise is {inimical} to good work."
+      ],
+      "wrong": [
+        "Exercise is inimical to health, so doctors recommend it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harmful",
+        "hostile"
+      ],
+      "ipa": "/ɪˈnɪmɪkəl/",
+      "antonyms": [
+        "beneficial",
+        "favorable"
+      ]
+    },
+    {
+      "lemma": "ineluctable",
+      "pos": "adjective",
+      "meaning": "Impossible to avoid or escape.",
+      "examples": [
+        "Change is an {ineluctable} part of life."
+      ],
+      "wrong": [
+        "The ineluctable result was easily avoided."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inevitable",
+        "inescapable"
+      ],
+      "ipa": "/ˌɪnɪˈlʌktəbəl/"
+    },
+    {
+      "lemma": "invidious",
+      "pos": "adjective",
+      "meaning": "Likely to cause resentment or seem unfair.",
+      "examples": [
+        "It’s {invidious} to praise one child in front of the others."
+      ],
+      "wrong": [
+        "Making an invidious choice pleased everybody equally."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unfair",
+        "unenviable"
+      ],
+      "ipa": "/ɪnˈvɪdiəs/"
+    },
+    {
+      "lemma": "nascent",
+      "pos": "adjective",
+      "meaning": "Just starting to develop.",
+      "examples": [
+        "The country’s {nascent} film industry is growing fast."
+      ],
+      "wrong": [
+        "The nascent company has existed for two hundred years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "emerging",
+        "budding"
+      ],
+      "ipa": "/ˈneɪsənt/",
+      "antonyms": [
+        "established",
+        "mature"
+      ]
+    },
+    {
+      "lemma": "nefarious",
+      "pos": "adjective",
+      "meaning": "Wicked and criminal.",
+      "examples": [
+        "The gang was involved in {nefarious} activities."
+      ],
+      "wrong": [
+        "His nefarious deeds earned him a medal for kindness."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "villainous",
+        "wicked"
+      ],
+      "ipa": "/nəˈfɛriəs/"
+    },
+    {
+      "lemma": "noisome",
+      "pos": "adjective",
+      "meaning": "Very unpleasant, especially smelling bad.",
+      "examples": [
+        "A {noisome} smell came from the drains."
+      ],
+      "wrong": [
+        "The noisome scent of fresh roses filled the room."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "foul",
+        "fetid"
+      ],
+      "ipa": "/ˈnɔɪsəm/"
+    },
+    {
+      "lemma": "otiose",
+      "pos": "adjective",
+      "meaning": "Serving no real purpose; not needed.",
+      "examples": [
+        "The final chapter seems {otiose}."
+      ],
+      "wrong": [
+        "The otiose sentence was the most essential part of the text."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "superfluous",
+        "redundant"
+      ],
+      "ipa": "/ˈoʊʃiˌoʊs/"
+    },
+    {
+      "lemma": "peremptory",
+      "pos": "adjective",
+      "meaning": "Expecting to be obeyed at once, without discussion.",
+      "examples": [
+        "He gave a {peremptory} order to leave."
+      ],
+      "wrong": [
+        "Her peremptory tone politely invited discussion."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imperious",
+        "commanding"
+      ],
+      "ipa": "/pəˈrɛmptəri/"
+    },
+    {
+      "lemma": "portentous",
+      "pos": "adjective",
+      "meaning": "Seeming to warn of something important, or trying too hard to sound serious.",
+      "examples": [
+        "There was a {portentous} silence before the verdict."
+      ],
+      "wrong": [
+        "The portentous pause meant nothing and felt light and silly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "ominous",
+        "momentous"
+      ],
+      "ipa": "/pɔrˈtɛntəs/"
+    },
+    {
+      "lemma": "prodigious",
+      "pos": "adjective",
+      "meaning": "Remarkably large or impressive.",
+      "examples": [
+        "She has a {prodigious} memory for names."
+      ],
+      "wrong": [
+        "His prodigious talent was tiny and ordinary."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "enormous",
+        "remarkable"
+      ],
+      "ipa": "/prəˈdɪdʒəs/"
+    },
+    {
+      "lemma": "propitious",
+      "pos": "adjective",
+      "meaning": "Likely to lead to success; favorable.",
+      "examples": [
+        "It wasn’t a {propitious} time to ask for a raise."
+      ],
+      "wrong": [
+        "The storm made it a propitious day for sailing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "favorable",
+        "auspicious"
+      ],
+      "ipa": "/prəˈpɪʃəs/",
+      "antonyms": [
+        "unfavorable",
+        "inauspicious"
+      ]
+    },
+    {
+      "lemma": "quixotic",
+      "pos": "adjective",
+      "meaning": "Very idealistic but not practical.",
+      "examples": [
+        "His {quixotic} plan was to end hunger alone."
+      ],
+      "wrong": [
+        "Her quixotic goal was realistic and easy to reach."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "idealistic",
+        "unrealistic"
+      ],
+      "ipa": "/kwɪkˈsɑtɪk/"
+    },
+    {
+      "lemma": "recondite",
+      "pos": "adjective",
+      "meaning": "Little known and hard to understand.",
+      "examples": [
+        "The lecture covered {recondite} points of grammar."
+      ],
+      "wrong": [
+        "The recondite fact was common knowledge to every child."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obscure",
+        "abstruse"
+      ],
+      "ipa": "/ˈrɛkənˌdaɪt/"
+    },
+    {
+      "lemma": "risible",
+      "pos": "adjective",
+      "meaning": "So silly that it makes people laugh.",
+      "examples": [
+        "The excuse was {risible}."
+      ],
+      "wrong": [
+        "His risible argument was taken very seriously by experts."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "laughable",
+        "ludicrous"
+      ],
+      "ipa": "/ˈrɪzəbəl/"
+    },
+    {
+      "lemma": "salubrious",
+      "pos": "adjective",
+      "meaning": "Healthy, or pleasant and clean to live in.",
+      "examples": [
+        "They moved to a more {salubrious} part of town."
+      ],
+      "wrong": [
+        "The salubrious district was dirty and dangerous."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "healthy",
+        "wholesome"
+      ],
+      "ipa": "/səˈlubriəs/",
+      "antonyms": [
+        "unhealthy",
+        "insalubrious"
+      ]
+    },
+    {
+      "lemma": "specious",
+      "pos": "adjective",
+      "meaning": "Seeming right or true, but actually false.",
+      "examples": [
+        "His argument was {specious}."
+      ],
+      "wrong": [
+        "The specious claim was completely correct."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "misleading",
+        "plausible"
+      ],
+      "ipa": "/ˈspiʃəs/"
+    },
+    {
+      "lemma": "stentorian",
+      "pos": "adjective",
+      "meaning": "Very loud and powerful, of a voice.",
+      "examples": [
+        "The sergeant’s {stentorian} voice filled the yard."
+      ],
+      "wrong": [
+        "His stentorian whisper could hardly be heard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "booming",
+        "thunderous"
+      ],
+      "ipa": "/stɛnˈtɔriən/",
+      "antonyms": [
+        "quiet",
+        "faint"
+      ]
+    },
+    {
+      "lemma": "surreptitious",
+      "pos": "adjective",
+      "meaning": "Done secretly so that others do not notice.",
+      "examples": [
+        "She took a {surreptitious} look at her phone."
+      ],
+      "wrong": [
+        "His surreptitious wave was seen by the whole room."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "secret",
+        "furtive",
+        "stealthy"
+      ],
+      "ipa": "/ˌsɝəpˈtɪʃəs/",
+      "antonyms": [
+        "open",
+        "overt"
+      ]
+    },
+    {
+      "lemma": "tortuous",
+      "pos": "adjective",
+      "meaning": "Full of twists and turns, or too long and complicated.",
+      "examples": [
+        "We drove up a {tortuous} mountain road."
+      ],
+      "wrong": [
+        "The tortuous road ran perfectly straight for miles."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "winding",
+        "convoluted"
+      ],
+      "ipa": "/ˈtɔrtʃuəs/",
+      "antonyms": [
+        "straight",
+        "direct"
+      ]
+    }
+  ]
+}

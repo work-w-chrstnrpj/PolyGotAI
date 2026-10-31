@@ -1,0 +1,711 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-collocations",
+    "title": "Make, do, take and have",
+    "level": "B1",
+    "tagline": "Common word partners",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "make a decision",
+      "pos": "phrase",
+      "meaning": "To choose what to do after thinking.",
+      "examples": [
+        "We need to {make a decision} by Friday."
+      ],
+      "wrong": [
+        "She made a decision, so she still didn’t know what to do."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "decide"
+      ],
+      "ipa": "/ˌmeɪk ə dɪˈsɪʒən/"
+    },
+    {
+      "lemma": "make a mistake",
+      "pos": "phrase",
+      "meaning": "To do something wrong without meaning to.",
+      "examples": [
+        "Everyone {makes a mistake} sometimes."
+      ],
+      "wrong": [
+        "I made a mistake, so every answer was right."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "get it wrong",
+        "slip up"
+      ],
+      "ipa": "/ˌmeɪk ə mɪˈsteɪk/"
+    },
+    {
+      "lemma": "make an effort",
+      "pos": "phrase",
+      "meaning": "To try hard to do something.",
+      "examples": [
+        "He {made an effort} to be polite."
+      ],
+      "wrong": [
+        "She made an effort by not trying at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "try",
+        "strive"
+      ],
+      "ipa": "/ˌmeɪk ən ˈɛfɚt/"
+    },
+    {
+      "lemma": "make progress",
+      "pos": "phrase",
+      "meaning": "To get better or move closer to a goal.",
+      "examples": [
+        "You are {making progress} with your English."
+      ],
+      "wrong": [
+        "He made progress, so he is further from his goal than ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "improve",
+        "advance"
+      ],
+      "ipa": "/ˌmeɪk ˈprɑɡrɛs/"
+    },
+    {
+      "lemma": "make money",
+      "pos": "phrase",
+      "meaning": "To earn money.",
+      "examples": [
+        "She {makes money} by selling cakes."
+      ],
+      "wrong": [
+        "He made money by giving all his savings away."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earn"
+      ],
+      "ipa": "/ˌmeɪk ˈmʌni/"
+    },
+    {
+      "lemma": "make a complaint",
+      "pos": "phrase",
+      "meaning": "To say officially that you are not happy about something.",
+      "examples": [
+        "I want to {make a complaint} about the room."
+      ],
+      "wrong": [
+        "She was so happy with the hotel that she made a complaint."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "complain"
+      ],
+      "ipa": "/ˌmeɪk ə kəmˈpleɪnt/"
+    },
+    {
+      "lemma": "make sure",
+      "pos": "phrase",
+      "meaning": "To check that something is true or done.",
+      "examples": [
+        "{Make sure} you lock the door."
+      ],
+      "wrong": [
+        "I made sure the door was locked, so I never checked it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "check",
+        "ensure"
+      ],
+      "ipa": "/ˌmeɪk ˈʃʊr/"
+    },
+    {
+      "lemma": "make friends",
+      "pos": "phrase",
+      "meaning": "To start a friendship with new people.",
+      "examples": [
+        "It’s easy to {make friends} at summer camp."
+      ],
+      "wrong": [
+        "He made friends by never talking to anyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌmeɪk ˈfrɛndz/"
+    },
+    {
+      "lemma": "make a difference",
+      "pos": "phrase",
+      "meaning": "To have an important effect, often a good one.",
+      "examples": [
+        "A small gift can {make a difference}."
+      ],
+      "wrong": [
+        "Her help made a difference, so nothing changed at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "matter",
+        "count"
+      ],
+      "ipa": "/ˌmeɪk ə ˈdɪfrəns/"
+    },
+    {
+      "lemma": "make an excuse",
+      "pos": "phrase",
+      "meaning": "To give a reason, often not true, for not doing something.",
+      "examples": [
+        "He always {makes an excuse} to miss practice."
+      ],
+      "wrong": [
+        "She made an excuse and happily did the job."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌmeɪk ən ɪkˈskjus/"
+    },
+    {
+      "lemma": "make an appointment",
+      "pos": "phrase",
+      "meaning": "To arrange a time to see a doctor or other person.",
+      "examples": [
+        "I’d like to {make an appointment} with the dentist."
+      ],
+      "wrong": [
+        "I made an appointment, so there’s no time arranged."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "book"
+      ],
+      "ipa": "/ˌmeɪk ən əˈpɔɪntmənt/"
+    },
+    {
+      "lemma": "make room",
+      "pos": "phrase",
+      "meaning": "To move things so there is space for someone or something.",
+      "examples": [
+        "Please {make room} for one more person."
+      ],
+      "wrong": [
+        "We made room on the shelf by filling every space."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "make space",
+        "clear"
+      ],
+      "ipa": "/ˌmeɪk ˈrum/"
+    },
+    {
+      "lemma": "make a living",
+      "pos": "phrase",
+      "meaning": "To earn the money you need to live.",
+      "examples": [
+        "He {makes a living} as a taxi driver."
+      ],
+      "wrong": [
+        "She makes a living from a hobby that pays nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earn a living"
+      ],
+      "ipa": "/ˌmeɪk ə ˈlɪvɪŋ/"
+    },
+    {
+      "lemma": "make a promise",
+      "pos": "phrase",
+      "meaning": "To say you will certainly do something.",
+      "examples": [
+        "I {made a promise} to call her every day."
+      ],
+      "wrong": [
+        "He made a promise, so he had no plan to do it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "promise",
+        "give your word"
+      ],
+      "ipa": "/ˌmeɪk ə ˈprɑmɪs/"
+    },
+    {
+      "lemma": "do your best",
+      "pos": "phrase",
+      "meaning": "To try as hard as you can.",
+      "examples": [
+        "Just {do your best} in the exam."
+      ],
+      "wrong": [
+        "She did her best by giving up after one minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "try hard"
+      ],
+      "ipa": "/ˌdu jɚ ˈbɛst/"
+    },
+    {
+      "lemma": "do business",
+      "pos": "phrase",
+      "meaning": "To buy, sell or work with another company or person.",
+      "examples": [
+        "We {do business} with firms in Asia."
+      ],
+      "wrong": [
+        "They do business together, but they never trade or work together."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "trade",
+        "deal"
+      ],
+      "ipa": "/ˌdu ˈbɪznəs/"
+    },
+    {
+      "lemma": "do damage",
+      "pos": "phrase",
+      "meaning": "To harm or break something.",
+      "examples": [
+        "The storm {did damage} to many houses."
+      ],
+      "wrong": [
+        "The storm did damage, so every house was perfect."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "harm",
+        "hurt"
+      ],
+      "ipa": "/ˌdu ˈdæmɪdʒ/"
+    },
+    {
+      "lemma": "do someone a favor",
+      "pos": "phrase",
+      "meaning": "To help someone in a kind way.",
+      "examples": [
+        "Could you {do me a favor} and close the window?"
+      ],
+      "wrong": [
+        "He did me a favor by making my day harder."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "help out"
+      ],
+      "ipa": "/ˌdu ˈsʌmwʌn ə ˈfeɪvɚ/"
+    },
+    {
+      "lemma": "do research",
+      "pos": "phrase",
+      "meaning": "To study a subject carefully to find new facts.",
+      "examples": [
+        "She {does research} on ocean animals."
+      ],
+      "wrong": [
+        "He did research by never reading or asking anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "research",
+        "study"
+      ],
+      "ipa": "/ˌdu ˈrisɝtʃ/"
+    },
+    {
+      "lemma": "do well",
+      "pos": "phrase",
+      "meaning": "To be successful.",
+      "examples": [
+        "He {did well} in his exams."
+      ],
+      "wrong": [
+        "She did well and failed every test."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "succeed",
+        "perform well"
+      ],
+      "ipa": "/ˌdu ˈwɛl/",
+      "antonyms": [
+        "do badly"
+      ]
+    },
+    {
+      "lemma": "take a break",
+      "pos": "phrase",
+      "meaning": "To stop working or doing something for a short rest.",
+      "examples": [
+        "Let’s {take a break} and have a coffee."
+      ],
+      "wrong": [
+        "We took a break by working all day without stopping."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rest",
+        "pause"
+      ],
+      "ipa": "/ˌteɪk ə ˈbreɪk/"
+    },
+    {
+      "lemma": "take a risk",
+      "pos": "phrase",
+      "meaning": "To do something that could end badly.",
+      "examples": [
+        "He {took a risk} and started his own company."
+      ],
+      "wrong": [
+        "She took a risk by choosing the safest option."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gamble",
+        "chance it"
+      ],
+      "ipa": "/ˌteɪk ə ˈrɪsk/"
+    },
+    {
+      "lemma": "take part",
+      "pos": "phrase",
+      "meaning": "To join in an activity or event.",
+      "examples": [
+        "Twenty schools will {take part} in the contest."
+      ],
+      "wrong": [
+        "He took part in the race by watching it from home."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "participate",
+        "join in"
+      ],
+      "ipa": "/ˌteɪk ˈpɑrt/"
+    },
+    {
+      "lemma": "take place",
+      "pos": "phrase",
+      "meaning": "To happen, especially at a planned time.",
+      "examples": [
+        "The wedding will {take place} in June."
+      ],
+      "wrong": [
+        "The meeting took place, so it never happened."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "happen",
+        "occur"
+      ],
+      "ipa": "/ˌteɪk ˈpleɪs/"
+    },
+    {
+      "lemma": "take care of",
+      "pos": "phrase",
+      "meaning": "To look after someone or something.",
+      "examples": [
+        "Can you {take care of} my cat this weekend?"
+      ],
+      "wrong": [
+        "She took care of the plants and never watered them."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look after",
+        "care for"
+      ],
+      "ipa": "/ˌteɪk ˈkɛr əv/"
+    },
+    {
+      "lemma": "take turns",
+      "pos": "phrase",
+      "meaning": "To do something one after another.",
+      "examples": [
+        "The children {take turns} on the swing."
+      ],
+      "wrong": [
+        "They took turns, so everyone went at the same time."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "alternate"
+      ],
+      "ipa": "/ˌteɪk ˈtɝnz/"
+    },
+    {
+      "lemma": "take advantage of",
+      "pos": "phrase",
+      "meaning": "To use a good chance or situation well.",
+      "examples": [
+        "{Take advantage of} the sunny weather and go out."
+      ],
+      "wrong": [
+        "He took advantage of the sale by paying full price."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "make use of",
+        "use"
+      ],
+      "ipa": "/ˌteɪk ədˈvæntɪdʒ əv/"
+    },
+    {
+      "lemma": "take notes",
+      "pos": "phrase",
+      "meaning": "To write down important things you hear or read.",
+      "examples": [
+        "Students {take notes} during the lecture."
+      ],
+      "wrong": [
+        "She took notes by just listening and writing nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "note down",
+        "write down"
+      ],
+      "ipa": "/ˌteɪk ˈnoʊts/"
+    },
+    {
+      "lemma": "take a seat",
+      "pos": "phrase",
+      "meaning": "To sit down; often said politely.",
+      "examples": [
+        "Please {take a seat}; the doctor is coming."
+      ],
+      "wrong": [
+        "He took a seat and stood by the door all evening."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sit down"
+      ],
+      "ipa": "/ˌteɪk ə ˈsit/"
+    },
+    {
+      "lemma": "take responsibility",
+      "pos": "phrase",
+      "meaning": "To accept that something is your job or your fault.",
+      "examples": [
+        "You must {take responsibility} for your actions."
+      ],
+      "wrong": [
+        "He took responsibility by blaming everyone else."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "own up",
+        "be accountable"
+      ],
+      "ipa": "/ˌteɪk rɪˌspɑnsəˈbɪləti/"
+    },
+    {
+      "lemma": "take action",
+      "pos": "phrase",
+      "meaning": "To start doing something to deal with a problem.",
+      "examples": [
+        "We must {take action} to save the forest."
+      ],
+      "wrong": [
+        "The city took action by doing nothing at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "act"
+      ],
+      "ipa": "/ˌteɪk ˈækʃən/"
+    },
+    {
+      "lemma": "take your time",
+      "pos": "phrase",
+      "meaning": "To do something slowly, without hurrying.",
+      "examples": [
+        "There’s no rush; {take your time}."
+      ],
+      "wrong": [
+        "She took her time and finished in a terrible hurry."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌteɪk jɚ ˈtaɪm/"
+    },
+    {
+      "lemma": "have a go",
+      "pos": "phrase",
+      "meaning": "To try to do something, often for the first time.",
+      "examples": [
+        "Can I {have a go} on your guitar?"
+      ],
+      "wrong": [
+        "He had a go at skiing without ever trying it."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "try",
+        "have a try"
+      ],
+      "ipa": "/ˌhæv ə ˈɡoʊ/"
+    },
+    {
+      "lemma": "have a look",
+      "pos": "phrase",
+      "meaning": "To look at something quickly.",
+      "examples": [
+        "Let me {have a look} at your homework."
+      ],
+      "wrong": [
+        "I had a look at the photo with my eyes closed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look",
+        "take a look"
+      ],
+      "ipa": "/ˌhæv ə ˈlʊk/"
+    },
+    {
+      "lemma": "have a rest",
+      "pos": "phrase",
+      "meaning": "To relax or sleep for a short time.",
+      "examples": [
+        "You look tired; go and {have a rest}."
+      ],
+      "wrong": [
+        "She had a rest by running ten kilometers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rest",
+        "relax"
+      ],
+      "ipa": "/ˌhæv ə ˈrɛst/"
+    },
+    {
+      "lemma": "have a chat",
+      "pos": "phrase",
+      "meaning": "To talk with someone in a friendly, informal way.",
+      "examples": [
+        "We {had a chat} over coffee."
+      ],
+      "wrong": [
+        "We had a chat without saying a single word."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chat",
+        "talk"
+      ],
+      "ipa": "/ˌhæv ə ˈtʃæt/"
+    },
+    {
+      "lemma": "have an argument",
+      "pos": "phrase",
+      "meaning": "To disagree angrily with someone.",
+      "examples": [
+        "They {had an argument} about money."
+      ],
+      "wrong": [
+        "We had an argument because we agreed about everything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "argue",
+        "quarrel"
+      ],
+      "ipa": "/ˌhæv ən ˈɑrɡjəmənt/"
+    },
+    {
+      "lemma": "have trouble",
+      "pos": "phrase",
+      "meaning": "To find it hard to do something.",
+      "examples": [
+        "I {have trouble} sleeping when it’s hot."
+      ],
+      "wrong": [
+        "He has trouble reading, so he reads very fast and easily."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "struggle"
+      ],
+      "ipa": "/ˌhæv ˈtrʌbəl/"
+    },
+    {
+      "lemma": "have a word",
+      "pos": "phrase",
+      "meaning": "To speak to someone briefly, often in private.",
+      "examples": [
+        "Can I {have a word} with you after class?"
+      ],
+      "wrong": [
+        "He had a word with me but didn’t speak to me."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "speak",
+        "talk"
+      ],
+      "ipa": "/ˌhæv ə ˈwɝd/"
+    },
+    {
+      "lemma": "have no idea",
+      "pos": "phrase",
+      "meaning": "To not know something at all.",
+      "examples": [
+        "I {have no idea} where my keys are."
+      ],
+      "wrong": [
+        "I have no idea where he lives; it’s next door to me."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌhæv ˌnoʊ aɪˈdiə/"
+    }
+  ]
+}

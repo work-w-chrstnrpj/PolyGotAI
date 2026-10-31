@@ -22,6 +22,8 @@ struct LessonPlayerView: View {
     @State private var savedSenseIDs: Set<String> = []
     @State private var reviewSenseIDs: Set<String> = []
     @State private var showIntroduction = true
+    @State private var readingPageIndex = 0
+    private var reading: [LessonReading] { presentedLesson.reading ?? [] }
     @State private var showContents = false
     @State private var practicePack: IntroPracticePack?
     @State private var showMissed = false
@@ -29,6 +31,7 @@ struct LessonPlayerView: View {
     @State private var message: String?
     @State private var clip: AVAudioPlayer?
     @State private var draftSave: Task<Void, Never>?
+    @State private var showNext = false
     @Environment(\.scenePhase) private var scenePhase
     @FocusState private var answering: Bool
 
@@ -40,6 +43,14 @@ struct LessonPlayerView: View {
         session?.activities.firstIndex { $0.id == activity?.id } ?? 0
     }
     private var isComplete: Bool { session?.journey.completedAt != nil }
+    /// The lesson after this one: the next lesson of the same coach track, or the next course lesson of the same rank.
+    private var nextLesson: ResolvedLesson? {
+        guard origin == nil else { return nil }
+        let list = presentedLesson.trackId.flatMap { id in install.tracks.tracks.first { $0.id == id }?.lessons }
+            ?? install.lessons(at: presentedLesson.level).filter(\.isReady)
+        guard let index = list.firstIndex(where: { $0.id == presentedLesson.id }), list.indices.contains(index + 1) else { return nil }
+        return list[index + 1]
+    }
     private var lessonCoach: TrackCoach? {
         install.tracks.tracks.first { $0.id == presentedLesson.trackId }?.coach
     }
@@ -106,6 +117,14 @@ struct LessonPlayerView: View {
                     }.accessibilityIdentifier("lesson.extra")
                 }
             }
+            if !reading.isEmpty, !showIntroduction {
+                // Re-read the lesson mid-exercise; "Back to exercise" returns to the same item.
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { changeReadingPage(0) } label: { Label("Lesson", systemImage: "book").labelStyle(.titleAndIcon) }
+                        .accessibilityHint("Read the lesson again, then come back to this exercise")
+                        .accessibilityIdentifier("lesson.reading.reopen")
+                }
+            }
             ToolbarItem(placement: .topBarTrailing) {
                 Button { showContents = true } label: { Image(systemName: "list.bullet") }
                     .accessibilityLabel("Lesson activities and saved versions")
@@ -121,6 +140,12 @@ struct LessonPlayerView: View {
             }
         }
         .sheet(isPresented: $showContents) { contents }
+        .navigationDestination(isPresented: $showNext) {
+            if let next = nextLesson {
+                LessonPlayerView(storage: storage, lesson: next, install: install, onSpeak: onSpeak)
+                    .navigationTitle(next.title)
+            }
+        }
         .sheet(isPresented: $showMissed) {
             MissedPracticeView(activities: session?.missedExercises ?? [], onPlayClip: { play($0) })
         }
@@ -185,10 +210,14 @@ struct LessonPlayerView: View {
                     versionBanner
                     if session == nil {
                         AvailabilityCard(title: "This lesson didn't open", detail: message ?? "Opening your saved practice…", symbol: "book")
+                    } else if showIntroduction && reading.indices.contains(readingPageIndex) {
+                        LessonReadingPage(section: reading[readingPageIndex], index: readingPageIndex, total: reading.count, coach: lessonCoach)
                     } else if isComplete {
                         completion
                     } else if showIntroduction {
-                        introduction
+                        if reading.indices.contains(readingPageIndex) {
+                            LessonReadingPage(section: reading[readingPageIndex], index: readingPageIndex, total: reading.count, coach: lessonCoach)
+                        } else { introduction }
                     } else if let activity, let session {
                         progress(session)
                         activityContent(activity, session: session)
@@ -206,6 +235,7 @@ struct LessonPlayerView: View {
                 .padding(24)
                 .frame(maxWidth: .infinity)
             }
+            .onChange(of: readingPageIndex) { _, _ in scroll.scrollTo("top", anchor: .top) }
             .onChange(of: activity?.id) { _, _ in scroll.scrollTo("top", anchor: .top) }
             .onChange(of: isComplete) { _, _ in scroll.scrollTo("top", anchor: .top) }
         }
@@ -235,7 +265,7 @@ struct LessonPlayerView: View {
             if let tip = presentedLesson.tip {
                 KitCard {
                     Text("Coach tip").font(.headline)
-                    Text(tip).font(.title3).fixedSize(horizontal: false, vertical: true).accessibilityIdentifier("lesson.topic.teaching")
+                    FormattedText(text: tip, font: .title3, identifier: "lesson.topic.teaching")
                 }
             } else if let supplement = presentedLesson.supplement {
                 KitCard {
@@ -289,14 +319,14 @@ struct LessonPlayerView: View {
                 .font(.title2.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
             if activity.kind == "listening", let path = activity.playbackPath {
                 Button { play(path) } label: { Label("Play recording", systemImage: "play.circle.fill") }
-                    .buttonStyle(.bordered).controlSize(.large)
+                    .buttonStyle(KitSecondaryButtonStyle()).controlSize(.large)
                     .accessibilityIdentifier("lesson.play.\(activity.id)")
             }
             if activity.kind == "guidedSpeaking" {
                 if presentedLesson.isReady {
                     Button { openSpeaking() } label: {
                         Label("Open speaking practice", systemImage: "mic")
-                    }.buttonStyle(.bordered).accessibilityIdentifier("lesson.speak")
+                    }.buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("lesson.speak")
                 }
             }
             VStack(alignment: .leading, spacing: 10) {
@@ -365,7 +395,7 @@ struct LessonPlayerView: View {
                     if response?.answerRevealed == true || response?.recordedPracticeID != nil {
                         RewardSummary(storage: storage, sourcePrefix: "lesson/\(session.journey.id)/\(activity.id)", sourceTitle: "This activity")
                     }
-                    Button("Save a retry") { record(activity.id, assisted: true) }.buttonStyle(.bordered)
+                    Button("Save a retry") { record(activity.id, assisted: true) }.buttonStyle(KitSecondaryButtonStyle())
                 }
             }
         }
@@ -383,7 +413,7 @@ struct LessonPlayerView: View {
                         .accessibilityIdentifier("lesson.accuracy")
                     if !session.missedExercises.isEmpty {
                         Button("Try the \(session.missedExercises.count) you missed") { showMissed = true }
-                            .buttonStyle(.bordered).accessibilityIdentifier("lesson.missed")
+                            .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("lesson.missed")
                     }
                 }
             }
@@ -393,7 +423,13 @@ struct LessonPlayerView: View {
                 Button("Practice by speaking") { openSpeaking() }.buttonStyle(KitPrimaryButtonStyle())
                     .accessibilityIdentifier("lesson.speak")
             }
-            Button("Practice this lesson again") { restart() }.buttonStyle(.bordered)
+            if let next = nextLesson {
+                Button { showNext = true } label: {
+                    Label("Next: \(next.title)", systemImage: "arrow.right").frame(maxWidth: .infinity)
+                }
+                .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lesson.next")
+            }
+            Button("Practice this lesson again") { restart() }.buttonStyle(KitSecondaryButtonStyle())
                 .accessibilityIdentifier("lesson.repeat")
         }
     }
@@ -416,23 +452,35 @@ struct LessonPlayerView: View {
 
     @ViewBuilder private func vocabularyActions(_ sense: CurriculumSense) -> some View {
         Button(savedSenseIDs.contains(sense.id) ? "In collection" : "Keep word") { enroll(sense, inReview: false) }
-            .buttonStyle(.bordered).disabled(savedSenseIDs.contains(sense.id))
+            .buttonStyle(KitSecondaryButtonStyle()).disabled(savedSenseIDs.contains(sense.id))
             .accessibilityIdentifier("lesson.collect.\(sense.senseId)")
         Button(reviewSenseIDs.contains(sense.id) ? "In review" : "Add to review") { enroll(sense, inReview: true) }
-            .buttonStyle(.bordered).disabled(reviewSenseIDs.contains(sense.id))
+            .buttonStyle(KitSecondaryButtonStyle()).disabled(reviewSenseIDs.contains(sense.id))
             .accessibilityIdentifier("lesson.enroll.\(sense.senseId)")
     }
 
     @ViewBuilder private var footer: some View {
-        if session != nil && !isComplete && typedActivity == nil {
+        if session != nil && (!isComplete || (showIntroduction && reading.indices.contains(readingPageIndex))) && typedActivity == nil {
             VStack(spacing: 12) {
-                if showIntroduction {
+                if showIntroduction, reading.indices.contains(readingPageIndex) {
+                    if session?.journey.readingCompletedAt != nil, readingPageIndex + 1 < reading.count {
+                        Button("Back to exercise") { changeReadingPage(reading.count) }
+                            .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("lesson.reading.resume")
+                    }
+                    HStack(spacing: 12) {
+                        Button("Back") { changeReadingPage(readingPageIndex - 1) }
+                            .buttonStyle(KitSecondaryButtonStyle()).disabled(readingPageIndex == 0)
+                            .accessibilityIdentifier("lesson.reading.back")
+                        Button(readingPageIndex + 1 == reading.count ? "Exercises" : "Next") { changeReadingPage(readingPageIndex + 1) }
+                            .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lesson.reading.next")
+                    }
+                } else if showIntroduction {
                     Button("Let’s begin") { showIntroduction = false; message = nil }
                         .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lesson.begin")
                 } else if let activity, let session {
                     HStack(spacing: 16) {
                         Button { move(-1) } label: { Image(systemName: "arrow.left").frame(minWidth: 44, minHeight: 44) }
-                            .buttonStyle(.bordered).disabled(position == 0).accessibilityLabel("Previous activity")
+                            .buttonStyle(KitSecondaryButtonStyle(fills: false)).disabled(position == 0).accessibilityLabel("Previous activity")
                         if !session.hasAttempt(for: activity.id) {
                             Button(choices(for: activity) == nil ? "Save my answer" : "Check answer") { record(activity.id, assisted: false) }
                                 .buttonStyle(KitPrimaryButtonStyle())
@@ -457,7 +505,7 @@ struct LessonPlayerView: View {
 
     private var contents: some View {
         NavigationStack {
-            List {
+            List { KitRows {
                 if origin == nil && !savedJourneys.isEmpty {
                     Section("Saved versions") {
                         ForEach(savedJourneys) { journey in
@@ -469,17 +517,31 @@ struct LessonPlayerView: View {
                             .accessibilityIdentifier("lesson.version.current")
                     }
                 }
+                if !reading.isEmpty {
+                    Section("Read and examples") {
+                        ForEach(Array(reading.enumerated()), id: \.element.id) { index, section in
+                            Button(section.heading) { changeReadingPage(index); showContents = false }
+                                .accessibilityIdentifier("lesson.reading.open.\(index)")
+                        }
+                        if session?.journey.readingCompletedAt != nil {
+                            Button("Exercises") { changeReadingPage(reading.count); showContents = false }
+                                .accessibilityIdentifier("lesson.reading.exercises")
+                        }
+                    }
+                }
                 if let session {
                     ForEach(Array(session.activities.enumerated()), id: \.element.id) { index, item in
                         Button {
+                            if !reading.isEmpty { changeReadingPage(reading.count) }
                             navigate(to: item.id); showIntroduction = false; showContents = false
                         } label: {
                             Label("\(index + 1). \(kindTitle(item.kind))", systemImage: session.hasAttempt(for: item.id) ? "checkmark.circle.fill" : "circle")
                         }.foregroundStyle(Kit.ink)
                             .accessibilityIdentifier("lesson.jump.\(item.id)")
+                            .disabled(!reading.isEmpty && session.journey.readingCompletedAt == nil)
                     }
                 }
-            }.navigationTitle("Your lesson")
+            }}.navigationTitle("Your lesson")
                 .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { showContents = false } } }
         }.tint(Kit.accent)
     }
@@ -525,6 +587,7 @@ struct LessonPlayerView: View {
         if existing == nil {
             opened.journey.practiceOrigin = origin
             opened.journey.practiceConditions = initialConditions
+            if exact.reading?.isEmpty == false { opened.journey.readingPageIndex = 0; opened.journey.teachingBeganAt = .now }
             try repository.saveLessonJourney(opened.journey)
         }
         savedJourneys = try repository.lessonJourneys(lessonID: lesson.id).filter { $0.practiceOrigin?.journeyID == origin?.journeyID }
@@ -533,8 +596,24 @@ struct LessonPlayerView: View {
             drafts[response.activityID] = response.assistedText ?? response.unaidedText
         }
         preserved = savedJourneys.last { $0.contentVersion != exact.contentVersion }
-        showIntroduction = existing == nil
+        readingPageIndex = LessonReading.resumeIndex(opened.journey.readingPageIndex, count: exact.reading?.count ?? 0)
+        showIntroduction = exact.reading?.isEmpty == false
+            ? readingPageIndex < (exact.reading?.count ?? 0) && opened.journey.completedAt == nil
+            : existing == nil
         message = nil; refreshWords(repository)
+    }
+
+    /// Commit before moving so a failed write never claims a saved reading position.
+    private func changeReadingPage(_ index: Int) {
+        guard !reading.isEmpty, var updated = session, (0...reading.count).contains(index),
+              let repository = storage.repository else { return }
+        updated.journey.readingPageIndex = index
+        if index == reading.count, updated.journey.readingCompletedAt == nil { updated.journey.readingCompletedAt = .now }
+        do {
+            try repository.saveLessonJourney(updated.journey)
+            session = updated; readingPageIndex = index; showIntroduction = index < reading.count
+            message = nil; stopAudio()
+        } catch { message = "Couldn’t save your reading position." }
     }
 
     private func openSaved(_ journey: LessonJourney) {
@@ -743,15 +822,18 @@ struct LessonPlayerView: View {
     private func restart() {
         do {
             guard let repository = storage.repository else { throw LearnerStorageError.unavailable }
-            let fresh = try LessonSession.begin(lesson: presentedLesson, presenter: storage.preferences.coach.rawValue, now: .now)
+            var fresh = try LessonSession.begin(lesson: presentedLesson, presenter: storage.preferences.coach.rawValue, now: .now)
+            // Start again from the first reading page; the old position pointed past the last page and showed a blank screen.
+            if !reading.isEmpty { fresh.journey.readingPageIndex = 0; fresh.journey.teachingBeganAt = .now }
             try repository.saveLessonJourney(fresh.journey)
-            session = fresh; drafts = [:]; showIntroduction = true; message = nil
+            session = fresh; drafts = [:]; readingPageIndex = 0; showIntroduction = true; message = nil
         } catch { message = "A new practice could not be started. Your completed attempt is kept." }
     }
 
     private func play(_ path: String) {
         do {
             stopAudio()
+            SoundCenter.holdAudio("lesson.clip")
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
             try AVAudioSession.sharedInstance().setActive(true)
             clip = try AVAudioPlayer(contentsOf: Bundle.main.bundleURL.appendingPathComponent(path))
@@ -763,6 +845,7 @@ struct LessonPlayerView: View {
         guard clip != nil else { return }
         clip?.stop(); clip = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("lesson.clip")
     }
 
     private func choices(for activity: CurriculumActivity) -> [String]? {

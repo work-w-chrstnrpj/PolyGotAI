@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-formal-adverbs",
+    "title": "Formal adverbs",
+    "level": "C1",
+    "tagline": "Arguably, invariably, thereby",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "arguably",
+      "pos": "adverb",
+      "meaning": "Used to say that something can be argued to be true.",
+      "examples": [
+        "She is {arguably} the best writer of her generation."
+      ],
+      "wrong": [
+        "It is arguably the best, and nobody could ever argue about it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "possibly"
+      ],
+      "ipa": "/ˈɑrɡjuəbli/"
+    },
+    {
+      "lemma": "conversely",
+      "pos": "adverb",
+      "meaning": "Used to introduce an opposite idea.",
+      "examples": [
+        "Some foods raise energy; {conversely}, others make you tired."
+      ],
+      "wrong": [
+        "Exercise helps sleep; conversely, it also helps sleep."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "in contrast",
+        "on the other hand"
+      ],
+      "ipa": "/kənˈvɝsli/"
+    },
+    {
+      "lemma": "inherently",
+      "pos": "adverb",
+      "meaning": "As a basic, permanent part of something.",
+      "examples": [
+        "The job is {inherently} risky."
+      ],
+      "wrong": [
+        "The job is inherently risky, though risk is no part of it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intrinsically",
+        "naturally"
+      ],
+      "ipa": "/ɪnˈhɪrəntli/"
+    },
+    {
+      "lemma": "invariably",
+      "pos": "adverb",
+      "meaning": "Always; without exception.",
+      "examples": [
+        "He {invariably} arrives late."
+      ],
+      "wrong": [
+        "He invariably arrives late, but he was never late before."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "always",
+        "consistently"
+      ],
+      "ipa": "/ɪnˈvɛriəbli/"
+    },
+    {
+      "lemma": "predominantly",
+      "pos": "adverb",
+      "meaning": "Mostly; mainly.",
+      "examples": [
+        "The audience was {predominantly} young."
+      ],
+      "wrong": [
+        "The audience was predominantly young, with only a few young people."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mainly",
+        "mostly"
+      ],
+      "ipa": "/prɪˈdɑmənəntli/"
+    },
+    {
+      "lemma": "explicitly",
+      "pos": "adverb",
+      "meaning": "Clearly and directly.",
+      "examples": [
+        "The rules {explicitly} ban phones."
+      ],
+      "wrong": [
+        "The rules explicitly ban phones, though they never mention them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "directly",
+        "expressly"
+      ],
+      "ipa": "/ɪkˈsplɪsɪtli/",
+      "antonyms": [
+        "implicitly"
+      ]
+    },
+    {
+      "lemma": "virtually",
+      "pos": "adverb",
+      "meaning": "Almost completely.",
+      "examples": [
+        "The town was {virtually} empty."
+      ],
+      "wrong": [
+        "The town was virtually empty, with crowds on every street."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "almost",
+        "practically"
+      ],
+      "ipa": "/ˈvɝtʃuəli/"
+    },
+    {
+      "lemma": "profoundly",
+      "pos": "adverb",
+      "meaning": "Very deeply.",
+      "examples": [
+        "The book {profoundly} changed my thinking."
+      ],
+      "wrong": [
+        "The book profoundly changed me, very slightly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "deeply",
+        "greatly"
+      ],
+      "ipa": "/prəˈfaʊndli/"
+    },
+    {
+      "lemma": "seemingly",
+      "pos": "adverb",
+      "meaning": "Appearing to be true, but perhaps not.",
+      "examples": [
+        "The task was {seemingly} simple."
+      ],
+      "wrong": [
+        "The task was seemingly simple, and everyone could see how hard it was."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "apparently",
+        "ostensibly"
+      ],
+      "ipa": "/ˈsimɪŋli/"
+    },
+    {
+      "lemma": "allegedly",
+      "pos": "adverb",
+      "meaning": "According to what people say, without proof.",
+      "examples": [
+        "He {allegedly} stole the money."
+      ],
+      "wrong": [
+        "He allegedly stole it, as the court proved beyond doubt."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reportedly",
+        "supposedly"
+      ],
+      "ipa": "/əˈlɛdʒɪdli/"
+    },
+    {
+      "lemma": "respectively",
+      "pos": "adverb",
+      "meaning": "In the same order as the things just mentioned.",
+      "examples": [
+        "Ann and Tom are 20 and 25, {respectively}."
+      ],
+      "wrong": [
+        "Ann is 20 respectively."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/rɪˈspɛktɪvli/"
+    },
+    {
+      "lemma": "simultaneously",
+      "pos": "adverb",
+      "meaning": "At the same time.",
+      "examples": [
+        "The two events happened {simultaneously}."
+      ],
+      "wrong": [
+        "They spoke simultaneously, one after the other, hours apart."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "at the same time",
+        "concurrently"
+      ],
+      "ipa": "/ˌsaɪməlˈteɪniəsli/",
+      "antonyms": [
+        "separately",
+        "consecutively"
+      ]
+    },
+    {
+      "lemma": "consistently",
+      "pos": "adverb",
+      "meaning": "Always in the same way.",
+      "examples": [
+        "She has {consistently} done good work."
+      ],
+      "wrong": [
+        "He consistently does well, except most of the time."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "constantly",
+        "reliably"
+      ],
+      "ipa": "/kənˈsɪstəntli/",
+      "antonyms": [
+        "inconsistently"
+      ]
+    },
+    {
+      "lemma": "adequately",
+      "pos": "adverb",
+      "meaning": "Well enough.",
+      "examples": [
+        "Staff were not {adequately} trained."
+      ],
+      "wrong": [
+        "The staff were adequately trained, so they had no idea what to do."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sufficiently",
+        "satisfactorily"
+      ],
+      "ipa": "/ˈædɪkwətli/",
+      "antonyms": [
+        "inadequately"
+      ]
+    },
+    {
+      "lemma": "intrinsically",
+      "pos": "adverb",
+      "meaning": "Because of its own basic nature.",
+      "examples": [
+        "Money is not {intrinsically} good or bad."
+      ],
+      "wrong": [
+        "Gold is intrinsically valuable only because people say so."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "inherently",
+        "by nature"
+      ],
+      "ipa": "/ɪnˈtrɪnzɪkli/"
+    },
+    {
+      "lemma": "marginally",
+      "pos": "adverb",
+      "meaning": "Very slightly.",
+      "examples": [
+        "Prices rose {marginally}."
+      ],
+      "wrong": [
+        "Prices rose marginally, by more than double."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "slightly",
+        "fractionally"
+      ],
+      "ipa": "/ˈmɑrdʒɪnəli/"
+    },
+    {
+      "lemma": "overwhelmingly",
+      "pos": "adverb",
+      "meaning": "To a very great degree.",
+      "examples": [
+        "Voters {overwhelmingly} supported the plan."
+      ],
+      "wrong": [
+        "They overwhelmingly agreed, by a tiny majority."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "massively"
+      ],
+      "ipa": "/ˌoʊvɚˈwɛlmɪŋli/"
+    },
+    {
+      "lemma": "readily",
+      "pos": "adverb",
+      "meaning": "Quickly and willingly, or easily.",
+      "examples": [
+        "She {readily} agreed to help."
+      ],
+      "wrong": [
+        "He readily agreed after months of refusing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "willingly",
+        "easily"
+      ],
+      "ipa": "/ˈrɛdəli/"
+    },
+    {
+      "lemma": "scarcely",
+      "pos": "adverb",
+      "meaning": "Almost not.",
+      "examples": [
+        "I could {scarcely} believe my eyes."
+      ],
+      "wrong": [
+        "I could scarcely hear him; he was shouting right in my ear."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hardly",
+        "barely"
+      ],
+      "ipa": "/ˈskɛrsli/"
+    },
+    {
+      "lemma": "thereby",
+      "pos": "adverb",
+      "meaning": "As a result of this action.",
+      "examples": [
+        "He sold his car, {thereby} saving money."
+      ],
+      "wrong": [
+        "He sold his car, thereby before he bought it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "thus",
+        "hence"
+      ],
+      "ipa": "/ˌðɛrˈbaɪ/"
+    },
+    {
+      "lemma": "wholly",
+      "pos": "adverb",
+      "meaning": "Completely.",
+      "examples": [
+        "I’m not {wholly} convinced."
+      ],
+      "wrong": [
+        "I am wholly convinced, but only partly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "entirely",
+        "completely"
+      ],
+      "ipa": "/ˈhoʊli/"
+    },
+    {
+      "lemma": "deliberately",
+      "pos": "adverb",
+      "meaning": "On purpose.",
+      "examples": [
+        "He {deliberately} ignored my message."
+      ],
+      "wrong": [
+        "She deliberately broke it by accident."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intentionally",
+        "on purpose"
+      ],
+      "ipa": "/dɪˈlɪbərətli/",
+      "antonyms": [
+        "accidentally",
+        "unintentionally"
+      ]
+    },
+    {
+      "lemma": "notably",
+      "pos": "adverb",
+      "meaning": "Especially; in a way worth noticing.",
+      "examples": [
+        "Several countries, {notably} Japan, reduced emissions."
+      ],
+      "wrong": [
+        "Several countries, notably none of them, cut emissions."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "particularly",
+        "especially"
+      ],
+      "ipa": "/ˈnoʊtəbli/"
+    },
+    {
+      "lemma": "comparatively",
+      "pos": "adverb",
+      "meaning": "When compared with something else.",
+      "examples": [
+        "The task was {comparatively} easy."
+      ],
+      "wrong": [
+        "The task was comparatively easy, compared with nothing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "relatively"
+      ],
+      "ipa": "/kəmˈpærətɪvli/"
+    },
+    {
+      "lemma": "essentially",
+      "pos": "adverb",
+      "meaning": "Basically; in the most important way.",
+      "examples": [
+        "The two plans are {essentially} the same."
+      ],
+      "wrong": [
+        "The two plans are essentially the same, apart from every important detail."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "basically",
+        "fundamentally"
+      ],
+      "ipa": "/ɪˈsɛnʃəli/"
+    },
+    {
+      "lemma": "evidently",
+      "pos": "adverb",
+      "meaning": "Clearly; as can be seen.",
+      "examples": [
+        "She was {evidently} upset."
+      ],
+      "wrong": [
+        "He was evidently happy, though nobody could tell."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "clearly",
+        "obviously"
+      ],
+      "ipa": "/ˈɛvɪdəntli/"
+    },
+    {
+      "lemma": "tentatively",
+      "pos": "adverb",
+      "meaning": "In an uncertain or not final way.",
+      "examples": [
+        "The meeting is {tentatively} set for Monday."
+      ],
+      "wrong": [
+        "The date is tentatively set, final and fixed forever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "provisionally"
+      ],
+      "ipa": "/ˈtɛntətɪvli/",
+      "antonyms": [
+        "confidently",
+        "definitely"
+      ]
+    },
+    {
+      "lemma": "unduly",
+      "pos": "adverb",
+      "meaning": "More than is reasonable.",
+      "examples": [
+        "Don’t be {unduly} worried."
+      ],
+      "wrong": [
+        "Don’t be unduly worried; worry as much as you possibly can."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "excessively",
+        "overly"
+      ],
+      "ipa": "/ʌnˈduli/"
+    },
+    {
+      "lemma": "vastly",
+      "pos": "adverb",
+      "meaning": "Very much.",
+      "examples": [
+        "The new version is {vastly} better."
+      ],
+      "wrong": [
+        "It’s vastly better, just slightly improved."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hugely",
+        "immensely"
+      ],
+      "ipa": "/ˈvæstli/"
+    },
+    {
+      "lemma": "precisely",
+      "pos": "adverb",
+      "meaning": "Exactly.",
+      "examples": [
+        "The train left at {precisely} nine o’clock."
+      ],
+      "wrong": [
+        "It arrived at precisely around nine-ish."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exactly"
+      ],
+      "ipa": "/prɪˈsaɪsli/",
+      "antonyms": [
+        "roughly",
+        "approximately"
+      ]
+    },
+    {
+      "lemma": "systematically",
+      "pos": "adverb",
+      "meaning": "Using a fixed, organized plan.",
+      "examples": [
+        "They {systematically} checked every file."
+      ],
+      "wrong": [
+        "She systematically checked them at random."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "methodically"
+      ],
+      "ipa": "/ˌsɪstəˈmætɪkli/"
+    },
+    {
+      "lemma": "collectively",
+      "pos": "adverb",
+      "meaning": "As a group.",
+      "examples": [
+        "We are {collectively} responsible."
+      ],
+      "wrong": [
+        "We decided collectively, each person alone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "together",
+        "jointly"
+      ],
+      "ipa": "/kəˈlɛktɪvli/",
+      "antonyms": [
+        "individually",
+        "separately"
+      ]
+    },
+    {
+      "lemma": "reluctantly",
+      "pos": "adverb",
+      "meaning": "Without wanting to.",
+      "examples": [
+        "He {reluctantly} agreed to stay."
+      ],
+      "wrong": [
+        "She reluctantly agreed, full of eager joy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unwillingly"
+      ],
+      "ipa": "/rɪˈlʌktəntli/",
+      "antonyms": [
+        "willingly",
+        "eagerly"
+      ]
+    },
+    {
+      "lemma": "excessively",
+      "pos": "adverb",
+      "meaning": "More than is necessary or normal.",
+      "examples": [
+        "He drinks {excessively}."
+      ],
+      "wrong": [
+        "He drinks excessively, just one small glass a month."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "too much",
+        "overly"
+      ],
+      "ipa": "/ɪkˈsɛsɪvli/"
+    },
+    {
+      "lemma": "remarkably",
+      "pos": "adverb",
+      "meaning": "In a way that is unusual or surprising.",
+      "examples": [
+        "She recovered {remarkably} quickly."
+      ],
+      "wrong": [
+        "She recovered remarkably quickly, at a completely ordinary speed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unusually",
+        "strikingly"
+      ],
+      "ipa": "/rɪˈmɑrkəbli/"
+    },
+    {
+      "lemma": "indirectly",
+      "pos": "adverb",
+      "meaning": "Not in a straight or direct way.",
+      "examples": [
+        "The new law {indirectly} affects farmers."
+      ],
+      "wrong": [
+        "The law indirectly affects farmers by naming them in its first line."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "obliquely"
+      ],
+      "ipa": "/ˌɪndəˈrɛktli/",
+      "antonyms": [
+        "directly"
+      ]
+    },
+    {
+      "lemma": "ostensibly",
+      "pos": "adverb",
+      "meaning": "Apparently, though perhaps not really.",
+      "examples": [
+        "He came, {ostensibly} to help, but he wanted money."
+      ],
+      "wrong": [
+        "He came ostensibly to help, and helping really was his only reason."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "seemingly",
+        "outwardly"
+      ],
+      "ipa": "/ɑˈstɛnsəbli/"
+    },
+    {
+      "lemma": "implicitly",
+      "pos": "adverb",
+      "meaning": "In a way that is suggested but not said directly.",
+      "examples": [
+        "He {implicitly} admitted his mistake."
+      ],
+      "wrong": [
+        "He implicitly admitted it by stating it clearly in writing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tacitly"
+      ],
+      "ipa": "/ɪmˈplɪsɪtli/",
+      "antonyms": [
+        "explicitly"
+      ]
+    },
+    {
+      "lemma": "categorically",
+      "pos": "adverb",
+      "meaning": "In a clear and absolute way.",
+      "examples": [
+        "She {categorically} denied the claim."
+      ],
+      "wrong": [
+        "He categorically denied it, saying it might be true."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "absolutely",
+        "flatly"
+      ],
+      "ipa": "/ˌkætəˈɡɔrɪkli/"
+    },
+    {
+      "lemma": "fundamentally",
+      "pos": "adverb",
+      "meaning": "In the most basic and important way.",
+      "examples": [
+        "The system is {fundamentally} flawed."
+      ],
+      "wrong": [
+        "The system is fundamentally flawed in one small detail."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "basically",
+        "essentially"
+      ],
+      "ipa": "/ˌfʌndəˈmɛntəli/"
+    }
+  ]
+}

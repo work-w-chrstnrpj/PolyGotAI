@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-technology",
+    "title": "Technology basics",
+    "level": "A2",
+    "tagline": "Phones, computers and the internet",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "tablet",
+      "pos": "noun",
+      "meaning": "A small flat computer with a screen you touch.",
+      "examples": [
+        "She reads books on her {tablet}."
+      ],
+      "wrong": [
+        "I keep my tablet in the fridge to eat later."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtæblət/"
+    },
+    {
+      "lemma": "smartphone",
+      "pos": "noun",
+      "meaning": "A mobile phone that also works like a small computer.",
+      "examples": [
+        "I check my email on my {smartphone}."
+      ],
+      "wrong": [
+        "My smartphone can’t make calls or open apps."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cell phone"
+      ],
+      "ipa": "/ˈsmɑrtˌfoʊn/"
+    },
+    {
+      "lemma": "cell phone",
+      "pos": "noun",
+      "meaning": "A phone you can carry with you anywhere.",
+      "examples": [
+        "Please turn off your {cell phone} in the cinema."
+      ],
+      "wrong": [
+        "My cell phone is fixed to the wall at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "mobile phone",
+        "smartphone"
+      ],
+      "ipa": "/ˈsɛl foʊn/"
+    },
+    {
+      "lemma": "ringtone",
+      "pos": "noun",
+      "meaning": "The sound your phone makes when someone calls you.",
+      "examples": [
+        "I changed my {ringtone} to a song I like."
+      ],
+      "wrong": [
+        "My ringtone is the light on the back of my phone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrɪŋˌtoʊn/"
+    },
+    {
+      "lemma": "selfie",
+      "pos": "noun",
+      "meaning": "A photo you take of yourself, usually with a phone.",
+      "examples": [
+        "We took a {selfie} in front of the tower."
+      ],
+      "wrong": [
+        "My friend took a selfie of me from across the street."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɛlfi/"
+    },
+    {
+      "lemma": "surf the internet",
+      "pos": "phrase",
+      "meaning": "To look at many websites, one after another.",
+      "examples": [
+        "I {surf the internet} for an hour every evening."
+      ],
+      "wrong": [
+        "He surfed the internet with no computer or phone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "browse"
+      ],
+      "ipa": "/sɝf ði ˈɪntɚˌnɛt/"
+    },
+    {
+      "lemma": "webcam",
+      "pos": "noun",
+      "meaning": "A small camera on a computer for video calls.",
+      "examples": [
+        "Turn on your {webcam} so we can see you."
+      ],
+      "wrong": [
+        "I listen to music through my webcam."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɛbˌkæm/"
+    },
+    {
+      "lemma": "headphones",
+      "pos": "noun",
+      "meaning": "A thing you wear over your ears to listen to music.",
+      "examples": [
+        "He listens to music with {headphones} on the train."
+      ],
+      "wrong": [
+        "I wear headphones on my feet to keep them warm."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "earphones"
+      ],
+      "ipa": "/ˈhɛdˌfoʊnz/"
+    },
+    {
+      "lemma": "speaker",
+      "pos": "noun",
+      "meaning": "A piece of equipment that the sound comes out of.",
+      "examples": [
+        "Turn up the {speaker} so everyone can hear."
+      ],
+      "wrong": [
+        "I see pictures through the speaker."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈspikɚ/"
+    },
+    {
+      "lemma": "microphone",
+      "pos": "noun",
+      "meaning": "A thing you speak into to make your voice louder or record it.",
+      "examples": [
+        "Speak into the {microphone}, please."
+      ],
+      "wrong": [
+        "I use a microphone to see in the dark."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "mic"
+      ],
+      "ipa": "/ˈmaɪkrəˌfoʊn/"
+    },
+    {
+      "lemma": "monitor",
+      "pos": "noun",
+      "meaning": "The screen of a computer.",
+      "examples": [
+        "My new {monitor} is very big and bright."
+      ],
+      "wrong": [
+        "I type the words on my monitor with my fingers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "screen",
+        "display"
+      ],
+      "ipa": "/ˈmɑnətɚ/"
+    },
+    {
+      "lemma": "cable",
+      "pos": "noun",
+      "meaning": "A wire that connects two machines or carries power.",
+      "examples": [
+        "Plug the {cable} into the back of the TV."
+      ],
+      "wrong": [
+        "I tied my hair with a computer cable."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cord",
+        "wire"
+      ],
+      "ipa": "/ˈkeɪbəl/"
+    },
+    {
+      "lemma": "scanner",
+      "pos": "noun",
+      "meaning": "A machine that copies a paper page into a computer.",
+      "examples": [
+        "Put the letter in the {scanner} and press start."
+      ],
+      "wrong": [
+        "I put my dinner in the scanner to cook it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskænɚ/"
+    },
+    {
+      "lemma": "scan",
+      "pos": "verb",
+      "meaning": "To copy a page or picture into a computer with a machine.",
+      "examples": [
+        "Please {scan} your passport and email it to me."
+      ],
+      "wrong": [
+        "I scanned the document by throwing it away."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/skæn/"
+    },
+    {
+      "lemma": "ink",
+      "pos": "noun",
+      "meaning": "The colored liquid used in pens and printers.",
+      "examples": [
+        "The printer has run out of black {ink}."
+      ],
+      "wrong": [
+        "I filled the car with ink at the gas station."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪŋk/"
+    },
+    {
+      "lemma": "desktop",
+      "pos": "noun",
+      "meaning": "The main screen of a computer, where you see the icons.",
+      "examples": [
+        "I saved the file on my {desktop}."
+      ],
+      "wrong": [
+        "I put my coffee cup on my computer’s desktop screen."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdɛskˌtɑp/"
+    },
+    {
+      "lemma": "icon",
+      "pos": "noun",
+      "meaning": "A small picture on a screen that you click to open something.",
+      "examples": [
+        "Click the {icon} to open the app."
+      ],
+      "wrong": [
+        "An icon is a long sound the computer makes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "symbol"
+      ],
+      "ipa": "/ˈaɪkɑn/"
+    },
+    {
+      "lemma": "file",
+      "pos": "noun",
+      "meaning": "A document or picture kept on a computer.",
+      "examples": [
+        "I sent you the {file} by email."
+      ],
+      "wrong": [
+        "I opened the file and drank it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "document"
+      ],
+      "ipa": "/faɪl/"
+    },
+    {
+      "lemma": "home page",
+      "pos": "noun",
+      "meaning": "The first page you see on a website.",
+      "examples": [
+        "You can find our phone number on the {home page}."
+      ],
+      "wrong": [
+        "The home page is the last page in a paper book."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊm peɪdʒ/"
+    },
+    {
+      "lemma": "web page",
+      "pos": "noun",
+      "meaning": "One page that you can read on the internet.",
+      "examples": [
+        "This {web page} has a map of the town."
+      ],
+      "wrong": [
+        "I tore a web page out of my notebook."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɛb peɪdʒ/"
+    },
+    {
+      "lemma": "username",
+      "pos": "noun",
+      "meaning": "The name you use to enter a website or app.",
+      "examples": [
+        "Type your {username} and password."
+      ],
+      "wrong": [
+        "My username is the street where I live."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "login"
+      ],
+      "ipa": "/ˈjuzɚˌneɪm/"
+    },
+    {
+      "lemma": "profile",
+      "pos": "noun",
+      "meaning": "A page with information and a photo about you on a website.",
+      "examples": [
+        "I changed the photo on my {profile}."
+      ],
+      "wrong": [
+        "My profile is the battery inside my phone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈproʊfaɪl/"
+    },
+    {
+      "lemma": "social media",
+      "pos": "noun",
+      "meaning": "Websites and apps where people share photos and messages.",
+      "examples": [
+        "She posts pictures of her dog on {social media}."
+      ],
+      "wrong": [
+        "I read social media in a paper newspaper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsoʊʃəl ˈmidiə/"
+    },
+    {
+      "lemma": "inbox",
+      "pos": "noun",
+      "meaning": "The place where new emails arrive.",
+      "examples": [
+        "I have fifty new emails in my {inbox}."
+      ],
+      "wrong": [
+        "I keep my shoes in my inbox."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪnˌbɑks/"
+    },
+    {
+      "lemma": "emoji",
+      "pos": "noun",
+      "meaning": "A small picture you add to a text message.",
+      "examples": [
+        "She sent a smiling {emoji} to say thank you."
+      ],
+      "wrong": [
+        "An emoji is a long letter written by hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪˈmoʊdʒi/"
+    },
+    {
+      "lemma": "touch screen",
+      "pos": "noun",
+      "meaning": "A screen that you use by touching it with your finger.",
+      "examples": [
+        "This laptop has a {touch screen}, so you don’t need a mouse."
+      ],
+      "wrong": [
+        "A touch screen only works when nobody touches it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtʌtʃ skrin/"
+    },
+    {
+      "lemma": "swipe",
+      "pos": "verb",
+      "meaning": "To move your finger across a screen.",
+      "examples": [
+        "{Swipe} left to see the next photo."
+      ],
+      "wrong": [
+        "I swiped the screen by shouting at it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/swaɪp/"
+    },
+    {
+      "lemma": "type",
+      "pos": "verb",
+      "meaning": "To write using a keyboard.",
+      "examples": [
+        "She can {type} very fast."
+      ],
+      "wrong": [
+        "He typed the email using a pencil and paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/taɪp/"
+    },
+    {
+      "lemma": "paste",
+      "pos": "verb",
+      "meaning": "To put copied words or pictures into a new place on a computer.",
+      "examples": [
+        "Copy the address and {paste} it here."
+      ],
+      "wrong": [
+        "I pasted the text, so it disappeared from the page."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/peɪst/"
+    },
+    {
+      "lemma": "restart",
+      "pos": "verb",
+      "meaning": "To turn a computer or phone off and then on again.",
+      "examples": [
+        "If the app freezes, {restart} your phone."
+      ],
+      "wrong": [
+        "I restarted my laptop by closing the door."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "reboot"
+      ],
+      "ipa": "/riˈstɑrt/"
+    },
+    {
+      "lemma": "log out",
+      "pos": "phrase",
+      "meaning": "To leave a website or app so others can’t use your account.",
+      "examples": [
+        "Always {log out} when you use a shared computer."
+      ],
+      "wrong": [
+        "I logged out so I could start reading my messages."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sign out"
+      ],
+      "ipa": "/lɔɡ aʊt/",
+      "antonyms": [
+        "log in"
+      ]
+    },
+    {
+      "lemma": "switch on",
+      "pos": "verb",
+      "meaning": "To make a machine or light start working.",
+      "examples": [
+        "{Switch on} the computer and wait a minute."
+      ],
+      "wrong": [
+        "I switched on the light to make the room dark."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "turn on"
+      ],
+      "ipa": "/swɪtʃ ɑn/",
+      "antonyms": [
+        "switch off"
+      ]
+    },
+    {
+      "lemma": "switch off",
+      "pos": "verb",
+      "meaning": "To make a machine or light stop working.",
+      "examples": [
+        "Please {switch off} your phone during the film."
+      ],
+      "wrong": [
+        "She switched off the TV so she could watch the news."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "turn off"
+      ],
+      "ipa": "/swɪtʃ ɔf/",
+      "antonyms": [
+        "switch on"
+      ]
+    },
+    {
+      "lemma": "connect",
+      "pos": "verb",
+      "meaning": "To join a machine to another one or to the internet.",
+      "examples": [
+        "I can’t {connect} to the Wi-Fi."
+      ],
+      "wrong": [
+        "I connected the printer by keeping it far from the computer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "link"
+      ],
+      "ipa": "/kəˈnɛkt/",
+      "antonyms": [
+        "disconnect"
+      ]
+    },
+    {
+      "lemma": "connection",
+      "pos": "noun",
+      "meaning": "A link to the internet or between two machines.",
+      "examples": [
+        "The {connection} is slow, so the video keeps stopping."
+      ],
+      "wrong": [
+        "We have a good connection, so nothing will load."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "link"
+      ],
+      "ipa": "/kəˈnɛkʃən/"
+    },
+    {
+      "lemma": "hard drive",
+      "pos": "noun",
+      "meaning": "The part inside a computer that keeps files and programs.",
+      "examples": [
+        "My {hard drive} is full of photos."
+      ],
+      "wrong": [
+        "I keep my lunch on my hard drive."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɑrd draɪv/"
+    },
+    {
+      "lemma": "volume",
+      "pos": "noun",
+      "meaning": "How loud a sound is.",
+      "examples": [
+        "Can you turn down the {volume}? It’s too loud."
+      ],
+      "wrong": [
+        "I turned up the volume to make the music quieter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "loudness"
+      ],
+      "ipa": "/ˈvɑljum/"
+    },
+    {
+      "lemma": "mute",
+      "pos": "verb",
+      "meaning": "To turn off the sound of a phone, TV or computer.",
+      "examples": [
+        "Please {mute} your microphone during the meeting."
+      ],
+      "wrong": [
+        "I muted the video so I could hear it better."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "silence"
+      ],
+      "ipa": "/mjut/",
+      "antonyms": [
+        "unmute"
+      ]
+    },
+    {
+      "lemma": "user",
+      "pos": "noun",
+      "meaning": "A person who uses a computer, app or website.",
+      "examples": [
+        "The app has millions of {users}."
+      ],
+      "wrong": [
+        "A user is a person who never uses the app."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈjuzɚ/"
+    },
+    {
+      "lemma": "go online",
+      "pos": "phrase",
+      "meaning": "To start using the internet.",
+      "examples": [
+        "I {go online} to check the weather."
+      ],
+      "wrong": [
+        "I went online by turning off the internet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "log on"
+      ],
+      "ipa": "/ɡoʊ ɑnˈlaɪn/"
+    }
+  ]
+}

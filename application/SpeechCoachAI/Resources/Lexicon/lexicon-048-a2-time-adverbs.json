@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-time-adverbs",
+    "title": "Time and frequency",
+    "level": "A2",
+    "tagline": "Often, already, soon",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "rarely",
+      "pos": "adverb",
+      "meaning": "Not often; only a few times.",
+      "examples": [
+        "We {rarely} eat out because it costs a lot."
+      ],
+      "wrong": [
+        "He rarely drinks coffee, so he has five cups every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "seldom",
+        "hardly ever"
+      ],
+      "ipa": "/ˈrɛrli/",
+      "antonyms": [
+        "often",
+        "frequently"
+      ]
+    },
+    {
+      "lemma": "ever",
+      "pos": "adverb",
+      "meaning": "At any time, used in questions and with not.",
+      "examples": [
+        "Have you {ever} been to Japan?"
+      ],
+      "wrong": [
+        "\"Have you ever been to Rome?\" is a question only about next year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɛvɚ/",
+      "antonyms": [
+        "never"
+      ]
+    },
+    {
+      "lemma": "once",
+      "pos": "adverb",
+      "meaning": "One time only.",
+      "examples": [
+        "I go to the gym {once} a week, on Saturday."
+      ],
+      "wrong": [
+        "She calls once a week: on Monday, Wednesday and Friday."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/wʌns/"
+    },
+    {
+      "lemma": "twice",
+      "pos": "adverb",
+      "meaning": "Two times.",
+      "examples": [
+        "I brush my teeth {twice} a day, morning and night."
+      ],
+      "wrong": [
+        "He eats twice a day, so he has only one meal."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/twaɪs/"
+    },
+    {
+      "lemma": "nowadays",
+      "pos": "adverb",
+      "meaning": "At the present time, compared with the past.",
+      "examples": [
+        "{Nowadays} most people pay with their phones."
+      ],
+      "wrong": [
+        "Nowadays people wrote letters by hand a hundred years ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "these days",
+        "today"
+      ],
+      "ipa": "/ˈnaʊəˌdeɪz/"
+    },
+    {
+      "lemma": "afterwards",
+      "pos": "adverb",
+      "meaning": "Later, after something else has happened.",
+      "examples": [
+        "We watched the film and went for pizza {afterwards}."
+      ],
+      "wrong": [
+        "We had dinner afterwards, before the film started."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "later",
+        "after that"
+      ],
+      "ipa": "/ˈæftɚwɚdz/"
+    },
+    {
+      "lemma": "daily",
+      "pos": "adverb",
+      "meaning": "Every day.",
+      "examples": [
+        "The shop is open {daily} from nine to six."
+      ],
+      "wrong": [
+        "The bus runs daily, but only on Sundays."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "every day"
+      ],
+      "ipa": "/ˈdeɪli/"
+    },
+    {
+      "lemma": "weekly",
+      "pos": "adverb",
+      "meaning": "Once every week.",
+      "examples": [
+        "The team meets {weekly} on Monday mornings."
+      ],
+      "wrong": [
+        "We are paid weekly, once every two months."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "every week"
+      ],
+      "ipa": "/ˈwikli/"
+    },
+    {
+      "lemma": "monthly",
+      "pos": "adverb",
+      "meaning": "Once every month.",
+      "examples": [
+        "I pay the rent {monthly}, on the first day."
+      ],
+      "wrong": [
+        "The magazine comes out monthly, every single morning."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "every month"
+      ],
+      "ipa": "/ˈmʌnθli/"
+    },
+    {
+      "lemma": "yearly",
+      "pos": "adverb",
+      "meaning": "Once every year.",
+      "examples": [
+        "The festival takes place {yearly} in June."
+      ],
+      "wrong": [
+        "The race happens yearly, about four times a week."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "every year",
+        "annually"
+      ],
+      "ipa": "/ˈjɪrli/"
+    },
+    {
+      "lemma": "regularly",
+      "pos": "adverb",
+      "meaning": "Often, and usually at the same times.",
+      "examples": [
+        "She runs {regularly}, three times a week."
+      ],
+      "wrong": [
+        "He goes to the dentist regularly; his last visit was twenty years ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "often",
+        "frequently"
+      ],
+      "ipa": "/ˈrɛɡjəlɚli/",
+      "antonyms": [
+        "rarely"
+      ]
+    },
+    {
+      "lemma": "occasionally",
+      "pos": "adverb",
+      "meaning": "Sometimes, but not often.",
+      "examples": [
+        "We {occasionally} go to the theater, maybe twice a year."
+      ],
+      "wrong": [
+        "She occasionally drinks tea, about ten cups every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sometimes",
+        "now and then"
+      ],
+      "ipa": "/əˈkeɪʒənəli/",
+      "antonyms": [
+        "often",
+        "frequently"
+      ]
+    },
+    {
+      "lemma": "frequently",
+      "pos": "adverb",
+      "meaning": "Many times; often.",
+      "examples": [
+        "Buses come {frequently}, every five minutes."
+      ],
+      "wrong": [
+        "The train comes frequently, just once a day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "often",
+        "regularly"
+      ],
+      "ipa": "/ˈfrikwəntli/",
+      "antonyms": [
+        "rarely",
+        "seldom"
+      ]
+    },
+    {
+      "lemma": "normally",
+      "pos": "adverb",
+      "meaning": "In the usual way; most of the time.",
+      "examples": [
+        "I {normally} get up at seven, but today I slept late."
+      ],
+      "wrong": [
+        "I normally go by bike, and today, as always, I took the bus for the first time."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "usually",
+        "generally"
+      ],
+      "ipa": "/ˈnɔrməli/"
+    },
+    {
+      "lemma": "at once",
+      "pos": "phrase",
+      "meaning": "Now, without waiting.",
+      "examples": [
+        "The baby is crying, so come here {at once}!"
+      ],
+      "wrong": [
+        "Please come at once; next week is fine."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "right away",
+        "immediately"
+      ],
+      "ipa": "/æt ˈwʌns/",
+      "antonyms": [
+        "later"
+      ]
+    },
+    {
+      "lemma": "at first",
+      "pos": "phrase",
+      "meaning": "At the beginning, before something changed.",
+      "examples": [
+        "{At first} I didn’t like the city, but now I love it."
+      ],
+      "wrong": [
+        "At first I loved it, and I still love it exactly the same."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "in the beginning"
+      ],
+      "ipa": "/æt ˈfɝst/"
+    },
+    {
+      "lemma": "at last",
+      "pos": "phrase",
+      "meaning": "After a long wait.",
+      "examples": [
+        "{At last} the rain stopped and we went outside."
+      ],
+      "wrong": [
+        "The bus came at last, just one second after we arrived."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "finally"
+      ],
+      "ipa": "/æt ˈlæst/"
+    },
+    {
+      "lemma": "once in a while",
+      "pos": "phrase",
+      "meaning": "Sometimes, but not often.",
+      "examples": [
+        "We go to the beach {once in a while}, maybe three times a summer."
+      ],
+      "wrong": [
+        "He calls his mom once in a while: every hour of every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "occasionally",
+        "sometimes"
+      ],
+      "ipa": "/ˈwʌns ɪn ə ˈwaɪl/"
+    },
+    {
+      "lemma": "in time",
+      "pos": "phrase",
+      "meaning": "Early enough to do something.",
+      "examples": [
+        "We got to the station {in time} to catch the train."
+      ],
+      "wrong": [
+        "We got there in time, but the train had already left."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪn ˈtaɪm/"
+    },
+    {
+      "lemma": "from time to time",
+      "pos": "phrase",
+      "meaning": "Sometimes, but not regularly.",
+      "examples": [
+        "I see my old school friends {from time to time}."
+      ],
+      "wrong": [
+        "From time to time means at every single moment of the day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sometimes",
+        "occasionally"
+      ],
+      "ipa": "/frʌm ˈtaɪm tə ˈtaɪm/"
+    },
+    {
+      "lemma": "now and then",
+      "pos": "phrase",
+      "meaning": "Sometimes; not very often.",
+      "examples": [
+        "I eat chocolate {now and then}, maybe once a week."
+      ],
+      "wrong": [
+        "He smokes now and then, forty cigarettes every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sometimes",
+        "from time to time"
+      ],
+      "ipa": "/ˈnaʊ ən ˈðɛn/"
+    },
+    {
+      "lemma": "all the time",
+      "pos": "phrase",
+      "meaning": "Very often or without stopping.",
+      "examples": [
+        "My little brother asks questions {all the time}."
+      ],
+      "wrong": [
+        "She talks all the time, so she almost never says a word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "constantly"
+      ],
+      "ipa": "/ˈɔl ðə ˈtaɪm/"
+    },
+    {
+      "lemma": "these days",
+      "pos": "phrase",
+      "meaning": "At the present time; now.",
+      "examples": [
+        "{These days} I work from home most of the week."
+      ],
+      "wrong": [
+        "These days we didn’t have phones when I was a child."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "nowadays"
+      ],
+      "ipa": "/ˈðiz ˈdeɪz/"
+    },
+    {
+      "lemma": "in the end",
+      "pos": "phrase",
+      "meaning": "After a long time or after many changes.",
+      "examples": [
+        "We looked at ten flats, and {in the end} we chose the first one."
+      ],
+      "wrong": [
+        "In the end, at the very start of the trip, we got lost."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "finally",
+        "eventually"
+      ],
+      "ipa": "/ɪn ði ˈɛnd/"
+    },
+    {
+      "lemma": "for a while",
+      "pos": "phrase",
+      "meaning": "For a short time.",
+      "examples": [
+        "Let’s sit down and rest {for a while}."
+      ],
+      "wrong": [
+        "He lived there for a while: his whole life, ninety years."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fɚ ə ˈwaɪl/"
+    },
+    {
+      "lemma": "so far",
+      "pos": "phrase",
+      "meaning": "Until now.",
+      "examples": [
+        "I’ve read three chapters {so far}."
+      ],
+      "wrong": [
+        "So far means at some time in the future."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "until now",
+        "up to now"
+      ],
+      "ipa": "/ˈsoʊ ˈfɑr/"
+    },
+    {
+      "lemma": "just",
+      "pos": "adverb",
+      "meaning": "A very short time ago.",
+      "examples": [
+        "Sorry, she has {just} left the office."
+      ],
+      "wrong": [
+        "He has just arrived; he got here last year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒʌst/"
+    },
+    {
+      "lemma": "ago",
+      "pos": "adverb",
+      "meaning": "Before now; in the past.",
+      "examples": [
+        "I moved here two years {ago}."
+      ],
+      "wrong": [
+        "I will see you three days ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "earlier"
+      ],
+      "ipa": "/əˈɡoʊ/"
+    },
+    {
+      "lemma": "then",
+      "pos": "adverb",
+      "meaning": "At that time, or next.",
+      "examples": [
+        "Wash your hands and {then} sit down to eat."
+      ],
+      "wrong": [
+        "First eat the cake and then bake it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "next",
+        "after that"
+      ],
+      "ipa": "/ðɛn/"
+    },
+    {
+      "lemma": "at the moment",
+      "pos": "phrase",
+      "meaning": "Now; at this time.",
+      "examples": [
+        "I’m busy {at the moment}. Can I call you back?"
+      ],
+      "wrong": [
+        "He is sleeping at the moment, last Tuesday."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "right now",
+        "currently"
+      ],
+      "ipa": "/æt ðə ˈmoʊmənt/"
+    },
+    {
+      "lemma": "right now",
+      "pos": "phrase",
+      "meaning": "At this exact time.",
+      "examples": [
+        "I can’t talk {right now}; I’m driving."
+      ],
+      "wrong": [
+        "She is eating right now, tomorrow at noon."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "at the moment"
+      ],
+      "ipa": "/ˈraɪt ˈnaʊ/"
+    },
+    {
+      "lemma": "tonight",
+      "pos": "adverb",
+      "meaning": "This evening or this night.",
+      "examples": [
+        "Are you free {tonight}? Let’s see a film."
+      ],
+      "wrong": [
+        "I went to the party tonight, three days ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "this evening"
+      ],
+      "ipa": "/təˈnaɪt/"
+    },
+    {
+      "lemma": "hardly ever",
+      "pos": "phrase",
+      "meaning": "Almost never.",
+      "examples": [
+        "It {hardly ever} snows here, maybe once in ten years."
+      ],
+      "wrong": [
+        "He hardly ever eats bread; he has it with every meal."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rarely",
+        "almost never"
+      ],
+      "ipa": "/ˈhɑrdli ˈɛvɚ/",
+      "antonyms": [
+        "often",
+        "always"
+      ]
+    },
+    {
+      "lemma": "most of the time",
+      "pos": "phrase",
+      "meaning": "Usually; nearly always.",
+      "examples": [
+        "I walk to work {most of the time}, but not when it rains."
+      ],
+      "wrong": [
+        "Most of the time means just once or twice a year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "usually",
+        "mostly"
+      ],
+      "ipa": "/ˈmoʊst əv ðə ˈtaɪm/"
+    },
+    {
+      "lemma": "the other day",
+      "pos": "phrase",
+      "meaning": "A few days ago.",
+      "examples": [
+        "I saw your brother at the store {the other day}."
+      ],
+      "wrong": [
+        "I’ll meet him the other day, in two weeks."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "recently"
+      ],
+      "ipa": "/ði ˈʌðɚ ˈdeɪ/"
+    },
+    {
+      "lemma": "right away",
+      "pos": "phrase",
+      "meaning": "Very quickly, without waiting.",
+      "examples": [
+        "When the alarm rang, we left the building {right away}."
+      ],
+      "wrong": [
+        "The fire alarm rang, so we left right away, two hours later."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "at once",
+        "immediately"
+      ],
+      "ipa": "/ˈraɪt əˈweɪ/",
+      "antonyms": [
+        "later"
+      ]
+    },
+    {
+      "lemma": "one day",
+      "pos": "phrase",
+      "meaning": "At some time in the future, or on a day in the past.",
+      "examples": [
+        "{One day} I want to visit Canada."
+      ],
+      "wrong": [
+        "One day I’ll travel the world, but I never will."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "someday"
+      ],
+      "ipa": "/ˈwʌn ˈdeɪ/"
+    },
+    {
+      "lemma": "not yet",
+      "pos": "phrase",
+      "meaning": "Not until now, but probably later.",
+      "examples": [
+        "Is dinner ready? {Not yet}, give me ten minutes."
+      ],
+      "wrong": [
+        "Has the bus come? Not yet, it left an hour ago."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnɑt ˈjɛt/"
+    },
+    {
+      "lemma": "sooner or later",
+      "pos": "phrase",
+      "meaning": "At some time in the future, even if you don’t know when.",
+      "examples": [
+        "Don’t worry; he will call {sooner or later}."
+      ],
+      "wrong": [
+        "Sooner or later means it will certainly never happen."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "eventually"
+      ],
+      "ipa": "/ˈsunɚ ɔr ˈleɪtɚ/"
+    },
+    {
+      "lemma": "anymore",
+      "pos": "adverb",
+      "meaning": "No longer; not now as in the past.",
+      "examples": [
+        "I used to play the piano, but I don’t play {anymore}."
+      ],
+      "wrong": [
+        "He doesn’t live here anymore, and he still lives here."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "any longer"
+      ],
+      "ipa": "/ˌɛniˈmɔr/"
+    }
+  ]
+}

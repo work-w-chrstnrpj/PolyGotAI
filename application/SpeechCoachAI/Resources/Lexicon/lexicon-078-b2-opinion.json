@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-opinion",
+    "title": "Opinion and argument",
+    "level": "B2",
+    "tagline": "Say what you think",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "claim",
+      "pos": "verb",
+      "meaning": "To say that something is true, often without proof.",
+      "examples": [
+        "She {claims} that the story is false."
+      ],
+      "wrong": [
+        "I claim a thing when I do not say anything about it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "state",
+        "assert"
+      ],
+      "ipa": "/kleɪm/"
+    },
+    {
+      "lemma": "assert",
+      "pos": "verb",
+      "meaning": "To state something firmly.",
+      "examples": [
+        "He {asserted} that he had done nothing wrong."
+      ],
+      "wrong": [
+        "We assert a fact when we are not sure and whisper it quietly."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "declare",
+        "state firmly"
+      ],
+      "ipa": "/əˈsɝt/"
+    },
+    {
+      "lemma": "doubt",
+      "pos": "verb",
+      "meaning": "To feel unsure about something.",
+      "examples": [
+        "I {doubt} that he will come."
+      ],
+      "wrong": [
+        "I doubt something when I am completely sure it is true."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "question",
+        "distrust"
+      ],
+      "ipa": "/daʊt/"
+    },
+    {
+      "lemma": "convince",
+      "pos": "verb",
+      "meaning": "To make someone believe something.",
+      "examples": [
+        "I tried to {convince} him to join us."
+      ],
+      "wrong": [
+        "I convince a person when I force them not to believe anything."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "persuade",
+        "assure"
+      ],
+      "ipa": "/kənˈvɪns/"
+    },
+    {
+      "lemma": "persuade",
+      "pos": "verb",
+      "meaning": "To make someone do something by giving reasons.",
+      "examples": [
+        "She {persuaded} me to apply for the job."
+      ],
+      "wrong": [
+        "I persuade a person when I never give any reason."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "convince",
+        "win over"
+      ],
+      "ipa": "/pɚˈsweɪd/"
+    },
+    {
+      "lemma": "disagree",
+      "pos": "verb",
+      "meaning": "To have a different opinion.",
+      "examples": [
+        "I {disagree} with your idea."
+      ],
+      "wrong": [
+        "I disagree when I think exactly the same as you."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "differ",
+        "object"
+      ],
+      "ipa": "/ˌdɪsəˈɡri/",
+      "antonyms": [
+        "agree"
+      ]
+    },
+    {
+      "lemma": "criticize",
+      "pos": "verb",
+      "meaning": "To say what you think is wrong with someone or something.",
+      "examples": [
+        "People {criticize} the plan for being too expensive."
+      ],
+      "wrong": [
+        "We criticize a plan when we praise it warmly."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "find fault with",
+        "condemn"
+      ],
+      "ipa": "/ˈkrɪtəˌsaɪz/"
+    },
+    {
+      "lemma": "support",
+      "pos": "verb",
+      "meaning": "To agree with and help an idea or a person.",
+      "examples": [
+        "Most people {support} the new law."
+      ],
+      "wrong": [
+        "People support a plan when they work against it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "back",
+        "endorse"
+      ],
+      "ipa": "/səˈpɔrt/",
+      "antonyms": [
+        "oppose"
+      ]
+    },
+    {
+      "lemma": "oppose",
+      "pos": "verb",
+      "meaning": "To disagree strongly with something and try to stop it.",
+      "examples": [
+        "Many residents {oppose} the new road."
+      ],
+      "wrong": [
+        "We oppose a plan when we are happy to help it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "resist",
+        "object to"
+      ],
+      "ipa": "/əˈpoʊz/",
+      "antonyms": [
+        "support",
+        "favor"
+      ]
+    },
+    {
+      "lemma": "controversial",
+      "pos": "adjective",
+      "meaning": "Causing a lot of disagreement.",
+      "examples": [
+        "The decision was very {controversial}."
+      ],
+      "wrong": [
+        "The decision was controversial because everyone agreed at once."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "disputed",
+        "contentious"
+      ],
+      "ipa": "/ˌkɑntrəˈvɝʃəl/"
+    },
+    {
+      "lemma": "reasonable",
+      "pos": "adjective",
+      "meaning": "Fair and sensible.",
+      "examples": [
+        "That is a {reasonable} price."
+      ],
+      "wrong": [
+        "The price is reasonable because it is too high for anyone."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "sensible",
+        "fair"
+      ],
+      "ipa": "/ˈrizənəbəl/",
+      "antonyms": [
+        "unreasonable"
+      ]
+    },
+    {
+      "lemma": "logical",
+      "pos": "adjective",
+      "meaning": "Based on clear thinking.",
+      "examples": [
+        "It is {logical} to check the facts first."
+      ],
+      "wrong": [
+        "It is logical to decide without any thinking."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "rational",
+        "sound"
+      ],
+      "ipa": "/ˈlɑdʒɪkəl/",
+      "antonyms": [
+        "illogical"
+      ]
+    },
+    {
+      "lemma": "biased",
+      "pos": "adjective",
+      "meaning": "Unfairly favoring one side.",
+      "examples": [
+        "The judge was {biased} against the team."
+      ],
+      "wrong": [
+        "A biased judge treats everyone exactly the same way."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "one-sided",
+        "partial"
+      ],
+      "ipa": "/ˈbaɪəst/",
+      "antonyms": [
+        "unbiased",
+        "impartial"
+      ]
+    },
+    {
+      "lemma": "subjective",
+      "pos": "adjective",
+      "meaning": "Based on personal feelings rather than facts.",
+      "examples": [
+        "Taste in music is {subjective}."
+      ],
+      "wrong": [
+        "A subjective opinion is a fact that anyone can measure."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "personal"
+      ],
+      "ipa": "/səbˈdʒɛktɪv/",
+      "antonyms": [
+        "objective"
+      ]
+    },
+    {
+      "lemma": "exaggerate",
+      "pos": "verb",
+      "meaning": "To make something seem bigger or better than it is.",
+      "examples": [
+        "Don’t {exaggerate}; it was not that bad."
+      ],
+      "wrong": [
+        "We exaggerate when we make things seem smaller and tell the exact truth."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "overstate",
+        "inflate"
+      ],
+      "ipa": "/ɪɡˈzædʒəˌreɪt/"
+    },
+    {
+      "lemma": "admit",
+      "pos": "verb",
+      "meaning": "To agree that something is true, often unwillingly.",
+      "examples": [
+        "He had to {admit} that he was wrong."
+      ],
+      "wrong": [
+        "We admit a mistake when we say we did nothing wrong."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "confess",
+        "acknowledge"
+      ],
+      "ipa": "/ədˈmɪt/",
+      "antonyms": [
+        "deny"
+      ]
+    },
+    {
+      "lemma": "deny",
+      "pos": "verb",
+      "meaning": "To say that something is not true.",
+      "examples": [
+        "She {denied} taking the money."
+      ],
+      "wrong": [
+        "We deny something when we say that it is true and we agree."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "reject",
+        "refute"
+      ],
+      "ipa": "/dɪˈnaɪ/",
+      "antonyms": [
+        "admit",
+        "confirm"
+      ]
+    },
+    {
+      "lemma": "insist",
+      "pos": "verb",
+      "meaning": "To say firmly that something must happen.",
+      "examples": [
+        "I {insist} on paying for dinner."
+      ],
+      "wrong": [
+        "I insist when I do not mind and let others decide."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "demand",
+        "maintain"
+      ],
+      "ipa": "/ɪnˈsɪst/"
+    },
+    {
+      "lemma": "suggest",
+      "pos": "verb",
+      "meaning": "To offer an idea for someone to consider.",
+      "examples": [
+        "I {suggest} that we take a break."
+      ],
+      "wrong": [
+        "I suggest an idea when I give an order and nobody can choose."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "propose",
+        "recommend"
+      ],
+      "ipa": "/səɡˈdʒɛst/"
+    },
+    {
+      "lemma": "recommend",
+      "pos": "verb",
+      "meaning": "To say that something is good and should be chosen.",
+      "examples": [
+        "I {recommend} the fish here."
+      ],
+      "wrong": [
+        "I recommend a restaurant when I say that nobody should go there."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "advise",
+        "suggest"
+      ],
+      "ipa": "/ˌrɛkəˈmɛnd/"
+    },
+    {
+      "lemma": "predict",
+      "pos": "verb",
+      "meaning": "To say what you think will happen.",
+      "examples": [
+        "Experts {predict} that prices will rise."
+      ],
+      "wrong": [
+        "We predict an event after it has already happened."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "forecast",
+        "foresee"
+      ],
+      "ipa": "/prɪˈdɪkt/"
+    },
+    {
+      "lemma": "imply",
+      "pos": "verb",
+      "meaning": "To suggest something without saying it directly.",
+      "examples": [
+        "Her smile seemed to {imply} that she agreed."
+      ],
+      "wrong": [
+        "I imply something when I say it directly in plain words."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "hint",
+        "suggest"
+      ],
+      "ipa": "/ɪmˈplaɪ/"
+    },
+    {
+      "lemma": "justify",
+      "pos": "verb",
+      "meaning": "To show that something is right or reasonable.",
+      "examples": [
+        "How can you {justify} such a high price?"
+      ],
+      "wrong": [
+        "We justify a decision when we cannot give any reason."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "defend",
+        "explain"
+      ],
+      "ipa": "/ˈdʒʌstəˌfaɪ/"
+    },
+    {
+      "lemma": "proof",
+      "pos": "noun",
+      "meaning": "Facts that show something is true.",
+      "examples": [
+        "Do you have any {proof} of your claim?"
+      ],
+      "wrong": [
+        "Proof is a guess that nobody can check."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "evidence",
+        "confirmation"
+      ],
+      "ipa": "/pruf/"
+    },
+    {
+      "lemma": "valid",
+      "pos": "adjective",
+      "meaning": "Reasonable, or allowed by the rules.",
+      "examples": [
+        "That is a {valid} point."
+      ],
+      "wrong": [
+        "A valid ticket is a ticket that is not good any more."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "sound",
+        "legitimate"
+      ],
+      "ipa": "/ˈvælɪd/",
+      "antonyms": [
+        "invalid"
+      ]
+    },
+    {
+      "lemma": "weakness",
+      "pos": "noun",
+      "meaning": "A fault or a lack of strength.",
+      "examples": [
+        "Lack of time is the main {weakness} of this plan."
+      ],
+      "wrong": [
+        "A weakness is the best part of a plan."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "flaw",
+        "shortcoming"
+      ],
+      "ipa": "/ˈwiknəs/",
+      "antonyms": [
+        "strength"
+      ]
+    },
+    {
+      "lemma": "advantage",
+      "pos": "noun",
+      "meaning": "Something that helps you do better than others.",
+      "examples": [
+        "Speaking two languages is a big {advantage}."
+      ],
+      "wrong": [
+        "An advantage is a problem that makes your job harder."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "benefit",
+        "strength"
+      ],
+      "ipa": "/ədˈvæntɪdʒ/",
+      "antonyms": [
+        "disadvantage",
+        "drawback"
+      ]
+    },
+    {
+      "lemma": "disadvantage",
+      "pos": "noun",
+      "meaning": "Something that makes things more difficult.",
+      "examples": [
+        "The main {disadvantage} of the apartment is the noise."
+      ],
+      "wrong": [
+        "A disadvantage is a benefit that helps you win."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "drawback",
+        "downside"
+      ],
+      "ipa": "/ˌdɪsədˈvæntɪdʒ/",
+      "antonyms": [
+        "advantage",
+        "benefit"
+      ]
+    },
+    {
+      "lemma": "debate",
+      "pos": "noun",
+      "meaning": "A discussion in which people give different opinions.",
+      "examples": [
+        "There was a long {debate} about the new road."
+      ],
+      "wrong": [
+        "A debate is a meeting where nobody speaks."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "discussion",
+        "argument"
+      ],
+      "ipa": "/dɪˈbeɪt/"
+    },
+    {
+      "lemma": "consensus",
+      "pos": "noun",
+      "meaning": "General agreement among a group.",
+      "examples": [
+        "The team reached a {consensus} after a long talk."
+      ],
+      "wrong": [
+        "A consensus is a fight in which nobody agrees on anything."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "agreement",
+        "accord"
+      ],
+      "ipa": "/kənˈsɛnsəs/"
+    },
+    {
+      "lemma": "compromise",
+      "pos": "noun",
+      "meaning": "An agreement in which each side gives up something.",
+      "examples": [
+        "We found a {compromise} on the price."
+      ],
+      "wrong": [
+        "A compromise is a decision in which one side wins everything."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "middle ground",
+        "settlement"
+      ],
+      "ipa": "/ˈkɑmprəˌmaɪz/"
+    },
+    {
+      "lemma": "perspective",
+      "pos": "noun",
+      "meaning": "A particular way of thinking about something.",
+      "examples": [
+        "Try to see the problem from her {perspective}."
+      ],
+      "wrong": [
+        "A perspective is a type of machine for cutting wood."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "viewpoint",
+        "outlook"
+      ],
+      "ipa": "/pɚˈspɛktɪv/"
+    },
+    {
+      "lemma": "viewpoint",
+      "pos": "noun",
+      "meaning": "A person’s way of seeing or judging something.",
+      "examples": [
+        "From my {viewpoint}, the plan is too risky."
+      ],
+      "wrong": [
+        "A viewpoint is a fact that is true for everyone."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "perspective",
+        "opinion"
+      ],
+      "ipa": "/ˈvjuˌpɔɪnt/"
+    },
+    {
+      "lemma": "attitude",
+      "pos": "noun",
+      "meaning": "The way you think or feel about something.",
+      "examples": [
+        "She has a positive {attitude} to work."
+      ],
+      "wrong": [
+        "An attitude is the height of a mountain."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "outlook",
+        "stance"
+      ],
+      "ipa": "/ˈætəˌtud/"
+    },
+    {
+      "lemma": "stance",
+      "pos": "noun",
+      "meaning": "A public position on an issue.",
+      "examples": [
+        "The party took a firm {stance} on taxes."
+      ],
+      "wrong": [
+        "A stance is a type of food."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "position",
+        "attitude"
+      ],
+      "ipa": "/stæns/"
+    },
+    {
+      "lemma": "reluctant",
+      "pos": "adjective",
+      "meaning": "Not willing and slow to do something.",
+      "examples": [
+        "He was {reluctant} to speak in public."
+      ],
+      "wrong": [
+        "She was reluctant because she was eager and ran to do it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "unwilling",
+        "hesitant"
+      ],
+      "ipa": "/rɪˈlʌktənt/",
+      "antonyms": [
+        "willing",
+        "eager"
+      ]
+    },
+    {
+      "lemma": "skeptical",
+      "pos": "adjective",
+      "meaning": "Doubting that something is true or good.",
+      "examples": [
+        "I am {skeptical} about his promise."
+      ],
+      "wrong": [
+        "I am skeptical because I believe everything he says."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "doubtful",
+        "unconvinced"
+      ],
+      "ipa": "/ˈskɛptɪkəl/",
+      "antonyms": [
+        "convinced",
+        "trusting"
+      ]
+    },
+    {
+      "lemma": "convinced",
+      "pos": "adjective",
+      "meaning": "Completely sure about something.",
+      "examples": [
+        "I am {convinced} that she is right."
+      ],
+      "wrong": [
+        "I am convinced, so I have no idea and I am not sure at all."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "certain",
+        "sure"
+      ],
+      "ipa": "/kənˈvɪnst/",
+      "antonyms": [
+        "doubtful",
+        "unconvinced"
+      ]
+    },
+    {
+      "lemma": "undecided",
+      "pos": "adjective",
+      "meaning": "Not yet having made a choice.",
+      "examples": [
+        "I am still {undecided} about the job."
+      ],
+      "wrong": [
+        "I am undecided, so I made my final choice an hour ago."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "unsure",
+        "uncertain"
+      ],
+      "ipa": "/ˌʌndɪˈsaɪdɪd/",
+      "antonyms": [
+        "decided"
+      ]
+    },
+    {
+      "lemma": "persuasive",
+      "pos": "adjective",
+      "meaning": "Good at making people believe or do something.",
+      "examples": [
+        "She gave a very {persuasive} speech."
+      ],
+      "wrong": [
+        "A persuasive speech makes nobody change their mind."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "convincing",
+        "compelling"
+      ],
+      "ipa": "/pɚˈsweɪsɪv/",
+      "antonyms": [
+        "unconvincing"
+      ]
+    }
+  ]
+}

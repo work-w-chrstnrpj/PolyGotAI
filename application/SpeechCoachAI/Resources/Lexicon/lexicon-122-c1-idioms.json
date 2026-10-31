@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-idioms",
+    "title": "Idioms at C1",
+    "level": "C1",
+    "tagline": "Vivid everyday expressions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "a hard nut to crack",
+      "pos": "phrase",
+      "meaning": "A problem or person that is very difficult to deal with or understand.",
+      "examples": [
+        "The final level of the puzzle is {a hard nut to crack}."
+      ],
+      "wrong": [
+        "The question was a hard nut to crack, so everyone answered it in seconds."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ə ˈhɑrd ˈnʌt tə ˈkræk/"
+    },
+    {
+      "lemma": "at the drop of a hat",
+      "pos": "phrase",
+      "meaning": "Immediately and without needing time to think or prepare.",
+      "examples": [
+        "He’d fly to Paris {at the drop of a hat}."
+      ],
+      "wrong": [
+        "She agreed at the drop of a hat after thinking about it for months."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/æt ðə ˈdrɑp əv ə ˈhæt/"
+    },
+    {
+      "lemma": "bark up the wrong tree",
+      "pos": "phrase",
+      "meaning": "To look for a cause or answer in the wrong place, or blame the wrong person.",
+      "examples": [
+        "If you think I took your pen, you’re {barking up the wrong tree}."
+      ],
+      "wrong": [
+        "The detective was barking up the wrong tree, so he caught the real thief at once."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈbɑrk ʌp ðə ˈrɔŋ ˈtri/"
+    },
+    {
+      "lemma": "get the wrong end of the stick",
+      "pos": "phrase",
+      "meaning": "To misunderstand what someone means or what is happening.",
+      "examples": [
+        "She {got the wrong end of the stick} and thought the party was for her."
+      ],
+      "wrong": [
+        "He got the wrong end of the stick, so he understood my point perfectly."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "misunderstand"
+      ],
+      "ipa": "/ɡɛt ðə ˈrɔŋ ˈɛnd əv ðə ˈstɪk/"
+    },
+    {
+      "lemma": "keep your cards close to your chest",
+      "pos": "phrase",
+      "meaning": "To keep your plans or thoughts secret from other people.",
+      "examples": [
+        "The manager {kept her cards close to her chest} about the new hires."
+      ],
+      "wrong": [
+        "He kept his cards close to his chest and told everyone his whole plan."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈkip jɚ ˈkɑrdz ˈkloʊs tə jɚ ˈtʃɛst/"
+    },
+    {
+      "lemma": "have a chip on your shoulder",
+      "pos": "phrase",
+      "meaning": "To feel angry or bitter because you think you were treated unfairly in the past.",
+      "examples": [
+        "He {has a chip on his shoulder} about not going to college."
+      ],
+      "wrong": [
+        "She has a chip on her shoulder, so she feels calm and fairly treated."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/hæv ə ˈtʃɪp ɑn jɚ ˈʃoʊldɚ/"
+    },
+    {
+      "lemma": "get your act together",
+      "pos": "phrase",
+      "meaning": "To start organizing yourself and behaving in a more sensible, effective way.",
+      "examples": [
+        "You need to {get your act together} before the exams."
+      ],
+      "wrong": [
+        "He got his act together and became more disorganized than ever."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "shape up"
+      ],
+      "ipa": "/ɡɛt jɚ ˈækt təˈɡɛðɚ/"
+    },
+    {
+      "lemma": "jump the gun",
+      "pos": "phrase",
+      "meaning": "To do something too soon, before the right moment.",
+      "examples": [
+        "Let’s not {jump the gun}; the results aren’t final yet."
+      ],
+      "wrong": [
+        "He jumped the gun by waiting patiently until everything was ready."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈdʒʌmp ðə ˈɡʌn/"
+    },
+    {
+      "lemma": "pass the buck",
+      "pos": "phrase",
+      "meaning": "To make someone else deal with a problem you should deal with yourself.",
+      "examples": [
+        "Stop {passing the buck} and fix the mistake yourself."
+      ],
+      "wrong": [
+        "She passed the buck and took full responsibility for the error."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈpæs ðə ˈbʌk/"
+    },
+    {
+      "lemma": "the writing is on the wall",
+      "pos": "phrase",
+      "meaning": "There are clear signs that something bad, like failure, will happen soon.",
+      "examples": [
+        "Sales kept falling, and {the writing was on the wall} for the shop."
+      ],
+      "wrong": [
+        "The writing was on the wall, so nobody could have guessed the store would close."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ðə ˈraɪtɪŋ ɪz ɑn ðə ˈwɔl/"
+    },
+    {
+      "lemma": "a double-edged sword",
+      "pos": "phrase",
+      "meaning": "Something that has both good and bad results.",
+      "examples": [
+        "Fame can be {a double-edged sword}."
+      ],
+      "wrong": [
+        "The plan was a double-edged sword because it had only good effects."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ə ˈdʌbəlˌɛdʒd ˈsɔrd/"
+    },
+    {
+      "lemma": "come to a head",
+      "pos": "phrase",
+      "meaning": "To reach a point where a problem must be dealt with because it is so serious.",
+      "examples": [
+        "The dispute {came to a head} at Monday’s meeting."
+      ],
+      "wrong": [
+        "The conflict came to a head and quietly disappeared without anyone noticing."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈkʌm tu ə ˈhɛd/"
+    },
+    {
+      "lemma": "keep someone at arm’s length",
+      "pos": "phrase",
+      "meaning": "To avoid becoming close or friendly with someone.",
+      "examples": [
+        "She {keeps her neighbors at arm’s length}."
+      ],
+      "wrong": [
+        "He kept her at arm’s length by sharing all his secrets with her."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈkip ˈsʌmˌwʌn æt ˈɑrmz ˈlɛŋθ/"
+    },
+    {
+      "lemma": "make a mountain out of a molehill",
+      "pos": "phrase",
+      "meaning": "To treat a small problem as if it were very serious.",
+      "examples": [
+        "It’s only a scratch; don’t {make a mountain out of a molehill}."
+      ],
+      "wrong": [
+        "He made a mountain out of a molehill by ignoring a huge disaster."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "exaggerate"
+      ],
+      "ipa": "/ˈmeɪk ə ˈmaʊntən aʊt əv ə ˈmoʊlˌhɪl/"
+    },
+    {
+      "lemma": "a recipe for disaster",
+      "pos": "phrase",
+      "meaning": "Something that is almost certain to end very badly.",
+      "examples": [
+        "Driving all night with no sleep is {a recipe for disaster}."
+      ],
+      "wrong": [
+        "The careful, well-tested plan was a recipe for disaster, so it worked perfectly."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ə ˈrɛsəpi fɚ dɪˈzæstɚ/"
+    },
+    {
+      "lemma": "go down like a lead balloon",
+      "pos": "phrase",
+      "meaning": "To be received very badly by other people.",
+      "examples": [
+        "His joke {went down like a lead balloon}."
+      ],
+      "wrong": [
+        "The speech went down like a lead balloon, and everyone cheered loudly."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "flop"
+      ],
+      "ipa": "/ɡoʊ ˈdaʊn laɪk ə ˈlɛd bəˈlun/"
+    },
+    {
+      "lemma": "have your work cut out",
+      "pos": "phrase",
+      "meaning": "To have a very hard task to do.",
+      "examples": [
+        "With only two days left, we {have our work cut out}."
+      ],
+      "wrong": [
+        "We had our work cut out, so the job was very easy."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/hæv jɚ ˈwɝk ˈkʌt ˈaʊt/"
+    },
+    {
+      "lemma": "a fly in the ointment",
+      "pos": "phrase",
+      "meaning": "One small problem that spoils something that is otherwise good.",
+      "examples": [
+        "The hotel was lovely; the only {fly in the ointment} was the noise."
+      ],
+      "wrong": [
+        "The fly in the ointment was the best part of the whole trip."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "snag",
+        "drawback"
+      ],
+      "ipa": "/ə ˈflaɪ ɪn ði ˈɔɪntmənt/"
+    },
+    {
+      "lemma": "in the pipeline",
+      "pos": "phrase",
+      "meaning": "Being planned or prepared and likely to happen soon.",
+      "examples": [
+        "Several new products are {in the pipeline}."
+      ],
+      "wrong": [
+        "The project is in the pipeline, so it was finished years ago."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "underway",
+        "planned"
+      ],
+      "ipa": "/ɪn ðə ˈpaɪpˌlaɪn/"
+    },
+    {
+      "lemma": "jump through hoops",
+      "pos": "phrase",
+      "meaning": "To do many difficult or annoying things to get something.",
+      "examples": [
+        "We had to {jump through hoops} to get the visa."
+      ],
+      "wrong": [
+        "Getting the permit was simple; we jumped through hoops in five minutes with no effort."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈdʒʌmp θru ˈhups/"
+    },
+    {
+      "lemma": "take the plunge",
+      "pos": "phrase",
+      "meaning": "To finally decide to do something important or risky after thinking about it.",
+      "examples": [
+        "After years of renting, they {took the plunge} and bought a house."
+      ],
+      "wrong": [
+        "She took the plunge and decided never to try it."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈteɪk ðə ˈplʌndʒ/"
+    },
+    {
+      "lemma": "leave no stone unturned",
+      "pos": "phrase",
+      "meaning": "To try every possible way to find something or solve a problem.",
+      "examples": [
+        "The police {left no stone unturned} in the search."
+      ],
+      "wrong": [
+        "They left no stone unturned and stopped looking after one quick try."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈliv noʊ ˈstoʊn ʌnˈtɝnd/"
+    },
+    {
+      "lemma": "not cut out for",
+      "pos": "phrase",
+      "meaning": "Not having the right qualities or skills for a job or activity.",
+      "examples": [
+        "I’m {not cut out for} teaching; I’m too impatient."
+      ],
+      "wrong": [
+        "She’s not cut out for nursing, so she is the best nurse in the hospital."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "unsuited to"
+      ],
+      "ipa": "/ˈnɑt ˈkʌt ˈaʊt fɔr/"
+    },
+    {
+      "lemma": "on the back burner",
+      "pos": "phrase",
+      "meaning": "Delayed for now because it is less important than other things.",
+      "examples": [
+        "The new website is {on the back burner} until spring."
+      ],
+      "wrong": [
+        "The project is on the back burner, so it’s our top priority today."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "on hold",
+        "postponed"
+      ],
+      "ipa": "/ɑn ðə ˈbæk ˈbɝnɚ/"
+    },
+    {
+      "lemma": "par for the course",
+      "pos": "phrase",
+      "meaning": "Normal and expected, especially when it is not good.",
+      "examples": [
+        "Long delays are {par for the course} at this airport."
+      ],
+      "wrong": [
+        "Delays here are par for the course, so they almost never happen."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "typical",
+        "normal"
+      ],
+      "ipa": "/ˈpɑr fɚ ðə ˈkɔrs/"
+    },
+    {
+      "lemma": "push the envelope",
+      "pos": "phrase",
+      "meaning": "To go beyond the usual limits and try new things.",
+      "examples": [
+        "The designers love to {push the envelope}."
+      ],
+      "wrong": [
+        "The artist pushed the envelope by copying exactly what everyone else did."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "innovate"
+      ],
+      "ipa": "/ˈpʊʃ ði ˈɛnvəˌloʊp/"
+    },
+    {
+      "lemma": "put your foot down",
+      "pos": "phrase",
+      "meaning": "To say firmly that something must or must not happen.",
+      "examples": [
+        "When the kids wanted a fourth dessert, I {put my foot down}."
+      ],
+      "wrong": [
+        "She put her foot down and let them do whatever they liked."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "insist"
+      ],
+      "ipa": "/ˈpʊt jɚ ˈfʊt ˈdaʊn/"
+    },
+    {
+      "lemma": "rock the boat",
+      "pos": "phrase",
+      "meaning": "To cause trouble or upset a calm situation.",
+      "examples": [
+        "He didn’t want to {rock the boat} by complaining."
+      ],
+      "wrong": [
+        "She rocked the boat by quietly agreeing with everyone."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "make waves"
+      ],
+      "ipa": "/ˈrɑk ðə ˈboʊt/"
+    },
+    {
+      "lemma": "a red herring",
+      "pos": "phrase",
+      "meaning": "Something that takes attention away from the real issue, often on purpose.",
+      "examples": [
+        "The missing key turned out to be {a red herring}."
+      ],
+      "wrong": [
+        "The red herring was the most important clue that solved the case."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "distraction"
+      ],
+      "ipa": "/ə ˈrɛd ˈhɛrɪŋ/"
+    },
+    {
+      "lemma": "take a back seat",
+      "pos": "phrase",
+      "meaning": "To choose a less active or less important role.",
+      "examples": [
+        "After retiring, she {took a back seat} in the company."
+      ],
+      "wrong": [
+        "He took a back seat and made every decision himself."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈteɪk ə ˈbæk ˈsit/"
+    },
+    {
+      "lemma": "the jury is still out",
+      "pos": "phrase",
+      "meaning": "People have not yet decided or agreed about something.",
+      "examples": [
+        "{The jury is still out} on whether the new rule works."
+      ],
+      "wrong": [
+        "The jury is still out, because everyone already agrees it works."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "undecided"
+      ],
+      "ipa": "/ðə ˈdʒʊri ɪz ˈstɪl ˈaʊt/"
+    },
+    {
+      "lemma": "throw caution to the wind",
+      "pos": "phrase",
+      "meaning": "To stop worrying about risks and do something bold.",
+      "examples": [
+        "We {threw caution to the wind} and booked the trip."
+      ],
+      "wrong": [
+        "He threw caution to the wind and checked every risk three times."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈθroʊ ˈkɔʃən tə ðə ˈwɪnd/"
+    },
+    {
+      "lemma": "tread on someone’s toes",
+      "pos": "phrase",
+      "meaning": "To upset someone by getting involved in their area of work.",
+      "examples": [
+        "I don’t want to {tread on anyone’s toes} in the new team."
+      ],
+      "wrong": [
+        "She trod on his toes by staying out of his work completely."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "offend"
+      ],
+      "ipa": "/ˈtrɛd ɑn ˈsʌmˌwʌnz ˈtoʊz/"
+    },
+    {
+      "lemma": "up to scratch",
+      "pos": "phrase",
+      "meaning": "Good enough to meet the standard that is needed.",
+      "examples": [
+        "His work isn’t {up to scratch} yet."
+      ],
+      "wrong": [
+        "The food was up to scratch, so we sent it back to the kitchen."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "acceptable",
+        "satisfactory"
+      ],
+      "ipa": "/ʌp tə ˈskrætʃ/"
+    },
+    {
+      "lemma": "water under the bridge",
+      "pos": "phrase",
+      "meaning": "Something in the past that no longer matters or causes upset.",
+      "examples": [
+        "We argued years ago, but that’s {water under the bridge} now."
+      ],
+      "wrong": [
+        "It’s water under the bridge, so we still argue about it every day."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈwɔtɚ ʌndɚ ðə ˈbrɪdʒ/"
+    },
+    {
+      "lemma": "a bitter pill to swallow",
+      "pos": "phrase",
+      "meaning": "A painful fact or situation that you have to accept.",
+      "examples": [
+        "Losing the final was {a bitter pill to swallow}."
+      ],
+      "wrong": [
+        "Winning the prize was a bitter pill to swallow because it was so pleasant."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ə ˈbɪtɚ ˈpɪl tə ˈswɑloʊ/"
+    },
+    {
+      "lemma": "go against the grain",
+      "pos": "phrase",
+      "meaning": "To be different from what is normal or natural for you.",
+      "examples": [
+        "Saying nothing {goes against the grain} for her."
+      ],
+      "wrong": [
+        "It goes against the grain for him, so he does it happily every day."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ɡoʊ əˈɡɛnst ðə ˈɡreɪn/"
+    },
+    {
+      "lemma": "cut your losses",
+      "pos": "phrase",
+      "meaning": "To stop doing something that is failing, so you don’t lose even more.",
+      "examples": [
+        "The shop wasn’t working, so we {cut our losses} and closed it."
+      ],
+      "wrong": [
+        "He cut his losses by putting even more money into the failing plan."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ˈkʌt jɚ ˈlɔsɪz/"
+    },
+    {
+      "lemma": "keep your head above water",
+      "pos": "phrase",
+      "meaning": "To just manage to survive, especially with money or work.",
+      "examples": [
+        "With two jobs, they can barely {keep their heads above water}."
+      ],
+      "wrong": [
+        "They’re keeping their heads above water, so they are extremely rich."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "get by",
+        "cope"
+      ],
+      "ipa": "/ˈkip jɚ ˈhɛd əˈbʌv ˈwɔtɚ/"
+    },
+    {
+      "lemma": "get off on the wrong foot",
+      "pos": "phrase",
+      "meaning": "To start a relationship or activity badly.",
+      "examples": [
+        "We {got off on the wrong foot}, but now we’re good friends."
+      ],
+      "wrong": [
+        "They got off on the wrong foot, so their first meeting was perfect."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "ipa": "/ɡɛt ˈɔf ɑn ðə ˈrɔŋ ˈfʊt/"
+    }
+  ]
+}

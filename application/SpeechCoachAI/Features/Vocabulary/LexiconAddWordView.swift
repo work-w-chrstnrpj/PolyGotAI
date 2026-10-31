@@ -20,13 +20,13 @@ struct LexiconAddWordView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                TextField("Word", text: $lemma).textFieldStyle(.roundedBorder).autocorrectionDisabled()
+                TextField("Word", text: $lemma).textFieldStyle(KitFieldStyle()).autocorrectionDisabled()
                     .textInputAutocapitalization(.never).accessibilityIdentifier("lexicon.add.word")
                     .dictation($lemma)
                 Picker("Type", selection: $pos) {
                     ForEach(Self.partsOfSpeech, id: \.self) { Text($0.isEmpty ? "Not sure" : $0).tag($0) }
                 }.accessibilityIdentifier("lexicon.add.pos")
-                TextField("Meaning", text: $meaning, axis: .vertical).lineLimit(2...4).textFieldStyle(.roundedBorder)
+                TextField("Meaning", text: $meaning, axis: .vertical).lineLimit(2...4).textFieldStyle(KitFieldStyle())
                     .accessibilityIdentifier("lexicon.add.meaning").dictation($meaning)
                 if let duplicate { existingCard(duplicate) }
                 if saved {
@@ -53,6 +53,7 @@ struct LexiconAddWordView: View {
             Label("Already in your Lexicon", systemImage: "checkmark.circle").font(.headline)
                 .accessibilityIdentifier("lexicon.add.duplicate")
             Text(found.lemma).font(.title3.bold())
+            if let ipa = word?.ipa { PronunciationText(ipa: ipa) }
             if let word { Text(word.meaning).foregroundStyle(Kit.secondary) }
         }
     }

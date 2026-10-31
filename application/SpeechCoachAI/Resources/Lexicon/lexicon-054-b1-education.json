@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-education",
+    "title": "Study and learning",
+    "level": "B1",
+    "tagline": "School, university and exams",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "university",
+      "pos": "noun",
+      "meaning": "A place where people study for a degree after school.",
+      "examples": [
+        "She studies law at {university}."
+      ],
+      "wrong": [
+        "Children start university when they are five."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "college"
+      ],
+      "ipa": "/ˌjunəˈvɝsəti/"
+    },
+    {
+      "lemma": "graduate",
+      "pos": "verb",
+      "meaning": "To finish a course at a university or school successfully.",
+      "examples": [
+        "He {graduated} in 2020 with a degree in history."
+      ],
+      "wrong": [
+        "She graduated, so she never finished her course."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɡrædʒuˌeɪt/"
+    },
+    {
+      "lemma": "lecture",
+      "pos": "noun",
+      "meaning": "A talk to a group of students about a subject.",
+      "examples": [
+        "The {lecture} on climate starts at nine."
+      ],
+      "wrong": [
+        "A lecture is a short chat between two friends on the bus."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "talk"
+      ],
+      "ipa": "/ˈlɛktʃɚ/"
+    },
+    {
+      "lemma": "semester",
+      "pos": "noun",
+      "meaning": "One of the two parts of a school or university year.",
+      "examples": [
+        "Exams are at the end of the {semester}."
+      ],
+      "wrong": [
+        "A semester lasts for one afternoon."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "term"
+      ],
+      "ipa": "/səˈmɛstɚ/"
+    },
+    {
+      "lemma": "essay",
+      "pos": "noun",
+      "meaning": "A short piece of writing on one subject.",
+      "examples": [
+        "I have to write an {essay} about my hometown."
+      ],
+      "wrong": [
+        "An essay is a kind of exam you answer by singing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "composition"
+      ],
+      "ipa": "/ˈɛseɪ/"
+    },
+    {
+      "lemma": "assignment",
+      "pos": "noun",
+      "meaning": "A piece of work a student is given to do.",
+      "examples": [
+        "The {assignment} is due on Monday."
+      ],
+      "wrong": [
+        "An assignment is work that nobody asks you to do."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "task"
+      ],
+      "ipa": "/əˈsaɪnmənt/"
+    },
+    {
+      "lemma": "grade",
+      "pos": "noun",
+      "meaning": "A letter or number that shows how good a student’s work is.",
+      "examples": [
+        "She got a good {grade} in math."
+      ],
+      "wrong": [
+        "My grade is the name of my teacher."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mark"
+      ],
+      "ipa": "/ɡreɪd/"
+    },
+    {
+      "lemma": "certificate",
+      "pos": "noun",
+      "meaning": "An official paper that shows you have done a course.",
+      "examples": [
+        "You’ll get a {certificate} at the end of the course."
+      ],
+      "wrong": [
+        "A certificate is a kind of exam that you fail."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "diploma"
+      ],
+      "ipa": "/sɚˈtɪfɪkət/"
+    },
+    {
+      "lemma": "scholarship",
+      "pos": "noun",
+      "meaning": "Money given to a student to pay for their studies.",
+      "examples": [
+        "She won a {scholarship} to study abroad."
+      ],
+      "wrong": [
+        "A scholarship is money a student pays to the teacher as a fine."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "grant"
+      ],
+      "ipa": "/ˈskɑlɚˌʃɪp/"
+    },
+    {
+      "lemma": "revise",
+      "pos": "verb",
+      "meaning": "To study again what you have learned, before an exam.",
+      "examples": [
+        "I need to {revise} for my history test."
+      ],
+      "wrong": [
+        "I revised for the exam by forgetting everything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "review"
+      ],
+      "ipa": "/rɪˈvaɪz/"
+    },
+    {
+      "lemma": "memorize",
+      "pos": "verb",
+      "meaning": "To learn something so you can remember it exactly.",
+      "examples": [
+        "Actors {memorize} their lines."
+      ],
+      "wrong": [
+        "I memorized the poem, so I can’t remember a word of it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "learn by heart"
+      ],
+      "ipa": "/ˈmɛməˌraɪz/"
+    },
+    {
+      "lemma": "knowledge",
+      "pos": "noun",
+      "meaning": "The information and understanding you have.",
+      "examples": [
+        "He has a good {knowledge} of music."
+      ],
+      "wrong": [
+        "Knowledge is the money you keep in a bank."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "understanding"
+      ],
+      "ipa": "/ˈnɑlɪdʒ/",
+      "antonyms": [
+        "ignorance"
+      ]
+    },
+    {
+      "lemma": "concentrate",
+      "pos": "verb",
+      "meaning": "To give all your attention to something.",
+      "examples": [
+        "I can’t {concentrate} with that noise."
+      ],
+      "wrong": [
+        "I concentrated on the book by looking out of the window."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "focus"
+      ],
+      "ipa": "/ˈkɑnsənˌtreɪt/"
+    },
+    {
+      "lemma": "attend",
+      "pos": "verb",
+      "meaning": "To go to an event, school or meeting.",
+      "examples": [
+        "Over fifty people {attended} the class."
+      ],
+      "wrong": [
+        "I attended the meeting by staying at home and ignoring it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go to"
+      ],
+      "ipa": "/əˈtɛnd/",
+      "antonyms": [
+        "miss"
+      ]
+    },
+    {
+      "lemma": "fail",
+      "pos": "verb",
+      "meaning": "To not pass a test or exam.",
+      "examples": [
+        "He {failed} his driving test twice."
+      ],
+      "wrong": [
+        "She failed the exam with the highest grade."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/feɪl/",
+      "antonyms": [
+        "pass",
+        "succeed"
+      ]
+    },
+    {
+      "lemma": "pass",
+      "pos": "verb",
+      "meaning": "To be successful in a test or exam.",
+      "examples": [
+        "I hope I {pass} my exam."
+      ],
+      "wrong": [
+        "He passed the test because all his answers were wrong."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/pæs/",
+      "antonyms": [
+        "fail"
+      ]
+    },
+    {
+      "lemma": "cheat",
+      "pos": "verb",
+      "meaning": "To act in a dishonest way to get an advantage, for example in a test.",
+      "examples": [
+        "Anyone who {cheats} will fail the exam."
+      ],
+      "wrong": [
+        "She cheated by working honestly on her own."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/tʃit/"
+    },
+    {
+      "lemma": "absent",
+      "pos": "adjective",
+      "meaning": "Not at a place where you should be.",
+      "examples": [
+        "Three students were {absent} today."
+      ],
+      "wrong": [
+        "He was absent, so he sat in the front row."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "away"
+      ],
+      "ipa": "/ˈæbsənt/",
+      "antonyms": [
+        "present"
+      ]
+    },
+    {
+      "lemma": "presentation",
+      "pos": "noun",
+      "meaning": "A talk that shows and explains something to a group.",
+      "examples": [
+        "I gave a {presentation} on recycling."
+      ],
+      "wrong": [
+        "A presentation is a gift you open on your birthday."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "briefing"
+      ],
+      "ipa": "/ˌprɛzənˈteɪʃən/"
+    },
+    {
+      "lemma": "discussion",
+      "pos": "noun",
+      "meaning": "A talk between people about a subject.",
+      "examples": [
+        "We had a {discussion} about the plan."
+      ],
+      "wrong": [
+        "We had a discussion, but nobody said a word."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "debate"
+      ],
+      "ipa": "/dɪˈskʌʃən/"
+    },
+    {
+      "lemma": "professor",
+      "pos": "noun",
+      "meaning": "A senior teacher at a university.",
+      "examples": [
+        "The {professor} teaches chemistry."
+      ],
+      "wrong": [
+        "A professor is a child in the first year of school."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "lecturer"
+      ],
+      "ipa": "/prəˈfɛsɚ/"
+    },
+    {
+      "lemma": "tutor",
+      "pos": "noun",
+      "meaning": "A teacher who teaches one student or a small group.",
+      "examples": [
+        "My {tutor} helps me with English."
+      ],
+      "wrong": [
+        "A tutor is a student who never helps anyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "teacher"
+      ],
+      "ipa": "/ˈtutɚ/"
+    },
+    {
+      "lemma": "course",
+      "pos": "noun",
+      "meaning": "A set of classes on a subject.",
+      "examples": [
+        "I’m taking a cooking {course}."
+      ],
+      "wrong": [
+        "A course is a single minute of a lesson."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "class"
+      ],
+      "ipa": "/kɔrs/"
+    },
+    {
+      "lemma": "textbook",
+      "pos": "noun",
+      "meaning": "A book used for studying a subject.",
+      "examples": [
+        "Open your {textbook} at page 20."
+      ],
+      "wrong": [
+        "A textbook is a book of jokes for fun."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtɛkstˌbʊk/"
+    },
+    {
+      "lemma": "campus",
+      "pos": "noun",
+      "meaning": "The land and buildings of a university.",
+      "examples": [
+        "The library is in the middle of the {campus}."
+      ],
+      "wrong": [
+        "A campus is a small shop in the city."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈkæmpəs/"
+    },
+    {
+      "lemma": "enroll",
+      "pos": "verb",
+      "meaning": "To officially join a course or school.",
+      "examples": [
+        "I {enrolled} in an evening class."
+      ],
+      "wrong": [
+        "I enrolled in the course, so I’m not a student."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "register",
+        "sign up"
+      ],
+      "ipa": "/ɪnˈroʊl/"
+    },
+    {
+      "lemma": "diploma",
+      "pos": "noun",
+      "meaning": "A paper that shows you have finished a course of study.",
+      "examples": [
+        "She has a {diploma} in nursing."
+      ],
+      "wrong": [
+        "A diploma is the ticket you need for a train."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "certificate"
+      ],
+      "ipa": "/dɪˈploʊmə/"
+    },
+    {
+      "lemma": "encourage",
+      "pos": "verb",
+      "meaning": "To give someone confidence or support to do something.",
+      "examples": [
+        "My parents {encouraged} me to study music."
+      ],
+      "wrong": [
+        "He encouraged me by telling me to give up."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "motivate"
+      ],
+      "ipa": "/ɪnˈkɝɪdʒ/"
+    },
+    {
+      "lemma": "motivation",
+      "pos": "noun",
+      "meaning": "The wish to do something.",
+      "examples": [
+        "She has a lot of {motivation} to learn."
+      ],
+      "wrong": [
+        "He has no motivation, so he wants to work hard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "drive"
+      ],
+      "ipa": "/ˌmoʊtəˈveɪʃən/"
+    },
+    {
+      "lemma": "effort",
+      "pos": "noun",
+      "meaning": "Hard work done to try to do something.",
+      "examples": [
+        "He made a big {effort} to learn Spanish."
+      ],
+      "wrong": [
+        "She passed with great effort, so it was very easy."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "work"
+      ],
+      "ipa": "/ˈɛfɚt/"
+    },
+    {
+      "lemma": "mistake",
+      "pos": "noun",
+      "meaning": "Something that is wrong or not correct.",
+      "examples": [
+        "There are two {mistakes} in your letter."
+      ],
+      "wrong": [
+        "A mistake is an answer that is completely correct."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "error"
+      ],
+      "ipa": "/mɪˈsteɪk/"
+    },
+    {
+      "lemma": "progress",
+      "pos": "noun",
+      "meaning": "Movement toward a better level.",
+      "examples": [
+        "You’re making good {progress} in English."
+      ],
+      "wrong": [
+        "I made progress, so I got worse."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "improvement"
+      ],
+      "ipa": "/ˈprɑɡrɛs/",
+      "antonyms": [
+        "decline"
+      ]
+    },
+    {
+      "lemma": "achieve",
+      "pos": "verb",
+      "meaning": "To succeed in doing something after effort.",
+      "examples": [
+        "She {achieved} her goal of running a marathon."
+      ],
+      "wrong": [
+        "He achieved his goal by never trying."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "accomplish"
+      ],
+      "ipa": "/əˈtʃiv/"
+    },
+    {
+      "lemma": "quiz",
+      "pos": "noun",
+      "meaning": "A short informal test.",
+      "examples": [
+        "We have a vocabulary {quiz} every Friday."
+      ],
+      "wrong": [
+        "A quiz is a long book you read for fun."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "test"
+      ],
+      "ipa": "/kwɪz/"
+    },
+    {
+      "lemma": "instructions",
+      "pos": "noun",
+      "meaning": "Information that tells you how to do something.",
+      "examples": [
+        "Read the {instructions} before you start."
+      ],
+      "wrong": [
+        "The instructions told us nothing about how to do it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "directions"
+      ],
+      "ipa": "/ɪnˈstrʌkʃənz/"
+    },
+    {
+      "lemma": "explanation",
+      "pos": "noun",
+      "meaning": "Words that make something clear.",
+      "examples": [
+        "Thank you for your clear {explanation}."
+      ],
+      "wrong": [
+        "His explanation made the problem harder to understand."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌɛkspləˈneɪʃən/"
+    },
+    {
+      "lemma": "example",
+      "pos": "noun",
+      "meaning": "Something that shows what other things of the same kind are like.",
+      "examples": [
+        "Can you give me an {example}?"
+      ],
+      "wrong": [
+        "An example is a rule that has no cases."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "instance"
+      ],
+      "ipa": "/ɪɡˈzæmpəl/"
+    },
+    {
+      "lemma": "translate",
+      "pos": "verb",
+      "meaning": "To change words into another language.",
+      "examples": [
+        "Can you {translate} this into Spanish?"
+      ],
+      "wrong": [
+        "I translated it, so it stayed in the same language."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/trænsˈleɪt/"
+    },
+    {
+      "lemma": "vocabulary",
+      "pos": "noun",
+      "meaning": "All the words of a language, or the words a person knows.",
+      "examples": [
+        "Reading helps you build your {vocabulary}."
+      ],
+      "wrong": [
+        "Vocabulary is the grammar of numbers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "words"
+      ],
+      "ipa": "/voʊˈkæbjəˌlɛri/"
+    },
+    {
+      "lemma": "pronounce",
+      "pos": "verb",
+      "meaning": "To make the sound of a word.",
+      "examples": [
+        "How do you {pronounce} this name?"
+      ],
+      "wrong": [
+        "I pronounce the word by writing it down."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "say"
+      ],
+      "ipa": "/prəˈnaʊns/"
+    }
+  ]
+}

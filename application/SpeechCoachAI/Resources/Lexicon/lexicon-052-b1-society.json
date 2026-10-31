@@ -1,0 +1,744 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-society",
+    "title": "Society and the world",
+    "level": "B1",
+    "tagline": "People, rules and news",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "argue",
+      "pos": "verb",
+      "meaning": "To give reasons to show that something is true or false.",
+      "examples": [
+        "Some people {argue} that homework is helpful."
+      ],
+      "wrong": [
+        "He argues the table with milk.",
+        "I argued of the idea."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "academic-basics.argue",
+      "synonyms": [
+        "quarrel",
+        "dispute"
+      ],
+      "ipa": "/ˈɑrɡju/"
+    },
+    {
+      "lemma": "benefit",
+      "pos": "noun",
+      "meaning": "A good result or advantage.",
+      "examples": [
+        "One {benefit} of exercise is better sleep."
+      ],
+      "wrong": [
+        "One benefit of the storm is that it destroyed our roof.",
+        "He benefits of a lot."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "academic-basics.benefit",
+      "synonyms": [
+        "advantage",
+        "gain"
+      ],
+      "ipa": "/ˈbɛnəfɪt/",
+      "antonyms": [
+        "drawback",
+        "disadvantage"
+      ]
+    },
+    {
+      "lemma": "process",
+      "pos": "noun",
+      "meaning": "A series of steps that lead to a result.",
+      "examples": [
+        "Making cheese is a long {process}."
+      ],
+      "wrong": [
+        "The process has no steps and no end.",
+        "He process the milk for cheese."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "academic-basics.process",
+      "synonyms": [
+        "procedure",
+        "method"
+      ],
+      "ipa": "/ˈprɑsɛs/"
+    },
+    {
+      "lemma": "compare",
+      "pos": "verb",
+      "meaning": "To look at things to see how they are alike or different.",
+      "examples": [
+        "Let’s {compare} the two phones before we buy one."
+      ],
+      "wrong": [
+        "I compare one phone without looking at the other.",
+        "She compares at the prices."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "academic-basics.compare",
+      "synonyms": [
+        "contrast",
+        "weigh"
+      ],
+      "ipa": "/kəmˈpɛr/"
+    },
+    {
+      "lemma": "create",
+      "pos": "verb",
+      "meaning": "To make something new.",
+      "examples": [
+        "Artists {create} new things every day."
+      ],
+      "wrong": [
+        "I created a painting that already existed.",
+        "She creates of a song."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "academic-basics.create",
+      "synonyms": [
+        "make",
+        "produce"
+      ],
+      "ipa": "/kriˈeɪt/",
+      "antonyms": [
+        "destroy"
+      ]
+    },
+    {
+      "lemma": "government",
+      "pos": "noun",
+      "meaning": "The group of people that rules a country.",
+      "examples": [
+        "The {government} plans to build new schools."
+      ],
+      "wrong": [
+        "A government is a small shop that sells food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "administration",
+        "state"
+      ],
+      "ipa": "/ˈɡʌvɚnmənt/"
+    },
+    {
+      "lemma": "election",
+      "pos": "noun",
+      "meaning": "A time when people vote to choose a leader.",
+      "examples": [
+        "The {election} will be held in November."
+      ],
+      "wrong": [
+        "An election is a holiday when no one votes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "vote",
+        "poll"
+      ],
+      "ipa": "/ɪˈlɛkʃən/"
+    },
+    {
+      "lemma": "citizen",
+      "pos": "noun",
+      "meaning": "A person who legally belongs to a country.",
+      "examples": [
+        "Every {citizen} has the right to vote."
+      ],
+      "wrong": [
+        "A citizen is a tourist who stays for one day only."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "national",
+        "resident"
+      ],
+      "ipa": "/ˈsɪtəzən/"
+    },
+    {
+      "lemma": "law",
+      "pos": "noun",
+      "meaning": "A rule made by a government that people must follow.",
+      "examples": [
+        "It is against the {law} to drive without a license."
+      ],
+      "wrong": [
+        "A law is a rule that nobody has to follow."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rule",
+        "regulation"
+      ],
+      "ipa": "/lɔ/"
+    },
+    {
+      "lemma": "crime",
+      "pos": "noun",
+      "meaning": "An act that breaks the law.",
+      "examples": [
+        "Theft is a {crime}."
+      ],
+      "wrong": [
+        "A crime is a kind of sport."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "offense",
+        "wrongdoing"
+      ],
+      "ipa": "/kraɪm/"
+    },
+    {
+      "lemma": "pollution",
+      "pos": "noun",
+      "meaning": "Dirt or harmful things in the air, water or land.",
+      "examples": [
+        "{Pollution} from cars makes the air dirty."
+      ],
+      "wrong": [
+        "Pollution is clean air in the mountains."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "contamination"
+      ],
+      "ipa": "/pəˈluʃən/"
+    },
+    {
+      "lemma": "environment",
+      "pos": "noun",
+      "meaning": "The natural world, including land, water and air.",
+      "examples": [
+        "We must protect the {environment}."
+      ],
+      "wrong": [
+        "The environment is a building made of glass."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "surroundings",
+        "nature"
+      ],
+      "ipa": "/ɪnˈvaɪrənmənt/"
+    },
+    {
+      "lemma": "climate",
+      "pos": "noun",
+      "meaning": "The usual weather in a place over a long time.",
+      "examples": [
+        "The {climate} in this country is hot and dry."
+      ],
+      "wrong": [
+        "The climate is the weather you have only today at ten o’clock."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈklaɪmət/"
+    },
+    {
+      "lemma": "recycle",
+      "pos": "verb",
+      "meaning": "To treat old things so that they can be used again.",
+      "examples": [
+        "We {recycle} paper and glass."
+      ],
+      "wrong": [
+        "I recycle a bottle by throwing it in the river."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/riˈsaɪkəl/"
+    },
+    {
+      "lemma": "protect",
+      "pos": "verb",
+      "meaning": "To keep someone or something safe from harm.",
+      "examples": [
+        "Trees {protect} the soil from the wind."
+      ],
+      "wrong": [
+        "I protect my phone by dropping it on the street."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "guard",
+        "defend"
+      ],
+      "ipa": "/prəˈtɛkt/",
+      "antonyms": [
+        "harm",
+        "endanger"
+      ]
+    },
+    {
+      "lemma": "population",
+      "pos": "noun",
+      "meaning": "The number of people who live in a place.",
+      "examples": [
+        "The {population} of the city is two million."
+      ],
+      "wrong": [
+        "The population is the number of cars that a company makes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "inhabitants",
+        "people"
+      ],
+      "ipa": "/ˌpɑpjəˈleɪʃən/"
+    },
+    {
+      "lemma": "poverty",
+      "pos": "noun",
+      "meaning": "The state of being very poor.",
+      "examples": [
+        "Many families live in {poverty}."
+      ],
+      "wrong": [
+        "Poverty is the state of having a great deal of money."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "need",
+        "hardship"
+      ],
+      "ipa": "/ˈpɑvɚti/",
+      "antonyms": [
+        "wealth"
+      ]
+    },
+    {
+      "lemma": "immigrant",
+      "pos": "noun",
+      "meaning": "A person who comes to live in a different country.",
+      "examples": [
+        "My grandfather was an {immigrant} from Italy."
+      ],
+      "wrong": [
+        "An immigrant is a person who never leaves their home town."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "newcomer",
+        "migrant"
+      ],
+      "ipa": "/ˈɪməɡrənt/",
+      "antonyms": [
+        "emigrant"
+      ]
+    },
+    {
+      "lemma": "culture",
+      "pos": "noun",
+      "meaning": "The way of life, art and customs of a group of people.",
+      "examples": [
+        "I like learning about other {cultures}."
+      ],
+      "wrong": [
+        "A culture is a machine for making coffee."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈkʌltʃɚ/"
+    },
+    {
+      "lemma": "tradition",
+      "pos": "noun",
+      "meaning": "A custom that has been passed on for a long time.",
+      "examples": [
+        "It is a {tradition} to eat rice cake at New Year."
+      ],
+      "wrong": [
+        "A tradition is a new idea that started yesterday."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "custom",
+        "convention"
+      ],
+      "ipa": "/trəˈdɪʃən/"
+    },
+    {
+      "lemma": "religion",
+      "pos": "noun",
+      "meaning": "A system of belief in a god or gods.",
+      "examples": [
+        "{Religion} is important to many people."
+      ],
+      "wrong": [
+        "Religion is a sport that people play in a stadium."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "faith",
+        "belief"
+      ],
+      "ipa": "/rɪˈlɪdʒən/"
+    },
+    {
+      "lemma": "equality",
+      "pos": "noun",
+      "meaning": "A situation in which everyone has the same rights.",
+      "examples": [
+        "They are working for {equality} between men and women."
+      ],
+      "wrong": [
+        "Equality means that some people have more rights than others."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fairness",
+        "equity"
+      ],
+      "ipa": "/ɪˈkwɑləti/",
+      "antonyms": [
+        "inequality"
+      ]
+    },
+    {
+      "lemma": "freedom",
+      "pos": "noun",
+      "meaning": "The right to do what you want.",
+      "examples": [
+        "Everyone should have {freedom} of speech."
+      ],
+      "wrong": [
+        "Freedom means you cannot make any choices."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "liberty",
+        "independence"
+      ],
+      "ipa": "/ˈfridəm/"
+    },
+    {
+      "lemma": "opinion",
+      "pos": "noun",
+      "meaning": "What you think about something.",
+      "examples": [
+        "In my {opinion}, the film was too long."
+      ],
+      "wrong": [
+        "An opinion is a fact that everyone must accept."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "view",
+        "belief"
+      ],
+      "ipa": "/əˈpɪnjən/"
+    },
+    {
+      "lemma": "media",
+      "pos": "noun",
+      "meaning": "Newspapers, television and the internet that give people news.",
+      "examples": [
+        "The {media} reported the story the same day."
+      ],
+      "wrong": [
+        "The media is a place where people buy shoes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmidiə/"
+    },
+    {
+      "lemma": "advertisement",
+      "pos": "noun",
+      "meaning": "A notice that tries to make people buy something.",
+      "examples": [
+        "I saw an {advertisement} for a new phone."
+      ],
+      "wrong": [
+        "An advertisement is a message that tells people not to buy anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ad",
+        "commercial"
+      ],
+      "ipa": "/ˌædvɚˈtaɪzmənt/"
+    },
+    {
+      "lemma": "celebrity",
+      "pos": "noun",
+      "meaning": "A famous person.",
+      "examples": [
+        "The {celebrity} signed autographs outside the theater."
+      ],
+      "wrong": [
+        "A celebrity is a person whom nobody knows."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "star",
+        "famous person"
+      ],
+      "ipa": "/səˈlɛbrəti/"
+    },
+    {
+      "lemma": "influence",
+      "pos": "noun",
+      "meaning": "The power to change what people think or do.",
+      "examples": [
+        "Her parents had a strong {influence} on her."
+      ],
+      "wrong": [
+        "Influence is the lack of any power over others."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "effect",
+        "power"
+      ],
+      "ipa": "/ˈɪnfluəns/"
+    },
+    {
+      "lemma": "violence",
+      "pos": "noun",
+      "meaning": "Behavior that is meant to hurt other people.",
+      "examples": [
+        "The film contains a lot of {violence}."
+      ],
+      "wrong": [
+        "Violence is the act of helping other people politely."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "brutality",
+        "force"
+      ],
+      "ipa": "/ˈvaɪələns/"
+    },
+    {
+      "lemma": "justice",
+      "pos": "noun",
+      "meaning": "Fair treatment under the law.",
+      "examples": [
+        "The family wanted {justice} for the victim."
+      ],
+      "wrong": [
+        "Justice is the unfair treatment of people without rules."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fairness"
+      ],
+      "ipa": "/ˈdʒʌstɪs/",
+      "antonyms": [
+        "injustice"
+      ]
+    },
+    {
+      "lemma": "volunteer",
+      "pos": "noun",
+      "meaning": "A person who works without pay because they want to.",
+      "examples": [
+        "A {volunteer} helped me find the room."
+      ],
+      "wrong": [
+        "A volunteer is a person who is paid a high salary and is forced to work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "helper"
+      ],
+      "ipa": "/ˌvɑlənˈtɪr/"
+    },
+    {
+      "lemma": "charity",
+      "pos": "noun",
+      "meaning": "An organization that gives help to people who need it.",
+      "examples": [
+        "They gave the money to a {charity}."
+      ],
+      "wrong": [
+        "A charity is a company that makes money only for its owner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "aid",
+        "good cause"
+      ],
+      "ipa": "/ˈtʃɛrəti/"
+    },
+    {
+      "lemma": "donate",
+      "pos": "verb",
+      "meaning": "To give money or things to help others.",
+      "examples": [
+        "I want to {donate} some clothes."
+      ],
+      "wrong": [
+        "I donate a book to a friend when I sell it for a high price."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "give",
+        "contribute"
+      ],
+      "ipa": "/ˈdoʊˌneɪt/"
+    },
+    {
+      "lemma": "tax",
+      "pos": "noun",
+      "meaning": "Money that people pay to the government.",
+      "examples": [
+        "We pay {tax} on the things we earn."
+      ],
+      "wrong": [
+        "Tax is money the government pays to every person at the shop."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "duty",
+        "levy"
+      ],
+      "ipa": "/tæks/"
+    },
+    {
+      "lemma": "economy",
+      "pos": "noun",
+      "meaning": "The system of money, trade and jobs in a country.",
+      "examples": [
+        "The {economy} grew by two percent last year."
+      ],
+      "wrong": [
+        "The economy is the system of roads in a city."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "financial system"
+      ],
+      "ipa": "/ɪˈkɑnəmi/"
+    },
+    {
+      "lemma": "industry",
+      "pos": "noun",
+      "meaning": "The business of making goods in factories.",
+      "examples": [
+        "The car {industry} employs many people."
+      ],
+      "wrong": [
+        "Industry is the activity of sleeping all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "business",
+        "trade"
+      ],
+      "ipa": "/ˈɪndəstri/"
+    },
+    {
+      "lemma": "technology",
+      "pos": "noun",
+      "meaning": "Machines and methods that use scientific knowledge.",
+      "examples": [
+        "New {technology} makes work faster."
+      ],
+      "wrong": [
+        "Technology is a kind of old food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/tɛkˈnɑlədʒi/"
+    },
+    {
+      "lemma": "society",
+      "pos": "noun",
+      "meaning": "All the people who live in a country or community.",
+      "examples": [
+        "A fair {society} protects its weakest members."
+      ],
+      "wrong": [
+        "Society is one person alone on an island."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "community",
+        "public"
+      ],
+      "ipa": "/səˈsaɪəti/"
+    },
+    {
+      "lemma": "authority",
+      "pos": "noun",
+      "meaning": "The power to give orders or make decisions.",
+      "examples": [
+        "The police have the {authority} to stop cars."
+      ],
+      "wrong": [
+        "Authority is the lack of any power to decide."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "power",
+        "control"
+      ],
+      "ipa": "/əˈθɔrəti/"
+    },
+    {
+      "lemma": "protest",
+      "pos": "noun",
+      "meaning": "An event where people show they disagree with something.",
+      "examples": [
+        "Hundreds joined the {protest} against the new tax."
+      ],
+      "wrong": [
+        "A protest is a party where everyone agrees and no one speaks."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "demonstration",
+        "objection"
+      ],
+      "ipa": "/ˈproʊˌtɛst/"
+    }
+  ]
+}

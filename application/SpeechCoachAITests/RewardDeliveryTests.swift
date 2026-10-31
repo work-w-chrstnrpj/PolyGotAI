@@ -137,11 +137,13 @@ struct RewardDeliveryTests {
         value.activeSeconds[RewardPolicy.day(now, calendar: calendar)] = 600
         #expect(RewardReminderScheduler.goalMet(value, now: now, calendar: calendar))
     }
-    @Test func all68AdoptedArtMappingsMatchSourceHashesAndRemainDecodableAtNativeSize() throws {
-        #expect(AwardFamily.catalog.count == 68 && Set(AwardFamily.catalog.map(\.id)).count == 68)
+    @Test func adoptedArtMappingsMatchSourceHashesAndRemainDecodableAtNativeSize() throws {
+        // 68 adopted families plus 15 v2 badges (2026-10-30).
+        #expect(AwardFamily.catalog.count == 83 && Set(AwardFamily.catalog.map(\.id)).count == 83)
         #expect(AwardFamily.supports(lessonID: "intro-01", version: "4"))
         #expect(!AwardFamily.supports(lessonID: "intro-01", version: "unadopted-future"))
         for family in AwardFamily.catalog {
+            if family.filename.isEmpty { #expect(family.symbol != nil, "\(family.id) needs art or a symbol"); continue }
             let url = try #require(Bundle.main.url(forResource: family.filename, withExtension: nil, subdirectory: "masters"))
             let data = try Data(contentsOf: url)
             #expect(SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined() == family.sha256)
@@ -158,9 +160,11 @@ struct RewardDeliveryTests {
         #expect(value.awards.allSatisfy { ["AW-P-01"].contains($0.family) })
         let family = try #require(AwardFamily.catalog.first { $0.id == "AW-LE-01" })
         #expect(family.state(ledger: value) == "Not earned yet")
+        #expect(!family.isShown(in: value), "a badge nothing can earn is hidden")
         value.award("AW-LE-01", now: now, evidence: ["synthetic-deleted-evidence"])
         value.awards[value.awards.count-1].evidenceUnavailable = true
         #expect(family.state(ledger: value) == "Earned")
+        #expect(!family.isShown(in: value), "hidden stays hidden")
         #expect(value.transactions.allSatisfy { $0.gold == 0 }, "nothing earns gold any more")
     }
     @Test func focusStackAndBreakSurviveNavigationWithoutDoubleCounting() {

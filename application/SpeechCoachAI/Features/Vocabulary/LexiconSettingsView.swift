@@ -8,9 +8,11 @@ struct LexiconSettingsView: View {
     @State private var state = LexiconState()
     @State private var startLevel = "A1"
     @State private var message: String?
+    /// Ranks whose pack list is open; each rank has up to ten packs, so lists start closed.
+    @State private var openRanks: Set<String> = []
 
     var body: some View {
-        Form {
+        Form { KitRows {
             Section {
                 ForEach(LevelGate.levels, id: \.self) { rank in
                     Toggle(rank, isOn: rankBinding(rank)).accessibilityIdentifier("lexicon.settings.rank.\(rank)")
@@ -26,7 +28,14 @@ struct LexiconSettingsView: View {
             ForEach(visibleRanks, id: \.self) { rank in
                 let packs = bank.groups.filter { !$0.isField && $0.level == rank && !state.hidden.contains($0.id) }
                 if !packs.isEmpty {
-                    Section("\(rank) packs") { ForEach(packs) { packRow($0) } }
+                    Section {
+                        DisclosureGroup(isExpanded: openBinding(rank)) {
+                            ForEach(packs) { packRow($0) }
+                        } label: {
+                            LabeledContent("\(rank) packs", value: "\(packs.filter { state.isActive($0, in: bank, startLevel: startLevel) }.count) of \(packs.count) on")
+                                .accessibilityIdentifier("lexicon.settings.rankPacks.\(rank)")
+                        }
+                    }
                 }
             }
             let fields = bank.groups.filter { $0.isField && !state.hidden.contains($0.id) }
@@ -51,7 +60,7 @@ struct LexiconSettingsView: View {
                     .accessibilityIdentifier("vocabulary.options.open")
             }
             if let message { Section { Text(message).foregroundStyle(Kit.error) } }
-        }
+        }}
         .navigationTitle("Training settings")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
@@ -77,6 +86,12 @@ struct LexiconSettingsView: View {
         }
         .accessibilityIdentifier("lexicon.settings.pack.\(group.id)")
         .accessibilityAction(named: "Hide pack") { update { $0.setHidden(group, true, in: bank, startLevel: startLevel) } }
+    }
+
+    private func openBinding(_ rank: String) -> Binding<Bool> {
+        Binding(get: { openRanks.contains(rank) }, set: { open in
+            if open { openRanks.insert(rank) } else { openRanks.remove(rank) }
+        })
     }
 
     private func rankBinding(_ rank: String) -> Binding<Bool> {

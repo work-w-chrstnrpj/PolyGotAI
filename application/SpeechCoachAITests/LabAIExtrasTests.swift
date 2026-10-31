@@ -163,11 +163,11 @@ struct LabAIExtrasTests {
     private let request = LexiconGenerationRequest(topic: "Hospital visits", level: "B2", count: 4)
 
     @Test func generatedWordsAreCheckedAndMarkedAI() throws {
-        let reply = envelope(["words": [wordObject("ward"), wordObject("triage"), wordObject("chart", example: "No braces here."), wordObject("expert", cefr: "C2"),
-                                         wordObject("happy", extra: ["pos": "adjective"]), wordObject("ward")]])
+        let reply = envelope(["words": [wordObject("stretcher"), wordObject("bedpan"), wordObject("chart", example: "No braces here."), wordObject("expert", cefr: "C2"),
+                                         wordObject("happy", extra: ["pos": "adjective"]), wordObject("stretcher")]])
         let result = try GeneratedLexicon(response: reply, request: LexiconGenerationRequest(topic: "Hospital visits", level: "B2", count: 6), bank: bank)
-        #expect(result.words.map(\.lemma) == ["ward", "triage"])
-        #expect(Set(result.skipped) == ["chart", "expert", "happy", "ward"], "no braces, above the level, already in the bank, repeated")
+        #expect(result.words.map(\.lemma) == ["stretcher", "bedpan"])
+        #expect(Set(result.skipped) == ["chart", "expert", "happy", "stretcher"], "no braces, above the level, already in the bank, repeated")
         #expect(result.words.allSatisfy { $0.groupId == "ai" && $0.id.hasPrefix("ai.") && $0.problem() == nil })
         #expect(result.topic == "Hospital visits" && result.level == "B2")
     }
@@ -175,7 +175,7 @@ struct LabAIExtrasTests {
     @Test func aGeneratedListWithNoUsableWordIsRejected() {
         #expect(throws: LabFeedbackError.invalidResponse) { _ = try GeneratedLexicon(response: self.envelope(["words": [self.wordObject("chart", example: "No braces.")]]), request: self.request, bank: self.bank) }
         #expect(throws: LabFeedbackError.invalidResponse) { _ = try GeneratedLexicon(response: self.envelope(["words": []]), request: self.request, bank: self.bank) }
-        #expect(throws: LabFeedbackError.invalidResponse) { _ = try GeneratedLexicon(response: self.envelope(["words": [self.wordObject("ward")], "extra": 1]), request: self.request, bank: self.bank) }
+        #expect(throws: LabFeedbackError.invalidResponse) { _ = try GeneratedLexicon(response: self.envelope(["words": [self.wordObject("stretcher")], "extra": 1]), request: self.request, bank: self.bank) }
         #expect(throws: LabFeedbackError.invalidResponse) { _ = try GeneratedLexicon(response: Data("x".utf8), request: self.request, bank: self.bank) }
     }
 
@@ -193,7 +193,7 @@ struct LabAIExtrasTests {
 
     @Test func theServiceGeneratesWordsAndTheRepositorySavesTheChosenOnes() async throws {
         let provider = FakeProvider()
-        provider.reply = envelope(["words": [wordObject("ward"), wordObject("triage")]])
+        provider.reply = envelope(["words": [wordObject("stretcher"), wordObject("bedpan")]])
         let service = LabFeedbackService(provider: provider, scope: scope)
         await #expect(throws: LabFeedbackError.consentRequired) { try await service.generateLexicon(self.request, consent: nil, bank: self.bank) }
         let result = try await service.generateLexicon(request, consent: consent(), bank: bank)
@@ -201,11 +201,11 @@ struct LabAIExtrasTests {
 
         let root = FileManager.default.temporaryDirectory.appendingPathComponent("GL-\(UUID().uuidString)")
         let repo = try LearnerRepository(root: root, now: { Date() }, protectedDataAvailable: { true })
-        #expect(try repo.saveGeneratedLexicon(result, choosing: ["triage"]) == 1)
+        #expect(try repo.saveGeneratedLexicon(result, choosing: ["bedpan"]) == 1)
         let topic = try #require(try repo.customTopics().first)
-        #expect(topic.title == "AI: Hospital visits" && topic.senses.map(\.lemma) == ["triage"])
-        #expect(topic.senses.first?.note.contains("Example: We discussed the triage today.") == true)
-        #expect(try repo.vocabularyEnrollments().map(\.lemma) == ["triage"])
+        #expect(topic.title == "AI: Hospital visits" && topic.senses.map(\.lemma) == ["bedpan"])
+        #expect(topic.senses.first?.note.contains("Example: We discussed the bedpan today.") == true)
+        #expect(try repo.vocabularyEnrollments().map(\.lemma) == ["bedpan"])
         #expect(try repo.saveGeneratedLexicon(result) == 1, "only the new word is added the second time")
         #expect(try repo.customTopics().first?.senses.count == 2)
     }

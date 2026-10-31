@@ -33,6 +33,41 @@ extension LearnerRepository {
         try write(stored)
     }
 
+    // MARK: Lab videos and timed tests (Phase 15) — inside the Speech Lab JSON field
+
+    func labExtras() throws -> LabExtrasState { try speechLabState().extras ?? LabExtrasState() }
+
+    func setLabVideoWatched(_ id: String, _ watched: Bool) throws {
+        guard LabVideoCatalog.isValidID(id) else { throw LearnerStorageError.invalidContent }
+        try updateLabExtras { $0.setWatched(id, watched, now: try effectiveNow()) }
+    }
+
+    func setLabVideoChannelFavorite(_ channel: String, _ favorite: Bool) throws {
+        guard LabVideoCatalog.channels.contains(channel) else { throw LearnerStorageError.invalidContent }
+        try updateLabExtras { $0.setFavorite(channel, favorite) }
+    }
+
+    /// Keeps the fingerprints of a test the learner started, so the same items are not shown again.
+    func rememberTimedTest(_ test: TimedTest) throws {
+        try updateLabExtras { $0.remember(test) }
+    }
+
+    /// Logs a finished Talk conversation or timed test (for badges). `id` makes a repeated call harmless.
+    func recordLabActivity(_ kind: String, id: UUID) throws {
+        guard LabActivity.kinds.contains(kind) else { throw LearnerStorageError.invalidContent }
+        let date = try effectiveNow()
+        try updateLabExtras { $0.log(LabActivity(id: id, kind: kind, date: date)) }
+    }
+
+    private func updateLabExtras(_ change: (inout LabExtrasState) throws -> Void) throws {
+        var stored = try document()
+        var state = stored.speechLab ?? SpeechLabState()
+        var extras = state.extras ?? LabExtrasState()
+        try change(&extras)
+        state.extras = extras; stored.speechLab = state
+        try write(stored)
+    }
+
     // MARK: Online feedback results (Phase 6a)
 
     func labFeedbackHistory(mode: LabFeedbackMode? = nil) throws -> [StoredLabFeedback] {

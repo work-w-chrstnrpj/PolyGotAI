@@ -30,10 +30,10 @@ struct RewardOverview: View {
                     RewardGoalsView(storage: storage, ledger: ledger, reload: load)
                     Text("Badges").font(.title3.bold())
                     Picker("Badge category", selection: $category) {
-                        ForEach(["All", "Participation", "Completion", "Learning", "Consistency", "Checkpoints"], id: \.self) { Text($0).tag($0) }
+                        ForEach(["All", "Participation", "Completion", "Consistency", "Checkpoints"], id: \.self) { Text($0).tag($0) }
                     }.accessibilityIdentifier("rewards.category")
                     ForEach(AwardFamily.catalog.filter { family in
-                        category == "All" || (category == "Checkpoints" ? !family.collectible : family.classification.localizedCaseInsensitiveContains(category))
+                        family.isShown(in: ledger) && (category == "All" || (category == "Checkpoints" ? !family.collectible : family.classification.localizedCaseInsensitiveContains(category)))
                     }) { family in
                         NavigationLink { AwardDetail(family: family, ledger: ledger) } label: {
                             HStack(alignment: .center, spacing: 12) {
@@ -70,6 +70,7 @@ struct RewardOverview: View {
     private func load() {
         do {
             guard let repository = storage.repository else { throw LearnerStorageError.unavailable }
+            try? repository.refreshAwards()
             var value = try repository.rewardLedger()
             if value.settings.autoFreeze {
                 try repository.refreshRewardContinuity(epoch: value.epoch, revision: value.revision)

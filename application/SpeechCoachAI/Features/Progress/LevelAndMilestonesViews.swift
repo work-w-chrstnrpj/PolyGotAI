@@ -54,7 +54,7 @@ struct MilestoneListView: View {
     var milestones: [Milestone]
 
     var body: some View {
-        List {
+        List { KitRows {
             ForEach(Milestone.Group.allCases) { group in
                 let rows = milestones.filter { $0.group == group }
                 if !rows.isEmpty {
@@ -81,7 +81,7 @@ struct MilestoneListView: View {
                     }
                 }
             }
-        }
+        }}
         .listStyle(.insetGrouped)
         .navigationTitle("Milestones")
     }

@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-health-medicine",
+    "title": "Health and medicine",
+    "level": "B2",
+    "tagline": "Treatment, symptoms and care",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "diagnose",
+      "pos": "verb",
+      "meaning": "To find out what illness a person has by examining them.",
+      "examples": [
+        "The doctor {diagnosed} a broken wrist after the X-ray."
+      ],
+      "wrong": [
+        "The doctor diagnosed my illness without examining me or asking a single question."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "identify"
+      ],
+      "ipa": "/ˌdaɪəɡˈnoʊs/"
+    },
+    {
+      "lemma": "prescribe",
+      "pos": "verb",
+      "meaning": "To say officially which medicine a patient should take.",
+      "examples": [
+        "The doctor {prescribed} antibiotics for my chest infection."
+      ],
+      "wrong": [
+        "The doctor prescribed a new car for my headache."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/prɪˈskraɪb/"
+    },
+    {
+      "lemma": "surgeon",
+      "pos": "noun",
+      "meaning": "A doctor who performs operations.",
+      "examples": [
+        "The {surgeon} removed the patient’s appendix."
+      ],
+      "wrong": [
+        "The surgeon cuts people’s hair at the shop on the corner."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsɝdʒən/"
+    },
+    {
+      "lemma": "infectious",
+      "pos": "adjective",
+      "meaning": "Able to pass from one person to another, usually through the air or water.",
+      "examples": [
+        "Flu is highly {infectious}, so stay at home."
+      ],
+      "wrong": [
+        "The illness is infectious, so you can’t catch it from anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "contagious",
+        "catching"
+      ],
+      "ipa": "/ɪnˈfɛkʃəs/",
+      "antonyms": [
+        "noninfectious"
+      ]
+    },
+    {
+      "lemma": "allergic",
+      "pos": "adjective",
+      "meaning": "Becoming ill when you touch, eat or breathe in a particular thing.",
+      "examples": [
+        "I’m {allergic} to cats, so I start sneezing near them."
+      ],
+      "wrong": [
+        "She’s allergic to peanuts, so she eats them every day without any problem."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sensitive"
+      ],
+      "ipa": "/əˈlɝdʒɪk/"
+    },
+    {
+      "lemma": "painkiller",
+      "pos": "noun",
+      "meaning": "A medicine that makes pain less strong.",
+      "examples": [
+        "She took a {painkiller} for her headache."
+      ],
+      "wrong": [
+        "He took a painkiller to make his headache worse."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "analgesic"
+      ],
+      "ipa": "/ˈpeɪnˌkɪlɚ/"
+    },
+    {
+      "lemma": "injection",
+      "pos": "noun",
+      "meaning": "Putting medicine into the body with a needle.",
+      "examples": [
+        "The nurse gave him an {injection} in his arm."
+      ],
+      "wrong": [
+        "The injection was a pill that she swallowed with water."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shot",
+        "jab"
+      ],
+      "ipa": "/ɪnˈdʒɛkʃən/"
+    },
+    {
+      "lemma": "ward",
+      "pos": "noun",
+      "meaning": "A large room in a hospital where patients stay.",
+      "examples": [
+        "My grandmother is in the women’s {ward} on the fourth floor."
+      ],
+      "wrong": [
+        "The ward is the car that takes patients to the hospital."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/wɔrd/"
+    },
+    {
+      "lemma": "fracture",
+      "pos": "noun",
+      "meaning": "A crack or break in a bone.",
+      "examples": [
+        "The X-ray showed a small {fracture} in his ankle."
+      ],
+      "wrong": [
+        "The fracture showed that his bones were perfectly whole."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "break"
+      ],
+      "ipa": "/ˈfræktʃɚ/"
+    },
+    {
+      "lemma": "swollen",
+      "pos": "adjective",
+      "meaning": "Bigger than usual because of an injury or illness.",
+      "examples": [
+        "Her ankle was badly {swollen} after the fall."
+      ],
+      "wrong": [
+        "After the bee sting, his hand was swollen and smaller than normal."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "puffy",
+        "enlarged"
+      ],
+      "ipa": "/ˈswoʊlən/",
+      "antonyms": [
+        "shrunken"
+      ]
+    },
+    {
+      "lemma": "nausea",
+      "pos": "noun",
+      "meaning": "The feeling that you are going to be sick and bring food up.",
+      "examples": [
+        "The boat trip gave me terrible {nausea}."
+      ],
+      "wrong": [
+        "Her nausea made her want a huge meal right away."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sickness"
+      ],
+      "ipa": "/ˈnɔziə/"
+    },
+    {
+      "lemma": "heart attack",
+      "pos": "noun",
+      "meaning": "A sudden serious illness when the heart stops working properly.",
+      "examples": [
+        "He had a {heart attack} while shoveling snow."
+      ],
+      "wrong": [
+        "A heart attack is a feeling of being in love."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhɑrt əˌtæk/"
+    },
+    {
+      "lemma": "stitch",
+      "pos": "noun",
+      "meaning": "A piece of thread used by a doctor to close a cut.",
+      "examples": [
+        "The cut on her head needed six {stitches}."
+      ],
+      "wrong": [
+        "The nurse put stitches in the wound to keep it open."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/stɪtʃ/"
+    },
+    {
+      "lemma": "insomnia",
+      "pos": "noun",
+      "meaning": "A condition in which you cannot sleep well.",
+      "examples": [
+        "Stress at work gave her {insomnia} for months."
+      ],
+      "wrong": [
+        "His insomnia made him sleep for twelve hours every night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sleeplessness"
+      ],
+      "ipa": "/ɪnˈsɑmniə/"
+    },
+    {
+      "lemma": "obesity",
+      "pos": "noun",
+      "meaning": "The state of being so overweight that it is dangerous to health.",
+      "examples": [
+        "Poor diet and little exercise can lead to {obesity}."
+      ],
+      "wrong": [
+        "Obesity is caused by being much too thin."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/oʊˈbisəti/"
+    },
+    {
+      "lemma": "life expectancy",
+      "pos": "noun",
+      "meaning": "The number of years a person is likely to live.",
+      "examples": [
+        "{Life expectancy} has risen thanks to better medicine."
+      ],
+      "wrong": [
+        "Life expectancy is the number of years a person has already worked."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈlaɪf ɪkˈspɛktənsi/"
+    },
+    {
+      "lemma": "come down with",
+      "pos": "verb",
+      "meaning": "To start to have a minor illness.",
+      "examples": [
+        "I think I’m {coming down with} a cold."
+      ],
+      "wrong": [
+        "She came down with the flu, so she felt healthier than ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "catch"
+      ],
+      "ipa": "/ˈkʌm ˈdaʊn wɪð/"
+    },
+    {
+      "lemma": "pass out",
+      "pos": "verb",
+      "meaning": "To suddenly become unconscious for a short time.",
+      "examples": [
+        "It was so hot in the hall that two people {passed out}."
+      ],
+      "wrong": [
+        "He passed out and stayed wide awake through the whole concert."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "faint",
+        "black out"
+      ],
+      "ipa": "/ˈpæs ˈaʊt/"
+    },
+    {
+      "lemma": "specialist",
+      "pos": "noun",
+      "meaning": "A doctor who knows a lot about one area of medicine.",
+      "examples": [
+        "My doctor sent me to a skin {specialist}."
+      ],
+      "wrong": [
+        "A specialist is a doctor who knows a little about everything but nothing in depth."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "consultant",
+        "expert"
+      ],
+      "ipa": "/ˈspɛʃəlɪst/"
+    },
+    {
+      "lemma": "epidemic",
+      "pos": "noun",
+      "meaning": "A large number of cases of a disease in one area at the same time.",
+      "examples": [
+        "The town faced a flu {epidemic} last winter."
+      ],
+      "wrong": [
+        "During the epidemic, only one person in the country got sick."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "outbreak"
+      ],
+      "ipa": "/ˌɛpəˈdɛmɪk/"
+    },
+    {
+      "lemma": "pharmacist",
+      "pos": "noun",
+      "meaning": "A person trained to prepare and sell medicines.",
+      "examples": [
+        "Ask the {pharmacist} how often to take the tablets."
+      ],
+      "wrong": [
+        "The pharmacist operates on patients in the hospital."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "chemist",
+        "druggist"
+      ],
+      "ipa": "/ˈfɑrməsɪst/"
+    },
+    {
+      "lemma": "infected",
+      "pos": "adjective",
+      "meaning": "Containing germs that cause disease.",
+      "examples": [
+        "Clean the cut so it doesn’t get {infected}."
+      ],
+      "wrong": [
+        "The wound is infected, so it is perfectly clean and healthy."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "septic"
+      ],
+      "ipa": "/ɪnˈfɛktɪd/"
+    },
+    {
+      "lemma": "sore throat",
+      "pos": "noun",
+      "meaning": "A pain in your throat, often when you have a cold.",
+      "examples": [
+        "I’ve got a {sore throat}, so it hurts to swallow."
+      ],
+      "wrong": [
+        "My sore throat made it easier to swallow and sing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsɔr ˈθroʊt/"
+    },
+    {
+      "lemma": "migraine",
+      "pos": "noun",
+      "meaning": "A very bad headache that can also make you feel sick.",
+      "examples": [
+        "Bright lights can give her a {migraine}."
+      ],
+      "wrong": [
+        "A migraine is a mild pain in your little toe."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈmaɪˌɡreɪn/"
+    },
+    {
+      "lemma": "asthma",
+      "pos": "noun",
+      "meaning": "An illness that makes it hard to breathe at times.",
+      "examples": [
+        "He carries an inhaler because he has {asthma}."
+      ],
+      "wrong": [
+        "Her asthma helps her breathe more easily than anyone else."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈæzmə/"
+    },
+    {
+      "lemma": "transplant",
+      "pos": "noun",
+      "meaning": "An operation to put an organ from one person into another person’s body.",
+      "examples": [
+        "She needs a kidney {transplant}."
+      ],
+      "wrong": [
+        "A transplant is a pill you take for a cold."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtrænsˌplænt/"
+    },
+    {
+      "lemma": "relapse",
+      "pos": "noun",
+      "meaning": "Becoming ill again after seeming to get better.",
+      "examples": [
+        "After a few good weeks, he suffered a {relapse}."
+      ],
+      "wrong": [
+        "His relapse meant he was completely healthy again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "setback"
+      ],
+      "ipa": "/ˈriˌlæps/"
+    },
+    {
+      "lemma": "remedy",
+      "pos": "noun",
+      "meaning": "Something that cures an illness or makes it less painful.",
+      "examples": [
+        "Honey and lemon is a good {remedy} for a cough."
+      ],
+      "wrong": [
+        "The remedy made her cold much worse."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cure",
+        "treatment"
+      ],
+      "ipa": "/ˈrɛmədi/"
+    },
+    {
+      "lemma": "bleed",
+      "pos": "verb",
+      "meaning": "To lose blood from the body.",
+      "examples": [
+        "His knee was {bleeding} after he fell off his bike."
+      ],
+      "wrong": [
+        "The cut was bleeding, but there was no blood at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/blid/"
+    },
+    {
+      "lemma": "paramedic",
+      "pos": "noun",
+      "meaning": "A person trained to give emergency medical help, often in an ambulance.",
+      "examples": [
+        "The {paramedics} arrived within minutes of the crash."
+      ],
+      "wrong": [
+        "The paramedic sells tickets at the train station."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌpærəˈmɛdɪk/"
+    },
+    {
+      "lemma": "intensive care",
+      "pos": "noun",
+      "meaning": "A hospital department for people who are extremely ill and need constant care.",
+      "examples": [
+        "After the accident, he spent a week in {intensive care}."
+      ],
+      "wrong": [
+        "Patients go to intensive care when they only have a small cold."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ICU"
+      ],
+      "ipa": "/ɪnˈtɛnsɪv ˈkɛr/"
+    },
+    {
+      "lemma": "emergency room",
+      "pos": "noun",
+      "meaning": "The part of a hospital where people who need urgent help are treated.",
+      "examples": [
+        "We rushed him to the {emergency room} after he cut his hand."
+      ],
+      "wrong": [
+        "You go to the emergency room for a routine eye test next month."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ER"
+      ],
+      "ipa": "/ɪˈmɝdʒənsi ˌrum/"
+    },
+    {
+      "lemma": "discharge",
+      "pos": "verb",
+      "meaning": "To officially let a patient leave the hospital.",
+      "examples": [
+        "She was {discharged} from the hospital after three days."
+      ],
+      "wrong": [
+        "The hospital discharged him, so he had to stay in his bed there."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "release"
+      ],
+      "ipa": "/dɪsˈtʃɑrdʒ/"
+    },
+    {
+      "lemma": "medication",
+      "pos": "noun",
+      "meaning": "Medicine that a doctor gives you for an illness.",
+      "examples": [
+        "Take your {medication} twice a day with food."
+      ],
+      "wrong": [
+        "Medication is the food you eat at the hospital."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "medicine",
+        "drugs"
+      ],
+      "ipa": "/ˌmɛdɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "outbreak",
+      "pos": "noun",
+      "meaning": "The sudden start of a disease that affects many people.",
+      "examples": [
+        "There was an {outbreak} of food poisoning at the school."
+      ],
+      "wrong": [
+        "The outbreak meant that no one in the city was ill."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "epidemic"
+      ],
+      "ipa": "/ˈaʊtˌbreɪk/"
+    },
+    {
+      "lemma": "quarantine",
+      "pos": "noun",
+      "meaning": "A period when a person or animal is kept apart so a disease doesn’t spread.",
+      "examples": [
+        "The travelers were kept in {quarantine} for ten days."
+      ],
+      "wrong": [
+        "During quarantine, he visited hundreds of people."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "isolation"
+      ],
+      "ipa": "/ˈkwɔrənˌtin/"
+    },
+    {
+      "lemma": "numb",
+      "pos": "adjective",
+      "meaning": "Unable to feel anything in a part of the body.",
+      "examples": [
+        "My fingers were {numb} with cold."
+      ],
+      "wrong": [
+        "After the injection, her mouth was numb, so she could feel everything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/nʌm/"
+    },
+    {
+      "lemma": "on the mend",
+      "pos": "phrase",
+      "meaning": "Getting better after an illness or injury.",
+      "examples": [
+        "She had a bad cold, but she’s {on the mend} now."
+      ],
+      "wrong": [
+        "He’s on the mend, so he’s getting sicker every day."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "recovering"
+      ],
+      "ipa": "/ɑn ðə ˈmɛnd/"
+    },
+    {
+      "lemma": "disability",
+      "pos": "noun",
+      "meaning": "A physical or mental condition that makes some activities difficult.",
+      "examples": [
+        "The building has ramps for people with a {disability}."
+      ],
+      "wrong": [
+        "His disability makes everything in his daily life easier than before."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "impairment"
+      ],
+      "ipa": "/ˌdɪsəˈbɪləti/"
+    },
+    {
+      "lemma": "caregiver",
+      "pos": "noun",
+      "meaning": "A person who looks after someone who is ill, old or disabled.",
+      "examples": [
+        "Her {caregiver} helps her get dressed every morning."
+      ],
+      "wrong": [
+        "A caregiver is someone who never looks after anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "carer"
+      ],
+      "ipa": "/ˈkɛrˌɡɪvɚ/"
+    }
+  ]
+}

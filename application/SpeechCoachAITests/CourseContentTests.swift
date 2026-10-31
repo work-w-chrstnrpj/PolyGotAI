@@ -61,8 +61,11 @@ struct CourseContentTests {
             #expect(gate.canTakeJumpTest(to: level), "\(level) has a test")
             guard let test = JumpTest.make(target: level, install: install) else { Issue.record("\(level) test could not be built"); continue }
             #expect(test.total == JumpTest.questionCount(for: level))
-            let own = test.items.filter { $0.level == level }.count
-            #expect(own >= Int((Double(test.total) * 0.6).rounded(.up)), "\(level) draws mostly from its own level")
+            // 2026-10-31: the test checks the level below (the one a pass skips), never the level it opens.
+            let checked = JumpTest.checkedLevel(for: level)
+            let own = test.items.filter { $0.level == checked }.count
+            #expect(own >= Int((Double(test.total) * 0.6).rounded(.up)), "\(level) draws mostly from \(checked ?? "")")
+            #expect(!test.items.contains { $0.level == level }, "\(level) asks nothing from \(level)")
         }
     }
 

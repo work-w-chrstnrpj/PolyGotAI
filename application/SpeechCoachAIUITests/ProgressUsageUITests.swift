@@ -33,8 +33,9 @@ final class ProgressUsageUITests: XCTestCase {
         let total = app.staticTexts["usage.total"]
         reach(app, total)
         XCTAssertTrue(total.label.contains("min"), total.label)
-        XCTAssertTrue(app.staticTexts["usage.title"].label == "Today")
-        XCTAssertTrue(app.otherElements["usage.timeline"].exists)
+        XCTAssertEqual(app.buttons["usage.title"].label, "Today")
+        XCTAssertTrue(app.descendants(matching: .any)["usage.timeline"].firstMatch.exists)
+        XCTAssertTrue(app.descendants(matching: .any)["usage.average"].firstMatch.exists)
         XCTAssertFalse(app.buttons["usage.next"].isEnabled, "cannot go past today")
         let shot = XCTAttachment(screenshot: app.screenshot()); shot.name = "progress-usage-day"; shot.lifetime = .keepAlways; add(shot)
 
@@ -60,6 +61,20 @@ final class ProgressUsageUITests: XCTestCase {
     }
 
     @MainActor
+    func testTheDateOpensADatePicker() {
+        continueAfterFailure = false
+        let app = launch()
+        let title = app.buttons["usage.title"]
+        reach(app, title)
+        title.tap()
+        XCTAssertTrue(app.datePickers["usage.pick.date"].waitForExistence(timeout: 5))
+        XCTAssertFalse(app.segmentedControls["usage.pick.mode"].exists, "only one date, no range")
+        let sheet = XCTAttachment(screenshot: app.screenshot()); sheet.name = "progress-usage-date-sheet"; sheet.lifetime = .keepAlways; add(sheet)
+        app.buttons["usage.pick.cancel"].tap()
+        XCTAssertEqual(title.label, "Today")
+    }
+
+    @MainActor
     func testLevelCardOpensBadgesWithoutGold() {
         continueAfterFailure = false
         let app = launch()
@@ -80,7 +95,7 @@ final class ProgressUsageUITests: XCTestCase {
         reach(app, total)
         XCTAssertTrue(total.exists)
         app.buttons["Week"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["usage.title"].exists)
+        XCTAssertTrue(app.buttons["usage.title"].exists)
         let shot = XCTAttachment(screenshot: app.screenshot()); shot.name = "progress-usage-large-dark"; shot.lifetime = .keepAlways; add(shot)
     }
 }

@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-education",
+    "title": "Education and learning",
+    "level": "B2",
+    "tagline": "Teaching, skills and progress",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "curriculum",
+      "pos": "noun",
+      "meaning": "All the subjects and topics that a school or course teaches.",
+      "examples": [
+        "Coding is now part of the school {curriculum}."
+      ],
+      "wrong": [
+        "The curriculum is the bell that rings at the end of a class."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "program of study"
+      ],
+      "ipa": "/kəˈrɪkjələm/"
+    },
+    {
+      "lemma": "syllabus",
+      "pos": "noun",
+      "meaning": "A list of the topics and readings for one course.",
+      "examples": [
+        "Check the {syllabus} to see what we cover next week."
+      ],
+      "wrong": [
+        "The syllabus is the chair the teacher sits on."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "course outline"
+      ],
+      "ipa": "/ˈsɪləbəs/"
+    },
+    {
+      "lemma": "tuition",
+      "pos": "noun",
+      "meaning": "The money students pay to be taught at a college or school.",
+      "examples": [
+        "{Tuition} at private colleges keeps rising."
+      ],
+      "wrong": [
+        "Tuition is the money the university pays students to attend."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "school fees",
+        "fees"
+      ],
+      "ipa": "/tuˈɪʃən/"
+    },
+    {
+      "lemma": "undergraduate",
+      "pos": "noun",
+      "meaning": "A university student who has not yet earned a first degree.",
+      "examples": [
+        "As an {undergraduate}, she studied biology."
+      ],
+      "wrong": [
+        "He became an undergraduate after finishing his PhD."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "college student"
+      ],
+      "ipa": "/ˌʌndɚˈɡrædʒuət/"
+    },
+    {
+      "lemma": "postgraduate",
+      "pos": "noun",
+      "meaning": "A student studying for a higher degree after finishing a first one.",
+      "examples": [
+        "Most {postgraduates} here are doing research."
+      ],
+      "wrong": [
+        "A postgraduate is a child who has just started primary school."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "graduate student"
+      ],
+      "ipa": "/ˌpoʊstˈɡrædʒuət/"
+    },
+    {
+      "lemma": "dissertation",
+      "pos": "noun",
+      "meaning": "A long piece of writing based on your own research, done for a degree.",
+      "examples": [
+        "She spent a year writing her {dissertation} on river pollution."
+      ],
+      "wrong": [
+        "His dissertation was a two-line note he wrote in five minutes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "research paper",
+        "long essay"
+      ],
+      "ipa": "/ˌdɪsɚˈteɪʃən/"
+    },
+    {
+      "lemma": "thesis",
+      "pos": "noun",
+      "meaning": "The main idea or argument that a piece of writing tries to prove.",
+      "examples": [
+        "The {thesis} of the essay is that cities need more trees."
+      ],
+      "wrong": [
+        "Her thesis was a random fact that the essay never tried to support."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "argument",
+        "main claim"
+      ],
+      "ipa": "/ˈθisɪs/"
+    },
+    {
+      "lemma": "plagiarism",
+      "pos": "noun",
+      "meaning": "Using someone else’s words or ideas and pretending they are your own.",
+      "examples": [
+        "Copying a website word for word is {plagiarism}."
+      ],
+      "wrong": [
+        "Writing every sentence yourself and naming your sources is plagiarism."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "copying"
+      ],
+      "ipa": "/ˈpleɪdʒəˌrɪzəm/"
+    },
+    {
+      "lemma": "assessment",
+      "pos": "noun",
+      "meaning": "The process of judging how well someone has learned or performed.",
+      "examples": [
+        "The final {assessment} is a spoken test."
+      ],
+      "wrong": [
+        "The assessment told the teacher nothing at all about the students’ level."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "evaluation",
+        "test"
+      ],
+      "ipa": "/əˈsɛsmənt/"
+    },
+    {
+      "lemma": "aptitude",
+      "pos": "noun",
+      "meaning": "A natural ability to do something well or to learn it quickly.",
+      "examples": [
+        "He showed an {aptitude} for languages from an early age."
+      ],
+      "wrong": [
+        "She has a real aptitude for math, so she finds it impossible."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "talent",
+        "flair"
+      ],
+      "ipa": "/ˈæptɪˌtud/"
+    },
+    {
+      "lemma": "literacy",
+      "pos": "noun",
+      "meaning": "The ability to read and write.",
+      "examples": [
+        "The program aims to improve adult {literacy}."
+      ],
+      "wrong": [
+        "His literacy is excellent, but he cannot read a word."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "reading ability"
+      ],
+      "ipa": "/ˈlɪtɚəsi/",
+      "antonyms": [
+        "illiteracy"
+      ]
+    },
+    {
+      "lemma": "numeracy",
+      "pos": "noun",
+      "meaning": "The ability to understand and work with numbers.",
+      "examples": [
+        "Basic {numeracy} helps you manage a budget."
+      ],
+      "wrong": [
+        "Her numeracy is strong, so she can’t add two numbers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "math skills"
+      ],
+      "ipa": "/ˈnumərəsi/"
+    },
+    {
+      "lemma": "mentor",
+      "pos": "noun",
+      "meaning": "An experienced person who gives advice and support to someone with less experience.",
+      "examples": [
+        "My {mentor} helped me choose the right courses."
+      ],
+      "wrong": [
+        "A mentor is someone who refuses to share any advice."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "adviser",
+        "guide"
+      ],
+      "ipa": "/ˈmɛnˌtɔr/"
+    },
+    {
+      "lemma": "apprenticeship",
+      "pos": "noun",
+      "meaning": "A period of training where you learn a trade by working with a skilled person.",
+      "examples": [
+        "He did a three-year {apprenticeship} as an electrician."
+      ],
+      "wrong": [
+        "During her apprenticeship she worked alone and learned nothing from anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "traineeship"
+      ],
+      "ipa": "/əˈprɛntɪsˌʃɪp/"
+    },
+    {
+      "lemma": "vocational",
+      "pos": "adjective",
+      "meaning": "Teaching the practical skills needed for a particular job.",
+      "examples": [
+        "She took a {vocational} course in plumbing."
+      ],
+      "wrong": [
+        "The vocational program teaches only ancient poetry and no job skills."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "job-related",
+        "practical"
+      ],
+      "ipa": "/voʊˈkeɪʃənəl/",
+      "antonyms": [
+        "academic"
+      ]
+    },
+    {
+      "lemma": "compulsory",
+      "pos": "adjective",
+      "meaning": "Required by a rule, so you must do it.",
+      "examples": [
+        "Math is {compulsory} until age sixteen."
+      ],
+      "wrong": [
+        "The class is compulsory, so you can skip it if you like."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "mandatory",
+        "required",
+        "obligatory"
+      ],
+      "ipa": "/kəmˈpʌlsəri/",
+      "antonyms": [
+        "optional",
+        "voluntary"
+      ]
+    },
+    {
+      "lemma": "academic",
+      "pos": "adjective",
+      "meaning": "Connected with studying, schools and universities, rather than practical work.",
+      "examples": [
+        "Her {academic} results were excellent this year."
+      ],
+      "wrong": [
+        "Academic skills are only useful for fixing car engines."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "scholarly",
+        "educational"
+      ],
+      "ipa": "/ˌækəˈdɛmɪk/"
+    },
+    {
+      "lemma": "faculty",
+      "pos": "noun",
+      "meaning": "All the teachers in a university or college, or one of its departments.",
+      "examples": [
+        "The {faculty} voted to change the exam rules."
+      ],
+      "wrong": [
+        "The faculty is made up of the first-year students, not the teachers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "teaching staff",
+        "department"
+      ],
+      "ipa": "/ˈfækəlti/"
+    },
+    {
+      "lemma": "seminar",
+      "pos": "noun",
+      "meaning": "A class where a small group of students discusses a topic with a teacher.",
+      "examples": [
+        "We discussed the novel in Thursday’s {seminar}."
+      ],
+      "wrong": [
+        "A seminar is a lecture where a thousand students listen in silence."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tutorial",
+        "discussion class"
+      ],
+      "ipa": "/ˈsɛməˌnɑr/"
+    },
+    {
+      "lemma": "coursework",
+      "pos": "noun",
+      "meaning": "Work students do during a course that counts toward the final grade.",
+      "examples": [
+        "Half the grade comes from {coursework}, not the exam."
+      ],
+      "wrong": [
+        "Coursework is done after the course has ended and counts for nothing."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "assignments"
+      ],
+      "ipa": "/ˈkɔrsˌwɝk/"
+    },
+    {
+      "lemma": "extracurricular",
+      "pos": "adjective",
+      "meaning": "Done at school but outside normal lessons, like clubs and sports.",
+      "examples": [
+        "She joined several {extracurricular} activities, including chess."
+      ],
+      "wrong": [
+        "Math class is her favorite extracurricular activity during lessons."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "after-school"
+      ],
+      "ipa": "/ˌɛkstrəkəˈrɪkjəlɚ/"
+    },
+    {
+      "lemma": "proficiency",
+      "pos": "noun",
+      "meaning": "A high level of skill in something, such as a language.",
+      "examples": [
+        "The job needs {proficiency} in Spanish."
+      ],
+      "wrong": [
+        "His proficiency in French means he knows only two words."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "skill",
+        "competence",
+        "fluency"
+      ],
+      "ipa": "/prəˈfɪʃənsi/"
+    },
+    {
+      "lemma": "rote learning",
+      "pos": "phrase",
+      "meaning": "Learning things by repeating them until you remember them, without really understanding.",
+      "examples": [
+        "Times tables are often taught by {rote learning}."
+      ],
+      "wrong": [
+        "Rote learning means deeply understanding ideas without ever repeating them."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "memorization"
+      ],
+      "ipa": "/ˈroʊt ˈlɝnɪŋ/"
+    },
+    {
+      "lemma": "mature student",
+      "pos": "phrase",
+      "meaning": "An adult who starts college or university later than most students.",
+      "examples": [
+        "As a {mature student}, she began her degree at forty."
+      ],
+      "wrong": [
+        "He was a mature student, so he started university straight after high school at eighteen."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "adult learner"
+      ],
+      "ipa": "/məˈtʃʊr ˈstudənt/"
+    },
+    {
+      "lemma": "hands-on",
+      "pos": "adjective",
+      "meaning": "Learning by actually doing something, not just reading or listening.",
+      "examples": [
+        "The museum offers {hands-on} science workshops."
+      ],
+      "wrong": [
+        "The hands-on class was only a lecture, and nobody touched anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "practical"
+      ],
+      "ipa": "/ˌhændzˈɑn/",
+      "antonyms": [
+        "theoretical"
+      ]
+    },
+    {
+      "lemma": "self-taught",
+      "pos": "adjective",
+      "meaning": "Having learned a skill by yourself, without a teacher.",
+      "examples": [
+        "He’s a {self-taught} guitarist."
+      ],
+      "wrong": [
+        "She is self-taught, having studied piano with a teacher for ten years."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "self-educated"
+      ],
+      "ipa": "/ˌsɛlfˈtɔt/"
+    },
+    {
+      "lemma": "gifted",
+      "pos": "adjective",
+      "meaning": "Having a natural talent or very high intelligence.",
+      "examples": [
+        "The school runs classes for {gifted} children."
+      ],
+      "wrong": [
+        "He’s a gifted painter, but he has no talent at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "talented",
+        "able"
+      ],
+      "ipa": "/ˈɡɪftɪd/"
+    },
+    {
+      "lemma": "comprehension",
+      "pos": "noun",
+      "meaning": "The ability to understand what you read or hear.",
+      "examples": [
+        "The test checks your reading {comprehension}."
+      ],
+      "wrong": [
+        "Her comprehension of the text was perfect, so she understood none of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "understanding"
+      ],
+      "ipa": "/ˌkɑmprɪˈhɛnʃən/"
+    },
+    {
+      "lemma": "fall behind",
+      "pos": "verb",
+      "meaning": "To make less progress than others, or than you should.",
+      "examples": [
+        "If you miss classes, you’ll {fall behind}."
+      ],
+      "wrong": [
+        "He fell behind, so he was ahead of everyone in the class."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lag behind"
+      ],
+      "ipa": "/fɔl bɪˈhaɪnd/"
+    },
+    {
+      "lemma": "distance learning",
+      "pos": "phrase",
+      "meaning": "Studying from home, with lessons online or by mail instead of in a classroom.",
+      "examples": [
+        "She got her degree through {distance learning}."
+      ],
+      "wrong": [
+        "Distance learning means attending every class in person on campus."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "online learning",
+        "remote study"
+      ],
+      "ipa": "/ˈdɪstəns ˈlɝnɪŋ/"
+    },
+    {
+      "lemma": "boarding school",
+      "pos": "noun",
+      "meaning": "A school where students live during the term.",
+      "examples": [
+        "He was sent to a {boarding school} at age eleven."
+      ],
+      "wrong": [
+        "At boarding school, students go home to their parents every afternoon."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "residential school"
+      ],
+      "ipa": "/ˈbɔrdɪŋ ˌskul/"
+    },
+    {
+      "lemma": "attainment",
+      "pos": "noun",
+      "meaning": "The level a student has reached, or something they have achieved.",
+      "examples": [
+        "The report compares student {attainment} across schools."
+      ],
+      "wrong": [
+        "Their attainment was high, so they had achieved very little."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "achievement",
+        "accomplishment"
+      ],
+      "ipa": "/əˈteɪnmənt/"
+    },
+    {
+      "lemma": "gap year",
+      "pos": "phrase",
+      "meaning": "A year off between school and university, often used for travel or work.",
+      "examples": [
+        "She spent her {gap year} volunteering abroad."
+      ],
+      "wrong": [
+        "During his gap year he studied full-time at university."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "year out"
+      ],
+      "ipa": "/ˈɡæp ˌjɪr/"
+    },
+    {
+      "lemma": "cram",
+      "pos": "verb",
+      "meaning": "To study a lot in a short time just before an exam.",
+      "examples": [
+        "I {crammed} all night for the biology test."
+      ],
+      "wrong": [
+        "He crammed for the exam by studying slowly over six months."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "study intensively"
+      ],
+      "ipa": "/kræm/"
+    },
+    {
+      "lemma": "retake",
+      "pos": "verb",
+      "meaning": "To do an exam or course again, usually after failing it.",
+      "examples": [
+        "He has to {retake} the math exam in August."
+      ],
+      "wrong": [
+        "She retook the test, so she only ever sat it once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "resit",
+        "repeat"
+      ],
+      "ipa": "/riˈteɪk/"
+    },
+    {
+      "lemma": "grasp",
+      "pos": "verb",
+      "meaning": "To understand something, especially something difficult.",
+      "examples": [
+        "It took me weeks to {grasp} the basics of algebra."
+      ],
+      "wrong": [
+        "I finally grasped the idea, so I still have no clue what it means."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "understand",
+        "comprehend"
+      ],
+      "ipa": "/ɡræsp/"
+    },
+    {
+      "lemma": "alumni",
+      "pos": "noun",
+      "meaning": "People who used to study at a particular school or university.",
+      "examples": [
+        "Many {alumni} return for the reunion each year."
+      ],
+      "wrong": [
+        "The alumni are the children who will start school next year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "graduates",
+        "former students"
+      ],
+      "ipa": "/əˈlʌmnaɪ/"
+    },
+    {
+      "lemma": "learning curve",
+      "pos": "phrase",
+      "meaning": "How fast someone gains a new skill; a steep one means a lot to pick up quickly.",
+      "examples": [
+        "The new software has a steep {learning curve}."
+      ],
+      "wrong": [
+        "The learning curve is the shape of the classroom wall."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈlɝnɪŋ ˌkɝv/"
+    },
+    {
+      "lemma": "brush up on",
+      "pos": "verb",
+      "meaning": "To practice and improve a skill you have partly forgotten.",
+      "examples": [
+        "I need to {brush up on} my French before the trip."
+      ],
+      "wrong": [
+        "She brushed up on her Spanish by never using it again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "refresh",
+        "polish up"
+      ],
+      "ipa": "/brʌʃ ˈʌp ɑn/"
+    },
+    {
+      "lemma": "critical thinking",
+      "pos": "phrase",
+      "meaning": "The skill of judging information and arguments carefully before believing them.",
+      "examples": [
+        "Good teachers encourage {critical thinking}."
+      ],
+      "wrong": [
+        "Critical thinking means accepting every claim without question."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "analysis",
+        "reasoning"
+      ],
+      "ipa": "/ˈkrɪtɪkəl ˈθɪŋkɪŋ/"
+    }
+  ]
+}

@@ -85,6 +85,33 @@ struct LevelGateTests {
         #expect(gate.canTakeJumpTest(to: "B1") && gate.canTakeJumpTest(to: "C2"))
     }
 
+    /// A finished journey whose first `wrong` checked answers were wrong and the rest right.
+    private func journey(_ lesson: ResolvedLesson, wrong: Int) -> LessonJourney {
+        var value = journey(lesson, finished: true)
+        value.responses = lesson.sessionActivities.enumerated().map { index, activity in
+            LessonResponse(activityID: activity.id, kind: activity.kind, modality: "text", unaidedText: index < wrong ? "b" : "a",
+                           firstResponseText: index < wrong ? "b" : "a")
+        }
+        return value
+    }
+
+    @Test func aLevelOpensOnlyWhenEveryLessonBeforeItIsAtLeastHalfRight() throws {
+        let content = syntheticInstall(everyLevel)
+        let a1 = content.lessons(at: "A1")
+        // 6 of 12 right is exactly 50%: enough.
+        let half = LevelGate(install: content, journeys: a1.map { journey($0, wrong: 6) }, passedTests: [])
+        #expect(half.unlockedLevels == ["A1", "A2"])
+        // One lesson at 5 of 12 keeps A2 closed, and the card shows 3 of 4.
+        var journeys = a1.dropLast().map { journey($0, wrong: 0) }
+        journeys.append(journey(try #require(a1.last), wrong: 7))
+        let short = LevelGate(install: content, journeys: journeys, passedTests: [])
+        #expect(short.unlockedLevels == ["A1"])
+        #expect(short.progressToward("A2") == LevelGate.Progress(done: 3, total: 4))
+        // A better retry of the same lesson counts.
+        let retried = LevelGate(install: content, journeys: journeys + [journey(try #require(a1.last), wrong: 0)], passedTests: [])
+        #expect(retried.unlockedLevels == ["A1", "A2"])
+    }
+
     @Test func oneFinishedLessonIsNotEnough() throws {
         let content = syntheticInstall(everyLevel)
         let first = try #require(content.lessons(at: "A1").first)
@@ -99,15 +126,16 @@ struct LevelGateTests {
         #expect(gate.unlockedLevels == ["A1", "A2", "B1"])
     }
 
-    @Test func aLevelWithoutTypedExercisesHasNoTest() {
+    @Test func aTestNeedsTypedExercisesInTheLevelItChecks() {
+        // The B1 test checks A2, the B2 test checks B1 (which has none here).
         let gate = LevelGate(install: syntheticInstall(["A1": 4, "A2": 4]), journeys: [], passedTests: [])
-        #expect(gate.canTakeJumpTest(to: "A2"))
-        for level in ["B1", "B2", "C1", "C2"] { #expect(!gate.canTakeJumpTest(to: level), "\(level) has no typed exercises yet") }
+        #expect(gate.canTakeJumpTest(to: "A2") && gate.canTakeJumpTest(to: "B1"))
+        for level in ["B2", "C1", "C2"] { #expect(!gate.canTakeJumpTest(to: level), "\(level) checks a level without typed exercises") }
     }
 
-    @Test func aTooSmallLevelHasNoTest() {
-        // One lesson is fewer than the three topics a test needs from its own level.
-        let gate = LevelGate(install: syntheticInstall(["A1": 4, "A2": 1]), journeys: [], passedTests: [])
+    @Test func aTooSmallCheckedLevelHasNoTest() {
+        // One A1 lesson is fewer than the three topics the A2 test needs from A1.
+        let gate = LevelGate(install: syntheticInstall(["A1": 1, "A2": 4]), journeys: [], passedTests: [])
         #expect(!gate.canTakeJumpTest(to: "A2"))
     }
 
@@ -117,20 +145,21 @@ struct LevelGateTests {
         #expect(JumpTest.questionCount(for: "A2") == 20)
         #expect(JumpTest.questionCount(for: "B1") == 30)
         #expect(JumpTest.questionCount(for: "C2") == 30)
-        #expect(JumpTest.sourceLevels(for: "C1") == ["C1", "B2", "B1", "A2", "A1"])
+        #expect(JumpTest.sourceLevels(for: "C1") == ["B2", "B1", "A2", "A1"])
+        #expect(JumpTest.checkedLevel(for: "C1") == "B2" && JumpTest.checkedLevel(for: "A2") == "A1")
         #expect(JumpTest.sourceLevels(for: "A1").isEmpty)
     }
 
-    @Test func aTestDrawsMostlyFromItsOwnLevelAndFromBelow() throws {
+    @Test func aTestChecksTheLevelBelowItAndNeverItsOwn() throws {
         let content = syntheticInstall(everyLevel)
         var generator = SeededGenerator(state: 7)
         let test = try #require(JumpTest.make(target: "C1", install: content, using: &generator))
         #expect(test.total == 30)
         #expect(Set(test.items.map(\.id)).count == test.total)
-        let own = test.items.filter { $0.level == "C1" }
-        #expect(own.count >= 18)
-        #expect(Set(own.map(\.lessonID)) == Set(content.lessons(at: "C1").map(\.id)), "every C1 topic appears")
-        #expect(test.items.contains { $0.level != "C1" })
+        let checked = test.items.filter { $0.level == "B2" }
+        #expect(checked.count >= 18)
+        #expect(Set(checked.map(\.lessonID)) == Set(content.lessons(at: "B2").map(\.id)), "every B2 topic appears")
+        #expect(!test.items.contains { $0.level == "C1" || $0.level == "C2" }, "nothing from the level being opened")
         #expect(test.items.allSatisfy { JumpTest.sourceLevels(for: "C1").contains($0.level) })
         #expect(test.items.allSatisfy { $0.spec.isChecked && $0.spec.kind != .speak })
     }
@@ -139,7 +168,7 @@ struct LevelGateTests {
         var generator = SeededGenerator(state: 8)
         let test = try #require(JumpTest.make(target: "A2", install: syntheticInstall(everyLevel), using: &generator))
         #expect(test.total == 20)
-        #expect(test.items.filter { $0.level == "A2" }.count >= 12)
+        #expect(test.items.allSatisfy { $0.level == "A1" }, "the A2 test checks A1 only")
     }
 
     @Test func eachAttemptHasANewQuestionOrder() throws {
@@ -176,7 +205,7 @@ struct LevelGateTests {
     @Test func noTestExistsForA1OrForAnUntypedLevel() {
         let content = syntheticInstall(["A1": 4, "A2": 4])
         #expect(JumpTest.make(target: "A1", install: content) == nil)
-        #expect(JumpTest.make(target: "B1", install: content) == nil)
+        #expect(JumpTest.make(target: "B2", install: content) == nil, "the B2 test checks B1, which has no exercises here")
         #expect(!JumpTest.isAvailable(target: "C2", install: content))
     }
 
@@ -214,7 +243,7 @@ struct LevelGateTests {
         #expect(track.stages.map(\.id) == ["starter", "foundation", "intermediate", "advanced"])
         let units = try #require(track.stages.first?.units)
         #expect(units.map(\.id) == ["parts-of-speech", "sentences", "be-have-do"])
-        #expect(units.map(\.lessons.count) == [8, 4, 4])
+        #expect(units.map(\.lessons.count) == [8, 3, 2])
         #expect(track.lessons.allSatisfy { $0.isReady && $0.tip?.isEmpty == false && $0.hasCheckedExercises })
         #expect(install.tracks.tracks.first?.coach == .grammarian)
     }
@@ -243,7 +272,7 @@ struct LevelGateTests {
     }
 
     @Test func everyCoachHasOneLineTaglineAndAnIcon() {
-        #expect(TrackCoach.allCases.count == 10)
+        #expect(TrackCoach.allCases.count == 11)
         for coach in TrackCoach.allCases {
             #expect(!coach.title.isEmpty && !coach.symbol.isEmpty)
             #expect(coach.tagline.count <= 28)

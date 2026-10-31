@@ -141,6 +141,8 @@ def curl(value):
 def write_track(coach_id: str, manifest: dict) -> None:
     manifest = curl(manifest)
     out = RES / f"Tracks/track-{coach_id}.json"
+    if out.exists() and any(l.get("reading") for l in json.loads(out.read_text())["lessons"]):
+        raise SystemExit("Topic catalog: use build_topic_lessons.py; legacy generators cannot overwrite it.")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     touched = register_rewards([lesson["id"] for lesson in manifest["lessons"]])
@@ -156,6 +158,8 @@ def add_stage(coach_id: str, stage: dict, lessons: list, level_label: str, sourc
     """
     path = RES / f"Tracks/track-{coach_id}.json"
     pack = json.loads(path.read_text(encoding="utf-8"))
+    if any(l.get("reading") for l in pack["lessons"]):
+        raise SystemExit("Topic catalog: use build_topic_lessons.py; legacy stage generators cannot overwrite it.")
     coach = pack["track"]["coach"]
     new = build_manifest(coach_id, coach, [], lessons, level_label, sources)["lessons"]
     unit_ids = {unit["id"] for unit in stage["units"]}
@@ -181,6 +185,7 @@ def add_stage(coach_id: str, stage: dict, lessons: list, level_label: str, sourc
     touched = register_rewards([lesson["id"] for lesson in new])
     activities = sum(len(lesson["activities"]) for lesson in new)
     print(f"{coach_id}: stage {stage['id']} = {len(new)} lessons, {activities} activities; reward lists updated: {touched}")
+
 
 def add_units(coach_id: str, stage_id: str, units: list, lessons: list, level_label: str, sources: list,
               position: str = "end") -> None:

@@ -1,0 +1,721 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-psychology",
+    "title": "Mind and behaviour",
+    "level": "C1",
+    "tagline": "Thinking, habits and motives",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "cognitive",
+      "pos": "adjective",
+      "meaning": "Connected with thinking, learning and remembering.",
+      "examples": [
+        "Puzzles may help keep your {cognitive} skills sharp."
+      ],
+      "wrong": [
+        "Running is a purely cognitive activity that uses no muscles."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mental",
+        "intellectual"
+      ],
+      "ipa": "/ˈkɑɡnətɪv/"
+    },
+    {
+      "lemma": "perception",
+      "pos": "noun",
+      "meaning": "The way you notice and understand something through the senses or mind.",
+      "examples": [
+        "Tiredness can change your {perception} of time."
+      ],
+      "wrong": [
+        "Perception is the part of the body that digests food."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "awareness",
+        "view"
+      ],
+      "ipa": "/pɚˈsɛpʃən/"
+    },
+    {
+      "lemma": "impulse",
+      "pos": "noun",
+      "meaning": "A sudden strong wish to do something without thinking.",
+      "examples": [
+        "I bought the coat on {impulse}."
+      ],
+      "wrong": [
+        "She acted on impulse after months of careful planning."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "urge",
+        "whim"
+      ],
+      "ipa": "/ˈɪmpʌls/"
+    },
+    {
+      "lemma": "compulsive",
+      "pos": "adjective",
+      "meaning": "Hard to stop or control, done again and again.",
+      "examples": [
+        "He is a {compulsive} liar."
+      ],
+      "wrong": [
+        "Her compulsive checking happened only once a year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "obsessive",
+        "uncontrollable"
+      ],
+      "ipa": "/kəmˈpʌlsɪv/"
+    },
+    {
+      "lemma": "introvert",
+      "pos": "noun",
+      "meaning": "A quiet person who gets energy from time alone.",
+      "examples": [
+        "As an {introvert}, she needs time alone after parties."
+      ],
+      "wrong": [
+        "The introvert loves being the center of attention at every party."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈɪntrəˌvɝt/",
+      "antonyms": [
+        "extrovert"
+      ]
+    },
+    {
+      "lemma": "extrovert",
+      "pos": "noun",
+      "meaning": "A lively person who gets energy from being with others.",
+      "examples": [
+        "An {extrovert} like Tom loves meeting new people."
+      ],
+      "wrong": [
+        "The extrovert avoids people and stays home alone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈɛkstrəˌvɝt/",
+      "antonyms": [
+        "introvert"
+      ]
+    },
+    {
+      "lemma": "subconscious",
+      "pos": "adjective",
+      "meaning": "Existing in the mind without you being aware of it.",
+      "examples": [
+        "Dreams may reveal {subconscious} fears."
+      ],
+      "wrong": [
+        "His subconscious plan was one he thought about clearly every day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unconscious",
+        "hidden"
+      ],
+      "ipa": "/sʌbˈkɑnʃəs/",
+      "antonyms": [
+        "conscious"
+      ]
+    },
+    {
+      "lemma": "instinct",
+      "pos": "noun",
+      "meaning": "A natural way of acting or feeling that is not learned.",
+      "examples": [
+        "Birds build nests by {instinct}."
+      ],
+      "wrong": [
+        "Babies learn their instincts from books at school."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intuition",
+        "impulse"
+      ],
+      "ipa": "/ˈɪnstɪŋkt/"
+    },
+    {
+      "lemma": "intuition",
+      "pos": "noun",
+      "meaning": "The ability to know something by feeling rather than reasoning.",
+      "examples": [
+        "My {intuition} told me something was wrong."
+      ],
+      "wrong": [
+        "She used intuition, carefully checking every fact step by step."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "instinct",
+        "sixth sense"
+      ],
+      "ipa": "/ˌɪntuˈɪʃən/"
+    },
+    {
+      "lemma": "self-esteem",
+      "pos": "noun",
+      "meaning": "How much you value and respect yourself.",
+      "examples": [
+        "Praise can boost a child’s {self-esteem}."
+      ],
+      "wrong": [
+        "With high self-esteem, he thought he was worthless."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "self-respect",
+        "confidence"
+      ],
+      "ipa": "/ˌsɛlf ɪˈstim/"
+    },
+    {
+      "lemma": "conditioning",
+      "pos": "noun",
+      "meaning": "Training that makes a person or animal react in a set way.",
+      "examples": [
+        "Through {conditioning}, the dog learned to sit at the sound of a bell."
+      ],
+      "wrong": [
+        "Conditioning means behavior that is never shaped by experience."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "training"
+      ],
+      "ipa": "/kənˈdɪʃənɪŋ/"
+    },
+    {
+      "lemma": "reinforcement",
+      "pos": "noun",
+      "meaning": "Rewards or responses that make a behavior more likely to happen again.",
+      "examples": [
+        "Positive {reinforcement} works better than punishment."
+      ],
+      "wrong": [
+        "Positive reinforcement means scolding a child for good work."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "encouragement"
+      ],
+      "ipa": "/ˌriɪnˈfɔrsmənt/"
+    },
+    {
+      "lemma": "denial",
+      "pos": "noun",
+      "meaning": "Refusing to accept that something unpleasant is true.",
+      "examples": [
+        "He’s in {denial} about how much he drinks."
+      ],
+      "wrong": [
+        "She was in denial, so she openly admitted the problem."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refusal"
+      ],
+      "ipa": "/dɪˈnaɪəl/"
+    },
+    {
+      "lemma": "peer pressure",
+      "pos": "noun",
+      "meaning": "The influence that people your own age have on what you do.",
+      "examples": [
+        "Teens often start smoking because of {peer pressure}."
+      ],
+      "wrong": [
+        "Peer pressure comes only from your grandparents."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/ˈpɪr ˌprɛʃɚ/"
+    },
+    {
+      "lemma": "conformity",
+      "pos": "noun",
+      "meaning": "Behaving in the same way as most people in a group.",
+      "examples": [
+        "School uniforms encourage {conformity}."
+      ],
+      "wrong": [
+        "His conformity made him dress very differently from everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "compliance"
+      ],
+      "ipa": "/kənˈfɔrməti/",
+      "antonyms": [
+        "nonconformity",
+        "rebellion"
+      ]
+    },
+    {
+      "lemma": "temperament",
+      "pos": "noun",
+      "meaning": "A person’s basic nature, especially how they react emotionally.",
+      "examples": [
+        "She has a calm {temperament} and rarely gets angry."
+      ],
+      "wrong": [
+        "Temperament is the temperature of a room."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nature",
+        "character"
+      ],
+      "ipa": "/ˈtɛmprəmənt/"
+    },
+    {
+      "lemma": "disposition",
+      "pos": "noun",
+      "meaning": "A person’s usual mood or attitude.",
+      "examples": [
+        "He has a cheerful {disposition}."
+      ],
+      "wrong": [
+        "Her sunny disposition made her gloomy and bad-tempered."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nature",
+        "temperament"
+      ],
+      "ipa": "/ˌdɪspəˈzɪʃən/"
+    },
+    {
+      "lemma": "trait",
+      "pos": "noun",
+      "meaning": "A particular quality in someone’s character.",
+      "examples": [
+        "Honesty is her best {trait}."
+      ],
+      "wrong": [
+        "A trait is a type of fruit grown in hot countries."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "characteristic",
+        "quality"
+      ],
+      "ipa": "/treɪt/"
+    },
+    {
+      "lemma": "mindset",
+      "pos": "noun",
+      "meaning": "A fixed way of thinking about things.",
+      "examples": [
+        "A growth {mindset} helps you learn from mistakes."
+      ],
+      "wrong": [
+        "A mindset is a set of tools for fixing a bike."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "attitude",
+        "outlook"
+      ],
+      "ipa": "/ˈmaɪndˌsɛt/"
+    },
+    {
+      "lemma": "willpower",
+      "pos": "noun",
+      "meaning": "The strength of mind to control what you do.",
+      "examples": [
+        "It takes {willpower} to stick to a diet."
+      ],
+      "wrong": [
+        "He showed great willpower by giving in to every temptation."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "self-discipline",
+        "determination"
+      ],
+      "ipa": "/ˈwɪlˌpaʊɚ/"
+    },
+    {
+      "lemma": "delayed gratification",
+      "pos": "phrase",
+      "meaning": "Choosing to wait for a bigger reward rather than taking a small one now.",
+      "examples": [
+        "Saving money for years is a form of {delayed gratification}."
+      ],
+      "wrong": [
+        "Spending all your pay at once is a good example of delayed gratification."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/dɪˈleɪd ˌɡrætəfɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "cognitive dissonance",
+      "pos": "phrase",
+      "meaning": "The discomfort of holding two beliefs or acts that do not match.",
+      "examples": [
+        "Smokers who know the risks often feel {cognitive dissonance}."
+      ],
+      "wrong": [
+        "Cognitive dissonance is the calm you feel when your actions match your beliefs."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈkɑɡnətɪv ˈdɪsənəns/"
+    },
+    {
+      "lemma": "wishful thinking",
+      "pos": "phrase",
+      "meaning": "Believing something because you want it to be true, not because it is.",
+      "examples": [
+        "Expecting to pass without studying is {wishful thinking}."
+      ],
+      "wrong": [
+        "Wishful thinking is a careful look at hard facts."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/ˈwɪʃfəl ˈθɪŋkɪŋ/"
+    },
+    {
+      "lemma": "ruminate",
+      "pos": "verb",
+      "meaning": "To think deeply and for a long time, often in a worrying way.",
+      "examples": [
+        "She kept {ruminating} on what she should have said."
+      ],
+      "wrong": [
+        "He ruminated on the problem without giving it a thought."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "brood",
+        "dwell on"
+      ],
+      "ipa": "/ˈruməˌneɪt/"
+    },
+    {
+      "lemma": "introspection",
+      "pos": "noun",
+      "meaning": "Careful thought about your own feelings and reasons.",
+      "examples": [
+        "The retreat was a time for quiet {introspection}."
+      ],
+      "wrong": [
+        "Introspection means studying other people, never yourself."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "self-reflection",
+        "soul-searching"
+      ],
+      "ipa": "/ˌɪntrəˈspɛkʃən/"
+    },
+    {
+      "lemma": "phobia",
+      "pos": "noun",
+      "meaning": "A very strong and unreasonable fear of something.",
+      "examples": [
+        "He has a {phobia} of spiders."
+      ],
+      "wrong": [
+        "Her phobia of heights makes her love climbing cliffs."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "fear",
+        "dread"
+      ],
+      "ipa": "/ˈfoʊbiə/"
+    },
+    {
+      "lemma": "coping mechanism",
+      "pos": "noun",
+      "meaning": "A way of dealing with stress or difficult feelings.",
+      "examples": [
+        "Running is my main {coping mechanism} when work gets hard."
+      ],
+      "wrong": [
+        "A coping mechanism is something that makes stress much worse on purpose."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈkoʊpɪŋ ˌmɛkəˌnɪzəm/"
+    },
+    {
+      "lemma": "aversion",
+      "pos": "noun",
+      "meaning": "A strong dislike of something.",
+      "examples": [
+        "Cats have an {aversion} to water."
+      ],
+      "wrong": [
+        "His aversion to chocolate means he eats it every day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dislike",
+        "distaste"
+      ],
+      "ipa": "/əˈvɝʒən/",
+      "antonyms": [
+        "liking",
+        "fondness"
+      ]
+    },
+    {
+      "lemma": "inclination",
+      "pos": "noun",
+      "meaning": "A natural feeling that makes you want to act in a certain way.",
+      "examples": [
+        "My first {inclination} was to say no."
+      ],
+      "wrong": [
+        "She had no inclination to rest, so she lay down at once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tendency",
+        "urge"
+      ],
+      "ipa": "/ˌɪnkləˈneɪʃən/"
+    },
+    {
+      "lemma": "obsession",
+      "pos": "noun",
+      "meaning": "A thought or interest that fills your mind all the time.",
+      "examples": [
+        "His {obsession} with his phone worries his parents."
+      ],
+      "wrong": [
+        "An obsession is something you hardly ever think about."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "fixation",
+        "preoccupation"
+      ],
+      "ipa": "/əbˈsɛʃən/"
+    },
+    {
+      "lemma": "altruism",
+      "pos": "noun",
+      "meaning": "Caring about others and helping them without wanting anything back.",
+      "examples": [
+        "Giving a kidney to a stranger is pure {altruism}."
+      ],
+      "wrong": [
+        "His altruism showed when he kept every cent for himself."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "selflessness",
+        "unselfishness"
+      ],
+      "ipa": "/ˈæltruˌɪzəm/",
+      "antonyms": [
+        "selfishness",
+        "egoism"
+      ]
+    },
+    {
+      "lemma": "manipulative",
+      "pos": "adjective",
+      "meaning": "Cleverly controlling others for your own benefit, often unfairly.",
+      "examples": [
+        "A {manipulative} boss uses guilt to make staff work late."
+      ],
+      "wrong": [
+        "Her manipulative nature made her always honest and open with people."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "scheming",
+        "calculating"
+      ],
+      "ipa": "/məˈnɪpjələtɪv/"
+    },
+    {
+      "lemma": "self-awareness",
+      "pos": "noun",
+      "meaning": "Clear knowledge of your own character, feelings and actions.",
+      "examples": [
+        "Good leaders have strong {self-awareness}."
+      ],
+      "wrong": [
+        "With self-awareness, he had no idea how he came across."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "self-knowledge"
+      ],
+      "ipa": "/ˌsɛlf əˈwɛrnəs/"
+    },
+    {
+      "lemma": "confirmation bias",
+      "pos": "phrase",
+      "meaning": "The habit of noticing only facts that support what you already believe.",
+      "examples": [
+        "{Confirmation bias} makes people read only news they agree with."
+      ],
+      "wrong": [
+        "Confirmation bias makes people search hard for facts against their own views."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌkɑnfɚˈmeɪʃən ˈbaɪəs/"
+    },
+    {
+      "lemma": "irrational",
+      "pos": "adjective",
+      "meaning": "Not based on clear thinking or reason.",
+      "examples": [
+        "I know it’s {irrational}, but I hate flying."
+      ],
+      "wrong": [
+        "His irrational choice was based on careful logic."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "illogical",
+        "unreasonable"
+      ],
+      "ipa": "/ɪˈræʃənəl/",
+      "antonyms": [
+        "rational",
+        "logical"
+      ]
+    },
+    {
+      "lemma": "attention span",
+      "pos": "noun",
+      "meaning": "How long a person can stay focused on something.",
+      "examples": [
+        "Young children have a short {attention span}."
+      ],
+      "wrong": [
+        "A long attention span means you get bored after a few seconds."
+      ],
+      "cefr": "C1",
+      "register": "everyday",
+      "ipa": "/əˈtɛnʃən ˌspæn/"
+    },
+    {
+      "lemma": "repress",
+      "pos": "verb",
+      "meaning": "To push painful feelings or memories out of your mind.",
+      "examples": [
+        "He {repressed} his anger and smiled."
+      ],
+      "wrong": [
+        "She repressed her feelings by shouting them out to everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "suppress",
+        "hold back"
+      ],
+      "ipa": "/rɪˈprɛs/",
+      "antonyms": [
+        "express"
+      ]
+    },
+    {
+      "lemma": "predisposed",
+      "pos": "adjective",
+      "meaning": "Likely to behave or think in a certain way, or to get an illness.",
+      "examples": [
+        "Some people are {predisposed} to anxiety."
+      ],
+      "wrong": [
+        "He is predisposed to trust people, so he suspects everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "inclined",
+        "prone"
+      ],
+      "ipa": "/ˌpridɪˈspoʊzd/"
+    },
+    {
+      "lemma": "habitual",
+      "pos": "adjective",
+      "meaning": "Done often and regularly, as a habit.",
+      "examples": [
+        "He is a {habitual} late riser."
+      ],
+      "wrong": [
+        "Her habitual walk happened once in her whole life."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "regular",
+        "customary"
+      ],
+      "ipa": "/həˈbɪtʃuəl/"
+    },
+    {
+      "lemma": "frame of mind",
+      "pos": "phrase",
+      "meaning": "The mood or attitude you are in at a particular time.",
+      "examples": [
+        "Wait until he’s in a better {frame of mind} before you ask."
+      ],
+      "wrong": [
+        "A frame of mind is something you hang a picture in."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mood"
+      ],
+      "ipa": "/ˈfreɪm əv ˈmaɪnd/"
+    }
+  ]
+}

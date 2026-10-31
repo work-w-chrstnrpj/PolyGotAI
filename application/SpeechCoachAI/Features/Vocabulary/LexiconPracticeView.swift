@@ -1,10 +1,14 @@
 import SwiftUI
 
 /// Practice (Phase 8): train again any time. Choose the word that fits the sentence, or choose the synonym.
-/// Nothing here changes when a word is due.
+/// Vocabulary Enricher (2026-10-30) uses the same screen with any word of the packs in training, learned or not, and adds
+/// "meaning → word" and "choose the opposite". Nothing here changes when a word is due.
 struct LexiconPracticeView: View {
+    enum Mode { case practice, enricher }
     var storage: LearnerStorageController
     var bank: LexiconBank
+    var mode = Mode.practice
+    private var title: String { mode == .enricher ? "Vocabulary Enricher" : "Practice" }
     @Environment(\.dismiss) private var dismiss
     @State private var questions: [LexiconQuestion] = []
     @State private var index = 0
@@ -33,13 +37,13 @@ struct LexiconPracticeView: View {
         }
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
-        .navigationTitle("Practice").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle(title).navigationBarTitleDisplayMode(.inline)
         .onAppear { if !loaded { newRound() } }
     }
 
     private func summary(title: String, detail: String?, again: Bool) -> some View {
         ScrollView {
-            HeroCard(eyebrow: "Practice", title: title, detail: detail) {
+            HeroCard(eyebrow: self.title, title: title, detail: detail) {
                 if again {
                     Button("Again", action: newRound).buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("lexicon.practice.again")
                 }
@@ -54,8 +58,14 @@ struct LexiconPracticeView: View {
         let state = (try? storage.repository?.lexiconState()) ?? LexiconState()
         let stages = (try? storage.repository?.lexiconStages(bank: bank)) ?? [:]
         let level = storage.levelGate(install: CurriculumCatalogLoader.bundled).unlockedLevels.last ?? "A1"
-        let pool = LexiconPracticeBuilder.pool(bank: bank, stages: stages, state: state, startLevel: level)
-        questions = LexiconPracticeBuilder.questions(words: pool, bank: bank)
+        switch mode {
+        case .practice:
+            let pool = LexiconPracticeBuilder.pool(bank: bank, stages: stages, state: state, startLevel: level)
+            questions = LexiconPracticeBuilder.questions(words: pool, bank: bank)
+        case .enricher:
+            let pool = LexiconPracticeBuilder.enricherPool(bank: bank, state: state, startLevel: level)
+            questions = LexiconPracticeBuilder.enricherQuestions(words: pool, bank: bank)
+        }
         index = 0; correct = 0; loaded = true
     }
 

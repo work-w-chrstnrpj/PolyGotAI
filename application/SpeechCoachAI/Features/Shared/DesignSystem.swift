@@ -272,16 +272,54 @@ extension SectionHeader where Action == EmptyView {
 struct KitSecondaryButtonStyle: ButtonStyle {
     @Environment(\.kitTheme) private var theme
     @Environment(\.isEnabled) private var enabled
+    /// False keeps the button its natural width (icon buttons beside a primary action).
+    var fills = true
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label.font(.headline)
             .multilineTextAlignment(.center).fixedSize(horizontal: false, vertical: true)
-            .frame(maxWidth: .infinity, minHeight: 24)
+            .frame(maxWidth: fills ? .infinity : nil, minHeight: 24)
             .padding(.horizontal, 18).padding(.vertical, 15)
             .foregroundStyle(enabled ? theme.accent : Kit.secondary)
             .background(theme.soft, in: RoundedRectangle(cornerRadius: Kit.Radius.control))
             .contentShape(RoundedRectangle(cornerRadius: Kit.Radius.control))
             .opacity(configuration.isPressed ? 0.8 : 1)
+    }
+}
+
+/// A selectable chip (coach stages, video topics). Selected: soft fill with an accent outline.
+struct KitChipStyle: ButtonStyle {
+    var selected: Bool
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label.font(.headline).fixedSize(horizontal: false, vertical: true)
+            .padding(.horizontal, 16).padding(.vertical, 10).frame(minHeight: 44)
+            .foregroundStyle(Kit.ink)
+            .background(selected ? Kit.soft : Kit.surface, in: Capsule())
+            .overlay(Capsule().stroke(selected ? Kit.accent : .clear))
+            .contentShape(Capsule())
+            .opacity(configuration.isPressed ? 0.8 : 1)
+    }
+}
+
+/// Text input that sits on a card: soft fill, no system border, so fields look the same in light and dark.
+struct KitFieldStyle: TextFieldStyle {
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+            .padding(.horizontal, 14).padding(.vertical, 12).frame(minHeight: 44)
+            .background(Kit.soft, in: RoundedRectangle(cornerRadius: Kit.Radius.control - 2))
+            .foregroundStyle(Kit.ink)
+    }
+}
+
+/// A quiet in-card action (Save name, Edit, Discard): accent text, 44-point target, no fill.
+struct KitTextButtonStyle: ButtonStyle {
+    @Environment(\.isEnabled) private var enabled
+    var role: ButtonRole? = nil
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label.font(.subheadline.weight(.semibold))
+            .foregroundStyle(role == .destructive ? Kit.error : (enabled ? Kit.accent : Kit.secondary))
+            .frame(minHeight: 44).contentShape(Rectangle())
+            .opacity(configuration.isPressed ? 0.6 : 1)
     }
 }
 
@@ -337,3 +375,9 @@ struct DesignSystemPreviewStub: View {
     DesignSystemPreviewStub().environment(\.kitTheme, KitTheme(.mixedMediaStudio)).preferredColorScheme(.dark)
 }
 #endif
+
+/// Wraps the content of a `List` or `Form` so every row sits on the card colour instead of the system grey.
+struct KitRows<Content: View>: View {
+    @ViewBuilder var content: () -> Content
+    var body: some View { Group(content: content).listRowBackground(Kit.surface) }
+}

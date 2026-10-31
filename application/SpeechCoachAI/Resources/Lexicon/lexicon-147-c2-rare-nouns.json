@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rare-nouns",
+    "title": "Rare nouns",
+    "level": "C2",
+    "tagline": "Uncommon but useful nouns",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "sinecure",
+      "pos": "noun",
+      "meaning": "A paid job that needs almost no work.",
+      "examples": [
+        "His post on the board was a {sinecure}; he attended one meeting a year."
+      ],
+      "wrong": [
+        "The sinecure kept her working fourteen hours a day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cushy job"
+      ],
+      "ipa": "/ˈsaɪnɪˌkjʊr/"
+    },
+    {
+      "lemma": "modicum",
+      "pos": "noun",
+      "meaning": "A small but real amount of something good.",
+      "examples": [
+        "With a {modicum} of luck, we’ll finish by Friday."
+      ],
+      "wrong": [
+        "He showed a modicum of patience by waiting three whole years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bit",
+        "shred",
+        "touch"
+      ],
+      "ipa": "/ˈmɑdɪkəm/"
+    },
+    {
+      "lemma": "smattering",
+      "pos": "noun",
+      "meaning": "A small, basic amount of knowledge or a few scattered things.",
+      "examples": [
+        "She has a {smattering} of Italian, enough to order food."
+      ],
+      "wrong": [
+        "With his smattering of French, he translated the whole novel perfectly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sprinkling",
+        "scrap"
+      ],
+      "ipa": "/ˈsmætərɪŋ/"
+    },
+    {
+      "lemma": "farrago",
+      "pos": "noun",
+      "meaning": "A confused mixture of different things, often nonsense.",
+      "examples": [
+        "The report was a {farrago} of rumors and half-truths."
+      ],
+      "wrong": [
+        "The farrago of facts was clear, neat and well ordered."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "jumble",
+        "hodgepodge",
+        "muddle"
+      ],
+      "ipa": "/fəˈrɑɡoʊ/"
+    },
+    {
+      "lemma": "palimpsest",
+      "pos": "noun",
+      "meaning": "Something with layers of older marks or history still visible under newer ones.",
+      "examples": [
+        "The old city is a {palimpsest} of Roman, medieval and modern streets."
+      ],
+      "wrong": [
+        "The palimpsest was a fresh page with nothing ever written on it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈpælɪmpˌsɛst/"
+    },
+    {
+      "lemma": "cornucopia",
+      "pos": "noun",
+      "meaning": "A large, rich supply of many different things.",
+      "examples": [
+        "The market was a {cornucopia} of fruit, spices and cheese."
+      ],
+      "wrong": [
+        "The empty shelves were a cornucopia of nothing at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abundance",
+        "wealth",
+        "profusion"
+      ],
+      "ipa": "/ˌkɔrnəˈkoʊpiə/",
+      "antonyms": [
+        "dearth",
+        "scarcity"
+      ]
+    },
+    {
+      "lemma": "nadir",
+      "pos": "noun",
+      "meaning": "The lowest or worst point of something.",
+      "examples": [
+        "The team reached its {nadir} with ten losses in a row."
+      ],
+      "wrong": [
+        "Winning the title was the nadir of her brilliant career."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "low point",
+        "rock bottom"
+      ],
+      "ipa": "/ˈneɪdɚ/",
+      "antonyms": [
+        "zenith",
+        "peak",
+        "apex"
+      ]
+    },
+    {
+      "lemma": "apogee",
+      "pos": "noun",
+      "meaning": "The highest point of success or power.",
+      "examples": [
+        "The empire reached its {apogee} in the second century."
+      ],
+      "wrong": [
+        "At its apogee, the company was close to closing down."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "peak",
+        "pinnacle",
+        "height"
+      ],
+      "ipa": "/ˈæpəˌdʒi/",
+      "antonyms": [
+        "nadir",
+        "low point"
+      ]
+    },
+    {
+      "lemma": "harbinger",
+      "pos": "noun",
+      "meaning": "A sign or person that shows something is coming soon.",
+      "examples": [
+        "The first swallows are a {harbinger} of spring."
+      ],
+      "wrong": [
+        "The harbinger arrived long after the change it announced."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "herald",
+        "forerunner",
+        "omen"
+      ],
+      "ipa": "/ˈhɑrbɪndʒɚ/"
+    },
+    {
+      "lemma": "sobriquet",
+      "pos": "noun",
+      "meaning": "A nickname, often a funny or affectionate one.",
+      "examples": [
+        "The quiet goalkeeper earned the {sobriquet} ’the Wall’."
+      ],
+      "wrong": [
+        "His sobriquet was the full legal name on his passport."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "nickname",
+        "epithet"
+      ],
+      "ipa": "/ˈsoʊbrɪˌkeɪ/"
+    },
+    {
+      "lemma": "anathema",
+      "pos": "noun",
+      "meaning": "Something a person strongly hates or totally rejects.",
+      "examples": [
+        "Waste of any kind is {anathema} to my grandmother."
+      ],
+      "wrong": [
+        "Chocolate is anathema to him, so he eats it every day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abomination"
+      ],
+      "ipa": "/əˈnæθəmə/"
+    },
+    {
+      "lemma": "bane",
+      "pos": "noun",
+      "meaning": "Something that causes constant trouble or misery.",
+      "examples": [
+        "Slow internet is the {bane} of my working life."
+      ],
+      "wrong": [
+        "The new tool was the bane of the team because it made work easier."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "curse",
+        "scourge",
+        "plague"
+      ],
+      "ipa": "/beɪn/"
+    },
+    {
+      "lemma": "behemoth",
+      "pos": "noun",
+      "meaning": "Something enormous and powerful, such as a huge company or object.",
+      "examples": [
+        "The tiny startup took on a retail {behemoth}."
+      ],
+      "wrong": [
+        "The behemoth was small enough to fit in her pocket."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "giant",
+        "colossus",
+        "titan"
+      ],
+      "ipa": "/bɪˈhiməθ/"
+    },
+    {
+      "lemma": "canard",
+      "pos": "noun",
+      "meaning": "A false story or rumor spread on purpose.",
+      "examples": [
+        "The claim that the mayor had resigned was an old {canard}."
+      ],
+      "wrong": [
+        "Everyone trusted the canard because it was completely true."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "falsehood",
+        "hoax",
+        "myth"
+      ],
+      "ipa": "/kəˈnɑrd/"
+    },
+    {
+      "lemma": "chimera",
+      "pos": "noun",
+      "meaning": "An idea or hope that is impossible to achieve.",
+      "examples": [
+        "A world with no traffic is a {chimera} in this city."
+      ],
+      "wrong": [
+        "The chimera came true the following morning."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "illusion",
+        "fantasy",
+        "pipe dream"
+      ],
+      "ipa": "/kaɪˈmɪrə/"
+    },
+    {
+      "lemma": "coterie",
+      "pos": "noun",
+      "meaning": "A small, close group of people who share an interest and keep others out.",
+      "examples": [
+        "She was surrounded by a {coterie} of loyal advisers."
+      ],
+      "wrong": [
+        "The coterie welcomed anyone who wanted to join."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "clique",
+        "circle",
+        "set"
+      ],
+      "ipa": "/ˈkoʊtəri/"
+    },
+    {
+      "lemma": "dearth",
+      "pos": "noun",
+      "meaning": "A lack of something, or too little of it.",
+      "examples": [
+        "There is a {dearth} of affordable housing in the capital."
+      ],
+      "wrong": [
+        "A dearth of volunteers meant we had far too many helpers."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "shortage",
+        "scarcity",
+        "lack"
+      ],
+      "ipa": "/dɝθ/",
+      "antonyms": [
+        "abundance",
+        "surplus",
+        "glut"
+      ]
+    },
+    {
+      "lemma": "imbroglio",
+      "pos": "noun",
+      "meaning": "A confused, embarrassing and complicated situation.",
+      "examples": [
+        "The minister was caught up in a diplomatic {imbroglio}."
+      ],
+      "wrong": [
+        "The imbroglio was simple, calm and easy to solve."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tangle",
+        "mess",
+        "entanglement"
+      ],
+      "ipa": "/ɪmˈbroʊljoʊ/"
+    },
+    {
+      "lemma": "juggernaut",
+      "pos": "noun",
+      "meaning": "A huge force or group that crushes everything in its way.",
+      "examples": [
+        "The champions were a {juggernaut} that nobody could stop."
+      ],
+      "wrong": [
+        "The juggernaut lost every match by a wide margin."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "powerhouse",
+        "steamroller"
+      ],
+      "ipa": "/ˈdʒʌɡɚˌnɔt/"
+    },
+    {
+      "lemma": "kerfuffle",
+      "pos": "noun",
+      "meaning": "A noisy fuss or argument, usually about something small.",
+      "examples": [
+        "There was a {kerfuffle} over who had booked the room."
+      ],
+      "wrong": [
+        "The kerfuffle was a long, quiet silence."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "fuss",
+        "commotion",
+        "to-do"
+      ],
+      "ipa": "/kɚˈfʌfəl/"
+    },
+    {
+      "lemma": "maelstrom",
+      "pos": "noun",
+      "meaning": "A situation of violent confusion and strong feeling.",
+      "examples": [
+        "She was swept into a {maelstrom} of press attention."
+      ],
+      "wrong": [
+        "The maelstrom was a calm and peaceful afternoon."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "whirlwind",
+        "turmoil",
+        "chaos"
+      ],
+      "ipa": "/ˈmeɪlstrəm/"
+    },
+    {
+      "lemma": "miasma",
+      "pos": "noun",
+      "meaning": "An unpleasant smell or an unhealthy, heavy atmosphere.",
+      "examples": [
+        "A {miasma} of suspicion hung over the office."
+      ],
+      "wrong": [
+        "The miasma filled the room with fresh, clean air."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fug",
+        "cloud",
+        "pall"
+      ],
+      "ipa": "/maɪˈæzmə/"
+    },
+    {
+      "lemma": "nexus",
+      "pos": "noun",
+      "meaning": "A central point where several things connect.",
+      "examples": [
+        "The station is the {nexus} of the city’s rail network."
+      ],
+      "wrong": [
+        "The nexus was the most isolated, unconnected point on the map."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hub",
+        "center",
+        "core"
+      ],
+      "ipa": "/ˈnɛksəs/"
+    },
+    {
+      "lemma": "panoply",
+      "pos": "noun",
+      "meaning": "A complete, impressive range of something.",
+      "examples": [
+        "The festival offers a {panoply} of music from every continent."
+      ],
+      "wrong": [
+        "The panoply consisted of just one small item."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "array",
+        "range",
+        "spectrum"
+      ],
+      "ipa": "/ˈpænəpli/"
+    },
+    {
+      "lemma": "paragon",
+      "pos": "noun",
+      "meaning": "A perfect example of a quality.",
+      "examples": [
+        "She was a {paragon} of patience with her students."
+      ],
+      "wrong": [
+        "As a paragon of honesty, he lied whenever he could."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "model",
+        "ideal",
+        "exemplar"
+      ],
+      "ipa": "/ˈpærəˌɡɑn/"
+    },
+    {
+      "lemma": "pittance",
+      "pos": "noun",
+      "meaning": "A very small amount of money, usually unfairly small.",
+      "examples": [
+        "The workers were paid a {pittance} for long shifts."
+      ],
+      "wrong": [
+        "She earned a pittance and became a millionaire in a month."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈpɪtəns/"
+    },
+    {
+      "lemma": "precipice",
+      "pos": "noun",
+      "meaning": "A very steep cliff, or a point close to disaster.",
+      "examples": [
+        "The economy was on the {precipice} of collapse."
+      ],
+      "wrong": [
+        "We stood on the precipice, safely in the middle of a flat field."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "brink",
+        "edge",
+        "verge"
+      ],
+      "ipa": "/ˈprɛsəpɪs/"
+    },
+    {
+      "lemma": "quagmire",
+      "pos": "noun",
+      "meaning": "A difficult situation that is hard to get out of.",
+      "examples": [
+        "The project sank into a legal {quagmire}."
+      ],
+      "wrong": [
+        "The quagmire was quick and easy to escape."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "morass",
+        "predicament",
+        "bog"
+      ],
+      "ipa": "/ˈkwæɡˌmaɪr/"
+    },
+    {
+      "lemma": "respite",
+      "pos": "noun",
+      "meaning": "A short break from something difficult or unpleasant.",
+      "examples": [
+        "The rain brought a brief {respite} from the heat."
+      ],
+      "wrong": [
+        "The respite made the hard work even more nonstop."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "break",
+        "rest",
+        "lull"
+      ],
+      "ipa": "/ˈrɛspɪt/"
+    },
+    {
+      "lemma": "schism",
+      "pos": "noun",
+      "meaning": "A split between groups caused by strong disagreement.",
+      "examples": [
+        "The vote caused a deep {schism} within the party."
+      ],
+      "wrong": [
+        "The schism brought every member into full agreement."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "split",
+        "rift",
+        "division"
+      ],
+      "ipa": "/ˈskɪzəm/",
+      "antonyms": [
+        "unity",
+        "union"
+      ]
+    },
+    {
+      "lemma": "talisman",
+      "pos": "noun",
+      "meaning": "An object believed to bring good luck or protection.",
+      "examples": [
+        "He carried the old coin as a {talisman} during exams."
+      ],
+      "wrong": [
+        "She kept the talisman because she thought it brought bad luck."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "charm",
+        "amulet"
+      ],
+      "ipa": "/ˈtælɪsmən/"
+    },
+    {
+      "lemma": "vortex",
+      "pos": "noun",
+      "meaning": "A whirling mass of air or water, or a situation that pulls you in.",
+      "examples": [
+        "The boat was caught in a {vortex} near the rocks."
+      ],
+      "wrong": [
+        "The vortex was a perfectly still pond."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "whirlpool",
+        "whirlwind"
+      ],
+      "ipa": "/ˈvɔrtɛks/"
+    },
+    {
+      "lemma": "wherewithal",
+      "pos": "noun",
+      "meaning": "The money or means needed to do something.",
+      "examples": [
+        "They lacked the {wherewithal} to rebuild after the flood."
+      ],
+      "wrong": [
+        "Having the wherewithal, she couldn’t afford a single thing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "means",
+        "resources",
+        "funds"
+      ],
+      "ipa": "/ˈwɛrwɪˌðɔl/"
+    },
+    {
+      "lemma": "conflagration",
+      "pos": "noun",
+      "meaning": "A very large, destructive fire.",
+      "examples": [
+        "The {conflagration} destroyed half the old town."
+      ],
+      "wrong": [
+        "The conflagration was a tiny candle flame."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "blaze",
+        "inferno"
+      ],
+      "ipa": "/ˌkɑnfləˈɡreɪʃən/"
+    },
+    {
+      "lemma": "detritus",
+      "pos": "noun",
+      "meaning": "Waste or broken pieces left after something.",
+      "examples": [
+        "The beach was covered in the {detritus} of the storm."
+      ],
+      "wrong": [
+        "The detritus was the newest, cleanest part of the house."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "debris",
+        "rubble",
+        "remains"
+      ],
+      "ipa": "/dɪˈtraɪtəs/"
+    },
+    {
+      "lemma": "flotsam",
+      "pos": "noun",
+      "meaning": "Floating wreckage, or useless odds and ends.",
+      "examples": [
+        "Bits of {flotsam} washed up after the shipwreck."
+      ],
+      "wrong": [
+        "The flotsam sank straight to the bottom of the sea."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "wreckage",
+        "debris"
+      ],
+      "ipa": "/ˈflɑtsəm/"
+    },
+    {
+      "lemma": "gamut",
+      "pos": "noun",
+      "meaning": "The whole range of something.",
+      "examples": [
+        "Her emotions ran the {gamut} from joy to despair."
+      ],
+      "wrong": [
+        "The gamut covered only one single option."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "range",
+        "spectrum",
+        "scope"
+      ],
+      "ipa": "/ˈɡæmət/"
+    },
+    {
+      "lemma": "acme",
+      "pos": "noun",
+      "meaning": "The highest point of perfection or achievement.",
+      "examples": [
+        "This novel is the {acme} of her writing."
+      ],
+      "wrong": [
+        "His worst performance was the acme of his career."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "peak",
+        "pinnacle",
+        "summit"
+      ],
+      "ipa": "/ˈækmi/",
+      "antonyms": [
+        "nadir",
+        "low point"
+      ]
+    },
+    {
+      "lemma": "bulwark",
+      "pos": "noun",
+      "meaning": "Something that protects or defends against danger.",
+      "examples": [
+        "A free press is a {bulwark} against corruption."
+      ],
+      "wrong": [
+        "The bulwark left the town open to every attack."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "safeguard",
+        "defense",
+        "bastion"
+      ],
+      "ipa": "/ˈbʊlwɚk/"
+    },
+    {
+      "lemma": "crucible",
+      "pos": "noun",
+      "meaning": "A severe test or hard situation that creates something new.",
+      "examples": [
+        "The war was the {crucible} in which the nation was formed."
+      ],
+      "wrong": [
+        "The crucible was an easy time that changed nothing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "test",
+        "trial",
+        "melting pot"
+      ],
+      "ipa": "/ˈkrusəbəl/"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-relationships",
+    "title": "Relationships",
+    "level": "B1",
+    "tagline": "Friends, partners and family ties",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "relationship",
+      "pos": "noun",
+      "meaning": "The way two people or groups feel and behave toward each other.",
+      "examples": [
+        "She has a good {relationship} with her boss."
+      ],
+      "wrong": [
+        "A relationship is a building where people work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "relations",
+        "association"
+      ],
+      "ipa": "/rɪˈleɪʃənˌʃɪp/"
+    },
+    {
+      "lemma": "partner",
+      "pos": "noun",
+      "meaning": "The person you live with or are in a relationship with.",
+      "examples": [
+        "My {partner} and I met at college."
+      ],
+      "wrong": [
+        "My partner is a stranger I have never met."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpɑrtnɚ/"
+    },
+    {
+      "lemma": "engaged",
+      "pos": "adjective",
+      "meaning": "Having agreed to marry someone.",
+      "examples": [
+        "They got {engaged} last summer."
+      ],
+      "wrong": [
+        "They are engaged, so they never plan to marry."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ɪnˈɡeɪdʒd/"
+    },
+    {
+      "lemma": "divorce",
+      "pos": "noun",
+      "meaning": "The legal end of a marriage.",
+      "examples": [
+        "Her parents got a {divorce} last year."
+      ],
+      "wrong": [
+        "A divorce is the day two people get married."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "separation"
+      ],
+      "ipa": "/dɪˈvɔrs/",
+      "antonyms": [
+        "marriage"
+      ]
+    },
+    {
+      "lemma": "wedding",
+      "pos": "noun",
+      "meaning": "A ceremony where two people get married.",
+      "examples": [
+        "We danced all night at the {wedding}."
+      ],
+      "wrong": [
+        "A wedding is the end of a marriage."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "marriage ceremony"
+      ],
+      "ipa": "/ˈwɛdɪŋ/"
+    },
+    {
+      "lemma": "friendship",
+      "pos": "noun",
+      "meaning": "A relationship between friends.",
+      "examples": [
+        "Their {friendship} began at school."
+      ],
+      "wrong": [
+        "Friendship is a feeling of hate between two people."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfrɛndʃɪp/"
+    },
+    {
+      "lemma": "argument",
+      "pos": "noun",
+      "meaning": "An angry talk between people who disagree.",
+      "examples": [
+        "They had an {argument} about money."
+      ],
+      "wrong": [
+        "An argument is a quiet talk where everyone agrees."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quarrel",
+        "row"
+      ],
+      "ipa": "/ˈɑrɡjəmənt/"
+    },
+    {
+      "lemma": "apology",
+      "pos": "noun",
+      "meaning": "Words that say you are sorry.",
+      "examples": [
+        "I owe you an {apology}."
+      ],
+      "wrong": [
+        "An apology is a way of saying thank you."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/əˈpɑlədʒi/"
+    },
+    {
+      "lemma": "respect",
+      "pos": "noun",
+      "meaning": "A feeling that someone is good and important.",
+      "examples": [
+        "Children should show {respect} to their teachers."
+      ],
+      "wrong": [
+        "He has respect for her, so he is always rude to her."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "admiration"
+      ],
+      "ipa": "/rɪˈspɛkt/",
+      "antonyms": [
+        "disrespect",
+        "contempt"
+      ]
+    },
+    {
+      "lemma": "rely on",
+      "pos": "phrase",
+      "meaning": "To trust someone or something to help you.",
+      "examples": [
+        "You can always {rely on} me."
+      ],
+      "wrong": [
+        "I rely on him, so I never trust him with anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "depend on",
+        "count on"
+      ],
+      "ipa": "/rɪˈlaɪ ɑn/"
+    },
+    {
+      "lemma": "get along",
+      "pos": "phrase",
+      "meaning": "To have a friendly relationship.",
+      "examples": [
+        "I {get along} well with my sister."
+      ],
+      "wrong": [
+        "We get along, so we argue all the time."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "get on"
+      ],
+      "ipa": "/ˌɡɛt əˈlɔŋ/"
+    },
+    {
+      "lemma": "fall out",
+      "pos": "phrase",
+      "meaning": "To stop being friends after an argument.",
+      "examples": [
+        "They {fell out} over a small thing."
+      ],
+      "wrong": [
+        "We fell out, so we became best friends."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "argue"
+      ],
+      "ipa": "/ˌfɔl ˈaʊt/",
+      "antonyms": [
+        "make up"
+      ]
+    },
+    {
+      "lemma": "break up",
+      "pos": "phrase",
+      "meaning": "To end a romantic relationship.",
+      "examples": [
+        "They {broke up} after two years."
+      ],
+      "wrong": [
+        "They broke up and got married the next day."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "split up"
+      ],
+      "ipa": "/ˌbreɪk ˈʌp/",
+      "antonyms": [
+        "get together"
+      ]
+    },
+    {
+      "lemma": "keep in touch",
+      "pos": "phrase",
+      "meaning": "To keep talking to or writing to someone.",
+      "examples": [
+        "Let’s {keep in touch} after the course."
+      ],
+      "wrong": [
+        "We keep in touch, so we never speak."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stay in contact"
+      ],
+      "ipa": "/ˌkip ɪn ˈtʌtʃ/"
+    },
+    {
+      "lemma": "make up",
+      "pos": "phrase",
+      "meaning": "To become friends again after an argument.",
+      "examples": [
+        "They argued, but they {made up} the next day."
+      ],
+      "wrong": [
+        "We made up, so we are still angry with each other."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "reconcile"
+      ],
+      "ipa": "/ˌmeɪk ˈʌp/",
+      "antonyms": [
+        "fall out"
+      ]
+    },
+    {
+      "lemma": "close",
+      "pos": "adjective",
+      "meaning": "Knowing someone very well and liking them a lot.",
+      "examples": [
+        "We are very {close} friends."
+      ],
+      "wrong": [
+        "We are close friends, so we hardly know each other."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "intimate"
+      ],
+      "ipa": "/kloʊs/",
+      "antonyms": [
+        "distant"
+      ]
+    },
+    {
+      "lemma": "loyal",
+      "pos": "adjective",
+      "meaning": "Always supporting your friends or beliefs.",
+      "examples": [
+        "My dog is very {loyal}."
+      ],
+      "wrong": [
+        "He is loyal, so he left his friends when things got hard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "faithful"
+      ],
+      "ipa": "/ˈlɔɪəl/",
+      "antonyms": [
+        "disloyal",
+        "unfaithful"
+      ]
+    },
+    {
+      "lemma": "date",
+      "pos": "verb",
+      "meaning": "To go out with someone in a romantic way.",
+      "examples": [
+        "They {dated} for a year before they married."
+      ],
+      "wrong": [
+        "They dated, but they never met."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go out with"
+      ],
+      "ipa": "/deɪt/"
+    },
+    {
+      "lemma": "attractive",
+      "pos": "adjective",
+      "meaning": "Pleasant to look at.",
+      "examples": [
+        "He thinks she is very {attractive}."
+      ],
+      "wrong": [
+        "She is attractive, so nobody likes to look at her."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "good-looking"
+      ],
+      "ipa": "/əˈtræktɪv/",
+      "antonyms": [
+        "unattractive",
+        "ugly"
+      ]
+    },
+    {
+      "lemma": "romantic",
+      "pos": "adjective",
+      "meaning": "Connected with love.",
+      "examples": [
+        "They had a {romantic} dinner by candlelight."
+      ],
+      "wrong": [
+        "The dinner was romantic, so it was about business."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/roʊˈmæntɪk/",
+      "antonyms": [
+        "unromantic"
+      ]
+    },
+    {
+      "lemma": "gossip",
+      "pos": "noun",
+      "meaning": "Talk about other people’s private lives.",
+      "examples": [
+        "Don’t listen to office {gossip}."
+      ],
+      "wrong": [
+        "Gossip is serious news from the government."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rumors"
+      ],
+      "ipa": "/ˈɡɑsɪp/"
+    },
+    {
+      "lemma": "rumor",
+      "pos": "noun",
+      "meaning": "A story that may not be true, passed from person to person.",
+      "examples": [
+        "There’s a {rumor} that the shop will close."
+      ],
+      "wrong": [
+        "A rumor is a fact that everyone has checked."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gossip"
+      ],
+      "ipa": "/ˈrumɚ/"
+    },
+    {
+      "lemma": "secret",
+      "pos": "noun",
+      "meaning": "Something that you do not tell other people.",
+      "examples": [
+        "Can you keep a {secret}?"
+      ],
+      "wrong": [
+        "A secret is something that everyone knows."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsikrɪt/"
+    },
+    {
+      "lemma": "promise",
+      "pos": "verb",
+      "meaning": "To say that you will certainly do something.",
+      "examples": [
+        "I {promise} I’ll be on time."
+      ],
+      "wrong": [
+        "I promised to come, so I told her I might not."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "swear"
+      ],
+      "ipa": "/ˈprɑmɪs/"
+    },
+    {
+      "lemma": "miss",
+      "pos": "verb",
+      "meaning": "To feel sad because someone is not with you.",
+      "examples": [
+        "I {miss} my family when I travel."
+      ],
+      "wrong": [
+        "I miss her, so I’m glad she’s gone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/mɪs/"
+    },
+    {
+      "lemma": "childhood",
+      "pos": "noun",
+      "meaning": "The time when you are a child.",
+      "examples": [
+        "I had a happy {childhood} in the country."
+      ],
+      "wrong": [
+        "My childhood was when I was sixty."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtʃaɪldˌhʊd/"
+    },
+    {
+      "lemma": "generation",
+      "pos": "noun",
+      "meaning": "All the people born at about the same time.",
+      "examples": [
+        "My parents’ {generation} didn’t have phones."
+      ],
+      "wrong": [
+        "A generation is one person in a family."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌdʒɛnəˈreɪʃən/"
+    },
+    {
+      "lemma": "acquaintance",
+      "pos": "noun",
+      "meaning": "A person you know a little, but not well.",
+      "examples": [
+        "He’s an {acquaintance}, not a close friend."
+      ],
+      "wrong": [
+        "An acquaintance is my best friend since birth."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/əˈkweɪntəns/"
+    },
+    {
+      "lemma": "bond",
+      "pos": "noun",
+      "meaning": "A strong feeling that connects people.",
+      "examples": [
+        "There is a strong {bond} between the twins."
+      ],
+      "wrong": [
+        "A bond is a feeling that keeps people apart."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "connection",
+        "tie"
+      ],
+      "ipa": "/bɑnd/"
+    },
+    {
+      "lemma": "support",
+      "pos": "noun",
+      "meaning": "Help and kindness that you give someone.",
+      "examples": [
+        "Thanks for your {support} after the accident."
+      ],
+      "wrong": [
+        "She gave me support by laughing at my problem."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "help"
+      ],
+      "ipa": "/səˈpɔrt/"
+    },
+    {
+      "lemma": "care",
+      "pos": "verb",
+      "meaning": "To feel that something or someone is important.",
+      "examples": [
+        "I really {care} about my friends."
+      ],
+      "wrong": [
+        "I care about her, so I don’t mind what happens to her."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/kɛr/"
+    },
+    {
+      "lemma": "trustworthy",
+      "pos": "adjective",
+      "meaning": "Able to be trusted.",
+      "examples": [
+        "She is honest and {trustworthy}."
+      ],
+      "wrong": [
+        "He is trustworthy, so he always lies to his friends."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "dependable"
+      ],
+      "ipa": "/ˈtrʌstˌwɝði/",
+      "antonyms": [
+        "untrustworthy"
+      ]
+    },
+    {
+      "lemma": "flatmate",
+      "pos": "noun",
+      "meaning": "A person you share a flat with.",
+      "examples": [
+        "My {flatmate} cooks dinner on Fridays."
+      ],
+      "wrong": [
+        "A flatmate is a person who lives in another country and never visits."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "roommate"
+      ],
+      "ipa": "/ˈflætˌmeɪt/"
+    },
+    {
+      "lemma": "bride",
+      "pos": "noun",
+      "meaning": "A woman on her wedding day.",
+      "examples": [
+        "The {bride} wore a long white dress."
+      ],
+      "wrong": [
+        "The bride is the man she marries."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/braɪd/"
+    },
+    {
+      "lemma": "sympathy",
+      "pos": "noun",
+      "meaning": "A feeling of being sorry for someone who is sad or in trouble.",
+      "examples": [
+        "We sent our {sympathy} to the family."
+      ],
+      "wrong": [
+        "She showed sympathy by laughing at his bad news."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "compassion",
+        "pity"
+      ],
+      "ipa": "/ˈsɪmpəθi/"
+    },
+    {
+      "lemma": "praise",
+      "pos": "verb",
+      "meaning": "To say that someone has done well.",
+      "examples": [
+        "The teacher {praised} her work."
+      ],
+      "wrong": [
+        "He praised me by saying my work was terrible."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "compliment"
+      ],
+      "ipa": "/preɪz/",
+      "antonyms": [
+        "criticize"
+      ]
+    },
+    {
+      "lemma": "blame",
+      "pos": "verb",
+      "meaning": "To say that someone is responsible for something bad.",
+      "examples": [
+        "Don’t {blame} me; it wasn’t my fault."
+      ],
+      "wrong": [
+        "I blamed him for the gift he kindly gave me."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/bleɪm/"
+    },
+    {
+      "lemma": "fault",
+      "pos": "noun",
+      "meaning": "Responsibility for a mistake.",
+      "examples": [
+        "The accident was not your {fault}."
+      ],
+      "wrong": [
+        "It was my fault, so I had nothing to do with it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "blame"
+      ],
+      "ipa": "/fɔlt/"
+    },
+    {
+      "lemma": "behave",
+      "pos": "verb",
+      "meaning": "To act in a certain way.",
+      "examples": [
+        "The children {behaved} well at the party."
+      ],
+      "wrong": [
+        "He behaved badly, so everyone thanked him."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "act"
+      ],
+      "ipa": "/bɪˈheɪv/"
+    },
+    {
+      "lemma": "tease",
+      "pos": "verb",
+      "meaning": "To laugh at someone in a friendly or unkind way.",
+      "examples": [
+        "My brother always {teases} me about my hair."
+      ],
+      "wrong": [
+        "He teased me by saying nothing at all."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "mock"
+      ],
+      "ipa": "/tiz/"
+    }
+  ]
+}

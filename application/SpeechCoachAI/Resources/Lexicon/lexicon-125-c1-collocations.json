@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-collocations",
+    "title": "Formal collocations",
+    "level": "C1",
+    "tagline": "Word partners for formal English",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "carry weight",
+      "pos": "phrase",
+      "meaning": "To have influence and be taken seriously by others.",
+      "examples": [
+        "Her opinion {carries weight} with the board."
+      ],
+      "wrong": [
+        "His views carry weight, so nobody pays any attention to them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "count",
+        "matter"
+      ],
+      "ipa": "/ˈkæri ˈweɪt/"
+    },
+    {
+      "lemma": "reach a consensus",
+      "pos": "phrase",
+      "meaning": "To arrive at an agreement that everyone in a group accepts.",
+      "examples": [
+        "After hours of debate, the board {reached a consensus}."
+      ],
+      "wrong": [
+        "They reached a consensus, so nobody agreed with anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "agree"
+      ],
+      "ipa": "/ˈritʃ ə kənˈsɛnsəs/",
+      "antonyms": [
+        "disagree"
+      ]
+    },
+    {
+      "lemma": "raise concerns",
+      "pos": "phrase",
+      "meaning": "To say formally that you are worried about something.",
+      "examples": [
+        "Parents {raised concerns} about the new timetable."
+      ],
+      "wrong": [
+        "He raised concerns by saying he was completely happy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "voice worries"
+      ],
+      "ipa": "/ˈreɪz kənˈsɝnz/"
+    },
+    {
+      "lemma": "draw a distinction",
+      "pos": "phrase",
+      "meaning": "To point out clearly how two things are different.",
+      "examples": [
+        "The report {draws a distinction} between weather and climate."
+      ],
+      "wrong": [
+        "She drew a distinction by saying the two ideas were exactly the same."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "distinguish",
+        "differentiate"
+      ],
+      "ipa": "/ˈdrɔ ə dɪˈstɪŋkʃən/"
+    },
+    {
+      "lemma": "bear responsibility",
+      "pos": "phrase",
+      "meaning": "To be the person who must answer for something.",
+      "examples": [
+        "The company {bears responsibility} for the delay."
+      ],
+      "wrong": [
+        "She bears responsibility, so the problem has nothing to do with her."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "be accountable"
+      ],
+      "ipa": "/ˈbɛr rɪˌspɑnsəˈbɪləti/"
+    },
+    {
+      "lemma": "meet the criteria",
+      "pos": "phrase",
+      "meaning": "To have all the qualities that are required.",
+      "examples": [
+        "Only three applicants {met the criteria}."
+      ],
+      "wrong": [
+        "He met the criteria, so he was rejected for not qualifying."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "qualify"
+      ],
+      "ipa": "/ˈmit ðə kraɪˈtɪriə/"
+    },
+    {
+      "lemma": "gain momentum",
+      "pos": "phrase",
+      "meaning": "To grow stronger and develop faster over time.",
+      "examples": [
+        "The campaign {gained momentum} as more people joined."
+      ],
+      "wrong": [
+        "The movement gained momentum and slowly faded away."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "pick up speed"
+      ],
+      "ipa": "/ˈɡeɪn moʊˈmɛntəm/"
+    },
+    {
+      "lemma": "wield influence",
+      "pos": "phrase",
+      "meaning": "To have and use power over people or events.",
+      "examples": [
+        "Large banks {wield influence} over national policy."
+      ],
+      "wrong": [
+        "The tiny club wields influence, so nobody listens to it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hold sway"
+      ],
+      "ipa": "/ˈwild ˈɪnfluəns/"
+    },
+    {
+      "lemma": "take precedence",
+      "pos": "phrase",
+      "meaning": "To be more important and dealt with first.",
+      "examples": [
+        "Safety must {take precedence} over speed."
+      ],
+      "wrong": [
+        "Safety takes precedence, so we deal with it last."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "come first",
+        "override"
+      ],
+      "ipa": "/ˈteɪk ˈprɛsɪdəns/"
+    },
+    {
+      "lemma": "place emphasis on",
+      "pos": "phrase",
+      "meaning": "To show that something is especially important.",
+      "examples": [
+        "The school {places emphasis on} reading."
+      ],
+      "wrong": [
+        "The coach placed emphasis on fitness by never mentioning it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stress",
+        "highlight"
+      ],
+      "ipa": "/ˈpleɪs ˈɛmfəsɪs ɑn/"
+    },
+    {
+      "lemma": "give rise to",
+      "pos": "phrase",
+      "meaning": "To cause something to happen or begin.",
+      "examples": [
+        "The new policy {gave rise to} protests."
+      ],
+      "wrong": [
+        "The decision gave rise to nothing; it caused many changes."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cause",
+        "trigger"
+      ],
+      "ipa": "/ˈɡɪv ˈraɪz tu/"
+    },
+    {
+      "lemma": "shed light on",
+      "pos": "phrase",
+      "meaning": "To help explain something or make it clearer.",
+      "examples": [
+        "The letters {shed light on} her early life."
+      ],
+      "wrong": [
+        "The study shed light on the problem, making it even more confusing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "clarify",
+        "illuminate"
+      ],
+      "ipa": "/ˈʃɛd ˈlaɪt ɑn/"
+    },
+    {
+      "lemma": "come into force",
+      "pos": "phrase",
+      "meaning": "To start being officially used, as a law or rule does.",
+      "examples": [
+        "The new rules {come into force} in January."
+      ],
+      "wrong": [
+        "The law came into force, so nobody has to follow it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "take effect"
+      ],
+      "ipa": "/ˈkʌm ˈɪntu ˈfɔrs/"
+    },
+    {
+      "lemma": "lodge a complaint",
+      "pos": "phrase",
+      "meaning": "To make an official complaint to a person or organization.",
+      "examples": [
+        "She {lodged a complaint} with the city council."
+      ],
+      "wrong": [
+        "He lodged a complaint to say how pleased he was."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "file a complaint"
+      ],
+      "ipa": "/ˈlɑdʒ ə kəmˈpleɪnt/"
+    },
+    {
+      "lemma": "incur costs",
+      "pos": "phrase",
+      "meaning": "To have to pay money because of something you did.",
+      "examples": [
+        "Late cancellations may {incur costs} for the guest."
+      ],
+      "wrong": [
+        "We incurred costs, so we didn’t have to pay anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "run up expenses"
+      ],
+      "ipa": "/ɪnˈkɝ ˈkɔsts/"
+    },
+    {
+      "lemma": "come under scrutiny",
+      "pos": "phrase",
+      "meaning": "To be examined closely and critically by others.",
+      "examples": [
+        "The company’s accounts have {come under scrutiny}."
+      ],
+      "wrong": [
+        "The plan came under scrutiny, so nobody looked at it closely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈkʌm ʌndɚ ˈskrutəni/"
+    },
+    {
+      "lemma": "fulfill an obligation",
+      "pos": "phrase",
+      "meaning": "To do what you have a duty or promise to do.",
+      "examples": [
+        "The firm {fulfilled its obligations} under the contract."
+      ],
+      "wrong": [
+        "He fulfilled his obligation by ignoring his duty."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "meet a commitment"
+      ],
+      "ipa": "/fʊlˈfɪl ən ˌɑbləˈɡeɪʃən/"
+    },
+    {
+      "lemma": "grant permission",
+      "pos": "phrase",
+      "meaning": "To officially allow someone to do something.",
+      "examples": [
+        "The council {granted permission} for the new building."
+      ],
+      "wrong": [
+        "They granted permission by refusing every request."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "authorize",
+        "approve"
+      ],
+      "ipa": "/ˈɡrænt pɚˈmɪʃən/"
+    },
+    {
+      "lemma": "make a concession",
+      "pos": "phrase",
+      "meaning": "To give up something to reach an agreement.",
+      "examples": [
+        "Both sides had to {make concessions} to end the strike."
+      ],
+      "wrong": [
+        "She made a concession by refusing to give up anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "compromise"
+      ],
+      "ipa": "/ˈmeɪk ə kənˈsɛʃən/"
+    },
+    {
+      "lemma": "set a precedent",
+      "pos": "phrase",
+      "meaning": "To do something that will be used as an example for future cases.",
+      "examples": [
+        "The ruling could {set a precedent} for similar cases."
+      ],
+      "wrong": [
+        "The decision set a precedent, so it will never affect later cases."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈsɛt ə ˈprɛsɪdənt/"
+    },
+    {
+      "lemma": "voice an objection",
+      "pos": "phrase",
+      "meaning": "To say publicly that you disagree with something.",
+      "examples": [
+        "Several members {voiced objections} to the plan."
+      ],
+      "wrong": [
+        "He voiced an objection by saying he fully agreed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "object",
+        "protest"
+      ],
+      "ipa": "/ˈvɔɪs ən əbˈdʒɛkʃən/"
+    },
+    {
+      "lemma": "pay tribute to",
+      "pos": "phrase",
+      "meaning": "To praise and show respect for someone publicly.",
+      "examples": [
+        "The speaker {paid tribute to} the volunteers."
+      ],
+      "wrong": [
+        "She paid tribute to her teacher by insulting him on stage."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "honor",
+        "salute"
+      ],
+      "ipa": "/ˈpeɪ ˈtrɪbjut tu/"
+    },
+    {
+      "lemma": "attach importance to",
+      "pos": "phrase",
+      "meaning": "To think that something matters a lot.",
+      "examples": [
+        "Our company {attaches importance to} customer service."
+      ],
+      "wrong": [
+        "They attach importance to safety, so they ignore it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "value",
+        "prize"
+      ],
+      "ipa": "/əˈtætʃ ɪmˈpɔrtəns tu/"
+    },
+    {
+      "lemma": "exercise caution",
+      "pos": "phrase",
+      "meaning": "To be careful in a risky situation.",
+      "examples": [
+        "Drivers should {exercise caution} on icy roads."
+      ],
+      "wrong": [
+        "He exercised caution by driving as fast as he could."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "be careful"
+      ],
+      "ipa": "/ˈɛksɚˌsaɪz ˈkɔʃən/"
+    },
+    {
+      "lemma": "hold someone accountable",
+      "pos": "phrase",
+      "meaning": "To make someone accept responsibility for what they did.",
+      "examples": [
+        "Voters will {hold the government accountable}."
+      ],
+      "wrong": [
+        "They held him accountable by pretending the mistake never happened."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈhoʊld ˈsʌmˌwʌn əˈkaʊntəbəl/"
+    },
+    {
+      "lemma": "seize an opportunity",
+      "pos": "phrase",
+      "meaning": "To act quickly to use a good chance.",
+      "examples": [
+        "She {seized the opportunity} to study abroad."
+      ],
+      "wrong": [
+        "He seized the opportunity by letting it pass."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "grab a chance"
+      ],
+      "ipa": "/ˈsiz ən ˌɑpɚˈtunəti/"
+    },
+    {
+      "lemma": "express reservations",
+      "pos": "phrase",
+      "meaning": "To say formally that you have some doubts about something.",
+      "examples": [
+        "Several experts {expressed reservations} about the plan."
+      ],
+      "wrong": [
+        "He expressed reservations by saying he had no doubts at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "voice doubts"
+      ],
+      "ipa": "/ɪkˈsprɛs ˌrɛzɚˈveɪʃənz/"
+    },
+    {
+      "lemma": "bridge the gap",
+      "pos": "phrase",
+      "meaning": "To reduce the difference between two things or groups.",
+      "examples": [
+        "The program aims to {bridge the gap} between rich and poor."
+      ],
+      "wrong": [
+        "The policy bridged the gap by making the difference much bigger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "close the gap"
+      ],
+      "ipa": "/ˈbrɪdʒ ðə ˈɡæp/"
+    },
+    {
+      "lemma": "run the risk of",
+      "pos": "phrase",
+      "meaning": "To be in a situation where something bad could happen.",
+      "examples": [
+        "If you skip class, you {run the risk of} failing."
+      ],
+      "wrong": [
+        "He ran the risk of failing, so failure was impossible."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "risk"
+      ],
+      "ipa": "/ˈrʌn ðə ˈrɪsk əv/"
+    },
+    {
+      "lemma": "a marked improvement",
+      "pos": "phrase",
+      "meaning": "A clear and noticeable change for the better.",
+      "examples": [
+        "There has been {a marked improvement} in her grades."
+      ],
+      "wrong": [
+        "There was a marked improvement, so things got worse."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "a notable improvement"
+      ],
+      "ipa": "/ə ˈmɑrkt ɪmˈpruvmənt/"
+    },
+    {
+      "lemma": "a viable alternative",
+      "pos": "phrase",
+      "meaning": "Another option that could really work.",
+      "examples": [
+        "Solar power is now {a viable alternative} to coal."
+      ],
+      "wrong": [
+        "It’s a viable alternative, so it could never work."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "a workable option"
+      ],
+      "ipa": "/ə ˈvaɪəbəl ɔlˈtɝnətɪv/"
+    },
+    {
+      "lemma": "a vested interest",
+      "pos": "phrase",
+      "meaning": "A personal reason, often about money, for wanting something to happen.",
+      "examples": [
+        "Builders have {a vested interest} in the new road."
+      ],
+      "wrong": [
+        "He has a vested interest, so the result means nothing to him."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "a stake"
+      ],
+      "ipa": "/ə ˈvɛstɪd ˈɪntrəst/"
+    },
+    {
+      "lemma": "a foregone conclusion",
+      "pos": "phrase",
+      "meaning": "A result that is certain before something even happens.",
+      "examples": [
+        "The election result was {a foregone conclusion}."
+      ],
+      "wrong": [
+        "The match was a foregone conclusion, so nobody could predict who would win."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ə ˈfɔrˌɡɔn kənˈkluʒən/"
+    },
+    {
+      "lemma": "in the wake of",
+      "pos": "phrase",
+      "meaning": "Happening after and because of an event.",
+      "examples": [
+        "Prices rose {in the wake of} the storm."
+      ],
+      "wrong": [
+        "The rules changed in the wake of the scandal, two years before it happened."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "following",
+        "after"
+      ],
+      "ipa": "/ɪn ðə ˈweɪk əv/"
+    },
+    {
+      "lemma": "a matter of urgency",
+      "pos": "phrase",
+      "meaning": "Something that must be dealt with very quickly.",
+      "examples": [
+        "The repairs should be done as {a matter of urgency}."
+      ],
+      "wrong": [
+        "It’s a matter of urgency, so we can deal with it next year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "a priority"
+      ],
+      "ipa": "/ə ˈmætɚ əv ˈɝdʒənsi/"
+    },
+    {
+      "lemma": "widespread support",
+      "pos": "phrase",
+      "meaning": "Approval from many people in many places.",
+      "examples": [
+        "The plan has {widespread support} among residents."
+      ],
+      "wrong": [
+        "The idea had widespread support, as almost nobody liked it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "broad support"
+      ],
+      "ipa": "/ˈwaɪdˌsprɛd səˈpɔrt/"
+    },
+    {
+      "lemma": "sound judgment",
+      "pos": "phrase",
+      "meaning": "The ability to make sensible, good decisions.",
+      "examples": [
+        "A good manager needs {sound judgment}."
+      ],
+      "wrong": [
+        "She showed sound judgment by making one foolish choice after another."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "good sense",
+        "wisdom"
+      ],
+      "ipa": "/ˈsaʊnd ˈdʒʌdʒmənt/"
+    },
+    {
+      "lemma": "lend support",
+      "pos": "phrase",
+      "meaning": "To give help or agreement to a person or idea.",
+      "examples": [
+        "Several groups {lent support} to the campaign."
+      ],
+      "wrong": [
+        "He lent support to the plan by voting against it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "back",
+        "endorse"
+      ],
+      "ipa": "/ˈlɛnd səˈpɔrt/"
+    },
+    {
+      "lemma": "allay fears",
+      "pos": "phrase",
+      "meaning": "To make people feel less worried.",
+      "examples": [
+        "The minister tried to {allay fears} about the virus."
+      ],
+      "wrong": [
+        "His calm words allayed fears and made everyone panic."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ease worries",
+        "reassure"
+      ],
+      "ipa": "/əˈleɪ ˈfɪrz/"
+    },
+    {
+      "lemma": "a sharp decline",
+      "pos": "phrase",
+      "meaning": "A sudden and large fall in amount or quality.",
+      "examples": [
+        "There was {a sharp decline} in sales last year."
+      ],
+      "wrong": [
+        "Sales showed a sharp decline, rising quickly to a record."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "a steep drop",
+        "a plunge"
+      ],
+      "ipa": "/ə ˈʃɑrp dɪˈklaɪn/",
+      "antonyms": [
+        "a sharp rise"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-communication",
+    "title": "Communication",
+    "level": "C1",
+    "tagline": "How people say things",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "convey",
+      "pos": "verb",
+      "meaning": "To communicate an idea or feeling.",
+      "examples": [
+        "Her face {conveyed} her surprise."
+      ],
+      "wrong": [
+        "His words conveyed nothing, so the message was clear."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "communicate",
+        "express"
+      ],
+      "ipa": "/kənˈveɪ/"
+    },
+    {
+      "lemma": "insinuate",
+      "pos": "verb",
+      "meaning": "To suggest something bad in an indirect way.",
+      "examples": [
+        "Are you {insinuating} that I lied?"
+      ],
+      "wrong": [
+        "She insinuated it by saying it plainly and directly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "imply",
+        "hint"
+      ],
+      "ipa": "/ɪnˈsɪnjuˌeɪt/"
+    },
+    {
+      "lemma": "allude",
+      "pos": "verb",
+      "meaning": "To mention something indirectly.",
+      "examples": [
+        "He {alluded} to his troubled past."
+      ],
+      "wrong": [
+        "She alluded to it by explaining every detail."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refer",
+        "mention indirectly"
+      ],
+      "ipa": "/əˈlud/"
+    },
+    {
+      "lemma": "paraphrase",
+      "pos": "verb",
+      "meaning": "To express what someone said using different words.",
+      "examples": [
+        "Can you {paraphrase} the main point?"
+      ],
+      "wrong": [
+        "I paraphrased it by copying every word exactly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reword",
+        "rephrase"
+      ],
+      "ipa": "/ˈpærəˌfreɪz/"
+    },
+    {
+      "lemma": "summarize",
+      "pos": "verb",
+      "meaning": "To give the main points briefly.",
+      "examples": [
+        "Please {summarize} the report in one page."
+      ],
+      "wrong": [
+        "She summarized the book by reading every line aloud."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sum up",
+        "outline"
+      ],
+      "ipa": "/ˈsʌməˌraɪz/"
+    },
+    {
+      "lemma": "clarify",
+      "pos": "verb",
+      "meaning": "To make something easier to understand.",
+      "examples": [
+        "Could you {clarify} what you mean?"
+      ],
+      "wrong": [
+        "His answer clarified things, so we were more confused."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "explain"
+      ],
+      "ipa": "/ˈklærəˌfaɪ/",
+      "antonyms": [
+        "confuse",
+        "obscure"
+      ]
+    },
+    {
+      "lemma": "emphasize",
+      "pos": "verb",
+      "meaning": "To show that something is especially important.",
+      "examples": [
+        "She {emphasized} the need for safety."
+      ],
+      "wrong": [
+        "He emphasized the point by never mentioning it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stress",
+        "highlight"
+      ],
+      "ipa": "/ˈɛmfəˌsaɪz/",
+      "antonyms": [
+        "downplay",
+        "understate"
+      ]
+    },
+    {
+      "lemma": "reiterate",
+      "pos": "verb",
+      "meaning": "To say something again, for emphasis.",
+      "examples": [
+        "Let me {reiterate}: the deadline is Friday."
+      ],
+      "wrong": [
+        "She reiterated the rule by saying it for the first time."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "repeat",
+        "restate"
+      ],
+      "ipa": "/riˈɪtəˌreɪt/"
+    },
+    {
+      "lemma": "digress",
+      "pos": "verb",
+      "meaning": "To move away from the main subject while speaking.",
+      "examples": [
+        "Sorry, I {digress}; back to the main point."
+      ],
+      "wrong": [
+        "He digressed by staying exactly on topic."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "wander",
+        "stray"
+      ],
+      "ipa": "/daɪˈɡrɛs/"
+    },
+    {
+      "lemma": "verbose",
+      "pos": "adjective",
+      "meaning": "Using more words than needed.",
+      "examples": [
+        "The report is too {verbose}."
+      ],
+      "wrong": [
+        "His speech was verbose, so it was very short."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "wordy",
+        "long-winded"
+      ],
+      "ipa": "/vɚˈboʊs/",
+      "antonyms": [
+        "concise",
+        "succinct"
+      ]
+    },
+    {
+      "lemma": "concise",
+      "pos": "adjective",
+      "meaning": "Short and clear.",
+      "examples": [
+        "Give a {concise} answer."
+      ],
+      "wrong": [
+        "The summary was concise, so it went on for pages."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "brief",
+        "succinct"
+      ],
+      "ipa": "/kənˈsaɪs/",
+      "antonyms": [
+        "wordy",
+        "verbose"
+      ]
+    },
+    {
+      "lemma": "succinct",
+      "pos": "adjective",
+      "meaning": "Expressed clearly in few words.",
+      "examples": [
+        "Her reply was {succinct}."
+      ],
+      "wrong": [
+        "His answer was succinct, so it took an hour."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "concise",
+        "brief"
+      ],
+      "ipa": "/səkˈsɪŋkt/",
+      "antonyms": [
+        "wordy",
+        "verbose"
+      ]
+    },
+    {
+      "lemma": "rhetoric",
+      "pos": "noun",
+      "meaning": "Language used to persuade, sometimes without real meaning.",
+      "examples": [
+        "The speech was full of empty {rhetoric}."
+      ],
+      "wrong": [
+        "Rhetoric is a type of math."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "oratory"
+      ],
+      "ipa": "/ˈrɛtərɪk/"
+    },
+    {
+      "lemma": "colloquial",
+      "pos": "adjective",
+      "meaning": "Informal; used in everyday conversation.",
+      "examples": [
+        "’Gonna’ is a {colloquial} form."
+      ],
+      "wrong": [
+        "Colloquial language is used only in legal documents."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "informal",
+        "conversational"
+      ],
+      "ipa": "/kəˈloʊkwiəl/",
+      "antonyms": [
+        "formal"
+      ]
+    },
+    {
+      "lemma": "tone",
+      "pos": "noun",
+      "meaning": "The way something is said that shows feelings.",
+      "examples": [
+        "I didn’t like his {tone}."
+      ],
+      "wrong": [
+        "Tone is the number of words in a sentence."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "manner"
+      ],
+      "ipa": "/toʊn/"
+    },
+    {
+      "lemma": "anecdote",
+      "pos": "noun",
+      "meaning": "A short interesting story about a real event.",
+      "examples": [
+        "She told a funny {anecdote} about her first job."
+      ],
+      "wrong": [
+        "An anecdote is a long scientific report."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "story",
+        "tale"
+      ],
+      "ipa": "/ˈænɪkˌdoʊt/"
+    },
+    {
+      "lemma": "euphemism",
+      "pos": "noun",
+      "meaning": "A mild word used instead of an unpleasant one.",
+      "examples": [
+        "’Passed away’ is a {euphemism} for ’died’."
+      ],
+      "wrong": [
+        "A euphemism is a harsh word used to shock people."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈjufəˌmɪzəm/"
+    },
+    {
+      "lemma": "platitude",
+      "pos": "noun",
+      "meaning": "A statement that has been said too often to be interesting.",
+      "examples": [
+        "His speech was full of {platitudes}."
+      ],
+      "wrong": [
+        "A platitude is a fresh, original idea."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cliché",
+        "truism"
+      ],
+      "ipa": "/ˈplætəˌtud/"
+    },
+    {
+      "lemma": "understatement",
+      "pos": "noun",
+      "meaning": "A statement that makes something seem less than it is.",
+      "examples": [
+        "Saying it was warm is an {understatement}; it was 45 degrees."
+      ],
+      "wrong": [
+        "An understatement makes something seem bigger than it is."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈʌndɚˌsteɪtmənt/",
+      "antonyms": [
+        "exaggeration",
+        "overstatement"
+      ]
+    },
+    {
+      "lemma": "sarcasm",
+      "pos": "noun",
+      "meaning": "Saying the opposite of what you mean to mock someone.",
+      "examples": [
+        "’Great job,’ he said with {sarcasm}."
+      ],
+      "wrong": [
+        "Sarcasm means saying exactly what you mean, kindly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "irony",
+        "mockery"
+      ],
+      "ipa": "/ˈsɑrˌkæzəm/"
+    },
+    {
+      "lemma": "irony",
+      "pos": "noun",
+      "meaning": "A situation or use of words that is the opposite of what you expect.",
+      "examples": [
+        "The {irony} is that the fire station burned down."
+      ],
+      "wrong": [
+        "Irony is when everything happens just as you expect."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈaɪrəni/"
+    },
+    {
+      "lemma": "eloquence",
+      "pos": "noun",
+      "meaning": "The skill of speaking or writing well and persuasively.",
+      "examples": [
+        "Her {eloquence} won the debate."
+      ],
+      "wrong": [
+        "His eloquence meant he couldn’t express himself."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "fluency",
+        "articulacy"
+      ],
+      "ipa": "/ˈɛləkwəns/"
+    },
+    {
+      "lemma": "persuasion",
+      "pos": "noun",
+      "meaning": "The act of making someone agree or do something.",
+      "examples": [
+        "It took some {persuasion} to get him to come."
+      ],
+      "wrong": [
+        "Persuasion means forcing someone with no words."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "convincing"
+      ],
+      "ipa": "/pɚˈsweɪʒən/"
+    },
+    {
+      "lemma": "discourse",
+      "pos": "noun",
+      "meaning": "Written or spoken communication, especially serious discussion.",
+      "examples": [
+        "Political {discourse} has become more aggressive."
+      ],
+      "wrong": [
+        "Discourse is silence with no communication."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "discussion",
+        "dialogue"
+      ],
+      "ipa": "/ˈdɪskɔrs/"
+    },
+    {
+      "lemma": "rapport",
+      "pos": "noun",
+      "meaning": "A friendly relationship with good understanding.",
+      "examples": [
+        "She has a good {rapport} with her students."
+      ],
+      "wrong": [
+        "They have great rapport, so they never understand each other."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "connection",
+        "bond"
+      ],
+      "ipa": "/ræˈpɔr/"
+    },
+    {
+      "lemma": "interject",
+      "pos": "verb",
+      "meaning": "To say something that interrupts a speaker.",
+      "examples": [
+        "’That’s not true,’ she {interjected}."
+      ],
+      "wrong": [
+        "He interjected by waiting silently until the end."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "interrupt",
+        "cut in"
+      ],
+      "ipa": "/ˌɪntɚˈdʒɛkt/"
+    },
+    {
+      "lemma": "mumble",
+      "pos": "verb",
+      "meaning": "To speak quietly and unclearly.",
+      "examples": [
+        "Don’t {mumble}; speak up."
+      ],
+      "wrong": [
+        "She mumbled, so everyone heard every word clearly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mutter"
+      ],
+      "ipa": "/ˈmʌmbəl/"
+    },
+    {
+      "lemma": "reassure",
+      "pos": "verb",
+      "meaning": "To make someone feel less worried.",
+      "examples": [
+        "The doctor {reassured} me that it was nothing serious."
+      ],
+      "wrong": [
+        "He reassured me by making me more anxious."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "comfort",
+        "calm"
+      ],
+      "ipa": "/ˌriəˈʃʊr/",
+      "antonyms": [
+        "alarm",
+        "worry"
+      ]
+    },
+    {
+      "lemma": "dialogue",
+      "pos": "noun",
+      "meaning": "A conversation, especially to solve a problem.",
+      "examples": [
+        "Both sides agreed to open a {dialogue}."
+      ],
+      "wrong": [
+        "A dialogue is a speech by one person with no reply."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conversation",
+        "talks"
+      ],
+      "ipa": "/ˈdaɪəˌlɔɡ/"
+    },
+    {
+      "lemma": "address",
+      "pos": "verb",
+      "meaning": "To deal with a problem; or to speak to a group.",
+      "examples": [
+        "We need to {address} this issue now."
+      ],
+      "wrong": [
+        "They addressed the problem by ignoring it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tackle",
+        "deal with"
+      ],
+      "ipa": "/əˈdrɛs/"
+    },
+    {
+      "lemma": "articulately",
+      "pos": "adverb",
+      "meaning": "In a clear and effective way when speaking.",
+      "examples": [
+        "She spoke {articulately} about the issue."
+      ],
+      "wrong": [
+        "He spoke articulately, mumbling so nobody understood."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "eloquently",
+        "clearly"
+      ],
+      "ipa": "/ɑrˈtɪkjələtli/"
+    },
+    {
+      "lemma": "gesture",
+      "pos": "noun",
+      "meaning": "A movement of the hand or head that shows a meaning.",
+      "examples": [
+        "He made a friendly {gesture} with his hand."
+      ],
+      "wrong": [
+        "A gesture is a word you write down."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sign",
+        "signal"
+      ],
+      "ipa": "/ˈdʒɛstʃɚ/"
+    },
+    {
+      "lemma": "body language",
+      "pos": "noun",
+      "meaning": "Movements and positions that show what you feel.",
+      "examples": [
+        "His {body language} showed he was nervous."
+      ],
+      "wrong": [
+        "Body language is the grammar of written English."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nonverbal communication"
+      ],
+      "ipa": "/ˈbɑdi ˌlæŋɡwɪdʒ/"
+    },
+    {
+      "lemma": "tactfully",
+      "pos": "adverb",
+      "meaning": "In a careful way that avoids upsetting people.",
+      "examples": [
+        "She {tactfully} changed the subject."
+      ],
+      "wrong": [
+        "He tactfully insulted everyone in the room."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "diplomatically"
+      ],
+      "ipa": "/ˈtæktfəli/",
+      "antonyms": [
+        "tactlessly",
+        "bluntly"
+      ]
+    },
+    {
+      "lemma": "eavesdrop",
+      "pos": "verb",
+      "meaning": "To listen secretly to other people’s conversation.",
+      "examples": [
+        "I didn’t mean to {eavesdrop}."
+      ],
+      "wrong": [
+        "She eavesdropped by joining the conversation openly."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "listen in"
+      ],
+      "ipa": "/ˈivzˌdrɑp/"
+    },
+    {
+      "lemma": "confide",
+      "pos": "verb",
+      "meaning": "To tell someone a secret because you trust them.",
+      "examples": [
+        "She {confided} in her sister."
+      ],
+      "wrong": [
+        "He confided in me by keeping his secret to himself."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "open up"
+      ],
+      "ipa": "/kənˈfaɪd/"
+    },
+    {
+      "lemma": "oratory",
+      "pos": "noun",
+      "meaning": "The skill of public speaking.",
+      "examples": [
+        "His {oratory} moved the crowd."
+      ],
+      "wrong": [
+        "Oratory is the skill of writing private letters."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "public speaking",
+        "rhetoric"
+      ],
+      "ipa": "/ˈɔrəˌtɔri/"
+    },
+    {
+      "lemma": "jargon",
+      "pos": "noun",
+      "meaning": "Special words used by a group that others find hard to understand.",
+      "examples": [
+        "The report was full of legal {jargon}."
+      ],
+      "wrong": [
+        "Jargon is simple language that everyone understands."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "terminology"
+      ],
+      "ipa": "/ˈdʒɑrɡən/"
+    },
+    {
+      "lemma": "connotation",
+      "pos": "noun",
+      "meaning": "An idea or feeling a word suggests beyond its basic meaning.",
+      "examples": [
+        "’Cheap’ can have a negative {connotation}."
+      ],
+      "wrong": [
+        "A connotation is the dictionary definition only."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "implication",
+        "association"
+      ],
+      "ipa": "/ˌkɑnəˈteɪʃən/"
+    },
+    {
+      "lemma": "register",
+      "pos": "noun",
+      "meaning": "The level of formality of language.",
+      "examples": [
+        "Use a formal {register} in a cover letter."
+      ],
+      "wrong": [
+        "Register is the speed at which you speak."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "style"
+      ],
+      "ipa": "/ˈrɛdʒɪstɚ/"
+    }
+  ]
+}

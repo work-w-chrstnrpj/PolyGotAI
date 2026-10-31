@@ -8,7 +8,7 @@ struct SavedWordsView: View {
     @State private var message: String?
 
     var body: some View {
-        List {
+        List { KitRows {
             if filtered.isEmpty {
                 Text(query.isEmpty ? "Words you save from lessons appear here." : "No matching words.")
                     .foregroundStyle(Kit.secondary)
@@ -29,7 +29,7 @@ struct SavedWordsView: View {
                 .accessibilityIdentifier("vocabulary.saved.\(item.senseId)")
             }
             if let message { Text(message).foregroundStyle(Kit.error) }
-        }
+        }}
         .listStyle(.insetGrouped)
         .scrollContentBackground(.hidden)
         .background(Kit.canvas(storage.preferences.background))

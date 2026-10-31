@@ -80,6 +80,7 @@ struct JumpTestView: View {
     private func play(_ path: String) {
         stopAudio()
         do {
+            SoundCenter.holdAudio("jumptest.clip")
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
             try AVAudioSession.sharedInstance().setActive(true)
             clip = try AVAudioPlayer(contentsOf: Bundle.main.bundleURL.appendingPathComponent(path))
@@ -92,5 +93,6 @@ struct JumpTestView: View {
         guard clip != nil else { return }
         clip?.stop(); clip = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("jumptest.clip")
     }
 }

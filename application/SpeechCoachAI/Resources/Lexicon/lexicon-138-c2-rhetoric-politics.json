@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rhetoric-politics",
+    "title": "Rhetoric and politics",
+    "level": "C2",
+    "tagline": "Persuasion, power and debate",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "demagogue",
+      "pos": "noun",
+      "meaning": "A leader who wins support by stirring up people’s fears and prejudices.",
+      "examples": [
+        "The {demagogue} blamed outsiders for every problem."
+      ],
+      "wrong": [
+        "A demagogue calmly explains complex facts and never plays on emotion."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rabble-rouser",
+        "agitator"
+      ],
+      "ipa": "/ˈdɛməˌɡɑɡ/"
+    },
+    {
+      "lemma": "polemic",
+      "pos": "noun",
+      "meaning": "A strong written or spoken attack on an idea or person.",
+      "examples": [
+        "Her book is a fierce {polemic} against waste."
+      ],
+      "wrong": [
+        "His polemic gently praised every side of the debate."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "diatribe",
+        "tirade",
+        "critique"
+      ],
+      "ipa": "/pəˈlɛmɪk/"
+    },
+    {
+      "lemma": "invective",
+      "pos": "noun",
+      "meaning": "Very insulting and angry language.",
+      "examples": [
+        "He launched into a stream of {invective}."
+      ],
+      "wrong": [
+        "Her invective was full of kind and gentle praise."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abuse",
+        "vituperation",
+        "insults"
+      ],
+      "ipa": "/ɪnˈvɛktɪv/"
+    },
+    {
+      "lemma": "hyperbole",
+      "pos": "noun",
+      "meaning": "Deliberate exaggeration for effect.",
+      "examples": [
+        "Saying he’s \"the greatest player in history\" is {hyperbole}."
+      ],
+      "wrong": [
+        "\"It was fairly nice\" is a perfect example of hyperbole."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exaggeration",
+        "overstatement"
+      ],
+      "ipa": "/haɪˈpɝbəli/"
+    },
+    {
+      "lemma": "rhetorical question",
+      "pos": "noun",
+      "meaning": "A question asked for effect, not to get an answer.",
+      "examples": [
+        "\"Who doesn’t want to be happy?\" is a {rhetorical question}."
+      ],
+      "wrong": [
+        "She asked a rhetorical question and waited for a detailed reply."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/rɪˈtɔrɪkəl ˈkwɛstʃən/"
+    },
+    {
+      "lemma": "ad hominem",
+      "pos": "adjective",
+      "meaning": "Attacking the person rather than their argument.",
+      "examples": [
+        "Calling him lazy was an {ad hominem} attack, not a reply."
+      ],
+      "wrong": [
+        "His ad hominem reply focused only on the facts of the argument."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "personal"
+      ],
+      "ipa": "/ˌæd ˈhɑmənəm/"
+    },
+    {
+      "lemma": "red herring",
+      "pos": "noun",
+      "meaning": "Something that draws attention away from the real issue.",
+      "examples": [
+        "The talk about his tie was a {red herring}."
+      ],
+      "wrong": [
+        "The red herring kept everyone focused on the main issue."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "distraction",
+        "diversion"
+      ],
+      "ipa": "/ˈrɛd ˈhɛrɪŋ/"
+    },
+    {
+      "lemma": "soundbite",
+      "pos": "noun",
+      "meaning": "A short, catchy phrase from a speech, used in the news.",
+      "examples": [
+        "The campaign relies on {soundbites} rather than policy."
+      ],
+      "wrong": [
+        "A soundbite is a long, detailed policy document."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "slogan",
+        "quip"
+      ],
+      "ipa": "/ˈsaʊndˌbaɪt/"
+    },
+    {
+      "lemma": "gerrymander",
+      "pos": "verb",
+      "meaning": "To redraw voting areas unfairly so one party gains an advantage.",
+      "examples": [
+        "Critics say the party {gerrymandered} the districts to keep power."
+      ],
+      "wrong": [
+        "They gerrymandered the map to give both parties a fairer chance."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "rig"
+      ],
+      "ipa": "/ˈdʒɛriˌmændɚ/"
+    },
+    {
+      "lemma": "filibuster",
+      "pos": "noun",
+      "meaning": "A very long speech made to delay or block a vote.",
+      "examples": [
+        "The senator’s {filibuster} lasted fifteen hours."
+      ],
+      "wrong": [
+        "A filibuster is a quick vote that ends a debate at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "stalling",
+        "delaying tactic"
+      ],
+      "ipa": "/ˈfɪləˌbʌstɚ/"
+    },
+    {
+      "lemma": "bipartisan",
+      "pos": "adjective",
+      "meaning": "Supported by two opposing political parties.",
+      "examples": [
+        "The bill passed with {bipartisan} support."
+      ],
+      "wrong": [
+        "The bipartisan plan was backed by only one party."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cross-party"
+      ],
+      "ipa": "/baɪˈpɑrtəzən/",
+      "antonyms": [
+        "partisan"
+      ]
+    },
+    {
+      "lemma": "jingoism",
+      "pos": "noun",
+      "meaning": "Extreme, aggressive pride in your country, often in favor of war.",
+      "examples": [
+        "The war was fueled by newspaper {jingoism}."
+      ],
+      "wrong": [
+        "His jingoism made him call for peace and friendship with every nation."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "chauvinism",
+        "ultranationalism"
+      ],
+      "ipa": "/ˈdʒɪŋɡoʊˌɪzəm/"
+    },
+    {
+      "lemma": "oligarchy",
+      "pos": "noun",
+      "meaning": "Government by a small, powerful group.",
+      "examples": [
+        "The country is ruled by a wealthy {oligarchy}."
+      ],
+      "wrong": [
+        "An oligarchy gives equal power to every citizen."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈɑləˌɡɑrki/"
+    },
+    {
+      "lemma": "plutocracy",
+      "pos": "noun",
+      "meaning": "Government by the rich.",
+      "examples": [
+        "Critics warn that money is turning democracy into {plutocracy}."
+      ],
+      "wrong": [
+        "In a plutocracy, the poorest people hold all the power."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/pluˈtɑkrəsi/"
+    },
+    {
+      "lemma": "autocracy",
+      "pos": "noun",
+      "meaning": "Government by one person with total power.",
+      "examples": [
+        "The country slid from democracy into {autocracy}."
+      ],
+      "wrong": [
+        "In an autocracy, power is shared among many elected bodies."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dictatorship",
+        "despotism",
+        "tyranny"
+      ],
+      "ipa": "/ɔˈtɑkrəsi/",
+      "antonyms": [
+        "democracy"
+      ]
+    },
+    {
+      "lemma": "populism",
+      "pos": "noun",
+      "meaning": "Politics that claims to speak for ordinary people against a powerful elite.",
+      "examples": [
+        "A wave of {populism} swept the election."
+      ],
+      "wrong": [
+        "Populism is politics that openly speaks only for the elite."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈpɑpjəˌlɪzəm/"
+    },
+    {
+      "lemma": "orator",
+      "pos": "noun",
+      "meaning": "A skilled public speaker.",
+      "examples": [
+        "She was a gifted {orator} who held crowds spellbound."
+      ],
+      "wrong": [
+        "As an orator, he was too shy to ever speak in public."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "speaker",
+        "rhetorician"
+      ],
+      "ipa": "/ˈɔrətɚ/"
+    },
+    {
+      "lemma": "harangue",
+      "pos": "verb",
+      "meaning": "To lecture someone loudly and at length, often angrily.",
+      "examples": [
+        "The coach {harangued} the team at halftime."
+      ],
+      "wrong": [
+        "He harangued us with a short, quiet word of praise."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rant at",
+        "lecture",
+        "berate"
+      ],
+      "ipa": "/həˈræŋ/"
+    },
+    {
+      "lemma": "exhort",
+      "pos": "verb",
+      "meaning": "To strongly urge someone to do something.",
+      "examples": [
+        "The leader {exhorted} citizens to stay calm."
+      ],
+      "wrong": [
+        "She exhorted them to act by telling them to do nothing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "urge",
+        "implore",
+        "spur"
+      ],
+      "ipa": "/ɪɡˈzɔrt/"
+    },
+    {
+      "lemma": "cajole",
+      "pos": "verb",
+      "meaning": "To persuade someone gently, with flattery or promises.",
+      "examples": [
+        "She {cajoled} him into giving a speech."
+      ],
+      "wrong": [
+        "He cajoled her by shouting threats and orders."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "coax",
+        "wheedle",
+        "sweet-talk"
+      ],
+      "ipa": "/kəˈdʒoʊl/"
+    },
+    {
+      "lemma": "incumbent",
+      "pos": "noun",
+      "meaning": "The person who currently holds an official position.",
+      "examples": [
+        "The {incumbent} won a third term."
+      ],
+      "wrong": [
+        "The incumbent is a newcomer who has never held the office."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "officeholder"
+      ],
+      "ipa": "/ɪnˈkʌmbənt/"
+    },
+    {
+      "lemma": "electorate",
+      "pos": "noun",
+      "meaning": "All the people who can vote in an election.",
+      "examples": [
+        "The {electorate} is tired of broken promises."
+      ],
+      "wrong": [
+        "The electorate is the small group of candidates running for office."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "voters",
+        "constituency"
+      ],
+      "ipa": "/ɪˈlɛktərət/"
+    },
+    {
+      "lemma": "constituency",
+      "pos": "noun",
+      "meaning": "The voters in an area represented by one official; a group of supporters.",
+      "examples": [
+        "She visits her {constituency} every weekend."
+      ],
+      "wrong": [
+        "A constituency is a politician’s private holiday home."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "district",
+        "electorate"
+      ],
+      "ipa": "/kənˈstɪtʃuənsi/"
+    },
+    {
+      "lemma": "disenfranchise",
+      "pos": "verb",
+      "meaning": "To take away someone’s right to vote or their power.",
+      "examples": [
+        "The new rules could {disenfranchise} thousands of voters."
+      ],
+      "wrong": [
+        "The law disenfranchised them by giving them the vote."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deprive",
+        "exclude"
+      ],
+      "ipa": "/ˌdɪsɪnˈfrænˌtʃaɪz/",
+      "antonyms": [
+        "enfranchise"
+      ]
+    },
+    {
+      "lemma": "dissident",
+      "pos": "noun",
+      "meaning": "A person who openly opposes a government or official policy.",
+      "examples": [
+        "The {dissident} was sent into exile."
+      ],
+      "wrong": [
+        "A dissident is someone who loyally supports every government rule."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rebel",
+        "dissenter",
+        "nonconformist"
+      ],
+      "ipa": "/ˈdɪsədənt/"
+    },
+    {
+      "lemma": "sedition",
+      "pos": "noun",
+      "meaning": "Speech or actions that encourage people to rebel against a government.",
+      "examples": [
+        "The journalist was charged with {sedition}."
+      ],
+      "wrong": [
+        "Sedition means urging people to obey and support the government."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "incitement",
+        "subversion"
+      ],
+      "ipa": "/sɪˈdɪʃən/"
+    },
+    {
+      "lemma": "realpolitik",
+      "pos": "noun",
+      "meaning": "Politics based on practical power and interests rather than ideals.",
+      "examples": [
+        "The alliance was pure {realpolitik}."
+      ],
+      "wrong": [
+        "Realpolitik puts moral ideals above any practical interest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pragmatism"
+      ],
+      "ipa": "/reɪˈɑlpoʊlɪˌtik/"
+    },
+    {
+      "lemma": "body politic",
+      "pos": "noun",
+      "meaning": "The people of a nation thought of as one political group.",
+      "examples": [
+        "Corruption weakens the whole {body politic}."
+      ],
+      "wrong": [
+        "The body politic is a single politician’s physical health."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "nation",
+        "citizenry"
+      ],
+      "ipa": "/ˈbɑdi ˈpɑlətɪk/"
+    },
+    {
+      "lemma": "pander",
+      "pos": "verb",
+      "meaning": "To please a group by telling them what they want to hear.",
+      "examples": [
+        "The candidate {pandered} to every crowd he met."
+      ],
+      "wrong": [
+        "He pandered to the voters by telling them truths they hated."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cater to",
+        "indulge"
+      ],
+      "ipa": "/ˈpændɚ/"
+    },
+    {
+      "lemma": "grandstand",
+      "pos": "verb",
+      "meaning": "To act in a showy way to win attention or praise.",
+      "examples": [
+        "Senators {grandstanded} for the cameras."
+      ],
+      "wrong": [
+        "She grandstanded by working quietly where no one could see."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "showboat",
+        "posture"
+      ],
+      "ipa": "/ˈɡrændˌstænd/"
+    },
+    {
+      "lemma": "dog whistle",
+      "pos": "noun",
+      "meaning": "A coded message meant to be understood only by a particular group.",
+      "examples": [
+        "Critics called the slogan a {dog whistle}."
+      ],
+      "wrong": [
+        "A dog whistle is a message everyone understands in the same way."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "coded message"
+      ],
+      "ipa": "/ˈdɔɡ ˈwɪsəl/"
+    },
+    {
+      "lemma": "talking point",
+      "pos": "noun",
+      "meaning": "A prepared argument or phrase that people repeat to support a position.",
+      "examples": [
+        "Every spokesperson repeated the same {talking point}."
+      ],
+      "wrong": [
+        "A talking point is a remark made up on the spot by chance."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "line",
+        "argument"
+      ],
+      "ipa": "/ˈtɔkɪŋ ˈpɔɪnt/"
+    },
+    {
+      "lemma": "bombast",
+      "pos": "noun",
+      "meaning": "Grand, showy language that has little real meaning.",
+      "examples": [
+        "His speech was all {bombast} and no substance."
+      ],
+      "wrong": [
+        "Her bombast was plain, modest and full of facts."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "grandiloquence",
+        "pomposity"
+      ],
+      "ipa": "/ˈbɑmbæst/"
+    },
+    {
+      "lemma": "anaphora",
+      "pos": "noun",
+      "meaning": "Repeating the same words at the start of several phrases for effect.",
+      "examples": [
+        "\"Every child, every parent, every teacher\" is a simple use of {anaphora}."
+      ],
+      "wrong": [
+        "Anaphora means never repeating any word in a speech."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "repetition"
+      ],
+      "ipa": "/əˈnæfərə/"
+    },
+    {
+      "lemma": "ethos",
+      "pos": "noun",
+      "meaning": "A speaker’s appeal to their own trustworthiness; also the spirit of a group.",
+      "examples": [
+        "The doctor’s {ethos} made the audience believe her advice."
+      ],
+      "wrong": [
+        "His ethos came from the fact that nobody trusted him."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "credibility",
+        "character"
+      ],
+      "ipa": "/ˈiθɑs/"
+    },
+    {
+      "lemma": "pathos",
+      "pos": "noun",
+      "meaning": "The quality that stirs pity or emotion; an appeal to feelings.",
+      "examples": [
+        "The speech relied on {pathos} rather than facts."
+      ],
+      "wrong": [
+        "Her pathos left the audience cold and unmoved."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "poignancy",
+        "emotion"
+      ],
+      "ipa": "/ˈpeɪθɑs/"
+    },
+    {
+      "lemma": "apologist",
+      "pos": "noun",
+      "meaning": "A person who argues in defense of something others criticize.",
+      "examples": [
+        "He became an {apologist} for the government’s harsh policies."
+      ],
+      "wrong": [
+        "As an apologist for the plan, she attacked it at every chance."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "defender",
+        "advocate",
+        "champion"
+      ],
+      "ipa": "/əˈpɑlədʒɪst/",
+      "antonyms": [
+        "critic",
+        "detractor"
+      ]
+    },
+    {
+      "lemma": "partisan",
+      "pos": "adjective",
+      "meaning": "Strongly supporting one party or side, often unfairly.",
+      "examples": [
+        "The debate became bitterly {partisan}."
+      ],
+      "wrong": [
+        "Her partisan view was fair and balanced toward all sides."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "biased",
+        "one-sided",
+        "factional"
+      ],
+      "ipa": "/ˈpɑrtəzən/",
+      "antonyms": [
+        "nonpartisan",
+        "impartial"
+      ]
+    },
+    {
+      "lemma": "spin doctor",
+      "pos": "noun",
+      "meaning": "Someone whose job is to present news in the best possible light for a politician.",
+      "examples": [
+        "A {spin doctor} rewrote the minister’s statement."
+      ],
+      "wrong": [
+        "A spin doctor reports bad news in the most damaging way possible."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "publicist",
+        "press agent"
+      ],
+      "ipa": "/ˈspɪn ˈdɑktɚ/"
+    },
+    {
+      "lemma": "peroration",
+      "pos": "noun",
+      "meaning": "The final part of a speech, meant to inspire the audience.",
+      "examples": [
+        "Her {peroration} brought the crowd to its feet."
+      ],
+      "wrong": [
+        "The peroration is the opening line of a speech."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "conclusion",
+        "summation"
+      ],
+      "ipa": "/ˌpɛrəˈreɪʃən/"
+    }
+  ]
+}

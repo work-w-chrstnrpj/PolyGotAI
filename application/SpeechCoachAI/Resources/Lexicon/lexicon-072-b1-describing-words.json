@@ -1,0 +1,852 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-describing-words",
+    "title": "Describing words",
+    "level": "B1",
+    "tagline": "Useful B1 adjectives",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "accurate",
+      "pos": "adjective",
+      "meaning": "Correct in every detail, with no mistakes.",
+      "examples": [
+        "The weather report was {accurate}: it rained at noon."
+      ],
+      "wrong": [
+        "The clock is accurate, so it is always an hour wrong."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "correct",
+        "exact",
+        "precise"
+      ],
+      "ipa": "/ˈækjərət/",
+      "antonyms": [
+        "inaccurate",
+        "wrong"
+      ]
+    },
+    {
+      "lemma": "actual",
+      "pos": "adjective",
+      "meaning": "Real, not just imagined or expected.",
+      "examples": [
+        "The {actual} cost was much higher than we planned."
+      ],
+      "wrong": [
+        "The actual price was only a guess that nobody checked."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "real",
+        "true"
+      ],
+      "ipa": "/ˈæktʃuəl/"
+    },
+    {
+      "lemma": "average",
+      "pos": "adjective",
+      "meaning": "Normal or usual, not very good or very bad.",
+      "examples": [
+        "It was an {average} day, nothing special."
+      ],
+      "wrong": [
+        "She is an average singer, the best the world has ever heard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ordinary",
+        "normal",
+        "typical"
+      ],
+      "ipa": "/ˈævərɪdʒ/"
+    },
+    {
+      "lemma": "basic",
+      "pos": "adjective",
+      "meaning": "Simple and needed first, before harder things.",
+      "examples": [
+        "You only need {basic} math to do this job."
+      ],
+      "wrong": [
+        "The course is basic, so only experts can follow it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "simple",
+        "elementary"
+      ],
+      "ipa": "/ˈbeɪsɪk/",
+      "antonyms": [
+        "advanced"
+      ]
+    },
+    {
+      "lemma": "brief",
+      "pos": "adjective",
+      "meaning": "Lasting only a short time or using few words.",
+      "examples": [
+        "She gave a {brief} answer and sat down."
+      ],
+      "wrong": [
+        "His speech was brief: it went on for three hours."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "short",
+        "quick"
+      ],
+      "ipa": "/brif/",
+      "antonyms": [
+        "long",
+        "lengthy"
+      ]
+    },
+    {
+      "lemma": "complicated",
+      "pos": "adjective",
+      "meaning": "Having many parts and hard to understand.",
+      "examples": [
+        "The instructions were so {complicated} that I gave up."
+      ],
+      "wrong": [
+        "The game is complicated, so a small child learned it in a minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "difficult",
+        "complex"
+      ],
+      "ipa": "/ˈkɑmpləˌkeɪtɪd/",
+      "antonyms": [
+        "simple",
+        "easy"
+      ]
+    },
+    {
+      "lemma": "enormous",
+      "pos": "adjective",
+      "meaning": "Very, very big.",
+      "examples": [
+        "An {enormous} ship sailed into the port."
+      ],
+      "wrong": [
+        "The enormous mouse fit easily in my hand."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "huge",
+        "giant",
+        "massive"
+      ],
+      "ipa": "/ɪˈnɔrməs/",
+      "antonyms": [
+        "tiny"
+      ]
+    },
+    {
+      "lemma": "entire",
+      "pos": "adjective",
+      "meaning": "Whole, with every part included.",
+      "examples": [
+        "We spent the {entire} weekend at the beach."
+      ],
+      "wrong": [
+        "I read the entire book, except for most of the chapters."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "whole",
+        "complete"
+      ],
+      "ipa": "/ɪnˈtaɪr/"
+    },
+    {
+      "lemma": "essential",
+      "pos": "adjective",
+      "meaning": "Very important and really needed.",
+      "examples": [
+        "Water is {essential} for all living things."
+      ],
+      "wrong": [
+        "A warm coat is essential, so you don’t need to bring one."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "necessary",
+        "vital"
+      ],
+      "ipa": "/ɪˈsɛnʃəl/",
+      "antonyms": [
+        "unnecessary"
+      ]
+    },
+    {
+      "lemma": "extreme",
+      "pos": "adjective",
+      "meaning": "Very great, far beyond what is usual.",
+      "examples": [
+        "The desert has {extreme} heat in summer."
+      ],
+      "wrong": [
+        "The cold was extreme, so we didn’t even need a jacket."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "severe",
+        "intense"
+      ],
+      "ipa": "/ɪkˈstrim/"
+    },
+    {
+      "lemma": "dull",
+      "pos": "adjective",
+      "meaning": "Not interesting or exciting in any way.",
+      "examples": [
+        "The lecture was so {dull} that I nearly fell asleep."
+      ],
+      "wrong": [
+        "The film was dull, so we sat on the edge of our seats the whole time."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "boring",
+        "tedious",
+        "uninteresting"
+      ],
+      "ipa": "/dʌl/",
+      "antonyms": [
+        "interesting",
+        "exciting"
+      ]
+    },
+    {
+      "lemma": "familiar",
+      "pos": "adjective",
+      "meaning": "Known to you because you have seen or heard it before.",
+      "examples": [
+        "Her face looks {familiar}; have we met?"
+      ],
+      "wrong": [
+        "The song was familiar, so I had never heard it before."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "known",
+        "recognizable"
+      ],
+      "ipa": "/fəˈmɪljɚ/",
+      "antonyms": [
+        "unfamiliar",
+        "strange"
+      ]
+    },
+    {
+      "lemma": "ideal",
+      "pos": "adjective",
+      "meaning": "The best possible for a certain purpose.",
+      "examples": [
+        "This quiet room is {ideal} for studying."
+      ],
+      "wrong": [
+        "The ideal hotel was dirty, noisy and far away."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "perfect",
+        "best"
+      ],
+      "ipa": "/aɪˈdiəl/"
+    },
+    {
+      "lemma": "impressive",
+      "pos": "adjective",
+      "meaning": "Making you feel admiration because it is so good or big.",
+      "examples": [
+        "Her painting was really {impressive}."
+      ],
+      "wrong": [
+        "The show was impressive, so everyone left bored halfway."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "amazing",
+        "remarkable"
+      ],
+      "ipa": "/ɪmˈprɛsɪv/"
+    },
+    {
+      "lemma": "incredible",
+      "pos": "adjective",
+      "meaning": "So good, big or surprising that it is hard to believe.",
+      "examples": [
+        "The view from the mountain was {incredible}."
+      ],
+      "wrong": [
+        "It was an incredible match where nothing exciting happened."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "amazing",
+        "unbelievable",
+        "fantastic"
+      ],
+      "ipa": "/ɪnˈkrɛdəbəl/"
+    },
+    {
+      "lemma": "obvious",
+      "pos": "adjective",
+      "meaning": "Easy to see or understand.",
+      "examples": [
+        "It was {obvious} that she was tired."
+      ],
+      "wrong": [
+        "The answer was obvious, so nobody could ever find it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "clear",
+        "plain"
+      ],
+      "ipa": "/ˈɑbviəs/",
+      "antonyms": [
+        "hidden",
+        "unclear"
+      ]
+    },
+    {
+      "lemma": "ordinary",
+      "pos": "adjective",
+      "meaning": "Normal and not special in any way.",
+      "examples": [
+        "It was just an {ordinary} Tuesday."
+      ],
+      "wrong": [
+        "It was an ordinary day: aliens landed in the park."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "normal",
+        "usual",
+        "everyday"
+      ],
+      "ipa": "/ˈɔrdəˌnɛri/",
+      "antonyms": [
+        "unusual",
+        "special"
+      ]
+    },
+    {
+      "lemma": "original",
+      "pos": "adjective",
+      "meaning": "New and different, not copied from something else.",
+      "examples": [
+        "She had an {original} idea for the party."
+      ],
+      "wrong": [
+        "His story was original because he copied it from a book."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "new",
+        "fresh",
+        "creative"
+      ],
+      "ipa": "/əˈrɪdʒənəl/"
+    },
+    {
+      "lemma": "particular",
+      "pos": "adjective",
+      "meaning": "Single and special, not any other.",
+      "examples": [
+        "Is there a {particular} film you want to see?"
+      ],
+      "wrong": [
+        "I want this particular shirt, but any shirt will do."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "specific",
+        "certain"
+      ],
+      "ipa": "/pɚˈtɪkjəlɚ/"
+    },
+    {
+      "lemma": "pleasant",
+      "pos": "adjective",
+      "meaning": "Nice and enjoyable.",
+      "examples": [
+        "We had a {pleasant} walk by the river."
+      ],
+      "wrong": [
+        "The evening was pleasant, and everyone was miserable."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "nice",
+        "enjoyable",
+        "lovely"
+      ],
+      "ipa": "/ˈplɛzənt/",
+      "antonyms": [
+        "unpleasant"
+      ]
+    },
+    {
+      "lemma": "practical",
+      "pos": "adjective",
+      "meaning": "Useful and sensible for real life.",
+      "examples": [
+        "Comfortable shoes are more {practical} for walking."
+      ],
+      "wrong": [
+        "High heels are the most practical shoes for a long hike."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "useful",
+        "sensible",
+        "handy"
+      ],
+      "ipa": "/ˈpræktɪkəl/",
+      "antonyms": [
+        "impractical"
+      ]
+    },
+    {
+      "lemma": "previous",
+      "pos": "adjective",
+      "meaning": "Coming before the one now or the one you mean.",
+      "examples": [
+        "I met him the {previous} week."
+      ],
+      "wrong": [
+        "The previous owner will move into the house next year."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earlier",
+        "former",
+        "prior"
+      ],
+      "ipa": "/ˈpriviəs/",
+      "antonyms": [
+        "next",
+        "following"
+      ]
+    },
+    {
+      "lemma": "rare",
+      "pos": "adjective",
+      "meaning": "Not happening or seen very often.",
+      "examples": [
+        "Snow is {rare} in this hot city."
+      ],
+      "wrong": [
+        "This bird is rare, so you see thousands every day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "uncommon",
+        "unusual"
+      ],
+      "ipa": "/rɛr/",
+      "antonyms": [
+        "common"
+      ]
+    },
+    {
+      "lemma": "recent",
+      "pos": "adjective",
+      "meaning": "Happening or made a short time ago.",
+      "examples": [
+        "Have you seen her {recent} photos?"
+      ],
+      "wrong": [
+        "In recent news from a hundred years ago, the king died."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "new",
+        "latest"
+      ],
+      "ipa": "/ˈrisənt/"
+    },
+    {
+      "lemma": "regular",
+      "pos": "adjective",
+      "meaning": "Happening again and again at the same times.",
+      "examples": [
+        "Take {regular} breaks when you study."
+      ],
+      "wrong": [
+        "He is a regular visitor; he came once ten years ago."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "routine",
+        "frequent"
+      ],
+      "ipa": "/ˈrɛɡjəlɚ/",
+      "antonyms": [
+        "irregular"
+      ]
+    },
+    {
+      "lemma": "similar",
+      "pos": "adjective",
+      "meaning": "Almost the same as something else.",
+      "examples": [
+        "Our jackets are {similar}, but mine is darker."
+      ],
+      "wrong": [
+        "The twins look similar: one is tall and blond, the other short and dark."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "alike",
+        "like"
+      ],
+      "ipa": "/ˈsɪməlɚ/",
+      "antonyms": [
+        "different"
+      ]
+    },
+    {
+      "lemma": "specific",
+      "pos": "adjective",
+      "meaning": "Clear and exact, about one thing only.",
+      "examples": [
+        "Can you give me a {specific} example?"
+      ],
+      "wrong": [
+        "Give me a specific time, like ’sometime next year’."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "exact",
+        "particular",
+        "precise"
+      ],
+      "ipa": "/spəˈsɪfɪk/"
+    },
+    {
+      "lemma": "suitable",
+      "pos": "adjective",
+      "meaning": "Right for a certain person, purpose or situation.",
+      "examples": [
+        "This film isn’t {suitable} for young children."
+      ],
+      "wrong": [
+        "Flip-flops are suitable shoes for climbing a snowy mountain."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "right",
+        "appropriate",
+        "fitting"
+      ],
+      "ipa": "/ˈsutəbəl/",
+      "antonyms": [
+        "unsuitable"
+      ]
+    },
+    {
+      "lemma": "typical",
+      "pos": "adjective",
+      "meaning": "Having the usual qualities of a certain kind of thing.",
+      "examples": [
+        "Rice is a {typical} food in this region."
+      ],
+      "wrong": [
+        "It was a typical summer day, with snow falling all morning."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "usual",
+        "normal",
+        "standard"
+      ],
+      "ipa": "/ˈtɪpɪkəl/",
+      "antonyms": [
+        "unusual",
+        "untypical"
+      ]
+    },
+    {
+      "lemma": "unusual",
+      "pos": "adjective",
+      "meaning": "Different from what normally happens; not common.",
+      "examples": [
+        "It’s {unusual} for him to be late."
+      ],
+      "wrong": [
+        "It is unusual to see cars on a busy city road."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "strange",
+        "uncommon",
+        "rare"
+      ],
+      "ipa": "/ʌnˈjuʒuəl/",
+      "antonyms": [
+        "usual",
+        "common"
+      ]
+    },
+    {
+      "lemma": "valuable",
+      "pos": "adjective",
+      "meaning": "Worth a lot of money, or very useful.",
+      "examples": [
+        "Keep your {valuable} things in the hotel safe."
+      ],
+      "wrong": [
+        "The ring is valuable, so it cost almost nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "precious",
+        "costly",
+        "useful"
+      ],
+      "ipa": "/ˈvæljuəbəl/",
+      "antonyms": [
+        "worthless"
+      ]
+    },
+    {
+      "lemma": "various",
+      "pos": "adjective",
+      "meaning": "Several different kinds of.",
+      "examples": [
+        "The shop sells {various} kinds of tea."
+      ],
+      "wrong": [
+        "The café offers various drinks: only water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "several",
+        "different",
+        "assorted"
+      ],
+      "ipa": "/ˈvɛriəs/"
+    },
+    {
+      "lemma": "awful",
+      "pos": "adjective",
+      "meaning": "Very bad or unpleasant.",
+      "examples": [
+        "The food was {awful}, so we left early."
+      ],
+      "wrong": [
+        "The movie was awful, so we want to see it again and again."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "terrible",
+        "horrible",
+        "dreadful"
+      ],
+      "ipa": "/ˈɔfəl/",
+      "antonyms": [
+        "wonderful"
+      ]
+    },
+    {
+      "lemma": "brilliant",
+      "pos": "adjective",
+      "meaning": "Very good, clever or bright.",
+      "examples": [
+        "What a {brilliant} idea!"
+      ],
+      "wrong": [
+        "His brilliant plan failed because it made no sense at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "excellent",
+        "great",
+        "clever"
+      ],
+      "ipa": "/ˈbrɪljənt/",
+      "antonyms": [
+        "terrible"
+      ]
+    },
+    {
+      "lemma": "ancient",
+      "pos": "adjective",
+      "meaning": "From a time very long ago.",
+      "examples": [
+        "We visited an {ancient} temple from 500 BC."
+      ],
+      "wrong": [
+        "The ancient building was finished last month."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "old",
+        "historic"
+      ],
+      "ipa": "/ˈeɪnʃənt/",
+      "antonyms": [
+        "modern"
+      ]
+    },
+    {
+      "lemma": "narrow",
+      "pos": "adjective",
+      "meaning": "Small from one side to the other.",
+      "examples": [
+        "The street is too {narrow} for a bus."
+      ],
+      "wrong": [
+        "The road was narrow, so four trucks drove side by side."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "thin",
+        "tight"
+      ],
+      "ipa": "/ˈnæroʊ/",
+      "antonyms": [
+        "wide",
+        "broad"
+      ]
+    },
+    {
+      "lemma": "smooth",
+      "pos": "adjective",
+      "meaning": "Flat and even, with no rough parts.",
+      "examples": [
+        "The baby’s skin is so {smooth}."
+      ],
+      "wrong": [
+        "The road was smooth and full of holes and bumps."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "even",
+        "flat",
+        "soft"
+      ],
+      "ipa": "/smuð/",
+      "antonyms": [
+        "rough",
+        "bumpy"
+      ]
+    },
+    {
+      "lemma": "convenient",
+      "pos": "adjective",
+      "meaning": "Easy, useful or fitting well with your plans.",
+      "examples": [
+        "The shop is in a {convenient} place near my home."
+      ],
+      "wrong": [
+        "The time was convenient, so I couldn’t come at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "handy",
+        "easy",
+        "suitable"
+      ],
+      "ipa": "/kənˈvinjənt/",
+      "antonyms": [
+        "inconvenient"
+      ]
+    },
+    {
+      "lemma": "temporary",
+      "pos": "adjective",
+      "meaning": "Lasting only for a short time.",
+      "examples": [
+        "She has a {temporary} job for the summer."
+      ],
+      "wrong": [
+        "This is a temporary home; we will live here forever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "short-term",
+        "passing"
+      ],
+      "ipa": "/ˈtɛmpəˌrɛri/",
+      "antonyms": [
+        "permanent"
+      ]
+    },
+    {
+      "lemma": "permanent",
+      "pos": "adjective",
+      "meaning": "Lasting for a very long time or forever.",
+      "examples": [
+        "After a year, he got a {permanent} job."
+      ],
+      "wrong": [
+        "The ink is permanent, so it washes off with water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "lasting",
+        "fixed",
+        "long-term"
+      ],
+      "ipa": "/ˈpɝmənənt/",
+      "antonyms": [
+        "temporary"
+      ]
+    }
+  ]
+}

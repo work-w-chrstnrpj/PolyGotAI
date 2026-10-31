@@ -46,6 +46,8 @@ struct RewardSettings: Codable, Equatable {
     var reminderHour = 18
     var reminderMinute = 0
     var breakMinutes: Int? = nil
+    /// Set once the 2026-10-30 sound defaults (music, effects and haptics on) were applied; the learner's later choices stay.
+    var soundDefaultsApplied: Bool? = nil
     func validate() throws {
         guard activeMinutesGoal.map({ $0 > 0 && $0 <= Int.max / 60 }) ?? true,
               activityGoal.map({ $0 > 0 }) ?? true,
