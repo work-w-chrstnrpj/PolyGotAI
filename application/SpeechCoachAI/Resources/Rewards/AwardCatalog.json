@@ -5968,8 +5968,78 @@
     "symbol": "checklist"
   },
   {
+    "id": "AW-LX-07",
+    "title": "Enricher Rounds",
+    "classification": "Tiered participation badge",
+    "criteria": "Finish 1, 10 and 50 Vocabulary Enricher rounds.",
+    "shell": "Participation circle",
+    "filename": "",
+    "sha256": "",
+    "subject": "Enricher Rounds",
+    "collectible": true,
+    "ruleVersion": "aw-personal-2",
+    "availability": "personalUseParticipation",
+    "unavailableReason": "",
+    "manifestOwner": "AwardEvaluator",
+    "ruleTemplate": "R-V2-STORED-STATE",
+    "bindingVersion": "SC-owner-2026-10-30",
+    "finiteSet": "Worked out from stored learner data.",
+    "contentTargetIDs": [],
+    "symbol": "sparkles",
+    "tiers": [
+      1,
+      10,
+      50
+    ]
+  },
+  {
+    "id": "AW-LX-08",
+    "title": "Perfect Round",
+    "classification": "Tiered participation badge",
+    "criteria": "Get every question right in 1, 10 and 25 Practice or Vocabulary Enricher rounds.",
+    "shell": "Participation circle",
+    "filename": "",
+    "sha256": "",
+    "subject": "Perfect Round",
+    "collectible": true,
+    "ruleVersion": "aw-personal-2",
+    "availability": "personalUseParticipation",
+    "unavailableReason": "",
+    "manifestOwner": "AwardEvaluator",
+    "ruleTemplate": "R-V2-STORED-STATE",
+    "bindingVersion": "SC-owner-2026-10-30",
+    "finiteSet": "Worked out from stored learner data.",
+    "contentTargetIDs": [],
+    "symbol": "star.circle.fill",
+    "tiers": [
+      1,
+      10,
+      25
+    ]
+  },
+  {
+    "id": "AW-CR-11",
+    "title": "Fast Track",
+    "classification": "Completion badge",
+    "criteria": "Pass a rank test with a perfect score and skip a level.",
+    "shell": "Completion shield",
+    "filename": "",
+    "sha256": "",
+    "subject": "Fast Track",
+    "collectible": true,
+    "ruleVersion": "aw-personal-2",
+    "availability": "personalUseParticipation",
+    "unavailableReason": "",
+    "manifestOwner": "AwardEvaluator",
+    "ruleTemplate": "R-V2-STORED-STATE",
+    "bindingVersion": "SC-owner-2026-10-30",
+    "finiteSet": "Worked out from stored learner data.",
+    "contentTargetIDs": [],
+    "symbol": "hare.fill"
+  },
+  {
     "id": "AW-CR-01",
-    "title": "Lesson Completed — {lesson}",
+    "title": "Lessons Completed",
     "classification": "Per-lesson milestone",
     "criteria": "Every required core activity/correction/self-review of that versioned available lesson is completed. Summary only; no second lesson payout.",
     "shell": "Progress row / checkpoint, no collectible seal",
@@ -6582,7 +6652,7 @@
   },
   {
     "id": "AW-CR-02",
-    "title": "Topic Completed — {topic}",
+    "title": "Topic Completed",
     "classification": "Per-topic milestone",
     "criteria": "All required available lesson IDs in the reviewed topic completion set are completed; unavailable content cannot be skipped to earn it.",
     "shell": "Progress row / checkpoint, no collectible seal",
@@ -6602,7 +6672,7 @@
   },
   {
     "id": "AW-CR-03",
-    "title": "Unit Completed — {unit}",
+    "title": "Unit Completed",
     "classification": "Per-unit milestone",
     "criteria": "All required reviewed topics/lessons in that unit version are completed. Exact completion set must exist before activation.",
     "shell": "Progress row / checkpoint, no collectible seal",
@@ -6855,7 +6925,7 @@
   },
   {
     "id": "AW-EF-06",
-    "title": "Grammar in Use — {child objective}",
+    "title": "Grammar in Use",
     "classification": "Per-objective learning badge",
     "criteria": "Named reviewed EF child objective meets EF-AC03/04/05 productive, communicative and delayed/transfer criteria. Concept identification alone cannot earn it.",
     "shell": "Evidence hexagon",
@@ -6875,7 +6945,7 @@
   },
   {
     "id": "AW-LE-01",
-    "title": "Words Recalled Later — {sense set}",
+    "title": "Words Recalled Later",
     "classification": "Per-set learning badge",
     "criteria": "Selected versioned word senses meet reviewed productive recall at day 7 ±2 and day 28 ±3; actual exposure/support recorded. Use IL thresholds for INTRO-01 only.",
     "shell": "Evidence hexagon",
@@ -6895,7 +6965,7 @@
   },
   {
     "id": "AW-LE-02",
-    "title": "Words in a New Context — {sense set}",
+    "title": "Words in a New Context",
     "classification": "Per-set learning badge",
     "criteria": "Appropriately use the selected senses in an unfamiliar reviewed context and pass the matching delayed productive-use checks; preserve senses rather than merely counting words.",
     "shell": "Evidence hexagon",
@@ -6935,7 +7005,7 @@
   },
   {
     "id": "AW-LE-04",
-    "title": "Reading Understood — {objective}",
+    "title": "Reading Understood",
     "classification": "Per-objective learning badge",
     "criteria": "Meet a reviewed reading-comprehension rubric on unseen comparable texts plus delayed checks; source meaning is preserved, not guessed from a familiar answer.",
     "shell": "Evidence hexagon",
@@ -6955,7 +7025,7 @@
   },
   {
     "id": "AW-LE-05",
-    "title": "Listening Understood — {objective}",
+    "title": "Listening Understood",
     "classification": "Per-objective learning badge",
     "criteria": "Meet a reviewed audio-source comprehension rubric on unseen comparable material plus delayed checks; transcript-only work is reading evidence, not listening proof.",
     "shell": "Evidence hexagon",
@@ -7000,7 +7070,7 @@
   },
   {
     "id": "AW-CV-02",
-    "title": "Relevant Follow-ups — {objective}",
+    "title": "Relevant Follow-ups",
     "classification": "Learning badge",
     "criteria": "In a new reviewed exchange, ask two relevant questions including one response-dependent follow-up under TR-JOUR criteria; repeat comparable delayed checks.",
     "shell": "Evidence hexagon",
@@ -7020,7 +7090,7 @@
   },
   {
     "id": "AW-CV-03",
-    "title": "Clarification in Use — {objective}",
+    "title": "Clarification in Use",
     "classification": "Learning badge",
     "criteria": "Notice an understood/unclear point, ask an appropriate clarification and respond consistently to the received answer in a new task plus delayed checks; no inference about internal attentiveness.",
     "shell": "Evidence hexagon",
@@ -7040,7 +7110,7 @@
   },
   {
     "id": "AW-CV-04",
-    "title": "Everyday Scenario Achieved — {scenario objective}",
+    "title": "Everyday Scenario Achieved",
     "classification": "Per-objective learning badge",
     "criteria": "Achieve the reviewed practical outcome in a new comparable role-play and delayed checks without scripted help; not a generic fluent-conversation claim.",
     "shell": "Evidence hexagon",
@@ -7084,7 +7154,7 @@
   },
   {
     "id": "AW-IV-02",
-    "title": "Experience Explained — {objective}",
+    "title": "Experience Explained",
     "classification": "Learning badge",
     "criteria": "In a fresh reviewed interview task, convey purpose and two relevant factual details with suitable organization and a meaningful follow-up answer; pass comparable delayed checks without inventing experience.",
     "shell": "Evidence hexagon",
@@ -7104,7 +7174,7 @@
   },
   {
     "id": "AW-IV-03",
-    "title": "Interview Follow-up Handled — {objective}",
+    "title": "Interview Follow-up Handled",
     "classification": "Learning badge",
     "criteria": "Answer a previously unseen response-dependent follow-up relevantly and consistently with the earlier account, under the reviewed rubric and delayed checks.",
     "shell": "Evidence hexagon",
@@ -7124,7 +7194,7 @@
   },
   {
     "id": "AW-IV-04",
-    "title": "Interview Transfer — {role/objective}",
+    "title": "Interview Transfer",
     "classification": "Learning badge",
     "criteria": "Meet the scoped interview English/organization rubric in an unfamiliar comparable scenario and delayed checks; changed technical demands cannot be treated as like-for-like improvement.",
     "shell": "Evidence hexagon",
@@ -7144,7 +7214,7 @@
   },
   {
     "id": "AW-CM-01",
-    "title": "Clear Message — {objective}",
+    "title": "Clear Message",
     "classification": "Learning badge",
     "criteria": "Convey the main point and relevant supporting information under a reviewed unfamiliar-task rubric and delayed checks; PREP/BLUF naming is not required.",
     "shell": "Evidence hexagon",
@@ -7164,7 +7234,7 @@
   },
   {
     "id": "AW-CM-02",
-    "title": "Accurate Summary — {objective}",
+    "title": "Accurate Summary",
     "classification": "Learning badge",
     "criteria": "Preserve three reviewed source key points without material contradiction/invention on new and delayed tasks; identify audio versus text source evidence.",
     "shell": "Evidence hexagon",
@@ -7184,7 +7254,7 @@
   },
   {
     "id": "AW-CM-03",
-    "title": "Listening and Responding — {objective}",
+    "title": "Listening and Responding",
     "classification": "Learning badge",
     "criteria": "Paraphrase an actual audio exchange accurately and give a relevant follow-up in new/delayed tasks; no inferred empathy or confidence score.",
     "shell": "Evidence hexagon",
@@ -7204,7 +7274,7 @@
   },
   {
     "id": "AW-CM-04",
-    "title": "Supported Opinion — {objective}",
+    "title": "Supported Opinion",
     "classification": "Learning badge",
     "criteria": "State an opinion with relevant reasons/evidence and respond to a reasonable objection under reviewed new/delayed task criteria; no rigid acronym requirement.",
     "shell": "Evidence hexagon",
@@ -7224,7 +7294,7 @@
   },
   {
     "id": "AW-CM-05",
-    "title": "Constructive Disagreement — {objective}",
+    "title": "Constructive Disagreement",
     "classification": "Learning badge",
     "criteria": "Represent the other view fairly, explain a difference respectfully and propose a constructive response in reviewed unfamiliar/delayed scenarios.",
     "shell": "Evidence hexagon",
@@ -7244,7 +7314,7 @@
   },
   {
     "id": "AW-CM-06",
-    "title": "Presentation and Questions — {objective}",
+    "title": "Presentation and Questions",
     "classification": "Learning badge",
     "criteria": "Deliver the level-appropriate organized message and relevantly answer reviewed audience questions in new/delayed tasks; no body-language or confidence inference.",
     "shell": "Evidence hexagon",
@@ -7264,7 +7334,7 @@
   },
   {
     "id": "AW-AR-01",
-    "title": "Clear Speech Target — {target}",
+    "title": "Clear Speech Target",
     "classification": "Per-target learning badge",
     "criteria": "Qualified listening or validated audio assessment confirms meaning and the reviewed target on two fresh utterances, plus comparable delayed tasks under TR-SPEAK; no transcript-only acoustic badge.",
     "shell": "Evidence hexagon",
@@ -7284,7 +7354,7 @@
   },
   {
     "id": "AW-AR-02",
-    "title": "Word-finding in Use — {objective}",
+    "title": "Word-finding in Use",
     "classification": "Learning badge",
     "criteria": "Retrieve suitable expressions for the reviewed meaning under defined support/time conditions in new and delayed tasks; no diagnosis or universal faster-speaking goal.",
     "shell": "Evidence hexagon",
@@ -7304,7 +7374,7 @@
   },
   {
     "id": "AW-AR-03",
-    "title": "Paraphrase in Use — {objective}",
+    "title": "Paraphrase in Use",
     "classification": "Learning badge",
     "criteria": "Express the intended meaning with suitable alternative wording without answer hints in reviewed unfamiliar/delayed tasks; preserve fact/fiction mode.",
     "shell": "Evidence hexagon",
@@ -7324,7 +7394,7 @@
   },
   {
     "id": "AW-WR-01",
-    "title": "Story with Structure — {objective}",
+    "title": "Story with Structure",
     "classification": "Learning badge",
     "criteria": "Meet reviewed TR-WRITE setup/event/outcome, two relevant concrete details and consistent follow-up criteria on new/delayed story tasks; record written versus spoken modality.",
     "shell": "Evidence hexagon",
@@ -7344,7 +7414,7 @@
   },
   {
     "id": "AW-WR-02",
-    "title": "Purposeful Revision — {objective}",
+    "title": "Purposeful Revision",
     "classification": "Learning badge",
     "criteria": "Independently revise a fresh draft to meet two reviewed meaning/clarity goals while preserving intended voice/facts, then repeat on delayed material; accepting a generated rewrite alone is insufficient.",
     "shell": "Evidence hexagon",
@@ -7364,7 +7434,7 @@
   },
   {
     "id": "AW-WR-03",
-    "title": "Story Retold — {objective}",
+    "title": "Story Retold",
     "classification": "Learning badge",
     "criteria": "Retell or change perspective coherently while preserving the chosen story/source facts in new and delayed tasks; scripted read-aloud is not unaided retelling.",
     "shell": "Evidence hexagon",
@@ -7406,7 +7476,7 @@
   },
   {
     "id": "AW-TR-01S",
-    "title": "Teacher: Independent Application — {objective}",
+    "title": "Teacher: Independent Application",
     "classification": "Trainer learning badge",
     "criteria": "TR-TEACH fresh 4/5 target responses and independent linked communicative task; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7448,7 +7518,7 @@
   },
   {
     "id": "AW-TR-02S",
-    "title": "Grammarian: Grammar Applied — {objective}",
+    "title": "Grammarian: Grammar Applied",
     "classification": "Trainer learning badge",
     "criteria": "TR-GRAM productive 4/5 and target used appropriately in two natural unfamiliar-task opportunities; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7488,7 +7558,7 @@
   },
   {
     "id": "AW-TR-03S",
-    "title": "Librarian: Meaning Recalled and Used — {objective}",
+    "title": "Librarian: Meaning Recalled and Used",
     "classification": "Trainer learning badge",
     "criteria": "TR-LIB source comprehension 2/3 per tested modality and productive sense recall/use 4/5; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7530,7 +7600,7 @@
   },
   {
     "id": "AW-TR-04S",
-    "title": "Journalist: Questions and Accurate Summary — {objective}",
+    "title": "Journalist: Questions and Accurate Summary",
     "classification": "Trainer learning badge",
     "criteria": "TR-JOUR two relevant questions including response-dependent follow-up and three-key-point faithful summary; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7570,7 +7640,7 @@
   },
   {
     "id": "AW-TR-05S",
-    "title": "Business Professional: Purposeful Workplace Exchange — {objective}",
+    "title": "Business Professional: Purposeful Workplace Exchange",
     "classification": "Trainer learning badge",
     "criteria": "TR-BIZ purpose, two relevant facts/reasons, suitable next step and one meaningful follow-up; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7610,7 +7680,7 @@
   },
   {
     "id": "AW-TR-06S",
-    "title": "Speaker: Intelligible Target Delivery — {objective}",
+    "title": "Speaker: Intelligible Target Delivery",
     "classification": "Trainer learning badge",
     "criteria": "TR-SPEAK qualified audio judgment on two fresh target utterances and reference anchors; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",
@@ -7650,7 +7720,7 @@
   },
   {
     "id": "AW-TR-07S",
-    "title": "Creative Writer: Coherent Creative Expression — {objective}",
+    "title": "Creative Writer: Coherent Creative Expression",
     "classification": "Trainer learning badge",
     "criteria": "TR-WRITE coherent setup/event/outcome, two concrete details and consistent follow-up, with written/spoken evidence separate; include reviewed new-task and day-7/day-28 evidence before a retained specialist-skill claim. One objective does not prove mastery of the profession.",
     "shell": "Evidence hexagon",

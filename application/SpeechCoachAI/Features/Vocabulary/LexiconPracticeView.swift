@@ -31,7 +31,12 @@ struct LexiconPracticeView: View {
                     isLast: index == questions.count - 1,
                     message: nil,
                     onSubmit: { answer in record(answer) },
-                    onContinue: { index += 1 })
+                    onContinue: {
+                        index += 1
+                        if index == questions.count {
+                            try? storage.repository?.recordPracticeRound(enricher: mode == .enricher, perfect: correct == questions.count)
+                        }
+                    })
                 .id(questions[index].id)
             }
         }

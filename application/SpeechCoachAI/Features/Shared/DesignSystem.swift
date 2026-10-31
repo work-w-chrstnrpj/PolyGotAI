@@ -381,3 +381,32 @@ struct KitRows<Content: View>: View {
     @ViewBuilder var content: () -> Content
     var body: some View { Group(content: content).listRowBackground(Kit.surface) }
 }
+
+/// A labelled dropdown (Videos topic, coach stage): a small caption, the current choice and an up-down chevron.
+/// Tapping opens the menu given in `items` (usually a Picker, so the current choice shows a checkmark).
+struct KitDropdown<Items: View>: View {
+    var caption: String
+    var value: String
+    var identifier: String
+    @ViewBuilder var items: () -> Items
+
+    var body: some View {
+        Menu { items() } label: {
+            HStack(spacing: 10) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(caption).font(.caption).foregroundStyle(Kit.secondary)
+                    Text(value).font(.headline).foregroundStyle(Kit.ink).multilineTextAlignment(.leading)
+                }
+                Spacer()
+                Image(systemName: "chevron.up.chevron.down").font(.subheadline).foregroundStyle(Kit.accent).accessibilityHidden(true)
+            }
+            .padding(.horizontal, 16).padding(.vertical, 10)
+            .frame(minHeight: 44)
+            .background(Kit.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card, style: .continuous))
+            .contentShape(Rectangle())
+        }
+        .accessibilityLabel(caption)
+        .accessibilityValue(value)
+        .accessibilityIdentifier(identifier)
+    }
+}

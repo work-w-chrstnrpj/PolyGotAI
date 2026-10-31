@@ -28,8 +28,9 @@ extension LexiconState {
         hiddenGroupIDs = bank.groups.map(\.id).filter(ids.contains)
     }
 
-    /// Sets the ranks; an empty set or all six ranks means every rank.
+    /// Sets the ranks; all six ranks means every rank. An empty set is ignored, so at least one rank stays on.
     mutating func setRanks(_ chosen: Set<String>) {
+        guard !chosen.isEmpty else { return }
         let ordered = LevelGate.levels.filter(chosen.contains)
         ranks = ordered.isEmpty || ordered.count == LevelGate.levels.count ? nil : ordered
     }

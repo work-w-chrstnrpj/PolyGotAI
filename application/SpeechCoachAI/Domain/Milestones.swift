@@ -4,7 +4,7 @@ import Foundation
 /// Milestones are worked out from data the app already keeps, so they need no storage of their own.
 struct Milestone: Identifiable, Equatable {
     enum Group: String, CaseIterable, Identifiable {
-        case level, test, stage, time, words
+        case level, test, stage, time, words, videos
         var id: String { rawValue }
         var title: String {
             switch self {
@@ -13,6 +13,7 @@ struct Milestone: Identifiable, Equatable {
             case .stage: "Coach stages"
             case .time: "Time"
             case .words: "Words"
+            case .videos: "Videos"
             }
         }
     }
@@ -42,10 +43,12 @@ enum MilestoneBoard {
     static let hours = [1, 5, 10, 25, 50, 100, 250]
     static let days = [7, 30, 100, 365]
     static let easyWords = [10, 50, 100, 250, 500]
+    static let videos = [5, 10, 25, 50, 100]
+    static let videoTopics = [1, 5, 14]
 
     /// All milestones, achieved or not. `easyWords` is the number of Lexicon words the learner rates Easy.
     static func compute(ledger: RewardLedger, passedTests: Set<String>, journeys: [LessonJourney], tracks: TrackCatalog,
-                        usage: UsageReport, easyWordCount: Int) -> [Milestone] {
+                        usage: UsageReport, easyWordCount: Int, watched: [String: Date] = [:]) -> [Milestone] {
         var out: [Milestone] = []
 
         // Levels, with the day the XP crossed the line.
@@ -98,6 +101,27 @@ enum MilestoneBoard {
             out.append(Milestone(id: "words.\(count)", group: .words, title: "\(count) words rated Easy",
                                  detail: "\(min(easyWordCount, count)) of \(count) words", achieved: easyWordCount >= count, date: nil,
                                  progress: min(1, Double(easyWordCount) / Double(max(1, count)))))
+        }
+
+        // Lab videos (2026-10-31): videos watched and topics with every video watched.
+        let seen = LabVideoCatalog.watchedCount(watched)
+        let dates = watched.filter { LabVideoCatalog.isValidID($0.key) }.values.sorted()
+        for count in videos {
+            let done = seen >= count
+            out.append(Milestone(id: "videos.\(count)", group: .videos, title: "\(count) videos watched",
+                                 detail: "\(min(seen, count)) of \(count) videos", achieved: done,
+                                 date: done && dates.count >= count ? dates[count - 1] : nil,
+                                 progress: min(1, Double(seen) / Double(max(1, count)))))
+        }
+        let topicsDone = LabVideoTopic.allCases.filter { topic in
+            let list = LabVideoCatalog.videos(for: topic)
+            return !list.isEmpty && list.allSatisfy { watched[$0.id] != nil }
+        }.count
+        for count in videoTopics {
+            out.append(Milestone(id: "videoTopics.\(count)", group: .videos,
+                                 title: count == 1 ? "A whole video topic" : "\(count) video topics",
+                                 detail: "\(min(topicsDone, count)) of \(count) topics fully watched", achieved: topicsDone >= count, date: nil,
+                                 progress: min(1, Double(topicsDone) / Double(max(1, count)))))
         }
         return out
     }

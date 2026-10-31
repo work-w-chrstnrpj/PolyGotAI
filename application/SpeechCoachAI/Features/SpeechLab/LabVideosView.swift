@@ -48,29 +48,13 @@ struct LabVideosView: View {
 
     /// One dropdown for the topic, with how many videos each topic has.
     private var topicMenu: some View {
-        Menu {
+        KitDropdown(caption: "Topic", value: topic.title, identifier: "videos.topic") {
             Picker("Topic", selection: $topicID) {
                 ForEach(LabVideoTopic.allCases) { item in
                     Text("\(item.title) (\(LabVideoCatalog.videos(for: item).count))").tag(item.rawValue)
                 }
             }
-        } label: {
-            HStack(spacing: 10) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Topic").font(.caption).foregroundStyle(Kit.secondary)
-                    Text(topic.title).font(.headline).foregroundStyle(Kit.ink)
-                }
-                Spacer()
-                Image(systemName: "chevron.up.chevron.down").font(.subheadline).foregroundStyle(Kit.accent).accessibilityHidden(true)
-            }
-            .padding(.horizontal, 16).padding(.vertical, 10)
-            .frame(minHeight: 44)
-            .background(Kit.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card, style: .continuous))
-            .contentShape(Rectangle())
         }
-        .accessibilityLabel("Topic")
-        .accessibilityValue(topic.title)
-        .accessibilityIdentifier("videos.topic")
     }
 
     private func row(_ video: LabVideo) -> some View {

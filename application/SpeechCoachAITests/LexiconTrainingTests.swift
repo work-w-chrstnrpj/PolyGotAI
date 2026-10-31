@@ -38,14 +38,15 @@ struct LexiconTrainingTests {
         #expect(Set(state.trainingGroups(in: bank).map(\.id)) == [c2.id, field.id])
     }
 
-    @Test func allRanksOrNoneMeansEveryRank() {
+    @Test func allRanksMeansEveryRankAndAtLeastOneStaysOn() {
         var state = LexiconState()
         state.setRanks(Set(LevelGate.levels))
         #expect(state.ranks == nil)
-        state.setRanks([])
-        #expect(state.ranks == nil)
         state.setRanks(["B2", "A2"])
         #expect(state.ranks == ["A2", "B2"])
+        state.setRanks(["C1"])
+        state.setRanks([])
+        #expect(state.ranks == ["C1"], "turning the last rank off is ignored")
     }
 
     @Test func hidingAPackStopsTrainingItAndShowingDoesNotRestartIt() throws {

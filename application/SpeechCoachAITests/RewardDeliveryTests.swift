@@ -138,8 +138,8 @@ struct RewardDeliveryTests {
         #expect(RewardReminderScheduler.goalMet(value, now: now, calendar: calendar))
     }
     @Test func adoptedArtMappingsMatchSourceHashesAndRemainDecodableAtNativeSize() throws {
-        // 68 adopted families plus 15 v2 badges (2026-10-30).
-        #expect(AwardFamily.catalog.count == 83 && Set(AwardFamily.catalog.map(\.id)).count == 83)
+        // 68 adopted families plus 18 v2 badges (2026-10-30/31).
+        #expect(AwardFamily.catalog.count == 86 && Set(AwardFamily.catalog.map(\.id)).count == 86)
         #expect(AwardFamily.supports(lessonID: "intro-01", version: "4"))
         #expect(!AwardFamily.supports(lessonID: "intro-01", version: "unadopted-future"))
         for family in AwardFamily.catalog {

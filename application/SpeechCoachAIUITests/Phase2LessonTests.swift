@@ -123,7 +123,9 @@ final class Phase2LessonTests: XCTestCase {
         XCTAssertTrue(app.buttons["coach.card.grammarian"].waitForExistence(timeout: 5))
         capture(app, "coach-grid")
         app.buttons["coach.card.grammarian"].tap()
-        app.buttons["track.stage.starter"].tap()
+        // Stages are a dropdown (2026-10-31).
+        app.buttons["track.stage"].tap()
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Starter'")).firstMatch.tap()
         XCTAssertTrue(app.buttons["track.unit.be-have-do"].exists)
         capture(app, "coach-units")
         app.buttons["track.unit.sentences"].tap()

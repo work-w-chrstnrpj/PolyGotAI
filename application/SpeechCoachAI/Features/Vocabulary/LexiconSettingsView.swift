@@ -15,10 +15,13 @@ struct LexiconSettingsView: View {
         Form { KitRows {
             Section {
                 ForEach(LevelGate.levels, id: \.self) { rank in
-                    Toggle(rank, isOn: rankBinding(rank)).accessibilityIdentifier("lexicon.settings.rank.\(rank)")
+                    // At least one rank stays on: the last one left cannot be turned off.
+                    Toggle(rank, isOn: rankBinding(rank))
+                        .disabled(chosenRanks == [rank])
+                        .accessibilityIdentifier("lexicon.settings.rank.\(rank)")
                 }
             } header: { Text("Ranks") } footer: {
-                Text("New words come only from the ranks you turn on. All off means every rank.")
+                Text("New words come only from the ranks you turn on.")
             }
             Section("New words per day") {
                 Stepper("\(state.newPerDay) words", value: Binding(get: { state.newPerDay }, set: { value in
@@ -94,10 +97,14 @@ struct LexiconSettingsView: View {
         })
     }
 
+    /// The ranks Daily Training takes new words from; no choice saved means every rank.
+    private var chosenRanks: Set<String> { Set(state.ranks ?? LevelGate.levels) }
+
     private func rankBinding(_ rank: String) -> Binding<Bool> {
-        Binding(get: { state.ranks?.contains(rank) ?? false }, set: { on in
-            var chosen = Set(state.ranks ?? [])
+        Binding(get: { chosenRanks.contains(rank) }, set: { on in
+            var chosen = chosenRanks
             if on { chosen.insert(rank) } else { chosen.remove(rank) }
+            guard !chosen.isEmpty else { return }
             update { $0.setRanks(chosen) }
         })
     }

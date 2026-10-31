@@ -15,6 +15,10 @@ struct AwardInputs {
     var customTopicCount: Int
     /// Lexicon in Action words answered correctly at least once.
     var wordsInAction: Int
+    var enricherRounds = 0
+    var perfectRounds = 0
+    /// Ranks opened by passing their test.
+    var passedTests: Set<String> = []
 
     /// "lessonID@version" of every finished journey.
     var finished: Set<String> { Set(journeys.filter { $0.completedAt != nil }.map { $0.lessonID + "@" + $0.contentVersion }) }
@@ -31,6 +35,8 @@ enum AwardEvaluator {
     static let videoTiers = [10, 25, 50, 100]
     static let topicTiers = [1, 5, 14]
     static let timedTiers = [5, 25, 100]
+    static let enricherTiers = [1, 10, 50]
+    static let perfectTiers = [1, 10, 25]
     /// Course rank → badge family.
     static let courseFamilies = ["A1": "AW-CR-04", "A2": "AW-CR-05", "B1": "AW-CR-06", "B2": "AW-CR-07", "C1": "AW-CR-08", "C2": "AW-CR-09"]
 
@@ -75,6 +81,7 @@ enum AwardEvaluator {
             finishedRanks += 1
             if let family = courseFamilies[rank] { ledger.award(family, now: now, evidence: lessons.map(\.id)) }
         }
+        if !inputs.passedTests.isEmpty { ledger.award("AW-CR-11", now: now, evidence: inputs.passedTests.sorted()) }
         if finishedRanks == courseFamilies.count { ledger.award("AW-CR-10", now: now, evidence: Array(courseFamilies.keys).sorted()) }
     }
 
@@ -101,6 +108,8 @@ enum AwardEvaluator {
         tiers("AW-LX-02", lexiconDayTiers, count: Set(reviews.map(\.day)).count, &ledger, now: now, evidence: ["review"])
         if inputs.customTopicCount > 0 { ledger.award("AW-LX-05", now: now, evidence: ["topic"]) }
         tiers("AW-LX-06", actionTiers, count: inputs.wordsInAction, &ledger, now: now, evidence: ["action"])
+        tiers("AW-LX-07", enricherTiers, count: inputs.enricherRounds, &ledger, now: now, evidence: ["enricher"])
+        tiers("AW-LX-08", perfectTiers, count: inputs.perfectRounds, &ledger, now: now, evidence: ["practice"])
     }
 
     private static func videos(_ ledger: inout RewardLedger, _ inputs: AwardInputs, now: Date) {

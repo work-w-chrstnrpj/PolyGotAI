@@ -862,3 +862,17 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 ### LOG-0091 · 2026-10-31 · Claude · NOTE
 **Phase:** 16 round 5 · tests + device install · **Status:** DONE
 **Summary:** Unit tests pass (444; `LevelGateTests` and `LexiconTests` reran 47/47 after the last fixes). UI: Phase2LessonTests 6/6, Phase13TopicLessonTests 2/2, Phase3LexiconTests 5/5. Fixes: Lexicon files are now numbered with three digits (`lexicon-001-…`), because "lexicon-100" sorted before "lexicon-11" once there were 155 files; the largest-text field-pack test now scrolls to the last field pack (Law). Installed and launched on the iPhone 15 Plus. Not run: full UI suite, iPad, a native-speaker read of the new words and the reformatted pages. Nothing committed.
+
+### LOG-0092 · 2026-10-31 · Claude · CHANGE
+**Phase:** 16 play-test, round 6 · **Status:** BUILT; not committed
+**Summary:**
+1. Coach stages: the chip row is now one dropdown (new shared `KitDropdown`, also used for the Videos topic), each stage with "N of M" done (`track.stage`).
+2. Milestones: new Videos group (5/10/25/50/100 videos watched; 1/5/14 topics fully watched); the celebration check now also reacts to watched videos.
+3. Badges: no "Title — {placeholder}" names (CR-01 is now "Lessons Completed"; hidden ones stripped too). New: AW-LX-07 Enricher Rounds (1/10/50), AW-LX-08 Perfect Round (1/10/25, Practice or Enricher), AW-CR-11 Fast Track (a passed rank test). Rounds counted in `LexiconState.enricherRounds/perfectRounds` (optional). Catalog 86 families via `update_awards_v2.py`.
+4. Training settings: all rank switches show on when no choice is saved; the last rank left on is disabled; `setRanks([])` is ignored.
+5. Badges → Today's goals redesigned: two progress rows (active time, activities) against the learner's targets, "Set goals" link, a one-tap "Plan a lesson for today · +25 XP" dropdown by rank with "N of M" progress, compact break timer. Preferences: "Daily goals" with one short line.
+**Verification:** results in the next note.
+
+### LOG-0093 · 2026-10-31 · Claude · NOTE
+**Phase:** 16 round 6 · tests + install · **Status:** DONE
+**Summary:** 446 unit tests pass (new: rounds/Fast Track badges, no em-dash names, rank floor). UI: Round4ScreenTests 8/8 and Phase2 coach test (stage dropdown), Phase15LabTests 4/4 (Videos dropdown), ProgressUsageUITests 4/4, Bootstrap reward test pass. Installed on the iPhone 15 Plus. Not committed.

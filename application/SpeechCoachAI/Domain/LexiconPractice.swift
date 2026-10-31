@@ -26,6 +26,9 @@ struct LexiconState: Codable, Equatable {
     var ranks: [String]? = nil
     /// v3: packs hidden from the Lexicon screen. A hidden pack is never trained.
     var hiddenGroupIDs: [String]? = nil
+    /// Badges (2026-10-31): finished Vocabulary Enricher rounds, and Practice or Enricher rounds with every answer right.
+    var enricherRounds: Int? = nil
+    var perfectRounds: Int? = nil
 
     /// The groups being trained. Until the learner chooses, it is the first group of `startLevel`
     /// (the highest CEFR level they have unlocked), or the first group of the bank when that level has none.

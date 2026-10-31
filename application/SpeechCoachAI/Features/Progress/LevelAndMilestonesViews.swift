@@ -44,7 +44,7 @@ struct NextMilestones: View {
             let usage = UsageReport(log: try repository.usageLog())
             let easy = try repository.lexiconStages(bank: LexiconBankLoader.bundled).values.filter { $0 == .easy }.count
             milestones = MilestoneBoard.compute(ledger: ledger, passedTests: passed, journeys: journeys, tracks: install.tracks,
-                                                usage: usage, easyWordCount: easy)
+                                                usage: usage, easyWordCount: easy, watched: (try? repository.labExtras().watched) ?? [:])
         } catch { milestones = [] }
     }
 }

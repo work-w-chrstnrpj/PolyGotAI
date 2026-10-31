@@ -7,6 +7,14 @@ extension LearnerRepository {
 
     func lexiconState() throws -> LexiconState { try document().lexicon ?? LexiconState() }
 
+    /// Counts a finished Practice or Vocabulary Enricher round (for the Enricher Rounds and Perfect Round badges).
+    func recordPracticeRound(enricher: Bool, perfect: Bool) throws {
+        var state = try lexiconState()
+        if enricher { state.enricherRounds = (state.enricherRounds ?? 0) + 1 }
+        if perfect { state.perfectRounds = (state.perfectRounds ?? 0) + 1 }
+        try saveLexiconState(state)
+    }
+
     func saveLexiconState(_ state: LexiconState) throws {
         var stored = try document()
         guard stored.lexicon != state else { return }

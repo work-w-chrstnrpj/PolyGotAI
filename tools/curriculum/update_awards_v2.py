@@ -45,6 +45,10 @@ NEW = [
     ("AW-TT-01", "First Timed Test", "Participation badge", "Finish a first Lab timed test.", "timer", None, None),
     ("AW-TT-02", "Timed Tests", "Tiered participation badge", "Finish 5, 25 and 100 Lab timed tests.", "stopwatch.fill", [5, 25, 100], None),
     ("AW-TT-03", "All Three Tests", "Completion badge", "Finish one writing, one reading and one analogies timed test.", "checklist", None, None),
+    # 2026-10-31
+    ("AW-LX-07", "Enricher Rounds", "Tiered participation badge", "Finish 1, 10 and 50 Vocabulary Enricher rounds.", "sparkles", [1, 10, 50], None),
+    ("AW-LX-08", "Perfect Round", "Tiered participation badge", "Get every question right in 1, 10 and 25 Practice or Vocabulary Enricher rounds.", "star.circle.fill", [1, 10, 25], None),
+    ("AW-CR-11", "Fast Track", "Completion badge", "Pass a rank test with a perfect score and skip a level.", "hare.fill", None, None),
 ]
 # New badges go after this family so the "next to earn" tiles show current features first.
 INSERT_AFTER = "AW-C-05"
@@ -56,6 +60,8 @@ def main() -> None:
     by_id = {row["id"]: row for row in rows}
 
     for row in rows:
+        # 2026-10-31: no "Title — {placeholder}" badge names; the checkpoint reads as a plain count.
+        row["title"] = "Lessons Completed" if row["id"] == "AW-CR-01" else row["title"].split(" — ")[0]
         fid = row["id"]
         if fid in REWIRED:
             row.update(REWIRED[fid])

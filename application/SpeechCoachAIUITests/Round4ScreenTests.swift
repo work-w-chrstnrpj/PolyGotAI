@@ -109,12 +109,19 @@ final class Round4ScreenTests: XCTestCase {
         XCTAssertFalse(app.buttons["provider.privacy"].exists)
         capture("masked-settings")
     }
+    /// Stages are a dropdown (2026-10-31): open it and pick the stage by its title.
+    @MainActor private func chooseStage(_ app: XCUIApplication, _ id: String) {
+        tap(app, app.buttons["track.stage"])
+        let item = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", id.capitalized)).firstMatch
+        XCTAssertTrue(item.waitForExistence(timeout: 5), id)
+        item.tap()
+    }
     @MainActor func testThreeSyntheticStagesAtLargestTextInDarkMode() {
         let app = launch(large: true)
         tap(app, app.buttons["settings.ui-fixture"])
         tap(app, app.buttons["fixture.track"])
         for id in ["foundation", "intermediate", "advanced"] {
-            tap(app, app.buttons["track.stage.\(id)"])
+            chooseStage(app, id)
             XCTAssertTrue(app.buttons["track.unit.\(id)"].exists)
         }
         XCTAssertEqual(app.staticTexts["track.progress"].label, "0 of 3 lessons done")
@@ -133,7 +140,7 @@ final class Round4ScreenTests: XCTestCase {
         tap(app, app.buttons["coach.card.grammarian"])
         // The topic syllabus keeps its four stages (46 lessons since 2026-10-30).
         for (id, units) in [("starter", 3), ("foundation", 4), ("intermediate", 4), ("advanced", 4)] {
-            tap(app, app.buttons["track.stage.\(id)"])
+            chooseStage(app, id)
             XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.unit.")).count, units)
         }
         XCTAssertEqual(app.staticTexts["track.progress"].label, "0 of 46 lessons done")

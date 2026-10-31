@@ -176,6 +176,9 @@ extension AwardInputs {
             activities: extras?.activities ?? [],
             legacyFeedback: (document.labFeedback ?? []).map(\.mode),
             customTopicCount: document.customTopics.count,
-            wordsInAction: (document.lexicon?.action ?? [:]).values.filter { $0.correctStreak > 0 }.count)
+            wordsInAction: (document.lexicon?.action ?? [:]).values.filter { $0.correctStreak > 0 }.count,
+            enricherRounds: document.lexicon?.enricherRounds ?? 0,
+            perfectRounds: document.lexicon?.perfectRounds ?? 0,
+            passedTests: Set(document.passedJumpTests ?? []))
     }
 }

@@ -78,7 +78,6 @@ struct CoachTrackView: View {
     var install: CurriculumInstall
     var track: Track
     var onSpeak: (ResolvedLesson, UUID) -> Void
-    @Environment(\.dynamicTypeSize) private var textSize
     @State private var selectedStage: String?
     @State private var journeys: [LessonJourney] = []
     private var stage: TrackStage? { CoachTrackPresentation.stage(in: track, selected: selectedStage) }
@@ -90,11 +89,7 @@ struct CoachTrackView: View {
                 Text(track.tagline).foregroundStyle(Kit.secondary).lineLimit(1).minimumScaleFactor(0.65)
                 Text(CoachTrackPresentation.progress(track.lessons, journeys: journeys))
                     .font(.subheadline.weight(.semibold)).accessibilityIdentifier("track.progress")
-                if textSize.isAccessibilitySize {
-                    VStack(alignment: .leading, spacing: 10) { stageButtons }
-                } else {
-                    FlowLayout(spacing: 10) { stageButtons }
-                }
+                stageMenu
                 if !earlierLessons.isEmpty {
                     NavigationLink("Earlier lessons") {
                         CoachUnitView(storage: storage, install: install,
@@ -122,13 +117,18 @@ struct CoachTrackView: View {
         }
     }
 
-    private var stageButtons: some View {
-        ForEach(track.stages) { item in
-            Button(item.title) { selectedStage = item.id }
-                .buttonStyle(KitChipStyle(selected: stage?.id == item.id))
-                .accessibilityAddTraits(stage?.id == item.id ? .isSelected : [])
-                .accessibilityIdentifier("track.stage.\(item.id)")
+    /// Stages as one dropdown (owner, 2026-10-31), each with its progress.
+    private var stageMenu: some View {
+        KitDropdown(caption: "Stage", value: stage.map { stageLine($0) } ?? "", identifier: "track.stage") {
+            Picker("Stage", selection: Binding(get: { stage?.id ?? "" }, set: { selectedStage = $0 })) {
+                ForEach(track.stages) { item in Text(stageLine(item)).tag(item.id) }
+            }
         }
+    }
+
+    private func stageLine(_ item: TrackStage) -> String {
+        let done = item.lessons.filter { LessonProgress.of($0, journeys: journeys).state == .done }.count
+        return "\(item.title) · \(done) of \(item.lessons.count)"
     }
 
     private func unitCard(_ unit: TrackUnit) -> some View {

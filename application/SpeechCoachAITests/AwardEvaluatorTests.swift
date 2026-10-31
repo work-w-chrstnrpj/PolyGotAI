@@ -95,6 +95,25 @@ struct AwardEvaluatorTests {
         #expect(value.awards.count == count)
     }
 
+    @Test func roundsPerfectRoundsAndAPassedRankTestEarnBadges() {
+        var value = ledger()
+        var input = inputs()
+        input.enricherRounds = 10; input.perfectRounds = 1; input.passedTests = ["B2"]
+        AwardEvaluator.evaluate(&value, input, now: now)
+        #expect(tiers(value, "AW-LX-07") == [1, 10] && tiers(value, "AW-LX-08") == [1] && families(value).contains("AW-CR-11"))
+        #expect(AwardFamily.catalog.allSatisfy { !$0.title.contains("—") }, "no em-dash badge names")
+    }
+
+    @Test func theRepositoryCountsPracticeRounds() throws {
+        let root = FileManager.default.temporaryDirectory.appendingPathComponent("SC-ROUNDS-\(UUID())")
+        defer { try? FileManager.default.removeItem(at: root) }
+        let repo = try LearnerRepository(root: root, now: { now }, uptime: { 0 }, protectedDataAvailable: { true })
+        try repo.recordPracticeRound(enricher: true, perfect: true)
+        try repo.recordPracticeRound(enricher: false, perfect: false)
+        #expect(try repo.lexiconState().enricherRounds == 1 && repo.lexiconState().perfectRounds == 1)
+        #expect(try repo.rewardLedger().awards.map(\.family).contains("AW-LX-07"))
+    }
+
     @Test func theRepositoryAwardsStoredWorkAndOldDocumentsStillOpen() throws {
         let root = FileManager.default.temporaryDirectory.appendingPathComponent("SC-AWARDS-\(UUID())")
         defer { try? FileManager.default.removeItem(at: root) }

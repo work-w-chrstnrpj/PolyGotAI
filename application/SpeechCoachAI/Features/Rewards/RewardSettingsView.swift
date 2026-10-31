@@ -23,10 +23,10 @@ struct RewardSettingsView: View {
                 Toggle("Sound effects", isOn: $settings.effects)
                 Toggle("Haptics", isOn: $settings.haptics)
             }
-            Section("Separate daily goals") {
+            Section("Daily goals") {
                 TextField("Active minutes, optional", text: $minutes).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.minutes")
                 TextField("Activities, optional", text: $activities).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.activities")
-                Text("Active time pauses in background or after 60 seconds without interaction, except uninterrupted learning audio. A chosen lesson plan can earn its bonus without meeting the time target.")
+                Text("Active time counts while you practice.").font(.footnote).foregroundStyle(Kit.secondary)
                 TextField("Optional break timer, minutes", text: $breakMinutes).keyboardType(.numberPad)
                     .accessibilityIdentifier("rewards.break.minutes")
                 Text("Timer starts only when you choose Start. Its static end notice leaves your exercise open and gives no reward.")

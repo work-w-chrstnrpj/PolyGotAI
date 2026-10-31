@@ -76,11 +76,11 @@ struct CelebrationOverlay: ViewModifier {
               let log = try? repository.usageLog(),
               let stages = try? repository.lexiconStages(bank: LexiconBankLoader.bundled) else { return [] }
         let easy = stages.values.filter { $0 == .easy }.count
-        let key = "\(ledger.xp)|\(passed.count)|\(journeys.filter { $0.completedAt != nil }.count)|\(easy)|\(log.sessions.count)"
+        let key = "\(ledger.xp)|\(passed.count)|\(journeys.filter { $0.completedAt != nil }.count)|\(easy)|\(log.sessions.count)|\(((try? repository.labExtras().watched) ?? [:]).count)"
         if ledger.celebratedMilestones != nil, key == milestoneKey { return [] }
         milestoneKey = key
         let all = MilestoneBoard.compute(ledger: ledger, passedTests: passed, journeys: journeys, tracks: install.tracks,
-                                         usage: UsageReport(log: log), easyWordCount: easy)
+                                         usage: UsageReport(log: log), easyWordCount: easy, watched: (try? repository.labExtras().watched) ?? [:])
         let reached = all.filter(\.achieved)
         guard let celebrated = ledger.celebratedMilestones else {
             try? repository.markMilestonesCelebrated(reached.map(\.id))
