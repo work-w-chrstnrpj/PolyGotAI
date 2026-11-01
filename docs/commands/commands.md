@@ -32,6 +32,18 @@ python3 tools/curriculum/validate.py
 
 Validates the course catalog and coach track JSON (unique ids, typed exercise fields, track tips and sources). Run it before committing content changes.
 
+## Branches and releases
+
+Work happens on `development`; `main` holds released code. To release, open a pull request from `development` to `main` and merge it with **Create a merge commit** (not squash). [`.github/workflows/release.yml`](../../.github/workflows/release.yml) then tags the merge commit `vX.Y.Z`, publishes a GitHub release with notes grouped by commit type (`feat:`, `fix:`, `docs:` …) and fast-forwards `development` to `main`.
+
+- Version: the first release uses `MARKETING_VERSION` from the Xcode project. Later ones bump the latest tag: `feat` → minor, breaking (`feat!:`) → major (minor while 0.x), anything else → patch. Raise `MARKETING_VERSION` in Xcode to choose a higher version by hand.
+- The pull request title and description open the release notes.
+- Preview the notes locally before merging:
+
+```bash
+bash .github/scripts/release-notes.sh main development vNEXT
+```
+
 ## Design helper (Figma plugin, not app code)
 
 ```bash

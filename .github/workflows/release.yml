@@ -1,0 +1,122 @@
+# Publishes a GitHub release whenever the development branch is merged into main.
+#
+# Flow: work on `development` -> open a pull request development -> main ->
+# merge it with "Create a merge commit" -> this workflow tags the merge commit
+# (vX.Y.Z), writes grouped release notes and publishes the release, then
+# fast-forwards development to main so both branches stay level.
+#
+# Version: first release uses MARKETING_VERSION from the Xcode project; later
+# releases bump the latest tag from Conventional Commit subjects (feat -> minor,
+# breaking -> major, minor while 0.x, else patch). Raising MARKETING_VERSION in
+# Xcode above that result picks the version by hand.
+name: Release
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       github.event.pull_request.head.ref == 'development' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main with full history
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Work out the commit range
+        id: range
+        env:
+          MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [[ -n "$MERGE_SHA" ]]; then
+            target="$MERGE_SHA"
+            to="$HEAD_SHA"
+          else
+            # Manual run: release the current tip of main.
+            target="$(git rev-parse HEAD)"
+            to="$target"
+          fi
+          # First release: the whole history. Later: main as it was before the
+          # merge, or the latest tag when main's tip is not a merge commit.
+          latest_tag="$(git tag -l 'v[0-9]*' --sort=-v:refname | head -1)"
+          if [[ -z "$latest_tag" ]]; then
+            from=""
+          elif git rev-parse -q --verify "$target^2" >/dev/null; then
+            from="$(git rev-parse "$target^1")"
+          else
+            from="$latest_tag"
+          fi
+          echo "target=$target" >> "$GITHUB_OUTPUT"
+          echo "from=$from" >> "$GITHUB_OUTPUT"
+          echo "to=$to" >> "$GITHUB_OUTPUT"
+          echo "Releasing $target (commits ${from:-start}..$to)"
+
+      - name: Work out the version
+        id: version
+        env:
+          FROM: ${{ steps.range.outputs.from }}
+          TO: ${{ steps.range.outputs.to }}
+        run: |
+          prev_tag="$(git tag -l 'v[0-9]*' --sort=-v:refname | head -1)"
+          version="$(bash .github/scripts/next-version.sh "$FROM" "$TO")"
+          tag="v$version"
+          if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
+            echo "::error::Tag $tag already exists. Raise MARKETING_VERSION in Xcode or add new commits."
+            exit 1
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "prev_tag=$prev_tag" >> "$GITHUB_OUTPUT"
+          echo "Next release: $tag (previous: ${prev_tag:-none})"
+
+      - name: Write release notes
+        env:
+          FROM: ${{ steps.range.outputs.from }}
+          TO: ${{ steps.range.outputs.to }}
+          TAG: ${{ steps.version.outputs.tag }}
+          PREV_TAG: ${{ steps.version.outputs.prev_tag }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+        run: |
+          bash .github/scripts/release-notes.sh "$FROM" "$TO" "$TAG" "$PREV_TAG" > "$RUNNER_TEMP/notes.md"
+          cat "$RUNNER_TEMP/notes.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+          TARGET: ${{ steps.range.outputs.target }}
+        run: |
+          gh release create "$TAG" \
+            --target "$TARGET" \
+            --title "PolyGotAI $TAG" \
+            --notes-file "$RUNNER_TEMP/notes.md" \
+            --latest
+
+      - name: Fast-forward development to main
+        if: github.event_name == 'pull_request'
+        continue-on-error: true
+        env:
+          TARGET: ${{ steps.range.outputs.target }}
+        run: |
+          # Never forces: fails harmlessly if development moved on after the merge.
+          git push origin "$TARGET:refs/heads/development" \
+            || echo "::warning::development has new commits; merge main into it by hand."

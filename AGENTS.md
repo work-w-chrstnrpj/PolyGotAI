@@ -45,6 +45,7 @@ Update this map whenever the project structure changes.
 - `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn (shared topic-reading player and `LessonReadingPage`), Vocabulary, Recording, Progress, Rewards, Settings, Resources, SpeechLab (Lab: Talk, Speaking, Spelling, Timed tests, Videos, Voice; Pronunciation is a Lesson coach since Phase 12, with the say-it `SpeakAnswerView` in Learn/Exercises), Talk (AI conversation), Today, Feedback, Shared: `Theme.swift` tokens and `DesignSystem.swift` components).
 - `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog, and the layered `PolyGotAI.icon` Icon Composer document (source vectors and branding notes: `assets/branding/polygotai/`).
 - `application/SpeechCoachAITests/`, `application/SpeechCoachAIUITests/`: tests. `application/Vendor/swift-fsrs/`: pinned FSRS-6. `application/.build/`: ignored build output and backups.
+- `.github/workflows/release.yml`, `.github/scripts/`: release on merge of `development` into `main` (version and grouped notes).
 - `tools/native/verify.sh`: build and run all tests. `tools/curriculum/`: content authoring and validation scripts. `tools/figma-local-helper/`: Figma plugin for the design kit (not app code).
 - `assets/awards/v1/`: adopted award artwork.
 - `docs/`: current docs (index: `docs/README.md`); `docs/history/v1/` holds archived v1 tickets, milestones, evidence and old specs (reference only).
@@ -89,7 +90,7 @@ Update this map whenever the project structure changes.
 
 ## Git And PR Rules
 
-- The project is a Git repository: `https://github.com/work-w-chrstnrpj/PolyGotAI` (branch `main`, **public**). Commit only when the owner asks. Never commit secrets, keys, learner data, `application/.build/` or signing files. Push only when the owner asks; don't force-push or rewrite history.
+- The project is a Git repository: `https://github.com/work-w-chrstnrpj/PolyGotAI` (branches `development` for work and `main` for releases, **public**; merging `development` into `main` publishes a release, see `docs/commands/commands.md`). Commit only when the owner asks. Never commit secrets, keys, learner data, `application/.build/` or signing files. Push only when the owner asks; don't force-push or rewrite history.
 - Back up a file before a risky rewrite (copy it to `application/.build/backup/`).
 - Do not revert other people's changes unless explicitly asked.
 - Avoid destructive operations without explicit approval.
