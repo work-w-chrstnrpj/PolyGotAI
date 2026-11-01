@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-philosophy",
+    "title": "Philosophy and ideas",
+    "level": "C2",
+    "tagline": "Thought, truth and meaning",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "epistemology",
+      "pos": "noun",
+      "meaning": "The branch of philosophy that studies knowledge: what it is and how we can know things.",
+      "examples": [
+        "Her thesis in {epistemology} asks how we can trust our senses."
+      ],
+      "wrong": [
+        "Epistemology is the study of how plants grow in different soils."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "theory of knowledge"
+      ],
+      "ipa": "/ɪˌpɪstəˈmɑlədʒi/"
+    },
+    {
+      "lemma": "ontology",
+      "pos": "noun",
+      "meaning": "The branch of philosophy that asks what exists and what it means for something to be.",
+      "examples": [
+        "In {ontology}, philosophers debate whether numbers really exist."
+      ],
+      "wrong": [
+        "Ontology is the art of cooking meals for large groups."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ɑnˈtɑlədʒi/"
+    },
+    {
+      "lemma": "metaphysics",
+      "pos": "noun",
+      "meaning": "The part of philosophy that deals with the basic nature of reality, time, mind and being.",
+      "examples": [
+        "Questions about whether time truly passes belong to {metaphysics}."
+      ],
+      "wrong": [
+        "Metaphysics is a practical course on fixing car engines."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˌmɛtəˈfɪzɪks/"
+    },
+    {
+      "lemma": "empiricism",
+      "pos": "noun",
+      "meaning": "The view that knowledge comes mainly from experience and what we observe.",
+      "examples": [
+        "Modern science grew out of a spirit of {empiricism}."
+      ],
+      "wrong": [
+        "His empiricism made him refuse to look at any evidence at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ɪmˈpɪrəˌsɪzəm/"
+    },
+    {
+      "lemma": "rationalism",
+      "pos": "noun",
+      "meaning": "The view that reason, not the senses, is the main source of knowledge.",
+      "examples": [
+        "Her {rationalism} led her to trust logic over first impressions."
+      ],
+      "wrong": [
+        "His rationalism meant he made every choice by pure feeling and impulse."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈræʃənəˌlɪzəm/"
+    },
+    {
+      "lemma": "nihilism",
+      "pos": "noun",
+      "meaning": "The belief that life has no meaning and that values have no real basis.",
+      "examples": [
+        "The novel’s hero drifts into {nihilism} after losing everything he believed in."
+      ],
+      "wrong": [
+        "Her nihilism gave her a deep sense that every moment of life was full of purpose."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈnaɪəˌlɪzəm/"
+    },
+    {
+      "lemma": "solipsism",
+      "pos": "noun",
+      "meaning": "The idea that only your own mind is sure to exist; also, being totally absorbed in yourself.",
+      "examples": [
+        "The film’s narrator sinks into a kind of {solipsism}, unable to imagine other people’s thoughts."
+      ],
+      "wrong": [
+        "His solipsism made him think constantly about the feelings of others."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "self-absorption"
+      ],
+      "ipa": "/ˈsɑlɪpˌsɪzəm/"
+    },
+    {
+      "lemma": "determinism",
+      "pos": "noun",
+      "meaning": "The belief that every event, including human choice, is fully caused by what happened before.",
+      "examples": [
+        "If {determinism} is true, can anyone be blamed for their actions?"
+      ],
+      "wrong": [
+        "Determinism is the belief that events happen with no cause at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fatalism"
+      ],
+      "ipa": "/dɪˈtɝməˌnɪzəm/"
+    },
+    {
+      "lemma": "utilitarianism",
+      "pos": "noun",
+      "meaning": "The view that the right action is the one that brings the greatest good to the most people.",
+      "examples": [
+        "Under {utilitarianism}, the policy that helps the most people is the moral one."
+      ],
+      "wrong": [
+        "Utilitarianism says we should ignore how our actions affect other people."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/juˌtɪləˈtɛriəˌnɪzəm/"
+    },
+    {
+      "lemma": "existentialism",
+      "pos": "noun",
+      "meaning": "A philosophy that says people create their own meaning through free choice and responsibility.",
+      "examples": [
+        "The play is a classic of {existentialism}: its characters must invent a reason to live."
+      ],
+      "wrong": [
+        "Existentialism teaches that our purpose is fixed for us before we are born."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌɛɡzɪˈstɛnʃəˌlɪzəm/"
+    },
+    {
+      "lemma": "dialectic",
+      "pos": "noun",
+      "meaning": "A way of finding truth by setting opposing ideas against each other and resolving them.",
+      "examples": [
+        "The seminar moved forward through a {dialectic} of claim and counterclaim."
+      ],
+      "wrong": [
+        "Their dialectic was a quiet agreement in which nobody raised a different view."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌdaɪəˈlɛktɪk/"
+    },
+    {
+      "lemma": "syllogism",
+      "pos": "noun",
+      "meaning": "A form of reasoning where a conclusion follows from two linked statements.",
+      "examples": [
+        "All birds have feathers; a robin is a bird; so a robin has feathers: a classic {syllogism}."
+      ],
+      "wrong": [
+        "A syllogism is a random guess with no reasoning behind it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deduction"
+      ],
+      "ipa": "/ˈsɪləˌdʒɪzəm/"
+    },
+    {
+      "lemma": "tautology",
+      "pos": "noun",
+      "meaning": "A statement that says the same thing twice in different words, or is true by definition.",
+      "examples": [
+        "\"A free gift\" is a {tautology}, since all gifts are free."
+      ],
+      "wrong": [
+        "\"It may rain tomorrow\" is a tautology because it adds new information."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "redundancy"
+      ],
+      "ipa": "/tɔˈtɑlədʒi/"
+    },
+    {
+      "lemma": "a priori",
+      "pos": "adjective",
+      "meaning": "Known by reasoning alone, before or without experience.",
+      "examples": [
+        "That a triangle has three sides is {a priori} knowledge."
+      ],
+      "wrong": [
+        "We gained this a priori knowledge only by running many experiments."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "deductive"
+      ],
+      "ipa": "/ˌɑ priˈɔri/",
+      "antonyms": [
+        "a posteriori"
+      ]
+    },
+    {
+      "lemma": "a posteriori",
+      "pos": "adjective",
+      "meaning": "Known only through experience or evidence, not by reasoning alone.",
+      "examples": [
+        "Whether water boils at a lower point on mountains is {a posteriori}: you have to test it."
+      ],
+      "wrong": [
+        "This a posteriori truth can be known without any observation at all."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "empirical"
+      ],
+      "ipa": "/ˌɑ pɑˌstɪriˈɔri/",
+      "antonyms": [
+        "a priori"
+      ]
+    },
+    {
+      "lemma": "teleology",
+      "pos": "noun",
+      "meaning": "The study or explanation of things in terms of their purpose or goal.",
+      "examples": [
+        "Older biology relied on {teleology}, saying eyes exist in order to see."
+      ],
+      "wrong": [
+        "Teleology explains things only by their cause, never by their purpose."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˌtɛliˈɑlədʒi/"
+    },
+    {
+      "lemma": "stoicism",
+      "pos": "noun",
+      "meaning": "Calmly accepting pain or difficulty without complaining; also an ancient school of thought teaching this.",
+      "examples": [
+        "She faced the long illness with remarkable {stoicism}."
+      ],
+      "wrong": [
+        "His stoicism showed when he screamed and complained about every small problem."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fortitude",
+        "endurance",
+        "forbearance"
+      ],
+      "ipa": "/ˈstoʊəˌsɪzəm/"
+    },
+    {
+      "lemma": "hedonism",
+      "pos": "noun",
+      "meaning": "The belief that pleasure is the most important goal in life.",
+      "examples": [
+        "The resort sells pure {hedonism}: food, sun and no responsibilities."
+      ],
+      "wrong": [
+        "Her hedonism made her give up every pleasure to live like a monk."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "self-indulgence",
+        "pleasure-seeking"
+      ],
+      "ipa": "/ˈhidəˌnɪzəm/",
+      "antonyms": [
+        "asceticism"
+      ]
+    },
+    {
+      "lemma": "relativism",
+      "pos": "noun",
+      "meaning": "The view that truth and right and wrong depend on culture or person, not on fixed standards.",
+      "examples": [
+        "Moral {relativism} holds that no culture’s values are better than another’s."
+      ],
+      "wrong": [
+        "Relativism insists that one universal standard of truth applies to everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈrɛlətɪˌvɪzəm/"
+    },
+    {
+      "lemma": "skepticism",
+      "pos": "noun",
+      "meaning": "An attitude of doubting claims until there is good proof.",
+      "examples": [
+        "The report was met with {skepticism} by other scientists."
+      ],
+      "wrong": [
+        "Her skepticism made her believe every rumor she heard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "doubt",
+        "incredulity"
+      ],
+      "ipa": "/ˈskɛptəˌsɪzəm/",
+      "antonyms": [
+        "credulity"
+      ]
+    },
+    {
+      "lemma": "dogmatism",
+      "pos": "noun",
+      "meaning": "Stating opinions as if they were certainly true, without accepting any doubt or debate.",
+      "examples": [
+        "The debate went nowhere because of the speaker’s {dogmatism}."
+      ],
+      "wrong": [
+        "His dogmatism made him happy to change his mind whenever someone disagreed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rigidity",
+        "inflexibility"
+      ],
+      "ipa": "/ˈdɔɡməˌtɪzəm/",
+      "antonyms": [
+        "open-mindedness"
+      ]
+    },
+    {
+      "lemma": "transcendent",
+      "pos": "adjective",
+      "meaning": "Going beyond ordinary experience or the physical world.",
+      "examples": [
+        "Many describe the music as a {transcendent} experience."
+      ],
+      "wrong": [
+        "The film was so transcendent that it felt dull, ordinary and forgettable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sublime",
+        "otherworldly"
+      ],
+      "ipa": "/trænˈsɛndənt/"
+    },
+    {
+      "lemma": "immanent",
+      "pos": "adjective",
+      "meaning": "Existing or present within something, especially within the world rather than beyond it.",
+      "examples": [
+        "Some thinkers see the divine as {immanent} in nature itself."
+      ],
+      "wrong": [
+        "If a quality is immanent in a thing, it exists only far outside it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inherent",
+        "indwelling"
+      ],
+      "ipa": "/ˈɪmənənt/"
+    },
+    {
+      "lemma": "sentient",
+      "pos": "adjective",
+      "meaning": "Able to feel and be aware of things.",
+      "examples": [
+        "The law protects animals as {sentient} beings."
+      ],
+      "wrong": [
+        "A rock is a sentient object that feels everything around it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "conscious",
+        "aware"
+      ],
+      "ipa": "/ˈsɛnʃənt/",
+      "antonyms": [
+        "insentient"
+      ]
+    },
+    {
+      "lemma": "reductio ad absurdum",
+      "pos": "phrase",
+      "meaning": "Disproving a claim by showing that it leads to a ridiculous conclusion.",
+      "examples": [
+        "Her {reductio ad absurdum} showed the rule would ban breathing."
+      ],
+      "wrong": [
+        "His reductio ad absurdum proved the idea by showing how sensible its results were."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˌrɛdʌktioʊ æd æbˈsɝdəm/"
+    },
+    {
+      "lemma": "cogitate",
+      "pos": "verb",
+      "meaning": "To think carefully and seriously about something.",
+      "examples": [
+        "The committee {cogitated} for weeks before deciding."
+      ],
+      "wrong": [
+        "He cogitated on the offer without giving it a single thought."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deliberate",
+        "reflect",
+        "muse"
+      ],
+      "ipa": "/ˈkɑdʒəˌteɪt/"
+    },
+    {
+      "lemma": "abstraction",
+      "pos": "noun",
+      "meaning": "A general idea not based on any real, particular thing.",
+      "examples": [
+        "Justice is an {abstraction}, but its effects are very real."
+      ],
+      "wrong": [
+        "A chair in your kitchen is a perfect example of an abstraction."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "concept",
+        "generalization"
+      ],
+      "ipa": "/æbˈstrækʃən/"
+    },
+    {
+      "lemma": "dualism",
+      "pos": "noun",
+      "meaning": "The view that reality has two basic parts, such as mind and matter.",
+      "examples": [
+        "His {dualism} treats the mind as separate from the body."
+      ],
+      "wrong": [
+        "Dualism claims that reality is made of one single substance."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈduəˌlɪzəm/"
+    },
+    {
+      "lemma": "materialism",
+      "pos": "noun",
+      "meaning": "The philosophical view that only physical matter truly exists.",
+      "examples": [
+        "In {materialism}, thoughts are just activity in the brain."
+      ],
+      "wrong": [
+        "Materialism says that physical matter does not exist at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "physicalism"
+      ],
+      "ipa": "/məˈtɪriəˌlɪzəm/",
+      "antonyms": [
+        "idealism"
+      ]
+    },
+    {
+      "lemma": "idealism",
+      "pos": "noun",
+      "meaning": "The philosophical view that reality is built from minds and ideas.",
+      "examples": [
+        "Her {idealism} claims objects exist only as ideas in a mind."
+      ],
+      "wrong": [
+        "Idealism holds that ideas play no part in what is real."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/aɪˈdiəˌlɪzəm/",
+      "antonyms": [
+        "materialism"
+      ]
+    },
+    {
+      "lemma": "first principles",
+      "pos": "phrase",
+      "meaning": "The most basic truths from which other ideas are built.",
+      "examples": [
+        "Let’s reason from {first principles} instead of copying old answers."
+      ],
+      "wrong": [
+        "Working from first principles means copying what everyone else already does."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fundamentals",
+        "basics"
+      ],
+      "ipa": "/ˈfɝst ˈprɪnsəpəlz/"
+    },
+    {
+      "lemma": "beg the question",
+      "pos": "phrase",
+      "meaning": "To argue in a circle, assuming the very thing you are trying to prove.",
+      "examples": [
+        "Saying the book is true because it says so is to {beg the question}."
+      ],
+      "wrong": [
+        "Her argument begged the question, because it relied only on independent evidence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "argue in a circle"
+      ],
+      "ipa": "/ˈbɛɡ ðə ˈkwɛstʃən/"
+    },
+    {
+      "lemma": "thought experiment",
+      "pos": "noun",
+      "meaning": "An imagined situation used to test an idea through reasoning.",
+      "examples": [
+        "The famous {thought experiment} asks whether a ship with every part replaced is the same ship."
+      ],
+      "wrong": [
+        "A thought experiment needs a laboratory full of real chemicals."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈθɔt ɪkˈspɛrəmənt/"
+    },
+    {
+      "lemma": "the human condition",
+      "pos": "phrase",
+      "meaning": "The basic experience of being human, including birth, love, struggle and death.",
+      "examples": [
+        "Great novels explore {the human condition}."
+      ],
+      "wrong": [
+        "The human condition is a disease that only doctors can catch."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ðə ˈhjumən kənˈdɪʃən/"
+    },
+    {
+      "lemma": "free will",
+      "pos": "noun",
+      "meaning": "The power to make your own choices, not controlled by fate or outside forces.",
+      "examples": [
+        "Do we have {free will}, or are our choices already decided?"
+      ],
+      "wrong": [
+        "Because he acted out of free will, someone else had forced him to do it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "volition",
+        "autonomy"
+      ],
+      "ipa": "/ˈfri ˈwɪl/"
+    },
+    {
+      "lemma": "self-evident",
+      "pos": "adjective",
+      "meaning": "So clear that it needs no proof or explanation.",
+      "examples": [
+        "To her, the need for change was {self-evident}."
+      ],
+      "wrong": [
+        "The answer was self-evident, so nobody could understand it without a long proof."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obvious",
+        "axiomatic",
+        "manifest"
+      ],
+      "ipa": "/ˌsɛlfˈɛvədənt/"
+    },
+    {
+      "lemma": "truism",
+      "pos": "noun",
+      "meaning": "A statement so obviously true that it is hardly worth saying.",
+      "examples": [
+        "\"Time will tell\" is a {truism}, not an answer."
+      ],
+      "wrong": [
+        "His truism was a shocking new idea nobody had ever heard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cliché",
+        "commonplace"
+      ],
+      "ipa": "/ˈtruˌɪzəm/"
+    },
+    {
+      "lemma": "agnostic",
+      "pos": "adjective",
+      "meaning": "Not committed to believing or denying something because it cannot be known.",
+      "examples": [
+        "I’m {agnostic} about which design is better until we see the data."
+      ],
+      "wrong": [
+        "She’s agnostic on the issue, so she argues for one side with total certainty."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "noncommittal",
+        "undecided"
+      ],
+      "ipa": "/æɡˈnɑstɪk/"
+    },
+    {
+      "lemma": "axiomatic",
+      "pos": "adjective",
+      "meaning": "Accepted as true without needing proof.",
+      "examples": [
+        "It is {axiomatic} that a good teacher must listen."
+      ],
+      "wrong": [
+        "The claim was axiomatic, so everyone demanded proof before accepting it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "self-evident",
+        "unquestioned"
+      ],
+      "ipa": "/ˌæksiəˈmætɪk/"
+    },
+    {
+      "lemma": "casuistry",
+      "pos": "noun",
+      "meaning": "Clever but misleading reasoning, especially about right and wrong.",
+      "examples": [
+        "His excuse for keeping the money was pure {casuistry}."
+      ],
+      "wrong": [
+        "Her casuistry was a simple, honest argument anyone could follow."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sophism",
+        "equivocation"
+      ],
+      "ipa": "/ˈkæʒuəstri/"
+    }
+  ]
+}

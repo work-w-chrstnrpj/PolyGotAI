@@ -1,6 +1,6 @@
 # American English Curriculum Outline: A1–C2
 
-> v2 (2026-10-25): this is the topic outline for the **CEFR course** in Learn. Lessons now use the auto-checked [exercise engine](../tdd/tdd.md#exercise-engine) and start with a coach tip. Specialist skills (debate, journalism, copywriting, …) live in the [coach tracks](coach-tracks.md), not here. Sections about v1 trainers, tickets and publication gates are history.
+> v2 (2026-10-25): this is the topic outline for the **CEFR course** in the Lesson tab. Lessons now use the auto-checked [exercise engine](../tdd/tdd.md#exercise-engine) and start with a coach tip. Specialist skills (debate, journalism, copywriting, …) live in the [coach tracks](coach-tracks.md), not here. Sections about v1 trainers, tickets and publication gates are history.
 
 ## Scope and interpretation
 
@@ -8,7 +8,7 @@ American English is the default for spelling, vocabulary, examples and reference
 
 CEFR describes abilities rather than prescribing this grammar/topic sequence. The British Council–EAQUALS Core Inventory is a planning reference through A1–C1; the C2 outline is a project proposal informed by CEFR outcomes, not an extension claimed to come from that inventory. C2 emphasizes integrated precision and flexibility rather than collecting obscure grammar rules. No level implies mandatory native-like accent or official certification.
 
-Introductions at A1 remains the first internal authoring/proof target. Owner UI/UX decisions now require a complete A1–C2 five-skill English path with interview/business coverage for public release. Exact volume and completeness criteria remain open; this outline is not reviewed/published curriculum or authorization to begin application implementation. Learners choose any available level freely; unreleased content is marked Coming later.
+Introductions at A1 remains the first internal authoring/proof target. Owner UI/UX decisions now require a complete A1–C2 five-skill English path with interview/business coverage for public release. Exact volume and completeness criteria remain open; this outline is not reviewed/published curriculum or authorization to begin application implementation. Only unlocked levels are open; later levels show their level test. Unfinished content is hidden.
 
 ## A1 — Foundations
 

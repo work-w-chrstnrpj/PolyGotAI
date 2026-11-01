@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-travel-health",
+    "title": "Travel and health",
+    "level": "A2",
+    "tagline": "Trips and feeling well",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "passport",
+      "pos": "noun",
+      "meaning": "An official document that you show when you travel to another country.",
+      "examples": [
+        "Don’t forget your {passport} at the airport."
+      ],
+      "wrong": [
+        "A passport is a small bag that you eat from."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpæsˌpɔrt/"
+    },
+    {
+      "lemma": "luggage",
+      "pos": "noun",
+      "meaning": "The bags and cases that you take on a journey.",
+      "examples": [
+        "Our {luggage} was heavy, so we took a taxi."
+      ],
+      "wrong": [
+        "Luggage is a kind of fast train."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "baggage"
+      ],
+      "ipa": "/ˈlʌɡɪdʒ/"
+    },
+    {
+      "lemma": "journey",
+      "pos": "noun",
+      "meaning": "The act of traveling from one place to another.",
+      "examples": [
+        "The {journey} from Rome to Paris takes two hours by plane."
+      ],
+      "wrong": [
+        "A journey is a room where you keep clothes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trip",
+        "voyage"
+      ],
+      "ipa": "/ˈdʒɝni/"
+    },
+    {
+      "lemma": "flight",
+      "pos": "noun",
+      "meaning": "A journey in a plane.",
+      "examples": [
+        "Our {flight} to Lima leaves at noon."
+      ],
+      "wrong": [
+        "A flight is a ride on a bicycle through a forest."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/flaɪt/"
+    },
+    {
+      "lemma": "reservation",
+      "pos": "noun",
+      "meaning": "An arrangement to keep a table, room or seat for you.",
+      "examples": [
+        "I made a {reservation} for two at eight o’clock."
+      ],
+      "wrong": [
+        "A reservation is a bill that you pay after dinner."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "booking"
+      ],
+      "ipa": "/ˌrɛzɚˈveɪʃən/"
+    },
+    {
+      "lemma": "passenger",
+      "pos": "noun",
+      "meaning": "A person who travels in a vehicle but does not drive it.",
+      "examples": [
+        "Every {passenger} must wear a seat belt."
+      ],
+      "wrong": [
+        "A passenger is the person who drives the bus."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "traveler"
+      ],
+      "ipa": "/ˈpæsəndʒɚ/"
+    },
+    {
+      "lemma": "tourist",
+      "pos": "noun",
+      "meaning": "A person who visits a place for fun.",
+      "examples": [
+        "Many {tourists} visit the old castle in summer."
+      ],
+      "wrong": [
+        "A tourist is a person who lives in the same house all year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "visitor",
+        "sightseer"
+      ],
+      "ipa": "/ˈtʊrɪst/"
+    },
+    {
+      "lemma": "platform",
+      "pos": "noun",
+      "meaning": "The place at a station where you get on a train.",
+      "examples": [
+        "The train to Leeds leaves from {platform} four."
+      ],
+      "wrong": [
+        "A platform is a place in a bank where you keep money."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈplætˌfɔrm/"
+    },
+    {
+      "lemma": "route",
+      "pos": "noun",
+      "meaning": "The way you take to get from one place to another.",
+      "examples": [
+        "We took the shortest {route} to the beach."
+      ],
+      "wrong": [
+        "A route is a kind of fruit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "way",
+        "path"
+      ],
+      "ipa": "/rut/"
+    },
+    {
+      "lemma": "souvenir",
+      "pos": "noun",
+      "meaning": "Something you buy to remember a place you visited.",
+      "examples": [
+        "I bought a small {souvenir} in Venice."
+      ],
+      "wrong": [
+        "A souvenir is something you throw away at the airport."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "keepsake",
+        "memento"
+      ],
+      "ipa": "/ˌsuvəˈnɪr/"
+    },
+    {
+      "lemma": "border",
+      "pos": "noun",
+      "meaning": "The line between two countries.",
+      "examples": [
+        "We showed our passports at the {border}."
+      ],
+      "wrong": [
+        "A border is a kind of bed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "frontier",
+        "boundary"
+      ],
+      "ipa": "/ˈbɔrdɚ/"
+    },
+    {
+      "lemma": "customs",
+      "pos": "noun",
+      "meaning": "The place at an airport where officials check what you bring into a country.",
+      "examples": [
+        "We had to wait a long time at {customs}."
+      ],
+      "wrong": [
+        "Customs is the shop where you buy cheap food at an airport."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkʌstəmz/"
+    },
+    {
+      "lemma": "destination",
+      "pos": "noun",
+      "meaning": "The place where someone is going.",
+      "examples": [
+        "Our final {destination} is Tokyo."
+      ],
+      "wrong": [
+        "A destination is the place where a trip begins."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "goal"
+      ],
+      "ipa": "/ˌdɛstəˈneɪʃən/"
+    },
+    {
+      "lemma": "departure",
+      "pos": "noun",
+      "meaning": "The time when someone or something leaves a place.",
+      "examples": [
+        "The {departure} of the bus is at six."
+      ],
+      "wrong": [
+        "A departure is the time when a plane lands."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "leaving"
+      ],
+      "ipa": "/dɪˈpɑrtʃɚ/",
+      "antonyms": [
+        "arrival"
+      ]
+    },
+    {
+      "lemma": "arrival",
+      "pos": "noun",
+      "meaning": "The time when someone or something reaches a place.",
+      "examples": [
+        "The {arrival} of our train was late."
+      ],
+      "wrong": [
+        "An arrival is the time when you leave home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "coming"
+      ],
+      "ipa": "/əˈraɪvəl/",
+      "antonyms": [
+        "departure"
+      ]
+    },
+    {
+      "lemma": "headache",
+      "pos": "noun",
+      "meaning": "A pain in your head.",
+      "examples": [
+        "I have a bad {headache} today."
+      ],
+      "wrong": [
+        "A headache is a pain in your foot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɛdeɪk/"
+    },
+    {
+      "lemma": "medicine",
+      "pos": "noun",
+      "meaning": "Something you take to get well when you are ill.",
+      "examples": [
+        "Take this {medicine} twice a day."
+      ],
+      "wrong": [
+        "Medicine is a kind of cold drink you buy at a movie theater."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "medication",
+        "drug"
+      ],
+      "ipa": "/ˈmɛdəsən/"
+    },
+    {
+      "lemma": "fever",
+      "pos": "noun",
+      "meaning": "A high body temperature when you are ill.",
+      "examples": [
+        "The child has a {fever} and needs to rest."
+      ],
+      "wrong": [
+        "A fever is the feeling of being very cold with a low temperature."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfivɚ/"
+    },
+    {
+      "lemma": "cough",
+      "pos": "noun",
+      "meaning": "A sudden noise you make when air comes out of your throat.",
+      "examples": [
+        "I have a bad {cough} and a sore throat."
+      ],
+      "wrong": [
+        "A cough is a kind of soup."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɔf/"
+    },
+    {
+      "lemma": "pharmacy",
+      "pos": "noun",
+      "meaning": "A shop where you can buy medicine.",
+      "examples": [
+        "I bought some tablets at the {pharmacy}."
+      ],
+      "wrong": [
+        "A pharmacy is a shop that sells only clothes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "drugstore",
+        "chemist"
+      ],
+      "ipa": "/ˈfɑrməsi/"
+    },
+    {
+      "lemma": "ambulance",
+      "pos": "noun",
+      "meaning": "A vehicle that takes sick or hurt people to hospital.",
+      "examples": [
+        "Someone called an {ambulance} after the accident."
+      ],
+      "wrong": [
+        "An ambulance is a vehicle that carries luggage to the airport."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈæmbjələns/"
+    },
+    {
+      "lemma": "injury",
+      "pos": "noun",
+      "meaning": "Harm to a part of your body.",
+      "examples": [
+        "He had an {injury} to his knee."
+      ],
+      "wrong": [
+        "An injury is a feeling of great joy."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wound",
+        "harm"
+      ],
+      "ipa": "/ˈɪndʒəri/"
+    },
+    {
+      "lemma": "healthy",
+      "pos": "adjective",
+      "meaning": "In good condition; not ill.",
+      "examples": [
+        "Fruit and vegetables keep you {healthy}."
+      ],
+      "wrong": [
+        "Eating only sweets every day is a healthy way to live."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fit",
+        "well"
+      ],
+      "ipa": "/ˈhɛlθi/",
+      "antonyms": [
+        "unhealthy",
+        "ill"
+      ]
+    },
+    {
+      "lemma": "exercise",
+      "pos": "noun",
+      "meaning": "Physical activity that keeps your body strong.",
+      "examples": [
+        "Walking is good {exercise}."
+      ],
+      "wrong": [
+        "Exercise is the act of sitting still all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "workout",
+        "training"
+      ],
+      "ipa": "/ˈɛksɚsaɪz/"
+    },
+    {
+      "lemma": "dentist",
+      "pos": "noun",
+      "meaning": "A person who looks after your teeth.",
+      "examples": [
+        "I have an appointment with the {dentist} on Monday."
+      ],
+      "wrong": [
+        "A dentist is a doctor who treats only your eyes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdɛntɪst/"
+    },
+    {
+      "lemma": "allergy",
+      "pos": "noun",
+      "meaning": "A reaction of the body to something that does not bother most people.",
+      "examples": [
+        "She has an {allergy} to nuts."
+      ],
+      "wrong": [
+        "An allergy is a kind of exercise."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈælɚdʒi/"
+    },
+    {
+      "lemma": "pain",
+      "pos": "noun",
+      "meaning": "A bad feeling in your body when you are hurt.",
+      "examples": [
+        "I felt a sharp {pain} in my back."
+      ],
+      "wrong": [
+        "Pain is the feeling you have when you are very happy."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "ache",
+        "hurt"
+      ],
+      "ipa": "/peɪn/"
+    },
+    {
+      "lemma": "bandage",
+      "pos": "noun",
+      "meaning": "A piece of cloth you put around an injury.",
+      "examples": [
+        "The nurse put a {bandage} on my finger."
+      ],
+      "wrong": [
+        "A bandage is a kind of food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbændɪdʒ/"
+    },
+    {
+      "lemma": "recover",
+      "pos": "verb",
+      "meaning": "To become well again after being ill.",
+      "examples": [
+        "It took two weeks to {recover} from the flu."
+      ],
+      "wrong": [
+        "You recover when you become more ill."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "get better",
+        "heal"
+      ],
+      "ipa": "/rɪˈkʌvɚ/",
+      "antonyms": [
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "temperature",
+      "pos": "noun",
+      "meaning": "How hot or cold something is.",
+      "examples": [
+        "The doctor checked my {temperature}."
+      ],
+      "wrong": [
+        "Temperature is the sound that a clock makes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtɛmpərətʃɚ/"
+    },
+    {
+      "lemma": "nurse",
+      "pos": "noun",
+      "meaning": "A person who takes care of sick people in a hospital.",
+      "examples": [
+        "The {nurse} gave me my medicine."
+      ],
+      "wrong": [
+        "A nurse is a person who teaches children at school."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/nɝs/"
+    },
+    {
+      "lemma": "patient",
+      "pos": "noun",
+      "meaning": "A person who is getting treatment from a doctor.",
+      "examples": [
+        "The doctor saw ten {patients} this morning."
+      ],
+      "wrong": [
+        "A patient is someone who treats other people in a hospital."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sufferer"
+      ],
+      "ipa": "/ˈpeɪʃənt/"
+    },
+    {
+      "lemma": "stomach",
+      "pos": "noun",
+      "meaning": "The part of your body where food goes after you eat.",
+      "examples": [
+        "My {stomach} hurts after lunch."
+      ],
+      "wrong": [
+        "The stomach is the part of the body that you use to see."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "belly",
+        "tummy"
+      ],
+      "ipa": "/ˈstʌmək/"
+    },
+    {
+      "lemma": "dizzy",
+      "pos": "adjective",
+      "meaning": "Feeling that everything is moving around you.",
+      "examples": [
+        "I felt {dizzy} after I stood up quickly."
+      ],
+      "wrong": [
+        "I felt dizzy because I sat quietly and was feeling perfect."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "light-headed",
+        "giddy"
+      ],
+      "ipa": "/ˈdɪzi/"
+    },
+    {
+      "lemma": "suitcase",
+      "pos": "noun",
+      "meaning": "A large bag with a handle for carrying clothes on a journey.",
+      "examples": [
+        "She packed her {suitcase} the night before."
+      ],
+      "wrong": [
+        "A suitcase is a kind of cake."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "case",
+        "bag"
+      ],
+      "ipa": "/ˈsutkeɪs/"
+    },
+    {
+      "lemma": "taxi",
+      "pos": "noun",
+      "meaning": "A car with a driver that you pay to take you somewhere.",
+      "examples": [
+        "We took a {taxi} to the hotel."
+      ],
+      "wrong": [
+        "A taxi is a bus that always takes thirty people."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cab"
+      ],
+      "ipa": "/ˈtæksi/"
+    },
+    {
+      "lemma": "ferry",
+      "pos": "noun",
+      "meaning": "A boat that carries people and cars across water.",
+      "examples": [
+        "The {ferry} crosses the bay every hour."
+      ],
+      "wrong": [
+        "A ferry is a kind of plane."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɛri/"
+    },
+    {
+      "lemma": "ill",
+      "pos": "adjective",
+      "meaning": "Not well; sick.",
+      "examples": [
+        "I stayed home because I was {ill}."
+      ],
+      "wrong": [
+        "He was ill, so he ran a marathon and felt great."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sick",
+        "unwell"
+      ],
+      "ipa": "/ɪl/",
+      "antonyms": [
+        "well",
+        "healthy"
+      ]
+    },
+    {
+      "lemma": "weak",
+      "pos": "adjective",
+      "meaning": "Not strong.",
+      "examples": [
+        "After the flu, I felt {weak} for a week."
+      ],
+      "wrong": [
+        "He lifted a heavy box easily because he was very weak."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "feeble",
+        "frail"
+      ],
+      "ipa": "/wik/",
+      "antonyms": [
+        "strong"
+      ]
+    },
+    {
+      "lemma": "rest",
+      "pos": "verb",
+      "meaning": "To stop work or activity and relax.",
+      "examples": [
+        "You should {rest} when you are tired."
+      ],
+      "wrong": [
+        "You rest when you run fast without a break."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "relax"
+      ],
+      "ipa": "/rɛst/"
+    }
+  ]
+}

@@ -103,7 +103,7 @@ final class OnlinePracticeController {
                         expanded: requestedExpanded, hintsOnly: requestedHints)
                     self.attempt = try repository.completeCoaching(validated, requestID: request.id,
                         rubricVersion: "recorded-feedback-v1", token: sent)
-                    message = "Text coaching is ready. Pronunciation and acoustic fluency were not assessed."
+                    message = "Text coaching is ready."
                 }
                 activeRequest = nil; isBusy = false; task = nil
             } catch {

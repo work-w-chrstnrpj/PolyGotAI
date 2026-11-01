@@ -19,7 +19,6 @@ struct IntroductionActivityReview: View {
                             VStack(alignment: .leading, spacing: 8) {
                                 Text(dimension.title).font(.headline)
                                 ForEach(dimension.anchors, id: \.self) { Text($0).font(.callout) }
-                                Text("Not assessed: \(dimension.notAssessed)").font(.footnote).foregroundStyle(Kit.secondary)
                             }
                         }
                         Text(guide.independentCriterion).font(.footnote).foregroundStyle(Kit.secondary)

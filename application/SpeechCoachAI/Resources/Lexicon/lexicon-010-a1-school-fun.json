@@ -1,0 +1,636 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-school-fun",
+    "title": "School and fun",
+    "level": "A1",
+    "tagline": "Class, games and colors",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "class",
+      "pos": "noun",
+      "meaning": "A group of students who learn together.",
+      "examples": [
+        "There are twenty students in my {class}."
+      ],
+      "wrong": [
+        "A class is one person who studies alone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/klæs/"
+    },
+    {
+      "lemma": "classroom",
+      "pos": "noun",
+      "meaning": "A room where students have lessons.",
+      "examples": [
+        "Our {classroom} has a big window."
+      ],
+      "wrong": [
+        "We sleep in the classroom at night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈklæsˌrum/"
+    },
+    {
+      "lemma": "desk",
+      "pos": "noun",
+      "meaning": "A table you use for writing or working.",
+      "examples": [
+        "My books are on my {desk}."
+      ],
+      "wrong": [
+        "I wear a desk to school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɛsk/"
+    },
+    {
+      "lemma": "question",
+      "pos": "noun",
+      "meaning": "Something you ask to get an answer.",
+      "examples": [
+        "May I ask a {question}?"
+      ],
+      "wrong": [
+        "I asked a question, so I gave the answer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkwɛstʃən/",
+      "antonyms": [
+        "answer"
+      ]
+    },
+    {
+      "lemma": "word",
+      "pos": "noun",
+      "meaning": "A sound or letters that mean something.",
+      "examples": [
+        "What does this {word} mean?"
+      ],
+      "wrong": [
+        "A word is a kind of fish."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɝd/"
+    },
+    {
+      "lemma": "letter",
+      "pos": "noun",
+      "meaning": "A sign such as A, B or C; or a message on paper.",
+      "examples": [
+        "A is the first {letter}."
+      ],
+      "wrong": [
+        "A letter is a kind of fruit."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlɛtɚ/"
+    },
+    {
+      "lemma": "number",
+      "pos": "noun",
+      "meaning": "A word or sign such as one, two or 3.",
+      "examples": [
+        "Seven is my lucky {number}."
+      ],
+      "wrong": [
+        "Blue is my favorite number."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈnʌmbɚ/"
+    },
+    {
+      "lemma": "page",
+      "pos": "noun",
+      "meaning": "One side of a sheet of paper in a book.",
+      "examples": [
+        "Open your book at {page} ten."
+      ],
+      "wrong": [
+        "A page is a kind of soup."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/peɪdʒ/"
+    },
+    {
+      "lemma": "test",
+      "pos": "noun",
+      "meaning": "A set of questions to see what you know.",
+      "examples": [
+        "We have a math {test} on Friday."
+      ],
+      "wrong": [
+        "A test is a party with music."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "exam",
+        "quiz"
+      ],
+      "ipa": "/tɛst/"
+    },
+    {
+      "lemma": "teach",
+      "pos": "verb",
+      "meaning": "To help someone learn.",
+      "examples": [
+        "She {teaches} English at a school."
+      ],
+      "wrong": [
+        "I teach my teacher, so I learn from her."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "instruct"
+      ],
+      "ipa": "/titʃ/",
+      "antonyms": [
+        "learn"
+      ]
+    },
+    {
+      "lemma": "spell",
+      "pos": "verb",
+      "meaning": "To say or write the letters of a word in order.",
+      "examples": [
+        "How do you {spell} your name?"
+      ],
+      "wrong": [
+        "I spell a song by singing it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/spɛl/"
+    },
+    {
+      "lemma": "count",
+      "pos": "verb",
+      "meaning": "To say numbers in order.",
+      "examples": [
+        "Can you {count} to ten in French?"
+      ],
+      "wrong": [
+        "I count by saying letters A, B and C."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/kaʊnt/"
+    },
+    {
+      "lemma": "understand",
+      "pos": "verb",
+      "meaning": "To know what something means.",
+      "examples": [
+        "I don’t {understand} this word."
+      ],
+      "wrong": [
+        "I understand the question, so I have no idea what it means."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "get"
+      ],
+      "ipa": "/ˌʌndɚˈstænd/"
+    },
+    {
+      "lemma": "remember",
+      "pos": "verb",
+      "meaning": "To keep something in your mind.",
+      "examples": [
+        "I {remember} my first day at school."
+      ],
+      "wrong": [
+        "I remember his name, so I forgot it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "recall"
+      ],
+      "ipa": "/rɪˈmɛmbɚ/",
+      "antonyms": [
+        "forget"
+      ]
+    },
+    {
+      "lemma": "forget",
+      "pos": "verb",
+      "meaning": "Not to remember.",
+      "examples": [
+        "Don’t {forget} your homework."
+      ],
+      "wrong": [
+        "I forgot his name, so I said it clearly."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fɚˈɡɛt/",
+      "antonyms": [
+        "remember"
+      ]
+    },
+    {
+      "lemma": "game",
+      "pos": "noun",
+      "meaning": "An activity with rules that people play for fun.",
+      "examples": [
+        "Let’s play a {game}."
+      ],
+      "wrong": [
+        "A game is something you eat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡeɪm/"
+    },
+    {
+      "lemma": "sport",
+      "pos": "noun",
+      "meaning": "A game or activity like football or swimming.",
+      "examples": [
+        "Football is my favorite {sport}."
+      ],
+      "wrong": [
+        "A sport is a kind of chair."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/spɔrt/"
+    },
+    {
+      "lemma": "football",
+      "pos": "noun",
+      "meaning": "A game where two teams kick a ball into a goal.",
+      "examples": [
+        "They play {football} after school."
+      ],
+      "wrong": [
+        "In football you throw the ball with a racket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "soccer"
+      ],
+      "ipa": "/ˈfʊtˌbɔl/"
+    },
+    {
+      "lemma": "ball",
+      "pos": "noun",
+      "meaning": "A round thing that you throw, kick or hit in games.",
+      "examples": [
+        "Kick the {ball} to me!"
+      ],
+      "wrong": [
+        "A ball is square like a box."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɔl/"
+    },
+    {
+      "lemma": "music",
+      "pos": "noun",
+      "meaning": "Sounds made by voices or instruments in a nice way.",
+      "examples": [
+        "I listen to {music} every day."
+      ],
+      "wrong": [
+        "I eat music for breakfast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmjuzɪk/"
+    },
+    {
+      "lemma": "song",
+      "pos": "noun",
+      "meaning": "A short piece of music with words.",
+      "examples": [
+        "This is my favorite {song}."
+      ],
+      "wrong": [
+        "A song is a picture that you draw."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tune"
+      ],
+      "ipa": "/sɔŋ/"
+    },
+    {
+      "lemma": "film",
+      "pos": "noun",
+      "meaning": "A story shown with moving pictures.",
+      "examples": [
+        "Let’s watch a {film} tonight."
+      ],
+      "wrong": [
+        "A film is a kind of food."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "movie"
+      ],
+      "ipa": "/fɪlm/"
+    },
+    {
+      "lemma": "party",
+      "pos": "noun",
+      "meaning": "A meeting of friends to eat, drink and have fun.",
+      "examples": [
+        "We’re having a {party} on Saturday."
+      ],
+      "wrong": [
+        "A party is a quiet place where people work alone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "celebration"
+      ],
+      "ipa": "/ˈpɑrti/"
+    },
+    {
+      "lemma": "fun",
+      "pos": "noun",
+      "meaning": "Enjoyment; a good time.",
+      "examples": [
+        "The trip was a lot of {fun}."
+      ],
+      "wrong": [
+        "We had fun, so we were bored all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "enjoyment"
+      ],
+      "ipa": "/fʌn/"
+    },
+    {
+      "lemma": "hobby",
+      "pos": "noun",
+      "meaning": "Something you like to do in your free time.",
+      "examples": [
+        "My {hobby} is painting."
+      ],
+      "wrong": [
+        "My hobby is the job I do for money every day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pastime"
+      ],
+      "ipa": "/ˈhɑbi/"
+    },
+    {
+      "lemma": "picnic",
+      "pos": "noun",
+      "meaning": "A meal you eat outside, often in a park.",
+      "examples": [
+        "We had a {picnic} by the lake."
+      ],
+      "wrong": [
+        "We had a picnic in the bathroom."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɪknɪk/"
+    },
+    {
+      "lemma": "guitar",
+      "pos": "noun",
+      "meaning": "A musical instrument with strings that you play with your fingers.",
+      "examples": [
+        "He plays the {guitar} in a band."
+      ],
+      "wrong": [
+        "I play the guitar by kicking it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɪˈtɑr/"
+    },
+    {
+      "lemma": "piano",
+      "pos": "noun",
+      "meaning": "A large musical instrument with black and white keys.",
+      "examples": [
+        "She plays the {piano} very well."
+      ],
+      "wrong": [
+        "A piano is a small animal."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/piˈænoʊ/"
+    },
+    {
+      "lemma": "paint",
+      "pos": "verb",
+      "meaning": "To make a picture with colors and a brush.",
+      "examples": [
+        "She likes to {paint} flowers."
+      ],
+      "wrong": [
+        "I paint a picture with my ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/peɪnt/"
+    },
+    {
+      "lemma": "camera",
+      "pos": "noun",
+      "meaning": "A machine for taking photos.",
+      "examples": [
+        "I took my {camera} on holiday."
+      ],
+      "wrong": [
+        "I take photos with a spoon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkæmərə/"
+    },
+    {
+      "lemma": "color",
+      "pos": "noun",
+      "meaning": "Red, blue, green and so on.",
+      "examples": [
+        "What {color} is your car?"
+      ],
+      "wrong": [
+        "My favorite color is Tuesday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkʌlɚ/"
+    },
+    {
+      "lemma": "red",
+      "pos": "adjective",
+      "meaning": "Having the color of blood or a tomato.",
+      "examples": [
+        "She has a {red} bike."
+      ],
+      "wrong": [
+        "The sky is red at noon on a sunny day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/rɛd/"
+    },
+    {
+      "lemma": "blue",
+      "pos": "adjective",
+      "meaning": "Having the color of the sky on a sunny day.",
+      "examples": [
+        "The sea is {blue} today."
+      ],
+      "wrong": [
+        "Bananas are blue."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/blu/"
+    },
+    {
+      "lemma": "green",
+      "pos": "adjective",
+      "meaning": "Having the color of grass.",
+      "examples": [
+        "The leaves are {green} in summer."
+      ],
+      "wrong": [
+        "Snow is green."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡrin/"
+    },
+    {
+      "lemma": "black",
+      "pos": "adjective",
+      "meaning": "Having the darkest color, like the night.",
+      "examples": [
+        "He has {black} hair."
+      ],
+      "wrong": [
+        "Milk is black."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/blæk/",
+      "antonyms": [
+        "white"
+      ]
+    },
+    {
+      "lemma": "white",
+      "pos": "adjective",
+      "meaning": "Having the color of snow or milk.",
+      "examples": [
+        "She wore a {white} dress."
+      ],
+      "wrong": [
+        "Coal is white."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/waɪt/",
+      "antonyms": [
+        "black"
+      ]
+    },
+    {
+      "lemma": "win",
+      "pos": "verb",
+      "meaning": "To be the best in a game or race.",
+      "examples": [
+        "Our team {won} the match."
+      ],
+      "wrong": [
+        "We won because we got the fewest points."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɪn/",
+      "antonyms": [
+        "lose"
+      ]
+    },
+    {
+      "lemma": "climb",
+      "pos": "verb",
+      "meaning": "To go up something using your hands and feet.",
+      "examples": [
+        "The children {climb} the tree."
+      ],
+      "wrong": [
+        "I climb down to the top of the hill."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/klaɪm/"
+    },
+    {
+      "lemma": "jump",
+      "pos": "verb",
+      "meaning": "To push yourself up into the air with your legs.",
+      "examples": [
+        "The cat can {jump} very high."
+      ],
+      "wrong": [
+        "I jump by lying on the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "leap"
+      ],
+      "ipa": "/dʒʌmp/"
+    },
+    {
+      "lemma": "laugh",
+      "pos": "verb",
+      "meaning": "To make sounds because something is funny.",
+      "examples": [
+        "The joke made us {laugh}."
+      ],
+      "wrong": [
+        "I laugh when I am very sad and crying."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "giggle"
+      ],
+      "ipa": "/læf/",
+      "antonyms": [
+        "cry"
+      ]
+    }
+  ]
+}

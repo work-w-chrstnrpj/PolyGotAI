@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-useful-verbs",
+    "title": "Useful verbs",
+    "level": "A2",
+    "tagline": "Actions you need every day",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "agree",
+      "pos": "verb",
+      "meaning": "To have the same opinion as someone.",
+      "examples": [
+        "I {agree} with you."
+      ],
+      "wrong": [
+        "I agree with you, so I think you are wrong."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "concur"
+      ],
+      "ipa": "/əˈɡri/",
+      "antonyms": [
+        "disagree"
+      ]
+    },
+    {
+      "lemma": "decide",
+      "pos": "verb",
+      "meaning": "To choose after thinking.",
+      "examples": [
+        "I {decided} to stay at home."
+      ],
+      "wrong": [
+        "I decided, so I still don’t know what to do."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "choose"
+      ],
+      "ipa": "/dɪˈsaɪd/"
+    },
+    {
+      "lemma": "choose",
+      "pos": "verb",
+      "meaning": "To pick one thing from many.",
+      "examples": [
+        "{Choose} a card."
+      ],
+      "wrong": [
+        "I chose the red one, so I took all of them."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pick",
+        "select"
+      ],
+      "ipa": "/tʃuz/"
+    },
+    {
+      "lemma": "explain",
+      "pos": "verb",
+      "meaning": "To make something clear so people understand.",
+      "examples": [
+        "Can you {explain} this word?"
+      ],
+      "wrong": [
+        "She explained it, so nobody understood."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "clarify"
+      ],
+      "ipa": "/ɪkˈspleɪn/"
+    },
+    {
+      "lemma": "describe",
+      "pos": "verb",
+      "meaning": "To say what someone or something is like.",
+      "examples": [
+        "{Describe} your house to me."
+      ],
+      "wrong": [
+        "I described the room by saying nothing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪˈskraɪb/"
+    },
+    {
+      "lemma": "believe",
+      "pos": "verb",
+      "meaning": "To think that something is true.",
+      "examples": [
+        "I {believe} you."
+      ],
+      "wrong": [
+        "I believe him, so I think he is lying."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɪˈliv/",
+      "antonyms": [
+        "doubt",
+        "disbelieve"
+      ]
+    },
+    {
+      "lemma": "hope",
+      "pos": "verb",
+      "meaning": "To want something to happen.",
+      "examples": [
+        "I {hope} it doesn’t rain."
+      ],
+      "wrong": [
+        "I hope I lose, so I want to win."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wish"
+      ],
+      "ipa": "/hoʊp/"
+    },
+    {
+      "lemma": "need",
+      "pos": "verb",
+      "meaning": "To must have something.",
+      "examples": [
+        "I {need} a new pen."
+      ],
+      "wrong": [
+        "I need water, so I don’t want any."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "require"
+      ],
+      "ipa": "/nid/"
+    },
+    {
+      "lemma": "prefer",
+      "pos": "verb",
+      "meaning": "To like one thing more than another.",
+      "examples": [
+        "I {prefer} tea to coffee."
+      ],
+      "wrong": [
+        "I prefer tea, so I like coffee more."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/prɪˈfɝ/"
+    },
+    {
+      "lemma": "worry",
+      "pos": "verb",
+      "meaning": "To keep thinking about problems.",
+      "examples": [
+        "Don’t {worry}; everything is fine."
+      ],
+      "wrong": [
+        "I worry, so I am totally relaxed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɝi/"
+    },
+    {
+      "lemma": "wonder",
+      "pos": "verb",
+      "meaning": "To want to know something.",
+      "examples": [
+        "I {wonder} what time it is."
+      ],
+      "wrong": [
+        "I wonder where he is, because I know exactly."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwʌndɚ/"
+    },
+    {
+      "lemma": "guess",
+      "pos": "verb",
+      "meaning": "To give an answer without knowing for sure.",
+      "examples": [
+        "{Guess} how old I am."
+      ],
+      "wrong": [
+        "I guessed the answer because I knew it for sure."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɡɛs/"
+    },
+    {
+      "lemma": "mean",
+      "pos": "verb",
+      "meaning": "To have a certain meaning.",
+      "examples": [
+        "What does this word {mean}?"
+      ],
+      "wrong": [
+        "The word means nothing, so it has a clear meaning."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/min/"
+    },
+    {
+      "lemma": "happen",
+      "pos": "verb",
+      "meaning": "To take place.",
+      "examples": [
+        "What {happened} at school?"
+      ],
+      "wrong": [
+        "Nothing happened, so it was a very busy day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "occur"
+      ],
+      "ipa": "/ˈhæpən/"
+    },
+    {
+      "lemma": "change",
+      "pos": "verb",
+      "meaning": "To become different or make something different.",
+      "examples": [
+        "The town has {changed} a lot."
+      ],
+      "wrong": [
+        "It changed, so it stayed exactly the same."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃeɪndʒ/"
+    },
+    {
+      "lemma": "become",
+      "pos": "verb",
+      "meaning": "To begin to be.",
+      "examples": [
+        "She wants to {become} a doctor."
+      ],
+      "wrong": [
+        "He became a teacher, so he is not a teacher."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɪˈkʌm/"
+    },
+    {
+      "lemma": "keep",
+      "pos": "verb",
+      "meaning": "To have something and not give it away.",
+      "examples": [
+        "You can {keep} the book."
+      ],
+      "wrong": [
+        "I keep the pen, so I give it back."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kip/",
+      "antonyms": [
+        "give away",
+        "lose"
+      ]
+    },
+    {
+      "lemma": "hold",
+      "pos": "verb",
+      "meaning": "To have something in your hands.",
+      "examples": [
+        "{Hold} my bag, please."
+      ],
+      "wrong": [
+        "I hold the cup by dropping it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/hoʊld/",
+      "antonyms": [
+        "let go"
+      ]
+    },
+    {
+      "lemma": "follow",
+      "pos": "verb",
+      "meaning": "To go after someone or something.",
+      "examples": [
+        "{Follow} me; I know the way."
+      ],
+      "wrong": [
+        "Follow me means walk in front of me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɑloʊ/",
+      "antonyms": [
+        "lead"
+      ]
+    },
+    {
+      "lemma": "bring",
+      "pos": "verb",
+      "meaning": "To come with something.",
+      "examples": [
+        "{Bring} a drink to the party."
+      ],
+      "wrong": [
+        "I brought the cake, so I left it at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/brɪŋ/",
+      "antonyms": [
+        "take"
+      ]
+    },
+    {
+      "lemma": "check",
+      "pos": "verb",
+      "meaning": "To look at something to see that it is right.",
+      "examples": [
+        "Please {check} your answers."
+      ],
+      "wrong": [
+        "I checked my work, so I never looked at it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃɛk/"
+    },
+    {
+      "lemma": "build",
+      "pos": "verb",
+      "meaning": "To make a house or other structure.",
+      "examples": [
+        "They are {building} a new school."
+      ],
+      "wrong": [
+        "They built the bridge by breaking it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "construct"
+      ],
+      "ipa": "/bɪld/",
+      "antonyms": [
+        "destroy",
+        "demolish"
+      ]
+    },
+    {
+      "lemma": "break",
+      "pos": "verb",
+      "meaning": "To make something go into pieces.",
+      "examples": [
+        "Be careful not to {break} the glass."
+      ],
+      "wrong": [
+        "I broke the plate, so it is still perfect."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "smash"
+      ],
+      "ipa": "/breɪk/",
+      "antonyms": [
+        "fix",
+        "repair"
+      ]
+    },
+    {
+      "lemma": "drop",
+      "pos": "verb",
+      "meaning": "To let something fall.",
+      "examples": [
+        "Don’t {drop} the eggs!"
+      ],
+      "wrong": [
+        "I dropped the cup, so it stayed in my hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/drɑp/",
+      "antonyms": [
+        "pick up"
+      ]
+    },
+    {
+      "lemma": "fill",
+      "pos": "verb",
+      "meaning": "To make something full.",
+      "examples": [
+        "{Fill} the glass with water."
+      ],
+      "wrong": [
+        "I filled the box, so it was empty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fɪl/",
+      "antonyms": [
+        "empty"
+      ]
+    },
+    {
+      "lemma": "hide",
+      "pos": "verb",
+      "meaning": "To put something where people can’t see it.",
+      "examples": [
+        "The cat {hides} under the bed."
+      ],
+      "wrong": [
+        "I hid the gift on the table for everyone to see."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/haɪd/",
+      "antonyms": [
+        "show",
+        "reveal"
+      ]
+    },
+    {
+      "lemma": "catch",
+      "pos": "verb",
+      "meaning": "To take hold of something that is moving.",
+      "examples": [
+        "{Catch} the ball!"
+      ],
+      "wrong": [
+        "I caught the ball, so it fell on the ground."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kætʃ/",
+      "antonyms": [
+        "throw",
+        "drop"
+      ]
+    },
+    {
+      "lemma": "throw",
+      "pos": "verb",
+      "meaning": "To send something through the air with your hand.",
+      "examples": [
+        "{Throw} the ball to me."
+      ],
+      "wrong": [
+        "I throw the ball by holding it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "toss"
+      ],
+      "ipa": "/θroʊ/",
+      "antonyms": [
+        "catch"
+      ]
+    },
+    {
+      "lemma": "pull",
+      "pos": "verb",
+      "meaning": "To move something toward you.",
+      "examples": [
+        "{Pull} the door to open it."
+      ],
+      "wrong": [
+        "I pulled the box away from me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pʊl/",
+      "antonyms": [
+        "push"
+      ]
+    },
+    {
+      "lemma": "push",
+      "pos": "verb",
+      "meaning": "To move something away from you.",
+      "examples": [
+        "{Push} the button to start."
+      ],
+      "wrong": [
+        "I pushed the door toward me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/pʊʃ/",
+      "antonyms": [
+        "pull"
+      ]
+    },
+    {
+      "lemma": "turn",
+      "pos": "verb",
+      "meaning": "To move around, or to change direction.",
+      "examples": [
+        "{Turn} left at the bank."
+      ],
+      "wrong": [
+        "Turn left means go straight on."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tɝn/"
+    },
+    {
+      "lemma": "touch",
+      "pos": "verb",
+      "meaning": "To put your hand on something.",
+      "examples": [
+        "Don’t {touch} the hot pan."
+      ],
+      "wrong": [
+        "I touched it without any part of my body."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʌtʃ/"
+    },
+    {
+      "lemma": "smell",
+      "pos": "verb",
+      "meaning": "To notice something with your nose.",
+      "examples": [
+        "I can {smell} coffee."
+      ],
+      "wrong": [
+        "I smell the music."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/smɛl/"
+    },
+    {
+      "lemma": "feel",
+      "pos": "verb",
+      "meaning": "To have a feeling in your body or mind.",
+      "examples": [
+        "I {feel} tired today."
+      ],
+      "wrong": [
+        "I feel cold, so I’ll take off my coat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fil/"
+    },
+    {
+      "lemma": "invite",
+      "pos": "verb",
+      "meaning": "To ask someone to come to an event.",
+      "examples": [
+        "I {invited} ten friends to my party."
+      ],
+      "wrong": [
+        "I invited him, so I asked him not to come."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪnˈvaɪt/"
+    },
+    {
+      "lemma": "offer",
+      "pos": "verb",
+      "meaning": "To ask if someone would like something.",
+      "examples": [
+        "She {offered} me a cup of tea."
+      ],
+      "wrong": [
+        "He offered me a seat, so he didn’t let me sit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɔfɚ/"
+    },
+    {
+      "lemma": "practice",
+      "pos": "verb",
+      "meaning": "To do something again and again to get better.",
+      "examples": [
+        "I {practice} the piano every day."
+      ],
+      "wrong": [
+        "I practice a lot, so I never do it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rehearse"
+      ],
+      "ipa": "/ˈpræktɪs/"
+    },
+    {
+      "lemma": "travel",
+      "pos": "verb",
+      "meaning": "To go from one place to another, often far.",
+      "examples": [
+        "I love to {travel} by train."
+      ],
+      "wrong": [
+        "I traveled around the world in my bed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "journey"
+      ],
+      "ipa": "/ˈtrævəl/"
+    },
+    {
+      "lemma": "improve",
+      "pos": "verb",
+      "meaning": "To get better, or make something better.",
+      "examples": [
+        "My English has {improved} a lot."
+      ],
+      "wrong": [
+        "My cooking improved, so it got worse."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "get better"
+      ],
+      "ipa": "/ɪmˈpruv/",
+      "antonyms": [
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "allow",
+      "pos": "verb",
+      "meaning": "To let someone do something.",
+      "examples": [
+        "My parents {allow} me to stay up late."
+      ],
+      "wrong": [
+        "They allowed me to go, so I couldn’t go."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "let",
+        "permit"
+      ],
+      "ipa": "/əˈlaʊ/",
+      "antonyms": [
+        "forbid",
+        "prevent"
+      ]
+    }
+  ]
+}

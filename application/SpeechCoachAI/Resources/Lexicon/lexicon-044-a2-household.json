@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-household",
+    "title": "Housework",
+    "level": "A2",
+    "tagline": "Cleaning, cooking and fixing",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "vacuum cleaner",
+      "pos": "noun",
+      "meaning": "An electric machine that sucks dust and dirt off floors and carpets.",
+      "examples": [
+        "I use the {vacuum cleaner} on the carpet every Saturday."
+      ],
+      "wrong": [
+        "She washed the plates in the vacuum cleaner."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "vacuum"
+      ],
+      "ipa": "/ˈvækjum ˌklinɚ/"
+    },
+    {
+      "lemma": "sink",
+      "pos": "noun",
+      "meaning": "The bowl in a kitchen or bathroom with taps, where you wash things.",
+      "examples": [
+        "Put the dirty cups in the {sink}."
+      ],
+      "wrong": [
+        "We keep the sink in the garden next to the trees."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "basin"
+      ],
+      "ipa": "/sɪŋk/"
+    },
+    {
+      "lemma": "trash can",
+      "pos": "noun",
+      "meaning": "A container where you put things you throw away.",
+      "examples": [
+        "Throw the paper in the {trash can}."
+      ],
+      "wrong": [
+        "I keep my clean clothes in the trash can."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "garbage can",
+        "bin"
+      ],
+      "ipa": "/ˈtræʃ ˌkæn/"
+    },
+    {
+      "lemma": "bucket",
+      "pos": "noun",
+      "meaning": "An open round container with a handle for carrying water.",
+      "examples": [
+        "Fill the {bucket} with warm water and soap."
+      ],
+      "wrong": [
+        "The bucket has a lid and no handle, so you carry it in your pocket."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pail"
+      ],
+      "ipa": "/ˈbʌkɪt/"
+    },
+    {
+      "lemma": "sponge",
+      "pos": "noun",
+      "meaning": "A soft thing full of small holes that takes in water, used for washing.",
+      "examples": [
+        "Wipe the table with a wet {sponge}."
+      ],
+      "wrong": [
+        "The sponge was so hard that it broke the window."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/spʌndʒ/"
+    },
+    {
+      "lemma": "polish",
+      "pos": "verb",
+      "meaning": "To rub something so that it becomes clean and shiny.",
+      "examples": [
+        "Dad {polished} his shoes before the party."
+      ],
+      "wrong": [
+        "She polished the table until it was dull and dirty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shine",
+        "buff"
+      ],
+      "ipa": "/ˈpɑlɪʃ/"
+    },
+    {
+      "lemma": "hammer",
+      "pos": "noun",
+      "meaning": "A tool with a heavy metal head used for hitting nails.",
+      "examples": [
+        "Pass me the {hammer} so I can put up this picture."
+      ],
+      "wrong": [
+        "He cut the bread with a hammer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhæmɚ/"
+    },
+    {
+      "lemma": "nail",
+      "pos": "noun",
+      "meaning": "A thin pointed piece of metal you hit into wood to hold things.",
+      "examples": [
+        "I hung the clock on a {nail} in the wall."
+      ],
+      "wrong": [
+        "The nail is soft and made of paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tack"
+      ],
+      "ipa": "/neɪl/"
+    },
+    {
+      "lemma": "screwdriver",
+      "pos": "noun",
+      "meaning": "A tool for turning screws to put them in or take them out.",
+      "examples": [
+        "Use a {screwdriver} to open the back of the radio."
+      ],
+      "wrong": [
+        "She stirred her soup with a screwdriver."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskruˌdraɪvɚ/"
+    },
+    {
+      "lemma": "ladder",
+      "pos": "noun",
+      "meaning": "Two long pieces joined by steps, used to climb up high.",
+      "examples": [
+        "He climbed the {ladder} to clean the windows."
+      ],
+      "wrong": [
+        "We used the ladder to go down into the bath."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "steps"
+      ],
+      "ipa": "/ˈlædɚ/"
+    },
+    {
+      "lemma": "tool",
+      "pos": "noun",
+      "meaning": "A thing you hold in your hand to help you make or fix something.",
+      "examples": [
+        "My uncle keeps every {tool} in a red box."
+      ],
+      "wrong": [
+        "A tool is something you eat for breakfast."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "instrument"
+      ],
+      "ipa": "/tul/"
+    },
+    {
+      "lemma": "light bulb",
+      "pos": "noun",
+      "meaning": "The glass part of a lamp that gives light.",
+      "examples": [
+        "The kitchen is dark because the {light bulb} is broken."
+      ],
+      "wrong": [
+        "I changed the light bulb, so now the room has no light."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bulb"
+      ],
+      "ipa": "/ˈlaɪt ˌbʌlb/"
+    },
+    {
+      "lemma": "microwave",
+      "pos": "noun",
+      "meaning": "A small oven that heats food very quickly.",
+      "examples": [
+        "Heat the soup in the {microwave} for two minutes."
+      ],
+      "wrong": [
+        "I keep the ice cream frozen in the microwave."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmaɪkroʊˌweɪv/"
+    },
+    {
+      "lemma": "stove",
+      "pos": "noun",
+      "meaning": "The kitchen machine with places on top for cooking food in pans.",
+      "examples": [
+        "The pasta is boiling on the {stove}."
+      ],
+      "wrong": [
+        "We sleep on the stove because it is soft."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cooker",
+        "range"
+      ],
+      "ipa": "/stoʊv/"
+    },
+    {
+      "lemma": "kettle",
+      "pos": "noun",
+      "meaning": "A pot with a spout and handle for boiling water.",
+      "examples": [
+        "Put the {kettle} on and I’ll make some tea."
+      ],
+      "wrong": [
+        "She used the kettle to keep the milk cold."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɛtəl/"
+    },
+    {
+      "lemma": "frying pan",
+      "pos": "noun",
+      "meaning": "A flat metal pan with a long handle, used for cooking eggs and meat.",
+      "examples": [
+        "He cooked two eggs in the {frying pan}."
+      ],
+      "wrong": [
+        "I drank my coffee from the frying pan."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "skillet"
+      ],
+      "ipa": "/ˈfraɪɪŋ ˌpæn/"
+    },
+    {
+      "lemma": "saucepan",
+      "pos": "noun",
+      "meaning": "A deep round metal pot with a handle, used for cooking on top of a stove.",
+      "examples": [
+        "Boil the rice in a small {saucepan}."
+      ],
+      "wrong": [
+        "The saucepan is a flat plate for serving cake."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pot"
+      ],
+      "ipa": "/ˈsɔsˌpæn/"
+    },
+    {
+      "lemma": "toaster",
+      "pos": "noun",
+      "meaning": "A small electric machine that makes bread brown and hot.",
+      "examples": [
+        "Put two slices of bread in the {toaster}."
+      ],
+      "wrong": [
+        "The toaster keeps bread cold and fresh."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtoʊstɚ/"
+    },
+    {
+      "lemma": "freezer",
+      "pos": "noun",
+      "meaning": "A very cold box or part of a fridge that keeps food frozen.",
+      "examples": [
+        "There is ice cream in the {freezer}."
+      ],
+      "wrong": [
+        "Put the bread in the freezer to make it warm."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfrizɚ/"
+    },
+    {
+      "lemma": "cutting board",
+      "pos": "noun",
+      "meaning": "A flat piece of wood or plastic you cut food on.",
+      "examples": [
+        "Chop the onions on the {cutting board}."
+      ],
+      "wrong": [
+        "We hung the cutting board on the wall as a mirror."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "chopping board"
+      ],
+      "ipa": "/ˈkʌtɪŋ ˌbɔrd/"
+    },
+    {
+      "lemma": "apron",
+      "pos": "noun",
+      "meaning": "A piece of cloth you wear over your clothes to keep them clean when cooking.",
+      "examples": [
+        "Wear an {apron} so you don’t get sauce on your shirt."
+      ],
+      "wrong": [
+        "He wore an apron so his clothes got dirty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈeɪprən/"
+    },
+    {
+      "lemma": "tray",
+      "pos": "noun",
+      "meaning": "A flat board with low edges for carrying food and drinks.",
+      "examples": [
+        "She brought the cups in on a {tray}."
+      ],
+      "wrong": [
+        "He carried the soup on a tray with holes in it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/treɪ/"
+    },
+    {
+      "lemma": "slice",
+      "pos": "verb",
+      "meaning": "To cut something into thin flat pieces.",
+      "examples": [
+        "Can you {slice} the tomatoes for the salad?"
+      ],
+      "wrong": [
+        "She sliced the bread into one big round ball."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "cut"
+      ],
+      "ipa": "/slaɪs/"
+    },
+    {
+      "lemma": "stain",
+      "pos": "noun",
+      "meaning": "A dirty mark that is hard to remove.",
+      "examples": [
+        "There’s a coffee {stain} on my white shirt."
+      ],
+      "wrong": [
+        "The stain made the shirt look cleaner than before."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "mark",
+        "spot"
+      ],
+      "ipa": "/steɪn/"
+    },
+    {
+      "lemma": "drill",
+      "pos": "noun",
+      "meaning": "A tool that turns fast to make holes in walls or wood.",
+      "examples": [
+        "Use the {drill} to make a hole for the shelf."
+      ],
+      "wrong": [
+        "He used a drill to fill the holes in the wall."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/drɪl/"
+    },
+    {
+      "lemma": "drip",
+      "pos": "verb",
+      "meaning": "When a liquid falls in small drops.",
+      "examples": [
+        "Water {drips} from the old kitchen tap all night."
+      ],
+      "wrong": [
+        "The tap dripped so much that the sink stayed completely dry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "leak",
+        "trickle"
+      ],
+      "ipa": "/drɪp/"
+    },
+    {
+      "lemma": "leaky",
+      "pos": "adjective",
+      "meaning": "Letting water or air get out through a small hole.",
+      "examples": [
+        "The {leaky} tap drips all night."
+      ],
+      "wrong": [
+        "The roof is leaky, so the room stays dry in the rain."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dripping"
+      ],
+      "ipa": "/ˈliki/",
+      "antonyms": [
+        "watertight"
+      ]
+    },
+    {
+      "lemma": "neat",
+      "pos": "adjective",
+      "meaning": "Clean and in good order.",
+      "examples": [
+        "Her room is always very {neat}."
+      ],
+      "wrong": [
+        "His desk was neat, with papers and food all over it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tidy",
+        "orderly"
+      ],
+      "ipa": "/nit/",
+      "antonyms": [
+        "messy",
+        "untidy"
+      ]
+    },
+    {
+      "lemma": "screw",
+      "pos": "noun",
+      "meaning": "A thin metal pin with a twisting edge that you turn into wood.",
+      "examples": [
+        "Tighten the {screw} so the shelf doesn’t fall."
+      ],
+      "wrong": [
+        "He ate the screw with a spoon."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/skru/"
+    },
+    {
+      "lemma": "do the dishes",
+      "pos": "phrase",
+      "meaning": "To wash the plates, cups and pans after a meal.",
+      "examples": [
+        "You cooked, so I’ll {do the dishes}."
+      ],
+      "wrong": [
+        "He did the dishes, so the plates are still dirty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wash up"
+      ],
+      "ipa": "/ˈdu ðə ˈdɪʃɪz/"
+    },
+    {
+      "lemma": "take out the trash",
+      "pos": "phrase",
+      "meaning": "To carry the bags of rubbish outside to the bins.",
+      "examples": [
+        "Please {take out the trash} before it smells."
+      ],
+      "wrong": [
+        "He took out the trash and put it back under the sink."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈteɪk ˈaʊt ðə ˈtræʃ/"
+    },
+    {
+      "lemma": "do the laundry",
+      "pos": "phrase",
+      "meaning": "To wash dirty clothes, sheets and towels.",
+      "examples": [
+        "I {do the laundry} on Sunday afternoons."
+      ],
+      "wrong": [
+        "She did the laundry, so all her clothes are dirty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wash clothes"
+      ],
+      "ipa": "/ˈdu ðə ˈlɔndri/"
+    },
+    {
+      "lemma": "ironing",
+      "pos": "noun",
+      "meaning": "The job of making clothes smooth with a hot iron.",
+      "examples": [
+        "There is a big pile of {ironing} on the chair."
+      ],
+      "wrong": [
+        "Ironing makes your shirts full of lines."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈaɪɚnɪŋ/"
+    },
+    {
+      "lemma": "put away",
+      "pos": "verb",
+      "meaning": "To put something back in the place where it is kept.",
+      "examples": [
+        "{Put away} your toys before dinner."
+      ],
+      "wrong": [
+        "He put away the plates by leaving them on the floor."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tidy away",
+        "store"
+      ],
+      "ipa": "/ˈpʊt əˈweɪ/"
+    },
+    {
+      "lemma": "oven mitt",
+      "pos": "noun",
+      "meaning": "A thick glove you wear to hold hot pans.",
+      "examples": [
+        "Use an {oven mitt} to take the tray out."
+      ],
+      "wrong": [
+        "I wore an oven mitt to keep my hands cold in the snow."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "oven glove",
+        "pot holder"
+      ],
+      "ipa": "/ˈʌvən ˌmɪt/"
+    },
+    {
+      "lemma": "dustpan",
+      "pos": "noun",
+      "meaning": "A flat container you sweep dirt into from the floor.",
+      "examples": [
+        "Sweep the crumbs into the {dustpan}."
+      ],
+      "wrong": [
+        "He drank water from the dustpan."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdʌstˌpæn/"
+    },
+    {
+      "lemma": "cloth",
+      "pos": "noun",
+      "meaning": "A piece of soft material for cleaning or drying things.",
+      "examples": [
+        "Wipe the table with a damp {cloth}."
+      ],
+      "wrong": [
+        "The cloth is made of hard metal."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rag"
+      ],
+      "ipa": "/klɔθ/"
+    },
+    {
+      "lemma": "bleach",
+      "pos": "noun",
+      "meaning": "A strong chemical liquid used to clean and make things white.",
+      "examples": [
+        "She cleans the toilet with {bleach}."
+      ],
+      "wrong": [
+        "Bleach is safe to drink with your lunch."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/blitʃ/"
+    },
+    {
+      "lemma": "rubber gloves",
+      "pos": "noun",
+      "meaning": "Gloves that keep your hands dry when you wash or clean.",
+      "examples": [
+        "Put on {rubber gloves} before you clean the bathroom."
+      ],
+      "wrong": [
+        "She wore rubber gloves to get her hands wet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈrʌbɚ ˈɡlʌvz/"
+    },
+    {
+      "lemma": "dish soap",
+      "pos": "noun",
+      "meaning": "A liquid you add to water to wash plates and pans.",
+      "examples": [
+        "Add a little {dish soap} to the hot water."
+      ],
+      "wrong": [
+        "She washed her hair with dish soap and a hammer."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dishwashing liquid"
+      ],
+      "ipa": "/ˈdɪʃ ˌsoʊp/"
+    }
+  ]
+}

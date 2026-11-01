@@ -1,0 +1,834 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-character",
+    "title": "Character and behavior",
+    "level": "B2",
+    "tagline": "What people are like",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "arrogant",
+      "pos": "adjective",
+      "meaning": "Thinking you are better than other people.",
+      "examples": [
+        "He’s so {arrogant}; he never listens."
+      ],
+      "wrong": [
+        "She is arrogant, so she thinks everyone is better than her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "conceited",
+        "proud"
+      ],
+      "ipa": "/ˈɛrəɡənt/",
+      "antonyms": [
+        "modest",
+        "humble"
+      ]
+    },
+    {
+      "lemma": "modest",
+      "pos": "adjective",
+      "meaning": "Not talking much about your own abilities or success.",
+      "examples": [
+        "She is very {modest} about her prize."
+      ],
+      "wrong": [
+        "He is modest, so he tells everyone how great he is."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "humble"
+      ],
+      "ipa": "/ˈmɑdɪst/",
+      "antonyms": [
+        "arrogant",
+        "boastful"
+      ]
+    },
+    {
+      "lemma": "sensible",
+      "pos": "adjective",
+      "meaning": "Showing good judgment.",
+      "examples": [
+        "It’s {sensible} to wear a helmet."
+      ],
+      "wrong": [
+        "It was a sensible idea, so it was completely foolish."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "wise",
+        "reasonable"
+      ],
+      "ipa": "/ˈsɛnsəbəl/",
+      "antonyms": [
+        "foolish",
+        "silly"
+      ]
+    },
+    {
+      "lemma": "considerate",
+      "pos": "adjective",
+      "meaning": "Thinking about the feelings of others.",
+      "examples": [
+        "It was {considerate} of you to call."
+      ],
+      "wrong": [
+        "He is considerate, so he never thinks about others."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "thoughtful"
+      ],
+      "ipa": "/kənˈsɪdɚət/",
+      "antonyms": [
+        "inconsiderate",
+        "thoughtless"
+      ]
+    },
+    {
+      "lemma": "cautious",
+      "pos": "adjective",
+      "meaning": "Careful to avoid risks.",
+      "examples": [
+        "Be {cautious} when you invest money."
+      ],
+      "wrong": [
+        "He is cautious, so he takes every risk."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "careful",
+        "wary"
+      ],
+      "ipa": "/ˈkɔʃəs/",
+      "antonyms": [
+        "reckless",
+        "careless"
+      ]
+    },
+    {
+      "lemma": "impulsive",
+      "pos": "adjective",
+      "meaning": "Doing things suddenly without thinking first.",
+      "examples": [
+        "She made an {impulsive} decision to quit."
+      ],
+      "wrong": [
+        "He is impulsive, so he plans everything for weeks."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "rash",
+        "hasty",
+        "reckless"
+      ],
+      "ipa": "/ɪmˈpʌlsɪv/",
+      "antonyms": [
+        "cautious",
+        "deliberate"
+      ]
+    },
+    {
+      "lemma": "tolerant",
+      "pos": "adjective",
+      "meaning": "Accepting opinions or behavior different from your own.",
+      "examples": [
+        "We should be {tolerant} of other views."
+      ],
+      "wrong": [
+        "She is tolerant, so she can’t accept any different opinion."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "open-minded"
+      ],
+      "ipa": "/ˈtɑlɚənt/",
+      "antonyms": [
+        "intolerant"
+      ]
+    },
+    {
+      "lemma": "determined",
+      "pos": "adjective",
+      "meaning": "Having decided firmly to do something.",
+      "examples": [
+        "She was {determined} to win."
+      ],
+      "wrong": [
+        "He was determined, so he gave up at once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "resolute"
+      ],
+      "ipa": "/dɪˈtɝmɪnd/",
+      "antonyms": [
+        "irresolute",
+        "hesitant"
+      ]
+    },
+    {
+      "lemma": "enthusiastic",
+      "pos": "adjective",
+      "meaning": "Showing a lot of interest and excitement.",
+      "examples": [
+        "The fans were very {enthusiastic}."
+      ],
+      "wrong": [
+        "She was enthusiastic, so she showed no interest."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "eager",
+        "keen"
+      ],
+      "ipa": "/ɪnˌθuziˈæstɪk/",
+      "antonyms": [
+        "unenthusiastic",
+        "indifferent"
+      ]
+    },
+    {
+      "lemma": "optimistic",
+      "pos": "adjective",
+      "meaning": "Expecting good things to happen.",
+      "examples": [
+        "I’m {optimistic} about the future."
+      ],
+      "wrong": [
+        "He is optimistic, so he expects the worst."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hopeful",
+        "positive"
+      ],
+      "ipa": "/ˌɑptəˈmɪstɪk/",
+      "antonyms": [
+        "pessimistic"
+      ]
+    },
+    {
+      "lemma": "pessimistic",
+      "pos": "adjective",
+      "meaning": "Expecting bad things to happen.",
+      "examples": [
+        "Don’t be so {pessimistic}; it’ll be fine."
+      ],
+      "wrong": [
+        "She is pessimistic, so she expects the best."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "negative",
+        "gloomy"
+      ],
+      "ipa": "/ˌpɛsəˈmɪstɪk/",
+      "antonyms": [
+        "optimistic"
+      ]
+    },
+    {
+      "lemma": "outgoing",
+      "pos": "adjective",
+      "meaning": "Friendly and enjoying meeting people.",
+      "examples": [
+        "She’s {outgoing} and makes friends easily."
+      ],
+      "wrong": [
+        "He is outgoing, so he avoids people."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sociable",
+        "extrovert"
+      ],
+      "ipa": "/ˈaʊtˌɡoʊɪŋ/",
+      "antonyms": [
+        "shy",
+        "reserved"
+      ]
+    },
+    {
+      "lemma": "reserved",
+      "pos": "adjective",
+      "meaning": "Not showing your feelings or talking much.",
+      "examples": [
+        "He is quite {reserved} with strangers."
+      ],
+      "wrong": [
+        "She is reserved, so she tells everyone her secrets."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "quiet",
+        "introverted"
+      ],
+      "ipa": "/rɪˈzɝvd/",
+      "antonyms": [
+        "outgoing"
+      ]
+    },
+    {
+      "lemma": "moody",
+      "pos": "adjective",
+      "meaning": "Changing mood often, often unhappy.",
+      "examples": [
+        "Teenagers can be {moody}."
+      ],
+      "wrong": [
+        "He is moody, so his mood never changes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "temperamental"
+      ],
+      "ipa": "/ˈmudi/"
+    },
+    {
+      "lemma": "bossy",
+      "pos": "adjective",
+      "meaning": "Always telling others what to do.",
+      "examples": [
+        "My older sister is very {bossy}."
+      ],
+      "wrong": [
+        "She is bossy, so she never tells anyone what to do."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "domineering"
+      ],
+      "ipa": "/ˈbɔsi/"
+    },
+    {
+      "lemma": "mean",
+      "pos": "adjective",
+      "meaning": "Unkind; or not wanting to spend money.",
+      "examples": [
+        "It was {mean} to laugh at her."
+      ],
+      "wrong": [
+        "He was mean, so he was very kind and generous."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "unkind",
+        "nasty"
+      ],
+      "ipa": "/min/",
+      "antonyms": [
+        "kind",
+        "generous"
+      ]
+    },
+    {
+      "lemma": "sincere",
+      "pos": "adjective",
+      "meaning": "Honest and meaning what you say.",
+      "examples": [
+        "Please accept my {sincere} apologies."
+      ],
+      "wrong": [
+        "His apology was sincere, so he didn’t mean it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "genuine",
+        "honest"
+      ],
+      "ipa": "/sɪnˈsɪr/",
+      "antonyms": [
+        "insincere",
+        "dishonest"
+      ]
+    },
+    {
+      "lemma": "decisive",
+      "pos": "adjective",
+      "meaning": "Able to make decisions quickly.",
+      "examples": [
+        "A good leader is {decisive}."
+      ],
+      "wrong": [
+        "She is decisive, so she can never decide anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "firm"
+      ],
+      "ipa": "/dɪˈsaɪsɪv/",
+      "antonyms": [
+        "indecisive"
+      ]
+    },
+    {
+      "lemma": "flexible",
+      "pos": "adjective",
+      "meaning": "Able to change easily to suit new situations.",
+      "examples": [
+        "My working hours are {flexible}."
+      ],
+      "wrong": [
+        "My hours are flexible, so they can never change."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "adaptable"
+      ],
+      "ipa": "/ˈflɛksəbəl/",
+      "antonyms": [
+        "inflexible",
+        "rigid"
+      ]
+    },
+    {
+      "lemma": "mature",
+      "pos": "adjective",
+      "meaning": "Behaving in a sensible, adult way.",
+      "examples": [
+        "He is very {mature} for his age."
+      ],
+      "wrong": [
+        "She is mature, so she behaves like a small child."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "grown-up",
+        "responsible"
+      ],
+      "ipa": "/məˈtʃʊr/",
+      "antonyms": [
+        "immature",
+        "childish"
+      ]
+    },
+    {
+      "lemma": "naive",
+      "pos": "adjective",
+      "meaning": "Trusting too easily because of little experience.",
+      "examples": [
+        "It was {naive} to believe him."
+      ],
+      "wrong": [
+        "She is naive, so she trusts nobody."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "innocent",
+        "gullible"
+      ],
+      "ipa": "/naɪˈiv/",
+      "antonyms": [
+        "worldly",
+        "experienced"
+      ]
+    },
+    {
+      "lemma": "thoughtful",
+      "pos": "adjective",
+      "meaning": "Kind and thinking of others.",
+      "examples": [
+        "What a {thoughtful} gift!"
+      ],
+      "wrong": [
+        "It was thoughtful, so he didn’t think of her at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "considerate",
+        "kind"
+      ],
+      "ipa": "/ˈθɔtfəl/",
+      "antonyms": [
+        "thoughtless",
+        "inconsiderate"
+      ]
+    },
+    {
+      "lemma": "competitive",
+      "pos": "adjective",
+      "meaning": "Wanting very much to win or be the best.",
+      "examples": [
+        "He’s very {competitive} at sports."
+      ],
+      "wrong": [
+        "She is competitive, so she doesn’t care about winning."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəmˈpɛtətɪv/"
+    },
+    {
+      "lemma": "cooperative",
+      "pos": "adjective",
+      "meaning": "Willing to help and work with others.",
+      "examples": [
+        "The staff were very {cooperative}."
+      ],
+      "wrong": [
+        "He was cooperative, so he refused to help."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "helpful"
+      ],
+      "ipa": "/koʊˈɑpɚətɪv/",
+      "antonyms": [
+        "uncooperative"
+      ]
+    },
+    {
+      "lemma": "assertive",
+      "pos": "adjective",
+      "meaning": "Confident and clear about what you want.",
+      "examples": [
+        "You need to be more {assertive} in meetings."
+      ],
+      "wrong": [
+        "She is assertive, so she never says what she wants."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "confident"
+      ],
+      "ipa": "/əˈsɝtɪv/",
+      "antonyms": [
+        "timid",
+        "passive"
+      ]
+    },
+    {
+      "lemma": "aggressive",
+      "pos": "adjective",
+      "meaning": "Angry and ready to attack or argue.",
+      "examples": [
+        "The dog became {aggressive}."
+      ],
+      "wrong": [
+        "He was aggressive, so he was gentle and calm."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hostile",
+        "violent"
+      ],
+      "ipa": "/əˈɡrɛsɪv/",
+      "antonyms": [
+        "peaceful",
+        "gentle"
+      ]
+    },
+    {
+      "lemma": "charming",
+      "pos": "adjective",
+      "meaning": "Pleasant and attractive in a way that makes people like you.",
+      "examples": [
+        "Our host was {charming}."
+      ],
+      "wrong": [
+        "He is charming, so nobody likes him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "delightful",
+        "likeable"
+      ],
+      "ipa": "/ˈtʃɑrmɪŋ/"
+    },
+    {
+      "lemma": "witty",
+      "pos": "adjective",
+      "meaning": "Clever and funny with words.",
+      "examples": [
+        "She gave a {witty} speech."
+      ],
+      "wrong": [
+        "His speech was witty, so it was dull and humorless."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clever",
+        "humorous"
+      ],
+      "ipa": "/ˈwɪti/"
+    },
+    {
+      "lemma": "temper",
+      "pos": "noun",
+      "meaning": "A tendency to become angry quickly.",
+      "examples": [
+        "He has a bad {temper}."
+      ],
+      "wrong": [
+        "He has a temper, so he never gets angry."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtɛmpɚ/"
+    },
+    {
+      "lemma": "patience",
+      "pos": "noun",
+      "meaning": "The ability to wait calmly without getting annoyed.",
+      "examples": [
+        "Teaching children needs a lot of {patience}."
+      ],
+      "wrong": [
+        "He has no patience, so he waits calmly for hours."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tolerance"
+      ],
+      "ipa": "/ˈpeɪʃəns/",
+      "antonyms": [
+        "impatience"
+      ]
+    },
+    {
+      "lemma": "empathy",
+      "pos": "noun",
+      "meaning": "The ability to understand how others feel.",
+      "examples": [
+        "Good nurses show {empathy}."
+      ],
+      "wrong": [
+        "She has empathy, so she ignores how others feel."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "understanding",
+        "compassion"
+      ],
+      "ipa": "/ˈɛmpəθi/"
+    },
+    {
+      "lemma": "envy",
+      "pos": "noun",
+      "meaning": "The wish to have what someone else has.",
+      "examples": [
+        "She looked at his new car with {envy}."
+      ],
+      "wrong": [
+        "He felt envy because he had everything he wanted."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "jealousy"
+      ],
+      "ipa": "/ˈɛnvi/"
+    },
+    {
+      "lemma": "ignorant",
+      "pos": "adjective",
+      "meaning": "Not knowing about something.",
+      "examples": [
+        "I’m {ignorant} about cars."
+      ],
+      "wrong": [
+        "He is ignorant about history, so he is an expert on it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "uninformed",
+        "unaware"
+      ],
+      "ipa": "/ˈɪɡnɚənt/",
+      "antonyms": [
+        "knowledgeable",
+        "informed"
+      ]
+    },
+    {
+      "lemma": "arrogance",
+      "pos": "noun",
+      "meaning": "The feeling of being better than others.",
+      "examples": [
+        "His {arrogance} made him unpopular."
+      ],
+      "wrong": [
+        "Her arrogance made her very humble."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pride",
+        "conceit"
+      ],
+      "ipa": "/ˈɛrəɡəns/",
+      "antonyms": [
+        "modesty",
+        "humility"
+      ]
+    },
+    {
+      "lemma": "self-confident",
+      "pos": "adjective",
+      "meaning": "Sure of your own abilities.",
+      "examples": [
+        "She became more {self-confident} at work."
+      ],
+      "wrong": [
+        "He is self-confident, so he always doubts himself."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "self-assured"
+      ],
+      "ipa": "/ˌsɛlfˈkɑnfədənt/",
+      "antonyms": [
+        "insecure",
+        "unsure"
+      ]
+    },
+    {
+      "lemma": "easy-going",
+      "pos": "adjective",
+      "meaning": "Relaxed and not easily upset.",
+      "examples": [
+        "My dad is very {easy-going}."
+      ],
+      "wrong": [
+        "She is easy-going, so she gets upset about everything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "relaxed",
+        "laid-back"
+      ],
+      "ipa": "/ˌiziˈɡoʊɪŋ/",
+      "antonyms": [
+        "uptight",
+        "tense"
+      ]
+    },
+    {
+      "lemma": "hard-working",
+      "pos": "adjective",
+      "meaning": "Working with a lot of effort.",
+      "examples": [
+        "She is a {hard-working} student."
+      ],
+      "wrong": [
+        "He is hard-working, so he never does anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "diligent",
+        "industrious"
+      ],
+      "ipa": "/ˌhɑrdˈwɝkɪŋ/",
+      "antonyms": [
+        "lazy"
+      ]
+    },
+    {
+      "lemma": "reckless",
+      "pos": "adjective",
+      "meaning": "Not caring about danger.",
+      "examples": [
+        "{Reckless} driving causes accidents."
+      ],
+      "wrong": [
+        "He is reckless, so he is always very careful."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "careless",
+        "rash"
+      ],
+      "ipa": "/ˈrɛkləs/",
+      "antonyms": [
+        "careful",
+        "cautious"
+      ]
+    },
+    {
+      "lemma": "generosity",
+      "pos": "noun",
+      "meaning": "The quality of giving freely to others.",
+      "examples": [
+        "Thank you for your {generosity}."
+      ],
+      "wrong": [
+        "His generosity meant he never shared anything."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "kindness"
+      ],
+      "ipa": "/ˌdʒɛnəˈrɑsəti/",
+      "antonyms": [
+        "selfishness",
+        "meanness"
+      ]
+    },
+    {
+      "lemma": "insecure",
+      "pos": "adjective",
+      "meaning": "Not confident about yourself.",
+      "examples": [
+        "She feels {insecure} about her accent."
+      ],
+      "wrong": [
+        "He is insecure, so he is completely sure of himself."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "unsure",
+        "anxious"
+      ],
+      "ipa": "/ˌɪnsɪˈkjʊr/",
+      "antonyms": [
+        "self-confident",
+        "secure"
+      ]
+    }
+  ]
+}

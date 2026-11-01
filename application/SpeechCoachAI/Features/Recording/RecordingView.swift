@@ -53,14 +53,14 @@ struct RecordingView: View {
                     if recording.permissionDenied {
                         Button("Open App Settings") {
                             if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
-                        }.buttonStyle(.bordered)
+                        }.buttonStyle(KitSecondaryButtonStyle())
                     }
                     if recording.phase == .ready, !recording.recoverable.isEmpty {
                         KitCard {
                             Text("Recover a previous take").font(.headline)
                             ForEach(recording.recoverable, id: \.id) { take in
                                 Button("Review take from \(take.createdAt.formatted(date: .abbreviated, time: .shortened))") { recording.recover(take) }
-                                    .buttonStyle(.bordered).accessibilityIdentifier("recording.recover")
+                                    .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("recording.recover")
                             }
                         }
                     }
@@ -132,7 +132,7 @@ struct RecordingView: View {
                         storage.latestLessonSpeech = LessonSpeechCompletion(lessonID: lessonID, journeyID: journeyID, attemptID: selected.id, activityID: selected.speakingProvenance?.activityID)
                     }
                 }
-                    .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                    .buttonStyle(KitPrimaryButtonStyle())
                     .frame(maxWidth: .infinity, alignment: .center)
                     .accessibilityIdentifier("recording.finish")
             }
@@ -154,8 +154,8 @@ struct RecordingView: View {
                     if let candidate = recording.candidate, let audio = candidate.recording {
                         Text("\(Double(audio.durationMilliseconds) / 1000, specifier: "%.1f") seconds · Take \(candidate.id.uuidString.prefix(4))")
                         Button(recording.isPlaying ? "Stop replay" : "Replay take") { recording.replayAcceptedOrCandidate() }
-                            .buttonStyle(.bordered).accessibilityIdentifier("recording.replay")
-                        Button("Use this take") { recording.accept() }.buttonStyle(.bordered)
+                            .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("recording.replay")
+                        Button("Use this take") { recording.accept() }.buttonStyle(KitSecondaryButtonStyle())
                             .accessibilityIdentifier("recording.accept")
                     }
                     Button("Discard this take", role: .destructive) { showDiscard = true }
@@ -177,7 +177,7 @@ struct RecordingView: View {
                 online.cancel()
                 recording.load(storage.repository, context: context)
                 recording.start(countdownEnabled: storage.preferences.countdownEnabled)
-            }.buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent")).controlSize(.large)
+            }.buttonStyle(KitPrimaryButtonStyle()).controlSize(.large)
                 .accessibilityIdentifier("recording.start")
         case .requestingPermission:
             ProgressView("Waiting for microphone permission")
@@ -194,9 +194,9 @@ struct RecordingView: View {
                 .accessibilityValue(String(Int(recording.elapsed)))
                 .accessibilityIdentifier("recording.elapsed")
             ProgressView(value: Double(recording.level)).accessibilityLabel("Microphone level")
-            Button(recording.phase == .paused ? "Resume recording" : "Pause recording") { recording.pauseOrResume() }.buttonStyle(.bordered)
-            Button("Stop recording") { recording.stop(interrupted: false) }.buttonStyle(.borderedProminent)
-                .foregroundStyle(Color("OnAccent")).accessibilityIdentifier("recording.stop")
+            Button(recording.phase == .paused ? "Resume recording" : "Pause recording") { recording.pauseOrResume() }.buttonStyle(KitSecondaryButtonStyle())
+            Button("Stop recording") { recording.stop(interrupted: false) }.buttonStyle(KitPrimaryButtonStyle())
+                .foregroundStyle(Kit.onAccent).accessibilityIdentifier("recording.stop")
         case .finished: EmptyView()
         }
     }

@@ -1,0 +1,737 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-phrasal-verbs-2",
+    "title": "More phrasal verbs",
+    "level": "B1",
+    "tagline": "Set off, turn down, put up with",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "set off",
+      "pos": "verb",
+      "meaning": "To start a journey.",
+      "examples": [
+        "We {set off} early to avoid the traffic."
+      ],
+      "wrong": [
+        "We set off at six and stayed at home all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "leave",
+        "depart",
+        "head off"
+      ],
+      "ipa": "/ˌsɛt ˈɔf/"
+    },
+    {
+      "lemma": "put up with",
+      "pos": "verb",
+      "meaning": "To accept something unpleasant without complaining.",
+      "examples": [
+        "I can’t {put up with} this noise any longer."
+      ],
+      "wrong": [
+        "She couldn’t put up with the noise, so she said nothing and stayed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tolerate",
+        "bear",
+        "stand"
+      ],
+      "ipa": "/ˌpʊt ˈʌp wɪð/"
+    },
+    {
+      "lemma": "look into",
+      "pos": "verb",
+      "meaning": "To try to find out the facts about something.",
+      "examples": [
+        "The manager will {look into} your complaint."
+      ],
+      "wrong": [
+        "The police looked into the crime by ignoring it completely."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "investigate",
+        "examine",
+        "check"
+      ],
+      "ipa": "/ˌlʊk ˈɪntu/"
+    },
+    {
+      "lemma": "come up with",
+      "pos": "verb",
+      "meaning": "To think of an idea, plan or answer.",
+      "examples": [
+        "She {came up with} a clever plan."
+      ],
+      "wrong": [
+        "He came up with a great idea, but he had no idea at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "think of",
+        "invent",
+        "suggest"
+      ],
+      "ipa": "/ˌkʌm ˈʌp wɪð/"
+    },
+    {
+      "lemma": "run into",
+      "pos": "verb",
+      "meaning": "To meet someone you know by chance.",
+      "examples": [
+        "I {ran into} my old teacher at the supermarket."
+      ],
+      "wrong": [
+        "I ran into my friend, as we had planned for weeks."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bump into",
+        "meet"
+      ],
+      "ipa": "/ˌrʌn ˈɪntu/"
+    },
+    {
+      "lemma": "get rid of",
+      "pos": "verb",
+      "meaning": "To throw away or remove something you don’t want.",
+      "examples": [
+        "I need to {get rid of} these old clothes."
+      ],
+      "wrong": [
+        "We got rid of the old sofa and kept it in the living room."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "throw away",
+        "remove",
+        "dump"
+      ],
+      "ipa": "/ˌɡɛt ˈrɪd əv/"
+    },
+    {
+      "lemma": "give in",
+      "pos": "verb",
+      "meaning": "To finally agree to something after saying no for a long time.",
+      "examples": [
+        "My parents {gave in} and let me get a dog."
+      ],
+      "wrong": [
+        "He gave in and kept saying no until the very end."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "surrender",
+        "yield"
+      ],
+      "ipa": "/ˌɡɪv ˈɪn/",
+      "antonyms": [
+        "resist"
+      ]
+    },
+    {
+      "lemma": "give away",
+      "pos": "verb",
+      "meaning": "To give something to someone without asking for money.",
+      "examples": [
+        "He {gave away} all his books to the library."
+      ],
+      "wrong": [
+        "She gave away her bike and asked for fifty dollars."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "donate",
+        "hand out"
+      ],
+      "ipa": "/ˌɡɪv əˈweɪ/"
+    },
+    {
+      "lemma": "carry out",
+      "pos": "verb",
+      "meaning": "To do a task, plan or test.",
+      "examples": [
+        "The scientists {carried out} an experiment."
+      ],
+      "wrong": [
+        "They carried out the plan by never starting it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "do",
+        "perform",
+        "conduct"
+      ],
+      "ipa": "/ˌkæri ˈaʊt/"
+    },
+    {
+      "lemma": "end up",
+      "pos": "verb",
+      "meaning": "To finally be in a place or situation you didn’t plan.",
+      "examples": [
+        "We got lost and {ended up} in the next town."
+      ],
+      "wrong": [
+        "We ended up at the start of the trip, before we left."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "finish up",
+        "wind up"
+      ],
+      "ipa": "/ˌɛnd ˈʌp/"
+    },
+    {
+      "lemma": "go through",
+      "pos": "verb",
+      "meaning": "To experience something difficult.",
+      "examples": [
+        "She {went through} a hard time after the accident."
+      ],
+      "wrong": [
+        "He went through a hard year in which everything was easy."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "experience",
+        "suffer",
+        "undergo"
+      ],
+      "ipa": "/ˌɡoʊ ˈθru/"
+    },
+    {
+      "lemma": "look down on",
+      "pos": "verb",
+      "meaning": "To think you are better than someone.",
+      "examples": [
+        "Don’t {look down on} people with less money."
+      ],
+      "wrong": [
+        "She looks down on her neighbors because she admires them so much."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "despise",
+        "scorn"
+      ],
+      "ipa": "/ˌlʊk ˈdaʊn ɑn/"
+    },
+    {
+      "lemma": "put out",
+      "pos": "verb",
+      "meaning": "To stop a fire or light from burning.",
+      "examples": [
+        "Firefighters {put out} the fire in ten minutes."
+      ],
+      "wrong": [
+        "He put out the candle so it would burn brighter."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "extinguish"
+      ],
+      "ipa": "/ˌpʊt ˈaʊt/",
+      "antonyms": [
+        "light"
+      ]
+    },
+    {
+      "lemma": "cut down on",
+      "pos": "verb",
+      "meaning": "To use or do less of something.",
+      "examples": [
+        "I’m trying to {cut down on} sugar."
+      ],
+      "wrong": [
+        "He cut down on coffee by drinking twice as much."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reduce",
+        "limit"
+      ],
+      "ipa": "/ˌkʌt ˈdaʊn ɑn/"
+    },
+    {
+      "lemma": "keep up with",
+      "pos": "verb",
+      "meaning": "To move or learn as fast as others.",
+      "examples": [
+        "I walk fast, so she can’t {keep up with} me."
+      ],
+      "wrong": [
+        "She kept up with the other runners and finished far behind."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "keep pace with"
+      ],
+      "ipa": "/ˌkip ˈʌp wɪð/"
+    },
+    {
+      "lemma": "let down",
+      "pos": "verb",
+      "meaning": "To disappoint someone by not doing what they hoped.",
+      "examples": [
+        "I felt {let down} when he didn’t come to my party."
+      ],
+      "wrong": [
+        "He let down his team by scoring the winning goal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disappoint",
+        "fail"
+      ],
+      "ipa": "/ˌlɛt ˈdaʊn/"
+    },
+    {
+      "lemma": "run away",
+      "pos": "verb",
+      "meaning": "To leave a place quickly and secretly to escape.",
+      "examples": [
+        "The dog {ran away} when the gate was open."
+      ],
+      "wrong": [
+        "The cat ran away and stayed in the garden all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "escape",
+        "flee"
+      ],
+      "ipa": "/ˌrʌn əˈweɪ/"
+    },
+    {
+      "lemma": "pay back",
+      "pos": "verb",
+      "meaning": "To give back money you borrowed.",
+      "examples": [
+        "I’ll {pay back} the money next week."
+      ],
+      "wrong": [
+        "She paid back the loan by borrowing more and never returning it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "repay",
+        "return"
+      ],
+      "ipa": "/ˌpeɪ ˈbæk/"
+    },
+    {
+      "lemma": "settle down",
+      "pos": "verb",
+      "meaning": "To start a calm life in one place, often with a family.",
+      "examples": [
+        "After years of travel, they {settled down} in a small town."
+      ],
+      "wrong": [
+        "He settled down and moved to a new country every month."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌsɛtəl ˈdaʊn/"
+    },
+    {
+      "lemma": "take over",
+      "pos": "verb",
+      "meaning": "To take control of something from someone else.",
+      "examples": [
+        "A new manager will {take over} the team in May."
+      ],
+      "wrong": [
+        "She took over the company and gave up all control."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take control of",
+        "assume"
+      ],
+      "ipa": "/ˌteɪk ˈoʊvɚ/"
+    },
+    {
+      "lemma": "turn out",
+      "pos": "verb",
+      "meaning": "To happen or end in a certain way, often a surprise.",
+      "examples": [
+        "The test {turned out} to be easy."
+      ],
+      "wrong": [
+        "The party turned out well before it had even started."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "prove",
+        "end up"
+      ],
+      "ipa": "/ˌtɝn ˈaʊt/"
+    },
+    {
+      "lemma": "wear out",
+      "pos": "verb",
+      "meaning": "To use something until it is old and can’t be used.",
+      "examples": [
+        "I {wore out} my shoes in three months."
+      ],
+      "wrong": [
+        "These strong new boots will wear out after just one short walk, so they will last for years."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "use up"
+      ],
+      "ipa": "/ˌwɛr ˈaʊt/"
+    },
+    {
+      "lemma": "catch up",
+      "pos": "verb",
+      "meaning": "To reach someone ahead of you, or the level of others.",
+      "examples": [
+        "Go ahead, I’ll {catch up} with you later."
+      ],
+      "wrong": [
+        "I caught up with the bus by staying far behind it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reach",
+        "draw level"
+      ],
+      "ipa": "/ˌkætʃ ˈʌp/"
+    },
+    {
+      "lemma": "sign up",
+      "pos": "verb",
+      "meaning": "To put your name on a list to join something.",
+      "examples": [
+        "I {signed up} for a yoga class."
+      ],
+      "wrong": [
+        "He signed up for the club and never became a member."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "register",
+        "join",
+        "enroll"
+      ],
+      "ipa": "/ˌsaɪn ˈʌp/"
+    },
+    {
+      "lemma": "stand out",
+      "pos": "verb",
+      "meaning": "To be easy to see or notice because it is different.",
+      "examples": [
+        "Her red coat {stands out} in the crowd."
+      ],
+      "wrong": [
+        "His bright orange suit stood out, so no one noticed him."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "be noticeable"
+      ],
+      "ipa": "/ˌstænd ˈaʊt/"
+    },
+    {
+      "lemma": "drop out",
+      "pos": "verb",
+      "meaning": "To leave a school, course or race before the end.",
+      "examples": [
+        "He {dropped out} of college after a year."
+      ],
+      "wrong": [
+        "She dropped out of the race and finished it first."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quit",
+        "leave"
+      ],
+      "ipa": "/ˌdrɑp ˈaʊt/"
+    },
+    {
+      "lemma": "fall apart",
+      "pos": "verb",
+      "meaning": "To break into pieces because it is old or badly made.",
+      "examples": [
+        "My old bag is {falling apart}."
+      ],
+      "wrong": [
+        "The cheap chair fell apart, so it is as strong as ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "break up",
+        "collapse"
+      ],
+      "ipa": "/ˌfɔl əˈpɑrt/"
+    },
+    {
+      "lemma": "fit in",
+      "pos": "verb",
+      "meaning": "To feel accepted as part of a group.",
+      "examples": [
+        "It took time to {fit in} at my new school."
+      ],
+      "wrong": [
+        "He fit in well, so he always felt like an outsider."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "belong",
+        "blend in"
+      ],
+      "ipa": "/ˌfɪt ˈɪn/"
+    },
+    {
+      "lemma": "get away with",
+      "pos": "verb",
+      "meaning": "To do something wrong and not be punished.",
+      "examples": [
+        "He cheated and {got away with} it."
+      ],
+      "wrong": [
+        "She got away with the crime and spent ten years in prison."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌɡɛt əˈweɪ wɪð/"
+    },
+    {
+      "lemma": "go ahead",
+      "pos": "verb",
+      "meaning": "To start or continue doing something, often after permission.",
+      "examples": [
+        "If you want to ask a question, {go ahead}."
+      ],
+      "wrong": [
+        "The concert went ahead, so it was canceled."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "proceed",
+        "carry on"
+      ],
+      "ipa": "/ˌɡoʊ əˈhɛd/"
+    },
+    {
+      "lemma": "hold up",
+      "pos": "verb",
+      "meaning": "To make someone or something late.",
+      "examples": [
+        "Sorry I’m late, I was {held up} in traffic."
+      ],
+      "wrong": [
+        "The traffic held us up, so we arrived early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "delay"
+      ],
+      "ipa": "/ˌhoʊld ˈʌp/"
+    },
+    {
+      "lemma": "mix up",
+      "pos": "verb",
+      "meaning": "To think one person or thing is another by mistake.",
+      "examples": [
+        "People often {mix up} the twins."
+      ],
+      "wrong": [
+        "I mixed up their names because I knew them perfectly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "confuse",
+        "muddle"
+      ],
+      "ipa": "/ˌmɪks ˈʌp/"
+    },
+    {
+      "lemma": "move on",
+      "pos": "verb",
+      "meaning": "To stop thinking about something and start something new.",
+      "examples": [
+        "It’s time to {move on} to the next topic."
+      ],
+      "wrong": [
+        "She moved on and kept thinking only about the past."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go on",
+        "continue"
+      ],
+      "ipa": "/ˌmuv ˈɑn/"
+    },
+    {
+      "lemma": "show off",
+      "pos": "verb",
+      "meaning": "To try to make people admire you or your things.",
+      "examples": [
+        "He’s always {showing off} his new car."
+      ],
+      "wrong": [
+        "She showed off her new phone by hiding it from everyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "boast",
+        "brag"
+      ],
+      "ipa": "/ˌʃoʊ ˈɔf/"
+    },
+    {
+      "lemma": "stay up",
+      "pos": "verb",
+      "meaning": "To not go to bed until later than usual.",
+      "examples": [
+        "We {stayed up} late to watch the film."
+      ],
+      "wrong": [
+        "I stayed up all night, so I went to bed at eight."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌsteɪ ˈʌp/",
+      "antonyms": [
+        "go to bed"
+      ]
+    },
+    {
+      "lemma": "take on",
+      "pos": "verb",
+      "meaning": "To accept a job, duty or new worker.",
+      "examples": [
+        "I can’t {take on} any more work this week."
+      ],
+      "wrong": [
+        "He took on the project and refused to do it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "accept",
+        "undertake",
+        "hire"
+      ],
+      "ipa": "/ˌteɪk ˈɑn/"
+    },
+    {
+      "lemma": "think over",
+      "pos": "verb",
+      "meaning": "To think carefully about something before you decide.",
+      "examples": [
+        "Let me {think over} your offer."
+      ],
+      "wrong": [
+        "She thought over the offer by deciding in one second."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "consider",
+        "reflect on"
+      ],
+      "ipa": "/ˌθɪŋk ˈoʊvɚ/"
+    },
+    {
+      "lemma": "hand out",
+      "pos": "verb",
+      "meaning": "To give something to each person in a group.",
+      "examples": [
+        "The teacher {handed out} the tests."
+      ],
+      "wrong": [
+        "He handed out the leaflets and kept them all himself."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "distribute",
+        "give out"
+      ],
+      "ipa": "/ˌhænd ˈaʊt/"
+    },
+    {
+      "lemma": "count on",
+      "pos": "verb",
+      "meaning": "To trust someone to help you.",
+      "examples": [
+        "You can always {count on} me."
+      ],
+      "wrong": [
+        "I counted on him, so I never trusted him with anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rely on",
+        "depend on"
+      ],
+      "ipa": "/ˈkaʊnt ɑn/"
+    },
+    {
+      "lemma": "get by",
+      "pos": "verb",
+      "meaning": "To have just enough money or skill to live or manage.",
+      "examples": [
+        "We {get by} on a small income."
+      ],
+      "wrong": [
+        "They get by easily with millions to spare."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "manage",
+        "cope",
+        "survive"
+      ],
+      "ipa": "/ˌɡɛt ˈbaɪ/"
+    }
+  ]
+}

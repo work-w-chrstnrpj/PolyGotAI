@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-people-character",
+    "title": "People and family",
+    "level": "A2",
+    "tagline": "Who people are and what they’re like",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "friendly",
+      "pos": "adjective",
+      "meaning": "Kind and pleasant to other people.",
+      "examples": [
+        "Our neighbors are very {friendly}."
+      ],
+      "wrong": [
+        "He is friendly, so he never talks to anyone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "kind",
+        "warm"
+      ],
+      "ipa": "/ˈfrɛndli/",
+      "antonyms": [
+        "unfriendly",
+        "hostile"
+      ]
+    },
+    {
+      "lemma": "lazy",
+      "pos": "adjective",
+      "meaning": "Not wanting to work or do things.",
+      "examples": [
+        "He’s too {lazy} to cook."
+      ],
+      "wrong": [
+        "She is lazy, so she works all day without a rest."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "idle"
+      ],
+      "ipa": "/ˈleɪzi/",
+      "antonyms": [
+        "hard-working"
+      ]
+    },
+    {
+      "lemma": "clever",
+      "pos": "adjective",
+      "meaning": "Quick to learn and understand.",
+      "examples": [
+        "She’s a {clever} student."
+      ],
+      "wrong": [
+        "He is clever, so he never understands anything."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "smart",
+        "bright"
+      ],
+      "ipa": "/ˈklɛvɚ/",
+      "antonyms": [
+        "stupid"
+      ]
+    },
+    {
+      "lemma": "brave",
+      "pos": "adjective",
+      "meaning": "Not afraid of danger.",
+      "examples": [
+        "The {brave} firefighter saved the child."
+      ],
+      "wrong": [
+        "She was brave, so she ran away from every danger."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "courageous"
+      ],
+      "ipa": "/breɪv/",
+      "antonyms": [
+        "cowardly"
+      ]
+    },
+    {
+      "lemma": "serious",
+      "pos": "adjective",
+      "meaning": "Thinking carefully; not joking.",
+      "examples": [
+        "He looks {serious} today."
+      ],
+      "wrong": [
+        "He was serious, so he laughed and joked all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɪriəs/"
+    },
+    {
+      "lemma": "boring",
+      "pos": "adjective",
+      "meaning": "Not interesting.",
+      "examples": [
+        "The film was so {boring}."
+      ],
+      "wrong": [
+        "The book was boring, so I couldn’t stop reading."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dull"
+      ],
+      "ipa": "/ˈbɔrɪŋ/",
+      "antonyms": [
+        "interesting",
+        "exciting"
+      ]
+    },
+    {
+      "lemma": "interesting",
+      "pos": "adjective",
+      "meaning": "Making you want to know more.",
+      "examples": [
+        "That’s an {interesting} idea."
+      ],
+      "wrong": [
+        "The talk was interesting, so we all fell asleep."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪntrəstɪŋ/",
+      "antonyms": [
+        "boring",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "silly",
+      "pos": "adjective",
+      "meaning": "Not serious or clever.",
+      "examples": [
+        "Don’t be {silly}!"
+      ],
+      "wrong": [
+        "That was a silly question, so it was very wise."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "foolish"
+      ],
+      "ipa": "/ˈsɪli/",
+      "antonyms": [
+        "sensible"
+      ]
+    },
+    {
+      "lemma": "handsome",
+      "pos": "adjective",
+      "meaning": "Good-looking, often used for men.",
+      "examples": [
+        "Her brother is very {handsome}."
+      ],
+      "wrong": [
+        "He is handsome, so people think he is ugly."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "good-looking"
+      ],
+      "ipa": "/ˈhænsəm/",
+      "antonyms": [
+        "ugly"
+      ]
+    },
+    {
+      "lemma": "ugly",
+      "pos": "adjective",
+      "meaning": "Not nice to look at.",
+      "examples": [
+        "That is an {ugly} building."
+      ],
+      "wrong": [
+        "The painting is ugly, so everyone loves to look at it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "unattractive"
+      ],
+      "ipa": "/ˈʌɡli/",
+      "antonyms": [
+        "beautiful",
+        "pretty"
+      ]
+    },
+    {
+      "lemma": "slim",
+      "pos": "adjective",
+      "meaning": "Thin in a pleasant way.",
+      "examples": [
+        "She is tall and {slim}."
+      ],
+      "wrong": [
+        "He is slim, so he is very large and heavy."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "thin"
+      ],
+      "ipa": "/slɪm/",
+      "antonyms": [
+        "fat",
+        "overweight"
+      ]
+    },
+    {
+      "lemma": "curly",
+      "pos": "adjective",
+      "meaning": "Having curves, not straight.",
+      "examples": [
+        "She has long {curly} hair."
+      ],
+      "wrong": [
+        "His hair is curly, so it is perfectly straight."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɝli/",
+      "antonyms": [
+        "straight"
+      ]
+    },
+    {
+      "lemma": "beard",
+      "pos": "noun",
+      "meaning": "Hair that grows on a man’s chin and cheeks.",
+      "examples": [
+        "My grandfather has a white {beard}."
+      ],
+      "wrong": [
+        "A beard is hair that grows on your feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɪrd/"
+    },
+    {
+      "lemma": "teenager",
+      "pos": "noun",
+      "meaning": "A person aged between 13 and 19.",
+      "examples": [
+        "My son is a {teenager} now."
+      ],
+      "wrong": [
+        "A teenager is a person who is eighty years old."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "adolescent"
+      ],
+      "ipa": "/ˈtineɪdʒɚ/"
+    },
+    {
+      "lemma": "adult",
+      "pos": "noun",
+      "meaning": "A person who is fully grown.",
+      "examples": [
+        "The ticket is ten dollars for an {adult}."
+      ],
+      "wrong": [
+        "An adult is a very young baby."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "grown-up"
+      ],
+      "ipa": "/əˈdʌlt/",
+      "antonyms": [
+        "child"
+      ]
+    },
+    {
+      "lemma": "husband",
+      "pos": "noun",
+      "meaning": "The man a woman is married to.",
+      "examples": [
+        "Her {husband} is a doctor."
+      ],
+      "wrong": [
+        "My husband is my brother’s daughter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhʌzbənd/",
+      "antonyms": [
+        "wife"
+      ]
+    },
+    {
+      "lemma": "wife",
+      "pos": "noun",
+      "meaning": "The woman a man is married to.",
+      "examples": [
+        "His {wife} works in a bank."
+      ],
+      "wrong": [
+        "His wife is his father."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/waɪf/",
+      "antonyms": [
+        "husband"
+      ]
+    },
+    {
+      "lemma": "cousin",
+      "pos": "noun",
+      "meaning": "The child of your aunt or uncle.",
+      "examples": [
+        "My {cousin} lives in Canada."
+      ],
+      "wrong": [
+        "My cousin is my mother."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkʌzən/"
+    },
+    {
+      "lemma": "uncle",
+      "pos": "noun",
+      "meaning": "The brother of your mother or father.",
+      "examples": [
+        "My {uncle} has a farm."
+      ],
+      "wrong": [
+        "My uncle is my mother’s sister."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈʌŋkəl/"
+    },
+    {
+      "lemma": "aunt",
+      "pos": "noun",
+      "meaning": "The sister of your mother or father.",
+      "examples": [
+        "My {aunt} makes great cakes."
+      ],
+      "wrong": [
+        "My aunt is my father’s brother."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ænt/"
+    },
+    {
+      "lemma": "grandparent",
+      "pos": "noun",
+      "meaning": "The parent of your mother or father.",
+      "examples": [
+        "I visit my {grandparents} every summer."
+      ],
+      "wrong": [
+        "My grandparents are younger than me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɡrænˌpɛrənt/"
+    },
+    {
+      "lemma": "relative",
+      "pos": "noun",
+      "meaning": "A person in your family.",
+      "examples": [
+        "All our {relatives} came to the wedding."
+      ],
+      "wrong": [
+        "A relative is a person you are not related to."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "family member"
+      ],
+      "ipa": "/ˈrɛlətɪv/"
+    },
+    {
+      "lemma": "guest",
+      "pos": "noun",
+      "meaning": "A person you invite to your home or a party.",
+      "examples": [
+        "We have {guests} for dinner tonight."
+      ],
+      "wrong": [
+        "A guest is the person who owns the house."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "visitor"
+      ],
+      "ipa": "/ɡɛst/",
+      "antonyms": [
+        "host"
+      ]
+    },
+    {
+      "lemma": "stranger",
+      "pos": "noun",
+      "meaning": "A person you do not know.",
+      "examples": [
+        "Don’t open the door to {strangers}."
+      ],
+      "wrong": [
+        "A stranger is my best friend."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈstreɪndʒɚ/",
+      "antonyms": [
+        "friend",
+        "acquaintance"
+      ]
+    },
+    {
+      "lemma": "couple",
+      "pos": "noun",
+      "meaning": "Two people who are married or in love.",
+      "examples": [
+        "A young {couple} lives next door."
+      ],
+      "wrong": [
+        "A couple is one person alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pair"
+      ],
+      "ipa": "/ˈkʌpəl/"
+    },
+    {
+      "lemma": "twin",
+      "pos": "noun",
+      "meaning": "One of two children born at the same time to the same mother.",
+      "examples": [
+        "Anna and her {twin} look the same."
+      ],
+      "wrong": [
+        "My twin is ten years older than me."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/twɪn/"
+    },
+    {
+      "lemma": "introduce",
+      "pos": "verb",
+      "meaning": "To tell someone another person’s name when they first meet.",
+      "examples": [
+        "Let me {introduce} my friend Tom."
+      ],
+      "wrong": [
+        "I introduced them, so they still don’t know each other."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "present"
+      ],
+      "ipa": "/ˌɪntrəˈdus/"
+    },
+    {
+      "lemma": "meet",
+      "pos": "verb",
+      "meaning": "To see and talk to someone for the first time or by plan.",
+      "examples": [
+        "Nice to {meet} you!"
+      ],
+      "wrong": [
+        "We met, but we never saw each other."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/mit/"
+    },
+    {
+      "lemma": "smile",
+      "pos": "verb",
+      "meaning": "To make your mouth turn up because you are happy.",
+      "examples": [
+        "She always {smiles} at me."
+      ],
+      "wrong": [
+        "He smiled because he was very angry."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "grin"
+      ],
+      "ipa": "/smaɪl/",
+      "antonyms": [
+        "frown"
+      ]
+    },
+    {
+      "lemma": "hug",
+      "pos": "verb",
+      "meaning": "To put your arms around someone.",
+      "examples": [
+        "The children {hugged} their mother."
+      ],
+      "wrong": [
+        "I hugged her by walking away."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "embrace"
+      ],
+      "ipa": "/hʌɡ/"
+    },
+    {
+      "lemma": "marry",
+      "pos": "verb",
+      "meaning": "To become someone’s husband or wife.",
+      "examples": [
+        "They want to {marry} next year."
+      ],
+      "wrong": [
+        "They married, so they are not husband and wife."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wed"
+      ],
+      "ipa": "/ˈmɛri/",
+      "antonyms": [
+        "divorce"
+      ]
+    },
+    {
+      "lemma": "born",
+      "pos": "adjective",
+      "meaning": "Started life.",
+      "examples": [
+        "I was {born} in 1998."
+      ],
+      "wrong": [
+        "I was born when I was twenty."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bɔrn/"
+    },
+    {
+      "lemma": "grow up",
+      "pos": "phrase",
+      "meaning": "To change from a child into an adult.",
+      "examples": [
+        "I {grew up} in a small town."
+      ],
+      "wrong": [
+        "I grew up when I was a baby."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌɡroʊ ˈʌp/"
+    },
+    {
+      "lemma": "look like",
+      "pos": "phrase",
+      "meaning": "To be similar to someone in appearance.",
+      "examples": [
+        "You {look like} your mother."
+      ],
+      "wrong": [
+        "He looks like his father, but they are very different."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "resemble"
+      ],
+      "ipa": "/ˈlʊk ˌlaɪk/"
+    },
+    {
+      "lemma": "elderly",
+      "pos": "adjective",
+      "meaning": "Old; a polite word for old people.",
+      "examples": [
+        "She helps an {elderly} neighbor."
+      ],
+      "wrong": [
+        "My elderly aunt is only six years old."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "aged"
+      ],
+      "ipa": "/ˈɛldɚli/",
+      "antonyms": [
+        "young"
+      ]
+    },
+    {
+      "lemma": "babysitter",
+      "pos": "noun",
+      "meaning": "A person who looks after children while parents are out.",
+      "examples": [
+        "The {babysitter} read them a story."
+      ],
+      "wrong": [
+        "A babysitter is a chair for babies."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "nanny"
+      ],
+      "ipa": "/ˈbeɪbiˌsɪtɚ/"
+    },
+    {
+      "lemma": "character",
+      "pos": "noun",
+      "meaning": "The kind of person someone is.",
+      "examples": [
+        "She has a strong {character}."
+      ],
+      "wrong": [
+        "His character is the color of his car."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "personality"
+      ],
+      "ipa": "/ˈkærəktɚ/"
+    },
+    {
+      "lemma": "hairstyle",
+      "pos": "noun",
+      "meaning": "The way your hair is cut or arranged.",
+      "examples": [
+        "I like your new {hairstyle}."
+      ],
+      "wrong": [
+        "A hairstyle is a kind of shoe."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "haircut"
+      ],
+      "ipa": "/ˈhɛrstaɪl/"
+    },
+    {
+      "lemma": "nephew",
+      "pos": "noun",
+      "meaning": "The son of your brother or sister.",
+      "examples": [
+        "My {nephew} is five years old."
+      ],
+      "wrong": [
+        "My nephew is my father’s brother."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnɛfju/"
+    },
+    {
+      "lemma": "lovely",
+      "pos": "adjective",
+      "meaning": "Very nice or beautiful.",
+      "examples": [
+        "What a {lovely} day!"
+      ],
+      "wrong": [
+        "It was a lovely day, so it was horrible."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "beautiful",
+        "delightful"
+      ],
+      "ipa": "/ˈlʌvli/",
+      "antonyms": [
+        "horrible",
+        "awful"
+      ]
+    }
+  ]
+}

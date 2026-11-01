@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-family-friends",
+    "title": "Family and friends",
+    "level": "A1",
+    "tagline": "The people close to you",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "parent",
+      "pos": "noun",
+      "meaning": "A mother or a father.",
+      "examples": [
+        "Each {parent} came to the school show."
+      ],
+      "wrong": [
+        "My parent is three years younger than me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "mother",
+        "father"
+      ],
+      "ipa": "/ˈpɛrənt/"
+    },
+    {
+      "lemma": "son",
+      "pos": "noun",
+      "meaning": "A boy or man who is your child.",
+      "examples": [
+        "Their {son} is six years old."
+      ],
+      "wrong": [
+        "My son is older than my father."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "boy"
+      ],
+      "ipa": "/sʌn/",
+      "antonyms": [
+        "daughter"
+      ]
+    },
+    {
+      "lemma": "daughter",
+      "pos": "noun",
+      "meaning": "A girl or woman who is your child.",
+      "examples": [
+        "She has one {daughter} and two sons."
+      ],
+      "wrong": [
+        "My daughter is my mother’s mother."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "girl"
+      ],
+      "ipa": "/ˈdɔtɚ/",
+      "antonyms": [
+        "son"
+      ]
+    },
+    {
+      "lemma": "grandmother",
+      "pos": "noun",
+      "meaning": "The mother of your mother or father.",
+      "examples": [
+        "My {grandmother} makes great cakes."
+      ],
+      "wrong": [
+        "My grandmother is a baby in my class."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "grandma"
+      ],
+      "ipa": "/ˈɡrænˌmʌðɚ/",
+      "antonyms": [
+        "grandfather"
+      ]
+    },
+    {
+      "lemma": "grandfather",
+      "pos": "noun",
+      "meaning": "The father of your mother or father.",
+      "examples": [
+        "My {grandfather} is eighty years old."
+      ],
+      "wrong": [
+        "My grandfather is my little brother."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "grandpa"
+      ],
+      "ipa": "/ˈɡrænˌfɑðɚ/",
+      "antonyms": [
+        "grandmother"
+      ]
+    },
+    {
+      "lemma": "grandma",
+      "pos": "noun",
+      "meaning": "A friendly word for your mother’s or father’s mother.",
+      "examples": [
+        "We visit {grandma} every Sunday."
+      ],
+      "wrong": [
+        "Grandma is my youngest baby sister."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "grandmother"
+      ],
+      "ipa": "/ˈɡrænˌmɑ/",
+      "antonyms": [
+        "grandpa"
+      ]
+    },
+    {
+      "lemma": "grandpa",
+      "pos": "noun",
+      "meaning": "A friendly word for your mother’s or father’s father.",
+      "examples": [
+        "{Grandpa} tells funny stories."
+      ],
+      "wrong": [
+        "Grandpa is my new baby brother."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "grandfather"
+      ],
+      "ipa": "/ˈɡrænˌpɑ/",
+      "antonyms": [
+        "grandma"
+      ]
+    },
+    {
+      "lemma": "grandson",
+      "pos": "noun",
+      "meaning": "The son of your son or daughter.",
+      "examples": [
+        "Her {grandson} is ten today."
+      ],
+      "wrong": [
+        "My grandson is much older than me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "grandchild"
+      ],
+      "ipa": "/ˈɡrænˌsʌn/",
+      "antonyms": [
+        "granddaughter"
+      ]
+    },
+    {
+      "lemma": "granddaughter",
+      "pos": "noun",
+      "meaning": "The daughter of your son or daughter.",
+      "examples": [
+        "His {granddaughter} plays the piano."
+      ],
+      "wrong": [
+        "My granddaughter is my grandmother."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "grandchild"
+      ],
+      "ipa": "/ˈɡrænˌdɔtɚ/",
+      "antonyms": [
+        "grandson"
+      ]
+    },
+    {
+      "lemma": "grandchild",
+      "pos": "noun",
+      "meaning": "A child of your son or daughter.",
+      "examples": [
+        "They have one {grandchild}."
+      ],
+      "wrong": [
+        "My grandchild is the oldest person in my family."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡrænˌtʃaɪld/"
+    },
+    {
+      "lemma": "mom",
+      "pos": "noun",
+      "meaning": "A friendly word for your mother.",
+      "examples": [
+        "My {mom} cooks dinner."
+      ],
+      "wrong": [
+        "My mom is my father’s brother."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "mother"
+      ],
+      "ipa": "/mɑm/",
+      "antonyms": [
+        "dad"
+      ]
+    },
+    {
+      "lemma": "dad",
+      "pos": "noun",
+      "meaning": "A friendly word for your father.",
+      "examples": [
+        "My {dad} drives me to school."
+      ],
+      "wrong": [
+        "My dad is my baby sister."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "father"
+      ],
+      "ipa": "/dæd/",
+      "antonyms": [
+        "mom"
+      ]
+    },
+    {
+      "lemma": "kid",
+      "pos": "noun",
+      "meaning": "A child.",
+      "examples": [
+        "The {kids} play in the park."
+      ],
+      "wrong": [
+        "The kid is ninety years old."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "child"
+      ],
+      "ipa": "/kɪd/"
+    },
+    {
+      "lemma": "boy",
+      "pos": "noun",
+      "meaning": "A young male person.",
+      "examples": [
+        "The {boy} has a red ball."
+      ],
+      "wrong": [
+        "The boy is an old woman."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "lad"
+      ],
+      "ipa": "/bɔɪ/",
+      "antonyms": [
+        "girl"
+      ]
+    },
+    {
+      "lemma": "girl",
+      "pos": "noun",
+      "meaning": "A young female person.",
+      "examples": [
+        "The {girl} is reading a book."
+      ],
+      "wrong": [
+        "The girl is an old man with a beard."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɝl/",
+      "antonyms": [
+        "boy"
+      ]
+    },
+    {
+      "lemma": "boyfriend",
+      "pos": "noun",
+      "meaning": "A man or boy you love and go out with.",
+      "examples": [
+        "Her {boyfriend} is very kind."
+      ],
+      "wrong": [
+        "My boyfriend is a girl I don’t know."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "partner"
+      ],
+      "ipa": "/ˈbɔɪˌfrɛnd/",
+      "antonyms": [
+        "girlfriend"
+      ]
+    },
+    {
+      "lemma": "girlfriend",
+      "pos": "noun",
+      "meaning": "A woman or girl you love and go out with.",
+      "examples": [
+        "His {girlfriend} is a nurse."
+      ],
+      "wrong": [
+        "His girlfriend is a man he has never met."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "partner"
+      ],
+      "ipa": "/ˈɡɝlˌfrɛnd/",
+      "antonyms": [
+        "boyfriend"
+      ]
+    },
+    {
+      "lemma": "best friend",
+      "pos": "phrase",
+      "meaning": "The friend you like most of all.",
+      "examples": [
+        "Tom is my {best friend}."
+      ],
+      "wrong": [
+        "She is my best friend, so I never talk to her."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌbɛst ˈfrɛnd/"
+    },
+    {
+      "lemma": "niece",
+      "pos": "noun",
+      "meaning": "The daughter of your brother or sister.",
+      "examples": [
+        "My {niece} is five years old."
+      ],
+      "wrong": [
+        "My niece is my mother."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/nis/"
+    },
+    {
+      "lemma": "person",
+      "pos": "noun",
+      "meaning": "One man, woman or child.",
+      "examples": [
+        "One {person} is waiting at the door."
+      ],
+      "wrong": [
+        "A person is a kind of chair."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "human"
+      ],
+      "ipa": "/ˈpɝsən/"
+    },
+    {
+      "lemma": "people",
+      "pos": "noun",
+      "meaning": "Men, women and children.",
+      "examples": [
+        "Many {people} live in this city."
+      ],
+      "wrong": [
+        "People are small round fruits."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "persons"
+      ],
+      "ipa": "/ˈpipəl/"
+    },
+    {
+      "lemma": "lady",
+      "pos": "noun",
+      "meaning": "A polite word for a woman.",
+      "examples": [
+        "The {lady} in the blue dress is my aunt."
+      ],
+      "wrong": [
+        "The lady is a little boy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "woman"
+      ],
+      "ipa": "/ˈleɪdi/",
+      "antonyms": [
+        "gentleman"
+      ]
+    },
+    {
+      "lemma": "gentleman",
+      "pos": "noun",
+      "meaning": "A polite word for a man.",
+      "examples": [
+        "A {gentleman} opened the door for me."
+      ],
+      "wrong": [
+        "The gentleman is a young girl."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "man"
+      ],
+      "ipa": "/ˈdʒɛntəlmən/",
+      "antonyms": [
+        "lady"
+      ]
+    },
+    {
+      "lemma": "married",
+      "pos": "adjective",
+      "meaning": "Having a husband or a wife.",
+      "examples": [
+        "My sister is {married} to a teacher."
+      ],
+      "wrong": [
+        "He is married, so he has no wife."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wed"
+      ],
+      "ipa": "/ˈmɛrid/",
+      "antonyms": [
+        "single",
+        "unmarried"
+      ]
+    },
+    {
+      "lemma": "single",
+      "pos": "adjective",
+      "meaning": "Not married and not with a partner.",
+      "examples": [
+        "My uncle is {single} and lives alone."
+      ],
+      "wrong": [
+        "She is single and her husband is at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "unmarried"
+      ],
+      "ipa": "/ˈsɪŋɡəl/",
+      "antonyms": [
+        "married"
+      ]
+    },
+    {
+      "lemma": "first name",
+      "pos": "phrase",
+      "meaning": "Your own name that comes before your family name.",
+      "examples": [
+        "My {first name} is Anna."
+      ],
+      "wrong": [
+        "My first name is the name of my street."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "given name"
+      ],
+      "ipa": "/ˈfɝst ˌneɪm/",
+      "antonyms": [
+        "last name"
+      ]
+    },
+    {
+      "lemma": "last name",
+      "pos": "phrase",
+      "meaning": "The name that people in your family share.",
+      "examples": [
+        "Our {last name} is Brown."
+      ],
+      "wrong": [
+        "My last name is my age."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "surname",
+        "family name"
+      ],
+      "ipa": "/ˈlæst ˌneɪm/",
+      "antonyms": [
+        "first name"
+      ]
+    },
+    {
+      "lemma": "classmate",
+      "pos": "noun",
+      "meaning": "A person in the same class as you at school.",
+      "examples": [
+        "My {classmate} sits next to me."
+      ],
+      "wrong": [
+        "My classmate is a teacher at another school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈklæsˌmeɪt/"
+    },
+    {
+      "lemma": "teammate",
+      "pos": "noun",
+      "meaning": "A person in the same team as you.",
+      "examples": [
+        "My {teammate} passed me the ball."
+      ],
+      "wrong": [
+        "My teammate plays for the other team."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtimˌmeɪt/"
+    },
+    {
+      "lemma": "visitor",
+      "pos": "noun",
+      "meaning": "A person who comes to see you or a place.",
+      "examples": [
+        "We have a {visitor} for dinner."
+      ],
+      "wrong": [
+        "The visitor lives in our house all the time."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "guest"
+      ],
+      "ipa": "/ˈvɪzɪtɚ/"
+    },
+    {
+      "lemma": "pal",
+      "pos": "noun",
+      "meaning": "A friend.",
+      "examples": [
+        "Sam is my old {pal} from school."
+      ],
+      "wrong": [
+        "My pal is a person I really don’t like."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "friend",
+        "buddy"
+      ],
+      "ipa": "/pæl/"
+    },
+    {
+      "lemma": "say hello",
+      "pos": "phrase",
+      "meaning": "To greet someone when you meet them.",
+      "examples": [
+        "{Say hello} to your mom for me."
+      ],
+      "wrong": [
+        "I said hello to him as I left and never saw him."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "greet"
+      ],
+      "ipa": "/ˌseɪ həˈloʊ/"
+    },
+    {
+      "lemma": "together",
+      "pos": "adverb",
+      "meaning": "With each other.",
+      "examples": [
+        "We eat dinner {together}."
+      ],
+      "wrong": [
+        "We walk to school together, but I go alone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/təˈɡɛðɚ/",
+      "antonyms": [
+        "apart",
+        "separately"
+      ]
+    },
+    {
+      "lemma": "baby sister",
+      "pos": "phrase",
+      "meaning": "A sister who is much younger than you, often still a baby.",
+      "examples": [
+        "My {baby sister} sleeps a lot."
+      ],
+      "wrong": [
+        "My baby sister is my oldest sister."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "little sister"
+      ],
+      "ipa": "/ˌbeɪbi ˈsɪstɚ/"
+    },
+    {
+      "lemma": "only child",
+      "pos": "phrase",
+      "meaning": "A child who has no brothers or sisters.",
+      "examples": [
+        "I’m an {only child}, so I have no sisters."
+      ],
+      "wrong": [
+        "She is an only child, and her three brothers are at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌoʊnli ˈtʃaɪld/"
+    },
+    {
+      "lemma": "big sister",
+      "pos": "phrase",
+      "meaning": "A sister who is older than you.",
+      "examples": [
+        "My {big sister} is in high school."
+      ],
+      "wrong": [
+        "My big sister is two years younger than me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "older sister"
+      ],
+      "ipa": "/ˌbɪɡ ˈsɪstɚ/"
+    },
+    {
+      "lemma": "little brother",
+      "pos": "phrase",
+      "meaning": "A brother who is younger than you.",
+      "examples": [
+        "My {little brother} is still a baby."
+      ],
+      "wrong": [
+        "My little brother is much older than me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "younger brother"
+      ],
+      "ipa": "/ˌlɪtəl ˈbrʌðɚ/"
+    },
+    {
+      "lemma": "family tree",
+      "pos": "phrase",
+      "meaning": "A picture that shows all the people in a family.",
+      "examples": [
+        "Our {family tree} shows my grandparents."
+      ],
+      "wrong": [
+        "We cut the family tree down with a saw."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfæməli ˌtri/"
+    },
+    {
+      "lemma": "home",
+      "pos": "noun",
+      "meaning": "The place where you live.",
+      "examples": [
+        "I go {home} after school."
+      ],
+      "wrong": [
+        "My home is a place I have never been."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "house"
+      ],
+      "ipa": "/hoʊm/"
+    },
+    {
+      "lemma": "grown-up",
+      "pos": "noun",
+      "meaning": "A person who is not a child.",
+      "examples": [
+        "Ask a {grown-up} to help you."
+      ],
+      "wrong": [
+        "The grown-up is only two years old."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "adult"
+      ],
+      "ipa": "/ˈɡroʊnˌʌp/",
+      "antonyms": [
+        "child",
+        "kid"
+      ]
+    }
+  ]
+}

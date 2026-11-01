@@ -17,8 +17,6 @@ struct PracticeHistoryContent: View {
                 KitCard {
                     Text("\(completed) self-reviews completed").font(.title2.bold()).accessibilityIdentifier("progress.completions")
                     Text("\(savedWords) words saved · \(recalls) recall ratings").font(.headline).accessibilityIdentifier("progress.words")
-                    Text("Speaking completions, saved words, and recall ratings stay separate. None of them is an English level.")
-                        .foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
                 }
                 NavigationLink("Recently Deleted") {
                     ScrollView { PracticeHistoryContent(storage: storage, recentlyDeleted: true).padding(20) }
@@ -46,7 +44,7 @@ struct PracticeHistoryContent: View {
                 }.buttonStyle(.plain).accessibilityIdentifier("history.\(record.id.uuidString)")
             }
             if let message { Text(message).foregroundStyle(Kit.error) }
-            Button("Refresh") { reload() }.buttonStyle(.bordered)
+            Button("Refresh") { reload() }.buttonStyle(KitSecondaryButtonStyle())
         }
         .onAppear { reload() }
         .onChange(of: scenePhase) { _, phase in
@@ -76,8 +74,6 @@ struct PracticeRecordDetail: View {
     @State private var deleteID: UUID?
     @State private var confirmDelete = false
     @State private var confirmSoftDelete = false
-    @State private var formatChoice: ComparisonFormat?
-    @State private var loadedFormat: ComparisonFormat?
     @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
@@ -95,22 +91,9 @@ struct PracticeRecordDetail: View {
                         }
                     }
                     if record.audio.state == .saved, record.recording != nil {
-                        Button("Replay saved voice") { replay() }.buttonStyle(.bordered).frame(minHeight: 44).accessibilityIdentifier("history.replay")
-                        Button("Stop playback") { stop() }.buttonStyle(.bordered).frame(minHeight: 44)
+                        Button("Replay saved voice") { replay() }.buttonStyle(KitSecondaryButtonStyle()).frame(minHeight: 44).accessibilityIdentifier("history.replay")
+                        Button("Stop playback") { stop() }.buttonStyle(KitSecondaryButtonStyle()).frame(minHeight: 44)
                     } else { Text("Voice playback: \(record.audio.state.description)").foregroundStyle(Kit.secondary) }
-                    if !recentlyDeleted {
-                        Picker("Comparison label", selection: $formatChoice) {
-                            Text("Not labeled").tag(Optional<ComparisonFormat>.none)
-                            ForEach(ComparisonFormat.allCases, id: \.self) { Text($0.title).tag(Optional($0)) }
-                        }
-                        .pickerStyle(.menu)
-                        .accessibilityIdentifier("history.format")
-                        .onChange(of: formatChoice) { _, new in
-                            guard new != loadedFormat else { return }
-                            loadedFormat = new
-                            mutate { repo, _ in try repo.setAttemptFormat(attemptID, new) }
-                        }
-                    }
                     if record.text.isVisible, !record.transcripts.isEmpty {
                         ForEach(record.transcripts, id: \.id) { transcript in
                             KitCard {
@@ -160,7 +143,7 @@ struct PracticeRecordDetail: View {
         if component.state == .recentlyDeleted, let id = component.deletionID {
             if let expiry = component.expiresAt { Text("\(title.capitalized) expires \(expiry.formatted(date: .abbreviated, time: .shortened))").font(.caption) }
             Button("Restore \(title)") { mutate { repo, value in try repo.restore(id, expectedVersion: value.version) } }
-                .buttonStyle(.bordered)
+                .buttonStyle(KitSecondaryButtonStyle())
             Button("Permanently delete \(title)", role: .destructive) { deleteID = id; confirmDelete = true }
         }
     }
@@ -177,15 +160,13 @@ struct PracticeRecordDetail: View {
         do {
             guard let repo = storage.repository else { throw LearnerStorageError.unavailable }
             record = try repo.attempt(attemptID)
-            let format = try repo.attemptFormat(attemptID)
-            loadedFormat = format
-            formatChoice = format
         } catch { record = nil; message = "This practice is unavailable. Unlock your device and try again." }
     }
     private func replay() {
         stop()
         do {
             guard let repo = storage.repository else { throw LearnerStorageError.unavailable }
+            SoundCenter.holdAudio("history.replay")
             try AVAudioSession.sharedInstance().setCategory(.playback)
             try AVAudioSession.sharedInstance().setActive(true)
             let player = try AVAudioPlayer(contentsOf: repo.recordingURL(attemptID))
@@ -196,6 +177,7 @@ struct PracticeRecordDetail: View {
         guard let player else { return }
         player.stop(); self.player = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("history.replay")
     }
 }
 

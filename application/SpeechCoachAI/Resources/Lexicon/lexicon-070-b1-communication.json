@@ -1,0 +1,688 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-communication",
+    "title": "Talking and messages",
+    "level": "B1",
+    "tagline": "Calls, chats and letters",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "phone call",
+      "pos": "noun",
+      "meaning": "A conversation you have by ringing someone on a mobile or landline.",
+      "examples": [
+        "I need to make a quick {phone call}."
+      ],
+      "wrong": [
+        "He made a phone call by writing a letter."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "call"
+      ],
+      "ipa": "/ˈfoʊn kɔl/"
+    },
+    {
+      "lemma": "text message",
+      "pos": "noun",
+      "meaning": "A short piece of writing sent from one mobile to another.",
+      "examples": [
+        "She sent me a {text message} to say she was late."
+      ],
+      "wrong": [
+        "I listened to his text message on the radio."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "text",
+        "SMS"
+      ],
+      "ipa": "/ˈtɛkst ˌmɛsɪdʒ/"
+    },
+    {
+      "lemma": "voicemail",
+      "pos": "noun",
+      "meaning": "A system that records a spoken message when you can’t answer the phone.",
+      "examples": [
+        "He didn’t answer, so I left a message on his {voicemail}."
+      ],
+      "wrong": [
+        "I read the voicemail in the newspaper."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "answerphone"
+      ],
+      "ipa": "/ˈvɔɪsˌmeɪl/"
+    },
+    {
+      "lemma": "leave a message",
+      "pos": "phrase",
+      "meaning": "To record or write something for a person who is not there.",
+      "examples": [
+        "She’s out, but you can {leave a message}."
+      ],
+      "wrong": [
+        "He left a message by talking to her face to face."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈliv ə ˈmɛsɪdʒ/"
+    },
+    {
+      "lemma": "hang up",
+      "pos": "verb",
+      "meaning": "To end a phone call by putting down or switching off the phone.",
+      "examples": [
+        "She said goodbye and {hung up}."
+      ],
+      "wrong": [
+        "He hung up the phone to start the call."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "put the phone down"
+      ],
+      "ipa": "/hæŋ ˈʌp/"
+    },
+    {
+      "lemma": "call back",
+      "pos": "verb",
+      "meaning": "To ring someone again, or ring a person who tried to reach you.",
+      "examples": [
+        "I’m busy now, so I’ll {call back} later."
+      ],
+      "wrong": [
+        "I called back before she had ever phoned me."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ring back"
+      ],
+      "ipa": "/kɔl ˈbæk/"
+    },
+    {
+      "lemma": "dial",
+      "pos": "verb",
+      "meaning": "To press the numbers on a phone to call someone.",
+      "examples": [
+        "In an emergency, {dial} the police number."
+      ],
+      "wrong": [
+        "He dialed the number by sending an email."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈdaɪəl/"
+    },
+    {
+      "lemma": "missed call",
+      "pos": "noun",
+      "meaning": "A ring on your phone that you did not answer in time.",
+      "examples": [
+        "I had three {missed calls} from my mom."
+      ],
+      "wrong": [
+        "A missed call is a call you answered and enjoyed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌmɪst ˈkɔl/"
+    },
+    {
+      "lemma": "video call",
+      "pos": "noun",
+      "meaning": "A phone or online talk where people can see each other on a screen.",
+      "examples": [
+        "We have a {video call} with Grandma every Sunday."
+      ],
+      "wrong": [
+        "On the video call we couldn’t see or hear each other at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈvɪdioʊ kɔl/"
+    },
+    {
+      "lemma": "group chat",
+      "pos": "noun",
+      "meaning": "An online conversation with several people at the same time.",
+      "examples": [
+        "The class has a {group chat} for homework questions."
+      ],
+      "wrong": [
+        "Our group chat has only one person in it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɡrup tʃæt/"
+    },
+    {
+      "lemma": "chat",
+      "pos": "verb",
+      "meaning": "To talk in a friendly, relaxed way.",
+      "examples": [
+        "We {chatted} about our holidays over coffee."
+      ],
+      "wrong": [
+        "They chatted for an hour without saying a word."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "talk"
+      ],
+      "ipa": "/tʃæt/"
+    },
+    {
+      "lemma": "whisper",
+      "pos": "verb",
+      "meaning": "To speak very quietly so only one person can hear.",
+      "examples": [
+        "She {whispered} the secret in my ear."
+      ],
+      "wrong": [
+        "He whispered so loudly that the whole street heard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "murmur"
+      ],
+      "ipa": "/ˈwɪspɚ/",
+      "antonyms": [
+        "shout"
+      ]
+    },
+    {
+      "lemma": "mention",
+      "pos": "verb",
+      "meaning": "To speak or write about something briefly.",
+      "examples": [
+        "Did she {mention} her new job?"
+      ],
+      "wrong": [
+        "He mentioned the party by saying nothing about it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "refer to"
+      ],
+      "ipa": "/ˈmɛnʃən/"
+    },
+    {
+      "lemma": "discuss",
+      "pos": "verb",
+      "meaning": "To talk about something with others to share ideas.",
+      "examples": [
+        "We {discussed} the plan at the meeting."
+      ],
+      "wrong": [
+        "They discussed the problem without talking to each other."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "talk about"
+      ],
+      "ipa": "/dɪˈskʌs/"
+    },
+    {
+      "lemma": "reply",
+      "pos": "verb",
+      "meaning": "To answer someone in speech or writing.",
+      "examples": [
+        "Please {reply} to my email soon."
+      ],
+      "wrong": [
+        "She replied to the letter before she got it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "answer",
+        "respond"
+      ],
+      "ipa": "/rɪˈplaɪ/"
+    },
+    {
+      "lemma": "response",
+      "pos": "noun",
+      "meaning": "An answer or reaction to something.",
+      "examples": [
+        "I’m still waiting for a {response} to my letter."
+      ],
+      "wrong": [
+        "His response came before I asked the question."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "answer",
+        "reply"
+      ],
+      "ipa": "/rɪˈspɑns/"
+    },
+    {
+      "lemma": "announce",
+      "pos": "verb",
+      "meaning": "To tell many people about something officially.",
+      "examples": [
+        "The pilot {announced} that we would land soon."
+      ],
+      "wrong": [
+        "She announced the news by keeping it a secret."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "declare"
+      ],
+      "ipa": "/əˈnaʊns/"
+    },
+    {
+      "lemma": "announcement",
+      "pos": "noun",
+      "meaning": "A public statement giving information.",
+      "examples": [
+        "There was an {announcement} about the late train."
+      ],
+      "wrong": [
+        "The announcement was a secret nobody heard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "statement",
+        "notice"
+      ],
+      "ipa": "/əˈnaʊnsmənt/"
+    },
+    {
+      "lemma": "envelope",
+      "pos": "noun",
+      "meaning": "A flat paper cover you put a letter in.",
+      "examples": [
+        "Write the address on the {envelope}."
+      ],
+      "wrong": [
+        "I drank my tea from an envelope."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɛnvəˌloʊp/"
+    },
+    {
+      "lemma": "stamp",
+      "pos": "noun",
+      "meaning": "A small sticker you buy and put on a letter to send it.",
+      "examples": [
+        "You need a {stamp} to post this card."
+      ],
+      "wrong": [
+        "He put a stamp on his foot to send the letter."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "postage stamp"
+      ],
+      "ipa": "/stæmp/"
+    },
+    {
+      "lemma": "postcard",
+      "pos": "noun",
+      "meaning": "A card with a picture on one side, sent without an envelope.",
+      "examples": [
+        "She sent us a {postcard} from Paris."
+      ],
+      "wrong": [
+        "A postcard is a phone call you make from a hotel."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "card"
+      ],
+      "ipa": "/ˈpoʊstˌkɑrd/"
+    },
+    {
+      "lemma": "mail",
+      "pos": "verb",
+      "meaning": "To send a letter or package by post.",
+      "examples": [
+        "I’ll {mail} the documents to you tomorrow."
+      ],
+      "wrong": [
+        "He mailed the letter by keeping it in his drawer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "post",
+        "send"
+      ],
+      "ipa": "/meɪl/"
+    },
+    {
+      "lemma": "recipient",
+      "pos": "noun",
+      "meaning": "The person who gets a letter, message or gift.",
+      "examples": [
+        "Check the name of the {recipient} before you send it."
+      ],
+      "wrong": [
+        "The recipient is the person who writes and sends the email."
+      ],
+      "cefr": "B1",
+      "register": "formal",
+      "synonyms": [
+        "receiver",
+        "addressee"
+      ],
+      "ipa": "/rɪˈsɪpiənt/",
+      "antonyms": [
+        "sender"
+      ]
+    },
+    {
+      "lemma": "sender",
+      "pos": "noun",
+      "meaning": "The person a letter or message comes from.",
+      "examples": [
+        "The {sender}’s address is on the back of the envelope."
+      ],
+      "wrong": [
+        "The sender is the person who receives the parcel."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsɛndɚ/",
+      "antonyms": [
+        "recipient"
+      ]
+    },
+    {
+      "lemma": "attachment",
+      "pos": "noun",
+      "meaning": "A file sent together with an email.",
+      "examples": [
+        "Please open the {attachment} to see the photos."
+      ],
+      "wrong": [
+        "The attachment is the subject line of the email."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "file"
+      ],
+      "ipa": "/əˈtætʃmənt/"
+    },
+    {
+      "lemma": "get in touch",
+      "pos": "phrase",
+      "meaning": "To contact someone by phone, letter or message.",
+      "examples": [
+        "Please {get in touch} if you have any questions."
+      ],
+      "wrong": [
+        "He got in touch by never calling or writing to us."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "contact"
+      ],
+      "ipa": "/ɡɛt ɪn ˈtʌtʃ/"
+    },
+    {
+      "lemma": "small talk",
+      "pos": "noun",
+      "meaning": "Polite chat about unimportant things, like the weather.",
+      "examples": [
+        "We made {small talk} while we waited for the bus."
+      ],
+      "wrong": [
+        "Their small talk was a long, serious talk about their problems."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chit-chat"
+      ],
+      "ipa": "/ˈsmɔl ˌtɔk/"
+    },
+    {
+      "lemma": "interrupt",
+      "pos": "verb",
+      "meaning": "To stop someone while they are speaking.",
+      "examples": [
+        "Please don’t {interrupt} me when I’m talking."
+      ],
+      "wrong": [
+        "She interrupted him by waiting until he finished."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cut in"
+      ],
+      "ipa": "/ˌɪntəˈrʌpt/"
+    },
+    {
+      "lemma": "express",
+      "pos": "verb",
+      "meaning": "To show a feeling or idea in words or actions.",
+      "examples": [
+        "She {expressed} her thanks with a card."
+      ],
+      "wrong": [
+        "He expressed his feelings by hiding them."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "show",
+        "put into words"
+      ],
+      "ipa": "/ɪkˈsprɛs/"
+    },
+    {
+      "lemma": "nod",
+      "pos": "verb",
+      "meaning": "To move your head up and down, often to say yes.",
+      "examples": [
+        "He {nodded} when I asked if he was ready."
+      ],
+      "wrong": [
+        "She nodded to say no by shaking her head from side to side."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/nɑd/"
+    },
+    {
+      "lemma": "inform",
+      "pos": "verb",
+      "meaning": "To give someone facts or news officially.",
+      "examples": [
+        "Please {inform} us if your address changes."
+      ],
+      "wrong": [
+        "They informed us by telling us nothing."
+      ],
+      "cefr": "B1",
+      "register": "formal",
+      "synonyms": [
+        "tell",
+        "notify"
+      ],
+      "ipa": "/ɪnˈfɔrm/"
+    },
+    {
+      "lemma": "contact",
+      "pos": "verb",
+      "meaning": "To call, write to or message someone.",
+      "examples": [
+        "You can {contact} me by email."
+      ],
+      "wrong": [
+        "She contacted him by never calling or writing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "get in touch with",
+        "reach"
+      ],
+      "ipa": "/ˈkɑnˌtækt/"
+    },
+    {
+      "lemma": "communicate",
+      "pos": "verb",
+      "meaning": "To share information or feelings with others.",
+      "examples": [
+        "Dolphins {communicate} with sounds."
+      ],
+      "wrong": [
+        "They communicated by never sharing any ideas."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "talk",
+        "exchange information"
+      ],
+      "ipa": "/kəˈmjunəˌkeɪt/"
+    },
+    {
+      "lemma": "greeting",
+      "pos": "noun",
+      "meaning": "Words or actions used when you meet someone.",
+      "examples": [
+        "\"Hello\" is a common {greeting}."
+      ],
+      "wrong": [
+        "\"Goodbye\" is the greeting you use when you arrive."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "welcome"
+      ],
+      "ipa": "/ˈɡritɪŋ/"
+    },
+    {
+      "lemma": "handwriting",
+      "pos": "noun",
+      "meaning": "The style of the letters a person makes with a pen.",
+      "examples": [
+        "I can’t read his {handwriting}; it’s very messy."
+      ],
+      "wrong": [
+        "Her handwriting is the voice she uses on the phone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "writing"
+      ],
+      "ipa": "/ˈhændˌraɪtɪŋ/"
+    },
+    {
+      "lemma": "subject line",
+      "pos": "noun",
+      "meaning": "The short title of an email that shows what it is about.",
+      "examples": [
+        "Write \"Meeting\" in the {subject line}."
+      ],
+      "wrong": [
+        "The subject line is the last sentence of an email."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsʌbdʒɪkt ˌlaɪn/"
+    },
+    {
+      "lemma": "forward",
+      "pos": "verb",
+      "meaning": "To send a message you received on to another person.",
+      "examples": [
+        "I’ll {forward} his email to you."
+      ],
+      "wrong": [
+        "She forwarded the email by deleting it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pass on",
+        "send on"
+      ],
+      "ipa": "/ˈfɔrwɚd/"
+    },
+    {
+      "lemma": "speak up",
+      "pos": "verb",
+      "meaning": "To talk more loudly so people can hear you.",
+      "examples": [
+        "Could you {speak up}? I can’t hear you."
+      ],
+      "wrong": [
+        "Please speak up so nobody can hear you."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "talk louder"
+      ],
+      "ipa": "/spik ˈʌp/"
+    },
+    {
+      "lemma": "accent",
+      "pos": "noun",
+      "meaning": "A way of pronouncing words that shows where you come from.",
+      "examples": [
+        "She speaks English with a French {accent}."
+      ],
+      "wrong": [
+        "His accent is the meaning of the words he says."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pronunciation"
+      ],
+      "ipa": "/ˈækˌsɛnt/"
+    },
+    {
+      "lemma": "signal",
+      "pos": "noun",
+      "meaning": "The strength of a phone’s connection to the network.",
+      "examples": [
+        "I have no {signal} here, so I can’t call."
+      ],
+      "wrong": [
+        "With a strong signal, my calls kept failing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reception"
+      ],
+      "ipa": "/ˈsɪɡnəl/"
+    }
+  ]
+}

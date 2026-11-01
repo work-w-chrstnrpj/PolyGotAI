@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-tech-media",
+    "title": "Phones, media and news",
+    "level": "B1",
+    "tagline": "Apps, posts and the news",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "device",
+      "pos": "noun",
+      "meaning": "A machine or tool for a special purpose, like a phone.",
+      "examples": [
+        "Please turn off all {devices} during the test."
+      ],
+      "wrong": [
+        "A device is a kind of plant."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gadget"
+      ],
+      "ipa": "/dɪˈvaɪs/"
+    },
+    {
+      "lemma": "app",
+      "pos": "noun",
+      "meaning": "A program you download onto a phone or tablet.",
+      "examples": [
+        "I use an {app} to learn words."
+      ],
+      "wrong": [
+        "An app is a cable for your charger."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "application"
+      ],
+      "ipa": "/æp/"
+    },
+    {
+      "lemma": "charge",
+      "pos": "verb",
+      "meaning": "To put electricity into a battery.",
+      "examples": [
+        "I need to {charge} my phone."
+      ],
+      "wrong": [
+        "I charged my phone, so the battery is empty."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/tʃɑrdʒ/"
+    },
+    {
+      "lemma": "install",
+      "pos": "verb",
+      "meaning": "To put a program on a computer or phone so it is ready to use.",
+      "examples": [
+        "{Install} the update tonight."
+      ],
+      "wrong": [
+        "I installed the app, so it isn’t on my phone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "set up"
+      ],
+      "ipa": "/ɪnˈstɔl/",
+      "antonyms": [
+        "uninstall"
+      ]
+    },
+    {
+      "lemma": "delete",
+      "pos": "verb",
+      "meaning": "To remove something from a computer or phone.",
+      "examples": [
+        "I {deleted} the old photos."
+      ],
+      "wrong": [
+        "I deleted the file to keep it safe forever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "erase",
+        "remove"
+      ],
+      "ipa": "/dɪˈlit/"
+    },
+    {
+      "lemma": "search",
+      "pos": "verb",
+      "meaning": "To look for information, often online.",
+      "examples": [
+        "{Search} for a cheap hotel online."
+      ],
+      "wrong": [
+        "I searched for the answer by closing my eyes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look for"
+      ],
+      "ipa": "/sɝtʃ/"
+    },
+    {
+      "lemma": "link",
+      "pos": "noun",
+      "meaning": "A word or picture on a web page that takes you to another page.",
+      "examples": [
+        "Click the {link} to read more."
+      ],
+      "wrong": [
+        "A link is a kind of keyboard."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/lɪŋk/"
+    },
+    {
+      "lemma": "account",
+      "pos": "noun",
+      "meaning": "A set of details that lets you use a website or app.",
+      "examples": [
+        "I made a new email {account}."
+      ],
+      "wrong": [
+        "An account is the screen of your phone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "profile"
+      ],
+      "ipa": "/əˈkaʊnt/"
+    },
+    {
+      "lemma": "post",
+      "pos": "verb",
+      "meaning": "To put a message or photo online.",
+      "examples": [
+        "She {posted} a photo of her dog."
+      ],
+      "wrong": [
+        "I posted the photo, so nobody can see it online."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "upload"
+      ],
+      "ipa": "/poʊst/"
+    },
+    {
+      "lemma": "comment",
+      "pos": "noun",
+      "meaning": "Something you say or write that gives an opinion.",
+      "examples": [
+        "He left a nice {comment} under my video."
+      ],
+      "wrong": [
+        "A comment is a song without any words."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "remark"
+      ],
+      "ipa": "/ˈkɑmɛnt/"
+    },
+    {
+      "lemma": "follower",
+      "pos": "noun",
+      "meaning": "A person who chooses to see someone’s posts online.",
+      "examples": [
+        "She has a thousand {followers}."
+      ],
+      "wrong": [
+        "A follower is a person who never sees your posts."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfɑloʊɚ/"
+    },
+    {
+      "lemma": "podcast",
+      "pos": "noun",
+      "meaning": "A recorded talk show you can listen to online.",
+      "examples": [
+        "I listen to a science {podcast} on the bus."
+      ],
+      "wrong": [
+        "A podcast is a kind of printed magazine."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpɑdˌkæst/"
+    },
+    {
+      "lemma": "channel",
+      "pos": "noun",
+      "meaning": "A TV station, or a set of videos by one person online.",
+      "examples": [
+        "What’s on the other {channel}?"
+      ],
+      "wrong": [
+        "A channel is a kind of remote control."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "station"
+      ],
+      "ipa": "/ˈtʃænəl/"
+    },
+    {
+      "lemma": "newspaper",
+      "pos": "noun",
+      "meaning": "Large printed pages with news, sold every day.",
+      "examples": [
+        "My father reads the {newspaper} at breakfast."
+      ],
+      "wrong": [
+        "A newspaper is a radio show."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "paper"
+      ],
+      "ipa": "/ˈnuzˌpeɪpɚ/"
+    },
+    {
+      "lemma": "journalist",
+      "pos": "noun",
+      "meaning": "A person who writes news for a newspaper, website or TV.",
+      "examples": [
+        "A {journalist} asked the mayor some questions."
+      ],
+      "wrong": [
+        "A journalist is a person who never writes anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reporter"
+      ],
+      "ipa": "/ˈdʒɝnəlɪst/"
+    },
+    {
+      "lemma": "headline",
+      "pos": "noun",
+      "meaning": "The title of a news story, in large letters.",
+      "examples": [
+        "The {headline} said the team had won."
+      ],
+      "wrong": [
+        "A headline is the smallest text at the bottom of a page."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "title"
+      ],
+      "ipa": "/ˈhɛdˌlaɪn/"
+    },
+    {
+      "lemma": "article",
+      "pos": "noun",
+      "meaning": "A piece of writing in a newspaper or magazine.",
+      "examples": [
+        "I read an interesting {article} about sleep."
+      ],
+      "wrong": [
+        "An article is a kind of TV."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "story"
+      ],
+      "ipa": "/ˈɑrtɪkəl/"
+    },
+    {
+      "lemma": "broadcast",
+      "pos": "verb",
+      "meaning": "To send out a program on TV or radio.",
+      "examples": [
+        "The match will be {broadcast} live."
+      ],
+      "wrong": [
+        "They broadcast the show, so nobody could watch it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "air",
+        "transmit"
+      ],
+      "ipa": "/ˈbrɔdˌkæst/"
+    },
+    {
+      "lemma": "stream",
+      "pos": "verb",
+      "meaning": "To watch or listen to something online without downloading it.",
+      "examples": [
+        "We {stream} films on our TV."
+      ],
+      "wrong": [
+        "I streamed the film on a CD player with no internet."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/strim/"
+    },
+    {
+      "lemma": "program",
+      "pos": "noun",
+      "meaning": "A show on TV or radio; or a set of instructions for a computer.",
+      "examples": [
+        "My favorite {program} starts at eight."
+      ],
+      "wrong": [
+        "A program is a kind of fruit."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "show"
+      ],
+      "ipa": "/ˈproʊˌɡræm/"
+    },
+    {
+      "lemma": "log in",
+      "pos": "phrase",
+      "meaning": "To enter your name and password to use a website or app.",
+      "examples": [
+        "{Log in} with your email address."
+      ],
+      "wrong": [
+        "I logged in by turning off the computer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sign in"
+      ],
+      "ipa": "/ˌlɔɡ ˈɪn/",
+      "antonyms": [
+        "log out"
+      ]
+    },
+    {
+      "lemma": "text",
+      "pos": "verb",
+      "meaning": "To send a written message by phone.",
+      "examples": [
+        "{Text} me when you arrive."
+      ],
+      "wrong": [
+        "I texted her by shouting across the street."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "message"
+      ],
+      "ipa": "/tɛkst/"
+    },
+    {
+      "lemma": "notification",
+      "pos": "noun",
+      "meaning": "A message from an app that tells you something new.",
+      "examples": [
+        "I got a {notification} about the delivery."
+      ],
+      "wrong": [
+        "A notification is the charger for your phone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "alert"
+      ],
+      "ipa": "/ˌnoʊtəfəˈkeɪʃən/"
+    },
+    {
+      "lemma": "settings",
+      "pos": "noun",
+      "meaning": "The choices that control how a device or app works.",
+      "examples": [
+        "Change the language in {settings}."
+      ],
+      "wrong": [
+        "Settings is a kind of game you play online."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "options"
+      ],
+      "ipa": "/ˈsɛtɪŋz/"
+    },
+    {
+      "lemma": "click",
+      "pos": "verb",
+      "meaning": "To press a button on a mouse or touch a link.",
+      "examples": [
+        "{Click} here to start."
+      ],
+      "wrong": [
+        "I clicked the link with my foot on the floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tap"
+      ],
+      "ipa": "/klɪk/"
+    },
+    {
+      "lemma": "scroll",
+      "pos": "verb",
+      "meaning": "To move text up or down on a screen.",
+      "examples": [
+        "{Scroll} down to see more photos."
+      ],
+      "wrong": [
+        "I scrolled down the page of a paper book."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/skroʊl/"
+    },
+    {
+      "lemma": "offline",
+      "pos": "adjective",
+      "meaning": "Not connected to the internet.",
+      "examples": [
+        "You can use the map {offline}."
+      ],
+      "wrong": [
+        "I was offline, so I sent emails all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disconnected"
+      ],
+      "ipa": "/ˌɔfˈlaɪn/",
+      "antonyms": [
+        "online"
+      ]
+    },
+    {
+      "lemma": "viral",
+      "pos": "adjective",
+      "meaning": "Spreading quickly online to many people.",
+      "examples": [
+        "The video went {viral} in one day."
+      ],
+      "wrong": [
+        "The video went viral, so nobody saw it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈvaɪrəl/"
+    },
+    {
+      "lemma": "blog",
+      "pos": "noun",
+      "meaning": "A website where a person writes regularly about their life or ideas.",
+      "examples": [
+        "She writes a travel {blog}."
+      ],
+      "wrong": [
+        "A blog is a kind of mobile phone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/blɑɡ/"
+    },
+    {
+      "lemma": "subscribe",
+      "pos": "verb",
+      "meaning": "To sign up to get something regularly, like a magazine or channel.",
+      "examples": [
+        "{Subscribe} to get new videos every week."
+      ],
+      "wrong": [
+        "I subscribed to the channel, so I never get its videos."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sign up"
+      ],
+      "ipa": "/səbˈskraɪb/",
+      "antonyms": [
+        "unsubscribe"
+      ]
+    },
+    {
+      "lemma": "digital",
+      "pos": "adjective",
+      "meaning": "Using computers and electronic data.",
+      "examples": [
+        "I bought a {digital} camera."
+      ],
+      "wrong": [
+        "A digital clock has no electricity or screen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "electronic"
+      ],
+      "ipa": "/ˈdɪdʒətəl/",
+      "antonyms": [
+        "analog"
+      ]
+    },
+    {
+      "lemma": "wifi",
+      "pos": "noun",
+      "meaning": "A way of connecting to the internet without wires.",
+      "examples": [
+        "Is there free {wifi} in the hotel?"
+      ],
+      "wrong": [
+        "Wifi is a long cable you plug into the wall."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "wireless"
+      ],
+      "ipa": "/ˈwaɪˌfaɪ/"
+    },
+    {
+      "lemma": "screenshot",
+      "pos": "noun",
+      "meaning": "A picture of what is on your screen.",
+      "examples": [
+        "Send me a {screenshot} of the error."
+      ],
+      "wrong": [
+        "A screenshot is a broken screen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈskrinˌʃɑt/"
+    },
+    {
+      "lemma": "keyboard shortcut",
+      "pos": "noun",
+      "meaning": "A set of keys you press together to do something quickly.",
+      "examples": [
+        "Use a {keyboard shortcut} to copy text."
+      ],
+      "wrong": [
+        "A keyboard shortcut is the longest way to do something."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hotkey"
+      ],
+      "ipa": "/ˈkiˌbɔrd ˈʃɔrtˌkʌt/"
+    },
+    {
+      "lemma": "magazine",
+      "pos": "noun",
+      "meaning": "A thin book with articles and pictures, sold every week or month.",
+      "examples": [
+        "I read a fashion {magazine}."
+      ],
+      "wrong": [
+        "A magazine is a TV channel."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmæɡəˌzin/"
+    },
+    {
+      "lemma": "interview",
+      "pos": "verb",
+      "meaning": "To ask someone questions for a newspaper, TV or a job.",
+      "examples": [
+        "The journalist {interviewed} the singer."
+      ],
+      "wrong": [
+        "She interviewed him without asking a single question."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "question"
+      ],
+      "ipa": "/ˈɪntɚˌvju/"
+    },
+    {
+      "lemma": "news",
+      "pos": "noun",
+      "meaning": "Information about recent events.",
+      "examples": [
+        "Did you watch the {news} tonight?"
+      ],
+      "wrong": [
+        "The news is a report about things that will never happen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/nuz/"
+    },
+    {
+      "lemma": "audience",
+      "pos": "noun",
+      "meaning": "The people who watch or listen to a show.",
+      "examples": [
+        "The {audience} clapped at the end."
+      ],
+      "wrong": [
+        "The audience is the person who sings on stage."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "viewers"
+      ],
+      "ipa": "/ˈɔdiəns/"
+    },
+    {
+      "lemma": "advert",
+      "pos": "noun",
+      "meaning": "A short film or picture that tries to sell something.",
+      "examples": [
+        "There are too many {adverts} on TV."
+      ],
+      "wrong": [
+        "An advert is a news report with no products in it."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "ad",
+        "commercial"
+      ],
+      "ipa": "/ˈædˌvɝt/"
+    },
+    {
+      "lemma": "privacy",
+      "pos": "noun",
+      "meaning": "The right to keep your personal life secret.",
+      "examples": [
+        "Check the {privacy} settings on your account."
+      ],
+      "wrong": [
+        "Privacy means sharing everything about yourself with everyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpraɪvəsi/"
+    }
+  ]
+}

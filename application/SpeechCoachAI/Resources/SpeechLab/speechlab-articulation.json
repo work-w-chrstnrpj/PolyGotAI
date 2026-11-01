@@ -1,0 +1,656 @@
+{
+  "version": 1,
+  "credits": "Original SpeechCoachAI wording and tongue twisters, 2026-10-25. Minimal pairs use common English words and General American contrasts. Qualified speech review pending.",
+  "items": [
+    {
+      "id": "art-pair-1",
+      "title": "ship / sheep",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "ship",
+      "tip": "Keep the short vowel relaxed; hold the long one.",
+      "question": "Which word did you hear?",
+      "options": [
+        "ship",
+        "sheep"
+      ],
+      "answer": "ship"
+    },
+    {
+      "id": "art-pair-2",
+      "title": "live / leave",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "live",
+      "tip": "Relax the first vowel and lengthen the second.",
+      "question": "Which word did you hear?",
+      "options": [
+        "live",
+        "leave"
+      ],
+      "answer": "live"
+    },
+    {
+      "id": "art-pair-3",
+      "title": "thin / tin",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "thin",
+      "tip": "For thin, let air pass between tongue and teeth.",
+      "question": "Which word did you hear?",
+      "options": [
+        "thin",
+        "tin"
+      ],
+      "answer": "thin"
+    },
+    {
+      "id": "art-pair-4",
+      "title": "vest / best",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "vest",
+      "tip": "Use teeth and lip for v, and both lips for b.",
+      "question": "Which word did you hear?",
+      "options": [
+        "vest",
+        "best"
+      ],
+      "answer": "vest"
+    },
+    {
+      "id": "art-pair-5",
+      "title": "light / right",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "light",
+      "tip": "Touch the ridge for l; keep clear of it for r.",
+      "question": "Which word did you hear?",
+      "options": [
+        "light",
+        "right"
+      ],
+      "answer": "light"
+    },
+    {
+      "id": "art-pair-6",
+      "title": "bat / bet",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "bat",
+      "tip": "Open the jaw wider for bat.",
+      "question": "Which word did you hear?",
+      "options": [
+        "bat",
+        "bet"
+      ],
+      "answer": "bat"
+    },
+    {
+      "id": "art-pair-7",
+      "title": "cap / cup",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "cap",
+      "tip": "Move from a front vowel to a central one.",
+      "question": "Which word did you hear?",
+      "options": [
+        "cap",
+        "cup"
+      ],
+      "answer": "cap"
+    },
+    {
+      "id": "art-pair-8",
+      "title": "full / fool",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "full",
+      "tip": "Relax the vowel in full and round more for fool.",
+      "question": "Which word did you hear?",
+      "options": [
+        "full",
+        "fool"
+      ],
+      "answer": "full"
+    },
+    {
+      "id": "art-pair-9",
+      "title": "pull / pool",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "pull",
+      "tip": "Keep pull short and pool longer.",
+      "question": "Which word did you hear?",
+      "options": [
+        "pull",
+        "pool"
+      ],
+      "answer": "pull"
+    },
+    {
+      "id": "art-pair-10",
+      "title": "sit / seat",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "sit",
+      "tip": "Relax the tongue for sit and raise it for seat.",
+      "question": "Which word did you hear?",
+      "options": [
+        "sit",
+        "seat"
+      ],
+      "answer": "sit"
+    },
+    {
+      "id": "art-pair-11",
+      "title": "bit / beat",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "bit",
+      "tip": "Notice the change from a relaxed to a high vowel.",
+      "question": "Which word did you hear?",
+      "options": [
+        "bit",
+        "beat"
+      ],
+      "answer": "bit"
+    },
+    {
+      "id": "art-pair-12",
+      "title": "fan / van",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "fan",
+      "tip": "Keep the same mouth position and switch the voice on.",
+      "question": "Which word did you hear?",
+      "options": [
+        "fan",
+        "van"
+      ],
+      "answer": "fan"
+    },
+    {
+      "id": "art-pair-13",
+      "title": "sip / zip",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "sip",
+      "tip": "Use the same air path and turn the voice on for z.",
+      "question": "Which word did you hear?",
+      "options": [
+        "sip",
+        "zip"
+      ],
+      "answer": "sip"
+    },
+    {
+      "id": "art-pair-14",
+      "title": "coat / goat",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "coat",
+      "tip": "Release the back of the tongue with voice off, then on.",
+      "question": "Which word did you hear?",
+      "options": [
+        "coat",
+        "goat"
+      ],
+      "answer": "coat"
+    },
+    {
+      "id": "art-pair-15",
+      "title": "ten / den",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "ten",
+      "tip": "Touch the same ridge and change the voicing.",
+      "question": "Which word did you hear?",
+      "options": [
+        "ten",
+        "den"
+      ],
+      "answer": "ten"
+    },
+    {
+      "id": "art-pair-16",
+      "title": "pat / bat",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "pat",
+      "tip": "Release both lips, changing only the voicing.",
+      "question": "Which word did you hear?",
+      "options": [
+        "pat",
+        "bat"
+      ],
+      "answer": "pat"
+    },
+    {
+      "id": "art-pair-17",
+      "title": "rice / rise",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "rice",
+      "tip": "Keep the ending voiceless in rice and voiced in rise.",
+      "question": "Which word did you hear?",
+      "options": [
+        "rice",
+        "rise"
+      ],
+      "answer": "rice"
+    },
+    {
+      "id": "art-pair-18",
+      "title": "cheap / jeep",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "cheap",
+      "tip": "Change the voicing while keeping the stop-and-release shape.",
+      "question": "Which word did you hear?",
+      "options": [
+        "cheap",
+        "jeep"
+      ],
+      "answer": "cheap"
+    },
+    {
+      "id": "art-pair-19",
+      "title": "sink / think",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "sink",
+      "tip": "Move the tongue tip toward the teeth for think.",
+      "question": "Which word did you hear?",
+      "options": [
+        "sink",
+        "think"
+      ],
+      "answer": "sink"
+    },
+    {
+      "id": "art-pair-20",
+      "title": "chop / shop",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "chop",
+      "tip": "Start chop with a brief stop; let shop flow.",
+      "question": "Which word did you hear?",
+      "options": [
+        "chop",
+        "shop"
+      ],
+      "answer": "chop"
+    },
+    {
+      "id": "art-pair-21",
+      "title": "back / bag",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "back",
+      "tip": "Keep the final consonant clear without adding a vowel.",
+      "question": "Which word did you hear?",
+      "options": [
+        "back",
+        "bag"
+      ],
+      "answer": "back"
+    },
+    {
+      "id": "art-pair-22",
+      "title": "luck / lock",
+      "category": "Minimal pairs",
+      "grade": "Short",
+      "text": "luck",
+      "tip": "Use a central vowel in luck and an open back vowel in lock.",
+      "question": "Which word did you hear?",
+      "options": [
+        "luck",
+        "lock"
+      ],
+      "answer": "luck"
+    },
+    {
+      "id": "art-ending-1",
+      "title": "cats",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "cats",
+      "tip": "After a voiceless sound, use a light /s/ ending.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/s/",
+        "/z/",
+        "/ɪz/"
+      ],
+      "answer": "/s/"
+    },
+    {
+      "id": "art-ending-2",
+      "title": "dogs",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "dogs",
+      "tip": "After a voiced sound, keep the voice on for /z/.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/s/",
+        "/z/",
+        "/ɪz/"
+      ],
+      "answer": "/z/"
+    },
+    {
+      "id": "art-ending-3",
+      "title": "buses",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "buses",
+      "tip": "After a hissing sound, add a short syllable.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/s/",
+        "/z/",
+        "/ɪz/"
+      ],
+      "answer": "/ɪz/"
+    },
+    {
+      "id": "art-ending-4",
+      "title": "walked",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "walked",
+      "tip": "After a voiceless sound, say a short /t/ ending.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "answer": "/t/"
+    },
+    {
+      "id": "art-ending-5",
+      "title": "played",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "played",
+      "tip": "After a voiced sound, keep a short voiced /d/.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "answer": "/d/"
+    },
+    {
+      "id": "art-ending-6",
+      "title": "wanted",
+      "category": "Word endings",
+      "grade": "Short",
+      "text": "wanted",
+      "tip": "After /t/ or /d/, add a short syllable.",
+      "question": "Which ending did you hear?",
+      "options": [
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "answer": "/ɪd/"
+    },
+    {
+      "id": "art-link-1",
+      "title": "next step",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "next step",
+      "tip": "Keep the /kst/ cluster together without an extra vowel.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "next step",
+        "neck step"
+      ],
+      "answer": "next step"
+    },
+    {
+      "id": "art-link-2",
+      "title": "asked twice",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "asked twice",
+      "tip": "Keep the final /kt/ before the next word.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "asked twice",
+        "ask twice"
+      ],
+      "answer": "asked twice"
+    },
+    {
+      "id": "art-link-3",
+      "title": "an apple",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "an apple",
+      "tip": "Link the final n smoothly into the next vowel.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "an apple",
+        "a nap"
+      ],
+      "answer": "an apple"
+    },
+    {
+      "id": "art-link-4",
+      "title": "turn it off",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "turn it off",
+      "tip": "Carry the final consonants into the following vowels.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "turn it off",
+        "turn the top"
+      ],
+      "answer": "turn it off"
+    },
+    {
+      "id": "art-link-5",
+      "title": "fresh bread",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "fresh bread",
+      "tip": "Keep the /br/ cluster clear.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "fresh bread",
+        "fresh bed"
+      ],
+      "answer": "fresh bread"
+    },
+    {
+      "id": "art-link-6",
+      "title": "last train",
+      "category": "Clusters & linking",
+      "grade": "Medium",
+      "text": "last train",
+      "tip": "Keep the /t/ as you move into /tr/.",
+      "question": "Which phrase did you hear?",
+      "options": [
+        "last train",
+        "last rain"
+      ],
+      "answer": "last train"
+    },
+    {
+      "id": "art-twister-1",
+      "title": "Short twister 1",
+      "category": "Tongue twisters",
+      "grade": "Short",
+      "text": "Blue birds bring bright berries.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Blue birds bring bright berries.",
+        "Blue birds bring brown berries."
+      ],
+      "answer": "Blue birds bring bright berries."
+    },
+    {
+      "id": "art-twister-2",
+      "title": "Short twister 2",
+      "category": "Tongue twisters",
+      "grade": "Short",
+      "text": "Fresh fish fill five bowls.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Fresh fish fill five bowls.",
+        "Fresh fish fill four bowls."
+      ],
+      "answer": "Fresh fish fill five bowls."
+    },
+    {
+      "id": "art-twister-3",
+      "title": "Short twister 3",
+      "category": "Tongue twisters",
+      "grade": "Short",
+      "text": "Red rugs roll right.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Red rugs roll right.",
+        "Red bags roll right."
+      ],
+      "answer": "Red rugs roll right."
+    },
+    {
+      "id": "art-twister-4",
+      "title": "Short twister 4",
+      "category": "Tongue twisters",
+      "grade": "Short",
+      "text": "Tiny turtles tap tables.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Tiny turtles tap tables.",
+        "Tiny turtles tap tiles."
+      ],
+      "answer": "Tiny turtles tap tables."
+    },
+    {
+      "id": "art-twister-5",
+      "title": "Medium twister 1",
+      "category": "Tongue twisters",
+      "grade": "Medium",
+      "text": "Seven sleepy sailors slowly sew soft sails.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Seven sleepy sailors slowly sew soft sails.",
+        "Seven sleepy sailors slowly sell soft sails."
+      ],
+      "answer": "Seven sleepy sailors slowly sew soft sails."
+    },
+    {
+      "id": "art-twister-6",
+      "title": "Medium twister 2",
+      "category": "Tongue twisters",
+      "grade": "Medium",
+      "text": "Brave brown bears bring bread before breakfast.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Brave brown bears bring bread before breakfast.",
+        "Brave brown bears bring bread after breakfast."
+      ],
+      "answer": "Brave brown bears bring bread before breakfast."
+    },
+    {
+      "id": "art-twister-7",
+      "title": "Medium twister 3",
+      "category": "Tongue twisters",
+      "grade": "Medium",
+      "text": "Three thin threads twist through the thick cloth.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Three thin threads twist through the thick cloth.",
+        "Three thin threads twist through the thin cloth."
+      ],
+      "answer": "Three thin threads twist through the thick cloth."
+    },
+    {
+      "id": "art-twister-8",
+      "title": "Medium twister 4",
+      "category": "Tongue twisters",
+      "grade": "Medium",
+      "text": "Quick quiet quails cross the cool courtyard.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Quick quiet quails cross the cool courtyard.",
+        "Quick quiet quails cross the warm courtyard."
+      ],
+      "answer": "Quick quiet quails cross the cool courtyard."
+    },
+    {
+      "id": "art-twister-9",
+      "title": "Long twister 1",
+      "category": "Tongue twisters",
+      "grade": "Long",
+      "text": "Nina neatly knots nine narrow ribbons while Nora numbers nineteen new notebooks.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Nina neatly knots nine narrow ribbons while Nora numbers nineteen new notebooks.",
+        "Nina neatly knots nine narrow ribbons while Nora numbers ninety new notebooks."
+      ],
+      "answer": "Nina neatly knots nine narrow ribbons while Nora numbers nineteen new notebooks."
+    },
+    {
+      "id": "art-twister-10",
+      "title": "Long twister 2",
+      "category": "Tongue twisters",
+      "grade": "Long",
+      "text": "Green grapes grow beside gray gates where graceful gardeners gather golden garden tools.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Green grapes grow beside gray gates where graceful gardeners gather golden garden tools.",
+        "Green grapes grow beside gray gates where grateful gardeners gather golden garden tools."
+      ],
+      "answer": "Green grapes grow beside gray gates where graceful gardeners gather golden garden tools."
+    },
+    {
+      "id": "art-twister-11",
+      "title": "Long twister 3",
+      "category": "Tongue twisters",
+      "grade": "Long",
+      "text": "Small striped snakes slide slowly past six smooth stones beside the silent stream.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Small striped snakes slide slowly past six smooth stones beside the silent stream.",
+        "Small striped snakes slide slowly past seven smooth stones beside the silent stream."
+      ],
+      "answer": "Small striped snakes slide slowly past six smooth stones beside the silent stream."
+    },
+    {
+      "id": "art-twister-12",
+      "title": "Long twister 4",
+      "category": "Tongue twisters",
+      "grade": "Long",
+      "text": "Bright blue butterflies brush broad branches before Brenda brings breakfast back to the bridge.",
+      "tip": "Start slowly, keep each sound clear, then build a steady rhythm.",
+      "question": "Which line did you hear?",
+      "options": [
+        "Bright blue butterflies brush broad branches before Brenda brings breakfast back to the bridge.",
+        "Bright blue butterflies brush broad branches before Brenda brings breakfast back to the beach."
+      ],
+      "answer": "Bright blue butterflies brush broad branches before Brenda brings breakfast back to the bridge."
+    }
+  ]
+}

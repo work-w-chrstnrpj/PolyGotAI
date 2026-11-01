@@ -12,12 +12,12 @@ struct OnlineReviewSection: View {
             Text("Optional online guidance").font(.headline)
             if online.isBusy {
                 ProgressView("Waiting for provider")
-                Button("Cancel request") { online.cancel() }.buttonStyle(.bordered)
+                Button("Cancel request") { online.cancel() }.buttonStyle(KitSecondaryButtonStyle())
                 Text("Cancellation stops local waiting. Remote processing and charges may continue.").font(.footnote)
             } else {
                 Button(online.original == nil ? "Transcribe this take" : "Request transcription again") {
                     stage = .transcription; showSubmission = true
-                }.buttonStyle(.bordered).accessibilityIdentifier("online.transcribe")
+                }.buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("online.transcribe")
                 if !online.canSubmit {
                     Text(online.scope == nil ? "Set up your own provider key in Profile & settings. Recording and self-review work without one." : SpeakingProviderError.verificationRequired.message)
                         .font(.callout).foregroundStyle(Kit.secondary)
@@ -33,8 +33,9 @@ struct OnlineReviewSection: View {
                     .frame(minHeight: verticalSize == .compact ? 96 : 180)
                     .padding(8).background(Kit.soft, in: RoundedRectangle(cornerRadius: 12))
                     .accessibilityLabel("Transcript to confirm").accessibilityIdentifier("online.transcript")
+                    .dictation($online.editedText)
                     .disabled(online.isBusy)
-                Button("Confirm this text") { online.confirm() }.buttonStyle(.bordered)
+                Button("Confirm this text") { online.confirm() }.buttonStyle(KitSecondaryButtonStyle())
                     .disabled(online.isBusy).accessibilityIdentifier("online.confirm")
                 if let confirmed = online.currentConfirmed {
                     Text("Confirmed revision \(confirmed.revision)").font(.caption)
@@ -42,7 +43,7 @@ struct OnlineReviewSection: View {
                     Toggle("Expanded detail (up to five actions)", isOn: $online.expanded).disabled(online.isBusy)
                     Button(online.currentFeedback == nil ? "Review coaching request" : "Request new coaching") {
                         stage = .coaching; showSubmission = true
-                    }.buttonStyle(.bordered)
+                    }.buttonStyle(KitSecondaryButtonStyle())
                         .disabled(online.isBusy || confirmed.text != online.editedText)
                         .accessibilityIdentifier("online.coach")
                 }
@@ -64,10 +65,10 @@ struct OnlineReviewSection: View {
                         if online.canSubmit {
                             Button(stage == .transcription ? "Send voice for transcription" : "Send text for coaching") {
                                 showSubmission = false; online.submit(stage)
-                            }.buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                            }.buttonStyle(KitPrimaryButtonStyle())
                                 .accessibilityIdentifier("online.send")
                         } else { Text(SpeakingProviderError.verificationRequired.message).foregroundStyle(Kit.secondary) }
-                        Button("Keep practicing offline") { showSubmission = false }.buttonStyle(.bordered)
+                        Button("Keep practicing offline") { showSubmission = false }.buttonStyle(KitSecondaryButtonStyle())
                     }.padding(20).frame(maxWidth: 700).frame(maxWidth: .infinity)
                 }.background(Kit.canvas(background)).foregroundStyle(Kit.ink)
                     .navigationTitle("Before you send").navigationBarTitleDisplayMode(.inline)

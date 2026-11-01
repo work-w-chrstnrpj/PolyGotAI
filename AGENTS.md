@@ -10,7 +10,7 @@ Help learners improve English grammar, vocabulary, reading, listening, pronuncia
 
 ## Project Overview
 
-SpeechCoachAI is a native iPhone/iPad English learning app, built first for the owner and possibly shared later. **Current direction: v2 (since 2026-10-25).** Read [docs/history-version.md](docs/history-version.md) to see why v2 replaced v1.
+PolyGotAI (previously SpeechCoachAI) is a native iPhone/iPad English learning app, built first for the owner and possibly shared later. The repository folder, Xcode target and bundle identifier retain their existing names for compatibility. **Current direction: v2 (since 2026-10-25).** Read [docs/history-version.md](docs/history-version.md) to see why v2 replaced v1.
 
 - **Tabs, in order:** Today | Lexicon | Lesson | Speech Lab | Progress.
 - **Lesson:** CEFR course A1–C2 (hosted by the Teacher) plus 10 coach tracks: Grammarian; Reading & Listening Comprehension; Debater & Argument; Persuasion & Negotiation; Public Speaking & Rhetoric; Journalist; Creative Writing; Business & Professional; Storytelling; Advertising & Copywriting. See [coach tracks](docs/product-specification/coach-tracks.md).
@@ -41,10 +41,11 @@ Update this map whenever the project structure changes.
 
 - `application/SpeechCoachAI/App/`: app entry and `LearnerStorageController`.
 - `application/SpeechCoachAI/Domain/`: pure Swift models and rules (catalog, journeys, vocabulary, FSRS scheduling, rewards, recommendations; v2: answer checking, exercise sessions, voice metrics).
-- `application/SpeechCoachAI/Infrastructure/`: Persistence (SwiftData, repository, private files), Curriculum loader, Credentials (Keychain), Providers (gated online clients), Audio; v2: Speech.
-- `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn, Vocabulary, Recording, Progress, Rewards, Settings, Resources, Shared design system; v1 Conversation, Communication and GeneratedPractice are being moved or hidden in v2).
-- `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog.
+- `application/SpeechCoachAI/Infrastructure/`: Persistence (SwiftData, `LearnerRepository` split into `+Area` extension files, private files), Curriculum loader, Credentials (Keychain), Providers (gated online clients), Audio; v2: Speech.
+- `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn (shared topic-reading player and `LessonReadingPage`), Vocabulary, Recording, Progress, Rewards, Settings, Resources, SpeechLab (Lab: Talk, Speaking, Spelling, Timed tests, Videos, Voice; Pronunciation is a Lesson coach since Phase 12, with the say-it `SpeakAnswerView` in Learn/Exercises), Talk (AI conversation), Today, Feedback, Shared: `Theme.swift` tokens and `DesignSystem.swift` components).
+- `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog, and the layered `PolyGotAI.icon` Icon Composer document (source vectors and branding notes: `assets/branding/polygotai/`).
 - `application/SpeechCoachAITests/`, `application/SpeechCoachAIUITests/`: tests. `application/Vendor/swift-fsrs/`: pinned FSRS-6. `application/.build/`: ignored build output and backups.
+- `.github/workflows/release.yml`, `.github/scripts/`: release on merge of `development` into `main` (version and grouped notes).
 - `tools/native/verify.sh`: build and run all tests. `tools/curriculum/`: content authoring and validation scripts. `tools/figma-local-helper/`: Figma plugin for the design kit (not app code).
 - `assets/awards/v1/`: adopted award artwork.
 - `docs/`: current docs (index: `docs/README.md`); `docs/history/v1/` holds archived v1 tickets, milestones, evidence and old specs (reference only).
@@ -89,7 +90,7 @@ Update this map whenever the project structure changes.
 
 ## Git And PR Rules
 
-- The project is a Git repository: `https://github.com/work-w-chrstnrpj/PolyGotAI` (branch `main`, **public**). Commit only when the owner asks. Never commit secrets, keys, learner data, `application/.build/` or signing files. Push only when the owner asks; don't force-push or rewrite history.
+- The project is a Git repository: `https://github.com/work-w-chrstnrpj/PolyGotAI` (branches `development` for work and `main` for releases, **public**; merging `development` into `main` publishes a release, see `docs/commands/commands.md`). Commit only when the owner asks. Never commit secrets, keys, learner data, `application/.build/` or signing files. Push only when the owner asks; don't force-push or rewrite history.
 - Back up a file before a risky rewrite (copy it to `application/.build/backup/`).
 - Do not revert other people's changes unless explicitly asked.
 - Avoid destructive operations without explicit approval.

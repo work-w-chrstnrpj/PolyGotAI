@@ -19,8 +19,18 @@ struct TrackContentTests {
     @Test func authoredCoachesLoadInOrder() {
         #expect(install.tracks.tracks.map(\.coach) == TrackCoach.allCases)
         for track in install.tracks.tracks {
-            #expect(track.stages.flatMap(\.units).count == 2, "\(track.id) has 2 units")
-            #expect(track.lessons.count == 8, "\(track.id) has 8 lessons")
+            // Grammarian and Reading & Listening start at A1 (Starter); every coach then has Foundation, Intermediate and Advanced.
+            let starts = [TrackCoach.grammarian, .readingListening].contains(track.coach)
+            let expected = starts ? ["starter", "foundation", "intermediate", "advanced"] : ["foundation", "intermediate", "advanced"]
+            #expect(track.stages.map(\.id) == expected, "\(track.id) stages")
+            if track.coach == .grammarian {
+                // Phase 13 consolidates the syllabus by topic; 2026-10-30 adds 21 written topics (46 in all).
+                #expect(track.stages.map(\.units.count) == [3, 4, 4, 4], "grammarian units per stage")
+                #expect(track.lessons.count == 46, "grammarian topic count")
+            } else {
+                #expect(track.stages.allSatisfy { $0.units.count == 2 }, "\(track.id) has 2 units per stage")
+                #expect(track.lessons.count == expected.count * 4, "\(track.id) has 4 topic lessons per stage")
+            }
         }
     }
 
@@ -63,5 +73,31 @@ struct TrackContentTests {
         let ids = install.tracks.lessons.map(\.id)
         #expect(Set(ids).count == ids.count)
         #expect(Set(ids).isDisjoint(with: Set(install.lessons.map(\.id))))
+    }
+}
+
+/// Phase 11: the Grammarian covers the core grammar syllabus.
+struct GrammarianSyllabusTests {
+    private let install = CurriculumCatalogLoader.bundled
+
+    @Test func theSyllabusTopicsArePresent() throws {
+        let track = try #require(install.tracks.track(id: "grammarian"))
+        let titles = Set(track.lessons.map(\.title))
+        for topic in ["Nouns", "Pronouns", "Articles and determiners", "Adjectives and comparisons", "Adverbs",
+                      "Conjunctions and interjections", "Verbs", "Phrases, clauses and sentence structures",
+                      "Agreement and complete sentences", "Tenses", "Punctuation", "Mood and emphasis", "Modifiers and parallel structure"] {
+            #expect(titles.contains(topic), "missing \(topic)")
+        }
+    }
+
+    /// A wrong option the answer checker reads the same as the right one would be marked correct.
+    @Test func noChoiceHasTwoOptionsTheCheckerCannotTellApart() {
+        for lesson in install.tracks.lessons + install.lessons {
+            for activity in lesson.practiceActivities {
+                guard let options = activity.exercise?.options, activity.exercise?.type == "choice" else { continue }
+                let normalized = options.map(AnswerChecker.normalize)
+                #expect(Set(normalized).count == normalized.count, "\(activity.id): \(options)")
+            }
+        }
     }
 }

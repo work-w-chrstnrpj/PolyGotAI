@@ -12,7 +12,7 @@ The owner's biggest difficulties: finding words while speaking, building correct
 
 | Tab | Purpose | Contents |
 | --- | --- | --- |
-| **Today** | The next thing to do | One "continue" card, the Daily Lexicon (word of the day), words due for review, streak and XP |
+| **Today** | The next thing to do | One "continue" card, the Daily Lexicon (one word a day), words due for review, streak and XP |
 | **Lexicon** | Words | Spaced-repetition word training, Lexicon in Action, Specialized Lexicon Training ([lexicon.md](lexicon.md)) |
 | **Lesson** | Structured lessons | **Course**: CEFR A1–C2, hosted by the Teacher. **Coaches**: 10 specialist tracks ([coach-tracks.md](coach-tracks.md)) |
 | **Speech Lab** | Speaking and sound | Introduction recording, Conversation, Interview, Communication practice, plus Phonetics, Articulation, Dictation, Voice ([speech-lab.md](speech-lab.md)) |
@@ -24,15 +24,19 @@ Settings (profile button): appearance, background, default coach, reminders, rew
 
 ## The lesson experience
 
-Every lesson, in the course or a coach track, follows the same pattern:
+The CEFR course keeps the following pattern. Coach tracks use the Phase 13 topic format described below.
 
-1. **Coach tip.** 2–4 sentences that teach one idea, with an example.
+1. **Coach tip.** 2–6 sentences that teach one idea, with an example.
 2. **Exercises (8–15).** Auto-checked and quick: multiple choice, tap words to build a sentence, fill in the blank, match pairs, listen and type, speak the sentence.
 3. **Instant feedback** after each answer: ✅ correct, 🟡 almost (spelling or a small slip), ❌ not quite, followed by the correct answer and a one-line reason.
 4. **Your turn.** One open task (write or speak) using the lesson's skill. You review it yourself now, and an AI coach can review it online later.
 5. **Finish.** XP, accuracy, and words to keep.
 
 Mistakes come back at the end of the lesson and in later review. A lesson takes about 3–6 minutes.
+
+### Coach topic lessons (Phase 13)
+
+All ten coaches use fuller topic lessons: reading pages and worked examples, followed by 15–18 checked exercises and one open task. Related micro-lessons are consolidated (for example, Nouns covers common/proper nouns, plurals, noun kinds and countability). Reading position and exercise answers survive leaving and relaunching; contents supports rereading. The 137 new topics have separate progress identities; 296 retired lessons remain available for saved attempts. See [coach tracks](coach-tracks.md).
 
 ## Lexicon
 
@@ -65,7 +69,7 @@ Keeps Conversation, Interview and Communication practice and adds four sound-and
 - **Offline first.** Lessons, exercises, vocabulary review, recording, dictation and phonetics work without a network.
 - **BYOK for online AI.** The learner adds their own provider key (stored in Apple Keychain), and usage is billed to the learner's provider account. No key is needed for offline features. Cost and privacy disclosures appear in Provider settings before the first online request.
 - **Privacy.** Learner data stays on the device. Nothing uploads automatically; audio leaves the device only after an explicit request for online feedback.
-- **Rewards** reward participation (XP, streak, gold, badges). Rewards never block learning content. See [rewards](celebrations-badges-and-rewards.md) and the [achievement catalog](achievement-catalog.md).
+- **Rewards** reward participation (XP and a level, streak, badges, milestones; no gold since 2026-10-26). Rewards never block learning content. See [rewards](celebrations-badges-and-rewards.md) and the [achievement catalog](achievement-catalog.md).
 - **Honest claims.** The app never claims official certification or measured pronunciation scores. It says so once, in About, and not as a caveat on each screen.
 
 ## UI copy rules

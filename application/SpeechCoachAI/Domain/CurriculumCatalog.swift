@@ -44,6 +44,7 @@ struct CurriculumLesson: Codable, Equatable, Identifiable {
     var senses: [CurriculumSense]
     var supplement: CurriculumSupplement? = nil
     /// v2: the coach tip shown before the exercises (2–4 sentences).
+    var reading: [LessonReading]? = nil
     var tip: String? = nil
     /// v2: `course` or a coach track id, and the unit inside it.
     var trackId: String? = nil
@@ -63,7 +64,7 @@ struct CurriculumLesson: Codable, Equatable, Identifiable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case id, contentVersion, level, title, objectiveId, activities, senses, supplement, tip, trackId, unitId, sources
+        case id, contentVersion, level, title, objectiveId, activities, senses, supplement, tip, trackId, unitId, sources, reading
     }
 
     init(from decoder: Decoder) throws {
@@ -76,6 +77,7 @@ struct CurriculumLesson: Codable, Equatable, Identifiable {
         activities = try container.decode([CurriculumActivity].self, forKey: .activities)
         senses = try container.decodeIfPresent([CurriculumSense].self, forKey: .senses) ?? []
         supplement = try container.decodeIfPresent(CurriculumSupplement.self, forKey: .supplement)
+        reading = try container.decodeIfPresent([LessonReading].self, forKey: .reading)
         tip = try container.decodeIfPresent(String.self, forKey: .tip)
         trackId = try container.decodeIfPresent(String.self, forKey: .trackId)
         unitId = try container.decodeIfPresent(String.self, forKey: .unitId)
@@ -92,6 +94,7 @@ struct CurriculumLesson: Codable, Equatable, Identifiable {
         try container.encode(activities, forKey: .activities)
         try container.encode(senses, forKey: .senses)
         try container.encodeIfPresent(supplement, forKey: .supplement)
+        try container.encodeIfPresent(reading, forKey: .reading)
         try container.encodeIfPresent(tip, forKey: .tip)
         try container.encodeIfPresent(trackId, forKey: .trackId)
         try container.encodeIfPresent(unitId, forKey: .unitId)
@@ -233,6 +236,9 @@ struct InspectedAsset: Equatable {
 }
 
 struct ResolvedLesson: Equatable, Identifiable {
+    /// The v1 introduction lesson. It is not part of the CEFR course.
+    var isIntroduction: Bool { objectiveId == "INTRO-01" || id.hasPrefix("intro-") }
+
     var id: String
     var level: String
     var title: String
@@ -244,6 +250,7 @@ struct ResolvedLesson: Equatable, Identifiable {
     var supplement: CurriculumSupplement? = nil
     var reservedActivities: [CurriculumActivity] = []
     /// v2: coach tip and track placement. Nil for lessons that predate them.
+    var reading: [LessonReading]? = nil
     var tip: String? = nil
     var trackId: String? = nil
     var unitId: String? = nil
@@ -339,7 +346,7 @@ enum CurriculumAvailability {
                               senses: ready ? CurriculumSense.normalized(lesson.senses) : [],
                               supplement: ready ? lesson.supplement : nil,
                               reservedActivities: ready ? lesson.activities.filter { $0.withheldFromPractice == true } : [],
-                              tip: lesson.tip, trackId: lesson.trackId, unitId: lesson.unitId, sources: lesson.sources)
+                              reading: ready ? lesson.reading : nil, tip: lesson.tip, trackId: lesson.trackId, unitId: lesson.unitId, sources: lesson.sources)
     }
 
     private static func availability(
@@ -358,6 +365,10 @@ enum CurriculumAvailability {
             return .unavailable(.duplicateIdentity(activityID))
         }
         if CurriculumSense.problem(in: lesson.senses) != nil { return .unavailable(.incompleteActivity("vocabulary")) }
+        if let reading = lesson.reading {
+            guard (1...24).contains(reading.count), reading.allSatisfy(\.isValid),
+                  Set(reading.map(\.id)).count == reading.count else { return .unavailable(.malformedMetadata("reading")) }
+        }
         if let supplement = lesson.supplement {
             let text = [supplement.teaching, supplement.pronunciation, supplement.workplace, supplement.reviewNotice]
             if text.contains(where: { $0.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty })

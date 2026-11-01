@@ -10,7 +10,7 @@ struct ResourceEditorView: View {
 
     var body: some View {
         NavigationStack {
-            Form {
+            Form { KitRows {
                 if storage.resourceDraft != nil {
                     Section("Bookmark") {
                         field("Title", key: \.title, id: "title")
@@ -25,6 +25,7 @@ struct ResourceEditorView: View {
                     Section {
                         TextEditor(text: binding(\.notes)).frame(minHeight: 140)
                             .accessibilityLabel("Personal notes").accessibilityIdentifier("resources.editor.notes")
+                            .dictation(binding(\.notes))
                     } header: { Text("Personal notes, optional") }
                     Section {
                         Text("No thumbnail or page content is downloaded. A saved link does not make the website available offline.")
@@ -37,7 +38,7 @@ struct ResourceEditorView: View {
                     Text(resetMessage ?? "This draft is no longer available. Return to the library to start again.")
                         .accessibilityIdentifier("resources.editor.reset")
                 }
-            }
+            }}
             .navigationTitle(storage.resourceDraft?.original == nil ? "Add resource" : "Edit resource")
             .navigationBarTitleDisplayMode(.inline)
             .foregroundStyle(Kit.ink)
@@ -74,6 +75,7 @@ struct ResourceEditorView: View {
             Text(title).font(.caption).foregroundStyle(Kit.secondary)
             TextField(title, text: binding(key), axis: .vertical)
                 .accessibilityLabel(title).accessibilityIdentifier("resources.editor.\(id)")
+                .dictation(binding(key))
         }
     }
 

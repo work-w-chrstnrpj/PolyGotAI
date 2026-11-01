@@ -1,0 +1,605 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-daily-routine",
+    "title": "Daily routine",
+    "level": "A1",
+    "tagline": "Your day from morning to night",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "brush",
+      "pos": "verb",
+      "meaning": "To clean teeth or make hair neat with a tool that has many hairs.",
+      "examples": [
+        "I {brush} my teeth after breakfast."
+      ],
+      "wrong": [
+        "I brush my teeth with a spoon of sugar to make them dirty."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "clean"
+      ],
+      "ipa": "/brʌʃ/"
+    },
+    {
+      "lemma": "toothbrush",
+      "pos": "noun",
+      "meaning": "A small tool you use to clean your teeth.",
+      "examples": [
+        "My {toothbrush} is blue."
+      ],
+      "wrong": [
+        "I comb the dog’s hair with my toothbrush and eat soup with it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtuθˌbrʌʃ/"
+    },
+    {
+      "lemma": "toothpaste",
+      "pos": "noun",
+      "meaning": "Soft paste you put on a brush to clean your teeth.",
+      "examples": [
+        "Put a little {toothpaste} on your brush."
+      ],
+      "wrong": [
+        "I put toothpaste on my bread for lunch."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈtuθˌpeɪst/"
+    },
+    {
+      "lemma": "comb",
+      "pos": "noun",
+      "meaning": "A flat tool with thin teeth that makes your hair neat.",
+      "examples": [
+        "She keeps a {comb} in her bag."
+      ],
+      "wrong": [
+        "I eat my rice with a comb."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/koʊm/"
+    },
+    {
+      "lemma": "hairbrush",
+      "pos": "noun",
+      "meaning": "A brush you use to make your hair tidy.",
+      "examples": [
+        "Where is my {hairbrush}?"
+      ],
+      "wrong": [
+        "I clean my teeth with my hairbrush."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhɛrˌbrʌʃ/"
+    },
+    {
+      "lemma": "get dressed",
+      "pos": "phrase",
+      "meaning": "To put your clothes on.",
+      "examples": [
+        "I {get dressed} after my shower."
+      ],
+      "wrong": [
+        "I get dressed by taking all my clothes off."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt ˈdrɛst/",
+      "antonyms": [
+        "get undressed"
+      ]
+    },
+    {
+      "lemma": "take a shower",
+      "pos": "phrase",
+      "meaning": "To wash your body under falling water.",
+      "examples": [
+        "I {take a shower} every morning."
+      ],
+      "wrong": [
+        "I take a shower and stay totally dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈteɪk ə ˈʃaʊɚ/"
+    },
+    {
+      "lemma": "have breakfast",
+      "pos": "phrase",
+      "meaning": "To eat the first meal of the day.",
+      "examples": [
+        "We {have breakfast} at seven."
+      ],
+      "wrong": [
+        "I have breakfast just before I go to bed at night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhæv ˈbrɛkfəst/"
+    },
+    {
+      "lemma": "go to bed",
+      "pos": "phrase",
+      "meaning": "To lie down to sleep at night.",
+      "examples": [
+        "The children {go to bed} at eight."
+      ],
+      "wrong": [
+        "I go to bed when I wake up in the morning."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ tə ˈbɛd/",
+      "antonyms": [
+        "get up"
+      ]
+    },
+    {
+      "lemma": "go to work",
+      "pos": "phrase",
+      "meaning": "To travel to the place where you have your job.",
+      "examples": [
+        "My dad {goes to work} by bus."
+      ],
+      "wrong": [
+        "She goes to work, so she stays home all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ tə ˈwɝk/"
+    },
+    {
+      "lemma": "go to school",
+      "pos": "phrase",
+      "meaning": "To travel to school or be a student there.",
+      "examples": [
+        "I {go to school} at eight o’clock."
+      ],
+      "wrong": [
+        "My baby brother goes to school, but he is one month old."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ tə ˈskul/"
+    },
+    {
+      "lemma": "go home",
+      "pos": "phrase",
+      "meaning": "To travel back to the place where you live.",
+      "examples": [
+        "After work, I {go home} and rest."
+      ],
+      "wrong": [
+        "I go home to a hotel I have never seen."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɡoʊ ˈhoʊm/"
+    },
+    {
+      "lemma": "alarm clock",
+      "pos": "noun",
+      "meaning": "A clock that makes a loud noise to wake you up.",
+      "examples": [
+        "My {alarm clock} rings at six."
+      ],
+      "wrong": [
+        "My alarm clock helps me fall asleep."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈlɑrm ˌklɑk/"
+    },
+    {
+      "lemma": "shave",
+      "pos": "verb",
+      "meaning": "To cut hair off your face or body with a sharp tool.",
+      "examples": [
+        "Dad {shaves} every morning."
+      ],
+      "wrong": [
+        "He shaved his beard, so now it is very long."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃeɪv/"
+    },
+    {
+      "lemma": "make the bed",
+      "pos": "phrase",
+      "meaning": "To put the sheets and blankets on a bed neatly.",
+      "examples": [
+        "I {make the bed} after I get up."
+      ],
+      "wrong": [
+        "I make the bed by throwing the blankets on the floor."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈmeɪk ðə ˈbɛd/"
+    },
+    {
+      "lemma": "afternoon",
+      "pos": "noun",
+      "meaning": "The part of the day after twelve and before evening.",
+      "examples": [
+        "I play soccer in the {afternoon}."
+      ],
+      "wrong": [
+        "I have breakfast at seven in the afternoon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌæftɚˈnun/"
+    },
+    {
+      "lemma": "every day",
+      "pos": "phrase",
+      "meaning": "On all the days, again and again.",
+      "examples": [
+        "I drink milk {every day}."
+      ],
+      "wrong": [
+        "I go to school every day, but only on Mondays."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "daily"
+      ],
+      "ipa": "/ˈɛvri ˈdeɪ/"
+    },
+    {
+      "lemma": "awake",
+      "pos": "adjective",
+      "meaning": "Not sleeping.",
+      "examples": [
+        "I am {awake} at six every morning."
+      ],
+      "wrong": [
+        "He was awake, so his eyes were closed and he was dreaming."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈweɪk/",
+      "antonyms": [
+        "asleep"
+      ]
+    },
+    {
+      "lemma": "asleep",
+      "pos": "adjective",
+      "meaning": "Sleeping.",
+      "examples": [
+        "The baby is {asleep} in her bed."
+      ],
+      "wrong": [
+        "She is asleep and talking on the phone."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/əˈslip/",
+      "antonyms": [
+        "awake"
+      ]
+    },
+    {
+      "lemma": "in the morning",
+      "pos": "phrase",
+      "meaning": "In the early part of the day.",
+      "examples": [
+        "I drink coffee {in the morning}."
+      ],
+      "wrong": [
+        "I see the moon and stars in the morning sun."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪn ðə ˈmɔrnɪŋ/"
+    },
+    {
+      "lemma": "half past",
+      "pos": "phrase",
+      "meaning": "Thirty minutes after the hour.",
+      "examples": [
+        "School starts at {half past} eight."
+      ],
+      "wrong": [
+        "Half past eight is ten minutes after eight."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhæf ˈpæst/"
+    },
+    {
+      "lemma": "go to sleep",
+      "pos": "phrase",
+      "meaning": "To start sleeping.",
+      "examples": [
+        "I {go to sleep} at ten o’clock."
+      ],
+      "wrong": [
+        "I go to sleep and play soccer all night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fall asleep"
+      ],
+      "ipa": "/ˈɡoʊ tə ˈslip/"
+    },
+    {
+      "lemma": "have lunch",
+      "pos": "phrase",
+      "meaning": "To eat the meal in the middle of the day.",
+      "examples": [
+        "We {have lunch} at one o’clock."
+      ],
+      "wrong": [
+        "I have lunch at six in the morning before breakfast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhæv ˈlʌntʃ/"
+    },
+    {
+      "lemma": "dream",
+      "pos": "noun",
+      "meaning": "Pictures and stories in your head when you sleep.",
+      "examples": [
+        "I had a {dream} about a big dog."
+      ],
+      "wrong": [
+        "I had a dream while I was awake at my desk."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/drim/"
+    },
+    {
+      "lemma": "bedtime",
+      "pos": "noun",
+      "meaning": "The time when you go to bed.",
+      "examples": [
+        "My {bedtime} is nine o’clock."
+      ],
+      "wrong": [
+        "Bedtime is when I wake up in the morning."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɛdˌtaɪm/"
+    },
+    {
+      "lemma": "lunchtime",
+      "pos": "noun",
+      "meaning": "The time in the middle of the day when people eat.",
+      "examples": [
+        "I see my friends at {lunchtime}."
+      ],
+      "wrong": [
+        "Lunchtime is at midnight."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlʌntʃˌtaɪm/"
+    },
+    {
+      "lemma": "get ready",
+      "pos": "phrase",
+      "meaning": "To make yourself ready to go somewhere.",
+      "examples": [
+        "I {get ready} for school in ten minutes."
+      ],
+      "wrong": [
+        "I get ready for school by going back to sleep."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt ˈrɛdi/"
+    },
+    {
+      "lemma": "leave the house",
+      "pos": "phrase",
+      "meaning": "To go out of your home.",
+      "examples": [
+        "I {leave the house} at seven thirty."
+      ],
+      "wrong": [
+        "I leave the house and stay inside all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈliv ðə ˈhaʊs/"
+    },
+    {
+      "lemma": "after that",
+      "pos": "phrase",
+      "meaning": "Next, at a later time.",
+      "examples": [
+        "I eat breakfast. {After that}, I go to school."
+      ],
+      "wrong": [
+        "After that means the thing that happened first."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "then"
+      ],
+      "ipa": "/ˈæftɚ ˈðæt/"
+    },
+    {
+      "lemma": "weekday",
+      "pos": "noun",
+      "meaning": "Any day from Monday to Friday.",
+      "examples": [
+        "I work on every {weekday}."
+      ],
+      "wrong": [
+        "Sunday is my favorite weekday."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwikˌdeɪ/",
+      "antonyms": [
+        "weekend"
+      ]
+    },
+    {
+      "lemma": "pajamas",
+      "pos": "noun",
+      "meaning": "Soft clothes you wear in bed.",
+      "examples": [
+        "I put on my {pajamas} at night."
+      ],
+      "wrong": [
+        "He wears pajamas to swim in the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pəˈdʒɑməz/"
+    },
+    {
+      "lemma": "dry",
+      "pos": "verb",
+      "meaning": "To take water off something.",
+      "examples": [
+        "I {dry} my hair with a towel."
+      ],
+      "wrong": [
+        "I dry my hands by putting them in water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/draɪ/"
+    },
+    {
+      "lemma": "quarter past",
+      "pos": "phrase",
+      "meaning": "Fifteen minutes after the hour.",
+      "examples": [
+        "We eat at {quarter past} six."
+      ],
+      "wrong": [
+        "Quarter past six is half an hour after six."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈkwɔrtɚ ˈpæst/"
+    },
+    {
+      "lemma": "day off",
+      "pos": "noun",
+      "meaning": "A day when you do not have to work.",
+      "examples": [
+        "Tuesday is my {day off}."
+      ],
+      "wrong": [
+        "On my day off I work for twelve hours."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˌdeɪ ˈɔf/"
+    },
+    {
+      "lemma": "slippers",
+      "pos": "noun",
+      "meaning": "Soft shoes you wear in the house.",
+      "examples": [
+        "I wear warm {slippers} at home."
+      ],
+      "wrong": [
+        "I wear my slippers to climb mountains in the snow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈslɪpɚz/"
+    },
+    {
+      "lemma": "walk the dog",
+      "pos": "phrase",
+      "meaning": "To take your dog outside for a walk.",
+      "examples": [
+        "I {walk the dog} before school."
+      ],
+      "wrong": [
+        "I walk the dog by leaving it in a box all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈwɔk ðə ˈdɔɡ/"
+    },
+    {
+      "lemma": "feed",
+      "pos": "verb",
+      "meaning": "To give food to a person or animal.",
+      "examples": [
+        "I {feed} the cat every morning."
+      ],
+      "wrong": [
+        "I feed the fish by taking all its food away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fid/"
+    },
+    {
+      "lemma": "watch",
+      "pos": "noun",
+      "meaning": "A small clock you wear on your wrist.",
+      "examples": [
+        "My {watch} says it is eight o’clock."
+      ],
+      "wrong": [
+        "I wear my watch on my nose."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wristwatch"
+      ],
+      "ipa": "/wɑtʃ/"
+    },
+    {
+      "lemma": "lunch break",
+      "pos": "noun",
+      "meaning": "A short time in the middle of the day to stop work and eat.",
+      "examples": [
+        "I have a sandwich on my {lunch break}."
+      ],
+      "wrong": [
+        "My lunch break is the longest part of the work day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈlʌntʃ ˌbreɪk/"
+    },
+    {
+      "lemma": "get home",
+      "pos": "phrase",
+      "meaning": "To arrive at the place where you live.",
+      "examples": [
+        "I {get home} at six in the evening."
+      ],
+      "wrong": [
+        "I get home, so I am far away from my house."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt ˈhoʊm/"
+    }
+  ]
+}

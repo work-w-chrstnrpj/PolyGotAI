@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-management",
+    "title": "Business and management",
+    "level": "C1",
+    "tagline": "Leading, planning and growth",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "restructure",
+      "pos": "verb",
+      "meaning": "To change the way a company or system is organized, usually to make it work better.",
+      "examples": [
+        "The firm plans to {restructure} its sales teams next year."
+      ],
+      "wrong": [
+        "They restructured the company by leaving every team exactly as it was."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reorganize",
+        "overhaul"
+      ],
+      "ipa": "/riˈstrʌktʃɚ/"
+    },
+    {
+      "lemma": "acquisition",
+      "pos": "noun",
+      "meaning": "The buying of one company by another.",
+      "examples": [
+        "The {acquisition} of the smaller rival made them market leader."
+      ],
+      "wrong": [
+        "After the acquisition, the two companies had nothing to do with each other."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "takeover",
+        "purchase"
+      ],
+      "ipa": "/ˌækwəˈzɪʃən/"
+    },
+    {
+      "lemma": "subsidiary",
+      "pos": "noun",
+      "meaning": "A company that is owned and controlled by a larger company.",
+      "examples": [
+        "The bank runs its insurance business through a {subsidiary}."
+      ],
+      "wrong": [
+        "The subsidiary owns and controls the parent company that set it up."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "branch",
+        "affiliate"
+      ],
+      "ipa": "/səbˈsɪdiˌɛri/"
+    },
+    {
+      "lemma": "liquidity",
+      "pos": "noun",
+      "meaning": "How easily a business can get cash to pay what it owes soon.",
+      "examples": [
+        "Selling the warehouse improved the company’s {liquidity}."
+      ],
+      "wrong": [
+        "Their liquidity was excellent, so they could not pay a single bill."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "solvency"
+      ],
+      "ipa": "/lɪˈkwɪdəti/"
+    },
+    {
+      "lemma": "succession planning",
+      "pos": "phrase",
+      "meaning": "Preparing people inside a company to take over key jobs when current leaders leave.",
+      "examples": [
+        "Good {succession planning} meant the new CEO was ready on day one."
+      ],
+      "wrong": [
+        "Thanks to succession planning, nobody was ready when the director retired."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/səkˈsɛʃən ˈplænɪŋ/"
+    },
+    {
+      "lemma": "scalability",
+      "pos": "noun",
+      "meaning": "The ability of a business or system to grow easily without breaking down.",
+      "examples": [
+        "Investors asked about the {scalability} of the app before they put money in."
+      ],
+      "wrong": [
+        "The scalability of the plan means it can never grow beyond ten customers."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "expandability"
+      ],
+      "ipa": "/ˌskeɪləˈbɪləti/"
+    },
+    {
+      "lemma": "diversify",
+      "pos": "verb",
+      "meaning": "To start offering new kinds of products or services so a business depends less on one.",
+      "examples": [
+        "The farm {diversified} into tourism and cheese making."
+      ],
+      "wrong": [
+        "They diversified by selling only one product to one customer."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "branch out",
+        "broaden"
+      ],
+      "ipa": "/dɪˈvɝsəˌfaɪ/",
+      "antonyms": [
+        "specialize"
+      ]
+    },
+    {
+      "lemma": "conglomerate",
+      "pos": "noun",
+      "meaning": "A large company made up of many firms in different kinds of business.",
+      "examples": [
+        "The {conglomerate} owns hotels, banks and a shipping line."
+      ],
+      "wrong": [
+        "The conglomerate is a tiny shop that sells only one product."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "group",
+        "corporation"
+      ],
+      "ipa": "/kənˈɡlɑmərət/"
+    },
+    {
+      "lemma": "feasibility",
+      "pos": "noun",
+      "meaning": "How possible and practical it is to do something successfully.",
+      "examples": [
+        "We ran a {feasibility} study before building the new plant."
+      ],
+      "wrong": [
+        "The feasibility study proved the plan could not be checked at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "practicality",
+        "viability"
+      ],
+      "ipa": "/ˌfizəˈbɪləti/"
+    },
+    {
+      "lemma": "contingency",
+      "pos": "noun",
+      "meaning": "A possible future problem that you plan for in case it happens.",
+      "examples": [
+        "Keep some money aside for {contingencies}."
+      ],
+      "wrong": [
+        "A contingency is an event that is certain to happen every day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "eventuality",
+        "emergency"
+      ],
+      "ipa": "/kənˈtɪndʒənsi/"
+    },
+    {
+      "lemma": "logistics",
+      "pos": "noun",
+      "meaning": "The detailed planning and moving of goods, people and supplies.",
+      "examples": [
+        "The {logistics} of shipping fresh food abroad are complicated."
+      ],
+      "wrong": [
+        "Logistics is the art of never planning how goods arrive."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "coordination",
+        "planning"
+      ],
+      "ipa": "/loʊˈdʒɪstɪks/"
+    },
+    {
+      "lemma": "venture",
+      "pos": "noun",
+      "meaning": "A new business activity that involves some risk.",
+      "examples": [
+        "Her first business {venture} was a small coffee cart."
+      ],
+      "wrong": [
+        "The venture was completely safe and needed no money at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "enterprise",
+        "undertaking"
+      ],
+      "ipa": "/ˈvɛntʃɚ/"
+    },
+    {
+      "lemma": "bottom line",
+      "pos": "phrase",
+      "meaning": "The final profit or loss of a business; also the most important point.",
+      "examples": [
+        "Cutting energy costs improved our {bottom line}."
+      ],
+      "wrong": [
+        "The bottom line was a small detail that nobody cared about."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "net profit",
+        "crux"
+      ],
+      "ipa": "/ˈbɑtəm ˈlaɪn/"
+    },
+    {
+      "lemma": "market share",
+      "pos": "phrase",
+      "meaning": "The part of all sales in a market that one company makes.",
+      "examples": [
+        "The new phone helped the company grow its {market share}."
+      ],
+      "wrong": [
+        "Their market share was the money they spent on office plants."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmɑrkɪt ˈʃɛr/"
+    },
+    {
+      "lemma": "cost-effective",
+      "pos": "adjective",
+      "meaning": "Giving good results for the money spent.",
+      "examples": [
+        "Online ads proved more {cost-effective} than television."
+      ],
+      "wrong": [
+        "The cost-effective plan wasted huge sums and achieved nothing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "economical",
+        "efficient"
+      ],
+      "ipa": "/ˌkɔstɪˈfɛktɪv/",
+      "antonyms": [
+        "wasteful",
+        "uneconomical"
+      ]
+    },
+    {
+      "lemma": "oversight",
+      "pos": "noun",
+      "meaning": "The job of watching and checking that work is done properly.",
+      "examples": [
+        "The project needs stronger {oversight} from senior managers."
+      ],
+      "wrong": [
+        "With strict oversight, nobody ever checked the work."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "supervision",
+        "monitoring"
+      ],
+      "ipa": "/ˈoʊvɚˌsaɪt/"
+    },
+    {
+      "lemma": "morale",
+      "pos": "noun",
+      "meaning": "How confident and positive the people in a team or group feel.",
+      "examples": [
+        "Staff {morale} rose after the bonus was announced."
+      ],
+      "wrong": [
+        "Morale was high, so everyone felt hopeless and wanted to quit."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "spirit",
+        "team spirit"
+      ],
+      "ipa": "/məˈræl/"
+    },
+    {
+      "lemma": "retention",
+      "pos": "noun",
+      "meaning": "A company’s success in keeping its staff or customers.",
+      "examples": [
+        "Flexible hours have improved staff {retention}."
+      ],
+      "wrong": [
+        "Good retention means most workers leave within a month."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/rɪˈtɛnʃən/"
+    },
+    {
+      "lemma": "spearhead",
+      "pos": "verb",
+      "meaning": "To lead an important plan, campaign or activity.",
+      "examples": [
+        "She {spearheaded} the move into Asian markets."
+      ],
+      "wrong": [
+        "He spearheaded the project by following quietly at the back."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lead",
+        "head",
+        "champion"
+      ],
+      "ipa": "/ˈspɪrˌhɛd/"
+    },
+    {
+      "lemma": "remuneration",
+      "pos": "noun",
+      "meaning": "The money and benefits someone is paid for their work.",
+      "examples": [
+        "The board approved the director’s {remuneration} package."
+      ],
+      "wrong": [
+        "Her remuneration was the unpaid work she did for free."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "pay",
+        "salary",
+        "compensation"
+      ],
+      "ipa": "/rɪˌmjunəˈreɪʃən/"
+    },
+    {
+      "lemma": "micromanage",
+      "pos": "verb",
+      "meaning": "To control every small detail of other people’s work too closely.",
+      "examples": [
+        "Good leaders trust their staff and don’t {micromanage} them."
+      ],
+      "wrong": [
+        "My boss micromanages, so she never checks what we do."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmaɪkroʊˌmænɪdʒ/"
+    },
+    {
+      "lemma": "empower",
+      "pos": "verb",
+      "meaning": "To give someone the confidence or authority to make decisions.",
+      "examples": [
+        "The new policy {empowers} teams to set their own goals."
+      ],
+      "wrong": [
+        "The rules empowered staff by taking away all their choices."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "enable",
+        "authorize"
+      ],
+      "ipa": "/ɪmˈpaʊɚ/",
+      "antonyms": [
+        "disempower"
+      ]
+    },
+    {
+      "lemma": "liaise",
+      "pos": "verb",
+      "meaning": "To work with and keep in contact with another person or group.",
+      "examples": [
+        "Our office will {liaise} with the suppliers about delivery dates."
+      ],
+      "wrong": [
+        "She liaised with the client by refusing to speak to them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "coordinate",
+        "communicate"
+      ],
+      "ipa": "/liˈeɪz/"
+    },
+    {
+      "lemma": "capitalize",
+      "pos": "verb",
+      "meaning": "To use a situation to gain an advantage (often ’on’ something).",
+      "examples": [
+        "The shop {capitalized} on the warm weather by selling fans."
+      ],
+      "wrong": [
+        "They capitalized on the trend by ignoring it completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exploit",
+        "profit"
+      ],
+      "ipa": "/ˈkæpətəˌlaɪz/"
+    },
+    {
+      "lemma": "layoff",
+      "pos": "noun",
+      "meaning": "The act of ending workers’ jobs because there is not enough work or money.",
+      "examples": [
+        "The {layoffs} affected almost a third of the staff."
+      ],
+      "wrong": [
+        "The layoff gave every worker a new job and a pay rise."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "redundancy",
+        "dismissal"
+      ],
+      "ipa": "/ˈleɪˌɔf/"
+    },
+    {
+      "lemma": "strategize",
+      "pos": "verb",
+      "meaning": "To make careful plans to reach a goal.",
+      "examples": [
+        "The managers met to {strategize} for the coming year."
+      ],
+      "wrong": [
+        "We strategized by acting at random without any plan."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "plan"
+      ],
+      "ipa": "/ˈstrætəˌdʒaɪz/"
+    },
+    {
+      "lemma": "mission statement",
+      "pos": "phrase",
+      "meaning": "A short written description of a company’s aims and values.",
+      "examples": [
+        "Our {mission statement} promises honest prices for everyone."
+      ],
+      "wrong": [
+        "The mission statement listed the company’s parking spaces."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmɪʃən ˈsteɪtmənt/"
+    },
+    {
+      "lemma": "deliverable",
+      "pos": "noun",
+      "meaning": "A piece of work or product that must be finished and handed over in a project.",
+      "examples": [
+        "The first {deliverable} is a full report due in March."
+      ],
+      "wrong": [
+        "A deliverable is a task that nobody ever needs to finish."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "output"
+      ],
+      "ipa": "/dɪˈlɪvərəbəl/"
+    },
+    {
+      "lemma": "economies of scale",
+      "pos": "phrase",
+      "meaning": "Lower costs for each item that a business gets by producing a lot.",
+      "examples": [
+        "Big supermarkets enjoy {economies of scale} that small shops cannot match."
+      ],
+      "wrong": [
+        "Thanks to economies of scale, each item cost more as they made more."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ɪˈkɑnəmiz əv ˈskeɪl/"
+    },
+    {
+      "lemma": "headcount",
+      "pos": "noun",
+      "meaning": "The total number of people who work for an organization.",
+      "examples": [
+        "The firm cut its {headcount} by ten percent."
+      ],
+      "wrong": [
+        "Our headcount is the number of meetings we hold each week."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "staff numbers"
+      ],
+      "ipa": "/ˈhɛdˌkaʊnt/"
+    },
+    {
+      "lemma": "chain of command",
+      "pos": "phrase",
+      "meaning": "The order of authority in an organization, from top to bottom.",
+      "examples": [
+        "Complaints should go up the {chain of command}."
+      ],
+      "wrong": [
+        "In a chain of command, everyone has exactly the same authority."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hierarchy"
+      ],
+      "ipa": "/ˈtʃeɪn əv kəˈmænd/"
+    },
+    {
+      "lemma": "joint venture",
+      "pos": "phrase",
+      "meaning": "A business project that two or more companies run together and share.",
+      "examples": [
+        "The two carmakers set up a {joint venture} to build batteries."
+      ],
+      "wrong": [
+        "The joint venture was run by one company with no partners."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "partnership"
+      ],
+      "ipa": "/ˈdʒɔɪnt ˈvɛntʃɚ/"
+    },
+    {
+      "lemma": "due diligence",
+      "pos": "phrase",
+      "meaning": "Careful checking of facts and risks before a deal or decision.",
+      "examples": [
+        "Buyers must do {due diligence} before signing the contract."
+      ],
+      "wrong": [
+        "They did due diligence by signing the deal without reading it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "investigation"
+      ],
+      "ipa": "/ˈdu ˈdɪlədʒəns/"
+    },
+    {
+      "lemma": "business model",
+      "pos": "phrase",
+      "meaning": "A company’s plan for how it will make money.",
+      "examples": [
+        "Their {business model} depends on monthly subscriptions."
+      ],
+      "wrong": [
+        "The business model explained how the firm would lose money forever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈbɪznəs ˈmɑdəl/"
+    },
+    {
+      "lemma": "core competency",
+      "pos": "phrase",
+      "meaning": "Something a company does especially well that gives it an advantage.",
+      "examples": [
+        "Customer service is our {core competency}."
+      ],
+      "wrong": [
+        "Our core competency is the thing we do worst of all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "strength"
+      ],
+      "ipa": "/ˈkɔr ˈkɑmpətənsi/"
+    },
+    {
+      "lemma": "vested interest",
+      "pos": "phrase",
+      "meaning": "A personal reason, often financial, for wanting something to happen.",
+      "examples": [
+        "The landlord has a {vested interest} in keeping rents high."
+      ],
+      "wrong": [
+        "He had a vested interest in the result, so he didn’t care how it ended."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stake"
+      ],
+      "ipa": "/ˈvɛstɪd ˈɪntrəst/"
+    },
+    {
+      "lemma": "profit margin",
+      "pos": "phrase",
+      "meaning": "The share of the selling price that is left as profit after costs.",
+      "examples": [
+        "Luxury goods often have a high {profit margin}."
+      ],
+      "wrong": [
+        "The profit margin is the part of the price spent on costs."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "margin"
+      ],
+      "ipa": "/ˈprɑfɪt ˈmɑrdʒɪn/"
+    },
+    {
+      "lemma": "return on investment",
+      "pos": "phrase",
+      "meaning": "The profit you get compared with the money you put in.",
+      "examples": [
+        "The new machines gave a quick {return on investment}."
+      ],
+      "wrong": [
+        "The return on investment was the money they spent at the start."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "yield"
+      ],
+      "ipa": "/rɪˈtɝn ɑn ɪnˈvɛstmənt/"
+    },
+    {
+      "lemma": "underperform",
+      "pos": "verb",
+      "meaning": "To do less well than expected or than others.",
+      "examples": [
+        "The store {underperformed} and missed its sales target."
+      ],
+      "wrong": [
+        "The team underperformed by beating every target they had."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "fall short"
+      ],
+      "ipa": "/ˌʌndɚpɚˈfɔrm/",
+      "antonyms": [
+        "outperform"
+      ]
+    },
+    {
+      "lemma": "quarterly",
+      "pos": "adjective",
+      "meaning": "Happening or produced every three months.",
+      "examples": [
+        "The {quarterly} report shows strong growth."
+      ],
+      "wrong": [
+        "The quarterly meeting is held once every ten years."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "three-monthly"
+      ],
+      "ipa": "/ˈkwɔrtɚli/"
+    }
+  ]
+}

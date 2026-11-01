@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-describing",
+    "title": "Describing words",
+    "level": "A1",
+    "tagline": "Big, small, happy, sad",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "big",
+      "pos": "adjective",
+      "meaning": "Large in size.",
+      "examples": [
+        "They live in a {big} house."
+      ],
+      "wrong": [
+        "The elephant is big, so it fits in my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "large"
+      ],
+      "ipa": "/bɪɡ/",
+      "antonyms": [
+        "small",
+        "little"
+      ]
+    },
+    {
+      "lemma": "long",
+      "pos": "adjective",
+      "meaning": "Measuring a lot from one end to the other.",
+      "examples": [
+        "It’s a {long} way to the city."
+      ],
+      "wrong": [
+        "The road is long, so we are there in one second."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lɔŋ/",
+      "antonyms": [
+        "short"
+      ]
+    },
+    {
+      "lemma": "young",
+      "pos": "adjective",
+      "meaning": "Having lived for a short time.",
+      "examples": [
+        "My sister is very {young}; she is two."
+      ],
+      "wrong": [
+        "My grandfather is young; he is ninety."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/jʌŋ/",
+      "antonyms": [
+        "old"
+      ]
+    },
+    {
+      "lemma": "good",
+      "pos": "adjective",
+      "meaning": "Of a high standard; nice.",
+      "examples": [
+        "This is a {good} book."
+      ],
+      "wrong": [
+        "The food was good, so we threw it away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fine"
+      ],
+      "ipa": "/ɡʊd/",
+      "antonyms": [
+        "bad"
+      ]
+    },
+    {
+      "lemma": "bad",
+      "pos": "adjective",
+      "meaning": "Not good or not nice.",
+      "examples": [
+        "I have {bad} news."
+      ],
+      "wrong": [
+        "It was a bad day, so everything went well."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "poor"
+      ],
+      "ipa": "/bæd/",
+      "antonyms": [
+        "good"
+      ]
+    },
+    {
+      "lemma": "easy",
+      "pos": "adjective",
+      "meaning": "Not difficult.",
+      "examples": [
+        "The test was {easy}."
+      ],
+      "wrong": [
+        "The test was easy, so nobody could do it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "simple"
+      ],
+      "ipa": "/ˈizi/",
+      "antonyms": [
+        "difficult",
+        "hard"
+      ]
+    },
+    {
+      "lemma": "difficult",
+      "pos": "adjective",
+      "meaning": "Not easy; needing effort.",
+      "examples": [
+        "This question is {difficult}."
+      ],
+      "wrong": [
+        "The question is difficult, so everyone answered it fast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "hard"
+      ],
+      "ipa": "/ˈdɪfɪkəlt/",
+      "antonyms": [
+        "easy"
+      ]
+    },
+    {
+      "lemma": "fast",
+      "pos": "adjective",
+      "meaning": "Moving or doing something quickly.",
+      "examples": [
+        "He has a {fast} car."
+      ],
+      "wrong": [
+        "The fast train is the slowest one."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "quick"
+      ],
+      "ipa": "/fæst/",
+      "antonyms": [
+        "slow"
+      ]
+    },
+    {
+      "lemma": "slow",
+      "pos": "adjective",
+      "meaning": "Not fast.",
+      "examples": [
+        "The bus is very {slow} today."
+      ],
+      "wrong": [
+        "The slow runner won the race easily."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sloʊ/",
+      "antonyms": [
+        "fast",
+        "quick"
+      ]
+    },
+    {
+      "lemma": "warm",
+      "pos": "adjective",
+      "meaning": "A little hot, in a nice way.",
+      "examples": [
+        "The room is nice and {warm}."
+      ],
+      "wrong": [
+        "The room is warm, so we need more coats."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɔrm/",
+      "antonyms": [
+        "cool"
+      ]
+    },
+    {
+      "lemma": "dark",
+      "pos": "adjective",
+      "meaning": "With little or no light.",
+      "examples": [
+        "It gets {dark} early in winter."
+      ],
+      "wrong": [
+        "The room is dark because the sun is in it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɑrk/",
+      "antonyms": [
+        "light",
+        "bright"
+      ]
+    },
+    {
+      "lemma": "light",
+      "pos": "adjective",
+      "meaning": "Bright, with a lot of light.",
+      "examples": [
+        "The room is {light} and sunny."
+      ],
+      "wrong": [
+        "The room is light because it has no windows."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bright"
+      ],
+      "ipa": "/laɪt/",
+      "antonyms": [
+        "dark"
+      ]
+    },
+    {
+      "lemma": "full",
+      "pos": "adjective",
+      "meaning": "With no space left inside.",
+      "examples": [
+        "The bus was {full}, so we waited."
+      ],
+      "wrong": [
+        "The glass is full and has nothing in it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fʊl/",
+      "antonyms": [
+        "empty"
+      ]
+    },
+    {
+      "lemma": "rich",
+      "pos": "adjective",
+      "meaning": "Having a lot of money.",
+      "examples": [
+        "He became {rich} from his business."
+      ],
+      "wrong": [
+        "She is rich, so she has no money at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wealthy"
+      ],
+      "ipa": "/rɪtʃ/",
+      "antonyms": [
+        "poor"
+      ]
+    },
+    {
+      "lemma": "poor",
+      "pos": "adjective",
+      "meaning": "Having very little money.",
+      "examples": [
+        "They were {poor} but happy."
+      ],
+      "wrong": [
+        "He is poor, so he owns three big houses."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/pʊr/",
+      "antonyms": [
+        "rich",
+        "wealthy"
+      ]
+    },
+    {
+      "lemma": "busy",
+      "pos": "adjective",
+      "meaning": "Having a lot to do.",
+      "examples": [
+        "I’m {busy} today; can we talk tomorrow?"
+      ],
+      "wrong": [
+        "I’m busy, so I have nothing to do."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɪzi/",
+      "antonyms": [
+        "free",
+        "idle"
+      ]
+    },
+    {
+      "lemma": "free",
+      "pos": "adjective",
+      "meaning": "Costing no money.",
+      "examples": [
+        "The museum is {free} on Sundays."
+      ],
+      "wrong": [
+        "The ticket is free, so it costs ten dollars."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fri/"
+    },
+    {
+      "lemma": "sad",
+      "pos": "adjective",
+      "meaning": "Not happy.",
+      "examples": [
+        "She was {sad} when her cat died."
+      ],
+      "wrong": [
+        "I’m sad because I won the prize I wanted."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "unhappy"
+      ],
+      "ipa": "/sæd/",
+      "antonyms": [
+        "happy"
+      ]
+    },
+    {
+      "lemma": "angry",
+      "pos": "adjective",
+      "meaning": "Feeling strong and bad because of something.",
+      "examples": [
+        "Dad was {angry} about the broken window."
+      ],
+      "wrong": [
+        "She was angry, so she smiled and laughed all day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "mad"
+      ],
+      "ipa": "/ˈæŋɡri/",
+      "antonyms": [
+        "calm"
+      ]
+    },
+    {
+      "lemma": "sick",
+      "pos": "adjective",
+      "meaning": "Not well; ill.",
+      "examples": [
+        "I’m {sick}, so I’m staying home."
+      ],
+      "wrong": [
+        "I’m sick, so I’m running a marathon today."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "ill",
+        "unwell"
+      ],
+      "ipa": "/sɪk/",
+      "antonyms": [
+        "well",
+        "healthy"
+      ]
+    },
+    {
+      "lemma": "nice",
+      "pos": "adjective",
+      "meaning": "Pleasant or kind.",
+      "examples": [
+        "Have a {nice} day!"
+      ],
+      "wrong": [
+        "It was a nice day, so we were all unhappy."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pleasant",
+        "agreeable"
+      ],
+      "ipa": "/naɪs/",
+      "antonyms": [
+        "nasty",
+        "unpleasant"
+      ]
+    },
+    {
+      "lemma": "kind",
+      "pos": "adjective",
+      "meaning": "Caring and friendly to others.",
+      "examples": [
+        "Thank you; you’re very {kind}."
+      ],
+      "wrong": [
+        "She is kind, so she is always mean to people."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "caring"
+      ],
+      "ipa": "/kaɪnd/",
+      "antonyms": [
+        "unkind",
+        "cruel"
+      ]
+    },
+    {
+      "lemma": "funny",
+      "pos": "adjective",
+      "meaning": "Making you laugh.",
+      "examples": [
+        "He told a {funny} story."
+      ],
+      "wrong": [
+        "The film was funny, so nobody laughed."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfʌni/"
+    },
+    {
+      "lemma": "great",
+      "pos": "adjective",
+      "meaning": "Very good.",
+      "examples": [
+        "We had a {great} holiday."
+      ],
+      "wrong": [
+        "It was a great day, so I want to forget it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "excellent"
+      ],
+      "ipa": "/ɡreɪt/"
+    },
+    {
+      "lemma": "same",
+      "pos": "adjective",
+      "meaning": "Not different.",
+      "examples": [
+        "We have the {same} shoes."
+      ],
+      "wrong": [
+        "We wear the same shirt: mine is red and his is green."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "identical"
+      ],
+      "ipa": "/seɪm/",
+      "antonyms": [
+        "different"
+      ]
+    },
+    {
+      "lemma": "different",
+      "pos": "adjective",
+      "meaning": "Not the same.",
+      "examples": [
+        "These two pens are {different} colors."
+      ],
+      "wrong": [
+        "The two cats are different: they look exactly the same."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈdɪfərənt/",
+      "antonyms": [
+        "same",
+        "similar"
+      ]
+    },
+    {
+      "lemma": "expensive",
+      "pos": "adjective",
+      "meaning": "Costing a lot of money.",
+      "examples": [
+        "This watch is very {expensive}."
+      ],
+      "wrong": [
+        "The bag was expensive, so it cost almost nothing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "costly"
+      ],
+      "ipa": "/ɪkˈspɛnsɪv/",
+      "antonyms": [
+        "cheap",
+        "inexpensive"
+      ]
+    },
+    {
+      "lemma": "favorite",
+      "pos": "adjective",
+      "meaning": "Liked more than others.",
+      "examples": [
+        "Blue is my {favorite} color."
+      ],
+      "wrong": [
+        "Pizza is my favorite food, so I never eat it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfeɪvərɪt/"
+    },
+    {
+      "lemma": "important",
+      "pos": "adjective",
+      "meaning": "Mattering a lot.",
+      "examples": [
+        "This is an {important} letter."
+      ],
+      "wrong": [
+        "The meeting is important, so nobody needs to come."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪmˈpɔrtənt/",
+      "antonyms": [
+        "unimportant"
+      ]
+    },
+    {
+      "lemma": "right",
+      "pos": "adjective",
+      "meaning": "Correct; true.",
+      "examples": [
+        "Your answer is {right}."
+      ],
+      "wrong": [
+        "Your answer is right, so it is wrong."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "correct"
+      ],
+      "ipa": "/raɪt/",
+      "antonyms": [
+        "wrong"
+      ]
+    },
+    {
+      "lemma": "wrong",
+      "pos": "adjective",
+      "meaning": "Not correct.",
+      "examples": [
+        "That is the {wrong} number."
+      ],
+      "wrong": [
+        "My answer is wrong, so I got full marks."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "incorrect"
+      ],
+      "ipa": "/rɔŋ/",
+      "antonyms": [
+        "right",
+        "correct"
+      ]
+    },
+    {
+      "lemma": "loud",
+      "pos": "adjective",
+      "meaning": "Making a lot of noise.",
+      "examples": [
+        "The music is too {loud}."
+      ],
+      "wrong": [
+        "The music is loud, so I can’t hear it at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "noisy"
+      ],
+      "ipa": "/laʊd/",
+      "antonyms": [
+        "quiet"
+      ]
+    },
+    {
+      "lemma": "soft",
+      "pos": "adjective",
+      "meaning": "Not hard; nice to touch.",
+      "examples": [
+        "This blanket is so {soft}."
+      ],
+      "wrong": [
+        "The rock is soft like a pillow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɔft/",
+      "antonyms": [
+        "hard"
+      ]
+    },
+    {
+      "lemma": "hard",
+      "pos": "adjective",
+      "meaning": "Firm, not soft.",
+      "examples": [
+        "This bed is too {hard}."
+      ],
+      "wrong": [
+        "The pillow is hard like a cloud."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "firm"
+      ],
+      "ipa": "/hɑrd/",
+      "antonyms": [
+        "soft"
+      ]
+    },
+    {
+      "lemma": "sweet",
+      "pos": "adjective",
+      "meaning": "Tasting of sugar.",
+      "examples": [
+        "This cake is very {sweet}."
+      ],
+      "wrong": [
+        "The lemon is sweet like sugar."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/swit/",
+      "antonyms": [
+        "sour",
+        "bitter"
+      ]
+    },
+    {
+      "lemma": "dry",
+      "pos": "adjective",
+      "meaning": "Not wet.",
+      "examples": [
+        "Your shirt is {dry} now."
+      ],
+      "wrong": [
+        "My clothes are dry because I left them in the rain."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/draɪ/",
+      "antonyms": [
+        "wet"
+      ]
+    },
+    {
+      "lemma": "wet",
+      "pos": "adjective",
+      "meaning": "Covered with water.",
+      "examples": [
+        "My shoes are {wet} from the rain."
+      ],
+      "wrong": [
+        "The towel is wet because it is in the sun."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "damp"
+      ],
+      "ipa": "/wɛt/",
+      "antonyms": [
+        "dry"
+      ]
+    },
+    {
+      "lemma": "strong",
+      "pos": "adjective",
+      "meaning": "Having a lot of power in your body.",
+      "examples": [
+        "He is {strong}; he can lift the sofa."
+      ],
+      "wrong": [
+        "She is strong, so she can’t lift a cup."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/strɔŋ/",
+      "antonyms": [
+        "weak"
+      ]
+    },
+    {
+      "lemma": "pretty",
+      "pos": "adjective",
+      "meaning": "Nice to look at.",
+      "examples": [
+        "What a {pretty} garden!"
+      ],
+      "wrong": [
+        "The flower is pretty, so it is ugly."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "attractive",
+        "good-looking"
+      ],
+      "ipa": "/ˈprɪti/",
+      "antonyms": [
+        "ugly"
+      ]
+    },
+    {
+      "lemma": "well",
+      "pos": "adverb",
+      "meaning": "In a good way.",
+      "examples": [
+        "She speaks English very {well}."
+      ],
+      "wrong": [
+        "He plays well, so his team always loses."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɛl/",
+      "antonyms": [
+        "badly"
+      ]
+    }
+  ]
+}

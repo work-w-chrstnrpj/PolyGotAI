@@ -2,14 +2,16 @@
 
 > Owner direction 2026-10-25. Replaces the v1 "seven specialized trainers" ([history](../history/v1/product-specification/specialized-trainers.md)).
 
-Each coach is a **track** in Learn: units, then lessons, then exercises. Tracks use the same exercise engine as the CEFR course ([tdd](../tdd/tdd.md#exercise-engine)). The Teacher hosts the CEFR course and is not one of the ten.
+Each coach is a **track** in the Lesson tab: units, then lessons, then exercises. Tracks use the same exercise engine as the CEFR course ([tdd](../tdd/tdd.md#exercise-engine)). The Teacher hosts the CEFR course and is not one of the ten.
 
 ## Track structure
 
 - **Stages** (owner approved 2026-10-25): Foundation (≈ A2–B1), Intermediate (≈ B1–B2), Advanced (≈ C1–C2). Grammarian and Reading & Listening add a fourth, **Starter** stage (A1).
-- **Unit** = one skill (e.g. "Inverted pyramid"). 4–6 lessons.
-- **Lesson** = coach tip → 8–15 auto-checked exercises → one open "Your turn" task → finish.
-- **First delivery:** 2 units × 4 lessons per coach, then expand.
+- **Unit** groups related topics; stages remain suggested entry points.
+- **Lesson (Phase 13):** reading pages (a heading, a full explanation of about 80–170 words and one to four labelled example sentences, written per topic in `tools/curriculum/topic_reading/`; examples never show an exercise’s own answer) → 15–18 auto-checked exercises with a teaching note → one open Your turn → finish. Back/Next save the reading position; Exercises begins practice. Contents lets the learner reread without losing answers.
+- **Current content:** 170 topic lessons across eleven coaches: Grammarian 46; Reading & Listening 16; Pronunciation 12 (Phase 12); each other coach 12. Grammar consolidates all noun kinds into Nouns, pronoun kinds into Pronouns, verb kinds into Verbs and marks into Punctuation. On 2026-10-30 (owner: “still incomplete”) the Grammarian gained 21 newly written lessons, each with 2 reading pages and 16 checked exercises: possessives, quantities, there is/are, demonstratives, can/could (Starter); the present, past and future tenses one by one, used to/would, indirect questions, prepositions after words, gerunds and infinitives, phrasal verbs, so/such/too/enough (Foundation); present perfect, past perfect and future perfect/continuous, noun clauses (Intermediate, with Tenses kept as the mixed review); the passive in every tense, cleft sentences, ellipsis and substitution (Advanced). Sources: `tools/curriculum/grammar_more.py` and `topic_reading/grammarian_more.py`. Full [topic syllabus](../development-plan/phases/phase-13/syllabus.md).
+- **Compatibility:** the previous 296 lessons remain exact-version archives. They are absent from fresh browsing and topic progress totals. Existing unfinished attempts can Continue; each coach exposes Earlier lessons for saved attempts, including completed ones. Old completion does not transfer to a different topic identity.
+- **Authoring:** `tools/curriculum/build_topic_lessons.py` consumes the frozen original app lessons in `topic_sources/` and the explicit `topic_outline.py`. It preserves suitable exercise wording and combines the teaching by topic. Do not rerun the older stage scripts over topic catalogs. Qualified editorial review and owner play-test remain open.
 - Nothing is locked. Learners can open any unit. The level lock applies to the CEFR course only ([Course rules](product-specification.md#course-cefr-a1c2)); stages are a suggested order, never a gate.
 
 ## How coaches are presented (owner approved 2026-10-25)
@@ -21,7 +23,7 @@ The same shape as the Course (level → unit → lesson), so one list design ser
 3. **Only coaches with lessons appear.** No "coming soon" cards. Phase 2 shows the Grammarian alone, and the grid grows as Phase 4 lands each coach. Coaches without final art use an SF Symbol placeholder.
 4. **Coach screen:** artwork, name and tagline at the top; stage chips (Starter only for Grammarian and Reading & Listening); below them one card per unit with its lesson count and progress bar.
 5. **Unit screen:** a lesson list. Each row shows the title, a state (new, in progress, done) and the accuracy.
-6. **Lesson player:** the existing player (coach tip → exercises → "Your turn" → finish), with the coach's character in the tip and the feedback bar.
+6. **Lesson player:** the shared player (reading pages with examples → exercises → Your turn → finish), with the coach's character in the tip and the feedback bar.
 7. **Elsewhere:** Today's "Up next" card may suggest a coach lesson; Progress shows per-coach progress; Speech Lab has no coach picker.
 
 ## Content rules
@@ -32,7 +34,15 @@ The same shape as the Course (level → unit → lesson), so one list design ser
 - American English. Examples use diverse names and neutral settings, and make no assumptions about gender or nationality.
 - Every exercise has one or more accepted answers and a one-line reason.
 
-## The ten coaches
+## The coaches
+
+### 0. Pronunciation (Phase 12, 2026-10-26; art pending, icon "mouth")
+
+- **Focus:** clear sounds, word stress, rhythm and intonation. Second in the coach list.
+- **Stages and lessons:** Foundation — Long and short vowels; Open vowels; Schwa and weak syllables; Diphthongs; R-coloured vowels. Intermediate — Voiced and voiceless pairs; TH sounds; S, SH, CH and J; L, R, W, V, H and NG. Advanced — Word stress; Sentence stress and rhythm; Intonation.
+- **Lesson:** reading pages with examples → about seven **Say it** items (new `speak` screen: a microphone button, on-device recognition, "We heard …"; correct when the target word or phrase is heard as whole words; no typing) → about seven **Listen** items (the phone voice says one word of a minimal pair; choose it) → sound questions → Your turn. Built by `tools/curriculum/build_pronunciation.py` from `topic_reading/pronunciation.py`.
+- **Not claimed:** no accent or phoneme scoring; stress and intonation are taught and checked with questions, not measured from your voice.
+
 
 ### 1. Grammarian — *Owl Grammarian* (artwork exists)
 

@@ -1,146 +1,6 @@
 import SwiftUI
 
-/// Manual topics use the Vocabulary list pattern (Page 1 T08, node 2:38663) through the existing cards and text fields.
-struct CustomTopicList: View {
-    var storage: LearnerStorageController
-    @State private var title = ""
-    @State private var subtopic = ""
-    @State private var query = ""
-    @State private var showNewTopic = false
-    @State private var topics: [CustomVocabularyTopic] = []
-    @State private var enrollments: [VocabularyEnrollment] = []
-    @State private var due = 0
-    @State private var hasOpenRecall = false
-    @State private var message: String?
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            KitCard {
-                Text("A little recall. A lasting connection.").font(.title2.bold()).lineLimit(1).minimumScaleFactor(0.6)
-                Text(due == 0 ? "Nothing is due right now. Keep words from lessons or add your own." : "\(due) \(due == 1 ? "word is" : "words are") ready to revisit.")
-                    .foregroundStyle(Kit.secondary)
-                if due > 0 {
-                    NavigationLink(hasOpenRecall ? "Resume review" : "Start review") { VocabularyRecallSession(storage: storage) }
-                        .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("vocabulary.practice")
-                }
-            }
-            NavigationLink("Review options") { ReviewOptionsView(storage: storage) }
-                .frame(minHeight: 44).accessibilityIdentifier("vocabulary.options.open")
-            TextField("Search words, meanings and topics", text: $query,
-                      prompt: Text("Search words, meanings and topics").foregroundStyle(Kit.secondary))
-                .textFieldStyle(.plain).padding(14).background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
-                .accessibilityIdentifier("vocabulary.search")
-            if !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                HStack {
-                    Text("\(filteredEnrollments.count) collection results · \(filteredTopics.count) topics")
-                        .font(.caption).foregroundStyle(Kit.secondary)
-                        .accessibilityIdentifier("vocabulary.search.results")
-                    Spacer()
-                    Button("Clear search") { query = "" }
-                        .frame(minHeight: 44).accessibilityIdentifier("vocabulary.search.clear")
-                }
-                if filteredEnrollments.isEmpty && filteredTopics.isEmpty {
-                    AvailabilityCard(title: "No matching words or topics", detail: "Try a word, meaning, topic or subtopic.", symbol: "magnifyingglass")
-                        .accessibilityIdentifier("vocabulary.search.empty")
-                }
-            }
-            HStack {
-                Text("Your collection").font(.title3.bold())
-                Spacer()
-                Text("\(enrollments.count) words").font(.caption).foregroundStyle(Kit.secondary)
-            }
-            if enrollments.isEmpty {
-            }
-            LazyVStack(spacing: 12) {
-                ForEach(filteredEnrollments) { item in
-                    KitCard {
-                        Text(item.lemma).font(.headline)
-                        if let meaning = try? storage.repository?.meaningNote(itemId: item.itemId, senseId: item.senseId) {
-                            Text(meaning).font(.callout).foregroundStyle(Kit.secondary)
-                        }
-                        Text(reviewStatus(item)).font(.caption).foregroundStyle(Kit.accent)
-                        if !item.inReview {
-                            Button("Add to review") { addToReview(item) }
-                                .frame(minHeight: 44).accessibilityIdentifier("vocabulary.collection.enroll.\(item.senseId)")
-                        }
-                    }.accessibilityIdentifier("vocabulary.saved.\(item.senseId)")
-                }
-            }
-            HStack {
-                Text("Your topics").font(.title3.bold())
-                Spacer()
-                Button { showNewTopic = true } label: { Label("New topic", systemImage: "plus") }
-                    .frame(minHeight: 44).accessibilityIdentifier("vocabulary.topic.new")
-            }
-            ForEach(filteredTopics) { topic in
-                NavigationLink {
-                    CustomTopicEditor(storage: storage, topicID: topic.id)
-                } label: {
-                    KitCard { KitContentRow(symbol: "folder", title: topic.title,
-                        detail: topic.subtopic.isEmpty ? "\(topic.senses.count) words" : "\(topic.subtopic) · \(topic.senses.count) words", showsChevron: true) }
-                }.buttonStyle(.plain).accessibilityIdentifier("vocabulary.topic.open.\(topic.id.uuidString)")
-            }
-            if let message { Text(message).font(.callout).foregroundStyle(Kit.secondary).accessibilityIdentifier("vocabulary.message") }
-        }
-        .sheet(isPresented: $showNewTopic) {
-            NavigationStack {
-                Form {
-                    Section("Give your words a home") {
-                        TextField("Topic name", text: $title).accessibilityIdentifier("vocabulary.topic.title")
-                        TextField("Subtopic, optional", text: $subtopic).accessibilityIdentifier("vocabulary.topic.subtopic")
-                    }
-                    if let message { Text(message) }
-                }.navigationTitle("New topic")
-                    .toolbar {
-                        ToolbarItem(placement: .cancellationAction) { Button("Cancel") { showNewTopic = false } }
-                        ToolbarItem(placement: .confirmationAction) {
-                            Button("Create") { create() }.disabled(title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-                                .accessibilityIdentifier("vocabulary.topic.save")
-                        }
-                    }
-            }.tint(Kit.accent)
-        }
-        .onAppear(perform: reload)
-    }
-    private var filteredTopics: [CustomVocabularyTopic] {
-        topics.filter { VocabularySearch.matches(query, topic: $0) }
-    }
-    private var filteredEnrollments: [VocabularyEnrollment] {
-        enrollments.filter { item in
-            let meaning = (try? storage.repository?.meaningNote(itemId: item.itemId, senseId: item.senseId)) ?? item.meaning ?? ""
-            return VocabularySearch.matches(query, fields: [item.lemma, meaning])
-        }
-    }
-    private func reviewStatus(_ item: VocabularyEnrollment) -> String {
-        guard item.inReview else { return "In your collection · Not in review" }
-        if let card = try? storage.repository?.recognitionSchedule(itemId: item.itemId, senseId: item.senseId) {
-            return "Next review: \(card.due.formatted(date: .abbreviated, time: .shortened))"
-        }
-        return "Ready for a first review"
-    }
-    private func addToReview(_ item: VocabularyEnrollment) {
-        do {
-            guard let repository = storage.repository else { throw LearnerStorageError.unavailable }
-            try repository.addCollectedVocabularyToReview(item)
-            message = "Added to review. Its meaning and history stay with the same card."
-            reload()
-        } catch { message = "This word could not be added to review. Your collection is unchanged. Try again." }
-    }
-    private func create() {
-        do {
-            guard let repository = storage.repository else { throw LearnerStorageError.unavailable }
-            _ = try repository.createCustomTopic(title: title, subtopic: subtopic)
-            title = ""; subtopic = ""; message = nil; showNewTopic = false; reload()
-        } catch { message = "Your topic could not be saved. Use a name under 80 characters and try again after unlocking your device." }
-    }
-    private func reload() {
-        topics = (try? storage.repository?.customTopics()) ?? []
-        enrollments = (try? storage.repository?.vocabularyEnrollments()) ?? []
-        due = (try? storage.repository?.reviewQueue().due.count) ?? 0
-        hasOpenRecall = (try? storage.repository?.openRecall()) != nil
-    }
-}
-
+/// A pack of the learner's own words: name, words, Train all and Fill with AI.
 struct CustomTopicEditor: View {
     private enum WordField: Hashable { case lemma, meaning }
     @FocusState private var wordField: WordField?
@@ -161,44 +21,44 @@ struct CustomTopicEditor: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 if let topic {
+                    packActions(topic)
                     KitCard {
-                        TextField("Topic name", text: $details.title).textFieldStyle(.roundedBorder)
-                            .accessibilityIdentifier("vocabulary.topic.edit.title")
-                        TextField("Subtopic, if you want one", text: $details.subtopic).textFieldStyle(.roundedBorder)
-                            .accessibilityIdentifier("vocabulary.topic.edit.subtopic")
-                        Button("Save topic details") { rename() }
+                        TextField("Pack name", text: $details.title).textFieldStyle(KitFieldStyle())
+                            .accessibilityIdentifier("vocabulary.topic.edit.title").dictation($details.title)
+                        TextField("Subtopic, if you want one", text: $details.subtopic).textFieldStyle(KitFieldStyle())
+                            .accessibilityIdentifier("vocabulary.topic.edit.subtopic").dictation($details.subtopic)
+                        Button("Save name") { rename() }
+                            .buttonStyle(KitTextButtonStyle())
                             .disabled(!details.isDirty)
                             .accessibilityIdentifier("vocabulary.topic.rename")
                         if details.isDirty {
-                            Text("Unsaved topic details").font(.caption).foregroundStyle(Kit.secondary)
+                            Text("Unsaved name").font(.caption).foregroundStyle(Kit.secondary)
                                 .accessibilityIdentifier("vocabulary.topic.unsaved")
-                            Button("Discard topic changes") { details.accept(topic) }
+                            Button("Discard") { details.accept(topic) }.buttonStyle(KitTextButtonStyle())
                         }
                     }
                     KitCard {
                         Text("Add a word").font(.headline)
-                        Text("Speaking is optional. You can keep this word without recording.")
-                            .font(.footnote).foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
                         TextField("Word or phrase", text: $lemma)
-                            .textFieldStyle(.roundedBorder)
+                            .textFieldStyle(KitFieldStyle())
                             .autocorrectionDisabled()
                             .accessibilityIdentifier("vocabulary.sense.lemma")
                             .focused($wordField, equals: .lemma)
                             .dictation($lemma)
                         TextField("Meaning or useful context", text: $note)
-                            .textFieldStyle(.roundedBorder)
+                            .textFieldStyle(KitFieldStyle())
                             .accessibilityIdentifier("vocabulary.sense.note")
                             .focused($wordField, equals: .meaning)
                             .dictation($note)
                         Button("Save word") { wordField = nil; add() }
-                            .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent"))
+                            .buttonStyle(KitPrimaryButtonStyle())
                             .accessibilityIdentifier("vocabulary.sense.save")
                     }
                     ForEach(topic.senses) { sense in
                         senseCard(sense)
                     }
-                    Button("Remove topic") { confirmDelete = true }
-                        .foregroundStyle(Kit.error)
+                    Button("Delete pack") { confirmDelete = true }
+                        .buttonStyle(KitTextButtonStyle(role: .destructive))
                         .accessibilityIdentifier("vocabulary.topic.delete")
                 } else if let message {
                     Text(message).foregroundStyle(Kit.secondary)
@@ -214,17 +74,17 @@ struct CustomTopicEditor: View {
         .foregroundStyle(Kit.ink)
         .controlSize(.large)
         .scrollDismissesKeyboard(.interactively)
-        .navigationTitle(topic?.title ?? "Topic")
+        .navigationTitle(topic?.title ?? "Pack")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear(perform: load)
         .sheet(item: $editingSense) { sense in
             CustomSenseEditor(storage: storage, topicID: topicID, sense: sense, onSave: load)
         }
-        .confirmationDialog("Remove this topic?", isPresented: $confirmDelete, titleVisibility: .visible) {
-            Button("Remove topic", role: .destructive) { remove() }
+        .confirmationDialog("Delete this pack?", isPresented: $confirmDelete, titleVisibility: .visible) {
+            Button("Delete pack", role: .destructive) { remove() }
             Button("Cancel", role: .cancel) {}
         } message: {
-            Text("The topic is removed. A word already in your collection stays there.")
+            Text("Words already in training stay there.")
         }
     }
 
@@ -235,19 +95,28 @@ struct CustomTopicEditor: View {
                 Text(sense.note).font(.footnote).foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
             }
             Button("Edit word and meaning") { editingSense = sense }
-                .frame(minHeight: 44)
-            VStack(alignment: .leading, spacing: 8) {
-                Button(collectedIDs.contains("\(sense.itemId)|\(sense.senseId)") ? "In collection" : "Save to collection") { enroll(sense, inReview: false) }
-                    .buttonStyle(.bordered)
-                    .frame(maxWidth: .infinity, minHeight: 44)
-                    .disabled(collectedIDs.contains("\(sense.itemId)|\(sense.senseId)"))
-                    .accessibilityIdentifier("vocabulary.sense.collect.\(sense.senseId)")
-                Button(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)") ? "In review" : "Add to review") { enroll(sense, inReview: true) }
-                    .buttonStyle(.bordered)
-                    .frame(maxWidth: .infinity, minHeight: 44)
-                    .disabled(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)"))
-                    .accessibilityIdentifier("vocabulary.sense.enroll.\(sense.senseId)")
+                .buttonStyle(KitTextButtonStyle())
+            Button(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)") ? "In training" : "Train") { enroll(sense, inReview: true) }
+                .buttonStyle(KitSecondaryButtonStyle())
+                .frame(maxWidth: .infinity, minHeight: 44)
+                .disabled(reviewIDs.contains("\(sense.itemId)|\(sense.senseId)"))
+                .accessibilityIdentifier("vocabulary.sense.enroll.\(sense.senseId)")
+        }
+    }
+
+    /// Train every word of the pack, and fill the pack with AI words (the key setup opens first when there is no key).
+    @ViewBuilder private func packActions(_ topic: CustomVocabularyTopic) -> some View {
+        let untrained = topic.senses.filter { !reviewIDs.contains("\($0.itemId)|\($0.senseId)") }
+        HeroCard(eyebrow: "Your pack", title: "\(topic.senses.count) \(topic.senses.count == 1 ? "word" : "words")",
+                 detail: untrained.isEmpty && !topic.senses.isEmpty ? "All in training" : nil) {
+            if !untrained.isEmpty {
+                Button("Train all") { untrained.forEach { enroll($0, inReview: true) }; message = "Added to Daily Training." }
+                    .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("vocabulary.topic.trainAll")
             }
+            AISetupLink(isReady: { AIFeedbackController.localService() != nil }) {
+                SpecializedLexiconView(storage: storage, pack: topic)
+            } label: { Text("Fill with AI") }
+                .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("vocabulary.topic.fillAI")
         }
     }
 
@@ -296,7 +165,7 @@ struct CustomTopicEditor: View {
             } else if change.reusedIdentity {
                 message = "That word was already in your topics. It is listed here too, still as one card."
             } else {
-                message = "Word saved in this topic. It is not in your review collection yet."
+                message = "Word saved. Tap Train to add it to Daily Training."
             }
             load()
         } catch CustomVocabularyError.blankLemma {
@@ -319,9 +188,7 @@ struct CustomTopicEditor: View {
                 : try repository.saveCustomSenseToCollection(topicID: topicID, senseID: sense.id)
             collectedIDs.insert("\(sense.itemId)|\(sense.senseId)")
             if enrollment.inReview { reviewIDs.insert("\(sense.itemId)|\(sense.senseId)") }
-            message = inReview
-                ? "Added to review. It is not rated until you study it."
-                : "Saved in your collection. It is not in the review queue."
+            message = inReview ? "Added to Daily Training." : "Saved."
         } catch {
             message = "The word could not be saved."
         }
@@ -352,13 +219,13 @@ private struct CustomSenseEditor: View {
     @Environment(\.dismiss) private var dismiss
     var body: some View {
         NavigationStack {
-            Form {
+            Form { KitRows {
                 TextField("Word or phrase", text: $word).dictation($word)
                 TextField("Meaning or useful context", text: $meaning, axis: .vertical).dictation($meaning)
                 Text("This updates the same word in your topics and collection. Its review schedule is kept. For a different meaning, add a separate word entry.")
                     .font(.footnote)
                 if let message { Text(message) }
-            }.navigationTitle("Edit word")
+            }}.navigationTitle("Edit word")
                 .toolbar {
                     ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
                     ToolbarItem(placement: .confirmationAction) { Button("Save") { save() } }
@@ -386,7 +253,7 @@ struct ReviewOptionsView: View {
     @FocusState private var editing: Bool
 
     var body: some View {
-        Form {
+        Form { KitRows {
             Section {
                 Text("Choose the recall target and the amount offered in one review session. These are scheduling preferences, not measured learning results.")
             }
@@ -421,14 +288,14 @@ struct ReviewOptionsView: View {
                 Text("Changing or restoring these options keeps earlier ratings and due dates. History from an unsupported scheduler stays unchanged and is not reviewed by this version. No automatic upgrade, rollback or reset is performed.")
                     .font(.footnote).foregroundStyle(Kit.secondary)
             }
-        }
+        }}
         .scrollContentBackground(.hidden)
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .navigationTitle("Review options")
         .tint(Kit.accent)
         .toolbar {
-            ToolbarItemGroup(placement: .keyboard) { Spacer(); Button("Done") { editing = false } }
+            ToolbarItemGroup(placement: .keyboard) { Spacer(); Button("Done") { editing = false }.accessibilityIdentifier("vocabulary.options.keyboard.done") }
         }
         .onAppear(perform: load)
     }

@@ -1,0 +1,726 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-science-technical",
+    "title": "Scientific language",
+    "level": "C2",
+    "tagline": "Technical but general terms",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "viscosity",
+      "pos": "noun",
+      "meaning": "How thick a liquid is and how much it resists flowing.",
+      "examples": [
+        "Honey has a much higher {viscosity} than water."
+      ],
+      "wrong": [
+        "Water has more viscosity than honey, so it pours more slowly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "thickness"
+      ],
+      "ipa": "/vɪˈskɑsəti/"
+    },
+    {
+      "lemma": "entropy",
+      "pos": "noun",
+      "meaning": "A measure of disorder in a system, which tends to increase over time.",
+      "examples": [
+        "Left alone, a tidy room drifts toward {entropy}."
+      ],
+      "wrong": [
+        "Entropy is the natural tendency of things to become more ordered."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "disorder"
+      ],
+      "ipa": "/ˈɛntrəpi/"
+    },
+    {
+      "lemma": "decompose",
+      "pos": "verb",
+      "meaning": "To break down slowly into simpler parts, especially after death.",
+      "examples": [
+        "Leaves {decompose} into rich soil over the winter."
+      ],
+      "wrong": [
+        "The plastic decomposed in a week and then stayed in the sea for centuries."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "rot",
+        "decay",
+        "break down"
+      ],
+      "ipa": "/ˌdikəmˈpoʊz/"
+    },
+    {
+      "lemma": "inert",
+      "pos": "adjective",
+      "meaning": "Not reacting chemically with other substances; not moving.",
+      "examples": [
+        "Helium is an {inert} gas."
+      ],
+      "wrong": [
+        "The gas is inert, so it explodes when it touches anything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unreactive",
+        "inactive"
+      ],
+      "ipa": "/ɪˈnɝt/",
+      "antonyms": [
+        "reactive"
+      ]
+    },
+    {
+      "lemma": "isotope",
+      "pos": "noun",
+      "meaning": "A form of a chemical element with a different number of neutrons.",
+      "examples": [
+        "Carbon-14 is a radioactive {isotope} used in dating fossils."
+      ],
+      "wrong": [
+        "An isotope is a totally different element with a new name."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈaɪsəˌtoʊp/"
+    },
+    {
+      "lemma": "symbiosis",
+      "pos": "noun",
+      "meaning": "A close relationship between two living things that helps both.",
+      "examples": [
+        "Bees and flowers live in {symbiosis}."
+      ],
+      "wrong": [
+        "Their symbiosis harmed both species and helped neither."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mutualism",
+        "interdependence"
+      ],
+      "ipa": "/ˌsɪmbiˈoʊsɪs/"
+    },
+    {
+      "lemma": "homeostasis",
+      "pos": "noun",
+      "meaning": "The body’s way of keeping its inner conditions stable.",
+      "examples": [
+        "Sweating helps maintain {homeostasis} in hot weather."
+      ],
+      "wrong": [
+        "Homeostasis makes body temperature swing wildly all day."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "equilibrium",
+        "balance"
+      ],
+      "ipa": "/ˌhoʊmioʊˈsteɪsɪs/"
+    },
+    {
+      "lemma": "osmosis",
+      "pos": "noun",
+      "meaning": "The slow movement of water through a thin layer from a weak solution to a strong one; gradual absorption.",
+      "examples": [
+        "Plant roots take up water by {osmosis}."
+      ],
+      "wrong": [
+        "She learned the language by osmosis, through hours of strict grammar drills."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "absorption",
+        "diffusion"
+      ],
+      "ipa": "/ɑzˈmoʊsɪs/"
+    },
+    {
+      "lemma": "half-life",
+      "pos": "noun",
+      "meaning": "The time it takes for half of a substance to decay or disappear.",
+      "examples": [
+        "This isotope has a {half-life} of about 5,700 years."
+      ],
+      "wrong": [
+        "The half-life is the time it takes a substance to double."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈhæfˌlaɪf/"
+    },
+    {
+      "lemma": "propagate",
+      "pos": "verb",
+      "meaning": "To spread or travel through a material; also to make plants grow from parent plants.",
+      "examples": [
+        "Sound waves {propagate} faster through water than through air."
+      ],
+      "wrong": [
+        "The wave propagated by stopping completely at the wall."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spread",
+        "transmit",
+        "disseminate"
+      ],
+      "ipa": "/ˈprɑpəˌɡeɪt/"
+    },
+    {
+      "lemma": "inoculate",
+      "pos": "verb",
+      "meaning": "To give someone a weak form of a disease to protect them from it.",
+      "examples": [
+        "Children are {inoculated} against measles."
+      ],
+      "wrong": [
+        "They inoculated the cattle so that the disease would spread faster."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "vaccinate",
+        "immunize"
+      ],
+      "ipa": "/ɪˈnɑkjəˌleɪt/"
+    },
+    {
+      "lemma": "combustion",
+      "pos": "noun",
+      "meaning": "The chemical process of burning.",
+      "examples": [
+        "Car engines run on the {combustion} of fuel."
+      ],
+      "wrong": [
+        "Combustion happens when a fire is put out with water."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "burning",
+        "ignition"
+      ],
+      "ipa": "/kəmˈbʌstʃən/"
+    },
+    {
+      "lemma": "wavelength",
+      "pos": "noun",
+      "meaning": "The distance between two wave peaks; also a way of thinking you share with someone.",
+      "examples": [
+        "Red light has a longer {wavelength} than blue light."
+      ],
+      "wrong": [
+        "A wavelength is the speed at which a car travels."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈweɪvˌlɛŋθ/"
+    },
+    {
+      "lemma": "centrifugal",
+      "pos": "adjective",
+      "meaning": "Moving or pushing away from the center of something that spins.",
+      "examples": [
+        "{Centrifugal} force presses you against the wall of the spinning ride."
+      ],
+      "wrong": [
+        "Centrifugal force pulls a spinning object in toward its center."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "synonyms": [
+        "outward"
+      ],
+      "ipa": "/sɛnˈtrɪfjəɡəl/",
+      "antonyms": [
+        "centripetal"
+      ]
+    },
+    {
+      "lemma": "kinetic",
+      "pos": "adjective",
+      "meaning": "Relating to movement or produced by movement.",
+      "examples": [
+        "A rolling ball has {kinetic} energy."
+      ],
+      "wrong": [
+        "Kinetic energy is the energy an object has when it is completely still."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "moving",
+        "dynamic"
+      ],
+      "ipa": "/kɪˈnɛtɪk/",
+      "antonyms": [
+        "static"
+      ]
+    },
+    {
+      "lemma": "dissipate",
+      "pos": "verb",
+      "meaning": "To spread out and disappear gradually.",
+      "examples": [
+        "The fog {dissipated} by noon."
+      ],
+      "wrong": [
+        "The heat dissipated and grew stronger in one spot."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "disperse",
+        "scatter",
+        "vanish"
+      ],
+      "ipa": "/ˈdɪsəˌpeɪt/",
+      "antonyms": [
+        "accumulate",
+        "concentrate"
+      ]
+    },
+    {
+      "lemma": "permeable",
+      "pos": "adjective",
+      "meaning": "Letting liquids or gases pass through.",
+      "examples": [
+        "Sandy soil is highly {permeable}."
+      ],
+      "wrong": [
+        "The wall is permeable, so no water can get through it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "porous",
+        "penetrable"
+      ],
+      "ipa": "/ˈpɝmiəbəl/",
+      "antonyms": [
+        "impermeable"
+      ]
+    },
+    {
+      "lemma": "corrosive",
+      "pos": "adjective",
+      "meaning": "Able to slowly destroy metal or other materials by chemical action; harmful.",
+      "examples": [
+        "Seawater is {corrosive} to steel."
+      ],
+      "wrong": [
+        "The acid is corrosive, so it makes metal stronger."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "caustic",
+        "erosive",
+        "destructive"
+      ],
+      "ipa": "/kəˈroʊsɪv/"
+    },
+    {
+      "lemma": "soluble",
+      "pos": "adjective",
+      "meaning": "Able to dissolve in a liquid.",
+      "examples": [
+        "Sugar is {soluble} in water."
+      ],
+      "wrong": [
+        "Sand is soluble, so it vanishes as soon as it touches water."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dissolvable"
+      ],
+      "ipa": "/ˈsɑljəbəl/",
+      "antonyms": [
+        "insoluble"
+      ]
+    },
+    {
+      "lemma": "oscillate",
+      "pos": "verb",
+      "meaning": "To move back and forth regularly; to keep changing between two states.",
+      "examples": [
+        "The pendulum {oscillates} every two seconds."
+      ],
+      "wrong": [
+        "The needle oscillated by staying perfectly still."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "swing",
+        "vibrate",
+        "fluctuate"
+      ],
+      "ipa": "/ˈɑsəˌleɪt/"
+    },
+    {
+      "lemma": "refract",
+      "pos": "verb",
+      "meaning": "To bend light or sound as it passes from one material into another.",
+      "examples": [
+        "Water {refracts} light, so a straw looks bent."
+      ],
+      "wrong": [
+        "The glass refracted the light by letting it pass in a perfectly straight line."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bend",
+        "deflect"
+      ],
+      "ipa": "/rɪˈfrækt/"
+    },
+    {
+      "lemma": "carcinogen",
+      "pos": "noun",
+      "meaning": "A substance that can cause cancer.",
+      "examples": [
+        "Tobacco smoke contains many known {carcinogens}."
+      ],
+      "wrong": [
+        "A carcinogen is a vitamin that protects you from cancer."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/kɑrˈsɪnədʒən/"
+    },
+    {
+      "lemma": "pathogen",
+      "pos": "noun",
+      "meaning": "A germ, such as a virus or bacterium, that causes disease.",
+      "examples": [
+        "Boiling water kills most {pathogens}."
+      ],
+      "wrong": [
+        "A pathogen is a helpful germ that cures diseases."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "germ",
+        "microbe"
+      ],
+      "ipa": "/ˈpæθədʒən/"
+    },
+    {
+      "lemma": "null hypothesis",
+      "pos": "noun",
+      "meaning": "The starting assumption in a study that there is no real effect or difference.",
+      "examples": [
+        "The data let us reject the {null hypothesis}."
+      ],
+      "wrong": [
+        "The null hypothesis claims that the new drug has a huge effect."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/ˈnʌl haɪˈpɑθəsɪs/"
+    },
+    {
+      "lemma": "taxonomy",
+      "pos": "noun",
+      "meaning": "The science of naming and sorting living things into groups; any system of classification.",
+      "examples": [
+        "The {taxonomy} places whales among mammals, not fish."
+      ],
+      "wrong": [
+        "A taxonomy is a list that puts things in no order at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "classification"
+      ],
+      "ipa": "/tækˈsɑnəmi/"
+    },
+    {
+      "lemma": "order of magnitude",
+      "pos": "noun",
+      "meaning": "A difference of about ten times in size or amount.",
+      "examples": [
+        "The new chip is an {order of magnitude} faster."
+      ],
+      "wrong": [
+        "An order of magnitude means a tiny change of about one percent."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈɔrdɚ əv ˈmæɡnəˌtud/"
+    },
+    {
+      "lemma": "refraction",
+      "pos": "noun",
+      "meaning": "The bending of light or sound as it passes from one substance into another.",
+      "examples": [
+        "{Refraction} makes a straw look bent in a glass of water."
+      ],
+      "wrong": [
+        "Refraction keeps light moving in a perfectly straight line through water."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/rɪˈfrækʃən/"
+    },
+    {
+      "lemma": "photosynthesis",
+      "pos": "noun",
+      "meaning": "The process plants use to make food from sunlight, water and carbon dioxide.",
+      "examples": [
+        "Leaves turn sunlight into energy through {photosynthesis}."
+      ],
+      "wrong": [
+        "Photosynthesis is how animals digest their food at night."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌfoʊtoʊˈsɪnθəsɪs/"
+    },
+    {
+      "lemma": "mutate",
+      "pos": "verb",
+      "meaning": "To change in form or nature, especially through a change in genes.",
+      "examples": [
+        "The virus {mutated} quickly, so the old vaccine stopped working."
+      ],
+      "wrong": [
+        "The cells mutated, so they stayed exactly the same as before."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "change",
+        "transform",
+        "evolve"
+      ],
+      "ipa": "/ˈmjuˌteɪt/"
+    },
+    {
+      "lemma": "exponential",
+      "pos": "adjective",
+      "meaning": "Growing faster and faster, by multiplying again and again.",
+      "examples": [
+        "The virus showed {exponential} growth."
+      ],
+      "wrong": [
+        "Exponential growth is slow and steady, adding the same amount each year."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accelerating",
+        "rapid"
+      ],
+      "ipa": "/ˌɛkspəˈnɛnʃəl/",
+      "antonyms": [
+        "linear"
+      ]
+    },
+    {
+      "lemma": "velocity",
+      "pos": "noun",
+      "meaning": "The speed of something in a given direction.",
+      "examples": [
+        "The rocket reached a {velocity} of 11 kilometers per second."
+      ],
+      "wrong": [
+        "Velocity measures how heavy an object is."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "speed",
+        "rate"
+      ],
+      "ipa": "/vəˈlɑsəti/"
+    },
+    {
+      "lemma": "hypothesize",
+      "pos": "verb",
+      "meaning": "To suggest an idea as a possible explanation that still needs testing.",
+      "examples": [
+        "Researchers {hypothesize} that sleep helps memory."
+      ],
+      "wrong": [
+        "She hypothesized the result after it had been fully proven."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "theorize",
+        "posit",
+        "speculate"
+      ],
+      "ipa": "/haɪˈpɑθəˌsaɪz/"
+    },
+    {
+      "lemma": "theorem",
+      "pos": "noun",
+      "meaning": "A statement in mathematics that can be proved by reasoning.",
+      "examples": [
+        "The {theorem} was finally proved after three centuries."
+      ],
+      "wrong": [
+        "A theorem is a guess that nobody can ever prove."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "proposition"
+      ],
+      "ipa": "/ˈθirəm/"
+    },
+    {
+      "lemma": "falsifiable",
+      "pos": "adjective",
+      "meaning": "Able to be shown false by a test or observation.",
+      "examples": [
+        "A scientific claim must be {falsifiable}."
+      ],
+      "wrong": [
+        "The theory is falsifiable, so no test could ever disprove it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "testable",
+        "refutable"
+      ],
+      "ipa": "/ˈfɔlsəˌfaɪəbəl/",
+      "antonyms": [
+        "unfalsifiable"
+      ]
+    },
+    {
+      "lemma": "confounding variable",
+      "pos": "noun",
+      "meaning": "A hidden factor that affects the results of a study and may give a false link.",
+      "examples": [
+        "Age was a {confounding variable} in the diet study."
+      ],
+      "wrong": [
+        "A confounding variable has no effect at all on the results."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "confounder"
+      ],
+      "ipa": "/kənˈfaʊndɪŋ ˈvɛriəbəl/"
+    },
+    {
+      "lemma": "enzyme",
+      "pos": "noun",
+      "meaning": "A protein that speeds up chemical reactions in living things.",
+      "examples": [
+        "An {enzyme} in saliva begins to break down food."
+      ],
+      "wrong": [
+        "Enzymes are rocks found deep inside the earth."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈɛnzaɪm/"
+    },
+    {
+      "lemma": "dilute",
+      "pos": "verb",
+      "meaning": "To make a liquid weaker by adding water or another liquid; to weaken.",
+      "examples": [
+        "{Dilute} the juice with an equal amount of water."
+      ],
+      "wrong": [
+        "She diluted the syrup by boiling away all the water."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "thin",
+        "water down",
+        "weaken"
+      ],
+      "ipa": "/daɪˈlut/",
+      "antonyms": [
+        "concentrate",
+        "thicken"
+      ]
+    },
+    {
+      "lemma": "inversely proportional",
+      "pos": "phrase",
+      "meaning": "Related so that when one amount rises, the other falls at the same rate.",
+      "examples": [
+        "Pressure is {inversely proportional} to volume."
+      ],
+      "wrong": [
+        "The two amounts are inversely proportional, so both rise together."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ɪnˈvɝsli prəˈpɔrʃənəl/"
+    },
+    {
+      "lemma": "sediment",
+      "pos": "noun",
+      "meaning": "Sand, soil or other matter that settles at the bottom of a liquid.",
+      "examples": [
+        "A layer of {sediment} built up on the riverbed."
+      ],
+      "wrong": [
+        "The sediment floated to the top and stayed there."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deposit",
+        "silt",
+        "residue"
+      ],
+      "ipa": "/ˈsɛdəmənt/"
+    },
+    {
+      "lemma": "iterative",
+      "pos": "adjective",
+      "meaning": "Done again and again, improving a little each time.",
+      "examples": [
+        "Design is an {iterative} process."
+      ],
+      "wrong": [
+        "The process was iterative, so they did it once and never repeated it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "repetitive",
+        "cyclical"
+      ],
+      "ipa": "/ˈɪtəˌreɪtɪv/"
+    }
+  ]
+}

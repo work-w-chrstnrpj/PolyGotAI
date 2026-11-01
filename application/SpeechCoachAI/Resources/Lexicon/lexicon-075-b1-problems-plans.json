@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-problems-plans",
+    "title": "Problems and plans",
+    "level": "B1",
+    "tagline": "Decisions, mistakes and solutions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "option",
+      "pos": "noun",
+      "meaning": "One of the things you can choose.",
+      "examples": [
+        "We have two {options}: wait or take a taxi."
+      ],
+      "wrong": [
+        "There is only one option, so we have lots to choose from."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "choice",
+        "possibility"
+      ],
+      "ipa": "/ˈɑpʃən/"
+    },
+    {
+      "lemma": "alternative",
+      "pos": "noun",
+      "meaning": "Another thing you can choose or use instead.",
+      "examples": [
+        "If the train is full, the bus is a good {alternative}."
+      ],
+      "wrong": [
+        "There is no alternative, so we can pick any other way."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "option",
+        "substitute"
+      ],
+      "ipa": "/ɔlˈtɝnətɪv/"
+    },
+    {
+      "lemma": "solution",
+      "pos": "noun",
+      "meaning": "A way to deal with a problem.",
+      "examples": [
+        "We found a {solution} to the parking problem."
+      ],
+      "wrong": [
+        "His solution made the problem much worse and solved nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "answer",
+        "fix",
+        "remedy"
+      ],
+      "ipa": "/səˈluʃən/"
+    },
+    {
+      "lemma": "solve",
+      "pos": "verb",
+      "meaning": "To find the answer to a problem.",
+      "examples": [
+        "Can you {solve} this puzzle?"
+      ],
+      "wrong": [
+        "I solved the puzzle, but I never found the answer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "work out",
+        "fix",
+        "figure out"
+      ],
+      "ipa": "/sɑlv/"
+    },
+    {
+      "lemma": "error",
+      "pos": "noun",
+      "meaning": "Something done or said wrongly.",
+      "examples": [
+        "There’s an {error} in the bill: we paid twice."
+      ],
+      "wrong": [
+        "The report has an error, so every part is correct."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mistake",
+        "slip"
+      ],
+      "ipa": "/ˈɛrɚ/"
+    },
+    {
+      "lemma": "aim",
+      "pos": "noun",
+      "meaning": "What you hope to achieve.",
+      "examples": [
+        "My {aim} is to run a marathon next year."
+      ],
+      "wrong": [
+        "His aim is to win, so he doesn’t want to win."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "goal",
+        "target",
+        "purpose"
+      ],
+      "ipa": "/eɪm/"
+    },
+    {
+      "lemma": "decision",
+      "pos": "noun",
+      "meaning": "A choice you make after thinking about it.",
+      "examples": [
+        "Moving abroad was a big {decision}."
+      ],
+      "wrong": [
+        "She made her decision, so she still hasn’t chosen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "choice",
+        "conclusion"
+      ],
+      "ipa": "/dɪˈsɪʒən/"
+    },
+    {
+      "lemma": "postpone",
+      "pos": "verb",
+      "meaning": "To move an event to a later time.",
+      "examples": [
+        "The match was {postponed} because of the rain."
+      ],
+      "wrong": [
+        "They postponed the party, so it happened a week earlier."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "delay",
+        "put off"
+      ],
+      "ipa": "/poʊstˈpoʊn/"
+    },
+    {
+      "lemma": "fix",
+      "pos": "verb",
+      "meaning": "To repair something or put a problem right.",
+      "examples": [
+        "Can you {fix} my bike before the weekend?"
+      ],
+      "wrong": [
+        "He fixed the broken lamp, so it still doesn’t work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "repair",
+        "mend",
+        "sort out"
+      ],
+      "ipa": "/fɪks/"
+    },
+    {
+      "lemma": "purpose",
+      "pos": "noun",
+      "meaning": "The reason why something is done or made.",
+      "examples": [
+        "What is the {purpose} of your visit?"
+      ],
+      "wrong": [
+        "The purpose of a key is to tell the time."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reason",
+        "aim",
+        "goal"
+      ],
+      "ipa": "/ˈpɝpəs/"
+    },
+    {
+      "lemma": "obstacle",
+      "pos": "noun",
+      "meaning": "Something that stops you or makes progress hard.",
+      "examples": [
+        "Money is the biggest {obstacle} to our plan."
+      ],
+      "wrong": [
+        "The fallen tree was an obstacle that made the road easier."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "barrier",
+        "problem",
+        "hurdle"
+      ],
+      "ipa": "/ˈɑbstəkəl/"
+    },
+    {
+      "lemma": "difficulty",
+      "pos": "noun",
+      "meaning": "A problem, or the fact that something is hard.",
+      "examples": [
+        "She had {difficulty} finding the house."
+      ],
+      "wrong": [
+        "He found the house with great difficulty, as easily as anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "trouble",
+        "problem"
+      ],
+      "ipa": "/ˈdɪfəˌkʌlti/"
+    },
+    {
+      "lemma": "cope",
+      "pos": "verb",
+      "meaning": "To deal successfully with something hard.",
+      "examples": [
+        "How do you {cope} with so much work?"
+      ],
+      "wrong": [
+        "He coped well, so he couldn’t deal with anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "manage",
+        "get by",
+        "handle"
+      ],
+      "ipa": "/koʊp/"
+    },
+    {
+      "lemma": "overcome",
+      "pos": "verb",
+      "meaning": "To succeed in dealing with a problem or fear.",
+      "examples": [
+        "She {overcame} her fear of flying."
+      ],
+      "wrong": [
+        "He overcame his fear, so he is still too scared to fly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "beat",
+        "conquer",
+        "get over"
+      ],
+      "ipa": "/ˌoʊvɚˈkʌm/"
+    },
+    {
+      "lemma": "prepare",
+      "pos": "verb",
+      "meaning": "To get ready, or make something ready, for a future event.",
+      "examples": [
+        "I need to {prepare} for tomorrow’s interview."
+      ],
+      "wrong": [
+        "She prepared for the exam by doing nothing until it started."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "get ready",
+        "plan"
+      ],
+      "ipa": "/prɪˈpɛr/"
+    },
+    {
+      "lemma": "disaster",
+      "pos": "noun",
+      "meaning": "Something that goes very badly or causes great harm.",
+      "examples": [
+        "The party was a {disaster}: the food burned and nobody came."
+      ],
+      "wrong": [
+        "The trip was a disaster, so everything went perfectly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "catastrophe",
+        "failure",
+        "fiasco"
+      ],
+      "ipa": "/dɪˈzæstɚ/"
+    },
+    {
+      "lemma": "hesitate",
+      "pos": "verb",
+      "meaning": "To stop for a moment because you are not sure.",
+      "examples": [
+        "Don’t {hesitate} to call me if you need help."
+      ],
+      "wrong": [
+        "He hesitated and answered straight away with no pause."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pause",
+        "waver"
+      ],
+      "ipa": "/ˈhɛzəˌteɪt/"
+    },
+    {
+      "lemma": "attempt",
+      "pos": "noun",
+      "meaning": "A try at doing something, often hard.",
+      "examples": [
+        "He passed the test on his second {attempt}."
+      ],
+      "wrong": [
+        "She made no attempt, so she tried three times."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "try",
+        "effort",
+        "go"
+      ],
+      "ipa": "/əˈtɛmpt/"
+    },
+    {
+      "lemma": "succeed",
+      "pos": "verb",
+      "meaning": "To do what you tried or planned to do.",
+      "examples": [
+        "She {succeeded} in getting the job."
+      ],
+      "wrong": [
+        "He succeeded, so he didn’t get what he wanted."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "manage",
+        "make it"
+      ],
+      "ipa": "/səkˈsid/",
+      "antonyms": [
+        "fail"
+      ]
+    },
+    {
+      "lemma": "failure",
+      "pos": "noun",
+      "meaning": "A lack of success.",
+      "examples": [
+        "The first plan was a {failure}, so we tried again."
+      ],
+      "wrong": [
+        "The show was a failure, so everyone loved it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "flop",
+        "defeat"
+      ],
+      "ipa": "/ˈfeɪljɚ/",
+      "antonyms": [
+        "success"
+      ]
+    },
+    {
+      "lemma": "risk",
+      "pos": "noun",
+      "meaning": "The chance that something bad will happen.",
+      "examples": [
+        "There is a {risk} of rain, so take an umbrella."
+      ],
+      "wrong": [
+        "There is no risk at all, so it is very dangerous."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "danger",
+        "chance",
+        "threat"
+      ],
+      "ipa": "/rɪsk/"
+    },
+    {
+      "lemma": "backup plan",
+      "pos": "noun",
+      "meaning": "A second plan to use if the first one fails.",
+      "examples": [
+        "If it rains, our {backup plan} is the cinema."
+      ],
+      "wrong": [
+        "Our backup plan was the first thing we tried."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "plan B",
+        "fallback"
+      ],
+      "ipa": "/ˈbækˌʌp ˌplæn/"
+    },
+    {
+      "lemma": "trial and error",
+      "pos": "phrase",
+      "meaning": "Trying different ways until you find one that works.",
+      "examples": [
+        "I learned to cook by {trial and error}."
+      ],
+      "wrong": [
+        "She solved it by trial and error, getting it right on the very first try."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌtraɪəl ən ˈɛrɚ/"
+    },
+    {
+      "lemma": "step by step",
+      "pos": "phrase",
+      "meaning": "Slowly, doing one stage at a time.",
+      "examples": [
+        "Follow the instructions {step by step}."
+      ],
+      "wrong": [
+        "He did it step by step, all at once in one go."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gradually",
+        "bit by bit"
+      ],
+      "ipa": "/ˌstɛp baɪ ˈstɛp/"
+    },
+    {
+      "lemma": "weigh up",
+      "pos": "verb",
+      "meaning": "To think about the good and bad sides before deciding.",
+      "examples": [
+        "{Weigh up} the costs before you buy a car."
+      ],
+      "wrong": [
+        "She weighed up both choices without thinking about either."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "consider",
+        "assess"
+      ],
+      "ipa": "/ˌweɪ ˈʌp/"
+    },
+    {
+      "lemma": "sleep on it",
+      "pos": "phrase",
+      "meaning": "To wait until the next day before you decide.",
+      "examples": [
+        "Don’t decide now; {sleep on it}."
+      ],
+      "wrong": [
+        "I’ll sleep on it, so I’ll give you my answer right now."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "ipa": "/ˈslip ɑn ɪt/"
+    },
+    {
+      "lemma": "change your mind",
+      "pos": "phrase",
+      "meaning": "To make a new decision different from the old one.",
+      "examples": [
+        "I wanted pizza, but I {changed my mind}."
+      ],
+      "wrong": [
+        "He changed his mind, so his decision stayed the same."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reconsider"
+      ],
+      "ipa": "/ˌtʃeɪndʒ jɚ ˈmaɪnd/"
+    },
+    {
+      "lemma": "on purpose",
+      "pos": "phrase",
+      "meaning": "Done because you wanted to, not by accident.",
+      "examples": [
+        "She broke the vase {on purpose} because she was angry."
+      ],
+      "wrong": [
+        "He did it on purpose; it was a total accident."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "deliberately",
+        "intentionally"
+      ],
+      "ipa": "/ɑn ˈpɝpəs/",
+      "antonyms": [
+        "by accident"
+      ]
+    },
+    {
+      "lemma": "by mistake",
+      "pos": "phrase",
+      "meaning": "Done without meaning to.",
+      "examples": [
+        "I took your umbrella {by mistake}."
+      ],
+      "wrong": [
+        "She deleted the file by mistake, exactly as she had planned."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "accidentally",
+        "by accident"
+      ],
+      "ipa": "/baɪ mɪˈsteɪk/",
+      "antonyms": [
+        "on purpose",
+        "deliberately"
+      ]
+    },
+    {
+      "lemma": "in advance",
+      "pos": "phrase",
+      "meaning": "Before the time when something happens.",
+      "examples": [
+        "Book your tickets {in advance}."
+      ],
+      "wrong": [
+        "We paid in advance, after the concert was over."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "beforehand",
+        "ahead of time"
+      ],
+      "ipa": "/ɪn ədˈvæns/"
+    },
+    {
+      "lemma": "go wrong",
+      "pos": "phrase",
+      "meaning": "To not happen in the way you planned.",
+      "examples": [
+        "Everything {went wrong} on our first day."
+      ],
+      "wrong": [
+        "Nothing went right, so the plan didn’t go wrong."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fail",
+        "backfire"
+      ],
+      "ipa": "/ˌɡoʊ ˈrɔŋ/"
+    },
+    {
+      "lemma": "possibility",
+      "pos": "noun",
+      "meaning": "Something that might happen or be true.",
+      "examples": [
+        "There’s a {possibility} that the flight will be late."
+      ],
+      "wrong": [
+        "There is no possibility of rain, so it will surely rain."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chance",
+        "likelihood",
+        "option"
+      ],
+      "ipa": "/ˌpɑsəˈbɪləti/"
+    },
+    {
+      "lemma": "suggestion",
+      "pos": "noun",
+      "meaning": "An idea or plan you offer for others to think about.",
+      "examples": [
+        "Do you have any {suggestions} for the party?"
+      ],
+      "wrong": [
+        "His suggestion was an order that everyone had to follow."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "idea",
+        "proposal",
+        "tip"
+      ],
+      "ipa": "/səɡˈdʒɛstʃən/"
+    },
+    {
+      "lemma": "last resort",
+      "pos": "phrase",
+      "meaning": "The thing you try only when everything else has failed.",
+      "examples": [
+        "Calling a locksmith is our {last resort}."
+      ],
+      "wrong": [
+        "As a last resort, we tried it first before anything else."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌlæst rɪˈzɔrt/"
+    },
+    {
+      "lemma": "accidentally",
+      "pos": "adverb",
+      "meaning": "Without meaning to; by chance.",
+      "examples": [
+        "I {accidentally} sent the message to my boss."
+      ],
+      "wrong": [
+        "She accidentally broke it after planning to for weeks."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "by mistake",
+        "by accident"
+      ],
+      "ipa": "/ˌæksəˈdɛntəli/",
+      "antonyms": [
+        "deliberately",
+        "intentionally"
+      ]
+    },
+    {
+      "lemma": "unexpected",
+      "pos": "adjective",
+      "meaning": "Surprising because you did not think it would happen.",
+      "examples": [
+        "We had an {unexpected} visitor last night."
+      ],
+      "wrong": [
+        "The visit was unexpected because we had planned it for months."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "surprising",
+        "sudden"
+      ],
+      "ipa": "/ˌʌnɪkˈspɛktɪd/",
+      "antonyms": [
+        "expected"
+      ]
+    },
+    {
+      "lemma": "tricky",
+      "pos": "adjective",
+      "meaning": "Difficult and needing care to deal with.",
+      "examples": [
+        "Parking here can be {tricky} on a Saturday."
+      ],
+      "wrong": [
+        "The question was tricky, so everyone answered it in a second."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "difficult",
+        "awkward",
+        "hard"
+      ],
+      "ipa": "/ˈtrɪki/",
+      "antonyms": [
+        "easy",
+        "simple"
+      ]
+    },
+    {
+      "lemma": "uncertain",
+      "pos": "adjective",
+      "meaning": "Not sure or not known yet.",
+      "examples": [
+        "I’m {uncertain} about which job to take."
+      ],
+      "wrong": [
+        "He was uncertain, so he knew exactly what to do."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "unsure",
+        "doubtful",
+        "undecided"
+      ],
+      "ipa": "/ʌnˈsɝtən/",
+      "antonyms": [
+        "certain",
+        "sure"
+      ]
+    },
+    {
+      "lemma": "plan ahead",
+      "pos": "verb",
+      "meaning": "To think about and prepare for the future.",
+      "examples": [
+        "If you {plan ahead}, the trip will be easier."
+      ],
+      "wrong": [
+        "He plans ahead by deciding everything at the last minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "prepare"
+      ],
+      "ipa": "/ˌplæn əˈhɛd/"
+    },
+    {
+      "lemma": "backfire",
+      "pos": "verb",
+      "meaning": "To have the opposite result to the one you wanted.",
+      "examples": [
+        "His plan to save money {backfired} and cost him more."
+      ],
+      "wrong": [
+        "The plan backfired, so it worked exactly as we hoped."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go wrong",
+        "fail"
+      ],
+      "ipa": "/ˈbækˌfaɪr/"
+    }
+  ]
+}

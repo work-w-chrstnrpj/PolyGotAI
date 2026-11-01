@@ -1,0 +1,629 @@
+{
+  "version": 1,
+  "credits": "Minimal pairs chosen by the authors from general knowledge of American English pronunciation; tips are original wording.",
+  "items": [
+    {
+      "id": "pair-sheep-ship",
+      "sound": "sound-i",
+      "target": "sheep",
+      "contrast": "ship",
+      "tip": "Make the vowel long and smile a little."
+    },
+    {
+      "id": "pair-leave-live",
+      "sound": "sound-i",
+      "target": "leave",
+      "contrast": "live",
+      "tip": "Make the vowel long and smile a little."
+    },
+    {
+      "id": "pair-beat-bit",
+      "sound": "sound-i",
+      "target": "beat",
+      "contrast": "bit",
+      "tip": "Make the vowel long and smile a little."
+    },
+    {
+      "id": "pair-ship-sheep",
+      "sound": "sound-ih",
+      "target": "ship",
+      "contrast": "sheep",
+      "tip": "Keep the vowel short and relaxed."
+    },
+    {
+      "id": "pair-live-leave",
+      "sound": "sound-ih",
+      "target": "live",
+      "contrast": "leave",
+      "tip": "Keep the vowel short and relaxed."
+    },
+    {
+      "id": "pair-sit-seat",
+      "sound": "sound-ih",
+      "target": "sit",
+      "contrast": "seat",
+      "tip": "Keep the vowel short and relaxed."
+    },
+    {
+      "id": "pair-bed-bad",
+      "sound": "sound-eh",
+      "target": "bed",
+      "contrast": "bad",
+      "tip": "Open your mouth a little less than for “bad”."
+    },
+    {
+      "id": "pair-pen-pan",
+      "sound": "sound-eh",
+      "target": "pen",
+      "contrast": "pan",
+      "tip": "Open your mouth a little less than for “bad”."
+    },
+    {
+      "id": "pair-bad-bed",
+      "sound": "sound-ae",
+      "target": "bad",
+      "contrast": "bed",
+      "tip": "Drop your jaw and spread your lips."
+    },
+    {
+      "id": "pair-cat-cut",
+      "sound": "sound-ae",
+      "target": "cat",
+      "contrast": "cut",
+      "tip": "Drop your jaw and spread your lips."
+    },
+    {
+      "id": "pair-man-men",
+      "sound": "sound-ae",
+      "target": "man",
+      "contrast": "men",
+      "tip": "Drop your jaw and spread your lips."
+    },
+    {
+      "id": "pair-cop-cup",
+      "sound": "sound-ah",
+      "target": "cop",
+      "contrast": "cup",
+      "tip": "Open your mouth wide, with relaxed lips."
+    },
+    {
+      "id": "pair-lock-luck",
+      "sound": "sound-ah",
+      "target": "lock",
+      "contrast": "luck",
+      "tip": "Open your mouth wide, with relaxed lips."
+    },
+    {
+      "id": "pair-cup-cop",
+      "sound": "sound-uh",
+      "target": "cup",
+      "contrast": "cop",
+      "tip": "Keep the jaw half open and the vowel short."
+    },
+    {
+      "id": "pair-luck-lock",
+      "sound": "sound-uh",
+      "target": "luck",
+      "contrast": "lock",
+      "tip": "Keep the jaw half open and the vowel short."
+    },
+    {
+      "id": "pair-pull-pool",
+      "sound": "sound-oo-short",
+      "target": "pull",
+      "contrast": "pool",
+      "tip": "Keep it short, with loosely rounded lips."
+    },
+    {
+      "id": "pair-full-fool",
+      "sound": "sound-oo-short",
+      "target": "full",
+      "contrast": "fool",
+      "tip": "Keep it short, with loosely rounded lips."
+    },
+    {
+      "id": "pair-look-luke",
+      "sound": "sound-oo-short",
+      "target": "look",
+      "contrast": "Luke",
+      "tip": "Keep it short, with loosely rounded lips."
+    },
+    {
+      "id": "pair-pool-pull",
+      "sound": "sound-oo",
+      "target": "pool",
+      "contrast": "pull",
+      "tip": "Round your lips tightly and hold the vowel longer."
+    },
+    {
+      "id": "pair-fool-full",
+      "sound": "sound-oo",
+      "target": "fool",
+      "contrast": "full",
+      "tip": "Round your lips tightly and hold the vowel longer."
+    },
+    {
+      "id": "pair-late-let",
+      "sound": "sound-ay",
+      "target": "late",
+      "contrast": "let",
+      "tip": "Glide from “e” up to “ee”: la-ate."
+    },
+    {
+      "id": "pair-pain-pen",
+      "sound": "sound-ay",
+      "target": "pain",
+      "contrast": "pen",
+      "tip": "Glide from “e” up to “ee”: la-ate."
+    },
+    {
+      "id": "pair-time-tame",
+      "sound": "sound-eye",
+      "target": "time",
+      "contrast": "tame",
+      "tip": "Start with an open mouth, then glide up."
+    },
+    {
+      "id": "pair-my-may",
+      "sound": "sound-eye",
+      "target": "my",
+      "contrast": "may",
+      "tip": "Start with an open mouth, then glide up."
+    },
+    {
+      "id": "pair-boy-buy",
+      "sound": "sound-oy",
+      "target": "boy",
+      "contrast": "buy",
+      "tip": "Start with rounded lips, then glide to “ee”."
+    },
+    {
+      "id": "pair-toy-tie",
+      "sound": "sound-oy",
+      "target": "toy",
+      "contrast": "tie",
+      "tip": "Start with rounded lips, then glide to “ee”."
+    },
+    {
+      "id": "pair-now-no",
+      "sound": "sound-ow",
+      "target": "now",
+      "contrast": "no",
+      "tip": "Start with an open mouth, then round your lips."
+    },
+    {
+      "id": "pair-town-tone",
+      "sound": "sound-ow",
+      "target": "town",
+      "contrast": "tone",
+      "tip": "Start with an open mouth, then round your lips."
+    },
+    {
+      "id": "pair-boat-bought",
+      "sound": "sound-oh",
+      "target": "boat",
+      "contrast": "bought",
+      "tip": "Round your lips and glide toward “oo”."
+    },
+    {
+      "id": "pair-coat-caught",
+      "sound": "sound-oh",
+      "target": "coat",
+      "contrast": "caught",
+      "tip": "Round your lips and glide toward “oo”."
+    },
+    {
+      "id": "pair-hurt-hut",
+      "sound": "sound-er",
+      "target": "hurt",
+      "contrast": "hut",
+      "tip": "Pull the tongue back and keep the “r” sound through the vowel."
+    },
+    {
+      "id": "pair-bird-bud",
+      "sound": "sound-er",
+      "target": "bird",
+      "contrast": "bud",
+      "tip": "Pull the tongue back and keep the “r” sound through the vowel."
+    },
+    {
+      "id": "pair-card-cod",
+      "sound": "sound-ar",
+      "target": "card",
+      "contrast": "cod",
+      "tip": "Open wide, then add a clear “r”."
+    },
+    {
+      "id": "pair-heart-hot",
+      "sound": "sound-ar",
+      "target": "heart",
+      "contrast": "hot",
+      "tip": "Open wide, then add a clear “r”."
+    },
+    {
+      "id": "pair-short-shot",
+      "sound": "sound-or",
+      "target": "short",
+      "contrast": "shot",
+      "tip": "Round your lips, then add the “r”."
+    },
+    {
+      "id": "pair-port-pot",
+      "sound": "sound-or",
+      "target": "port",
+      "contrast": "pot",
+      "tip": "Round your lips, then add the “r”."
+    },
+    {
+      "id": "pair-pen-ben",
+      "sound": "sound-c0-a",
+      "target": "pen",
+      "contrast": "Ben",
+      "tip": "No voice, and push out a small puff of air."
+    },
+    {
+      "id": "pair-pig-big",
+      "sound": "sound-c0-a",
+      "target": "pig",
+      "contrast": "big",
+      "tip": "No voice, and push out a small puff of air."
+    },
+    {
+      "id": "pair-big-pig",
+      "sound": "sound-c0-b",
+      "target": "big",
+      "contrast": "pig",
+      "tip": "Use your voice from the start, with no puff of air."
+    },
+    {
+      "id": "pair-bat-pat",
+      "sound": "sound-c0-b",
+      "target": "bat",
+      "contrast": "pat",
+      "tip": "Use your voice from the start, with no puff of air."
+    },
+    {
+      "id": "pair-two-do",
+      "sound": "sound-c1-a",
+      "target": "two",
+      "contrast": "do",
+      "tip": "No voice, and a small puff of air."
+    },
+    {
+      "id": "pair-tie-die",
+      "sound": "sound-c1-a",
+      "target": "tie",
+      "contrast": "die",
+      "tip": "No voice, and a small puff of air."
+    },
+    {
+      "id": "pair-bed-bet",
+      "sound": "sound-c1-b",
+      "target": "bed",
+      "contrast": "bet",
+      "tip": "Keep your voice on, even at the end of the word."
+    },
+    {
+      "id": "pair-dime-time",
+      "sound": "sound-c1-b",
+      "target": "dime",
+      "contrast": "time",
+      "tip": "Keep your voice on, even at the end of the word."
+    },
+    {
+      "id": "pair-coat-goat",
+      "sound": "sound-c2-a",
+      "target": "coat",
+      "contrast": "goat",
+      "tip": "No voice, and a small puff of air."
+    },
+    {
+      "id": "pair-back-bag",
+      "sound": "sound-c2-a",
+      "target": "back",
+      "contrast": "bag",
+      "tip": "No voice, and a small puff of air."
+    },
+    {
+      "id": "pair-goat-coat",
+      "sound": "sound-c2-b",
+      "target": "goat",
+      "contrast": "coat",
+      "tip": "Keep your voice on, even at the end of the word."
+    },
+    {
+      "id": "pair-bag-back",
+      "sound": "sound-c2-b",
+      "target": "bag",
+      "contrast": "back",
+      "tip": "Keep your voice on, even at the end of the word."
+    },
+    {
+      "id": "pair-fan-pan",
+      "sound": "sound-c3-a",
+      "target": "fan",
+      "contrast": "pan",
+      "tip": "Top teeth on your lower lip, then blow without voice."
+    },
+    {
+      "id": "pair-fine-vine",
+      "sound": "sound-c3-a",
+      "target": "fine",
+      "contrast": "vine",
+      "tip": "Top teeth on your lower lip, then blow without voice."
+    },
+    {
+      "id": "pair-very-berry",
+      "sound": "sound-c3-b",
+      "target": "very",
+      "contrast": "berry",
+      "tip": "Top teeth on your lower lip, and hum."
+    },
+    {
+      "id": "pair-vote-boat",
+      "sound": "sound-c3-b",
+      "target": "vote",
+      "contrast": "boat",
+      "tip": "Top teeth on your lower lip, and hum."
+    },
+    {
+      "id": "pair-van-fan",
+      "sound": "sound-c3-b",
+      "target": "van",
+      "contrast": "fan",
+      "tip": "Top teeth on your lower lip, and hum."
+    },
+    {
+      "id": "pair-think-sink",
+      "sound": "sound-c4-a",
+      "target": "think",
+      "contrast": "sink",
+      "tip": "Put your tongue between your teeth and blow."
+    },
+    {
+      "id": "pair-three-tree",
+      "sound": "sound-c4-a",
+      "target": "three",
+      "contrast": "tree",
+      "tip": "Put your tongue between your teeth and blow."
+    },
+    {
+      "id": "pair-thin-tin",
+      "sound": "sound-c4-a",
+      "target": "thin",
+      "contrast": "tin",
+      "tip": "Put your tongue between your teeth and blow."
+    },
+    {
+      "id": "pair-they-day",
+      "sound": "sound-c4-b",
+      "target": "they",
+      "contrast": "day",
+      "tip": "Put your tongue between your teeth and use your voice."
+    },
+    {
+      "id": "pair-then-den",
+      "sound": "sound-c4-b",
+      "target": "then",
+      "contrast": "den",
+      "tip": "Put your tongue between your teeth and use your voice."
+    },
+    {
+      "id": "pair-those-doze",
+      "sound": "sound-c4-b",
+      "target": "those",
+      "contrast": "doze",
+      "tip": "Put your tongue between your teeth and use your voice."
+    },
+    {
+      "id": "pair-see-she",
+      "sound": "sound-c5-a",
+      "target": "see",
+      "contrast": "she",
+      "tip": "Keep the tongue tip behind the teeth, lips spread, no voice."
+    },
+    {
+      "id": "pair-sip-zip",
+      "sound": "sound-c5-a",
+      "target": "sip",
+      "contrast": "zip",
+      "tip": "Keep the tongue tip behind the teeth, lips spread, no voice."
+    },
+    {
+      "id": "pair-zoo-sue",
+      "sound": "sound-c5-b",
+      "target": "zoo",
+      "contrast": "sue",
+      "tip": "Buzz like a bee: keep your voice on."
+    },
+    {
+      "id": "pair-zip-sip",
+      "sound": "sound-c5-b",
+      "target": "zip",
+      "contrast": "sip",
+      "tip": "Buzz like a bee: keep your voice on."
+    },
+    {
+      "id": "pair-she-see",
+      "sound": "sound-c6-a",
+      "target": "she",
+      "contrast": "see",
+      "tip": "Round your lips and let the air flow smoothly, with no stop."
+    },
+    {
+      "id": "pair-shoes-choose",
+      "sound": "sound-c6-a",
+      "target": "shoes",
+      "contrast": "choose",
+      "tip": "Round your lips and let the air flow smoothly, with no stop."
+    },
+    {
+      "id": "pair-ship-chip",
+      "sound": "sound-c6-a",
+      "target": "ship",
+      "contrast": "chip",
+      "tip": "Round your lips and let the air flow smoothly, with no stop."
+    },
+    {
+      "id": "pair-chip-ship",
+      "sound": "sound-c7-a",
+      "target": "chip",
+      "contrast": "ship",
+      "tip": "Start with a short stop, like “t”, then release."
+    },
+    {
+      "id": "pair-chair-share",
+      "sound": "sound-c7-a",
+      "target": "chair",
+      "contrast": "share",
+      "tip": "Start with a short stop, like “t”, then release."
+    },
+    {
+      "id": "pair-choose-shoes",
+      "sound": "sound-c7-a",
+      "target": "choose",
+      "contrast": "shoes",
+      "tip": "Start with a short stop, like “t”, then release."
+    },
+    {
+      "id": "pair-jet-yet",
+      "sound": "sound-c7-b",
+      "target": "jet",
+      "contrast": "yet",
+      "tip": "Touch the roof of your mouth, then release with your voice on."
+    },
+    {
+      "id": "pair-joke-choke",
+      "sound": "sound-c7-b",
+      "target": "joke",
+      "contrast": "choke",
+      "tip": "Touch the roof of your mouth, then release with your voice on."
+    },
+    {
+      "id": "pair-hat-at",
+      "sound": "sound-h",
+      "target": "hat",
+      "contrast": "at",
+      "tip": "Breathe out a little before the vowel."
+    },
+    {
+      "id": "pair-hair-air",
+      "sound": "sound-h",
+      "target": "hair",
+      "contrast": "air",
+      "tip": "Breathe out a little before the vowel."
+    },
+    {
+      "id": "pair-heat-eat",
+      "sound": "sound-h",
+      "target": "heat",
+      "contrast": "eat",
+      "tip": "Breathe out a little before the vowel."
+    },
+    {
+      "id": "pair-sin-sing",
+      "sound": "sound-n",
+      "target": "sin",
+      "contrast": "sing",
+      "tip": "End with the tongue tip touching behind the top teeth."
+    },
+    {
+      "id": "pair-ran-rang",
+      "sound": "sound-n",
+      "target": "ran",
+      "contrast": "rang",
+      "tip": "End with the tongue tip touching behind the top teeth."
+    },
+    {
+      "id": "pair-sing-sin",
+      "sound": "sound-ng",
+      "target": "sing",
+      "contrast": "sin",
+      "tip": "Keep the back of the tongue up, with no “k” at the end."
+    },
+    {
+      "id": "pair-thing-thin",
+      "sound": "sound-ng",
+      "target": "thing",
+      "contrast": "thin",
+      "tip": "Keep the back of the tongue up, with no “k” at the end."
+    },
+    {
+      "id": "pair-light-right",
+      "sound": "sound-l",
+      "target": "light",
+      "contrast": "right",
+      "tip": "Touch the tongue tip behind your top teeth."
+    },
+    {
+      "id": "pair-long-wrong",
+      "sound": "sound-l",
+      "target": "long",
+      "contrast": "wrong",
+      "tip": "Touch the tongue tip behind your top teeth."
+    },
+    {
+      "id": "pair-lead-read",
+      "sound": "sound-l",
+      "target": "lead",
+      "contrast": "read",
+      "tip": "Touch the tongue tip behind your top teeth."
+    },
+    {
+      "id": "pair-right-light",
+      "sound": "sound-r",
+      "target": "right",
+      "contrast": "light",
+      "tip": "Pull the tongue back and don't touch the roof of your mouth."
+    },
+    {
+      "id": "pair-rice-lice",
+      "sound": "sound-r",
+      "target": "rice",
+      "contrast": "lice",
+      "tip": "Pull the tongue back and don't touch the roof of your mouth."
+    },
+    {
+      "id": "pair-road-load",
+      "sound": "sound-r",
+      "target": "road",
+      "contrast": "load",
+      "tip": "Pull the tongue back and don't touch the roof of your mouth."
+    },
+    {
+      "id": "pair-west-vest",
+      "sound": "sound-w",
+      "target": "west",
+      "contrast": "vest",
+      "tip": "Round your lips; your teeth don't touch your lip."
+    },
+    {
+      "id": "pair-wine-vine",
+      "sound": "sound-w",
+      "target": "wine",
+      "contrast": "vine",
+      "tip": "Round your lips; your teeth don't touch your lip."
+    },
+    {
+      "id": "pair-wet-vet",
+      "sound": "sound-w",
+      "target": "wet",
+      "contrast": "vet",
+      "tip": "Round your lips; your teeth don't touch your lip."
+    },
+    {
+      "id": "pair-yet-jet",
+      "sound": "sound-y",
+      "target": "yet",
+      "contrast": "jet",
+      "tip": "Start like a quick “ee”: y-et."
+    },
+    {
+      "id": "pair-yam-jam",
+      "sound": "sound-y",
+      "target": "yam",
+      "contrast": "jam",
+      "tip": "Start like a quick “ee”: y-et."
+    }
+  ]
+}

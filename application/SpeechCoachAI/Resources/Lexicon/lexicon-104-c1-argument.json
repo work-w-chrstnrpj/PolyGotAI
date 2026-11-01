@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-argument",
+    "title": "Reasoning and argument",
+    "level": "C1",
+    "tagline": "Prove, refute and infer",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "concede",
+      "pos": "verb",
+      "meaning": "To admit, often unwillingly, that something is true.",
+      "examples": [
+        "She {conceded} that her plan had flaws."
+      ],
+      "wrong": [
+        "He conceded the point by insisting he had been right all along."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "admit",
+        "acknowledge"
+      ],
+      "ipa": "/kənˈsid/",
+      "antonyms": [
+        "deny",
+        "dispute"
+      ]
+    },
+    {
+      "lemma": "refute",
+      "pos": "verb",
+      "meaning": "To prove that a statement or idea is wrong.",
+      "examples": [
+        "The study {refutes} the old theory."
+      ],
+      "wrong": [
+        "The new data refuted the theory by confirming every part of it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "disprove",
+        "rebut"
+      ],
+      "ipa": "/rɪˈfjut/",
+      "antonyms": [
+        "prove",
+        "confirm"
+      ]
+    },
+    {
+      "lemma": "rebut",
+      "pos": "verb",
+      "meaning": "To argue that a claim is false.",
+      "examples": [
+        "The minister {rebutted} the accusations point by point."
+      ],
+      "wrong": [
+        "She rebutted the claim by agreeing with it completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refute",
+        "counter"
+      ],
+      "ipa": "/rɪˈbʌt/"
+    },
+    {
+      "lemma": "counterargument",
+      "pos": "noun",
+      "meaning": "An argument against another argument.",
+      "examples": [
+        "A good essay deals with the main {counterargument}."
+      ],
+      "wrong": [
+        "A counterargument is a point that supports your own view."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "rebuttal"
+      ],
+      "ipa": "/ˈkaʊntɚˌɑrɡjəmənt/"
+    },
+    {
+      "lemma": "fallacy",
+      "pos": "noun",
+      "meaning": "A false idea or a flaw in reasoning.",
+      "examples": [
+        "It’s a {fallacy} that bigger is always better."
+      ],
+      "wrong": [
+        "A fallacy is a carefully proven truth."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "misconception",
+        "error"
+      ],
+      "ipa": "/ˈfæləsi/"
+    },
+    {
+      "lemma": "compelling",
+      "pos": "adjective",
+      "meaning": "So strong or convincing that you must pay attention.",
+      "examples": [
+        "She made a {compelling} case for change."
+      ],
+      "wrong": [
+        "The evidence was compelling, so it convinced nobody."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "convincing",
+        "persuasive"
+      ],
+      "ipa": "/kəmˈpɛlɪŋ/",
+      "antonyms": [
+        "unconvincing",
+        "weak"
+      ]
+    },
+    {
+      "lemma": "flawed",
+      "pos": "adjective",
+      "meaning": "Having a mistake or weakness.",
+      "examples": [
+        "The research was {flawed} from the start."
+      ],
+      "wrong": [
+        "The argument is flawed, so it has no weaknesses."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "faulty",
+        "defective"
+      ],
+      "ipa": "/flɔd/",
+      "antonyms": [
+        "flawless",
+        "perfect"
+      ]
+    },
+    {
+      "lemma": "inference",
+      "pos": "noun",
+      "meaning": "A conclusion you reach from the information you have.",
+      "examples": [
+        "The {inference} is that sales will keep falling."
+      ],
+      "wrong": [
+        "An inference is a fact stated directly in the text."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "deduction",
+        "conclusion"
+      ],
+      "ipa": "/ˈɪnfərəns/"
+    },
+    {
+      "lemma": "deduce",
+      "pos": "verb",
+      "meaning": "To reach a conclusion by reasoning from facts.",
+      "examples": [
+        "From the footprints, she {deduced} that two people had been there."
+      ],
+      "wrong": [
+        "He deduced the answer by guessing without any facts."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "infer",
+        "conclude"
+      ],
+      "ipa": "/dɪˈdus/"
+    },
+    {
+      "lemma": "infer",
+      "pos": "verb",
+      "meaning": "To form an opinion from evidence rather than direct statements.",
+      "examples": [
+        "What can we {infer} from his silence?"
+      ],
+      "wrong": [
+        "I inferred it because he told me directly and clearly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "deduce",
+        "gather"
+      ],
+      "ipa": "/ɪnˈfɝ/"
+    },
+    {
+      "lemma": "substantiate",
+      "pos": "verb",
+      "meaning": "To provide evidence that something is true.",
+      "examples": [
+        "Can you {substantiate} that claim?"
+      ],
+      "wrong": [
+        "He substantiated the claim by offering no evidence at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "support",
+        "prove",
+        "corroborate"
+      ],
+      "ipa": "/səbˈstænʃiˌeɪt/",
+      "antonyms": [
+        "disprove",
+        "refute"
+      ]
+    },
+    {
+      "lemma": "corroborate",
+      "pos": "verb",
+      "meaning": "To confirm a statement with more evidence.",
+      "examples": [
+        "Two witnesses {corroborated} her story."
+      ],
+      "wrong": [
+        "The second report corroborated the first by contradicting it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "confirm",
+        "support",
+        "verify",
+        "validate"
+      ],
+      "ipa": "/kəˈrɑbəˌreɪt/",
+      "antonyms": [
+        "contradict",
+        "refute"
+      ]
+    },
+    {
+      "lemma": "contradict",
+      "pos": "verb",
+      "meaning": "To say the opposite of what someone else said, or to be the opposite of something.",
+      "examples": [
+        "The new figures {contradict} the earlier report."
+      ],
+      "wrong": [
+        "The two reports contradict each other because they say the same thing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "oppose",
+        "conflict with"
+      ],
+      "ipa": "/ˌkɑntrəˈdɪkt/",
+      "antonyms": [
+        "confirm",
+        "agree"
+      ]
+    },
+    {
+      "lemma": "dispute",
+      "pos": "verb",
+      "meaning": "To argue that something is not true or correct.",
+      "examples": [
+        "Nobody {disputes} the facts."
+      ],
+      "wrong": [
+        "They disputed the result by fully accepting it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "challenge",
+        "question"
+      ],
+      "ipa": "/dɪˈspjut/"
+    },
+    {
+      "lemma": "assumption",
+      "pos": "noun",
+      "meaning": "Something you accept as true without proof.",
+      "examples": [
+        "Your {assumption} that he would agree was wrong."
+      ],
+      "wrong": [
+        "An assumption is a fact proven by careful tests."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "presumption",
+        "supposition"
+      ],
+      "ipa": "/əˈsʌmpʃən/"
+    },
+    {
+      "lemma": "generalization",
+      "pos": "noun",
+      "meaning": "A statement that treats many cases as if they were all the same.",
+      "examples": [
+        "Saying all teenagers are lazy is a {generalization}."
+      ],
+      "wrong": [
+        "A generalization describes one single, exact case."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sweeping statement"
+      ],
+      "ipa": "/ˌdʒɛnərələˈzeɪʃən/"
+    },
+    {
+      "lemma": "overstate",
+      "pos": "verb",
+      "meaning": "To make something seem more important than it is.",
+      "examples": [
+        "It’s hard to {overstate} the risks."
+      ],
+      "wrong": [
+        "He overstated the problem by making it seem tiny."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exaggerate"
+      ],
+      "ipa": "/ˌoʊvɚˈsteɪt/",
+      "antonyms": [
+        "understate"
+      ]
+    },
+    {
+      "lemma": "underestimate",
+      "pos": "verb",
+      "meaning": "To think something is smaller, easier or less important than it is.",
+      "examples": [
+        "Never {underestimate} your opponent."
+      ],
+      "wrong": [
+        "We underestimated the cost, so it was cheaper than we thought."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "undervalue"
+      ],
+      "ipa": "/ˌʌndɚˈɛstəˌmeɪt/",
+      "antonyms": [
+        "overestimate"
+      ]
+    },
+    {
+      "lemma": "nuanced",
+      "pos": "adjective",
+      "meaning": "Showing small but important differences.",
+      "examples": [
+        "She gave a {nuanced} answer to a hard question."
+      ],
+      "wrong": [
+        "His view was nuanced, so it was crude and simple."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "subtle"
+      ],
+      "ipa": "/ˈnuɑnst/"
+    },
+    {
+      "lemma": "credible",
+      "pos": "adjective",
+      "meaning": "Able to be believed or trusted.",
+      "examples": [
+        "The witness was not {credible}."
+      ],
+      "wrong": [
+        "The source is credible, so nobody can trust it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "believable",
+        "plausible"
+      ],
+      "ipa": "/ˈkrɛdəbəl/",
+      "antonyms": [
+        "unbelievable",
+        "implausible"
+      ]
+    },
+    {
+      "lemma": "dubious",
+      "pos": "adjective",
+      "meaning": "Probably not true, honest or good.",
+      "examples": [
+        "His claims sound {dubious} to me."
+      ],
+      "wrong": [
+        "The deal is dubious, so it is clearly honest."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "doubtful",
+        "questionable"
+      ],
+      "ipa": "/ˈdubiəs/",
+      "antonyms": [
+        "reliable",
+        "trustworthy"
+      ]
+    },
+    {
+      "lemma": "objection",
+      "pos": "noun",
+      "meaning": "A reason for disagreeing.",
+      "examples": [
+        "Does anyone have an {objection} to the plan?"
+      ],
+      "wrong": [
+        "My objection is that I fully agree."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "protest",
+        "complaint"
+      ],
+      "ipa": "/əbˈdʒɛkʃən/"
+    },
+    {
+      "lemma": "caveat",
+      "pos": "noun",
+      "meaning": "A warning that something must be considered.",
+      "examples": [
+        "The offer comes with one {caveat}: it ends tomorrow."
+      ],
+      "wrong": [
+        "A caveat is a bonus with no conditions at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "warning",
+        "proviso"
+      ],
+      "ipa": "/ˈkæviˌæt/"
+    },
+    {
+      "lemma": "concession",
+      "pos": "noun",
+      "meaning": "Something you give up or accept in order to reach agreement.",
+      "examples": [
+        "Both sides made {concessions} to end the strike."
+      ],
+      "wrong": [
+        "A concession is refusing to give up anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "compromise"
+      ],
+      "ipa": "/kənˈsɛʃən/"
+    },
+    {
+      "lemma": "verify",
+      "pos": "verb",
+      "meaning": "To check that something is true or correct.",
+      "examples": [
+        "Please {verify} your email address."
+      ],
+      "wrong": [
+        "I verified the facts by never checking them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "confirm",
+        "check"
+      ],
+      "ipa": "/ˈvɛrəˌfaɪ/",
+      "antonyms": [
+        "disprove"
+      ]
+    },
+    {
+      "lemma": "hypothetical",
+      "pos": "adjective",
+      "meaning": "Based on a situation that is imagined, not real.",
+      "examples": [
+        "Let me ask a {hypothetical} question."
+      ],
+      "wrong": [
+        "It’s a hypothetical case, so it really happened last week."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "theoretical",
+        "imaginary"
+      ],
+      "ipa": "/ˌhaɪpəˈθɛtɪkəl/",
+      "antonyms": [
+        "real",
+        "actual"
+      ]
+    },
+    {
+      "lemma": "speculative",
+      "pos": "adjective",
+      "meaning": "Based on guesses, not facts.",
+      "examples": [
+        "The report is purely {speculative}."
+      ],
+      "wrong": [
+        "The idea is speculative, so it is based on hard facts."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conjectural"
+      ],
+      "ipa": "/ˈspɛkjələtɪv/",
+      "antonyms": [
+        "proven",
+        "factual"
+      ]
+    },
+    {
+      "lemma": "empirical",
+      "pos": "adjective",
+      "meaning": "Based on observation or experiment.",
+      "examples": [
+        "We need {empirical} evidence, not opinions."
+      ],
+      "wrong": [
+        "Empirical data comes from opinions, not observation."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "observed",
+        "experimental"
+      ],
+      "ipa": "/ɪmˈpɪrɪkəl/",
+      "antonyms": [
+        "theoretical"
+      ]
+    },
+    {
+      "lemma": "anecdotal",
+      "pos": "adjective",
+      "meaning": "Based on personal stories rather than research.",
+      "examples": [
+        "The evidence is only {anecdotal}."
+      ],
+      "wrong": [
+        "Anecdotal evidence comes from large, careful studies."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌænɪkˈdoʊtəl/"
+    },
+    {
+      "lemma": "conclusive",
+      "pos": "adjective",
+      "meaning": "Proving something without any doubt.",
+      "examples": [
+        "There is no {conclusive} proof yet."
+      ],
+      "wrong": [
+        "The test was conclusive, so we still have no idea."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "decisive",
+        "definitive"
+      ],
+      "ipa": "/kənˈklusɪv/",
+      "antonyms": [
+        "inconclusive"
+      ]
+    },
+    {
+      "lemma": "inconclusive",
+      "pos": "adjective",
+      "meaning": "Not leading to a clear result.",
+      "examples": [
+        "The results were {inconclusive}."
+      ],
+      "wrong": [
+        "The test was inconclusive, so it settled the question completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unclear",
+        "open"
+      ],
+      "ipa": "/ˌɪnkənˈklusɪv/",
+      "antonyms": [
+        "conclusive",
+        "decisive"
+      ]
+    },
+    {
+      "lemma": "rationalize",
+      "pos": "verb",
+      "meaning": "To give reasons for behavior that may not be the real ones.",
+      "examples": [
+        "He {rationalized} his spending as an investment."
+      ],
+      "wrong": [
+        "She rationalized her choice by admitting she had no reason."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "justify",
+        "explain away"
+      ],
+      "ipa": "/ˈræʃənəˌlaɪz/"
+    },
+    {
+      "lemma": "scrutiny",
+      "pos": "noun",
+      "meaning": "Careful and detailed examination.",
+      "examples": [
+        "The plan came under close {scrutiny}."
+      ],
+      "wrong": [
+        "The report got careful scrutiny, so nobody read it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "examination",
+        "inspection"
+      ],
+      "ipa": "/ˈskrutəni/"
+    },
+    {
+      "lemma": "presuppose",
+      "pos": "verb",
+      "meaning": "To require something to be true already.",
+      "examples": [
+        "Your question {presupposes} that he is guilty."
+      ],
+      "wrong": [
+        "Her question presupposes nothing, so it assumes he is guilty."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "assume",
+        "take for granted"
+      ],
+      "ipa": "/ˌprisəˈpoʊz/"
+    },
+    {
+      "lemma": "straw man",
+      "pos": "noun",
+      "meaning": "A weak, false version of an opponent’s argument that is easy to attack.",
+      "examples": [
+        "He attacked a {straw man}, not my real point."
+      ],
+      "wrong": [
+        "A straw man is the strongest form of your opponent’s argument."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "misrepresentation"
+      ],
+      "ipa": "/ˌstrɔ ˈmæn/"
+    },
+    {
+      "lemma": "skew",
+      "pos": "verb",
+      "meaning": "To change information so that it is no longer accurate or fair.",
+      "examples": [
+        "The small sample {skewed} the results."
+      ],
+      "wrong": [
+        "The extra data skewed the results by making them more accurate."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "distort",
+        "bias"
+      ],
+      "ipa": "/skju/"
+    },
+    {
+      "lemma": "plausibility",
+      "pos": "noun",
+      "meaning": "The quality of seeming reasonable or likely.",
+      "examples": [
+        "The story lacks {plausibility}."
+      ],
+      "wrong": [
+        "Its plausibility made it impossible to believe."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "credibility",
+        "likelihood"
+      ],
+      "ipa": "/ˌplɔzəˈbɪləti/"
+    },
+    {
+      "lemma": "validate",
+      "pos": "verb",
+      "meaning": "To prove that something is true or acceptable.",
+      "examples": [
+        "The results were {validated} by a second team."
+      ],
+      "wrong": [
+        "They validated the data by proving it was false."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "confirm",
+        "verify"
+      ],
+      "ipa": "/ˈvæləˌdeɪt/",
+      "antonyms": [
+        "invalidate",
+        "disprove"
+      ]
+    },
+    {
+      "lemma": "tenable",
+      "pos": "adjective",
+      "meaning": "Able to be defended against criticism.",
+      "examples": [
+        "That position is no longer {tenable}."
+      ],
+      "wrong": [
+        "The view is tenable, so nobody can defend it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "defensible",
+        "justifiable"
+      ],
+      "ipa": "/ˈtɛnəbəl/",
+      "antonyms": [
+        "untenable",
+        "indefensible"
+      ]
+    },
+    {
+      "lemma": "untenable",
+      "pos": "adjective",
+      "meaning": "Not able to be defended.",
+      "examples": [
+        "His argument became {untenable}."
+      ],
+      "wrong": [
+        "The claim was untenable, so it was easy to defend."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "indefensible"
+      ],
+      "ipa": "/ʌnˈtɛnəbəl/",
+      "antonyms": [
+        "tenable",
+        "defensible"
+      ]
+    }
+  ]
+}

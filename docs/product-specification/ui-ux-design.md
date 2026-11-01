@@ -4,7 +4,7 @@
 
 ## v2 overrides — 2026-10-25
 
-- **Navigation, in this order:** Today | Lexicon | Lesson | Speech Lab | Progress. Profile opens Settings. Lesson = Course + Coaches. Lexicon = the former Vocabulary tab ([lexicon.md](lexicon.md)). Speech Lab keeps Conversation, Interview and Communication and adds Phonetics, Articulation, Dictation and Voice. iPad: bottom tab bar in portrait, sidebar in landscape.
+- **Navigation, in this order:** Today | Lexicon | Lesson | Speech Lab | Progress. Profile opens Settings. Lesson = Course + Coaches. Lexicon = the former Vocabulary tab ([lexicon.md](lexicon.md)). Speech Lab keeps Conversation, Interview and Communication and adds Dictation, Pronunciation (Phonetics and Articulation) and Speaking. iPad: bottom tab bar in portrait, sidebar in landscape.
 - **Taglines are one line.** Never wrap a tagline over two lines.
 - **Typing fields have a microphone button** for on-device speech-to-text.
 - **Today:** one continue card, words due, streak and XP. No preference forms, alternatives lists or placeholder rows.
@@ -12,6 +12,7 @@
 - **Exercises:** auto-checked with instant correct/almost/not-quite feedback ([tdd](../tdd/tdd.md#exercise-engine)).
 - **Copy:** never explain what the app can't do. Hide unfinished features; never show "Coming later" or "unavailable". At most one helper line per screen.
 - **Speech:** on-device TTS and recognition (pending owner approval) for model audio and "We heard". No scores.
+- **Premium polish (2026-11-01):** cards use `kitSurface()` (continuous corners, soft shadow in light, hairline edge in dark); Kit buttons and tappable cards spring on press; rows lead with an `IconBadge`; progress uses `KitProgressBar`; right/almost/streak use the `Success`, `Warning` and `Streak` asset colours; lessons hide the iPhone tab bar; course and unit lessons show numbered state nodes under a rank summary card. Review and rationale: [claude-ui-premium-review-2026-11-01](../reviews/claude-ui-premium-review-2026-11-01.md).
 
 ## Experience and launch scope
 
@@ -25,13 +26,13 @@ Daily practice targets 20–25 minutes during work breaks on iPhone or iPad. Pub
 
 ## Navigation and daily journey
 
-Main navigation: Today, Learn, Vocabulary, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Phonetics, Articulation, Dictation, Voice; interview and business practice moved to Learn → Coaches.)
+Main navigation: Today, Lexicon, Lesson, Speech Lab, Progress; Profile opens Settings. (v2: Speech Lab = Dictation · Pronunciation (Phonetics and Articulation together) · Speaking · Interview · Conversation · Communication.)
 
-Today prioritizes an automatically proposed connected lesson plan based on path and due reviews, with optional detours and activity replacement. Show daily active-time/activity goals, due reviews, Word of the Day and achievements. Offer resume or start something else. Goals are separate; plan completion earns the daily reward without requiring the full time target. Quiet practice is selected each session, counts fully toward daily completion/streaks, and replaces unsuitable speaking/audio tasks.
+Today prioritizes an automatically proposed connected lesson plan based on path and due reviews, with optional detours and activity replacement. Show daily active-time/activity goals, due reviews, Daily Lexicon and achievements. Offer resume or start something else. Goals are separate; plan completion earns the daily reward without requiring the full time target. Quiet practice is selected each session, counts fully toward daily completion/streaks, and replaces unsuitable speaking/audio tasks.
 
 Connected lessons interleave objectives, concise explanations, examples, varied exercises and applied speaking/quiet practice. Exercise types include multiple choice, sentence building, missing-word typing, correction, listening/answering, reading aloud and open responses. Variation stays within reviewed objective/level and available capabilities; random selection does not replace curriculum design. Skip explanations, request examples, repeat, go back and leave/resume. Skipped core exercises remain unfinished with a comparable replacement offered. Immediate correction gives a brief explanation and retry before answer reveal; exact reveal threshold remains open. Difficulty increases ask first. The exact fallback after repeated mistakes (hint, simpler example or refresher) remains open; gentler coach tone is approved.
 
-**v2 override (2026-10-25):** levels are locked in order; the level picker shows a lock on levels not yet unlocked, with a "Take the C1 test" action on **every** locked level (not only the next one; perfect score required; see the [Course rules](product-specification.md#course-cefr-a1c2)). Lessons inside an unlocked level are still open in any order. (Unreleased content is hidden, not labeled.) Path presentation: illustrated unit headers and structured lessons inside.
+**v2 override (2026-10-25):** levels are locked in order; the level picker shows a lock on levels not yet unlocked, with a "Take the A2 test"-style action (the level's own name) on **every** locked level (not only the next one; perfect score required; see the [Course rules](product-specification.md#course-cefr-a1c2)). Lessons inside an unlocked level are still open in any order. (Unreleased content is hidden, not labeled.) Path presentation: illustrated unit headers and structured lessons inside.
 
 ## Onboarding and coaches
 
@@ -63,7 +64,17 @@ Meaning/production recall cards, reveal then Again/Hard/Good/Easy self-rating; t
 
 Custom topics support direct generation or subtopic narrowing, level/word count/purpose choices, preview/edit/select before enrollment. Manual creation works offline. Cloud generation stays optional with reviewed/cached fallback.
 
+## Progress (v2, 2026-10-26)
+
+Progress shows, in order: the **level** (XP bar, taps through to badges), **time in the app**, **milestones**, then the earlier practice record.
+
+- **Time in the app:** a segmented control Day, Week, Month, Year with Previous and Next. Day shows the total, the number of visits, a 24-hour timeline strip and the list of visits with start and end times. Week and Month show a bar chart per day; Year shows a bar per month. Each shows the total and the number of days used. One helper line: "Visits shorter than a minute are not counted."
+- **What is recorded:** only stretches of screen time of a minute or more, as start and length. A short switch to another app (up to 30 seconds) continues the same stretch. Nothing about screens or content is recorded. Detailed visits are kept for 120 days; older days keep only their total.
+- **Milestones:** levels (2, 5, 10, 15, 20, 30, 40), level tests passed, coach stages finished, hours of practice and days of practice, words rated Easy. Each group shows the latest reached ones and the next one; "Show all" lists everything.
+
 ## Rewards and prototype economy
+
+> v2 (2026-10-26): gold, the wallet, Freeze and Repair are removed; XP drives a level. The text below is history.
 
 XP drives level; gold is spendable. No deduction for mistakes; no real-money purchases in initial scope. Genuine completed exercises, rated reviews and speaking/self-review earn participation rewards, including incorrect attempts after correction/self-review. Opening content, replaying or pressing Retry alone does not earn rewards. Hints never gate free explanations, accessibility or corrective feedback. With no gold, learners can retry or revisit the explanation for free; no mandatory gold-earning detour blocks learning. Show the exact gold cost before spending; never deduct automatically on an incorrect answer. Eliminating an answer option is an optional gold-priced aid; its price is not yet specified.
 

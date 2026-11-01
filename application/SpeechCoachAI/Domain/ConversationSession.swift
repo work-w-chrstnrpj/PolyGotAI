@@ -279,7 +279,7 @@ enum TurnModality: String, Codable, CaseIterable, Identifiable {
         }
     }
     static let realtimeTitle = "Live voice"
-    static let realtimeDetail = "Live voice is not available. Streaming, interruption and turn-taking stay a separate investigation."
+    static let realtimeDetail = "Record or type your turn."
 }
 
 enum ConversationPhase: String, Codable { case preparing, practicing, stopped, ended }
@@ -442,18 +442,16 @@ struct SpeakingPracticeArchive: Codable, Equatable, Identifiable {
     var drafts: [String: String]
     var expiresAt: Date?
     var recordingSlot: InterviewRecordingSlot? = nil
-    var communication: CommunicationPractice? = nil
     var updatedAt: Date
 
     var audioReferences: [UUID] {
         let values = (conversation?.turns.compactMap(\.recordingReference) ?? [])
             + (interview?.attempts.flatMap { $0.answers.compactMap(\.recordingReference) } ?? [])
-        return (values + [recordingSlot?.reference].compactMap { $0 }).compactMap(UUID.init(uuidString:)) + (communication?.audioReferences ?? [])
+        return (values + [recordingSlot?.reference].compactMap { $0 }).compactMap(UUID.init(uuidString:))
     }
 
     mutating func resolveInterruptedRequest(now: Date) {
         if conversation != nil { _ = conversation?.markUnknownOutcome(now: now) }
         if interview != nil { _ = interview?.markUnknownOutcome(now: now) }
-        if communication != nil { _ = communication?.markUnknownOutcome(now: now) }
     }
 }

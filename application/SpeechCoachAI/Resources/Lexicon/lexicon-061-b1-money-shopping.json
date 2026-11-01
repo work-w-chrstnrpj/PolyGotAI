@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-money-shopping",
+    "title": "Money and shopping",
+    "level": "B1",
+    "tagline": "Prices, banks and buying",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "debit card",
+      "pos": "noun",
+      "meaning": "A plastic card that takes money straight from your bank account when you pay.",
+      "examples": [
+        "I paid for the groceries with my {debit card}."
+      ],
+      "wrong": [
+        "I used my debit card, so the money came out of nobody’s account."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bank card"
+      ],
+      "ipa": "/ˈdɛbɪt ˌkɑrd/"
+    },
+    {
+      "lemma": "cash machine",
+      "pos": "noun",
+      "meaning": "A machine in a wall where you can take out money from your bank account.",
+      "examples": [
+        "I need to find a {cash machine} before the market."
+      ],
+      "wrong": [
+        "I put coins into the cash machine to buy a cola."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ATM"
+      ],
+      "ipa": "/ˈkæʃ məˌʃin/"
+    },
+    {
+      "lemma": "banknote",
+      "pos": "noun",
+      "meaning": "A piece of paper money.",
+      "examples": [
+        "She paid with a twenty-dollar {banknote}."
+      ],
+      "wrong": [
+        "The banknote was a small round piece of metal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bill",
+        "note"
+      ],
+      "ipa": "/ˈbæŋkˌnoʊt/"
+    },
+    {
+      "lemma": "savings",
+      "pos": "noun",
+      "meaning": "Money you have kept and not spent, often in a bank.",
+      "examples": [
+        "We used our {savings} to buy a car."
+      ],
+      "wrong": [
+        "He had no savings because he had put lots of money aside."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈseɪvɪŋz/"
+    },
+    {
+      "lemma": "deposit",
+      "pos": "verb",
+      "meaning": "To put money into a bank account.",
+      "examples": [
+        "I {deposited} my paycheck this morning."
+      ],
+      "wrong": [
+        "I deposited fifty dollars, so my account has fifty dollars less."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pay in"
+      ],
+      "ipa": "/dɪˈpɑzɪt/",
+      "antonyms": [
+        "withdraw"
+      ]
+    },
+    {
+      "lemma": "withdraw",
+      "pos": "verb",
+      "meaning": "To take money out of a bank account.",
+      "examples": [
+        "She {withdrew} two hundred dollars for the trip."
+      ],
+      "wrong": [
+        "I withdrew some money by adding it to my account."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take out"
+      ],
+      "ipa": "/wɪðˈdrɔ/",
+      "antonyms": [
+        "deposit"
+      ]
+    },
+    {
+      "lemma": "interest",
+      "pos": "noun",
+      "meaning": "Extra money a bank pays you for saving, or that you pay for borrowing.",
+      "examples": [
+        "My savings account pays two percent {interest}."
+      ],
+      "wrong": [
+        "The bank pays interest by taking money out of your savings."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɪntrəst/"
+    },
+    {
+      "lemma": "loan",
+      "pos": "noun",
+      "meaning": "Money that you borrow and must pay back later.",
+      "examples": [
+        "They took out a {loan} to buy a house."
+      ],
+      "wrong": [
+        "A loan is money you never have to pay back."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "credit"
+      ],
+      "ipa": "/loʊn/"
+    },
+    {
+      "lemma": "price tag",
+      "pos": "noun",
+      "meaning": "A small label on a product that shows how much it costs.",
+      "examples": [
+        "Check the {price tag} before you buy it."
+      ],
+      "wrong": [
+        "The price tag told me what the shirt was made of, not the cost."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "label"
+      ],
+      "ipa": "/ˈpraɪs ˌtæɡ/"
+    },
+    {
+      "lemma": "on sale",
+      "pos": "phrase",
+      "meaning": "Being sold at a lower price than usual.",
+      "examples": [
+        "These boots were {on sale}, so I saved thirty dollars."
+      ],
+      "wrong": [
+        "The jacket was on sale, so it cost more than ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reduced",
+        "discounted"
+      ],
+      "ipa": "/ɑn ˈseɪl/"
+    },
+    {
+      "lemma": "cashier",
+      "pos": "noun",
+      "meaning": "A person whose job is to take money from customers in a shop or bank.",
+      "examples": [
+        "The {cashier} gave me my change and a receipt."
+      ],
+      "wrong": [
+        "The cashier cooked our meal in the kitchen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "checkout clerk"
+      ],
+      "ipa": "/kæˈʃɪr/"
+    },
+    {
+      "lemma": "exchange",
+      "pos": "verb",
+      "meaning": "To give back something you bought and get a different one.",
+      "examples": [
+        "Can I {exchange} these shoes for a bigger size?"
+      ],
+      "wrong": [
+        "I exchanged the shirt, so I kept the same one."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "swap",
+        "change"
+      ],
+      "ipa": "/ɪksˈtʃeɪndʒ/"
+    },
+    {
+      "lemma": "warranty",
+      "pos": "noun",
+      "meaning": "A written promise that a company will repair or replace a product if it breaks.",
+      "examples": [
+        "The laptop has a two-year {warranty}."
+      ],
+      "wrong": [
+        "The warranty says they will never fix it if it breaks."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "guarantee"
+      ],
+      "ipa": "/ˈwɔrənti/"
+    },
+    {
+      "lemma": "purchase",
+      "pos": "verb",
+      "meaning": "To buy something, often something large or important.",
+      "examples": [
+        "You can {purchase} tickets online."
+      ],
+      "wrong": [
+        "I purchased the car by selling it to my neighbor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "buy"
+      ],
+      "ipa": "/ˈpɝtʃəs/"
+    },
+    {
+      "lemma": "browse",
+      "pos": "verb",
+      "meaning": "To look at things in a shop without planning to buy anything.",
+      "examples": [
+        "I like to {browse} in bookshops on Sundays."
+      ],
+      "wrong": [
+        "I browsed the store by buying the first thing I saw and leaving."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "look around"
+      ],
+      "ipa": "/braʊz/"
+    },
+    {
+      "lemma": "tip",
+      "pos": "noun",
+      "meaning": "Extra money you give to a waiter or driver to thank them.",
+      "examples": [
+        "We left a good {tip} because the service was great."
+      ],
+      "wrong": [
+        "We left a tip because the waiter was rude and slow."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gratuity"
+      ],
+      "ipa": "/tɪp/"
+    },
+    {
+      "lemma": "fee",
+      "pos": "noun",
+      "meaning": "Money you pay to do something or for a professional service.",
+      "examples": [
+        "The museum’s entry {fee} is ten dollars."
+      ],
+      "wrong": [
+        "There is no fee, so it costs fifteen dollars."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "charge",
+        "cost"
+      ],
+      "ipa": "/fi/"
+    },
+    {
+      "lemma": "overcharge",
+      "pos": "verb",
+      "meaning": "To ask someone to pay more than the correct price.",
+      "examples": [
+        "The taxi driver {overcharged} us by twenty dollars."
+      ],
+      "wrong": [
+        "The shop overcharged me, so I paid less than the real price."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈtʃɑrdʒ/",
+      "antonyms": [
+        "undercharge"
+      ]
+    },
+    {
+      "lemma": "save up",
+      "pos": "verb",
+      "meaning": "To keep money over time so you can buy something later.",
+      "examples": [
+        "He’s {saving up} for a new bike."
+      ],
+      "wrong": [
+        "She saved up for a car by spending all her money each week."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "put aside"
+      ],
+      "ipa": "/ˌseɪv ˈʌp/"
+    },
+    {
+      "lemma": "value for money",
+      "pos": "phrase",
+      "meaning": "Good quality for the price you pay.",
+      "examples": [
+        "The meal was cheap and large, real {value for money}."
+      ],
+      "wrong": [
+        "It’s great value for money: it costs a lot and breaks in a day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈvælju fɚ ˈmʌni/"
+    },
+    {
+      "lemma": "rip-off",
+      "pos": "noun",
+      "meaning": "Something that costs far more than it should.",
+      "examples": [
+        "Ten dollars for a coffee? What a {rip-off}!"
+      ],
+      "wrong": [
+        "The meal was a rip-off because it was so cheap and good."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "ipa": "/ˈrɪpˌɔf/"
+    },
+    {
+      "lemma": "haggle",
+      "pos": "verb",
+      "meaning": "To argue with a seller to get a lower price.",
+      "examples": [
+        "At the market you can {haggle} over the price of a rug."
+      ],
+      "wrong": [
+        "I haggled with the seller and agreed to pay more than he asked."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bargain"
+      ],
+      "ipa": "/ˈhæɡəl/"
+    },
+    {
+      "lemma": "balance",
+      "pos": "noun",
+      "meaning": "The amount of money in a bank account.",
+      "examples": [
+        "I checked my {balance} before buying the tickets."
+      ],
+      "wrong": [
+        "My balance is the name of my bank."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈbæləns/"
+    },
+    {
+      "lemma": "bank transfer",
+      "pos": "noun",
+      "meaning": "Moving money from one bank account to another.",
+      "examples": [
+        "I paid the rent by {bank transfer}."
+      ],
+      "wrong": [
+        "I made a bank transfer by handing him some coins."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈbæŋk ˌtrænsfɚ/"
+    },
+    {
+      "lemma": "second-hand",
+      "pos": "adjective",
+      "meaning": "Owned and used by someone before you.",
+      "examples": [
+        "I bought a {second-hand} bike for fifty dollars."
+      ],
+      "wrong": [
+        "The phone was second-hand, so nobody had ever used it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "used"
+      ],
+      "ipa": "/ˌsɛkənd ˈhænd/",
+      "antonyms": [
+        "new",
+        "brand-new"
+      ]
+    },
+    {
+      "lemma": "brand-new",
+      "pos": "adjective",
+      "meaning": "Completely new and never used.",
+      "examples": [
+        "She drove home in a {brand-new} car."
+      ],
+      "wrong": [
+        "My brand-new coat had holes from years of wear."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌbrænd ˈnu/",
+      "antonyms": [
+        "second-hand",
+        "used"
+      ]
+    },
+    {
+      "lemma": "pricey",
+      "pos": "adjective",
+      "meaning": "Costing quite a lot of money.",
+      "examples": [
+        "That restaurant is nice but a bit {pricey}."
+      ],
+      "wrong": [
+        "The hotel was pricey, so we paid almost nothing."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "expensive",
+        "costly"
+      ],
+      "ipa": "/ˈpraɪsi/",
+      "antonyms": [
+        "cheap",
+        "inexpensive"
+      ]
+    },
+    {
+      "lemma": "overpriced",
+      "pos": "adjective",
+      "meaning": "Costing more than it is really worth.",
+      "examples": [
+        "The drinks at the stadium are {overpriced}."
+      ],
+      "wrong": [
+        "The shirt was overpriced, so it was a great bargain."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈpraɪst/",
+      "antonyms": [
+        "underpriced",
+        "cheap"
+      ]
+    },
+    {
+      "lemma": "loyalty card",
+      "pos": "noun",
+      "meaning": "A card a shop gives regular customers so they collect points and get discounts.",
+      "examples": [
+        "Show your {loyalty card} to get points."
+      ],
+      "wrong": [
+        "A loyalty card is for people who have never shopped there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rewards card"
+      ],
+      "ipa": "/ˈlɔɪəlti ˌkɑrd/"
+    },
+    {
+      "lemma": "voucher",
+      "pos": "noun",
+      "meaning": "A printed paper or code you can use instead of money, or to get a lower price.",
+      "examples": [
+        "I got a fifty-dollar {voucher} for my birthday."
+      ],
+      "wrong": [
+        "I paid extra money because I had a voucher."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "coupon"
+      ],
+      "ipa": "/ˈvaʊtʃɚ/"
+    },
+    {
+      "lemma": "coupon",
+      "pos": "noun",
+      "meaning": "A small ticket that lets you pay less for something.",
+      "examples": [
+        "Use this {coupon} to get ten percent off."
+      ],
+      "wrong": [
+        "The coupon made my shopping cost much more."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "voucher"
+      ],
+      "ipa": "/ˈkupɑn/"
+    },
+    {
+      "lemma": "in stock",
+      "pos": "phrase",
+      "meaning": "Available in a shop to buy now.",
+      "examples": [
+        "The shoes are {in stock} in all sizes."
+      ],
+      "wrong": [
+        "That size is in stock, so the shop can’t sell it to you."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "available"
+      ],
+      "ipa": "/ɪn ˈstɑk/",
+      "antonyms": [
+        "out of stock",
+        "sold out"
+      ]
+    },
+    {
+      "lemma": "sold out",
+      "pos": "phrase",
+      "meaning": "Having no more left to sell because everything has been bought.",
+      "examples": [
+        "The concert was {sold out} in an hour."
+      ],
+      "wrong": [
+        "The tickets were sold out, so there were plenty left."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌsoʊld ˈaʊt/",
+      "antonyms": [
+        "available",
+        "in stock"
+      ]
+    },
+    {
+      "lemma": "split the bill",
+      "pos": "phrase",
+      "meaning": "To share the cost of a meal so each person pays part.",
+      "examples": [
+        "There were four of us, so we {split the bill}."
+      ],
+      "wrong": [
+        "We split the bill, so my friend paid for everything alone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go halves"
+      ],
+      "ipa": "/ˈsplɪt ðə ˈbɪl/"
+    },
+    {
+      "lemma": "splash out",
+      "pos": "verb",
+      "meaning": "To spend a lot of money on something special.",
+      "examples": [
+        "We {splashed out} on a fancy dinner for her birthday."
+      ],
+      "wrong": [
+        "We splashed out by buying the cheapest thing on the menu."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "ipa": "/ˌsplæʃ ˈaʊt/"
+    },
+    {
+      "lemma": "cost a fortune",
+      "pos": "phrase",
+      "meaning": "To be very expensive.",
+      "examples": [
+        "Fixing the roof {cost a fortune}."
+      ],
+      "wrong": [
+        "The pen cost a fortune, only ten cents."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈkɔst ə ˈfɔrtʃən/"
+    },
+    {
+      "lemma": "installment",
+      "pos": "noun",
+      "meaning": "One of several regular payments you make for something.",
+      "examples": [
+        "I’m paying for the sofa in monthly {installments}."
+      ],
+      "wrong": [
+        "I paid in installments: the whole price at once."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "payment"
+      ],
+      "ipa": "/ɪnˈstɔlmənt/"
+    },
+    {
+      "lemma": "bank statement",
+      "pos": "noun",
+      "meaning": "A list from your bank that shows money paid in and out of your account.",
+      "examples": [
+        "My {bank statement} shows every payment I made last month."
+      ],
+      "wrong": [
+        "My bank statement was a letter about the weather."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈbæŋk ˌsteɪtmənt/"
+    },
+    {
+      "lemma": "shop around",
+      "pos": "verb",
+      "meaning": "To compare prices in different shops before buying.",
+      "examples": [
+        "It pays to {shop around} before buying a new phone."
+      ],
+      "wrong": [
+        "I shopped around by buying from the first store I saw."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "compare prices"
+      ],
+      "ipa": "/ˌʃɑp əˈraʊnd/"
+    },
+    {
+      "lemma": "window-shopping",
+      "pos": "noun",
+      "meaning": "Looking at things in shop windows without buying anything.",
+      "examples": [
+        "We went {window-shopping} on the main street."
+      ],
+      "wrong": [
+        "We went window-shopping and came home with ten bags of new clothes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈwɪndoʊˌʃɑpɪŋ/"
+    }
+  ]
+}

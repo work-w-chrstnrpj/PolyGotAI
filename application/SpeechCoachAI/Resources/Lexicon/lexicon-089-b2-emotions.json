@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-emotions",
+    "title": "Emotions in depth",
+    "level": "B2",
+    "tagline": "Stronger feelings and moods",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "devastated",
+      "pos": "adjective",
+      "meaning": "Extremely upset and shocked by something terrible.",
+      "examples": [
+        "She was {devastated} when her dog died."
+      ],
+      "wrong": [
+        "He was devastated to hear the wonderful news."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "heartbroken",
+        "crushed"
+      ],
+      "ipa": "/ˈdɛvəˌsteɪtɪd/"
+    },
+    {
+      "lemma": "overwhelmed",
+      "pos": "adjective",
+      "meaning": "Having so many feelings or tasks that you cannot cope.",
+      "examples": [
+        "I felt {overwhelmed} by all the kind messages."
+      ],
+      "wrong": [
+        "She was overwhelmed because she had nothing at all to do."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "swamped",
+        "overcome"
+      ],
+      "ipa": "/ˌoʊvɚˈwɛlmd/"
+    },
+    {
+      "lemma": "elated",
+      "pos": "adjective",
+      "meaning": "Very happy and excited about something.",
+      "examples": [
+        "The team was {elated} after winning the final."
+      ],
+      "wrong": [
+        "He was elated after failing every one of his exams."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "overjoyed",
+        "thrilled"
+      ],
+      "ipa": "/ɪˈleɪtɪd/",
+      "antonyms": [
+        "dejected",
+        "miserable"
+      ]
+    },
+    {
+      "lemma": "ecstatic",
+      "pos": "adjective",
+      "meaning": "Extremely happy, full of strong joy.",
+      "examples": [
+        "The fans were {ecstatic} when the band came on stage."
+      ],
+      "wrong": [
+        "She was ecstatic, so she sat in the corner and cried with sadness."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "overjoyed",
+        "euphoric"
+      ],
+      "ipa": "/ɛkˈstætɪk/",
+      "antonyms": [
+        "miserable",
+        "despondent"
+      ]
+    },
+    {
+      "lemma": "resentful",
+      "pos": "adjective",
+      "meaning": "Feeling angry because you think you were treated unfairly.",
+      "examples": [
+        "He felt {resentful} that his brother got all the attention."
+      ],
+      "wrong": [
+        "She felt resentful because everyone treated her so fairly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "bitter",
+        "aggrieved"
+      ],
+      "ipa": "/rɪˈzɛntfəl/"
+    },
+    {
+      "lemma": "resentment",
+      "pos": "noun",
+      "meaning": "An angry feeling about unfair treatment that lasts a long time.",
+      "examples": [
+        "Years of {resentment} came out during the argument."
+      ],
+      "wrong": [
+        "Her resentment showed in how warmly she thanked him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "bitterness",
+        "grudge"
+      ],
+      "ipa": "/rɪˈzɛntmənt/"
+    },
+    {
+      "lemma": "envious",
+      "pos": "adjective",
+      "meaning": "Wanting something that another person has.",
+      "examples": [
+        "I’m {envious} of your long summer holiday."
+      ],
+      "wrong": [
+        "He was envious of her, so he was glad he had nothing she had."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "jealous",
+        "covetous"
+      ],
+      "ipa": "/ˈɛnviəs/"
+    },
+    {
+      "lemma": "jealousy",
+      "pos": "noun",
+      "meaning": "An unhappy feeling of wanting what someone else has, or of fearing to lose someone’s love.",
+      "examples": [
+        "His {jealousy} grew when she started spending time with new friends."
+      ],
+      "wrong": [
+        "Her jealousy made her truly happy for her rival’s success."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "envy",
+        "possessiveness"
+      ],
+      "ipa": "/ˈdʒɛləsi/"
+    },
+    {
+      "lemma": "apprehensive",
+      "pos": "adjective",
+      "meaning": "Slightly worried that something bad may happen.",
+      "examples": [
+        "She was {apprehensive} about her first day at the new job."
+      ],
+      "wrong": [
+        "He was apprehensive, so he felt completely calm and sure."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "uneasy",
+        "nervous",
+        "anxious"
+      ],
+      "ipa": "/ˌæprɪˈhɛnsɪv/"
+    },
+    {
+      "lemma": "dread",
+      "pos": "verb",
+      "meaning": "To feel very worried about something that is going to happen.",
+      "examples": [
+        "I {dread} going to the dentist."
+      ],
+      "wrong": [
+        "I dread my birthday party because I am so looking forward to it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fear"
+      ],
+      "ipa": "/drɛd/"
+    },
+    {
+      "lemma": "relief",
+      "pos": "noun",
+      "meaning": "A good feeling when a worry or pain ends.",
+      "examples": [
+        "It was a huge {relief} to hear that everyone was safe."
+      ],
+      "wrong": [
+        "To her relief, the bad news made her even more worried."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "comfort",
+        "ease"
+      ],
+      "ipa": "/rɪˈlif/",
+      "antonyms": [
+        "anxiety",
+        "distress"
+      ]
+    },
+    {
+      "lemma": "gratitude",
+      "pos": "noun",
+      "meaning": "The feeling of being thankful.",
+      "examples": [
+        "He wrote a letter to express his {gratitude} to the nurses."
+      ],
+      "wrong": [
+        "She showed her gratitude by ignoring the person who helped her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "thankfulness",
+        "appreciation"
+      ],
+      "ipa": "/ˈɡrætɪˌtud/",
+      "antonyms": [
+        "ingratitude"
+      ]
+    },
+    {
+      "lemma": "nostalgic",
+      "pos": "adjective",
+      "meaning": "Feeling happy and a little sad when thinking about the past.",
+      "examples": [
+        "Old photos always make me feel {nostalgic}."
+      ],
+      "wrong": [
+        "He felt nostalgic about tomorrow’s meeting."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sentimental",
+        "wistful"
+      ],
+      "ipa": "/nɑˈstældʒɪk/"
+    },
+    {
+      "lemma": "contentment",
+      "pos": "noun",
+      "meaning": "A calm feeling of being happy with what you have.",
+      "examples": [
+        "She smiled with quiet {contentment} as she looked at her garden."
+      ],
+      "wrong": [
+        "His contentment made him complain about everything he owned."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "satisfaction",
+        "peace"
+      ],
+      "ipa": "/kənˈtɛntmənt/",
+      "antonyms": [
+        "discontent",
+        "dissatisfaction"
+      ]
+    },
+    {
+      "lemma": "grief",
+      "pos": "noun",
+      "meaning": "Deep sadness, especially after someone dies.",
+      "examples": [
+        "Her {grief} after her father’s death lasted for months."
+      ],
+      "wrong": [
+        "His grief at the party made him dance and laugh all night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sorrow",
+        "mourning"
+      ],
+      "ipa": "/ɡrif/"
+    },
+    {
+      "lemma": "sorrow",
+      "pos": "noun",
+      "meaning": "A feeling of great sadness.",
+      "examples": [
+        "The town shared its {sorrow} at the loss of the old teacher."
+      ],
+      "wrong": [
+        "She was full of sorrow because it was the best day of her life."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sadness",
+        "grief"
+      ],
+      "ipa": "/ˈsɑroʊ/"
+    },
+    {
+      "lemma": "despair",
+      "pos": "noun",
+      "meaning": "The feeling of having lost all hope.",
+      "examples": [
+        "In {despair}, he gave up looking for his lost ring."
+      ],
+      "wrong": [
+        "In despair, she was sure everything would turn out fine."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hopelessness",
+        "desperation"
+      ],
+      "ipa": "/dɪˈspɛr/",
+      "antonyms": [
+        "hope"
+      ]
+    },
+    {
+      "lemma": "hopeless",
+      "pos": "adjective",
+      "meaning": "Feeling that nothing good can happen or that things cannot improve.",
+      "examples": [
+        "After the third rejection, he felt {hopeless}."
+      ],
+      "wrong": [
+        "She felt hopeless, so she was full of confidence for the future."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "despairing"
+      ],
+      "ipa": "/ˈhoʊpləs/",
+      "antonyms": [
+        "hopeful"
+      ]
+    },
+    {
+      "lemma": "irritable",
+      "pos": "adjective",
+      "meaning": "Easily annoyed or made angry.",
+      "examples": [
+        "I get {irritable} when I’m hungry."
+      ],
+      "wrong": [
+        "He is so irritable that nothing ever bothers him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "grumpy",
+        "cranky",
+        "touchy"
+      ],
+      "ipa": "/ˈɪrɪtəbəl/"
+    },
+    {
+      "lemma": "fed up",
+      "pos": "adjective",
+      "meaning": "Annoyed and bored with something that has gone on too long.",
+      "examples": [
+        "I’m {fed up} with this rain."
+      ],
+      "wrong": [
+        "She was fed up with the trip, so she wanted it to go on forever."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "sick and tired",
+        "weary"
+      ],
+      "ipa": "/ˌfɛd ˈʌp/"
+    },
+    {
+      "lemma": "ashamed",
+      "pos": "adjective",
+      "meaning": "Feeling bad because you did something wrong.",
+      "examples": [
+        "He was {ashamed} of lying to his parents."
+      ],
+      "wrong": [
+        "She was ashamed of her kind act and proud of it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "embarrassed",
+        "sorry"
+      ],
+      "ipa": "/əˈʃeɪmd/",
+      "antonyms": [
+        "proud"
+      ]
+    },
+    {
+      "lemma": "guilt",
+      "pos": "noun",
+      "meaning": "A bad feeling that you did something wrong.",
+      "examples": [
+        "She felt {guilt} for forgetting her friend’s birthday."
+      ],
+      "wrong": [
+        "He felt guilt about something he had done perfectly well."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "remorse",
+        "shame"
+      ],
+      "ipa": "/ɡɪlt/"
+    },
+    {
+      "lemma": "remorse",
+      "pos": "noun",
+      "meaning": "Deep regret for something wrong you have done.",
+      "examples": [
+        "The driver showed real {remorse} for the accident."
+      ],
+      "wrong": [
+        "He felt remorse for the good deed he was proud of."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "regret",
+        "guilt"
+      ],
+      "ipa": "/rɪˈmɔrs/"
+    },
+    {
+      "lemma": "humiliated",
+      "pos": "adjective",
+      "meaning": "Made to feel ashamed and foolish in front of others.",
+      "examples": [
+        "He felt {humiliated} when he fell on stage."
+      ],
+      "wrong": [
+        "She was humiliated when everyone praised her speech."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "embarrassed",
+        "mortified"
+      ],
+      "ipa": "/hjuˈmɪliˌeɪtɪd/"
+    },
+    {
+      "lemma": "thrilled",
+      "pos": "adjective",
+      "meaning": "Very pleased and excited.",
+      "examples": [
+        "We’re {thrilled} that you can come to the wedding."
+      ],
+      "wrong": [
+        "I’m thrilled about the news, so I feel really disappointed."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "delighted",
+        "overjoyed"
+      ],
+      "ipa": "/θrɪld/"
+    },
+    {
+      "lemma": "exhilarated",
+      "pos": "adjective",
+      "meaning": "Full of excited, lively energy.",
+      "examples": [
+        "She felt {exhilarated} after the roller coaster ride."
+      ],
+      "wrong": [
+        "The fast ride left him exhilarated and bored."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "elated",
+        "excited"
+      ],
+      "ipa": "/ɪɡˈzɪləˌreɪtɪd/"
+    },
+    {
+      "lemma": "compassion",
+      "pos": "noun",
+      "meaning": "Strong care for people who are suffering and a wish to help them.",
+      "examples": [
+        "The nurse treated every patient with {compassion}."
+      ],
+      "wrong": [
+        "He showed compassion by laughing at the injured man."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "kindness",
+        "sympathy",
+        "mercy"
+      ],
+      "ipa": "/kəmˈpæʃən/",
+      "antonyms": [
+        "cruelty",
+        "indifference"
+      ]
+    },
+    {
+      "lemma": "affection",
+      "pos": "noun",
+      "meaning": "A gentle feeling of love and liking.",
+      "examples": [
+        "She looked at her grandson with great {affection}."
+      ],
+      "wrong": [
+        "He showed his affection by refusing to speak to her."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fondness",
+        "warmth",
+        "love"
+      ],
+      "ipa": "/əˈfɛkʃən/",
+      "antonyms": [
+        "dislike",
+        "hostility"
+      ]
+    },
+    {
+      "lemma": "bewildered",
+      "pos": "adjective",
+      "meaning": "Very confused and unable to understand.",
+      "examples": [
+        "The tourists looked {bewildered} by the subway map."
+      ],
+      "wrong": [
+        "She was bewildered, so she understood everything clearly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "confused",
+        "puzzled",
+        "baffled"
+      ],
+      "ipa": "/bɪˈwɪldɚd/"
+    },
+    {
+      "lemma": "startled",
+      "pos": "adjective",
+      "meaning": "Suddenly surprised or a little frightened.",
+      "examples": [
+        "The {startled} cat jumped off the table."
+      ],
+      "wrong": [
+        "He was startled by the noise he had expected for hours."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "alarmed",
+        "surprised"
+      ],
+      "ipa": "/ˈstɑrtəld/"
+    },
+    {
+      "lemma": "terrified",
+      "pos": "adjective",
+      "meaning": "Extremely afraid.",
+      "examples": [
+        "She is {terrified} of spiders."
+      ],
+      "wrong": [
+        "He was terrified, so he walked calmly up to the lion."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "petrified",
+        "scared stiff"
+      ],
+      "ipa": "/ˈtɛrəˌfaɪd/"
+    },
+    {
+      "lemma": "heartbroken",
+      "pos": "adjective",
+      "meaning": "Very sad, especially after losing someone you love.",
+      "examples": [
+        "He was {heartbroken} when his girlfriend left him."
+      ],
+      "wrong": [
+        "She was heartbroken about the wonderful surprise."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "devastated",
+        "grief-stricken"
+      ],
+      "ipa": "/ˈhɑrtˌbroʊkən/"
+    },
+    {
+      "lemma": "self-conscious",
+      "pos": "adjective",
+      "meaning": "Worried about how you look or what others think of you.",
+      "examples": [
+        "He felt {self-conscious} about his new haircut."
+      ],
+      "wrong": [
+        "She was so self-conscious that she never cared what anyone thought."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "awkward",
+        "shy"
+      ],
+      "ipa": "/ˌsɛlfˈkɑnʃəs/"
+    },
+    {
+      "lemma": "outrage",
+      "pos": "noun",
+      "meaning": "Very strong anger about something unfair or shocking.",
+      "examples": [
+        "The decision caused public {outrage}."
+      ],
+      "wrong": [
+        "Their outrage showed how pleased they were with the plan."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fury",
+        "indignation"
+      ],
+      "ipa": "/ˈaʊtˌreɪdʒ/"
+    },
+    {
+      "lemma": "indignant",
+      "pos": "adjective",
+      "meaning": "Angry because you think something is unfair.",
+      "examples": [
+        "She was {indignant} at being blamed for his mistake."
+      ],
+      "wrong": [
+        "He was indignant because he was treated so fairly."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "offended",
+        "resentful"
+      ],
+      "ipa": "/ɪnˈdɪɡnənt/"
+    },
+    {
+      "lemma": "restless",
+      "pos": "adjective",
+      "meaning": "Unable to stay still or relax because you are bored or worried.",
+      "examples": [
+        "The children grew {restless} during the long speech."
+      ],
+      "wrong": [
+        "He was restless, so he sat perfectly still for hours."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fidgety",
+        "uneasy"
+      ],
+      "ipa": "/ˈrɛstləs/",
+      "antonyms": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "lemma": "mood swing",
+      "pos": "noun",
+      "meaning": "A sudden change from one feeling to a very different one.",
+      "examples": [
+        "Lack of sleep can cause {mood swings}."
+      ],
+      "wrong": [
+        "His mood swing kept him feeling the same all week."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈmud ˌswɪŋ/"
+    },
+    {
+      "lemma": "on edge",
+      "pos": "phrase",
+      "meaning": "Nervous and unable to relax.",
+      "examples": [
+        "Everyone was {on edge} waiting for the results."
+      ],
+      "wrong": [
+        "She was on edge, totally relaxed and sleepy."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɑn ˈɛdʒ/"
+    },
+    {
+      "lemma": "on cloud nine",
+      "pos": "phrase",
+      "meaning": "Extremely happy.",
+      "examples": [
+        "She has been {on cloud nine} since the wedding."
+      ],
+      "wrong": [
+        "He was on cloud nine after hearing the terrible news."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ɑn ˌklaʊd ˈnaɪn/"
+    },
+    {
+      "lemma": "burst into tears",
+      "pos": "phrase",
+      "meaning": "To suddenly start crying.",
+      "examples": [
+        "When she heard the news, she {burst into tears}."
+      ],
+      "wrong": [
+        "He burst into tears and stayed completely dry-eyed."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈbɝst ˌɪntu ˈtɪrz/"
+    }
+  ]
+}

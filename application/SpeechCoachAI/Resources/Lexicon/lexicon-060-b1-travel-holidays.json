@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-travel-holidays",
+    "title": "Travel and holidays",
+    "level": "B1",
+    "tagline": "Trips, bookings and sights",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "check in",
+      "pos": "verb",
+      "meaning": "To arrive at a hotel or airport and show your booking so you can stay or fly.",
+      "examples": [
+        "We {checked in} at the hotel just after lunch."
+      ],
+      "wrong": [
+        "We checked in at the hotel as we were leaving it for good."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "register"
+      ],
+      "ipa": "/ˌtʃɛk ˈɪn/",
+      "antonyms": [
+        "check out"
+      ]
+    },
+    {
+      "lemma": "baggage claim",
+      "pos": "noun",
+      "meaning": "The area at an airport where you collect your bags after a flight.",
+      "examples": [
+        "We waited at {baggage claim} for our suitcases."
+      ],
+      "wrong": [
+        "We left our bags at baggage claim before getting on the plane."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "luggage carousel"
+      ],
+      "ipa": "/ˈbæɡɪdʒ ˌkleɪm/"
+    },
+    {
+      "lemma": "aisle seat",
+      "pos": "noun",
+      "meaning": "A seat on a plane or train next to the walkway between rows.",
+      "examples": [
+        "I always ask for an {aisle seat} so I can stretch my legs."
+      ],
+      "wrong": [
+        "From my aisle seat I had the best view out of the window."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈaɪl ˌsit/",
+      "antonyms": [
+        "window seat"
+      ]
+    },
+    {
+      "lemma": "window seat",
+      "pos": "noun",
+      "meaning": "A seat on a plane, bus or train next to the window.",
+      "examples": [
+        "She took the {window seat} to watch the mountains."
+      ],
+      "wrong": [
+        "I chose the window seat because I couldn’t see outside from it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈwɪndoʊ ˌsit/",
+      "antonyms": [
+        "aisle seat"
+      ]
+    },
+    {
+      "lemma": "campsite",
+      "pos": "noun",
+      "meaning": "A place where people can put up tents and stay outdoors.",
+      "examples": [
+        "We put up our tent at a {campsite} near the lake."
+      ],
+      "wrong": [
+        "The campsite was a hotel room on the tenth floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "camping ground"
+      ],
+      "ipa": "/ˈkæmpˌsaɪt/"
+    },
+    {
+      "lemma": "travel agent",
+      "pos": "noun",
+      "meaning": "A person or company whose job is to plan and sell trips for people.",
+      "examples": [
+        "Our {travel agent} found us a cheap flight to Spain."
+      ],
+      "wrong": [
+        "The travel agent fixed our car engine before the trip."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtrævəl ˌeɪdʒənt/"
+    },
+    {
+      "lemma": "overseas",
+      "pos": "adverb",
+      "meaning": "In or to a country across the sea.",
+      "examples": [
+        "My cousin moved {overseas} to work in Canada."
+      ],
+      "wrong": [
+        "She went overseas to the shop at the end of her street."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "abroad"
+      ],
+      "ipa": "/ˌoʊvɚˈsiz/"
+    },
+    {
+      "lemma": "scenery",
+      "pos": "noun",
+      "meaning": "The natural things you see in a place, such as hills, rivers and forests.",
+      "examples": [
+        "The {scenery} on the coast road was beautiful."
+      ],
+      "wrong": [
+        "We admired the scenery by closing our eyes for the whole drive."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "landscape",
+        "view"
+      ],
+      "ipa": "/ˈsinəri/"
+    },
+    {
+      "lemma": "tourist attraction",
+      "pos": "noun",
+      "meaning": "A place or thing that many visitors come to see.",
+      "examples": [
+        "The old castle is the town’s main {tourist attraction}."
+      ],
+      "wrong": [
+        "The tourist attraction was so dull that no visitor ever went there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sight"
+      ],
+      "ipa": "/ˈtʊrɪst əˌtrækʃən/"
+    },
+    {
+      "lemma": "package tour",
+      "pos": "noun",
+      "meaning": "A holiday where flights, hotel and sometimes meals are sold together at one price.",
+      "examples": [
+        "A {package tour} is easy because everything is booked for you."
+      ],
+      "wrong": [
+        "On our package tour we had to book every flight and hotel ourselves."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "package holiday"
+      ],
+      "ipa": "/ˈpækɪdʒ ˌtʊr/"
+    },
+    {
+      "lemma": "peak season",
+      "pos": "noun",
+      "meaning": "The busiest time of year for travel, when prices are highest.",
+      "examples": [
+        "Hotels cost twice as much in {peak season}."
+      ],
+      "wrong": [
+        "The beach was empty and cheap because it was peak season."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "high season"
+      ],
+      "ipa": "/ˈpik ˌsizən/",
+      "antonyms": [
+        "off-season",
+        "low season"
+      ]
+    },
+    {
+      "lemma": "off-season",
+      "pos": "noun",
+      "meaning": "The quiet time of year when few people travel and prices are lower.",
+      "examples": [
+        "We visited in the {off-season} and had the beach to ourselves."
+      ],
+      "wrong": [
+        "The town was packed with tourists because it was the off-season."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "low season"
+      ],
+      "ipa": "/ˈɔfˌsizən/",
+      "antonyms": [
+        "peak season",
+        "high season"
+      ]
+    },
+    {
+      "lemma": "all-inclusive",
+      "pos": "adjective",
+      "meaning": "Describes a holiday price that covers your room, meals and drinks.",
+      "examples": [
+        "Our {all-inclusive} hotel meant we never paid for food."
+      ],
+      "wrong": [
+        "The all-inclusive deal meant we paid extra for every meal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌɔl ɪnˈklusɪv/"
+    },
+    {
+      "lemma": "sunbathe",
+      "pos": "verb",
+      "meaning": "To lie or sit in the sun to get warm or brown.",
+      "examples": [
+        "We spent the afternoon {sunbathing} by the pool."
+      ],
+      "wrong": [
+        "He sunbathed in a dark cellar all afternoon."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsʌnˌbeɪð/"
+    },
+    {
+      "lemma": "homesick",
+      "pos": "adjective",
+      "meaning": "Sad because you are away from home and miss it.",
+      "examples": [
+        "On my first week abroad I felt very {homesick}."
+      ],
+      "wrong": [
+        "She was so homesick that she never once thought about her family."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈhoʊmˌsɪk/"
+    },
+    {
+      "lemma": "explore",
+      "pos": "verb",
+      "meaning": "To travel around a new place to learn about it.",
+      "examples": [
+        "We spent the day {exploring} the old town."
+      ],
+      "wrong": [
+        "We explored the city by staying in our hotel room all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "discover",
+        "investigate"
+      ],
+      "ipa": "/ɪkˈsplɔr/"
+    },
+    {
+      "lemma": "unpack",
+      "pos": "verb",
+      "meaning": "To take things out of a suitcase or bag and put them away.",
+      "examples": [
+        "As soon as we arrived, I {unpacked} my clothes."
+      ],
+      "wrong": [
+        "I unpacked my suitcase by putting all my clothes into it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ʌnˈpæk/",
+      "antonyms": [
+        "pack"
+      ]
+    },
+    {
+      "lemma": "fully booked",
+      "pos": "phrase",
+      "meaning": "Having no free rooms, seats or places left.",
+      "examples": [
+        "Every hotel in town was {fully booked} for the festival."
+      ],
+      "wrong": [
+        "The hotel was fully booked, so we got a room easily."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "full"
+      ],
+      "ipa": "/ˈfʊli ˈbʊkt/"
+    },
+    {
+      "lemma": "travel insurance",
+      "pos": "noun",
+      "meaning": "A plan you pay for that gives you money if things go wrong on a trip.",
+      "examples": [
+        "Our {travel insurance} paid for the doctor when I got sick."
+      ],
+      "wrong": [
+        "Travel insurance is a ticket that lets you skip the airport queue."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtrævəl ɪnˌʃʊrəns/"
+    },
+    {
+      "lemma": "connecting flight",
+      "pos": "noun",
+      "meaning": "A second plane you take to finish a journey after changing at an airport.",
+      "examples": [
+        "Our first plane was late, and we nearly missed our {connecting flight}."
+      ],
+      "wrong": [
+        "We took a connecting flight because the first plane went all the way there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/kəˈnɛktɪŋ ˌflaɪt/"
+    },
+    {
+      "lemma": "stopover",
+      "pos": "noun",
+      "meaning": "A short stay in a place between two parts of a long journey.",
+      "examples": [
+        "We had a two-day {stopover} in Singapore on the way to Australia."
+      ],
+      "wrong": [
+        "Our stopover was the moment we finally arrived home."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "layover"
+      ],
+      "ipa": "/ˈstɑpˌoʊvɚ/"
+    },
+    {
+      "lemma": "hand luggage",
+      "pos": "noun",
+      "meaning": "Small bags you are allowed to take with you on a plane.",
+      "examples": [
+        "Keep your passport in your {hand luggage}."
+      ],
+      "wrong": [
+        "My hand luggage was too big, so it went under the plane with the suitcases."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "carry-on"
+      ],
+      "ipa": "/ˈhænd ˌlʌɡɪdʒ/"
+    },
+    {
+      "lemma": "sunscreen",
+      "pos": "noun",
+      "meaning": "A cream you put on your skin to protect it from the sun.",
+      "examples": [
+        "Put on some {sunscreen} before you go to the beach."
+      ],
+      "wrong": [
+        "I put on sunscreen so I would burn faster."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sunblock",
+        "sun cream"
+      ],
+      "ipa": "/ˈsʌnˌskrin/"
+    },
+    {
+      "lemma": "phrasebook",
+      "pos": "noun",
+      "meaning": "A small book of useful sentences in a foreign language for travelers.",
+      "examples": [
+        "I used a {phrasebook} to order food in Italian."
+      ],
+      "wrong": [
+        "My phrasebook had only pictures and no words at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfreɪzˌbʊk/"
+    },
+    {
+      "lemma": "backpacker",
+      "pos": "noun",
+      "meaning": "A person who travels cheaply, carrying their things in a large bag on their back.",
+      "examples": [
+        "The hostel was full of young {backpackers}."
+      ],
+      "wrong": [
+        "The backpacker traveled in luxury with ten heavy suitcases."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈbækˌpækɚ/"
+    },
+    {
+      "lemma": "guided tour",
+      "pos": "noun",
+      "meaning": "A visit to a place with a person who shows you around and explains things.",
+      "examples": [
+        "We took a {guided tour} of the museum."
+      ],
+      "wrong": [
+        "On the guided tour nobody explained anything to us."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɡaɪdɪd ˈtʊr/"
+    },
+    {
+      "lemma": "brochure",
+      "pos": "noun",
+      "meaning": "A thin magazine with pictures and information about a product or place.",
+      "examples": [
+        "The hotel {brochure} showed a lovely pool."
+      ],
+      "wrong": [
+        "I read the brochure, a thick novel of six hundred pages."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "leaflet",
+        "booklet"
+      ],
+      "ipa": "/broʊˈʃʊr/"
+    },
+    {
+      "lemma": "overnight",
+      "pos": "adverb",
+      "meaning": "During or for the whole night.",
+      "examples": [
+        "We stayed {overnight} in a small village."
+      ],
+      "wrong": [
+        "We stayed overnight and left again before lunch."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈnaɪt/"
+    },
+    {
+      "lemma": "economy class",
+      "pos": "noun",
+      "meaning": "The cheapest and most basic seats on a plane.",
+      "examples": [
+        "We flew {economy class} to save money."
+      ],
+      "wrong": [
+        "Economy class has the biggest and most expensive seats on the plane."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "coach class"
+      ],
+      "ipa": "/ɪˈkɑnəmi ˌklæs/",
+      "antonyms": [
+        "first class",
+        "business class"
+      ]
+    },
+    {
+      "lemma": "passport control",
+      "pos": "noun",
+      "meaning": "The place at a border or airport where officials check your passport.",
+      "examples": [
+        "There was a long line at {passport control}."
+      ],
+      "wrong": [
+        "At passport control nobody looked at our documents."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "immigration"
+      ],
+      "ipa": "/ˈpæspɔrt kənˌtroʊl/"
+    },
+    {
+      "lemma": "duty-free",
+      "pos": "adjective",
+      "meaning": "Sold without tax, usually at airports.",
+      "examples": [
+        "I bought some {duty-free} perfume at the airport."
+      ],
+      "wrong": [
+        "Duty-free goods have extra taxes added to the price."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tax-free"
+      ],
+      "ipa": "/ˌduti ˈfri/"
+    },
+    {
+      "lemma": "single room",
+      "pos": "noun",
+      "meaning": "A hotel room for one person.",
+      "examples": [
+        "I booked a {single room} because I was traveling alone."
+      ],
+      "wrong": [
+        "The five of us shared a single room with three beds."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsɪŋɡəl ˈrum/",
+      "antonyms": [
+        "double room"
+      ]
+    },
+    {
+      "lemma": "double room",
+      "pos": "noun",
+      "meaning": "A hotel room with one big bed for two people.",
+      "examples": [
+        "The couple asked for a {double room}."
+      ],
+      "wrong": [
+        "A double room has two small beds and is meant for one guest."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈdʌbəl ˈrum/"
+    },
+    {
+      "lemma": "room service",
+      "pos": "noun",
+      "meaning": "A hotel service that brings food and drinks to your room.",
+      "examples": [
+        "We ordered breakfast from {room service}."
+      ],
+      "wrong": [
+        "We went down to the restaurant because we wanted room service."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈrum ˌsɝvɪs/"
+    },
+    {
+      "lemma": "day trip",
+      "pos": "noun",
+      "meaning": "A visit to a place where you go and come back on the same day.",
+      "examples": [
+        "We took a {day trip} to the islands."
+      ],
+      "wrong": [
+        "Our day trip lasted for two weeks."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "outing",
+        "excursion"
+      ],
+      "ipa": "/ˈdeɪ ˌtrɪp/"
+    },
+    {
+      "lemma": "road trip",
+      "pos": "noun",
+      "meaning": "A long journey by car for fun.",
+      "examples": [
+        "We went on a {road trip} across the country."
+      ],
+      "wrong": [
+        "Our road trip was a short flight to the capital."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈroʊd ˌtrɪp/"
+    },
+    {
+      "lemma": "car rental",
+      "pos": "noun",
+      "meaning": "Paying to use a car for a short time.",
+      "examples": [
+        "The airport has a {car rental} desk next to the exit."
+      ],
+      "wrong": [
+        "We used car rental because we wanted to buy our own car."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "car hire"
+      ],
+      "ipa": "/ˈkɑr ˌrɛntəl/"
+    },
+    {
+      "lemma": "getaway",
+      "pos": "noun",
+      "meaning": "A short holiday away from your normal life.",
+      "examples": [
+        "We planned a weekend {getaway} by the sea."
+      ],
+      "wrong": [
+        "Our getaway was a long day of extra work at the office."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "break",
+        "escape"
+      ],
+      "ipa": "/ˈɡɛtəˌweɪ/"
+    },
+    {
+      "lemma": "travel light",
+      "pos": "phrase",
+      "meaning": "To go on a trip with very few bags.",
+      "examples": [
+        "I like to {travel light}, with just one small backpack."
+      ],
+      "wrong": [
+        "She likes to travel light, so she packed four huge suitcases."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtrævəl ˈlaɪt/"
+    },
+    {
+      "lemma": "seasick",
+      "pos": "adjective",
+      "meaning": "Feeling ill because of the movement of a boat.",
+      "examples": [
+        "The waves were high, and half the passengers were {seasick}."
+      ],
+      "wrong": [
+        "He felt seasick on the train because the sea was so calm."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsiˌsɪk/"
+    }
+  ]
+}

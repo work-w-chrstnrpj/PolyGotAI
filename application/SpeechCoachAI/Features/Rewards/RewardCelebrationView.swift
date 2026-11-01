@@ -31,25 +31,25 @@ struct RewardCelebrationView: View {
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("rewards.celebration")
          .onAppear {
+            // Sound and haptics come from the app-wide celebration (CelebrationOverlay).
             withAnimation(motion ? .easeOut(duration: 0.2) : nil) { revealed = true }
-            feedback.play(settings: ledger.settings)
         }
         .onDisappear { feedback.stop() }
         .onChange(of: scene) { _, phase in if phase != .active { revealed = true; feedback.stop() } }
     }
 }
 
-/// "+10 XP · +2 gold" for one answer, or nothing when it earned none.
+/// "+10 XP" for one answer, or nothing when it earned none.
 struct RewardEarnedLine: View {
     var storage: LearnerStorageController
     var source: String
     @State private var ledger: RewardLedger?
     var body: some View {
         let rows = ledger?.transactions.filter { $0.source == source } ?? []
-        let xp = rows.reduce(0) { $0 + $1.xp }, gold = rows.reduce(0) { $0 + $1.gold }
+        let xp = rows.reduce(0) { $0 + $1.xp }
         Group {
-            if xp > 0 || gold > 0 {
-                Label("+\(xp) XP · +\(gold) gold", systemImage: "star.circle.fill")
+            if xp > 0 {
+                Label("+\(xp) XP", systemImage: "star.circle.fill")
                     .font(.headline).foregroundStyle(Kit.accent)
                     .accessibilityIdentifier("exercise.reward")
             }
@@ -69,13 +69,12 @@ struct RewardSummary: View {
             if let ledger {
                 if let prefix = sourcePrefix {
                     let rows = ledger.transactions.filter { prefix.hasSuffix("/") ? $0.source.hasPrefix(prefix) : $0.source == prefix }
-                    Text("\(sourceTitle): \(rows.reduce(0) { $0 + $1.xp }) XP · \(rows.reduce(0) { $0 + $1.gold }) gold")
+                    Text("\(sourceTitle): \(rows.reduce(0) { $0 + $1.xp }) XP")
                         .accessibilityIdentifier("rewards.result")
-                    Text("Already included in your wallet. Completion and badges do not pay it again.")
-                        .font(.footnote).foregroundStyle(Kit.secondary)
                 }
+                let level = XPLevel(xp: ledger.xp)
                 NavigationLink { RewardOverview(storage: storage) } label: {
-                    Label("\(ledger.xp) XP · \(ledger.gold) gold · achievements", systemImage: "seal")
+                    Label("Level \(level.level) · \(ledger.xp) XP · badges", systemImage: "seal")
                 }.frame(minHeight: 44).accessibilityIdentifier("rewards.open")
             }
         }.onAppear { ledger = try? storage.repository?.rewardLedger() }

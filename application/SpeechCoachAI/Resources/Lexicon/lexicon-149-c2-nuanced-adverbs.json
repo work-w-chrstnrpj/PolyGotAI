@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-nuanced-adverbs",
+    "title": "Nuanced adverbs",
+    "level": "C2",
+    "tagline": "Exact ways of saying how",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "inadvertently",
+      "pos": "adverb",
+      "meaning": "Without meaning to, by accident.",
+      "examples": [
+        "I {inadvertently} deleted the file."
+      ],
+      "wrong": [
+        "She inadvertently planned the surprise down to every detail."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accidentally",
+        "unintentionally"
+      ],
+      "ipa": "/ˌɪnədˈvɝtəntli/",
+      "antonyms": [
+        "deliberately",
+        "intentionally"
+      ]
+    },
+    {
+      "lemma": "studiously",
+      "pos": "adverb",
+      "meaning": "With careful, deliberate effort.",
+      "examples": [
+        "He {studiously} avoided looking at his ex-partner."
+      ],
+      "wrong": [
+        "She studiously ignored the email by reading it at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "carefully",
+        "deliberately"
+      ],
+      "ipa": "/ˈstudiəsli/"
+    },
+    {
+      "lemma": "ineluctably",
+      "pos": "adverb",
+      "meaning": "In a way that cannot be avoided or escaped.",
+      "examples": [
+        "The plot moves {ineluctably} toward tragedy."
+      ],
+      "wrong": [
+        "The result followed ineluctably, though it could easily have been avoided."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inevitably",
+        "inescapably",
+        "unavoidably"
+      ],
+      "ipa": "/ˌɪnɪˈlʌktəbli/"
+    },
+    {
+      "lemma": "irrevocably",
+      "pos": "adverb",
+      "meaning": "In a way that can never be changed or undone.",
+      "examples": [
+        "The decision {irrevocably} altered their lives."
+      ],
+      "wrong": [
+        "The contract was irrevocably signed, so we canceled it the next day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "permanently",
+        "irreversibly"
+      ],
+      "ipa": "/ɪˈrɛvəkəbli/",
+      "antonyms": [
+        "reversibly",
+        "temporarily"
+      ]
+    },
+    {
+      "lemma": "perfunctorily",
+      "pos": "adverb",
+      "meaning": "Quickly and with little care or interest, just as a duty.",
+      "examples": [
+        "The guard {perfunctorily} glanced at my ticket."
+      ],
+      "wrong": [
+        "She checked the report perfunctorily, going over every line twice."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cursorily",
+        "mechanically"
+      ],
+      "ipa": "/pɚˈfʌŋktərəli/"
+    },
+    {
+      "lemma": "assiduously",
+      "pos": "adverb",
+      "meaning": "With great care and constant hard work.",
+      "examples": [
+        "She {assiduously} checked every reference."
+      ],
+      "wrong": [
+        "He worked assiduously, giving up after ten minutes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "diligently",
+        "painstakingly",
+        "industriously"
+      ],
+      "ipa": "/əˈsɪdʒuəsli/",
+      "antonyms": [
+        "carelessly",
+        "negligently"
+      ]
+    },
+    {
+      "lemma": "begrudgingly",
+      "pos": "adverb",
+      "meaning": "In an unwilling or resentful way.",
+      "examples": [
+        "He {begrudgingly} admitted that she was right."
+      ],
+      "wrong": [
+        "She begrudgingly agreed, smiling with delight."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "grudgingly",
+        "reluctantly",
+        "unwillingly"
+      ],
+      "ipa": "/bɪˈɡrʌdʒɪŋli/",
+      "antonyms": [
+        "willingly",
+        "gladly"
+      ]
+    },
+    {
+      "lemma": "circuitously",
+      "pos": "adverb",
+      "meaning": "By a long, indirect route or way.",
+      "examples": [
+        "The road winds {circuitously} through the hills."
+      ],
+      "wrong": [
+        "He answered circuitously, getting straight to the point."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "indirectly",
+        "roundabout"
+      ],
+      "ipa": "/sɚˈkjuɪtəsli/",
+      "antonyms": [
+        "directly"
+      ]
+    },
+    {
+      "lemma": "demonstrably",
+      "pos": "adverb",
+      "meaning": "In a way that can be clearly shown or proved.",
+      "examples": [
+        "The claim is {demonstrably} false."
+      ],
+      "wrong": [
+        "The idea was demonstrably true, yet there was no proof at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "provably",
+        "clearly",
+        "evidently"
+      ],
+      "ipa": "/dɪˈmɑnstrəbli/"
+    },
+    {
+      "lemma": "disproportionately",
+      "pos": "adverb",
+      "meaning": "Too much or too little compared with something else.",
+      "examples": [
+        "Poorer areas are {disproportionately} affected by pollution."
+      ],
+      "wrong": [
+        "The cost fell disproportionately, shared equally by everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unequally",
+        "excessively"
+      ],
+      "ipa": "/ˌdɪsprəˈpɔrʃənətli/"
+    },
+    {
+      "lemma": "fleetingly",
+      "pos": "adverb",
+      "meaning": "For a very short time.",
+      "examples": [
+        "She smiled {fleetingly} before turning away."
+      ],
+      "wrong": [
+        "He glanced fleetingly at the painting for three hours."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "briefly",
+        "momentarily"
+      ],
+      "ipa": "/ˈflitɪŋli/",
+      "antonyms": [
+        "lastingly",
+        "permanently"
+      ]
+    },
+    {
+      "lemma": "haphazardly",
+      "pos": "adverb",
+      "meaning": "Without order, plan or care.",
+      "examples": [
+        "Books were piled {haphazardly} on the floor."
+      ],
+      "wrong": [
+        "The files were arranged haphazardly, in perfect alphabetical order."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "randomly",
+        "carelessly",
+        "chaotically"
+      ],
+      "ipa": "/hæpˈhæzɚdli/",
+      "antonyms": [
+        "methodically",
+        "systematically"
+      ]
+    },
+    {
+      "lemma": "imperceptibly",
+      "pos": "adverb",
+      "meaning": "So slowly or slightly that it can hardly be noticed.",
+      "examples": [
+        "The light faded {imperceptibly} into evening."
+      ],
+      "wrong": [
+        "The noise rose imperceptibly into a deafening crash everyone heard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unnoticeably",
+        "subtly",
+        "gradually"
+      ],
+      "ipa": "/ˌɪmpɚˈsɛptəbli/"
+    },
+    {
+      "lemma": "obliquely",
+      "pos": "adverb",
+      "meaning": "In an indirect way, not stated openly.",
+      "examples": [
+        "She referred only {obliquely} to the scandal."
+      ],
+      "wrong": [
+        "He mentioned it obliquely, naming the problem loudly and clearly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "indirectly",
+        "implicitly"
+      ],
+      "ipa": "/oʊˈblikli/",
+      "antonyms": [
+        "directly",
+        "explicitly"
+      ]
+    },
+    {
+      "lemma": "painstakingly",
+      "pos": "adverb",
+      "meaning": "With very great care and attention to detail.",
+      "examples": [
+        "The old mural was {painstakingly} restored."
+      ],
+      "wrong": [
+        "She painstakingly finished the model in a careless rush."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "meticulously",
+        "carefully",
+        "scrupulously"
+      ],
+      "ipa": "/ˈpeɪnzˌteɪkɪŋli/",
+      "antonyms": [
+        "carelessly",
+        "sloppily"
+      ]
+    },
+    {
+      "lemma": "precariously",
+      "pos": "adverb",
+      "meaning": "In an unsafe, unstable way that might fall or fail.",
+      "examples": [
+        "The vase was balanced {precariously} on the edge."
+      ],
+      "wrong": [
+        "The tower stood precariously, firm and completely safe."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unsteadily",
+        "perilously",
+        "shakily"
+      ],
+      "ipa": "/prɪˈkɛriəsli/",
+      "antonyms": [
+        "securely",
+        "safely"
+      ]
+    },
+    {
+      "lemma": "serendipitously",
+      "pos": "adverb",
+      "meaning": "By a lucky, unplanned chance.",
+      "examples": [
+        "We met {serendipitously} at a train station in Lisbon."
+      ],
+      "wrong": [
+        "They met serendipitously, after months of careful planning."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fortuitously",
+        "by chance",
+        "luckily"
+      ],
+      "ipa": "/ˌsɛrənˈdɪpɪtəsli/"
+    },
+    {
+      "lemma": "summarily",
+      "pos": "adverb",
+      "meaning": "Immediately and without the usual process or discussion.",
+      "examples": [
+        "He was {summarily} dismissed for misconduct."
+      ],
+      "wrong": [
+        "The case was summarily decided after a three-year trial."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "immediately",
+        "abruptly"
+      ],
+      "ipa": "/səˈmɛrəli/"
+    },
+    {
+      "lemma": "surreptitiously",
+      "pos": "adverb",
+      "meaning": "Secretly, so that others don’t notice.",
+      "examples": [
+        "He {surreptitiously} checked his phone during the meeting."
+      ],
+      "wrong": [
+        "She surreptitiously waved a flag in front of everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "secretly",
+        "stealthily",
+        "furtively"
+      ],
+      "ipa": "/ˌsɝəpˈtɪʃəsli/",
+      "antonyms": [
+        "openly",
+        "publicly"
+      ]
+    },
+    {
+      "lemma": "unwittingly",
+      "pos": "adverb",
+      "meaning": "Without knowing or realizing.",
+      "examples": [
+        "She {unwittingly} revealed the surprise."
+      ],
+      "wrong": [
+        "He unwittingly broke the rule he had carefully planned to break."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unknowingly",
+        "unintentionally"
+      ],
+      "ipa": "/ʌnˈwɪtɪŋli/",
+      "antonyms": [
+        "knowingly",
+        "deliberately"
+      ]
+    },
+    {
+      "lemma": "vicariously",
+      "pos": "adverb",
+      "meaning": "By sharing someone else’s experience through imagination.",
+      "examples": [
+        "He travels {vicariously} through his daughter’s letters."
+      ],
+      "wrong": [
+        "She lived vicariously through her friend by climbing the mountain herself."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "secondhand",
+        "indirectly"
+      ],
+      "ipa": "/vaɪˈkɛriəsli/"
+    },
+    {
+      "lemma": "wryly",
+      "pos": "adverb",
+      "meaning": "In a dry, slightly mocking or ironic way.",
+      "examples": [
+        "’Another perfect day,’ she said {wryly} as the rain poured."
+      ],
+      "wrong": [
+        "He smiled wryly, with completely sincere and innocent joy."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dryly",
+        "ironically",
+        "sardonically"
+      ],
+      "ipa": "/ˈraɪli/"
+    },
+    {
+      "lemma": "indubitably",
+      "pos": "adverb",
+      "meaning": "Without any doubt.",
+      "examples": [
+        "This is {indubitably} the finest wine of the year."
+      ],
+      "wrong": [
+        "It was indubitably true, though most people strongly doubted it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "undoubtedly",
+        "unquestionably"
+      ],
+      "ipa": "/ɪnˈdubɪtəbli/"
+    },
+    {
+      "lemma": "unabashedly",
+      "pos": "adverb",
+      "meaning": "Openly, without shame or embarrassment.",
+      "examples": [
+        "He is {unabashedly} romantic."
+      ],
+      "wrong": [
+        "She sang unabashedly, hiding her face in shame."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "openly",
+        "shamelessly",
+        "unashamedly"
+      ],
+      "ipa": "/ˌʌnəˈbæʃɪdli/",
+      "antonyms": [
+        "shyly",
+        "sheepishly"
+      ]
+    },
+    {
+      "lemma": "inordinately",
+      "pos": "adverb",
+      "meaning": "Much more than is usual or reasonable.",
+      "examples": [
+        "She was {inordinately} proud of her small garden."
+      ],
+      "wrong": [
+        "The meal was inordinately expensive at a perfectly normal price."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "excessively",
+        "unduly"
+      ],
+      "ipa": "/ɪnˈɔrdənətli/"
+    },
+    {
+      "lemma": "fortuitously",
+      "pos": "adverb",
+      "meaning": "By lucky chance.",
+      "examples": [
+        "The rain stopped {fortuitously} just before the wedding."
+      ],
+      "wrong": [
+        "It happened fortuitously, exactly as we had arranged."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "luckily",
+        "serendipitously",
+        "by chance"
+      ],
+      "ipa": "/fɔrˈtuɪtəsli/"
+    },
+    {
+      "lemma": "gingerly",
+      "pos": "adverb",
+      "meaning": "Very carefully and slowly, to avoid harm or pain.",
+      "examples": [
+        "She stepped {gingerly} onto the icy path."
+      ],
+      "wrong": [
+        "He gingerly kicked the fragile glass across the room."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cautiously",
+        "carefully",
+        "warily"
+      ],
+      "ipa": "/ˈdʒɪndʒɚli/"
+    },
+    {
+      "lemma": "headlong",
+      "pos": "adverb",
+      "meaning": "Quickly and without stopping to think.",
+      "examples": [
+        "They rushed {headlong} into the deal."
+      ],
+      "wrong": [
+        "She went headlong into it after months of careful thought."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hastily",
+        "recklessly",
+        "impetuously"
+      ],
+      "ipa": "/ˈhɛdˌlɔŋ/"
+    },
+    {
+      "lemma": "posthaste",
+      "pos": "adverb",
+      "meaning": "As fast as possible.",
+      "examples": [
+        "The documents were sent {posthaste} to the lawyer."
+      ],
+      "wrong": [
+        "He replied posthaste, three months later."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "immediately",
+        "speedily",
+        "promptly"
+      ],
+      "ipa": "/ˌpoʊstˈheɪst/",
+      "antonyms": [
+        "slowly",
+        "leisurely"
+      ]
+    },
+    {
+      "lemma": "inexplicably",
+      "pos": "adverb",
+      "meaning": "In a way that cannot be explained.",
+      "examples": [
+        "The lights {inexplicably} went out."
+      ],
+      "wrong": [
+        "It failed inexplicably, for a reason everyone understood."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mysteriously",
+        "unaccountably"
+      ],
+      "ipa": "/ˌɪnɪkˈsplɪkəbli/"
+    },
+    {
+      "lemma": "incontrovertibly",
+      "pos": "adverb",
+      "meaning": "In a way that cannot be denied or argued against.",
+      "examples": [
+        "The tests {incontrovertibly} proved his innocence."
+      ],
+      "wrong": [
+        "The evidence was incontrovertibly clear, so the debate continued for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "indisputably",
+        "undeniably",
+        "irrefutably"
+      ],
+      "ipa": "/ˌɪnkɑntrəˈvɝtəbli/"
+    },
+    {
+      "lemma": "resolutely",
+      "pos": "adverb",
+      "meaning": "In a firm, determined way that does not change.",
+      "examples": [
+        "She {resolutely} refused to sign."
+      ],
+      "wrong": [
+        "He resolutely changed his mind every few minutes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "firmly",
+        "steadfastly",
+        "determinedly"
+      ],
+      "ipa": "/ˈrɛzəˌlutli/"
+    },
+    {
+      "lemma": "sporadically",
+      "pos": "adverb",
+      "meaning": "Now and then, at irregular times.",
+      "examples": [
+        "Fighting continued {sporadically} through the night."
+      ],
+      "wrong": [
+        "It rained sporadically, without a single pause all week."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "occasionally",
+        "intermittently",
+        "irregularly"
+      ],
+      "ipa": "/spəˈrædɪkli/",
+      "antonyms": [
+        "constantly",
+        "continuously",
+        "regularly"
+      ]
+    },
+    {
+      "lemma": "belatedly",
+      "pos": "adverb",
+      "meaning": "Later than should have happened.",
+      "examples": [
+        "The company {belatedly} admitted the fault."
+      ],
+      "wrong": [
+        "She belatedly sent the card a week early."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "late",
+        "tardily"
+      ],
+      "ipa": "/bɪˈleɪtɪdli/",
+      "antonyms": [
+        "promptly",
+        "early"
+      ]
+    },
+    {
+      "lemma": "nominally",
+      "pos": "adverb",
+      "meaning": "In name only, not in reality.",
+      "examples": [
+        "He is {nominally} in charge, but his deputy makes the decisions."
+      ],
+      "wrong": [
+        "She was nominally the boss and truly made every decision."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "officially",
+        "theoretically"
+      ],
+      "ipa": "/ˈnɑmənəli/"
+    },
+    {
+      "lemma": "peremptorily",
+      "pos": "adverb",
+      "meaning": "In a commanding way that allows no refusal or discussion.",
+      "examples": [
+        "’Sit down,’ he said {peremptorily}."
+      ],
+      "wrong": [
+        "She peremptorily asked if we might perhaps consider sitting."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imperiously",
+        "brusquely",
+        "curtly"
+      ],
+      "ipa": "/pəˈrɛmptərəli/"
+    },
+    {
+      "lemma": "dispassionately",
+      "pos": "adverb",
+      "meaning": "Calmly and fairly, without letting feelings influence you.",
+      "examples": [
+        "A judge must weigh the evidence {dispassionately}."
+      ],
+      "wrong": [
+        "He spoke dispassionately, shouting with rage."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "objectively",
+        "impartially",
+        "neutrally"
+      ],
+      "ipa": "/dɪsˈpæʃənətli/",
+      "antonyms": [
+        "emotionally",
+        "passionately"
+      ]
+    },
+    {
+      "lemma": "incrementally",
+      "pos": "adverb",
+      "meaning": "In small steps, one after another.",
+      "examples": [
+        "Prices rose {incrementally} over the decade."
+      ],
+      "wrong": [
+        "The system was improved incrementally, all at once in a single leap."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "gradually",
+        "step by step"
+      ],
+      "ipa": "/ˌɪŋkrəˈmɛntəli/",
+      "antonyms": [
+        "abruptly",
+        "suddenly"
+      ]
+    },
+    {
+      "lemma": "cavalierly",
+      "pos": "adverb",
+      "meaning": "In a careless way that ignores how serious something is.",
+      "examples": [
+        "He {cavalierly} dismissed the safety warnings."
+      ],
+      "wrong": [
+        "She treated the risk cavalierly, studying it with great care."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "offhandedly",
+        "carelessly",
+        "dismissively"
+      ],
+      "ipa": "/ˌkævəˈlɪrli/"
+    },
+    {
+      "lemma": "vociferously",
+      "pos": "adverb",
+      "meaning": "Loudly and forcefully, especially in complaint.",
+      "examples": [
+        "Fans protested {vociferously} against the ticket prices."
+      ],
+      "wrong": [
+        "They objected vociferously in total silence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "loudly",
+        "vehemently",
+        "clamorously"
+      ],
+      "ipa": "/voʊˈsɪfərəsli/"
+    }
+  ]
+}

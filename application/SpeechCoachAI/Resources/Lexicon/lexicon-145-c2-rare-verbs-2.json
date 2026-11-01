@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rare-verbs-2",
+    "title": "More rare verbs",
+    "level": "C2",
+    "tagline": "Uncommon but useful verbs",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "abjure",
+      "pos": "verb",
+      "meaning": "To formally and publicly give up a belief or claim.",
+      "examples": [
+        "He {abjured} his old political views."
+      ],
+      "wrong": [
+        "She abjured the faith and practiced it more proudly than ever."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "renounce",
+        "forswear"
+      ],
+      "ipa": "/æbˈdʒʊr/"
+    },
+    {
+      "lemma": "adumbrate",
+      "pos": "verb",
+      "meaning": "To give a rough outline of something, or hint at what is to come.",
+      "examples": [
+        "The report {adumbrates} the reforms planned for next year."
+      ],
+      "wrong": [
+        "He adumbrated the plan by explaining every small detail in full."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "outline",
+        "foreshadow"
+      ],
+      "ipa": "/ˈædəmˌbreɪt/"
+    },
+    {
+      "lemma": "aggrandize",
+      "pos": "verb",
+      "meaning": "To make someone or something seem greater or more powerful.",
+      "examples": [
+        "The ruler built statues to {aggrandize} himself."
+      ],
+      "wrong": [
+        "He aggrandized his role by saying he had done almost nothing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exaggerate",
+        "glorify"
+      ],
+      "ipa": "/əˈɡrænˌdaɪz/",
+      "antonyms": [
+        "belittle",
+        "diminish"
+      ]
+    },
+    {
+      "lemma": "allay",
+      "pos": "verb",
+      "meaning": "To make a fear or worry smaller or calmer.",
+      "examples": [
+        "The doctor’s words {allayed} her fears."
+      ],
+      "wrong": [
+        "The news allayed his fears, so he became terrified."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "ease",
+        "calm",
+        "soothe"
+      ],
+      "ipa": "/əˈleɪ/",
+      "antonyms": [
+        "arouse",
+        "intensify"
+      ]
+    },
+    {
+      "lemma": "apprise",
+      "pos": "verb",
+      "meaning": "To tell someone about something they should know.",
+      "examples": [
+        "Please {apprise} me of any changes to the plan."
+      ],
+      "wrong": [
+        "She apprised the team by keeping all the news secret."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "inform",
+        "notify"
+      ],
+      "ipa": "/əˈpraɪz/"
+    },
+    {
+      "lemma": "arrogate",
+      "pos": "verb",
+      "meaning": "To take a power or right without any right to it.",
+      "examples": [
+        "The general {arrogated} the powers of the president."
+      ],
+      "wrong": [
+        "She arrogated the role after she was fairly elected to it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "seize",
+        "usurp"
+      ],
+      "ipa": "/ˈærəˌɡeɪt/"
+    },
+    {
+      "lemma": "aver",
+      "pos": "verb",
+      "meaning": "To state something firmly as true.",
+      "examples": [
+        "The witness {averred} that she had seen the man."
+      ],
+      "wrong": [
+        "He averred the claim by saying he was not sure at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "assert",
+        "affirm"
+      ],
+      "ipa": "/əˈvɝ/"
+    },
+    {
+      "lemma": "berate",
+      "pos": "verb",
+      "meaning": "To criticize someone angrily and at length.",
+      "examples": [
+        "The coach {berated} the players after the defeat."
+      ],
+      "wrong": [
+        "She berated him with warm praise and a hug."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "scold",
+        "reprimand"
+      ],
+      "ipa": "/bɪˈreɪt/",
+      "antonyms": [
+        "praise",
+        "commend"
+      ]
+    },
+    {
+      "lemma": "burgeon",
+      "pos": "verb",
+      "meaning": "To grow or develop quickly.",
+      "examples": [
+        "The town’s tech industry has {burgeoned} in recent years."
+      ],
+      "wrong": [
+        "The business burgeoned, and it shrank to half its size."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "flourish",
+        "boom"
+      ],
+      "ipa": "/ˈbɝdʒən/",
+      "antonyms": [
+        "decline",
+        "shrink"
+      ]
+    },
+    {
+      "lemma": "remonstrate",
+      "pos": "verb",
+      "meaning": "To protest or complain strongly to someone.",
+      "examples": [
+        "Residents {remonstrated} with the council about the noise."
+      ],
+      "wrong": [
+        "She remonstrated with the waiter by thanking him for the perfect meal."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "protest",
+        "object"
+      ],
+      "ipa": "/rɪˈmɑnˌstreɪt/"
+    },
+    {
+      "lemma": "capitulate",
+      "pos": "verb",
+      "meaning": "To stop resisting and give in.",
+      "examples": [
+        "After weeks of strikes, the company {capitulated} to the demands."
+      ],
+      "wrong": [
+        "The army capitulated and fought on bravely for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "surrender",
+        "yield"
+      ],
+      "ipa": "/kəˈpɪtʃəˌleɪt/",
+      "antonyms": [
+        "resist"
+      ]
+    },
+    {
+      "lemma": "temporize",
+      "pos": "verb",
+      "meaning": "To delay a decision in order to gain time.",
+      "examples": [
+        "The minister {temporized} until the scandal faded."
+      ],
+      "wrong": [
+        "He temporized by deciding at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "stall",
+        "procrastinate"
+      ],
+      "ipa": "/ˈtɛmpəˌraɪz/"
+    },
+    {
+      "lemma": "conflate",
+      "pos": "verb",
+      "meaning": "To mix two different ideas together as if they were one.",
+      "examples": [
+        "Many people {conflate} wealth with happiness."
+      ],
+      "wrong": [
+        "He conflated the two ideas by keeping them carefully apart."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "confuse",
+        "merge"
+      ],
+      "ipa": "/kənˈfleɪt/"
+    },
+    {
+      "lemma": "deign",
+      "pos": "verb",
+      "meaning": "To do something while showing that you think it is beneath you.",
+      "examples": [
+        "The star barely {deigned} to look at the fans."
+      ],
+      "wrong": [
+        "She deigned to help, eagerly and without any pride."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "condescend",
+        "stoop"
+      ],
+      "ipa": "/deɪn/"
+    },
+    {
+      "lemma": "demur",
+      "pos": "verb",
+      "meaning": "To show that you disagree or don’t want to do something.",
+      "examples": [
+        "When asked to speak, she {demurred}, saying she was unprepared."
+      ],
+      "wrong": [
+        "He demurred and accepted the offer with great enthusiasm."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "object",
+        "hesitate"
+      ],
+      "ipa": "/dɪˈmɝ/"
+    },
+    {
+      "lemma": "disabuse",
+      "pos": "verb",
+      "meaning": "To show someone that what they believe is wrong.",
+      "examples": [
+        "Let me {disabuse} you of the idea that this job is easy."
+      ],
+      "wrong": [
+        "The facts disabused him of his mistake, so he believed it even more."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "correct",
+        "enlighten"
+      ],
+      "ipa": "/ˌdɪsəˈbjuz/"
+    },
+    {
+      "lemma": "dissemble",
+      "pos": "verb",
+      "meaning": "To hide your real feelings or plans.",
+      "examples": [
+        "He {dissembled} so well that nobody suspected him."
+      ],
+      "wrong": [
+        "She dissembled by telling everyone exactly what she felt."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pretend",
+        "feign"
+      ],
+      "ipa": "/dɪˈsɛmbəl/"
+    },
+    {
+      "lemma": "efface",
+      "pos": "verb",
+      "meaning": "To remove or rub out something so it can no longer be seen.",
+      "examples": [
+        "Time had {effaced} the names on the gravestones."
+      ],
+      "wrong": [
+        "The rain effaced the writing, making it clearer than before."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "erase",
+        "obliterate"
+      ],
+      "ipa": "/ɪˈfeɪs/",
+      "antonyms": [
+        "preserve"
+      ]
+    },
+    {
+      "lemma": "embroil",
+      "pos": "verb",
+      "meaning": "To involve someone deeply in a conflict or difficult situation.",
+      "examples": [
+        "The company became {embroiled} in a long legal dispute."
+      ],
+      "wrong": [
+        "He was embroiled in the scandal, so he had no link to it at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "entangle",
+        "involve"
+      ],
+      "ipa": "/ɛmˈbrɔɪl/"
+    },
+    {
+      "lemma": "enervate",
+      "pos": "verb",
+      "meaning": "To make someone feel weak and tired.",
+      "examples": [
+        "The heat {enervated} the hikers."
+      ],
+      "wrong": [
+        "The long sleep enervated her, so she felt full of energy."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "weaken",
+        "exhaust",
+        "drain"
+      ],
+      "ipa": "/ˈɛnɚˌveɪt/",
+      "antonyms": [
+        "energize",
+        "invigorate"
+      ]
+    },
+    {
+      "lemma": "excoriate",
+      "pos": "verb",
+      "meaning": "To criticize someone or something very severely.",
+      "examples": [
+        "Critics {excoriated} the film for its weak plot."
+      ],
+      "wrong": [
+        "The review excoriated the book with nothing but praise."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "denounce",
+        "lambaste"
+      ],
+      "ipa": "/ɪkˈskɔriˌeɪt/"
+    },
+    {
+      "lemma": "expiate",
+      "pos": "verb",
+      "meaning": "To make up for a wrong you have done.",
+      "examples": [
+        "He gave money to charity to {expiate} his guilt."
+      ],
+      "wrong": [
+        "She expiated her crime by committing another one."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "atone for",
+        "redeem"
+      ],
+      "ipa": "/ˈɛkspiˌeɪt/"
+    },
+    {
+      "lemma": "extirpate",
+      "pos": "verb",
+      "meaning": "To destroy something completely, down to its roots.",
+      "examples": [
+        "The new law aimed to {extirpate} corruption."
+      ],
+      "wrong": [
+        "They extirpated the weeds, so the garden was full of them."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "eradicate",
+        "eliminate"
+      ],
+      "ipa": "/ˈɛkstɚˌpeɪt/"
+    },
+    {
+      "lemma": "foment",
+      "pos": "verb",
+      "meaning": "To stir up trouble or violence.",
+      "examples": [
+        "Agents were accused of {fomenting} unrest in the region."
+      ],
+      "wrong": [
+        "He fomented the riot by calming the crowd and sending them home."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "incite",
+        "provoke"
+      ],
+      "ipa": "/foʊˈmɛnt/"
+    },
+    {
+      "lemma": "gainsay",
+      "pos": "verb",
+      "meaning": "To deny or argue against something.",
+      "examples": [
+        "No one could {gainsay} the strength of her argument."
+      ],
+      "wrong": [
+        "Nobody gainsaid the claim; they all argued against it fiercely."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deny",
+        "dispute"
+      ],
+      "ipa": "/ˌɡeɪnˈseɪ/"
+    },
+    {
+      "lemma": "inveigle",
+      "pos": "verb",
+      "meaning": "To persuade someone by clever tricks or flattery.",
+      "examples": [
+        "He {inveigled} his way into the private party."
+      ],
+      "wrong": [
+        "She inveigled him into it by asking plainly and honestly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "entice",
+        "lure"
+      ],
+      "ipa": "/ɪnˈveɪɡəl/"
+    },
+    {
+      "lemma": "inure",
+      "pos": "verb",
+      "meaning": "To make someone used to something unpleasant.",
+      "examples": [
+        "Years in the city had {inured} him to the noise."
+      ],
+      "wrong": [
+        "Being inured to cold, she shivered at the first cool breeze."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accustom",
+        "harden"
+      ],
+      "ipa": "/ɪˈnʊr/"
+    },
+    {
+      "lemma": "lambaste",
+      "pos": "verb",
+      "meaning": "To criticize someone harshly.",
+      "examples": [
+        "The minister was {lambasted} for her comments."
+      ],
+      "wrong": [
+        "The critics lambasted the show by calling it brilliant."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "berate",
+        "excoriate"
+      ],
+      "ipa": "/læmˈbeɪst/"
+    },
+    {
+      "lemma": "malign",
+      "pos": "verb",
+      "meaning": "To say unfair and harmful things about someone.",
+      "examples": [
+        "The reporter was accused of {maligning} an innocent man."
+      ],
+      "wrong": [
+        "He maligned his rival by praising her honesty."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "slander",
+        "defame"
+      ],
+      "ipa": "/məˈlaɪn/",
+      "antonyms": [
+        "praise",
+        "defend"
+      ]
+    },
+    {
+      "lemma": "militate",
+      "pos": "verb",
+      "meaning": "To be a strong reason against something happening.",
+      "examples": [
+        "The high cost {militates} against building a new stadium."
+      ],
+      "wrong": [
+        "The bad weather militated against the trip, so it was perfect for traveling."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈmɪləˌteɪt/"
+    },
+    {
+      "lemma": "palliate",
+      "pos": "verb",
+      "meaning": "To make something less severe without curing it.",
+      "examples": [
+        "The drugs can {palliate} the pain but not cure the illness."
+      ],
+      "wrong": [
+        "The medicine palliated the pain, making it much worse."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "relieve",
+        "ease"
+      ],
+      "ipa": "/ˈpæliˌeɪt/",
+      "antonyms": [
+        "aggravate",
+        "worsen"
+      ]
+    },
+    {
+      "lemma": "prevaricate",
+      "pos": "verb",
+      "meaning": "To avoid giving a direct or honest answer.",
+      "examples": [
+        "When asked about the money, he {prevaricated}."
+      ],
+      "wrong": [
+        "She prevaricated by giving a clear and direct answer."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "equivocate",
+        "hedge"
+      ],
+      "ipa": "/prɪˈværəˌkeɪt/"
+    },
+    {
+      "lemma": "recant",
+      "pos": "verb",
+      "meaning": "To say publicly that you no longer hold a belief or statement.",
+      "examples": [
+        "The witness {recanted} her earlier testimony."
+      ],
+      "wrong": [
+        "He recanted his view by repeating it more strongly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "retract",
+        "withdraw"
+      ],
+      "ipa": "/rɪˈkænt/"
+    },
+    {
+      "lemma": "quash",
+      "pos": "verb",
+      "meaning": "To officially cancel a decision, or put a stop to something.",
+      "examples": [
+        "The court {quashed} his conviction."
+      ],
+      "wrong": [
+        "The judge quashed the ruling and made it stronger."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "overturn",
+        "annul",
+        "suppress"
+      ],
+      "ipa": "/kwɑʃ/",
+      "antonyms": [
+        "uphold"
+      ]
+    },
+    {
+      "lemma": "stultify",
+      "pos": "verb",
+      "meaning": "To make someone feel dull or make an activity useless.",
+      "examples": [
+        "Endless paperwork can {stultify} creative staff."
+      ],
+      "wrong": [
+        "The fresh challenges stultified her and made her feel inspired."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "stifle",
+        "dull"
+      ],
+      "ipa": "/ˈstʌltəˌfaɪ/"
+    },
+    {
+      "lemma": "traduce",
+      "pos": "verb",
+      "meaning": "To say false and damaging things about someone.",
+      "examples": [
+        "His enemies {traduced} his character in the press."
+      ],
+      "wrong": [
+        "She traduced her friend by defending her honor."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "slander",
+        "malign"
+      ],
+      "ipa": "/trəˈdus/"
+    },
+    {
+      "lemma": "upbraid",
+      "pos": "verb",
+      "meaning": "To scold someone sharply.",
+      "examples": [
+        "The teacher {upbraided} him for being late again."
+      ],
+      "wrong": [
+        "He upbraided her by thanking her warmly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "scold",
+        "reproach"
+      ],
+      "ipa": "/ʌpˈbreɪd/",
+      "antonyms": [
+        "praise",
+        "commend"
+      ]
+    },
+    {
+      "lemma": "vitiate",
+      "pos": "verb",
+      "meaning": "To spoil or weaken something, or make it invalid.",
+      "examples": [
+        "One mistake {vitiated} the whole experiment."
+      ],
+      "wrong": [
+        "The error vitiated the results, making them more reliable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "impair",
+        "invalidate"
+      ],
+      "ipa": "/ˈvɪʃiˌeɪt/"
+    },
+    {
+      "lemma": "wheedle",
+      "pos": "verb",
+      "meaning": "To get something by gentle, flattering persuasion.",
+      "examples": [
+        "The boy {wheedled} an extra cookie out of his grandmother."
+      ],
+      "wrong": [
+        "She wheedled the money from him by demanding it rudely."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "coax",
+        "cajole"
+      ],
+      "ipa": "/ˈwidəl/"
+    },
+    {
+      "lemma": "winnow",
+      "pos": "verb",
+      "meaning": "To reduce a large group by removing the less useful ones.",
+      "examples": [
+        "We {winnowed} the list of applicants down to five."
+      ],
+      "wrong": [
+        "They winnowed the list by adding a hundred more names."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sift",
+        "narrow down"
+      ],
+      "ipa": "/ˈwɪnoʊ/"
+    }
+  ]
+}

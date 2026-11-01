@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-describing-situations",
+    "title": "Describing situations",
+    "level": "C1",
+    "tagline": "Precise adjectives for C1",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "precarious",
+      "pos": "adjective",
+      "meaning": "Not safe or steady, and likely to get worse or fall.",
+      "examples": [
+        "The company’s finances are in a {precarious} state."
+      ],
+      "wrong": [
+        "The bridge was precarious, so it was completely safe and solid."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unstable",
+        "shaky"
+      ],
+      "ipa": "/prɪˈkɛriəs/"
+    },
+    {
+      "lemma": "dire",
+      "pos": "adjective",
+      "meaning": "Extremely serious or bad.",
+      "examples": [
+        "The town is in {dire} need of clean water."
+      ],
+      "wrong": [
+        "The situation was dire, so nobody needed any help."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "terrible",
+        "grave"
+      ],
+      "ipa": "/daɪɚ/"
+    },
+    {
+      "lemma": "fraught",
+      "pos": "adjective",
+      "meaning": "Full of worry, tension or problems.",
+      "examples": [
+        "The talks were {fraught} with difficulty."
+      ],
+      "wrong": [
+        "The meeting was fraught, so everyone felt relaxed and happy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tense",
+        "stressful"
+      ],
+      "ipa": "/frɔt/"
+    },
+    {
+      "lemma": "grim",
+      "pos": "adjective",
+      "meaning": "Very serious, worrying and without hope.",
+      "examples": [
+        "The doctor’s report was {grim}."
+      ],
+      "wrong": [
+        "The news was grim, so everyone celebrated."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "gloomy",
+        "bleak"
+      ],
+      "ipa": "/ɡrɪm/"
+    },
+    {
+      "lemma": "adverse",
+      "pos": "adjective",
+      "meaning": "Harmful or bad for someone or something.",
+      "examples": [
+        "Bad weather had an {adverse} effect on the harvest."
+      ],
+      "wrong": [
+        "The adverse conditions helped the plants grow better than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "harmful",
+        "unfavorable"
+      ],
+      "ipa": "/ædˈvɝs/",
+      "antonyms": [
+        "favorable",
+        "beneficial"
+      ]
+    },
+    {
+      "lemma": "prevailing",
+      "pos": "adjective",
+      "meaning": "Most common or strongest at a particular time.",
+      "examples": [
+        "The {prevailing} view is that prices will rise."
+      ],
+      "wrong": [
+        "The prevailing opinion is one that almost nobody holds."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dominant",
+        "current"
+      ],
+      "ipa": "/prɪˈveɪlɪŋ/"
+    },
+    {
+      "lemma": "unforeseen",
+      "pos": "adjective",
+      "meaning": "Not expected or predicted before it happened.",
+      "examples": [
+        "The flight was canceled due to {unforeseen} problems."
+      ],
+      "wrong": [
+        "The problem was unforeseen, so we had planned for it for months."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unexpected",
+        "unanticipated"
+      ],
+      "ipa": "/ˌʌnfɔrˈsin/",
+      "antonyms": [
+        "expected",
+        "predictable"
+      ]
+    },
+    {
+      "lemma": "daunting",
+      "pos": "adjective",
+      "meaning": "Making you feel worried that something will be too difficult.",
+      "examples": [
+        "Starting a new job abroad can be {daunting}."
+      ],
+      "wrong": [
+        "The task was daunting, so I felt sure it would be easy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intimidating",
+        "formidable"
+      ],
+      "ipa": "/ˈdɔntɪŋ/"
+    },
+    {
+      "lemma": "uneasy",
+      "pos": "adjective",
+      "meaning": "Slightly worried or uncomfortable about a situation.",
+      "examples": [
+        "There was an {uneasy} silence after his remark."
+      ],
+      "wrong": [
+        "She felt uneasy, completely calm and at peace."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "anxious",
+        "unsettled"
+      ],
+      "ipa": "/ʌnˈizi/",
+      "antonyms": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "lemma": "turbulent",
+      "pos": "adjective",
+      "meaning": "Full of sudden change, conflict or disorder.",
+      "examples": [
+        "The country went through a {turbulent} decade."
+      ],
+      "wrong": [
+        "It was a turbulent year, calm and without any change."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stormy",
+        "unstable"
+      ],
+      "ipa": "/ˈtɝbjələnt/",
+      "antonyms": [
+        "calm",
+        "peaceful"
+      ]
+    },
+    {
+      "lemma": "perilous",
+      "pos": "adjective",
+      "meaning": "Very dangerous and likely to cause harm.",
+      "examples": [
+        "The climbers made a {perilous} journey across the ice."
+      ],
+      "wrong": [
+        "The perilous path was the safest way home."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dangerous",
+        "treacherous"
+      ],
+      "ipa": "/ˈpɛrələs/",
+      "antonyms": [
+        "safe",
+        "secure"
+      ]
+    },
+    {
+      "lemma": "conducive",
+      "pos": "adjective",
+      "meaning": "Making it easy for something good to happen.",
+      "examples": [
+        "A quiet room is {conducive} to study."
+      ],
+      "wrong": [
+        "The loud, crowded room was very conducive to sleep."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "favorable",
+        "helpful"
+      ],
+      "ipa": "/kənˈdusɪv/"
+    },
+    {
+      "lemma": "opportune",
+      "pos": "adjective",
+      "meaning": "Happening at a good or convenient time.",
+      "examples": [
+        "This is an {opportune} moment to ask for a raise."
+      ],
+      "wrong": [
+        "It was an opportune moment, so it was the worst possible time."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "timely",
+        "convenient"
+      ],
+      "ipa": "/ˌɑpɚˈtun/",
+      "antonyms": [
+        "inopportune",
+        "untimely"
+      ]
+    },
+    {
+      "lemma": "intractable",
+      "pos": "adjective",
+      "meaning": "Very hard to solve, control or deal with.",
+      "examples": [
+        "Traffic in the city is an {intractable} problem."
+      ],
+      "wrong": [
+        "The problem was intractable, so we solved it in a minute."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stubborn",
+        "unmanageable"
+      ],
+      "ipa": "/ɪnˈtræktəbəl/",
+      "antonyms": [
+        "manageable",
+        "tractable"
+      ]
+    },
+    {
+      "lemma": "protracted",
+      "pos": "adjective",
+      "meaning": "Lasting much longer than expected or usual.",
+      "examples": [
+        "After {protracted} negotiations, they signed the deal."
+      ],
+      "wrong": [
+        "The talks were protracted, lasting only a few seconds."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "prolonged",
+        "lengthy"
+      ],
+      "ipa": "/proʊˈtræktɪd/",
+      "antonyms": [
+        "brief",
+        "short"
+      ]
+    },
+    {
+      "lemma": "imminent",
+      "pos": "adjective",
+      "meaning": "About to happen very soon.",
+      "examples": [
+        "Dark clouds warned of an {imminent} storm."
+      ],
+      "wrong": [
+        "The storm is imminent, so it won’t arrive for years."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "impending",
+        "approaching"
+      ],
+      "ipa": "/ˈɪmənənt/"
+    },
+    {
+      "lemma": "impending",
+      "pos": "adjective",
+      "meaning": "Going to happen soon, usually something bad.",
+      "examples": [
+        "Everyone talked about the {impending} layoffs."
+      ],
+      "wrong": [
+        "The impending crisis ended a long time ago."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "looming",
+        "imminent"
+      ],
+      "ipa": "/ɪmˈpɛndɪŋ/"
+    },
+    {
+      "lemma": "unsettled",
+      "pos": "adjective",
+      "meaning": "Changing a lot and not calm or decided.",
+      "examples": [
+        "The weather will stay {unsettled} all week."
+      ],
+      "wrong": [
+        "Things were unsettled, so everything was calm and decided."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "uncertain",
+        "changeable"
+      ],
+      "ipa": "/ʌnˈsɛtəld/",
+      "antonyms": [
+        "settled",
+        "stable"
+      ]
+    },
+    {
+      "lemma": "stagnant",
+      "pos": "adjective",
+      "meaning": "Not growing, changing or moving forward.",
+      "examples": [
+        "Wages have been {stagnant} for years."
+      ],
+      "wrong": [
+        "The economy was stagnant, growing faster than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "static",
+        "sluggish"
+      ],
+      "ipa": "/ˈstæɡnənt/",
+      "antonyms": [
+        "growing",
+        "dynamic"
+      ]
+    },
+    {
+      "lemma": "sluggish",
+      "pos": "adjective",
+      "meaning": "Moving or developing more slowly than normal.",
+      "examples": [
+        "Sales were {sluggish} in the first quarter."
+      ],
+      "wrong": [
+        "The market was sluggish, racing ahead at record speed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "slow",
+        "inactive"
+      ],
+      "ipa": "/ˈslʌɡɪʃ/",
+      "antonyms": [
+        "brisk",
+        "lively"
+      ]
+    },
+    {
+      "lemma": "buoyant",
+      "pos": "adjective",
+      "meaning": "Doing well, with prices or activity rising.",
+      "examples": [
+        "The housing market remains {buoyant}."
+      ],
+      "wrong": [
+        "Demand was buoyant, so nobody wanted to buy anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "thriving",
+        "booming"
+      ],
+      "ipa": "/ˈbɔɪənt/",
+      "antonyms": [
+        "depressed",
+        "weak"
+      ]
+    },
+    {
+      "lemma": "dormant",
+      "pos": "adjective",
+      "meaning": "Not active now, but able to become active again later.",
+      "examples": [
+        "The volcano has been {dormant} for centuries."
+      ],
+      "wrong": [
+        "The dormant project is the busiest one in the office."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "inactive",
+        "latent"
+      ],
+      "ipa": "/ˈdɔrmənt/",
+      "antonyms": [
+        "active"
+      ]
+    },
+    {
+      "lemma": "fluid",
+      "pos": "adjective",
+      "meaning": "Likely to change quickly and not fixed.",
+      "examples": [
+        "The situation is {fluid}, so we’ll update you hourly."
+      ],
+      "wrong": [
+        "The plans are fluid, so they will never change."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "changeable",
+        "unsettled"
+      ],
+      "ipa": "/ˈfluɪd/",
+      "antonyms": [
+        "fixed",
+        "settled"
+      ]
+    },
+    {
+      "lemma": "murky",
+      "pos": "adjective",
+      "meaning": "Unclear and hard to understand, often in a suspicious way.",
+      "examples": [
+        "The details of the deal remain {murky}."
+      ],
+      "wrong": [
+        "The rules were murky, so everyone understood them clearly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unclear",
+        "obscure"
+      ],
+      "ipa": "/ˈmɝki/",
+      "antonyms": [
+        "clear",
+        "transparent"
+      ]
+    },
+    {
+      "lemma": "tumultuous",
+      "pos": "adjective",
+      "meaning": "Very loud, busy or full of disorder and excitement.",
+      "examples": [
+        "The singer got a {tumultuous} welcome."
+      ],
+      "wrong": [
+        "The tumultuous crowd sat in total silence."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "turbulent",
+        "chaotic"
+      ],
+      "ipa": "/tuˈmʌltʃuəs/",
+      "antonyms": [
+        "calm",
+        "quiet"
+      ]
+    },
+    {
+      "lemma": "harrowing",
+      "pos": "adjective",
+      "meaning": "Extremely upsetting and frightening to experience.",
+      "examples": [
+        "Survivors described their {harrowing} escape."
+      ],
+      "wrong": [
+        "It was a harrowing day, relaxing and pleasant from start to finish."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "distressing",
+        "traumatic"
+      ],
+      "ipa": "/ˈhæroʊɪŋ/"
+    },
+    {
+      "lemma": "grueling",
+      "pos": "adjective",
+      "meaning": "Very tiring and demanding a lot of effort over a long time.",
+      "examples": [
+        "The climbers faced a {grueling} ten-hour ascent."
+      ],
+      "wrong": [
+        "The grueling race was so easy that nobody felt tired."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exhausting",
+        "punishing"
+      ],
+      "ipa": "/ˈɡruəlɪŋ/"
+    },
+    {
+      "lemma": "arduous",
+      "pos": "adjective",
+      "meaning": "Needing a lot of hard work and effort.",
+      "examples": [
+        "Rebuilding the town was an {arduous} task."
+      ],
+      "wrong": [
+        "The arduous job took no effort at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "laborious",
+        "demanding"
+      ],
+      "ipa": "/ˈɑrdʒuəs/",
+      "antonyms": [
+        "easy",
+        "effortless"
+      ]
+    },
+    {
+      "lemma": "cumbersome",
+      "pos": "adjective",
+      "meaning": "Slow and difficult to use or manage because it is large or complicated.",
+      "examples": [
+        "The old booking system is {cumbersome}."
+      ],
+      "wrong": [
+        "The cumbersome process was quick and simple."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unwieldy",
+        "awkward"
+      ],
+      "ipa": "/ˈkʌmbɚsəm/"
+    },
+    {
+      "lemma": "untoward",
+      "pos": "adjective",
+      "meaning": "Unusual and unexpected in a way that causes problems.",
+      "examples": [
+        "The trip went smoothly with nothing {untoward}."
+      ],
+      "wrong": [
+        "Something untoward happened, so everything went normally."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unexpected",
+        "improper"
+      ],
+      "ipa": "/ʌnˈtɔrd/"
+    },
+    {
+      "lemma": "regrettable",
+      "pos": "adjective",
+      "meaning": "Unfortunate and making you wish it had not happened.",
+      "examples": [
+        "The delay was {regrettable} but unavoidable."
+      ],
+      "wrong": [
+        "The mistake was regrettable, so we’re glad it happened."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "unfortunate",
+        "lamentable"
+      ],
+      "ipa": "/rɪˈɡrɛtəbəl/",
+      "antonyms": [
+        "fortunate"
+      ]
+    },
+    {
+      "lemma": "deplorable",
+      "pos": "adjective",
+      "meaning": "Very bad and deserving strong disapproval.",
+      "examples": [
+        "The prisoners lived in {deplorable} conditions."
+      ],
+      "wrong": [
+        "The hotel was deplorable, so we gave it five stars."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "shameful",
+        "disgraceful"
+      ],
+      "ipa": "/dɪˈplɔrəbəl/",
+      "antonyms": [
+        "admirable",
+        "commendable"
+      ]
+    },
+    {
+      "lemma": "dismal",
+      "pos": "adjective",
+      "meaning": "Very poor in quality, or making you feel sad.",
+      "examples": [
+        "The team’s {dismal} season ended in last place."
+      ],
+      "wrong": [
+        "Their dismal results put them at the top of the league."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dreary",
+        "depressing"
+      ],
+      "ipa": "/ˈdɪzməl/"
+    },
+    {
+      "lemma": "strained",
+      "pos": "adjective",
+      "meaning": "Tense and unfriendly, showing that people are not relaxed.",
+      "examples": [
+        "Relations between the neighbors are {strained}."
+      ],
+      "wrong": [
+        "The talks were strained, so everyone felt relaxed and friendly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tense",
+        "uneasy"
+      ],
+      "ipa": "/streɪnd/",
+      "antonyms": [
+        "relaxed",
+        "friendly"
+      ]
+    },
+    {
+      "lemma": "amicable",
+      "pos": "adjective",
+      "meaning": "Friendly and without anger or argument.",
+      "examples": [
+        "They reached an {amicable} agreement."
+      ],
+      "wrong": [
+        "The divorce was amicable, full of shouting and anger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "friendly",
+        "cordial"
+      ],
+      "ipa": "/ˈæmɪkəbəl/",
+      "antonyms": [
+        "hostile",
+        "acrimonious"
+      ]
+    },
+    {
+      "lemma": "cordial",
+      "pos": "adjective",
+      "meaning": "Polite and friendly, especially in a formal way.",
+      "examples": [
+        "The two leaders had a {cordial} meeting."
+      ],
+      "wrong": [
+        "The meeting was cordial, so they insulted each other loudly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "warm",
+        "amicable"
+      ],
+      "ipa": "/ˈkɔrdʒəl/",
+      "antonyms": [
+        "hostile",
+        "cold"
+      ]
+    },
+    {
+      "lemma": "inhospitable",
+      "pos": "adjective",
+      "meaning": "Hard to live in because the conditions are harsh.",
+      "examples": [
+        "The desert is an {inhospitable} place."
+      ],
+      "wrong": [
+        "The island was inhospitable, so it was perfect for living."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "harsh",
+        "unwelcoming"
+      ],
+      "ipa": "/ˌɪnhɑˈspɪtəbəl/",
+      "antonyms": [
+        "hospitable",
+        "welcoming"
+      ]
+    },
+    {
+      "lemma": "rife",
+      "pos": "adjective",
+      "meaning": "Very common and widespread, usually of something bad.",
+      "examples": [
+        "Rumors were {rife} in the office."
+      ],
+      "wrong": [
+        "Crime is rife, so it almost never happens here."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "widespread",
+        "rampant"
+      ],
+      "ipa": "/raɪf/",
+      "antonyms": [
+        "rare",
+        "scarce"
+      ]
+    },
+    {
+      "lemma": "lax",
+      "pos": "adjective",
+      "meaning": "Not strict or careful enough about rules or standards.",
+      "examples": [
+        "Security at the gate was {lax}."
+      ],
+      "wrong": [
+        "The rules were lax, so every small mistake was punished."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "careless",
+        "slack"
+      ],
+      "ipa": "/læks/",
+      "antonyms": [
+        "strict",
+        "rigorous"
+      ]
+    },
+    {
+      "lemma": "pressing",
+      "pos": "adjective",
+      "meaning": "Needing to be dealt with immediately.",
+      "examples": [
+        "We have more {pressing} matters to discuss."
+      ],
+      "wrong": [
+        "It’s a pressing issue, so it can wait for years."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "urgent",
+        "critical"
+      ],
+      "ipa": "/ˈprɛsɪŋ/",
+      "antonyms": [
+        "trivial",
+        "minor"
+      ]
+    }
+  ]
+}

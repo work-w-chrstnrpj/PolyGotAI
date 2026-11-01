@@ -72,6 +72,7 @@ final class RecordingController {
     /// Audio-route activation can block. Keep it off the UI executor and recheck cancellation afterward.
     @concurrent private static func activateCaptureSession() async throws {
         let session = AVAudioSession.sharedInstance()
+        SoundCenter.holdAudio("recording")
         try session.setCategory(.playAndRecord, mode: .default, options: [.defaultToSpeaker])
         try session.setPreferredSampleRate(44_100)
         try session.setActive(true)
@@ -181,6 +182,7 @@ final class RecordingController {
         guard let id = candidate?.recording != nil ? candidate?.id : accepted?.id else { return }
         do {
             guard let repository else { throw LearnerStorageError.unavailable }
+            SoundCenter.holdAudio("recording")
             try AVAudioSession.sharedInstance().setCategory(.playback)
             try AVAudioSession.sharedInstance().setActive(true); ownsAudioSession = true
             let player = try AVAudioPlayer(contentsOf: repository.recordingURL(id))
@@ -247,6 +249,7 @@ final class RecordingController {
 
     func stopPlayback() { player?.stop(); player = nil; isPlaying = false; deactivate() }
     private func deactivate() {
+        SoundCenter.releaseAudio("recording")
         guard ownsAudioSession else { return }
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
         ownsAudioSession = false

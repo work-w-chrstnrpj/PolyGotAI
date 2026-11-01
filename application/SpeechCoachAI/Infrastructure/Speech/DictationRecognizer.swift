@@ -11,11 +11,17 @@ final class DictationRecognizer {
     private(set) var state: State = .idle
     /// Everything recognized in the current session (replaced as recognition refines).
     private(set) var transcript = ""
+    private(set) var wordTimings: [SpeechLabWordTiming] = []
 
     private let recognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private let engine = AVAudioEngine()
     private var request: SFSpeechAudioBufferRecognitionRequest?
     private var task: SFSpeechRecognitionTask?
+    private var generation = UUID()
+    private var finalResult: CheckedContinuation<String, Error>?
+    private var finalTimeout: Task<Void, Never>?
+    private var tapped = false
+    private var completedFinal: String?
 
     static var isSupported: Bool {
         SFSpeechRecognizer(locale: Locale(identifier: "en-US"))?.supportsOnDeviceRecognition == true
@@ -29,18 +35,24 @@ final class DictationRecognizer {
 
     func start() async {
         guard !isListening else { return }
-        guard await Self.authorized() else { state = .denied; return }
+        let token = UUID(); generation = token
+        let allowed = await Self.authorized()
+        guard generation == token, !Task.isCancelled else { return }
+        guard allowed else { state = .denied; return }
         guard let recognizer, recognizer.isAvailable, Self.isSupported else { state = .unavailable; return }
-        transcript = ""
+        transcript = ""; wordTimings = []; completedFinal = nil
         let request = SFSpeechAudioBufferRecognitionRequest()
         request.requiresOnDeviceRecognition = true
         request.shouldReportPartialResults = true
         do {
             let session = AVAudioSession.sharedInstance()
-            try session.setCategory(.record, mode: .measurement, options: [.duckOthers])
+            SoundCenter.holdAudio("dictation")
+            try session.setCategory(.record, mode: .measurement, options: [.duckOthers, .allowBluetoothHFP])
             try session.setActive(true, options: .notifyOthersOnDeactivation)
             let input = engine.inputNode
+            guard input.outputFormat(forBus: 0).sampleRate > 0 else { throw TalkError.recognition }
             Self.installTap(on: input, format: input.outputFormat(forBus: 0), request: UncheckedRequest(request))
+            tapped = true
             engine.prepare()
             try engine.start()
         } catch {
@@ -49,30 +61,63 @@ final class DictationRecognizer {
             return
         }
         self.request = request
-        task = Self.makeTask(recognizer: recognizer, request: UncheckedRequest(request)) { [weak self] text, finished in
-            Task { @MainActor in self?.handle(text: text, finished: finished) }
+        task = Self.makeTask(recognizer: recognizer, request: UncheckedRequest(request)) { [weak self] text, finished, final in
+            Task { @MainActor in
+                guard let self, self.generation == token else { return }
+                self.handle(text: text, finished: finished, final: final)
+            }
         }
         state = .listening
     }
 
     func stop() {
+        completedFinal = nil
+        generation = UUID()
         request?.endAudio()
         teardown()
     }
 
-    private func handle(text: String?, finished: Bool) {
-        if let text, state == .listening { transcript = text }
-        if finished { teardown() }
+    /// End capture and await the recognizer's final result; never submit a partial hypothesis online.
+    func finishRecognition() async throws -> String {
+        if let completedFinal { return completedFinal }
+        guard isListening, finalResult == nil else { throw TalkError.recognition }
+        let token = generation
+        return try await withTaskCancellationHandler {
+            try await withCheckedThrowingContinuation { continuation in
+                finalResult = continuation
+                engine.stop()
+                if tapped { engine.inputNode.removeTap(onBus: 0); tapped = false }
+                request?.endAudio()
+                finalTimeout = Task { [weak self] in
+                    do { try await Task.sleep(for: .seconds(4)) } catch { return }
+                    guard let self, self.generation == token else { return }
+                    let pending = finalResult; finalResult = nil
+                    pending?.resume(throwing: TalkError.recognition); stop()
+                }
+            }
+        } onCancel: { Task { @MainActor [weak self] in if self?.generation == token { self?.stop() } } }
+    }
+
+    private func handle(text: SpeechLabTranscript?, finished: Bool, final: Bool) {
+        if let text, state == .listening { transcript = text.text; wordTimings = text.words }
+        if finished {
+            let pending = finalResult; finalResult = nil
+            if final { completedFinal = transcript; pending?.resume(returning: transcript) } else { pending?.resume(throwing: TalkError.recognition) }
+            teardown()
+        }
     }
 
     private func teardown() {
         if engine.isRunning { engine.stop() }
-        engine.inputNode.removeTap(onBus: 0)
+        if tapped { engine.inputNode.removeTap(onBus: 0); tapped = false }
+        finalTimeout?.cancel(); finalTimeout = nil
+        let pending = finalResult; finalResult = nil; pending?.resume(throwing: CancellationError())
         task?.cancel()
         task = nil
         request = nil
         if state == .listening { state = .idle }
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("dictation")
     }
 
     // MARK: Permissions and audio plumbing (nonisolated: these closures run on audio and recognition threads)
@@ -97,10 +142,14 @@ final class DictationRecognizer {
 
     private nonisolated static func makeTask(
         recognizer: SFSpeechRecognizer, request: UncheckedRequest,
-        onResult: @escaping @Sendable (String?, Bool) -> Void
+        onResult: @escaping @Sendable (SpeechLabTranscript?, Bool, Bool) -> Void
     ) -> SFSpeechRecognitionTask {
         recognizer.recognitionTask(with: request.value) { result, error in
-            onResult(result?.bestTranscription.formattedString, result?.isFinal == true || error != nil)
+            let recognized = result.map { value in
+                SpeechLabTranscript(text: value.bestTranscription.formattedString,
+                    words: value.bestTranscription.segments.map { .init(word: $0.substring, start: $0.timestamp, duration: $0.duration) })
+            }
+            onResult(recognized, result?.isFinal == true || error != nil, result?.isFinal == true)
         }
     }
 }

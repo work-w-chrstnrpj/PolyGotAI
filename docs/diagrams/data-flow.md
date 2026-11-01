@@ -1,5 +1,7 @@
 # Recorded Feedback Data Flow
 
+> **Phase 7 (2026-10-26):** Communication practice, Generated practice, Vocabulary discovery and the v1 Word of the day were removed with their stored fields (`communication`, `generatedPractice`, `wordOfDay`); mentions of them below are historical. See [TDD › Phase 7 rework](../tdd/tdd.md#phase-7-rework-2026-10-26).
+
 > **v2 note (2026-10-25):** kept for online AI coaching, which is now Phase 6 in the [development plan](../development-plan/development-plan.md). Sections that mention v1 tickets, Speech Lab trainers or delivery groups are history; see [history-version.md](../history-version.md).
 
 > Status: IN_PROGRESS. SC-T002–SC-T004 design selected 2026-10-21; no runtime proof.

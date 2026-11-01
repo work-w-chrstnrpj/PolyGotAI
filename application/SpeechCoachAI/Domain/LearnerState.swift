@@ -11,6 +11,7 @@ struct LearnerPreferences: Codable, Equatable {
     var appearance: Appearance = .system
     var coach: Coach = .elephantTeacher
     var countdownEnabled = false
+    var voiceSettings: VoiceSettings? = nil // Phase 9: optional JSON field; older preferences decode unchanged.
 }
 
 enum LearnerStorageError: Error, Equatable {

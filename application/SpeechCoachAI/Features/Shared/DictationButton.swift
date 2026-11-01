@@ -9,9 +9,18 @@ struct DictationButton: View {
     @State private var problem: Problem?
     private enum Problem: String, Identifiable { case denied, unavailable; var id: String { rawValue } }
 
+    private var fixture: Bool {
+        #if DEBUG
+        SpeakingEnvironment.fixtureID != nil && ProcessInfo.processInfo.environment["SC_DICTATION_FIXTURE"] == "1"
+        #else
+        false
+        #endif
+    }
+
     var body: some View {
-        if DictationRecognizer.isSupported {
+        if DictationRecognizer.isSupported || fixture {
             Button {
+                if fixture { text = Self.joined(text, "Synthetic dictated text"); return }
                 if !recognizer.isListening { base = text }
                 Task {
                     await recognizer.toggle()

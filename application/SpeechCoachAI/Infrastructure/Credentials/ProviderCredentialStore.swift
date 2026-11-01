@@ -65,6 +65,12 @@ final class ProviderCredentialStore {
         if status != errSecItemNotFound { try check(status) }
     }
 
+    /// Removes every key this store saved (Erase all data).
+    func removeAll() throws {
+        let status = SecItemDelete(baseQuery() as CFDictionary)
+        if status != errSecItemNotFound { try check(status) }
+    }
+
     /// Only the eventual authorized transport consumes key bytes; no public display accessor.
     func credential(scope: ProviderScope) throws -> Data? {
         var query = baseQuery(); query[kSecAttrAccount as String] = scope.account

@@ -8,6 +8,8 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
 
     private let synthesizer = AVSpeechSynthesizer()
     private(set) var isSpeaking = false
+    var settings = VoiceSettings()
+    private var utteranceID: ObjectIdentifier?
     /// Called when the current utterance ends or is stopped.
     var onFinish: (() -> Void)?
 
@@ -29,21 +31,38 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
         stop()
         prepareAudioSession()
         let utterance = AVSpeechUtterance(string: trimmed)
-        utterance.voice = Self.preferredVoice()
-        let base = AVSpeechUtteranceDefaultSpeechRate
+        utterance.voice = settings.voice
+        let base = settings.speechRate
         utterance.rate = slow ? base * 0.7 : base
         utterance.pitchMultiplier = 1.0
+        utteranceID = ObjectIdentifier(utterance)
+        isSpeaking = true
+        synthesizer.speak(utterance)
+    }
+
+    /// IPA notation gives sound-chart cues a specified American English pronunciation.
+    func speakPronunciation(_ text: String, ipa: String, slow: Bool = false) {
+        guard !text.isEmpty, !ipa.isEmpty else { speak(text, slow: slow); return }
+        stop(); prepareAudioSession()
+        let attributed = NSAttributedString(string: text, attributes: [NSAttributedString.Key(AVSpeechSynthesisIPANotationAttribute): ipa])
+        let utterance = AVSpeechUtterance(attributedString: attributed)
+        utterance.voice = settings.voice
+        utterance.rate = slow ? settings.speechRate * 0.7 : settings.speechRate
+        utteranceID = ObjectIdentifier(utterance)
         isSpeaking = true
         synthesizer.speak(utterance)
     }
 
     func stop() {
+        utteranceID = nil
         if synthesizer.isSpeaking { synthesizer.stopSpeaking(at: .immediate) }
         isSpeaking = false
+        SoundCenter.shared.release("speech")
     }
 
     /// Plays through the speaker even with the silent switch on, unless a recording session is already active.
     private func prepareAudioSession() {
+        SoundCenter.shared.hold("speech")
         let session = AVAudioSession.sharedInstance()
         if session.category == .playAndRecord { return }
         try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
@@ -51,15 +70,19 @@ final class SpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate {
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        Task { @MainActor in self.finish() }
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in self.finish(id) }
     }
 
     nonisolated func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didCancel utterance: AVSpeechUtterance) {
-        Task { @MainActor in self.finish() }
+        let id = ObjectIdentifier(utterance)
+        Task { @MainActor in self.finish(id) }
     }
 
-    private func finish() {
+    private func finish(_ id: ObjectIdentifier) {
+        guard utteranceID == id else { return }; utteranceID = nil
         isSpeaking = false
+        SoundCenter.shared.release("speech")
         onFinish?()
     }
 }

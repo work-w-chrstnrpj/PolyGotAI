@@ -18,21 +18,37 @@ struct AwardFamily: Codable, Equatable, Identifiable {
     var bindingVersion: String
     var finiteSet: String
     var contentTargetIDs: [String]
+    /// v2 (2026-10-30): "legacy" shows only once earned (the feature is gone); "hidden" never shows. Nil means shown.
+    var visibility: String?
+    /// SF Symbol for badges that have no artwork yet (`filename` is empty).
+    var symbol: String?
+    /// Counts for a tiered badge, lowest first (for "Earned · 25").
+    var tiers: [Int]?
+
     static let catalog: [Self] = {
         guard let url = Bundle.main.url(forResource: "AwardCatalog", withExtension: "json"),
               let data = try? Data(contentsOf: url), let rows = try? JSONDecoder().decode([Self].self, from: data),
-              rows.count == 68, Set(rows.map(\.id)).count == 68 else { return [] }
+              !rows.isEmpty, Set(rows.map(\.id)).count == rows.count, rows.contains(where: { $0.id == "AW-P-01" }) else { return [] }
         return rows
     }()
+
+    /// Whether the badge appears in lists: hidden never, legacy only when earned.
+    func isShown(in ledger: RewardLedger) -> Bool {
+        switch visibility {
+        case "hidden": false
+        case "legacy": ledger.awards.contains { $0.family == id }
+        default: true
+        }
+    }
     static func supports(lessonID: String, version: String) -> Bool {
         catalog.first(where: { $0.id == "AW-P-01" })?.contentTargetIDs.contains(lessonID + "@" + version) == true
     }
     func state(ledger: RewardLedger) -> String {
-        if id == "AW-CR-01" { return "\(ledger.checkpoints.count) completed lesson checkpoints · no collectible" }
-        if let award = ledger.awards.first(where: { $0.family == id }) {
-            return award.evidenceUnavailable ? "Supporting evidence unavailable" : "Earned · personal-use participation/completion"
-        }
-        return availability == "unavailable" ? "Assessment or content not yet available" : "Not yet earned · more participation needed"
+        if id == "AW-CR-01" { return "\(ledger.checkpoints.count) lessons finished" }
+        let mine = ledger.awards.filter { $0.family == id }
+        if let best = mine.compactMap(\.tier).max(), tiers != nil { return "Earned · \(best)" }
+        if !mine.isEmpty { return "Earned" }
+        return "Not earned yet"
     }
 }
 

@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-nature-environment",
+    "title": "Nature and environment",
+    "level": "B1",
+    "tagline": "Land, animals and the planet",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "earthquake",
+      "pos": "noun",
+      "meaning": "A sudden shaking of the ground caused by movement deep under the surface.",
+      "examples": [
+        "The {earthquake} knocked down several old buildings."
+      ],
+      "wrong": [
+        "The earthquake was so gentle that the sea stayed calm and nothing moved at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quake",
+        "tremor"
+      ],
+      "ipa": "/ˈɝθˌkweɪk/"
+    },
+    {
+      "lemma": "volcano",
+      "pos": "noun",
+      "meaning": "A mountain with a hole at the top that can throw out hot rock, gas and ash.",
+      "examples": [
+        "Smoke was rising from the top of the {volcano}."
+      ],
+      "wrong": [
+        "We cooled our drinks in the volcano because it was the coldest place on the island."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/vɑlˈkeɪnoʊ/"
+    },
+    {
+      "lemma": "rainforest",
+      "pos": "noun",
+      "meaning": "A thick forest in a hot place where it rains a lot.",
+      "examples": [
+        "Many rare birds live in the {rainforest}."
+      ],
+      "wrong": [
+        "The rainforest is dry all year, and it hardly ever rains there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "jungle"
+      ],
+      "ipa": "/ˈreɪnˌfɔrɪst/"
+    },
+    {
+      "lemma": "cliff",
+      "pos": "noun",
+      "meaning": "A high, steep wall of rock, often next to the sea.",
+      "examples": [
+        "We stood at the edge of the {cliff} and looked down at the waves."
+      ],
+      "wrong": [
+        "The cliff was so flat that children rode their bikes up it easily."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rock face"
+      ],
+      "ipa": "/klɪf/"
+    },
+    {
+      "lemma": "soil",
+      "pos": "noun",
+      "meaning": "The top layer of the ground, where plants grow.",
+      "examples": [
+        "Tomatoes grow well in rich, dark {soil}."
+      ],
+      "wrong": [
+        "She poured the soil into a glass and drank it with lunch."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earth",
+        "ground"
+      ],
+      "ipa": "/sɔɪl/"
+    },
+    {
+      "lemma": "crop",
+      "pos": "noun",
+      "meaning": "A plant such as wheat or rice that farmers grow in large amounts.",
+      "examples": [
+        "Rice is the main {crop} in this region."
+      ],
+      "wrong": [
+        "The farmer’s crop was the old truck he drove to town."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/krɑp/"
+    },
+    {
+      "lemma": "paw",
+      "pos": "noun",
+      "meaning": "The foot of an animal such as a cat or dog, with claws and soft pads.",
+      "examples": [
+        "The dog gave me its {paw} to shake."
+      ],
+      "wrong": [
+        "The cat washed its face with the paw on the end of its tail."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "foot"
+      ],
+      "ipa": "/pɔ/"
+    },
+    {
+      "lemma": "mammal",
+      "pos": "noun",
+      "meaning": "An animal that feeds its babies on milk, such as a dog or a whale.",
+      "examples": [
+        "The whale is the largest {mammal} on Earth."
+      ],
+      "wrong": [
+        "A snake is a mammal because it lays eggs and has no hair."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈmæməl/"
+    },
+    {
+      "lemma": "reptile",
+      "pos": "noun",
+      "meaning": "A cold-blooded animal with dry skin covered in scales, such as a snake or lizard.",
+      "examples": [
+        "A crocodile is a large {reptile}."
+      ],
+      "wrong": [
+        "A parrot is a reptile because it has colorful feathers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈrɛptaɪl/"
+    },
+    {
+      "lemma": "creature",
+      "pos": "noun",
+      "meaning": "Any living animal, especially one that is strange or unknown.",
+      "examples": [
+        "Strange {creatures} live at the bottom of the sea."
+      ],
+      "wrong": [
+        "The table is a creature that eats and breathes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "animal",
+        "being"
+      ],
+      "ipa": "/ˈkritʃɚ/"
+    },
+    {
+      "lemma": "nest",
+      "pos": "noun",
+      "meaning": "A home that a bird builds from sticks and grass for its eggs.",
+      "examples": [
+        "The bird laid three eggs in its {nest}."
+      ],
+      "wrong": [
+        "Birds build their nests at the bottom of the river, under the water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/nɛst/"
+    },
+    {
+      "lemma": "hunt",
+      "pos": "verb",
+      "meaning": "To chase and catch wild animals to kill or eat them.",
+      "examples": [
+        "Lions usually {hunt} at night."
+      ],
+      "wrong": [
+        "The wolves hunted by lying asleep all day and never looking for food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chase",
+        "track"
+      ],
+      "ipa": "/hʌnt/"
+    },
+    {
+      "lemma": "litter",
+      "pos": "noun",
+      "meaning": "Paper, bottles and other rubbish left on the ground in a public place.",
+      "examples": [
+        "Please put your {litter} in the bin."
+      ],
+      "wrong": [
+        "The park was full of litter, so it looked perfectly clean."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "trash",
+        "garbage"
+      ],
+      "ipa": "/ˈlɪtɚ/"
+    },
+    {
+      "lemma": "global warming",
+      "pos": "phrase",
+      "meaning": "The slow rise in the temperature of the Earth’s air and seas.",
+      "examples": [
+        "{Global warming} is making the ice at the poles melt."
+      ],
+      "wrong": [
+        "Because of global warming, the Earth is getting much colder every year."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "climate change"
+      ],
+      "ipa": "/ˈɡloʊbəl ˈwɔrmɪŋ/"
+    },
+    {
+      "lemma": "coral reef",
+      "pos": "phrase",
+      "meaning": "A line of colorful rock-like material built by tiny sea animals in warm, shallow water.",
+      "examples": [
+        "We swam with bright fish over the {coral reef}."
+      ],
+      "wrong": [
+        "The coral reef grows high on the snowy mountain tops."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "reef"
+      ],
+      "ipa": "/ˈkɔrəl ˈrif/"
+    },
+    {
+      "lemma": "bloom",
+      "pos": "verb",
+      "meaning": "To produce open flowers.",
+      "examples": [
+        "The roses {bloom} in early summer."
+      ],
+      "wrong": [
+        "The tree bloomed, so all its branches were bare with no flowers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "flower",
+        "blossom"
+      ],
+      "ipa": "/blum/"
+    },
+    {
+      "lemma": "fertile",
+      "pos": "adjective",
+      "meaning": "Able to grow plenty of healthy plants.",
+      "examples": [
+        "The valley has {fertile} land, so farmers grow lots of food there."
+      ],
+      "wrong": [
+        "The fertile field was so poor that nothing would grow in it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "rich",
+        "productive"
+      ],
+      "ipa": "/ˈfɝtəl/",
+      "antonyms": [
+        "barren",
+        "infertile"
+      ]
+    },
+    {
+      "lemma": "shore",
+      "pos": "noun",
+      "meaning": "The land along the edge of a sea or lake.",
+      "examples": [
+        "We walked along the {shore} and collected shells."
+      ],
+      "wrong": [
+        "The shore is the deepest part of the ocean, far from any land."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "beach",
+        "coast"
+      ],
+      "ipa": "/ʃɔr/"
+    },
+    {
+      "lemma": "tide",
+      "pos": "noun",
+      "meaning": "The regular rise and fall of the sea level each day.",
+      "examples": [
+        "At low {tide} you can walk out to the island."
+      ],
+      "wrong": [
+        "The tide is the wind that blows through the forest."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/taɪd/"
+    },
+    {
+      "lemma": "glacier",
+      "pos": "noun",
+      "meaning": "A huge mass of ice that moves very slowly down a mountain.",
+      "examples": [
+        "The {glacier} has shrunk a lot in fifty years."
+      ],
+      "wrong": [
+        "The glacier melted in the hot desert sand where it formed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ice sheet"
+      ],
+      "ipa": "/ˈɡleɪʃɚ/"
+    },
+    {
+      "lemma": "wilderness",
+      "pos": "noun",
+      "meaning": "A wild area of land where nobody lives or farms.",
+      "examples": [
+        "They spent a week hiking in the {wilderness}."
+      ],
+      "wrong": [
+        "The wilderness was full of shops, offices and busy roads."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "wild",
+        "wilds"
+      ],
+      "ipa": "/ˈwɪldɚnəs/"
+    },
+    {
+      "lemma": "predator",
+      "pos": "noun",
+      "meaning": "An animal that kills and eats other animals.",
+      "examples": [
+        "The shark is a dangerous {predator}."
+      ],
+      "wrong": [
+        "The rabbit is a predator that hunts lions for food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hunter"
+      ],
+      "ipa": "/ˈprɛdətɚ/",
+      "antonyms": [
+        "prey"
+      ]
+    },
+    {
+      "lemma": "prey",
+      "pos": "noun",
+      "meaning": "An animal that is hunted and eaten by another animal.",
+      "examples": [
+        "Mice are common {prey} for owls."
+      ],
+      "wrong": [
+        "The eagle was the mouse’s prey, so the mouse ate it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quarry"
+      ],
+      "ipa": "/preɪ/",
+      "antonyms": [
+        "predator"
+      ]
+    },
+    {
+      "lemma": "flock",
+      "pos": "noun",
+      "meaning": "A group of birds or sheep together.",
+      "examples": [
+        "A {flock} of geese flew over the lake."
+      ],
+      "wrong": [
+        "A flock is one single sheep standing alone in a field."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "group"
+      ],
+      "ipa": "/flɑk/"
+    },
+    {
+      "lemma": "herd",
+      "pos": "noun",
+      "meaning": "A large group of animals such as cows or elephants that live together.",
+      "examples": [
+        "A {herd} of cows was crossing the road."
+      ],
+      "wrong": [
+        "The herd was just one lonely elephant."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pack",
+        "drove"
+      ],
+      "ipa": "/hɝd/"
+    },
+    {
+      "lemma": "tropical",
+      "pos": "adjective",
+      "meaning": "From or in the hot, wet parts of the world near the middle of the Earth.",
+      "examples": [
+        "Bananas and mangoes are {tropical} fruits."
+      ],
+      "wrong": [
+        "Polar bears love the tropical cold of the North Pole."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtrɑpɪkəl/"
+    },
+    {
+      "lemma": "hurricane",
+      "pos": "noun",
+      "meaning": "A very strong storm with violent winds, especially over the sea.",
+      "examples": [
+        "The {hurricane} destroyed hundreds of homes along the coast."
+      ],
+      "wrong": [
+        "The hurricane was so calm that the leaves didn’t move."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "storm",
+        "cyclone"
+      ],
+      "ipa": "/ˈhɝəˌkeɪn/"
+    },
+    {
+      "lemma": "landslide",
+      "pos": "noun",
+      "meaning": "A large mass of earth and rocks that falls down a hill.",
+      "examples": [
+        "Heavy rain caused a {landslide} that blocked the road."
+      ],
+      "wrong": [
+        "The landslide carried the rocks slowly up to the top of the hill."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mudslide"
+      ],
+      "ipa": "/ˈlændˌslaɪd/"
+    },
+    {
+      "lemma": "continent",
+      "pos": "noun",
+      "meaning": "One of the very large areas of land on Earth, such as Africa or Asia.",
+      "examples": [
+        "Australia is both a country and a {continent}."
+      ],
+      "wrong": [
+        "My street is the biggest continent in the world."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈkɑntənənt/"
+    },
+    {
+      "lemma": "wildfire",
+      "pos": "noun",
+      "meaning": "A large fire that spreads quickly and out of control through forests or grass.",
+      "examples": [
+        "The {wildfire} burned for days before it was put out."
+      ],
+      "wrong": [
+        "The wildfire was a small candle burning safely on the table."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "forest fire",
+        "bushfire"
+      ],
+      "ipa": "/ˈwaɪldˌfaɪɚ/"
+    },
+    {
+      "lemma": "pollute",
+      "pos": "verb",
+      "meaning": "To make air, water or land dirty and harmful.",
+      "examples": [
+        "Factories {pollute} the river with chemicals."
+      ],
+      "wrong": [
+        "The new cars polluted the city by making the air cleaner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "contaminate",
+        "poison"
+      ],
+      "ipa": "/pəˈlut/"
+    },
+    {
+      "lemma": "recycling",
+      "pos": "noun",
+      "meaning": "The process of treating used things such as paper and glass so they can be used again.",
+      "examples": [
+        "We put bottles and cans in the {recycling} bin."
+      ],
+      "wrong": [
+        "Recycling means burying old bottles so they can never be used again."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/riˈsaɪklɪŋ/"
+    },
+    {
+      "lemma": "swamp",
+      "pos": "noun",
+      "meaning": "An area of soft, wet land partly covered with water and plants.",
+      "examples": [
+        "Alligators live in the {swamp}."
+      ],
+      "wrong": [
+        "The swamp was the driest place in the whole desert."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "marsh",
+        "bog"
+      ],
+      "ipa": "/swɑmp/"
+    },
+    {
+      "lemma": "natural resources",
+      "pos": "phrase",
+      "meaning": "Useful things found in nature, such as water, wood, oil and minerals.",
+      "examples": [
+        "The country is rich in {natural resources} like oil and gold."
+      ],
+      "wrong": [
+        "Plastic chairs and video games are natural resources found in forests."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈnætʃərəl ˈrisɔrsɪz/"
+    },
+    {
+      "lemma": "die out",
+      "pos": "verb",
+      "meaning": "To become less and less common until none are left.",
+      "examples": [
+        "Many kinds of animals {died out} after the ice age."
+      ],
+      "wrong": [
+        "The birds died out, so now there are more of them than ever."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disappear",
+        "vanish"
+      ],
+      "ipa": "/daɪ ˈaʊt/"
+    },
+    {
+      "lemma": "national park",
+      "pos": "phrase",
+      "meaning": "A large area of land protected by the government for its nature and wildlife.",
+      "examples": [
+        "We saw bears and wolves in the {national park}."
+      ],
+      "wrong": [
+        "They built a huge shopping mall in the middle of the national park to protect it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "nature reserve"
+      ],
+      "ipa": "/ˈnæʃənəl ˈpɑrk/"
+    },
+    {
+      "lemma": "migrate",
+      "pos": "verb",
+      "meaning": "To travel to a different place at a certain time of year, as birds do.",
+      "examples": [
+        "Many birds {migrate} south for the winter."
+      ],
+      "wrong": [
+        "The birds migrated by staying in the same tree all year."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "move",
+        "travel"
+      ],
+      "ipa": "/ˈmaɪɡreɪt/"
+    },
+    {
+      "lemma": "hibernate",
+      "pos": "verb",
+      "meaning": "To sleep through the winter, as some animals do.",
+      "examples": [
+        "Bears {hibernate} in caves during the cold months."
+      ],
+      "wrong": [
+        "The bear hibernated by running around all winter looking for food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈhaɪbɚˌneɪt/"
+    },
+    {
+      "lemma": "beak",
+      "pos": "noun",
+      "meaning": "The hard, pointed mouth of a bird.",
+      "examples": [
+        "The bird cracked the seed with its {beak}."
+      ],
+      "wrong": [
+        "The dog wagged its beak when it saw me."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bill"
+      ],
+      "ipa": "/bik/"
+    },
+    {
+      "lemma": "fur",
+      "pos": "noun",
+      "meaning": "The thick, soft hair that covers some animals.",
+      "examples": [
+        "The cat has soft white {fur}."
+      ],
+      "wrong": [
+        "Fish keep warm in the water with their thick fur."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "coat",
+        "hair"
+      ],
+      "ipa": "/fɝ/"
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-culture-travel",
+    "title": "Culture and travel",
+    "level": "B2",
+    "tagline": "Customs, places and tourism",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "hospitality",
+      "pos": "noun",
+      "meaning": "Friendly and generous treatment of guests and visitors.",
+      "examples": [
+        "We were moved by the {hospitality} of the village families."
+      ],
+      "wrong": [
+        "Their hospitality was so poor that they locked the door on every guest."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "welcome",
+        "friendliness",
+        "generosity"
+      ],
+      "ipa": "/ˌhɑspɪˈtæləti/"
+    },
+    {
+      "lemma": "etiquette",
+      "pos": "noun",
+      "meaning": "The accepted rules of polite behavior in a place or group.",
+      "examples": [
+        "Local {etiquette} says you should remove your shoes indoors."
+      ],
+      "wrong": [
+        "Shouting at the waiter is good etiquette in a fine restaurant."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "manners",
+        "protocol"
+      ],
+      "ipa": "/ˈɛtɪkət/"
+    },
+    {
+      "lemma": "unspoiled",
+      "pos": "adjective",
+      "meaning": "Still natural and beautiful, not changed by building or crowds of tourists.",
+      "examples": [
+        "We swam at an {unspoiled} beach with no hotels in sight."
+      ],
+      "wrong": [
+        "The unspoiled coast was covered in high-rise hotels and car parks."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "untouched",
+        "pristine"
+      ],
+      "ipa": "/ʌnˈspɔɪld/"
+    },
+    {
+      "lemma": "delicacy",
+      "pos": "noun",
+      "meaning": "A rare or special food that people value highly.",
+      "examples": [
+        "Fresh sea urchin is a local {delicacy} on the island."
+      ],
+      "wrong": [
+        "Plain boiled rice is a rare delicacy that only rich people eat."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "treat",
+        "specialty"
+      ],
+      "ipa": "/ˈdɛlɪkəsi/"
+    },
+    {
+      "lemma": "homestay",
+      "pos": "noun",
+      "meaning": "A stay with a local family in their home while visiting a country.",
+      "examples": [
+        "My {homestay} in Spain helped me learn the language quickly."
+      ],
+      "wrong": [
+        "On her homestay, she lived alone in a big hotel."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊmˌsteɪ/"
+    },
+    {
+      "lemma": "expedition",
+      "pos": "noun",
+      "meaning": "A long, organized journey to explore or study somewhere.",
+      "examples": [
+        "The {expedition} to the North Pole took three months."
+      ],
+      "wrong": [
+        "Our expedition was a short walk to the corner shop."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "journey",
+        "mission"
+      ],
+      "ipa": "/ˌɛkspəˈdɪʃən/"
+    },
+    {
+      "lemma": "wanderlust",
+      "pos": "noun",
+      "meaning": "A strong wish to travel and see the world.",
+      "examples": [
+        "Her {wanderlust} took her to forty countries before she was thirty."
+      ],
+      "wrong": [
+        "His wanderlust made him refuse to leave his hometown ever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "urge to travel"
+      ],
+      "ipa": "/ˈwɑndɚˌlʌst/"
+    },
+    {
+      "lemma": "off the beaten track",
+      "pos": "phrase",
+      "meaning": "Far from the places most tourists visit; quiet and little known.",
+      "examples": [
+        "We found a lovely village {off the beaten track}."
+      ],
+      "wrong": [
+        "The museum in the busy main square is completely off the beaten track."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ɔf ðə ˈbitən ˈtræk/"
+    },
+    {
+      "lemma": "tourist trap",
+      "pos": "noun",
+      "meaning": "A place that attracts many visitors and charges them too much.",
+      "examples": [
+        "That restaurant by the cathedral is a real {tourist trap}."
+      ],
+      "wrong": [
+        "The tourist trap was a cheap, quiet cafe that only locals knew."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈtʊrɪst ˌtræp/"
+    },
+    {
+      "lemma": "globetrotter",
+      "pos": "noun",
+      "meaning": "A person who travels to many countries.",
+      "examples": [
+        "As a {globetrotter}, he has a passport full of stamps."
+      ],
+      "wrong": [
+        "The globetrotter had never been outside his own town."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "world traveler",
+        "jet-setter"
+      ],
+      "ipa": "/ˈɡloʊbˌtrɑtɚ/"
+    },
+    {
+      "lemma": "embassy",
+      "pos": "noun",
+      "meaning": "The official office of one country’s government in another country.",
+      "examples": [
+        "She went to the {embassy} to replace her lost passport."
+      ],
+      "wrong": [
+        "We ordered pizza from the embassy down the street."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "consulate"
+      ],
+      "ipa": "/ˈɛmbəsi/"
+    },
+    {
+      "lemma": "culture shock",
+      "pos": "noun",
+      "meaning": "The confused feeling people get when living in a very different place.",
+      "examples": [
+        "Moving from a village to Tokyo gave him real {culture shock}."
+      ],
+      "wrong": [
+        "She felt culture shock when she returned to the house she grew up in."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈkʌltʃɚ ˌʃɑk/"
+    },
+    {
+      "lemma": "overrated",
+      "pos": "adjective",
+      "meaning": "Thought to be better than it really is.",
+      "examples": [
+        "The famous restaurant was {overrated}; the food was ordinary."
+      ],
+      "wrong": [
+        "The overrated beach was even better than everyone had said."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈreɪtɪd/",
+      "antonyms": [
+        "underrated"
+      ]
+    },
+    {
+      "lemma": "custom",
+      "pos": "noun",
+      "meaning": "Something people in a society usually do, passed down over time.",
+      "examples": [
+        "It is a {custom} here to give money in red envelopes."
+      ],
+      "wrong": [
+        "The custom started yesterday and nobody follows it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tradition",
+        "practice"
+      ],
+      "ipa": "/ˈkʌstəm/"
+    },
+    {
+      "lemma": "taboo",
+      "pos": "noun",
+      "meaning": "Something a culture forbids people to do or talk about.",
+      "examples": [
+        "Talking about money at dinner is a {taboo} in some families."
+      ],
+      "wrong": [
+        "Saying thank you is a strong taboo, so everyone says it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "prohibition"
+      ],
+      "ipa": "/təˈbu/"
+    },
+    {
+      "lemma": "multicultural",
+      "pos": "adjective",
+      "meaning": "Made up of people from many different cultures.",
+      "examples": [
+        "London is a {multicultural} city with hundreds of languages."
+      ],
+      "wrong": [
+        "The multicultural school had pupils from only one background."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "diverse"
+      ],
+      "ipa": "/ˌmʌltiˈkʌltʃərəl/"
+    },
+    {
+      "lemma": "cosmopolitan",
+      "pos": "adjective",
+      "meaning": "Full of people and ideas from many parts of the world.",
+      "examples": [
+        "The capital has a {cosmopolitan} feel, with food from every continent."
+      ],
+      "wrong": [
+        "The cosmopolitan town had never seen a foreign visitor."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "international",
+        "worldly"
+      ],
+      "ipa": "/ˌkɑzməˈpɑlɪtən/"
+    },
+    {
+      "lemma": "picturesque",
+      "pos": "adjective",
+      "meaning": "Pretty and charming to look at, like a painting.",
+      "examples": [
+        "We stayed in a {picturesque} fishing village."
+      ],
+      "wrong": [
+        "The picturesque street was ugly, dirty and full of trash."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "charming",
+        "pretty"
+      ],
+      "ipa": "/ˌpɪktʃəˈrɛsk/",
+      "antonyms": [
+        "ugly"
+      ]
+    },
+    {
+      "lemma": "scenic",
+      "pos": "adjective",
+      "meaning": "Having beautiful natural views.",
+      "examples": [
+        "We took the {scenic} route along the coast."
+      ],
+      "wrong": [
+        "The scenic road ran through a dark tunnel with no views."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "beautiful",
+        "picturesque"
+      ],
+      "ipa": "/ˈsinɪk/"
+    },
+    {
+      "lemma": "exotic",
+      "pos": "adjective",
+      "meaning": "Unusual and exciting because it comes from a far-off place.",
+      "examples": [
+        "The market sells {exotic} fruits I had never seen."
+      ],
+      "wrong": [
+        "Bread and butter are exotic foods we eat every day."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "foreign",
+        "unusual"
+      ],
+      "ipa": "/ɪɡˈzɑtɪk/",
+      "antonyms": [
+        "familiar",
+        "ordinary"
+      ]
+    },
+    {
+      "lemma": "breathtaking",
+      "pos": "adjective",
+      "meaning": "So beautiful or impressive that it surprises you.",
+      "examples": [
+        "The view from the summit was {breathtaking}."
+      ],
+      "wrong": [
+        "The breathtaking view was dull and not worth a look."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "stunning",
+        "spectacular"
+      ],
+      "ipa": "/ˈbrɛθˌteɪkɪŋ/"
+    },
+    {
+      "lemma": "trek",
+      "pos": "verb",
+      "meaning": "To make a long, hard walk, often over hills or mountains.",
+      "examples": [
+        "We {trekked} for five days through the Himalayas."
+      ],
+      "wrong": [
+        "They trekked to the car parked by the front door."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hike",
+        "tramp"
+      ],
+      "ipa": "/trɛk/"
+    },
+    {
+      "lemma": "staycation",
+      "pos": "noun",
+      "meaning": "A holiday spent at home or near where you live.",
+      "examples": [
+        "Instead of flying abroad, we had a {staycation} and explored our own city."
+      ],
+      "wrong": [
+        "Our staycation was a month-long trip to the other side of the world."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/steɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "must-see",
+      "pos": "noun",
+      "meaning": "A place or thing so good that everyone should visit it.",
+      "examples": [
+        "The old castle is a {must-see} for anyone visiting the city."
+      ],
+      "wrong": [
+        "The museum is a must-see, so nobody should bother going."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "highlight"
+      ],
+      "ipa": "/ˈmʌst ˌsi/"
+    },
+    {
+      "lemma": "turbulence",
+      "pos": "noun",
+      "meaning": "Sudden rough movement of air that shakes a plane.",
+      "examples": [
+        "Please fasten your seatbelts; we are expecting some {turbulence}."
+      ],
+      "wrong": [
+        "The flight was perfectly smooth because of the turbulence."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "rough air"
+      ],
+      "ipa": "/ˈtɝbjələns/"
+    },
+    {
+      "lemma": "en route",
+      "pos": "adverb",
+      "meaning": "On the way to a place.",
+      "examples": [
+        "We stopped for lunch {en route} to the airport."
+      ],
+      "wrong": [
+        "We had dinner en route, long after we had arrived home."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "on the way"
+      ],
+      "ipa": "/ɑn ˈrut/"
+    },
+    {
+      "lemma": "acclimatize",
+      "pos": "verb",
+      "meaning": "To get used to a new climate or place.",
+      "examples": [
+        "It took us three days to {acclimatize} to the heat."
+      ],
+      "wrong": [
+        "He acclimatized so badly that he felt at home in the heat at once."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "adapt",
+        "adjust"
+      ],
+      "ipa": "/əˈklaɪməˌtaɪz/"
+    },
+    {
+      "lemma": "declare",
+      "pos": "verb",
+      "meaning": "To tell customs officers about goods you are bringing into a country.",
+      "examples": [
+        "You must {declare} any cash over ten thousand dollars."
+      ],
+      "wrong": [
+        "He declared the watch by hiding it in his sock."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/dɪˈklɛr/"
+    },
+    {
+      "lemma": "embark",
+      "pos": "verb",
+      "meaning": "To get onto a ship or plane at the start of a journey.",
+      "examples": [
+        "Passengers will {embark} at the main harbor at noon."
+      ],
+      "wrong": [
+        "We embarked the ship as soon as it reached its final port."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "board"
+      ],
+      "ipa": "/ɛmˈbɑrk/",
+      "antonyms": [
+        "disembark"
+      ]
+    },
+    {
+      "lemma": "disembark",
+      "pos": "verb",
+      "meaning": "To get off a ship or plane at the end of a journey.",
+      "examples": [
+        "We {disembarked} and walked into the arrivals hall."
+      ],
+      "wrong": [
+        "The passengers disembarked before the ship left the first harbor."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "land",
+        "get off"
+      ],
+      "ipa": "/ˌdɪsɛmˈbɑrk/",
+      "antonyms": [
+        "embark",
+        "board"
+      ]
+    },
+    {
+      "lemma": "roam",
+      "pos": "verb",
+      "meaning": "To travel around without a fixed plan or route.",
+      "examples": [
+        "We spent a week {roaming} the hills of Tuscany."
+      ],
+      "wrong": [
+        "He roamed the city by staying in his hotel room all week."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "wander",
+        "drift"
+      ],
+      "ipa": "/roʊm/"
+    },
+    {
+      "lemma": "far-flung",
+      "pos": "adjective",
+      "meaning": "Very far away, in a distant part of the world.",
+      "examples": [
+        "She sends postcards from {far-flung} islands in the Pacific."
+      ],
+      "wrong": [
+        "We visited a far-flung village just across the road."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "distant",
+        "remote",
+        "faraway"
+      ],
+      "ipa": "/ˌfɑrˈflʌŋ/",
+      "antonyms": [
+        "nearby",
+        "local"
+      ]
+    },
+    {
+      "lemma": "ecotourism",
+      "pos": "noun",
+      "meaning": "Travel to natural places that tries to protect the environment and help local people.",
+      "examples": [
+        "{Ecotourism} brings money to the rainforest without cutting down trees."
+      ],
+      "wrong": [
+        "The ecotourism company paved over the wetland to build a car park."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "green travel"
+      ],
+      "ipa": "/ˌikoʊˈtʊrɪzəm/"
+    },
+    {
+      "lemma": "pilgrimage",
+      "pos": "noun",
+      "meaning": "A journey to a holy or special place for religious or personal reasons.",
+      "examples": [
+        "Every year, thousands make the {pilgrimage} to the ancient temple."
+      ],
+      "wrong": [
+        "His pilgrimage was a quick trip to buy groceries."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "journey"
+      ],
+      "ipa": "/ˈpɪlɡrəmɪdʒ/"
+    },
+    {
+      "lemma": "shrine",
+      "pos": "noun",
+      "meaning": "A holy place built to honor a god, saint or important person.",
+      "examples": [
+        "Visitors leave flowers at the small roadside {shrine}."
+      ],
+      "wrong": [
+        "The shrine is a busy shop where people buy cheap toys."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "sanctuary",
+        "temple"
+      ],
+      "ipa": "/ʃraɪn/"
+    },
+    {
+      "lemma": "bustling",
+      "pos": "adjective",
+      "meaning": "Full of busy, noisy activity.",
+      "examples": [
+        "We explored the {bustling} night market."
+      ],
+      "wrong": [
+        "The bustling street was silent and completely empty."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "lively",
+        "busy"
+      ],
+      "ipa": "/ˈbʌslɪŋ/",
+      "antonyms": [
+        "quiet",
+        "deserted"
+      ]
+    },
+    {
+      "lemma": "quaint",
+      "pos": "adjective",
+      "meaning": "Attractive in an unusual or old-fashioned way.",
+      "examples": [
+        "The town is full of {quaint} little cottages."
+      ],
+      "wrong": [
+        "The quaint village was full of new glass office towers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "charming",
+        "old-fashioned"
+      ],
+      "ipa": "/kweɪnt/"
+    },
+    {
+      "lemma": "authentic",
+      "pos": "adjective",
+      "meaning": "Real and true to the original style, not made for tourists.",
+      "examples": [
+        "This cafe serves {authentic} local dishes."
+      ],
+      "wrong": [
+        "The authentic market sold only cheap fake copies."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "genuine",
+        "real"
+      ],
+      "ipa": "/ɔˈθɛntɪk/",
+      "antonyms": [
+        "fake",
+        "imitation"
+      ]
+    },
+    {
+      "lemma": "hotspot",
+      "pos": "noun",
+      "meaning": "A place that is very popular with visitors at the moment.",
+      "examples": [
+        "The old harbor has become a tourist {hotspot}."
+      ],
+      "wrong": [
+        "The hotspot was a town that no tourist ever visited."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "magnet",
+        "draw"
+      ],
+      "ipa": "/ˈhɑtˌspɑt/"
+    },
+    {
+      "lemma": "gratuity",
+      "pos": "noun",
+      "meaning": "Extra money given to someone for good service.",
+      "examples": [
+        "A ten percent {gratuity} is added to the bill."
+      ],
+      "wrong": [
+        "The gratuity was a fine the waiter had to pay us."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "tip"
+      ],
+      "ipa": "/ɡrəˈtuəti/"
+    }
+  ]
+}

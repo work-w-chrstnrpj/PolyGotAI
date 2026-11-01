@@ -1,0 +1,639 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-education",
+    "title": "School and learning",
+    "level": "A2",
+    "tagline": "Classes, tests and homework",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "mark",
+      "pos": "noun",
+      "meaning": "A number or letter a teacher gives to show how good your work is.",
+      "examples": [
+        "I got a good {mark} on my spelling test."
+      ],
+      "wrong": [
+        "She got the top mark because all her answers were wrong."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "grade",
+        "score"
+      ],
+      "ipa": "/mɑrk/"
+    },
+    {
+      "lemma": "math",
+      "pos": "noun",
+      "meaning": "The study of numbers, shapes and amounts.",
+      "examples": [
+        "We do {math} problems with a calculator."
+      ],
+      "wrong": [
+        "In math class, we learn to paint pictures of flowers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "mathematics"
+      ],
+      "ipa": "/mæθ/"
+    },
+    {
+      "lemma": "science",
+      "pos": "noun",
+      "meaning": "The study of the natural world by testing and watching carefully.",
+      "examples": [
+        "In {science} class, we tested how fast ice melts."
+      ],
+      "wrong": [
+        "Science is the study of old poems and songs."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsaɪəns/"
+    },
+    {
+      "lemma": "history",
+      "pos": "noun",
+      "meaning": "The study of things that happened in the past.",
+      "examples": [
+        "Our {history} teacher told us about ancient Rome."
+      ],
+      "wrong": [
+        "In history, we learn what will happen next year."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɪstəri/"
+    },
+    {
+      "lemma": "geography",
+      "pos": "noun",
+      "meaning": "The study of countries, mountains, rivers and maps.",
+      "examples": [
+        "We learned the names of rivers in {geography}."
+      ],
+      "wrong": [
+        "In geography, we only study numbers and sums."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒiˈɑɡrəfi/"
+    },
+    {
+      "lemma": "biology",
+      "pos": "noun",
+      "meaning": "The science of living things like plants and animals.",
+      "examples": [
+        "In {biology}, we looked at a leaf under a microscope."
+      ],
+      "wrong": [
+        "Biology is the study of rocks and metals, not living things."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/baɪˈɑlədʒi/"
+    },
+    {
+      "lemma": "chemistry",
+      "pos": "noun",
+      "meaning": "The science of what things are made of and how they mix and change.",
+      "examples": [
+        "We mixed two liquids in {chemistry} and they turned blue."
+      ],
+      "wrong": [
+        "In chemistry class, we learn to play the violin."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɛmɪstri/"
+    },
+    {
+      "lemma": "physics",
+      "pos": "noun",
+      "meaning": "The science of energy, movement, light and force.",
+      "examples": [
+        "In {physics}, we learned why things fall to the ground."
+      ],
+      "wrong": [
+        "Physics is the study of famous writers and their books."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɪzɪks/"
+    },
+    {
+      "lemma": "detention",
+      "pos": "noun",
+      "meaning": "A punishment where a student must stay at school after classes end.",
+      "examples": [
+        "He got {detention} for talking during the test."
+      ],
+      "wrong": [
+        "She got detention as a prize for her great work."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪˈtɛnʃən/"
+    },
+    {
+      "lemma": "principal",
+      "pos": "noun",
+      "meaning": "The person in charge of a school.",
+      "examples": [
+        "The {principal} spoke to all the students in the hall."
+      ],
+      "wrong": [
+        "The principal is the youngest child in the first class."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "head teacher"
+      ],
+      "ipa": "/ˈprɪnsəpəl/"
+    },
+    {
+      "lemma": "final exam",
+      "pos": "phrase",
+      "meaning": "The big test at the end of a course or school year.",
+      "examples": [
+        "I am studying hard for my {final exam} in math."
+      ],
+      "wrong": [
+        "We take the final exam on the first day of the course."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfaɪnəl ɪɡˈzæm/"
+    },
+    {
+      "lemma": "term",
+      "pos": "noun",
+      "meaning": "One of the parts the school year is divided into.",
+      "examples": [
+        "The summer {term} ends in June."
+      ],
+      "wrong": [
+        "The school term lasts only one minute."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "semester"
+      ],
+      "ipa": "/tɝm/"
+    },
+    {
+      "lemma": "college",
+      "pos": "noun",
+      "meaning": "A school where people study after high school.",
+      "examples": [
+        "My brother is studying art at {college}."
+      ],
+      "wrong": [
+        "Children go to college before they can read."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "university"
+      ],
+      "ipa": "/ˈkɑlɪdʒ/"
+    },
+    {
+      "lemma": "report card",
+      "pos": "phrase",
+      "meaning": "A paper that tells parents how well a student is doing at school.",
+      "examples": [
+        "Her {report card} showed top marks in math."
+      ],
+      "wrong": [
+        "The report card tells you today’s weather."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/rɪˈpɔrt ˌkɑrd/"
+    },
+    {
+      "lemma": "recess",
+      "pos": "noun",
+      "meaning": "A short break in the school day when children can play.",
+      "examples": [
+        "We play soccer outside during {recess}."
+      ],
+      "wrong": [
+        "During recess, students sit their hardest exam."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "break",
+        "playtime"
+      ],
+      "ipa": "/ˈriˌsɛs/"
+    },
+    {
+      "lemma": "kindergarten",
+      "pos": "noun",
+      "meaning": "A class or school for children of about five, before regular school starts.",
+      "examples": [
+        "My little sister started {kindergarten} this year."
+      ],
+      "wrong": [
+        "Students go to kindergarten after they finish college."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɪndɚˌɡɑrtən/"
+    },
+    {
+      "lemma": "elementary school",
+      "pos": "phrase",
+      "meaning": "A school for children from about six to eleven years old.",
+      "examples": [
+        "She learned to read at {elementary school}."
+      ],
+      "wrong": [
+        "People go to elementary school after they finish university."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "primary school"
+      ],
+      "ipa": "/ˌɛləˈmɛntəri ˈskul/"
+    },
+    {
+      "lemma": "high school",
+      "pos": "phrase",
+      "meaning": "A school for teenagers, usually from about fourteen to eighteen.",
+      "examples": [
+        "He played basketball in {high school}."
+      ],
+      "wrong": [
+        "My two-year-old son goes to high school."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "secondary school"
+      ],
+      "ipa": "/ˈhaɪ ˌskul/"
+    },
+    {
+      "lemma": "pop quiz",
+      "pos": "phrase",
+      "meaning": "A short test the teacher gives without warning.",
+      "examples": [
+        "The teacher gave us a {pop quiz} on today’s reading."
+      ],
+      "wrong": [
+        "We knew about the pop quiz for weeks before it happened."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "ipa": "/ˈpɑp ˈkwɪz/"
+    },
+    {
+      "lemma": "result",
+      "pos": "noun",
+      "meaning": "The mark or score you get in a test or exam.",
+      "examples": [
+        "I will get my exam {results} next week."
+      ],
+      "wrong": [
+        "She got her result before she took the test."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "score",
+        "grade"
+      ],
+      "ipa": "/rɪˈzʌlt/"
+    },
+    {
+      "lemma": "literature",
+      "pos": "noun",
+      "meaning": "Stories, poems and plays, studied as a school subject.",
+      "examples": [
+        "In {literature} class, we are reading a famous novel."
+      ],
+      "wrong": [
+        "In literature class, we only solve number problems."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈlɪtərətʃɚ/"
+    },
+    {
+      "lemma": "field trip",
+      "pos": "phrase",
+      "meaning": "A visit a class makes to a place outside school to learn.",
+      "examples": [
+        "Our class went on a {field trip} to the science museum."
+      ],
+      "wrong": [
+        "On our field trip, we stayed in the classroom all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "school trip",
+        "outing"
+      ],
+      "ipa": "/ˈfild ˌtrɪp/"
+    },
+    {
+      "lemma": "school bus",
+      "pos": "phrase",
+      "meaning": "A bus that takes children to and from school.",
+      "examples": [
+        "The {school bus} picks me up at seven thirty."
+      ],
+      "wrong": [
+        "The school bus takes office workers to the airport."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskul ˌbʌs/"
+    },
+    {
+      "lemma": "graduation",
+      "pos": "noun",
+      "meaning": "The day or ceremony when you finish your studies and get a degree.",
+      "examples": [
+        "My parents came to my {graduation} last May."
+      ],
+      "wrong": [
+        "Graduation is your first day at a new school."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌɡrædʒuˈeɪʃən/"
+    },
+    {
+      "lemma": "learner",
+      "pos": "noun",
+      "meaning": "A person who is studying a subject or skill.",
+      "examples": [
+        "This dictionary is made for English {learners}."
+      ],
+      "wrong": [
+        "She is a learner of French, so she has never studied it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "student"
+      ],
+      "ipa": "/ˈlɝnɚ/"
+    },
+    {
+      "lemma": "foreign language",
+      "pos": "phrase",
+      "meaning": "A language that is not spoken in your own country.",
+      "examples": [
+        "Spanish is the first {foreign language} I studied."
+      ],
+      "wrong": [
+        "My foreign language is the one I spoke at home as a baby."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɔrən ˈlæŋɡwɪdʒ/"
+    },
+    {
+      "lemma": "education",
+      "pos": "noun",
+      "meaning": "The teaching and studying that happens at school and college.",
+      "examples": [
+        "A good {education} can help you find a good job."
+      ],
+      "wrong": [
+        "She never went to school, so she had a long education."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "schooling"
+      ],
+      "ipa": "/ˌɛdʒəˈkeɪʃən/"
+    },
+    {
+      "lemma": "hardworking",
+      "pos": "adjective",
+      "meaning": "Putting a lot of effort into your work.",
+      "examples": [
+        "She is a {hardworking} student who studies every evening."
+      ],
+      "wrong": [
+        "He is very hardworking and never does his homework."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "diligent"
+      ],
+      "ipa": "/ˈhɑrdˌwɝkɪŋ/",
+      "antonyms": [
+        "lazy"
+      ]
+    },
+    {
+      "lemma": "fluent",
+      "pos": "adjective",
+      "meaning": "Able to speak a language easily and well.",
+      "examples": [
+        "After two years in Paris, he is {fluent} in French."
+      ],
+      "wrong": [
+        "She is fluent in Japanese but can’t say a single word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfluənt/"
+    },
+    {
+      "lemma": "cafeteria",
+      "pos": "noun",
+      "meaning": "A room in a school where students buy and eat lunch.",
+      "examples": [
+        "We eat lunch in the school {cafeteria} at noon."
+      ],
+      "wrong": [
+        "We sleep in the cafeteria at night and never eat there."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "canteen",
+        "dining hall"
+      ],
+      "ipa": "/ˌkæfəˈtɪriə/"
+    },
+    {
+      "lemma": "social studies",
+      "pos": "phrase",
+      "meaning": "A school subject about people, history, countries and society.",
+      "examples": [
+        "In {social studies}, we learned how our city is run."
+      ],
+      "wrong": [
+        "Social studies is a subject where you learn to swim."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsoʊʃəl ˈstʌdiz/"
+    },
+    {
+      "lemma": "physical education",
+      "pos": "phrase",
+      "meaning": "A school subject where students do sports and exercise.",
+      "examples": [
+        "We play volleyball in {physical education}."
+      ],
+      "wrong": [
+        "In physical education, we sit still and read all hour."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "PE",
+        "gym"
+      ],
+      "ipa": "/ˈfɪzɪkəl ˌɛdʒəˈkeɪʃən/"
+    },
+    {
+      "lemma": "calculator",
+      "pos": "noun",
+      "meaning": "A small machine that does sums for you.",
+      "examples": [
+        "You can use a {calculator} for the hard sums."
+      ],
+      "wrong": [
+        "He used a calculator to wash his clothes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkælkjəˌleɪtɚ/"
+    },
+    {
+      "lemma": "dormitory",
+      "pos": "noun",
+      "meaning": "A building where students live and sleep at a college.",
+      "examples": [
+        "First-year students live in the {dormitory} on campus."
+      ],
+      "wrong": [
+        "The dormitory is where students eat but never sleep."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dorm",
+        "residence hall"
+      ],
+      "ipa": "/ˈdɔrməˌtɔri/"
+    },
+    {
+      "lemma": "multiple choice",
+      "pos": "phrase",
+      "meaning": "A kind of test question where you pick one correct answer from a list.",
+      "examples": [
+        "The exam has twenty {multiple choice} questions."
+      ],
+      "wrong": [
+        "In a multiple choice test, there are never any answers to pick from."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmʌltəpəl ˈtʃɔɪs/"
+    },
+    {
+      "lemma": "skip class",
+      "pos": "phrase",
+      "meaning": "To stay away from a lesson on purpose when you should go.",
+      "examples": [
+        "He {skipped class} to go to the beach."
+      ],
+      "wrong": [
+        "She skipped class and sat in the front row the whole lesson."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "cut class"
+      ],
+      "ipa": "/ˈskɪp ˈklæs/"
+    },
+    {
+      "lemma": "school year",
+      "pos": "phrase",
+      "meaning": "The months when schools are open, from the first day to the last.",
+      "examples": [
+        "The {school year} starts in September."
+      ],
+      "wrong": [
+        "The school year lasts for one week."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskul ˌjɪr/"
+    },
+    {
+      "lemma": "educational",
+      "pos": "adjective",
+      "meaning": "Helping you learn something.",
+      "examples": [
+        "We watched an {educational} video about the moon."
+      ],
+      "wrong": [
+        "The program was very educational; nobody learned anything."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "instructive"
+      ],
+      "ipa": "/ˌɛdʒəˈkeɪʃənəl/"
+    },
+    {
+      "lemma": "online course",
+      "pos": "phrase",
+      "meaning": "A set of lessons you take on the internet.",
+      "examples": [
+        "He took an {online course} in cooking."
+      ],
+      "wrong": [
+        "An online course meets only in a classroom with no computers."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɑnˌlaɪn ˈkɔrs/"
+    },
+    {
+      "lemma": "science fair",
+      "pos": "phrase",
+      "meaning": "An event where students show science projects they have made.",
+      "examples": [
+        "Her volcano model won first prize at the {science fair}."
+      ],
+      "wrong": [
+        "At the science fair, students sell old clothes and toys."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsaɪəns ˌfɛr/"
+    }
+  ]
+}

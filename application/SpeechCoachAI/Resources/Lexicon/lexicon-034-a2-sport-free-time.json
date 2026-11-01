@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-sport-free-time",
+    "title": "Sport and free time",
+    "level": "A2",
+    "tagline": "Games, hobbies and events",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "match",
+      "pos": "noun",
+      "meaning": "A game between two people or teams.",
+      "examples": [
+        "We watched the football {match} on TV."
+      ],
+      "wrong": [
+        "A match is a quiet book you read alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "game"
+      ],
+      "ipa": "/mætʃ/"
+    },
+    {
+      "lemma": "race",
+      "pos": "noun",
+      "meaning": "A competition to see who is the fastest.",
+      "examples": [
+        "She won the {race}."
+      ],
+      "wrong": [
+        "In a race, the slowest person wins."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/reɪs/"
+    },
+    {
+      "lemma": "player",
+      "pos": "noun",
+      "meaning": "A person who plays a sport or game.",
+      "examples": [
+        "He is the best {player} on the team."
+      ],
+      "wrong": [
+        "A player is the ball in a game."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpleɪɚ/"
+    },
+    {
+      "lemma": "coach",
+      "pos": "noun",
+      "meaning": "A person who trains a sports team.",
+      "examples": [
+        "The {coach} told us to run faster."
+      ],
+      "wrong": [
+        "The coach is the person who watches from home on TV."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trainer"
+      ],
+      "ipa": "/koʊtʃ/"
+    },
+    {
+      "lemma": "score",
+      "pos": "noun",
+      "meaning": "The number of points in a game.",
+      "examples": [
+        "What’s the {score}?"
+      ],
+      "wrong": [
+        "The score is the name of the stadium."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/skɔr/"
+    },
+    {
+      "lemma": "goal",
+      "pos": "noun",
+      "meaning": "A point you get when the ball goes into the net.",
+      "examples": [
+        "He scored a {goal} in the last minute."
+      ],
+      "wrong": [
+        "A goal is the ball you kick."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɡoʊl/"
+    },
+    {
+      "lemma": "champion",
+      "pos": "noun",
+      "meaning": "A person or team that wins a competition.",
+      "examples": [
+        "She is the tennis {champion}."
+      ],
+      "wrong": [
+        "The champion lost every game."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "winner"
+      ],
+      "ipa": "/ˈtʃæmpiən/",
+      "antonyms": [
+        "loser"
+      ]
+    },
+    {
+      "lemma": "competition",
+      "pos": "noun",
+      "meaning": "An event where people try to win.",
+      "examples": [
+        "He entered a cooking {competition}."
+      ],
+      "wrong": [
+        "In a competition, nobody tries to win."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "contest"
+      ],
+      "ipa": "/ˌkɑmpəˈtɪʃən/"
+    },
+    {
+      "lemma": "gym",
+      "pos": "noun",
+      "meaning": "A room or building with machines for exercise.",
+      "examples": [
+        "I go to the {gym} three times a week."
+      ],
+      "wrong": [
+        "A gym is a place where you sleep."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒɪm/"
+    },
+    {
+      "lemma": "swimming pool",
+      "pos": "noun",
+      "meaning": "A large hole filled with water for swimming.",
+      "examples": [
+        "The hotel has a {swimming pool}."
+      ],
+      "wrong": [
+        "A swimming pool is a dry room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pool"
+      ],
+      "ipa": "/ˈswɪmɪŋ ˌpul/"
+    },
+    {
+      "lemma": "tennis",
+      "pos": "noun",
+      "meaning": "A game where two or four players hit a ball over a net.",
+      "examples": [
+        "Let’s play {tennis} on Saturday."
+      ],
+      "wrong": [
+        "In tennis, you kick the ball with your feet."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtɛnɪs/"
+    },
+    {
+      "lemma": "basketball",
+      "pos": "noun",
+      "meaning": "A game where players throw a ball through a high ring.",
+      "examples": [
+        "He plays {basketball} for his school."
+      ],
+      "wrong": [
+        "Basketball is played in the water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbæskɪtbɔl/"
+    },
+    {
+      "lemma": "beat",
+      "pos": "verb",
+      "meaning": "To win against someone.",
+      "examples": [
+        "We {beat} them three to one."
+      ],
+      "wrong": [
+        "We beat them, so they won."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "defeat"
+      ],
+      "ipa": "/bit/",
+      "antonyms": [
+        "lose to"
+      ]
+    },
+    {
+      "lemma": "kick",
+      "pos": "verb",
+      "meaning": "To hit something with your foot.",
+      "examples": [
+        "{Kick} the ball into the goal."
+      ],
+      "wrong": [
+        "I kick the ball with my hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɪk/"
+    },
+    {
+      "lemma": "hike",
+      "pos": "verb",
+      "meaning": "To go for a long walk in the countryside.",
+      "examples": [
+        "We {hiked} up the mountain."
+      ],
+      "wrong": [
+        "We hiked in the car all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "trek"
+      ],
+      "ipa": "/haɪk/"
+    },
+    {
+      "lemma": "camping",
+      "pos": "noun",
+      "meaning": "Staying in a tent for a holiday.",
+      "examples": [
+        "We go {camping} every summer."
+      ],
+      "wrong": [
+        "Camping means staying in a five-star hotel."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkæmpɪŋ/"
+    },
+    {
+      "lemma": "tent",
+      "pos": "noun",
+      "meaning": "A shelter made of cloth that you sleep in outdoors.",
+      "examples": [
+        "We put up the {tent} by the river."
+      ],
+      "wrong": [
+        "A tent is a brick house."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tɛnt/"
+    },
+    {
+      "lemma": "fishing",
+      "pos": "noun",
+      "meaning": "The sport or job of catching fish.",
+      "examples": [
+        "My uncle loves {fishing}."
+      ],
+      "wrong": [
+        "Fishing is the sport of catching birds."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "angling"
+      ],
+      "ipa": "/ˈfɪʃɪŋ/"
+    },
+    {
+      "lemma": "ski",
+      "pos": "verb",
+      "meaning": "To move over snow on long thin boards.",
+      "examples": [
+        "We {ski} in the mountains every winter."
+      ],
+      "wrong": [
+        "I ski on the hot sand of the beach."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ski/"
+    },
+    {
+      "lemma": "chess",
+      "pos": "noun",
+      "meaning": "A board game for two players with kings and queens.",
+      "examples": [
+        "My grandfather taught me to play {chess}."
+      ],
+      "wrong": [
+        "Chess is a game you play in water."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/tʃɛs/"
+    },
+    {
+      "lemma": "concert",
+      "pos": "noun",
+      "meaning": "A show where people play music.",
+      "examples": [
+        "We went to a rock {concert}."
+      ],
+      "wrong": [
+        "A concert is a silent show with no music."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "gig"
+      ],
+      "ipa": "/ˈkɑnsɚt/"
+    },
+    {
+      "lemma": "festival",
+      "pos": "noun",
+      "meaning": "A special event with music, food or fun.",
+      "examples": [
+        "The town has a music {festival} in June."
+      ],
+      "wrong": [
+        "A festival is a quiet day at the office."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "fair"
+      ],
+      "ipa": "/ˈfɛstəvəl/"
+    },
+    {
+      "lemma": "exhibition",
+      "pos": "noun",
+      "meaning": "A show of art or objects for the public.",
+      "examples": [
+        "We saw an {exhibition} of photos."
+      ],
+      "wrong": [
+        "An exhibition is a secret room where nobody can go."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "show"
+      ],
+      "ipa": "/ˌɛksəˈbɪʃən/"
+    },
+    {
+      "lemma": "gallery",
+      "pos": "noun",
+      "meaning": "A building where you can see paintings.",
+      "examples": [
+        "The {gallery} has paintings by famous artists."
+      ],
+      "wrong": [
+        "A gallery is a place where you buy bread."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɡæləri/"
+    },
+    {
+      "lemma": "stadium",
+      "pos": "noun",
+      "meaning": "A large place for sports, with seats all around.",
+      "examples": [
+        "The {stadium} was full of fans."
+      ],
+      "wrong": [
+        "A stadium is a tiny room for one person."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "arena"
+      ],
+      "ipa": "/ˈsteɪdiəm/"
+    },
+    {
+      "lemma": "fan",
+      "pos": "noun",
+      "meaning": "A person who likes a team or singer very much.",
+      "examples": [
+        "I’m a big {fan} of this band."
+      ],
+      "wrong": [
+        "A fan is a person who hates the team."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "supporter"
+      ],
+      "ipa": "/fæn/"
+    },
+    {
+      "lemma": "relax",
+      "pos": "verb",
+      "meaning": "To rest and become calm.",
+      "examples": [
+        "I {relax} by reading a book."
+      ],
+      "wrong": [
+        "I relax by working very hard."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "unwind"
+      ],
+      "ipa": "/rɪˈlæks/"
+    },
+    {
+      "lemma": "collect",
+      "pos": "verb",
+      "meaning": "To get and keep things of the same kind as a hobby.",
+      "examples": [
+        "He {collects} old coins."
+      ],
+      "wrong": [
+        "I collect stamps by throwing them away."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "gather"
+      ],
+      "ipa": "/kəˈlɛkt/"
+    },
+    {
+      "lemma": "member",
+      "pos": "noun",
+      "meaning": "A person who belongs to a group or club.",
+      "examples": [
+        "She is a {member} of the chess club."
+      ],
+      "wrong": [
+        "A member is a person who does not belong to the club."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɛmbɚ/"
+    },
+    {
+      "lemma": "club",
+      "pos": "noun",
+      "meaning": "A group of people who meet for an activity.",
+      "examples": [
+        "I joined the tennis {club}."
+      ],
+      "wrong": [
+        "A club is a person who plays alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "society"
+      ],
+      "ipa": "/klʌb/"
+    },
+    {
+      "lemma": "prize",
+      "pos": "noun",
+      "meaning": "Something you get for winning.",
+      "examples": [
+        "She won first {prize}."
+      ],
+      "wrong": [
+        "He lost, so he got the first prize."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "award"
+      ],
+      "ipa": "/praɪz/"
+    },
+    {
+      "lemma": "medal",
+      "pos": "noun",
+      "meaning": "A round piece of metal given as a prize.",
+      "examples": [
+        "He won a gold {medal}."
+      ],
+      "wrong": [
+        "A medal is a kind of hat."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmɛdəl/"
+    },
+    {
+      "lemma": "cycling",
+      "pos": "noun",
+      "meaning": "Riding a bicycle as a sport or hobby.",
+      "examples": [
+        "{Cycling} is good exercise."
+      ],
+      "wrong": [
+        "Cycling is a sport where you swim."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsaɪklɪŋ/"
+    },
+    {
+      "lemma": "free time",
+      "pos": "noun",
+      "meaning": "Time when you are not working or studying.",
+      "examples": [
+        "What do you do in your {free time}?"
+      ],
+      "wrong": [
+        "In my free time I am always at work."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "spare time",
+        "leisure"
+      ],
+      "ipa": "/ˌfri ˈtaɪm/"
+    },
+    {
+      "lemma": "board game",
+      "pos": "noun",
+      "meaning": "A game played with pieces on a board.",
+      "examples": [
+        "We played a {board game} after dinner."
+      ],
+      "wrong": [
+        "A board game is played on a football field."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɔrd ˌɡeɪm/"
+    },
+    {
+      "lemma": "cards",
+      "pos": "noun",
+      "meaning": "A game played with a set of small printed cards.",
+      "examples": [
+        "Let’s play {cards}."
+      ],
+      "wrong": [
+        "Cards is a sport played with a ball."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/kɑrdz/"
+    },
+    {
+      "lemma": "join",
+      "pos": "verb",
+      "meaning": "To become a member of a group.",
+      "examples": [
+        "I want to {join} the band."
+      ],
+      "wrong": [
+        "I joined the club, so I left it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒɔɪn/",
+      "antonyms": [
+        "leave",
+        "quit"
+      ]
+    },
+    {
+      "lemma": "train",
+      "pos": "verb",
+      "meaning": "To practice a sport to get better.",
+      "examples": [
+        "The team {trains} every evening."
+      ],
+      "wrong": [
+        "He trains hard, so he never practices."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "practice"
+      ],
+      "ipa": "/treɪn/"
+    },
+    {
+      "lemma": "watch",
+      "pos": "verb",
+      "meaning": "To look at something for a time.",
+      "examples": [
+        "We {watch} football on Saturdays."
+      ],
+      "wrong": [
+        "I watch the radio."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "view"
+      ],
+      "ipa": "/wɑtʃ/"
+    },
+    {
+      "lemma": "drawing",
+      "pos": "noun",
+      "meaning": "A picture made with a pencil or pen.",
+      "examples": [
+        "Her {drawing} of a horse is very good."
+      ],
+      "wrong": [
+        "A drawing is a song you sing."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sketch"
+      ],
+      "ipa": "/ˈdrɔɪŋ/"
+    }
+  ]
+}

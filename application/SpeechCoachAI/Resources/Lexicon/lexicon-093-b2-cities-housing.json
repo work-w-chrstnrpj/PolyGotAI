@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-cities-housing",
+    "title": "Cities and housing",
+    "level": "B2",
+    "tagline": "Homes, rent and urban life",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "townhouse",
+      "pos": "noun",
+      "meaning": "A tall, narrow house joined to similar houses in a row.",
+      "examples": [
+        "They live in a three-story {townhouse} near the park."
+      ],
+      "wrong": [
+        "Our townhouse stands alone in a field with no other houses nearby."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "row house"
+      ],
+      "ipa": "/ˈtaʊnˌhaʊs/"
+    },
+    {
+      "lemma": "sublet",
+      "pos": "verb",
+      "meaning": "To rent out a home you are renting yourself to another person.",
+      "examples": [
+        "She {sublet} her apartment while she worked abroad."
+      ],
+      "wrong": [
+        "He sublet his apartment by living in it alone all year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌsʌbˈlɛt/"
+    },
+    {
+      "lemma": "homeowner",
+      "pos": "noun",
+      "meaning": "A person who owns the house or apartment they live in.",
+      "examples": [
+        "Every {homeowner} on the street pays the local tax."
+      ],
+      "wrong": [
+        "As a homeowner, she pays rent to a landlord every month."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊmˌoʊnɚ/",
+      "antonyms": [
+        "tenant",
+        "renter"
+      ]
+    },
+    {
+      "lemma": "cul-de-sac",
+      "pos": "noun",
+      "meaning": "A short street that is closed at one end.",
+      "examples": [
+        "The kids play safely in the quiet {cul-de-sac}."
+      ],
+      "wrong": [
+        "A cul-de-sac is a busy highway that goes on for miles."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "dead end"
+      ],
+      "ipa": "/ˈkʌldəˌsæk/"
+    },
+    {
+      "lemma": "commuter",
+      "pos": "noun",
+      "meaning": "A person who travels regularly, often a long way, between home and work.",
+      "examples": [
+        "The early train is full of {commuters}."
+      ],
+      "wrong": [
+        "A commuter is someone who never leaves the house."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəˈmjutɚ/"
+    },
+    {
+      "lemma": "congestion",
+      "pos": "noun",
+      "meaning": "Too much traffic or too many people in one place.",
+      "examples": [
+        "{Congestion} in the city center is worst at 8 a.m."
+      ],
+      "wrong": [
+        "There was no congestion, and the roads were jammed with cars."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "traffic jam",
+        "crowding"
+      ],
+      "ipa": "/kənˈdʒɛstʃən/"
+    },
+    {
+      "lemma": "zoning",
+      "pos": "noun",
+      "meaning": "Rules that control what can be built in each part of a town.",
+      "examples": [
+        "{Zoning} laws keep factories away from homes."
+      ],
+      "wrong": [
+        "Zoning means anyone can build anything anywhere."
+      ],
+      "cefr": "B2",
+      "register": "term",
+      "synonyms": [
+        "land-use planning"
+      ],
+      "ipa": "/ˈzoʊnɪŋ/"
+    },
+    {
+      "lemma": "skyscraper",
+      "pos": "noun",
+      "meaning": "A very tall building in a city.",
+      "examples": [
+        "From the top of the {skyscraper}, you can see the whole bay."
+      ],
+      "wrong": [
+        "The skyscraper was a tiny one-story hut."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tower",
+        "tower block"
+      ],
+      "ipa": "/ˈskaɪˌskreɪpɚ/"
+    },
+    {
+      "lemma": "high-rise",
+      "pos": "adjective",
+      "meaning": "Very tall, with many floors.",
+      "examples": [
+        "They live on the 30th floor of a {high-rise} apartment building."
+      ],
+      "wrong": [
+        "The high-rise building has only one floor."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "multistory",
+        "tall"
+      ],
+      "ipa": "/ˈhaɪˌraɪz/",
+      "antonyms": [
+        "low-rise"
+      ]
+    },
+    {
+      "lemma": "detached",
+      "pos": "adjective",
+      "meaning": "Of a house: standing alone, not joined to another house.",
+      "examples": [
+        "They bought a {detached} house with a big yard."
+      ],
+      "wrong": [
+        "Our detached house shares walls with the houses on both sides."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "freestanding"
+      ],
+      "ipa": "/dɪˈtætʃt/",
+      "antonyms": [
+        "attached"
+      ]
+    },
+    {
+      "lemma": "renovate",
+      "pos": "verb",
+      "meaning": "To repair and improve an old building so it is in good condition.",
+      "examples": [
+        "They {renovated} the old farmhouse."
+      ],
+      "wrong": [
+        "They renovated the house by letting it fall apart."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "refurbish",
+        "restore",
+        "do up"
+      ],
+      "ipa": "/ˈrɛnəˌveɪt/"
+    },
+    {
+      "lemma": "maintenance",
+      "pos": "noun",
+      "meaning": "The work of keeping a building or machine in good condition.",
+      "examples": [
+        "The rent includes building {maintenance}."
+      ],
+      "wrong": [
+        "Regular maintenance is what makes a building fall apart."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "upkeep",
+        "repairs"
+      ],
+      "ipa": "/ˈmeɪntənəns/"
+    },
+    {
+      "lemma": "utilities",
+      "pos": "noun",
+      "meaning": "Services such as electricity, gas and water supplied to a home.",
+      "examples": [
+        "The rent is $900 a month, plus {utilities}."
+      ],
+      "wrong": [
+        "Utilities are the paintings you hang on the walls."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "services",
+        "bills"
+      ],
+      "ipa": "/juˈtɪlətiz/"
+    },
+    {
+      "lemma": "furnished",
+      "pos": "adjective",
+      "meaning": "Of a home: rented with furniture already in it.",
+      "examples": [
+        "We rented a {furnished} apartment, so we didn’t need to buy a bed."
+      ],
+      "wrong": [
+        "The furnished apartment was completely empty, with no furniture."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈfɝnɪʃt/",
+      "antonyms": [
+        "unfurnished"
+      ]
+    },
+    {
+      "lemma": "cramped",
+      "pos": "adjective",
+      "meaning": "Too small for the people or things inside.",
+      "examples": [
+        "Six of us shared a {cramped} two-room apartment."
+      ],
+      "wrong": [
+        "The cramped room had plenty of space for everyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "tight",
+        "confined"
+      ],
+      "ipa": "/kræmpt/",
+      "antonyms": [
+        "spacious",
+        "roomy"
+      ]
+    },
+    {
+      "lemma": "spacious",
+      "pos": "adjective",
+      "meaning": "Having a lot of room inside.",
+      "examples": [
+        "The new office is bright and {spacious}."
+      ],
+      "wrong": [
+        "The spacious kitchen was so small two people couldn’t fit."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "roomy",
+        "large"
+      ],
+      "ipa": "/ˈspeɪʃəs/",
+      "antonyms": [
+        "cramped"
+      ]
+    },
+    {
+      "lemma": "overcrowded",
+      "pos": "adjective",
+      "meaning": "Having too many people in a place.",
+      "examples": [
+        "The trains are {overcrowded} at rush hour."
+      ],
+      "wrong": [
+        "The overcrowded bus had only two passengers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "packed",
+        "jammed"
+      ],
+      "ipa": "/ˌoʊvɚˈkraʊdɪd/"
+    },
+    {
+      "lemma": "urban",
+      "pos": "adjective",
+      "meaning": "Connected with towns and cities.",
+      "examples": [
+        "{Urban} areas often have better public transportation."
+      ],
+      "wrong": [
+        "Urban life means living on a remote farm far from any town."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "city",
+        "town"
+      ],
+      "ipa": "/ˈɝbən/",
+      "antonyms": [
+        "rural"
+      ]
+    },
+    {
+      "lemma": "rural",
+      "pos": "adjective",
+      "meaning": "Connected with the countryside, not towns.",
+      "examples": [
+        "She grew up in a {rural} village with one shop."
+      ],
+      "wrong": [
+        "The rural area was full of skyscrapers and subway stations."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "country",
+        "rustic"
+      ],
+      "ipa": "/ˈrʊrəl/",
+      "antonyms": [
+        "urban"
+      ]
+    },
+    {
+      "lemma": "urban sprawl",
+      "pos": "phrase",
+      "meaning": "The spread of a city into the countryside around it, often without a plan.",
+      "examples": [
+        "{Urban sprawl} has swallowed up the farmland near the city."
+      ],
+      "wrong": [
+        "Urban sprawl means the city is getting smaller and more compact."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɝbən ˈsprɔl/"
+    },
+    {
+      "lemma": "amenities",
+      "pos": "noun",
+      "meaning": "Useful places and services in an area, such as shops, parks and pools.",
+      "examples": [
+        "The apartment is close to all local {amenities}."
+      ],
+      "wrong": [
+        "The area has great amenities: no shops, no parks and no buses."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "facilities",
+        "services"
+      ],
+      "ipa": "/əˈmɛnətiz/"
+    },
+    {
+      "lemma": "gentrification",
+      "pos": "noun",
+      "meaning": "The change in a poor area as richer people move in and prices rise.",
+      "examples": [
+        "{Gentrification} has pushed many longtime residents out of the area."
+      ],
+      "wrong": [
+        "Gentrification made the neighborhood cheaper and poorer."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌdʒɛntrəfəˈkeɪʃən/"
+    },
+    {
+      "lemma": "evict",
+      "pos": "verb",
+      "meaning": "To legally force someone to leave the home they rent.",
+      "examples": [
+        "The family was {evicted} for not paying rent."
+      ],
+      "wrong": [
+        "The landlord evicted them by inviting them to stay longer."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "throw out",
+        "expel"
+      ],
+      "ipa": "/ɪˈvɪkt/"
+    },
+    {
+      "lemma": "relocate",
+      "pos": "verb",
+      "meaning": "To move to a new place to live or work.",
+      "examples": [
+        "The company {relocated} us to another city."
+      ],
+      "wrong": [
+        "They relocated, so they stayed exactly where they were."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "move"
+      ],
+      "ipa": "/riˈloʊkeɪt/"
+    },
+    {
+      "lemma": "security deposit",
+      "pos": "phrase",
+      "meaning": "Money you pay a landlord before moving in, returned if you cause no damage.",
+      "examples": [
+        "We got our {security deposit} back when we moved out."
+      ],
+      "wrong": [
+        "The security deposit is the monthly payment for electricity."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "deposit",
+        "bond"
+      ],
+      "ipa": "/sɪˈkjʊrəti dɪˈpɑzɪt/"
+    },
+    {
+      "lemma": "real estate",
+      "pos": "noun",
+      "meaning": "Land and buildings that people buy and sell.",
+      "examples": [
+        "She works in {real estate}, selling houses."
+      ],
+      "wrong": [
+        "Real estate means cars and boats that you can drive."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "property"
+      ],
+      "ipa": "/ˈril ɪˌsteɪt/"
+    },
+    {
+      "lemma": "inner city",
+      "pos": "noun",
+      "meaning": "The older central parts of a big city, often poor and crowded.",
+      "examples": [
+        "The charity runs youth clubs in the {inner city}."
+      ],
+      "wrong": [
+        "The inner city is a quiet village far out in the countryside."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɪnɚ ˈsɪti/"
+    },
+    {
+      "lemma": "metropolitan",
+      "pos": "adjective",
+      "meaning": "Connected with a large city and the areas around it.",
+      "examples": [
+        "The {metropolitan} area has over five million people."
+      ],
+      "wrong": [
+        "The metropolitan region is a tiny village with fifty people."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "city",
+        "big-city"
+      ],
+      "ipa": "/ˌmɛtrəˈpɑlɪtən/"
+    },
+    {
+      "lemma": "municipal",
+      "pos": "adjective",
+      "meaning": "Run by or belonging to a town or city government.",
+      "examples": [
+        "The {municipal} pool is free for residents."
+      ],
+      "wrong": [
+        "The municipal library is owned by one family and run for profit."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "city",
+        "public",
+        "civic"
+      ],
+      "ipa": "/mjuˈnɪsəpəl/"
+    },
+    {
+      "lemma": "roommate",
+      "pos": "noun",
+      "meaning": "A person who shares a room or apartment with you.",
+      "examples": [
+        "My {roommate} and I split the rent."
+      ],
+      "wrong": [
+        "My roommate lives alone in another city, and we have never shared a home."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "flatmate",
+        "housemate"
+      ],
+      "ipa": "/ˈrumˌmeɪt/"
+    },
+    {
+      "lemma": "house-hunting",
+      "pos": "noun",
+      "meaning": "Looking for a home to buy or rent.",
+      "examples": [
+        "We spent the weekend {house-hunting} in the suburbs."
+      ],
+      "wrong": [
+        "They went house-hunting to look for a new car."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈhaʊsˌhʌntɪŋ/"
+    },
+    {
+      "lemma": "run-down",
+      "pos": "adjective",
+      "meaning": "In bad condition because nobody has looked after it.",
+      "examples": [
+        "They bought a {run-down} cottage and fixed it up."
+      ],
+      "wrong": [
+        "The run-down hotel was brand new and spotless."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shabby",
+        "neglected"
+      ],
+      "ipa": "/ˌrʌnˈdaʊn/",
+      "antonyms": [
+        "well-kept"
+      ]
+    },
+    {
+      "lemma": "well-kept",
+      "pos": "adjective",
+      "meaning": "Looked after carefully and in good condition.",
+      "examples": [
+        "The street is lined with {well-kept} gardens."
+      ],
+      "wrong": [
+        "The well-kept house had broken windows and weeds everywhere."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "neat",
+        "tidy",
+        "cared-for"
+      ],
+      "ipa": "/ˌwɛlˈkɛpt/",
+      "antonyms": [
+        "run-down",
+        "neglected"
+      ]
+    },
+    {
+      "lemma": "open-plan",
+      "pos": "adjective",
+      "meaning": "Having few inside walls, so rooms flow into one large space.",
+      "examples": [
+        "The apartment has an {open-plan} kitchen and living room."
+      ],
+      "wrong": [
+        "The open-plan office is divided into dozens of small closed rooms."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌoʊpənˈplæn/"
+    },
+    {
+      "lemma": "inhabitant",
+      "pos": "noun",
+      "meaning": "A person who lives in a particular place.",
+      "examples": [
+        "The town has about 20,000 {inhabitants}."
+      ],
+      "wrong": [
+        "The inhabitants of the island have never been there."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "resident"
+      ],
+      "ipa": "/ɪnˈhæbɪtənt/"
+    },
+    {
+      "lemma": "fixer-upper",
+      "pos": "noun",
+      "meaning": "An old house in poor condition, sold cheaply to someone who will repair it.",
+      "examples": [
+        "They bought a {fixer-upper} and spent a year repairing it."
+      ],
+      "wrong": [
+        "The fixer-upper was in perfect condition and needed no work at all."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˈfɪksɚˌʌpɚ/"
+    },
+    {
+      "lemma": "downsize",
+      "pos": "verb",
+      "meaning": "To move to a smaller home, often after children have left.",
+      "examples": [
+        "After the kids left, they {downsized} to an apartment."
+      ],
+      "wrong": [
+        "They downsized from a studio to a ten-bedroom mansion."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈdaʊnˌsaɪz/"
+    },
+    {
+      "lemma": "settle in",
+      "pos": "verb",
+      "meaning": "To start to feel comfortable in a new home or place.",
+      "examples": [
+        "It took the kids a few weeks to {settle in}."
+      ],
+      "wrong": [
+        "She settled in quickly, so she felt lost and uneasy for months."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "adjust",
+        "get used to"
+      ],
+      "ipa": "/ˈsɛtəl ˈɪn/"
+    },
+    {
+      "lemma": "property ladder",
+      "pos": "phrase",
+      "meaning": "The idea of buying a cheap home first, then more expensive ones later.",
+      "examples": [
+        "Young people struggle to get on the {property ladder}."
+      ],
+      "wrong": [
+        "The property ladder is the ladder you use to paint the ceiling."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "housing ladder"
+      ],
+      "ipa": "/ˈprɑpɚti ˌlædɚ/"
+    },
+    {
+      "lemma": "slum",
+      "pos": "noun",
+      "meaning": "A very poor, crowded area of a city with bad housing.",
+      "examples": [
+        "The project replaced the {slum} with safe new homes."
+      ],
+      "wrong": [
+        "The slum was the richest, most luxurious part of town."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "shantytown"
+      ],
+      "ipa": "/slʌm/"
+    }
+  ]
+}

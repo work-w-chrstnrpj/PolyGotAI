@@ -1,0 +1,77 @@
+{
+  "fill": {
+    "solid": "extended-srgb:0.09020,0.42353,0.37647,1.00000"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.94510,0.78431,0.41961,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-srgb:1.00000,1.00000,1.00000,1.00000"
+              }
+            }
+          ],
+          "image-name": "gold-goal.svg",
+          "name": "C2 goal"
+        },
+        {
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.61961,0.86275,0.77255,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-srgb:0.50196,0.50196,0.52941,1.00000"
+              }
+            }
+          ],
+          "image-name": "voice-waveform.svg",
+          "name": "Voice waveform (A1\u2013C1)"
+        },
+        {
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.14118,0.23922,0.21569,1.00000"
+              }
+            },
+            {
+              "appearance": "tinted",
+              "value": {
+                "solid": "extended-srgb:0.86667,0.87059,0.89412,1.00000"
+              }
+            }
+          ],
+          "image-name": "speech-bubble.svg",
+          "name": "Speech bubble"
+        }
+      ],
+      "name": "Fluent speaking",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.3
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.12
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-criticism",
+    "title": "Arts and criticism",
+    "level": "C2",
+    "tagline": "Reviewing and judging work",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "oeuvre",
+      "pos": "noun",
+      "meaning": "The whole body of work produced by an artist or writer.",
+      "examples": [
+        "This novel is the darkest in her entire {oeuvre}."
+      ],
+      "wrong": [
+        "His oeuvre consists of only the one painting he never finished."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "body of work"
+      ],
+      "ipa": "/ˈuvrə/"
+    },
+    {
+      "lemma": "formulaic",
+      "pos": "adjective",
+      "meaning": "Built from a familiar pattern, with no surprises or originality.",
+      "examples": [
+        "The plot is {formulaic}: meet, quarrel, split up, reunite."
+      ],
+      "wrong": [
+        "The formulaic script broke every rule and surprised every viewer."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "predictable",
+        "stock"
+      ],
+      "ipa": "/ˌfɔrmjəˈleɪɪk/",
+      "antonyms": [
+        "original",
+        "inventive"
+      ]
+    },
+    {
+      "lemma": "pastiche",
+      "pos": "noun",
+      "meaning": "A work that imitates the style of another artist or period.",
+      "examples": [
+        "The film is a playful {pastiche} of old detective movies."
+      ],
+      "wrong": [
+        "The pastiche was completely original and copied no one."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imitation"
+      ],
+      "ipa": "/pæˈstiʃ/"
+    },
+    {
+      "lemma": "homage",
+      "pos": "noun",
+      "meaning": "Something made or done to show respect for an earlier artist or work.",
+      "examples": [
+        "The opening scene is a {homage} to a classic silent film."
+      ],
+      "wrong": [
+        "The director paid homage to the old master by mocking him."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tribute"
+      ],
+      "ipa": "/ˈhɑmɪdʒ/"
+    },
+    {
+      "lemma": "epigone",
+      "pos": "noun",
+      "meaning": "A minor follower or imitator of an important artist or thinker.",
+      "examples": [
+        "The great painter left behind a crowd of {epigones} who copied his style."
+      ],
+      "wrong": [
+        "As an epigone, she invented a style that no one before her had tried."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imitator",
+        "disciple"
+      ],
+      "ipa": "/ˈɛpɪˌɡoʊn/"
+    },
+    {
+      "lemma": "hackneyed",
+      "pos": "adjective",
+      "meaning": "Used so often that it has lost its effect.",
+      "examples": [
+        "The script was full of {hackneyed} lines about true love."
+      ],
+      "wrong": [
+        "His hackneyed phrase was something no one had ever heard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "clichéd",
+        "overused"
+      ],
+      "ipa": "/ˈhæknid/",
+      "antonyms": [
+        "original",
+        "fresh"
+      ]
+    },
+    {
+      "lemma": "trite",
+      "pos": "adjective",
+      "meaning": "Dull and unoriginal because it has been said too often.",
+      "examples": [
+        "The ending offered a {trite} message about following your dreams."
+      ],
+      "wrong": [
+        "Her trite insight surprised everyone with its freshness."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "banal",
+        "stale"
+      ],
+      "ipa": "/traɪt/",
+      "antonyms": [
+        "original",
+        "fresh"
+      ]
+    },
+    {
+      "lemma": "pedestrian",
+      "pos": "adjective",
+      "meaning": "Ordinary and dull, lacking imagination.",
+      "examples": [
+        "The acting was fine, but the direction was {pedestrian}."
+      ],
+      "wrong": [
+        "The pedestrian staging dazzled critics with its daring ideas."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "uninspired",
+        "mundane"
+      ],
+      "ipa": "/pəˈdɛstriən/",
+      "antonyms": [
+        "inspired",
+        "imaginative"
+      ]
+    },
+    {
+      "lemma": "workmanlike",
+      "pos": "adjective",
+      "meaning": "Competent and solid but not brilliant or inspired.",
+      "examples": [
+        "It is a {workmanlike} thriller that does its job and no more."
+      ],
+      "wrong": [
+        "The workmanlike performance was a dazzling stroke of genius."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "competent",
+        "serviceable"
+      ],
+      "ipa": "/ˈwɝkmənˌlaɪk/"
+    },
+    {
+      "lemma": "virtuosic",
+      "pos": "adjective",
+      "meaning": "Showing exceptional technical skill.",
+      "examples": [
+        "Her {virtuosic} solo earned a standing ovation."
+      ],
+      "wrong": [
+        "His virtuosic playing was full of clumsy wrong notes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "masterly",
+        "brilliant"
+      ],
+      "ipa": "/ˌvɝtʃuˈɑsɪk/"
+    },
+    {
+      "lemma": "bravura",
+      "pos": "adjective",
+      "meaning": "Showy, daring and done with great skill.",
+      "examples": [
+        "The film opens with a {bravura} ten-minute single shot."
+      ],
+      "wrong": [
+        "It was a bravura performance, timid and barely noticeable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dazzling",
+        "daring"
+      ],
+      "ipa": "/brəˈvʊrə/"
+    },
+    {
+      "lemma": "self-indulgent",
+      "pos": "adjective",
+      "meaning": "Made to please the artist rather than the audience, often too long or showy.",
+      "examples": [
+        "The three-hour cut feels {self-indulgent} and badly needs editing."
+      ],
+      "wrong": [
+        "Her tight, disciplined album is the least self-indulgent kind of work."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌsɛlf ɪnˈdʌldʒənt/"
+    },
+    {
+      "lemma": "juvenilia",
+      "pos": "noun",
+      "meaning": "Works produced by an artist or writer when young.",
+      "examples": [
+        "The exhibition includes the poet’s {juvenilia}, written at fourteen."
+      ],
+      "wrong": [
+        "These juvenilia were the last poems he wrote in old age."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "early works"
+      ],
+      "ipa": "/ˌdʒuvəˈnɪliə/"
+    },
+    {
+      "lemma": "canonical",
+      "pos": "adjective",
+      "meaning": "Accepted as one of the most important works in a field.",
+      "examples": [
+        "The novel is now a {canonical} text taught in every school."
+      ],
+      "wrong": [
+        "The canonical work is unknown and never studied."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "classic",
+        "authoritative"
+      ],
+      "ipa": "/kəˈnɑnɪkəl/"
+    },
+    {
+      "lemma": "bathos",
+      "pos": "noun",
+      "meaning": "A sudden, comic drop from a serious or grand tone to something silly.",
+      "examples": [
+        "The tragic speech collapsed into {bathos} when the hero tripped over a cat."
+      ],
+      "wrong": [
+        "The scene’s bathos lifted it steadily to ever greater dignity."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "anticlimax"
+      ],
+      "ipa": "/ˈbeɪθɑs/"
+    },
+    {
+      "lemma": "cerebral",
+      "pos": "adjective",
+      "meaning": "Appealing to the intellect rather than the emotions.",
+      "examples": [
+        "It is a cool, {cerebral} film that rewards close attention."
+      ],
+      "wrong": [
+        "The cerebral thriller relied only on gut feelings and cheap scares."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "intellectual",
+        "highbrow"
+      ],
+      "ipa": "/səˈribrəl/"
+    },
+    {
+      "lemma": "overwrought",
+      "pos": "adjective",
+      "meaning": "Too elaborate or emotional in style.",
+      "examples": [
+        "The poem’s {overwrought} imagery buried its simple idea."
+      ],
+      "wrong": [
+        "The overwrought prose was spare, calm and plain."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "overdone",
+        "florid"
+      ],
+      "ipa": "/ˌoʊvɚˈrɔt/"
+    },
+    {
+      "lemma": "mannered",
+      "pos": "adjective",
+      "meaning": "Having an artificial style that draws attention to itself.",
+      "examples": [
+        "His later paintings became {mannered} and self-conscious."
+      ],
+      "wrong": [
+        "Her mannered acting felt completely natural and effortless."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "affected",
+        "contrived"
+      ],
+      "ipa": "/ˈmænɚd/"
+    },
+    {
+      "lemma": "florid",
+      "pos": "adjective",
+      "meaning": "Too decorated and elaborate, especially in language.",
+      "examples": [
+        "The speech was {florid}, full of grand phrases and little sense."
+      ],
+      "wrong": [
+        "His florid writing used the plainest words possible."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "ornate",
+        "flowery"
+      ],
+      "ipa": "/ˈflɔrɪd/",
+      "antonyms": [
+        "plain",
+        "spare"
+      ]
+    },
+    {
+      "lemma": "purple prose",
+      "pos": "noun",
+      "meaning": "Writing that is too elaborate and emotional.",
+      "examples": [
+        "The editor cut pages of {purple prose} about sunsets."
+      ],
+      "wrong": [
+        "The report was purple prose, dry and strictly factual."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈpɝpəl ˈproʊz/"
+    },
+    {
+      "lemma": "turgid",
+      "pos": "adjective",
+      "meaning": "Pompous, heavy and boring to read or listen to.",
+      "examples": [
+        "The {turgid} essay took an hour to say almost nothing."
+      ],
+      "wrong": [
+        "The turgid article was light, clear and quick to read."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bombastic",
+        "pompous"
+      ],
+      "ipa": "/ˈtɝdʒɪd/"
+    },
+    {
+      "lemma": "auteur",
+      "pos": "noun",
+      "meaning": "A film director whose personal style marks everything they make.",
+      "examples": [
+        "Fans can spot an {auteur}’s work from a single shot."
+      ],
+      "wrong": [
+        "The auteur had no personal style and simply followed the studio’s orders."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/oʊˈtɝ/"
+    },
+    {
+      "lemma": "polemical",
+      "pos": "adjective",
+      "meaning": "Strongly attacking or defending an opinion.",
+      "examples": [
+        "The documentary is openly {polemical}, not balanced."
+      ],
+      "wrong": [
+        "His polemical essay carefully avoided taking any side."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "combative",
+        "contentious"
+      ],
+      "ipa": "/pəˈlɛmɪkəl/"
+    },
+    {
+      "lemma": "lampoon",
+      "pos": "verb",
+      "meaning": "To mock someone or something publicly with humor.",
+      "examples": [
+        "The sketch show {lampooned} the prime minister every week."
+      ],
+      "wrong": [
+        "The cartoonist lampooned the mayor by praising him solemnly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "satirize",
+        "parody"
+      ],
+      "ipa": "/læmˈpun/"
+    },
+    {
+      "lemma": "denouement",
+      "pos": "noun",
+      "meaning": "The final part of a story, where everything is explained or resolved.",
+      "examples": [
+        "The {denouement} reveals who wrote the anonymous letters."
+      ],
+      "wrong": [
+        "The denouement comes on the first page and starts the mystery."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "resolution",
+        "ending"
+      ],
+      "ipa": "/ˌdeɪnuˈmɑn/"
+    },
+    {
+      "lemma": "leitmotif",
+      "pos": "noun",
+      "meaning": "A theme, image or tune that keeps returning in a work.",
+      "examples": [
+        "Water is a {leitmotif} running through all her novels."
+      ],
+      "wrong": [
+        "The leitmotif appears only once and never returns."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "recurring theme",
+        "motif"
+      ],
+      "ipa": "/ˈlaɪtmoʊˌtif/"
+    },
+    {
+      "lemma": "trope",
+      "pos": "noun",
+      "meaning": "A common theme or device used again and again in a genre.",
+      "examples": [
+        "The chosen-one hero is a familiar {trope} of fantasy fiction."
+      ],
+      "wrong": [
+        "The trope was something no writer had ever used before."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "convention",
+        "device"
+      ],
+      "ipa": "/troʊp/"
+    },
+    {
+      "lemma": "subtext",
+      "pos": "noun",
+      "meaning": "A hidden meaning beneath the obvious words or action.",
+      "examples": [
+        "The {subtext} of the dinner scene is the couple’s failing marriage."
+      ],
+      "wrong": [
+        "The subtext was stated openly in the very first line."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "undertone",
+        "implication"
+      ],
+      "ipa": "/ˈsʌbˌtɛkst/"
+    },
+    {
+      "lemma": "chiaroscuro",
+      "pos": "noun",
+      "meaning": "The strong contrast of light and dark in a picture.",
+      "examples": [
+        "The painter used {chiaroscuro} to make the faces glow out of shadow."
+      ],
+      "wrong": [
+        "The chiaroscuro was flat, with no light or shade at all."
+      ],
+      "cefr": "C2",
+      "register": "term",
+      "ipa": "/kiˌɑrəˈskjʊroʊ/"
+    },
+    {
+      "lemma": "provenance",
+      "pos": "noun",
+      "meaning": "The record of where an artwork came from and who has owned it.",
+      "examples": [
+        "Experts traced the {provenance} of the vase back to 1820."
+      ],
+      "wrong": [
+        "The provenance of the painting was the color of its frame."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "origin",
+        "history"
+      ],
+      "ipa": "/ˈprɑvənəns/"
+    },
+    {
+      "lemma": "plaudits",
+      "pos": "noun",
+      "meaning": "Praise and approval.",
+      "examples": [
+        "The young director won {plaudits} for her first feature."
+      ],
+      "wrong": [
+        "The flop earned plaudits in the form of harsh reviews."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "acclaim",
+        "praise"
+      ],
+      "ipa": "/ˈplɔdɪts/"
+    },
+    {
+      "lemma": "encomium",
+      "pos": "noun",
+      "meaning": "A speech or piece of writing full of high praise.",
+      "examples": [
+        "The review was a glowing {encomium} to the young pianist."
+      ],
+      "wrong": [
+        "His encomium savagely attacked every part of the book."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tribute",
+        "eulogy"
+      ],
+      "ipa": "/ɛnˈkoʊmiəm/"
+    },
+    {
+      "lemma": "schmaltz",
+      "pos": "noun",
+      "meaning": "Too much sentimentality in music, film or writing.",
+      "examples": [
+        "The final scene drowns in {schmaltz}, with violins and tearful hugs."
+      ],
+      "wrong": [
+        "The cold, unsentimental film was full of schmaltz."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "sentimentality",
+        "mawkishness"
+      ],
+      "ipa": "/ʃmɑlts/"
+    },
+    {
+      "lemma": "damn with faint praise",
+      "pos": "phrase",
+      "meaning": "To criticize something by praising it only weakly.",
+      "examples": [
+        "Calling the film ’perfectly adequate’ is to {damn it with faint praise}."
+      ],
+      "wrong": [
+        "He damned the book with faint praise by calling it a timeless masterpiece."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˈdæm wɪð ˈfeɪnt ˈpreɪz/"
+    },
+    {
+      "lemma": "aesthete",
+      "pos": "noun",
+      "meaning": "A person with a refined love of art and beauty.",
+      "examples": [
+        "An {aesthete} to the core, he filled his flat with rare prints."
+      ],
+      "wrong": [
+        "As an aesthete, she cared nothing for art or beauty."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "connoisseur"
+      ],
+      "ipa": "/ˈɛsθit/",
+      "antonyms": [
+        "philistine"
+      ]
+    },
+    {
+      "lemma": "dilettante",
+      "pos": "noun",
+      "meaning": "Someone who dabbles in an art or subject without serious study.",
+      "examples": [
+        "He is a {dilettante} who paints a little and writes a little."
+      ],
+      "wrong": [
+        "A dilettante, she spent forty years mastering one instrument."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dabbler",
+        "amateur"
+      ],
+      "ipa": "/ˈdɪləˌtɑnt/"
+    },
+    {
+      "lemma": "panegyric",
+      "pos": "noun",
+      "meaning": "A public speech or text that praises someone very highly.",
+      "examples": [
+        "The biography reads less like history than a {panegyric}."
+      ],
+      "wrong": [
+        "His panegyric listed every fault of the retiring director."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "eulogy",
+        "tribute"
+      ],
+      "ipa": "/ˌpænəˈdʒɪrɪk/"
+    },
+    {
+      "lemma": "middlebrow",
+      "pos": "adjective",
+      "meaning": "Easy to enjoy and moderately serious, without being demanding.",
+      "examples": [
+        "The festival favors {middlebrow} dramas that please a wide audience."
+      ],
+      "wrong": [
+        "The middlebrow novel was so difficult that only scholars read it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "accessible",
+        "conventional"
+      ],
+      "ipa": "/ˈmɪdəlˌbraʊ/"
+    },
+    {
+      "lemma": "saccharine",
+      "pos": "adjective",
+      "meaning": "Too sweet or sentimental.",
+      "examples": [
+        "The film’s {saccharine} ending felt false after such a dark story."
+      ],
+      "wrong": [
+        "The saccharine song was harsh, bitter and cold."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sugary",
+        "cloying"
+      ],
+      "ipa": "/ˈsækərɪn/"
+    },
+    {
+      "lemma": "meretricious",
+      "pos": "adjective",
+      "meaning": "Attractive on the surface but having no real value.",
+      "examples": [
+        "The show dazzles with {meretricious} special effects but no story."
+      ],
+      "wrong": [
+        "The meretricious display had deep, lasting worth."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "tawdry",
+        "flashy"
+      ],
+      "ipa": "/ˌmɛrəˈtrɪʃəs/"
+    }
+  ]
+}

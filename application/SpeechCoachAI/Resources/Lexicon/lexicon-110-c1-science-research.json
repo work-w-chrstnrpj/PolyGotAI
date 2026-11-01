@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-science-research",
+    "title": "Science and research",
+    "level": "C1",
+    "tagline": "Studies, evidence and methods",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "replicate",
+      "pos": "verb",
+      "meaning": "To repeat a study or test and get the same results.",
+      "examples": [
+        "Other labs failed to {replicate} the surprising results."
+      ],
+      "wrong": [
+        "They replicated the study by never running it again."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "reproduce",
+        "repeat"
+      ],
+      "ipa": "/ˈrɛplɪˌkeɪt/"
+    },
+    {
+      "lemma": "peer review",
+      "pos": "noun",
+      "meaning": "The checking of a study by other experts before it is published.",
+      "examples": [
+        "The paper passed {peer review} and appeared in the journal last month."
+      ],
+      "wrong": [
+        "Peer review means the author checks his own work alone in secret."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈpɪr rɪˌvju/"
+    },
+    {
+      "lemma": "control group",
+      "pos": "noun",
+      "meaning": "The people in a study who get no treatment, so results can be compared.",
+      "examples": [
+        "The {control group} received a sugar pill instead of the drug."
+      ],
+      "wrong": [
+        "Everyone in the control group got the new treatment first."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/kənˈtroʊl ˌɡrup/"
+    },
+    {
+      "lemma": "variable",
+      "pos": "noun",
+      "meaning": "A factor in a study that can change and may affect the result.",
+      "examples": [
+        "Temperature was the only {variable} we changed in the test."
+      ],
+      "wrong": [
+        "A variable is something that can never change in any way."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "factor"
+      ],
+      "ipa": "/ˈvɛriəbəl/"
+    },
+    {
+      "lemma": "placebo",
+      "pos": "noun",
+      "meaning": "A harmless pill with no medicine in it, used to compare results in a test.",
+      "examples": [
+        "Half the patients were given a {placebo} without knowing it."
+      ],
+      "wrong": [
+        "The placebo was the strongest medicine in the whole trial."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dummy pill"
+      ],
+      "ipa": "/pləˈsiboʊ/"
+    },
+    {
+      "lemma": "causation",
+      "pos": "noun",
+      "meaning": "The fact of one thing directly making another thing happen.",
+      "examples": [
+        "Two things rising together does not prove {causation}."
+      ],
+      "wrong": [
+        "Causation means the two events had no link at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cause and effect"
+      ],
+      "ipa": "/kɔˈzeɪʃən/",
+      "antonyms": [
+        "correlation"
+      ]
+    },
+    {
+      "lemma": "randomize",
+      "pos": "verb",
+      "meaning": "To put people or things into groups by chance, so the test is fair.",
+      "examples": [
+        "We {randomized} patients into two groups by computer."
+      ],
+      "wrong": [
+        "She randomized the groups by choosing her favorite people for each one."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "shuffle"
+      ],
+      "ipa": "/ˈrændəˌmaɪz/"
+    },
+    {
+      "lemma": "falsify",
+      "pos": "verb",
+      "meaning": "To change facts or results dishonestly so they look different.",
+      "examples": [
+        "The researcher was fired for {falsifying} his data."
+      ],
+      "wrong": [
+        "She falsified the figures by reporting them exactly as they were."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "fake",
+        "fabricate"
+      ],
+      "ipa": "/ˈfɔlsəˌfaɪ/"
+    },
+    {
+      "lemma": "quantify",
+      "pos": "verb",
+      "meaning": "To measure something and express it as a number or amount.",
+      "examples": [
+        "It is hard to {quantify} the benefits of a good night’s sleep."
+      ],
+      "wrong": [
+        "We quantified the damage by refusing to measure anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "measure"
+      ],
+      "ipa": "/ˈkwɑntəˌfaɪ/"
+    },
+    {
+      "lemma": "longitudinal",
+      "pos": "adjective",
+      "meaning": "Describing a study that follows the same people over many years.",
+      "examples": [
+        "A {longitudinal} study tracked the children until they turned forty."
+      ],
+      "wrong": [
+        "The longitudinal study lasted only one afternoon."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌlɑndʒəˈtudənəl/"
+    },
+    {
+      "lemma": "specimen",
+      "pos": "noun",
+      "meaning": "A small amount or single example taken for scientific study.",
+      "examples": [
+        "The lab tested a {specimen} of the river water."
+      ],
+      "wrong": [
+        "A specimen is the whole collection, never a single sample."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "sample"
+      ],
+      "ipa": "/ˈspɛsəmən/"
+    },
+    {
+      "lemma": "genome",
+      "pos": "noun",
+      "meaning": "The complete set of genes in a living thing.",
+      "examples": [
+        "Scientists have mapped the entire {genome} of the rice plant."
+      ],
+      "wrong": [
+        "The genome is the outer shell of a turtle."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈdʒiˌnoʊm/"
+    },
+    {
+      "lemma": "catalyst",
+      "pos": "noun",
+      "meaning": "A substance that speeds up a chemical reaction without being used up.",
+      "examples": [
+        "The metal acts as a {catalyst} and makes the reaction much faster."
+      ],
+      "wrong": [
+        "Adding the catalyst stopped the reaction completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "accelerator"
+      ],
+      "ipa": "/ˈkætəlɪst/"
+    },
+    {
+      "lemma": "synthesize",
+      "pos": "verb",
+      "meaning": "To make a substance by combining simpler chemicals.",
+      "examples": [
+        "Chemists managed to {synthesize} the drug in the lab."
+      ],
+      "wrong": [
+        "They synthesized the compound by breaking it into pieces."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "produce",
+        "manufacture"
+      ],
+      "ipa": "/ˈsɪnθəˌsaɪz/"
+    },
+    {
+      "lemma": "margin of error",
+      "pos": "phrase",
+      "meaning": "The amount by which a measured result may differ from the true value.",
+      "examples": [
+        "The poll has a {margin of error} of three percent."
+      ],
+      "wrong": [
+        "A margin of error means the result is perfectly exact."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈmɑrdʒən əv ˈɛrɚ/"
+    },
+    {
+      "lemma": "statistically significant",
+      "pos": "phrase",
+      "meaning": "Too large to be explained by chance alone, according to math tests.",
+      "examples": [
+        "The drop in cases was {statistically significant}."
+      ],
+      "wrong": [
+        "The result was statistically significant, so it was probably just luck."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/stəˈtɪstɪkli sɪɡˈnɪfɪkənt/"
+    },
+    {
+      "lemma": "groundbreaking",
+      "pos": "adjective",
+      "meaning": "Very new and important, changing the way people think or work.",
+      "examples": [
+        "Her {groundbreaking} research changed how we treat burns."
+      ],
+      "wrong": [
+        "The groundbreaking study simply repeated old ideas."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "pioneering",
+        "innovative"
+      ],
+      "ipa": "/ˈɡraʊndˌbreɪkɪŋ/"
+    },
+    {
+      "lemma": "pilot study",
+      "pos": "noun",
+      "meaning": "A small first trial run to check a plan before the main research.",
+      "examples": [
+        "We ran a {pilot study} with twenty people before the main trial."
+      ],
+      "wrong": [
+        "The pilot study was the final and largest stage of the project."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "trial run"
+      ],
+      "ipa": "/ˈpaɪlət ˌstʌdi/"
+    },
+    {
+      "lemma": "outlier",
+      "pos": "noun",
+      "meaning": "A result that is very different from all the others in a set.",
+      "examples": [
+        "One very high score was an {outlier} and was removed."
+      ],
+      "wrong": [
+        "An outlier is a result that is exactly the same as the average."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "anomaly",
+        "exception"
+      ],
+      "ipa": "/ˈaʊtˌlaɪɚ/"
+    },
+    {
+      "lemma": "calibrate",
+      "pos": "verb",
+      "meaning": "To adjust a measuring tool so that it gives correct readings.",
+      "examples": [
+        "Technicians {calibrate} the scales every morning."
+      ],
+      "wrong": [
+        "He calibrated the thermometer so that it would show wrong numbers."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "adjust",
+        "set"
+      ],
+      "ipa": "/ˈkæləˌbreɪt/"
+    },
+    {
+      "lemma": "phenomenon",
+      "pos": "noun",
+      "meaning": "Something that happens or exists and can be observed or studied.",
+      "examples": [
+        "The northern lights are a natural {phenomenon}."
+      ],
+      "wrong": [
+        "A phenomenon is something nobody has ever seen or noticed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "occurrence",
+        "event"
+      ],
+      "ipa": "/fəˈnɑməˌnɑn/"
+    },
+    {
+      "lemma": "fieldwork",
+      "pos": "noun",
+      "meaning": "Research done in the real world rather than in a lab or office.",
+      "examples": [
+        "She spent a year doing {fieldwork} in the rainforest."
+      ],
+      "wrong": [
+        "His fieldwork took place entirely at his office desk."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈfildˌwɝk/"
+    },
+    {
+      "lemma": "double-blind",
+      "pos": "adjective",
+      "meaning": "Describing a test where neither patients nor researchers know who gets the real treatment.",
+      "examples": [
+        "In a {double-blind} trial, even the doctors don’t know who gets the drug."
+      ],
+      "wrong": [
+        "In the double-blind study, every patient was told exactly what pill they took."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˌdʌbəl ˈblaɪnd/"
+    },
+    {
+      "lemma": "chromosome",
+      "pos": "noun",
+      "meaning": "A thread-like part of a cell that carries genes.",
+      "examples": [
+        "Humans have 46 {chromosomes} in most cells."
+      ],
+      "wrong": [
+        "A chromosome is a large organ that pumps blood."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈkroʊməˌsoʊm/"
+    },
+    {
+      "lemma": "verifiable",
+      "pos": "adjective",
+      "meaning": "Able to be checked and shown to be true.",
+      "examples": [
+        "Good science relies on {verifiable} facts."
+      ],
+      "wrong": [
+        "The claim was verifiable, so nobody could ever check it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "provable",
+        "checkable"
+      ],
+      "ipa": "/ˈvɛrəˌfaɪəbəl/",
+      "antonyms": [
+        "unverifiable"
+      ]
+    },
+    {
+      "lemma": "speculate",
+      "pos": "verb",
+      "meaning": "To guess about something without having enough facts.",
+      "examples": [
+        "It is too early to {speculate} about the cause of the illness."
+      ],
+      "wrong": [
+        "She speculated about the result after reading the full, final report."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "guess",
+        "theorize"
+      ],
+      "ipa": "/ˈspɛkjəˌleɪt/"
+    },
+    {
+      "lemma": "evidence-based",
+      "pos": "adjective",
+      "meaning": "Based on facts from careful research rather than opinion.",
+      "examples": [
+        "Doctors should follow {evidence-based} guidelines."
+      ],
+      "wrong": [
+        "The evidence-based plan was built purely on rumors."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "research-based"
+      ],
+      "ipa": "/ˈɛvədəns ˌbeɪst/"
+    },
+    {
+      "lemma": "sample size",
+      "pos": "noun",
+      "meaning": "The number of people or things included in a study.",
+      "examples": [
+        "With a {sample size} of just ten, the results are weak."
+      ],
+      "wrong": [
+        "A large sample size means very few people took part."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈsæmpəl ˌsaɪz/"
+    },
+    {
+      "lemma": "observational",
+      "pos": "adjective",
+      "meaning": "Based on watching what happens rather than controlling it in a test.",
+      "examples": [
+        "The {observational} study simply recorded how people ate."
+      ],
+      "wrong": [
+        "In the observational study, scientists changed everyone’s diet on purpose."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌɑbzɚˈveɪʃənəl/"
+    },
+    {
+      "lemma": "reproducible",
+      "pos": "adjective",
+      "meaning": "Able to be done again with the same results.",
+      "examples": [
+        "A result must be {reproducible} before others will trust it."
+      ],
+      "wrong": [
+        "The result was reproducible, so nobody could ever get it again."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "repeatable"
+      ],
+      "ipa": "/ˌriprəˈdusəbəl/",
+      "antonyms": [
+        "unrepeatable"
+      ]
+    },
+    {
+      "lemma": "observable",
+      "pos": "adjective",
+      "meaning": "Able to be seen or noticed, and so studied.",
+      "examples": [
+        "The drug had no {observable} effect on sleep."
+      ],
+      "wrong": [
+        "The change was observable, so no one could see or detect it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "noticeable",
+        "visible",
+        "detectable"
+      ],
+      "ipa": "/əbˈzɝvəbəl/"
+    },
+    {
+      "lemma": "theorize",
+      "pos": "verb",
+      "meaning": "To suggest an explanation for something that has not been proved.",
+      "examples": [
+        "Scientists {theorize} that the planet once had oceans."
+      ],
+      "wrong": [
+        "He theorized about the cause only after it was fully proved."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hypothesize",
+        "speculate"
+      ],
+      "ipa": "/ˈθiəˌraɪz/"
+    },
+    {
+      "lemma": "measurable",
+      "pos": "adjective",
+      "meaning": "Large enough or clear enough to be measured.",
+      "examples": [
+        "The new diet led to a {measurable} drop in weight."
+      ],
+      "wrong": [
+        "The change was measurable, so no tool could detect it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "quantifiable",
+        "noticeable"
+      ],
+      "ipa": "/ˈmɛʒərəbəl/",
+      "antonyms": [
+        "immeasurable"
+      ]
+    },
+    {
+      "lemma": "parameter",
+      "pos": "noun",
+      "meaning": "A fixed limit or factor that controls how something is done.",
+      "examples": [
+        "We set the {parameters} of the study before we began."
+      ],
+      "wrong": [
+        "A parameter is a rule that nobody needs to follow."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "limit",
+        "boundary"
+      ],
+      "ipa": "/pəˈræmətɚ/"
+    },
+    {
+      "lemma": "proof of concept",
+      "pos": "phrase",
+      "meaning": "A small test showing that an idea can really work.",
+      "examples": [
+        "The small robot was a {proof of concept} for the larger design."
+      ],
+      "wrong": [
+        "The proof of concept showed that the idea could never work at all."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈpruf əv ˈkɑnsɛpt/"
+    },
+    {
+      "lemma": "dissect",
+      "pos": "verb",
+      "meaning": "To cut up a dead animal or plant to study its parts.",
+      "examples": [
+        "Biology students {dissect} a frog in class."
+      ],
+      "wrong": [
+        "They dissected the frog by keeping it whole and untouched."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cut up"
+      ],
+      "ipa": "/daɪˈsɛkt/"
+    },
+    {
+      "lemma": "microscopic",
+      "pos": "adjective",
+      "meaning": "So small that it can only be seen with a microscope.",
+      "examples": [
+        "The water contained {microscopic} creatures."
+      ],
+      "wrong": [
+        "The microscopic insect was as large as a cat."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tiny",
+        "minute"
+      ],
+      "ipa": "/ˌmaɪkrəˈskɑpɪk/",
+      "antonyms": [
+        "huge",
+        "enormous"
+      ]
+    },
+    {
+      "lemma": "isolate",
+      "pos": "verb",
+      "meaning": "To separate a substance or cause from others so it can be studied.",
+      "examples": [
+        "Researchers {isolated} the gene responsible for the disease."
+      ],
+      "wrong": [
+        "They isolated the virus by mixing it with everything else."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "separate",
+        "extract"
+      ],
+      "ipa": "/ˈaɪsəˌleɪt/"
+    },
+    {
+      "lemma": "mutation",
+      "pos": "noun",
+      "meaning": "A change in the genes of a living thing.",
+      "examples": [
+        "A small {mutation} made the virus spread faster."
+      ],
+      "wrong": [
+        "A mutation is a gene that never changes in any way."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "change",
+        "variation"
+      ],
+      "ipa": "/mjuˈteɪʃən/"
+    },
+    {
+      "lemma": "scientific method",
+      "pos": "noun",
+      "meaning": "The process of testing ideas through observation and experiments.",
+      "examples": [
+        "The {scientific method} starts with a question and a test."
+      ],
+      "wrong": [
+        "The scientific method means believing an idea without testing it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌsaɪənˈtɪfɪk ˈmɛθəd/"
+    }
+  ]
+}

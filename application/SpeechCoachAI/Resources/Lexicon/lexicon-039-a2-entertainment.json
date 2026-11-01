@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-entertainment",
+    "title": "Entertainment",
+    "level": "A2",
+    "tagline": "Films, music and TV",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "movie",
+      "pos": "noun",
+      "meaning": "A story told with moving pictures and sound.",
+      "examples": [
+        "Let’s watch a {movie} tonight."
+      ],
+      "wrong": [
+        "I read a movie with no pictures in bed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "film"
+      ],
+      "ipa": "/ˈmuvi/"
+    },
+    {
+      "lemma": "cinema",
+      "pos": "noun",
+      "meaning": "A building where you pay to watch films on a big screen.",
+      "examples": [
+        "We saw the new film at the {cinema}."
+      ],
+      "wrong": [
+        "I watched the film at the cinema on my small phone at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "movie theater"
+      ],
+      "ipa": "/ˈsɪnəmə/"
+    },
+    {
+      "lemma": "animated",
+      "pos": "adjective",
+      "meaning": "Made with drawings or computer pictures that seem to move.",
+      "examples": [
+        "Kids love {animated} films with talking animals."
+      ],
+      "wrong": [
+        "The animated film used only real actors and no drawings."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈænəˌmeɪtɪd/"
+    },
+    {
+      "lemma": "rock music",
+      "pos": "noun",
+      "meaning": "Loud popular music with electric guitars and drums.",
+      "examples": [
+        "He plays {rock music} in his garage."
+      ],
+      "wrong": [
+        "Rock music is soft and quiet, played on a harp."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "rock"
+      ],
+      "ipa": "/ˈrɑk ˌmjuzɪk/"
+    },
+    {
+      "lemma": "pop star",
+      "pos": "noun",
+      "meaning": "A famous singer of popular music.",
+      "examples": [
+        "The {pop star} sang her new song on TV."
+      ],
+      "wrong": [
+        "The pop star has never sung in public."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɑp stɑr/"
+    },
+    {
+      "lemma": "movie star",
+      "pos": "noun",
+      "meaning": "A very famous film actor.",
+      "examples": [
+        "A {movie star} visited our town and everyone wanted a photo."
+      ],
+      "wrong": [
+        "Nobody knows the movie star’s name."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "film star"
+      ],
+      "ipa": "/ˈmuvi stɑr/"
+    },
+    {
+      "lemma": "superhero",
+      "pos": "noun",
+      "meaning": "A character in a story with special powers who saves people.",
+      "examples": [
+        "The {superhero} can fly faster than a plane."
+      ],
+      "wrong": [
+        "The superhero has no powers and never helps anyone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsupɚˌhɪroʊ/"
+    },
+    {
+      "lemma": "band",
+      "pos": "noun",
+      "meaning": "A group of people who play music together.",
+      "examples": [
+        "My brother plays guitar in a {band}."
+      ],
+      "wrong": [
+        "The band was just one person reading a book."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "group"
+      ],
+      "ipa": "/bænd/"
+    },
+    {
+      "lemma": "album",
+      "pos": "noun",
+      "meaning": "A collection of songs that come out together.",
+      "examples": [
+        "Her new {album} has twelve songs."
+      ],
+      "wrong": [
+        "An album is one short note of music."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "record"
+      ],
+      "ipa": "/ˈælbəm/"
+    },
+    {
+      "lemma": "music video",
+      "pos": "noun",
+      "meaning": "A short film made to go with a song.",
+      "examples": [
+        "The {music video} was filmed on a beach."
+      ],
+      "wrong": [
+        "A music video has no music in it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmjuzɪk ˈvɪdioʊ/"
+    },
+    {
+      "lemma": "pop music",
+      "pos": "noun",
+      "meaning": "Modern, popular songs that are easy to listen to.",
+      "examples": [
+        "She listens to {pop music} on the radio."
+      ],
+      "wrong": [
+        "Pop music is very old and nobody likes it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pop"
+      ],
+      "ipa": "/ˈpɑp ˌmjuzɪk/"
+    },
+    {
+      "lemma": "classical",
+      "pos": "adjective",
+      "meaning": "Describing serious music written long ago, often for orchestras.",
+      "examples": [
+        "He listens to {classical} music when he studies."
+      ],
+      "wrong": [
+        "Classical music was written last week by a rock band."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈklæsɪkəl/"
+    },
+    {
+      "lemma": "jazz",
+      "pos": "noun",
+      "meaning": "A kind of music with a strong rhythm, often made up while playing.",
+      "examples": [
+        "They play {jazz} at the café on Friday nights."
+      ],
+      "wrong": [
+        "Jazz is a sport played with a ball."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dʒæz/"
+    },
+    {
+      "lemma": "drums",
+      "pos": "noun",
+      "meaning": "Instruments you hit with sticks to make a beat.",
+      "examples": [
+        "He plays the {drums} very loudly."
+      ],
+      "wrong": [
+        "She plays the drums by blowing into them."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/drʌmz/"
+    },
+    {
+      "lemma": "love story",
+      "pos": "noun",
+      "meaning": "A film or book about two people falling in love.",
+      "examples": [
+        "My sister cried at the end of the {love story}."
+      ],
+      "wrong": [
+        "The love story was about soldiers who hated each other."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "romance"
+      ],
+      "ipa": "/ˈlʌv ˌstɔri/"
+    },
+    {
+      "lemma": "science fiction",
+      "pos": "noun",
+      "meaning": "Stories about the future, space or new technology.",
+      "examples": [
+        "She loves {science fiction} films about space."
+      ],
+      "wrong": [
+        "Science fiction is true stories about the past."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "sci-fi"
+      ],
+      "ipa": "/ˈsaɪəns ˈfɪkʃən/"
+    },
+    {
+      "lemma": "TV show",
+      "pos": "noun",
+      "meaning": "A program you watch on television.",
+      "examples": [
+        "My favorite {TV show} is on at eight."
+      ],
+      "wrong": [
+        "I listened to the TV show on paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "program"
+      ],
+      "ipa": "/ˌtiˈvi ʃoʊ/"
+    },
+    {
+      "lemma": "talk show",
+      "pos": "noun",
+      "meaning": "A program where a host chats with famous guests.",
+      "examples": [
+        "The singer was a guest on a {talk show}."
+      ],
+      "wrong": [
+        "On the talk show, nobody said a word."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "chat show"
+      ],
+      "ipa": "/ˈtɔk ʃoʊ/"
+    },
+    {
+      "lemma": "game show",
+      "pos": "noun",
+      "meaning": "A program where people answer questions or play to win prizes.",
+      "examples": [
+        "He won a car on a {game show}."
+      ],
+      "wrong": [
+        "In a game show, there are no games and no prizes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "quiz show"
+      ],
+      "ipa": "/ˈɡeɪm ʃoʊ/"
+    },
+    {
+      "lemma": "series",
+      "pos": "noun",
+      "meaning": "A set of programs with the same characters, shown one after another.",
+      "examples": [
+        "I watched the whole {series} in one weekend."
+      ],
+      "wrong": [
+        "The series had only one show and nothing more."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "show"
+      ],
+      "ipa": "/ˈsɪriz/"
+    },
+    {
+      "lemma": "remote control",
+      "pos": "noun",
+      "meaning": "A small device you use to change the channel from your seat.",
+      "examples": [
+        "Where’s the {remote control}? I want to change the channel."
+      ],
+      "wrong": [
+        "I opened the door of the house with the TV remote control."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "remote"
+      ],
+      "ipa": "/rɪˈmoʊt kənˈtroʊl/"
+    },
+    {
+      "lemma": "cartoon",
+      "pos": "noun",
+      "meaning": "A film or show made with drawings.",
+      "examples": [
+        "The kids watch {cartoons} on Saturday morning."
+      ],
+      "wrong": [
+        "The cartoon used only real people and no drawings."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "animation"
+      ],
+      "ipa": "/kɑrˈtun/"
+    },
+    {
+      "lemma": "comedy",
+      "pos": "noun",
+      "meaning": "A film or show that makes people laugh.",
+      "examples": [
+        "We watched a {comedy} and laughed all night."
+      ],
+      "wrong": [
+        "The comedy was so sad that everyone cried."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɑmədi/",
+      "antonyms": [
+        "tragedy"
+      ]
+    },
+    {
+      "lemma": "action movie",
+      "pos": "noun",
+      "meaning": "A film with lots of fights, chases and excitement.",
+      "examples": [
+        "The {action movie} had car chases and explosions."
+      ],
+      "wrong": [
+        "The action movie was quiet and slow, with nothing happening."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "action film"
+      ],
+      "ipa": "/ˈækʃən ˌmuvi/"
+    },
+    {
+      "lemma": "drama",
+      "pos": "noun",
+      "meaning": "A serious film, play or show about people’s lives.",
+      "examples": [
+        "The {drama} is about a family with a big secret."
+      ],
+      "wrong": [
+        "The drama was full of jokes and silly songs."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdrɑmə/"
+    },
+    {
+      "lemma": "soap opera",
+      "pos": "noun",
+      "meaning": "A TV series about the daily lives of a group of people, shown often.",
+      "examples": [
+        "My grandma watches a {soap opera} every afternoon."
+      ],
+      "wrong": [
+        "The soap opera is a show about washing clothes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "soap"
+      ],
+      "ipa": "/ˈsoʊp ˌɑprə/"
+    },
+    {
+      "lemma": "reality show",
+      "pos": "noun",
+      "meaning": "A TV program that films real people, not actors.",
+      "examples": [
+        "She was on a {reality show} about cooking."
+      ],
+      "wrong": [
+        "The reality show used actors reading a script."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/riˈæləti ʃoʊ/"
+    },
+    {
+      "lemma": "hero",
+      "pos": "noun",
+      "meaning": "The main good character in a story or film.",
+      "examples": [
+        "The {hero} saves the city at the end."
+      ],
+      "wrong": [
+        "The hero is the bad man who causes all the trouble."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhɪroʊ/",
+      "antonyms": [
+        "villain"
+      ]
+    },
+    {
+      "lemma": "villain",
+      "pos": "noun",
+      "meaning": "The bad character in a story or film.",
+      "examples": [
+        "The {villain} wants to steal the gold."
+      ],
+      "wrong": [
+        "The villain is the kind man who helps everyone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "bad guy"
+      ],
+      "ipa": "/ˈvɪlən/",
+      "antonyms": [
+        "hero"
+      ]
+    },
+    {
+      "lemma": "ending",
+      "pos": "noun",
+      "meaning": "The last part of a story or film.",
+      "examples": [
+        "The film has a happy {ending}."
+      ],
+      "wrong": [
+        "The ending is at the very start of the book."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "conclusion"
+      ],
+      "ipa": "/ˈɛndɪŋ/",
+      "antonyms": [
+        "beginning",
+        "start"
+      ]
+    },
+    {
+      "lemma": "popcorn",
+      "pos": "noun",
+      "meaning": "Corn that pops when it is heated, often eaten at the cinema.",
+      "examples": [
+        "We shared a big bag of {popcorn} during the film."
+      ],
+      "wrong": [
+        "I drank a cup of popcorn."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɑpˌkɔrn/"
+    },
+    {
+      "lemma": "presenter",
+      "pos": "noun",
+      "meaning": "A person who introduces a TV or radio program.",
+      "examples": [
+        "The {presenter} welcomed the guests to the show."
+      ],
+      "wrong": [
+        "The presenter never speaks on the show."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "host"
+      ],
+      "ipa": "/prɪˈzɛntɚ/"
+    },
+    {
+      "lemma": "musical",
+      "pos": "noun",
+      "meaning": "A play or film where the story is told with songs and dancing.",
+      "examples": [
+        "We saw a {musical} in the theater."
+      ],
+      "wrong": [
+        "The musical had no music at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈmjuzɪkəl/"
+    },
+    {
+      "lemma": "viewer",
+      "pos": "noun",
+      "meaning": "A person who watches a TV program.",
+      "examples": [
+        "Millions of {viewers} watched the final."
+      ],
+      "wrong": [
+        "The viewers never watch TV."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "watcher"
+      ],
+      "ipa": "/ˈvjuɚ/"
+    },
+    {
+      "lemma": "clap",
+      "pos": "verb",
+      "meaning": "To hit your hands together to show you liked something.",
+      "examples": [
+        "Everyone {clapped} at the end of the show."
+      ],
+      "wrong": [
+        "The audience clapped because they hated the show."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "applaud"
+      ],
+      "ipa": "/klæp/"
+    },
+    {
+      "lemma": "exciting",
+      "pos": "adjective",
+      "meaning": "Making you feel very interested and full of energy.",
+      "examples": [
+        "The match was so {exciting}!"
+      ],
+      "wrong": [
+        "The film was so exciting that I fell asleep."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "thrilling"
+      ],
+      "ipa": "/ɪkˈsaɪtɪŋ/",
+      "antonyms": [
+        "boring",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "live music",
+      "pos": "noun",
+      "meaning": "Music that people play in front of you, not a recording.",
+      "examples": [
+        "The café has {live music} every Friday."
+      ],
+      "wrong": [
+        "The live music came from an old recording."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈlaɪv ˈmjuzɪk/"
+    },
+    {
+      "lemma": "costume",
+      "pos": "noun",
+      "meaning": "Special clothes an actor wears to look like a character.",
+      "examples": [
+        "The actor wore a pirate {costume}."
+      ],
+      "wrong": [
+        "A costume is the money you pay for a ticket."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "outfit"
+      ],
+      "ipa": "/ˈkɑstum/"
+    },
+    {
+      "lemma": "hit",
+      "pos": "noun",
+      "meaning": "A song or film that is very popular.",
+      "examples": [
+        "The song was a big {hit} last summer."
+      ],
+      "wrong": [
+        "The song was a hit, so nobody bought it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/hɪt/"
+    },
+    {
+      "lemma": "special effects",
+      "pos": "noun",
+      "meaning": "Tricks used to make impossible things look real in a film.",
+      "examples": [
+        "The {special effects} made the dragon look real."
+      ],
+      "wrong": [
+        "The film has special effects, so everything looks fake."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈspɛʃəl ɪˈfɛkts/"
+    }
+  ]
+}

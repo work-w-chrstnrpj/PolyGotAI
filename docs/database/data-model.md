@@ -1,5 +1,7 @@
 # Data model (v2)
 
+> **Phase 7 (2026-10-26):** Communication practice, Generated practice, Vocabulary discovery and the v1 Word of the day were removed with their stored fields (`communication`, `generatedPractice`, `wordOfDay`); mentions of them below are historical. See [TDD › Phase 7 rework](../tdd/tdd.md#phase-7-rework-2026-10-26).
+
 > Source of truth: `Infrastructure/Persistence/LearnerSchema.swift` and `LearnerRepository.swift`. Detailed v1 field history: [history/v1/database](../history/v1/database/data-model.md).
 
 ## Storage
@@ -30,3 +32,12 @@
 | 1 ✅ | Result and lesson accuracy | Recomputed from the stored first answer with `ExerciseSpec.result(forStored:)`; not stored |
 | 2 | Track lessons | Same `lessonJourneys`, keyed by unique lesson id |
 | 4 | Speech Lab attempts | Optional `speechLabAttempts: [SpeechLabAttempt]` (area, item id, date, accuracy/wpm/pauses, optional recording id) |
+
+## Phase 13 — reading checkpoints (2026-10-26)
+
+The existing lesson-journey JSON gains optional `readingPageIndex: Int?` and `readingCompletedAt: Date?`. Old documents omit both and decode without migration. Reading navigation commits the same journey with its existing responses; reading alone awards no exercise completion. New topic lessons use distinct IDs and content version 2. Retired lesson definitions live in bundled track `archivedLessons`, not in learner storage, and remain resolvable by exact ID/version. No owner data is reset or deleted.
+
+## Phase 15 — Lab videos and timed tests (2026-10-26)
+
+`SpeechLabState` (the existing optional `speechLab` JSON field) gains an optional `extras: LabExtrasState?`: `watched` (video ID → date marked), `fingerprints` (test kind → short hashes of past items, capped at 400 per kind) and `recentThemes` (test kind → last themes used). Older documents omit it and decode unchanged; no SwiftData migration. Item text is not stored, only hashes. Timed-writing feedback is saved in the existing `labFeedback` list with the new mode `writing`. Erase all data clears it with the rest of the document.
+

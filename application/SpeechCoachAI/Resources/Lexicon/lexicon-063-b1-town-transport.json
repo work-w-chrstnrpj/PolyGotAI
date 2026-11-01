@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-town-transport",
+    "title": "Town and transport",
+    "level": "B1",
+    "tagline": "Getting around the city",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "commute",
+      "pos": "verb",
+      "meaning": "To travel regularly between your home and your place of work.",
+      "examples": [
+        "I {commute} to the city by train every day."
+      ],
+      "wrong": [
+        "He commutes to work, but he works from home and never leaves."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/kəˈmjut/"
+    },
+    {
+      "lemma": "rush hour",
+      "pos": "noun",
+      "meaning": "The busy time of day when many people go to or come home from work.",
+      "examples": [
+        "The buses are packed during {rush hour}."
+      ],
+      "wrong": [
+        "The roads are always empty at rush hour."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "peak time"
+      ],
+      "ipa": "/ˈrʌʃ ˌaʊɚ/",
+      "antonyms": [
+        "off-peak"
+      ]
+    },
+    {
+      "lemma": "traffic jam",
+      "pos": "noun",
+      "meaning": "A long line of cars on a road that move very slowly or not at all.",
+      "examples": [
+        "We were stuck in a {traffic jam} for an hour."
+      ],
+      "wrong": [
+        "There was a traffic jam, so we drove quickly all the way."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gridlock",
+        "tailback"
+      ],
+      "ipa": "/ˈtræfɪk ˌdʒæm/"
+    },
+    {
+      "lemma": "pedestrian",
+      "pos": "noun",
+      "meaning": "A person walking in the street, not in a car.",
+      "examples": [
+        "This street is only for {pedestrians}."
+      ],
+      "wrong": [
+        "The pedestrian drove down the highway at high speed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "walker"
+      ],
+      "ipa": "/pəˈdɛstriən/"
+    },
+    {
+      "lemma": "crosswalk",
+      "pos": "noun",
+      "meaning": "A marked place on a road where people can walk across safely.",
+      "examples": [
+        "Cross the road at the {crosswalk}."
+      ],
+      "wrong": [
+        "We parked our car in the middle of the crosswalk to sleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "zebra crossing"
+      ],
+      "ipa": "/ˈkrɔsˌwɔk/"
+    },
+    {
+      "lemma": "intersection",
+      "pos": "noun",
+      "meaning": "A place where two or more roads meet and cross.",
+      "examples": [
+        "Turn left at the next {intersection}."
+      ],
+      "wrong": [
+        "At the intersection the road had no other roads crossing it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "junction",
+        "crossroads"
+      ],
+      "ipa": "/ˈɪntɚˌsɛkʃən/"
+    },
+    {
+      "lemma": "roundabout",
+      "pos": "noun",
+      "meaning": "A circle where several roads meet and traffic goes around in one direction.",
+      "examples": [
+        "Take the second exit at the {roundabout}."
+      ],
+      "wrong": [
+        "The roundabout is a straight road with no turns at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "traffic circle"
+      ],
+      "ipa": "/ˈraʊndəˌbaʊt/"
+    },
+    {
+      "lemma": "lane",
+      "pos": "noun",
+      "meaning": "One of the parts of a road, marked with lines, for a single line of cars.",
+      "examples": [
+        "The bus moved into the left {lane}."
+      ],
+      "wrong": [
+        "The highway had four lanes, all in one big strip with no lines."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/leɪn/"
+    },
+    {
+      "lemma": "speed limit",
+      "pos": "noun",
+      "meaning": "The fastest speed you are allowed to drive on a road.",
+      "examples": [
+        "The {speed limit} here is thirty miles an hour."
+      ],
+      "wrong": [
+        "He kept to the speed limit by driving as fast as the car could go."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈspid ˌlɪmɪt/"
+    },
+    {
+      "lemma": "toll",
+      "pos": "noun",
+      "meaning": "Money you pay to use a road or bridge.",
+      "examples": [
+        "We paid a {toll} to cross the bridge."
+      ],
+      "wrong": [
+        "The toll is money the bridge pays to every driver."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "charge",
+        "fee"
+      ],
+      "ipa": "/toʊl/"
+    },
+    {
+      "lemma": "detour",
+      "pos": "noun",
+      "meaning": "A longer way you take because the usual road is closed.",
+      "examples": [
+        "The road was closed, so we took a {detour}."
+      ],
+      "wrong": [
+        "We took a detour, the shortest and most direct way."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "diversion"
+      ],
+      "ipa": "/ˈditʊr/"
+    },
+    {
+      "lemma": "suburb",
+      "pos": "noun",
+      "meaning": "An area of homes on the edge of a city.",
+      "examples": [
+        "They live in a quiet {suburb} and drive into town."
+      ],
+      "wrong": [
+        "The suburb is in the very center of the city."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "outskirts"
+      ],
+      "ipa": "/ˈsʌbɝb/",
+      "antonyms": [
+        "downtown",
+        "city center"
+      ]
+    },
+    {
+      "lemma": "outskirts",
+      "pos": "noun",
+      "meaning": "The outer parts of a town or city.",
+      "examples": [
+        "The airport is on the {outskirts} of the city."
+      ],
+      "wrong": [
+        "The outskirts of the city are right in the middle of downtown."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "edge",
+        "fringes"
+      ],
+      "ipa": "/ˈaʊtˌskɝts/"
+    },
+    {
+      "lemma": "district",
+      "pos": "noun",
+      "meaning": "An area of a town or country with its own character.",
+      "examples": [
+        "The theater {district} is busy at night."
+      ],
+      "wrong": [
+        "A district is a single small house."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "area",
+        "quarter"
+      ],
+      "ipa": "/ˈdɪstrɪkt/"
+    },
+    {
+      "lemma": "avenue",
+      "pos": "noun",
+      "meaning": "A wide street in a town, often with trees on both sides.",
+      "examples": [
+        "The museum is on Fifth {Avenue}."
+      ],
+      "wrong": [
+        "An avenue is a narrow path for one person in the forest."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "boulevard"
+      ],
+      "ipa": "/ˈævəˌnu/"
+    },
+    {
+      "lemma": "signpost",
+      "pos": "noun",
+      "meaning": "A sign by a road that shows the way and how far it is to places.",
+      "examples": [
+        "The {signpost} says the village is two miles away."
+      ],
+      "wrong": [
+        "We followed the signpost, which gave no directions at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sign"
+      ],
+      "ipa": "/ˈsaɪnˌpoʊst/"
+    },
+    {
+      "lemma": "hitchhike",
+      "pos": "verb",
+      "meaning": "To travel by getting free rides from drivers you stop by the road.",
+      "examples": [
+        "As students, we {hitchhiked} across Europe."
+      ],
+      "wrong": [
+        "She hitchhiked by buying a train ticket."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "thumb a ride"
+      ],
+      "ipa": "/ˈhɪtʃˌhaɪk/"
+    },
+    {
+      "lemma": "flat tire",
+      "pos": "noun",
+      "meaning": "A tire on a car or bike that has lost its air.",
+      "examples": [
+        "I got a {flat tire} on the way to work."
+      ],
+      "wrong": [
+        "My bike rode perfectly because of the flat tire."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "puncture"
+      ],
+      "ipa": "/ˌflæt ˈtaɪɚ/"
+    },
+    {
+      "lemma": "gas station",
+      "pos": "noun",
+      "meaning": "A place where you buy fuel for your car.",
+      "examples": [
+        "We stopped at a {gas station} to fill up."
+      ],
+      "wrong": [
+        "We stopped at the gas station to see a doctor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "filling station"
+      ],
+      "ipa": "/ˈɡæs ˌsteɪʃən/"
+    },
+    {
+      "lemma": "fuel",
+      "pos": "noun",
+      "meaning": "Something like gas or oil that is burned to make an engine work.",
+      "examples": [
+        "The car ran out of {fuel} on the highway."
+      ],
+      "wrong": [
+        "The car ran on no fuel at all, so it needed fuel every day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "gas",
+        "petrol"
+      ],
+      "ipa": "/ˈfjuəl/"
+    },
+    {
+      "lemma": "overtake",
+      "pos": "verb",
+      "meaning": "To go past a slower car that is moving in the same direction.",
+      "examples": [
+        "Don’t {overtake} on a bend."
+      ],
+      "wrong": [
+        "He overtook the truck by staying behind it all the way."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pass"
+      ],
+      "ipa": "/ˌoʊvɚˈteɪk/"
+    },
+    {
+      "lemma": "honk",
+      "pos": "verb",
+      "meaning": "To make the loud noise of a car horn.",
+      "examples": [
+        "The taxi driver {honked} at the cyclist."
+      ],
+      "wrong": [
+        "He honked the horn quietly so nobody heard a thing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "beep",
+        "hoot"
+      ],
+      "ipa": "/hɑŋk/"
+    },
+    {
+      "lemma": "brake",
+      "pos": "verb",
+      "meaning": "To make a car or bike slow down or stop.",
+      "examples": [
+        "She {braked} hard when the cat ran into the road."
+      ],
+      "wrong": [
+        "He braked to make the car go faster."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "slow down"
+      ],
+      "ipa": "/breɪk/",
+      "antonyms": [
+        "accelerate",
+        "speed up"
+      ]
+    },
+    {
+      "lemma": "seatbelt",
+      "pos": "noun",
+      "meaning": "A strap in a car or plane that holds you in your seat.",
+      "examples": [
+        "Always wear your {seatbelt} in the car."
+      ],
+      "wrong": [
+        "I wore my seatbelt on my head like a hat."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "safety belt"
+      ],
+      "ipa": "/ˈsitˌbɛlt/"
+    },
+    {
+      "lemma": "city hall",
+      "pos": "noun",
+      "meaning": "The building where a city’s government works.",
+      "examples": [
+        "You can get a parking permit at {city hall}."
+      ],
+      "wrong": [
+        "City hall is a small shop that sells fruit."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "town hall"
+      ],
+      "ipa": "/ˌsɪti ˈhɔl/"
+    },
+    {
+      "lemma": "bus pass",
+      "pos": "noun",
+      "meaning": "A ticket that lets you ride the bus many times for a week, month or year.",
+      "examples": [
+        "With a monthly {bus pass}, I travel as much as I like."
+      ],
+      "wrong": [
+        "My bus pass only works for one trip on one day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "travel card"
+      ],
+      "ipa": "/ˈbʌs ˌpæs/"
+    },
+    {
+      "lemma": "change trains",
+      "pos": "phrase",
+      "meaning": "To get off one train and get on another to continue a journey.",
+      "examples": [
+        "You have to {change trains} at the central station."
+      ],
+      "wrong": [
+        "We changed trains by staying on the same train all the way."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "transfer"
+      ],
+      "ipa": "/ˈtʃeɪndʒ ˈtreɪnz/"
+    },
+    {
+      "lemma": "bike lane",
+      "pos": "noun",
+      "meaning": "A part of a road kept for people riding bicycles.",
+      "examples": [
+        "I feel safer riding in the {bike lane}."
+      ],
+      "wrong": [
+        "Cars must use the bike lane, not the road."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cycle lane"
+      ],
+      "ipa": "/ˈbaɪk ˌleɪn/"
+    },
+    {
+      "lemma": "on foot",
+      "pos": "phrase",
+      "meaning": "Walking, not using a car or bus.",
+      "examples": [
+        "The beach is ten minutes away {on foot}."
+      ],
+      "wrong": [
+        "We went on foot, so we took the bus."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ɑn ˈfʊt/"
+    },
+    {
+      "lemma": "public transportation",
+      "pos": "noun",
+      "meaning": "Buses, trains and other vehicles that everyone can pay to use.",
+      "examples": [
+        "The city has good {public transportation}, so I don’t need a car."
+      ],
+      "wrong": [
+        "Public transportation is my own private car."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "public transit",
+        "mass transit"
+      ],
+      "ipa": "/ˈpʌblɪk ˌtrænspɚˈteɪʃən/"
+    },
+    {
+      "lemma": "ticket machine",
+      "pos": "noun",
+      "meaning": "A machine where you buy tickets for a bus, train or parking.",
+      "examples": [
+        "Buy your ticket at the {ticket machine} on the platform."
+      ],
+      "wrong": [
+        "The ticket machine sells hot coffee and nothing else."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈtɪkɪt məˌʃin/"
+    },
+    {
+      "lemma": "residential",
+      "pos": "adjective",
+      "meaning": "Describes an area where people live, not where there are shops or factories.",
+      "examples": [
+        "It’s a quiet {residential} street with no stores."
+      ],
+      "wrong": [
+        "The residential area is full of factories and nobody lives there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌrɛzɪˈdɛnʃəl/",
+      "antonyms": [
+        "commercial",
+        "industrial"
+      ]
+    },
+    {
+      "lemma": "parking space",
+      "pos": "noun",
+      "meaning": "A place where one car can be parked.",
+      "examples": [
+        "It took twenty minutes to find a {parking space}."
+      ],
+      "wrong": [
+        "The parking space was big enough for a pen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "parking spot"
+      ],
+      "ipa": "/ˈpɑrkɪŋ ˌspeɪs/"
+    },
+    {
+      "lemma": "parking ticket",
+      "pos": "noun",
+      "meaning": "A notice that tells you to pay money for parking in the wrong place.",
+      "examples": [
+        "I got a {parking ticket} for stopping outside the bank."
+      ],
+      "wrong": [
+        "The parking ticket was a gift for parking well."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpɑrkɪŋ ˌtɪkɪt/"
+    },
+    {
+      "lemma": "tow",
+      "pos": "verb",
+      "meaning": "To pull a car or boat behind another vehicle with a rope or chain.",
+      "examples": [
+        "My car was {towed} away because I parked in the wrong place."
+      ],
+      "wrong": [
+        "The truck towed the car by pushing it from in front."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pull",
+        "drag"
+      ],
+      "ipa": "/toʊ/"
+    },
+    {
+      "lemma": "U-turn",
+      "pos": "noun",
+      "meaning": "A turn that takes a car back in the direction it came from.",
+      "examples": [
+        "We missed the exit, so we made a {U-turn}."
+      ],
+      "wrong": [
+        "He made a U-turn and kept going straight on."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈjuˌtɝn/"
+    },
+    {
+      "lemma": "dead end",
+      "pos": "noun",
+      "meaning": "A street that is closed at one end.",
+      "examples": [
+        "The road is a {dead end}, so you have to turn back."
+      ],
+      "wrong": [
+        "The street is a dead end, so it leads straight on to the next town."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cul-de-sac"
+      ],
+      "ipa": "/ˌdɛd ˈɛnd/"
+    },
+    {
+      "lemma": "carpool",
+      "pos": "verb",
+      "meaning": "To share a car with others to travel to the same place.",
+      "examples": [
+        "Four of us {carpool} to work to save money."
+      ],
+      "wrong": [
+        "We carpool to work, each driving our own car alone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "share a ride"
+      ],
+      "ipa": "/ˈkɑrˌpul/"
+    },
+    {
+      "lemma": "taxi stand",
+      "pos": "noun",
+      "meaning": "A place where taxis wait for passengers.",
+      "examples": [
+        "There’s a {taxi stand} outside the station."
+      ],
+      "wrong": [
+        "The taxi stand is where taxis are repaired."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cab rank"
+      ],
+      "ipa": "/ˈtæksi ˌstænd/"
+    },
+    {
+      "lemma": "shuttle",
+      "pos": "noun",
+      "meaning": "A bus or train that makes short trips back and forth between two places.",
+      "examples": [
+        "A free {shuttle} runs from the airport to the hotel."
+      ],
+      "wrong": [
+        "The shuttle goes once a year on a long trip around the world."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈʃʌtəl/"
+    }
+  ]
+}

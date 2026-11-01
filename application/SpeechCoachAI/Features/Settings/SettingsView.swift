@@ -3,11 +3,11 @@ import SwiftUI
 struct SettingsView: View {
     @Bindable var storage: LearnerStorageController
     @Environment(\.dismiss) private var dismiss
+    @State private var confirmErase = false
+    @State private var erasing = false
+    @State private var eraseMessage: String?
     var body: some View {
-        Form {
-            Section {
-                Text("A little more you, in English.").font(.headline)
-            }
+        Form { KitRows {
             Section("Make it yours") {
                 NavigationLink { AppearanceSettings(storage: storage) } label: {
                     LabeledContent("Appearance", value: "\(storage.preferences.background.title) · \(storage.preferences.appearance.title)")
@@ -19,20 +19,32 @@ struct SettingsView: View {
                     var next = storage.preferences; next.countdownEnabled = value; storage.savePreferences(next)
                 })).accessibilityIdentifier("settings.countdown")
             }
+            SoundSettingsSection(storage: storage)
             Section("Practice rewards") {
-                NavigationLink("Rewards, wallet and achievements") { RewardOverview(storage: storage) }
+                NavigationLink("Badges and goals") { RewardOverview(storage: storage) }
                     .accessibilityIdentifier("settings.rewards")
             }
             Section("Online coaching") {
                 NavigationLink("Provider setup") { ProviderSettingsView() }
                     .accessibilityIdentifier("settings.provider")
-                Text("No key is needed for recording and self-review. Online requests stay off until your provider account is verified.")
-                    .foregroundStyle(Kit.secondary)
+                #if DEBUG
+                if SpeakingEnvironment.fixtureID != nil, ProcessInfo.processInfo.environment["SC_LAB_FEEDBACK_FIXTURE"] == "1" {
+                    NavigationLink("UI fixture") { Round4FixtureView(storage: storage) }
+                        .accessibilityIdentifier("settings.ui-fixture")
+                }
+                #endif
             }
-            Section("Privacy") {
-                Text("Saving a recording and saving a transcript or feedback are separate choices. Nothing uploads automatically.")
-                Text("Local learning data is excluded from device backups on a best-effort basis. Device loss or uninstalling can lose local data.")
-                    .foregroundStyle(Kit.secondary)
+            Section {
+                Button(role: .destructive) { confirmErase = true } label: {
+                    if erasing { ProgressView() } else { Label("Erase all data", systemImage: "trash") }
+                }
+                .disabled(erasing)
+                .accessibilityIdentifier("settings.erase")
+                if let eraseMessage {
+                    Text(eraseMessage).foregroundStyle(Kit.error).accessibilityIdentifier("settings.erase.error")
+                }
+            } header: { Text("Privacy") } footer: {
+                Text("Nothing uploads automatically. Erasing removes your progress, words, recordings, settings and AI key from this device.")
             }
             if storage.hasPreferenceSaveFailure {
                 Section {
@@ -40,7 +52,7 @@ struct SettingsView: View {
                         .foregroundStyle(Kit.error)
                 }
             }
-        }
+        }}
         .scrollContentBackground(.hidden)
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
@@ -49,6 +61,24 @@ struct SettingsView: View {
         .toolbarBackground(Kit.canvas(storage.preferences.background), for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Done") { dismiss() }.accessibilityIdentifier("settings.done") } }
+        .confirmationDialog("Erase all data?", isPresented: $confirmErase, titleVisibility: .visible) {
+            Button("Erase", role: .destructive, action: erase).accessibilityIdentifier("settings.erase.confirm")
+        } message: {
+            Text("This can't be undone.")
+        }
+    }
+
+    private func erase() {
+        erasing = true; eraseMessage = nil
+        Task {
+            defer { erasing = false }
+            do {
+                try await LearnerReset.erase(storage: storage)
+                dismiss()
+            } catch {
+                eraseMessage = (error as? LearnerResetError)?.message ?? LearnerResetError.failed.message
+            }
+        }
     }
 }
 
@@ -59,7 +89,7 @@ private struct AppearanceSettings: View {
     private var selection: LearnerPreferences.Background { preview ?? storage.preferences.background }
 
     var body: some View {
-        Form {
+        Form { KitRows {
             Section {
                 Text("Three free ways to make this space yours.").foregroundStyle(Kit.secondary)
                 ForEach(LearnerPreferences.Background.allCases, id: \.self) { style in
@@ -89,7 +119,7 @@ private struct AppearanceSettings: View {
                     var value = storage.preferences; value.background = selection
                     storage.savePreferences(value)
                 }
-                .buttonStyle(.borderedProminent).foregroundStyle(Color("OnAccent")).controlSize(.large)
+                .buttonStyle(KitPrimaryButtonStyle()).controlSize(.large)
                 .disabled(storage.repository == nil)
                 .accessibilityIdentifier("background.apply")
                 Text("Saved background: \(storage.preferences.background.title)").font(.caption)
@@ -110,7 +140,7 @@ private struct AppearanceSettings: View {
             if storage.hasPreferenceSaveFailure {
                 Text("The change could not be saved. Try again; your previous preference is still selected.").foregroundStyle(Kit.error)
             }
-        }
+        }}
         .scrollContentBackground(.hidden)
         .background(Kit.canvas(storage.preferences.background))
         .navigationTitle("Appearance").navigationBarTitleDisplayMode(.inline)
@@ -157,5 +187,36 @@ private struct CoachSettings: View {
         .navigationTitle("Your coach").navigationBarTitleDisplayMode(.inline)
         .toolbarBackground(Kit.canvas(storage.preferences.background), for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
+    }
+}
+
+/// Background music, sound effects and haptics. Stored with the reward preferences.
+private struct SoundSettingsSection: View {
+    var storage: LearnerStorageController
+    @State private var settings: RewardSettings?
+
+    var body: some View {
+        Section {
+            if let settings {
+                Toggle("Background music", isOn: binding(settings.music) { try storage.repository?.setSound(music: $0) })
+                    .accessibilityIdentifier("settings.music")
+                Toggle("Sound effects", isOn: binding(settings.effects) { try storage.repository?.setSound(effects: $0) })
+                    .accessibilityIdentifier("settings.effects")
+                Toggle("Haptics", isOn: binding(settings.haptics) { try storage.repository?.setSound(haptics: $0) })
+                    .accessibilityIdentifier("settings.haptics")
+            }
+        } header: { Text("Sound and haptics") } footer: {
+            Text("Music pauses while the app speaks, listens or records, and stays silent when your ringer is off.")
+        }
+        .onAppear(perform: load)
+    }
+
+    private func binding(_ value: Bool, save: @escaping (Bool) throws -> Void) -> Binding<Bool> {
+        Binding(get: { value }, set: { on in try? save(on); load() })
+    }
+
+    private func load() {
+        settings = (try? storage.repository?.rewardLedger())?.settings
+        if let settings { SoundCenter.shared.configure(settings) }
     }
 }

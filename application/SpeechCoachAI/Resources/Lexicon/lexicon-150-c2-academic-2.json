@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-academic-2",
+    "title": "Academic writing 2",
+    "level": "C2",
+    "tagline": "Scholarly words and phrases",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "inter alia",
+      "pos": "adverb",
+      "meaning": "Among other things.",
+      "examples": [
+        "The report examines, {inter alia}, housing and transport."
+      ],
+      "wrong": [
+        "The study covers, inter alia, only one single topic and nothing else."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "among others"
+      ],
+      "ipa": "/ˌɪntɚ ˈeɪliə/"
+    },
+    {
+      "lemma": "et al.",
+      "pos": "phrase",
+      "meaning": "And other authors; used when citing a work with several writers.",
+      "examples": [
+        "Smith {et al.} found a similar effect in 2019."
+      ],
+      "wrong": [
+        "The paper by Smith et al. was written by Smith entirely alone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "and others"
+      ],
+      "ipa": "/ɛt ˈɑl/"
+    },
+    {
+      "lemma": "mutatis mutandis",
+      "pos": "adverb",
+      "meaning": "With the necessary small changes made.",
+      "examples": [
+        "The same rules apply, {mutatis mutandis}, to part-time staff."
+      ],
+      "wrong": [
+        "The rule applies mutatis mutandis, with no adjustment whatsoever."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "with changes"
+      ],
+      "ipa": "/muˌtɑtɪs muˈtɑndɪs/"
+    },
+    {
+      "lemma": "ceteris paribus",
+      "pos": "adverb",
+      "meaning": "If all other factors stay the same.",
+      "examples": [
+        "{Ceteris paribus}, higher prices reduce demand."
+      ],
+      "wrong": [
+        "Ceteris paribus means we change every factor at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "all else being equal"
+      ],
+      "ipa": "/ˌkeɪtərɪs ˈpærɪbəs/"
+    },
+    {
+      "lemma": "hitherto",
+      "pos": "adverb",
+      "meaning": "Until now or until the time mentioned.",
+      "examples": [
+        "The study reveals a {hitherto} unknown species."
+      ],
+      "wrong": [
+        "The hitherto unknown fact had been famous for centuries."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "previously",
+        "until now",
+        "so far"
+      ],
+      "ipa": "/ˌhɪðɚˈtu/",
+      "antonyms": [
+        "henceforth",
+        "hereafter"
+      ]
+    },
+    {
+      "lemma": "ab initio",
+      "pos": "adverb",
+      "meaning": "From the very beginning.",
+      "examples": [
+        "The contract was declared void {ab initio}, as if it had never existed."
+      ],
+      "wrong": [
+        "The plan was flawed ab initio, though it only went wrong at the very end."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "from the start",
+        "from scratch"
+      ],
+      "ipa": "/ˌæb ɪˈnɪʃioʊ/"
+    },
+    {
+      "lemma": "therein",
+      "pos": "adverb",
+      "meaning": "In that place, thing or fact.",
+      "examples": [
+        "The plan is cheap; {therein} lies its appeal."
+      ],
+      "wrong": [
+        "The box was empty, and the gift lay therein."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "in that",
+        "in it"
+      ],
+      "ipa": "/ðɛrˈɪn/"
+    },
+    {
+      "lemma": "addendum",
+      "pos": "noun",
+      "meaning": "An extra section added at the end of a book or document.",
+      "examples": [
+        "An {addendum} at the end lists the new figures."
+      ],
+      "wrong": [
+        "The addendum was the original opening page, written before anything else."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "appendix",
+        "supplement",
+        "postscript"
+      ],
+      "ipa": "/əˈdɛndəm/"
+    },
+    {
+      "lemma": "insofar as",
+      "pos": "conjunction",
+      "meaning": "To the extent that.",
+      "examples": [
+        "The model is useful {insofar as} its data are reliable."
+      ],
+      "wrong": [
+        "The model is reliable insofar as its data are completely unreliable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "to the extent that",
+        "inasmuch as"
+      ],
+      "ipa": "/ˌɪnsoʊˈfɑr æz/"
+    },
+    {
+      "lemma": "inasmuch as",
+      "pos": "conjunction",
+      "meaning": "Because, or to the extent that.",
+      "examples": [
+        "The trial was a success {inasmuch as} no patient was harmed."
+      ],
+      "wrong": [
+        "The trial succeeded inasmuch as every patient was harmed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "since",
+        "insofar as"
+      ],
+      "ipa": "/ˌɪnəzˈmʌtʃ æz/"
+    },
+    {
+      "lemma": "a fortiori",
+      "pos": "adverb",
+      "meaning": "For an even stronger reason.",
+      "examples": [
+        "If adults struggle with the test, then {a fortiori} children will."
+      ],
+      "wrong": [
+        "If children find it easy, then a fortiori adults will find it impossible."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "all the more"
+      ],
+      "ipa": "/ˌeɪ ˌfɔrʃiˈɔraɪ/"
+    },
+    {
+      "lemma": "prima facie",
+      "pos": "adjective",
+      "meaning": "Based on a first look, before closer examination.",
+      "examples": [
+        "There is {prima facie} evidence of a link."
+      ],
+      "wrong": [
+        "After years of detailed study, the prima facie view finally formed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "apparent",
+        "on the face of it"
+      ],
+      "ipa": "/ˌpraɪmə ˈfeɪʃi/"
+    },
+    {
+      "lemma": "corpus",
+      "pos": "noun",
+      "meaning": "A large collection of written or spoken texts used for study.",
+      "examples": [
+        "The analysis draws on a {corpus} of ten million words."
+      ],
+      "wrong": [
+        "The corpus contained just one sentence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "body",
+        "collection"
+      ],
+      "ipa": "/ˈkɔrpəs/"
+    },
+    {
+      "lemma": "exegesis",
+      "pos": "noun",
+      "meaning": "A careful explanation or interpretation of a text.",
+      "examples": [
+        "Her {exegesis} of the poem filled forty pages."
+      ],
+      "wrong": [
+        "His exegesis left the text completely unexplained."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "interpretation",
+        "commentary",
+        "explication"
+      ],
+      "ipa": "/ˌɛksəˈdʒisɪs/"
+    },
+    {
+      "lemma": "operationalize",
+      "pos": "verb",
+      "meaning": "To define an idea so that it can be measured in research.",
+      "examples": [
+        "We {operationalized} stress as heart rate during the task."
+      ],
+      "wrong": [
+        "They operationalized the idea by keeping it vague and unmeasurable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "define",
+        "measure"
+      ],
+      "ipa": "/ˌɑpəˈreɪʃənəˌlaɪz/"
+    },
+    {
+      "lemma": "problematize",
+      "pos": "verb",
+      "meaning": "To question an idea that people usually accept.",
+      "examples": [
+        "The essay {problematizes} the notion of progress."
+      ],
+      "wrong": [
+        "She problematized the theory by accepting it without question."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "question",
+        "challenge"
+      ],
+      "ipa": "/ˈprɑbləməˌtaɪz/"
+    },
+    {
+      "lemma": "foreground",
+      "pos": "verb",
+      "meaning": "To give something the most attention or importance.",
+      "examples": [
+        "The book {foregrounds} the voices of workers."
+      ],
+      "wrong": [
+        "The study foregrounds gender by never mentioning it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "emphasize",
+        "highlight",
+        "spotlight"
+      ],
+      "ipa": "/ˈfɔrˌɡraʊnd/"
+    },
+    {
+      "lemma": "interrogate",
+      "pos": "verb",
+      "meaning": "To examine an idea critically and in depth.",
+      "examples": [
+        "The course {interrogates} common ideas about success."
+      ],
+      "wrong": [
+        "The essay interrogates the concept by simply repeating it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "examine",
+        "scrutinize",
+        "probe"
+      ],
+      "ipa": "/ɪnˈtɛrəˌɡeɪt/"
+    },
+    {
+      "lemma": "adduce",
+      "pos": "verb",
+      "meaning": "To give something as evidence or proof.",
+      "examples": [
+        "The author {adduces} several studies to support the claim."
+      ],
+      "wrong": [
+        "She adduced no evidence, citing ten strong sources."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cite",
+        "present",
+        "offer"
+      ],
+      "ipa": "/əˈdus/"
+    },
+    {
+      "lemma": "delimit",
+      "pos": "verb",
+      "meaning": "To set the exact limits of something.",
+      "examples": [
+        "The first chapter {delimits} the scope of the study."
+      ],
+      "wrong": [
+        "The paper delimits its scope by including every possible topic."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "define",
+        "bound",
+        "demarcate"
+      ],
+      "ipa": "/dɪˈlɪmɪt/"
+    },
+    {
+      "lemma": "contextualize",
+      "pos": "verb",
+      "meaning": "To place something in its wider setting so it can be understood.",
+      "examples": [
+        "The guide {contextualizes} each painting within its period."
+      ],
+      "wrong": [
+        "He contextualized the quote by removing all background."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "situate",
+        "frame"
+      ],
+      "ipa": "/kənˈtɛkstʃuəˌlaɪz/"
+    },
+    {
+      "lemma": "historiography",
+      "pos": "noun",
+      "meaning": "The study of how history has been written and interpreted.",
+      "examples": [
+        "Her course on the {historiography} of the war compares a century of accounts."
+      ],
+      "wrong": [
+        "Historiography is the digging up of old coins in a field."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/hɪˌstɔriˈɑɡrəfi/"
+    },
+    {
+      "lemma": "typology",
+      "pos": "noun",
+      "meaning": "A classification of things according to their types.",
+      "examples": [
+        "She developed a {typology} of urban neighborhoods."
+      ],
+      "wrong": [
+        "The typology ignored every type and category."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "classification"
+      ],
+      "ipa": "/taɪˈpɑlədʒi/"
+    },
+    {
+      "lemma": "lacuna",
+      "pos": "noun",
+      "meaning": "A gap or missing part, especially in knowledge or a text.",
+      "examples": [
+        "The study fills a {lacuna} in the research on sleep."
+      ],
+      "wrong": [
+        "The lacuna was the most complete part of the manuscript."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "gap",
+        "omission",
+        "void"
+      ],
+      "ipa": "/ləˈkunə/"
+    },
+    {
+      "lemma": "desideratum",
+      "pos": "noun",
+      "meaning": "Something that is needed or wanted.",
+      "examples": [
+        "Clear data is the main {desideratum} for any new policy."
+      ],
+      "wrong": [
+        "The desideratum was something nobody wanted or needed."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "requirement",
+        "essential",
+        "need"
+      ],
+      "ipa": "/dɪˌsɪdəˈrɑtəm/"
+    },
+    {
+      "lemma": "treatise",
+      "pos": "noun",
+      "meaning": "A long, serious piece of writing on one subject.",
+      "examples": [
+        "He wrote a {treatise} on political economy."
+      ],
+      "wrong": [
+        "The treatise was a short joke on a postcard."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "dissertation",
+        "thesis",
+        "study"
+      ],
+      "ipa": "/ˈtritɪs/"
+    },
+    {
+      "lemma": "erratum",
+      "pos": "noun",
+      "meaning": "A mistake in a printed text, or a note listing its correction.",
+      "examples": [
+        "The journal printed an {erratum} correcting the table."
+      ],
+      "wrong": [
+        "The erratum praised the article for having no mistakes at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "correction",
+        "misprint"
+      ],
+      "ipa": "/ɪˈrɑtəm/"
+    },
+    {
+      "lemma": "compendium",
+      "pos": "noun",
+      "meaning": "A collection of detailed information on a subject, in one book.",
+      "examples": [
+        "The {compendium} lists every known species of fern."
+      ],
+      "wrong": [
+        "The compendium included just a single item."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "collection",
+        "digest",
+        "handbook"
+      ],
+      "ipa": "/kəmˈpɛndiəm/"
+    },
+    {
+      "lemma": "triangulate",
+      "pos": "verb",
+      "meaning": "To check results by using several methods or sources.",
+      "examples": [
+        "We {triangulated} survey data with interviews."
+      ],
+      "wrong": [
+        "They triangulated the result by relying on one source only."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cross-check",
+        "corroborate"
+      ],
+      "ipa": "/traɪˈæŋɡjəˌleɪt/"
+    },
+    {
+      "lemma": "falsifiability",
+      "pos": "noun",
+      "meaning": "The quality of a claim that could be shown false by a test.",
+      "examples": [
+        "A good scientific theory needs {falsifiability}."
+      ],
+      "wrong": [
+        "Its falsifiability meant no test could ever prove it wrong."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "testability"
+      ],
+      "ipa": "/ˌfɔlsəˌfaɪəˈbɪləti/"
+    },
+    {
+      "lemma": "seminal",
+      "pos": "adjective",
+      "meaning": "Very important and influential for later work.",
+      "examples": [
+        "Her {seminal} paper changed the field."
+      ],
+      "wrong": [
+        "The seminal study had no influence on anyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "influential",
+        "groundbreaking",
+        "formative"
+      ],
+      "ipa": "/ˈsɛmənəl/",
+      "antonyms": [
+        "derivative",
+        "minor"
+      ]
+    },
+    {
+      "lemma": "passim",
+      "pos": "adverb",
+      "meaning": "Found in many places throughout a text, used in references.",
+      "examples": [
+        "The theme of exile appears {passim} in her letters."
+      ],
+      "wrong": [
+        "The word appears passim, just once on a single page."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "throughout"
+      ],
+      "ipa": "/ˈpæsɪm/"
+    },
+    {
+      "lemma": "to wit",
+      "pos": "adverb",
+      "meaning": "That is to say; namely.",
+      "examples": [
+        "Two issues remain, {to wit}, cost and timing."
+      ],
+      "wrong": [
+        "Two issues remain, to wit, nothing at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "namely",
+        "that is"
+      ],
+      "ipa": "/tə ˈwɪt/"
+    },
+    {
+      "lemma": "onus",
+      "pos": "noun",
+      "meaning": "The duty or responsibility to do or prove something.",
+      "examples": [
+        "The {onus} is on the researcher to show the effect is real."
+      ],
+      "wrong": [
+        "The onus was on her, so she had no responsibility at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "burden",
+        "responsibility",
+        "obligation"
+      ],
+      "ipa": "/ˈoʊnəs/"
+    },
+    {
+      "lemma": "case in point",
+      "pos": "phrase",
+      "meaning": "An example that clearly shows what is being said.",
+      "examples": [
+        "Small towns are dying; this village is a {case in point}."
+      ],
+      "wrong": [
+        "Her success was a case in point that disproved the claim."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "example",
+        "illustration"
+      ],
+      "ipa": "/ˌkeɪs ɪn ˈpɔɪnt/"
+    },
+    {
+      "lemma": "lend credence to",
+      "pos": "phrase",
+      "meaning": "To make an idea seem more likely to be true.",
+      "examples": [
+        "The new findings {lend credence to} the theory."
+      ],
+      "wrong": [
+        "The evidence lent credence to the claim by disproving it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "support",
+        "bolster"
+      ],
+      "ipa": "/ˌlɛnd ˈkridəns tu/"
+    },
+    {
+      "lemma": "qua",
+      "pos": "preposition",
+      "meaning": "In the role or character of; considered as.",
+      "examples": [
+        "Art {qua} art needs no further purpose."
+      ],
+      "wrong": [
+        "He spoke qua chairman, though he held no position on the board at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "as",
+        "in the capacity of"
+      ],
+      "ipa": "/kwɑ/"
+    },
+    {
+      "lemma": "replicability",
+      "pos": "noun",
+      "meaning": "The ability of a study to be repeated with the same results.",
+      "examples": [
+        "The {replicability} of the experiment has been questioned."
+      ],
+      "wrong": [
+        "Its replicability meant no one could repeat the result."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reproducibility"
+      ],
+      "ipa": "/ˌrɛplɪkəˈbɪləti/"
+    },
+    {
+      "lemma": "confound",
+      "pos": "verb",
+      "meaning": "To mix up the effects of factors so a result is unclear.",
+      "examples": [
+        "Age may {confound} the link between income and health."
+      ],
+      "wrong": [
+        "The variable confounded the result by making it perfectly clear."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/kənˈfaʊnd/"
+    },
+    {
+      "lemma": "schema",
+      "pos": "noun",
+      "meaning": "An organized mental or written framework for understanding information.",
+      "examples": [
+        "Readers use a {schema} of a restaurant visit to follow the story."
+      ],
+      "wrong": [
+        "The schema was a random heap of ideas with no structure."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "framework",
+        "outline",
+        "model"
+      ],
+      "ipa": "/ˈskimə/"
+    }
+  ]
+}

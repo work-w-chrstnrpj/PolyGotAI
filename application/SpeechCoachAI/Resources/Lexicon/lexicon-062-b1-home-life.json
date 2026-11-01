@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-home-life",
+    "title": "Home and daily life",
+    "level": "B1",
+    "tagline": "Chores, rooms and routines",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "chore",
+      "pos": "noun",
+      "meaning": "A boring job you have to do regularly at home, like washing up.",
+      "examples": [
+        "Taking out the trash is my least favorite {chore}."
+      ],
+      "wrong": [
+        "Watching TV is my favorite chore."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "task",
+        "job"
+      ],
+      "ipa": "/tʃɔr/"
+    },
+    {
+      "lemma": "housework",
+      "pos": "noun",
+      "meaning": "The work of cleaning and looking after a home.",
+      "examples": [
+        "We share the {housework} equally."
+      ],
+      "wrong": [
+        "I did the housework by sleeping on the sofa all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "household chores"
+      ],
+      "ipa": "/ˈhaʊsˌwɝk/"
+    },
+    {
+      "lemma": "vacuum",
+      "pos": "verb",
+      "meaning": "To clean floors with an electric machine that sucks up dirt.",
+      "examples": [
+        "I {vacuumed} the carpet before the guests came."
+      ],
+      "wrong": [
+        "I vacuumed the carpet by spilling crumbs all over it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hoover"
+      ],
+      "ipa": "/ˈvækjum/"
+    },
+    {
+      "lemma": "sweep",
+      "pos": "verb",
+      "meaning": "To clean a floor by brushing dirt away.",
+      "examples": [
+        "Can you {sweep} the kitchen floor?"
+      ],
+      "wrong": [
+        "I swept the floor by throwing more sand on it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "brush"
+      ],
+      "ipa": "/swip/"
+    },
+    {
+      "lemma": "mop",
+      "pos": "verb",
+      "meaning": "To wash a floor with a wet cloth or sponge on a stick.",
+      "examples": [
+        "She {mopped} the floor after the dog came in muddy."
+      ],
+      "wrong": [
+        "He mopped the floor to make it dirtier."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/mɑp/"
+    },
+    {
+      "lemma": "laundry",
+      "pos": "noun",
+      "meaning": "Clothes and sheets that need washing or have just been washed.",
+      "examples": [
+        "I do the {laundry} every Saturday."
+      ],
+      "wrong": [
+        "The laundry is the meal we eat on Sundays."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "washing"
+      ],
+      "ipa": "/ˈlɔndri/"
+    },
+    {
+      "lemma": "iron",
+      "pos": "verb",
+      "meaning": "To make clothes smooth with a hot, flat tool.",
+      "examples": [
+        "I need to {iron} my shirt for the interview."
+      ],
+      "wrong": [
+        "I ironed my shirt so it would be full of creases."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "press"
+      ],
+      "ipa": "/ˈaɪɚn/"
+    },
+    {
+      "lemma": "fold",
+      "pos": "verb",
+      "meaning": "To bend cloth or paper so one part lies on top of another.",
+      "examples": [
+        "Please {fold} the towels and put them away."
+      ],
+      "wrong": [
+        "She folded the sheet by throwing it on the floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/foʊld/"
+    },
+    {
+      "lemma": "tidy up",
+      "pos": "verb",
+      "meaning": "To make a place neat by putting things where they belong.",
+      "examples": [
+        "Please {tidy up} your room before dinner."
+      ],
+      "wrong": [
+        "I tidied up by throwing my toys all over the floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "clean up",
+        "straighten up"
+      ],
+      "ipa": "/ˌtaɪdi ˈʌp/"
+    },
+    {
+      "lemma": "appliance",
+      "pos": "noun",
+      "meaning": "A machine used at home, such as a washing machine or toaster.",
+      "examples": [
+        "The kitchen has all the modern {appliances}."
+      ],
+      "wrong": [
+        "A chair is the most useful appliance in our kitchen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "device",
+        "machine"
+      ],
+      "ipa": "/əˈplaɪəns/"
+    },
+    {
+      "lemma": "dishwasher",
+      "pos": "noun",
+      "meaning": "A machine that washes plates, cups and pans.",
+      "examples": [
+        "Put the dirty plates in the {dishwasher}."
+      ],
+      "wrong": [
+        "I put my clothes in the dishwasher to dry them."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈdɪʃˌwɑʃɚ/"
+    },
+    {
+      "lemma": "washing machine",
+      "pos": "noun",
+      "meaning": "A machine that washes clothes.",
+      "examples": [
+        "Put your jeans in the {washing machine}."
+      ],
+      "wrong": [
+        "We keep the milk cold in the washing machine."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "washer"
+      ],
+      "ipa": "/ˈwɑʃɪŋ məˌʃin/"
+    },
+    {
+      "lemma": "cupboard",
+      "pos": "noun",
+      "meaning": "A piece of furniture or a space in a wall with a door and shelves, for storing things.",
+      "examples": [
+        "The cups are in the {cupboard} above the sink."
+      ],
+      "wrong": [
+        "We sleep in the cupboard because it has the softest bed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cabinet"
+      ],
+      "ipa": "/ˈkʌbɚd/"
+    },
+    {
+      "lemma": "drawer",
+      "pos": "noun",
+      "meaning": "A box that slides in and out of a piece of furniture, used for keeping things.",
+      "examples": [
+        "My socks are in the top {drawer}."
+      ],
+      "wrong": [
+        "I opened the drawer by pushing it further in."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/drɔr/"
+    },
+    {
+      "lemma": "wardrobe",
+      "pos": "noun",
+      "meaning": "A tall cupboard where you hang clothes.",
+      "examples": [
+        "Hang your coat in the {wardrobe}."
+      ],
+      "wrong": [
+        "I keep my car in the wardrobe."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "closet"
+      ],
+      "ipa": "/ˈwɔrˌdroʊb/"
+    },
+    {
+      "lemma": "rug",
+      "pos": "noun",
+      "meaning": "A piece of thick cloth that covers part of a floor.",
+      "examples": [
+        "There’s a soft {rug} in front of the fire."
+      ],
+      "wrong": [
+        "The rug hangs on the window to keep out the light."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mat"
+      ],
+      "ipa": "/rʌɡ/"
+    },
+    {
+      "lemma": "curtain",
+      "pos": "noun",
+      "meaning": "A piece of cloth that hangs over a window to block light or stop people seeing in.",
+      "examples": [
+        "Close the {curtains} at night."
+      ],
+      "wrong": [
+        "I closed the curtains to let more sunlight in."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "drape"
+      ],
+      "ipa": "/ˈkɝtən/"
+    },
+    {
+      "lemma": "faucet",
+      "pos": "noun",
+      "meaning": "The thing you turn to make water come out, for example over a sink.",
+      "examples": [
+        "Turn off the {faucet} when you brush your teeth."
+      ],
+      "wrong": [
+        "I turned on the faucet to stop the water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tap"
+      ],
+      "ipa": "/ˈfɔsɪt/"
+    },
+    {
+      "lemma": "attic",
+      "pos": "noun",
+      "meaning": "A room or space just under the roof of a house.",
+      "examples": [
+        "We keep old boxes in the {attic}."
+      ],
+      "wrong": [
+        "We went down to the attic under the house."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "loft"
+      ],
+      "ipa": "/ˈætɪk/"
+    },
+    {
+      "lemma": "basement",
+      "pos": "noun",
+      "meaning": "A room or floor of a building that is below the ground.",
+      "examples": [
+        "The washing machine is down in the {basement}."
+      ],
+      "wrong": [
+        "From the basement we had a great view over the roofs."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cellar"
+      ],
+      "ipa": "/ˈbeɪsmənt/"
+    },
+    {
+      "lemma": "hallway",
+      "pos": "noun",
+      "meaning": "The passage inside a house that leads to the rooms.",
+      "examples": [
+        "Leave your shoes in the {hallway}."
+      ],
+      "wrong": [
+        "We cooked dinner in the hallway’s oven."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "corridor",
+        "hall"
+      ],
+      "ipa": "/ˈhɔlˌweɪ/"
+    },
+    {
+      "lemma": "staircase",
+      "pos": "noun",
+      "meaning": "A set of steps inside a building, with its rails.",
+      "examples": [
+        "A wide {staircase} leads to the bedrooms."
+      ],
+      "wrong": [
+        "We took the staircase to stay on the same floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stairs"
+      ],
+      "ipa": "/ˈstɛrˌkeɪs/"
+    },
+    {
+      "lemma": "lawn",
+      "pos": "noun",
+      "meaning": "An area of short grass in a yard or park.",
+      "examples": [
+        "The kids played on the {lawn}."
+      ],
+      "wrong": [
+        "We parked the car on the kitchen lawn."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "grass"
+      ],
+      "ipa": "/lɔn/"
+    },
+    {
+      "lemma": "mow",
+      "pos": "verb",
+      "meaning": "To cut grass with a machine.",
+      "examples": [
+        "Dad {mows} the lawn every Sunday."
+      ],
+      "wrong": [
+        "He mowed the lawn to make the grass grow longer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cut"
+      ],
+      "ipa": "/moʊ/"
+    },
+    {
+      "lemma": "routine",
+      "pos": "noun",
+      "meaning": "The usual things you do every day, in the same order.",
+      "examples": [
+        "Coffee and a walk are part of my morning {routine}."
+      ],
+      "wrong": [
+        "My routine changes completely every single day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "habit",
+        "schedule"
+      ],
+      "ipa": "/ruˈtin/"
+    },
+    {
+      "lemma": "oversleep",
+      "pos": "verb",
+      "meaning": "To sleep longer than you planned and wake up late.",
+      "examples": [
+        "I {overslept} and missed the bus."
+      ],
+      "wrong": [
+        "I overslept, so I was up an hour early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈslip/"
+    },
+    {
+      "lemma": "nap",
+      "pos": "noun",
+      "meaning": "A short sleep during the day.",
+      "examples": [
+        "Grandpa has a {nap} after lunch."
+      ],
+      "wrong": [
+        "He had a nap that lasted all night and the next day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "snooze"
+      ],
+      "ipa": "/næp/"
+    },
+    {
+      "lemma": "messy",
+      "pos": "adjective",
+      "meaning": "Untidy and dirty, with things all over the place.",
+      "examples": [
+        "Your bedroom is really {messy}."
+      ],
+      "wrong": [
+        "The kitchen was messy, with everything clean and in its place."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "untidy"
+      ],
+      "ipa": "/ˈmɛsi/",
+      "antonyms": [
+        "tidy",
+        "neat"
+      ]
+    },
+    {
+      "lemma": "spotless",
+      "pos": "adjective",
+      "meaning": "Completely clean.",
+      "examples": [
+        "After the party the house was {spotless} again."
+      ],
+      "wrong": [
+        "The floor was spotless, covered in mud and crumbs."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "immaculate"
+      ],
+      "ipa": "/ˈspɑtləs/",
+      "antonyms": [
+        "dirty",
+        "filthy"
+      ]
+    },
+    {
+      "lemma": "leak",
+      "pos": "verb",
+      "meaning": "To let water or gas escape through a hole or crack.",
+      "examples": [
+        "The pipe under the sink is {leaking}."
+      ],
+      "wrong": [
+        "The bucket leaked, so it stayed full all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "drip"
+      ],
+      "ipa": "/lik/"
+    },
+    {
+      "lemma": "plumber",
+      "pos": "noun",
+      "meaning": "A person whose job is fixing water pipes, sinks and toilets.",
+      "examples": [
+        "We called a {plumber} to fix the leaking pipe."
+      ],
+      "wrong": [
+        "The plumber cut my hair."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈplʌmɚ/"
+    },
+    {
+      "lemma": "mess",
+      "pos": "noun",
+      "meaning": "A dirty or untidy state.",
+      "examples": [
+        "The kids made a big {mess} in the kitchen."
+      ],
+      "wrong": [
+        "There was a mess, so everything was neat and clean."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "chaos"
+      ],
+      "ipa": "/mɛs/"
+    },
+    {
+      "lemma": "broom",
+      "pos": "noun",
+      "meaning": "A brush with a long handle for cleaning floors.",
+      "examples": [
+        "Use the {broom} to sweep up the leaves."
+      ],
+      "wrong": [
+        "I brushed my teeth with a broom."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/brum/"
+    },
+    {
+      "lemma": "detergent",
+      "pos": "noun",
+      "meaning": "A liquid or powder used for washing clothes or dishes.",
+      "examples": [
+        "Add some {detergent} to the washing machine."
+      ],
+      "wrong": [
+        "I put detergent in my soup to add flavor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "soap"
+      ],
+      "ipa": "/dɪˈtɝdʒənt/"
+    },
+    {
+      "lemma": "unplug",
+      "pos": "verb",
+      "meaning": "To take a cable out of the electric socket in the wall.",
+      "examples": [
+        "{Unplug} the iron when you’ve finished."
+      ],
+      "wrong": [
+        "I unplugged the lamp to turn it on."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disconnect"
+      ],
+      "ipa": "/ʌnˈplʌɡ/",
+      "antonyms": [
+        "plug in"
+      ]
+    },
+    {
+      "lemma": "heating",
+      "pos": "noun",
+      "meaning": "A system that keeps a building warm.",
+      "examples": [
+        "Turn on the {heating}; it’s freezing in here."
+      ],
+      "wrong": [
+        "We turned on the heating to cool the house down."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈhitɪŋ/"
+    },
+    {
+      "lemma": "household",
+      "pos": "noun",
+      "meaning": "All the people who live together in one home.",
+      "examples": [
+        "There are five people in our {household}."
+      ],
+      "wrong": [
+        "Our household is the road outside our building."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "family",
+        "home"
+      ],
+      "ipa": "/ˈhaʊsˌhoʊld/"
+    },
+    {
+      "lemma": "clutter",
+      "pos": "noun",
+      "meaning": "Lots of things lying around untidily.",
+      "examples": [
+        "Clear the {clutter} off your desk."
+      ],
+      "wrong": [
+        "The room had no clutter, just piles of junk everywhere."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mess",
+        "junk"
+      ],
+      "ipa": "/ˈklʌtɚ/"
+    },
+    {
+      "lemma": "scrub",
+      "pos": "verb",
+      "meaning": "To clean something by rubbing it hard with a brush or cloth.",
+      "examples": [
+        "I {scrubbed} the pan to get the burnt food off."
+      ],
+      "wrong": [
+        "She scrubbed the floor by gently looking at it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/skrʌb/"
+    },
+    {
+      "lemma": "wipe",
+      "pos": "verb",
+      "meaning": "To clean a surface by rubbing it with a cloth.",
+      "examples": [
+        "Please {wipe} the table after dinner."
+      ],
+      "wrong": [
+        "I wiped the table with a cloth to make it sticky."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/waɪp/"
+    }
+  ]
+}

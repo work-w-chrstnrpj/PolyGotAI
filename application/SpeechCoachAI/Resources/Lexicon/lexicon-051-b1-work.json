@@ -1,0 +1,774 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-work",
+    "title": "Work and careers",
+    "level": "B1",
+    "tagline": "Jobs and the workplace",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "deadline",
+      "pos": "noun",
+      "meaning": "The last time or day by which something must be done.",
+      "examples": [
+        "The {deadline} for the report is Friday."
+      ],
+      "wrong": [
+        "We finished the work a week after the deadline, so we were early.",
+        "Please do it in the deadline."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.deadline",
+      "synonyms": [
+        "due date",
+        "time limit"
+      ],
+      "ipa": "/ˈdɛdˌlaɪn/"
+    },
+    {
+      "lemma": "salary",
+      "pos": "noun",
+      "meaning": "Money an employee gets regularly for their work.",
+      "examples": [
+        "He got a higher {salary} after the promotion."
+      ],
+      "wrong": [
+        "I pay my salary to the company every month.",
+        "She salaries ten thousand pesos."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.salary",
+      "synonyms": [
+        "pay",
+        "wage"
+      ],
+      "ipa": "/ˈsæləri/"
+    },
+    {
+      "lemma": "project",
+      "pos": "noun",
+      "meaning": "A piece of work that is planned with a goal.",
+      "examples": [
+        "Our team finished the {project} on time."
+      ],
+      "wrong": [
+        "The project is a small yellow bird.",
+        "She projects a new idea last week."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.project",
+      "synonyms": [
+        "plan",
+        "undertaking"
+      ],
+      "ipa": "/ˈprɑdʒɛkt/"
+    },
+    {
+      "lemma": "task",
+      "pos": "noun",
+      "meaning": "A piece of work that must be done.",
+      "examples": [
+        "Writing emails is my first {task} each day."
+      ],
+      "wrong": [
+        "My task is something I never need to do.",
+        "She tasks many jobs today."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.task",
+      "synonyms": [
+        "job",
+        "duty"
+      ],
+      "ipa": "/tæsk/"
+    },
+    {
+      "lemma": "budget",
+      "pos": "noun",
+      "meaning": "A plan for how much money you will spend.",
+      "examples": [
+        "We need to stay within the {budget}."
+      ],
+      "wrong": [
+        "We spent twice our budget, so we saved money.",
+        "He budgets a sunny river."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.budget",
+      "ipa": "/ˈbʌdʒɪt/"
+    },
+    {
+      "lemma": "employee",
+      "pos": "noun",
+      "meaning": "A person who is paid to work for a company.",
+      "examples": [
+        "Each {employee} gets a security badge."
+      ],
+      "wrong": [
+        "The employee pays the company a salary every month.",
+        "He employee at the bank."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.employee",
+      "synonyms": [
+        "worker",
+        "staff member"
+      ],
+      "ipa": "/ɪmˈplɔɪi/",
+      "antonyms": [
+        "employer"
+      ]
+    },
+    {
+      "lemma": "resume",
+      "pos": "noun",
+      "meaning": "A short document that lists your jobs and skills.",
+      "examples": [
+        "Send your {resume} with the application form."
+      ],
+      "wrong": [
+        "My resume is a list of my favorite foods.",
+        "He resumes in the box."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.resume",
+      "synonyms": [
+        "CV"
+      ],
+      "ipa": "/ˈrɛzəˌmeɪ/"
+    },
+    {
+      "lemma": "interview",
+      "pos": "noun",
+      "meaning": "A formal meeting where someone asks you questions about a job.",
+      "examples": [
+        "I have a job {interview} on Tuesday."
+      ],
+      "wrong": [
+        "The interview asked me twenty questions.",
+        "She interview with the manager."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.interview",
+      "ipa": "/ˈɪntɚˌvju/"
+    },
+    {
+      "lemma": "promote",
+      "pos": "verb",
+      "meaning": "To give someone a higher job.",
+      "examples": [
+        "They will {promote} her to manager next month."
+      ],
+      "wrong": [
+        "They promoted him, so he lost his job.",
+        "He promoted to the manager."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.promote",
+      "synonyms": [
+        "advance",
+        "upgrade"
+      ],
+      "ipa": "/prəˈmoʊt/",
+      "antonyms": [
+        "demote"
+      ]
+    },
+    {
+      "lemma": "department",
+      "pos": "noun",
+      "meaning": "One part of a large company or organization.",
+      "examples": [
+        "She works in the sales {department}."
+      ],
+      "wrong": [
+        "The department is a big company with no parts.",
+        "He departments in the building."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.department",
+      "synonyms": [
+        "division",
+        "section"
+      ],
+      "ipa": "/dɪˈpɑrtmənt/"
+    },
+    {
+      "lemma": "client",
+      "pos": "noun",
+      "meaning": "A person or company that pays for your services.",
+      "examples": [
+        "Our {client} wants a new logo."
+      ],
+      "wrong": [
+        "Our client works for us and gets a salary.",
+        "She clients the company."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.client",
+      "synonyms": [
+        "customer"
+      ],
+      "ipa": "/ˈklaɪənt/"
+    },
+    {
+      "lemma": "delay",
+      "pos": "noun",
+      "meaning": "A time when something happens later than planned.",
+      "examples": [
+        "There is a one-hour {delay} at the airport."
+      ],
+      "wrong": [
+        "The delay made the train arrive early.",
+        "He delay the flight."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.delay",
+      "synonyms": [
+        "hold-up",
+        "wait"
+      ],
+      "ipa": "/dɪˈleɪ/"
+    },
+    {
+      "lemma": "remind",
+      "pos": "verb",
+      "meaning": "To help someone remember something.",
+      "examples": [
+        "Please {remind} me to call the bank."
+      ],
+      "wrong": [
+        "I remind a letter to the bank.",
+        "She reminds me about to call."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.remind",
+      "synonyms": [
+        "prompt"
+      ],
+      "ipa": "/rɪˈmaɪnd/"
+    },
+    {
+      "lemma": "attach",
+      "pos": "verb",
+      "meaning": "To fix one thing to another, such as a file to an email.",
+      "examples": [
+        "Please {attach} the document to your email."
+      ],
+      "wrong": [
+        "I attach the document by deleting it from the email.",
+        "He attached with the file."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.attach",
+      "synonyms": [
+        "fasten",
+        "add"
+      ],
+      "ipa": "/əˈtætʃ/",
+      "antonyms": [
+        "detach"
+      ]
+    },
+    {
+      "lemma": "submit",
+      "pos": "verb",
+      "meaning": "To give a document or work to someone for a decision.",
+      "examples": [
+        "You must {submit} the form by noon."
+      ],
+      "wrong": [
+        "I submit the form by throwing it away.",
+        "She submitted for the report."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.submit",
+      "synonyms": [
+        "hand in",
+        "send in"
+      ],
+      "ipa": "/səbˈmɪt/"
+    },
+    {
+      "lemma": "review",
+      "pos": "verb",
+      "meaning": "To look at something again to check it.",
+      "examples": [
+        "I will {review} your report tonight."
+      ],
+      "wrong": [
+        "I review the report before I write it.",
+        "He reviews to the document."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.review",
+      "synonyms": [
+        "check",
+        "examine"
+      ],
+      "ipa": "/rɪˈvju/"
+    },
+    {
+      "lemma": "apply",
+      "pos": "verb",
+      "meaning": "To ask formally for a job or a place.",
+      "examples": [
+        "She decided to {apply} for the new position."
+      ],
+      "wrong": [
+        "I apply a new job, so they ask me to leave.",
+        "He applied to a job."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.apply",
+      "synonyms": [
+        "request"
+      ],
+      "ipa": "/əˈplaɪ/"
+    },
+    {
+      "lemma": "hire",
+      "pos": "verb",
+      "meaning": "To give someone a job.",
+      "examples": [
+        "The company will {hire} three new workers."
+      ],
+      "wrong": [
+        "The company hired him, so he lost his job.",
+        "They hires many workers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.hire",
+      "synonyms": [
+        "employ",
+        "take on"
+      ],
+      "ipa": "/haɪɚ/",
+      "antonyms": [
+        "fire",
+        "dismiss"
+      ]
+    },
+    {
+      "lemma": "shift",
+      "pos": "noun",
+      "meaning": "A set period of time when a person works.",
+      "examples": [
+        "He works the night {shift} at the hospital."
+      ],
+      "wrong": [
+        "My shift is a week of vacations.",
+        "She shift every night."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.shift",
+      "ipa": "/ʃɪft/"
+    },
+    {
+      "lemma": "feedback",
+      "pos": "noun",
+      "meaning": "Comments that tell you how well you did something.",
+      "examples": [
+        "I asked my boss for {feedback} on my presentation."
+      ],
+      "wrong": [
+        "I gave my boss feedback by saying nothing at all.",
+        "He feedbacks us."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.feedback",
+      "synonyms": [
+        "comments",
+        "response"
+      ],
+      "ipa": "/ˈfidˌbæk/"
+    },
+    {
+      "lemma": "discount",
+      "pos": "noun",
+      "meaning": "A lower price than the usual one.",
+      "examples": [
+        "The shop gave me a ten percent {discount}."
+      ],
+      "wrong": [
+        "A discount makes the price go up.",
+        "He discount a lot on shoes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.discount",
+      "synonyms": [
+        "reduction",
+        "markdown"
+      ],
+      "ipa": "/ˈdɪsˌkaʊnt/"
+    },
+    {
+      "lemma": "receipt",
+      "pos": "noun",
+      "meaning": "A paper that shows you paid for something.",
+      "examples": [
+        "Keep the {receipt} in case you need to return it."
+      ],
+      "wrong": [
+        "The shop gave me a receipt before I paid.",
+        "He receipts of the shop."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "id": "work-office.receipt",
+      "synonyms": [
+        "proof of purchase"
+      ],
+      "ipa": "/rɪˈsit/"
+    },
+    {
+      "lemma": "promotion",
+      "pos": "noun",
+      "meaning": "A move to a more important job.",
+      "examples": [
+        "She got a {promotion} after two years."
+      ],
+      "wrong": [
+        "A promotion is a move to a less important job."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "advancement"
+      ],
+      "ipa": "/prəˈmoʊʃən/",
+      "antonyms": [
+        "demotion"
+      ]
+    },
+    {
+      "lemma": "qualification",
+      "pos": "noun",
+      "meaning": "A certificate or exam result that shows you can do something.",
+      "examples": [
+        "You need a {qualification} in nursing for this job."
+      ],
+      "wrong": [
+        "A qualification is a kind of vacation from work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "certificate"
+      ],
+      "ipa": "/ˌkwɑləfəˈkeɪʃən/"
+    },
+    {
+      "lemma": "experience",
+      "pos": "noun",
+      "meaning": "Knowledge or skill that you get from doing something for a time.",
+      "examples": [
+        "He has five years of {experience} in sales."
+      ],
+      "wrong": [
+        "Experience is something you can buy in a shop for ten dollars in one minute."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "practice",
+        "background"
+      ],
+      "ipa": "/ɪkˈspɪriəns/"
+    },
+    {
+      "lemma": "career",
+      "pos": "noun",
+      "meaning": "The series of jobs that a person has in their working life.",
+      "examples": [
+        "She has had a long {career} in teaching."
+      ],
+      "wrong": [
+        "A career is a short break between two meals."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "profession",
+        "vocation"
+      ],
+      "ipa": "/kəˈrɪr/"
+    },
+    {
+      "lemma": "skill",
+      "pos": "noun",
+      "meaning": "The ability to do something well.",
+      "examples": [
+        "Typing is a useful {skill}."
+      ],
+      "wrong": [
+        "A skill is something that you cannot learn."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ability",
+        "talent"
+      ],
+      "ipa": "/skɪl/"
+    },
+    {
+      "lemma": "training",
+      "pos": "noun",
+      "meaning": "Teaching that prepares you to do a job.",
+      "examples": [
+        "All new staff get a week of {training}."
+      ],
+      "wrong": [
+        "Training is the act of doing nothing at work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "coaching"
+      ],
+      "ipa": "/ˈtreɪnɪŋ/"
+    },
+    {
+      "lemma": "responsibility",
+      "pos": "noun",
+      "meaning": "A duty to deal with something or to take care of someone.",
+      "examples": [
+        "Keeping the keys is my {responsibility}."
+      ],
+      "wrong": [
+        "Responsibility means you never need to do anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "duty",
+        "obligation"
+      ],
+      "ipa": "/rɪˌspɑnsəˈbɪləti/"
+    },
+    {
+      "lemma": "resign",
+      "pos": "verb",
+      "meaning": "To say officially that you are leaving your job.",
+      "examples": [
+        "He decided to {resign} and start a business."
+      ],
+      "wrong": [
+        "I resign when my boss gives me a new job."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quit",
+        "step down"
+      ],
+      "ipa": "/rɪˈzaɪn/"
+    },
+    {
+      "lemma": "retire",
+      "pos": "verb",
+      "meaning": "To stop working because you are old.",
+      "examples": [
+        "My grandfather will {retire} next year."
+      ],
+      "wrong": [
+        "People retire when they start their first job."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stop working"
+      ],
+      "ipa": "/rɪˈtaɪɚ/"
+    },
+    {
+      "lemma": "unemployed",
+      "pos": "adjective",
+      "meaning": "Without a job.",
+      "examples": [
+        "He has been {unemployed} for six months."
+      ],
+      "wrong": [
+        "She is unemployed, so she works full time in an office."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "jobless",
+        "out of work"
+      ],
+      "ipa": "/ˌʌnɪmˈplɔɪd/",
+      "antonyms": [
+        "employed"
+      ]
+    },
+    {
+      "lemma": "recruit",
+      "pos": "verb",
+      "meaning": "To find new people to work for a company.",
+      "examples": [
+        "The shop wants to {recruit} two new assistants."
+      ],
+      "wrong": [
+        "Companies recruit people when they want fewer workers."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hire",
+        "enlist"
+      ],
+      "ipa": "/rɪˈkrut/"
+    },
+    {
+      "lemma": "candidate",
+      "pos": "noun",
+      "meaning": "A person who applies for a job or is in an election.",
+      "examples": [
+        "The company interviewed five {candidates}."
+      ],
+      "wrong": [
+        "A candidate is a person who has already got the job and works there."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "applicant"
+      ],
+      "ipa": "/ˈkændɪˌdeɪt/"
+    },
+    {
+      "lemma": "reference",
+      "pos": "noun",
+      "meaning": "A letter or statement from someone who says what you are like.",
+      "examples": [
+        "My teacher wrote me a good {reference}."
+      ],
+      "wrong": [
+        "A reference is a kind of tool for cutting paper."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "recommendation"
+      ],
+      "ipa": "/ˈrɛfərəns/"
+    },
+    {
+      "lemma": "internship",
+      "pos": "noun",
+      "meaning": "A short period of work to gain experience.",
+      "examples": [
+        "She did a summer {internship} at a newspaper."
+      ],
+      "wrong": [
+        "An internship is a long career with a high salary."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "placement",
+        "apprenticeship"
+      ],
+      "ipa": "/ˈɪntɝnˌʃɪp/"
+    },
+    {
+      "lemma": "workplace",
+      "pos": "noun",
+      "meaning": "The place where people do their job.",
+      "examples": [
+        "Safety is important in the {workplace}."
+      ],
+      "wrong": [
+        "A workplace is a place where people only sleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "office",
+        "workshop"
+      ],
+      "ipa": "/ˈwɝkˌpleɪs/"
+    },
+    {
+      "lemma": "strike",
+      "pos": "noun",
+      "meaning": "A time when workers refuse to work to ask for something.",
+      "examples": [
+        "The drivers went on {strike} for better pay."
+      ],
+      "wrong": [
+        "A strike is a day when everyone works more hours than usual by choice."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "walkout"
+      ],
+      "ipa": "/straɪk/"
+    },
+    {
+      "lemma": "wage",
+      "pos": "noun",
+      "meaning": "Money that a person earns, usually paid weekly.",
+      "examples": [
+        "The workers asked for a higher {wage}."
+      ],
+      "wrong": [
+        "A wage is money that you pay to a shop for bread."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pay",
+        "earnings"
+      ],
+      "ipa": "/weɪdʒ/"
+    },
+    {
+      "lemma": "income",
+      "pos": "noun",
+      "meaning": "The money that a person or family earns.",
+      "examples": [
+        "Her monthly {income} is $2,000."
+      ],
+      "wrong": [
+        "Income is the money you pay when you buy a bus ticket."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earnings",
+        "revenue"
+      ],
+      "ipa": "/ˈɪnˌkʌm/"
+    }
+  ]
+}

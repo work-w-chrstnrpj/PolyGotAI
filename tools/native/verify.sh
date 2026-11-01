@@ -12,6 +12,9 @@ result_root="$project_root/application/.build/verification"
 mkdir -p "$result_root"
 run_dir="$(mktemp -d "$result_root/run-XXXXXX")"
 echo "Verification artifacts: $run_dir"
+# Screen copy rules run first but report at the end, so the tests still produce evidence.
+audit_status=0
+bash "$project_root/tools/native/copy-audit.sh" > "$run_dir/copy-audit.txt" 2>&1 || audit_status=$?
 xcodebuild -list -project "$project_root/application/SpeechCoachAI.xcodeproj" > "$run_dir/project.txt"
 test_status=0
 xcodebuild test \
@@ -37,3 +40,7 @@ if [[ $summary_status -ne 0 ]]; then
     exit "$summary_status"
 fi
 cat "$run_dir/summary.json"
+if [[ $audit_status -ne 0 ]]; then
+    cat "$run_dir/copy-audit.txt" >&2
+    exit "$audit_status"
+fi

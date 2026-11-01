@@ -1,0 +1,765 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-useful-verbs",
+    "title": "Useful verbs",
+    "level": "B1",
+    "tagline": "Everyday actions at B1",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "avoid",
+      "pos": "verb",
+      "meaning": "To stay away from something or try not to do it.",
+      "examples": [
+        "I {avoid} driving in the city at rush hour."
+      ],
+      "wrong": [
+        "He avoided the shop by going there every day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stay away from",
+        "dodge"
+      ],
+      "ipa": "/əˈvɔɪd/"
+    },
+    {
+      "lemma": "bother",
+      "pos": "verb",
+      "meaning": "To annoy or disturb someone.",
+      "examples": [
+        "Sorry to {bother} you, but can you help me?"
+      ],
+      "wrong": [
+        "The noise bothered him, so he felt calm and happy."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disturb",
+        "annoy"
+      ],
+      "ipa": "/ˈbɑðɚ/"
+    },
+    {
+      "lemma": "cause",
+      "pos": "verb",
+      "meaning": "To make something happen, usually something bad.",
+      "examples": [
+        "The storm {caused} a lot of damage."
+      ],
+      "wrong": [
+        "The rain caused the fire to start."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bring about",
+        "lead to"
+      ],
+      "ipa": "/kɔz/"
+    },
+    {
+      "lemma": "consider",
+      "pos": "verb",
+      "meaning": "To think carefully about something before deciding.",
+      "examples": [
+        "We are {considering} moving to a bigger flat."
+      ],
+      "wrong": [
+        "She considered the offer without thinking about it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "think about"
+      ],
+      "ipa": "/kənˈsɪdɚ/"
+    },
+    {
+      "lemma": "contain",
+      "pos": "verb",
+      "meaning": "To have something inside.",
+      "examples": [
+        "This box {contains} old photos."
+      ],
+      "wrong": [
+        "The empty bottle contains a lot of water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hold",
+        "include"
+      ],
+      "ipa": "/kənˈteɪn/"
+    },
+    {
+      "lemma": "increase",
+      "pos": "verb",
+      "meaning": "To become or make something bigger in number or size.",
+      "examples": [
+        "The price of bread has {increased} again."
+      ],
+      "wrong": [
+        "The number of students increased from fifty to ten."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "go up",
+        "rise"
+      ],
+      "ipa": "/ɪnˈkris/",
+      "antonyms": [
+        "decrease",
+        "reduce"
+      ]
+    },
+    {
+      "lemma": "reduce",
+      "pos": "verb",
+      "meaning": "To make something smaller or less.",
+      "examples": [
+        "Turn off the lights to {reduce} your bills."
+      ],
+      "wrong": [
+        "They reduced the price from ten dollars to twenty."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cut",
+        "lower"
+      ],
+      "ipa": "/rɪˈdus/",
+      "antonyms": [
+        "increase"
+      ]
+    },
+    {
+      "lemma": "deserve",
+      "pos": "verb",
+      "meaning": "To earn something because of what you have done.",
+      "examples": [
+        "You worked hard, so you {deserve} a rest."
+      ],
+      "wrong": [
+        "He didn’t work at all, so he deserved the prize for hard work."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "earn",
+        "merit"
+      ],
+      "ipa": "/dɪˈzɝv/"
+    },
+    {
+      "lemma": "develop",
+      "pos": "verb",
+      "meaning": "To grow or change into something bigger or better.",
+      "examples": [
+        "The town {developed} into a big city."
+      ],
+      "wrong": [
+        "The plant developed by getting smaller and dying."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "grow",
+        "build up"
+      ],
+      "ipa": "/dɪˈvɛləp/"
+    },
+    {
+      "lemma": "disappear",
+      "pos": "verb",
+      "meaning": "To go out of sight or stop existing.",
+      "examples": [
+        "The sun {disappeared} behind the clouds."
+      ],
+      "wrong": [
+        "The cat disappeared and sat in front of us all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "vanish"
+      ],
+      "ipa": "/ˌdɪsəˈpɪr/",
+      "antonyms": [
+        "appear"
+      ]
+    },
+    {
+      "lemma": "expect",
+      "pos": "verb",
+      "meaning": "To think that something will probably happen.",
+      "examples": [
+        "We {expect} the train to arrive at six."
+      ],
+      "wrong": [
+        "I expected the rain, so I was very surprised by it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "anticipate"
+      ],
+      "ipa": "/ɪkˈspɛkt/"
+    },
+    {
+      "lemma": "lift",
+      "pos": "verb",
+      "meaning": "To move something up to a higher position.",
+      "examples": [
+        "Can you help me {lift} this heavy box?"
+      ],
+      "wrong": [
+        "He lifted the box by pushing it down to the floor."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "raise",
+        "pick up"
+      ],
+      "ipa": "/lɪft/",
+      "antonyms": [
+        "lower",
+        "put down"
+      ]
+    },
+    {
+      "lemma": "intend",
+      "pos": "verb",
+      "meaning": "To plan or mean to do something.",
+      "examples": [
+        "I {intend} to finish this report today."
+      ],
+      "wrong": [
+        "She intended to go, so she had no plan to go."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "plan",
+        "mean"
+      ],
+      "ipa": "/ɪnˈtɛnd/"
+    },
+    {
+      "lemma": "manage",
+      "pos": "verb",
+      "meaning": "To succeed in doing something difficult.",
+      "examples": [
+        "He {managed} to fix the car on his own."
+      ],
+      "wrong": [
+        "She managed to open the door, but it stayed closed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "succeed",
+        "cope"
+      ],
+      "ipa": "/ˈmænɪdʒ/"
+    },
+    {
+      "lemma": "notice",
+      "pos": "verb",
+      "meaning": "To see or become aware of something.",
+      "examples": [
+        "Did you {notice} her new haircut?"
+      ],
+      "wrong": [
+        "I noticed the noise, but I didn’t hear anything."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "spot",
+        "see"
+      ],
+      "ipa": "/ˈnoʊtɪs/"
+    },
+    {
+      "lemma": "own",
+      "pos": "verb",
+      "meaning": "To have something that belongs to you.",
+      "examples": [
+        "They {own} a small house by the sea."
+      ],
+      "wrong": [
+        "He owns the car, but it isn’t his."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "have",
+        "possess"
+      ],
+      "ipa": "/oʊn/"
+    },
+    {
+      "lemma": "pretend",
+      "pos": "verb",
+      "meaning": "To act as if something is true when it is not.",
+      "examples": [
+        "He {pretended} to be asleep when Mom came in."
+      ],
+      "wrong": [
+        "She pretended to be sick because she really was sick."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "fake",
+        "act"
+      ],
+      "ipa": "/prɪˈtɛnd/"
+    },
+    {
+      "lemma": "provide",
+      "pos": "verb",
+      "meaning": "To give people something they need.",
+      "examples": [
+        "The hotel {provides} towels and soap."
+      ],
+      "wrong": [
+        "The school provides lunch, so students get no food."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "supply",
+        "give"
+      ],
+      "ipa": "/prəˈvaɪd/"
+    },
+    {
+      "lemma": "realize",
+      "pos": "verb",
+      "meaning": "To suddenly understand or become aware of something.",
+      "examples": [
+        "I {realized} I had left my keys at home."
+      ],
+      "wrong": [
+        "He realized the answer but still had no idea."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "understand",
+        "see"
+      ],
+      "ipa": "/ˈriəˌlaɪz/"
+    },
+    {
+      "lemma": "recognize",
+      "pos": "verb",
+      "meaning": "To know someone or something because you have seen it before.",
+      "examples": [
+        "I didn’t {recognize} you with short hair."
+      ],
+      "wrong": [
+        "I recognized the man I had never seen before."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "identify",
+        "know"
+      ],
+      "ipa": "/ˈrɛkəɡˌnaɪz/"
+    },
+    {
+      "lemma": "refuse",
+      "pos": "verb",
+      "meaning": "To say you will not do or accept something.",
+      "examples": [
+        "She {refused} to pay for the broken plate."
+      ],
+      "wrong": [
+        "He refused the job and started work the next day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "say no",
+        "decline"
+      ],
+      "ipa": "/rɪˈfjuz/",
+      "antonyms": [
+        "accept",
+        "agree"
+      ]
+    },
+    {
+      "lemma": "rely",
+      "pos": "verb",
+      "meaning": "To need and trust someone or something to help you.",
+      "examples": [
+        "You can {rely} on me to be there."
+      ],
+      "wrong": [
+        "I rely on him because he always lets me down."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "depend",
+        "count"
+      ],
+      "ipa": "/rɪˈlaɪ/"
+    },
+    {
+      "lemma": "remove",
+      "pos": "verb",
+      "meaning": "To take something away from a place.",
+      "examples": [
+        "Please {remove} your shoes before you come in."
+      ],
+      "wrong": [
+        "He removed the picture by hanging it on the wall."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take away",
+        "take off"
+      ],
+      "ipa": "/rɪˈmuv/",
+      "antonyms": [
+        "add",
+        "put on"
+      ]
+    },
+    {
+      "lemma": "replace",
+      "pos": "verb",
+      "meaning": "To put something new in the place of something old.",
+      "examples": [
+        "I need to {replace} my broken phone."
+      ],
+      "wrong": [
+        "He replaced the old battery by keeping it in."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "change",
+        "substitute"
+      ],
+      "ipa": "/rɪˈpleɪs/"
+    },
+    {
+      "lemma": "seem",
+      "pos": "verb",
+      "meaning": "To appear to be something.",
+      "examples": [
+        "She {seems} tired today."
+      ],
+      "wrong": [
+        "He seemed happy, so nobody could tell how he felt."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "appear",
+        "look"
+      ],
+      "ipa": "/sim/"
+    },
+    {
+      "lemma": "separate",
+      "pos": "verb",
+      "meaning": "To divide things or people, or move them apart.",
+      "examples": [
+        "{Separate} the eggs into yolks and whites."
+      ],
+      "wrong": [
+        "She separated the two dogs by tying them together."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "divide",
+        "split"
+      ],
+      "ipa": "/ˈsɛpəˌreɪt/",
+      "antonyms": [
+        "combine",
+        "join",
+        "mix"
+      ]
+    },
+    {
+      "lemma": "spread",
+      "pos": "verb",
+      "meaning": "To move or reach a bigger area or more people.",
+      "examples": [
+        "The news {spread} quickly around the school."
+      ],
+      "wrong": [
+        "The fire spread and stayed in one small corner."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "extend",
+        "go around"
+      ],
+      "ipa": "/sprɛd/"
+    },
+    {
+      "lemma": "suppose",
+      "pos": "verb",
+      "meaning": "To think that something is probably true.",
+      "examples": [
+        "I {suppose} you’re hungry after that long walk."
+      ],
+      "wrong": [
+        "I suppose it’s true, so I’m sure it’s false."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "guess",
+        "imagine"
+      ],
+      "ipa": "/səˈpoʊz/"
+    },
+    {
+      "lemma": "survive",
+      "pos": "verb",
+      "meaning": "To stay alive after a dangerous event.",
+      "examples": [
+        "Everyone {survived} the crash."
+      ],
+      "wrong": [
+        "Nobody survived, so all of them lived."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "live through",
+        "pull through"
+      ],
+      "ipa": "/sɚˈvaɪv/"
+    },
+    {
+      "lemma": "tend",
+      "pos": "verb",
+      "meaning": "To usually do something or be likely to happen.",
+      "examples": [
+        "I {tend} to wake up early."
+      ],
+      "wrong": [
+        "He tends to be late, so he is never late."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "be likely",
+        "usually do"
+      ],
+      "ipa": "/tɛnd/"
+    },
+    {
+      "lemma": "waste",
+      "pos": "verb",
+      "meaning": "To use more of something than you need, or use it badly.",
+      "examples": [
+        "Don’t {waste} water; turn off the tap."
+      ],
+      "wrong": [
+        "He wasted no time, so he was very slow."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "squander",
+        "throw away"
+      ],
+      "ipa": "/weɪst/",
+      "antonyms": [
+        "save"
+      ]
+    },
+    {
+      "lemma": "weigh",
+      "pos": "verb",
+      "meaning": "To have a certain heaviness, or measure how heavy something is.",
+      "examples": [
+        "The suitcase {weighs} twenty kilos."
+      ],
+      "wrong": [
+        "She weighed the rope by measuring how long it was."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/weɪ/"
+    },
+    {
+      "lemma": "wrap",
+      "pos": "verb",
+      "meaning": "To cover something with paper or cloth.",
+      "examples": [
+        "She {wrapped} the present in red paper."
+      ],
+      "wrong": [
+        "He wrapped the gift by opening it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cover",
+        "pack"
+      ],
+      "ipa": "/ræp/"
+    },
+    {
+      "lemma": "shake",
+      "pos": "verb",
+      "meaning": "To move something quickly up and down or side to side.",
+      "examples": [
+        "{Shake} the bottle before you open it."
+      ],
+      "wrong": [
+        "He shook the bottle by keeping it completely still."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "move",
+        "wobble"
+      ],
+      "ipa": "/ʃeɪk/"
+    },
+    {
+      "lemma": "pour",
+      "pos": "verb",
+      "meaning": "To make a liquid flow out of a container.",
+      "examples": [
+        "Can you {pour} me a glass of water?"
+      ],
+      "wrong": [
+        "She poured the bread into the toaster."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/pɔr/"
+    },
+    {
+      "lemma": "bend",
+      "pos": "verb",
+      "meaning": "To make something curved, or move your body forward and down.",
+      "examples": [
+        "{Bend} your knees when you lift heavy boxes."
+      ],
+      "wrong": [
+        "He bent the stick so it stayed perfectly straight."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "curve",
+        "fold"
+      ],
+      "ipa": "/bɛnd/"
+    },
+    {
+      "lemma": "ignore",
+      "pos": "verb",
+      "meaning": "To pay no attention to someone or something.",
+      "examples": [
+        "He {ignored} my question and kept walking."
+      ],
+      "wrong": [
+        "She ignored him by listening carefully to every word."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "disregard",
+        "overlook"
+      ],
+      "ipa": "/ɪɡˈnɔr/",
+      "antonyms": [
+        "notice",
+        "pay attention to"
+      ]
+    },
+    {
+      "lemma": "rush",
+      "pos": "verb",
+      "meaning": "To go or do something very quickly.",
+      "examples": [
+        "We {rushed} to catch the last bus."
+      ],
+      "wrong": [
+        "He rushed home, taking his time and walking slowly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hurry",
+        "dash"
+      ],
+      "ipa": "/rʌʃ/",
+      "antonyms": [
+        "dawdle"
+      ]
+    },
+    {
+      "lemma": "obey",
+      "pos": "verb",
+      "meaning": "To do what a person, rule or law tells you.",
+      "examples": [
+        "Drivers must {obey} the speed limit."
+      ],
+      "wrong": [
+        "He obeyed the rule by breaking it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "follow",
+        "comply with"
+      ],
+      "ipa": "/oʊˈbeɪ/",
+      "antonyms": [
+        "disobey",
+        "break"
+      ]
+    },
+    {
+      "lemma": "arrange",
+      "pos": "verb",
+      "meaning": "To plan or organize something for the future.",
+      "examples": [
+        "I’ve {arranged} a meeting for Monday."
+      ],
+      "wrong": [
+        "She arranged the trip by making no plans at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "organize",
+        "set up"
+      ],
+      "ipa": "/əˈreɪndʒ/"
+    }
+  ]
+}

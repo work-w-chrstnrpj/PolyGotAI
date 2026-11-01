@@ -1,0 +1,78 @@
+"""C1 lessons for convert_a2c2_v3.py. First option of every list is the correct answer."""
+
+
+def build(ch, fill, bank):
+    return {
+        "c1-strategy": dict(
+            tip="Test a plan against real capacity, not only against the slide. “The plan looks efficient on a slide” uses “looks” for appearance. “Frays when…” shows when a plan breaks. “People who must carry it” names who does the work. “Rather than” prefers one option: “Sequence the work rather than announce a transformation.”",
+            read=("The attention of the people who hold the operation together.", "The cost of the new software.", "The quality of the idea.", "The speed of the announcement."),
+            listen=("In the first month, when the people who must carry it are already at capacity.", "In the last month, when the budget is cut.",
+                    "In the first week, when the idea is announced.", "In the second year, when the team has grown."),
+            gram=[("looks", "looking", "look", "is looked"),
+                  ch("when", "that", "than", "unless", prompt="Time: It frays ___ the people who must carry it are already full."),
+                  ("who", "which", "what", "whom"), ("rather than", "other than", "more than", "instead")],
+            tf=("Mina would announce a large transformation all at once.", False, "She would rather sequence the work than announce a transformation."),
+            dict="She would rather sequence the work than announce a transformation.",
+        ),
+        "c1-research": dict(
+            tip="A cautious claim stays inside its evidence. “The sample supports a cautious claim,” but it “does not license a general rule.” Use “may” for possibility: “Missing answers may tilt the result.” “Although the interviews agree, the claim stays local” admits a point and still limits the claim. To tilt a result is to push it one way.",
+            read=("A market.", "A pilot.", "A diary.", "A rumor."),
+            listen=("The missing responses.", "The long interviews.", "The clear results.", "The final report."),
+            gram=[("supports", "support", "supporting", "to support"), ("does not", "is not", "has not", "are not"), ("may", "may to", "maying", "mays"),
+                  ("Although", "Unless", "Whether", "Therefore")],
+            tf=("Mina thinks ten interviews prove a general rule.", False, "She refuses to treat ten conversations as a market."),
+            dict="Ten interviews support a cautious claim, not a general rule.",
+        ),
+        "c1-change": dict(
+            tip="People often resist the surprise of a change more than the change itself. Say “not so much the process as the surprise.” “Without practice” names what is missing. “Before” sets an order: “Let them try it before you retire the old way.” Use “who” for people: “Those who missed the reason struggle.”",
+            read=("People who were not in the room when the reason was explained.", "People who liked the old tool.", "People who joined last week.", "People who lead the team."),
+            listen=("The surprise of learning it in public, without practice.", "The cost of the new tool.", "The length of the training.", "The loss of the old tool."),
+            gram=[ch("as", "than", "like", "so", prompt="Comparison: They resist not so much the process ___ the surprise.", newanswer="as"),
+                  ("without", "with", "within", "besides"), ("before", "after", "until", "while"), ("who", "which", "what", "whose")],
+            tf=("Mina switches tools without warning.", False, "She gives people a week with the old and new tools side by side."),
+            dict="Let them try it before you retire the old way.",
+        ),
+        "c1-problems": dict(
+            tip="Separate tangled causes by naming each one: “The handoff is unclear, and the team has no time.” “Only” limits: “Fixing only the form will fail.” “Both” joins two sides: “It disappoints both sides.” “Unless” means “if not”: “Nothing improves unless the receiver has time.”",
+            read=("Time for the receiving team.", "A cleaner template.", "A longer meeting.", "A new manager."),
+            listen=("Because the receiving team also has no time to repair the work.", "Because the template is too long.", "Because the sender is too slow.", "Because the meeting is too early."),
+            gram=[("and", "or", "nor", "if"), ("only", "even", "just only", "onlys"), ("both", "either", "every", "each one"), ("unless", "although", "whereas", "whether")],
+            tf=("A cleaner template alone will fix the handoff.", False, "Unless the receiving team also has time, a cleaner template will only make the queue look polite."),
+            dict="Nothing improves unless the receiver has time.",
+        ),
+        "c1-policy": dict(
+            tip="A rule people can use puts its exception next to it. “A rule that takes longer than a minute will be avoided.” “Or” warns about the other path: “Write it down, or people will invent a path.” “Beside” means next to. “Will” predicts: “The workaround will become the practice.”",
+            read=("Beside the rule.", "In a separate document.", "At the end of the year.", "In the training video."),
+            listen=("It will be worked around.", "It will be followed closely.", "It will be rewritten.", "It will be printed."),
+            gram=[("that", "who", "what", "whom"), ("or", "and", "so", "but"), ("beside", "beside of", "besides to", "by side"), ("will", "would to", "did", "is")],
+            tf=("Mina hides the exception so people do not worry about it.", False, "She puts the exception next to the rule so people do not discover it in a crisis."),
+            dict="Put the exception beside the rule.",
+        ),
+        "c1-sensitive": dict(
+            tip="To raise a sensitive issue, describe the pattern and its effect without turning it into a trial: “Name the effect without putting you on trial.” “When the meeting runs over, the notes pile up.” “So that” gives the purpose: “Say it so that they can answer the work.”",
+            read=("A motive she has not seen.", "A pattern she has seen.", "A rule she wrote.", "A deadline she set."),
+            listen=("The notes, when the meeting runs over.", "The agenda, before the meeting starts.", "The invitations, when the meeting is full.", "The coffee, after the meeting ends."),
+            gram=[("without", "with", "within", "beyond"), ("When", "Unless", "Although", "Whereas"), ("and", "nor", "than", "whom"),
+                  ("so that", "because", "therefore", "although")],
+            tf=("Mina tells the person what motive she thinks they have.", False, "She avoids claiming a motive she has not seen."),
+            dict="Describe the pattern, so that they can answer the work.",
+        ),
+        "c1-debate": dict(
+            tip="To locate a disagreement, separate the aim from the measure. “The fight is not about the goal. It is about which evidence counts.” Use “when” for the moment of conflict and “whereas” to contrast two groups: “One group trusts the survey, whereas the other trusts the log.”",
+            read=("The survey and the incident log.", "The budget and the schedule.", "The goal and the plan.", "The meeting and the report."),
+            listen=("Which evidence counts when the measures conflict.", "Whether the goal is worth doing.", "Who should lead the review.", "How long the report should be."),
+            gram=[("not about", "not for", "no about", "not by"), ("which", "who", "where", "whose"), ("when", "than", "unless", "whom"),
+                  ("whereas", "because", "unless", "so")],
+            tf=("The two groups disagree about the goal.", False, "They share the aim; they disagree about which measure to trust."),
+            dict="One group trusts the survey, whereas the other trusts the incident log.",
+        ),
+        "c1-culture": dict(
+            tip="Do not translate silence into agreement. Ask what a pause means before you fill it. “What a pause means” is an indirect question: use normal word order after “what.” “Rather than” names the habit to avoid: “Wait rather than treating silence as agreement.”",
+            read=("Agreement.", "Disagreement.", "Respect.", "A question."),
+            listen=("What the pause means.", "How long the pause lasts.", "Who started the pause.", "Why the room is quiet."),
+            gram=[ch("and", "than", "unless", "so", prompt="Contrast: A direct no can be clarity in one team ___ a closed door in another."),
+                  ("before", "besides", "because", "than"), ("what", "that", "which", "who"), ("rather than", "other than", "more than", "less than")],
+            tf=("Mina treats a pause as a yes.", False, "She waits rather than translating silence into agreement."),
+            dict="Ask what the pause means before you fill it.",
+        ),
+    }

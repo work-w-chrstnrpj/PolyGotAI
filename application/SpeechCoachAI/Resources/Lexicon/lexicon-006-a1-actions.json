@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-actions",
+    "title": "Everyday actions",
+    "level": "A1",
+    "tagline": "Verbs for every day",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "go",
+      "pos": "verb",
+      "meaning": "To move to a place.",
+      "examples": [
+        "We {go} to the park on Sundays."
+      ],
+      "wrong": [
+        "I go to the park, so I stay at home."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡoʊ/",
+      "antonyms": [
+        "come"
+      ]
+    },
+    {
+      "lemma": "come",
+      "pos": "verb",
+      "meaning": "To move toward the speaker or a place.",
+      "examples": [
+        "Please {come} to my party."
+      ],
+      "wrong": [
+        "Come here means go far away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "arrive"
+      ],
+      "ipa": "/kʌm/",
+      "antonyms": [
+        "go"
+      ]
+    },
+    {
+      "lemma": "eat",
+      "pos": "verb",
+      "meaning": "To put food in your mouth and swallow it.",
+      "examples": [
+        "We {eat} dinner at seven."
+      ],
+      "wrong": [
+        "I eat my shoes for lunch."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/it/"
+    },
+    {
+      "lemma": "see",
+      "pos": "verb",
+      "meaning": "To notice something with your eyes.",
+      "examples": [
+        "Can you {see} the bus?"
+      ],
+      "wrong": [
+        "I see the music with my ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "notice"
+      ],
+      "ipa": "/si/"
+    },
+    {
+      "lemma": "hear",
+      "pos": "verb",
+      "meaning": "To notice a sound with your ears.",
+      "examples": [
+        "I can {hear} a dog."
+      ],
+      "wrong": [
+        "I hear the colors with my nose."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɪr/"
+    },
+    {
+      "lemma": "speak",
+      "pos": "verb",
+      "meaning": "To say words.",
+      "examples": [
+        "Do you {speak} English?"
+      ],
+      "wrong": [
+        "She speaks with her feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "talk"
+      ],
+      "ipa": "/spik/"
+    },
+    {
+      "lemma": "write",
+      "pos": "verb",
+      "meaning": "To make letters or words on paper or a screen.",
+      "examples": [
+        "Please {write} your name here."
+      ],
+      "wrong": [
+        "I write a song with a spoon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/raɪt/"
+    },
+    {
+      "lemma": "sit",
+      "pos": "verb",
+      "meaning": "To rest on a chair or the floor.",
+      "examples": [
+        "Please {sit} down."
+      ],
+      "wrong": [
+        "I sit on the ceiling."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɪt/",
+      "antonyms": [
+        "stand"
+      ]
+    },
+    {
+      "lemma": "stand",
+      "pos": "verb",
+      "meaning": "To be on your feet.",
+      "examples": [
+        "Please {stand} in a line."
+      ],
+      "wrong": [
+        "I stand in bed while I sleep."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/stænd/",
+      "antonyms": [
+        "sit"
+      ]
+    },
+    {
+      "lemma": "give",
+      "pos": "verb",
+      "meaning": "To put something in another person’s hand.",
+      "examples": [
+        "Can you {give} me the salt?"
+      ],
+      "wrong": [
+        "I give you a book, so now I have it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "hand"
+      ],
+      "ipa": "/ɡɪv/",
+      "antonyms": [
+        "take",
+        "receive"
+      ]
+    },
+    {
+      "lemma": "take",
+      "pos": "verb",
+      "meaning": "To get something and hold it or carry it.",
+      "examples": [
+        "{Take} an apple from the bowl."
+      ],
+      "wrong": [
+        "I take the box, so it stays on the table."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/teɪk/",
+      "antonyms": [
+        "give"
+      ]
+    },
+    {
+      "lemma": "make",
+      "pos": "verb",
+      "meaning": "To create or build something.",
+      "examples": [
+        "Let’s {make} a cake."
+      ],
+      "wrong": [
+        "I make a cake from rocks."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "create"
+      ],
+      "ipa": "/meɪk/"
+    },
+    {
+      "lemma": "help",
+      "pos": "verb",
+      "meaning": "To make it easier for someone to do something.",
+      "examples": [
+        "Can you {help} me with this bag?"
+      ],
+      "wrong": [
+        "He helped me, so the work was harder."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "assist"
+      ],
+      "ipa": "/hɛlp/"
+    },
+    {
+      "lemma": "look",
+      "pos": "verb",
+      "meaning": "To turn your eyes toward something.",
+      "examples": [
+        "{Look} at this picture."
+      ],
+      "wrong": [
+        "Look at the music on the radio."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lʊk/"
+    },
+    {
+      "lemma": "think",
+      "pos": "verb",
+      "meaning": "To use your mind.",
+      "examples": [
+        "I {think} it will rain."
+      ],
+      "wrong": [
+        "I think with my feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/θɪŋk/"
+    },
+    {
+      "lemma": "know",
+      "pos": "verb",
+      "meaning": "To have information in your mind.",
+      "examples": [
+        "Do you {know} his name?"
+      ],
+      "wrong": [
+        "I know his name, but I have never heard it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/noʊ/"
+    },
+    {
+      "lemma": "want",
+      "pos": "verb",
+      "meaning": "To wish to have or do something.",
+      "examples": [
+        "I {want} a glass of water."
+      ],
+      "wrong": [
+        "I want a cake, so I don’t wish for one."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɑnt/"
+    },
+    {
+      "lemma": "like",
+      "pos": "verb",
+      "meaning": "To think something is nice.",
+      "examples": [
+        "I {like} chocolate."
+      ],
+      "wrong": [
+        "I like this song because I hate it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "enjoy"
+      ],
+      "ipa": "/laɪk/",
+      "antonyms": [
+        "dislike"
+      ]
+    },
+    {
+      "lemma": "love",
+      "pos": "verb",
+      "meaning": "To like someone or something very much.",
+      "examples": [
+        "I {love} my family."
+      ],
+      "wrong": [
+        "I love this film, so I never want to see it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "adore"
+      ],
+      "ipa": "/lʌv/",
+      "antonyms": [
+        "hate"
+      ]
+    },
+    {
+      "lemma": "live",
+      "pos": "verb",
+      "meaning": "To have your home in a place.",
+      "examples": [
+        "We {live} in a small flat."
+      ],
+      "wrong": [
+        "I live in my shoe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lɪv/"
+    },
+    {
+      "lemma": "work",
+      "pos": "verb",
+      "meaning": "To do a job.",
+      "examples": [
+        "My mother {works} at a bank."
+      ],
+      "wrong": [
+        "I work on Sunday, so I do nothing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɝk/"
+    },
+    {
+      "lemma": "study",
+      "pos": "verb",
+      "meaning": "To learn about something.",
+      "examples": [
+        "I {study} English every day."
+      ],
+      "wrong": [
+        "I study English, so I never learn it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "learn"
+      ],
+      "ipa": "/ˈstʌdi/"
+    },
+    {
+      "lemma": "learn",
+      "pos": "verb",
+      "meaning": "To get knowledge or a new skill.",
+      "examples": [
+        "Children {learn} fast."
+      ],
+      "wrong": [
+        "I learned to swim by never going in water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lɝn/"
+    },
+    {
+      "lemma": "swim",
+      "pos": "verb",
+      "meaning": "To move through water using your arms and legs.",
+      "examples": [
+        "Fish {swim} in the river."
+      ],
+      "wrong": [
+        "I swim in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/swɪm/"
+    },
+    {
+      "lemma": "dance",
+      "pos": "verb",
+      "meaning": "To move your body to music.",
+      "examples": [
+        "They {dance} at parties."
+      ],
+      "wrong": [
+        "I dance by sitting very still."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dæns/"
+    },
+    {
+      "lemma": "sing",
+      "pos": "verb",
+      "meaning": "To make music with your voice.",
+      "examples": [
+        "She {sings} in the shower."
+      ],
+      "wrong": [
+        "I sing with my eyes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɪŋ/"
+    },
+    {
+      "lemma": "draw",
+      "pos": "verb",
+      "meaning": "To make a picture with a pen or pencil.",
+      "examples": [
+        "Can you {draw} a cat?"
+      ],
+      "wrong": [
+        "I draw a picture with water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "sketch"
+      ],
+      "ipa": "/drɔ/"
+    },
+    {
+      "lemma": "turn on",
+      "pos": "phrase",
+      "meaning": "To make a light or machine start working.",
+      "examples": [
+        "{Turn on} the light, please."
+      ],
+      "wrong": [
+        "I turn on the radio to make it quiet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "switch on"
+      ],
+      "ipa": "/ˌtɝn ˈɑn/",
+      "antonyms": [
+        "turn off"
+      ]
+    },
+    {
+      "lemma": "turn off",
+      "pos": "phrase",
+      "meaning": "To make a light or machine stop working.",
+      "examples": [
+        "{Turn off} the TV and go to bed."
+      ],
+      "wrong": [
+        "I turn off the light so I can read."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "switch off"
+      ],
+      "ipa": "/ˌtɝn ˈɔf/",
+      "antonyms": [
+        "turn on"
+      ]
+    },
+    {
+      "lemma": "drive",
+      "pos": "verb",
+      "meaning": "To control a car, bus or truck.",
+      "examples": [
+        "My dad {drives} to work."
+      ],
+      "wrong": [
+        "I drive my bed to school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/draɪv/"
+    },
+    {
+      "lemma": "fly",
+      "pos": "verb",
+      "meaning": "To move through the air.",
+      "examples": [
+        "Birds {fly} south in winter."
+      ],
+      "wrong": [
+        "Fish fly in the river."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/flaɪ/"
+    },
+    {
+      "lemma": "ride",
+      "pos": "verb",
+      "meaning": "To sit on a bike or horse and make it move.",
+      "examples": [
+        "I {ride} my bike to the park."
+      ],
+      "wrong": [
+        "I ride a table to work."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/raɪd/"
+    },
+    {
+      "lemma": "cut",
+      "pos": "verb",
+      "meaning": "To make something into pieces with a knife or scissors.",
+      "examples": [
+        "{Cut} the cake into eight pieces."
+      ],
+      "wrong": [
+        "I cut the bread with a spoon of water."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "slice"
+      ],
+      "ipa": "/kʌt/"
+    },
+    {
+      "lemma": "send",
+      "pos": "verb",
+      "meaning": "To make a letter, message or package go to someone.",
+      "examples": [
+        "{Send} me a message."
+      ],
+      "wrong": [
+        "I send a letter by keeping it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɛnd/"
+    },
+    {
+      "lemma": "get up",
+      "pos": "phrase",
+      "meaning": "To leave your bed after sleeping.",
+      "examples": [
+        "I {get up} at six every day."
+      ],
+      "wrong": [
+        "I get up and go to sleep."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "rise"
+      ],
+      "ipa": "/ˌɡɛt ˈʌp/",
+      "antonyms": [
+        "go to bed"
+      ]
+    },
+    {
+      "lemma": "put",
+      "pos": "verb",
+      "meaning": "To move something to a place.",
+      "examples": [
+        "{Put} your bag on the chair."
+      ],
+      "wrong": [
+        "I put the cup in the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "place"
+      ],
+      "ipa": "/pʊt/"
+    },
+    {
+      "lemma": "find",
+      "pos": "verb",
+      "meaning": "To see or get something you were looking for.",
+      "examples": [
+        "I can’t {find} my keys."
+      ],
+      "wrong": [
+        "I find my keys, so they are still lost."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "discover"
+      ],
+      "ipa": "/faɪnd/",
+      "antonyms": [
+        "lose"
+      ]
+    },
+    {
+      "lemma": "try",
+      "pos": "verb",
+      "meaning": "To make an effort to do something.",
+      "examples": [
+        "{Try} this soup; it’s good."
+      ],
+      "wrong": [
+        "I try my best by doing nothing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "attempt"
+      ],
+      "ipa": "/traɪ/"
+    },
+    {
+      "lemma": "ask",
+      "pos": "verb",
+      "meaning": "To say a question.",
+      "examples": [
+        "Can I {ask} you a question?"
+      ],
+      "wrong": [
+        "I ask an answer to a question."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/æsk/",
+      "antonyms": [
+        "answer"
+      ]
+    },
+    {
+      "lemma": "say",
+      "pos": "verb",
+      "meaning": "To speak words.",
+      "examples": [
+        "What did you {say}?"
+      ],
+      "wrong": [
+        "I say a song with my eyes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "tell"
+      ],
+      "ipa": "/seɪ/"
+    }
+  ]
+}

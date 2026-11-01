@@ -77,8 +77,12 @@ struct ExerciseSpec: Codable, Equatable {
             return accepted.contains(text) ? .correct : .incorrect
         case (.wordBank, .sequence(let tiles)):
             return AnswerChecker.check(tiles.joined(separator: " "), accepted: accepted, allowAlmost: false)
-        case (.fillBlank, .text(let text)), (.spotError, .text(let text)), (.listenType, .text(let text)), (.speak, .text(let text)):
+        case (.fillBlank, .text(let text)), (.spotError, .text(let text)), (.listenType, .text(let text)):
             return AnswerChecker.check(text, accepted: accepted)
+        case (.speak, .text(let text)):
+            // What the phone heard counts when it contains an accepted word or phrase as whole words ("a sheep" for sheep).
+            let heard = AnswerChecker.words(in: text)
+            return accepted.contains { Self.contains(heard, AnswerChecker.words(in: $0)) } ? .correct : .incorrect
         case (.match, .pairs(let given)):
             let expected = Set((pairs ?? []).map { "\($0[0])\u{1F}\($0[1])" })
             let chosen = Set(given.filter { $0.count == 2 }.map { "\($0[0])\u{1F}\($0[1])" })
@@ -88,6 +92,11 @@ struct ExerciseSpec: Codable, Equatable {
         default:
             return .incorrect
         }
+    }
+
+    private static func contains(_ words: [String], _ phrase: [String]) -> Bool {
+        guard !phrase.isEmpty, words.count >= phrase.count else { return false }
+        return (0...(words.count - phrase.count)).contains { Array(words[$0..<($0 + phrase.count)]) == phrase }
     }
 
     // MARK: Stored form

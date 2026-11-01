@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-borrowed-words",
+    "title": "Borrowed words",
+    "level": "C2",
+    "tagline": "Latin and French in English",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "quid pro quo",
+      "pos": "noun",
+      "meaning": "A favor given in exchange for something else.",
+      "examples": [
+        "The support was a {quid pro quo} for a future contract."
+      ],
+      "wrong": [
+        "It was a quid pro quo, so nothing was expected in return."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "exchange",
+        "trade-off"
+      ],
+      "ipa": "/ˌkwɪd proʊ ˈkwoʊ/"
+    },
+    {
+      "lemma": "ad nauseam",
+      "pos": "adverb",
+      "meaning": "Repeated so often that it becomes boring or annoying.",
+      "examples": [
+        "He talked about his new car {ad nauseam}."
+      ],
+      "wrong": [
+        "She mentioned it ad nauseam, just once in passing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "endlessly",
+        "repeatedly"
+      ],
+      "ipa": "/æd ˈnɔziəm/"
+    },
+    {
+      "lemma": "carte blanche",
+      "pos": "noun",
+      "meaning": "Complete freedom to act as you think best.",
+      "examples": [
+        "The new director was given {carte blanche} to redesign the theater."
+      ],
+      "wrong": [
+        "With carte blanche, she needed approval for every small decision."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "free rein",
+        "free hand"
+      ],
+      "ipa": "/ˌkɑrt ˈblɑnʃ/"
+    },
+    {
+      "lemma": "fait accompli",
+      "pos": "noun",
+      "meaning": "Something already done that cannot be changed.",
+      "examples": [
+        "By the time we heard about the merger, it was a {fait accompli}."
+      ],
+      "wrong": [
+        "The fait accompli was still open for discussion and change."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "done deal"
+      ],
+      "ipa": "/ˌfeɪt ˌækɑmˈpli/"
+    },
+    {
+      "lemma": "coup de grace",
+      "pos": "noun",
+      "meaning": "A final blow that ends something.",
+      "examples": [
+        "The late goal delivered the {coup de grace}."
+      ],
+      "wrong": [
+        "The coup de grace was the first of many attacks."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deathblow",
+        "finishing stroke"
+      ],
+      "ipa": "/ˌku də ˈɡrɑs/"
+    },
+    {
+      "lemma": "enfant terrible",
+      "pos": "noun",
+      "meaning": "A young, successful person whose bold behavior shocks others.",
+      "examples": [
+        "He was the {enfant terrible} of the fashion world."
+      ],
+      "wrong": [
+        "As the enfant terrible of the art scene, she never upset anyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "maverick",
+        "rebel"
+      ],
+      "ipa": "/ˌɑnfɑn tɛˈriblə/"
+    },
+    {
+      "lemma": "joie de vivre",
+      "pos": "noun",
+      "meaning": "A cheerful enjoyment of life.",
+      "examples": [
+        "Her {joie de vivre} made every party fun."
+      ],
+      "wrong": [
+        "His joie de vivre made him gloomy and tired of everything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "zest",
+        "exuberance",
+        "zest for life"
+      ],
+      "ipa": "/ˌʒwɑ də ˈvivrə/"
+    },
+    {
+      "lemma": "savoir-faire",
+      "pos": "noun",
+      "meaning": "The ability to act smoothly and correctly in social situations.",
+      "examples": [
+        "She handled the awkward guests with great {savoir-faire}."
+      ],
+      "wrong": [
+        "His savoir-faire showed when he insulted every guest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "poise",
+        "finesse",
+        "tact"
+      ],
+      "ipa": "/ˌsævwɑr ˈfɛr/"
+    },
+    {
+      "lemma": "je ne sais quoi",
+      "pos": "noun",
+      "meaning": "A pleasing quality that is hard to describe.",
+      "examples": [
+        "The café has a certain {je ne sais quoi} that keeps people coming back."
+      ],
+      "wrong": [
+        "Its je ne sais quoi was obvious and easy to put into words."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "charm",
+        "allure"
+      ],
+      "ipa": "/ˌʒə nə seɪ ˈkwɑ/"
+    },
+    {
+      "lemma": "laissez-faire",
+      "pos": "adjective",
+      "meaning": "Letting things happen without interfering or controlling.",
+      "examples": [
+        "The manager has a {laissez-faire} approach to office hours."
+      ],
+      "wrong": [
+        "Her laissez-faire style meant she checked every detail herself."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hands-off",
+        "permissive"
+      ],
+      "ipa": "/ˌlɛseɪ ˈfɛr/",
+      "antonyms": [
+        "interventionist",
+        "controlling"
+      ]
+    },
+    {
+      "lemma": "mea culpa",
+      "pos": "noun",
+      "meaning": "A public admission that you were wrong.",
+      "examples": [
+        "The CEO issued a {mea culpa} after the data leak."
+      ],
+      "wrong": [
+        "In his mea culpa, he blamed everyone but himself."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "apology",
+        "admission of guilt"
+      ],
+      "ipa": "/ˌmeɪə ˈkʊlpə/"
+    },
+    {
+      "lemma": "persona non grata",
+      "pos": "noun",
+      "meaning": "A person who is no longer welcome somewhere.",
+      "examples": [
+        "After the scandal, he became {persona non grata} at the club."
+      ],
+      "wrong": [
+        "As persona non grata, she was the guest of honor everywhere."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "outcast",
+        "pariah"
+      ],
+      "ipa": "/pɚˌsoʊnə nɑn ˈɡrɑtə/"
+    },
+    {
+      "lemma": "sine qua non",
+      "pos": "noun",
+      "meaning": "Something that is absolutely necessary.",
+      "examples": [
+        "Trust is the {sine qua non} of any partnership."
+      ],
+      "wrong": [
+        "Funding was the sine qua non, so we started without any."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "prerequisite",
+        "essential",
+        "requirement"
+      ],
+      "ipa": "/ˌsɪneɪ kwɑ ˈnoʊn/"
+    },
+    {
+      "lemma": "modus operandi",
+      "pos": "noun",
+      "meaning": "A person’s usual way of doing something.",
+      "examples": [
+        "Arriving early and leaving quietly was his {modus operandi}."
+      ],
+      "wrong": [
+        "Her modus operandi was something she had never done before."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "method",
+        "approach",
+        "procedure"
+      ],
+      "ipa": "/ˌmoʊdəs ˌɑpəˈrændi/"
+    },
+    {
+      "lemma": "alter ego",
+      "pos": "noun",
+      "meaning": "Another side of a person’s character, or a second identity.",
+      "examples": [
+        "On stage, the shy singer becomes her bold {alter ego}."
+      ],
+      "wrong": [
+        "His alter ego was exactly the same as his everyday self."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "other self",
+        "second self"
+      ],
+      "ipa": "/ˌɔltɚ ˈiɡoʊ/"
+    },
+    {
+      "lemma": "ad infinitum",
+      "pos": "adverb",
+      "meaning": "Again and again without end.",
+      "examples": [
+        "The list of complaints could go on {ad infinitum}."
+      ],
+      "wrong": [
+        "The debate went on ad infinitum for exactly five minutes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "endlessly",
+        "forever"
+      ],
+      "ipa": "/æd ˌɪnfəˈnaɪtəm/"
+    },
+    {
+      "lemma": "pro bono",
+      "pos": "adjective",
+      "meaning": "Done for free, especially professional work for the public good.",
+      "examples": [
+        "The lawyer took the case on a {pro bono} basis."
+      ],
+      "wrong": [
+        "Her pro bono work earned her a huge fee."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unpaid",
+        "free",
+        "voluntary"
+      ],
+      "ipa": "/ˌproʊ ˈboʊnoʊ/",
+      "antonyms": [
+        "paid",
+        "fee-paying"
+      ]
+    },
+    {
+      "lemma": "terra incognita",
+      "pos": "noun",
+      "meaning": "An area of knowledge or land that is unknown or unexplored.",
+      "examples": [
+        "For most of us, quantum physics is {terra incognita}."
+      ],
+      "wrong": [
+        "The town was terra incognita to him, since he had lived there for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "uncharted territory",
+        "unknown"
+      ],
+      "ipa": "/ˌtɛrə ˌɪnkɑɡˈnitə/"
+    },
+    {
+      "lemma": "verbatim",
+      "pos": "adverb",
+      "meaning": "Using exactly the same words.",
+      "examples": [
+        "She repeated the speech {verbatim}."
+      ],
+      "wrong": [
+        "He quoted her verbatim, changing most of her words."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "word for word",
+        "exactly"
+      ],
+      "ipa": "/vɚˈbeɪtɪm/",
+      "antonyms": [
+        "loosely"
+      ]
+    },
+    {
+      "lemma": "de rigueur",
+      "pos": "adjective",
+      "meaning": "Required by fashion or social custom.",
+      "examples": [
+        "Black tie is {de rigueur} at the gala."
+      ],
+      "wrong": [
+        "Formal dress was de rigueur, so everyone came in shorts."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obligatory",
+        "expected",
+        "customary"
+      ],
+      "ipa": "/də rɪˈɡɝ/"
+    },
+    {
+      "lemma": "nouveau riche",
+      "pos": "noun",
+      "meaning": "People who have recently become rich and show it off.",
+      "examples": [
+        "The resort attracted the {nouveau riche} with its gold taps."
+      ],
+      "wrong": [
+        "The nouveau riche had been wealthy for ten generations."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "new money",
+        "parvenus"
+      ],
+      "ipa": "/ˌnuvoʊ ˈriʃ/"
+    },
+    {
+      "lemma": "nom de plume",
+      "pos": "noun",
+      "meaning": "A false name that a writer uses instead of their real one.",
+      "examples": [
+        "She published her crime novels under a {nom de plume}."
+      ],
+      "wrong": [
+        "His nom de plume was the real name printed on his birth certificate."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pen name",
+        "pseudonym"
+      ],
+      "ipa": "/ˌnɑm də ˈplum/"
+    },
+    {
+      "lemma": "ipso facto",
+      "pos": "adverb",
+      "meaning": "Because of that very fact.",
+      "examples": [
+        "A forged signature is {ipso facto} grounds for rejection."
+      ],
+      "wrong": [
+        "Being a member was ipso facto a reason, though it had no effect at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "thereby",
+        "by that fact"
+      ],
+      "ipa": "/ˌɪpsoʊ ˈfæktoʊ/"
+    },
+    {
+      "lemma": "carpe diem",
+      "pos": "phrase",
+      "meaning": "Enjoy the present and use your chances now.",
+      "examples": [
+        "’{Carpe diem},’ she said, and booked the trip that night."
+      ],
+      "wrong": [
+        "He believed in carpe diem, so he put everything off for years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "seize the day"
+      ],
+      "ipa": "/ˌkɑrpeɪ ˈdiəm/"
+    },
+    {
+      "lemma": "compos mentis",
+      "pos": "adjective",
+      "meaning": "In full control of your mind and able to think clearly.",
+      "examples": [
+        "The judge decided the witness was fully {compos mentis}."
+      ],
+      "wrong": [
+        "He was compos mentis, so he couldn’t understand a word."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lucid",
+        "sane",
+        "rational"
+      ],
+      "ipa": "/ˌkɑmpəs ˈmɛntɪs/"
+    },
+    {
+      "lemma": "in absentia",
+      "pos": "adverb",
+      "meaning": "While not present.",
+      "examples": [
+        "The degree was awarded {in absentia} because she was abroad."
+      ],
+      "wrong": [
+        "He was tried in absentia while standing in front of the judge."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "in one’s absence"
+      ],
+      "ipa": "/ɪn æbˈsɛnʃə/"
+    },
+    {
+      "lemma": "noblesse oblige",
+      "pos": "noun",
+      "meaning": "The idea that privileged people should help others.",
+      "examples": [
+        "Out of {noblesse oblige}, the family funded the village school."
+      ],
+      "wrong": [
+        "Noblesse oblige meant the rich owed nothing to anyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/noʊˌblɛs oʊˈbliʒ/"
+    },
+    {
+      "lemma": "rapprochement",
+      "pos": "noun",
+      "meaning": "A return to friendly relations between former rivals.",
+      "examples": [
+        "The summit led to a {rapprochement} between the two countries."
+      ],
+      "wrong": [
+        "The rapprochement made the two sides bitter enemies."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reconciliation",
+        "thaw",
+        "reunion"
+      ],
+      "ipa": "/ˌræproʊʃˈmɑn/",
+      "antonyms": [
+        "estrangement",
+        "rift"
+      ]
+    },
+    {
+      "lemma": "esprit de corps",
+      "pos": "noun",
+      "meaning": "A strong feeling of loyalty and pride shared by a group.",
+      "examples": [
+        "The long training built real {esprit de corps} in the crew."
+      ],
+      "wrong": [
+        "Their esprit de corps showed when each member worked against the others."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "team spirit",
+        "camaraderie",
+        "solidarity"
+      ],
+      "ipa": "/ɛˌspri də ˈkɔr/"
+    },
+    {
+      "lemma": "double entendre",
+      "pos": "noun",
+      "meaning": "A word or phrase with two meanings, one often rude or funny.",
+      "examples": [
+        "The comedian’s script was full of {double entendres}."
+      ],
+      "wrong": [
+        "The double entendre had only one obvious meaning."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pun",
+        "innuendo"
+      ],
+      "ipa": "/ˌdʌbəl ɑnˈtɑndrə/"
+    },
+    {
+      "lemma": "bon vivant",
+      "pos": "noun",
+      "meaning": "A person who enjoys good food, drink and company.",
+      "examples": [
+        "A true {bon vivant}, he knew every good restaurant in Paris."
+      ],
+      "wrong": [
+        "As a bon vivant, he hated good food and parties."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "epicure",
+        "gourmet",
+        "hedonist"
+      ],
+      "ipa": "/ˌbɑn viˈvɑnt/"
+    },
+    {
+      "lemma": "cri de coeur",
+      "pos": "noun",
+      "meaning": "A sincere, passionate appeal or protest.",
+      "examples": [
+        "Her letter was a {cri de coeur} for better care for the elderly."
+      ],
+      "wrong": [
+        "His cri de coeur was a cool, indifferent remark."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "plea",
+        "appeal",
+        "outcry"
+      ],
+      "ipa": "/ˌkri də ˈkɝ/"
+    },
+    {
+      "lemma": "pied-a-terre",
+      "pos": "noun",
+      "meaning": "A small second home in a city, used only now and then.",
+      "examples": [
+        "They keep a {pied-a-terre} in the city for theater nights."
+      ],
+      "wrong": [
+        "Their pied-a-terre is the huge country house where they live all year."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "second home",
+        "city flat"
+      ],
+      "ipa": "/ˌpjeɪd ə ˈtɛr/"
+    },
+    {
+      "lemma": "en masse",
+      "pos": "adverb",
+      "meaning": "All together, as one large group.",
+      "examples": [
+        "The staff resigned {en masse} after the decision."
+      ],
+      "wrong": [
+        "They left en masse, one person at a time over many years."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "together",
+        "as a group"
+      ],
+      "ipa": "/ɑn ˈmæs/"
+    },
+    {
+      "lemma": "par excellence",
+      "pos": "adjective",
+      "meaning": "Being the best example of its kind.",
+      "examples": [
+        "She is the storyteller {par excellence}."
+      ],
+      "wrong": [
+        "He was the chef par excellence, though his cooking was the worst in town."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "supreme",
+        "quintessential"
+      ],
+      "ipa": "/ˌpɑr ˌɛksəˈlɑns/"
+    },
+    {
+      "lemma": "bete noire",
+      "pos": "noun",
+      "meaning": "A person or thing you especially dislike.",
+      "examples": [
+        "Bad grammar is the editor’s {bete noire}."
+      ],
+      "wrong": [
+        "Jazz is his bete noire, so he listens to it all day with joy."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "pet hate",
+        "bugbear"
+      ],
+      "ipa": "/ˌbɛt ˈnwɑr/"
+    },
+    {
+      "lemma": "tour de force",
+      "pos": "noun",
+      "meaning": "An outstanding performance or achievement.",
+      "examples": [
+        "Her final solo was a {tour de force}."
+      ],
+      "wrong": [
+        "The tour de force was a dull and clumsy effort."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "masterpiece",
+        "triumph",
+        "feat"
+      ],
+      "ipa": "/ˌtʊr də ˈfɔrs/"
+    },
+    {
+      "lemma": "raison d’etre",
+      "pos": "noun",
+      "meaning": "The most important reason for someone or something to exist.",
+      "examples": [
+        "Teaching was her {raison d’etre}."
+      ],
+      "wrong": [
+        "Music is his raison d’etre, so he never thinks about it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "purpose",
+        "reason for being"
+      ],
+      "ipa": "/ˌreɪzoʊn ˈdɛtrə/"
+    },
+    {
+      "lemma": "magnum opus",
+      "pos": "noun",
+      "meaning": "The greatest work of an artist or writer.",
+      "examples": [
+        "Many consider the trilogy his {magnum opus}."
+      ],
+      "wrong": [
+        "Her magnum opus was a minor sketch she quickly forgot."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "masterpiece",
+        "masterwork"
+      ],
+      "ipa": "/ˌmæɡnəm ˈoʊpəs/"
+    },
+    {
+      "lemma": "ex officio",
+      "pos": "adjective",
+      "meaning": "Holding a role because of another position you have.",
+      "examples": [
+        "The mayor is an {ex officio} member of the board."
+      ],
+      "wrong": [
+        "She was an ex officio member, chosen by a public vote for her own sake."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "ipa": "/ˌɛks əˈfɪʃioʊ/"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ enum AppDestination: String, CaseIterable, Identifiable {
     case today, vocabulary, learn, speechLab, progress
     var id: String { rawValue }
     var title: String {
-        switch self { case .today: "Today"; case .vocabulary: "Lexicon"; case .learn: "Lesson"; case .speechLab: "Speech Lab"; case .progress: "Progress" }
+        switch self { case .today: "Today"; case .vocabulary: "Lexicon"; case .learn: "Lesson"; case .speechLab: "Lab"; case .progress: "Progress" }
     }
     var symbol: String {
         switch self { case .today: "sun.max"; case .vocabulary: "square.stack"; case .learn: "book"; case .speechLab: "waveform"; case .progress: "chart.bar" }
@@ -26,6 +26,16 @@ struct AppShell: View {
     @State private var recordingPresentation: RecordingPresentation?
     @State private var practiceContext: PracticeSessionContext?
 
+    /// Applies music, sound effect and haptic choices (on by default since 2026-10-30; off in UI tests with fixtures).
+    private func configureSound() {
+        guard let repository = storage.repository else { return }
+        #if DEBUG
+        if SpeakingEnvironment.fixtureID != nil { return }
+        #endif
+        try? repository.applySoundDefaultsOnce()
+        if let ledger = try? repository.rewardLedger() { SoundCenter.shared.configure(ledger.settings) }
+    }
+
     var body: some View {
         ZStack {
             // Sheets stay on this unchanging anchor. Attaching them to the
@@ -43,15 +53,29 @@ struct AppShell: View {
                 }
                 .sheet(isPresented: $showSettings) {
                     NavigationStack { SettingsView(storage: storage) }
-                        .tint(Kit.accent)
+                        .environment(\.kitTheme, KitTheme(storage.preferences.background))
+                        .tint(KitTheme(storage.preferences.background).accent)
                         .preferredColorScheme(storage.preferences.appearance.colorScheme)
                         .presentationDetents([.large])
                 }
 
+            // Rebuilt when the theme changes so every `Kit` colour resolves against the new theme.
             adaptiveNavigation
-                .tint(Kit.accent)
+                .id(storage.preferences.background)
+                .environment(\.kitTheme, KitTheme(storage.preferences.background))
+                .tint(KitTheme(storage.preferences.background).accent)
                 .preferredColorScheme(storage.preferences.appearance.colorScheme)
-        }.onChange(of: rewardScene) { _, phase in storage.rewardEngagement.setActive(phase == .active) }
+        }
+        // Every sheet and cover below inherits the theme, including the recording sheet on the anchor.
+        .environment(\.kitTheme, KitTheme(storage.preferences.background))
+        .modifier(CelebrationOverlay(storage: storage, install: CurriculumCatalogLoader.bundled))
+        .onChange(of: rewardScene) { _, phase in
+            storage.rewardEngagement.setActive(phase == .active)
+            SoundCenter.shared.setAppActive(phase == .active)
+        }
+        .onAppear(perform: configureSound)
+        .onChange(of: storage.repository != nil) { _, _ in configureSound() }
+        .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in configureSound() }
     }
 
     /// iPhone: the system tab bar. iPad: one bottom bar in portrait and a sidebar in landscape. Both iPad chromes
@@ -82,12 +106,16 @@ struct AppShell: View {
 
     private var sidebar: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text("SpeechCoachAI").font(.title2.bold()).padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
+            Text("PolyGotAI").font(.title2.bold())
+                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).lineLimit(1).minimumScaleFactor(0.8)
+                .padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
             ForEach(AppDestination.allCases) { item in
                 Button { destination = item } label: {
                     Label(item.title, systemImage: item.symbol)
                         .font(.body)
-                        .foregroundStyle(destination == item ? Color("OnAccent") : Kit.ink)
+                        .dynamicTypeSize(...DynamicTypeSize.accessibility1)
+                        .lineLimit(1).minimumScaleFactor(0.8)
+                        .foregroundStyle(destination == item ? Kit.onAccent : Kit.ink)
                         .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                         .padding(.horizontal, 12)
                         .padding(.vertical, 4)
@@ -114,8 +142,11 @@ struct AppShell: View {
                 ForEach(AppDestination.allCases) { item in
                     Button { destination = item } label: {
                         VStack(spacing: 4) {
-                            Image(systemName: item.symbol).font(.title3).frame(height: 26)
+                            Image(systemName: item.symbol).font(.title3)
+                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).frame(height: 26)
                             Text(item.title).font(.caption2.weight(.medium))
+                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+                                .lineLimit(1).minimumScaleFactor(0.8)
                         }
                         .foregroundStyle(destination == item ? Kit.accent : Kit.secondary)
                         .frame(maxWidth: .infinity, minHeight: 49)
@@ -134,36 +165,34 @@ struct AppShell: View {
 
     private func navigationContent(_ item: AppDestination) -> some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 16) {
-                    if storage.hasStorageFailure {
-                        AvailabilityCard(title: "Local data unavailable", detail: "Unlock your device and try again. Your existing data has been kept.", symbol: "exclamationmark.triangle")
-                            .accessibilityIdentifier("storage.unavailable")
-                        Button("Try Again") { storage.open() }.buttonStyle(.borderedProminent)
+            Group {
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 16) {
+                            if storage.hasStorageFailure {
+                                AvailabilityCard(title: "Local data unavailable", detail: "Unlock your device and try again. Your existing data has been kept.", symbol: "exclamationmark.triangle")
+                                    .accessibilityIdentifier("storage.unavailable")
+                                Button("Try Again") { storage.open() }.buttonStyle(KitPrimaryButtonStyle())
+                            }
+                            switch item {
+                            case .today: TodayView(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
+                            case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
+                            case .vocabulary: LexiconHome(storage: storage)
+                            case .speechLab: SpeechLabContent(storage: storage, context: $practiceContext)
+                            case .progress:
+                                ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
+                            }
+                        }
+                        .frame(maxWidth: 700, alignment: .leading)
+                        .padding(20)
+                        .frame(maxWidth: .infinity)
                     }
-                    switch item {
-                    case .today: TodayContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeech: { destination = .speechLab }, openSpeaking: openLessonSpeaking)
-                    case .learn: LearnContent(storage: storage, install: CurriculumCatalogLoader.bundled, openSpeaking: openLessonSpeaking)
-                    case .vocabulary: LexiconHome(storage: storage)
-                    case .speechLab: SpeechLabContent(storage: storage, context: $practiceContext, openRecording: {
-                        recordingPresentation = RecordingPresentation(context: practiceContext ?? PracticeSessionContext(defaults: storage.preferences))
-                    })
-                    case .progress:
-                        ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
-                        PracticeHistoryContent(storage: storage)
-                    }
-                }
-                .frame(maxWidth: 700, alignment: .leading)
-                .padding(20)
-                .frame(maxWidth: .infinity)
             }
             .background(Kit.canvas(storage.preferences.background))
             .foregroundStyle(Kit.ink)
             .navigationTitle(item.title)
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar(usesCustomChrome ? .hidden : .visible, for: .tabBar)
-            .toolbarBackground(Kit.canvas(storage.preferences.background), for: .navigationBar)
-            .toolbarBackground(.visible, for: .navigationBar)
+            .navigationBarTitleDisplayMode(.large)
+            // `.automatic` (not `.visible`) on iPhone, so a pushed lesson can hide the tab bar and own the screen.
+            .toolbar(usesCustomChrome ? .hidden : .automatic, for: .tabBar)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { showSettings = true } label: { Image(systemName: "person.crop.circle") }
@@ -183,93 +212,6 @@ struct AppShell: View {
         recordingPresentation = RecordingPresentation(context: context)
     }
 
-}
-
-private struct TodayContent: View {
-    var storage: LearnerStorageController
-    var install: CurriculumInstall
-    var openSpeech: () -> Void
-    var openSpeaking: (ResolvedLesson, UUID) -> Void
-    @Environment(\.dynamicTypeSize) private var textSize
-    @State private var journeys: [LessonJourney] = []
-    @State private var suggestion: PracticeSuggestion?
-    @State private var dueCount = 0
-    @State private var displayedDate = Date.now
-    @Environment(\.scenePhase) private var scenePhase
-
-    private var resuming: Bool {
-        PracticeRecommendation.selectLesson(journeys: journeys, lessons: install.lessons, archivedLessons: install.archivedLessons).resuming
-    }
-
-    var body: some View {
-        Text(displayedDate.formatted(.dateTime.weekday(.wide).day().month(.wide)))
-            .font(.caption.weight(.medium)).foregroundStyle(Kit.secondary)
-        if textSize.isAccessibilitySize {
-            VStack(alignment: .leading, spacing: 12) { artwork; greeting }
-        } else { HStack(spacing: 14) { artwork; greeting } }
-        KitCard {
-            if let suggestion {
-                Text("UP NEXT").font(.caption.weight(.semibold)).foregroundStyle(Kit.accent)
-                Text(install.lessons.first(where: { $0.id == suggestion.lessonID })?.title ?? suggestion.title)
-                    .font(.title2.bold()).padding(.bottom, 8)
-                    .accessibilityIdentifier("today.focus")
-                primaryAction(suggestion)
-            } else {
-                Text("Your practice didn't load.").font(.headline)
-                Button("Try again", action: reload).buttonStyle(.bordered)
-            }
-        }
-        if dueCount > 0, suggestion?.action != .reviewWords {
-            NavigationLink { VocabularyRecallSession(storage: storage) } label: {
-                KitCard { KitContentRow(symbol: "square.stack", title: "Review words", detail: "\(dueCount) due", showsChevron: true) }
-            }.buttonStyle(.plain).accessibilityIdentifier("today.review-row")
-        }
-        DailyLexiconCard(storage: storage)
-        RewardSummary(storage: storage)
-            .onAppear(perform: reload)
-            .onChange(of: storage.repository != nil) { _, _ in reload() }
-            .onChange(of: scenePhase) { _, phase in if phase == .active { reload() } }
-            .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in reload() }
-            .onReceive(NotificationCenter.default.publisher(for: .NSSystemTimeZoneDidChange)) { _ in reload() }
-    }
-
-    @ViewBuilder private func primaryAction(_ suggestion: PracticeSuggestion) -> some View {
-        switch suggestion.action {
-        case .openLesson:
-            if let lesson = install.lessons.first(where: { $0.isReady && $0.id == suggestion.lessonID }) {
-                NavigationLink {
-                    LessonPlayerView(storage: storage, lesson: lesson, install: install, initialFocus: suggestion.focus, onSpeak: openSpeaking)
-                } label: { Text(resuming ? "Continue" : "Start") }
-                    .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("today.lesson")
-            }
-        case .reviewWords:
-            NavigationLink { VocabularyRecallSession(storage: storage) } label: { Text("Review") }
-                .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("today.recall")
-        case .speechLab:
-            Button("Open Speech Lab", action: openSpeech)
-                .buttonStyle(KitPrimaryButtonStyle()).accessibilityIdentifier("today.primary.speechLab")
-        }
-    }
-
-    private var greeting: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text("A little practice. A little braver.").font(.title3.bold()).lineLimit(1).minimumScaleFactor(0.7)
-        }.frame(maxWidth: .infinity, alignment: .leading)
-    }
-    private var artwork: some View {
-        CoachArtwork(name: storage.preferences.coach == .elephantTeacher ? "TeacherGreeting" : storage.preferences.coach.portrait)
-            .frame(width: 64, height: 76)
-    }
-    private func reload() {
-        displayedDate = .now
-        journeys = (try? storage.repository?.allLessonJourneys()) ?? []
-        guard let repository = storage.repository else {
-            suggestion = nil
-            return
-        }
-        dueCount = (try? repository.reviewQueue().due.count) ?? 0
-        suggestion = try? repository.practiceSuggestion(install: install)
-    }
 }
 
 private struct LearnContent: View {
@@ -296,41 +238,45 @@ private struct LearnContent: View {
 struct SpeechLabContent: View {
     var storage: LearnerStorageController
     @Binding var context: PracticeSessionContext?
-    @Environment(\.dynamicTypeSize) private var textSize
-    var openRecording: () -> Void
+    @State private var feedbackAvailable = false
+    @State private var watchedCount = 0
+    private var talkClient: (any TalkStreaming)? {
+        #if DEBUG
+        if TalkFixtureClient.enabled { return TalkFixtureClient() }
+        #endif
+        return TalkStreamingClient.local()
+    }
     var body: some View {
-        if textSize.isAccessibilitySize {
-            VStack(alignment: .leading) { CoachArtwork(name: "SpeakerWelcome").frame(height: 88); heading }
-        } else {
-            HStack(spacing: 14) { CoachArtwork(name: "SpeakerWelcome").frame(width: 64, height: 68); heading }
+        Text("Talk, test and watch.").foregroundStyle(Kit.secondary).lineLimit(1).minimumScaleFactor(0.7)
+        SectionHeader(title: "Practice")
+        AISetupLink(isReady: { talkClient != nil }) {
+            if let client = talkClient { TalkView(storage: storage, client: client) }
+        } label: {
+            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Talk", detail: "Speak with an AI partner", showsChevron: true) }
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.talk")
+        NavigationLink { LabTimedTestsView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "timer", title: "Timed tests", detail: "Writing, reading and analogies", showsChevron: true) }
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.timedTests")
+        SectionHeader(title: "Watch")
+        NavigationLink { LabVideosView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "play.rectangle", title: "Videos", detail: videosDetail, showsChevron: true) }
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.videos")
+        SectionHeader(title: "Settings")
+        NavigationLink { VoiceSettingsView(storage: storage) } label: {
+            KitCard { KitContentRow(symbol: "speaker.wave.2", title: "Voice", detail: "How the app reads aloud", showsChevron: true) }
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.voice")
+        if feedbackAvailable {
+            NavigationLink { LabFeedbackHistoryView(storage: storage) } label: {
+                KitCard { KitContentRow(symbol: "clock.arrow.circlepath", title: "Feedback history", detail: "Your past AI feedback", showsChevron: true) }
+            }.buttonStyle(.kitCard).accessibilityIdentifier("speech.feedbackHistory")
         }
-        Button(action: openRecording) {
-            KitCard { KitContentRow(symbol: "mic", title: "Record an introduction", detail: "Record, replay, review", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.record")
-        NavigationLink {
-            ConversationPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
-        } label: {
-            KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Conversation", detail: "Talk through a scenario", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.conversation")
-        NavigationLink {
-            InterviewPracticeView(storage: storage, presenterID: (context?.effectiveCoach ?? storage.preferences.coach).rawValue)
-        } label: {
-            KitCard { KitContentRow(symbol: "person.2", title: "Interview", detail: "Answer common questions", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.interview")
-        NavigationLink {
-            CommunicationPracticeLauncher(storage: storage)
-        } label: {
-            KitCard { KitContentRow(symbol: "text.bubble", title: "Communication", detail: "Structure what you say", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.communication")
-        NavigationLink("Saved practice") {
-            ScrollView { PracticeHistoryContent(storage: storage).padding(20) }.navigationTitle("Your practice")
-        }
-        .onAppear { if context == nil { context = PracticeSessionContext(defaults: storage.preferences) } }
+        Color.clear.frame(height: 0)
+            .onAppear {
+                feedbackAvailable = ((try? storage.repository?.labFeedbackHistory()) ?? []).isEmpty == false
+                watchedCount = LabVideoCatalog.watchedCount((try? storage.repository?.labExtras().watched) ?? [:])
+                SpeechSynthesizer.shared.settings = storage.preferences.voiceSettings ?? VoiceSettings()
+            }
     }
-    private var heading: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("Speak a little. Grow a lot.").font(.title3.bold()).lineLimit(1).minimumScaleFactor(0.7)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-    }
+
+    private var videosDetail: String { "\(watchedCount) of \(LabVideoCatalog.all.count) watched" }
 }

@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-weather-seasons",
+    "title": "Weather and seasons",
+    "level": "A1",
+    "tagline": "Sun, rain and snow",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "rain",
+      "pos": "verb",
+      "meaning": "When water falls from the sky.",
+      "examples": [
+        "Take an umbrella. It’s going to {rain}."
+      ],
+      "wrong": [
+        "It rained all day, so the ground was dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pour"
+      ],
+      "ipa": "/reɪn/"
+    },
+    {
+      "lemma": "snow",
+      "pos": "verb",
+      "meaning": "When soft white ice falls from the sky.",
+      "examples": [
+        "It {snows} a lot here in winter."
+      ],
+      "wrong": [
+        "It snowed, so the beach was hot and sunny."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/snoʊ/"
+    },
+    {
+      "lemma": "fog",
+      "pos": "noun",
+      "meaning": "Thick gray air near the ground that is hard to see through.",
+      "examples": [
+        "I can’t see the road in this {fog}."
+      ],
+      "wrong": [
+        "The fog was so clear we could see for miles."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "mist"
+      ],
+      "ipa": "/fɑɡ/"
+    },
+    {
+      "lemma": "cool",
+      "pos": "adjective",
+      "meaning": "A little cold, but nice.",
+      "examples": [
+        "It’s a {cool} evening, so bring a sweater."
+      ],
+      "wrong": [
+        "It was cool, so the ice cream melted in a second."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "chilly"
+      ],
+      "ipa": "/kul/",
+      "antonyms": [
+        "warm"
+      ]
+    },
+    {
+      "lemma": "sunshine",
+      "pos": "noun",
+      "meaning": "The light and heat that come from the sun.",
+      "examples": [
+        "We sat outside in the {sunshine}."
+      ],
+      "wrong": [
+        "We stood in the sunshine in the dark night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "sunlight"
+      ],
+      "ipa": "/ˈsʌnˌʃaɪn/"
+    },
+    {
+      "lemma": "freezing",
+      "pos": "adjective",
+      "meaning": "Very, very cold.",
+      "examples": [
+        "Wear a coat. It’s {freezing} outside!"
+      ],
+      "wrong": [
+        "It’s freezing, so let’s go swimming in the sea."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "icy"
+      ],
+      "ipa": "/ˈfrizɪŋ/",
+      "antonyms": [
+        "boiling",
+        "hot"
+      ]
+    },
+    {
+      "lemma": "boot",
+      "pos": "noun",
+      "meaning": "A strong shoe that covers your foot and part of your leg.",
+      "examples": [
+        "Wear your {boots} in the snow."
+      ],
+      "wrong": [
+        "I wear my boots on my hands."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/but/"
+    },
+    {
+      "lemma": "raincoat",
+      "pos": "noun",
+      "meaning": "A coat that keeps you dry in the rain.",
+      "examples": [
+        "Put on your {raincoat}. It’s wet outside."
+      ],
+      "wrong": [
+        "I wear a raincoat to stay wet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈreɪnˌkoʊt/"
+    },
+    {
+      "lemma": "chilly",
+      "pos": "adjective",
+      "meaning": "Cold in a way that is not nice.",
+      "examples": [
+        "It’s {chilly} this morning."
+      ],
+      "wrong": [
+        "It was chilly, so I took off my coat to warm up."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cool",
+        "cold"
+      ],
+      "ipa": "/ˈtʃɪli/"
+    },
+    {
+      "lemma": "snowman",
+      "pos": "noun",
+      "meaning": "A figure of a person that children make out of snow.",
+      "examples": [
+        "The kids made a {snowman} in the garden."
+      ],
+      "wrong": [
+        "We made a snowman on the hot beach in July."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsnoʊˌmæn/"
+    },
+    {
+      "lemma": "snowball",
+      "pos": "noun",
+      "meaning": "A ball you make out of snow.",
+      "examples": [
+        "He threw a {snowball} at his brother."
+      ],
+      "wrong": [
+        "I threw a snowball made of sand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsnoʊˌbɔl/"
+    },
+    {
+      "lemma": "puddle",
+      "pos": "noun",
+      "meaning": "A small pool of water on the ground after rain.",
+      "examples": [
+        "The boy jumped in a {puddle}."
+      ],
+      "wrong": [
+        "The puddle was full of dry sand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpʌdəl/"
+    },
+    {
+      "lemma": "sunglasses",
+      "pos": "noun",
+      "meaning": "Dark glasses that keep bright light out of your eyes.",
+      "examples": [
+        "It’s sunny. Where are my {sunglasses}?"
+      ],
+      "wrong": [
+        "I wear sunglasses to see better in the dark."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "shades"
+      ],
+      "ipa": "/ˈsʌnˌɡlæsɪz/"
+    },
+    {
+      "lemma": "sun hat",
+      "pos": "noun",
+      "meaning": "A hat with a wide edge that keeps the sun off your face.",
+      "examples": [
+        "Wear a {sun hat} at the beach."
+      ],
+      "wrong": [
+        "I wear a sun hat to keep my feet warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sʌn hæt/"
+    },
+    {
+      "lemma": "weather forecast",
+      "pos": "noun",
+      "meaning": "A report that tells you if it will be sunny, rainy or cold.",
+      "examples": [
+        "The {weather forecast} says it will rain."
+      ],
+      "wrong": [
+        "The weather forecast told us yesterday’s news."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "weather report"
+      ],
+      "ipa": "/ˈwɛðɚ ˈfɔrˌkæst/"
+    },
+    {
+      "lemma": "boiling",
+      "pos": "adjective",
+      "meaning": "Very, very hot.",
+      "examples": [
+        "It’s {boiling} today. Let’s go swimming."
+      ],
+      "wrong": [
+        "It was boiling, so we wore hats and gloves."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "hot"
+      ],
+      "ipa": "/ˈbɔɪlɪŋ/",
+      "antonyms": [
+        "freezing",
+        "cold"
+      ]
+    },
+    {
+      "lemma": "shorts",
+      "pos": "noun",
+      "meaning": "Short pants that stop above the knee.",
+      "examples": [
+        "I wear {shorts} when it’s hot."
+      ],
+      "wrong": [
+        "I wear shorts to keep my legs warm in the snow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃɔrts/"
+    },
+    {
+      "lemma": "sandal",
+      "pos": "noun",
+      "meaning": "An open shoe for hot weather.",
+      "examples": [
+        "She wore {sandals} at the beach."
+      ],
+      "wrong": [
+        "I wear sandals to keep my feet dry in the snow."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsændəl/"
+    },
+    {
+      "lemma": "raindrop",
+      "pos": "noun",
+      "meaning": "One small drop of rain.",
+      "examples": [
+        "A {raindrop} fell on my nose."
+      ],
+      "wrong": [
+        "A raindrop fell up into the sky."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈreɪnˌdrɑp/"
+    },
+    {
+      "lemma": "snowflake",
+      "pos": "noun",
+      "meaning": "One small, soft piece of snow.",
+      "examples": [
+        "A {snowflake} landed on my hand."
+      ],
+      "wrong": [
+        "The snowflake was hot and black."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsnoʊˌfleɪk/"
+    },
+    {
+      "lemma": "icy",
+      "pos": "adjective",
+      "meaning": "Covered with ice, or very cold.",
+      "examples": [
+        "Be careful. The road is {icy}."
+      ],
+      "wrong": [
+        "The icy road was hot and dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "frozen"
+      ],
+      "ipa": "/ˈaɪsi/"
+    },
+    {
+      "lemma": "thunderstorm",
+      "pos": "noun",
+      "meaning": "A storm with loud noise, bright light in the sky and rain.",
+      "examples": [
+        "We stayed inside during the {thunderstorm}."
+      ],
+      "wrong": [
+        "The thunderstorm was quiet and sunny."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "storm"
+      ],
+      "ipa": "/ˈθʌndɚˌstɔrm/"
+    },
+    {
+      "lemma": "sunburn",
+      "pos": "noun",
+      "meaning": "Red, painful skin from too much sun.",
+      "examples": [
+        "I got a {sunburn} at the beach."
+      ],
+      "wrong": [
+        "I got a sunburn from the snow at night."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈsʌnˌbɝn/"
+    },
+    {
+      "lemma": "thermometer",
+      "pos": "noun",
+      "meaning": "A thing that shows how hot or cold it is.",
+      "examples": [
+        "The {thermometer} says it’s ten degrees."
+      ],
+      "wrong": [
+        "I use a thermometer to tell the time."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/θɚˈmɑmətɚ/"
+    },
+    {
+      "lemma": "fresh air",
+      "pos": "phrase",
+      "meaning": "Clean, cool air from outside.",
+      "examples": [
+        "Open the window for some {fresh air}."
+      ],
+      "wrong": [
+        "I went into the dark box to get some fresh air."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/frɛʃ ɛr/"
+    },
+    {
+      "lemma": "what’s the weather like?",
+      "pos": "phrase",
+      "meaning": "A question to ask if it is sunny, rainy or cold.",
+      "examples": [
+        "{What’s the weather like} in Paris today?"
+      ],
+      "wrong": [
+        "\"What’s the weather like?\" I asked, to find out his name."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "how’s the weather?"
+      ],
+      "ipa": "/wʌts ðə ˈwɛðɚ laɪk/"
+    },
+    {
+      "lemma": "fall",
+      "pos": "noun",
+      "meaning": "The season after summer, when leaves drop from trees.",
+      "examples": [
+        "The leaves turn red in the {fall}."
+      ],
+      "wrong": [
+        "Fall is the hottest part of summer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "autumn"
+      ],
+      "ipa": "/fɔl/"
+    },
+    {
+      "lemma": "heavy rain",
+      "pos": "phrase",
+      "meaning": "A lot of rain falling fast.",
+      "examples": [
+        "{Heavy rain} made the roads wet."
+      ],
+      "wrong": [
+        "The heavy rain was just two small drops."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "downpour"
+      ],
+      "ipa": "/ˈhɛvi reɪn/"
+    },
+    {
+      "lemma": "below zero",
+      "pos": "phrase",
+      "meaning": "Colder than the point where water turns to ice.",
+      "examples": [
+        "In winter it is often {below zero}."
+      ],
+      "wrong": [
+        "It was below zero, so we swam in the lake."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "freezing"
+      ],
+      "ipa": "/bɪˈloʊ ˈzɪroʊ/"
+    },
+    {
+      "lemma": "heater",
+      "pos": "noun",
+      "meaning": "A machine that makes a room warm.",
+      "examples": [
+        "Turn on the {heater}. It’s cold."
+      ],
+      "wrong": [
+        "I turned on the heater to make the room cold."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhitɚ/"
+    },
+    {
+      "lemma": "swimsuit",
+      "pos": "noun",
+      "meaning": "Clothes you wear to swim.",
+      "examples": [
+        "Don’t forget your {swimsuit} for the beach."
+      ],
+      "wrong": [
+        "I wore my swimsuit to the snow party in the mountains."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bathing suit"
+      ],
+      "ipa": "/ˈswɪmˌsut/"
+    },
+    {
+      "lemma": "sled",
+      "pos": "noun",
+      "meaning": "A small flat thing you sit on to slide down snow.",
+      "examples": [
+        "The kids rode a {sled} down the hill."
+      ],
+      "wrong": [
+        "We rode the sled down the hot, dry road."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/slɛd/"
+    },
+    {
+      "lemma": "mitten",
+      "pos": "noun",
+      "meaning": "A warm glove with one part for the thumb and one for the fingers.",
+      "examples": [
+        "Put on your {mittens}. It’s snowing."
+      ],
+      "wrong": [
+        "I wear mittens on my feet in summer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "glove"
+      ],
+      "ipa": "/ˈmɪtən/"
+    },
+    {
+      "lemma": "air conditioning",
+      "pos": "noun",
+      "meaning": "A machine that makes the air in a room cool.",
+      "examples": [
+        "The {air conditioning} keeps the office cool."
+      ],
+      "wrong": [
+        "We turned on the air conditioning to make the room hot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "AC"
+      ],
+      "ipa": "/ɛr kənˈdɪʃənɪŋ/"
+    },
+    {
+      "lemma": "get wet",
+      "pos": "phrase",
+      "meaning": "To have water or rain fall on you.",
+      "examples": [
+        "Take an umbrella or you’ll {get wet}."
+      ],
+      "wrong": [
+        "I stood in the rain and didn’t get wet at all."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡɛt wɛt/"
+    },
+    {
+      "lemma": "bad weather",
+      "pos": "phrase",
+      "meaning": "Cold, rain, wind or storms.",
+      "examples": [
+        "The game stopped because of {bad weather}."
+      ],
+      "wrong": [
+        "The bad weather was warm, sunny and calm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bæd ˈwɛðɚ/"
+    },
+    {
+      "lemma": "snowstorm",
+      "pos": "noun",
+      "meaning": "A storm with a lot of snow and wind.",
+      "examples": [
+        "The school closed because of the {snowstorm}."
+      ],
+      "wrong": [
+        "The snowstorm made the beach hot and sunny."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "blizzard"
+      ],
+      "ipa": "/ˈsnoʊˌstɔrm/"
+    },
+    {
+      "lemma": "warm clothes",
+      "pos": "phrase",
+      "meaning": "Thick things to wear that keep you from getting cold.",
+      "examples": [
+        "Bring {warm clothes} for the mountains."
+      ],
+      "wrong": [
+        "I wore warm clothes to feel cold."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɔrm kloʊðz/"
+    },
+    {
+      "lemma": "wool hat",
+      "pos": "noun",
+      "meaning": "A soft, warm hat for cold days.",
+      "examples": [
+        "Wear your {wool hat} in the snow."
+      ],
+      "wrong": [
+        "I wear a wool hat to keep cool in summer."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "beanie"
+      ],
+      "ipa": "/wʊl hæt/"
+    },
+    {
+      "lemma": "rainy day",
+      "pos": "phrase",
+      "meaning": "A day when it rains a lot.",
+      "examples": [
+        "On a {rainy day} we play games inside."
+      ],
+      "wrong": [
+        "On a rainy day the sun shines and the ground is dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈreɪni deɪ/"
+    }
+  ]
+}

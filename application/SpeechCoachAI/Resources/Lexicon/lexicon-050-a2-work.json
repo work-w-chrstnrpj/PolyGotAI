@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-work",
+    "title": "Work and jobs",
+    "level": "A2",
+    "tagline": "Offices, bosses and pay",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "company",
+      "pos": "noun",
+      "meaning": "A group of people who make or sell things to earn money.",
+      "examples": [
+        "My dad works for a big car {company}."
+      ],
+      "wrong": [
+        "A company is a single person who works alone for free."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "business",
+        "firm"
+      ],
+      "ipa": "/ˈkʌmpəni/"
+    },
+    {
+      "lemma": "business",
+      "pos": "noun",
+      "meaning": "Buying and selling things to make money, or a company that does this.",
+      "examples": [
+        "She has her own {business}, a small bakery."
+      ],
+      "wrong": [
+        "His business is a hobby he never earns money from."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "company",
+        "firm"
+      ],
+      "ipa": "/ˈbɪznəs/"
+    },
+    {
+      "lemma": "work late",
+      "pos": "phrase",
+      "meaning": "To stay at your job after the usual time.",
+      "examples": [
+        "I have to {work late} tonight, so start dinner without me."
+      ],
+      "wrong": [
+        "She worked late, so she left the office early at two."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɝk ˈleɪt/"
+    },
+    {
+      "lemma": "staff",
+      "pos": "noun",
+      "meaning": "All the people who work in a place.",
+      "examples": [
+        "The hotel {staff} were very friendly."
+      ],
+      "wrong": [
+        "The staff are the customers who visit the shop."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "workers",
+        "employees"
+      ],
+      "ipa": "/stæf/"
+    },
+    {
+      "lemma": "clock in",
+      "pos": "verb",
+      "meaning": "To record the time you start work.",
+      "examples": [
+        "We {clock in} at eight with our cards at the door."
+      ],
+      "wrong": [
+        "He clocked in when he went home at the end of the day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "check in"
+      ],
+      "ipa": "/ˈklɑk ˈɪn/",
+      "antonyms": [
+        "clock out"
+      ]
+    },
+    {
+      "lemma": "owner",
+      "pos": "noun",
+      "meaning": "The person something belongs to.",
+      "examples": [
+        "The {owner} of the cafe also makes the cakes."
+      ],
+      "wrong": [
+        "The owner of the shop is a customer who comes in once."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈoʊnɚ/"
+    },
+    {
+      "lemma": "firm",
+      "pos": "noun",
+      "meaning": "A business or company.",
+      "examples": [
+        "She works for a law {firm} in the city."
+      ],
+      "wrong": [
+        "A firm is a kind of hard chair."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "company",
+        "business"
+      ],
+      "ipa": "/fɝm/"
+    },
+    {
+      "lemma": "part-time",
+      "pos": "adjective",
+      "meaning": "For only some of the normal working hours.",
+      "examples": [
+        "He has a {part-time} job on weekends."
+      ],
+      "wrong": [
+        "Her part-time job is fifty hours a week."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌpɑrtˈtaɪm/",
+      "antonyms": [
+        "full-time"
+      ]
+    },
+    {
+      "lemma": "full-time",
+      "pos": "adjective",
+      "meaning": "For all of the normal working hours in a week.",
+      "examples": [
+        "She has a {full-time} job, Monday to Friday."
+      ],
+      "wrong": [
+        "He has a full-time job, two hours on Sundays."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌfʊlˈtaɪm/",
+      "antonyms": [
+        "part-time"
+      ]
+    },
+    {
+      "lemma": "employ",
+      "pos": "verb",
+      "meaning": "To give someone a job and pay them.",
+      "examples": [
+        "The hotel {employs} sixty people."
+      ],
+      "wrong": [
+        "The shop employs ten people and pays none of them for any work."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "hire"
+      ],
+      "ipa": "/ɪmˈplɔɪ/"
+    },
+    {
+      "lemma": "fire",
+      "pos": "verb",
+      "meaning": "To make someone leave their job.",
+      "examples": [
+        "He was {fired} for being late every day."
+      ],
+      "wrong": [
+        "They fired her, so she started her new job there."
+      ],
+      "cefr": "A2",
+      "register": "informal",
+      "synonyms": [
+        "dismiss"
+      ],
+      "ipa": "/faɪɚ/",
+      "antonyms": [
+        "hire"
+      ]
+    },
+    {
+      "lemma": "quit",
+      "pos": "verb",
+      "meaning": "To leave your job because you want to.",
+      "examples": [
+        "She {quit} her job to travel the world."
+      ],
+      "wrong": [
+        "He quit his job, so he goes there every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "leave",
+        "resign"
+      ],
+      "ipa": "/kwɪt/"
+    },
+    {
+      "lemma": "earn",
+      "pos": "verb",
+      "meaning": "To get money for the work you do.",
+      "examples": [
+        "She {earns} more money than her brother."
+      ],
+      "wrong": [
+        "He earns money by paying other people."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "make",
+        "get"
+      ],
+      "ipa": "/ɝn/"
+    },
+    {
+      "lemma": "application",
+      "pos": "noun",
+      "meaning": "A letter or form you send to ask for a job.",
+      "examples": [
+        "I sent my {application} for the job last week."
+      ],
+      "wrong": [
+        "An application is a thank-you card after you start a job."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "request"
+      ],
+      "ipa": "/ˌæplɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "coffee break",
+      "pos": "noun",
+      "meaning": "A short rest from work to have a drink.",
+      "examples": [
+        "Let’s have a {coffee break} at ten."
+      ],
+      "wrong": [
+        "During my coffee break I work twice as hard without stopping."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkɔfi ˌbreɪk/"
+    },
+    {
+      "lemma": "job title",
+      "pos": "noun",
+      "meaning": "The name of your job or position.",
+      "examples": [
+        "Her {job title} is sales manager."
+      ],
+      "wrong": [
+        "My job title is the money I earn each month."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdʒɑb ˌtaɪtəl/"
+    },
+    {
+      "lemma": "bonus",
+      "pos": "noun",
+      "meaning": "Extra money added to your normal pay.",
+      "examples": [
+        "Everyone got a {bonus} at the end of the year."
+      ],
+      "wrong": [
+        "A bonus is money taken from your pay as a punishment."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "extra pay"
+      ],
+      "ipa": "/ˈboʊnəs/"
+    },
+    {
+      "lemma": "pay",
+      "pos": "noun",
+      "meaning": "The money you get for your work.",
+      "examples": [
+        "The work is hard, but the {pay} is good."
+      ],
+      "wrong": [
+        "The pay is the money you give your boss each month."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "salary",
+        "wages"
+      ],
+      "ipa": "/peɪ/"
+    },
+    {
+      "lemma": "payday",
+      "pos": "noun",
+      "meaning": "The day you get your money for work.",
+      "examples": [
+        "{Payday} is the last Friday of the month."
+      ],
+      "wrong": [
+        "On payday everyone gives money back to the company."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpeɪˌdeɪ/"
+    },
+    {
+      "lemma": "paycheck",
+      "pos": "noun",
+      "meaning": "The money you get for work, often each week or month.",
+      "examples": [
+        "Half of my {paycheck} goes on rent."
+      ],
+      "wrong": [
+        "A paycheck is the bill you pay for food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "pay",
+        "wages"
+      ],
+      "ipa": "/ˈpeɪˌtʃɛk/"
+    },
+    {
+      "lemma": "well-paid",
+      "pos": "adjective",
+      "meaning": "Giving a lot of money for the work.",
+      "examples": [
+        "Doctors have {well-paid} jobs."
+      ],
+      "wrong": [
+        "It’s a well-paid job, so he can’t buy food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌwɛlˈpeɪd/",
+      "antonyms": [
+        "badly paid"
+      ]
+    },
+    {
+      "lemma": "experienced",
+      "pos": "adjective",
+      "meaning": "Having done a job for a long time and knowing it well.",
+      "examples": [
+        "We need an {experienced} cook who has worked in hotels."
+      ],
+      "wrong": [
+        "She is an experienced driver; today is her first time in a car."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "skilled"
+      ],
+      "ipa": "/ɪkˈspɪriənst/",
+      "antonyms": [
+        "inexperienced"
+      ]
+    },
+    {
+      "lemma": "skilled",
+      "pos": "adjective",
+      "meaning": "Able to do a job well because of training.",
+      "examples": [
+        "He is a {skilled} builder."
+      ],
+      "wrong": [
+        "She is a skilled painter who can’t hold a brush."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "experienced",
+        "trained"
+      ],
+      "ipa": "/skɪld/",
+      "antonyms": [
+        "unskilled"
+      ]
+    },
+    {
+      "lemma": "workday",
+      "pos": "noun",
+      "meaning": "A day when you go to work, or the hours you work that day.",
+      "examples": [
+        "My {workday} starts at eight and ends at four."
+      ],
+      "wrong": [
+        "Sunday is my workday, so I never work on it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "working day"
+      ],
+      "ipa": "/ˈwɝkˌdeɪ/"
+    },
+    {
+      "lemma": "office hours",
+      "pos": "noun",
+      "meaning": "The times when an office is open.",
+      "examples": [
+        "Please call during {office hours}, nine to five."
+      ],
+      "wrong": [
+        "Office hours are the times when the office is closed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɔfɪs ˌaʊɚz/"
+    },
+    {
+      "lemma": "sick day",
+      "pos": "noun",
+      "meaning": "A day you stay home from work because you are ill.",
+      "examples": [
+        "I had a fever, so I took a {sick day}."
+      ],
+      "wrong": [
+        "He took a sick day because he felt very well."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsɪk ˌdeɪ/"
+    },
+    {
+      "lemma": "unpaid",
+      "pos": "adjective",
+      "meaning": "Not given any money for the work.",
+      "examples": [
+        "She did {unpaid} work at the hospital to help."
+      ],
+      "wrong": [
+        "It was an unpaid job, so she got a big check every week."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ʌnˈpeɪd/",
+      "antonyms": [
+        "paid"
+      ]
+    },
+    {
+      "lemma": "night shift",
+      "pos": "noun",
+      "meaning": "A time of work during the night.",
+      "examples": [
+        "Nurses on the {night shift} work from ten until six."
+      ],
+      "wrong": [
+        "He works the night shift, from nine in the morning to five."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnaɪt ˌʃɪft/"
+    },
+    {
+      "lemma": "working hours",
+      "pos": "noun",
+      "meaning": "The time of day when people are at work.",
+      "examples": [
+        "My {working hours} are nine to five."
+      ],
+      "wrong": [
+        "My working hours are the times I sleep at home."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɝkɪŋ ˌaʊɚz/"
+    },
+    {
+      "lemma": "business trip",
+      "pos": "noun",
+      "meaning": "A journey you make for your job.",
+      "examples": [
+        "She is in Berlin on a {business trip} this week."
+      ],
+      "wrong": [
+        "He went on a business trip to relax on the beach with his family."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbɪznəs ˌtrɪp/"
+    },
+    {
+      "lemma": "sales",
+      "pos": "noun",
+      "meaning": "The work of selling things, or the number of things sold.",
+      "examples": [
+        "She works in {sales} and talks to customers all day."
+      ],
+      "wrong": [
+        "Our sales went up because nobody bought anything."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/seɪlz/"
+    },
+    {
+      "lemma": "hard work",
+      "pos": "noun",
+      "meaning": "A lot of effort to do something.",
+      "examples": [
+        "The exam was easy for her after all her {hard work}."
+      ],
+      "wrong": [
+        "Hard work means doing nothing all day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "effort"
+      ],
+      "ipa": "/ˈhɑrd ˈwɝk/"
+    },
+    {
+      "lemma": "work from home",
+      "pos": "phrase",
+      "meaning": "To do your job at your house, not in an office.",
+      "examples": [
+        "On Fridays I {work from home} and don’t take the bus."
+      ],
+      "wrong": [
+        "I work from home, so I drive to the office every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwɝk frəm ˈhoʊm/"
+    },
+    {
+      "lemma": "in charge of",
+      "pos": "phrase",
+      "meaning": "Being the person who controls something or tells others what to do.",
+      "examples": [
+        "Maria is {in charge of} the kitchen."
+      ],
+      "wrong": [
+        "He is in charge of the team, so he does what everyone tells him."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "responsible for"
+      ],
+      "ipa": "/ɪn ˈtʃɑrdʒ əv/"
+    },
+    {
+      "lemma": "on duty",
+      "pos": "phrase",
+      "meaning": "Working at a certain time.",
+      "examples": [
+        "Two police officers are {on duty} at the station tonight."
+      ],
+      "wrong": [
+        "The guard was on duty, so he stayed home all night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "working"
+      ],
+      "ipa": "/ɑn ˈduti/",
+      "antonyms": [
+        "off duty"
+      ]
+    },
+    {
+      "lemma": "get a job",
+      "pos": "phrase",
+      "meaning": "To start working for someone and getting paid.",
+      "examples": [
+        "After school he {got a job} in a supermarket."
+      ],
+      "wrong": [
+        "She got a job, so now she has no work at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "find work"
+      ],
+      "ipa": "/ˈɡɛt ə ˈdʒɑb/",
+      "antonyms": [
+        "lose your job"
+      ]
+    },
+    {
+      "lemma": "lose your job",
+      "pos": "phrase",
+      "meaning": "To stop having work because your boss ends it.",
+      "examples": [
+        "Many people {lost their jobs} when the factory closed."
+      ],
+      "wrong": [
+        "He lost his job, so he goes to the same office every day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈluz jɚ ˈdʒɑb/",
+      "antonyms": [
+        "get a job"
+      ]
+    },
+    {
+      "lemma": "earn a living",
+      "pos": "phrase",
+      "meaning": "To make the money you need to live.",
+      "examples": [
+        "He {earns a living} as a taxi driver."
+      ],
+      "wrong": [
+        "She earns a living by spending all her money."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "make a living"
+      ],
+      "ipa": "/ˈɝn ə ˈlɪvɪŋ/"
+    },
+    {
+      "lemma": "run a business",
+      "pos": "phrase",
+      "meaning": "To own and control a company.",
+      "examples": [
+        "My aunt {runs a business} selling flowers."
+      ],
+      "wrong": [
+        "He runs a business, but he has nothing to do with it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "manage a business"
+      ],
+      "ipa": "/ˈrʌn ə ˈbɪznəs/"
+    },
+    {
+      "lemma": "at work",
+      "pos": "phrase",
+      "meaning": "At the place where you have your job.",
+      "examples": [
+        "She’s {at work} until six, so call her later."
+      ],
+      "wrong": [
+        "He is at work, at home in bed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/æt ˈwɝk/"
+    }
+  ]
+}

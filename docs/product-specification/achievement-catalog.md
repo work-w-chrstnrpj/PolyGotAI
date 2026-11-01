@@ -4,6 +4,16 @@
 
 > Catalog v1 — adopted by the owner on 2026-10-19 (Asia/Manila). All 68 award families, names, classifications and listed initial tiers are the approved product catalog. None is implemented or earned. Seven starter entries are carried forward and 61 additions are adopted in v1; provenance is historical, not pending owner selection. Exact content instances, qualified learning-rubric validation and unresolved operational policies remain prerequisites to activation. Existing approved XP/gold values remain authoritative; no extra badge currency is adopted.
 
+> **v2 revision — 2026-10-30 (owner: "Yes, build it").** The catalog is now 83 families: the 68 below plus 15 new v2 badges. What changed:
+> - **Hidden (43):** families that need assessed evidence nothing in the app collects, or whose feature was removed (all EF, LE, CV-02–04, IV-02–04, CM, AR, WR, TR-xxS, TR-03C/05C/06C/07C, P-08, CR-02, CR-03). They never show; nobody holds them.
+> - **Legacy (4):** P-02 and TR-01C/02C/04C are reachable only through the hidden introduction lesson. They show only to a learner who already earned them.
+> - **Renamed:** P-05 is now "First Spoken Answer" (a recorded answer in a lesson's speaking step).
+> - **Rewired to current features:** P-06 First Conversation and CV-01 Conversation Practice (5/10/25/50) count Talk free-talk and scenario conversations; P-07 First Interview and IV-01 Interview Practice (5/10/25) count Talk interviews; CR-04–CR-09 need every ready course lesson of that rank; CR-10 needs all six ranks.
+> - **New (15):** First Coach Lesson; Grammarian Completed (reuses the Grammarian art); Pronunciation Completed; Coaches Completed (1/3/6/11); All-round Learner; Words Reviewed (50/250/1,000/5,000); Lexicon Days (7/30/100); Your Own Topic; Words in Action (10/50/100); First Video; Videos Watched (10/25/50/100); Video Topics Completed (1/5/14); First Timed Test; Timed Tests (5/25/100); All Three Tests. They use an SF Symbol until artwork exists.
+> - **Rules:** `AwardEvaluator.swift` works badges out from stored data on every save and when the badge screens open, so earlier work counts. Earned badges are never taken back. Levels, time in the app, rank tests, coach stages and Easy words stay Progress milestones and are not duplicated as badges. A conversation counts after two partner replies; a timed test counts when it ends. Before the activity log existed, saved Talk and writing feedback stand in.
+> - Data: `catalog.json` fields `visibility`, `symbol`, `tiers` are optional; `LabExtrasState.activities` is optional. Old learner data decodes unchanged. Source: `tools/curriculum/update_awards_v2.py` (idempotent).
+
+
 ## What this inventory counts
 
 A **badge** is a collectible representation of an eligible achievement. An **achievement** is its rule/evidence event. A **milestone** marks a defined course/goal threshold and need not have collectible artwork. **XP/gold** are economic entries, not proficiency. The same event may produce several truthful descriptions, but cannot mint duplicate rewards.
@@ -26,7 +36,7 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 | Communication and public speaking | 6 |
 | Articulation and expression | 3 |
 | Creative writing and storytelling | 3 |
-| All seven specialist trainers | 14 |
+| All coach tracks (ten) | 14 |
 | **Total** | **68** |
 
 ## Common eligibility rules
@@ -36,7 +46,7 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 - For this adopted catalog, learning badges apply the source objective’s unfamiliar-task and delayed criteria, normally day 7 ±2/day 28 ±3 from initial teaching. Record actual practice and delay; source-specific criteria take precedence. If the source has no reviewed numeric rubric or delayed-task design, that badge remains blocked pending definition rather than auto-awarded. Initial numbers are operational proposals, not validated CEFR cutoffs.
 - A one-time task success may appear as a progress observation before a retained-learning badge is eligible. Course completion, retained ability and improvement are different claims. Baseline-to-comparison improvement additionally requires reviewed comparable evidence; no extra generic “English mastered” badge is defined.
 - Fixed one-time badge identity uses family/rule version and learner; parameterized badges add objective/content-set identity; tier awards add threshold. Currency/reward identity remains linked to the original eligible event, not the number of badges. Cross-entry/trainer repeats cannot pay twice.
-- All seven coaches preserve the fixed CEFR course. Trainer-completion/skill badges below apply only to explicit specialist practice; coach choice cannot become a course prerequisite.
+- All ten coaches preserve the fixed CEFR course. Trainer-completion/skill badges below apply only to explicit specialist practice; coach choice cannot become a course prerequisite.
 - Awards do not create gold bonuses, locked coaches, paid AI requirements, levels or new available content. Private progress, opt-in evidence retention and the existing no-leaderboard/no-auto-share policy remain unchanged.
 
 ## Participation and first completions
@@ -143,7 +153,9 @@ Award identifiers use the AW- namespace, distinct from EF curriculum objectives 
 | AW-WR-02 | Purposeful Revision — {objective} | Learning badge | Independently revise a fresh draft to meet two reviewed meaning/clarity goals while preserving intended voice/facts, then repeat on delayed material; accepting a generated rewrite alone is insufficient. | Added in v1 |
 | AW-WR-03 | Story Retold — {objective} | Learning badge | Retell or change perspective coherently while preserving the chosen story/source facts in new and delayed tasks; scripted read-aloud is not unaided retelling. | Added in v1 |
 
-## All seven specialist trainers
+## All coach tracks
+
+Adopted artwork exists for seven of the ten coaches; the three newer coaches have no signature yet.
 
 | ID | Name / family | Type | Adopted condition / activation prerequisite | Provenance |
 | --- | --- | --- | --- | --- |

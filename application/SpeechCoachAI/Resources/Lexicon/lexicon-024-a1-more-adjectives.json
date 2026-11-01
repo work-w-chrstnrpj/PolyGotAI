@@ -1,0 +1,767 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-more-adjectives",
+    "title": "More describing words",
+    "level": "A1",
+    "tagline": "Simple adjectives",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "heavy",
+      "pos": "adjective",
+      "meaning": "Weighing a lot and hard to lift.",
+      "examples": [
+        "This bag is too {heavy} for me."
+      ],
+      "wrong": [
+        "The feather was so heavy that I couldn’t lift it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈhɛvi/",
+      "antonyms": [
+        "light"
+      ]
+    },
+    {
+      "lemma": "fantastic",
+      "pos": "adjective",
+      "meaning": "Very, very good.",
+      "examples": [
+        "The show was {fantastic}! I loved it."
+      ],
+      "wrong": [
+        "The food was fantastic, so we threw it all away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "great",
+        "amazing"
+      ],
+      "ipa": "/fænˈtæstɪk/",
+      "antonyms": [
+        "terrible",
+        "awful"
+      ]
+    },
+    {
+      "lemma": "horrible",
+      "pos": "adjective",
+      "meaning": "Very bad and not nice at all.",
+      "examples": [
+        "The medicine tastes {horrible}."
+      ],
+      "wrong": [
+        "The cake was horrible, so I asked for more."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "awful",
+        "terrible"
+      ],
+      "ipa": "/ˈhɔrəbəl/",
+      "antonyms": [
+        "wonderful",
+        "lovely"
+      ]
+    },
+    {
+      "lemma": "excellent",
+      "pos": "adjective",
+      "meaning": "Very good; of the best kind.",
+      "examples": [
+        "You got ten out of ten. {Excellent}!"
+      ],
+      "wrong": [
+        "His work was excellent, full of mistakes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "great",
+        "very good"
+      ],
+      "ipa": "/ˈɛksələnt/",
+      "antonyms": [
+        "terrible",
+        "awful"
+      ]
+    },
+    {
+      "lemma": "useful",
+      "pos": "adjective",
+      "meaning": "Good for doing a job; helping you.",
+      "examples": [
+        "A map is {useful} in a new city."
+      ],
+      "wrong": [
+        "A broken pen is very useful for writing."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "helpful",
+        "handy"
+      ],
+      "ipa": "/ˈjusfəl/",
+      "antonyms": [
+        "useless"
+      ]
+    },
+    {
+      "lemma": "naughty",
+      "pos": "adjective",
+      "meaning": "Badly behaved, used for children.",
+      "examples": [
+        "The {naughty} boy drew on the wall."
+      ],
+      "wrong": [
+        "The naughty child always did what his mother asked."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bad"
+      ],
+      "ipa": "/ˈnɔti/"
+    },
+    {
+      "lemma": "early",
+      "pos": "adjective",
+      "meaning": "Happening before the usual time.",
+      "examples": [
+        "I took the {early} train."
+      ],
+      "wrong": [
+        "We had an early dinner at midnight."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈɝli/",
+      "antonyms": [
+        "late"
+      ]
+    },
+    {
+      "lemma": "dangerous",
+      "pos": "adjective",
+      "meaning": "Able to hurt you.",
+      "examples": [
+        "Fire is {dangerous}. Be careful!"
+      ],
+      "wrong": [
+        "The kitten is so dangerous that babies play with it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "unsafe",
+        "risky"
+      ],
+      "ipa": "/ˈdeɪndʒərəs/",
+      "antonyms": [
+        "safe"
+      ]
+    },
+    {
+      "lemma": "crazy",
+      "pos": "adjective",
+      "meaning": "Very silly or very strange.",
+      "examples": [
+        "Swimming in the snow? That’s {crazy}!"
+      ],
+      "wrong": [
+        "It’s a crazy idea, totally normal and sensible."
+      ],
+      "cefr": "A1",
+      "register": "informal",
+      "synonyms": [
+        "mad",
+        "silly"
+      ],
+      "ipa": "/ˈkreɪzi/"
+    },
+    {
+      "lemma": "deep",
+      "pos": "adjective",
+      "meaning": "Going a long way down.",
+      "examples": [
+        "The lake is very {deep}."
+      ],
+      "wrong": [
+        "The pool was so deep that the water reached my toes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dip/",
+      "antonyms": [
+        "shallow"
+      ]
+    },
+    {
+      "lemma": "far",
+      "pos": "adjective",
+      "meaning": "A long way away.",
+      "examples": [
+        "The shop is not {far} from here."
+      ],
+      "wrong": [
+        "The park is far, just next to my door."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "distant"
+      ],
+      "ipa": "/fɑr/",
+      "antonyms": [
+        "near",
+        "close"
+      ]
+    },
+    {
+      "lemma": "real",
+      "pos": "adjective",
+      "meaning": "Not made up; true or not fake.",
+      "examples": [
+        "Is that a {real} diamond?"
+      ],
+      "wrong": [
+        "The dragon in the story is real, I made it up."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "true",
+        "genuine"
+      ],
+      "ipa": "/ril/",
+      "antonyms": [
+        "fake"
+      ]
+    },
+    {
+      "lemma": "rough",
+      "pos": "adjective",
+      "meaning": "Not smooth to touch.",
+      "examples": [
+        "The old wall feels {rough}."
+      ],
+      "wrong": [
+        "The rough paper was as smooth as glass."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "bumpy"
+      ],
+      "ipa": "/rʌf/",
+      "antonyms": [
+        "smooth"
+      ]
+    },
+    {
+      "lemma": "whole",
+      "pos": "adjective",
+      "meaning": "All of something, with no part missing.",
+      "examples": [
+        "He ate the {whole} pizza!"
+      ],
+      "wrong": [
+        "She ate the whole cake, and half of it is left."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "entire",
+        "complete"
+      ],
+      "ipa": "/hoʊl/"
+    },
+    {
+      "lemma": "sure",
+      "pos": "adjective",
+      "meaning": "Knowing that something is true.",
+      "examples": [
+        "Are you {sure} the shop is open?"
+      ],
+      "wrong": [
+        "I’m sure it’s Monday, but I really don’t know."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "certain"
+      ],
+      "ipa": "/ʃʊr/"
+    },
+    {
+      "lemma": "lucky",
+      "pos": "adjective",
+      "meaning": "Having good things happen by chance.",
+      "examples": [
+        "I was {lucky} to find my wallet."
+      ],
+      "wrong": [
+        "He was lucky, so everything went wrong."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fortunate"
+      ],
+      "ipa": "/ˈlʌki/",
+      "antonyms": [
+        "unlucky"
+      ]
+    },
+    {
+      "lemma": "famous",
+      "pos": "adjective",
+      "meaning": "Known by many people.",
+      "examples": [
+        "She wants to be a {famous} singer."
+      ],
+      "wrong": [
+        "He’s so famous that nobody knows his name."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "well-known"
+      ],
+      "ipa": "/ˈfeɪməs/"
+    },
+    {
+      "lemma": "sticky",
+      "pos": "adjective",
+      "meaning": "Staying on things you touch, like honey or glue.",
+      "examples": [
+        "My hands are {sticky} from the candy."
+      ],
+      "wrong": [
+        "The glue was sticky, so nothing stayed on the paper."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "gluey"
+      ],
+      "ipa": "/ˈstɪki/"
+    },
+    {
+      "lemma": "quick",
+      "pos": "adjective",
+      "meaning": "Taking only a short time.",
+      "examples": [
+        "Let’s have a {quick} lunch."
+      ],
+      "wrong": [
+        "It was a quick trip of ten years."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "fast",
+        "short"
+      ],
+      "ipa": "/kwɪk/",
+      "antonyms": [
+        "slow"
+      ]
+    },
+    {
+      "lemma": "simple",
+      "pos": "adjective",
+      "meaning": "Easy to understand or do.",
+      "examples": [
+        "The rules of the game are {simple}."
+      ],
+      "wrong": [
+        "The test was so simple that nobody could do it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "easy",
+        "plain"
+      ],
+      "ipa": "/ˈsɪmpəl/",
+      "antonyms": [
+        "difficult",
+        "complicated"
+      ]
+    },
+    {
+      "lemma": "fine",
+      "pos": "adjective",
+      "meaning": "Well and okay.",
+      "examples": [
+        "I’m {fine}, thanks."
+      ],
+      "wrong": [
+        "I feel fine, so I’m staying in bed with a bad cold."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "okay",
+        "well"
+      ],
+      "ipa": "/faɪn/"
+    },
+    {
+      "lemma": "true",
+      "pos": "adjective",
+      "meaning": "Right and not a lie.",
+      "examples": [
+        "Is it {true} that you can swim?"
+      ],
+      "wrong": [
+        "It’s true that fish can fly to the moon."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "correct",
+        "right"
+      ],
+      "ipa": "/tru/",
+      "antonyms": [
+        "false"
+      ]
+    },
+    {
+      "lemma": "false",
+      "pos": "adjective",
+      "meaning": "Not right; not the facts.",
+      "examples": [
+        "Two plus two is five. That’s {false}."
+      ],
+      "wrong": [
+        "Cats have four legs. That’s false."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "wrong",
+        "untrue"
+      ],
+      "ipa": "/fɔls/",
+      "antonyms": [
+        "true"
+      ]
+    },
+    {
+      "lemma": "sharp",
+      "pos": "adjective",
+      "meaning": "Having an edge that cuts easily.",
+      "examples": [
+        "Be careful, the knife is {sharp}."
+      ],
+      "wrong": [
+        "The ball is so sharp that it cut my hand."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃɑrp/",
+      "antonyms": [
+        "blunt",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "double",
+      "pos": "adjective",
+      "meaning": "Two times as big, or made of two of the same.",
+      "examples": [
+        "I’d like a {double} room for two people."
+      ],
+      "wrong": [
+        "A double bed is for one very small person."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "twice"
+      ],
+      "ipa": "/ˈdʌbəl/"
+    },
+    {
+      "lemma": "clear",
+      "pos": "adjective",
+      "meaning": "Easy to see through or understand.",
+      "examples": [
+        "The water in the lake is {clear}."
+      ],
+      "wrong": [
+        "The water was clear, so we couldn’t see the fish."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/klɪr/"
+    },
+    {
+      "lemma": "correct",
+      "pos": "adjective",
+      "meaning": "With no mistakes.",
+      "examples": [
+        "Your answer is {correct}. Well done!"
+      ],
+      "wrong": [
+        "Three plus three is ten. That’s correct."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "right"
+      ],
+      "ipa": "/kəˈrɛkt/",
+      "antonyms": [
+        "wrong",
+        "incorrect"
+      ]
+    },
+    {
+      "lemma": "special",
+      "pos": "adjective",
+      "meaning": "Not usual; better or more important than others.",
+      "examples": [
+        "Today is a {special} day. It’s my birthday!"
+      ],
+      "wrong": [
+        "It was a special day, just like all the others."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈspɛʃəl/"
+    },
+    {
+      "lemma": "strange",
+      "pos": "adjective",
+      "meaning": "Not usual and hard to understand.",
+      "examples": [
+        "I heard a {strange} noise last night."
+      ],
+      "wrong": [
+        "It’s strange that the sun is in the sky by day."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "odd",
+        "weird"
+      ],
+      "ipa": "/streɪndʒ/"
+    },
+    {
+      "lemma": "terrible",
+      "pos": "adjective",
+      "meaning": "Very bad.",
+      "examples": [
+        "The food was {terrible}. I didn’t eat it."
+      ],
+      "wrong": [
+        "The trip was terrible, the best day of my life."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "awful",
+        "horrible"
+      ],
+      "ipa": "/ˈtɛrəbəl/",
+      "antonyms": [
+        "wonderful"
+      ]
+    },
+    {
+      "lemma": "wonderful",
+      "pos": "adjective",
+      "meaning": "Very good and nice.",
+      "examples": [
+        "We had a {wonderful} time at the beach."
+      ],
+      "wrong": [
+        "It was a wonderful party, and everybody was bored."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "great",
+        "lovely"
+      ],
+      "ipa": "/ˈwʌndɚfəl/",
+      "antonyms": [
+        "terrible",
+        "awful"
+      ]
+    },
+    {
+      "lemma": "perfect",
+      "pos": "adjective",
+      "meaning": "Very good, with nothing wrong.",
+      "examples": [
+        "Your English is {perfect}!"
+      ],
+      "wrong": [
+        "His test was perfect, with ten mistakes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "excellent"
+      ],
+      "ipa": "/ˈpɝfɪkt/"
+    },
+    {
+      "lemma": "alive",
+      "pos": "adjective",
+      "meaning": "Living; not dead.",
+      "examples": [
+        "The fish is still {alive}."
+      ],
+      "wrong": [
+        "The plant is alive, so it is brown and dry."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "living"
+      ],
+      "ipa": "/əˈlaɪv/",
+      "antonyms": [
+        "dead"
+      ]
+    },
+    {
+      "lemma": "dead",
+      "pos": "adjective",
+      "meaning": "Not living any more.",
+      "examples": [
+        "The plant is {dead}. It needs water."
+      ],
+      "wrong": [
+        "The dead fish swam happily around the tank."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/dɛd/",
+      "antonyms": [
+        "alive"
+      ]
+    },
+    {
+      "lemma": "plain",
+      "pos": "adjective",
+      "meaning": "Simple, with nothing extra added.",
+      "examples": [
+        "I like {plain} yogurt with no sugar."
+      ],
+      "wrong": [
+        "The plain shirt was covered in bright pictures."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "simple"
+      ],
+      "ipa": "/pleɪn/"
+    },
+    {
+      "lemma": "broken",
+      "pos": "adjective",
+      "meaning": "In pieces or not working.",
+      "examples": [
+        "My phone is {broken}. It won’t turn on."
+      ],
+      "wrong": [
+        "The broken cup works perfectly."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "damaged"
+      ],
+      "ipa": "/ˈbroʊkən/"
+    },
+    {
+      "lemma": "smart",
+      "pos": "adjective",
+      "meaning": "Quick to learn and understand.",
+      "examples": [
+        "She is a {smart} girl. She learns fast."
+      ],
+      "wrong": [
+        "He is so smart that he can’t learn anything."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "clever",
+        "bright"
+      ],
+      "ipa": "/smɑrt/"
+    },
+    {
+      "lemma": "foreign",
+      "pos": "adjective",
+      "meaning": "From another country.",
+      "examples": [
+        "Do you speak a {foreign} language?"
+      ],
+      "wrong": [
+        "My foreign friend was born in my own town."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfɔrən/",
+      "antonyms": [
+        "local"
+      ]
+    },
+    {
+      "lemma": "cute",
+      "pos": "adjective",
+      "meaning": "Small and pretty in a nice way.",
+      "examples": [
+        "Look at that {cute} puppy!"
+      ],
+      "wrong": [
+        "The cute kitten scared everyone away."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "sweet",
+        "lovely"
+      ],
+      "ipa": "/kjut/"
+    },
+    {
+      "lemma": "main",
+      "pos": "adjective",
+      "meaning": "The biggest or most important.",
+      "examples": [
+        "The {main} door is at the front."
+      ],
+      "wrong": [
+        "The main road is the smallest one in town."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "chief",
+        "central"
+      ],
+      "ipa": "/meɪn/"
+    }
+  ]
+}

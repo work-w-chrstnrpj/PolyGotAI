@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-precise-verbs",
+    "title": "Precise verbs",
+    "level": "C1",
+    "tagline": "Exact action words",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "glean",
+      "pos": "verb",
+      "meaning": "To collect information slowly and with effort, often bit by bit.",
+      "examples": [
+        "We {gleaned} a few useful facts from the old letters."
+      ],
+      "wrong": [
+        "She gleaned the details by refusing to read anything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "gather",
+        "collect"
+      ],
+      "ipa": "/ɡlin/"
+    },
+    {
+      "lemma": "retract",
+      "pos": "verb",
+      "meaning": "To say officially that something you said earlier was not true.",
+      "examples": [
+        "The paper {retracted} the false story."
+      ],
+      "wrong": [
+        "He retracted his claim by repeating it even louder."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "withdraw",
+        "take back"
+      ],
+      "ipa": "/rɪˈtrækt/",
+      "antonyms": [
+        "affirm",
+        "reaffirm"
+      ]
+    },
+    {
+      "lemma": "reprimand",
+      "pos": "verb",
+      "meaning": "To tell someone formally that they did something wrong.",
+      "examples": [
+        "The officer was {reprimanded} for being late."
+      ],
+      "wrong": [
+        "The boss reprimanded her by praising her excellent work."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "rebuke",
+        "scold"
+      ],
+      "ipa": "/ˈrɛprəˌmænd/",
+      "antonyms": [
+        "praise",
+        "commend"
+      ]
+    },
+    {
+      "lemma": "commend",
+      "pos": "verb",
+      "meaning": "To praise someone formally or in public.",
+      "examples": [
+        "The mayor {commended} the firefighters for their bravery."
+      ],
+      "wrong": [
+        "He commended the team by criticizing everything they did."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "praise",
+        "applaud"
+      ],
+      "ipa": "/kəˈmɛnd/",
+      "antonyms": [
+        "criticize",
+        "condemn"
+      ]
+    },
+    {
+      "lemma": "evade",
+      "pos": "verb",
+      "meaning": "To escape or avoid something, often in a dishonest way.",
+      "examples": [
+        "He {evaded} the question by changing the subject."
+      ],
+      "wrong": [
+        "She evaded the question by answering it fully and directly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "avoid",
+        "dodge"
+      ],
+      "ipa": "/ɪˈveɪd/",
+      "antonyms": [
+        "face",
+        "confront"
+      ]
+    },
+    {
+      "lemma": "fabricate",
+      "pos": "verb",
+      "meaning": "To invent false facts or stories to trick people.",
+      "examples": [
+        "The witness {fabricated} evidence."
+      ],
+      "wrong": [
+        "He fabricated the data by recording exactly what happened."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "invent",
+        "falsify"
+      ],
+      "ipa": "/ˈfæbrɪˌkeɪt/"
+    },
+    {
+      "lemma": "falter",
+      "pos": "verb",
+      "meaning": "To lose strength or confidence and start to fail.",
+      "examples": [
+        "Her voice {faltered} as she spoke."
+      ],
+      "wrong": [
+        "The economy faltered, growing strongly and steadily."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "waver",
+        "stumble"
+      ],
+      "ipa": "/ˈfɔltɚ/"
+    },
+    {
+      "lemma": "forfeit",
+      "pos": "verb",
+      "meaning": "To lose something as a punishment or because you broke a rule.",
+      "examples": [
+        "The team {forfeited} the match after arriving late."
+      ],
+      "wrong": [
+        "They forfeited the prize, so they got to keep it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lose",
+        "give up"
+      ],
+      "ipa": "/ˈfɔrfɪt/"
+    },
+    {
+      "lemma": "harness",
+      "pos": "verb",
+      "meaning": "To control and use something for a useful purpose.",
+      "examples": [
+        "The dam {harnesses} the river to make electricity."
+      ],
+      "wrong": [
+        "They harnessed the wind’s power by letting it go to waste."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exploit",
+        "utilize"
+      ],
+      "ipa": "/ˈhɑrnɪs/"
+    },
+    {
+      "lemma": "hoard",
+      "pos": "verb",
+      "meaning": "To collect and hide large amounts of something.",
+      "examples": [
+        "People {hoarded} food before the storm."
+      ],
+      "wrong": [
+        "He hoarded money by giving it all away."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stockpile",
+        "stash"
+      ],
+      "ipa": "/hɔrd/",
+      "antonyms": [
+        "share",
+        "squander"
+      ]
+    },
+    {
+      "lemma": "inflict",
+      "pos": "verb",
+      "meaning": "To make someone suffer something bad or painful.",
+      "examples": [
+        "The storm {inflicted} heavy damage on the coast."
+      ],
+      "wrong": [
+        "The medicine inflicted relief and comfort on the patient."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "impose",
+        "cause"
+      ],
+      "ipa": "/ɪnˈflɪkt/"
+    },
+    {
+      "lemma": "instill",
+      "pos": "verb",
+      "meaning": "To slowly make someone have a feeling or idea.",
+      "examples": [
+        "Good coaches {instill} confidence in their players."
+      ],
+      "wrong": [
+        "She instilled discipline by never setting any rules."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "implant",
+        "inspire"
+      ],
+      "ipa": "/ɪnˈstɪl/"
+    },
+    {
+      "lemma": "jeopardize",
+      "pos": "verb",
+      "meaning": "To put something in danger of being harmed or lost.",
+      "examples": [
+        "One mistake could {jeopardize} the whole project."
+      ],
+      "wrong": [
+        "He jeopardized his job by doing it perfectly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "endanger",
+        "threaten"
+      ],
+      "ipa": "/ˈdʒɛpɚˌdaɪz/"
+    },
+    {
+      "lemma": "lure",
+      "pos": "verb",
+      "meaning": "To persuade someone to go somewhere or do something by offering something attractive.",
+      "examples": [
+        "Low prices {lured} shoppers into the store."
+      ],
+      "wrong": [
+        "The ads lured customers away by making the shop look awful."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "tempt",
+        "entice"
+      ],
+      "ipa": "/lʊr/"
+    },
+    {
+      "lemma": "obstruct",
+      "pos": "verb",
+      "meaning": "To block a path or stop something from happening.",
+      "examples": [
+        "A fallen tree {obstructed} the road."
+      ],
+      "wrong": [
+        "The barrier obstructed traffic by letting every car through."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "block",
+        "impede"
+      ],
+      "ipa": "/əbˈstrʌkt/",
+      "antonyms": [
+        "assist",
+        "facilitate"
+      ]
+    },
+    {
+      "lemma": "hamper",
+      "pos": "verb",
+      "meaning": "To make it harder for something to happen or move forward.",
+      "examples": [
+        "Heavy snow {hampered} the rescue effort."
+      ],
+      "wrong": [
+        "The good weather hampered the rescue by making it quick and easy."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hinder",
+        "impede"
+      ],
+      "ipa": "/ˈhæmpɚ/",
+      "antonyms": [
+        "help",
+        "facilitate"
+      ]
+    },
+    {
+      "lemma": "renounce",
+      "pos": "verb",
+      "meaning": "To say formally that you no longer accept or want something.",
+      "examples": [
+        "He {renounced} his title to marry her."
+      ],
+      "wrong": [
+        "She renounced her citizenship by proudly keeping it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "give up",
+        "reject"
+      ],
+      "ipa": "/rɪˈnaʊns/"
+    },
+    {
+      "lemma": "heed",
+      "pos": "verb",
+      "meaning": "To pay attention to advice or a warning and act on it.",
+      "examples": [
+        "Hikers who {heed} the warnings stay safe."
+      ],
+      "wrong": [
+        "He heeded my advice by doing the exact opposite."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mind",
+        "obey"
+      ],
+      "ipa": "/hid/"
+    },
+    {
+      "lemma": "retaliate",
+      "pos": "verb",
+      "meaning": "To do something harmful to someone because they harmed you.",
+      "examples": [
+        "The country {retaliated} with its own taxes on imports."
+      ],
+      "wrong": [
+        "He retaliated by thanking them warmly for the insult."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hit back",
+        "strike back"
+      ],
+      "ipa": "/rɪˈtæliˌeɪt/"
+    },
+    {
+      "lemma": "salvage",
+      "pos": "verb",
+      "meaning": "To save something from being destroyed or ruined.",
+      "examples": [
+        "They managed to {salvage} the deal at the last minute."
+      ],
+      "wrong": [
+        "The crew salvaged the cargo by letting it sink."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "rescue",
+        "save"
+      ],
+      "ipa": "/ˈsælvɪdʒ/"
+    },
+    {
+      "lemma": "solicit",
+      "pos": "verb",
+      "meaning": "To ask for something such as money, help or opinions.",
+      "examples": [
+        "The council is {soliciting} feedback from residents."
+      ],
+      "wrong": [
+        "They solicited opinions by refusing to listen to anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "request",
+        "seek"
+      ],
+      "ipa": "/səˈlɪsɪt/"
+    },
+    {
+      "lemma": "stipulate",
+      "pos": "verb",
+      "meaning": "To state clearly that something must be done as part of an agreement.",
+      "examples": [
+        "The contract {stipulates} payment within thirty days."
+      ],
+      "wrong": [
+        "The rules stipulate nothing, so everything is clearly required."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "specify",
+        "require"
+      ],
+      "ipa": "/ˈstɪpjəˌleɪt/"
+    },
+    {
+      "lemma": "impair",
+      "pos": "verb",
+      "meaning": "To damage something so it works less well.",
+      "examples": [
+        "Lack of sleep can {impair} your judgment."
+      ],
+      "wrong": [
+        "The loud noise impaired her hearing, making it sharper than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "damage",
+        "weaken"
+      ],
+      "ipa": "/ɪmˈpɛr/",
+      "antonyms": [
+        "improve",
+        "enhance"
+      ]
+    },
+    {
+      "lemma": "thwart",
+      "pos": "verb",
+      "meaning": "To stop someone from doing what they planned.",
+      "examples": [
+        "Police {thwarted} the robbery."
+      ],
+      "wrong": [
+        "The guards thwarted the escape by opening every door."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "foil",
+        "frustrate"
+      ],
+      "ipa": "/θwɔrt/"
+    },
+    {
+      "lemma": "envisage",
+      "pos": "verb",
+      "meaning": "To picture a future situation or plan in your mind.",
+      "examples": [
+        "I {envisage} a much larger company in five years."
+      ],
+      "wrong": [
+        "She envisaged the future without imagining anything at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "imagine",
+        "foresee"
+      ],
+      "ipa": "/ɪnˈvɪzɪdʒ/"
+    },
+    {
+      "lemma": "waive",
+      "pos": "verb",
+      "meaning": "To choose not to demand something you have a right to.",
+      "examples": [
+        "The bank {waived} the fee this month."
+      ],
+      "wrong": [
+        "They waived the fee, so we had to pay it twice."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "set aside",
+        "forgo"
+      ],
+      "ipa": "/weɪv/"
+    },
+    {
+      "lemma": "withhold",
+      "pos": "verb",
+      "meaning": "To refuse to give something.",
+      "examples": [
+        "The company {withheld} payment until the work was finished."
+      ],
+      "wrong": [
+        "She withheld the information by telling everyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "hold back",
+        "keep back"
+      ],
+      "ipa": "/wɪθˈhoʊld/",
+      "antonyms": [
+        "provide",
+        "grant"
+      ]
+    },
+    {
+      "lemma": "compel",
+      "pos": "verb",
+      "meaning": "To force someone to do something.",
+      "examples": [
+        "The rain {compelled} us to cancel the game."
+      ],
+      "wrong": [
+        "Nothing compelled him, so he was forced to go."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "force",
+        "oblige"
+      ],
+      "ipa": "/kəmˈpɛl/"
+    },
+    {
+      "lemma": "induce",
+      "pos": "verb",
+      "meaning": "To cause a state or feeling, or persuade someone to do something.",
+      "examples": [
+        "The warm room and soft music {induced} sleep."
+      ],
+      "wrong": [
+        "The strong coffee induced sleep and kept him wide awake."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cause",
+        "bring about"
+      ],
+      "ipa": "/ɪnˈdus/"
+    },
+    {
+      "lemma": "deem",
+      "pos": "verb",
+      "meaning": "To consider or judge something in a particular way.",
+      "examples": [
+        "The building was {deemed} unsafe."
+      ],
+      "wrong": [
+        "The plan was deemed, so nobody formed any opinion about it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "consider",
+        "judge"
+      ],
+      "ipa": "/dim/"
+    },
+    {
+      "lemma": "bestow",
+      "pos": "verb",
+      "meaning": "To formally give an honor, gift or right to someone.",
+      "examples": [
+        "The king {bestowed} a medal on the soldier."
+      ],
+      "wrong": [
+        "The university bestowed a degree on her by taking it away."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "confer",
+        "award"
+      ],
+      "ipa": "/bɪˈstoʊ/"
+    },
+    {
+      "lemma": "rebuke",
+      "pos": "verb",
+      "meaning": "To speak to someone sharply because they did something wrong.",
+      "examples": [
+        "The coach {rebuked} the players for their lazy effort."
+      ],
+      "wrong": [
+        "She rebuked him warmly for his excellent work."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "scold",
+        "reprimand"
+      ],
+      "ipa": "/rɪˈbjuk/",
+      "antonyms": [
+        "praise"
+      ]
+    },
+    {
+      "lemma": "devise",
+      "pos": "verb",
+      "meaning": "To invent a plan or method using careful thought.",
+      "examples": [
+        "Engineers {devised} a new cooling system."
+      ],
+      "wrong": [
+        "She devised a plan by copying one without any thought."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "invent",
+        "design"
+      ],
+      "ipa": "/dɪˈvaɪz/"
+    },
+    {
+      "lemma": "dispel",
+      "pos": "verb",
+      "meaning": "To make a feeling or belief go away.",
+      "examples": [
+        "The report {dispelled} fears about job losses."
+      ],
+      "wrong": [
+        "His kind words dispelled her worries and made them stronger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "banish",
+        "dismiss"
+      ],
+      "ipa": "/dɪˈspɛl/"
+    },
+    {
+      "lemma": "distort",
+      "pos": "verb",
+      "meaning": "To change facts or information so that they are no longer true.",
+      "examples": [
+        "The article {distorted} what the minister said."
+      ],
+      "wrong": [
+        "He distorted the facts by reporting them exactly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "twist",
+        "misrepresent"
+      ],
+      "ipa": "/dɪˈstɔrt/",
+      "antonyms": [
+        "clarify"
+      ]
+    },
+    {
+      "lemma": "divert",
+      "pos": "verb",
+      "meaning": "To make something change direction or be used for another purpose.",
+      "examples": [
+        "Traffic was {diverted} around the accident."
+      ],
+      "wrong": [
+        "The funds were diverted, so they went exactly where planned."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "redirect",
+        "reroute"
+      ],
+      "ipa": "/daɪˈvɝt/"
+    },
+    {
+      "lemma": "embody",
+      "pos": "verb",
+      "meaning": "To be a perfect example of an idea or quality.",
+      "examples": [
+        "She {embodies} the spirit of the team."
+      ],
+      "wrong": [
+        "He embodies honesty, as he lies all the time."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "personify",
+        "represent"
+      ],
+      "ipa": "/ɪmˈbɑdi/"
+    },
+    {
+      "lemma": "encompass",
+      "pos": "verb",
+      "meaning": "To include many different things.",
+      "examples": [
+        "The course {encompasses} history, art and politics."
+      ],
+      "wrong": [
+        "The program encompasses everything, so it leaves most topics out."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "include",
+        "cover"
+      ],
+      "ipa": "/ɪnˈkʌmpəs/"
+    },
+    {
+      "lemma": "entail",
+      "pos": "verb",
+      "meaning": "To involve something as a necessary part or result.",
+      "examples": [
+        "The job {entails} a lot of travel."
+      ],
+      "wrong": [
+        "The role entails travel, so you never have to leave town."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "involve",
+        "require"
+      ],
+      "ipa": "/ɪnˈteɪl/"
+    },
+    {
+      "lemma": "exert",
+      "pos": "verb",
+      "meaning": "To use power, influence or effort to make something happen.",
+      "examples": [
+        "Parents {exert} a strong influence on children."
+      ],
+      "wrong": [
+        "She exerted great effort by sitting back and doing nothing."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "apply",
+        "wield"
+      ],
+      "ipa": "/ɪɡˈzɝt/"
+    }
+  ]
+}

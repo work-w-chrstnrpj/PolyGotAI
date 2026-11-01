@@ -4,3 +4,5 @@ application/.build/
 **/*.xcuserstate
 /.build/
 Untitled/
+# Owner-local online feedback switch-on (contains the workspace id); created by tools/provider/install_verification.sh
+application/SpeechCoachAI/Resources/ProviderVerification.json

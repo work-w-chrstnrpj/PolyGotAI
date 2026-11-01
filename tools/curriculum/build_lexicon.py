@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build the predefined Lexicon bank: Resources/Lexicon/lexicon-*.json (3 groups x 40 words).
+"""Build the predefined Lexicon bank: Resources/Lexicon/lexicon-*.json (packs of about 40 words per CEFR rank, plus field packs).
 
 Every meaning and sentence is original wording written for this app. Word choice follows general-purpose and academic
 frequency ideas (no list text is copied or bundled). Each entry is
 (lemma, part of speech, meaning, example with the word form in {braces}, wrong usage 1, wrong usage 2).
 Wrong-usage sentences are grammatical but use the word in a way that does not fit its meaning, or break a pattern of the word.
 
-Run from the project root: python3 tools/curriculum/build_lexicon.py
+Run from the project root: python3 tools/curriculum/build_lexicon.py, then python3 tools/curriculum/add_synonyms.py
 """
 from __future__ import annotations
 
@@ -16,7 +16,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "application/SpeechCoachAI/Resources/Lexicon"
 
-SOURCES = ["Word choice guided by general-purpose and academic frequency ideas (NGSL and AWL families); all meanings and sentences are original."]
+SOURCES = [
+    "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+    "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used",
+]
 
 EVERYDAY = [
     ("happy", "adjective", "Feeling pleased and cheerful.", "Mina was {happy} when her friend called.", "I am happy because my dog is very sick.", "Yesterday she happy to see us."),
@@ -90,9 +93,9 @@ WORK = [
     ("attach", "verb", "To fix one thing to another, such as a file to an email.", "Please {attach} the document to your email.", "I attach the document by deleting it from the email.", "He attached with the file."),
     ("submit", "verb", "To give a document or work to someone for a decision.", "You must {submit} the form by noon.", "I submit the form by throwing it away.", "She submitted for the report."),
     ("review", "verb", "To look at something again to check it.", "I will {review} your report tonight.", "I review the report before I write it.", "He reviews to the document."),
-    ("apply", "verb", "To ask formally for a job or a place.", "She decided to {apply} for the new position.", "I apply a new job, so they ask me to leave.", "He applied to the a job."),
+    ("apply", "verb", "To ask formally for a job or a place.", "She decided to {apply} for the new position.", "I apply a new job, so they ask me to leave.", "He applied to a job."),
     ("hire", "verb", "To give someone a job.", "The company will {hire} three new workers.", "The company hired him, so he lost his job.", "They hires many workers."),
-    ("shift", "noun", "A set period of time when a person works.", "He works the night {shift} at the hospital.", "My shift is a week of holidays.", "She shift every night."),
+    ("shift", "noun", "A set period of time when a person works.", "He works the night {shift} at the hospital.", "My shift is a week of vacations.", "She shift every night."),
     ("overtime", "noun", "Extra hours of work after the normal day.", "I worked two hours of {overtime} last night.", "I left work early, so I did a lot of overtime.", "He overtimes yesterday."),
     ("agenda", "noun", "A list of things to talk about at a meeting.", "The {agenda} has five items.", "The agenda lists what we did last year, not what we will discuss.", "She agendas many things."),
     ("feedback", "noun", "Comments that tell you how well you did something.", "I asked my boss for {feedback} on my presentation.", "I gave my boss feedback by saying nothing at all.", "He feedbacks us."),
@@ -147,11 +150,181 @@ ACADEMIC = [
     ("maintain", "verb", "To keep something in good condition or at the same level.", "It is hard to {maintain} a healthy diet when you travel.", "We maintain the road by letting it break.", "She maintains of the house."),
 ]
 
+import sys  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lexdata import a1, a2, b1, b2, c1, c2, fields  # noqa: E402
+from lexdata import more_a1, more_a2, more_b1, more_b2, more_c1, more_c2  # noqa: E402
+
+REGISTERS = {"everyday", "formal", "term", "jargon", "slang", "informal", "literary"}
+JARGON = {"stakeholder", "outsource", "milestone", "turnover", "touch base", "leverage", "paradigm"}
+
+# Level of each original word (judged by the authors). Original words keep their ids and both wrong sentences.
+WORK_LEVELS = {
+    "A2": ["schedule", "meeting", "colleague", "manager", "appointment", "customer", "report", "team", "office", "order"],
+    "B2": ["invoice", "contract", "supervisor", "overtime", "agenda", "workload", "supply", "warehouse"],
+}
+ACADEMIC_B1 = ["argue", "benefit", "process", "compare", "create"]
+
+
+def legacy(rows, group_id, level, register):
+    return [dict(zip(("lemma", "pos", "meaning", "example", "wrong1", "wrong2"), row), cefr=level, register=register,
+                 id=f"{group_id}.{LexiconSlug(row[0])}", wrong_count=2) for row in rows]
+
+
+def LexiconSlug(text: str) -> str:
+    text = "".join(ch.lower() if ch.isalnum() else "-" for ch in text)
+    return "-".join(part for part in text.split("-") if part)
+
+
+def fresh(rows, level, register):
+    """New words keep one wrong-usage sentence: the second drafted sentences were not natural enough to ship."""
+    out = []
+    for row in rows:
+        lemma, pos, meaning, example, wrong1 = row[:5]
+        override = row[5] if len(row) > 5 and row[5] in REGISTERS else None
+        out.append(dict(lemma=lemma, pos=pos, meaning=meaning, example=example, wrong1=wrong1, wrong2=None, cefr=level,
+                        register="jargon" if lemma in JARGON else (override or register), id=None, wrong_count=1))
+    return out
+
+
+def rich(rows, level, register):
+    """Phase 14 words: (lemma, pos, meaning, example, wrong, "synonym; synonym"[, register]). One wrong sentence each."""
+    out = []
+    for row in rows:
+        lemma, pos, meaning, example, wrong1, synonyms = row[:6]
+        override = row[6] if len(row) > 6 else None
+        if override is not None and override not in REGISTERS:
+            raise SystemExit(f"{lemma}: unknown register {override}")
+        out.append(dict(lemma=lemma, pos=pos, meaning=meaning, example=example, wrong1=wrong1, wrong2=None, cefr=level,
+                        register=override or register, id=None, wrong_count=1,
+                        synonyms=[v.strip() for v in synonyms.split(";") if v.strip()]))
+    return out
+
+
+def level_keys():
+    """Keys (normalized lemma, pos) of every word in the level groups; field packs must not repeat them."""
+    return {(LexiconKey(row["lemma"]), row["pos"]) for _, _, _, _, _, rows in GROUPS for row in rows}
+
+
+def LexiconKey(text: str) -> str:
+    return " ".join("".join(ch for ch in text.lower() if ch.isalnum() or ch in " -").split())
+
+
+_TAKEN: set | None = None
+
+
+def unique_field_rows(rows):
+    global _TAKEN
+    if _TAKEN is None:
+        _TAKEN = level_keys()
+    taken = _TAKEN
+    out = []
+    for row in rows:
+        key = (LexiconKey(row["lemma"]), row["pos"])
+        if key not in taken:
+            taken.add(key)
+            out.append(row)
+    return out
+
+
+def pick(rows, lemmas):
+    wanted = set(lemmas)
+    return [row for row in rows if row[0] in wanted]
+
+
+def not_in(rows, lemmas):
+    skip = set(lemmas)
+    return [row for row in rows if row[0] not in skip]
+
+
+A2_WORK = WORK_LEVELS["A2"]
+B2_WORK = WORK_LEVELS["B2"]
+B1_WORK = [row[0] for row in WORK if row[0] not in A2_WORK and row[0] not in B2_WORK]
+B2_ACADEMIC = [row[0] for row in ACADEMIC if row[0] not in ACADEMIC_B1]
+
 GROUPS = [
-    ("1-everyday", {"id": "everyday-a1", "title": "Everyday A1", "level": "A1", "tagline": "Words for daily life"}, EVERYDAY),
-    ("2-work", {"id": "work-office", "title": "Work and office", "level": "A2-B1", "tagline": "Words for the workplace"}, WORK),
-    ("3-academic", {"id": "academic-basics", "title": "Academic basics", "level": "B1-B2", "tagline": "Words for study and reports"}, ACADEMIC),
+    ("01-a1-everyday", "everyday-a1", "Everyday A1", "A1", "Words for daily life", legacy(EVERYDAY, "everyday-a1", "A1", "everyday")),
+    ("02-a1-people-places", "a1-people-places", "People and places", "A1", "Who and where", fresh(a1.PEOPLE_PLACES, "A1", "everyday")),
+    ("03-a1-food-time", "a1-food-time", "Food and time", "A1", "Meals, days and actions", fresh(a1.FOOD_TIME, "A1", "everyday")),
+    ("04-a2-travel-health", "a2-travel-health", "Travel and health", "A2", "Trips and feeling well", fresh(a2.TRAVEL_HEALTH, "A2", "everyday")),
+    ("05-a2-home-town", "a2-home-town", "Home and town", "A2", "Where you live", fresh(a2.HOME_TOWN, "A2", "everyday")),
+    ("06-a2-work-basics", "a2-work-basics", "Work and study basics", "A2", "School, office and screens",
+     legacy(pick(WORK, A2_WORK), "work-office", "A2", "everyday") + fresh(a2.WORK_BASICS, "A2", "everyday")),
+    ("07-b1-work", "b1-work", "Work and careers", "B1", "Jobs and the workplace",
+     legacy(pick(WORK, B1_WORK), "work-office", "B1", "everyday") + fresh(b1.WORK_EXTRA, "B1", "everyday")),
+    ("08-b1-society", "b1-society", "Society and the world", "B1", "People, rules and news",
+     legacy(pick(ACADEMIC, ACADEMIC_B1), "academic-basics", "B1", "everyday") + fresh(b1.SOCIETY, "B1", "everyday")),
+    ("09-b1-feelings", "b1-feelings", "Feelings and character", "B1", "How people feel and act", fresh(b1.FEELINGS, "B1", "everyday")),
+    ("10-b2-work-terms", "b2-work-terms", "Business terms", "B2", "Words for company life",
+     legacy(pick(WORK, B2_WORK), "work-office", "B2", "term") + fresh(b2.WORK_TERMS_EXTRA, "B2", "term")),
+    ("11-b2-academic", "b2-academic", "Academic basics", "B2", "Words for study and reports",
+     legacy(pick(ACADEMIC, B2_ACADEMIC), "academic-basics", "B2", "term") + fresh(b2.ACADEMIC_EXTRA, "B2", "term")),
+    ("12-b2-opinion", "b2-opinion", "Opinion and argument", "B2", "Say what you think", fresh(b2.OPINION, "B2", "formal")),
+    ("13-c1-nuance", "c1-nuance", "Shades of meaning", "C1", "Precise describing words", fresh(c1.NUANCE, "C1", "formal")),
+    ("14-c1-professional", "c1-professional", "Professional verbs", "C1", "Formal work language", fresh(c1.PROFESSIONAL, "C1", "formal")),
+    ("15-c1-abstract", "c1-abstract", "Abstract ideas", "C1", "Words for big ideas", fresh(c1.ABSTRACT, "C1", "formal")),
+    ("16-c2-precision", "c2-precision", "Exact and rare", "C2", "Precise, uncommon words", fresh(c2.PRECISION, "C2", "formal")),
+    ("17-c2-idioms", "c2-idioms", "Idioms and informal English", "C2", "How people really talk", fresh(c2.IDIOM_REGISTER, "C2", "informal")),
+    ("18-c2-literary", "c2-literary", "Literary language", "C2", "Words from stories and poems", fresh(c2.LITERARY, "C2", "literary")),
 ]
+
+# Phase 14 packs (about 2,400 words in all): each module lists (stem, group id, title, tagline, register, rows) per pack.
+# They follow the older packs of the same rank. File numbers are assigned in build(), so packs stay in rank order.
+LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
+for level, module in zip(LEVEL_ORDER, (more_a1, more_a2, more_b1, more_b2, more_c1, more_c2)):
+    for stem, group_id, title, tagline, register, rows in module.PACKS:
+        GROUPS.append((stem, group_id, title, level, tagline, rich(rows, level, register)))
+# Expansion 2026-10-30 (B1–C2 to about 1,000 words each): lexdata/extra_<rank>_<n>.py, same row format, after the packs above.
+import importlib  # noqa: E402
+
+EXTRA_MODULES = sorted(Path(__file__).resolve().parent.joinpath("lexdata").glob("extra_*.py"))
+for path in EXTRA_MODULES:
+    module = importlib.import_module(f"lexdata.{path.stem}")
+    for stem, group_id, title, tagline, register, rows in module.PACKS:
+        GROUPS.append((stem, group_id, title, module.LEVEL, tagline, rich(rows, module.LEVEL, register)))
+GROUPS.sort(key=lambda group: LEVEL_ORDER.index(group[3]))
+
+# Field packs (L2.3): opt-in groups, never the default, never suggested as "Next", not in the daily word unless switched on.
+FIELD_GROUPS = [
+    ("19-field-business", "field-business", "Business and finance", "B2", "Money, deals and companies", unique_field_rows(fresh(fields.BUSINESS, "B2", "term"))),
+    ("20-field-tech", "field-tech", "Technology", "B2", "Computers, apps and networks", unique_field_rows(fresh(fields.TECH, "B2", "term"))),
+    ("21-field-health", "field-health", "Health and medicine", "B2", "Doctors, illness and care", unique_field_rows(fresh(fields.HEALTH, "B2", "term"))),
+    ("22-field-travel", "field-travel", "Travel", "B1", "Trips, airports and hotels", unique_field_rows(fresh(fields.TRAVEL, "B1", "term"))),
+    ("23-field-law", "field-law", "Law", "C1", "Courts, contracts and rights", unique_field_rows(fresh(fields.LAW, "C1", "term"))),
+]
+
+
+# Per-word fixes from the Lexicon proofread: neutral words in formal/term groups are everyday, and easier idioms and
+# literary words keep their own (lower) CEFR level inside the C2 group, so a B1 or B2 learner meets them in the daily word.
+EVERYDAY_WORDS = {
+    "disagree", "support", "suggest", "advantage", "disadvantage", "attitude", "debate",
+    "vague", "thorough", "trivial", "deliberate", "notorious", "obsolete", "mundane", "versatile",
+    "role", "issue", "individual", "respond", "occur", "require", "focus", "involve",
+    "challenge", "priority", "resource", "approve", "propose", "objective", "efficient",
+}
+LOWER_LEVEL_WORDS = {
+    "broke": "B1", "hang out": "B1", "figure out": "B1", "mess up": "B1", "chill out": "B1",
+    "break the ice": "B2", "under the weather": "B2", "hit the sack": "B2", "spill the beans": "B2",
+    "once in a blue moon": "B2", "the last straw": "B2",
+    "wander": "B1", "fade": "B1", "drift": "B2", "dusk": "B2", "stillness": "B2", "murmur": "B2",
+    "hush": "C1", "veil": "C1", "glimmer": "C1", "ember": "C1",
+}
+
+
+def apply_word_fixes() -> None:
+    seen_everyday, seen_level = set(), set()
+    for _, _, _, level, _, rows in GROUPS:
+        for row in rows:
+            if row["lemma"] in EVERYDAY_WORDS and row["register"] in {"formal", "term"}:
+                row["register"] = "everyday"
+                seen_everyday.add(row["lemma"])
+            if row["lemma"] in LOWER_LEVEL_WORDS and level == "C2":
+                row["cefr"] = LOWER_LEVEL_WORDS[row["lemma"]]
+                seen_level.add(row["lemma"])
+    missing = (EVERYDAY_WORDS - seen_everyday) | (set(LOWER_LEVEL_WORDS) - seen_level)
+    if missing:
+        print("WARNING: word fixes not applied to:", sorted(missing))
 
 
 def curl(value):
@@ -165,16 +338,56 @@ def curl(value):
     return value
 
 
+# Field pack sizes before Phase 14: a new level word must never take a word out of a field pack (its id would change).
+FIELD_SIZES = {"field-business": 27, "field-tech": 30, "field-health": 28, "field-travel": 29, "field-law": 30}
+
+
+def check_bank() -> None:
+    problems, seen = [], {}
+    for _, group_id, _, _, _, rows in [*GROUPS, *FIELD_GROUPS]:
+        for row in rows:
+            key = (LexiconKey(row["lemma"]), row["pos"])
+            if key in seen:
+                problems.append(f"{row['lemma']} ({row['pos']}) in {group_id} repeats {seen[key]}")
+            seen[key] = group_id
+            if row["example"].count("{") != 1 or "{" in row["wrong1"] or len(row["meaning"]) > 140:
+                problems.append(f"{group_id}: {row['lemma']}: example marker, wrong sentence or meaning length")
+            if any(LexiconKey(v) == LexiconKey(row["lemma"]) for v in row.get("synonyms", [])):
+                problems.append(f"{group_id}: {row['lemma']}: synonym equals the word")
+    for _, group_id, _, _, _, rows in FIELD_GROUPS:
+        if len(rows) != FIELD_SIZES[group_id]:
+            problems.append(f"{group_id}: {len(rows)} words, expected {FIELD_SIZES[group_id]} (a level word took a field word)")
+    if problems:
+        raise SystemExit("\n".join(problems))
+
+
 def build() -> None:
+    check_bank()
+    apply_word_fixes()
     OUT.mkdir(parents=True, exist_ok=True)
-    for stem, header, rows in GROUPS:
+    for old in OUT.glob("lexicon-*.json"):
+        old.unlink()
+    total = 0
+    for number, (stem, group_id, title, level, tagline, rows) in enumerate([*GROUPS, *FIELD_GROUPS], start=1):
+        is_field = number > len(GROUPS)
+        stem = f"{number:03d}-{stem.split('-', 1)[1] if stem[:2].isdigit() else stem}"
         words = []
-        for lemma, pos, meaning, example, wrong1, wrong2 in rows:
-            words.append({"lemma": lemma, "pos": pos, "meaning": meaning, "examples": [example], "wrong": [wrong1, wrong2]})
-        data = curl({"schemaVersion": 1, "group": {**header, "sources": SOURCES}, "words": words})
+        for row in rows:
+            word = {"lemma": row["lemma"], "pos": row["pos"], "meaning": row["meaning"], "examples": [row["example"]],
+                    "wrong": [row["wrong1"]] + ([row["wrong2"]] if row["wrong2"] else []), "cefr": row["cefr"], "register": row["register"]}
+            if row["id"]:
+                word["id"] = row["id"]
+            if row.get("synonyms"):
+                word["synonyms"] = row["synonyms"]
+            words.append(word)
+        header = {"id": group_id, "title": title, "level": level, "tagline": tagline, "sources": SOURCES}
+        if is_field:
+            header["kind"] = "field"
         path = OUT / f"lexicon-{stem}.json"
-        path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        path.write_text(json.dumps(curl({"schemaVersion": 2, "group": header, "words": words}), indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        total += len(words)
         print(f"wrote {path.relative_to(ROOT)}: {len(words)} words")
+    print(f"total {total} words in {len(GROUPS)} level groups and {len(FIELD_GROUPS)} field packs")
 
 
 if __name__ == "__main__":

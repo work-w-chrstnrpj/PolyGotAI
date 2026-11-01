@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-history-tradition",
+    "title": "History and tradition",
+    "level": "B2",
+    "tagline": "The past, heritage and change",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "ancestor",
+      "pos": "noun",
+      "meaning": "A family member who lived long ago, before your grandparents.",
+      "examples": [
+        "My {ancestors} came from a small village in the north."
+      ],
+      "wrong": [
+        "My ancestor is my baby nephew who was born last week."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "forebear"
+      ],
+      "ipa": "/ˈænˌsɛstɚ/",
+      "antonyms": [
+        "descendant"
+      ]
+    },
+    {
+      "lemma": "ancestry",
+      "pos": "noun",
+      "meaning": "The family members and origins you come from.",
+      "examples": [
+        "She is proud of her Irish {ancestry}."
+      ],
+      "wrong": [
+        "His ancestry is the list of his future grandchildren."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "descent",
+        "lineage"
+      ],
+      "ipa": "/ˈænˌsɛstri/"
+    },
+    {
+      "lemma": "dynasty",
+      "pos": "noun",
+      "meaning": "A line of rulers from the same family.",
+      "examples": [
+        "The {dynasty} ruled the country for three hundred years."
+      ],
+      "wrong": [
+        "The dynasty lasted only one morning and had one king."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈdaɪnəsti/"
+    },
+    {
+      "lemma": "empire",
+      "pos": "noun",
+      "meaning": "A group of countries ruled by one powerful leader or state.",
+      "examples": [
+        "The Roman {Empire} stretched across Europe."
+      ],
+      "wrong": [
+        "The empire was one small village with no ruler."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɛmˌpaɪɚ/"
+    },
+    {
+      "lemma": "era",
+      "pos": "noun",
+      "meaning": "A long period of history with a special character.",
+      "examples": [
+        "The invention of the car began a new {era} in travel."
+      ],
+      "wrong": [
+        "The era lasted just five minutes."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "age",
+        "period"
+      ],
+      "ipa": "/ˈɪrə/"
+    },
+    {
+      "lemma": "medieval",
+      "pos": "adjective",
+      "meaning": "From the Middle Ages, about the years 500 to 1500.",
+      "examples": [
+        "We visited a {medieval} castle with thick stone walls."
+      ],
+      "wrong": [
+        "The medieval building was built in 2020."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌmidiˈivəl/"
+    },
+    {
+      "lemma": "artifact",
+      "pos": "noun",
+      "meaning": "An object made by people long ago, kept for its history.",
+      "examples": [
+        "The museum shows {artifacts} from ancient Egypt."
+      ],
+      "wrong": [
+        "The artifact was a modern phone bought yesterday."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "relic",
+        "object"
+      ],
+      "ipa": "/ˈɑrtəˌfækt/"
+    },
+    {
+      "lemma": "archaeology",
+      "pos": "noun",
+      "meaning": "The study of the past by digging up old objects and buildings.",
+      "examples": [
+        "She studied {archaeology} and now works on old sites."
+      ],
+      "wrong": [
+        "Archaeology is the study of future cities in space."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌɑrkiˈɑlədʒi/"
+    },
+    {
+      "lemma": "civilization",
+      "pos": "noun",
+      "meaning": "A society with its own culture, laws and way of life.",
+      "examples": [
+        "The Maya built a great {civilization} in Central America."
+      ],
+      "wrong": [
+        "The civilization had no culture, rules or people."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "culture",
+        "society"
+      ],
+      "ipa": "/ˌsɪvələˈzeɪʃən/"
+    },
+    {
+      "lemma": "colony",
+      "pos": "noun",
+      "meaning": "A country or area ruled by another, more powerful country.",
+      "examples": [
+        "The island was once a British {colony}."
+      ],
+      "wrong": [
+        "The colony was a free country that no other nation ever ruled."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "settlement"
+      ],
+      "ipa": "/ˈkɑləni/"
+    },
+    {
+      "lemma": "monarchy",
+      "pos": "noun",
+      "meaning": "A system where a king or queen is head of state.",
+      "examples": [
+        "The country has been a {monarchy} for centuries."
+      ],
+      "wrong": [
+        "In this monarchy, there has never been a king or queen."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "kingdom"
+      ],
+      "ipa": "/ˈmɑnɚki/"
+    },
+    {
+      "lemma": "reign",
+      "pos": "noun",
+      "meaning": "The period when a king or queen rules.",
+      "examples": [
+        "Many castles were built during her {reign}."
+      ],
+      "wrong": [
+        "The queen’s reign ended many years before she was crowned."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "rule"
+      ],
+      "ipa": "/reɪn/"
+    },
+    {
+      "lemma": "revolution",
+      "pos": "noun",
+      "meaning": "A sudden change of government, often by force.",
+      "examples": [
+        "The {revolution} ended the king’s rule."
+      ],
+      "wrong": [
+        "The revolution kept everything exactly as it was."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "uprising",
+        "revolt"
+      ],
+      "ipa": "/ˌrɛvəˈluʃən/"
+    },
+    {
+      "lemma": "conquer",
+      "pos": "verb",
+      "meaning": "To take control of a country or people by force.",
+      "examples": [
+        "The army {conquered} the city after a long siege."
+      ],
+      "wrong": [
+        "They conquered the land by losing every battle."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "defeat",
+        "invade"
+      ],
+      "ipa": "/ˈkɑŋkɚ/"
+    },
+    {
+      "lemma": "invasion",
+      "pos": "noun",
+      "meaning": "An attack in which an army enters another country.",
+      "examples": [
+        "The {invasion} began at dawn."
+      ],
+      "wrong": [
+        "The invasion was a friendly visit by tourists."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "attack",
+        "occupation"
+      ],
+      "ipa": "/ɪnˈveɪʒən/"
+    },
+    {
+      "lemma": "excavate",
+      "pos": "verb",
+      "meaning": "To dig in the ground to find old objects or buildings.",
+      "examples": [
+        "Experts {excavated} a Roman villa under the field."
+      ],
+      "wrong": [
+        "They excavated the site by building a car park on top."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "dig up",
+        "unearth"
+      ],
+      "ipa": "/ˈɛkskəˌveɪt/"
+    },
+    {
+      "lemma": "golden age",
+      "pos": "phrase",
+      "meaning": "A time in the past when something was at its best.",
+      "examples": [
+        "The 1950s were the {golden age} of cinema."
+      ],
+      "wrong": [
+        "The golden age was the worst time in the country’s history."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "heyday"
+      ],
+      "ipa": "/ˈɡoʊldən eɪdʒ/"
+    },
+    {
+      "lemma": "chronicle",
+      "pos": "noun",
+      "meaning": "A written record of events in the order they happened.",
+      "examples": [
+        "A monk wrote a {chronicle} of the town’s history."
+      ],
+      "wrong": [
+        "The chronicle was a list of events in random order."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "record",
+        "account"
+      ],
+      "ipa": "/ˈkrɑnɪkəl/"
+    },
+    {
+      "lemma": "descendant",
+      "pos": "noun",
+      "meaning": "A person related to someone who lived long ago.",
+      "examples": [
+        "He is a {descendant} of a famous sailor."
+      ],
+      "wrong": [
+        "She is a descendant of her own granddaughter."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "offspring",
+        "heir"
+      ],
+      "ipa": "/dɪˈsɛndənt/",
+      "antonyms": [
+        "ancestor"
+      ]
+    },
+    {
+      "lemma": "folklore",
+      "pos": "noun",
+      "meaning": "The old stories, beliefs and customs of a people.",
+      "examples": [
+        "Dragons appear often in local {folklore}."
+      ],
+      "wrong": [
+        "Folklore is a new law passed by parliament last year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "legends",
+        "myths"
+      ],
+      "ipa": "/ˈfoʊkˌlɔr/"
+    },
+    {
+      "lemma": "ritual",
+      "pos": "noun",
+      "meaning": "A set of actions always done in the same way, often for a ceremony.",
+      "examples": [
+        "Lighting candles is part of the wedding {ritual}."
+      ],
+      "wrong": [
+        "The ritual changes completely every time it’s done."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ceremony",
+        "rite"
+      ],
+      "ipa": "/ˈrɪtʃuəl/"
+    },
+    {
+      "lemma": "heirloom",
+      "pos": "noun",
+      "meaning": "A valuable object passed down in a family for many years.",
+      "examples": [
+        "This ring is a family {heirloom} from my grandmother."
+      ],
+      "wrong": [
+        "The heirloom is a cheap toy I bought this morning."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɛrˌlum/"
+    },
+    {
+      "lemma": "pioneer",
+      "pos": "noun",
+      "meaning": "One of the first people to do something or go somewhere.",
+      "examples": [
+        "She was a {pioneer} of women’s aviation."
+      ],
+      "wrong": [
+        "He was a pioneer, so he did it long after everyone else."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "trailblazer"
+      ],
+      "ipa": "/ˌpaɪəˈnɪr/"
+    },
+    {
+      "lemma": "prehistoric",
+      "pos": "adjective",
+      "meaning": "From the time before people wrote history down.",
+      "examples": [
+        "We saw {prehistoric} cave paintings."
+      ],
+      "wrong": [
+        "The prehistoric tools were made last year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌprihɪˈstɔrɪk/",
+      "antonyms": [
+        "modern"
+      ]
+    },
+    {
+      "lemma": "abolish",
+      "pos": "verb",
+      "meaning": "To officially end a law, system or custom.",
+      "examples": [
+        "The country {abolished} the death penalty decades ago."
+      ],
+      "wrong": [
+        "They abolished the tax by raising it."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "end",
+        "do away with"
+      ],
+      "ipa": "/əˈbɑlɪʃ/",
+      "antonyms": [
+        "establish",
+        "introduce"
+      ]
+    },
+    {
+      "lemma": "independence",
+      "pos": "noun",
+      "meaning": "Freedom of a country from rule by another country.",
+      "examples": [
+        "The nation celebrates its {independence} every summer."
+      ],
+      "wrong": [
+        "After independence, the country was ruled by its old masters."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "freedom",
+        "self-rule"
+      ],
+      "ipa": "/ˌɪndɪˈpɛndəns/",
+      "antonyms": [
+        "dependence"
+      ]
+    },
+    {
+      "lemma": "treaty",
+      "pos": "noun",
+      "meaning": "A written agreement between countries.",
+      "examples": [
+        "The two nations signed a peace {treaty}."
+      ],
+      "wrong": [
+        "The treaty was a war that broke out between them."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pact",
+        "accord"
+      ],
+      "ipa": "/ˈtriti/"
+    },
+    {
+      "lemma": "archive",
+      "pos": "noun",
+      "meaning": "A collection of old records and documents, or the place they are kept.",
+      "examples": [
+        "The town {archive} holds letters from the 1800s."
+      ],
+      "wrong": [
+        "The archive is a bin where old papers are destroyed."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "records"
+      ],
+      "ipa": "/ˈɑrˌkaɪv/"
+    },
+    {
+      "lemma": "historian",
+      "pos": "noun",
+      "meaning": "A person who studies and writes about the past.",
+      "examples": [
+        "The {historian} wrote a book about the war."
+      ],
+      "wrong": [
+        "The historian studies only what will happen next year."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/hɪˈstɔriən/"
+    },
+    {
+      "lemma": "commemorate",
+      "pos": "verb",
+      "meaning": "To do something to remember and honor a past event or person.",
+      "examples": [
+        "A statue {commemorates} the soldiers who died."
+      ],
+      "wrong": [
+        "They commemorated the hero by forgetting his name."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "honor",
+        "mark"
+      ],
+      "ipa": "/kəˈmɛməˌreɪt/"
+    },
+    {
+      "lemma": "anniversary",
+      "pos": "noun",
+      "meaning": "The date when something happened in an earlier year.",
+      "examples": [
+        "The city celebrates its 500th {anniversary} this year."
+      ],
+      "wrong": [
+        "The anniversary is the first day the event ever happened."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˌænəˈvɝsəri/"
+    },
+    {
+      "lemma": "emperor",
+      "pos": "noun",
+      "meaning": "A man who rules an empire.",
+      "examples": [
+        "The {emperor} ruled over many lands and peoples."
+      ],
+      "wrong": [
+        "The emperor was a farmer with no power over anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "ruler",
+        "monarch"
+      ],
+      "ipa": "/ˈɛmpɚɚ/"
+    },
+    {
+      "lemma": "preserve",
+      "pos": "verb",
+      "meaning": "To keep something in its original state.",
+      "examples": [
+        "The village has {preserved} its old traditions."
+      ],
+      "wrong": [
+        "They preserved the old church by knocking it down."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "protect",
+        "conserve"
+      ],
+      "ipa": "/prɪˈzɝv/",
+      "antonyms": [
+        "destroy"
+      ]
+    },
+    {
+      "lemma": "restoration",
+      "pos": "noun",
+      "meaning": "The work of repairing an old building or object.",
+      "examples": [
+        "The {restoration} of the palace took ten years."
+      ],
+      "wrong": [
+        "The restoration left the painting more damaged than before."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "renovation",
+        "repair"
+      ],
+      "ipa": "/ˌrɛstəˈreɪʃən/"
+    },
+    {
+      "lemma": "legend",
+      "pos": "noun",
+      "meaning": "An old story about famous people or events that may not be true.",
+      "examples": [
+        "According to {legend}, a giant built the bridge."
+      ],
+      "wrong": [
+        "The legend is a news report about what happened today."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "myth",
+        "tale"
+      ],
+      "ipa": "/ˈlɛdʒənd/"
+    },
+    {
+      "lemma": "tribe",
+      "pos": "noun",
+      "meaning": "A group of families with the same language and customs.",
+      "examples": [
+        "The {tribe} has lived in the valley for centuries."
+      ],
+      "wrong": [
+        "The tribe was one person who lived alone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "clan"
+      ],
+      "ipa": "/traɪb/"
+    },
+    {
+      "lemma": "peasant",
+      "pos": "noun",
+      "meaning": "In the past, a poor farmer who worked on the land.",
+      "examples": [
+        "Most {peasants} worked on land owned by a lord."
+      ],
+      "wrong": [
+        "The peasant was the richest lord in the kingdom."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "farmer"
+      ],
+      "ipa": "/ˈpɛzənt/"
+    },
+    {
+      "lemma": "knight",
+      "pos": "noun",
+      "meaning": "In the Middle Ages, a soldier of high rank who fought on a horse.",
+      "examples": [
+        "The {knight} rode into battle in shining armor."
+      ],
+      "wrong": [
+        "The knight had never ridden a horse or held a sword."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/naɪt/"
+    },
+    {
+      "lemma": "historic",
+      "pos": "adjective",
+      "meaning": "Important in history, or famous because of the past.",
+      "examples": [
+        "The moon landing was a {historic} moment."
+      ],
+      "wrong": [
+        "It was a historic day that nobody will remember."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "momentous",
+        "landmark"
+      ],
+      "ipa": "/hɪˈstɔrɪk/"
+    },
+    {
+      "lemma": "pass down",
+      "pos": "verb",
+      "meaning": "To give knowledge or objects to younger people in a family.",
+      "examples": [
+        "The recipe was {passed down} from my great-grandmother."
+      ],
+      "wrong": [
+        "The stories were passed down from children to their great-grandparents."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "hand down"
+      ],
+      "ipa": "/pæs daʊn/"
+    }
+  ]
+}

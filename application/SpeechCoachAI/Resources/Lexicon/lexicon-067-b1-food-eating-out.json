@@ -1,0 +1,704 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-food-eating-out",
+    "title": "Food and eating out",
+    "level": "B1",
+    "tagline": "Cooking, tastes and restaurants",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "flavor",
+      "pos": "noun",
+      "meaning": "The particular taste of a food or drink.",
+      "examples": [
+        "This ice cream comes in three {flavors}."
+      ],
+      "wrong": [
+        "The soup has a strong flavor, so it tastes of nothing."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "taste"
+      ],
+      "ipa": "/ˈfleɪvɚ/"
+    },
+    {
+      "lemma": "savory",
+      "pos": "adjective",
+      "meaning": "Salty or spicy, not sweet.",
+      "examples": [
+        "I prefer {savory} snacks like chips to candy."
+      ],
+      "wrong": [
+        "Chocolate cake is my favorite savory dish."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "salty"
+      ],
+      "ipa": "/ˈseɪvəri/",
+      "antonyms": [
+        "sweet"
+      ]
+    },
+    {
+      "lemma": "sugary",
+      "pos": "adjective",
+      "meaning": "Containing a lot of sugar.",
+      "examples": [
+        "Try not to drink too many {sugary} drinks."
+      ],
+      "wrong": [
+        "This sugary cereal has no sugar in it at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "sweet"
+      ],
+      "ipa": "/ˈʃʊɡəri/"
+    },
+    {
+      "lemma": "crispy",
+      "pos": "adjective",
+      "meaning": "Hard and dry in a nice way, so it breaks easily when you bite it.",
+      "examples": [
+        "I love {crispy} fried chicken."
+      ],
+      "wrong": [
+        "The crispy toast was soft and wet."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "crunchy"
+      ],
+      "ipa": "/ˈkrɪspi/"
+    },
+    {
+      "lemma": "juicy",
+      "pos": "adjective",
+      "meaning": "Full of juice and pleasant to eat.",
+      "examples": [
+        "These oranges are sweet and {juicy}."
+      ],
+      "wrong": [
+        "The juicy peach was dry and hard as wood."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "succulent"
+      ],
+      "ipa": "/ˈdʒusi/",
+      "antonyms": [
+        "dry"
+      ]
+    },
+    {
+      "lemma": "roast",
+      "pos": "verb",
+      "meaning": "To cook meat or vegetables in an oven or over a fire.",
+      "examples": [
+        "We {roasted} a chicken for Sunday lunch."
+      ],
+      "wrong": [
+        "She roasted the vegetables by putting them in the freezer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/roʊst/"
+    },
+    {
+      "lemma": "grill",
+      "pos": "verb",
+      "meaning": "To cook food over or under strong direct heat.",
+      "examples": [
+        "Dad {grilled} burgers in the backyard."
+      ],
+      "wrong": [
+        "He grilled the fish by keeping it in cold water."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "barbecue",
+        "broil"
+      ],
+      "ipa": "/ɡrɪl/"
+    },
+    {
+      "lemma": "chop",
+      "pos": "verb",
+      "meaning": "To cut food into small pieces with a knife.",
+      "examples": [
+        "{Chop} the onions into small pieces."
+      ],
+      "wrong": [
+        "She chopped the carrots by leaving them whole."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cut",
+        "dice"
+      ],
+      "ipa": "/tʃɑp/"
+    },
+    {
+      "lemma": "peel",
+      "pos": "verb",
+      "meaning": "To take the skin off fruit or vegetables.",
+      "examples": [
+        "{Peel} the potatoes before you boil them."
+      ],
+      "wrong": [
+        "I peeled the banana and ate the skin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "skin"
+      ],
+      "ipa": "/pil/"
+    },
+    {
+      "lemma": "stir",
+      "pos": "verb",
+      "meaning": "To move a spoon around in a liquid to mix it.",
+      "examples": [
+        "{Stir} the sauce so it doesn’t burn."
+      ],
+      "wrong": [
+        "He stirred his coffee by leaving the spoon on the table."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mix"
+      ],
+      "ipa": "/stɝ/"
+    },
+    {
+      "lemma": "grate",
+      "pos": "verb",
+      "meaning": "To rub food against a tool with small holes to cut it into thin strips.",
+      "examples": [
+        "{Grate} some cheese over the pasta."
+      ],
+      "wrong": [
+        "She grated the cheese into one big block."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "shred"
+      ],
+      "ipa": "/ɡreɪt/"
+    },
+    {
+      "lemma": "portion",
+      "pos": "noun",
+      "meaning": "An amount of food for one person.",
+      "examples": [
+        "The {portions} at this restaurant are huge."
+      ],
+      "wrong": [
+        "A portion is the whole pot of food for everyone."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "serving",
+        "helping"
+      ],
+      "ipa": "/ˈpɔrʃən/"
+    },
+    {
+      "lemma": "appetizer",
+      "pos": "noun",
+      "meaning": "A small dish eaten before the main part of a meal.",
+      "examples": [
+        "We shared some soup as an {appetizer}."
+      ],
+      "wrong": [
+        "We ordered an appetizer to finish the meal after dessert."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "starter"
+      ],
+      "ipa": "/ˈæpəˌtaɪzɚ/"
+    },
+    {
+      "lemma": "main course",
+      "pos": "noun",
+      "meaning": "The biggest and most important dish of a meal.",
+      "examples": [
+        "For the {main course} I had steak and fries."
+      ],
+      "wrong": [
+        "The main course is the small sweet dish at the end of the meal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "entrée"
+      ],
+      "ipa": "/ˈmeɪn ˈkɔrs/"
+    },
+    {
+      "lemma": "side dish",
+      "pos": "noun",
+      "meaning": "A small amount of food served with the main dish.",
+      "examples": [
+        "The steak comes with a {side dish} of salad."
+      ],
+      "wrong": [
+        "A side dish is the biggest plate of the meal."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "side"
+      ],
+      "ipa": "/ˈsaɪd ˌdɪʃ/"
+    },
+    {
+      "lemma": "mouthwatering",
+      "pos": "adjective",
+      "meaning": "Looking or smelling so good that you want to eat it.",
+      "examples": [
+        "The bakery is full of {mouthwatering} cakes."
+      ],
+      "wrong": [
+        "The mouthwatering food looked so bad that nobody wanted to try it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "appetizing",
+        "delicious"
+      ],
+      "ipa": "/ˈmaʊθˌwɔtɚɪŋ/"
+    },
+    {
+      "lemma": "chef",
+      "pos": "noun",
+      "meaning": "A skilled cook, especially the main cook in a restaurant.",
+      "examples": [
+        "The {chef} cooks all the meals himself."
+      ],
+      "wrong": [
+        "The chef works in the restaurant but never goes into the kitchen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cook"
+      ],
+      "ipa": "/ʃɛf/"
+    },
+    {
+      "lemma": "book a table",
+      "pos": "phrase",
+      "meaning": "To arrange in advance to eat at a restaurant at a certain time.",
+      "examples": [
+        "I’ll call the restaurant to {book a table} for eight o’clock."
+      ],
+      "wrong": [
+        "We booked a table, so we just turned up without calling."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "make a reservation"
+      ],
+      "ipa": "/ˈbʊk ə ˈteɪbəl/"
+    },
+    {
+      "lemma": "takeout",
+      "pos": "noun",
+      "meaning": "Cooked food you buy at a restaurant to eat somewhere else.",
+      "examples": [
+        "Let’s get Chinese {takeout} tonight."
+      ],
+      "wrong": [
+        "We had takeout, so we sat in the restaurant to eat it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "carryout"
+      ],
+      "ipa": "/ˈteɪkˌaʊt/"
+    },
+    {
+      "lemma": "vegan",
+      "pos": "noun",
+      "meaning": "A person who does not eat or use anything that comes from animals.",
+      "examples": [
+        "As a {vegan}, she doesn’t drink milk or eat eggs."
+      ],
+      "wrong": [
+        "He’s a vegan, so he eats steak and cheese every day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈviɡən/"
+    },
+    {
+      "lemma": "dairy",
+      "pos": "noun",
+      "meaning": "Milk and foods made from milk, such as cheese and yogurt.",
+      "examples": [
+        "I can’t eat {dairy}, so no cheese for me."
+      ],
+      "wrong": [
+        "Dairy foods like bread and rice are made from milk."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈdɛri/"
+    },
+    {
+      "lemma": "seafood",
+      "pos": "noun",
+      "meaning": "Fish and shellfish from the sea that people eat.",
+      "examples": [
+        "This town is famous for its fresh {seafood}."
+      ],
+      "wrong": [
+        "Chicken and beef are my favorite kinds of seafood."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsiˌfud/"
+    },
+    {
+      "lemma": "poultry",
+      "pos": "noun",
+      "meaning": "Birds such as chickens and ducks kept for meat and eggs, or their meat.",
+      "examples": [
+        "The shop sells meat, {poultry} and fish."
+      ],
+      "wrong": [
+        "Poultry is meat that comes from pigs and cows."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpoʊltri/"
+    },
+    {
+      "lemma": "leftovers",
+      "pos": "noun",
+      "meaning": "Food that is not eaten during a meal and is kept for later.",
+      "examples": [
+        "We had the {leftovers} from dinner for lunch the next day."
+      ],
+      "wrong": [
+        "There were no leftovers, so we put the rest in the fridge."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈlɛftˌoʊvɚz/"
+    },
+    {
+      "lemma": "homemade",
+      "pos": "adjective",
+      "meaning": "Made at home, not bought in a shop.",
+      "examples": [
+        "Nothing beats {homemade} bread."
+      ],
+      "wrong": [
+        "This homemade jam was made in a big factory."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌhoʊmˈmeɪd/",
+      "antonyms": [
+        "store-bought"
+      ]
+    },
+    {
+      "lemma": "tasty",
+      "pos": "adjective",
+      "meaning": "Having a good, strong flavor.",
+      "examples": [
+        "The soup was hot and {tasty}."
+      ],
+      "wrong": [
+        "The meal was so tasty that nobody wanted to eat it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "delicious",
+        "yummy"
+      ],
+      "ipa": "/ˈteɪsti/",
+      "antonyms": [
+        "bland",
+        "tasteless"
+      ]
+    },
+    {
+      "lemma": "appetite",
+      "pos": "noun",
+      "meaning": "The feeling that you want to eat food.",
+      "examples": [
+        "Swimming always gives me a big {appetite}."
+      ],
+      "wrong": [
+        "She had a huge appetite, so she didn’t want to eat."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hunger"
+      ],
+      "ipa": "/ˈæpəˌtaɪt/"
+    },
+    {
+      "lemma": "starving",
+      "pos": "adjective",
+      "meaning": "Very hungry.",
+      "examples": [
+        "I’m {starving}, let’s eat now."
+      ],
+      "wrong": [
+        "I’m starving, so I’ll skip lunch."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "famished"
+      ],
+      "ipa": "/ˈstɑrvɪŋ/"
+    },
+    {
+      "lemma": "sprinkle",
+      "pos": "verb",
+      "meaning": "To drop small amounts of something over a surface.",
+      "examples": [
+        "{Sprinkle} some sugar on top of the cake."
+      ],
+      "wrong": [
+        "She sprinkled the salt by pouring the whole bag into one spot."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "scatter",
+        "dust"
+      ],
+      "ipa": "/ˈsprɪŋkəl/"
+    },
+    {
+      "lemma": "buffet",
+      "pos": "noun",
+      "meaning": "A meal where you serve yourself from many dishes on a table.",
+      "examples": [
+        "The hotel breakfast is a {buffet}."
+      ],
+      "wrong": [
+        "At the buffet, a waiter brings each dish to your table."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/bəˈfeɪ/"
+    },
+    {
+      "lemma": "napkin",
+      "pos": "noun",
+      "meaning": "A piece of cloth or paper for wiping your mouth and hands at a meal.",
+      "examples": [
+        "He wiped his mouth with a {napkin}."
+      ],
+      "wrong": [
+        "She ate her soup with a napkin instead of a spoon."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "serviette"
+      ],
+      "ipa": "/ˈnæpkɪn/"
+    },
+    {
+      "lemma": "frozen",
+      "pos": "adjective",
+      "meaning": "Kept very cold so that it becomes hard and stays fresh.",
+      "examples": [
+        "We bought some {frozen} peas."
+      ],
+      "wrong": [
+        "The frozen pizza was warm and soft when it came out of the freezer."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfroʊzən/",
+      "antonyms": [
+        "fresh",
+        "thawed"
+      ]
+    },
+    {
+      "lemma": "stale",
+      "pos": "adjective",
+      "meaning": "No longer fresh, and often hard and dry.",
+      "examples": [
+        "The bread was {stale}, so we fed it to the birds."
+      ],
+      "wrong": [
+        "This stale bread was baked five minutes ago."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "old",
+        "dry"
+      ],
+      "ipa": "/steɪl/",
+      "antonyms": [
+        "fresh"
+      ]
+    },
+    {
+      "lemma": "rotten",
+      "pos": "adjective",
+      "meaning": "Gone bad and soft so it cannot be eaten.",
+      "examples": [
+        "Throw away the {rotten} apples."
+      ],
+      "wrong": [
+        "These rotten eggs are fresh and perfect to eat."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "bad",
+        "spoiled",
+        "decayed"
+      ],
+      "ipa": "/ˈrɑtən/",
+      "antonyms": [
+        "fresh"
+      ]
+    },
+    {
+      "lemma": "overcooked",
+      "pos": "adjective",
+      "meaning": "Cooked for too long.",
+      "examples": [
+        "The pasta was {overcooked} and soft."
+      ],
+      "wrong": [
+        "The meat was overcooked, so it was still raw inside."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌoʊvɚˈkʊkt/",
+      "antonyms": [
+        "undercooked"
+      ]
+    },
+    {
+      "lemma": "well-done",
+      "pos": "adjective",
+      "meaning": "Of meat, cooked all the way through.",
+      "examples": [
+        "I like my steak {well-done}, with no pink inside."
+      ],
+      "wrong": [
+        "His well-done steak was red and raw in the middle."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌwɛlˈdʌn/",
+      "antonyms": [
+        "rare"
+      ]
+    },
+    {
+      "lemma": "eat out",
+      "pos": "verb",
+      "meaning": "To have a meal in a restaurant rather than at home.",
+      "examples": [
+        "We {eat out} every Friday night."
+      ],
+      "wrong": [
+        "We ate out by cooking dinner in our own kitchen."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "dine out"
+      ],
+      "ipa": "/it ˈaʊt/"
+    },
+    {
+      "lemma": "help yourself",
+      "pos": "phrase",
+      "meaning": "A polite way of telling a guest to take some food or drink freely.",
+      "examples": [
+        "There’s plenty of cake, so please {help yourself}."
+      ],
+      "wrong": [
+        "Help yourself to the cake, but don’t take any."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈhɛlp jɚˈsɛlf/"
+    },
+    {
+      "lemma": "greasy",
+      "pos": "adjective",
+      "meaning": "Covered in or full of oil or fat.",
+      "examples": [
+        "The fries were too {greasy} for me."
+      ],
+      "wrong": [
+        "The greasy food had no oil or fat in it at all."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "oily",
+        "fatty"
+      ],
+      "ipa": "/ˈɡrisi/",
+      "antonyms": [
+        "lean"
+      ]
+    },
+    {
+      "lemma": "tender",
+      "pos": "adjective",
+      "meaning": "Of meat, soft and easy to cut and chew.",
+      "examples": [
+        "The beef was so {tender} it melted in my mouth."
+      ],
+      "wrong": [
+        "The tender steak was so tough that I couldn’t cut it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "soft"
+      ],
+      "ipa": "/ˈtɛndɚ/",
+      "antonyms": [
+        "tough"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,977 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-rare-adjectives",
+    "title": "Rare describing words",
+    "level": "C2",
+    "tagline": "Exact words for people and things",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "abstruse",
+      "pos": "adjective",
+      "meaning": "Very difficult to understand.",
+      "examples": [
+        "The lecture was too {abstruse} for most students."
+      ],
+      "wrong": [
+        "The text was abstruse, so a child understood it at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obscure",
+        "recondite",
+        "arcane",
+        "esoteric"
+      ],
+      "ipa": "/æbˈstrus/",
+      "antonyms": [
+        "clear",
+        "simple"
+      ]
+    },
+    {
+      "lemma": "acerbic",
+      "pos": "adjective",
+      "meaning": "Sharp and critical in a clever way.",
+      "examples": [
+        "She is known for her {acerbic} wit."
+      ],
+      "wrong": [
+        "His acerbic comments were gentle and sweet."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "caustic",
+        "biting"
+      ],
+      "ipa": "/əˈsɝbɪk/"
+    },
+    {
+      "lemma": "affable",
+      "pos": "adjective",
+      "meaning": "Friendly and easy to talk to.",
+      "examples": [
+        "Our {affable} host made us feel welcome."
+      ],
+      "wrong": [
+        "He is affable, so nobody wants to talk to him."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "amiable",
+        "genial"
+      ],
+      "ipa": "/ˈæfəbəl/",
+      "antonyms": [
+        "unfriendly",
+        "surly"
+      ]
+    },
+    {
+      "lemma": "anachronistic",
+      "pos": "adjective",
+      "meaning": "Belonging to another time and out of place now.",
+      "examples": [
+        "The rule seems {anachronistic} today."
+      ],
+      "wrong": [
+        "The design is anachronistic, so it fits the present perfectly."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "outdated",
+        "dated"
+      ],
+      "ipa": "/əˌnækrəˈnɪstɪk/"
+    },
+    {
+      "lemma": "arcane",
+      "pos": "adjective",
+      "meaning": "Known or understood by very few people.",
+      "examples": [
+        "The law is full of {arcane} rules."
+      ],
+      "wrong": [
+        "The rules are arcane, so everyone knows them well."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obscure",
+        "esoteric"
+      ],
+      "ipa": "/ɑrˈkeɪn/",
+      "antonyms": [
+        "common",
+        "well-known"
+      ]
+    },
+    {
+      "lemma": "astute",
+      "pos": "adjective",
+      "meaning": "Clever at understanding situations and people.",
+      "examples": [
+        "She made an {astute} business decision."
+      ],
+      "wrong": [
+        "It was an astute move, so it showed poor judgment."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "shrewd",
+        "perceptive"
+      ],
+      "ipa": "/əˈstut/",
+      "antonyms": [
+        "naive",
+        "obtuse"
+      ]
+    },
+    {
+      "lemma": "audacious",
+      "pos": "adjective",
+      "meaning": "Willing to take bold risks.",
+      "examples": [
+        "It was an {audacious} plan."
+      ],
+      "wrong": [
+        "The plan was audacious, so it was timid and safe."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "bold",
+        "daring"
+      ],
+      "ipa": "/ɔˈdeɪʃəs/",
+      "antonyms": [
+        "timid",
+        "cautious"
+      ]
+    },
+    {
+      "lemma": "banal",
+      "pos": "adjective",
+      "meaning": "Boring because it is so ordinary.",
+      "examples": [
+        "The dialogue was {banal}."
+      ],
+      "wrong": [
+        "The film was banal, so it was fresh and surprising."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "trite",
+        "commonplace"
+      ],
+      "ipa": "/bəˈnæl/",
+      "antonyms": [
+        "original",
+        "fresh"
+      ]
+    },
+    {
+      "lemma": "bellicose",
+      "pos": "adjective",
+      "meaning": "Eager to fight or argue.",
+      "examples": [
+        "The leader made {bellicose} speeches."
+      ],
+      "wrong": [
+        "His bellicose tone was calm and peaceful."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "belligerent",
+        "aggressive"
+      ],
+      "ipa": "/ˈbɛlɪˌkoʊs/",
+      "antonyms": [
+        "peaceful",
+        "peaceable"
+      ]
+    },
+    {
+      "lemma": "brusque",
+      "pos": "adjective",
+      "meaning": "Short and rude in speech or manner.",
+      "examples": [
+        "The clerk gave a {brusque} reply."
+      ],
+      "wrong": [
+        "Her brusque answer was warm and long."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "curt",
+        "abrupt"
+      ],
+      "ipa": "/brʌsk/",
+      "antonyms": [
+        "polite",
+        "courteous"
+      ]
+    },
+    {
+      "lemma": "capricious",
+      "pos": "adjective",
+      "meaning": "Changing mood or behavior suddenly and without reason.",
+      "examples": [
+        "The weather here is {capricious}."
+      ],
+      "wrong": [
+        "He is capricious, so he is always predictable."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fickle",
+        "unpredictable"
+      ],
+      "ipa": "/kəˈprɪʃəs/",
+      "antonyms": [
+        "steady",
+        "predictable"
+      ]
+    },
+    {
+      "lemma": "circumspect",
+      "pos": "adjective",
+      "meaning": "Careful to consider all risks before acting.",
+      "examples": [
+        "Be {circumspect} about what you post online."
+      ],
+      "wrong": [
+        "She was circumspect, so she acted without thinking."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cautious",
+        "wary"
+      ],
+      "ipa": "/ˈsɝkəmˌspɛkt/",
+      "antonyms": [
+        "reckless",
+        "rash"
+      ]
+    },
+    {
+      "lemma": "convoluted",
+      "pos": "adjective",
+      "meaning": "Very complicated and hard to follow.",
+      "examples": [
+        "The plot is too {convoluted}."
+      ],
+      "wrong": [
+        "The instructions were convoluted, so they were simple to follow."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "complicated",
+        "tortuous"
+      ],
+      "ipa": "/ˈkɑnvəˌlutɪd/",
+      "antonyms": [
+        "simple",
+        "straightforward"
+      ]
+    },
+    {
+      "lemma": "copious",
+      "pos": "adjective",
+      "meaning": "In large amounts.",
+      "examples": [
+        "She took {copious} notes."
+      ],
+      "wrong": [
+        "He took copious notes: just one word."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "abundant",
+        "plentiful"
+      ],
+      "ipa": "/ˈkoʊpiəs/",
+      "antonyms": [
+        "scarce",
+        "meager"
+      ]
+    },
+    {
+      "lemma": "cursory",
+      "pos": "adjective",
+      "meaning": "Done quickly and without attention to detail.",
+      "examples": [
+        "He gave the report a {cursory} glance."
+      ],
+      "wrong": [
+        "She made a cursory check, studying every line for hours."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "hasty",
+        "superficial"
+      ],
+      "ipa": "/ˈkɝsəri/",
+      "antonyms": [
+        "thorough",
+        "careful"
+      ]
+    },
+    {
+      "lemma": "deleterious",
+      "pos": "adjective",
+      "meaning": "Causing harm.",
+      "examples": [
+        "Smoking has {deleterious} effects on health."
+      ],
+      "wrong": [
+        "The drug had deleterious effects, so patients got much better."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harmful",
+        "damaging",
+        "pernicious"
+      ],
+      "ipa": "/ˌdɛlɪˈtɪriəs/",
+      "antonyms": [
+        "beneficial",
+        "harmless"
+      ]
+    },
+    {
+      "lemma": "didactic",
+      "pos": "adjective",
+      "meaning": "Meant to teach, often in a preachy way.",
+      "examples": [
+        "The film is too {didactic} to be fun."
+      ],
+      "wrong": [
+        "The book is didactic, so it teaches nothing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "instructive",
+        "preachy"
+      ],
+      "ipa": "/daɪˈdæktɪk/"
+    },
+    {
+      "lemma": "diffident",
+      "pos": "adjective",
+      "meaning": "Shy and lacking confidence.",
+      "examples": [
+        "He gave a {diffident} smile."
+      ],
+      "wrong": [
+        "She is diffident, so she speaks with great confidence."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "shy",
+        "timid"
+      ],
+      "ipa": "/ˈdɪfɪdənt/",
+      "antonyms": [
+        "confident",
+        "self-assured"
+      ]
+    },
+    {
+      "lemma": "disingenuous",
+      "pos": "adjective",
+      "meaning": "Not sincere; pretending to know less than you do.",
+      "examples": [
+        "It’s {disingenuous} to claim you didn’t know."
+      ],
+      "wrong": [
+        "His answer was disingenuous, so it was completely honest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "insincere",
+        "deceitful"
+      ],
+      "ipa": "/ˌdɪsɪnˈdʒɛnjuəs/",
+      "antonyms": [
+        "sincere",
+        "candid"
+      ]
+    },
+    {
+      "lemma": "egregious",
+      "pos": "adjective",
+      "meaning": "Extremely bad and obvious.",
+      "examples": [
+        "It was an {egregious} error."
+      ],
+      "wrong": [
+        "The error was egregious, so nobody noticed it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "flagrant",
+        "glaring"
+      ],
+      "ipa": "/ɪˈɡridʒəs/"
+    },
+    {
+      "lemma": "erudite",
+      "pos": "adjective",
+      "meaning": "Having great knowledge from study.",
+      "examples": [
+        "She gave an {erudite} lecture."
+      ],
+      "wrong": [
+        "He is erudite, so he has read almost nothing."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "learned",
+        "scholarly"
+      ],
+      "ipa": "/ˈɛrjəˌdaɪt/",
+      "antonyms": [
+        "ignorant",
+        "uneducated"
+      ]
+    },
+    {
+      "lemma": "esoteric",
+      "pos": "adjective",
+      "meaning": "Understood by only a small group with special knowledge.",
+      "examples": [
+        "He collects {esoteric} jazz records."
+      ],
+      "wrong": [
+        "It’s an esoteric topic, so everyone knows about it."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "obscure",
+        "arcane"
+      ],
+      "ipa": "/ˌɛsəˈtɛrɪk/"
+    },
+    {
+      "lemma": "extraneous",
+      "pos": "adjective",
+      "meaning": "Not relevant or necessary.",
+      "examples": [
+        "Remove any {extraneous} details."
+      ],
+      "wrong": [
+        "The detail is extraneous, so it is essential."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "irrelevant",
+        "superfluous"
+      ],
+      "ipa": "/ɪkˈstreɪniəs/",
+      "antonyms": [
+        "relevant",
+        "essential"
+      ]
+    },
+    {
+      "lemma": "facetious",
+      "pos": "adjective",
+      "meaning": "Joking at a time when you should be serious.",
+      "examples": [
+        "Stop being {facetious}; this is serious."
+      ],
+      "wrong": [
+        "He made a facetious remark, totally serious in tone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "flippant",
+        "glib"
+      ],
+      "ipa": "/fəˈsiʃəs/",
+      "antonyms": [
+        "serious",
+        "earnest"
+      ]
+    },
+    {
+      "lemma": "fallible",
+      "pos": "adjective",
+      "meaning": "Able to make mistakes.",
+      "examples": [
+        "All people are {fallible}."
+      ],
+      "wrong": [
+        "Humans are fallible, so they never make mistakes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "imperfect"
+      ],
+      "ipa": "/ˈfæləbəl/",
+      "antonyms": [
+        "infallible"
+      ]
+    },
+    {
+      "lemma": "garrulous",
+      "pos": "adjective",
+      "meaning": "Talking too much about unimportant things.",
+      "examples": [
+        "Our {garrulous} driver talked for the whole trip."
+      ],
+      "wrong": [
+        "He is garrulous, so he hardly speaks."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "talkative",
+        "loquacious"
+      ],
+      "ipa": "/ˈɡærələs/",
+      "antonyms": [
+        "taciturn",
+        "quiet"
+      ]
+    },
+    {
+      "lemma": "gregarious",
+      "pos": "adjective",
+      "meaning": "Enjoying the company of others.",
+      "examples": [
+        "She is {gregarious} and loves parties."
+      ],
+      "wrong": [
+        "He is gregarious, so he prefers to be alone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sociable",
+        "outgoing"
+      ],
+      "ipa": "/ɡrɪˈɡɛriəs/",
+      "antonyms": [
+        "unsociable",
+        "introverted"
+      ]
+    },
+    {
+      "lemma": "idiosyncratic",
+      "pos": "adjective",
+      "meaning": "Peculiar to one person; unusual.",
+      "examples": [
+        "He has an {idiosyncratic} style of writing."
+      ],
+      "wrong": [
+        "Her style is idiosyncratic, so it is just like everyone else’s."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "distinctive",
+        "quirky"
+      ],
+      "ipa": "/ˌɪdioʊsɪŋˈkrætɪk/"
+    },
+    {
+      "lemma": "impervious",
+      "pos": "adjective",
+      "meaning": "Not affected by something.",
+      "examples": [
+        "She seemed {impervious} to criticism."
+      ],
+      "wrong": [
+        "He is impervious to praise, so it changes him deeply."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "immune",
+        "resistant"
+      ],
+      "ipa": "/ɪmˈpɝviəs/",
+      "antonyms": [
+        "susceptible",
+        "vulnerable"
+      ]
+    },
+    {
+      "lemma": "incessant",
+      "pos": "adjective",
+      "meaning": "Never stopping.",
+      "examples": [
+        "The {incessant} noise kept us awake."
+      ],
+      "wrong": [
+        "The noise was incessant, so it stopped every few seconds."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "constant",
+        "ceaseless"
+      ],
+      "ipa": "/ɪnˈsɛsənt/",
+      "antonyms": [
+        "intermittent",
+        "occasional"
+      ]
+    },
+    {
+      "lemma": "innocuous",
+      "pos": "adjective",
+      "meaning": "Harmless; not likely to offend.",
+      "examples": [
+        "It was an {innocuous} question."
+      ],
+      "wrong": [
+        "The comment was innocuous, so it caused great offense."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harmless",
+        "inoffensive"
+      ],
+      "ipa": "/ɪˈnɑkjuəs/",
+      "antonyms": [
+        "harmful",
+        "offensive"
+      ]
+    },
+    {
+      "lemma": "intransigent",
+      "pos": "adjective",
+      "meaning": "Refusing to change your views.",
+      "examples": [
+        "Both sides remained {intransigent}."
+      ],
+      "wrong": [
+        "They were intransigent, so they compromised at once."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "uncompromising",
+        "obstinate"
+      ],
+      "ipa": "/ɪnˈtrænsɪdʒənt/",
+      "antonyms": [
+        "flexible",
+        "compromising"
+      ]
+    },
+    {
+      "lemma": "irreverent",
+      "pos": "adjective",
+      "meaning": "Not showing respect for things usually taken seriously.",
+      "examples": [
+        "The show has an {irreverent} sense of humor."
+      ],
+      "wrong": [
+        "His humor was irreverent, so it was deeply respectful."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "disrespectful",
+        "cheeky"
+      ],
+      "ipa": "/ɪˈrɛvərənt/",
+      "antonyms": [
+        "reverent",
+        "respectful"
+      ]
+    },
+    {
+      "lemma": "judicious",
+      "pos": "adjective",
+      "meaning": "Showing good judgment.",
+      "examples": [
+        "Make {judicious} use of your time."
+      ],
+      "wrong": [
+        "It was a judicious choice, so it was foolish."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "wise",
+        "prudent"
+      ],
+      "ipa": "/dʒuˈdɪʃəs/",
+      "antonyms": [
+        "unwise",
+        "rash"
+      ]
+    },
+    {
+      "lemma": "magnanimous",
+      "pos": "adjective",
+      "meaning": "Generous and forgiving, especially to an opponent.",
+      "examples": [
+        "She was {magnanimous} in victory."
+      ],
+      "wrong": [
+        "He was magnanimous, so he mocked the losers."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "generous",
+        "big-hearted"
+      ],
+      "ipa": "/mæɡˈnænɪməs/",
+      "antonyms": [
+        "petty",
+        "mean-spirited"
+      ]
+    },
+    {
+      "lemma": "mercurial",
+      "pos": "adjective",
+      "meaning": "Changing mood often and suddenly.",
+      "examples": [
+        "The singer has a {mercurial} temper."
+      ],
+      "wrong": [
+        "Her mood is mercurial, so it never changes."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "volatile",
+        "capricious"
+      ],
+      "ipa": "/mɚˈkjʊriəl/",
+      "antonyms": [
+        "stable",
+        "steady"
+      ]
+    },
+    {
+      "lemma": "myopic",
+      "pos": "adjective",
+      "meaning": "Not thinking about the future; short-sighted.",
+      "examples": [
+        "The policy is {myopic}."
+      ],
+      "wrong": [
+        "The plan is myopic, so it thinks far ahead."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "short-sighted"
+      ],
+      "ipa": "/maɪˈɑpɪk/",
+      "antonyms": [
+        "far-sighted",
+        "visionary"
+      ]
+    },
+    {
+      "lemma": "obsequious",
+      "pos": "adjective",
+      "meaning": "Too eager to please or obey.",
+      "examples": [
+        "The waiter was almost {obsequious}."
+      ],
+      "wrong": [
+        "He was obsequious, so he ignored every request."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "servile",
+        "sycophantic"
+      ],
+      "ipa": "/əbˈsikwiəs/"
+    },
+    {
+      "lemma": "onerous",
+      "pos": "adjective",
+      "meaning": "Involving a lot of effort or difficulty.",
+      "examples": [
+        "The paperwork is {onerous}."
+      ],
+      "wrong": [
+        "The task is onerous, so it takes no effort."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "burdensome",
+        "arduous"
+      ],
+      "ipa": "/ˈɑnərəs/",
+      "antonyms": [
+        "easy",
+        "light"
+      ]
+    },
+    {
+      "lemma": "perfunctory",
+      "pos": "adjective",
+      "meaning": "Done without care, only as a duty.",
+      "examples": [
+        "She gave a {perfunctory} nod."
+      ],
+      "wrong": [
+        "His perfunctory check took great care and many hours."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cursory",
+        "token"
+      ],
+      "ipa": "/pɚˈfʌŋktəri/",
+      "antonyms": [
+        "thorough",
+        "careful"
+      ]
+    },
+    {
+      "lemma": "pernicious",
+      "pos": "adjective",
+      "meaning": "Harmful in a gradual or hidden way.",
+      "examples": [
+        "Gossip can have a {pernicious} effect."
+      ],
+      "wrong": [
+        "The influence was pernicious, so it did a lot of good."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "harmful",
+        "insidious"
+      ],
+      "ipa": "/pɚˈnɪʃəs/",
+      "antonyms": [
+        "beneficial",
+        "harmless"
+      ]
+    },
+    {
+      "lemma": "prosaic",
+      "pos": "adjective",
+      "meaning": "Ordinary and lacking imagination.",
+      "examples": [
+        "The answer was more {prosaic} than we hoped."
+      ],
+      "wrong": [
+        "Her writing is prosaic, so it is full of vivid imagination."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "mundane",
+        "dull"
+      ],
+      "ipa": "/proʊˈzeɪɪk/",
+      "antonyms": [
+        "imaginative",
+        "exciting"
+      ]
+    },
+    {
+      "lemma": "reticent",
+      "pos": "adjective",
+      "meaning": "Not willing to talk about your feelings or plans.",
+      "examples": [
+        "He is {reticent} about his past."
+      ],
+      "wrong": [
+        "She is reticent, so she tells everyone everything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reserved",
+        "tight-lipped"
+      ],
+      "ipa": "/ˈrɛtɪsənt/",
+      "antonyms": [
+        "open",
+        "forthcoming"
+      ]
+    },
+    {
+      "lemma": "sanguine",
+      "pos": "adjective",
+      "meaning": "Hopeful and positive in a difficult situation.",
+      "examples": [
+        "She is {sanguine} about the company’s future."
+      ],
+      "wrong": [
+        "He is sanguine, so he expects disaster."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "optimistic",
+        "upbeat"
+      ],
+      "ipa": "/ˈsæŋɡwɪn/",
+      "antonyms": [
+        "pessimistic",
+        "gloomy"
+      ]
+    },
+    {
+      "lemma": "spurious",
+      "pos": "adjective",
+      "meaning": "False, though seeming real or logical.",
+      "examples": [
+        "The claim is based on {spurious} data."
+      ],
+      "wrong": [
+        "The argument is spurious, so it is completely sound."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "false",
+        "bogus"
+      ],
+      "ipa": "/ˈspjʊriəs/",
+      "antonyms": [
+        "genuine",
+        "valid"
+      ]
+    }
+  ]
+}

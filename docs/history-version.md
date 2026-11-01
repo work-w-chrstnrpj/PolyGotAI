@@ -100,9 +100,22 @@ An owner review on 2026-10-25, together with Claude's audit, found:
 - **Codex** is the implementing engineer: builds SwiftUI screens and wiring against Claude's interfaces, plus the UI tests.
 - Split and rules: [development plan](development-plan/development-plan.md).
 
+### 2026-10-26 — gold removed, Progress analytics (owner)
+
+Gold, the wallet and the Freeze/Repair purchases are removed; XP is kept as the only currency and now drives a level. Badges and milestones stay. Progress gains time-in-the-app analytics (visits of at least a minute; day timeline and day/week/month/year totals) and a milestones list. Implemented by Claude (Codex out of usage).
+
+### 2026-10-26 — rework after the owner's review (Phases 7–11)
+
+The owner judged the app a flop (poor design, v1 leftovers, a Lab that trains listening instead of speaking); Claude agreed. Rework plan: [review-and-rework-plan-2026-10-26.md](development-plan/review-and-rework-plan-2026-10-26.md). Decisions: "Level" = XP level and CEFR A1–C2 is shown as "Rank"; on-device voices only; free on-device pronunciation measures only; Lexicon rank filter ignores the course lock; one accent per theme; v1 surfaces and their data deleted; owner generates the missing coach art. Added: Erase all data behind Face ID / Touch ID. Speech Lab will be renamed Lab and cut to Talk, Pronunciation, Speaking, Spelling.
+
 ### Principles that replace v1 habits
 
 - A screen never explains what the app can't do. Unfinished features are hidden.
 - Exercises give instant right / almost / wrong feedback.
 - On-device speech recognition may show "We heard: …". It is never presented as a pronunciation score.
 - One plan file, short handoffs, evidence = test results + a few screenshots. No new ticket IDs.
+
+
+### 2026-11-01 — PolyGotAI name and speaking icon
+
+The owner renamed the app **PolyGotAI** and selected one cream speech bubble on teal with six centered waveform bars, the last gold (A1–C2). The native `Resources/PolyGotAI.icon` document has separate foreground layers and dark/tinted annotations. The display name and primary icon are connected in Debug/Release; sidebar and resource-screen references use the new name. The existing bundle identifier, Xcode target/scheme, storage and keychain identities stay compatible. This is a branding change; the English-learning scope and existing learner data are retained. [Branding source](../assets/branding/polygotai/README.md).

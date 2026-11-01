@@ -37,7 +37,7 @@ struct JumpTestView: View {
             }
         }
         .background(Kit.canvas(storage.preferences.background)).foregroundStyle(Kit.ink)
-        .navigationTitle("\(target) test").navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Rank \(target) test").navigationBarTitleDisplayMode(.inline)
         .toolbar(.hidden, for: .tabBar)
         .onDisappear(perform: stopAudio)
         .onChange(of: scenePhase) { _, phase in if phase != .active { stopAudio() } }
@@ -80,6 +80,7 @@ struct JumpTestView: View {
     private func play(_ path: String) {
         stopAudio()
         do {
+            SoundCenter.holdAudio("jumptest.clip")
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)
             try AVAudioSession.sharedInstance().setActive(true)
             clip = try AVAudioPlayer(contentsOf: Bundle.main.bundleURL.appendingPathComponent(path))
@@ -92,5 +93,6 @@ struct JumpTestView: View {
         guard clip != nil else { return }
         clip?.stop(); clip = nil
         try? AVAudioSession.sharedInstance().setActive(false, options: .notifyOthersOnDeactivation)
+        SoundCenter.releaseAudio("jumptest.clip")
     }
 }

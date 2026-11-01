@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in ImageGen",
+  "badge_count": 11,
+  "minimum_accuracy": 0.8,
+  "scope": "Every current lesson of the coach; best completed exact-version attempt per lesson, first-try checked-exercise score.",
+  "assets": [
+    {
+      "id": "AW-TK-07",
+      "coach": "grammarian",
+      "title": "Grammarian",
+      "subject": "Head-and-shoulders face portrait of the owl with round spectacles in a teal-and-cream completion shield.",
+      "filename": "aw-tk-07.png",
+      "file": "assets/awards/v1/masters/aw-tk-07.png",
+      "sha256": "0a3ad29c798952ec9ce42866be4ef569e5c40dffc48ee4f83bd42629ded7cf86",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachGrammarian.imageset/artwork.jpg",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-07.txt",
+      "generated_source": "exec-4c5c7b1a-d14c-40aa-be8f-2a622aa413fc.png"
+    },
+    {
+      "id": "AW-TK-08",
+      "coach": "pronunciation",
+      "title": "Pronunciation",
+      "subject": "Head-and-shoulders face portrait of the robin songbird with a warm coral breast and teal scarf in a teal-and-cream completion shield.",
+      "filename": "aw-tk-08.png",
+      "file": "assets/awards/v1/masters/aw-tk-08.png",
+      "sha256": "89fc9a3186ec430e00b9ee0c528958f8cb6448808c8316e51023d85dd62e77ff",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachPronunciation.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-08.txt",
+      "generated_source": "exec-b8d6c06c-a941-440c-a699-87a8b85038aa.png"
+    },
+    {
+      "id": "AW-TK-09",
+      "coach": "readingListening",
+      "title": "Reading & Listening",
+      "subject": "Head-and-shoulders face portrait of the friendly brown bear with small spectacles and an ochre bow tie in a teal-and-cream completion shield.",
+      "filename": "aw-tk-09.png",
+      "file": "assets/awards/v1/masters/aw-tk-09.png",
+      "sha256": "b22a7de35d479958788bf2670067fce08bb37cb81040deaeccfc38994d3cb23b",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachLibrarian.imageset/artwork.jpg",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-09.txt",
+      "generated_source": "exec-96d6cb9d-b7f8-4c3b-8d0b-37cf0e76d426.png"
+    },
+    {
+      "id": "AW-TK-10",
+      "coach": "debater",
+      "title": "Debater & Argument",
+      "subject": "Head-and-shoulders face portrait of the grey wolf in a navy waistcoat in a teal-and-cream completion shield.",
+      "filename": "aw-tk-10.png",
+      "file": "assets/awards/v1/masters/aw-tk-10.png",
+      "sha256": "9709f456b1d923360f410cc9763976f30fb187a9aef529621ce0b2b51b2fe991",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachDebater.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-10.txt",
+      "generated_source": "exec-f632143c-8aaf-415c-9920-59213b2f1840.png"
+    },
+    {
+      "id": "AW-TK-11",
+      "coach": "negotiator",
+      "title": "Persuasion & Negotiation",
+      "subject": "Head-and-shoulders face portrait of the penguin with a teal bow tie in a teal-and-cream completion shield.",
+      "filename": "aw-tk-11.png",
+      "file": "assets/awards/v1/masters/aw-tk-11.png",
+      "sha256": "5629f9e3b84e7790f10e17d8c064a2164a1d946badfd44a93de0cf350203c903",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachNegotiator.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-11.txt",
+      "generated_source": "exec-091eff3a-c458-474f-87c8-c9f69a5474ba.png"
+    },
+    {
+      "id": "AW-TK-12",
+      "coach": "publicSpeaker",
+      "title": "Public Speaking & Rhetoric",
+      "subject": "Head-and-shoulders face portrait of the green parrot with coral wing accents in a teal-and-cream completion shield.",
+      "filename": "aw-tk-12.png",
+      "file": "assets/awards/v1/masters/aw-tk-12.png",
+      "sha256": "eb9945d1ae877ad7e68230a2de9334f7ed6ae4e60c9ec5198da5138a4489c970",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachSpeaker.imageset/artwork.jpg",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-12.txt",
+      "generated_source": "exec-a277352e-fcda-4520-832d-1c6bec534cbb.png"
+    },
+    {
+      "id": "AW-TK-13",
+      "coach": "journalist",
+      "title": "Journalist",
+      "subject": "Head-and-shoulders face portrait of the orange fox with navy scarf in a teal-and-cream completion shield.",
+      "filename": "aw-tk-13.png",
+      "file": "assets/awards/v1/masters/aw-tk-13.png",
+      "sha256": "6ff11588b0ec92f30f127c106ebad63888f74c22707d528097f87b970707b982",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachJournalist.imageset/artwork.jpg",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-13.txt",
+      "generated_source": "exec-12978a89-ccf2-472a-a04c-a22657bbbf6b.png"
+    },
+    {
+      "id": "AW-TK-14",
+      "coach": "creativeWriter",
+      "title": "Creative Writing",
+      "subject": "Head-and-shoulders face portrait of the tabby cat with round glasses and a mustard cardigan in a teal-and-cream completion shield.",
+      "filename": "aw-tk-14.png",
+      "file": "assets/awards/v1/masters/aw-tk-14.png",
+      "sha256": "bf2918378317651e7abc2fe231756d28fe08b570561feb77fe837a33fa7a536c",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachCreativeWriter.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-14.txt",
+      "generated_source": "exec-db35ee6e-e239-4726-87f7-5b5b752372e3.png"
+    },
+    {
+      "id": "AW-TK-15",
+      "coach": "business",
+      "title": "Business & Professional",
+      "subject": "Head-and-shoulders face portrait of the tiger in a teal business suit in a teal-and-cream completion shield.",
+      "filename": "aw-tk-15.png",
+      "file": "assets/awards/v1/masters/aw-tk-15.png",
+      "sha256": "2348cf29604a38c1e20c734a10c318e56174d1a8d659b58fe7ecce55812087f6",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachBusiness.imageset/artwork.jpg",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-15.txt",
+      "generated_source": "exec-bd430ba9-fc19-4299-97da-b3424a1dee69.png"
+    },
+    {
+      "id": "AW-TK-16",
+      "coach": "storyteller",
+      "title": "Storytelling",
+      "subject": "Head-and-shoulders face portrait of the hedgehog with a teal scarf in a teal-and-cream completion shield.",
+      "filename": "aw-tk-16.png",
+      "file": "assets/awards/v1/masters/aw-tk-16.png",
+      "sha256": "055fcc950c86b2f7cb455b47f714c9b5517771cce16d1fdb2c85c4ba9293424f",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachStoryteller.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-16.txt",
+      "generated_source": "exec-7e1b1c1c-b1c3-47e7-8402-e813028242ed.png"
+    },
+    {
+      "id": "AW-TK-17",
+      "coach": "copywriter",
+      "title": "Advertising & Copywriting",
+      "subject": "Head-and-shoulders face portrait of the magpie with a teal bow tie in a teal-and-cream completion shield.",
+      "filename": "aw-tk-17.png",
+      "file": "assets/awards/v1/masters/aw-tk-17.png",
+      "sha256": "10168c645f5c0558486525be1491c0ccc219a7d67dc3faef37b1004a25d48cfe",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "transparent_background": true,
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "coach_reference": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachCopywriter.imageset/artwork.png",
+      "badge_style_reference": "assets/awards/v1/masters/aw-p-03.png",
+      "prompt_file": "prompts/aw-tk-17.txt",
+      "generated_source": "exec-80c4ac25-f57d-4580-be34-e9a7274d2249.png"
+    }
+  ]
+}

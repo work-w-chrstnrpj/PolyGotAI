@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-careers",
+    "title": "Careers and the workplace",
+    "level": "B2",
+    "tagline": "Hiring, promotion and teamwork",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "applicant",
+      "pos": "noun",
+      "meaning": "A person who formally asks for a job or a place.",
+      "examples": [
+        "We had over 200 {applicants} for the job."
+      ],
+      "wrong": [
+        "The applicant never asked for the job at all."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "candidate"
+      ],
+      "ipa": "/ˈæplɪkənt/"
+    },
+    {
+      "lemma": "cover letter",
+      "pos": "noun",
+      "meaning": "A short letter you send with your resume explaining why you want the job.",
+      "examples": [
+        "Tailor your {cover letter} to each company."
+      ],
+      "wrong": [
+        "A cover letter is the envelope a bill comes in."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "application letter"
+      ],
+      "ipa": "/ˈkʌvɚ ˌlɛtɚ/"
+    },
+    {
+      "lemma": "shortlist",
+      "pos": "verb",
+      "meaning": "To choose a small number of the best people from all who applied.",
+      "examples": [
+        "Five candidates were {shortlisted} for interview."
+      ],
+      "wrong": [
+        "They shortlisted every single applicant, all three hundred of them."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈʃɔrtˌlɪst/"
+    },
+    {
+      "lemma": "perk",
+      "pos": "noun",
+      "meaning": "An extra benefit you get from your job, besides your pay.",
+      "examples": [
+        "Free lunch is one of the {perks} of working here."
+      ],
+      "wrong": [
+        "A perk is a fine you pay when you arrive late."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "synonyms": [
+        "benefit",
+        "extra"
+      ],
+      "ipa": "/pɝk/"
+    },
+    {
+      "lemma": "lay off",
+      "pos": "verb",
+      "meaning": "To stop employing workers because there is not enough work.",
+      "examples": [
+        "The factory {laid off} 300 workers."
+      ],
+      "wrong": [
+        "The company laid off staff by hiring hundreds more."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "let go",
+        "make redundant"
+      ],
+      "ipa": "/leɪ ˈɔf/",
+      "antonyms": [
+        "hire"
+      ]
+    },
+    {
+      "lemma": "redundancy",
+      "pos": "noun",
+      "meaning": "Losing your job because your employer no longer needs your position.",
+      "examples": [
+        "Over fifty staff face {redundancy} this year."
+      ],
+      "wrong": [
+        "Redundancy is a promotion to a better job."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "layoff",
+        "job loss"
+      ],
+      "ipa": "/rɪˈdʌndənsi/"
+    },
+    {
+      "lemma": "resignation",
+      "pos": "noun",
+      "meaning": "Officially telling your employer that you are leaving your job.",
+      "examples": [
+        "She handed in her {resignation} after ten years."
+      ],
+      "wrong": [
+        "His resignation meant he would stay in the job forever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "notice",
+        "departure"
+      ],
+      "ipa": "/ˌrɛzɪɡˈneɪʃən/"
+    },
+    {
+      "lemma": "dismiss",
+      "pos": "verb",
+      "meaning": "To remove someone from their job.",
+      "examples": [
+        "He was {dismissed} for stealing from the company."
+      ],
+      "wrong": [
+        "She was dismissed and given a raise for her great work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fire",
+        "sack"
+      ],
+      "ipa": "/dɪsˈmɪs/",
+      "antonyms": [
+        "hire"
+      ]
+    },
+    {
+      "lemma": "maternity leave",
+      "pos": "phrase",
+      "meaning": "Time off work that a woman takes before and after having a baby.",
+      "examples": [
+        "She’s on {maternity leave} until March."
+      ],
+      "wrong": [
+        "Maternity leave is extra work a new mother must do at night."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/məˈtɝnəti ˌliv/"
+    },
+    {
+      "lemma": "employer",
+      "pos": "noun",
+      "meaning": "A person or company that pays people to work for them.",
+      "examples": [
+        "My {employer} pays for my training."
+      ],
+      "wrong": [
+        "The employer is the person who works for a company and receives a salary."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "company",
+        "boss"
+      ],
+      "ipa": "/ɛmˈplɔɪɚ/",
+      "antonyms": [
+        "employee"
+      ]
+    },
+    {
+      "lemma": "recruiter",
+      "pos": "noun",
+      "meaning": "A person whose job is to find people for companies to employ.",
+      "examples": [
+        "A {recruiter} called me about a job in sales."
+      ],
+      "wrong": [
+        "A recruiter’s job is to stop companies from finding new staff."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "headhunter"
+      ],
+      "ipa": "/rɪˈkrutɚ/"
+    },
+    {
+      "lemma": "intern",
+      "pos": "noun",
+      "meaning": "A student or young person who works for a short time to gain experience.",
+      "examples": [
+        "The summer {intern} helped with the research."
+      ],
+      "wrong": [
+        "An intern is the company’s most senior director."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "apprentice"
+      ],
+      "ipa": "/ˈɪnˌtɝn/"
+    },
+    {
+      "lemma": "trainee",
+      "pos": "noun",
+      "meaning": "Someone who is being taught the skills for a job.",
+      "examples": [
+        "Each {trainee} works alongside an experienced nurse."
+      ],
+      "wrong": [
+        "The trainee has years of experience and teaches the senior staff."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "apprentice",
+        "learner"
+      ],
+      "ipa": "/treɪˈni/"
+    },
+    {
+      "lemma": "freelance",
+      "pos": "adjective",
+      "meaning": "Working for different companies on separate jobs, not for one employer.",
+      "examples": [
+        "She’s a {freelance} designer."
+      ],
+      "wrong": [
+        "As a freelance writer, he works full-time for one company on a fixed contract."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "independent"
+      ],
+      "ipa": "/ˈfriˌlæns/"
+    },
+    {
+      "lemma": "self-employed",
+      "pos": "adjective",
+      "meaning": "Working for yourself and running your own business.",
+      "examples": [
+        "Many plumbers are {self-employed}."
+      ],
+      "wrong": [
+        "He’s self-employed and works for a large company that pays his salary."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "independent",
+        "freelance"
+      ],
+      "ipa": "/ˌsɛlfɪmˈplɔɪd/"
+    },
+    {
+      "lemma": "teamwork",
+      "pos": "noun",
+      "meaning": "Working well together with others to reach a shared goal.",
+      "examples": [
+        "Winning the contract took real {teamwork}."
+      ],
+      "wrong": [
+        "Teamwork means everyone works alone and never shares."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "cooperation",
+        "collaboration"
+      ],
+      "ipa": "/ˈtimˌwɝk/"
+    },
+    {
+      "lemma": "appraisal",
+      "pos": "noun",
+      "meaning": "A meeting where a manager reviews how well an employee has been doing.",
+      "examples": [
+        "My annual {appraisal} is next week."
+      ],
+      "wrong": [
+        "An appraisal is a party for the company’s birthday."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "performance review",
+        "evaluation"
+      ],
+      "ipa": "/əˈpreɪzəl/"
+    },
+    {
+      "lemma": "career ladder",
+      "pos": "phrase",
+      "meaning": "The series of higher jobs you can move up through during your working life.",
+      "examples": [
+        "She climbed the {career ladder} quickly."
+      ],
+      "wrong": [
+        "The career ladder is the ladder window cleaners use."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/kəˈrɪr ˌlædɚ/"
+    },
+    {
+      "lemma": "prospects",
+      "pos": "noun",
+      "meaning": "Chances of success or of getting a better job in the future.",
+      "examples": [
+        "The job has good {prospects} for promotion."
+      ],
+      "wrong": [
+        "The job has excellent prospects, so there’s no chance of moving up."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "outlook",
+        "opportunities"
+      ],
+      "ipa": "/ˈprɑˌspɛkts/"
+    },
+    {
+      "lemma": "job security",
+      "pos": "phrase",
+      "meaning": "The feeling that your job is safe and you will not lose it.",
+      "examples": [
+        "Many people value {job security} more than a high salary."
+      ],
+      "wrong": [
+        "With great job security, she worried every day about being fired."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈdʒɑb sɪˌkjʊrəti/"
+    },
+    {
+      "lemma": "headhunt",
+      "pos": "verb",
+      "meaning": "To find a skilled person working elsewhere and offer them a job.",
+      "examples": [
+        "She was {headhunted} by a rival firm."
+      ],
+      "wrong": [
+        "They headhunted her by refusing to offer her any job."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "recruit",
+        "poach"
+      ],
+      "ipa": "/ˈhɛdˌhʌnt/"
+    },
+    {
+      "lemma": "burnout",
+      "pos": "noun",
+      "meaning": "Being completely exhausted by too much work or stress over a long time.",
+      "examples": [
+        "Long hours led to {burnout}."
+      ],
+      "wrong": [
+        "After a relaxing holiday, she had burnout from feeling so rested."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "exhaustion"
+      ],
+      "ipa": "/ˈbɝnˌaʊt/"
+    },
+    {
+      "lemma": "hand in your notice",
+      "pos": "phrase",
+      "meaning": "To tell your employer officially that you are going to leave your job.",
+      "examples": [
+        "I’m going to {hand in my notice} tomorrow."
+      ],
+      "wrong": [
+        "She handed in her notice because she wanted to stay in the job forever."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "resign",
+        "quit"
+      ],
+      "ipa": "/ˈhænd ɪn jɚ ˈnoʊtɪs/"
+    },
+    {
+      "lemma": "job description",
+      "pos": "phrase",
+      "meaning": "A written list of the duties and skills a job involves.",
+      "examples": [
+        "Read the {job description} before applying."
+      ],
+      "wrong": [
+        "The job description is the salary paid at the end of the month."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "role profile"
+      ],
+      "ipa": "/ˈdʒɑb dɪˌskrɪpʃən/"
+    },
+    {
+      "lemma": "job satisfaction",
+      "pos": "phrase",
+      "meaning": "The good feeling you get from enjoying your work.",
+      "examples": [
+        "Nurses often report high {job satisfaction}."
+      ],
+      "wrong": [
+        "His job satisfaction is high because he hates every minute at work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "fulfillment"
+      ],
+      "ipa": "/ˈdʒɑb ˌsætɪsˈfækʃən/"
+    },
+    {
+      "lemma": "raise",
+      "pos": "noun",
+      "meaning": "An increase in the money you are paid for your work.",
+      "examples": [
+        "I asked my boss for a {raise}."
+      ],
+      "wrong": [
+        "She got a raise, so her salary went down."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "pay rise",
+        "pay increase"
+      ],
+      "ipa": "/reɪz/",
+      "antonyms": [
+        "pay cut"
+      ]
+    },
+    {
+      "lemma": "job offer",
+      "pos": "phrase",
+      "meaning": "A formal message from a company saying it wants to give you a position.",
+      "examples": [
+        "She accepted the {job offer} the same day."
+      ],
+      "wrong": [
+        "He got a job offer, which meant the company had rejected him."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈdʒɑb ˌɔfɚ/"
+    },
+    {
+      "lemma": "coworker",
+      "pos": "noun",
+      "meaning": "A person who works at the same place as you.",
+      "examples": [
+        "My {coworkers} threw me a birthday party."
+      ],
+      "wrong": [
+        "My coworker has never worked at my company."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "colleague"
+      ],
+      "ipa": "/ˈkoʊˌwɝkɚ/"
+    },
+    {
+      "lemma": "human resources",
+      "pos": "phrase",
+      "meaning": "The department of a company that deals with hiring and staff matters.",
+      "examples": [
+        "Send the signed form to {human resources}."
+      ],
+      "wrong": [
+        "Human resources is the department that fixes the computers."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "HR",
+        "personnel"
+      ],
+      "ipa": "/ˈhjumən ˈrisɔrsɪz/"
+    },
+    {
+      "lemma": "career change",
+      "pos": "phrase",
+      "meaning": "A move into a completely different type of work.",
+      "examples": [
+        "At forty, he made a {career change} from banking to teaching."
+      ],
+      "wrong": [
+        "Her career change meant she kept doing exactly the same work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "change of direction"
+      ],
+      "ipa": "/kəˈrɪr ˌtʃeɪndʒ/"
+    },
+    {
+      "lemma": "nine-to-five",
+      "pos": "adjective",
+      "meaning": "Of a job: with normal office hours, from morning to late afternoon.",
+      "examples": [
+        "He quit his {nine-to-five} job to travel."
+      ],
+      "wrong": [
+        "Her nine-to-five job keeps her at work all night."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˌnaɪntəˈfaɪv/"
+    },
+    {
+      "lemma": "dead-end job",
+      "pos": "phrase",
+      "meaning": "A job with low pay and no chance of moving up.",
+      "examples": [
+        "He felt stuck in a {dead-end job}."
+      ],
+      "wrong": [
+        "A dead-end job offers great chances for promotion."
+      ],
+      "cefr": "B2",
+      "register": "informal",
+      "ipa": "/ˌdɛdˈɛnd ˈdʒɑb/"
+    },
+    {
+      "lemma": "team player",
+      "pos": "phrase",
+      "meaning": "Someone who works well with others in a group.",
+      "examples": [
+        "We’re looking for a {team player} who shares ideas."
+      ],
+      "wrong": [
+        "As a team player, he refuses to help anyone."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "collaborator"
+      ],
+      "ipa": "/ˈtim ˌpleɪɚ/"
+    },
+    {
+      "lemma": "glass ceiling",
+      "pos": "phrase",
+      "meaning": "An unseen barrier that stops some groups, such as women, from reaching top jobs.",
+      "examples": [
+        "She broke through the {glass ceiling} to become CEO."
+      ],
+      "wrong": [
+        "The glass ceiling is a window in the roof of the office."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɡlæs ˈsilɪŋ/"
+    },
+    {
+      "lemma": "sick leave",
+      "pos": "phrase",
+      "meaning": "Time off work, usually paid, because you are ill.",
+      "examples": [
+        "He’s been on {sick leave} since his operation."
+      ],
+      "wrong": [
+        "Sick leave is extra time at work when you are feeling healthy."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈsɪk ˌliv/"
+    },
+    {
+      "lemma": "job hunting",
+      "pos": "noun",
+      "meaning": "Looking for a new position to work in.",
+      "examples": [
+        "After graduating, she spent months {job hunting}."
+      ],
+      "wrong": [
+        "Job hunting means relaxing at home because you never want to work again."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "job seeking"
+      ],
+      "ipa": "/ˈdʒɑb ˌhʌntɪŋ/"
+    },
+    {
+      "lemma": "work experience",
+      "pos": "phrase",
+      "meaning": "Time spent in a workplace, especially to learn about a job.",
+      "examples": [
+        "The course includes two weeks of {work experience}."
+      ],
+      "wrong": [
+        "Work experience is a degree you get without ever working."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈwɝk ɪkˌspɪriəns/"
+    },
+    {
+      "lemma": "skill set",
+      "pos": "phrase",
+      "meaning": "The group of abilities that a person has.",
+      "examples": [
+        "Her {skill set} includes design and coding."
+      ],
+      "wrong": [
+        "A skill set is a box of tools you buy at a hardware store."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "abilities",
+        "expertise"
+      ],
+      "ipa": "/ˈskɪl ˌsɛt/"
+    },
+    {
+      "lemma": "office politics",
+      "pos": "phrase",
+      "meaning": "The way people at work compete for power and influence.",
+      "examples": [
+        "She hates the {office politics} at her company."
+      ],
+      "wrong": [
+        "Office politics is a class about government that staff take after work."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "ipa": "/ˈɔfɪs ˈpɑlətɪks/"
+    },
+    {
+      "lemma": "competent",
+      "pos": "adjective",
+      "meaning": "Having enough skill to do a job well.",
+      "examples": [
+        "She’s a very {competent} manager."
+      ],
+      "wrong": [
+        "He’s a competent pilot who can’t fly a plane."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "capable",
+        "able",
+        "skilled"
+      ],
+      "ipa": "/ˈkɑmpɪtənt/",
+      "antonyms": [
+        "incompetent"
+      ]
+    }
+  ]
+}

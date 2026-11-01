@@ -43,6 +43,7 @@ final class Phase2LessonTests: XCTestCase {
         attachment.name = "phase2-\(name)"; attachment.lifetime = .keepAlways; add(attachment)
     }
 
+
     @MainActor
     func testFreshLearnerCannotOpenLockedCourseLevels() {
         let app = launch()
@@ -50,7 +51,8 @@ final class Phase2LessonTests: XCTestCase {
         selectLevel("C2", in: app)
         XCTAssertTrue(app.descendants(matching: .any)["level.locked.C2"].firstMatch.waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "learn.open.")).firstMatch.exists)
-        XCTAssertFalse(app.buttons["level.test.C2"].exists)
+        // Owner rule (2026-10-25): any locked level can be unlocked by its own test, even C2 from A1.
+        XCTAssertTrue(app.buttons["level.test.C2"].waitForExistence(timeout: 5))
         capture(app, "course-locked")
         selectLevel("A2", in: app)
         XCTAssertTrue(app.buttons["level.test.A2"].waitForExistence(timeout: 5))
@@ -59,11 +61,21 @@ final class Phase2LessonTests: XCTestCase {
     }
 
     @MainActor
+    func testC2CanBeAttemptedByTestFromAFreshLearner() {
+        let app = launch()
+        selectLevel("C2", in: app)
+        app.buttons["level.test.C2"].tap()
+        XCTAssertTrue(app.navigationBars["Rank C2 test"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["exercise.prompt"].waitForExistence(timeout: 5))
+        capture(app, "c2-test-question")
+    }
+
+    @MainActor
     func testFailedJumpTestRetakesWithoutUnlockingA2() {
         let app = launch()
         selectLevel("A2", in: app)
         app.buttons["level.test.A2"].tap()
-        XCTAssertTrue(app.navigationBars["A2 test"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Rank A2 test"].waitForExistence(timeout: 5))
         capture(app, "jump-question")
         for _ in 0..<20 {
             XCTAssertTrue(app.buttons["exercise.check"].waitForExistence(timeout: 5))
@@ -111,14 +123,19 @@ final class Phase2LessonTests: XCTestCase {
         XCTAssertTrue(app.buttons["coach.card.grammarian"].waitForExistence(timeout: 5))
         capture(app, "coach-grid")
         app.buttons["coach.card.grammarian"].tap()
-        app.buttons["track.stage.starter"].tap()
+        // Stages are a dropdown (2026-10-31).
+        app.buttons["track.stage"].tap()
+        app.buttons.matching(NSPredicate(format: "label BEGINSWITH 'Starter'")).firstMatch.tap()
         XCTAssertTrue(app.buttons["track.unit.be-have-do"].exists)
         capture(app, "coach-units")
         app.buttons["track.unit.sentences"].tap()
-        XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.lesson.")).count, 4)
-        app.buttons["track.lesson.gram-sent-subject"].tap()
-        XCTAssertTrue(app.buttons["lesson.begin"].waitForExistence(timeout: 5))
-        app.buttons["lesson.begin"].tap()
+        XCTAssertEqual(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "track.lesson.")).count, 3)
+        app.buttons["track.lesson.grammarian-topic-sentence-building"].tap()
+        XCTAssertTrue(app.buttons["lesson.reading.next"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.descendants(matching: .any)["lesson.host"].firstMatch.label, "Grammarian")
+        capture(app, "coach-intro")
+        // Page through the reading, however many pages the topic has.
+        for _ in 0..<12 where app.buttons["lesson.reading.next"].waitForExistence(timeout: 2) { app.buttons["lesson.reading.next"].tap() }
         XCTAssertTrue(app.buttons["exercise.choice.Maria runs."].waitForExistence(timeout: 5))
         app.buttons["exercise.choice.Maria runs."].tap(); app.buttons["exercise.check"].tap()
         XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
@@ -126,7 +143,7 @@ final class Phase2LessonTests: XCTestCase {
         for _ in 0..<3 { app.navigationBars.buttons.firstMatch.tap() }
         XCTAssertTrue(app.buttons["coach.continue"].waitForExistence(timeout: 5))
         app.buttons["coach.continue"].tap()
-        XCTAssertTrue(app.navigationBars["Subject and verb"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Sentence building"].waitForExistence(timeout: 5))
     }
 
     @MainActor
@@ -167,6 +184,6 @@ final class Phase2LessonTests: XCTestCase {
             for _ in 0..<4 where !unit.isHittable { app.swipeUp() }
         }
         XCTAssertTrue(unit.isHittable); unit.tap()
-        XCTAssertTrue(app.buttons["track.lesson.gram-sent-subject"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["track.lesson.grammarian-topic-sentence-building"].waitForExistence(timeout: 5))
     }
 }

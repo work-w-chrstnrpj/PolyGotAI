@@ -1,0 +1,692 @@
+{
+  "version": 1,
+  "date": "2026-11-01",
+  "tool": "built-in ImageGen",
+  "badge_count": 17,
+  "coach_count": 6,
+  "badge_style_references": [
+    "assets/awards/v1/masters/aw-p-01.png",
+    "assets/awards/v1/masters/aw-p-03.png"
+  ],
+  "coach_style_references": [
+    "application/SpeechCoachAI/Resources/Assets.xcassets/CoachGrammarian.imageset/artwork.jpg",
+    "application/SpeechCoachAI/Resources/Assets.xcassets/CoachBusiness.imageset/artwork.jpg"
+  ],
+  "assets": [
+    {
+      "id": "AW-CR-11",
+      "kind": "badge",
+      "title": "Fast Track",
+      "subject": "A warm cream hare leaping over two small ascending lesson-book steps, with a single forward sweeping teal trail and a sage leaf",
+      "filename": "aw-cr-11.png",
+      "file": "assets/awards/v1/masters/aw-cr-11.png",
+      "sha256": "3e443c5d3c0da8c5f9b450b4ecb6d4264c1fd4c71f389b9ba60c67098336548d",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1825161,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        99,
+        54,
+        1153,
+        1193
+      ],
+      "prompt_file": "prompts/aw-cr-11.txt",
+      "generated_source": "exec-a19c7dcb-1f19-4532-8ed5-5584e26546a9.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-LX-01",
+      "kind": "badge",
+      "title": "Words Reviewed",
+      "subject": "A fan of three cream vocabulary flashcards with abstract teal ink strokes, a small returning curved arrow and a leafy sprig",
+      "filename": "aw-lx-01.png",
+      "file": "assets/awards/v1/masters/aw-lx-01.png",
+      "sha256": "72816d52324dc4c217bb2688c5a8e2a393a19fa8cee43a278b2aaabc847f9176",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1778574,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        69,
+        78,
+        1186,
+        1169
+      ],
+      "prompt_file": "prompts/aw-lx-01.txt",
+      "generated_source": "exec-c6973c67-dd40-45af-a82d-6cf7e758e01b.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-LX-02",
+      "kind": "badge",
+      "title": "Lexicon Days",
+      "subject": "A cream desk calendar with abstract square day cells, a small vocabulary card tucked under it and a growing leafy vine climbing the side",
+      "filename": "aw-lx-02.png",
+      "file": "assets/awards/v1/masters/aw-lx-02.png",
+      "sha256": "5f721b40085ca7a961dca06a03052375b73ceeb5e354264ca6e453a542fde43e",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1919973,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        57,
+        57,
+        1197,
+        1198
+      ],
+      "prompt_file": "prompts/aw-lx-02.txt",
+      "generated_source": "exec-b26d94b9-5064-4dfc-bb92-7bc05ce4b2c9.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-LX-05",
+      "kind": "badge",
+      "title": "Your Own Topic",
+      "subject": "A small open personal word journal with a pencil laid across it, two blank colored index tabs and a fresh sprouting leaf",
+      "filename": "aw-lx-05.png",
+      "file": "assets/awards/v1/masters/aw-lx-05.png",
+      "sha256": "377edb1a0a7e58eb086dcb126e426ef43f6cf5caba55ce8bc8f723dbe1c40474",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1784568,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        62,
+        79,
+        1192,
+        1182
+      ],
+      "prompt_file": "prompts/aw-lx-05.txt",
+      "generated_source": "exec-7e7e831e-7bca-4482-9878-b88484f41797.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-LX-06",
+      "kind": "badge",
+      "title": "Words in Action",
+      "subject": "Two overlapping cream speech bubbles with abstract ink strokes emerging from an open wordbook, with small lively coral accent rays",
+      "filename": "aw-lx-06.png",
+      "file": "assets/awards/v1/masters/aw-lx-06.png",
+      "sha256": "d0bcfc5fe779a8d7d949e29d95c65abd53a7563b584807ef522b25d0bec7d7df",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1904693,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        46,
+        55,
+        1208,
+        1198
+      ],
+      "prompt_file": "prompts/aw-lx-06.txt",
+      "generated_source": "exec-88f6f6be-dfbc-4f22-a609-dae2aa773845.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-LX-07",
+      "kind": "badge",
+      "title": "Enricher Rounds",
+      "subject": "An open vocabulary book with a circular trail of three cream word cards and a few small coral sparkles above, suggesting a completed practice round",
+      "filename": "aw-lx-07.png",
+      "file": "assets/awards/v1/masters/aw-lx-07.png",
+      "sha256": "c1bd0c4114d725a3fc8e01b76d81bde66a76a90423c8c49b71d6b0364abd0ec9",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1786451,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        59,
+        78,
+        1195,
+        1179
+      ],
+      "prompt_file": "prompts/aw-lx-07.txt",
+      "generated_source": "exec-880f5acd-79ca-4578-8d89-15f4dcf060fc.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-LX-08",
+      "kind": "badge",
+      "title": "Perfect Round",
+      "subject": "A small coral five-point star centered inside a complete teal circular laurel wreath, above a cream practice card with tidy abstract ink strokes",
+      "filename": "aw-lx-08.png",
+      "file": "assets/awards/v1/masters/aw-lx-08.png",
+      "sha256": "281416e7f278093477dd9cb39f47e4488d271a72f055b03ff51af4df2b8f0676",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1936658,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        43,
+        55,
+        1211,
+        1199
+      ],
+      "prompt_file": "prompts/aw-lx-08.txt",
+      "generated_source": "exec-3d744012-4c91-4886-abad-d412bd4d9923.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-TK-01",
+      "kind": "badge",
+      "title": "First Coach Lesson",
+      "subject": "An open lesson notebook and a small teacher's pointer resting diagonally across it, with a single new leaf beside the notebook",
+      "filename": "aw-tk-01.png",
+      "file": "assets/awards/v1/masters/aw-tk-01.png",
+      "sha256": "cb29ef851cb0b6c821dc531b14bf2f26c053968074c24bf4bd95ffdb08fb5e00",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1695590,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        106,
+        64,
+        1148,
+        1185
+      ],
+      "prompt_file": "prompts/aw-tk-01.txt",
+      "generated_source": "exec-8d8dfbcb-2e06-4cb7-9b03-89a99b491c1e.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-TK-04",
+      "kind": "badge",
+      "title": "Pronunciation Completed",
+      "subject": "A vintage teal microphone with three clear concentric sound-wave arcs, an open pronunciation practice book beneath it",
+      "filename": "aw-tk-04.png",
+      "file": "assets/awards/v1/masters/aw-tk-04.png",
+      "sha256": "bf15d7ff88d84ae88ddb94da7268107614ef3fb0a6471937b133da72abc13434",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1850547,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        100,
+        55,
+        1153,
+        1207
+      ],
+      "prompt_file": "prompts/aw-tk-04.txt",
+      "generated_source": "exec-259f5813-3659-4d38-8e28-48d4cee8666f.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-TK-05",
+      "kind": "badge",
+      "title": "Coaches Completed",
+      "subject": "Three distinct closed learning books standing together beneath a small branching tree with several leaves, representing completed coach tracks",
+      "filename": "aw-tk-05.png",
+      "file": "assets/awards/v1/masters/aw-tk-05.png",
+      "sha256": "6535891303022d1b734de1d1159f15fd4e1995e51ab2c6e01e2e6bceaecc6526",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1854477,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        84,
+        78,
+        1170,
+        1189
+      ],
+      "prompt_file": "prompts/aw-tk-05.txt",
+      "generated_source": "exec-d7bf6277-96dc-472a-a68d-e714220f97fd.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-TK-06",
+      "kind": "badge",
+      "title": "All-round Learner",
+      "subject": "A learning compass centered above an open book, surrounded by a balanced ring of small leaves pointing in different directions",
+      "filename": "aw-tk-06.png",
+      "file": "assets/awards/v1/masters/aw-tk-06.png",
+      "sha256": "2e85a3b02afbd72d89d65c4d09480d246a9105cf0901d1fbcdd7d2f3454e0bf8",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1802250,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        109,
+        67,
+        1145,
+        1192
+      ],
+      "prompt_file": "prompts/aw-tk-06.txt",
+      "generated_source": "exec-82cfc486-83be-4ebc-b8e3-bc92984f093d.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-TT-01",
+      "kind": "badge",
+      "title": "First Timed Test",
+      "subject": "A small vintage teal stopwatch leaning beside one cream answer sheet and an ochre pencil",
+      "filename": "aw-tt-01.png",
+      "file": "assets/awards/v1/masters/aw-tt-01.png",
+      "sha256": "d201f27462759a022d42154460075adfb55dc5735f9d070682eef5b4c7f7c112",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1783809,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        71,
+        83,
+        1184,
+        1166
+      ],
+      "prompt_file": "prompts/aw-tt-01.txt",
+      "generated_source": "exec-a15e267a-ae08-4472-937f-328eabf28bbc.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-TT-02",
+      "kind": "badge",
+      "title": "Timed Tests",
+      "subject": "A large vintage teal stopwatch behind a neat stack of cream answer sheets, with a small sage leaf at the base",
+      "filename": "aw-tt-02.png",
+      "file": "assets/awards/v1/masters/aw-tt-02.png",
+      "sha256": "13d8c8a6d074cf22f303290a751f843c7822859bd67c25367b508264b2ca2caa",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1815826,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        66,
+        76,
+        1189,
+        1175
+      ],
+      "prompt_file": "prompts/aw-tt-02.txt",
+      "generated_source": "exec-3c92f43b-9c4c-4611-8d17-d209f6979dc2.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-TT-03",
+      "kind": "badge",
+      "title": "All Three Tests",
+      "subject": "Three distinct learning objects arranged harmoniously: a fountain-pen nib for writing, an open book for reading, and two linked abstract puzzle pieces for analogies, with a small stopwatch beneath",
+      "filename": "aw-tt-03.png",
+      "file": "assets/awards/v1/masters/aw-tt-03.png",
+      "sha256": "fc9c683a2cfd001a7a25a46fd90c1c636c8017c6b61171b925b72c943566fb9e",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1805485,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        111,
+        68,
+        1144,
+        1194
+      ],
+      "prompt_file": "prompts/aw-tt-03.txt",
+      "generated_source": "exec-fc468341-45fc-4a5a-9df7-3194132a83fb.png",
+      "shell": "shield"
+    },
+    {
+      "id": "AW-VD-01",
+      "kind": "badge",
+      "title": "First Video",
+      "subject": "One cream video screen with a bold teal play triangle on a small stand, framed by two small learning leaves",
+      "filename": "aw-vd-01.png",
+      "file": "assets/awards/v1/masters/aw-vd-01.png",
+      "sha256": "81ec598a0082ee167e88cd105f36fc4142abbd301dab9f68d14dbfcf549e22f7",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1653415,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        59,
+        81,
+        1195,
+        1169
+      ],
+      "prompt_file": "prompts/aw-vd-01.txt",
+      "generated_source": "exec-45e03845-d9bb-4aeb-b19a-25cfa2637855.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-VD-02",
+      "kind": "badge",
+      "title": "Videos Watched",
+      "subject": "Three offset cream video cards with one prominent teal play triangle on the front card, with a restrained leafy sprig",
+      "filename": "aw-vd-02.png",
+      "file": "assets/awards/v1/masters/aw-vd-02.png",
+      "sha256": "3d356e6f14f4d480d0f1bc3fbc5f17a71dde90e718db2f5ed46d30278c48af10",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1667067,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        70,
+        82,
+        1184,
+        1165
+      ],
+      "prompt_file": "prompts/aw-vd-02.txt",
+      "generated_source": "exec-353bbe91-8e69-40cc-9ab8-f9e6cc1feacc.png",
+      "shell": "circle"
+    },
+    {
+      "id": "AW-VD-03",
+      "kind": "badge",
+      "title": "Video Topics Completed",
+      "subject": "Three video-topic folders arranged as a tidy fan, each bearing a small play triangle, with a completed open learning book below",
+      "filename": "aw-vd-03.png",
+      "file": "assets/awards/v1/masters/aw-vd-03.png",
+      "sha256": "706ceeba16e1f7c231a70ddcba5778487b7bc95a7c98d8f76f3e6bfeeb6000bf",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "bytes": 1848920,
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visible_bounds": [
+        99,
+        59,
+        1155,
+        1200
+      ],
+      "prompt_file": "prompts/aw-vd-03.txt",
+      "generated_source": "exec-9f84b36c-ff01-4ccf-932d-e40caf8bc337.png",
+      "shell": "shield"
+    },
+    {
+      "id": "CoachCopywriter",
+      "kind": "coach",
+      "title": "CoachCopywriter",
+      "subject": "A clever magpie with muted teal-sheen feathers perched beside a little wooden easel holding a completely blank cream poster, a pencil held in its beak and a tiny paper megaphone at its feet. Advertising and Copywriting coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachCopywriter.imageset/artwork.png",
+      "sha256": "23197fd8d5647aa29fb307440da98d843e51b492e940540d47f3017bb59fd3b4",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2484125,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachcopywriter.txt",
+      "generated_source": "exec-80cba181-7773-4469-8132-1c644a0bf260.png"
+    },
+    {
+      "id": "CoachCreativeWriter",
+      "kind": "coach",
+      "title": "CoachCreativeWriter",
+      "subject": "A thoughtful tabby cat in a mustard cardigan at a desk with a fountain pen and open blank notebook, one paper crane and a small vintage typewriter beside it. Creative Writing coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachCreativeWriter.imageset/artwork.png",
+      "sha256": "49c49cf5fe7cc289b6f3099eb9c27f68954aecfc67f6ac987a4c9fef8dcbcc18",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2543432,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachcreativewriter.txt",
+      "generated_source": "exec-5233f8ce-d9bc-4fdb-a88d-bf0b640b7e52.png"
+    },
+    {
+      "id": "CoachDebater",
+      "kind": "coach",
+      "title": "CoachDebater",
+      "subject": "A grey wolf wearing a navy waistcoat at a small wooden lectern with a stack of blank index cards, one paw raised thoughtfully as if making a fair argument; a small brass timer on lectern. Debater and Argument coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachDebater.imageset/artwork.png",
+      "sha256": "6b19aa4335df5452b718aa5d67ec1f5cf2d6f38317e0025593ac8e127ae1d579",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2275249,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachdebater.txt",
+      "generated_source": "exec-9daa71e5-d0ab-4050-b80c-4d475c0b1b8e.png"
+    },
+    {
+      "id": "CoachNegotiator",
+      "kind": "coach",
+      "title": "CoachNegotiator",
+      "subject": "A friendly penguin in a teal bow tie sitting at a small round table with two cups of tea and a folded blank paper agreement, one flipper extended in a welcoming gesture. Persuasion and Negotiation coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachNegotiator.imageset/artwork.png",
+      "sha256": "22fa3c459c134be6d16b063b6c018626bbe804054af91dff3d97f35938f0347c",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2425793,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachnegotiator.txt",
+      "generated_source": "exec-57164742-578d-41e7-bb0b-3b0c14ec9b8b.png"
+    },
+    {
+      "id": "CoachPronunciation",
+      "kind": "coach",
+      "title": "CoachPronunciation",
+      "subject": "A friendly robin songbird with a warm ochre-coral breast wearing a small teal scarf, standing beside a vintage teal microphone, one wing lightly raised as if demonstrating a clear sound; three small abstract paper sound-wave arcs beside the microphone and a closed practice notebook below. Pronunciation coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachPronunciation.imageset/artwork.png",
+      "sha256": "e58e8aaaa502e7596a1493d1a505e3d6b720e61d8a563fd09bb8f03711f08b76",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2332196,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachpronunciation.txt",
+      "generated_source": "exec-9956912d-1447-49e4-8f2c-6b8bb465e07c.png"
+    },
+    {
+      "id": "CoachStoryteller",
+      "kind": "coach",
+      "title": "CoachStoryteller",
+      "subject": "A friendly hedgehog in a teal scarf sitting on a tree stump holding an open storybook, a glowing warm paper lantern beside it and a few small cut-paper stars above. Storytelling coach.",
+      "filename": "artwork.png",
+      "file": "application/SpeechCoachAI/Resources/Assets.xcassets/CoachStoryteller.imageset/artwork.png",
+      "sha256": "f5501bcd0406bb56e6c7737c5935b8722481b701d30a13e010f36c97eacaf431",
+      "width": 1402,
+      "height": 1122,
+      "mode": "RGB",
+      "bytes": 2426025,
+      "transparent_background": false,
+      "alpha_extrema": null,
+      "corner_alpha": null,
+      "visible_bounds": null,
+      "prompt_file": "prompts/coachstoryteller.txt",
+      "generated_source": "exec-32411be9-f1a8-4a01-93af-1a023bec7a75.png"
+    }
+  ]
+}

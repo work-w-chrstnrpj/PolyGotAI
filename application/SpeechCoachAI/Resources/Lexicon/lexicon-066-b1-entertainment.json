@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-entertainment",
+    "title": "Films, music and free time",
+    "level": "B1",
+    "tagline": "Shows, hobbies and fun",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "gig",
+      "pos": "noun",
+      "meaning": "A live performance of pop or rock music.",
+      "examples": [
+        "The band is playing a {gig} at the club tonight."
+      ],
+      "wrong": [
+        "We went to a gig and listened to a silent library."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "concert",
+        "show"
+      ],
+      "ipa": "/ɡɪɡ/"
+    },
+    {
+      "lemma": "thriller",
+      "pos": "noun",
+      "meaning": "An exciting book or film, often about crime or danger.",
+      "examples": [
+        "I couldn’t put down the {thriller} until the last page."
+      ],
+      "wrong": [
+        "The thriller was so boring and calm that I fell asleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "suspense story"
+      ],
+      "ipa": "/ˈθrɪlɚ/"
+    },
+    {
+      "lemma": "horror",
+      "pos": "noun",
+      "meaning": "A type of film or story that is meant to frighten people.",
+      "examples": [
+        "I never watch {horror} films alone at night."
+      ],
+      "wrong": [
+        "We watched a horror movie to feel calm and relaxed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈhɔrɚ/"
+    },
+    {
+      "lemma": "subtitles",
+      "pos": "noun",
+      "meaning": "Words at the bottom of the screen that translate what people say.",
+      "examples": [
+        "We watched the French film with English {subtitles}."
+      ],
+      "wrong": [
+        "The subtitles were the music played at the start of the film."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "captions"
+      ],
+      "ipa": "/ˈsʌbˌtaɪtəlz/"
+    },
+    {
+      "lemma": "box office",
+      "pos": "noun",
+      "meaning": "The place at a theater or cinema where tickets are sold.",
+      "examples": [
+        "We bought our tickets at the {box office}."
+      ],
+      "wrong": [
+        "The box office is where actors change their clothes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "ticket office"
+      ],
+      "ipa": "/ˈbɑks ˌɔfɪs/"
+    },
+    {
+      "lemma": "episode",
+      "pos": "noun",
+      "meaning": "One part of a TV or radio series.",
+      "examples": [
+        "I watched the first {episode} last night."
+      ],
+      "wrong": [
+        "An episode is the whole series from start to end."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "installment"
+      ],
+      "ipa": "/ˈɛpɪˌsoʊd/"
+    },
+    {
+      "lemma": "rehearse",
+      "pos": "verb",
+      "meaning": "To practice a play, piece of music or show before performing it.",
+      "examples": [
+        "The actors {rehearsed} for weeks before the opening night."
+      ],
+      "wrong": [
+        "They rehearsed the show after the last performance had finished."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "practice",
+        "run through"
+      ],
+      "ipa": "/rɪˈhɝs/"
+    },
+    {
+      "lemma": "intermission",
+      "pos": "noun",
+      "meaning": "A short break between the parts of a play or concert.",
+      "examples": [
+        "We bought drinks during the {intermission}."
+      ],
+      "wrong": [
+        "The intermission is the main part of the show."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "interval",
+        "break"
+      ],
+      "ipa": "/ˌɪntɚˈmɪʃən/"
+    },
+    {
+      "lemma": "knitting",
+      "pos": "noun",
+      "meaning": "The hobby of making clothes from wool with two long needles.",
+      "examples": [
+        "My grandmother loves {knitting} scarves for the family."
+      ],
+      "wrong": [
+        "He took up knitting and made a cake."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈnɪtɪŋ/"
+    },
+    {
+      "lemma": "photography",
+      "pos": "noun",
+      "meaning": "The art or hobby of taking photos.",
+      "examples": [
+        "She studied {photography} and now works for a magazine."
+      ],
+      "wrong": [
+        "His hobby is photography, so he has never used a camera."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/fəˈtɑɡrəfi/"
+    },
+    {
+      "lemma": "theme park",
+      "pos": "noun",
+      "meaning": "A large park with rides and shows built around one subject.",
+      "examples": [
+        "The kids loved the rides at the {theme park}."
+      ],
+      "wrong": [
+        "A theme park is a quiet place to read books."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "amusement park"
+      ],
+      "ipa": "/ˈθim ˌpɑrk/"
+    },
+    {
+      "lemma": "roller coaster",
+      "pos": "noun",
+      "meaning": "A ride at a fair with small cars that go very fast up and down steep tracks.",
+      "examples": [
+        "The {roller coaster} went upside down twice."
+      ],
+      "wrong": [
+        "The roller coaster moved so slowly that the children fell asleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈroʊlɚ ˌkoʊstɚ/"
+    },
+    {
+      "lemma": "autograph",
+      "pos": "noun",
+      "meaning": "A famous person’s name written by them for a fan.",
+      "examples": [
+        "She asked the singer for his {autograph}."
+      ],
+      "wrong": [
+        "The fan gave her own autograph to the star to remember her."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "signature"
+      ],
+      "ipa": "/ˈɔtəˌɡræf/"
+    },
+    {
+      "lemma": "entertain",
+      "pos": "verb",
+      "meaning": "To keep people interested and amused.",
+      "examples": [
+        "The clown {entertained} the children for an hour."
+      ],
+      "wrong": [
+        "The comedian entertained the crowd by boring them to sleep."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "amuse",
+        "delight"
+      ],
+      "ipa": "/ˌɛntɚˈteɪn/"
+    },
+    {
+      "lemma": "entertaining",
+      "pos": "adjective",
+      "meaning": "Fun and enjoyable to watch, read or listen to.",
+      "examples": [
+        "It was a very {entertaining} show."
+      ],
+      "wrong": [
+        "The play was so entertaining that everyone left early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "amusing",
+        "enjoyable",
+        "fun"
+      ],
+      "ipa": "/ˌɛntɚˈteɪnɪŋ/",
+      "antonyms": [
+        "boring",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "hilarious",
+      "pos": "adjective",
+      "meaning": "Extremely funny.",
+      "examples": [
+        "The new comedy is {hilarious}."
+      ],
+      "wrong": [
+        "The joke was hilarious, so no one laughed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "very funny"
+      ],
+      "ipa": "/hɪˈlɛriəs/"
+    },
+    {
+      "lemma": "gripping",
+      "pos": "adjective",
+      "meaning": "So exciting that it holds your attention completely.",
+      "examples": [
+        "It’s a {gripping} story with a surprise ending."
+      ],
+      "wrong": [
+        "The gripping film was so dull that I left after ten minutes."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "exciting",
+        "thrilling"
+      ],
+      "ipa": "/ˈɡrɪpɪŋ/",
+      "antonyms": [
+        "boring",
+        "dull"
+      ]
+    },
+    {
+      "lemma": "chorus",
+      "pos": "noun",
+      "meaning": "The part of a song that is repeated after each verse.",
+      "examples": [
+        "Everyone sang along to the {chorus}."
+      ],
+      "wrong": [
+        "The chorus is the part of the song that is sung only once."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "refrain"
+      ],
+      "ipa": "/ˈkɔrəs/"
+    },
+    {
+      "lemma": "tune",
+      "pos": "noun",
+      "meaning": "A series of musical notes that make a song you can hum.",
+      "examples": [
+        "She hummed a happy {tune} as she worked."
+      ],
+      "wrong": [
+        "The tune was just the words of the song with no music."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "melody"
+      ],
+      "ipa": "/tun/"
+    },
+    {
+      "lemma": "playlist",
+      "pos": "noun",
+      "meaning": "A list of songs chosen to be played in order.",
+      "examples": [
+        "I made a {playlist} for our road trip."
+      ],
+      "wrong": [
+        "A playlist is the stage where the band plays."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈpleɪˌlɪst/"
+    },
+    {
+      "lemma": "karaoke",
+      "pos": "noun",
+      "meaning": "Singing popular songs to recorded music while reading the words on a screen.",
+      "examples": [
+        "We sang {karaoke} at the party until midnight."
+      ],
+      "wrong": [
+        "At karaoke, everyone stays silent and listens to the radio."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌkɛriˈoʊki/"
+    },
+    {
+      "lemma": "crossword",
+      "pos": "noun",
+      "meaning": "A word puzzle where you write answers into a grid of small squares.",
+      "examples": [
+        "He does the {crossword} in the newspaper every morning."
+      ],
+      "wrong": [
+        "She finished the crossword by drawing a picture of a cat."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "word puzzle"
+      ],
+      "ipa": "/ˈkrɔsˌwɝd/"
+    },
+    {
+      "lemma": "spoiler",
+      "pos": "noun",
+      "meaning": "Information that tells you what happens in a story before you see it.",
+      "examples": [
+        "Don’t read the reviews, they’re full of {spoilers}."
+      ],
+      "wrong": [
+        "The spoiler kept the ending a complete secret."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈspɔɪlɚ/"
+    },
+    {
+      "lemma": "trailer",
+      "pos": "noun",
+      "meaning": "A short film that shows parts of a new movie to advertise it.",
+      "examples": [
+        "The {trailer} for the new film looks amazing."
+      ],
+      "wrong": [
+        "The trailer is the full three-hour version of the movie."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "preview"
+      ],
+      "ipa": "/ˈtreɪlɚ/"
+    },
+    {
+      "lemma": "blockbuster",
+      "pos": "noun",
+      "meaning": "A film or book that is very popular and makes a lot of money.",
+      "examples": [
+        "The summer {blockbuster} broke box office records."
+      ],
+      "wrong": [
+        "The blockbuster was seen by almost nobody."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hit",
+        "smash"
+      ],
+      "ipa": "/ˈblɑkˌbʌstɚ/"
+    },
+    {
+      "lemma": "sitcom",
+      "pos": "noun",
+      "meaning": "A funny TV series about the same characters in everyday situations.",
+      "examples": [
+        "My favorite {sitcom} is about a group of friends in a café."
+      ],
+      "wrong": [
+        "The sitcom is a serious news program about politics."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "comedy series"
+      ],
+      "ipa": "/ˈsɪtˌkɑm/"
+    },
+    {
+      "lemma": "audition",
+      "pos": "noun",
+      "meaning": "A short performance to show if you are good enough for a part in a show.",
+      "examples": [
+        "She sang a song at her {audition} for the musical."
+      ],
+      "wrong": [
+        "He had an audition after the show had already finished its run."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "tryout"
+      ],
+      "ipa": "/ɔˈdɪʃən/"
+    },
+    {
+      "lemma": "encore",
+      "pos": "noun",
+      "meaning": "An extra song or piece performed at the end because the audience asks for more.",
+      "examples": [
+        "The crowd shouted for an {encore}, so the band played one more song."
+      ],
+      "wrong": [
+        "The encore is the first song a band plays when it arrives."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈɑnˌkɔr/"
+    },
+    {
+      "lemma": "parade",
+      "pos": "noun",
+      "meaning": "A line of people, bands and decorated vehicles moving through the streets to celebrate.",
+      "examples": [
+        "Thousands watched the {parade} on the main street."
+      ],
+      "wrong": [
+        "The parade stood still in an empty room with no one watching."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "procession"
+      ],
+      "ipa": "/pəˈreɪd/"
+    },
+    {
+      "lemma": "stand-up comedy",
+      "pos": "phrase",
+      "meaning": "A performance where one person stands on stage and tells jokes.",
+      "examples": [
+        "He does {stand-up comedy} in small clubs."
+      ],
+      "wrong": [
+        "Stand-up comedy is a sad song played on the violin."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈstændˌʌp ˈkɑmədi/"
+    },
+    {
+      "lemma": "magician",
+      "pos": "noun",
+      "meaning": "A person who does magic tricks to entertain people.",
+      "examples": [
+        "The {magician} pulled a rabbit out of a hat."
+      ],
+      "wrong": [
+        "The magician cooked dinner in the hotel kitchen every night."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "conjurer"
+      ],
+      "ipa": "/məˈdʒɪʃən/"
+    },
+    {
+      "lemma": "circus",
+      "pos": "noun",
+      "meaning": "A traveling show with clowns, acrobats and sometimes animals, usually in a big tent.",
+      "examples": [
+        "The {circus} is in town for one week."
+      ],
+      "wrong": [
+        "The circus is a quiet room for studying."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈsɝkəs/"
+    },
+    {
+      "lemma": "pastime",
+      "pos": "noun",
+      "meaning": "Something you do regularly for fun in your free time.",
+      "examples": [
+        "Fishing is his favorite {pastime}."
+      ],
+      "wrong": [
+        "His pastime is the work he does every day to earn money."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "hobby",
+        "leisure activity"
+      ],
+      "ipa": "/ˈpæsˌtaɪm/"
+    },
+    {
+      "lemma": "leisure",
+      "pos": "noun",
+      "meaning": "Time when you are not working and can relax.",
+      "examples": [
+        "Most people spend their {leisure} time with family."
+      ],
+      "wrong": [
+        "She has no leisure because she does nothing but relax all week."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "free time",
+        "spare time"
+      ],
+      "ipa": "/ˈliʒɚ/",
+      "antonyms": [
+        "work"
+      ]
+    },
+    {
+      "lemma": "comedian",
+      "pos": "noun",
+      "meaning": "A performer whose job is to make people laugh by telling jokes.",
+      "examples": [
+        "The {comedian} had the whole audience laughing."
+      ],
+      "wrong": [
+        "The comedian made everyone cry with his sad, serious talk."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "comic"
+      ],
+      "ipa": "/kəˈmidiən/"
+    },
+    {
+      "lemma": "choir",
+      "pos": "noun",
+      "meaning": "A group of people who sing together.",
+      "examples": [
+        "She sings in the school {choir}."
+      ],
+      "wrong": [
+        "The choir played drums without singing a note."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "singing group"
+      ],
+      "ipa": "/ˈkwaɪɚ/"
+    },
+    {
+      "lemma": "fireworks",
+      "pos": "noun",
+      "meaning": "Small objects that explode with colored lights and loud noises in the sky.",
+      "examples": [
+        "We watched the {fireworks} on New Year’s Eve."
+      ],
+      "wrong": [
+        "The fireworks lit up the sky silently at noon."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˈfaɪɚˌwɝks/"
+    },
+    {
+      "lemma": "night out",
+      "pos": "phrase",
+      "meaning": "An evening when you go out to enjoy yourself, for example at a restaurant or club.",
+      "examples": [
+        "We’re planning a {night out} for her birthday."
+      ],
+      "wrong": [
+        "Our night out was a quiet evening at home in bed."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "evening out"
+      ],
+      "ipa": "/ˌnaɪt ˈaʊt/"
+    },
+    {
+      "lemma": "kill time",
+      "pos": "phrase",
+      "meaning": "To do something to make waiting pass more quickly.",
+      "examples": [
+        "We played cards to {kill time} at the airport."
+      ],
+      "wrong": [
+        "I killed time by working hard to finish before the deadline."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "pass the time"
+      ],
+      "ipa": "/ˈkɪl ˈtaɪm/"
+    },
+    {
+      "lemma": "be into",
+      "pos": "phrase",
+      "meaning": "To like or be very interested in something.",
+      "examples": [
+        "My brother {is into} jazz and plays the sax."
+      ],
+      "wrong": [
+        "She’s into tennis, so she hates every match."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "be keen on"
+      ],
+      "ipa": "/bi ˈɪntu/"
+    }
+  ]
+}

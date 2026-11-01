@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-change-verbs",
+    "title": "Verbs of change",
+    "level": "C1",
+    "tagline": "Rise, fall and transform",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "accelerate",
+      "pos": "verb",
+      "meaning": "To go faster or make something happen faster.",
+      "examples": [
+        "The car {accelerated} onto the highway."
+      ],
+      "wrong": [
+        "He accelerated, so the car slowed down."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "speed up"
+      ],
+      "ipa": "/əkˈsɛləˌreɪt/",
+      "antonyms": [
+        "decelerate",
+        "slow down"
+      ]
+    },
+    {
+      "lemma": "escalate",
+      "pos": "verb",
+      "meaning": "To become greater, worse or more serious.",
+      "examples": [
+        "The argument {escalated} into a fight."
+      ],
+      "wrong": [
+        "The conflict escalated, so it calmed down."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "intensify",
+        "heighten"
+      ],
+      "ipa": "/ˈɛskəˌleɪt/",
+      "antonyms": [
+        "de-escalate",
+        "subside"
+      ]
+    },
+    {
+      "lemma": "diminish",
+      "pos": "verb",
+      "meaning": "To become smaller or less.",
+      "examples": [
+        "His interest {diminished} over time."
+      ],
+      "wrong": [
+        "Her fear diminished, so it grew stronger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "decrease",
+        "lessen",
+        "decline",
+        "dwindle"
+      ],
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "antonyms": [
+        "increase",
+        "grow"
+      ]
+    },
+    {
+      "lemma": "dwindle",
+      "pos": "verb",
+      "meaning": "To become gradually smaller in number or size.",
+      "examples": [
+        "The crowd {dwindled} as the rain started."
+      ],
+      "wrong": [
+        "Our savings dwindled, so we had more money."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "shrink",
+        "decline"
+      ],
+      "ipa": "/ˈdwɪndəl/",
+      "antonyms": [
+        "grow",
+        "increase"
+      ]
+    },
+    {
+      "lemma": "surge",
+      "pos": "verb",
+      "meaning": "To increase suddenly and strongly.",
+      "examples": [
+        "Sales {surged} before the holidays."
+      ],
+      "wrong": [
+        "Prices surged, so they fell sharply."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "soar",
+        "rise"
+      ],
+      "ipa": "/sɝdʒ/",
+      "antonyms": [
+        "plunge",
+        "drop"
+      ]
+    },
+    {
+      "lemma": "plummet",
+      "pos": "verb",
+      "meaning": "To fall suddenly and by a large amount.",
+      "examples": [
+        "The temperature {plummeted} overnight."
+      ],
+      "wrong": [
+        "Prices plummeted, so they doubled."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "plunge",
+        "drop"
+      ],
+      "ipa": "/ˈplʌmɪt/",
+      "antonyms": [
+        "soar",
+        "rise"
+      ]
+    },
+    {
+      "lemma": "soar",
+      "pos": "verb",
+      "meaning": "To rise quickly to a high level.",
+      "examples": [
+        "House prices have {soared}."
+      ],
+      "wrong": [
+        "Profits soared, so the company lost money."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "rocket",
+        "surge"
+      ],
+      "ipa": "/sɔr/",
+      "antonyms": [
+        "plummet",
+        "plunge"
+      ]
+    },
+    {
+      "lemma": "fluctuate",
+      "pos": "verb",
+      "meaning": "To change often, going up and down.",
+      "examples": [
+        "Prices {fluctuate} with the seasons."
+      ],
+      "wrong": [
+        "The price fluctuated, so it never changed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "vary",
+        "swing"
+      ],
+      "ipa": "/ˈflʌktʃuˌeɪt/"
+    },
+    {
+      "lemma": "stagnate",
+      "pos": "verb",
+      "meaning": "To stop developing or growing.",
+      "examples": [
+        "The economy {stagnated} for years."
+      ],
+      "wrong": [
+        "Growth stagnated, so it rose fast."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "stall"
+      ],
+      "ipa": "/ˈstæɡneɪt/",
+      "antonyms": [
+        "grow",
+        "develop"
+      ]
+    },
+    {
+      "lemma": "deteriorate",
+      "pos": "verb",
+      "meaning": "To become worse.",
+      "examples": [
+        "His health {deteriorated} quickly."
+      ],
+      "wrong": [
+        "The road deteriorated, so it was in better shape."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "worsen",
+        "degrade"
+      ],
+      "ipa": "/dɪˈtɪriəˌreɪt/",
+      "antonyms": [
+        "improve"
+      ]
+    },
+    {
+      "lemma": "flourish",
+      "pos": "verb",
+      "meaning": "To grow or develop very well.",
+      "examples": [
+        "The business {flourished} under new management."
+      ],
+      "wrong": [
+        "The plants flourished, so they all died."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "thrive",
+        "prosper"
+      ],
+      "ipa": "/ˈflɝɪʃ/",
+      "antonyms": [
+        "decline",
+        "wither"
+      ]
+    },
+    {
+      "lemma": "thrive",
+      "pos": "verb",
+      "meaning": "To grow, develop or be successful.",
+      "examples": [
+        "Children {thrive} on attention."
+      ],
+      "wrong": [
+        "The town thrived, so it emptied and failed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "flourish",
+        "prosper"
+      ],
+      "ipa": "/θraɪv/",
+      "antonyms": [
+        "struggle",
+        "decline"
+      ]
+    },
+    {
+      "lemma": "evolve",
+      "pos": "verb",
+      "meaning": "To develop gradually.",
+      "examples": [
+        "The company has {evolved} over twenty years."
+      ],
+      "wrong": [
+        "The language evolved, so it never changed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "develop"
+      ],
+      "ipa": "/ɪˈvɑlv/"
+    },
+    {
+      "lemma": "transform",
+      "pos": "verb",
+      "meaning": "To change something completely, often for the better.",
+      "examples": [
+        "The new park {transformed} the area."
+      ],
+      "wrong": [
+        "The renovation transformed the room, so it looked the same."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "convert",
+        "change"
+      ],
+      "ipa": "/trænsˈfɔrm/"
+    },
+    {
+      "lemma": "revamp",
+      "pos": "verb",
+      "meaning": "To change and improve the look or structure of something.",
+      "examples": [
+        "They {revamped} the website."
+      ],
+      "wrong": [
+        "We revamped the menu by changing nothing."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "overhaul",
+        "renovate"
+      ],
+      "ipa": "/riˈvæmp/"
+    },
+    {
+      "lemma": "overhaul",
+      "pos": "verb",
+      "meaning": "To examine and repair or change completely.",
+      "examples": [
+        "The tax system needs to be {overhauled}."
+      ],
+      "wrong": [
+        "They overhauled the engine by looking at it once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "revamp",
+        "reform"
+      ],
+      "ipa": "/ˌoʊvɚˈhɔl/"
+    },
+    {
+      "lemma": "phase out",
+      "pos": "phrase",
+      "meaning": "To stop using something gradually.",
+      "examples": [
+        "The city will {phase out} diesel buses by 2030."
+      ],
+      "wrong": [
+        "They phased out the old cards by issuing more of them."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "discontinue"
+      ],
+      "ipa": "/ˌfeɪz ˈaʊt/"
+    },
+    {
+      "lemma": "emerge",
+      "pos": "verb",
+      "meaning": "To appear or become known.",
+      "examples": [
+        "New details {emerged} during the trial."
+      ],
+      "wrong": [
+        "The facts emerged, so they stayed hidden."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "appear",
+        "surface"
+      ],
+      "ipa": "/ɪˈmɝdʒ/",
+      "antonyms": [
+        "disappear",
+        "vanish"
+      ]
+    },
+    {
+      "lemma": "expand",
+      "pos": "verb",
+      "meaning": "To become or make larger.",
+      "examples": [
+        "The company plans to {expand} into Asia."
+      ],
+      "wrong": [
+        "The firm expanded, so it got smaller."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "grow",
+        "enlarge"
+      ],
+      "ipa": "/ɪkˈspænd/",
+      "antonyms": [
+        "shrink",
+        "contract"
+      ]
+    },
+    {
+      "lemma": "shrink",
+      "pos": "verb",
+      "meaning": "To become smaller.",
+      "examples": [
+        "My sweater {shrank} in the wash."
+      ],
+      "wrong": [
+        "The shirt shrank, so it got bigger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "contract"
+      ],
+      "ipa": "/ʃrɪŋk/",
+      "antonyms": [
+        "expand",
+        "grow"
+      ]
+    },
+    {
+      "lemma": "intensify",
+      "pos": "verb",
+      "meaning": "To become greater or stronger.",
+      "examples": [
+        "The storm {intensified} overnight."
+      ],
+      "wrong": [
+        "The heat intensified, so it got cooler."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "strengthen",
+        "escalate"
+      ],
+      "ipa": "/ɪnˈtɛnsəˌfaɪ/",
+      "antonyms": [
+        "weaken",
+        "lessen"
+      ]
+    },
+    {
+      "lemma": "subside",
+      "pos": "verb",
+      "meaning": "To become less strong or violent.",
+      "examples": [
+        "The pain {subsided} after an hour."
+      ],
+      "wrong": [
+        "The wind subsided, so it got stronger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "abate",
+        "ease"
+      ],
+      "ipa": "/səbˈsaɪd/",
+      "antonyms": [
+        "intensify",
+        "increase"
+      ]
+    },
+    {
+      "lemma": "revitalize",
+      "pos": "verb",
+      "meaning": "To give new life or energy to something.",
+      "examples": [
+        "The plan aims to {revitalize} the old port."
+      ],
+      "wrong": [
+        "They revitalized the town center by closing every shop."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "regenerate",
+        "revive"
+      ],
+      "ipa": "/riˈvaɪtəˌlaɪz/"
+    },
+    {
+      "lemma": "adjust",
+      "pos": "verb",
+      "meaning": "To change something slightly to make it work better.",
+      "examples": [
+        "{Adjust} the seat so you can reach the pedals."
+      ],
+      "wrong": [
+        "I adjusted the volume by leaving it exactly as it was."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "adapt",
+        "modify",
+        "alter"
+      ],
+      "ipa": "/əˈdʒʌst/"
+    },
+    {
+      "lemma": "modify",
+      "pos": "verb",
+      "meaning": "To change something slightly.",
+      "examples": [
+        "We {modified} the design after the tests."
+      ],
+      "wrong": [
+        "They modified the plan by keeping every detail the same."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "alter",
+        "adjust"
+      ],
+      "ipa": "/ˈmɑdəˌfaɪ/"
+    },
+    {
+      "lemma": "alter",
+      "pos": "verb",
+      "meaning": "To change something.",
+      "examples": [
+        "The dress needs to be {altered}."
+      ],
+      "wrong": [
+        "We altered the route, so it stayed the same."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "change",
+        "modify"
+      ],
+      "ipa": "/ˈɔltɚ/"
+    },
+    {
+      "lemma": "amplify",
+      "pos": "verb",
+      "meaning": "To make a sound or effect stronger.",
+      "examples": [
+        "Social media can {amplify} rumors."
+      ],
+      "wrong": [
+        "The speakers amplified the music by making it quieter."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "magnify",
+        "boost"
+      ],
+      "ipa": "/ˈæmpləˌfaɪ/",
+      "antonyms": [
+        "reduce",
+        "muffle"
+      ]
+    },
+    {
+      "lemma": "broaden",
+      "pos": "verb",
+      "meaning": "To make something wider or include more.",
+      "examples": [
+        "Travel {broadens} the mind."
+      ],
+      "wrong": [
+        "The course broadened my view by narrowing it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "widen",
+        "extend"
+      ],
+      "ipa": "/ˈbrɔdən/",
+      "antonyms": [
+        "narrow",
+        "restrict"
+      ]
+    },
+    {
+      "lemma": "restrict",
+      "pos": "verb",
+      "meaning": "To limit something.",
+      "examples": [
+        "The new rules {restrict} parking in the center."
+      ],
+      "wrong": [
+        "The law restricts smoking, so you can smoke anywhere."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "limit",
+        "curb"
+      ],
+      "ipa": "/rɪˈstrɪkt/",
+      "antonyms": [
+        "allow",
+        "expand"
+      ]
+    },
+    {
+      "lemma": "curb",
+      "pos": "verb",
+      "meaning": "To control or limit something unwanted.",
+      "examples": [
+        "The government wants to {curb} inflation."
+      ],
+      "wrong": [
+        "They curbed spending by spending more."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "restrain",
+        "limit"
+      ],
+      "ipa": "/kɝb/"
+    },
+    {
+      "lemma": "boost",
+      "pos": "verb",
+      "meaning": "To increase or improve something.",
+      "examples": [
+        "The new ads {boosted} sales."
+      ],
+      "wrong": [
+        "The campaign boosted sales, so they fell."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "increase",
+        "raise"
+      ],
+      "ipa": "/bust/",
+      "antonyms": [
+        "reduce",
+        "lower"
+      ]
+    },
+    {
+      "lemma": "stabilize",
+      "pos": "verb",
+      "meaning": "To become steady or make something steady.",
+      "examples": [
+        "Prices have {stabilized}."
+      ],
+      "wrong": [
+        "The patient stabilized, so his condition changed wildly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "steady",
+        "settle"
+      ],
+      "ipa": "/ˈsteɪbəˌlaɪz/",
+      "antonyms": [
+        "destabilize"
+      ]
+    },
+    {
+      "lemma": "decline",
+      "pos": "verb",
+      "meaning": "To become less or worse.",
+      "examples": [
+        "Bird numbers have {declined} sharply."
+      ],
+      "wrong": [
+        "Sales declined, so they went up."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "decrease",
+        "fall"
+      ],
+      "ipa": "/dɪˈklaɪn/",
+      "antonyms": [
+        "increase",
+        "improve"
+      ]
+    },
+    {
+      "lemma": "upgrade",
+      "pos": "verb",
+      "meaning": "To improve something, often to a newer version.",
+      "examples": [
+        "We {upgraded} our computers."
+      ],
+      "wrong": [
+        "We upgraded the software to an older, weaker version."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "improve"
+      ],
+      "ipa": "/ˌʌpˈɡreɪd/",
+      "antonyms": [
+        "downgrade"
+      ]
+    },
+    {
+      "lemma": "transition",
+      "pos": "noun",
+      "meaning": "The process of changing from one state to another.",
+      "examples": [
+        "The {transition} to the new system was smooth."
+      ],
+      "wrong": [
+        "The transition meant nothing changed."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "shift",
+        "changeover"
+      ],
+      "ipa": "/trænˈzɪʃən/"
+    },
+    {
+      "lemma": "reshape",
+      "pos": "verb",
+      "meaning": "To change the form or structure of something.",
+      "examples": [
+        "Technology has {reshaped} the music industry."
+      ],
+      "wrong": [
+        "The new law reshaped the system by leaving it exactly as before."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "restructure",
+        "remodel"
+      ],
+      "ipa": "/riˈʃeɪp/"
+    },
+    {
+      "lemma": "disrupt",
+      "pos": "verb",
+      "meaning": "To interrupt something and stop it from continuing normally.",
+      "examples": [
+        "The strike {disrupted} train services."
+      ],
+      "wrong": [
+        "The protest disrupted traffic, so it flowed smoothly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "interrupt",
+        "upset"
+      ],
+      "ipa": "/dɪsˈrʌpt/"
+    },
+    {
+      "lemma": "reverse",
+      "pos": "verb",
+      "meaning": "To change something to the opposite.",
+      "examples": [
+        "The court {reversed} the earlier decision."
+      ],
+      "wrong": [
+        "They reversed the decision by keeping it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "overturn",
+        "undo"
+      ],
+      "ipa": "/rɪˈvɝs/"
+    },
+    {
+      "lemma": "accumulate",
+      "pos": "verb",
+      "meaning": "To gradually collect or increase.",
+      "examples": [
+        "Dust {accumulated} on the shelves."
+      ],
+      "wrong": [
+        "Debts accumulated, so they got smaller."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "build up",
+        "gather"
+      ],
+      "ipa": "/əˈkjumjəˌleɪt/",
+      "antonyms": [
+        "disperse",
+        "dwindle"
+      ]
+    },
+    {
+      "lemma": "erode",
+      "pos": "verb",
+      "meaning": "To gradually damage or destroy.",
+      "examples": [
+        "Inflation {erodes} savings."
+      ],
+      "wrong": [
+        "Trust eroded, so it grew stronger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "wear away",
+        "undermine"
+      ],
+      "ipa": "/ɪˈroʊd/"
+    }
+  ]
+}

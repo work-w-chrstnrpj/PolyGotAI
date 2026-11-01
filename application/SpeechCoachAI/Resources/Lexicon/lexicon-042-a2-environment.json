@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-environment",
+    "title": "Nature and the environment",
+    "level": "A2",
+    "tagline": "Plants, animals and pollution",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "trash",
+      "pos": "noun",
+      "meaning": "Things you throw away because you don’t want them.",
+      "examples": [
+        "Please put your {trash} in the bin."
+      ],
+      "wrong": [
+        "She threw away the trash because she wanted to keep it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "garbage",
+        "rubbish"
+      ],
+      "ipa": "/træʃ/"
+    },
+    {
+      "lemma": "plastic",
+      "pos": "noun",
+      "meaning": "A light, strong material made from oil, used for bottles and bags.",
+      "examples": [
+        "This bottle is made of {plastic}."
+      ],
+      "wrong": [
+        "Plastic is a kind of fruit that grows on trees."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈplæstɪk/"
+    },
+    {
+      "lemma": "energy",
+      "pos": "noun",
+      "meaning": "Power from things like electricity or gas that makes machines work.",
+      "examples": [
+        "Turn off the lights to save {energy}."
+      ],
+      "wrong": [
+        "The heater uses no energy, but it makes the room hot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "power"
+      ],
+      "ipa": "/ˈɛnɚdʒi/"
+    },
+    {
+      "lemma": "solar power",
+      "pos": "phrase",
+      "meaning": "Electricity made from the light of the sun.",
+      "examples": [
+        "Our school uses {solar power} from panels on the roof."
+      ],
+      "wrong": [
+        "Solar power is made by burning coal at night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "solar energy"
+      ],
+      "ipa": "/ˈsoʊlɚ ˈpaʊɚ/"
+    },
+    {
+      "lemma": "wind power",
+      "pos": "phrase",
+      "meaning": "Electricity made when moving air turns big machines.",
+      "examples": [
+        "Those tall white towers make {wind power}."
+      ],
+      "wrong": [
+        "Wind power works best on days when the air does not move at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "wind energy"
+      ],
+      "ipa": "/ˈwɪnd ˈpaʊɚ/"
+    },
+    {
+      "lemma": "smoke",
+      "pos": "noun",
+      "meaning": "The gray or black cloud that comes from something burning.",
+      "examples": [
+        "Black {smoke} came out of the factory chimney."
+      ],
+      "wrong": [
+        "Smoke is clear water that falls from the sky."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/smoʊk/"
+    },
+    {
+      "lemma": "reuse",
+      "pos": "verb",
+      "meaning": "To keep a thing and put it to work again rather than throw it away.",
+      "examples": [
+        "I {reuse} glass jars to store rice."
+      ],
+      "wrong": [
+        "She reuses her paper cups by throwing them away after one drink."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/riˈjuz/"
+    },
+    {
+      "lemma": "environmental",
+      "pos": "adjective",
+      "meaning": "Connected with the air, water and land around us.",
+      "examples": [
+        "Pollution is a big {environmental} problem."
+      ],
+      "wrong": [
+        "Our biggest environmental problem is that my phone is too slow."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ɪnˌvaɪrənˈmɛntəl/"
+    },
+    {
+      "lemma": "save energy",
+      "pos": "phrase",
+      "meaning": "To use less electricity, gas or fuel.",
+      "examples": [
+        "We {save energy} by turning off lights we are not using."
+      ],
+      "wrong": [
+        "He saves energy by leaving the heater on all night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈseɪv ˈɛnɚdʒi/"
+    },
+    {
+      "lemma": "coal",
+      "pos": "noun",
+      "meaning": "A hard black rock that is burned to make heat or electricity.",
+      "examples": [
+        "Burning {coal} makes the air dirty."
+      ],
+      "wrong": [
+        "Coal is a soft white powder used to make cakes."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/koʊl/"
+    },
+    {
+      "lemma": "cut down",
+      "pos": "verb",
+      "meaning": "To make a tree fall by cutting it.",
+      "examples": [
+        "They {cut down} the old trees to build houses."
+      ],
+      "wrong": [
+        "They cut down the tree, and it is still standing tall."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "chop down"
+      ],
+      "ipa": "/ˈkʌt ˈdaʊn/"
+    },
+    {
+      "lemma": "air pollution",
+      "pos": "phrase",
+      "meaning": "Dirty or harmful gases and smoke in the air.",
+      "examples": [
+        "Cars and factories cause a lot of {air pollution}."
+      ],
+      "wrong": [
+        "The air pollution was so low that the air was the cleanest ever."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "smog"
+      ],
+      "ipa": "/ˈɛr pəˈluʃən/"
+    },
+    {
+      "lemma": "polluted",
+      "pos": "adjective",
+      "meaning": "Made dirty and harmful by waste, smoke or chemicals.",
+      "examples": [
+        "Nobody can swim in the river because it is {polluted}."
+      ],
+      "wrong": [
+        "The polluted lake was so clean that we drank from it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "dirty",
+        "contaminated"
+      ],
+      "ipa": "/pəˈlutɪd/"
+    },
+    {
+      "lemma": "polar bear",
+      "pos": "phrase",
+      "meaning": "A large white bear that lives near the North Pole.",
+      "examples": [
+        "{Polar bears} hunt on the ice for seals."
+      ],
+      "wrong": [
+        "Polar bears live in hot deserts with no ice."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpoʊlɚ ˈbɛr/"
+    },
+    {
+      "lemma": "turtle",
+      "pos": "noun",
+      "meaning": "An animal with a hard shell that lives in or near water.",
+      "examples": [
+        "A sea {turtle} swam slowly past the boat."
+      ],
+      "wrong": [
+        "The turtle flew over the trees on its wings."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtɝtəl/"
+    },
+    {
+      "lemma": "bush",
+      "pos": "noun",
+      "meaning": "A plant like a small tree with many branches.",
+      "examples": [
+        "A bird made its nest in the {bush}."
+      ],
+      "wrong": [
+        "The bush is taller than the highest tree in the forest."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "shrub"
+      ],
+      "ipa": "/bʊʃ/"
+    },
+    {
+      "lemma": "woods",
+      "pos": "noun",
+      "meaning": "An area of land covered with trees, smaller than a forest.",
+      "examples": [
+        "We walked through the {woods} to the lake."
+      ],
+      "wrong": [
+        "The woods had no trees at all."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "forest"
+      ],
+      "ipa": "/wʊdz/"
+    },
+    {
+      "lemma": "rock",
+      "pos": "noun",
+      "meaning": "A large, hard piece of stone.",
+      "examples": [
+        "We sat on a big {rock} by the river."
+      ],
+      "wrong": [
+        "The rock was so soft that it melted in my hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "stone",
+        "boulder"
+      ],
+      "ipa": "/rɑk/"
+    },
+    {
+      "lemma": "petal",
+      "pos": "noun",
+      "meaning": "One of the colored parts of a flower.",
+      "examples": [
+        "The rose has soft red {petals}."
+      ],
+      "wrong": [
+        "The petal is the part of a tree under the ground."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpɛtəl/"
+    },
+    {
+      "lemma": "cactus",
+      "pos": "noun",
+      "meaning": "A plant with sharp points that grows in hot, dry places.",
+      "examples": [
+        "A {cactus} can live for months without rain."
+      ],
+      "wrong": [
+        "A cactus needs lots of water and grows best in the snow."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkæktəs/"
+    },
+    {
+      "lemma": "sunflower",
+      "pos": "noun",
+      "meaning": "A very tall plant with a big round yellow head and black seeds.",
+      "examples": [
+        "The {sunflowers} in the field were taller than me."
+      ],
+      "wrong": [
+        "A sunflower is a tiny blue plant that grows in the dark."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsʌnˌflaʊɚ/"
+    },
+    {
+      "lemma": "feather",
+      "pos": "noun",
+      "meaning": "One of the soft, light things that cover a bird’s body.",
+      "examples": [
+        "A white {feather} fell from the bird’s wing."
+      ],
+      "wrong": [
+        "The feather was so heavy that I couldn’t lift it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfɛðɚ/"
+    },
+    {
+      "lemma": "sunlight",
+      "pos": "noun",
+      "meaning": "The bright light that comes down from the sky during the day.",
+      "examples": [
+        "Plants need {sunlight} to grow."
+      ],
+      "wrong": [
+        "We sat in the warm sunlight in the middle of the night."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈsʌnˌlaɪt/"
+    },
+    {
+      "lemma": "natural",
+      "pos": "adjective",
+      "meaning": "Coming from plants, animals or the earth, not made by people or machines.",
+      "examples": [
+        "The park has a {natural} lake, not one made by people."
+      ],
+      "wrong": [
+        "The plastic flowers look nice, and they are completely natural."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnætʃərəl/",
+      "antonyms": [
+        "artificial",
+        "man-made"
+      ]
+    },
+    {
+      "lemma": "oxygen",
+      "pos": "noun",
+      "meaning": "The gas in the air that people and animals need to breathe.",
+      "examples": [
+        "Trees give us the {oxygen} we breathe."
+      ],
+      "wrong": [
+        "We need oxygen, so we try never to breathe."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɑksɪdʒən/"
+    },
+    {
+      "lemma": "bee",
+      "pos": "noun",
+      "meaning": "A flying insect that makes honey and can sting.",
+      "examples": [
+        "A {bee} landed on the flower."
+      ],
+      "wrong": [
+        "The bee gave milk to its babies."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/bi/"
+    },
+    {
+      "lemma": "butterfly",
+      "pos": "noun",
+      "meaning": "An insect with large, colorful wings.",
+      "examples": [
+        "A yellow {butterfly} sat on a flower."
+      ],
+      "wrong": [
+        "The butterfly swam to the bottom of the sea."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbʌtɚˌflaɪ/"
+    },
+    {
+      "lemma": "wolf",
+      "pos": "noun",
+      "meaning": "A wild animal like a large dog that lives and hunts in groups.",
+      "examples": [
+        "We heard a {wolf} howling in the forest."
+      ],
+      "wrong": [
+        "The wolf is a small fish that lives in ponds."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/wʊlf/"
+    },
+    {
+      "lemma": "fox",
+      "pos": "noun",
+      "meaning": "A wild animal like a small dog with red fur and a thick tail.",
+      "examples": [
+        "A {fox} ran across the field at night."
+      ],
+      "wrong": [
+        "The fox has green feathers and lays eggs in trees."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/fɑks/"
+    },
+    {
+      "lemma": "deer",
+      "pos": "noun",
+      "meaning": "A wild animal with long legs; the males often have horns like branches.",
+      "examples": [
+        "We saw a {deer} eating grass at the edge of the woods."
+      ],
+      "wrong": [
+        "The deer flew up into the sky."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/dɪr/"
+    },
+    {
+      "lemma": "whale",
+      "pos": "noun",
+      "meaning": "A very large animal that lives in the sea and breathes air.",
+      "examples": [
+        "A huge {whale} came up out of the water."
+      ],
+      "wrong": [
+        "The whale is so small it can sit in your hand."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/weɪl/"
+    },
+    {
+      "lemma": "dolphin",
+      "pos": "noun",
+      "meaning": "A clever, friendly sea animal like a small whale.",
+      "examples": [
+        "{Dolphins} jumped in the waves next to our boat."
+      ],
+      "wrong": [
+        "Dolphins live in trees in the desert."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdɑlfɪn/"
+    },
+    {
+      "lemma": "shark",
+      "pos": "noun",
+      "meaning": "A large fish with sharp teeth.",
+      "examples": [
+        "The {shark} swam fast toward the smaller fish."
+      ],
+      "wrong": [
+        "The shark climbed the mountain to find food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ʃɑrk/"
+    },
+    {
+      "lemma": "frog",
+      "pos": "noun",
+      "meaning": "A small green animal with long back legs that jumps and lives near water.",
+      "examples": [
+        "A {frog} jumped into the pond."
+      ],
+      "wrong": [
+        "The frog has wings and flies high above the clouds."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/frɔɡ/"
+    },
+    {
+      "lemma": "eagle",
+      "pos": "noun",
+      "meaning": "A large bird with strong wings that hunts small animals.",
+      "examples": [
+        "An {eagle} flew high above the mountains."
+      ],
+      "wrong": [
+        "The eagle is a tiny insect that lives in the grass."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈiɡəl/"
+    },
+    {
+      "lemma": "owl",
+      "pos": "noun",
+      "meaning": "A bird with big eyes that hunts at night.",
+      "examples": [
+        "We heard an {owl} hooting in the dark."
+      ],
+      "wrong": [
+        "The owl sleeps all night and hunts at noon."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/aʊl/"
+    },
+    {
+      "lemma": "squirrel",
+      "pos": "noun",
+      "meaning": "A small animal with a long thick tail that climbs trees and eats nuts.",
+      "examples": [
+        "A {squirrel} buried a nut in the garden."
+      ],
+      "wrong": [
+        "The squirrel is a large animal that lives in the sea."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈskwɝəl/"
+    },
+    {
+      "lemma": "spider",
+      "pos": "noun",
+      "meaning": "A small animal with eight legs that makes webs.",
+      "examples": [
+        "A {spider} made a web in the corner."
+      ],
+      "wrong": [
+        "The spider has two legs and sings in the morning."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈspaɪdɚ/"
+    },
+    {
+      "lemma": "oil spill",
+      "pos": "phrase",
+      "meaning": "An accident when oil comes out of a ship and covers the sea.",
+      "examples": [
+        "The {oil spill} killed many sea birds."
+      ],
+      "wrong": [
+        "After the oil spill, the beach was cleaner than ever."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɔɪl ˌspɪl/"
+    },
+    {
+      "lemma": "wild animal",
+      "pos": "phrase",
+      "meaning": "An animal that lives free in nature, not with people.",
+      "examples": [
+        "Lions are {wild animals} that live in Africa."
+      ],
+      "wrong": [
+        "My pet cat is a wild animal that sleeps on my bed."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈwaɪld ˈænəməl/",
+      "antonyms": [
+        "pet"
+      ]
+    }
+  ]
+}

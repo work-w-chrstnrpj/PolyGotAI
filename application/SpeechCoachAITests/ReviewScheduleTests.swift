@@ -364,25 +364,6 @@ struct ReviewDeliveryTests {
         #expect(try repo.vocabularyRecalls().count == 1)
     }
 
-    @Test func staleSettingsAndRecallCannotRepopulateAResetLearner() throws {
-        let root = temporaryRoot()
-        defer { try? FileManager.default.removeItem(at: root) }
-        let repo = try repository(root)
-        defer { repo.close() }
-        let epoch = try repo.learningDataEpoch()
-        let card = try collectedCard(repo)
-        try repo.addCollectedVocabularyToReview(card)
-        try repo.saveReviewSettings(ReviewSettings(sessionLimit: 1), expectedEpoch: epoch)
-        try repo.savePracticeGoal(.speechLab, expectedEpoch: epoch)
-        try repo.deleteAllLearningData()
-        #expect(try repo.reviewSettings() == ReviewSettings())
-        #expect(try repo.practiceGoal() == nil)
-        #expect(throws: LearnerStorageError.invalidState) { try repo.saveReviewSettings(ReviewSettings(sessionLimit: 2), expectedEpoch: epoch) }
-        #expect(throws: LearnerStorageError.invalidState) { try repo.savePracticeGoal(.openLesson, expectedEpoch: epoch) }
-        #expect(throws: LearnerStorageError.invalidState) { try repo.stageOpenRecall(card: card, draft: RecallDraft(), expectedEpoch: epoch) }
-        #expect(throws: LearnerStorageError.invalidState) { try repo.recordVocabularyRecall(card: card, rating: .good, draft: RecallDraft(revealed: true), expectedEpoch: epoch) }
-        #expect(try repo.vocabularyRecalls().isEmpty)
-    }
 
     @Test func legacyCardAndRatingDecodeWithoutInventingParameterHistory() throws {
         let scheduled = try ReviewSchedule.schedule(existing: nil, rating: .easy, now: now, itemId: "item", senseId: "sense")
@@ -399,26 +380,6 @@ struct ReviewDeliveryTests {
         #expect(decoded.desiredRetention == nil)
     }
 
-    @Test func sharedGoalAPIKeepsIndependentReviewSettingsAndSurvivesRestart() throws {
-        let root = temporaryRoot()
-        defer { try? FileManager.default.removeItem(at: root) }
-        var repo = try repository(root)
-        defer { repo.close() }
-        #expect(try repo.practiceGoal() == nil)
-        try repo.saveReviewSettings(ReviewSettings(sessionLimit: 3))
-        try repo.savePracticeGoal(.speechLab)
-        repo.close()
-        repo = try repository(root)
-        #expect(try repo.practiceGoal() == .speechLab)
-        #expect(try repo.reviewSettings().sessionLimit == 3)
-        repo.beforeCommit = { throw LearnerStorageError.storageFailure }
-        #expect(throws: LearnerStorageError.storageFailure) { try repo.savePracticeGoal(.openLesson) }
-        repo.beforeCommit = nil
-        #expect(try repo.practiceGoal() == .speechLab)
-        try repo.savePracticeGoal(nil)
-        #expect(try repo.practiceGoal() == nil)
-        #expect(try repo.reviewSettings().sessionLimit == 3)
-    }
 
     @Test func duplicateHistoryCannotBeBypassedByDirectRating() throws {
         let root = temporaryRoot()

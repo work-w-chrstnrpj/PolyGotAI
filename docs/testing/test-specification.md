@@ -1,5 +1,7 @@
 # Test specification (v2)
 
+> **Phase 7 (2026-10-26):** Communication practice, Generated practice, Vocabulary discovery and the v1 Word of the day were removed with their stored fields (`communication`, `generatedPractice`, `wordOfDay`); mentions of them below are historical. See [TDD › Phase 7 rework](../tdd/tdd.md#phase-7-rework-2026-10-26).
+
 > v1 test plan and evidence: [history/v1/testing](../history/v1/testing/).
 
 ## How to run
@@ -32,7 +34,7 @@ This builds the app and runs all hosted unit tests and UI tests on the iPhone 18
 
 | Phase | Must-have tests |
 | --- | --- |
-| 0 | Existing suite green; no "unavailable/not scored/coming later" strings on Today, Learn or Speech Lab (UI test reads static texts) |
+| 0 | Existing suite green; no "unavailable/not scored/coming later" strings on Today, the Lesson tab or Speech Lab (UI test reads static texts) |
 | 1 | `AnswerChecker` (normalization, contractions, almost-matches, alternatives); each exercise type's check; `ExerciseSession` re-queue and accuracy; legacy activity mapping; A1 content validation; UI: complete one A1 lesson with mixed types |
 | 2 | Track loading and validation; unique lesson ids across course and tracks; new coach cases decode; UI: open a coach and start a lesson |
 | 3 | All track files validate; source credits present |
@@ -41,3 +43,9 @@ This builds the app and runs all hosted unit tests and UI tests on the iPhone 18
 ## Existing suites (v1, kept)
 
 `BootstrapConfiguration`, `CaptureRecovery`, `CoachingValidation`, `CommunicationDelivery`, `ConversationDelivery`, `CurriculumCatalog`, `CustomVocabulary`, `DailyProgressDelivery`, `GeneratedPracticeDelivery`, `IntroductionDelivery`, `LearnerRepository`, `LessonJourney`, `PracticePreferences`, `PracticeRecommendation`, `ProviderCredential`, `ResourceLibraryAcceptance`, `ResourceLibraryDelivery`, `ReviewCredit`, `ReviewSchedule`, `RewardDelivery`, `SmallA1Course`, `SpeakingLoopIntegration`, `TranscriptionLifecycle`, `VocabularyDiscoveryDelivery`, `VocabularyLink`, `VocabularyRecall`; UI: `BootstrapLaunchTests`. When a v2 change makes a test's expectation obsolete (e.g. a removed screen), update or remove the test in the same change and say so in the report.
+
+## Phase 13 — topic lessons
+
+`TopicLessonTests` verifies all ten coaches have valid teaching/examples and 15–20 activities, exact retired-version recovery, no old-to-new credit transfer, repository checkpoint/answer retention, legacy JSON compatibility and malformed-page rejection. `TrackContentTests` checks every current model answer and syllabus shape. `validate.py` checks reading examples/counts and archived content; the topic builder must produce byte-identical output when repeated.
+
+`Phase13TopicLessonTests`: open Nouns, read/back, relaunch at the saved page, enter exercises, answer, reread and return to the same next exercise; Business topic reading at largest text in dark mode, portrait/landscape. Repeat on iPhone/iPad. Phase 2 coach continuation and the real Grammarian stage test use the new topic IDs/counts. Evidence/results: [Phase 13](../development-plan/phases/phase-13/README.md). Content review, real VoiceOver and owner acceptance remain separate gates.

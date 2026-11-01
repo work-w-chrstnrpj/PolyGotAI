@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-phrasal-verbs",
+    "title": "Advanced phrasal verbs",
+    "level": "C1",
+    "tagline": "Iron out, bank on, gloss over",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "iron out",
+      "pos": "verb",
+      "meaning": "To solve small problems or difficulties.",
+      "examples": [
+        "We need to {iron out} a few issues before the launch."
+      ],
+      "wrong": [
+        "They ironed out the problems by making them much worse."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "resolve",
+        "sort out"
+      ],
+      "ipa": "/ˈaɪɚn ˈaʊt/"
+    },
+    {
+      "lemma": "bank on",
+      "pos": "verb",
+      "meaning": "To depend on something happening or on someone doing something.",
+      "examples": [
+        "Don’t {bank on} getting a refund."
+      ],
+      "wrong": [
+        "I banked on his help, so I never expected him to come."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "count on",
+        "rely on"
+      ],
+      "ipa": "/ˈbæŋk ˈɑn/"
+    },
+    {
+      "lemma": "gloss over",
+      "pos": "verb",
+      "meaning": "To avoid talking about a problem by treating it as unimportant.",
+      "examples": [
+        "The report {glossed over} the safety failures."
+      ],
+      "wrong": [
+        "She glossed over the mistake by explaining it in full detail."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "skate over",
+        "play down"
+      ],
+      "ipa": "/ˈɡlɔs ˈoʊvɚ/"
+    },
+    {
+      "lemma": "map out",
+      "pos": "verb",
+      "meaning": "To plan something carefully and in detail.",
+      "examples": [
+        "We {mapped out} the project’s main stages."
+      ],
+      "wrong": [
+        "They mapped out the trip by setting off with no plan."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "plan",
+        "outline"
+      ],
+      "ipa": "/ˈmæp ˈaʊt/"
+    },
+    {
+      "lemma": "come up against",
+      "pos": "verb",
+      "meaning": "To have to deal with a difficult problem or opposition.",
+      "examples": [
+        "The plan {came up against} strong local resistance."
+      ],
+      "wrong": [
+        "We came up against no problems, so it was very hard."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "face",
+        "encounter"
+      ],
+      "ipa": "/ˈkʌm ˈʌp əˈɡɛnst/"
+    },
+    {
+      "lemma": "head up",
+      "pos": "verb",
+      "meaning": "To be in charge of a team, group or project.",
+      "examples": [
+        "She will {head up} the new research unit."
+      ],
+      "wrong": [
+        "He heads up the team, so he has no say in it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "lead",
+        "run"
+      ],
+      "ipa": "/ˈhɛd ˈʌp/"
+    },
+    {
+      "lemma": "drum up",
+      "pos": "verb",
+      "meaning": "To get support or interest by making an effort.",
+      "examples": [
+        "They held a concert to {drum up} support for the charity."
+      ],
+      "wrong": [
+        "She drummed up support by hiding the event from everyone."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "rally",
+        "whip up"
+      ],
+      "ipa": "/ˈdrʌm ˈʌp/"
+    },
+    {
+      "lemma": "prop up",
+      "pos": "verb",
+      "meaning": "To give help or support to something that would otherwise fail.",
+      "examples": [
+        "Government loans {propped up} the failing airline."
+      ],
+      "wrong": [
+        "The loans propped up the firm, so it collapsed at once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "support",
+        "bolster"
+      ],
+      "ipa": "/ˈprɑp ˈʌp/"
+    },
+    {
+      "lemma": "flesh out",
+      "pos": "verb",
+      "meaning": "To add more details to a plan or idea.",
+      "examples": [
+        "Can you {flesh out} the proposal for Monday?"
+      ],
+      "wrong": [
+        "He fleshed out the plan by cutting it to one line."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "expand on",
+        "develop"
+      ],
+      "ipa": "/ˈflɛʃ ˈaʊt/"
+    },
+    {
+      "lemma": "factor in",
+      "pos": "verb",
+      "meaning": "To include something when you plan or calculate.",
+      "examples": [
+        "Remember to {factor in} the cost of shipping."
+      ],
+      "wrong": [
+        "She factored in the travel time by leaving it out of the plan."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "allow for",
+        "include"
+      ],
+      "ipa": "/ˈfæktɚ ˈɪn/"
+    },
+    {
+      "lemma": "hammer out",
+      "pos": "verb",
+      "meaning": "To reach an agreement after long and difficult discussion.",
+      "examples": [
+        "The unions {hammered out} a deal with management."
+      ],
+      "wrong": [
+        "They hammered out a deal in two seconds without talking."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "thrash out",
+        "negotiate"
+      ],
+      "ipa": "/ˈhæmɚ ˈaʊt/"
+    },
+    {
+      "lemma": "spell out",
+      "pos": "verb",
+      "meaning": "To explain something clearly and in detail.",
+      "examples": [
+        "The contract {spells out} who pays for repairs."
+      ],
+      "wrong": [
+        "He spelled out the rules by keeping them vague and secret."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "clarify",
+        "set out"
+      ],
+      "ipa": "/ˈspɛl ˈaʊt/"
+    },
+    {
+      "lemma": "dwell on",
+      "pos": "verb",
+      "meaning": "To keep thinking or talking about something, often something unpleasant.",
+      "examples": [
+        "Try not to {dwell on} your past mistakes."
+      ],
+      "wrong": [
+        "She dwelled on the problem by forgetting it instantly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "brood over"
+      ],
+      "ipa": "/ˈdwɛl ɑn/"
+    },
+    {
+      "lemma": "buckle down",
+      "pos": "verb",
+      "meaning": "To start working seriously and with effort.",
+      "examples": [
+        "It’s time to {buckle down} and study for the finals."
+      ],
+      "wrong": [
+        "He buckled down by lying on the sofa all week."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "knuckle down"
+      ],
+      "ipa": "/ˈbʌkəl ˈdaʊn/"
+    },
+    {
+      "lemma": "pore over",
+      "pos": "verb",
+      "meaning": "To study or read something very carefully.",
+      "examples": [
+        "Lawyers {pored over} the contract for days."
+      ],
+      "wrong": [
+        "She pored over the report by glancing at it for a second."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "study",
+        "scrutinize"
+      ],
+      "ipa": "/ˈpɔr ˈoʊvɚ/"
+    },
+    {
+      "lemma": "rein in",
+      "pos": "verb",
+      "meaning": "To control something more strictly, such as spending.",
+      "examples": [
+        "The government must {rein in} public spending."
+      ],
+      "wrong": [
+        "They reined in costs by spending far more than before."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "curb",
+        "restrain"
+      ],
+      "ipa": "/ˈreɪn ˈɪn/"
+    },
+    {
+      "lemma": "scale back",
+      "pos": "verb",
+      "meaning": "To reduce the size or amount of something.",
+      "examples": [
+        "We had to {scale back} our plans for the festival."
+      ],
+      "wrong": [
+        "They scaled back the project by making it twice as big."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cut back",
+        "reduce"
+      ],
+      "ipa": "/ˈskeɪl ˈbæk/",
+      "antonyms": [
+        "expand",
+        "step up"
+      ]
+    },
+    {
+      "lemma": "shore up",
+      "pos": "verb",
+      "meaning": "To support or strengthen something that is weak or failing.",
+      "examples": [
+        "The bank cut rates to {shore up} the economy."
+      ],
+      "wrong": [
+        "They shored up the old wall by knocking it down."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "bolster",
+        "reinforce"
+      ],
+      "ipa": "/ˈʃɔr ˈʌp/"
+    },
+    {
+      "lemma": "tease out",
+      "pos": "verb",
+      "meaning": "To find information or meaning with patience and care.",
+      "examples": [
+        "The study {teases out} the causes of the decline."
+      ],
+      "wrong": [
+        "She teased out the meaning by refusing to look at the text."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "draw out",
+        "extract"
+      ],
+      "ipa": "/ˈtiz ˈaʊt/"
+    },
+    {
+      "lemma": "sound out",
+      "pos": "verb",
+      "meaning": "To talk to someone to find out what they think about something.",
+      "examples": [
+        "I’ll {sound out} the team before we decide."
+      ],
+      "wrong": [
+        "She sounded out her colleagues by not asking anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "consult",
+        "canvass"
+      ],
+      "ipa": "/ˈsaʊnd ˈaʊt/"
+    },
+    {
+      "lemma": "stave off",
+      "pos": "verb",
+      "meaning": "To stop something bad from happening for a time.",
+      "examples": [
+        "The loan {staved off} bankruptcy for another year."
+      ],
+      "wrong": [
+        "The snack staved off hunger, so I was starving at once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ward off",
+        "avert"
+      ],
+      "ipa": "/ˈsteɪv ˈɔf/"
+    },
+    {
+      "lemma": "water down",
+      "pos": "verb",
+      "meaning": "To make a plan or statement weaker or less forceful.",
+      "examples": [
+        "The final law was {watered down} after protests."
+      ],
+      "wrong": [
+        "They watered down the rules by making them far stricter."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dilute",
+        "weaken"
+      ],
+      "ipa": "/ˈwɔtɚ ˈdaʊn/",
+      "antonyms": [
+        "strengthen"
+      ]
+    },
+    {
+      "lemma": "stem from",
+      "pos": "verb",
+      "meaning": "To be caused by something or come from it.",
+      "examples": [
+        "Her fear of dogs {stems from} a childhood bite."
+      ],
+      "wrong": [
+        "The problem stems from nothing and has no cause."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "arise from",
+        "result from"
+      ],
+      "ipa": "/ˈstɛm frəm/"
+    },
+    {
+      "lemma": "touch on",
+      "pos": "verb",
+      "meaning": "To mention a subject briefly.",
+      "examples": [
+        "The lecture only {touched on} the history of the city."
+      ],
+      "wrong": [
+        "He touched on the topic by talking about it for hours."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mention",
+        "refer to"
+      ],
+      "ipa": "/ˈtʌtʃ ɑn/"
+    },
+    {
+      "lemma": "whittle down",
+      "pos": "verb",
+      "meaning": "To reduce something gradually in size or number.",
+      "examples": [
+        "We {whittled down} the list to three candidates."
+      ],
+      "wrong": [
+        "They whittled down the list by adding fifty names."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "cut down",
+        "pare down"
+      ],
+      "ipa": "/ˈwɪtəl ˈdaʊn/"
+    },
+    {
+      "lemma": "while away",
+      "pos": "verb",
+      "meaning": "To spend time in a relaxed way, often while waiting.",
+      "examples": [
+        "We {whiled away} the afternoon playing cards."
+      ],
+      "wrong": [
+        "He whiled away the hours by rushing from task to task."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "pass",
+        "kill time"
+      ],
+      "ipa": "/ˈwaɪl əˈweɪ/"
+    },
+    {
+      "lemma": "wind down",
+      "pos": "verb",
+      "meaning": "To relax after work or stress; also to bring something slowly to an end.",
+      "examples": [
+        "I read a book to {wind down} before bed."
+      ],
+      "wrong": [
+        "She wound down by drinking strong coffee and working harder."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "relax",
+        "unwind"
+      ],
+      "ipa": "/ˈwaɪnd ˈdaʊn/"
+    },
+    {
+      "lemma": "wriggle out of",
+      "pos": "verb",
+      "meaning": "To avoid doing something by being clever or dishonest.",
+      "examples": [
+        "He always {wriggles out of} washing the dishes."
+      ],
+      "wrong": [
+        "She wriggled out of the task by doing all of it herself."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "dodge",
+        "evade"
+      ],
+      "ipa": "/ˈrɪɡəl ˈaʊt əv/"
+    },
+    {
+      "lemma": "zero in on",
+      "pos": "verb",
+      "meaning": "To focus all your attention on one thing.",
+      "examples": [
+        "The inquiry {zeroed in on} the missing funds."
+      ],
+      "wrong": [
+        "They zeroed in on the problem by ignoring it."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "focus on",
+        "home in on"
+      ],
+      "ipa": "/ˈzɪroʊ ˈɪn ɑn/"
+    },
+    {
+      "lemma": "bow out",
+      "pos": "verb",
+      "meaning": "To leave an activity or job, especially after a long time.",
+      "examples": [
+        "The singer {bowed out} after a final concert."
+      ],
+      "wrong": [
+        "He bowed out of politics and ran for office again the next day."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "retire",
+        "withdraw"
+      ],
+      "ipa": "/ˈbaʊ ˈaʊt/"
+    },
+    {
+      "lemma": "chip in",
+      "pos": "verb",
+      "meaning": "To give some money or help as part of a group.",
+      "examples": [
+        "Everyone {chipped in} to buy her a gift."
+      ],
+      "wrong": [
+        "We all chipped in, so nobody gave anything."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "contribute"
+      ],
+      "ipa": "/ˈtʃɪp ˈɪn/"
+    },
+    {
+      "lemma": "churn out",
+      "pos": "verb",
+      "meaning": "To produce large amounts of something quickly, often of low quality.",
+      "examples": [
+        "The factory {churns out} thousands of toys a day."
+      ],
+      "wrong": [
+        "The studio churns out one film every twenty years."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "crank out",
+        "mass-produce"
+      ],
+      "ipa": "/ˈtʃɝn ˈaʊt/"
+    },
+    {
+      "lemma": "fend off",
+      "pos": "verb",
+      "meaning": "To defend yourself against an attack, question or rival.",
+      "examples": [
+        "The minister {fended off} questions about the scandal."
+      ],
+      "wrong": [
+        "She fended off the attack by letting it happen freely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ward off",
+        "repel"
+      ],
+      "ipa": "/ˈfɛnd ˈɔf/"
+    },
+    {
+      "lemma": "mull over",
+      "pos": "verb",
+      "meaning": "To think about something carefully for a period of time.",
+      "examples": [
+        "Let me {mull over} your offer this weekend."
+      ],
+      "wrong": [
+        "He mulled over the offer by deciding in a split second."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ponder",
+        "consider"
+      ],
+      "ipa": "/ˈmʌl ˈoʊvɚ/"
+    },
+    {
+      "lemma": "pan out",
+      "pos": "verb",
+      "meaning": "To develop or turn out in a particular way.",
+      "examples": [
+        "Let’s see how things {pan out} before we decide."
+      ],
+      "wrong": [
+        "The plan panned out, so nothing happened at all."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "turn out",
+        "work out"
+      ],
+      "ipa": "/ˈpæn ˈaʊt/"
+    },
+    {
+      "lemma": "pass up",
+      "pos": "verb",
+      "meaning": "To decide not to use a good chance.",
+      "examples": [
+        "I can’t {pass up} an offer like that."
+      ],
+      "wrong": [
+        "She passed up the chance by accepting it at once."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "turn down",
+        "miss"
+      ],
+      "ipa": "/ˈpæs ˈʌp/"
+    },
+    {
+      "lemma": "branch out",
+      "pos": "verb",
+      "meaning": "To start doing something new in addition to your usual activities.",
+      "examples": [
+        "The bakery {branched out} into catering."
+      ],
+      "wrong": [
+        "They branched out by doing only what they had always done."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "diversify",
+        "expand"
+      ],
+      "ipa": "/ˈbræntʃ ˈaʊt/"
+    },
+    {
+      "lemma": "cash in on",
+      "pos": "verb",
+      "meaning": "To make money or gain an advantage from a situation.",
+      "examples": [
+        "Shops {cashed in on} the sudden heat wave."
+      ],
+      "wrong": [
+        "They cashed in on the trend by losing money on it."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "profit from",
+        "exploit"
+      ],
+      "ipa": "/ˈkæʃ ˈɪn ɑn/"
+    },
+    {
+      "lemma": "fork out",
+      "pos": "verb",
+      "meaning": "To pay money for something, especially unwillingly.",
+      "examples": [
+        "We had to {fork out} for a new boiler."
+      ],
+      "wrong": [
+        "He forked out for the car by paying nothing."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "shell out"
+      ],
+      "ipa": "/ˈfɔrk ˈaʊt/"
+    },
+    {
+      "lemma": "own up to",
+      "pos": "verb",
+      "meaning": "To admit that you have done something wrong.",
+      "examples": [
+        "Nobody {owned up to} breaking the window."
+      ],
+      "wrong": [
+        "He owned up to the mistake by denying everything."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "admit",
+        "confess"
+      ],
+      "ipa": "/ˈoʊn ˈʌp tu/",
+      "antonyms": [
+        "deny"
+      ]
+    }
+  ]
+}

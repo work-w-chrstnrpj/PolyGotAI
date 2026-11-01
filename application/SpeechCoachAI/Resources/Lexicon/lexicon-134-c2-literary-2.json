@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-literary-2",
+    "title": "More literary language",
+    "level": "C2",
+    "tagline": "Sound, color and mood in writing",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "aloof",
+      "pos": "adjective",
+      "meaning": "Distant and unfriendly.",
+      "examples": [
+        "She seemed {aloof} at the party."
+      ],
+      "wrong": [
+        "He is aloof, so he is warm and friendly with everyone."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "distant",
+        "detached"
+      ],
+      "ipa": "/əˈluf/",
+      "antonyms": [
+        "friendly",
+        "warm"
+      ]
+    },
+    {
+      "lemma": "ardor",
+      "pos": "noun",
+      "meaning": "Great passion or enthusiasm.",
+      "examples": [
+        "He spoke of his homeland with {ardor}."
+      ],
+      "wrong": [
+        "She sang with ardor, bored and uninterested."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "passion",
+        "fervor"
+      ],
+      "ipa": "/ˈɑrdɚ/"
+    },
+    {
+      "lemma": "cacophony",
+      "pos": "noun",
+      "meaning": "A harsh mix of loud sounds.",
+      "examples": [
+        "A {cacophony} of car horns filled the street."
+      ],
+      "wrong": [
+        "The cacophony was a soft, gentle melody."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "din",
+        "racket"
+      ],
+      "ipa": "/kəˈkɑfəni/"
+    },
+    {
+      "lemma": "crestfallen",
+      "pos": "adjective",
+      "meaning": "Sad and disappointed.",
+      "examples": [
+        "He looked {crestfallen} after the loss."
+      ],
+      "wrong": [
+        "She was crestfallen, so she was delighted."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "dejected",
+        "downcast"
+      ],
+      "ipa": "/ˈkrɛstˌfɔlən/",
+      "antonyms": [
+        "elated",
+        "delighted"
+      ]
+    },
+    {
+      "lemma": "dappled",
+      "pos": "adjective",
+      "meaning": "Marked with spots of light and shade.",
+      "examples": [
+        "We walked through {dappled} sunlight."
+      ],
+      "wrong": [
+        "The dappled light was one flat, even color."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "mottled",
+        "speckled"
+      ],
+      "ipa": "/ˈdæpəld/"
+    },
+    {
+      "lemma": "dirge",
+      "pos": "noun",
+      "meaning": "A slow, sad song, often for the dead.",
+      "examples": [
+        "The band played a {dirge} at the funeral."
+      ],
+      "wrong": [
+        "A dirge is a fast, happy dance tune."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "lament"
+      ],
+      "ipa": "/dɝdʒ/"
+    },
+    {
+      "lemma": "effervescent",
+      "pos": "adjective",
+      "meaning": "Lively and enthusiastic; or bubbly.",
+      "examples": [
+        "She has an {effervescent} personality."
+      ],
+      "wrong": [
+        "His effervescent mood was flat and gloomy."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "bubbly",
+        "vivacious"
+      ],
+      "ipa": "/ˌɛfɚˈvɛsənt/",
+      "antonyms": [
+        "dull",
+        "flat"
+      ]
+    },
+    {
+      "lemma": "ethereal",
+      "pos": "adjective",
+      "meaning": "Extremely light and delicate, as if not of this world.",
+      "examples": [
+        "Her voice had an {ethereal} quality."
+      ],
+      "wrong": [
+        "The music was ethereal, so it was heavy and coarse."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "otherworldly",
+        "delicate"
+      ],
+      "ipa": "/ɪˈθɪriəl/"
+    },
+    {
+      "lemma": "evanescent",
+      "pos": "adjective",
+      "meaning": "Quickly fading or disappearing.",
+      "examples": [
+        "The {evanescent} beauty of a sunset."
+      ],
+      "wrong": [
+        "Its evanescent beauty lasted for centuries."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "fleeting",
+        "transient"
+      ],
+      "ipa": "/ˌɛvəˈnɛsənt/",
+      "antonyms": [
+        "lasting",
+        "permanent"
+      ]
+    },
+    {
+      "lemma": "fervent",
+      "pos": "adjective",
+      "meaning": "Having very strong feelings.",
+      "examples": [
+        "She is a {fervent} supporter of the arts."
+      ],
+      "wrong": [
+        "He is a fervent fan, so he doesn’t care at all."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "passionate",
+        "ardent"
+      ],
+      "ipa": "/ˈfɝvənt/",
+      "antonyms": [
+        "indifferent",
+        "apathetic"
+      ]
+    },
+    {
+      "lemma": "gossamer",
+      "pos": "adjective",
+      "meaning": "Very light and thin.",
+      "examples": [
+        "She wore a {gossamer} veil."
+      ],
+      "wrong": [
+        "She wore a heavy gossamer coat made of thick wool."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "sheer",
+        "filmy"
+      ],
+      "ipa": "/ˈɡɑsəmɚ/"
+    },
+    {
+      "lemma": "halcyon",
+      "pos": "adjective",
+      "meaning": "Happy and peaceful, usually about the past.",
+      "examples": [
+        "They remembered the {halcyon} days of youth."
+      ],
+      "wrong": [
+        "Those halcyon days were full of misery and war."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "idyllic",
+        "golden"
+      ],
+      "ipa": "/ˈhælsiən/"
+    },
+    {
+      "lemma": "idyllic",
+      "pos": "adjective",
+      "meaning": "Perfectly happy and peaceful.",
+      "examples": [
+        "They live in an {idyllic} village."
+      ],
+      "wrong": [
+        "The place was idyllic, so it was noisy and ugly."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "picturesque",
+        "peaceful"
+      ],
+      "ipa": "/aɪˈdɪlɪk/"
+    },
+    {
+      "lemma": "incandescent",
+      "pos": "adjective",
+      "meaning": "Glowing with heat; or full of strong emotion.",
+      "examples": [
+        "She was {incandescent} with rage."
+      ],
+      "wrong": [
+        "She was incandescent with rage, perfectly calm and cool."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "glowing",
+        "furious"
+      ],
+      "ipa": "/ˌɪnkənˈdɛsənt/"
+    },
+    {
+      "lemma": "inexorable",
+      "pos": "adjective",
+      "meaning": "Impossible to stop or prevent.",
+      "examples": [
+        "The {inexorable} rise of the sea."
+      ],
+      "wrong": [
+        "The change was inexorable, so it was easily stopped."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "relentless",
+        "unstoppable"
+      ],
+      "ipa": "/ɪnˈɛksərəbəl/"
+    },
+    {
+      "lemma": "insouciant",
+      "pos": "adjective",
+      "meaning": "Relaxed and not worried.",
+      "examples": [
+        "He gave an {insouciant} shrug."
+      ],
+      "wrong": [
+        "She was insouciant, so she worried constantly."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "nonchalant",
+        "carefree"
+      ],
+      "ipa": "/ɪnˈsusiənt/",
+      "antonyms": [
+        "anxious",
+        "worried"
+      ]
+    },
+    {
+      "lemma": "lament",
+      "pos": "verb",
+      "meaning": "To express sadness or regret.",
+      "examples": [
+        "She {lamented} the loss of her friend."
+      ],
+      "wrong": [
+        "He lamented the news by celebrating it."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "mourn",
+        "grieve"
+      ],
+      "ipa": "/ləˈmɛnt/"
+    },
+    {
+      "lemma": "lilting",
+      "pos": "adjective",
+      "meaning": "Having a gentle rising and falling rhythm.",
+      "examples": [
+        "She spoke with a {lilting} accent."
+      ],
+      "wrong": [
+        "Her lilting accent was flat and monotonous."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "musical",
+        "melodic"
+      ],
+      "ipa": "/ˈlɪltɪŋ/"
+    },
+    {
+      "lemma": "lithe",
+      "pos": "adjective",
+      "meaning": "Thin, supple and graceful.",
+      "examples": [
+        "The {lithe} dancer moved across the stage."
+      ],
+      "wrong": [
+        "The lithe dancer moved stiffly and clumsily."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "supple",
+        "agile"
+      ],
+      "ipa": "/laɪð/",
+      "antonyms": [
+        "stiff",
+        "clumsy"
+      ]
+    },
+    {
+      "lemma": "lugubrious",
+      "pos": "adjective",
+      "meaning": "Looking or sounding sad and gloomy.",
+      "examples": [
+        "He wore a {lugubrious} expression."
+      ],
+      "wrong": [
+        "His lugubrious face was bright and cheerful."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "doleful",
+        "mournful"
+      ],
+      "ipa": "/ləˈɡubriəs/",
+      "antonyms": [
+        "cheerful",
+        "jovial"
+      ]
+    },
+    {
+      "lemma": "mellifluous",
+      "pos": "adjective",
+      "meaning": "Sweet and smooth in sound.",
+      "examples": [
+        "She has a {mellifluous} voice."
+      ],
+      "wrong": [
+        "Her mellifluous voice was harsh and grating."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "dulcet",
+        "honeyed"
+      ],
+      "ipa": "/məˈlɪfluəs/"
+    },
+    {
+      "lemma": "mirth",
+      "pos": "noun",
+      "meaning": "Amusement and laughter.",
+      "examples": [
+        "The joke caused great {mirth}."
+      ],
+      "wrong": [
+        "His mirth showed he was deeply sad."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "merriment",
+        "laughter"
+      ],
+      "ipa": "/mɝθ/",
+      "antonyms": [
+        "gloom",
+        "sadness"
+      ]
+    },
+    {
+      "lemma": "opulent",
+      "pos": "adjective",
+      "meaning": "Rich and luxurious.",
+      "examples": [
+        "They stayed in an {opulent} palace."
+      ],
+      "wrong": [
+        "The room was opulent, so it was plain and bare."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "luxurious",
+        "lavish"
+      ],
+      "ipa": "/ˈɑpjələnt/",
+      "antonyms": [
+        "shabby",
+        "plain"
+      ]
+    },
+    {
+      "lemma": "palpable",
+      "pos": "adjective",
+      "meaning": "So strong you can almost touch it.",
+      "examples": [
+        "The tension in the room was {palpable}."
+      ],
+      "wrong": [
+        "The fear was palpable, so nobody noticed it."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "tangible",
+        "evident"
+      ],
+      "ipa": "/ˈpælpəbəl/",
+      "antonyms": [
+        "intangible",
+        "imperceptible"
+      ]
+    },
+    {
+      "lemma": "pensive",
+      "pos": "adjective",
+      "meaning": "Thinking deeply, often sadly.",
+      "examples": [
+        "She sat in {pensive} silence."
+      ],
+      "wrong": [
+        "He sat in pensive silence, not thinking about anything."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "thoughtful",
+        "reflective"
+      ],
+      "ipa": "/ˈpɛnsɪv/"
+    },
+    {
+      "lemma": "plaintive",
+      "pos": "adjective",
+      "meaning": "Sounding sad.",
+      "examples": [
+        "We heard the {plaintive} cry of a bird."
+      ],
+      "wrong": [
+        "The plaintive song was cheerful and bright."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "sorrowful",
+        "wistful"
+      ],
+      "ipa": "/ˈpleɪntɪv/"
+    },
+    {
+      "lemma": "redolent",
+      "pos": "adjective",
+      "meaning": "Strongly suggesting something; or smelling of it.",
+      "examples": [
+        "The air was {redolent} of pine."
+      ],
+      "wrong": [
+        "The air was redolent of pine, with no smell at all."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "evocative",
+        "fragrant"
+      ],
+      "ipa": "/ˈrɛdələnt/"
+    },
+    {
+      "lemma": "resplendent",
+      "pos": "adjective",
+      "meaning": "Attractive and impressive in a bright way.",
+      "examples": [
+        "She looked {resplendent} in gold."
+      ],
+      "wrong": [
+        "She looked resplendent in dull, dirty clothes."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "splendid",
+        "dazzling"
+      ],
+      "ipa": "/rɪˈsplɛndənt/"
+    },
+    {
+      "lemma": "reverberate",
+      "pos": "verb",
+      "meaning": "To echo again and again.",
+      "examples": [
+        "Thunder {reverberated} through the valley."
+      ],
+      "wrong": [
+        "The sound reverberated, so it disappeared at once."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "echo",
+        "resound"
+      ],
+      "ipa": "/rɪˈvɝbəˌreɪt/"
+    },
+    {
+      "lemma": "rueful",
+      "pos": "adjective",
+      "meaning": "Showing regret in a gentle way.",
+      "examples": [
+        "He gave a {rueful} smile."
+      ],
+      "wrong": [
+        "He gave a rueful smile, proud and without regret."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "regretful",
+        "sorry"
+      ],
+      "ipa": "/ˈrufəl/"
+    },
+    {
+      "lemma": "somber",
+      "pos": "adjective",
+      "meaning": "Dark, serious or sad.",
+      "examples": [
+        "The mood was {somber} after the news."
+      ],
+      "wrong": [
+        "The somber mood was light and joyful."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "gloomy",
+        "grave"
+      ],
+      "ipa": "/ˈsɑmbɚ/",
+      "antonyms": [
+        "cheerful",
+        "bright"
+      ]
+    },
+    {
+      "lemma": "sonorous",
+      "pos": "adjective",
+      "meaning": "Deep and full in sound.",
+      "examples": [
+        "He has a {sonorous} voice."
+      ],
+      "wrong": [
+        "His sonorous voice was thin and squeaky."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "resonant",
+        "rich"
+      ],
+      "ipa": "/ˈsɑnərəs/"
+    },
+    {
+      "lemma": "sublime",
+      "pos": "adjective",
+      "meaning": "So beautiful or excellent that it inspires awe.",
+      "examples": [
+        "The view from the top was {sublime}."
+      ],
+      "wrong": [
+        "The concert was sublime, so it was dreadful."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "magnificent",
+        "glorious"
+      ],
+      "ipa": "/səˈblaɪm/"
+    },
+    {
+      "lemma": "sullen",
+      "pos": "adjective",
+      "meaning": "Silent and bad-tempered.",
+      "examples": [
+        "The {sullen} teenager refused to talk."
+      ],
+      "wrong": [
+        "He was sullen, so he chatted cheerfully."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "sulky",
+        "morose"
+      ],
+      "ipa": "/ˈsʌlən/",
+      "antonyms": [
+        "cheerful",
+        "sunny"
+      ]
+    },
+    {
+      "lemma": "torpid",
+      "pos": "adjective",
+      "meaning": "Slow and lacking energy.",
+      "examples": [
+        "The heat made us {torpid}."
+      ],
+      "wrong": [
+        "The heat made us torpid, so we ran around full of energy."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "sluggish",
+        "lethargic"
+      ],
+      "ipa": "/ˈtɔrpɪd/",
+      "antonyms": [
+        "energetic",
+        "lively"
+      ]
+    },
+    {
+      "lemma": "tremulous",
+      "pos": "adjective",
+      "meaning": "Shaking slightly, often from nerves.",
+      "examples": [
+        "She spoke in a {tremulous} voice."
+      ],
+      "wrong": [
+        "She spoke in a tremulous voice, perfectly firm and steady."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "trembling",
+        "quivering"
+      ],
+      "ipa": "/ˈtrɛmjələs/"
+    },
+    {
+      "lemma": "unfathomable",
+      "pos": "adjective",
+      "meaning": "Impossible to understand fully.",
+      "examples": [
+        "Her motives were {unfathomable}."
+      ],
+      "wrong": [
+        "His reasons are unfathomable, so they are easy to understand."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "incomprehensible",
+        "inscrutable"
+      ],
+      "ipa": "/ʌnˈfæðəməbəl/",
+      "antonyms": [
+        "comprehensible",
+        "understandable"
+      ]
+    },
+    {
+      "lemma": "verdant",
+      "pos": "adjective",
+      "meaning": "Green with grass or plants.",
+      "examples": [
+        "They walked through {verdant} hills."
+      ],
+      "wrong": [
+        "The verdant hills were dry and brown."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "lush",
+        "green"
+      ],
+      "ipa": "/ˈvɝdənt/",
+      "antonyms": [
+        "barren",
+        "arid"
+      ]
+    },
+    {
+      "lemma": "wan",
+      "pos": "adjective",
+      "meaning": "Pale and looking ill or tired.",
+      "examples": [
+        "She gave a {wan} smile."
+      ],
+      "wrong": [
+        "She gave a wan smile, glowing with health."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "pale",
+        "pallid"
+      ],
+      "ipa": "/wɑn/"
+    },
+    {
+      "lemma": "wither",
+      "pos": "verb",
+      "meaning": "To become dry and weak.",
+      "examples": [
+        "The flowers {withered} in the heat."
+      ],
+      "wrong": [
+        "The plants withered, so they grew lush and green."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "wilt",
+        "shrivel"
+      ],
+      "ipa": "/ˈwɪðɚ/",
+      "antonyms": [
+        "flourish",
+        "bloom"
+      ]
+    },
+    {
+      "lemma": "brooding",
+      "pos": "adjective",
+      "meaning": "Dark, thoughtful and a little threatening.",
+      "examples": [
+        "The castle had a {brooding} presence."
+      ],
+      "wrong": [
+        "The castle had a brooding presence, bright and cheerful."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "menacing",
+        "moody"
+      ],
+      "ipa": "/ˈbrudɪŋ/"
+    },
+    {
+      "lemma": "ebb",
+      "pos": "verb",
+      "meaning": "To become gradually less.",
+      "examples": [
+        "His strength began to {ebb}."
+      ],
+      "wrong": [
+        "Her courage ebbed, so it grew stronger."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "recede",
+        "wane"
+      ],
+      "ipa": "/ɛb/",
+      "antonyms": [
+        "flow",
+        "rise"
+      ]
+    },
+    {
+      "lemma": "enigma",
+      "pos": "noun",
+      "meaning": "A person or thing that is mysterious.",
+      "examples": [
+        "He remains an {enigma} to his friends."
+      ],
+      "wrong": [
+        "An enigma is something perfectly clear."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "mystery",
+        "puzzle"
+      ],
+      "ipa": "/ɪˈnɪɡmə/"
+    },
+    {
+      "lemma": "forsake",
+      "pos": "verb",
+      "meaning": "To abandon someone or something.",
+      "examples": [
+        "He would never {forsake} his friends."
+      ],
+      "wrong": [
+        "He forsook his friends by staying loyal to them."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "abandon",
+        "desert"
+      ],
+      "ipa": "/fɚˈseɪk/"
+    },
+    {
+      "lemma": "gloaming",
+      "pos": "noun",
+      "meaning": "The time of evening when it is getting dark.",
+      "examples": [
+        "We walked home in the {gloaming}."
+      ],
+      "wrong": [
+        "The gloaming is the bright middle of the day."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "dusk",
+        "twilight"
+      ],
+      "ipa": "/ˈɡloʊmɪŋ/"
+    }
+  ]
+}

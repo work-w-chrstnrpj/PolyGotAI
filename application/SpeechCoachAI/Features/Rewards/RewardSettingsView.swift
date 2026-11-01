@@ -12,26 +12,21 @@ struct RewardSettingsView: View {
     @State private var message: String?
     @State private var saving = false
     var body: some View {
-        Form {
+        Form { KitRows {
             Section("Celebrations") {
                 Picker("Celebrations", selection: $settings.celebration) {
                     ForEach(RewardSettings.Celebration.allCases, id: \.self) { Text($0.rawValue.capitalized).tag($0) }
                 }.accessibilityIdentifier("rewards.celebrations")
                 Toggle("Quiet rewards", isOn: $settings.quiet).accessibilityIdentifier("rewards.quiet")
                 Text("Reduce Motion always wins. Quiet mode suppresses decorative motion, sound and haptics. Coach speech never starts automatically.")
-                Toggle("Music", isOn: $settings.music)
-                Toggle("Effects", isOn: $settings.effects)
+                Toggle("Background music", isOn: $settings.music)
+                Toggle("Sound effects", isOn: $settings.effects)
                 Toggle("Haptics", isOn: $settings.haptics)
             }
-            Section("Continuity") {
-                Toggle("Use owned Freezes automatically", isOn: $settings.autoFreeze)
-                    .accessibilityIdentifier("rewards.auto-freeze")
-                Text("One owned item per missed day. Buying items always requires an explicit gold confirmation. Protection does not create learning evidence.")
-            }
-            Section("Separate daily goals") {
+            Section("Daily goals") {
                 TextField("Active minutes, optional", text: $minutes).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.minutes")
                 TextField("Activities, optional", text: $activities).keyboardType(.numberPad).accessibilityIdentifier("rewards.goal.activities")
-                Text("Active time pauses in background or after 60 seconds without interaction, except uninterrupted learning audio. A chosen lesson plan can earn its bonus without meeting the time target.")
+                Text("Active time counts while you practice.").font(.footnote).foregroundStyle(Kit.secondary)
                 TextField("Optional break timer, minutes", text: $breakMinutes).keyboardType(.numberPad)
                     .accessibilityIdentifier("rewards.break.minutes")
                 Text("Timer starts only when you choose Start. Its static end notice leaves your exercise open and gives no reward.")
@@ -58,7 +53,7 @@ struct RewardSettingsView: View {
                     .accessibilityIdentifier("rewards.settings.save")
                 if let message { Text(message).accessibilityIdentifier("rewards.settings.message") }
             }
-        }.navigationTitle("Reward preferences").modifier(RewardDashboardFocus(storage: storage)).onAppear(perform: load)
+        }}.navigationTitle("Reward preferences").modifier(RewardDashboardFocus(storage: storage)).onAppear(perform: load)
     }
     private func load() {
         do {

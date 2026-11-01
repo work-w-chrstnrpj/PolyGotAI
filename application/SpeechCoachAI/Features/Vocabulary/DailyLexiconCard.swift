@@ -1,5 +1,18 @@
 import SwiftUI
 
+/// The IPA line under a Lexicon word (General American).
+struct PronunciationText: View {
+    var ipa: String
+    var body: some View {
+        Text(ipa).font(.title3).foregroundStyle(Kit.secondary)
+            .padding(.horizontal, 10).padding(.vertical, 3)
+            .background(Kit.soft.opacity(0.7), in: Capsule())
+            .accessibilityLabel("Pronunciation")
+            .accessibilityValue(ipa)
+            .accessibilityIdentifier("lexicon.ipa")
+    }
+}
+
 /// Daily Lexicon on Today: one word a day with its meaning, an example and a speaker button.
 /// Showing it counts as an exposure only; nothing is scheduled until the word is trained.
 struct DailyLexiconCard: View {
@@ -12,8 +25,9 @@ struct DailyLexiconCard: View {
     var body: some View {
         if let word {
             KitCard {
-                Text("Word of the day").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
+                KitEyebrow(text: "Word of the day")
                 header(word)
+                if let ipa = word.ipa { PronunciationText(ipa: ipa) }
                 Text(word.meaning).fixedSize(horizontal: false, vertical: true)
                 if let example = word.parsedExamples.first {
                     Text(example.plain).italic().foregroundStyle(Kit.secondary).fixedSize(horizontal: false, vertical: true)
@@ -21,7 +35,7 @@ struct DailyLexiconCard: View {
                 if added {
                     Label("In training", systemImage: "checkmark.circle").font(.subheadline).foregroundStyle(Kit.secondary)
                 } else {
-                    Button("Add to training") { add(word) }.buttonStyle(.bordered).frame(minHeight: 44)
+                    Button("Add to training") { add(word) }.buttonStyle(KitSecondaryButtonStyle()).frame(minHeight: 44)
                         .accessibilityIdentifier("daily.lexicon.add")
                 }
             }
@@ -43,7 +57,8 @@ struct DailyLexiconCard: View {
             if !textSize.isAccessibilitySize { Spacer() }
             if let example = word.parsedExamples.first {
                 Button { SpeechSynthesizer.shared.speak("\(word.lemma). \(example.plain)") } label: {
-                    Image(systemName: "speaker.wave.2.fill").frame(minWidth: 44, minHeight: 44)
+                    Image(systemName: "speaker.wave.2.fill").font(.headline)
+                        .frame(width: 44, height: 44).background(Kit.accent.opacity(0.12), in: Circle())
                 }.accessibilityLabel("Listen")
             }
         }

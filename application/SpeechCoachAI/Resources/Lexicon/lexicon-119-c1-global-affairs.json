@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-global-affairs",
+    "title": "Global affairs",
+    "level": "C1",
+    "tagline": "Nations, diplomacy and conflict",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "sovereignty",
+      "pos": "noun",
+      "meaning": "A country’s full right to govern itself without control from others.",
+      "examples": [
+        "The island fought to protect its {sovereignty}."
+      ],
+      "wrong": [
+        "With full sovereignty, the country was ruled by a foreign power."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "independence",
+        "self-rule"
+      ],
+      "ipa": "/ˈsɑvrənti/"
+    },
+    {
+      "lemma": "diplomacy",
+      "pos": "noun",
+      "meaning": "The work of managing relations between countries through talks.",
+      "examples": [
+        "Careful {diplomacy} helped avoid a war."
+      ],
+      "wrong": [
+        "Their diplomacy consisted of refusing to speak to any other nation."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "statecraft",
+        "negotiation"
+      ],
+      "ipa": "/dɪˈploʊməsi/"
+    },
+    {
+      "lemma": "embargo",
+      "pos": "noun",
+      "meaning": "An official ban on trade with a particular country.",
+      "examples": [
+        "The {embargo} stopped all oil exports to the region."
+      ],
+      "wrong": [
+        "The embargo encouraged more trade between the two countries."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ban",
+        "blockade"
+      ],
+      "ipa": "/ɛmˈbɑrɡoʊ/"
+    },
+    {
+      "lemma": "sanction",
+      "pos": "noun",
+      "meaning": "A penalty, often on trade, that countries put on another country to make it change.",
+      "examples": [
+        "New {sanctions} froze the regime’s foreign bank accounts."
+      ],
+      "wrong": [
+        "The sanctions were a reward for the country’s good behavior."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "penalty",
+        "restriction"
+      ],
+      "ipa": "/ˈsæŋkʃən/"
+    },
+    {
+      "lemma": "nonaligned",
+      "pos": "adjective",
+      "meaning": "Not supporting or joining any of the powerful groups of countries.",
+      "examples": [
+        "Several {nonaligned} states refused to take sides in the dispute."
+      ],
+      "wrong": [
+        "The nonaligned country joined both rival military blocs."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "neutral"
+      ],
+      "ipa": "/ˌnɑnəˈlaɪnd/"
+    },
+    {
+      "lemma": "alliance",
+      "pos": "noun",
+      "meaning": "A formal agreement between countries to support each other.",
+      "examples": [
+        "The three states formed a military {alliance}."
+      ],
+      "wrong": [
+        "Countries in an alliance promise to attack each other."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "coalition",
+        "pact"
+      ],
+      "ipa": "/əˈlaɪəns/"
+    },
+    {
+      "lemma": "envoy",
+      "pos": "noun",
+      "meaning": "A person sent by a government to deliver messages or hold talks.",
+      "examples": [
+        "The president sent a special {envoy} to the peace talks."
+      ],
+      "wrong": [
+        "The envoy stayed at home and spoke to no foreign leaders."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "emissary",
+        "diplomat"
+      ],
+      "ipa": "/ˈɛnvɔɪ/"
+    },
+    {
+      "lemma": "summit",
+      "pos": "noun",
+      "meaning": "An important meeting between leaders of governments.",
+      "examples": [
+        "World leaders met at a {summit} on climate change."
+      ],
+      "wrong": [
+        "The summit was a private chat between two tourists."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conference"
+      ],
+      "ipa": "/ˈsʌmɪt/"
+    },
+    {
+      "lemma": "ceasefire",
+      "pos": "noun",
+      "meaning": "An agreement to stop fighting for a time.",
+      "examples": [
+        "Both sides agreed to a {ceasefire} over the holiday."
+      ],
+      "wrong": [
+        "During the ceasefire, the fighting grew heavier than ever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "truce"
+      ],
+      "ipa": "/ˈsisˌfaɪɚ/"
+    },
+    {
+      "lemma": "truce",
+      "pos": "noun",
+      "meaning": "An agreement between enemies to stop fighting, often for a short time.",
+      "examples": [
+        "A fragile {truce} was signed after months of war."
+      ],
+      "wrong": [
+        "The truce was the moment both armies started to attack."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ceasefire",
+        "armistice"
+      ],
+      "ipa": "/trus/"
+    },
+    {
+      "lemma": "insurgency",
+      "pos": "noun",
+      "meaning": "An armed fight by a group against its own government.",
+      "examples": [
+        "Troops were sent to deal with the {insurgency} in the north."
+      ],
+      "wrong": [
+        "The insurgency was a group that strongly supported the government."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "rebellion",
+        "uprising"
+      ],
+      "ipa": "/ɪnˈsɝdʒənsi/"
+    },
+    {
+      "lemma": "coup",
+      "pos": "noun",
+      "meaning": "A sudden, illegal seizing of a government’s power, often by the army.",
+      "examples": [
+        "The general took power in a military {coup}."
+      ],
+      "wrong": [
+        "The coup was a fair and peaceful election."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "takeover",
+        "overthrow"
+      ],
+      "ipa": "/ku/"
+    },
+    {
+      "lemma": "regime",
+      "pos": "noun",
+      "meaning": "A government, especially one that rules strictly and is not elected fairly.",
+      "examples": [
+        "The {regime} banned all opposition parties."
+      ],
+      "wrong": [
+        "The regime was a small club for local gardeners."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "government"
+      ],
+      "ipa": "/rəˈʒim/"
+    },
+    {
+      "lemma": "annex",
+      "pos": "verb",
+      "meaning": "To take control of another country’s land and make it part of your own.",
+      "examples": [
+        "The empire {annexed} the neighboring province."
+      ],
+      "wrong": [
+        "The country annexed the region by giving it full independence."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "seize",
+        "take over"
+      ],
+      "ipa": "/əˈnɛks/"
+    },
+    {
+      "lemma": "asylum",
+      "pos": "noun",
+      "meaning": "Protection a country gives to people who have fled danger in their own country.",
+      "examples": [
+        "The journalist asked for {asylum} after leaving her country."
+      ],
+      "wrong": [
+        "He was given asylum and sent straight back to the danger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refuge",
+        "sanctuary"
+      ],
+      "ipa": "/əˈsaɪləm/"
+    },
+    {
+      "lemma": "humanitarian",
+      "pos": "adjective",
+      "meaning": "Concerned with helping people who are suffering.",
+      "examples": [
+        "The agency sent {humanitarian} aid to the flood zone."
+      ],
+      "wrong": [
+        "The humanitarian mission was set up to make people suffer."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "charitable",
+        "relief"
+      ],
+      "ipa": "/hjuˌmænəˈtɛriən/"
+    },
+    {
+      "lemma": "peacekeeping",
+      "pos": "noun",
+      "meaning": "The work of international forces sent to stop fighting in an area.",
+      "examples": [
+        "The soldiers are on a {peacekeeping} mission abroad."
+      ],
+      "wrong": [
+        "Peacekeeping troops were sent to start a new war."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈpisˌkipɪŋ/"
+    },
+    {
+      "lemma": "multilateral",
+      "pos": "adjective",
+      "meaning": "Involving three or more countries.",
+      "examples": [
+        "The trade deal came out of {multilateral} talks."
+      ],
+      "wrong": [
+        "The multilateral talks involved only one country."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌmʌltiˈlætərəl/",
+      "antonyms": [
+        "unilateral"
+      ]
+    },
+    {
+      "lemma": "bilateral",
+      "pos": "adjective",
+      "meaning": "Involving two countries or groups.",
+      "examples": [
+        "The two neighbors signed a {bilateral} trade agreement."
+      ],
+      "wrong": [
+        "The bilateral meeting included twenty different countries."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "two-sided"
+      ],
+      "ipa": "/baɪˈlætərəl/"
+    },
+    {
+      "lemma": "unilateral",
+      "pos": "adjective",
+      "meaning": "Done by one country or group without the agreement of others.",
+      "examples": [
+        "The country made a {unilateral} decision to leave the deal."
+      ],
+      "wrong": [
+        "The unilateral decision was agreed by every member state."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "one-sided"
+      ],
+      "ipa": "/ˌjunəˈlætərəl/",
+      "antonyms": [
+        "multilateral"
+      ]
+    },
+    {
+      "lemma": "geopolitical",
+      "pos": "adjective",
+      "meaning": "Linked to how geography affects power and relations between countries.",
+      "examples": [
+        "The canal has huge {geopolitical} importance."
+      ],
+      "wrong": [
+        "The geopolitical issue had nothing to do with countries or power."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌdʒioʊpəˈlɪtɪkəl/"
+    },
+    {
+      "lemma": "superpower",
+      "pos": "noun",
+      "meaning": "A very powerful country with great influence across the world.",
+      "examples": [
+        "After the war, two {superpowers} dominated world politics."
+      ],
+      "wrong": [
+        "The superpower was a tiny state with no influence at all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "great power"
+      ],
+      "ipa": "/ˈsupɚˌpaʊɚ/"
+    },
+    {
+      "lemma": "hegemony",
+      "pos": "noun",
+      "meaning": "Control or strong influence of one country or group over others.",
+      "examples": [
+        "The empire’s {hegemony} lasted for two centuries."
+      ],
+      "wrong": [
+        "Their hegemony meant they had no influence over anyone."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dominance",
+        "supremacy"
+      ],
+      "ipa": "/hɪˈdʒɛməni/"
+    },
+    {
+      "lemma": "mediate",
+      "pos": "verb",
+      "meaning": "To help two sides who disagree to reach an agreement.",
+      "examples": [
+        "Norway offered to {mediate} between the two governments."
+      ],
+      "wrong": [
+        "She mediated the dispute by taking one side and fueling the anger."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "arbitrate",
+        "broker"
+      ],
+      "ipa": "/ˈmidiˌeɪt/"
+    },
+    {
+      "lemma": "intervention",
+      "pos": "noun",
+      "meaning": "Action by a country to get involved in another country’s problems.",
+      "examples": [
+        "Many opposed military {intervention} in the region."
+      ],
+      "wrong": [
+        "The intervention meant staying out of the matter completely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "involvement",
+        "interference"
+      ],
+      "ipa": "/ˌɪntɚˈvɛnʃən/"
+    },
+    {
+      "lemma": "displacement",
+      "pos": "noun",
+      "meaning": "The forcing of people to leave their homes, for example by war.",
+      "examples": [
+        "The conflict caused the {displacement} of a million people."
+      ],
+      "wrong": [
+        "Displacement allowed families to stay safely in their homes."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "uprooting"
+      ],
+      "ipa": "/dɪsˈpleɪsmənt/"
+    },
+    {
+      "lemma": "diaspora",
+      "pos": "noun",
+      "meaning": "People from one country or group who live spread around the world.",
+      "examples": [
+        "The Irish {diaspora} celebrates the festival in many cities."
+      ],
+      "wrong": [
+        "A diaspora is a group who have never left their home village."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/daɪˈæspərə/"
+    },
+    {
+      "lemma": "protectionism",
+      "pos": "noun",
+      "meaning": "A policy of protecting home industries by taxing or limiting imports.",
+      "examples": [
+        "Rising {protectionism} hurt global trade."
+      ],
+      "wrong": [
+        "Protectionism means removing every tax on foreign goods."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/prəˈtɛkʃəˌnɪzəm/"
+    },
+    {
+      "lemma": "consulate",
+      "pos": "noun",
+      "meaning": "An office in a foreign city that helps its own citizens and gives visas.",
+      "examples": [
+        "I renewed my passport at the {consulate} in Chicago."
+      ],
+      "wrong": [
+        "The consulate is a private hotel for tourists."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈkɑnsələt/"
+    },
+    {
+      "lemma": "delegation",
+      "pos": "noun",
+      "meaning": "A group of people sent to represent a country or organization.",
+      "examples": [
+        "A trade {delegation} visited the capital."
+      ],
+      "wrong": [
+        "The delegation represented nobody but themselves."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mission",
+        "deputation"
+      ],
+      "ipa": "/ˌdɛləˈɡeɪʃən/"
+    },
+    {
+      "lemma": "accord",
+      "pos": "noun",
+      "meaning": "A formal agreement between countries or groups.",
+      "examples": [
+        "The peace {accord} ended years of fighting."
+      ],
+      "wrong": [
+        "The accord was a bitter disagreement that ended all talks."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "agreement",
+        "treaty",
+        "pact"
+      ],
+      "ipa": "/əˈkɔrd/"
+    },
+    {
+      "lemma": "disarmament",
+      "pos": "noun",
+      "meaning": "The reducing or removing of a country’s weapons.",
+      "examples": [
+        "The treaty called for nuclear {disarmament}."
+      ],
+      "wrong": [
+        "Disarmament means building as many weapons as possible."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "demilitarization"
+      ],
+      "ipa": "/dɪsˈɑrməmənt/",
+      "antonyms": [
+        "rearmament"
+      ]
+    },
+    {
+      "lemma": "secede",
+      "pos": "verb",
+      "meaning": "To formally leave a country or group and become independent.",
+      "examples": [
+        "The region voted to {secede} from the federation."
+      ],
+      "wrong": [
+        "The state seceded by joining the union even more closely."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "break away",
+        "withdraw"
+      ],
+      "ipa": "/sɪˈsid/"
+    },
+    {
+      "lemma": "statehood",
+      "pos": "noun",
+      "meaning": "The condition of being an independent country or a state in a federation.",
+      "examples": [
+        "The territory campaigned for {statehood} for decades."
+      ],
+      "wrong": [
+        "After gaining statehood, the region lost all its political rights."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "nationhood"
+      ],
+      "ipa": "/ˈsteɪtˌhʊd/"
+    },
+    {
+      "lemma": "extradite",
+      "pos": "verb",
+      "meaning": "To send a suspected criminal back to the country where they are wanted for trial.",
+      "examples": [
+        "The suspect was {extradited} to face fraud charges."
+      ],
+      "wrong": [
+        "They extradited him by letting him stay in the country forever."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "deport"
+      ],
+      "ipa": "/ˈɛkstrəˌdaɪt/"
+    },
+    {
+      "lemma": "diplomatic immunity",
+      "pos": "phrase",
+      "meaning": "The legal protection that stops diplomats being arrested in a foreign country.",
+      "examples": [
+        "The attaché could not be arrested because of {diplomatic immunity}."
+      ],
+      "wrong": [
+        "Thanks to diplomatic immunity, the diplomat was jailed by local police."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌdɪpləˈmætɪk ɪˈmjunəti/"
+    },
+    {
+      "lemma": "arms race",
+      "pos": "phrase",
+      "meaning": "A contest between countries to build more and better weapons.",
+      "examples": [
+        "The two powers were locked in an {arms race}."
+      ],
+      "wrong": [
+        "In an arms race, both countries destroy their weapons."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈɑrmz ˈreɪs/"
+    },
+    {
+      "lemma": "balance of power",
+      "pos": "phrase",
+      "meaning": "A situation where no country or group is strong enough to control the others.",
+      "examples": [
+        "The new alliance changed the {balance of power} in Europe."
+      ],
+      "wrong": [
+        "The balance of power gave one nation total control over all."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "equilibrium"
+      ],
+      "ipa": "/ˈbæləns əv ˈpaʊɚ/"
+    },
+    {
+      "lemma": "ultimatum",
+      "pos": "noun",
+      "meaning": "A final demand that comes with a threat if it is not met.",
+      "examples": [
+        "They gave the government an {ultimatum}: withdraw or face sanctions."
+      ],
+      "wrong": [
+        "The ultimatum was a gentle suggestion with no deadline."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "final demand"
+      ],
+      "ipa": "/ˌʌltəˈmeɪtəm/"
+    },
+    {
+      "lemma": "foreign policy",
+      "pos": "phrase",
+      "meaning": "A government’s plan for dealing with other countries.",
+      "examples": [
+        "Trade is central to the country’s {foreign policy}."
+      ],
+      "wrong": [
+        "Foreign policy covers only local school and road budgets."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈfɔrən ˈpɑləsi/"
+    }
+  ]
+}

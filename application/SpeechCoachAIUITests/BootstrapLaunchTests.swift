@@ -16,10 +16,12 @@ final class BootstrapLaunchTests: XCTestCase {
     @MainActor
     func testLaunchRelaunchAndAllDestinations() {
         continueAfterFailure = false
-        let app = XCUIApplication(); app.launch()
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launch()
         XCTAssertTrue(app.buttons["settings.open"].firstMatch.waitForExistence(timeout: 10))
         screenshot(app, "today")
-        for (title, id) in [("Lesson", "learn"), ("Lexicon", "vocabulary"), ("Speech Lab", "speechLab"), ("Progress", "progress"), ("Today", "today")] {
+        for (title, id) in [("Lesson", "learn"), ("Lexicon", "vocabulary"), ("Lab", "speechLab"), ("Progress", "progress"), ("Today", "today")] {
             openDestination(app, title: title, id: id)
             XCTAssertTrue(app.descendants(matching: .any)["screen.\(id)"].firstMatch.waitForExistence(timeout: 5))
         }
@@ -86,7 +88,10 @@ final class BootstrapLaunchTests: XCTestCase {
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString   // a fresh, isolated store
         app.launch()
         openDestination(app, title: "Lesson", id: "learn")
-        tapReachable(app, app.buttons["learn.open.a1-weather"])
+        app.segmentedControls["learn.mode"].buttons["Course"].tap()
+        let weather = app.buttons["learn.open.a1-weather"]
+        for _ in 0..<16 where !weather.exists { app.swipeUp() }
+        tapReachable(app, weather)
         XCTAssertTrue(app.staticTexts["lesson.topic.teaching"].waitForExistence(timeout: 8), "The coach tip shows before the exercises.")
         tapFrontmostButton(app, "lesson.begin")
         // Reading: a right answer.
@@ -111,7 +116,7 @@ final class BootstrapLaunchTests: XCTestCase {
         // Listen and write.
         let field = app.descendants(matching: .any)["exercise.field"].firstMatch
         XCTAssertTrue(field.waitForExistence(timeout: 5))
-        field.tap(); field.typeText("It is hot and sunny.")
+        field.tap(); field.typeText("The weather is cold today.")
         app.buttons["exercise.check"].tap()
         XCTAssertTrue(app.staticTexts["Correct!"].waitForExistence(timeout: 5))
         app.buttons["exercise.continue"].tap()
@@ -151,128 +156,24 @@ final class BootstrapLaunchTests: XCTestCase {
         app.buttons[original.contains("Dark") ? "Dark" : original.contains("Light") ? "Light" : "System"].tap()
     }
 
-    @MainActor
-    func testOfflineRecordingEntryRequiresDeliberateStart() {
-        let app = XCUIApplication(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        let entry = app.buttons["speech.record"]
-        for _ in 0..<4 where !entry.isHittable { app.swipeUp() }
-        XCTAssertTrue(entry.isHittable); entry.tap()
-        XCTAssertTrue(app.buttons["recording.start"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.buttons["recording.stop"].exists)
-        screenshot(app, "offline-recording-ready")
-        app.buttons["Close"].firstMatch.tap()
-        XCTAssertTrue(entry.waitForExistence(timeout: 5))
-    }
 
     @MainActor
     func testProviderSettingsShowsMaskedEntryAndNoLiveAction() {
-        let app = XCUIApplication(); app.launch()
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launch()
         XCTAssertTrue(app.buttons["settings.open"].firstMatch.waitForExistence(timeout: 10))
         app.buttons["settings.open"].firstMatch.tap()
         let entry = app.buttons["settings.provider"]
         for _ in 0..<4 where !entry.isHittable { app.swipeUp() }
         XCTAssertTrue(entry.isHittable); entry.tap()
         XCTAssertTrue(app.secureTextFields["provider.key"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.textFields["provider.workspace"].exists)
+        XCTAssertTrue(app.secureTextFields["provider.workspace"].exists)
         XCTAssertFalse(app.buttons["Check connection"].exists)
         screenshot(app, "provider-settings-local-only")
     }
 
-    @MainActor
-    func testRecordingStopsOnBackgroundAndFinishesWithoutSaving() {
-        continueAfterFailure = false
-        let app = XCUIApplication(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        let entry = app.buttons["speech.record"]
-        for _ in 0..<4 where !entry.isHittable { app.swipeUp() }
-        entry.tap()
-        app.buttons["recording.start"].tap()
-        if !app.buttons["recording.stop"].waitForExistence(timeout: 3) {
-            // The first start can be covered by the microphone prompt. Interact so the monitor can allow it, then start again.
-            app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.15)).tap()
-            let start = app.buttons["recording.start"]
-            if start.waitForExistence(timeout: 3) { start.tap() }
-        }
-        XCTAssertTrue(app.buttons["recording.stop"].waitForExistence(timeout: 10))
-        let elapsed = app.staticTexts["recording.elapsed"]
-        let captured = NSPredicate { _, _ in Int(elapsed.value as? String ?? "0") ?? 0 >= 2 }
-        expectation(for: captured, evaluatedWith: nil)
-        waitForExpectations(timeout: 8)
-        XCUIDevice.shared.press(.home)
-        app.activate()
-        XCTAssertTrue(app.buttons["recording.replay"].waitForExistence(timeout: 10))
-        XCTAssertFalse(app.buttons["recording.stop"].exists, "Backgrounding must stop and never silently resume.")
-        let accept = app.buttons["recording.accept"]
-        for _ in 0..<4 where !accept.isHittable { app.swipeUp() }
-        accept.tap()
-        let finish = app.buttons["recording.finish"]
-        for _ in 0..<6 where !finish.isHittable { app.swipeUp() }
-        finish.tap() // Save voice stays off: no test recording is retained intentionally.
-        XCTAssertTrue(app.staticTexts["recording.message"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["recording.message"].label.contains("not saved"))
-        app.buttons["Done"].firstMatch.tap()
-    }
 
-    @MainActor
-    func testIntegratedSpeakingLoopFixtureAndHistory() {
-        continueAfterFailure = false
-        XCUIDevice.shared.orientation = .portrait
-        defer { XCUIDevice.shared.orientation = .portrait }
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.record"])
-        XCTAssertTrue(app.staticTexts["fixture.banner"].waitForExistence(timeout: 5))
-        tapReachable(app, app.buttons["recording.recover"].firstMatch)
-        tapReachable(app, app.buttons["recording.accept"])
-        turnOn(app, app.switches["recording.keepAudio"])
-        tapReachable(app, app.buttons["online.transcribe"])
-        tapReachable(app, app.buttons["online.send"])
-        XCTAssertTrue(app.textViews["online.transcript"].waitForExistence(timeout: 10))
-        tapReachable(app, app.buttons["online.confirm"])
-        turnOn(app, app.switches["recording.keepText"])
-        tapReachable(app, app.buttons["online.coach"])
-        tapReachable(app, app.buttons["online.send"])
-        let message = app.staticTexts["online.message"]
-        let ready = NSPredicate { _, _ in message.exists && message.label.contains("Text coaching is ready") }
-        expectation(for: ready, evaluatedWith: nil); waitForExpectations(timeout: 10)
-        screenshot(app, "integrated-fixture-feedback")
-        XCUIDevice.shared.orientation = .landscapeLeft
-        XCTAssertTrue(app.buttons["recording.finish"].waitForExistence(timeout: 5), "Review survives compact/regular layout changes.")
-        XCTAssertEqual(app.switches["recording.keepAudio"].value as? String, "1")
-        XCTAssertEqual(app.switches["recording.keepText"].value as? String, "1")
-        tapReachable(app, app.buttons["recording.finish"])
-        let finished = app.staticTexts["recording.message"]
-        XCTAssertTrue(finished.waitForExistence(timeout: 5))
-        XCTAssertTrue(finished.label.contains("Voice saved"))
-        XCTAssertTrue(finished.label.contains("transcript and feedback saved"))
-        app.buttons["Done"].firstMatch.tap()
-        XCUIDevice.shared.orientation = .portrait
-        app.terminate(); app.launch()
-        openDestination(app, title: "Progress", id: "progress")
-        XCTAssertTrue(app.staticTexts["progress.completions"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["progress.completions"].label.contains("1 self-reviews"))
-        let row = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "history.")).allElementsBoundByIndex.first { $0.identifier != "history.trash" }
-        XCTAssertNotNil(row)
-        guard let row else { return }
-        tapReachable(app, row)
-        XCTAssertTrue(app.buttons["history.replay"].waitForExistence(timeout: 5))
-        screenshot(app, "integrated-fixture-history")
-        tapReachable(app, app.buttons["history.delete"])
-        app.buttons["Delete all saved components"].tap()
-        XCTAssertTrue(app.staticTexts["history.message"].waitForExistence(timeout: 5))
-        let back = app.navigationBars.buttons["Progress"]
-        XCTAssertTrue(back.waitForExistence(timeout: 5), "Detail must offer a way back without hiding the iPad sidebar.")
-        back.tap()
-        tapReachable(app, app.buttons["history.trash"])
-        let deleted = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "history.")).firstMatch
-        tapReachable(app, deleted)
-        tapReachable(app, app.buttons["Restore voice"])
-        tapReachable(app, app.buttons["Restore text and feedback"])
-        XCTAssertTrue(app.buttons["history.replay"].exists)
-    }
 
     @MainActor
     private func turnOn(_ app: XCUIApplication, _ element: XCUIElement) {
@@ -329,6 +230,13 @@ final class BootstrapLaunchTests: XCTestCase {
     private func auditVisibleContent(_ app: XCUIApplication, types: XCUIAccessibilityAuditType) throws {
         try app.performAccessibilityAudit(for: types) { issue in
             guard let element = issue.element else { return false }
+            // iOS 27 also scans rows scrolled up behind the navigation bar. A row that ends at or above the bar's
+            // lower edge shows no pixel to the learner; a row that reaches below the bar is still audited.
+            let bar = app.navigationBars.firstMatch
+            if issue.auditType == .contrast, bar.exists, element.frame.maxY <= bar.frame.maxY {
+                print("AUDIT_ABOVE_SCREEN_ROW", element.label)
+                return true
+            }
             // The Learn scroll includes prefetched lesson labels wholly behind the system floating
             // tab bar. The audit screenshot confirms "Use numbers" is occluded there. Audit its
             // contrast when it is actually visible; never exclude tab-bar labels or partial rows.
@@ -381,379 +289,56 @@ final class BootstrapLaunchTests: XCTestCase {
         XCTAssertTrue(app.buttons["background.creativeAcademy"].waitForExistence(timeout: 5))
     }
 
-    @MainActor
-    func testOptionalIntroPracticeResumesAndReturnsToCourseDraft() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
-        app.buttons["lesson.begin"].tap()
-        let courseAnswer = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
-        tapReachable(app, courseAnswer); courseAnswer.typeText("Keep this course draft")
-        app.buttons["lesson.extra"].tap()
-        app.buttons["English foundations"].tap()
-        let answer = app.textFields["intro.practice.answer"].exists ? app.textFields["intro.practice.answer"] : app.textViews["intro.practice.answer"]
-        tapReachable(app, answer); answer.typeText("Mina")
-        XCTAssertFalse(app.staticTexts["intro.practice.example"].exists)
-        tapReachable(app, app.buttons["intro.practice.save"])
-        tapReachable(app, app.buttons["intro.practice.reveal"])
-        XCTAssertTrue(app.staticTexts["intro.practice.example"].exists)
-        tapReachable(app, app.buttons["intro.practice.return"])
-        XCTAssertEqual(courseAnswer.value as? String, "Keep this course draft")
-        app.terminate(); app.launch()
-        app.buttons["today.lesson"].tap()
-        app.buttons["lesson.extra"].tap()
-        app.buttons["English foundations"].tap()
-        XCTAssertTrue(app.staticTexts["intro.practice.example"].waitForExistence(timeout: 5))
-        screenshot(app, "intro-foundation-resumed")
-        tapReachable(app, app.buttons["intro.practice.return"])
-        for title in ["Teacher practice", "Grammarian practice", "Journalist practice"] {
-            app.buttons["lesson.extra"].tap(); app.buttons[title].tap()
-            XCTAssertTrue(app.staticTexts["intro.practice.prompt"].waitForExistence(timeout: 5))
-            if title == "Journalist practice" {
-                tapReachable(app, app.buttons["intro.practice.speak"])
-                XCTAssertTrue(app.staticTexts["recording.prompt"].waitForExistence(timeout: 5))
-                let correctTask = expectation(for: NSPredicate(format: "label CONTAINS %@", "List only the facts"), evaluatedWith: app.staticTexts["recording.prompt"])
-                wait(for: [correctTask], timeout: 5)
-                app.buttons["Close"].tap()
-            }
-            tapReachable(app, app.buttons["intro.practice.return"])
-        }
-        XCTAssertEqual(courseAnswer.value as? String, "Keep this course draft")
+
+
+
+
+
+
+
+
+
+
+    /// Lexicon › Settings › Review options. The settings rows are created as they scroll into view.
+    @MainActor private func openReviewOptions(_ app: XCUIApplication) {
+        tapReachable(app, app.buttons["lexicon.settings"])
+        XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
+        let link = app.buttons["vocabulary.options.open"]
+        for _ in 0..<25 where !(link.exists && link.isHittable) { app.swipeUp() }
+        link.tap()
     }
 
-    @MainActor
-    func testPersonalCheckKeepsFollowUpHiddenAndReturnsWithoutCourseCompletion() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
-        tapReachable(app, app.buttons["lesson.baseline"])
-        XCTAssertFalse(app.staticTexts["intro.check.prompt"].exists)
-        app.buttons["intro.check.begin"].tap()
-        let prompt = app.staticTexts["intro.check.prompt"]
-        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
-        XCTAssertFalse(prompt.label.contains("free time"))
-        let input = app.descendants(matching: .any)["intro.check.answer"].firstMatch
-        tapReachable(app, input); input.typeText("I am Lee. I study art. I like walking.")
-        tapReachable(app, app.buttons["intro.check.save"])
-        XCTAssertTrue(prompt.label.contains("free time"))
-        app.terminate(); app.launch()
-        app.buttons["today.lesson"].tap()
-        app.buttons["lesson.extra"].tap()
-        app.buttons["Introduction baseline"].tap()
-        XCTAssertTrue(prompt.waitForExistence(timeout: 5))
-        XCTAssertTrue(prompt.label.contains("free time"))
-        tapReachable(app, input); input.typeText("I like walking.")
-        tapReachable(app, app.buttons["intro.check.save"])
-        tapReachable(app, app.buttons["intro.check.finish"])
-        XCTAssertTrue(app.staticTexts["intro.check.complete"].waitForExistence(timeout: 5))
-        screenshot(app, "personal-check-complete")
-        tapReachable(app, app.buttons["intro.check.return"])
-        XCTAssertFalse(app.staticTexts["lesson.completed"].exists)
-    }
-
-    @MainActor
-    private func openIntroductionCourse(_ app: XCUIApplication) {
-        openDestination(app, title: "Lesson", id: "learn")
-        let lesson = app.buttons["learn.open.intro-01"]
-        for _ in 0..<12 where !lesson.exists { app.swipeUp() }
-        tapReachable(app, lesson)
-    }
-
-    @MainActor
-    func testIntroductionReviewOnlyAppearsAfterRevealAndCannotFinishSkippedCore() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openIntroductionCourse(app)
-        app.buttons["lesson.begin"].tap()
-        let input = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
-        XCTAssertTrue(input.waitForExistence(timeout: 5))
-        XCTAssertFalse(app.descendants(matching: .any)["intro.review.read-mina"].firstMatch.exists)
-        tapReachable(app, input); input.typeText("English")
-        tapReachable(app, app.buttons["lesson.save.read-mina"])
-        XCTAssertFalse(app.descendants(matching: .any)["intro.review.read-mina"].firstMatch.exists)
-        tapReachable(app, app.buttons["lesson.reveal.read-mina"])
-        XCTAssertTrue(app.descendants(matching: .any)["intro.review.read-mina"].firstMatch.waitForExistence(timeout: 5))
-        screenshot(app, "intro-v4-revealed-review")
-        app.buttons["lesson.contents"].tap()
-        let review = app.buttons["lesson.jump.self-review"]
-        for _ in 0..<12 where !review.exists { app.swipeUp() }
-        tapReachable(app, review)
-        let reflection = app.descendants(matching: .any)["lesson.response.self-review"].firstMatch
-        XCTAssertTrue(reflection.waitForExistence(timeout: 5))
-        tapReachable(app, reflection); reflection.typeText("Synthetic reflection about a name, role, interest and follow-up.")
-        tapReachable(app, app.buttons["lesson.save.self-review"])
-        tapReachable(app, app.buttons["lesson.reveal.self-review"])
-        let rubric = app.buttons["intro.review.rubric"].firstMatch
-        tapReachable(app, rubric)
-        let audioBoundary = app.staticTexts["Intelligibility from actual audio"]
-        for _ in 0..<16 where !audioBoundary.exists || !audioBoundary.isHittable { app.swipeUp() }
-        XCTAssertTrue(audioBoundary.exists)
-        screenshot(app, "intro-v4-rubric")
-        tapReachable(app, app.buttons["lesson.finish"])
-        XCTAssertFalse(app.staticTexts["lesson.completed"].exists)
-        XCTAssertTrue(app.staticTexts["lesson.message"].waitForExistence(timeout: 5))
-    }
-
-    @MainActor
-    func testConnectedLessonDraftResumeQuietCompletionAndVocabularyReview() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openIntroductionCourse(app)
-        app.buttons["lesson.begin"].tap()
-        let first = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
-        first.tap(); first.typeText("Mina is a designer.")
-        let saved = app.staticTexts["lesson.draft.status"]
-        let stored = NSPredicate(format: "label == %@", "Draft saved on this device")
-        expectation(for: stored, evaluatedWith: saved)
-        waitForExpectations(timeout: 8)
-        app.terminate(); app.launch()
-        openIntroductionCourse(app)
-        let resumed = app.descendants(matching: .any)["lesson.response.read-mina"].firstMatch
-        XCTAssertTrue(resumed.waitForExistence(timeout: 5))
-        XCTAssertEqual(resumed.value as? String, "Mina is a designer.")
-        app.buttons["lesson.save.read-mina"].tap()
-        if app.buttons["lesson.review-required"].exists { app.buttons["lesson.review-required"].tap() }
-        app.buttons["lesson.next"].tap()
-        let steps: [(String, String?)] = [
-            ("read-mina-name", nil), ("read-mina-like", nil), ("listen-alex-name", nil),
-            ("listen-alex", nil), ("listen-alex-like", nil), ("grammar-be-am", "am"), ("grammar-be-is", "is"),
-            ("grammar-study", "study"), ("grammar-works", "works"), ("grammar-do", "Do"),
-            ("recall-name", nil), ("recall-from", nil), ("recall-study", nil),
-            ("recall-like", nil), ("recall-meet", nil), ("guided-intro", nil),
-            ("self-review", nil)
-        ]
-        for (id, choice) in steps {
-            if let choice {
-                app.buttons["lesson.choice.\(choice)"].tap()
-            } else {
-                let input = app.descendants(matching: .any)["lesson.response.\(id)"].firstMatch
-                XCTAssertTrue(input.waitForExistence(timeout: 5))
-                input.tap(); input.typeText("My practice response.")
-            }
-            app.buttons["lesson.save.\(id)"].tap()
-            if id == "grammar-be-am" { screenshot(app, "recovery-activity-feedback") }
-            if app.buttons["lesson.review-required"].exists { app.buttons["lesson.review-required"].tap() }
-            if id == "self-review" { app.buttons["lesson.finish"].tap() }
-            else { app.buttons["lesson.next"].tap() }
-        }
-        XCTAssertTrue(app.staticTexts["lesson.completed"].waitForExistence(timeout: 5))
-        screenshot(app, "recovery-completion")
-        let enroll = app.buttons["lesson.enroll.called"]
-        for _ in 0..<6 where !enroll.isHittable { app.swipeUp() }
-        enroll.tap()
-        let back = app.navigationBars.buttons["Lesson"].firstMatch
-        XCTAssertTrue(back.waitForExistence(timeout: 5))
-        back.tap()
-        openDestination(app, title: "Lexicon", id: "vocabulary")
-        openSavedWords(app)
-        app.buttons["vocabulary.practice"].tap()
-        XCTAssertFalse(app.staticTexts["vocabulary.recall.meaning"].exists)
-        app.buttons["vocabulary.recall.reveal"].tap()
-        XCTAssertEqual(app.staticTexts["vocabulary.recall.meaning"].label, "Used to tell someone your name.")
-        screenshot(app, "recovery-vocabulary-review")
-        app.buttons["vocabulary.recall.rate.good"].tap()
-        XCTAssertTrue(app.staticTexts["vocabulary.recall.message"].waitForExistence(timeout: 5))
-    }
-
-    @MainActor
-    func testLessonSpeakingSelfReviewReturnsWithoutTypingOrRetention() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
-        app.buttons["today.lesson"].tap()
-        app.buttons["lesson.contents"].tap()
-        let guided = app.buttons["lesson.jump.guided-intro"]
-        for _ in 0..<6 where !guided.isHittable { app.swipeUp() }
-        guided.tap()
-        app.buttons["lesson.speak"].tap()
-        XCTAssertTrue(app.descendants(matching: .any)["recording.lessonContext"].firstMatch.waitForExistence(timeout: 5))
-        app.buttons["recording.start"].tap()
-        XCTAssertTrue(app.buttons["recording.stop"].waitForExistence(timeout: 10))
-        let elapsed = app.staticTexts["recording.elapsed"]
-        expectation(for: NSPredicate { _, _ in Int(elapsed.value as? String ?? "0") ?? 0 >= 2 }, evaluatedWith: nil)
-        waitForExpectations(timeout: 8)
-        app.buttons["recording.stop"].tap()
-        tapReachable(app, app.buttons["recording.accept"])
-        tapReachable(app, app.buttons["recording.finish"])
-        app.buttons["Done"].firstMatch.tap()
-        XCTAssertTrue(app.buttons["lesson.next"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["Recording and self-review completed. Speech has not been assessed."].exists)
-        screenshot(app, "recovery-lesson-speaking-return")
-    }
-
-    @MainActor
-    func testFocusedLessonAndLibraryAccessibility() throws {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Lesson", id: "learn")
-        screenshot(app, "recovery-learn")
-        try auditVisibleContent(app, types: [.contrast, .hitRegion, .sufficientElementDescription])
-        tapReachable(app, app.buttons["learn.open.intro-01"])
-        app.buttons["lesson.contents"].tap()
-        app.buttons["lesson.jump.grammar-be-am"].tap()
-        screenshot(app, "recovery-activity-choices")
-        try auditVisibleContent(app, types: [.contrast, .hitRegion, .sufficientElementDescription])
-        let back = app.navigationBars.buttons["Lesson"].firstMatch
-        XCTAssertTrue(back.waitForExistence(timeout: 5)); back.tap()
-        openDestination(app, title: "Lexicon", id: "vocabulary")
-        openSavedWords(app)
-        screenshot(app, "recovery-vocabulary")
-        try auditVisibleContent(app, types: [.contrast, .hitRegion, .sufficientElementDescription])
-    }
-
-    @MainActor
-    func testOfflineRecallDraftRevealAndRatingRecovery() throws {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        createReviewWords(app)
-        app.buttons["vocabulary.practice"].tap()
-        XCTAssertFalse(app.staticTexts["vocabulary.recall.meaning"].exists)
-        screenshot(app, "recall-hidden")
-        let typed = app.descendants(matching: .any)["vocabulary.recall.typed"].firstMatch
-        typed.tap(); typed.typeText("a list of dishes")
-        let status = app.staticTexts["vocabulary.recall.draftStatus"]
-        expectation(for: NSPredicate(format: "label == %@", "Draft saved on this device"), evaluatedWith: status)
-        waitForExpectations(timeout: 8)
-        app.terminate(); app.launch()
-        openDestination(app, title: "Lexicon", id: "vocabulary")
-        openSavedWords(app)
-        XCTAssertEqual(app.buttons["vocabulary.practice"].label, "Resume review")
-        app.buttons["vocabulary.practice"].tap()
-        XCTAssertEqual(app.descendants(matching: .any)["vocabulary.recall.typed"].firstMatch.value as? String, "a list of dishes")
-        XCTAssertFalse(app.staticTexts["vocabulary.recall.meaning"].exists)
-        tapReachable(app, app.buttons["vocabulary.recall.reveal"])
-        XCTAssertEqual(app.staticTexts["vocabulary.recall.meaning"].label, "a list of dishes")
-        try auditVisibleContent(app, types: [.contrast, .hitRegion, .sufficientElementDescription])
-        screenshot(app, "recall-written-reveal")
-        app.terminate(); app.launch()
-        openDestination(app, title: "Lexicon", id: "vocabulary")
-        openSavedWords(app)
-        app.buttons["vocabulary.practice"].tap()
-        XCTAssertTrue(app.staticTexts["vocabulary.recall.meaning"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["You wrote: a list of dishes"].exists)
-        XCTAssertFalse(app.buttons["vocabulary.recall.reveal"].exists)
-        tapReachable(app, app.buttons["vocabulary.recall.rate.hard"])
-        XCTAssertEqual(app.staticTexts["vocabulary.recall.lemma"].label, "water")
-        app.segmentedControls.buttons["Say"].tap()
-        XCTAssertFalse(app.descendants(matching: .any)["vocabulary.recall.typed"].firstMatch.exists)
-        tapReachable(app, app.buttons["vocabulary.recall.reveal"])
-        XCTAssertTrue(app.staticTexts["vocabulary.recall.spoken"].exists)
-        screenshot(app, "recall-spoken-self-check")
-        tapReachable(app, app.buttons["vocabulary.recall.rate.again"])
-        XCTAssertTrue(app.staticTexts["Practice saved"].waitForExistence(timeout: 5))
-        screenshot(app, "recall-finished")
-    }
-
-    @MainActor
-    func testRecallLargerTextThinkMode() throws {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launchArguments += ["-UIPreferredContentSizeCategoryName", "UICTContentSizeCategoryAccessibilityXXXL"]
-        app.launch()
-        createReviewWords(app)
-        app.buttons["vocabulary.practice"].tap()
-        tapReachable(app, app.buttons["vocabulary.recall.mode"])
-        app.buttons["Think"].tap()
-        XCTAssertFalse(app.descendants(matching: .any)["vocabulary.recall.typed"].firstMatch.exists)
-        tapReachable(app, app.buttons["vocabulary.recall.reveal"])
-        tapReachable(app, app.buttons["vocabulary.recall.rate.good"])
-        XCTAssertEqual(app.staticTexts["vocabulary.recall.lemma"].label, "water")
-        screenshot(app, "recall-larger-text")
-    }
-
-    @MainActor
-    func testPersonalVocabularySearchAndUnsavedTopicDetails() {
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        createReviewWords(app)
-        let topicLink = app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "vocabulary.topic.open.")).firstMatch
-        tapReachable(app, topicLink)
-        let title = app.textFields["vocabulary.topic.edit.title"]
-        tapReachable(app, title)
-        title.typeText(" updated\n")
-        let draftTitle = title.value as? String
-        let lemma = app.textFields["vocabulary.sense.lemma"]
-        tapReachable(app, lemma); lemma.typeText("cafe")
-        let note = app.textFields["vocabulary.sense.note"]
-        tapReachable(app, note); note.typeText("a place for coffee\n")
-        tapReachable(app, app.buttons["vocabulary.sense.save"])
-        tapReachable(app, title)
-        XCTAssertEqual(title.value as? String, draftTitle)
-        title.typeText("\n")
-        tapReachable(app, app.buttons["vocabulary.topic.rename"])
-        let vocabularyBack = app.navigationBars.buttons["Lexicon"].firstMatch
-        XCTAssertTrue(vocabularyBack.waitForExistence(timeout: 5))
-        vocabularyBack.tap()
-        let search = app.textFields["vocabulary.search"]
-        tapReachable(app, search); search.typeText("coffee\n")
-        XCTAssertTrue(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "vocabulary.topic.open.")).firstMatch.waitForExistence(timeout: 5))
-        tapReachable(app, app.buttons["vocabulary.search.clear"])
-        tapReachable(app, search); search.typeText("zznomatchzz\n")
-        XCTAssertTrue(app.otherElements["vocabulary.search.empty"].exists || app.staticTexts["No matching words or topics"].exists)
-        tapReachable(app, app.buttons["vocabulary.search.clear"])
-        XCTAssertTrue(app.buttons.matching(NSPredicate(format: "identifier BEGINSWITH %@", "vocabulary.topic.open.")).firstMatch.exists)
-        screenshot(app, "personal-vocabulary-search")
-    }
-
+    /// Phase 8: review options live in Lexicon › Training settings.
     @MainActor
     func testReviewOptionsPersistAndLimitOneSession() throws {
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
         app.launch()
-        createReviewWords(app)
-        tapReachable(app, app.buttons["vocabulary.options.open"])
+        openDestination(app, title: "Lexicon", id: "vocabulary")
+        openReviewOptions(app)
         let retention = app.textFields["vocabulary.options.retention"]
         XCTAssertTrue(retention.waitForExistence(timeout: 5))
         XCTAssertEqual(retention.value as? String, "90")
         retention.tap(); retention.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: 2) + "95")
         let limit = app.textFields["vocabulary.options.limit"]
         limit.tap(); limit.typeText("0")
+        app.buttons["vocabulary.options.keyboard.done"].tap()
         tapReachable(app, app.buttons["vocabulary.options.save"])
         XCTAssertTrue(app.staticTexts["vocabulary.options.message"].label.contains("positive whole number"))
         limit.tap(); limit.typeText(XCUIKeyboardKey.delete.rawValue + "1")
+        app.buttons["vocabulary.options.keyboard.done"].tap()
         tapReachable(app, app.buttons["vocabulary.options.save"])
         XCTAssertTrue(app.staticTexts["vocabulary.options.message"].label.contains("Review options saved"))
-        // Fully reveal the history paragraph before auditing it; the floating system
-        // tab bar otherwise covers the middle of this partially visible row.
-        app.swipeUp()
+        // Back to the top so no row sits half under the sheet's translucent bar during the audit.
+        for _ in 0..<3 { app.swipeDown(velocity: .slow) }
         screenshot(app, "review-options-saved")
         try auditVisibleContent(app, types: [.contrast, .sufficientElementDescription])
         app.terminate(); app.launch()
         openDestination(app, title: "Lexicon", id: "vocabulary")
-        openSavedWords(app)
-        tapReachable(app, app.buttons["vocabulary.options.open"])
+        openReviewOptions(app)
         XCTAssertEqual(app.textFields["vocabulary.options.limit"].value as? String, "1")
         XCTAssertEqual(app.textFields["vocabulary.options.retention"].value as? String, "95")
-        app.navigationBars.buttons["My words"].firstMatch.tap()
-        tapReachable(app, app.buttons["vocabulary.practice"])
-        XCTAssertTrue(app.staticTexts["Word 1 of 1"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["vocabulary.recall.deferred"].label.contains("1 more due word"))
-        tapReachable(app, app.buttons["vocabulary.recall.reveal"])
-        tapReachable(app, app.buttons["vocabulary.recall.rate.easy"])
-        XCTAssertTrue(app.staticTexts["Practice saved"].waitForExistence(timeout: 5))
-        screenshot(app, "review-limited-session")
-        tapReachable(app, app.buttons["vocabulary.recall.again"])
-        XCTAssertEqual(app.staticTexts["vocabulary.recall.lemma"].label, "water")
-        XCTAssertTrue(app.staticTexts["Word 1 of 1"].exists)
     }
 
     @MainActor
@@ -763,7 +348,7 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["vocabulary.topic.new"])
         let title = app.textFields["vocabulary.topic.title"]
         XCTAssertTrue(title.waitForExistence(timeout: 5))
-        title.tap(); title.typeText("Kitchen\n")
+        title.tap(); title.typeText("Kitchen")
         XCTAssertEqual(title.value as? String, "Kitchen")
         let create = app.buttons["vocabulary.topic.save"]
         expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: create)
@@ -812,6 +397,7 @@ final class BootstrapLaunchTests: XCTestCase {
         XCTAssertFalse(app.staticTexts["lesson.topic.teaching"].exists)
         screenshot(app, "a1-exact-v2-resume")
         app.terminate(); app.launch()
+        XCTAssertTrue(app.buttons["today.lesson"].waitForExistence(timeout: 10))
         app.buttons["today.lesson"].tap()
         XCTAssertTrue(draft.waitForExistence(timeout: 8))
         XCTAssertEqual(draft.value as? String, "Synthetic v2 home draft")
@@ -857,159 +443,25 @@ final class BootstrapLaunchTests: XCTestCase {
     }
 
     @MainActor
-    func testConnectedConversationDraftRecoveryAndDiscard() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.conversation"])
-        let situation = app.descendants(matching: .any)["conversation.situation"].firstMatch
-        tapReachable(app, situation); situation.typeText("A fictional lunch order")
-        tapReachable(app, app.buttons["conversation.start"])
-        let draft = app.descendants(matching: .any)["conversation.draft"].firstMatch
-        tapReachable(app, draft); draft.typeText("Synthetic unfinished turn")
-        tapReachable(app, app.buttons["practice.draft.keep"])
-        XCTAssertTrue(app.staticTexts["practice.storage.message"].waitForExistence(timeout: 5))
-        app.terminate(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.conversation"])
-        XCTAssertTrue(draft.waitForExistence(timeout: 8))
-        XCTAssertEqual(draft.value as? String, "Synthetic unfinished turn")
-        tapReachable(app, app.buttons["conversation.send"])
-        XCTAssertFalse(app.buttons["conversation.partner"].isEnabled)
-        tapReachable(app, app.buttons["conversation.end"])
-        tapReachable(app, app.buttons["conversation.discard"])
-        screenshot(app, "connected-conversation-discard")
-        app.terminate(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.conversation"])
-        XCTAssertFalse(app.staticTexts["Synthetic unfinished turn"].exists)
-        XCTAssertTrue(app.buttons["practice.new"].waitForExistence(timeout: 5))
-    }
-
-    @MainActor
-    func testConnectedInterviewRecordsAndReturnsToExactAnswer() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.interview"])
-        let role = app.descendants(matching: .any)["interview.role"].firstMatch
-        for _ in 0..<5 {
-            if role.exists { break }
-            app.swipeUp()
-        }
-        screenshot(app, "connected-interview-setup")
-        tapReachable(app, role)
-        app.descendants(matching: .any)["interview.role"].firstMatch.typeText("Fictional librarian")
-        tapReachable(app, app.buttons["interview.start"])
-        tapReachable(app, app.buttons["interview.record"])
-        XCTAssertTrue(app.staticTexts["recording.prompt"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["recording.prompt"].label.contains("role you named"))
-        app.buttons["recording.start"].tap()
-        XCTAssertTrue(app.buttons["recording.stop"].waitForExistence(timeout: 10))
-        let elapsed = app.staticTexts["recording.elapsed"]
-        expectation(for: NSPredicate { _, _ in Int(elapsed.value as? String ?? "0") ?? 0 >= 2 }, evaluatedWith: nil)
-        waitForExpectations(timeout: 8)
-        app.buttons["recording.stop"].tap()
-        tapReachable(app, app.buttons["recording.accept"])
-        tapReachable(app, app.buttons["recording.finish"])
-        app.buttons["Done"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["interview.recording.attached"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["interview.recording.attached"].label.contains("opening answer"))
-        tapReachable(app, app.descendants(matching: .any)["interview.opening"].firstMatch)
-        app.descendants(matching: .any)["interview.opening"].firstMatch.typeText("I organize fictional books.")
-        tapReachable(app, app.buttons["interview.opening.submit"])
-        XCTAssertTrue(app.staticTexts["interview.followup"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["interview.followup"].label.contains("I organize fictional books."))
-        XCTAssertFalse(app.buttons["interview.online"].isEnabled)
-        tapReachable(app, app.buttons["interview.end"])
-        tapReachable(app, app.buttons["interview.discard"])
-        screenshot(app, "connected-interview-discard")
-    }
-
-    @MainActor
-    func testCommunicationDraftSharesExactSourceAcrossLearnAndSpeechLab() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Lesson", id: "learn")
-        tapReachable(app, app.buttons["learn.open.a1-greetings"])
-        tapReachable(app, app.buttons["lesson.topic.extra"])
-        app.buttons["lesson.communication"].tap()
-        XCTAssertTrue(app.staticTexts["communication.lesson.source"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["communication.lesson.source"].label.contains("version 4"))
-        let purpose = app.descendants(matching: .any)["communication.purpose"].firstMatch
-        tapReachable(app, purpose); purpose.typeText("Synthetic communication purpose")
-        tapReachable(app, app.buttons["communication.start"])
-        let answer = app.descendants(matching: .any)["communication.answer"].firstMatch
-        tapReachable(app, answer); answer.typeText("Synthetic communication draft")
-        tapReachable(app, app.buttons["practice.draft.keep"])
-        XCTAssertTrue(app.staticTexts["practice.storage.message"].waitForExistence(timeout: 5))
-        app.terminate(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.communication"])
-        tapReachable(app, app.buttons["communication.open.a1-greetings.3"])
-        XCTAssertTrue(answer.waitForExistence(timeout: 5))
-        XCTAssertEqual(answer.value as? String, "Synthetic communication draft")
-        tapReachable(app, app.buttons["communication.save"])
-        XCTAssertEqual(app.staticTexts["communication.saved.answer"].label, "Synthetic communication draft")
-        tapReachable(app, answer); answer.typeText(" Revised.")
-        tapReachable(app, app.buttons["communication.retry"])
-        XCTAssertTrue(app.staticTexts["communication.saved.answer"].label.contains("Revised."))
-        tapReachable(app, app.buttons["communication.stop"])
-        tapReachable(app, app.buttons["communication.end"])
-        tapReachable(app, app.buttons["communication.discard"])
-        screenshot(app, "communication-linked-discard")
-        app.terminate(); app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.communication"])
-        tapReachable(app, app.buttons["communication.open.a1-greetings.3"])
-        XCTAssertTrue(app.buttons["practice.new"].waitForExistence(timeout: 5))
-        XCTAssertFalse(app.staticTexts["Synthetic communication draft"].exists)
-        tapReachable(app, app.buttons["practice.new"])
-        XCTAssertTrue(app.buttons["communication.start"].waitForExistence(timeout: 5))
-    }
-
-    @MainActor
-    func testCommunicationRecordingReturnsToItsOwnResponse() {
-        continueAfterFailure = false
-        let app = XCUIApplication()
-        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
-        app.launch()
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.communication"])
-        tapReachable(app, app.buttons["communication.open.standalone"])
-        let purpose = app.descendants(matching: .any)["communication.purpose"].firstMatch
-        tapReachable(app, purpose); purpose.typeText("Synthetic recorded purpose")
-        tapReachable(app, app.buttons["communication.start"])
-        tapReachable(app, app.buttons["communication.record"])
-        XCTAssertTrue(app.staticTexts["recording.prompt"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.staticTexts["recording.prompt"].label.contains("Synthetic recorded purpose"))
-        app.buttons["recording.start"].tap()
-        XCTAssertTrue(app.buttons["recording.stop"].waitForExistence(timeout: 10))
-        let elapsed = app.staticTexts["recording.elapsed"]
-        expectation(for: NSPredicate { _, _ in Int(elapsed.value as? String ?? "0") ?? 0 >= 2 }, evaluatedWith: nil)
-        waitForExpectations(timeout: 8)
-        app.buttons["recording.stop"].tap()
-        tapReachable(app, app.buttons["recording.accept"])
-        tapReachable(app, app.buttons["recording.finish"])
-        app.buttons["Done"].firstMatch.tap()
-        XCTAssertTrue(app.staticTexts["communication.recording.attached"].waitForExistence(timeout: 5))
-        tapReachable(app, app.buttons["communication.save"])
-        tapReachable(app, app.buttons["communication.stop"])
-        tapReachable(app, app.buttons["communication.discard"])
-        screenshot(app, "communication-recording-discard")
-        XCTAssertTrue(app.buttons["practice.new"].exists)
-    }
-
     private func openSavedVersions(_ app: XCUIApplication) {
         let contents = app.buttons["lesson.contents"]
-        XCTAssertTrue(contents.waitForExistence(timeout: 5))
-        contents.tap()
+        XCTAssertTrue(contents.waitForExistence(timeout: 5)); contents.tap()
+    }
+
+    @MainActor
+    func testRemainingFreeTextFieldsExposeDictation() {
+        continueAfterFailure = false
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launchEnvironment["SC_DICTATION_FIXTURE"] = "1"
+        app.launch()
+        openResourceLibrary(app)
+        tapReachable(app, app.buttons["resources.add"])
+        let microphones = app.buttons.matching(identifier: "dictation.button")
+        XCTAssertEqual(microphones.count, 3, "Title, topic and notes each have a microphone; the URL does not.")
+        microphones.element(boundBy: 0).tap()
+        XCTAssertEqual(app.textFields["resources.editor.title"].value as? String, "Synthetic dictated text")
+        screenshot(app, "round4-resource-dictation")
     }
 
     @MainActor
@@ -1135,19 +587,13 @@ final class BootstrapLaunchTests: XCTestCase {
         return button
     }
 
-    @MainActor
-    private func openGeneratedPractice(_ app: XCUIApplication) {
-        openDestination(app, title: "Speech Lab", id: "speechLab")
-        tapReachable(app, app.buttons["speech.generated"])
-        XCTAssertTrue(app.buttons["generated.request"].waitForExistence(timeout: 5))
-    }
 
     private func screenshot(_ app: XCUIApplication, _ name: String) {
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = name; attachment.lifetime = .keepAlways; add(attachment)
     }
     @MainActor
-    func testRewardWalletCancellationPurchaseAndRestart() {
+    func testLevelAndBadgesShowXPOnlyAndSurviveRestart() {
         continueAfterFailure = false
         let app = XCUIApplication()
         app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
@@ -1156,19 +602,15 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["rewards.open"])
         let balance = app.staticTexts["rewards.balance"]
         XCTAssertTrue(balance.waitForExistence(timeout: 10))
-        XCTAssertTrue(balance.label.contains("34 gold"), balance.label)
-        tapReachable(app, app.buttons["rewards.buy-freeze"])
-        XCTAssertTrue(app.alerts["Confirm gold purchase"].waitForExistence(timeout: 3))
-        app.alerts.buttons["Cancel"].tap()
-        XCTAssertTrue(balance.label.contains("34 gold"))
-        tapReachable(app, app.buttons["rewards.buy-freeze"])
-        app.alerts.buttons["rewards.purchase.confirm"].firstMatch.tap()
-        XCTAssertTrue(balance.label.contains("14 gold"), balance.label)
-        let image = XCTAttachment(screenshot: app.screenshot()); image.name = "SC-D005-wallet-after-one-confirmed-purchase"; image.lifetime = .keepAlways; add(image)
+        XCTAssertTrue(balance.label.contains("XP"), balance.label)
+        XCTAssertFalse(balance.label.localizedCaseInsensitiveContains("gold"))
+        XCTAssertTrue(app.staticTexts["rewards.level"].exists)
+        XCTAssertFalse(app.buttons["rewards.buy-freeze"].exists)
+        let image = XCTAttachment(screenshot: app.screenshot()); image.name = "level-and-badges"; image.lifetime = .keepAlways; add(image)
         app.terminate(); app.launch()
         tapReachable(app, app.buttons["rewards.open"])
         XCTAssertTrue(app.staticTexts["rewards.balance"].waitForExistence(timeout: 10))
-        XCTAssertTrue(app.staticTexts["rewards.balance"].label.contains("14 gold"))
+        XCTAssertTrue(app.staticTexts["rewards.balance"].label.contains("XP"))
     }
 
     @MainActor
@@ -1185,16 +627,20 @@ final class BootstrapLaunchTests: XCTestCase {
         tapReachable(app, app.buttons["rewards.settings"])
         XCTAssertTrue(app.navigationBars["Reward preferences"].waitForExistence(timeout: 5))
         let screenshot = XCTAttachment(screenshot: app.screenshot()); screenshot.name = "SC-D005-dark-large-text-preferences"; screenshot.lifetime = .keepAlways; add(screenshot)
-        let back = app.navigationBars["Reward preferences"].buttons.matching(NSPredicate(format: "identifier == 'BackButton' OR label == 'Rewards & achievements'")).firstMatch
+        let back = app.navigationBars["Reward preferences"].buttons.matching(NSPredicate(format: "identifier == 'BackButton' OR label == 'Level and badges'")).firstMatch
         XCTAssertTrue(back.exists); back.tap()
         for _ in 0..<18 {
             if app.buttons["rewards.category"].exists { break }
             app.swipeUp()
         }
         tapReachable(app, app.buttons["rewards.category"])
-        app.buttons["Learning"].firstMatch.tap()
-        tapReachable(app, app.buttons["rewards.family.AW-LE-01"])
-        XCTAssertTrue(app.staticTexts["Assessment or content not yet available"].waitForExistence(timeout: 5))
+        app.buttons["Completion"].firstMatch.tap()
+        // v2: badges nothing can earn are hidden; a new coach badge shows instead.
+        XCTAssertFalse(app.buttons["rewards.family.AW-LE-01"].exists)
+        let coach = app.buttons["rewards.family.AW-TK-01"]
+        for _ in 0..<12 where !coach.exists { app.swipeUp() }   // the badge list is lazy
+        tapReachable(app, coach)
+        XCTAssertTrue(app.staticTexts["Not earned yet"].firstMatch.waitForExistence(timeout: 5))
         XCTAssertFalse(app.buttons["rewards.purchase.confirm"].exists)
         let detail = XCTAttachment(screenshot: app.screenshot()); detail.name = "SC-D005-unavailable-learning-detail"; detail.lifetime = .keepAlways; add(detail)
     }

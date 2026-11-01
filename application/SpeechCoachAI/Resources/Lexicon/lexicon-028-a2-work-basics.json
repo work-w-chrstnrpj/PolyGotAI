@@ -1,0 +1,680 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a2-work-basics",
+    "title": "Work and study basics",
+    "level": "A2",
+    "tagline": "School, office and screens",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "schedule",
+      "pos": "noun",
+      "meaning": "A list of times when things will happen.",
+      "examples": [
+        "My {schedule} is full on Monday."
+      ],
+      "wrong": [
+        "I eat my schedule for lunch.",
+        "The schedule are on the wall."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.schedule",
+      "synonyms": [
+        "timetable",
+        "plan"
+      ],
+      "ipa": "/ˈskɛdʒul/"
+    },
+    {
+      "lemma": "meeting",
+      "pos": "noun",
+      "meaning": "An event where people come together to talk about work.",
+      "examples": [
+        "We have a {meeting} at ten o’clock."
+      ],
+      "wrong": [
+        "I wore my meeting on my feet.",
+        "She meetings with her manager."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.meeting",
+      "synonyms": [
+        "gathering"
+      ],
+      "ipa": "/ˈmitɪŋ/"
+    },
+    {
+      "lemma": "colleague",
+      "pos": "noun",
+      "meaning": "A person you work with.",
+      "examples": [
+        "My {colleague} helped me with the spreadsheet."
+      ],
+      "wrong": [
+        "A colleague is a person you have never heard of and never work with.",
+        "He colleagues a long report."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.colleague",
+      "synonyms": [
+        "coworker"
+      ],
+      "ipa": "/ˈkɑliɡ/"
+    },
+    {
+      "lemma": "manager",
+      "pos": "noun",
+      "meaning": "A person who is in charge of a team or a place.",
+      "examples": [
+        "The {manager} thanked us for our hard work."
+      ],
+      "wrong": [
+        "The manager is a person who never decides anything and works for no one.",
+        "She managers the team."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.manager",
+      "synonyms": [
+        "supervisor"
+      ],
+      "ipa": "/ˈmænɪdʒɚ/"
+    },
+    {
+      "lemma": "appointment",
+      "pos": "noun",
+      "meaning": "A planned time to meet someone.",
+      "examples": [
+        "I have a dentist {appointment} at four."
+      ],
+      "wrong": [
+        "I met a stranger on the street by appointment, but we never planned it.",
+        "She appointment the doctor."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.appointment",
+      "synonyms": [
+        "meeting",
+        "booking"
+      ],
+      "ipa": "/əˈpɔɪntmənt/"
+    },
+    {
+      "lemma": "customer",
+      "pos": "noun",
+      "meaning": "A person who buys goods or services.",
+      "examples": [
+        "The {customer} asked for a refund."
+      ],
+      "wrong": [
+        "The customer sells the goods to the shop.",
+        "He customers many things."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.customer",
+      "synonyms": [
+        "client",
+        "buyer"
+      ],
+      "ipa": "/ˈkʌstəmɚ/"
+    },
+    {
+      "lemma": "report",
+      "pos": "noun",
+      "meaning": "A document that gives information about something.",
+      "examples": [
+        "She wrote a short {report} on sales."
+      ],
+      "wrong": [
+        "I ate a report for breakfast.",
+        "He reports are on his desk."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.report",
+      "ipa": "/rɪˈpɔrt/"
+    },
+    {
+      "lemma": "team",
+      "pos": "noun",
+      "meaning": "A group of people who work together.",
+      "examples": [
+        "Our {team} meets every Monday."
+      ],
+      "wrong": [
+        "I am the only person in our team of twelve.",
+        "He teams in the sales department."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.team",
+      "synonyms": [
+        "group",
+        "crew"
+      ],
+      "ipa": "/tim/"
+    },
+    {
+      "lemma": "office",
+      "pos": "noun",
+      "meaning": "A place where people do desk work.",
+      "examples": [
+        "I take the bus to the {office}."
+      ],
+      "wrong": [
+        "I cook dinner in the office of my pocket.",
+        "She office at nine."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.office",
+      "ipa": "/ˈɔfɪs/"
+    },
+    {
+      "lemma": "order",
+      "pos": "verb",
+      "meaning": "To ask for goods or food to be brought to you.",
+      "examples": [
+        "We will {order} pizza for lunch."
+      ],
+      "wrong": [
+        "I order a pizza, so I make it myself.",
+        "She orders me about food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "id": "work-office.order",
+      "synonyms": [
+        "request"
+      ],
+      "ipa": "/ˈɔrdɚ/"
+    },
+    {
+      "lemma": "boss",
+      "pos": "noun",
+      "meaning": "The person in charge of other workers.",
+      "examples": [
+        "My {boss} asked me to finish the report."
+      ],
+      "wrong": [
+        "A boss is a person who works for nobody and has no job."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "manager",
+        "chief"
+      ],
+      "ipa": "/bɔs/"
+    },
+    {
+      "lemma": "lesson",
+      "pos": "noun",
+      "meaning": "A period of time when someone teaches something.",
+      "examples": [
+        "We have an English {lesson} at ten."
+      ],
+      "wrong": [
+        "A lesson is a long vacation from school."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "class"
+      ],
+      "ipa": "/ˈlɛsən/"
+    },
+    {
+      "lemma": "exam",
+      "pos": "noun",
+      "meaning": "A formal test of what you know.",
+      "examples": [
+        "She studied all night for the {exam}."
+      ],
+      "wrong": [
+        "An exam is a party at the end of the day."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "test"
+      ],
+      "ipa": "/ɪɡˈzæm/"
+    },
+    {
+      "lemma": "homework",
+      "pos": "noun",
+      "meaning": "Work that a teacher gives students to do at home.",
+      "examples": [
+        "I do my {homework} after dinner."
+      ],
+      "wrong": [
+        "Homework is the work that teachers do at school."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈhoʊmwɝk/"
+    },
+    {
+      "lemma": "subject",
+      "pos": "noun",
+      "meaning": "An area of study, such as history.",
+      "examples": [
+        "Math is my favorite {subject}."
+      ],
+      "wrong": [
+        "A subject is a type of vegetable."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "topic",
+        "course"
+      ],
+      "ipa": "/ˈsʌbdʒɪkt/"
+    },
+    {
+      "lemma": "language",
+      "pos": "noun",
+      "meaning": "A system of words that people use to speak and write.",
+      "examples": [
+        "Spanish is a beautiful {language}."
+      ],
+      "wrong": [
+        "A language is a part of the body that you use to walk."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "tongue"
+      ],
+      "ipa": "/ˈlæŋɡwɪdʒ/"
+    },
+    {
+      "lemma": "notebook",
+      "pos": "noun",
+      "meaning": "A book with empty pages for writing notes.",
+      "examples": [
+        "She wrote the words in her {notebook}."
+      ],
+      "wrong": [
+        "A notebook is a small machine that cooks food."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈnoʊtbʊk/"
+    },
+    {
+      "lemma": "dictionary",
+      "pos": "noun",
+      "meaning": "A book that gives the meanings of words.",
+      "examples": [
+        "I looked up the word in the {dictionary}."
+      ],
+      "wrong": [
+        "A dictionary is a book of maps."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdɪkʃəˌnɛri/"
+    },
+    {
+      "lemma": "laptop",
+      "pos": "noun",
+      "meaning": "A small computer that you can carry.",
+      "examples": [
+        "He works on his {laptop} at the café."
+      ],
+      "wrong": [
+        "A laptop is a large machine that stays in a factory."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "notebook"
+      ],
+      "ipa": "/ˈlæptɑp/"
+    },
+    {
+      "lemma": "printer",
+      "pos": "noun",
+      "meaning": "A machine that puts words or pictures on paper.",
+      "examples": [
+        "The {printer} is out of paper."
+      ],
+      "wrong": [
+        "A printer is a machine that cuts bread."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈprɪntɚ/"
+    },
+    {
+      "lemma": "email",
+      "pos": "noun",
+      "meaning": "A message that you send on a computer.",
+      "examples": [
+        "I sent her an {email} this morning."
+      ],
+      "wrong": [
+        "An email is a letter that a postman brings to your door in a box."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈimeɪl/"
+    },
+    {
+      "lemma": "message",
+      "pos": "noun",
+      "meaning": "A piece of information that you send or leave for someone.",
+      "examples": [
+        "I left you a {message} on your phone."
+      ],
+      "wrong": [
+        "A message is a kind of fruit."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "note"
+      ],
+      "ipa": "/ˈmɛsɪdʒ/"
+    },
+    {
+      "lemma": "call",
+      "pos": "verb",
+      "meaning": "To telephone someone.",
+      "examples": [
+        "I will {call} you tonight."
+      ],
+      "wrong": [
+        "I call my friend by sending her a letter."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "phone",
+        "ring"
+      ],
+      "ipa": "/kɔl/"
+    },
+    {
+      "lemma": "password",
+      "pos": "noun",
+      "meaning": "A secret word that lets you use a computer or account.",
+      "examples": [
+        "Do not tell anyone your {password}."
+      ],
+      "wrong": [
+        "A password is a word that everyone shares on a public sign."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈpæswɝd/"
+    },
+    {
+      "lemma": "website",
+      "pos": "noun",
+      "meaning": "A place on the internet with information about something.",
+      "examples": [
+        "The shop has a good {website}."
+      ],
+      "wrong": [
+        "A website is a building made of bricks."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "site"
+      ],
+      "ipa": "/ˈwɛbsaɪt/"
+    },
+    {
+      "lemma": "download",
+      "pos": "verb",
+      "meaning": "To copy a file from the internet to your computer.",
+      "examples": [
+        "You can {download} the game for free."
+      ],
+      "wrong": [
+        "I download a file by deleting it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈdaʊnˌloʊd/",
+      "antonyms": [
+        "upload"
+      ]
+    },
+    {
+      "lemma": "online",
+      "pos": "adjective",
+      "meaning": "Connected to the internet.",
+      "examples": [
+        "The {online} shop delivers quickly."
+      ],
+      "wrong": [
+        "The shop is online, so we must walk to it on the street."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˌɑnˈlaɪn/",
+      "antonyms": [
+        "offline"
+      ]
+    },
+    {
+      "lemma": "screen",
+      "pos": "noun",
+      "meaning": "The flat part of a computer or phone where you see pictures.",
+      "examples": [
+        "The {screen} of my phone is broken."
+      ],
+      "wrong": [
+        "A screen is the part of a computer that you type on."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/skrin/"
+    },
+    {
+      "lemma": "keyboard",
+      "pos": "noun",
+      "meaning": "The set of keys you press to type.",
+      "examples": [
+        "She typed the letter on the {keyboard}."
+      ],
+      "wrong": [
+        "A keyboard is a screen that shows pictures."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈkibɔrd/"
+    },
+    {
+      "lemma": "battery",
+      "pos": "noun",
+      "meaning": "A small object that stores power for a phone or a toy.",
+      "examples": [
+        "My phone {battery} is almost empty."
+      ],
+      "wrong": [
+        "A battery is a kind of food that you eat hot."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈbætəri/"
+    },
+    {
+      "lemma": "charger",
+      "pos": "noun",
+      "meaning": "A device that fills a battery with power.",
+      "examples": [
+        "I forgot my phone {charger} at home."
+      ],
+      "wrong": [
+        "A charger is a thing that you wear on your head."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈtʃɑrdʒɚ/"
+    },
+    {
+      "lemma": "internet",
+      "pos": "noun",
+      "meaning": "The worldwide system that connects computers.",
+      "examples": [
+        "I read the news on the {internet}."
+      ],
+      "wrong": [
+        "The internet is a book that you borrow at a library."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈɪntɚnɛt/"
+    },
+    {
+      "lemma": "photo",
+      "pos": "noun",
+      "meaning": "A picture taken with a camera.",
+      "examples": [
+        "She took a {photo} of the sunset."
+      ],
+      "wrong": [
+        "A photo is a sound you hear in a quiet room."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "picture",
+        "photograph"
+      ],
+      "ipa": "/ˈfoʊtoʊ/"
+    },
+    {
+      "lemma": "video",
+      "pos": "noun",
+      "meaning": "A recording of moving pictures.",
+      "examples": [
+        "We watched a funny {video} online."
+      ],
+      "wrong": [
+        "A video is a still picture that does not move."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈvɪdioʊ/"
+    },
+    {
+      "lemma": "document",
+      "pos": "noun",
+      "meaning": "A paper or file with written information.",
+      "examples": [
+        "Please sign this {document} and send it back."
+      ],
+      "wrong": [
+        "A document is a machine that prints in color."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "file",
+        "paper"
+      ],
+      "ipa": "/ˈdɑkjəmənt/"
+    },
+    {
+      "lemma": "folder",
+      "pos": "noun",
+      "meaning": "A holder for papers or files on a desk or computer.",
+      "examples": [
+        "Put the file in the blue {folder}."
+      ],
+      "wrong": [
+        "A folder is a tool for cutting paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/ˈfoʊldɚ/"
+    },
+    {
+      "lemma": "copy",
+      "pos": "verb",
+      "meaning": "To make something that is exactly like another thing.",
+      "examples": [
+        "Please {copy} the file onto this disk."
+      ],
+      "wrong": [
+        "I copy a page by writing something new."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "duplicate"
+      ],
+      "ipa": "/ˈkɑpi/"
+    },
+    {
+      "lemma": "print",
+      "pos": "verb",
+      "meaning": "To produce words or pictures on paper with a machine.",
+      "examples": [
+        "I will {print} the tickets at home."
+      ],
+      "wrong": [
+        "I print a letter by sending it by email only, with no paper."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "ipa": "/prɪnt/"
+    },
+    {
+      "lemma": "save",
+      "pos": "verb",
+      "meaning": "To keep a file so you can use it later.",
+      "examples": [
+        "Remember to {save} your work."
+      ],
+      "wrong": [
+        "I save my work by deleting it."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "keep",
+        "store"
+      ],
+      "ipa": "/seɪv/",
+      "antonyms": [
+        "delete"
+      ]
+    },
+    {
+      "lemma": "share",
+      "pos": "verb",
+      "meaning": "To let other people use or see something that is yours.",
+      "examples": [
+        "I will {share} the photos with you."
+      ],
+      "wrong": [
+        "I share my sandwich by eating it all alone."
+      ],
+      "cefr": "A2",
+      "register": "everyday",
+      "synonyms": [
+        "post"
+      ],
+      "ipa": "/ʃɛr/"
+    }
+  ]
+}

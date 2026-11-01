@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-idioms-3",
+    "title": "More idioms",
+    "level": "C2",
+    "tagline": "Colourful native expressions",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "a tempest in a teapot",
+      "pos": "phrase",
+      "meaning": "A lot of anger or worry about something that is really very small.",
+      "examples": [
+        "The row over the parking spaces was just {a tempest in a teapot}."
+      ],
+      "wrong": [
+        "The war that destroyed three cities was only a tempest in a teapot."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə ˈtɛmpəst ɪn ə ˈtiˌpɑt/"
+    },
+    {
+      "lemma": "the whole nine yards",
+      "pos": "phrase",
+      "meaning": "Everything possible, with nothing left out.",
+      "examples": [
+        "They had a band, fireworks, a huge cake: {the whole nine yards}."
+      ],
+      "wrong": [
+        "The party was the whole nine yards: just a few chips and no music."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə hoʊl naɪn jɑrdz/"
+    },
+    {
+      "lemma": "go down a rabbit hole",
+      "pos": "phrase",
+      "meaning": "To get pulled deeper and deeper into a topic, losing track of time.",
+      "examples": [
+        "I looked up one fact and {went down a rabbit hole} for three hours."
+      ],
+      "wrong": [
+        "He went down a rabbit hole and lost interest in the topic after a minute."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɡoʊ daʊn ə ˈræbɪt hoʊl/"
+    },
+    {
+      "lemma": "a dark horse",
+      "pos": "phrase",
+      "meaning": "A person who surprises everyone by being better than expected.",
+      "examples": [
+        "The quiet new player turned out to be {a dark horse} and won the cup."
+      ],
+      "wrong": [
+        "Everyone knew he would win; he was a real dark horse."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə dɑrk hɔrs/"
+    },
+    {
+      "lemma": "the acid test",
+      "pos": "phrase",
+      "meaning": "The real test that shows whether something works or is true.",
+      "examples": [
+        "The {acid test} of the new road will be rush hour."
+      ],
+      "wrong": [
+        "The acid test proved nothing, because it was the least important check."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "litmus test"
+      ],
+      "ipa": "/ði ˈæsɪd tɛst/"
+    },
+    {
+      "lemma": "the lion’s share",
+      "pos": "phrase",
+      "meaning": "The biggest part of something.",
+      "examples": [
+        "The eldest son got {the lion’s share} of the money."
+      ],
+      "wrong": [
+        "He got the lion’s share, so he had less than anyone else."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "most",
+        "bulk"
+      ],
+      "ipa": "/ðə ˈlaɪənz ʃɛr/"
+    },
+    {
+      "lemma": "a wild goose chase",
+      "pos": "phrase",
+      "meaning": "A long search that is hopeless because the thing cannot be found.",
+      "examples": [
+        "The fake map sent us on {a wild goose chase} across the island."
+      ],
+      "wrong": [
+        "It was a wild goose chase: we found the shop on our first try."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə waɪld ɡus tʃeɪs/"
+    },
+    {
+      "lemma": "a sacred cow",
+      "pos": "phrase",
+      "meaning": "A belief or custom that people think must never be questioned.",
+      "examples": [
+        "In this firm, the annual bonus is {a sacred cow}."
+      ],
+      "wrong": [
+        "The rule is a sacred cow, so everyone criticizes it freely."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə ˈseɪkrɪd kaʊ/"
+    },
+    {
+      "lemma": "a loose cannon",
+      "pos": "phrase",
+      "meaning": "A person who acts in wild, unpredictable ways that can cause trouble.",
+      "examples": [
+        "The new adviser is {a loose cannon} who says whatever he likes."
+      ],
+      "wrong": [
+        "She is a loose cannon, always careful and completely predictable."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə lus ˈkænən/"
+    },
+    {
+      "lemma": "a wet blanket",
+      "pos": "phrase",
+      "meaning": "A person who spoils other people’s fun.",
+      "examples": [
+        "Don’t be {a wet blanket}; come dancing with us."
+      ],
+      "wrong": [
+        "He was a wet blanket, keeping everyone laughing and dancing all night."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "killjoy",
+        "spoilsport"
+      ],
+      "ipa": "/ə wɛt ˈblæŋkɪt/"
+    },
+    {
+      "lemma": "put the cart before the horse",
+      "pos": "phrase",
+      "meaning": "To do things in the wrong order.",
+      "examples": [
+        "Buying furniture before finding a flat is {putting the cart before the horse}."
+      ],
+      "wrong": [
+        "She put the cart before the horse by doing each step in the correct order."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/pʊt ðə kɑrt bɪˈfɔr ðə hɔrs/"
+    },
+    {
+      "lemma": "rest on your laurels",
+      "pos": "phrase",
+      "meaning": "To stop trying because you are happy with past success.",
+      "examples": [
+        "After one hit album, the band {rested on their laurels} and never improved."
+      ],
+      "wrong": [
+        "He rested on his laurels by training harder than ever after his win."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/rɛst ɑn jɔr ˈlɔrəlz/"
+    },
+    {
+      "lemma": "ruffle someone’s feathers",
+      "pos": "phrase",
+      "meaning": "To annoy or upset someone, often by accident.",
+      "examples": [
+        "His blunt email {ruffled a few feathers} in the office."
+      ],
+      "wrong": [
+        "Her kind words ruffled his feathers and made him feel calm and happy."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "irritate",
+        "annoy"
+      ],
+      "ipa": "/ˈrʌfəl ˈsʌmˌwʌnz ˈfɛðɚz/"
+    },
+    {
+      "lemma": "open a can of worms",
+      "pos": "phrase",
+      "meaning": "To start something that causes many new problems.",
+      "examples": [
+        "Asking about the old contract {opened a can of worms}."
+      ],
+      "wrong": [
+        "The question opened a can of worms, so everything became simple and quiet."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈoʊpən ə kæn əv wɝmz/"
+    },
+    {
+      "lemma": "a flash in the pan",
+      "pos": "phrase",
+      "meaning": "A sudden success that does not last.",
+      "examples": [
+        "Critics said the young singer was just {a flash in the pan}."
+      ],
+      "wrong": [
+        "The shop was a flash in the pan; it has been busy for fifty years."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə flæʃ ɪn ðə pæn/"
+    },
+    {
+      "lemma": "like a bull in a china shop",
+      "pos": "phrase",
+      "meaning": "In a clumsy, careless way where care is needed.",
+      "examples": [
+        "He went into the delicate talks {like a bull in a china shop}."
+      ],
+      "wrong": [
+        "She handled the fragile vase like a bull in a china shop, with perfect care."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/laɪk ə bʊl ɪn ə ˈtʃaɪnə ʃɑp/"
+    },
+    {
+      "lemma": "off the cuff",
+      "pos": "phrase",
+      "meaning": "Said without any preparation.",
+      "examples": [
+        "His best jokes were completely {off the cuff}."
+      ],
+      "wrong": [
+        "She spoke off the cuff, reading every word from her carefully prepared notes."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "unprepared",
+        "impromptu"
+      ],
+      "ipa": "/ɔf ðə kʌf/",
+      "antonyms": [
+        "prepared",
+        "rehearsed"
+      ]
+    },
+    {
+      "lemma": "a hot potato",
+      "pos": "phrase",
+      "meaning": "A difficult subject that people argue about and try to avoid.",
+      "examples": [
+        "Tax reform is {a hot potato} that no party wants to touch."
+      ],
+      "wrong": [
+        "The weather was a hot potato that nobody ever disagreed about."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə hɑt pəˈteɪtoʊ/"
+    },
+    {
+      "lemma": "straight from the horse’s mouth",
+      "pos": "phrase",
+      "meaning": "Directly from the person who knows best.",
+      "examples": [
+        "I heard it {straight from the horse’s mouth}: the boss is leaving."
+      ],
+      "wrong": [
+        "I got it straight from the horse’s mouth, from a stranger who had only heard a rumor."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/streɪt frʌm ðə ˈhɔrsɪz maʊθ/"
+    },
+    {
+      "lemma": "the writing on the wall",
+      "pos": "phrase",
+      "meaning": "Clear signs that something bad is going to happen.",
+      "examples": [
+        "When sales fell again, he saw {the writing on the wall} and found a new job."
+      ],
+      "wrong": [
+        "The writing on the wall showed the company had never been safer."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈraɪtɪŋ ɑn ðə wɔl/"
+    },
+    {
+      "lemma": "have a field day",
+      "pos": "phrase",
+      "meaning": "To enjoy a chance to do something freely, often criticizing.",
+      "examples": [
+        "The press {had a field day} with the minister’s mistake."
+      ],
+      "wrong": [
+        "Reporters had a field day, so they ignored the story completely."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/hæv ə ˈfild ˌdeɪ/"
+    },
+    {
+      "lemma": "cry wolf",
+      "pos": "phrase",
+      "meaning": "To raise a false alarm so often that people stop believing you.",
+      "examples": [
+        "If you {cry wolf} too often, nobody will come when you really need help."
+      ],
+      "wrong": [
+        "He cried wolf by warning people only when there was real danger."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/kraɪ wʊlf/"
+    },
+    {
+      "lemma": "in the doghouse",
+      "pos": "phrase",
+      "meaning": "In trouble because someone is annoyed with you.",
+      "examples": [
+        "He forgot their anniversary and is {in the doghouse} now."
+      ],
+      "wrong": [
+        "She is in the doghouse because everyone is so pleased with her."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɪn ðə ˈdɔɡˌhaʊs/"
+    },
+    {
+      "lemma": "kick the can down the road",
+      "pos": "phrase",
+      "meaning": "To delay dealing with a problem until later.",
+      "examples": [
+        "The council keeps {kicking the can down the road} on the bridge repairs."
+      ],
+      "wrong": [
+        "They kicked the can down the road by fixing the problem that very day."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "procrastinate"
+      ],
+      "ipa": "/kɪk ðə kæn daʊn ðə roʊd/"
+    },
+    {
+      "lemma": "bury the hatchet",
+      "pos": "phrase",
+      "meaning": "To end a quarrel and become friends again.",
+      "examples": [
+        "After years of silence, the brothers {buried the hatchet}."
+      ],
+      "wrong": [
+        "They buried the hatchet and kept fighting for another ten years."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "make peace"
+      ],
+      "ipa": "/ˈbɛri ðə ˈhætʃɪt/"
+    },
+    {
+      "lemma": "have an ax to grind",
+      "pos": "phrase",
+      "meaning": "To have a private reason, often a grudge, for what you do or say.",
+      "examples": [
+        "Ignore his review; he {has an ax to grind} with the author."
+      ],
+      "wrong": [
+        "He has an ax to grind, so his opinion is completely neutral."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/hæv ən æks tə ɡraɪnd/"
+    },
+    {
+      "lemma": "a white elephant",
+      "pos": "phrase",
+      "meaning": "Something that costs a lot to keep but is of little use.",
+      "examples": [
+        "The huge stadium became {a white elephant} after the games."
+      ],
+      "wrong": [
+        "The white elephant was cheap to run and used every day."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə waɪt ˈɛləfənt/"
+    },
+    {
+      "lemma": "beat a dead horse",
+      "pos": "phrase",
+      "meaning": "To keep arguing about something that is already decided or finished.",
+      "examples": [
+        "The plan was rejected, so stop {beating a dead horse}."
+      ],
+      "wrong": [
+        "She beat a dead horse by raising a brand-new question nobody had discussed."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/bit ə dɛd hɔrs/"
+    },
+    {
+      "lemma": "a shot in the dark",
+      "pos": "phrase",
+      "meaning": "A guess made with almost no information.",
+      "examples": [
+        "My answer was {a shot in the dark}, but it was right."
+      ],
+      "wrong": [
+        "It was a shot in the dark because I had checked every fact twice."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "guess"
+      ],
+      "ipa": "/ə ʃɑt ɪn ðə dɑrk/"
+    },
+    {
+      "lemma": "sail close to the wind",
+      "pos": "phrase",
+      "meaning": "To do something risky that is almost against the rules.",
+      "examples": [
+        "The firm {sailed close to the wind} with its tax returns."
+      ],
+      "wrong": [
+        "He sailed close to the wind by following every rule very carefully."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/seɪl kloʊs tə ðə wɪnd/"
+    },
+    {
+      "lemma": "throw someone under the bus",
+      "pos": "phrase",
+      "meaning": "To blame or betray someone to protect yourself.",
+      "examples": [
+        "When the plan failed, he {threw his assistant under the bus}."
+      ],
+      "wrong": [
+        "She threw her team under the bus by praising them and taking the blame herself."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "betray"
+      ],
+      "ipa": "/θroʊ ˈsʌmˌwʌn ˈʌndɚ ðə bʌs/"
+    },
+    {
+      "lemma": "burn your bridges",
+      "pos": "phrase",
+      "meaning": "To act in a way that makes going back impossible.",
+      "examples": [
+        "Don’t insult your boss when you leave; never {burn your bridges}."
+      ],
+      "wrong": [
+        "He burned his bridges, so he can easily go back to his old job."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/bɝn jɔr ˈbrɪdʒɪz/"
+    },
+    {
+      "lemma": "a skeleton in the closet",
+      "pos": "phrase",
+      "meaning": "A shameful secret from the past.",
+      "examples": [
+        "Every old family has {a skeleton in the closet}."
+      ],
+      "wrong": [
+        "His skeleton in the closet was a prize he loved to tell everyone about."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə ˈskɛlətən ɪn ðə ˈklɑzɪt/"
+    },
+    {
+      "lemma": "put your foot in your mouth",
+      "pos": "phrase",
+      "meaning": "To say something embarrassing or tactless by accident.",
+      "examples": [
+        "I {put my foot in my mouth} by asking about her ex-husband."
+      ],
+      "wrong": [
+        "He put his foot in his mouth with a perfectly polite and tactful remark."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/pʊt jɔr fʊt ɪn jɔr maʊθ/"
+    },
+    {
+      "lemma": "stick your neck out",
+      "pos": "phrase",
+      "meaning": "To take a risk by saying or doing something others won’t.",
+      "examples": [
+        "She {stuck her neck out} to defend the new employee."
+      ],
+      "wrong": [
+        "He stuck his neck out by staying silent and safe."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/stɪk jɔr nɛk aʊt/"
+    },
+    {
+      "lemma": "drag your feet",
+      "pos": "phrase",
+      "meaning": "To be slow to do something because you don’t want to.",
+      "examples": [
+        "The landlord is {dragging his feet} over the repairs."
+      ],
+      "wrong": [
+        "She dragged her feet and finished the job a week early."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "stall",
+        "delay"
+      ],
+      "ipa": "/dræɡ jɔr fit/"
+    },
+    {
+      "lemma": "egg on your face",
+      "pos": "phrase",
+      "meaning": "Looking foolish because something went wrong.",
+      "examples": [
+        "The experts who predicted a win were left with {egg on their faces}."
+      ],
+      "wrong": [
+        "He had egg on his face because his prediction was exactly right."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɛɡ ɑn jɔr feɪs/"
+    },
+    {
+      "lemma": "have a bone to pick",
+      "pos": "phrase",
+      "meaning": "To have a complaint you want to discuss with someone.",
+      "examples": [
+        "I {have a bone to pick} with you about the bill."
+      ],
+      "wrong": [
+        "I have a bone to pick with you, as I am completely happy with what you did."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/hæv ə boʊn tə pɪk/"
+    },
+    {
+      "lemma": "a different kettle of fish",
+      "pos": "phrase",
+      "meaning": "A completely different matter from the one just mentioned.",
+      "examples": [
+        "Riding a bike is easy, but racing one is {a different kettle of fish}."
+      ],
+      "wrong": [
+        "The two jobs are a different kettle of fish because they are exactly the same."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə ˈdɪfrənt ˈkɛtəl əv fɪʃ/"
+    },
+    {
+      "lemma": "blow off steam",
+      "pos": "phrase",
+      "meaning": "To get rid of anger or energy by doing something active.",
+      "examples": [
+        "After work he goes running to {blow off steam}."
+      ],
+      "wrong": [
+        "She blew off steam by sitting still and saying nothing all evening."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "unwind",
+        "vent"
+      ],
+      "ipa": "/bloʊ ɔf stim/"
+    }
+  ]
+}

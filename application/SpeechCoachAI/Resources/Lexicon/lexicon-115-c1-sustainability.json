@@ -1,0 +1,739 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c1-sustainability",
+    "title": "Environment and sustainability",
+    "level": "C1",
+    "tagline": "Resources, climate and impact",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "deplete",
+      "pos": "verb",
+      "meaning": "To use up a supply of something so that little or none is left.",
+      "examples": [
+        "Intensive farming has {depleted} the soil of nutrients."
+      ],
+      "wrong": [
+        "The heavy rain depleted the lake, filling it to the top."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "exhaust",
+        "drain",
+        "use up"
+      ],
+      "ipa": "/dɪˈplit/",
+      "antonyms": [
+        "replenish",
+        "restore"
+      ]
+    },
+    {
+      "lemma": "finite",
+      "pos": "adjective",
+      "meaning": "Having a limit; existing only in a fixed amount.",
+      "examples": [
+        "Oil is a {finite} resource that will eventually run out."
+      ],
+      "wrong": [
+        "Sunlight is finite, so it will run out next year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "limited",
+        "restricted"
+      ],
+      "ipa": "/ˈfaɪˌnaɪt/",
+      "antonyms": [
+        "infinite",
+        "unlimited",
+        "endless"
+      ]
+    },
+    {
+      "lemma": "offset",
+      "pos": "verb",
+      "meaning": "To balance the effect of something by doing something that has the opposite effect.",
+      "examples": [
+        "The airline lets passengers {offset} their emissions by funding tree planting."
+      ],
+      "wrong": [
+        "He offset his flight’s emissions by taking three more flights."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "counterbalance",
+        "compensate for"
+      ],
+      "ipa": "/ˌɔfˈsɛt/"
+    },
+    {
+      "lemma": "carbon neutral",
+      "pos": "adjective",
+      "meaning": "Adding no extra carbon dioxide to the air overall, by cutting or balancing emissions.",
+      "examples": [
+        "The company aims to be {carbon neutral} by 2035."
+      ],
+      "wrong": [
+        "The factory became carbon neutral by burning twice as much coal."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "climate neutral"
+      ],
+      "ipa": "/ˈkɑrbən ˈnutrəl/"
+    },
+    {
+      "lemma": "biodegradable",
+      "pos": "adjective",
+      "meaning": "Able to break down naturally in the environment without causing harm.",
+      "examples": [
+        "These cups are {biodegradable} and rot away in a few months."
+      ],
+      "wrong": [
+        "Biodegradable plastic stays in the ground unchanged for centuries."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "compostable"
+      ],
+      "ipa": "/ˌbaɪoʊdɪˈɡreɪdəbəl/",
+      "antonyms": [
+        "non-biodegradable"
+      ]
+    },
+    {
+      "lemma": "compost",
+      "pos": "noun",
+      "meaning": "A mix of rotted plants and food waste used to make soil richer.",
+      "examples": [
+        "We turn our vegetable peelings into {compost} for the garden."
+      ],
+      "wrong": [
+        "Compost is a chemical spray that kills every plant it touches."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "mulch"
+      ],
+      "ipa": "/ˈkɑmpoʊst/"
+    },
+    {
+      "lemma": "contaminate",
+      "pos": "verb",
+      "meaning": "To make something dirty or harmful by adding a dangerous substance.",
+      "examples": [
+        "Waste from the mine {contaminated} the river."
+      ],
+      "wrong": [
+        "The filter contaminated the water, making it perfectly clean."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "pollute",
+        "poison",
+        "taint"
+      ],
+      "ipa": "/kənˈtæməˌneɪt/",
+      "antonyms": [
+        "purify",
+        "decontaminate"
+      ]
+    },
+    {
+      "lemma": "fracking",
+      "pos": "noun",
+      "meaning": "Getting gas or oil out of rock by forcing liquid into the ground at high pressure.",
+      "examples": [
+        "Residents protested against {fracking} near their village."
+      ],
+      "wrong": [
+        "Fracking is a way to collect rainwater from rooftops."
+      ],
+      "cefr": "C1",
+      "register": "informal",
+      "synonyms": [
+        "hydraulic fracturing"
+      ],
+      "ipa": "/ˈfrækɪŋ/"
+    },
+    {
+      "lemma": "desertification",
+      "pos": "noun",
+      "meaning": "The process of fertile land slowly turning into desert.",
+      "examples": [
+        "Overgrazing has sped up {desertification} in the region."
+      ],
+      "wrong": [
+        "Thanks to desertification, the dry land became green and fertile."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/dɪˌzɝtəfɪˈkeɪʃən/"
+    },
+    {
+      "lemma": "erosion",
+      "pos": "noun",
+      "meaning": "The slow wearing away of land or rock by wind, water or ice.",
+      "examples": [
+        "Tree roots help prevent soil {erosion} on hillsides."
+      ],
+      "wrong": [
+        "Erosion built the cliff higher every year."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "wearing away",
+        "weathering"
+      ],
+      "ipa": "/ɪˈroʊʒən/"
+    },
+    {
+      "lemma": "net zero",
+      "pos": "noun",
+      "meaning": "A state where the greenhouse gases a country or company adds are balanced by those it removes.",
+      "examples": [
+        "The government has promised to reach {net zero} by 2050."
+      ],
+      "wrong": [
+        "Reaching net zero means doubling the gases you release."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "carbon neutrality"
+      ],
+      "ipa": "/ˈnɛt ˈzɪroʊ/"
+    },
+    {
+      "lemma": "circular economy",
+      "pos": "noun",
+      "meaning": "A system where products are reused, repaired and recycled instead of thrown away.",
+      "examples": [
+        "In a {circular economy}, old phones become parts for new ones."
+      ],
+      "wrong": [
+        "The circular economy depends on throwing products away after one use."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈsɝkjəlɚ ɪˈkɑnəmi/"
+    },
+    {
+      "lemma": "ecological",
+      "pos": "adjective",
+      "meaning": "Connected with the relationship between living things and their environment.",
+      "examples": [
+        "The oil spill was an {ecological} disaster for the coast."
+      ],
+      "wrong": [
+        "The ecological damage only affected the company’s bank account."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "environmental"
+      ],
+      "ipa": "/ˌikəˈlɑdʒɪkəl/"
+    },
+    {
+      "lemma": "environmentalist",
+      "pos": "noun",
+      "meaning": "A person who works to protect the natural world.",
+      "examples": [
+        "{Environmentalists} campaigned to save the ancient forest."
+      ],
+      "wrong": [
+        "The environmentalist led a campaign to cut down the forest for profit."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "conservationist",
+        "green activist"
+      ],
+      "ipa": "/ɪnˌvaɪrənˈmɛntəlɪst/"
+    },
+    {
+      "lemma": "overconsumption",
+      "pos": "noun",
+      "meaning": "Using more goods or resources than is needed or than nature can replace.",
+      "examples": [
+        "{Overconsumption} in rich countries puts heavy pressure on the planet."
+      ],
+      "wrong": [
+        "Overconsumption means buying only the few things you truly need."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "excess",
+        "overuse"
+      ],
+      "ipa": "/ˌoʊvɚkənˈsʌmpʃən/"
+    },
+    {
+      "lemma": "conserve",
+      "pos": "verb",
+      "meaning": "To protect something or use it carefully so it is not wasted or destroyed.",
+      "examples": [
+        "Turn off the tap while brushing to {conserve} water."
+      ],
+      "wrong": [
+        "They conserved energy by leaving every light on all night."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "save",
+        "preserve",
+        "protect"
+      ],
+      "ipa": "/kənˈsɝv/",
+      "antonyms": [
+        "waste",
+        "squander"
+      ]
+    },
+    {
+      "lemma": "degrade",
+      "pos": "verb",
+      "meaning": "To damage something so that its quality or condition becomes worse.",
+      "examples": [
+        "Plastic waste {degrades} marine habitats."
+      ],
+      "wrong": [
+        "The cleanup degraded the beach, leaving it spotless."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "damage",
+        "harm",
+        "impair"
+      ],
+      "ipa": "/dɪˈɡreɪd/",
+      "antonyms": [
+        "improve",
+        "restore"
+      ]
+    },
+    {
+      "lemma": "reforestation",
+      "pos": "noun",
+      "meaning": "Planting trees again in an area where a forest was cut down or destroyed.",
+      "examples": [
+        "The {reforestation} project has planted a million trees."
+      ],
+      "wrong": [
+        "Reforestation means clearing the last trees from a hillside."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "replanting"
+      ],
+      "ipa": "/ˌriˌfɔrəˈsteɪʃən/",
+      "antonyms": [
+        "deforestation"
+      ]
+    },
+    {
+      "lemma": "carbon capture",
+      "pos": "noun",
+      "meaning": "Technology that collects carbon dioxide from factories or the air and stores it underground.",
+      "examples": [
+        "The power plant is testing {carbon capture} to cut its emissions."
+      ],
+      "wrong": [
+        "Carbon capture releases extra carbon dioxide into the sky."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "synonyms": [
+        "carbon storage"
+      ],
+      "ipa": "/ˈkɑrbən ˈkæptʃɚ/"
+    },
+    {
+      "lemma": "greenwash",
+      "pos": "verb",
+      "meaning": "To make a company or product seem better for the environment than it really is.",
+      "examples": [
+        "The brand was accused of {greenwashing} its plastic bottles with leafy labels."
+      ],
+      "wrong": [
+        "The firm greenwashed its products by honestly listing all their harmful effects."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈɡrinˌwɑʃ/"
+    },
+    {
+      "lemma": "eco-friendly",
+      "pos": "adjective",
+      "meaning": "Not harmful to the environment.",
+      "examples": [
+        "They switched to {eco-friendly} cleaning products."
+      ],
+      "wrong": [
+        "The eco-friendly detergent poisoned the fish in the stream."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "green",
+        "environmentally friendly"
+      ],
+      "ipa": "/ˈikoʊ ˈfrɛndli/"
+    },
+    {
+      "lemma": "overfishing",
+      "pos": "noun",
+      "meaning": "Catching so many fish that their numbers cannot recover.",
+      "examples": [
+        "{Overfishing} has caused cod stocks to collapse."
+      ],
+      "wrong": [
+        "Overfishing allowed the fish population to grow quickly."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˌoʊvɚˈfɪʃɪŋ/"
+    },
+    {
+      "lemma": "stewardship",
+      "pos": "noun",
+      "meaning": "The careful and responsible management of something, such as land or resources.",
+      "examples": [
+        "Farmers practice good {stewardship} by protecting the soil for future generations."
+      ],
+      "wrong": [
+        "Their stewardship of the park left it ruined and full of litter."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "guardianship",
+        "custodianship"
+      ],
+      "ipa": "/ˈstuɚdˌʃɪp/"
+    },
+    {
+      "lemma": "scarcity",
+      "pos": "noun",
+      "meaning": "A situation where there is not enough of something.",
+      "examples": [
+        "Water {scarcity} is a growing problem in dry regions."
+      ],
+      "wrong": [
+        "Because of scarcity, there was more water than anyone could use."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "shortage",
+        "lack",
+        "dearth"
+      ],
+      "ipa": "/ˈskɛrsəti/",
+      "antonyms": [
+        "abundance",
+        "plenty",
+        "surplus"
+      ]
+    },
+    {
+      "lemma": "emit",
+      "pos": "verb",
+      "meaning": "To send out gas, heat, light or sound into the air.",
+      "examples": [
+        "Older cars {emit} more harmful gases."
+      ],
+      "wrong": [
+        "Solar panels emit thick black smoke when the sun shines."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "release",
+        "discharge",
+        "give off"
+      ],
+      "ipa": "/ɪˈmɪt/",
+      "antonyms": [
+        "absorb"
+      ]
+    },
+    {
+      "lemma": "renewables",
+      "pos": "noun",
+      "meaning": "Energy from sources that do not run out, such as wind, sun and water.",
+      "examples": [
+        "The country now gets half its electricity from {renewables}."
+      ],
+      "wrong": [
+        "Coal and oil are the most common renewables."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "clean energy",
+        "green energy"
+      ],
+      "ipa": "/rɪˈnuəbəlz/"
+    },
+    {
+      "lemma": "single-use",
+      "pos": "adjective",
+      "meaning": "Made to be used once and then thrown away.",
+      "examples": [
+        "The city has banned {single-use} plastic bags."
+      ],
+      "wrong": [
+        "Her single-use water bottle has lasted ten years of daily refills."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "disposable",
+        "throwaway"
+      ],
+      "ipa": "/ˈsɪŋɡəl ˈjus/",
+      "antonyms": [
+        "reusable"
+      ]
+    },
+    {
+      "lemma": "hazardous",
+      "pos": "adjective",
+      "meaning": "Dangerous, especially to health or the environment.",
+      "examples": [
+        "{Hazardous} chemicals must be disposed of at special sites."
+      ],
+      "wrong": [
+        "The hazardous waste was safe enough to drink."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "dangerous",
+        "harmful",
+        "toxic"
+      ],
+      "ipa": "/ˈhæzɚdəs/",
+      "antonyms": [
+        "safe",
+        "harmless"
+      ]
+    },
+    {
+      "lemma": "runoff",
+      "pos": "noun",
+      "meaning": "Rainwater that flows off land into rivers, often carrying soil or chemicals.",
+      "examples": [
+        "Fertilizer {runoff} from farms is turning the lake green."
+      ],
+      "wrong": [
+        "Runoff is water that stays still in the soil and never moves."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "drainage"
+      ],
+      "ipa": "/ˈrʌnˌɔf/"
+    },
+    {
+      "lemma": "sea level",
+      "pos": "noun",
+      "meaning": "The average height of the surface of the sea, used to measure land height.",
+      "examples": [
+        "Melting ice is causing {sea levels} to rise."
+      ],
+      "wrong": [
+        "The village is so far below sea level that it sits on a mountain top."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈsi ˌlɛvəl/"
+    },
+    {
+      "lemma": "ice cap",
+      "pos": "noun",
+      "meaning": "A thick layer of ice that permanently covers a large area of land, especially near the poles.",
+      "examples": [
+        "Scientists measure how fast the polar {ice caps} are shrinking."
+      ],
+      "wrong": [
+        "The ice cap melted completely during one cold winter night."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "ice sheet"
+      ],
+      "ipa": "/ˈaɪs ˌkæp/"
+    },
+    {
+      "lemma": "carbon tax",
+      "pos": "noun",
+      "meaning": "A charge that companies or people pay based on how much carbon dioxide they produce.",
+      "examples": [
+        "A {carbon tax} makes polluting fuels more expensive."
+      ],
+      "wrong": [
+        "The carbon tax rewards factories for burning more coal."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "emissions tax"
+      ],
+      "ipa": "/ˈkɑrbən ˈtæks/"
+    },
+    {
+      "lemma": "replenish",
+      "pos": "verb",
+      "meaning": "To fill something up again after it has been used.",
+      "examples": [
+        "Heavy rains finally {replenished} the reservoir."
+      ],
+      "wrong": [
+        "The drought replenished the lake to its highest level."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "refill",
+        "restock",
+        "restore"
+      ],
+      "ipa": "/rɪˈplɛnɪʃ/",
+      "antonyms": [
+        "deplete",
+        "exhaust"
+      ]
+    },
+    {
+      "lemma": "poaching",
+      "pos": "noun",
+      "meaning": "Illegally hunting or catching wild animals.",
+      "examples": [
+        "{Poaching} has driven rhinos close to extinction."
+      ],
+      "wrong": [
+        "Poaching means caring for wild animals in a legal sanctuary."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "illegal hunting"
+      ],
+      "ipa": "/ˈpoʊtʃɪŋ/"
+    },
+    {
+      "lemma": "upcycle",
+      "pos": "verb",
+      "meaning": "To reuse an old item to make something of better quality or value.",
+      "examples": [
+        "She {upcycled} old jeans into a stylish bag."
+      ],
+      "wrong": [
+        "He upcycled the chair by throwing it in the trash."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "repurpose"
+      ],
+      "ipa": "/ˈʌpˌsaɪkəl/"
+    },
+    {
+      "lemma": "food miles",
+      "pos": "noun",
+      "meaning": "The distance produce travels from the farm where it is grown to your plate.",
+      "examples": [
+        "Buying local produce cuts down your {food miles}."
+      ],
+      "wrong": [
+        "Food miles measure how many calories a meal contains."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈfud ˌmaɪlz/"
+    },
+    {
+      "lemma": "ozone layer",
+      "pos": "noun",
+      "meaning": "A band of gas high above the earth that protects us from the sun’s harmful rays.",
+      "examples": [
+        "Some old chemicals put holes in the {ozone layer}."
+      ],
+      "wrong": [
+        "The ozone layer is a layer of rock deep under the ocean floor."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈoʊzoʊn ˌleɪɚ/"
+    },
+    {
+      "lemma": "acid rain",
+      "pos": "noun",
+      "meaning": "Precipitation made harmful by polluting gases in the air, which damages trees, lakes and buildings.",
+      "examples": [
+        "{Acid rain} has eaten away at the old stone statues."
+      ],
+      "wrong": [
+        "Acid rain is clean water that helps forests grow."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "ipa": "/ˈæsɪd ˈreɪn/"
+    },
+    {
+      "lemma": "biofuel",
+      "pos": "noun",
+      "meaning": "Fuel made from plants or organic waste instead of oil or coal.",
+      "examples": [
+        "Some buses now run on {biofuel} made from used cooking oil."
+      ],
+      "wrong": [
+        "Biofuel is made by digging up coal from deep mines."
+      ],
+      "cefr": "C1",
+      "register": "formal",
+      "synonyms": [
+        "biomass fuel"
+      ],
+      "ipa": "/ˈbaɪoʊˌfjuəl/"
+    },
+    {
+      "lemma": "monoculture",
+      "pos": "noun",
+      "meaning": "Growing only one type of crop over a large area, year after year.",
+      "examples": [
+        "Vast {monocultures} of palm oil have replaced rainforest."
+      ],
+      "wrong": [
+        "The farm was a monoculture, with dozens of different crops in each field."
+      ],
+      "cefr": "C1",
+      "register": "term",
+      "ipa": "/ˈmɑnəˌkʌltʃɚ/"
+    }
+  ]
+}

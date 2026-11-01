@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-sayings",
+    "title": "Sayings and fixed phrases",
+    "level": "C2",
+    "tagline": "Proverbs and set phrases",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "actions speak louder than words",
+      "pos": "phrase",
+      "meaning": "What people do shows more than what they say.",
+      "examples": [
+        "He promised to help, but {actions speak louder than words}."
+      ],
+      "wrong": [
+        "She said actions speak louder than words to show that promises matter most."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈækʃənz spik ˈlaʊdɚ ðən wɝdz/"
+    },
+    {
+      "lemma": "the early bird catches the worm",
+      "pos": "phrase",
+      "meaning": "People who start early get the best chances.",
+      "examples": [
+        "Get to the sale at eight: {the early bird catches the worm}."
+      ],
+      "wrong": [
+        "He came last and quoted the early bird catches the worm."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ði ˈɝli bɝd ˈkætʃɪz ðə wɝm/"
+    },
+    {
+      "lemma": "don’t count your chickens before they hatch",
+      "pos": "phrase",
+      "meaning": "Don’t rely on a good result before it actually happens.",
+      "examples": [
+        "The deal isn’t signed yet, so {don’t count your chickens before they hatch}."
+      ],
+      "wrong": [
+        "The money was already in her account, so he warned don’t count your chickens before they hatch."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/doʊnt kaʊnt jɔr ˈtʃɪkənz bɪˈfɔr ðeɪ hætʃ/"
+    },
+    {
+      "lemma": "every cloud has a silver lining",
+      "pos": "phrase",
+      "meaning": "Something good can come out of a bad situation.",
+      "examples": [
+        "I lost my job but found a better one; {every cloud has a silver lining}."
+      ],
+      "wrong": [
+        "Every cloud has a silver lining, he said, meaning good news always ends badly."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈɛvri klaʊd hæz ə ˈsɪlvɚ ˈlaɪnɪŋ/"
+    },
+    {
+      "lemma": "curiosity killed the cat",
+      "pos": "phrase",
+      "meaning": "Being too interested in other people’s business can get you into trouble.",
+      "examples": [
+        "Stop reading his letters; {curiosity killed the cat}."
+      ],
+      "wrong": [
+        "Curiosity killed the cat means you should always ask more questions."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˌkjʊriˈɑsəti kɪld ðə kæt/"
+    },
+    {
+      "lemma": "don’t judge a book by its cover",
+      "pos": "phrase",
+      "meaning": "Don’t decide what something is like from how it looks.",
+      "examples": [
+        "The cafe looks shabby, but {don’t judge a book by its cover}."
+      ],
+      "wrong": [
+        "Don’t judge a book by its cover means first looks always tell the truth."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/doʊnt dʒʌdʒ ə bʊk baɪ ɪts ˈkʌvɚ/"
+    },
+    {
+      "lemma": "where there’s smoke, there’s fire",
+      "pos": "phrase",
+      "meaning": "If there are rumors, there is probably some truth in them.",
+      "examples": [
+        "Nobody has proved it, but {where there’s smoke, there’s fire}."
+      ],
+      "wrong": [
+        "Where there’s smoke, there’s fire means rumors are never true."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/wɛr ðɛrz smoʊk ðɛrz faɪɚ/"
+    },
+    {
+      "lemma": "too many cooks spoil the broth",
+      "pos": "phrase",
+      "meaning": "When too many people work on one thing, the result is worse.",
+      "examples": [
+        "Ten people edited the report, and {too many cooks spoil the broth}."
+      ],
+      "wrong": [
+        "Too many cooks spoil the broth, so let’s add more people to improve it."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/tu ˈmɛni kʊks spɔɪl ðə brɔθ/"
+    },
+    {
+      "lemma": "the grass is always greener on the other side",
+      "pos": "phrase",
+      "meaning": "Other people’s lives often seem better than yours, even when they are not.",
+      "examples": [
+        "He wants my job and I want his; {the grass is always greener on the other side}."
+      ],
+      "wrong": [
+        "The grass is always greener on the other side means you are happiest with what you have."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ɡræs ɪz ˈɔlweɪz ˈɡrinɚ ɑn ði ˈʌðɚ saɪd/"
+    },
+    {
+      "lemma": "a bird in the hand is worth two in the bush",
+      "pos": "phrase",
+      "meaning": "Something you already have is better than more you might not get.",
+      "examples": [
+        "Take the offer now; {a bird in the hand is worth two in the bush}."
+      ],
+      "wrong": [
+        "A bird in the hand is worth two in the bush, so refuse the sure offer and gamble."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə bɝd ɪn ðə hænd ɪz wɝθ tu ɪn ðə bʊʃ/"
+    },
+    {
+      "lemma": "don’t put all your eggs in one basket",
+      "pos": "phrase",
+      "meaning": "Don’t risk everything on one single plan.",
+      "examples": [
+        "Invest in several funds: {don’t put all your eggs in one basket}."
+      ],
+      "wrong": [
+        "Don’t put all your eggs in one basket, so spend all your savings on one stock."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/doʊnt pʊt ɔl jɔr ɛɡz ɪn wʌn ˈbæskɪt/"
+    },
+    {
+      "lemma": "birds of a feather flock together",
+      "pos": "phrase",
+      "meaning": "People who are alike tend to spend time together.",
+      "examples": [
+        "All his friends love chess; {birds of a feather flock together}."
+      ],
+      "wrong": [
+        "Birds of a feather flock together means opposites always become friends."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/bɝdz əv ə ˈfɛðɚ flɑk təˈɡɛðɚ/"
+    },
+    {
+      "lemma": "beggars can’t be choosers",
+      "pos": "phrase",
+      "meaning": "When you need help, you must accept what is offered.",
+      "examples": [
+        "It’s an old coat, but {beggars can’t be choosers}."
+      ],
+      "wrong": [
+        "Beggars can’t be choosers means people in need should refuse anything less than the best."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈbɛɡɚz kænt bi ˈtʃuzɚz/"
+    },
+    {
+      "lemma": "you can’t have your cake and eat it too",
+      "pos": "phrase",
+      "meaning": "You can’t keep the benefits of two things that exclude each other.",
+      "examples": [
+        "You want a big house and no mortgage; {you can’t have your cake and eat it too}."
+      ],
+      "wrong": [
+        "You can’t have your cake and eat it too means you can easily get both choices."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ju kænt hæv jɔr keɪk ənd it ɪt tu/"
+    },
+    {
+      "lemma": "it takes two to tango",
+      "pos": "phrase",
+      "meaning": "Both people involved in a problem share the responsibility.",
+      "examples": [
+        "Don’t blame only him for the fight; {it takes two to tango}."
+      ],
+      "wrong": [
+        "It takes two to tango means only one person is ever to blame."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɪt teɪks tu tə ˈtæŋɡoʊ/"
+    },
+    {
+      "lemma": "the pen is mightier than the sword",
+      "pos": "phrase",
+      "meaning": "Writing and ideas have more power than violence.",
+      "examples": [
+        "The journalist believed {the pen is mightier than the sword}."
+      ],
+      "wrong": [
+        "The pen is mightier than the sword means armies always defeat ideas."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə pɛn ɪz ˈmaɪtiɚ ðən ðə sɔrd/"
+    },
+    {
+      "lemma": "necessity is the mother of invention",
+      "pos": "phrase",
+      "meaning": "People find clever solutions when they really need them.",
+      "examples": [
+        "With no tools, we used a spoon; {necessity is the mother of invention}."
+      ],
+      "wrong": [
+        "Necessity is the mother of invention means people invent most when they need nothing."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/nəˈsɛsəti ɪz ðə ˈmʌðɚ əv ɪnˈvɛnʃən/"
+    },
+    {
+      "lemma": "absence makes the heart grow fonder",
+      "pos": "phrase",
+      "meaning": "Being apart from someone makes you love them more.",
+      "examples": [
+        "They live in different cities, but {absence makes the heart grow fonder}."
+      ],
+      "wrong": [
+        "Absence makes the heart grow fonder means distance always kills love."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈæbsəns meɪks ðə hɑrt ɡroʊ ˈfɑndɚ/"
+    },
+    {
+      "lemma": "still waters run deep",
+      "pos": "phrase",
+      "meaning": "Quiet people often have strong feelings or great knowledge.",
+      "examples": [
+        "She rarely speaks, but {still waters run deep}."
+      ],
+      "wrong": [
+        "Still waters run deep means quiet people have nothing inside."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/stɪl ˈwɔtɚz rʌn dip/"
+    },
+    {
+      "lemma": "strike while the iron is hot",
+      "pos": "phrase",
+      "meaning": "Act quickly while you have a good chance.",
+      "examples": [
+        "The client is interested now, so {strike while the iron is hot}."
+      ],
+      "wrong": [
+        "Strike while the iron is hot, so wait a few months before you reply."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/straɪk waɪl ði ˈaɪɚn ɪz hɑt/"
+    },
+    {
+      "lemma": "a stitch in time saves nine",
+      "pos": "phrase",
+      "meaning": "Fixing a small problem early stops it becoming a big one.",
+      "examples": [
+        "Repair that leak today; {a stitch in time saves nine}."
+      ],
+      "wrong": [
+        "A stitch in time saves nine, so leave the crack until the wall falls down."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə stɪtʃ ɪn taɪm seɪvz naɪn/"
+    },
+    {
+      "lemma": "people who live in glass houses shouldn’t throw stones",
+      "pos": "phrase",
+      "meaning": "Don’t criticize others for faults that you have too.",
+      "examples": [
+        "He calls me lazy, but {people who live in glass houses shouldn’t throw stones}."
+      ],
+      "wrong": [
+        "People who live in glass houses shouldn’t throw stones means you should criticize others for your own faults."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ˈpipəl hu lɪv ɪn ɡlæs ˈhaʊzɪz ˈʃʊdənt θroʊ stoʊnz/"
+    },
+    {
+      "lemma": "the pot calling the kettle black",
+      "pos": "phrase",
+      "meaning": "Someone criticizing another person for a fault they also have.",
+      "examples": [
+        "Him calling me late is {the pot calling the kettle black}."
+      ],
+      "wrong": [
+        "It was the pot calling the kettle black when a punctual man praised another for being on time."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə pɑt ˈkɔlɪŋ ðə ˈkɛtəl blæk/"
+    },
+    {
+      "lemma": "Rome wasn’t built in a day",
+      "pos": "phrase",
+      "meaning": "Big, important things take a long time to do.",
+      "examples": [
+        "Learning a language takes years; {Rome wasn’t built in a day}."
+      ],
+      "wrong": [
+        "Rome wasn’t built in a day, so expect to master the piano by Friday."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/roʊm ˈwʌzənt bɪlt ɪn ə deɪ/"
+    },
+    {
+      "lemma": "you can lead a horse to water",
+      "pos": "phrase",
+      "meaning": "You can give someone a chance, but you can’t force them to take it.",
+      "examples": [
+        "I gave him the books, but {you can lead a horse to water}."
+      ],
+      "wrong": [
+        "You can lead a horse to water means you can always force people to do things."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ju kæn lid ə hɔrs tə ˈwɔtɚ/"
+    },
+    {
+      "lemma": "all that glitters is not gold",
+      "pos": "phrase",
+      "meaning": "Things that look attractive are not always good or valuable.",
+      "examples": [
+        "The offer looks amazing, but {all that glitters is not gold}."
+      ],
+      "wrong": [
+        "All that glitters is not gold means shiny things are always valuable."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ɔl ðæt ˈɡlɪtɚz ɪz nɑt ɡoʊld/"
+    },
+    {
+      "lemma": "don’t bite the hand that feeds you",
+      "pos": "phrase",
+      "meaning": "Don’t be unkind to the person who helps or supports you.",
+      "examples": [
+        "Insulting your sponsor is silly; {don’t bite the hand that feeds you}."
+      ],
+      "wrong": [
+        "Don’t bite the hand that feeds you means you should attack the people who support you."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/doʊnt baɪt ðə hænd ðæt fidz ju/"
+    },
+    {
+      "lemma": "a watched pot never boils",
+      "pos": "phrase",
+      "meaning": "Waiting for something feels slower when you keep checking it.",
+      "examples": [
+        "Stop refreshing your email; {a watched pot never boils}."
+      ],
+      "wrong": [
+        "A watched pot never boils means time goes faster when you stare at the clock."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ə wɑtʃt pɑt ˈnɛvɚ bɔɪlz/"
+    },
+    {
+      "lemma": "once bitten, twice shy",
+      "pos": "phrase",
+      "meaning": "After a bad experience, you are more careful the next time.",
+      "examples": [
+        "After that scam, she checks everything; {once bitten, twice shy}."
+      ],
+      "wrong": [
+        "Once bitten, twice shy, he said, and repeated the same mistake without a thought."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/wʌns ˈbɪtən twaɪs ʃaɪ/"
+    },
+    {
+      "lemma": "there’s no such thing as a free lunch",
+      "pos": "phrase",
+      "meaning": "Anything that seems free usually has a hidden cost.",
+      "examples": [
+        "The free phone comes with a long contract; {there’s no such thing as a free lunch}."
+      ],
+      "wrong": [
+        "There’s no such thing as a free lunch means free offers never have conditions."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðɛrz noʊ sʌtʃ θɪŋ æz ə fri lʌntʃ/"
+    },
+    {
+      "lemma": "two wrongs don’t make a right",
+      "pos": "phrase",
+      "meaning": "Doing something bad back to someone does not fix things.",
+      "examples": [
+        "He lied to you, but {two wrongs don’t make a right}."
+      ],
+      "wrong": [
+        "Two wrongs don’t make a right, so get revenge for every insult."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/tu rɔŋz doʊnt meɪk ə raɪt/"
+    },
+    {
+      "lemma": "let bygones be bygones",
+      "pos": "phrase",
+      "meaning": "To forget past quarrels and be friendly again.",
+      "examples": [
+        "It was years ago; let’s {let bygones be bygones}."
+      ],
+      "wrong": [
+        "They let bygones be bygones and argued about the old quarrel every day."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "forgive and forget"
+      ],
+      "ipa": "/lɛt ˈbaɪˌɡɔnz bi ˈbaɪˌɡɔnz/"
+    },
+    {
+      "lemma": "out of sight, out of mind",
+      "pos": "phrase",
+      "meaning": "People soon forget things or people they no longer see.",
+      "examples": [
+        "I put the cake in the cupboard: {out of sight, out of mind}."
+      ],
+      "wrong": [
+        "Out of sight, out of mind means we think most about what we never see."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/aʊt əv saɪt aʊt əv maɪnd/"
+    },
+    {
+      "lemma": "the squeaky wheel gets the grease",
+      "pos": "phrase",
+      "meaning": "People who complain loudly usually get attention first.",
+      "examples": [
+        "She called them every day; {the squeaky wheel gets the grease}."
+      ],
+      "wrong": [
+        "The squeaky wheel gets the grease, so the quietest customer was served first."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈskwiki wil ɡɛts ðə ɡris/"
+    },
+    {
+      "lemma": "an ounce of prevention is worth a pound of cure",
+      "pos": "phrase",
+      "meaning": "Stopping a problem early is easier than fixing it later.",
+      "examples": [
+        "Get a checkup now; {an ounce of prevention is worth a pound of cure}."
+      ],
+      "wrong": [
+        "An ounce of prevention is worth a pound of cure, so wait until you are seriously ill."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ən aʊns əv prɪˈvɛnʃən ɪz wɝθ ə paʊnd əv kjʊr/"
+    },
+    {
+      "lemma": "part and parcel",
+      "pos": "phrase",
+      "meaning": "A basic, natural part of something that cannot be avoided.",
+      "examples": [
+        "Travel is {part and parcel} of the job."
+      ],
+      "wrong": [
+        "Long hours are part and parcel of the job, so they never happen."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/pɑrt ənd ˈpɑrsəl/"
+    },
+    {
+      "lemma": "few and far between",
+      "pos": "phrase",
+      "meaning": "Very rare; not happening or found often.",
+      "examples": [
+        "Good jobs here are {few and far between}."
+      ],
+      "wrong": [
+        "Cafes are few and far between here; there is one on every corner."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "rare",
+        "scarce"
+      ],
+      "ipa": "/fju ənd fɑr bɪˈtwin/",
+      "antonyms": [
+        "common",
+        "plentiful"
+      ]
+    },
+    {
+      "lemma": "touch and go",
+      "pos": "phrase",
+      "meaning": "Very uncertain, especially about whether something bad will happen.",
+      "examples": [
+        "It was {touch and go} whether the plane would land safely."
+      ],
+      "wrong": [
+        "It was touch and go, as the result was certain from the start."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "uncertain",
+        "risky"
+      ],
+      "ipa": "/tʌtʃ ənd ɡoʊ/"
+    },
+    {
+      "lemma": "neither here nor there",
+      "pos": "phrase",
+      "meaning": "Not important or not connected to the matter being discussed.",
+      "examples": [
+        "What he earns is {neither here nor there}; is he a good worker?"
+      ],
+      "wrong": [
+        "His age is neither here nor there, so it is the main point of the case."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "synonyms": [
+        "irrelevant"
+      ],
+      "ipa": "/ˈniðɚ hɪr nɔr ðɛr/"
+    },
+    {
+      "lemma": "the be-all and end-all",
+      "pos": "phrase",
+      "meaning": "The most important thing of all.",
+      "examples": [
+        "Money isn’t {the be-all and end-all}."
+      ],
+      "wrong": [
+        "For her, music is the be-all and end-all, so she hardly cares about it."
+      ],
+      "cefr": "C2",
+      "register": "informal",
+      "ipa": "/ðə ˈbi ˌɔl ənd ˈɛnd ˌɔl/"
+    }
+  ]
+}

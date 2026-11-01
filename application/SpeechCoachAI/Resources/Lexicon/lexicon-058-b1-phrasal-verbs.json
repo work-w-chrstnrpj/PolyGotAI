@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b1-phrasal-verbs",
+    "title": "Phrasal verbs",
+    "level": "B1",
+    "tagline": "Give up, find out, carry on",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "give up",
+      "pos": "phrase",
+      "meaning": "To stop trying or stop doing something.",
+      "examples": [
+        "Don’t {give up}; you’re nearly there."
+      ],
+      "wrong": [
+        "I gave up smoking, so I smoke more now."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "quit"
+      ],
+      "ipa": "/ˌɡɪv ˈʌp/",
+      "antonyms": [
+        "persist",
+        "carry on"
+      ]
+    },
+    {
+      "lemma": "look after",
+      "pos": "phrase",
+      "meaning": "To take care of someone or something.",
+      "examples": [
+        "Can you {look after} my cat this weekend?"
+      ],
+      "wrong": [
+        "I looked after the plants, so they all died of thirst."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "take care of"
+      ],
+      "ipa": "/ˌlʊk ˈæftɚ/"
+    },
+    {
+      "lemma": "look for",
+      "pos": "phrase",
+      "meaning": "To try to find something.",
+      "examples": [
+        "I’m {looking for} my glasses."
+      ],
+      "wrong": [
+        "I’m looking for my keys, which are in my hand."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "search for"
+      ],
+      "ipa": "/ˈlʊk fɔr/"
+    },
+    {
+      "lemma": "look forward to",
+      "pos": "phrase",
+      "meaning": "To feel happy about something that is going to happen.",
+      "examples": [
+        "I {look forward to} seeing you."
+      ],
+      "wrong": [
+        "I look forward to the party because it happened last year."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌlʊk ˈfɔrwɚd tu/"
+    },
+    {
+      "lemma": "find out",
+      "pos": "phrase",
+      "meaning": "To learn a fact or piece of information.",
+      "examples": [
+        "I want to {find out} what time the shop opens."
+      ],
+      "wrong": [
+        "I found out the answer, so I still don’t know it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "discover"
+      ],
+      "ipa": "/ˌfaɪnd ˈaʊt/"
+    },
+    {
+      "lemma": "turn up",
+      "pos": "phrase",
+      "meaning": "To arrive, often without warning.",
+      "examples": [
+        "He {turned up} late to the meeting."
+      ],
+      "wrong": [
+        "She turned up, so she never came."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "show up",
+        "arrive"
+      ],
+      "ipa": "/ˌtɝn ˈʌp/"
+    },
+    {
+      "lemma": "run out of",
+      "pos": "phrase",
+      "meaning": "To use all of something so there is none left.",
+      "examples": [
+        "We’ve {run out of} milk."
+      ],
+      "wrong": [
+        "We ran out of bread, so we have lots left."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌrʌn ˈaʊt əv/"
+    },
+    {
+      "lemma": "put off",
+      "pos": "phrase",
+      "meaning": "To move something to a later time.",
+      "examples": [
+        "Let’s {put off} the meeting until Friday."
+      ],
+      "wrong": [
+        "We put off the trip, so we left a day early."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "postpone",
+        "delay"
+      ],
+      "ipa": "/ˌpʊt ˈɔf/"
+    },
+    {
+      "lemma": "set up",
+      "pos": "phrase",
+      "meaning": "To start a business or organization.",
+      "examples": [
+        "She {set up} her own company."
+      ],
+      "wrong": [
+        "He set up a shop by closing it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "establish",
+        "start"
+      ],
+      "ipa": "/ˌsɛt ˈʌp/"
+    },
+    {
+      "lemma": "carry on",
+      "pos": "phrase",
+      "meaning": "To continue doing something.",
+      "examples": [
+        "{Carry on}; I’m listening."
+      ],
+      "wrong": [
+        "Carry on means stop at once."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "continue",
+        "go on"
+      ],
+      "ipa": "/ˌkɛri ˈɑn/",
+      "antonyms": [
+        "stop",
+        "give up"
+      ]
+    },
+    {
+      "lemma": "take off",
+      "pos": "phrase",
+      "meaning": "To leave the ground and start flying.",
+      "examples": [
+        "The plane {took off} on time."
+      ],
+      "wrong": [
+        "The plane took off and stayed on the ground."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌteɪk ˈɔf/",
+      "antonyms": [
+        "land"
+      ]
+    },
+    {
+      "lemma": "pick up",
+      "pos": "phrase",
+      "meaning": "To collect someone or something.",
+      "examples": [
+        "I’ll {pick up} the kids from school at four."
+      ],
+      "wrong": [
+        "I picked up the parcel, so it is still at the post office."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "collect",
+        "fetch"
+      ],
+      "ipa": "/ˌpɪk ˈʌp/",
+      "antonyms": [
+        "drop off"
+      ]
+    },
+    {
+      "lemma": "come back",
+      "pos": "phrase",
+      "meaning": "To return to a place.",
+      "examples": [
+        "When will you {come back}?"
+      ],
+      "wrong": [
+        "He came back, so he never returned."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "return",
+        "get back"
+      ],
+      "ipa": "/ˌkʌm ˈbæk/",
+      "antonyms": [
+        "leave",
+        "go away"
+      ]
+    },
+    {
+      "lemma": "get over",
+      "pos": "phrase",
+      "meaning": "To feel better after an illness or a sad event.",
+      "examples": [
+        "It took her months to {get over} the flu."
+      ],
+      "wrong": [
+        "He got over his cold, so he is still sick."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "recover from"
+      ],
+      "ipa": "/ˌɡɛt ˈoʊvɚ/"
+    },
+    {
+      "lemma": "bring up",
+      "pos": "phrase",
+      "meaning": "To care for a child until it is an adult.",
+      "examples": [
+        "She was {brought up} by her grandmother."
+      ],
+      "wrong": [
+        "Her parents brought her up, so they never looked after her."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "raise"
+      ],
+      "ipa": "/ˌbrɪŋ ˈʌp/"
+    },
+    {
+      "lemma": "call off",
+      "pos": "phrase",
+      "meaning": "To decide that a planned event will not happen.",
+      "examples": [
+        "They {called off} the match because of rain."
+      ],
+      "wrong": [
+        "They called off the concert, so it went ahead as planned."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "cancel"
+      ],
+      "ipa": "/ˌkɔl ˈɔf/"
+    },
+    {
+      "lemma": "fill in",
+      "pos": "phrase",
+      "meaning": "To write information in the spaces on a form.",
+      "examples": [
+        "Please {fill in} this form."
+      ],
+      "wrong": [
+        "I filled in the form by leaving it blank."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "complete",
+        "fill out"
+      ],
+      "ipa": "/ˌfɪl ˈɪn/"
+    },
+    {
+      "lemma": "hand in",
+      "pos": "phrase",
+      "meaning": "To give work to a teacher or person in charge.",
+      "examples": [
+        "{Hand in} your essays on Friday."
+      ],
+      "wrong": [
+        "I handed in my homework by keeping it at home."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "submit"
+      ],
+      "ipa": "/ˌhænd ˈɪn/"
+    },
+    {
+      "lemma": "point out",
+      "pos": "phrase",
+      "meaning": "To tell someone a fact they did not notice.",
+      "examples": [
+        "She {pointed out} a mistake in my email."
+      ],
+      "wrong": [
+        "He pointed out the error by hiding it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "mention"
+      ],
+      "ipa": "/ˌpɔɪnt ˈaʊt/"
+    },
+    {
+      "lemma": "show up",
+      "pos": "phrase",
+      "meaning": "To arrive at an event.",
+      "examples": [
+        "Only five people {showed up}."
+      ],
+      "wrong": [
+        "Nobody showed up, so the room was full."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "turn up"
+      ],
+      "ipa": "/ˌʃoʊ ˈʌp/"
+    },
+    {
+      "lemma": "take up",
+      "pos": "phrase",
+      "meaning": "To start a new hobby or activity.",
+      "examples": [
+        "I’ve {taken up} yoga."
+      ],
+      "wrong": [
+        "She took up painting, so she stopped painting."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "adopt"
+      ],
+      "ipa": "/ˌteɪk ˈʌp/"
+    },
+    {
+      "lemma": "work out",
+      "pos": "phrase",
+      "meaning": "To do exercise to get fit.",
+      "examples": [
+        "I {work out} at the gym every morning."
+      ],
+      "wrong": [
+        "I work out by lying on the sofa all day."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "exercise"
+      ],
+      "ipa": "/ˌwɝk ˈaʊt/"
+    },
+    {
+      "lemma": "turn down",
+      "pos": "phrase",
+      "meaning": "To say no to an offer.",
+      "examples": [
+        "She {turned down} the job."
+      ],
+      "wrong": [
+        "He turned down the offer, so he accepted it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "refuse",
+        "reject"
+      ],
+      "ipa": "/ˌtɝn ˈdaʊn/",
+      "antonyms": [
+        "accept"
+      ]
+    },
+    {
+      "lemma": "go out",
+      "pos": "phrase",
+      "meaning": "To leave home to do something for fun.",
+      "examples": [
+        "Let’s {go out} for dinner."
+      ],
+      "wrong": [
+        "We went out, so we stayed at home all evening."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌɡoʊ ˈaʊt/",
+      "antonyms": [
+        "stay in"
+      ]
+    },
+    {
+      "lemma": "come across",
+      "pos": "phrase",
+      "meaning": "To find or meet something by chance.",
+      "examples": [
+        "I {came across} an old photo in a drawer."
+      ],
+      "wrong": [
+        "I came across the book after searching for months."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "stumble on"
+      ],
+      "ipa": "/ˌkʌm əˈkrɔs/"
+    },
+    {
+      "lemma": "deal with",
+      "pos": "phrase",
+      "meaning": "To take action to solve a problem.",
+      "examples": [
+        "I’ll {deal with} the problem tomorrow."
+      ],
+      "wrong": [
+        "She dealt with the problem by ignoring it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "handle"
+      ],
+      "ipa": "/ˈdil wɪð/"
+    },
+    {
+      "lemma": "slow down",
+      "pos": "phrase",
+      "meaning": "To become slower.",
+      "examples": [
+        "{Slow down}; you’re driving too fast."
+      ],
+      "wrong": [
+        "He slowed down, so the car went faster."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌsloʊ ˈdaʊn/",
+      "antonyms": [
+        "speed up"
+      ]
+    },
+    {
+      "lemma": "cheer up",
+      "pos": "phrase",
+      "meaning": "To become happier, or make someone happier.",
+      "examples": [
+        "A funny film helps me {cheer up}."
+      ],
+      "wrong": [
+        "She cheered up, so she felt much sadder."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌtʃɪr ˈʌp/"
+    },
+    {
+      "lemma": "calm down",
+      "pos": "phrase",
+      "meaning": "To become quiet and relaxed after being angry or excited.",
+      "examples": [
+        "{Calm down} and tell me what happened."
+      ],
+      "wrong": [
+        "Calm down means get angrier."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "relax"
+      ],
+      "ipa": "/ˌkɑm ˈdaʊn/"
+    },
+    {
+      "lemma": "throw away",
+      "pos": "phrase",
+      "meaning": "To get rid of something you do not want.",
+      "examples": [
+        "Don’t {throw away} those old letters."
+      ],
+      "wrong": [
+        "I threw away the box, so I kept it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "discard"
+      ],
+      "ipa": "/ˌθroʊ əˈweɪ/",
+      "antonyms": [
+        "keep"
+      ]
+    },
+    {
+      "lemma": "put on",
+      "pos": "phrase",
+      "meaning": "To start wearing clothes.",
+      "examples": [
+        "{Put on} your coat; it’s cold."
+      ],
+      "wrong": [
+        "Put on your shoes means take them off."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "wear"
+      ],
+      "ipa": "/ˌpʊt ˈɑn/",
+      "antonyms": [
+        "take off"
+      ]
+    },
+    {
+      "lemma": "try out",
+      "pos": "phrase",
+      "meaning": "To test something to see if it works.",
+      "examples": [
+        "Let’s {try out} the new recipe."
+      ],
+      "wrong": [
+        "We tried out the car by never driving it."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "test"
+      ],
+      "ipa": "/ˌtraɪ ˈaʊt/"
+    },
+    {
+      "lemma": "get on",
+      "pos": "phrase",
+      "meaning": "To go onto a bus, train or plane.",
+      "examples": [
+        "We {got on} the bus at the station."
+      ],
+      "wrong": [
+        "I got on the train, so I stayed on the platform."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "board"
+      ],
+      "ipa": "/ˌɡɛt ˈɑn/",
+      "antonyms": [
+        "get off"
+      ]
+    },
+    {
+      "lemma": "go on",
+      "pos": "phrase",
+      "meaning": "To happen.",
+      "examples": [
+        "What’s {going on} here?"
+      ],
+      "wrong": [
+        "Nothing is going on, so a lot is happening."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "happen"
+      ],
+      "ipa": "/ˌɡoʊ ˈɑn/"
+    },
+    {
+      "lemma": "look up",
+      "pos": "phrase",
+      "meaning": "To find information in a book or online.",
+      "examples": [
+        "{Look up} the word in a dictionary."
+      ],
+      "wrong": [
+        "I looked up the word by closing the dictionary."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌlʊk ˈʌp/"
+    },
+    {
+      "lemma": "drop off",
+      "pos": "phrase",
+      "meaning": "To take someone to a place in a car and leave them there.",
+      "examples": [
+        "Can you {drop off} the kids at school?"
+      ],
+      "wrong": [
+        "I dropped him off at the station, so he stayed in my car all day."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌdrɑp ˈɔf/",
+      "antonyms": [
+        "pick up"
+      ]
+    },
+    {
+      "lemma": "check out",
+      "pos": "phrase",
+      "meaning": "To look at something interesting.",
+      "examples": [
+        "{Check out} this new café."
+      ],
+      "wrong": [
+        "I checked out the museum, so I never looked at it."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "ipa": "/ˌtʃɛk ˈaʊt/"
+    },
+    {
+      "lemma": "get back",
+      "pos": "phrase",
+      "meaning": "To return to a place.",
+      "examples": [
+        "What time did you {get back} home?"
+      ],
+      "wrong": [
+        "We got back home, so we were still on holiday."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "synonyms": [
+        "return"
+      ],
+      "ipa": "/ˌɡɛt ˈbæk/"
+    },
+    {
+      "lemma": "break down",
+      "pos": "phrase",
+      "meaning": "To stop working, used for machines and cars.",
+      "examples": [
+        "Our car {broke down} on the highway."
+      ],
+      "wrong": [
+        "The car broke down, so it worked perfectly."
+      ],
+      "cefr": "B1",
+      "register": "everyday",
+      "ipa": "/ˌbreɪk ˈdaʊn/"
+    },
+    {
+      "lemma": "hold on",
+      "pos": "phrase",
+      "meaning": "To wait for a short time.",
+      "examples": [
+        "{Hold on}, I’ll get a pen."
+      ],
+      "wrong": [
+        "Hold on means hurry and leave now."
+      ],
+      "cefr": "B1",
+      "register": "informal",
+      "synonyms": [
+        "wait"
+      ],
+      "ipa": "/ˌhoʊld ˈɑn/"
+    }
+  ]
+}

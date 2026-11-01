@@ -1,6 +1,6 @@
 # UI Screen and State Inventory
 
-> v2 (2026-10-25): visual state reference. Speech Lab families for conversation, interview and communication now belong to Learn → Coaches; new Speech Lab screens (Phonetics, Articulation, Dictation, Voice) reuse existing card, list, recorder and feedback patterns.
+> v2 (2026-10-25): visual state reference. Speech Lab keeps conversation, interview and communication; the new sound-and-voice screens (Dictation, Pronunciation with Phonetics and Articulation, Speaking) reuse existing card, list, recorder and feedback patterns.
 
 > Current readiness and remaining-choice authority: [consolidated readiness review](../history/v1/development-plan/readiness-review.md). Dated earlier pending statements are historical where superseded by recorded approvals; they are not additional start gates.
 > Status: IN_PROGRESS — updated 2026-10-17. The 70 families track behavior and QA; prior dedicated Page 2 drafts are removed. Shared Page 1 pattern references are current in the JSON inventory. Full state/prototype coverage, visual refinement, open decisions and runtime acceptance remain incomplete. No application code or new implementation ticket.
@@ -37,8 +37,8 @@ Interview trace: `R1-Q04`, `R1-Q06`, `R1-Q09`, `R3-Q01`, `R3-Q02`, `R3-Q03`, `R4
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
 | **ON-01 · Welcome and learning goals** | First launch → nickname/goals → setup; skip optional setup and revisit in Settings. | New, partially entered, invalid nickname, resumed setup, skipped. | GAP |
-| **ON-02 · Level and daily-target setup** | Welcome → freely select available CEFR level and time/activity targets → Today. | A1–C2 choices; explanatory help; unavailable marked Coming later; edit later; no placement lock. | GAP |
-| **ON-03 · Coach selection and preview** | Onboarding or Profile → role preview → select/switch coach → return. | All seven trainer roles unlocked; selected/unselected; published versus planned packs; method/activity preview; Creative Writer artwork pending; optional voice preview loading/failure/unavailable; never autoplay. | SEEN: Coaches · Everyone is welcome |
+| **ON-02 · Level and daily-target setup** | Welcome → unlocked level and time/activity targets → Today. | A1 unlocked; locked levels show a lock and a level-test button; edit later. | GAP |
+| **ON-03 · Coach selection and preview** | Onboarding or Profile → role preview → select/switch coach → return. | All ten coach roles unlocked; selected/unselected; published versus planned packs; method/activity preview; Creative Writer artwork pending; optional voice preview loading/failure/unavailable; never autoplay. | SEEN: Coaches · Everyone is welcome |
 | **ON-04 · Introduction invitation** | Setup → Start recording / Preview example / Skip to dashboard. | First visit, example playing/paused/unavailable, skipped and re-entered. | GAP |
 
 ## TD: Today and session control
@@ -59,7 +59,7 @@ Interview trace: `R1-Q03`, `R2-Q05`, `R2-Q06`, `R3-Q07`, `R3-Q08`, `R3-Q12`, `R4
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **LR-01 · Level, units and lessons** | Learn → free level choice → illustrated unit header → structured lesson list. | Available, unstarted, partial, completed, content absent/outdated, Coming later; public launch still requires complete path. | SEEN: Learn · Open levels |
+| **LR-01 · Level, units and lessons** | Lesson → unlocked levels and level tests → illustrated unit header → structured lesson list. | Available, unstarted, partial, completed, content absent/outdated, Coming later; public launch still requires complete path. | SEEN: Lesson · Open levels |
 | **LR-02 · Skip-ahead confirmation** | Later lesson selected → explain suggested order → continue or cancel. | No prerequisite lock, cancel preserves location; avoid repeated confirmation policy until decided. | GAP |
 | **LR-03 · Lesson objective and explanation** | Open lesson → objective/examples → Skip/Continue/Another example/back. | First/revisit, example audio unavailable, offline, long content, related vocabulary, original versus validated AI variant. | SEEN: Lesson · Explanation |
 | **LR-04 · Lesson continuation and completion** | Core steps → application/self-review → completion → retry/next/Today. | Skipped core replacement, partial, offline completed, AI optional, resume position, distinct completion versus mastery; exact core criteria OPEN. | GAP |
@@ -88,7 +88,7 @@ Interview trace: `R1-Q10`, `R4-Q04`, `R5-Q07`, `R5-Q08`, `R5-Q09`, `R6-Q12`, `R8
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **VO-01 · Vocabulary home and search** | Vocabulary tab → due reviews/collection/word/topic. | No words, no due cards, results/no results, offline, recognition/production categories. | SEEN: Vocabulary · Your words |
+| **VO-01 · Lexicon home and search** | Lexicon tab → due reviews/collection/word/topic. | No words, no due cards, results/no results, offline, recognition/production categories. | SEEN: Lexicon · Your words |
 | **VO-02 · Recall prompt and reveal** | Start due review → think/optional type → Reveal → rate. | Meaning/production prompts, answer hidden, typed optional, reveal, hint exposure; optional speech. | GAP |
 | **VO-03 · Recall rating and queue summary** | Revealed card → Again/Hard/Good/Easy → next/finish. | Rating semantics, undo policy OPEN, no due cards, interrupted queue, offline; avoid rating before reveal. | GAP |
 | **VO-04 · Word detail, quick-save and editing** | Lesson/feedback/search → Save to collection; separately Add to review; edit sense/example/topic/note. | Already saved, duplicate sense, existing card, unsaved edits/cancel, audio speed/failure, missing fields. | GAP |
@@ -102,11 +102,11 @@ Interview trace: `R4-Q07`, `R4-Q08`, `R4-Q09`, `R4-Q10`, `R4-Q11`, `R4-Q12`, `R5
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **SP-01 · Mode hub** | Speech Lab tab → AI conversation (free/scenario), interview, everyday/pronunciation/business/spontaneous/communication/articulation setup; honest text/recorded/live availability. | No recent attempts, suggestions, offline, unsupported capabilities clearly explained. | SEEN: Speech Lab · Modes; full mode coverage needs review |
+| **SP-01 · Mode hub** | Speech Lab tab → Dictation, Pronunciation, Speaking, Interview, Conversation, Communication, Record an introduction, Saved practice. (v1 mode list superseded by [speech-lab.md](speech-lab.md).) | No recent attempts, suggestions, offline, unsupported capabilities clearly explained. | SEEN: Speech Lab · Modes; full mode coverage needs review |
 | **SP-02 · Everyday, spontaneous and presentation setup** | Mode → level/purpose/topic/prompt and optional scaffold → record. | Reviewed/fresh prompt, sample hidden, optional talking points/countdown, retry comparable prompt; duration cap OPEN. | PARTIAL: shared recording prompt, dedicated setup absent |
 | **SP-03 · Interview and business setup** | Select role/audience/scenario/focus → objective-linked prompt → recording. | Software-engineering default from product, configurable role, optional technical coaching, factual sample stories, no employer achievements invented. | GAP |
 | **SP-04 · Pronunciation and articulation setup** | Choose sound/reference or expression/word-retrieval focus → reviewed example → shared practice. | Target/reference, speed/repetitions/scaffold, reference missing, acoustic assessment unavailable, quiet fallback; no clinical claims. | GAP |
-| **SP-05 · Communication techniques and scaffolds** | Learn or Speech Lab → technique/example → scaffold/no framework → solo practice. | Clarity, concise speech, listen/respond, persuasion, delivery, difficult conversations; stable objective/progress; exact release subset OPEN. | GAP |
+| **SP-05 · Communication techniques and scaffolds** | Lesson or Speech Lab → technique/example → scaffold/no framework → solo practice. | Clarity, concise speech, listen/respond, persuasion, delivery, difficult conversations; stable objective/progress; exact release subset OPEN. | GAP |
 | **SP-06 · Ready, countdown, recording and pause** | Explicit Start → optional countdown → capture → Pause/Resume/Stop. | Prompt/talking points, elapsed time/waveform, permission denied, input route, no signal, technical limit, interruption/restart, leave confirmation. | SEEN: Speech Lab · Recording; non-recording states GAP |
 | **SP-07 · Take review and replacement** | Stop → Play/Re-record/Get AI Feedback/Finish self-review → retain prior take until replacement accepted. | Playing/paused, accept replacement/cancel, extra take save, interrupted partial replay, invalid audio. | SEEN: Speech Lab · Take review |
 | **SP-08 · Transcription and transcript confirmation** | Explicit submission/disclosure → ASR status → audio-backed text confirmation/edit. | Uncertain/empty recognition, original versus edited, stale revision, cancel, failed ASR, no-key/offline. | SEEN: Speech Lab · Confirm transcript; request states GAP |
@@ -160,7 +160,7 @@ Interview trace: Existing product PR-10 and resource requirements; not introduce
 
 | ID / family | Entry, actions and exit | Required states and behavior | Last Figma evidence |
 | --- | --- | --- | --- |
-| **RS-01 · Resource bookmarks and link cards** | Learn supporting resources → curated/personal YouTube card → external destination. | Empty, invalid/unavailable link, thumbnail absent, offline, return to lesson; no inferred video-content knowledge. | GAP |
+| **RS-01 · Resource bookmarks and link cards** | Lesson supporting resources → curated/personal YouTube card → external destination. | Empty, invalid/unavailable link, thumbnail absent, offline, return to lesson; no inferred video-content knowledge. | GAP |
 | **RS-02 · Add/edit bookmark and learner notes** | Resource list → valid URL/title/topic/notes → save/edit/remove. | Invalid input, unsaved edits, duplicate link, cancellation, local failure; embedded playback remains deferred. | GAP |
 
 ## SY: Shared recovery surfaces
@@ -259,7 +259,7 @@ All statuses below are **NOT_RUN**: these are planned design reviews, not execut
 
 | ID | Scenario and expected continuity | Families |
 | --- | --- | --- |
-| W01 | New learner skips optional setup, previews intro, selects any level; no key needed | ON, LR, TD |
+| W01 | New learner skips optional setup, previews intro and lands on A1; locked levels show the level test; no key needed | ON, LR, TD |
 | W02 | Work-break quiet session completes daily plan without mic/automatic audio or lost streak credit | TD, EX, PG |
 | W03 | Connected lesson includes each response type, back/repeat, paid/free help, skipped core replacement, harder-task consent | LR, EX |
 | W04 | Speaking: record/pause/stop/replay, cancel re-record replacement, explicit ASR → confirm edits → coaching → retry | SP, SY |

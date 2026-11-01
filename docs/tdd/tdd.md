@@ -23,7 +23,7 @@ application/SpeechCoachAI/
     Audio/          capture file inspection
     Speech/         (v2) on-device TTS, recognition, voice metrics
   Features/         SwiftUI screens by area (Learn, Vocabulary, Recording, SpeechLab, …)
-  Resources/        Curriculum/ (catalog JSON + audio), Tracks/ (v2), Rewards/, Assets.xcassets
+  Resources/        Curriculum/ (catalog JSON + audio), Tracks/ (v2), Lexicon/ (v2 word bank), SpeechLab/ (v2 drill catalogs), Rewards/, Assets.xcassets
 application/SpeechCoachAITests/     Swift Testing, hosted
 application/SpeechCoachAIUITests/   XCUITest
 tools/curriculum/                   Python authoring and validation scripts
@@ -52,7 +52,7 @@ tools/native/verify.sh              build + all tests on a simulator
 
 | Field | Type | Meaning |
 | --- | --- | --- |
-| `tip` | String | Coach tip shown before the exercises (2–4 sentences) |
+| `tip` | String | Coach tip shown before the exercises (2–6 sentences) |
 | `trackId` | String | `course` or a coach track id (e.g. `grammarian`) |
 | `unitId` | String | Unit within the track |
 | `sources` | [String] | Credits for ideas and public-domain material |
@@ -69,7 +69,7 @@ tools/native/verify.sh              build + all tests on a simulator
 | --- | --- | --- |
 | `type` | String | One of `choice`, `wordBank`, `fillBlank`, `match`, `order`, `spotError`, `listenType`, `speak`, `open` |
 | `options` | [String] | `choice`: the buttons. `wordBank`: tiles including distractors. `spotError`: the sentence tokens |
-| `accepted` | [String] | Every answer that counts as correct. The first is the model answer shown after answering |
+| `accepted` | [String] | Every answer that counts as correct. The lesson player shows `answer` as the example after answering; keep `answer` equal to `accepted[0]` for choice items (a test enforces it) |
 | `pairs` | [[String]] | `match`: left/right pairs |
 | `items` | [String] | `order`: items in the correct order (shown shuffled) |
 | `audioText` | String | Text spoken by the on-device voice when there is no bundled clip (`listenType`, `speak`) |
@@ -81,9 +81,10 @@ A malformed `exercise` closes only its lesson (the loader's `metadataProblem()`)
 One file per track: `Resources/Tracks/<trackId>.json`:
 
 ```json
-{ "schemaVersion": 1, "trackId": "grammarian", "coach": "owlGrammarian", "title": "Grammarian",
-  "units": [ { "id": "gram-u1", "title": "Build a sentence", "stage": "foundation",
-               "lessons": [ { "...same lesson schema, with trackId/unitId..." } ] } ] }
+{ "schemaVersion": 1, "packId": "speechcoach.track.grammarian", "contentVersion": "1", "locale": "en-US",
+  "track": { "id": "grammarian", "coach": "grammarian",
+             "stages": [ { "id": "starter", "title": "Starter", "units": [ { "id": "sentences", "title": "Build sentences" } ] } ] },
+  "lessons": [ { "...same lesson schema, with trackId and unitId pointing at the unit above..." } ] }
 ```
 
 Track lessons use the same `LessonJourney` progress store (keyed by lesson id), the same player and the same rewards. Lesson ids must be unique across the course and all tracks; the validator enforces this.
@@ -111,7 +112,7 @@ Track lessons use the same `LessonJourney` progress store (keyed by lesson id), 
 **AnswerChecker** (`Domain/AnswerChecker.swift`, pure and fully unit-tested):
 
 - Normalize: Unicode quotes → ASCII, lowercase, trim, collapse spaces, strip `.,!?;:"`, expand contractions (I'm → I am, don't → do not, can't → cannot, etc.) on both sides.
-- Result: `.correct`, `.almost(hint)` (same word count; one word within edit distance 1, or 2 for words of 8+ letters), or `.incorrect`.
+- Result: `.correct`, `.almost(hint)` (same word count; one word within edit distance 1, or 2 for words of 8+ letters; words under 4 letters must match exactly), or `.incorrect`.
 - Word diff (for `listenType`/`speak`): per-word `correct | misspelled | missing | extra`.
 
 **Swift API for screens** (all in `Domain/`, written; screens only call these):
@@ -142,21 +143,20 @@ SpeechSynthesizer.shared.speak(text, slow:)  // Infrastructure/Speech, on-device
 
 Spec: [lexicon.md](../product-specification/lexicon.md). The Lexicon tab reuses the existing word review (FSRS-6, `ReviewSchedule`, `VocabularyRecall`) and adds a bundled bank plus a learner section.
 
-**Bank:** `Resources/Lexicon/<groupId>.json`:
+**Bank:** `Resources/Lexicon/lexicon-NN-<name>.json` (one file per group; field packs carry `"kind": "field"`):
 
 ```json
-{ "schemaVersion": 1, "groupId": "everyday-a1", "title": "Everyday A1", "level": "A1",
-  "sources": ["NGSL (word selection only)"],
-  "words": [ { "id": "everyday-a1-borrow", "lemma": "borrow", "pos": "verb",
-               "meaning": "Take something and give it back later.",
-               "examples": ["Can I borrow your pen?"],
-               "wrongUsage": ["She borrowed me her pen."],
-               "blankSentences": ["Can I ___ your pen?"] } ] }
+{ "schemaVersion": 2,
+  "group": { "id": "everyday-a1", "title": "Everyday A1", "level": "A1", "tagline": "Words for daily life", "sources": ["..."] },
+  "words": [ { "lemma": "borrow", "pos": "verb", "cefr": "A1", "register": "everyday",
+               "meaning": "To take something and give it back later.",
+               "examples": ["Can I {borrow} your pen?"],
+               "wrong": ["I borrow my sister a pen."] } ] }
 ```
 
 - `LexiconWord.key` = normalized lemma + part of speech (lowercase, accents and extra spaces removed). **Adding a word whose key already exists in the bank or the learner's words is refused** with a pointer to the existing word.
 - **Stage** (New, Learning, Review, Easy) is derived from the FSRS card state and last `RecallRating`. A word is **Easy** when its last rating is `.easy`.
-- **Lexicon in Action** builds questions with the exercise engine: `fillBlank`/`choice` from `blankSentences`, and `choice` from one `examples` sentence versus `wrongUsage` sentences. A word needs at least one question source to be eligible.
+- **Lexicon in Action** builds questions with the exercise engine: `fillBlank`/`choice` from the braced form in `examples` (the blank), and `choice` from one `examples` sentence versus `wrong` sentences. A word needs at least one question source to be eligible.
 - **Daily Lexicon:** the first bank word in an active group, in group order, not yet Easy; the choice is stored for the local day (optional `dailyLexicon` field on the learner document) so it doesn't change.
 - **Learner data (all optional fields on the learner document):** `lexiconActiveGroups: [String]`, `lexiconWords: [UserLexiconWord]` (learner-added), `lexiconActionHistory`, `dailyLexicon`. No SwiftData migration.
 - **Specialized Lexicon (Phase 6):** one provider request returns a validated list `{ lemma, pos, meaning, example, register }`; invalid entries are dropped; duplicates are skipped; the learner confirms before words are added.
@@ -171,17 +171,60 @@ Spec: [lexicon.md](../product-specification/lexicon.md). The Lexicon tab reuses 
 ## Speech services (Phase 5; Phase 1 uses TTS and dictation)
 
 - `Infrastructure/Speech/SpeechSynthesizer.swift`: `AVSpeechSynthesizer` wrapper. en-US voice (enhanced if installed), normal and slow rate, completion callbacks. Respects quiet mode.
-- `Infrastructure/Speech/OnDeviceRecognizer.swift`: `SFSpeechRecognizer(locale: en-US)` with `requiresOnDeviceRecognition = true`. If `supportsOnDeviceRecognition` is false, `speak` exercises are skipped (never sent to a server). Returns the transcript plus segment timestamps.
-- `Domain/VoiceMetrics.swift`: words per minute, pauses > 1 s (from segment gaps), filler count, loudness samples (from `AVAudioRecorder` metering).
+- `Infrastructure/Speech/SpeechLabRecognizer.swift`: `SFSpeechRecognizer(locale: en-US)` with `requiresOnDeviceRecognition = true`. If `supportsOnDeviceRecognition` is false, `speak` exercises are skipped (never sent to a server). Returns the transcript plus segment timestamps.
+- `Domain/SpeechLab.swift` and `Domain/SpeechLabVoice.swift`: words per minute, pauses > 1 s (from segment gaps), filler count, loudness samples (from `AVAudioRecorder` metering).
 - The Info.plist is generated: add `INFOPLIST_KEY_NSSpeechRecognitionUsageDescription` to the app target's Debug/Release build settings. `INFOPLIST_KEY_NSMicrophoneUsageDescription` already exists; reword it to cover Speech Lab.
+
+### Hands-free Interview (Phase 5b)
+
+`Domain/HandsFreeInterview.swift`: `TurnTakingRules` + `TurnDetector` (pure state machine; the caller passes the clock and the live caption's word count), `InterviewFollowUpRule`, `HandsFreeInterview` (plan, prompt, record, skip, repeat, finish, summary; Codable but not persisted). Bank: `Resources/SpeechLab/speechlab-interview.json`, loaded by `SpeechLabCatalog.interview`. Screen: `Features/SpeechLab/HandsFreeInterviewController` (audio lifetime: TTS, one `DictationRecognizer` per turn, pause on background, interruption and route loss) and `HandsFreeInterviewView`. Online follow-ups arrive in Phase 6c.
 
 ## Coaches
 
 `LearnerPreferences.Coach` gains cases for the new characters (`debater`, `negotiator`, `storyteller`, `copywriter`). Adding cases is backward compatible for stored data; never rename or remove a case. A coach without artwork shows an SF Symbol placeholder.
 
+## Level and usage analytics (2026-10-26)
+
+- `Domain/XPLevel.swift`: level from XP (`threshold(L) = 50·(L−1)·L`). The ledger keeps a legacy `gold` field on old rows, always 0 on new ones; purchases, quotes, Freeze and Repair buying are removed.
+- `Domain/UsageLog.swift`: `UsageSession`, `UsageLog` (learner document field `usage`; visits under 60 seconds are ignored; overlaps merge; visits older than 120 days fold into per-day totals), `UsageTracker` (pure foreground state machine; a gap of up to 30 seconds continues a visit), `UsageReport` (splits visits at midnight; hourly, daily and monthly buckets; totals and days used).
+- `App/UsageRecorder.swift`: listens to scene phase, saves finished visits through `LearnerRepository.recordUsage`, keeps an unsaved visit across a locked device or a crash (UserDefaults `usage.open` and `usage.pending`).
+- `Domain/Milestones.swift`: milestones are computed from the ledger, level tests, journeys, usage and word stages; nothing extra is stored.
+- Screens: `Features/Progress/{LevelAndMilestonesViews,UsageAnalyticsView}.swift` (Swift Charts); `Features/Rewards/RewardOverview.swift` is now "Level and badges".
+
 ## Online AI (Phase 6)
 
-The existing gated provider clients (`Infrastructure/Providers/`) stay disabled. Phase 6 connects the lesson's "Your turn" task to a per-coach review prompt. Keys stay in Keychain, requests are explicit only, and failures are shown plainly.
+The existing gated provider clients (`Infrastructure/Providers/`) stay disabled until the owner installs a verification file (`tools/provider/install_verification.sh`). Keys stay in Keychain, requests are explicit only, and failures are shown plainly. Endpoint, models and limits: [Decision 9 findings](../development-plan/development-plan.md#decision-9-findings--phase-6a-research-2026-10-25).
+
+**Built so far (fake transport only, no live call):**
+
+- `LabFeedbackService` (`LabFeedbackClient.swift`): `transcribe` (`qwen3-asr-flash`), `feedback` (`qwen-flash`, strict reply: summary, strengths, up to three quoted improvements, next step, `speechAssessmentStatus` = `not_assessed`, every quote must appear in the learner's text), `followUp` (6c: one short question that picks up a word from the answer; any failure falls back to the scripted follow-up; 6 second timeout), `generateLexicon` (6d: up to 15 cards, each checked like a bundled word and skipped if broken, above the level, repeated or already in the Lexicon). One request at a time, no retry, only with a `LabFeedbackConsent` made from the current `LabFeedbackDisclosure` line.
+- `LabFeedbackRequest` builders per mode (`LabFeedbackRequests.swift`): pronunciation, speaking, interview, conversation, communication and `coachReview` (a coach lesson's "Your turn" answer); each mode has a rubric of topics for comments, never marks.
+- Saved results: `StoredLabFeedback` in the learner document (`labFeedback`, capped at 100) with `LabFeedbackHistorySummary` (count, last two weeks, repeated tips; never a score). Generated words are saved by `LearnerRepository.saveGeneratedLexicon` into a personal topic named "AI: <topic>".
+
+## Phase 7 rework (2026-10-26)
+
+- **Theme.** `Features/Shared/Theme.swift` holds `Kit` (colour, spacing, radius and font tokens) and `KitTheme(background)`. Each background has its own accent, on-accent, surface and soft colours (asset sets `Atlas*`, `Studio*`, plus the Academy originals) with dark variants; `chart` = accent, `ChartOchre`, `ChartRose`. `Kit.*` colours resolve against `KitTheme.current`, which `LearnerStorageController` sets on load and on every preference save; `AppShell` injects `\.kitTheme` and rebuilds its content with `.id(background)`.
+- **Rank.** CEFR A1–C2 is called "Rank" on screen; "Level" is only the XP level. Code names (`LevelGate`, `lessons(at:)`) stay. `CurriculumInstall.lessons(at:)` returns course lessons only; the v1 introduction lesson (`ResolvedLesson.isIntroduction`) is not part of any rank.
+- **Today.** `CurrentLessons.make(install:journeys:gate:dueWords:)` (Domain) and `CurrentLessons(storage:install:)` (App): the unfinished course lesson, else the first unfinished lesson at the highest open rank; up to two coach lessons in progress, else the next lesson of the coach used last; due words.
+- **Erase all data.** `LearnerReset.erase(storage:)` asks the device owner (`LAContext`, `.deviceOwnerAuthentication`: Face ID / Touch ID, passcode fallback), then removes the provider key (`ProviderCredentialStore.removeAll()`), the app's `UserDefaults` domain and the whole store folder (`LearnerStorageController.eraseAllLearnerFiles()`), and reopens storage fresh. DEBUG UI tests set `SC_OWNER_AUTH=pass|cancel`.
+- **Removed (v1):** Communication practice (screens, `CommunicationPractice`, the `communication` field of saved speaking practice), Generated practice and incorrect-activity reports, Vocabulary discovery and the v1 Word of the day (and their `generatedPractice` / `wordOfDay` document fields; old stored values are ignored on decode), the Lab's "Record an introduction" entry. Pending removal after the Today and Progress redesign: `PracticeRecommendation`, `LearningEvidence` and the introduction lesson's extra practice.
+- **Repository.** `LearnerRepository.swift` keeps the store, attempts, files and maintenance; areas live in `LearnerRepository+{Vocabulary,Lexicon,Rewards,Lessons,Lab,Usage,Resources,Today}.swift` and `LearnerDocument.swift`. Helpers shared by these files are internal and meant for them only.
+- **Copy audit.** `tools/native/copy-audit.sh` fails on screen strings that explain what the app can't do; `verify.sh` runs it and reports it after the tests.
+
+## Phase 10 speak-first pronunciation (2026-10-26)
+
+- `Domain/PronunciationCheck.swift` holds:
+  - `MinimalPair`, plus `MinimalPairJudge.judge(pair, heard:)` → `.clear`, `.soundedLike(word)`, `.heard(text)` or `.nothing`, matching whole words only;
+  - `PitchTracker.track(samples, sampleRate:)`: YIN for 70–450 Hz, vectorised with Accelerate, with silent frames returning nil;
+  - `PitchContour`: semitones around the speaker's median, a five-point median filter, and `normalised` time from 0 to 1;
+  - `IntonationJudge`: compares the last fifth of the line with its middle, using a ±1.5-semitone threshold. `expected(for:)` is rising for a final "?" and falling otherwise.
+- `Infrastructure/Speech/PitchAnalysis.swift` holds:
+  - `contour(of: url)`, which runs off the main actor and reads the private WAV converted to mono 16 kHz;
+  - `modelContour(text, settings:)`, which uses `ModelVoiceRenderer` (`AVSpeechSynthesizer.write`, with an `@Sendable` buffer callback and a 10-second timeout).
+- `SpeechLabRecognizer.recognize(url, hints:)` sets `contextualStrings` and `taskHint = .search`.
+- `SpeechLabCapture.hints` and `wantsPitch` produce `capture.contour`.
+- `SpeechLabCatalog.pairs`, with `pairs(for: sound)`.
+- In the UI, `SpeakCheckView` (modes `.pair`, `.intonation` and `.stress`) and `PitchChart` (Swift Charts) save one `SpeechLabAttempt` (`.phonetics`, `correct` 0 or 1) per result.
 
 ## Xcode project
 
@@ -190,3 +233,13 @@ The existing gated provider clients (`Infrastructure/Providers/`) stay disabled.
 ## Testing
 
 See the [test specification](../testing/test-specification.md). Domain logic (AnswerChecker, catalog validation, metrics) gets Swift Testing unit tests. Each new screen gets one XCUITest happy path. `tools/native/verify.sh <SIMULATOR_UUID>` must pass before a phase is reviewed.
+
+## Phase 13 topic lessons (2026-10-26)
+
+`CurriculumLesson.reading` optionally stores ordered `LessonReading` pages (id, heading, explanation, worked examples with prompt/answer/explanation). Availability rejects empty/malformed pages and duplicate page identities. Resolved lessons expose teaching only when ready. CEFR and archived lessons omit the field and retain their existing player flow.
+
+`LessonPlayerView` displays one reading page before exercises, commits the checkpoint before advancing, and keeps the existing exercise activity/answer state while rereading. `LessonJourney.readingPageIndex` and `readingCompletedAt` are optional JSON values. Index equal to page count means return to exercises; invalid values restart reading safely. No SwiftData schema change or migration.
+
+Track manifests now carry `archivedLessons`. The loader resolves each archived identity independently; `TrackCatalog.archivedLessons` is excluded from current lesson/progress lists. Exact lookup includes those archives. Coach Continue and Today can resume archived attempts; Earlier lessons exposes saved archived work. New topic IDs/version 2 have their own reward targets, leaving earlier reward/attempt identities intact.
+
+Content is produced by `build_topic_lessons.py` from frozen app-original source manifests and `topic_outline.py`. It consolidates related teaching, retains suitable checked exercises, includes every old subtopic once, and adds a transfer page. The builder is byte-idempotent; `validate.py` checks current and archived content, examples, exercise counts and answer give-aways. See [Phase 13](../development-plan/phases/phase-13/README.md) for scope and evidence.

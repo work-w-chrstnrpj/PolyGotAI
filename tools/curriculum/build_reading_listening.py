@@ -24,8 +24,9 @@ TRIP = "The school trip is on Thursday. Students meet at the front gate at 8:15 
 GARDEN = "Lena has a small garden behind her house. She grows tomatoes, beans and flowers. Every evening she waters the plants. Last week a rabbit ate her lettuce, so now she has a fence."
 HOURS = "Opening hours: Monday to Friday 9:00 a.m. to 6:00 p.m. Saturday 10:00 a.m. to 4:00 p.m. Sunday closed. Phone: 555-0142. Address: 12 Oak Road."
 TICKETS = "Adult ticket: $4. Child ticket (under 12): $2. Day pass: $9. Children under 5 travel free."
-MARKET = "Spring Market. Saturday 14 April. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m."
+MARKET = "Spring Market. Saturday, April 14. Stalls open at 9:00 a.m. Free parking at the Town Hall. Live music from 2:00 p.m."
 WALK = "Walking is a good way to stay healthy. It is free, and you can do it anywhere. A short walk each day helps your heart and your mood. You do not need special shoes or a gym."
+SNAP = "Maria brings her camera to the market every Saturday. She takes pictures of the flowers, the fruit and the people. She hangs the best pictures in her kitchen. Photography is her favorite hobby."
 PETS = "Many people think cats and dogs cannot be friends. But in my house they sleep on the same bed. They play together in the garden. They even share the same food bowl."
 LIB2 = "Our town library now offers more than books. You can borrow board games and tools. There is a free class for children every Saturday. Older people can learn to use a computer on Wednesday mornings."
 RICE = "Rice is eaten in many countries. In Japan it is served with fish. In India it is cooked with spices. In Mexico it is often served with beans."
@@ -38,10 +39,10 @@ LESSONS = [
          READ(BAKERY, "What is this text mostly about?", "Sara and her bakery", "A new street in town", "How to bake a cake", "People who are late for work"),
          READ(PHONE, "What is the gist of this story?", "Tom gets his lost phone back", "Tom buys a new phone", "A girl loses her bag", "The bus driver is late"),
          READ(LIBRARY, "What is the gist of this notice?", "The library closes early on one day", "The library is closing forever", "The library opens late on Saturday", "A new library opens on Friday"),
-         READ(HOLIDAY, "What is the gist of this message?", "Ben tells Mia about his holiday", "Ben asks Mia for help", "Ben says he is sick", "Ben invites Mia to dinner"),
+         READ(HOLIDAY, "What is the gist of this message?", "Ben tells Mia about his vacation", "Ben asks Mia for help", "Ben says he is sick", "Ben invites Mia to dinner"),
          READ(BAKERY, "Which title fits this text best?", "Sara's Bakery", "A Rainy Day", "A Trip to Lisbon", "The Quiet Library"),
-         LISTEN("Welcome to the city museum. The museum is open every day from nine to five. Tickets are free for children.", "What is the gist?",
-                "Information about a museum", "A story about a child", "A weather report", "A shopping list"),
+         LISTEN("Welcome to the city museum. We are open every day from nine to five. Tickets are free for children, and the gift shop is on the second floor.", "What is the gist?",
+                "Opening times and tickets for visitors", "A story about a lost child", "A weather report", "A shopping list"),
          TF("True or false: The gist is the same as every small detail.", "False"),
          O("Put the steps in order.", ["Read the whole text once, quickly", "Ask yourself what it is mostly about", "Then look for small details"]),
          M("Match each sign with its gist.", [["Closed on Sunday", "The shop is not open on Sunday"], ["Back in ten minutes", "The person will return soon"], ["Wet floor", "Be careful where you walk"]]),
@@ -59,10 +60,10 @@ LESSONS = [
          READ(GARDEN, "Why does Lena have a fence?", "A rabbit ate her lettuce", "She likes the color", "Her neighbor asked her", "It rains a lot"),
          READ(GARDEN, "When does Lena water the plants?", "Every evening", "Every morning", "Once a week", "Only on Sunday"),
          READ(GARDEN, "Which plant does Lena grow?", "Beans", "Rice", "Apples", "Carrots"),
-         LISTEN("The train to Boston leaves from platform four at ten past nine. Please have your ticket ready.", "Which platform does the train leave from?",
+         LISTEN("The train to Boston leaves from platform four at nine ten. Please have your ticket ready.", "Which platform does the train leave from?",
                 "Platform four", "Platform ten", "Platform nine", "Platform five"),
-         LISTEN("The train to Boston leaves from platform four at ten past nine. Please have your ticket ready.", "What time does the train leave?",
-                "Ten past nine", "Ten to nine", "Nine thirty", "Four o'clock"),
+         LISTEN("The train to Boston leaves from platform four at nine ten. Please have your ticket ready.", "What time does the train leave?",
+                "Nine ten", "Eight fifty", "Nine thirty", "Four o'clock"),
          TF("True or false: To find a detail, you read the question first.", "True"),
          F("Type the missing question word: ___ do students meet? At the front gate.", "Where"),
          M("Match each question word with the detail it asks for.", [["Who", "a person"], ["When", "a time"], ["Where", "a place"], ["Why", "a reason"]]),
@@ -80,7 +81,7 @@ LESSONS = [
          READ(TICKETS, "How much is a day pass?", "$9", "$4", "$2", "Free"),
          READ(TICKETS, "How much is a child ticket?", "$2", "$4", "$9", "Free"),
          READ(TICKETS, "Who travels free?", "Children under 5", "Children under 12", "All adults", "Nobody"),
-         READ(MARKET, "On which day is the market?", "Saturday 14 April", "Sunday 14 April", "Saturday 4 April", "Friday 14 April"),
+         READ(MARKET, "On which day is the market?", "Saturday, April 14", "Sunday, April 14", "Saturday, April 4", "Friday, April 14"),
          READ(MARKET, "Where is the free parking?", "At the Town Hall", "At the market stalls", "On Oak Road", "At the library"),
          LISTEN("The flight to Rome is delayed by forty minutes. The new departure time is eleven fifteen.", "What is the new departure time?",
                 "Eleven fifteen", "Eleven fifty", "Ten forty", "Forty minutes past ten"),
@@ -119,11 +120,11 @@ LESSONS = [
      "The main idea is the one most important point of a text. The details support it. To find it, look at the first sentence, the last sentence, and the idea that most sentences are about.",
      [
          READ(WALK, "What is the main idea?", "Walking is a good way to stay healthy", "Special shoes are expensive", "Gyms are better than walking", "Walking is only for older people"),
-         READ(WALK, "Which sentence gives the main idea, not a detail?", "Walking is a good way to stay healthy.", "It is free, and you can do it anywhere.", "A short walk each day helps your heart and your mood.", "You do not need special shoes or a gym."),
+         READ(SNAP, "Which sentence gives the main idea, not a detail?", "Photography is her favorite hobby.", "She brings her camera on Saturday.", "She takes pictures of flowers and fruit.", "She hangs the best pictures in her kitchen."),
          READ(PETS, "What is the main idea?", "A cat and a dog can be good friends", "Cats are bigger than dogs", "Dogs do not like gardens", "Food bowls are expensive"),
          READ(LIB2, "What is the main idea?", "The library offers many things besides books", "The library only lends books", "The library is closed on Saturday", "The library is for children only"),
          READ(RICE, "Which title fits best?", "Rice around the world", "How to cook fish", "Beans in Mexico", "Spices in India"),
-         LISTEN("Good sleep is important for students. When you sleep well, you remember more and feel happier. Try to go to bed at the same time every night.", "What is the main idea?",
+         LISTEN("Many students stay up late. They feel tired in class and forget what they learned. When you sleep well, you remember more and feel happier. Try to go to bed at the same time every night.", "What is the main idea?",
                 "Good sleep helps students", "Students should study at night", "Students should eat more", "Students need new beds"),
          TF("True or false: The main idea is usually a small detail.", "False"),
          F("Type the missing word: Details ___ the main idea.", "support"),
@@ -140,9 +141,9 @@ LESSONS = [
          READ("Maria is quite timid. She never speaks in class and she hides when guests arrive.", "What does “timid” mean?", "Shy and afraid", "Loud and funny", "Angry and rude", "Tall and strong"),
          READ("The road was narrow, so only one car could pass at a time.", "What does “narrow” mean?", "Not wide", "Very long", "Very new", "Full of cars"),
          READ("He was exhausted after the race. He lay on the grass and could not move.", "What does “exhausted” mean?", "Very tired", "Very happy", "Very hungry", "Very quick"),
-         READ("It was a gloomy morning. The sky was dark and grey, and everyone felt sad.", "What does “gloomy” mean?", "Dark and sad", "Bright and warm", "Loud and busy", "Clean and new"),
+         READ("It was a gloomy morning. The sky was dark and gray, and everyone felt sad.", "What does “gloomy” mean?", "Dark and sad", "Bright and warm", "Loud and busy", "Clean and new"),
          LISTEN("The weather was dreadful. It rained all day, and the wind was so strong that trees fell down.", "What does “dreadful” mean?", "Very bad", "Very nice", "Very short", "Very quiet"),
-         C("In “The soup was scorching; I burned my tongue,” which words give the clue?", "I burned my tongue", "The soup", "My", "Was"),
+         C("In “The soup was scorching; I burned my tongue,” which words give the clue?", "I burned my tongue", "The soup", "My", "was"),
          F("Type the missing word: The words around a new word give a ___.", "clue"),
          TF("True or false: You should always stop reading to look up a new word.", "False"),
          O("Put the steps in order.", ["Read the sentence around the word", "Look for a clue", "Guess the meaning", "Check that the sentence makes sense"]),
@@ -153,7 +154,7 @@ LESSONS = [
     ("rl-signal-words", "meaning", "Signal words", "RL-S-07",
      "Small words join ideas and tell you what comes next. “And” adds, “but” shows a difference, “because” gives a reason, and “so” gives a result. Notice them when you read or listen.",
      [
-         C("Fill the gap: I was tired, ___ I went to bed early.", "so", "but", "or", "if"),
+         C("Fill the gap to show a result: I was tired, ___ I went to bed early.", "so", "but", "or", "if"),
          C("Fill the gap: I like tea, ___ I do not like coffee.", "but", "so", "because", "or"),
          C("Fill the gap: He stayed home ___ it was raining.", "because", "but", "or", "so"),
          C("Fill the gap: Do you want pizza ___ pasta?", "or", "so", "because", "but"),

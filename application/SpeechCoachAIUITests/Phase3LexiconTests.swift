@@ -27,17 +27,68 @@ final class Phase3LexiconTests: XCTestCase {
         XCTAssertTrue(app.buttons["lexicon.train"].waitForExistence(timeout: 8))
     }
 
+    @MainActor @discardableResult
+    private func reach(_ app: XCUIApplication, _ element: XCUIElement) -> XCUIElement {
+        for _ in 0..<12 where !(element.exists && element.isHittable) { app.swipeUp() }
+        XCTAssertTrue(element.isHittable, element.identifier)
+        return element
+    }
     @MainActor
     private func capture(_ app: XCUIApplication, _ name: String) {
-        let attachment = XCTAttachment(screenshot: app.screenshot())
+        let attachment = XCTAttachment(screenshot: XCUIScreen.main.screenshot())
         attachment.name = "phase3-\(name)"; attachment.lifetime = .keepAlways; add(attachment)
+    }
+
+    @MainActor
+    func testLargestTextNavigationAndFieldPacks() {
+        let app = launch(largeText: true)
+        openLexicon(app)
+        let navigation = app.buttons["navigation.vocabulary"].firstMatch
+        if navigation.exists {
+            XCTAssertEqual(navigation.label, "Lexicon")
+            XCTAssertTrue(navigation.isHittable)
+        }
+        // Phase 8: packs are chosen in Training settings.
+        reach(app, app.buttons["lexicon.settings"]).tap()
+        XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
+        // Rank packs are closed lists (Phase 14), so the field packs are a short scroll away.
+        for _ in 0..<20 where !app.staticTexts["Field packs"].isHittable { app.swipeUp() }
+        XCTAssertTrue(app.staticTexts["Field packs"].isHittable)
+        // Every field label remains reachable at the largest accessibility size.
+        // Rows load as they scroll in, so the header can be on screen before the first pack row exists.
+        // The last field pack sits at the bottom of the list, so scrolling down always reaches it (2026-10-31: the first
+        // field row kept landing under the bar at this text size, and off-screen rows are not loaded).
+        let law = app.switches["lexicon.settings.pack.field-law"]
+        for _ in 0..<20 where !(law.exists && law.isHittable) { app.swipeUp(velocity: .slow) }
+        XCTAssertTrue(law.exists && law.isHittable)
+        capture(app, "largest-text-field-packs")
+        app.buttons["lexicon.settings.done"].tap()
+        XCUIDevice.shared.orientation = .landscapeLeft
+        defer { XCUIDevice.shared.orientation = .portrait }
+        let landscape = expectation(for: NSPredicate { _, _ in app.frame.width > app.frame.height }, evaluatedWith: app)
+        wait(for: [landscape], timeout: 8)
+        let tab = app.tabBars.buttons["Lexicon"]
+        if tab.exists {
+            XCTAssertTrue(tab.isHittable)
+            XCTAssertEqual(tab.label, "Lexicon")
+        } else {
+            XCTAssertTrue(app.buttons["navigation.vocabulary"].firstMatch.waitForExistence(timeout: 5))
+            XCTAssertEqual(app.buttons["navigation.vocabulary"].firstMatch.label, "Lexicon")
+            let sidebar = app.buttons["navigation.vocabulary"].firstMatch
+            let sidebarReady = expectation(for: NSPredicate { _, _ in sidebar.frame.width > 200 && sidebar.frame.maxX < 320 }, evaluatedWith: sidebar)
+            wait(for: [sidebarReady], timeout: 8)
+            sidebar.tap()
+        }
+        capture(app, "largest-text-sidebar")
     }
 
     @MainActor
     func testTodayShowsOneWordOfTheDay() {
         let app = launch()
         XCTAssertTrue(app.descendants(matching: .any)["daily.lexicon"].firstMatch.waitForExistence(timeout: 8))
-        XCTAssertEqual(app.staticTexts["daily.lexicon.lemma"].label, "happy")
+        // 2026-10-30: the word of the day is a C1 or C2 word; the first C1 level-pack word for a fresh learner.
+        XCTAssertEqual(app.staticTexts["daily.lexicon.lemma"].label, "subtle")
+        XCTAssertTrue(app.staticTexts["lexicon.ipa"].exists)
         capture(app, "today-word")
     }
 
@@ -65,7 +116,7 @@ final class Phase3LexiconTests: XCTestCase {
     func testAWordAlreadyInTheLexiconIsNotAddedTwice() {
         let app = launch()
         openLexicon(app)
-        app.buttons["lexicon.add"].tap()
+        reach(app, app.buttons["lexicon.add"]).tap()
         let word = app.textFields["lexicon.add.word"]
         XCTAssertTrue(word.waitForExistence(timeout: 5))
         word.tap(); word.typeText("  Happy ")
@@ -84,11 +135,21 @@ final class Phase3LexiconTests: XCTestCase {
     func testGroupSwitchesAndLargeText() {
         let app = launch(largeText: true)
         openLexicon(app)
-        let work = app.switches["lexicon.group.work-office"]
-        XCTAssertTrue(work.waitForExistence(timeout: 5))
-        XCTAssertEqual(work.value as? String, "0")
-        work.tap()
-        XCTAssertEqual(work.value as? String, "1")
+        reach(app, app.buttons["lexicon.settings"]).tap()
+        XCTAssertTrue(app.buttons["lexicon.settings.done"].waitForExistence(timeout: 5))
+        // Each rank's packs sit in a closed list; open A1. Form rows are created as they scroll into view.
+        let a1Packs = app.staticTexts["lexicon.settings.rankPacks.A1"].firstMatch
+        for _ in 0..<10 where !(a1Packs.exists && a1Packs.isHittable) { app.swipeUp() }
+        a1Packs.tap()
+        let people = app.switches["lexicon.settings.pack.a1-people-places"]
+        for _ in 0..<20 where !(people.exists && people.isHittable) { app.swipeUp() }
+        XCTAssertTrue(people.waitForExistence(timeout: 5))
+        XCTAssertEqual(people.value as? String, "0")
+        // Press the switch itself; iOS 26 switches ignore zero-length synthetic taps (a finger works).
+        let control = people.switches.firstMatch.exists ? people.switches.firstMatch : people
+        control.press(forDuration: 0.2)
+        let on = expectation(for: NSPredicate { _, _ in (people.value as? String) == "1" }, evaluatedWith: nil)
+        wait(for: [on], timeout: 5)
         capture(app, "large-text")
     }
 }

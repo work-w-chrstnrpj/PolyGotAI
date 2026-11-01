@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "b2-society-politics",
+    "title": "Society and politics",
+    "level": "B2",
+    "tagline": "Government, rights and justice",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "democracy",
+      "pos": "noun",
+      "meaning": "A system where people choose their government by voting.",
+      "examples": [
+        "In a {democracy}, citizens elect their leaders."
+      ],
+      "wrong": [
+        "In a democracy, nobody is allowed to vote."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/dɪˈmɑkrəsi/"
+    },
+    {
+      "lemma": "parliament",
+      "pos": "noun",
+      "meaning": "The group of elected people who make the laws of a country.",
+      "examples": [
+        "The new law was passed by {parliament}."
+      ],
+      "wrong": [
+        "Parliament is a kind of court for small crimes."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "legislature"
+      ],
+      "ipa": "/ˈpɑrləmənt/"
+    },
+    {
+      "lemma": "minister",
+      "pos": "noun",
+      "meaning": "A member of the government in charge of an area.",
+      "examples": [
+        "The health {minister} visited the hospital."
+      ],
+      "wrong": [
+        "A minister is a student in a primary school."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "secretary"
+      ],
+      "ipa": "/ˈmɪnɪstɚ/"
+    },
+    {
+      "lemma": "policy",
+      "pos": "noun",
+      "meaning": "A plan of action agreed by a government or company.",
+      "examples": [
+        "The company changed its travel {policy}."
+      ],
+      "wrong": [
+        "A policy is a random choice made with no plan."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "plan",
+        "strategy"
+      ],
+      "ipa": "/ˈpɑləsi/"
+    },
+    {
+      "lemma": "vote",
+      "pos": "verb",
+      "meaning": "To show your choice in an election.",
+      "examples": [
+        "Who did you {vote} for?"
+      ],
+      "wrong": [
+        "I voted by staying at home and doing nothing."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "elect"
+      ],
+      "ipa": "/voʊt/"
+    },
+    {
+      "lemma": "campaign",
+      "pos": "noun",
+      "meaning": "Planned actions to achieve a goal, like winning an election.",
+      "examples": [
+        "She ran a strong {campaign} for mayor."
+      ],
+      "wrong": [
+        "A campaign is one quick action with no plan."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "drive",
+        "crusade"
+      ],
+      "ipa": "/kæmˈpeɪn/"
+    },
+    {
+      "lemma": "rights",
+      "pos": "noun",
+      "meaning": "The things everyone is allowed to have or do by law.",
+      "examples": [
+        "Everyone has the {rights} to free speech and fair trials."
+      ],
+      "wrong": [
+        "Rights are the things the law stops everyone from doing."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "freedoms"
+      ],
+      "ipa": "/raɪts/"
+    },
+    {
+      "lemma": "immigration",
+      "pos": "noun",
+      "meaning": "The act of coming to live in a new country.",
+      "examples": [
+        "{Immigration} has made the city more diverse."
+      ],
+      "wrong": [
+        "Immigration is leaving your country and never arriving anywhere."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˌɪməˈɡreɪʃən/"
+    },
+    {
+      "lemma": "unemployment",
+      "pos": "noun",
+      "meaning": "The state of not having a job; the number of people without jobs.",
+      "examples": [
+        "{Unemployment} fell to five percent."
+      ],
+      "wrong": [
+        "Unemployment is the number of people who have jobs."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "joblessness"
+      ],
+      "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+      "antonyms": [
+        "employment"
+      ]
+    },
+    {
+      "lemma": "welfare",
+      "pos": "noun",
+      "meaning": "Help from the government for people who need it.",
+      "examples": [
+        "The family lived on {welfare} for a year."
+      ],
+      "wrong": [
+        "Welfare is a tax that poor people pay to the rich."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "benefits"
+      ],
+      "ipa": "/ˈwɛlˌfɛr/"
+    },
+    {
+      "lemma": "inequality",
+      "pos": "noun",
+      "meaning": "An unfair situation where some people have more than others.",
+      "examples": [
+        "There is great {inequality} between rich and poor."
+      ],
+      "wrong": [
+        "Inequality means everyone has exactly the same."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "disparity"
+      ],
+      "ipa": "/ˌɪnɪˈkwɑləti/",
+      "antonyms": [
+        "equality"
+      ]
+    },
+    {
+      "lemma": "discrimination",
+      "pos": "noun",
+      "meaning": "Treating people unfairly because of who they are.",
+      "examples": [
+        "The law bans {discrimination} at work."
+      ],
+      "wrong": [
+        "Discrimination means treating everyone in exactly the same fair way."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "prejudice",
+        "bias"
+      ],
+      "ipa": "/dɪˌskrɪməˈneɪʃən/"
+    },
+    {
+      "lemma": "reform",
+      "pos": "noun",
+      "meaning": "A change made to improve a system.",
+      "examples": [
+        "The government promised tax {reform}."
+      ],
+      "wrong": [
+        "A reform is a change that keeps everything the same."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "improvement"
+      ],
+      "ipa": "/rɪˈfɔrm/"
+    },
+    {
+      "lemma": "corruption",
+      "pos": "noun",
+      "meaning": "Dishonest behavior by people in power, often for money.",
+      "examples": [
+        "The mayor was arrested for {corruption}."
+      ],
+      "wrong": [
+        "Corruption is the honest work of a good leader."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "dishonesty",
+        "bribery"
+      ],
+      "ipa": "/kəˈrʌpʃən/",
+      "antonyms": [
+        "honesty",
+        "integrity"
+      ]
+    },
+    {
+      "lemma": "scandal",
+      "pos": "noun",
+      "meaning": "An event that shocks people because it is wrong.",
+      "examples": [
+        "The {scandal} forced the minister to resign."
+      ],
+      "wrong": [
+        "A scandal is a quiet event that nobody cares about."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "outrage"
+      ],
+      "ipa": "/ˈskændəl/"
+    },
+    {
+      "lemma": "majority",
+      "pos": "noun",
+      "meaning": "More than half of a group.",
+      "examples": [
+        "The {majority} of people voted yes."
+      ],
+      "wrong": [
+        "The majority is the smallest part of the group."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "most"
+      ],
+      "ipa": "/məˈdʒɔrəti/",
+      "antonyms": [
+        "minority"
+      ]
+    },
+    {
+      "lemma": "minority",
+      "pos": "noun",
+      "meaning": "Less than half of a group.",
+      "examples": [
+        "Only a {minority} of students failed."
+      ],
+      "wrong": [
+        "The minority is more than half of all people."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/maɪˈnɔrəti/",
+      "antonyms": [
+        "majority"
+      ]
+    },
+    {
+      "lemma": "opposition",
+      "pos": "noun",
+      "meaning": "The parties in parliament that are not in government.",
+      "examples": [
+        "The {opposition} criticized the budget."
+      ],
+      "wrong": [
+        "The opposition is the party that runs the government."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˌɑpəˈzɪʃən/"
+    },
+    {
+      "lemma": "legislation",
+      "pos": "noun",
+      "meaning": "Laws, or the process of making laws.",
+      "examples": [
+        "New {legislation} protects online privacy."
+      ],
+      "wrong": [
+        "Legislation is a kind of election poster."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "law"
+      ],
+      "ipa": "/ˌlɛdʒɪsˈleɪʃən/"
+    },
+    {
+      "lemma": "community",
+      "pos": "noun",
+      "meaning": "The people who live in one area or share something.",
+      "examples": [
+        "The whole {community} helped after the flood."
+      ],
+      "wrong": [
+        "A community is one person who lives alone."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "neighborhood"
+      ],
+      "ipa": "/kəˈmjunəti/"
+    },
+    {
+      "lemma": "diversity",
+      "pos": "noun",
+      "meaning": "A range of different people or things.",
+      "examples": [
+        "The school is proud of its cultural {diversity}."
+      ],
+      "wrong": [
+        "Diversity means everyone is exactly the same."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "variety"
+      ],
+      "ipa": "/dɪˈvɝsəti/",
+      "antonyms": [
+        "uniformity",
+        "sameness"
+      ]
+    },
+    {
+      "lemma": "prison",
+      "pos": "noun",
+      "meaning": "A building where criminals are kept.",
+      "examples": [
+        "He spent five years in {prison}."
+      ],
+      "wrong": [
+        "A prison is a hotel where people go on holiday."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "jail"
+      ],
+      "ipa": "/ˈprɪzən/"
+    },
+    {
+      "lemma": "punishment",
+      "pos": "noun",
+      "meaning": "Something done to a person because they did wrong.",
+      "examples": [
+        "The {punishment} for stealing was a large fine."
+      ],
+      "wrong": [
+        "A punishment is a prize for good behavior."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "penalty"
+      ],
+      "ipa": "/ˈpʌnɪʃmənt/"
+    },
+    {
+      "lemma": "victim",
+      "pos": "noun",
+      "meaning": "A person who is harmed by a crime or accident.",
+      "examples": [
+        "The {victim} of the robbery called the police."
+      ],
+      "wrong": [
+        "The victim is the person who committed the crime."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˈvɪktɪm/"
+    },
+    {
+      "lemma": "suspect",
+      "pos": "noun",
+      "meaning": "A person who the police think may have done a crime.",
+      "examples": [
+        "The police arrested a {suspect}."
+      ],
+      "wrong": [
+        "A suspect is a person who is certainly innocent and not involved."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˈsʌsˌpɛkt/"
+    },
+    {
+      "lemma": "trial",
+      "pos": "noun",
+      "meaning": "The process in court to decide if someone is guilty.",
+      "examples": [
+        "The {trial} lasted three weeks."
+      ],
+      "wrong": [
+        "A trial is a party after a court case."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "hearing"
+      ],
+      "ipa": "/ˈtraɪəl/"
+    },
+    {
+      "lemma": "sentence",
+      "pos": "noun",
+      "meaning": "The punishment a court gives.",
+      "examples": [
+        "He got a two-year prison {sentence}."
+      ],
+      "wrong": [
+        "A sentence is a reward the judge gives to the victim."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˈsɛntəns/"
+    },
+    {
+      "lemma": "public",
+      "pos": "adjective",
+      "meaning": "For everyone, or connected with the government.",
+      "examples": [
+        "This is a {public} park; anyone can come in."
+      ],
+      "wrong": [
+        "It’s a public beach, so only the owner can use it."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "communal"
+      ],
+      "ipa": "/ˈpʌblɪk/",
+      "antonyms": [
+        "private"
+      ]
+    },
+    {
+      "lemma": "private",
+      "pos": "adjective",
+      "meaning": "For one person or group only.",
+      "examples": [
+        "This is a {private} road; no entry."
+      ],
+      "wrong": [
+        "It’s a private room, so everyone can come in."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "personal"
+      ],
+      "ipa": "/ˈpraɪvət/",
+      "antonyms": [
+        "public"
+      ]
+    },
+    {
+      "lemma": "elect",
+      "pos": "verb",
+      "meaning": "To choose someone for a job by voting.",
+      "examples": [
+        "The town {elected} a new mayor."
+      ],
+      "wrong": [
+        "We elected him without anyone voting."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "vote for",
+        "choose"
+      ],
+      "ipa": "/ɪˈlɛkt/"
+    },
+    {
+      "lemma": "ban",
+      "pos": "verb",
+      "meaning": "To officially say that something is not allowed.",
+      "examples": [
+        "The city {banned} cars from the center."
+      ],
+      "wrong": [
+        "They banned smoking, so everyone can smoke."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "forbid",
+        "prohibit"
+      ],
+      "ipa": "/bæn/",
+      "antonyms": [
+        "allow",
+        "permit"
+      ]
+    },
+    {
+      "lemma": "debate",
+      "pos": "verb",
+      "meaning": "To discuss a subject formally with different opinions.",
+      "examples": [
+        "Parliament {debated} the new law for hours."
+      ],
+      "wrong": [
+        "They debated the law without saying a word."
+      ],
+      "cefr": "B2",
+      "register": "everyday",
+      "synonyms": [
+        "discuss"
+      ],
+      "ipa": "/dɪˈbeɪt/"
+    },
+    {
+      "lemma": "lobby",
+      "pos": "verb",
+      "meaning": "To try to persuade politicians to support something.",
+      "examples": [
+        "Farmers {lobbied} the government for more help."
+      ],
+      "wrong": [
+        "They lobbied the minister by never talking to anyone."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "campaign"
+      ],
+      "ipa": "/ˈlɑbi/"
+    },
+    {
+      "lemma": "global",
+      "pos": "adjective",
+      "meaning": "Affecting the whole world.",
+      "examples": [
+        "Climate change is a {global} problem."
+      ],
+      "wrong": [
+        "It’s a global problem, so it only affects one village."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "worldwide",
+        "international"
+      ],
+      "ipa": "/ˈɡloʊbəl/",
+      "antonyms": [
+        "local"
+      ]
+    },
+    {
+      "lemma": "social",
+      "pos": "adjective",
+      "meaning": "Connected with society and the way people live together.",
+      "examples": [
+        "Poverty is a serious {social} problem."
+      ],
+      "wrong": [
+        "Poverty is a social problem, so it has nothing to do with society."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "societal"
+      ],
+      "ipa": "/ˈsoʊʃəl/"
+    },
+    {
+      "lemma": "homeless",
+      "pos": "adjective",
+      "meaning": "Having no home.",
+      "examples": [
+        "The charity helps {homeless} people."
+      ],
+      "wrong": [
+        "He is homeless, so he owns three houses."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˈhoʊmləs/"
+    },
+    {
+      "lemma": "refugee",
+      "pos": "noun",
+      "meaning": "A person who has to leave their country because of war or danger.",
+      "examples": [
+        "Thousands of {refugees} crossed the border."
+      ],
+      "wrong": [
+        "A refugee is a tourist on a holiday."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "asylum seeker"
+      ],
+      "ipa": "/ˌrɛfjuˈdʒi/"
+    },
+    {
+      "lemma": "census",
+      "pos": "noun",
+      "meaning": "An official count of a country’s population.",
+      "examples": [
+        "The {census} showed the city had grown."
+      ],
+      "wrong": [
+        "A census is a guess with no counting."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "ipa": "/ˈsɛnsəs/"
+    },
+    {
+      "lemma": "crisis",
+      "pos": "noun",
+      "meaning": "A time of great danger or difficulty.",
+      "examples": [
+        "The country is in an economic {crisis}."
+      ],
+      "wrong": [
+        "A crisis is a calm period with no problems."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "emergency"
+      ],
+      "ipa": "/ˈkraɪsɪs/"
+    },
+    {
+      "lemma": "protester",
+      "pos": "noun",
+      "meaning": "A person who takes part in a protest.",
+      "examples": [
+        "{Protesters} marched through the city."
+      ],
+      "wrong": [
+        "A protester is a person who agrees with everything quietly."
+      ],
+      "cefr": "B2",
+      "register": "formal",
+      "synonyms": [
+        "demonstrator"
+      ],
+      "ipa": "/ˈproʊˌtɛstɚ/"
+    }
+  ]
+}

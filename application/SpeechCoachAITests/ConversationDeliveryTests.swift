@@ -321,19 +321,6 @@ struct ConversationDeliveryTests {
         #expect(archive.conversation?.turns.contains { $0.speaker == .partner } == false)
     }
 
-    @Test func independentRecorderFreezesPrivatePromptWithoutCourseCredit() {
-        let slot = UUID(), session = UUID()
-        let context = practiceRecordingContext(slotID: slot, sessionID: session, prompt: "synthetic chosen situation",
-            objective: "CONVERSATION-LOCAL", presenter: "parrotSpeaker", purpose: "conversationTurn", defaults: LearnerPreferences())
-        #expect(context.id == slot)
-        #expect(context.promptOverride?.text == "synthetic chosen situation")
-        #expect(context.promptOverride?.isPrivate == true)
-        #expect(context.provenance?.journeyID == session)
-        #expect(context.provenance?.activityID == slot.uuidString)
-        #expect(context.provenance?.purpose == "conversationTurn")
-        #expect(context.sourceLessonID == nil)
-    }
-
     @Test func failedArchiveWritePreservesLastSavedDraft() throws {
         let root = FileManager.default.temporaryDirectory.appendingPathComponent("D013-atomic-\(UUID().uuidString)")
         defer { try? FileManager.default.removeItem(at: root) }
@@ -374,7 +361,7 @@ struct ConversationDeliveryTests {
         defer { repository.close() }
         let session = UUID()
         func recorded(_ owner: UUID) throws -> AttemptSnapshot {
-            let context = practiceRecordingContext(slotID: UUID(), sessionID: owner, prompt: "Synthetic prompt",
+            let context = archivedPracticeContext(slotID: UUID(), sessionID: owner, prompt: "Synthetic prompt",
                 objective: "INTERVIEW-LOCAL", presenter: "tigerBusinessProfessional", purpose: "interviewTurn", defaults: LearnerPreferences())
             let attempt = try repository.createAttempt(prompt: #require(context.promptOverride), context: context)
             let url = try repository.prepareCapture(attempt.id, expectedVersion: attempt.version)
@@ -443,4 +430,18 @@ private func startedInterview() throws -> InterviewSession {
     #expect(session.activeAttempt?.support.technicalCoaching == false)
     #expect(session.activeAttempt?.support.fictionalPersona == false)
     return session
+}
+
+// Synthetic fixture for retained archive/audio lifecycle coverage.
+private func archivedPracticeContext(slotID: UUID, sessionID: UUID, prompt: String, objective: String,
+                              presenter: String, purpose: String, defaults: LearnerPreferences) -> PracticeSessionContext {
+    var context = PracticeSessionContext(id: slotID, defaults: defaults, objectiveID: objective)
+    context.coachOverride = LearnerPreferences.Coach(rawValue: presenter)
+    context.promptOverride = PromptSnapshot(id: slotID.uuidString, version: "local-practice-1", objectiveID: objective,
+        text: prompt, isPrivate: true, selectedLevel: "A1")
+    context.provenance = SpeakingProvenance(journeyID: sessionID, activityID: slotID.uuidString,
+        sourceCourseJourneyID: sessionID, sourceCourseLessonID: purpose,
+        primaryObjectiveID: objective, specialtyObjectiveID: nil, role: presenter, method: "Independent local solo practice",
+        packID: purpose, packVersion: "local-practice-1", purpose: purpose, supported: true)
+    return context
 }

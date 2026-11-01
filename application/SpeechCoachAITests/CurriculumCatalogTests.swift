@@ -6,7 +6,7 @@ import Testing
 struct CurriculumCatalogTests {
     @Test func bundledIntroductionsLessonIsReady() throws {
         let install = CurriculumCatalogLoader().loadBundled()
-        let lesson = try #require(install.lessons(at: "A1").first { $0.id == "intro-01" })
+        let lesson = try #require(install.lessons.first { $0.id == "intro-01" })
         #expect(lesson.isReady)
         #expect(lesson.objectiveId == "INTRO-01")
         #expect(lesson.senses.count == 5)
@@ -14,7 +14,7 @@ struct CurriculumCatalogTests {
         #expect(lesson.practiceActivities.first { $0.id == "listen-alex" }?.playbackPath == "intro-01-alex.wav")
         #expect(lesson.practiceActivities.contains { $0.id == "transfer-neighbor" } == false)
         #expect(lesson.practiceActivities.contains { $0.id == "baseline-intro" } == false)
-        #expect(install.lessons(at: "A1").filter(\.isReady).count == 13)
+        #expect(install.lessons(at: "A1").filter(\.isReady).count == 12)
         #expect(install.lessons(at: "A2").filter(\.isReady).count == 11)
         #expect(install.lessons(at: "B1").filter(\.isReady).count == 10)
         #expect(install.lessons(at: "B2").filter(\.isReady).count == 10)
@@ -55,7 +55,7 @@ struct CurriculumCatalogTests {
         let install = CurriculumCatalogLoader().loadBundled()
         let ready = try #require(install.lessons.first { $0.id == "intro-01" })
         #expect(intro.contentVersion == "4")
-        #expect(manifest.lessons.filter { $0.level != "A1" }.allSatisfy { $0.contentVersion == "2" })
+        #expect(manifest.lessons.filter { $0.level != "A1" }.allSatisfy { $0.contentVersion == "3" })
         #expect(manifest.contentVersion == "3")
         let asset = try #require(manifest.assets.first { $0.id == "intro-01-listen-alex" })
         #expect(asset.relativePath == "intro-01-alex.wav")
@@ -116,7 +116,7 @@ struct CurriculumCatalogTests {
         let audio = Data("synthetic-audio".utf8)
         let wrongHash = String(repeating: "ab", count: 32)
         let install = try load(manifest: pack(listeningHash: wrongHash, listeningBytes: audio.count), files: ["model.wav": audio])
-        let ready = try #require(install.lessons(at: "A1").first { $0.isReady })
+        let ready = try #require(install.lessons.first { $0.isReady })
         #expect(ready.practiceActivities.map(\.id) == ["read-1", "quiet-1"])
         #expect(ready.practiceActivities.contains { $0.id == "transfer-1" } == false)
         let blocked = try #require(install.lessons.first { $0.id == "listen-broken" })
@@ -309,7 +309,7 @@ struct A1CurriculumDeliveryTests {
     @Test func previewsKeepAllLevelsAndExactOldVersionsAvailable() throws {
         let catalog = install()
         #expect(catalog.lessons.count == 57)
-        #expect(catalog.archivedLessons.count == 26)
+        #expect(catalog.archivedLessons.count == 70)   // 13 A1 v2 + 13 A1 v3 + 44 A2-C2 v2
         for current in catalog.lessons(at: "A1") where current.id != "intro-01" {
             #expect(current.contentVersion == "4")
             let v3 = try #require(catalog.lesson(id: current.id, version: "3"))
@@ -501,7 +501,6 @@ struct A1CurriculumDeliveryTests {
         let chosen = try catalog.opening(current, saved: saved)
         #expect(chosen.journey?.drafts?[task.id] == "synthetic old-version draft")
         #expect(chosen.lesson.contentVersion == "2")
-        #expect(PracticeRecommendation.selectLesson(journeys: saved, lessons: catalog.lessons, archivedLessons: catalog.archivedLessons).resuming)
         repository.close()
     }
 

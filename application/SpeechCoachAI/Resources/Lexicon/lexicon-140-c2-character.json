@@ -1,0 +1,825 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "c2-character",
+    "title": "Character in depth",
+    "level": "C2",
+    "tagline": "Nuanced traits and conduct",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "munificent",
+      "pos": "adjective",
+      "meaning": "Extremely generous, especially with money.",
+      "examples": [
+        "A {munificent} donor paid for the new library wing."
+      ],
+      "wrong": [
+        "The munificent patron refused to give a single coin."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "generous",
+        "lavish"
+      ],
+      "ipa": "/mjuˈnɪfəsənt/",
+      "antonyms": [
+        "stingy",
+        "mean"
+      ]
+    },
+    {
+      "lemma": "penurious",
+      "pos": "adjective",
+      "meaning": "Very unwilling to spend money; also, very poor.",
+      "examples": [
+        "His {penurious} uncle reused the same tea bag for days."
+      ],
+      "wrong": [
+        "The penurious host spent a fortune on gifts for everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "stingy",
+        "miserly"
+      ],
+      "ipa": "/pəˈnʊriəs/",
+      "antonyms": [
+        "generous",
+        "lavish"
+      ]
+    },
+    {
+      "lemma": "punctilious",
+      "pos": "adjective",
+      "meaning": "Very careful to follow rules, details and correct behavior.",
+      "examples": [
+        "She is {punctilious} about replying to every letter within a day."
+      ],
+      "wrong": [
+        "He was punctilious, so he ignored the rules and missed every detail."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "meticulous",
+        "scrupulous"
+      ],
+      "ipa": "/pʌŋkˈtɪliəs/"
+    },
+    {
+      "lemma": "assiduous",
+      "pos": "adjective",
+      "meaning": "Showing great care and steady, hard work.",
+      "examples": [
+        "Thanks to {assiduous} research, the book is full of rare facts."
+      ],
+      "wrong": [
+        "His assiduous effort meant he barely tried at all."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "diligent",
+        "painstaking"
+      ],
+      "ipa": "/əˈsɪdʒuəs/"
+    },
+    {
+      "lemma": "indolent",
+      "pos": "adjective",
+      "meaning": "Lazy and avoiding activity or effort.",
+      "examples": [
+        "The {indolent} clerk let the paperwork pile up for months."
+      ],
+      "wrong": [
+        "He was so indolent that he worked fourteen hours a day."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lazy",
+        "idle"
+      ],
+      "ipa": "/ˈɪndələnt/",
+      "antonyms": [
+        "industrious",
+        "hardworking"
+      ]
+    },
+    {
+      "lemma": "feckless",
+      "pos": "adjective",
+      "meaning": "Weak, irresponsible and unable to get things done.",
+      "examples": [
+        "Her {feckless} brother lost yet another job through laziness."
+      ],
+      "wrong": [
+        "The feckless manager handled every crisis with steady skill."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "irresponsible",
+        "ineffectual"
+      ],
+      "ipa": "/ˈfɛkləs/"
+    },
+    {
+      "lemma": "sycophantic",
+      "pos": "adjective",
+      "meaning": "Praising powerful people too much to gain an advantage.",
+      "examples": [
+        "The director was surrounded by {sycophantic} assistants who agreed with everything."
+      ],
+      "wrong": [
+        "His sycophantic remarks openly insulted the boss."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fawning",
+        "servile"
+      ],
+      "ipa": "/ˌsɪkəˈfæntɪk/"
+    },
+    {
+      "lemma": "unctuous",
+      "pos": "adjective",
+      "meaning": "Too polite and flattering in a way that seems false.",
+      "examples": [
+        "The salesman’s {unctuous} smile made us trust him even less."
+      ],
+      "wrong": [
+        "His unctuous manner was blunt, plain and honest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "oily",
+        "smarmy"
+      ],
+      "ipa": "/ˈʌŋktʃuəs/"
+    },
+    {
+      "lemma": "supercilious",
+      "pos": "adjective",
+      "meaning": "Behaving as if you are better than other people.",
+      "examples": [
+        "The waiter gave our cheap wine a {supercilious} glance."
+      ],
+      "wrong": [
+        "She was supercilious, treating everyone as her superior."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "haughty",
+        "disdainful"
+      ],
+      "ipa": "/ˌsupɚˈsɪliəs/"
+    },
+    {
+      "lemma": "imperious",
+      "pos": "adjective",
+      "meaning": "Proud and commanding, expecting to be obeyed.",
+      "examples": [
+        "With an {imperious} wave, she sent the servants away."
+      ],
+      "wrong": [
+        "His imperious manner made him ask meekly for permission."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "domineering",
+        "overbearing"
+      ],
+      "ipa": "/ɪmˈpɪriəs/"
+    },
+    {
+      "lemma": "vainglorious",
+      "pos": "adjective",
+      "meaning": "Too proud of yourself and boastful about your achievements.",
+      "examples": [
+        "The general’s {vainglorious} speeches irritated his own troops."
+      ],
+      "wrong": [
+        "The vainglorious champion never once mentioned his wins."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "boastful",
+        "conceited"
+      ],
+      "ipa": "/veɪnˈɡlɔriəs/",
+      "antonyms": [
+        "modest",
+        "humble"
+      ]
+    },
+    {
+      "lemma": "self-effacing",
+      "pos": "adjective",
+      "meaning": "Modest and not wanting to draw attention to yourself.",
+      "examples": [
+        "The {self-effacing} scientist gave all the credit to her team."
+      ],
+      "wrong": [
+        "Being self-effacing, he talked about his own genius all night."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "modest",
+        "unassuming"
+      ],
+      "ipa": "/ˌsɛlf ɪˈfeɪsɪŋ/",
+      "antonyms": [
+        "boastful",
+        "conceited"
+      ]
+    },
+    {
+      "lemma": "taciturn",
+      "pos": "adjective",
+      "meaning": "Saying very little; not inclined to talk.",
+      "examples": [
+        "The {taciturn} farmer answered our questions with a nod."
+      ],
+      "wrong": [
+        "Her taciturn friend chatted nonstop for three hours."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "reserved",
+        "uncommunicative"
+      ],
+      "ipa": "/ˈtæsəˌtɝn/",
+      "antonyms": [
+        "talkative",
+        "chatty"
+      ]
+    },
+    {
+      "lemma": "loquacious",
+      "pos": "adjective",
+      "meaning": "Very talkative.",
+      "examples": [
+        "Our {loquacious} guide filled every silence with stories."
+      ],
+      "wrong": [
+        "The loquacious man barely said a word all evening."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "talkative",
+        "voluble"
+      ],
+      "ipa": "/loʊˈkweɪʃəs/",
+      "antonyms": [
+        "taciturn",
+        "reticent"
+      ]
+    },
+    {
+      "lemma": "convivial",
+      "pos": "adjective",
+      "meaning": "Friendly and enjoying company, food and drink.",
+      "examples": [
+        "The dinner was {convivial}, full of laughter and good wine."
+      ],
+      "wrong": [
+        "The convivial host avoided guests and ate alone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "sociable",
+        "jovial"
+      ],
+      "ipa": "/kənˈvɪviəl/",
+      "antonyms": [
+        "unsociable"
+      ]
+    },
+    {
+      "lemma": "irascible",
+      "pos": "adjective",
+      "meaning": "Easily made angry.",
+      "examples": [
+        "The {irascible} editor shouted at anyone who missed a deadline."
+      ],
+      "wrong": [
+        "He was irascible, never once losing his temper."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "short-tempered",
+        "testy"
+      ],
+      "ipa": "/ɪˈræsəbəl/",
+      "antonyms": [
+        "even-tempered",
+        "placid"
+      ]
+    },
+    {
+      "lemma": "cantankerous",
+      "pos": "adjective",
+      "meaning": "Bad-tempered and ready to argue or complain.",
+      "examples": [
+        "A {cantankerous} neighbor complained about every party on the street."
+      ],
+      "wrong": [
+        "The cantankerous old man agreed pleasantly with everyone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "grumpy",
+        "crotchety"
+      ],
+      "ipa": "/kænˈtæŋkərəs/"
+    },
+    {
+      "lemma": "truculent",
+      "pos": "adjective",
+      "meaning": "Quick to argue or fight; aggressively defiant.",
+      "examples": [
+        "The {truculent} player argued with the referee after every call."
+      ],
+      "wrong": [
+        "He grew truculent and meekly accepted every ruling."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "belligerent",
+        "combative"
+      ],
+      "ipa": "/ˈtrʌkjələnt/"
+    },
+    {
+      "lemma": "pugnacious",
+      "pos": "adjective",
+      "meaning": "Eager to argue, quarrel or fight.",
+      "examples": [
+        "The {pugnacious} senator relished every heated debate."
+      ],
+      "wrong": [
+        "Her pugnacious nature made her avoid all conflict."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "combative",
+        "belligerent"
+      ],
+      "ipa": "/pʌɡˈneɪʃəs/"
+    },
+    {
+      "lemma": "obdurate",
+      "pos": "adjective",
+      "meaning": "Refusing stubbornly to change your mind.",
+      "examples": [
+        "Despite every appeal, the landlord remained {obdurate}."
+      ],
+      "wrong": [
+        "She was obdurate and changed her mind at the first request."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "stubborn",
+        "unyielding"
+      ],
+      "ipa": "/ˈɑbdərət/",
+      "antonyms": [
+        "yielding",
+        "flexible"
+      ]
+    },
+    {
+      "lemma": "mettle",
+      "pos": "noun",
+      "meaning": "The courage and strength of character to face difficulty.",
+      "examples": [
+        "The storm tested the young captain’s {mettle}."
+      ],
+      "wrong": [
+        "He showed his mettle by running away at the first sign of trouble."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "spirit",
+        "grit"
+      ],
+      "ipa": "/ˈmɛtəl/"
+    },
+    {
+      "lemma": "phlegmatic",
+      "pos": "adjective",
+      "meaning": "Calm and not easily excited or upset.",
+      "examples": [
+        "The {phlegmatic} pilot calmly announced the engine failure."
+      ],
+      "wrong": [
+        "Being phlegmatic, she panicked at the smallest problem."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unflappable",
+        "stolid"
+      ],
+      "ipa": "/flɛɡˈmætɪk/",
+      "antonyms": [
+        "excitable",
+        "emotional"
+      ]
+    },
+    {
+      "lemma": "imperturbable",
+      "pos": "adjective",
+      "meaning": "Staying calm whatever happens.",
+      "examples": [
+        "The {imperturbable} butler served dinner as the ceiling leaked."
+      ],
+      "wrong": [
+        "The imperturbable nurse screamed when the alarm went off."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "unflappable",
+        "serene"
+      ],
+      "ipa": "/ˌɪmpɚˈtɝbəbəl/",
+      "antonyms": [
+        "excitable",
+        "jumpy"
+      ]
+    },
+    {
+      "lemma": "guileless",
+      "pos": "adjective",
+      "meaning": "Honest and innocent, with no wish to trick anyone.",
+      "examples": [
+        "The child’s {guileless} questions embarrassed the adults."
+      ],
+      "wrong": [
+        "The guileless swindler planned every trick with care."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "innocent",
+        "artless"
+      ],
+      "ipa": "/ˈɡaɪlləs/",
+      "antonyms": [
+        "cunning",
+        "crafty"
+      ]
+    },
+    {
+      "lemma": "ingenuous",
+      "pos": "adjective",
+      "meaning": "Innocent, trusting and open, sometimes too much.",
+      "examples": [
+        "It was {ingenuous} of him to believe every promise the seller made."
+      ],
+      "wrong": [
+        "She was ingenuous, suspicious of everyone and everything."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "naive",
+        "unsophisticated"
+      ],
+      "ipa": "/ɪnˈdʒɛnjuəs/"
+    },
+    {
+      "lemma": "duplicitous",
+      "pos": "adjective",
+      "meaning": "Deceitful; saying one thing while doing another.",
+      "examples": [
+        "The {duplicitous} agent was working for both sides."
+      ],
+      "wrong": [
+        "Her duplicitous nature meant she was always perfectly honest."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "deceitful",
+        "two-faced"
+      ],
+      "ipa": "/duˈplɪsɪtəs/",
+      "antonyms": [
+        "honest",
+        "straightforward"
+      ]
+    },
+    {
+      "lemma": "mendacious",
+      "pos": "adjective",
+      "meaning": "Not telling the truth; lying.",
+      "examples": [
+        "The report was a {mendacious} account designed to hide the losses."
+      ],
+      "wrong": [
+        "His mendacious statement was completely accurate and true."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "lying",
+        "untruthful"
+      ],
+      "ipa": "/mɛnˈdeɪʃəs/",
+      "antonyms": [
+        "truthful",
+        "honest"
+      ]
+    },
+    {
+      "lemma": "perfidious",
+      "pos": "adjective",
+      "meaning": "Willing to betray people who trust you.",
+      "examples": [
+        "The {perfidious} ally switched sides in the middle of the war."
+      ],
+      "wrong": [
+        "His perfidious friend stood loyally by him for life."
+      ],
+      "cefr": "C2",
+      "register": "literary",
+      "synonyms": [
+        "treacherous",
+        "disloyal"
+      ],
+      "ipa": "/pɚˈfɪdiəs/",
+      "antonyms": [
+        "loyal",
+        "faithful"
+      ]
+    },
+    {
+      "lemma": "venal",
+      "pos": "adjective",
+      "meaning": "Willing to act dishonestly in return for money.",
+      "examples": [
+        "The {venal} official signed any permit for a bribe."
+      ],
+      "wrong": [
+        "The venal judge refused every bribe he was offered."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "corrupt",
+        "bribable"
+      ],
+      "ipa": "/ˈvinəl/",
+      "antonyms": [
+        "incorruptible"
+      ]
+    },
+    {
+      "lemma": "probity",
+      "pos": "noun",
+      "meaning": "Complete honesty and strong moral principles.",
+      "examples": [
+        "Her {probity} made her the obvious choice to manage the fund."
+      ],
+      "wrong": [
+        "His probity was clear from the money he stole."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "integrity",
+        "honesty"
+      ],
+      "ipa": "/ˈproʊbɪti/"
+    },
+    {
+      "lemma": "rectitude",
+      "pos": "noun",
+      "meaning": "Morally correct behavior and thinking.",
+      "examples": [
+        "The judge was admired for his {rectitude} and fairness."
+      ],
+      "wrong": [
+        "Her rectitude led her to cheat whenever she could."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "righteousness",
+        "uprightness"
+      ],
+      "ipa": "/ˈrɛktɪˌtud/"
+    },
+    {
+      "lemma": "rapacious",
+      "pos": "adjective",
+      "meaning": "Greedy and taking everything you can, often by force.",
+      "examples": [
+        "{Rapacious} developers bought up the coastline."
+      ],
+      "wrong": [
+        "The rapacious landlord lowered the rent out of kindness."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "greedy",
+        "grasping"
+      ],
+      "ipa": "/rəˈpeɪʃəs/"
+    },
+    {
+      "lemma": "profligate",
+      "pos": "adjective",
+      "meaning": "Spending money or resources in a reckless, wasteful way.",
+      "examples": [
+        "His {profligate} spending left the company deep in debt."
+      ],
+      "wrong": [
+        "Being profligate, she saved every spare penny."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "wasteful",
+        "extravagant"
+      ],
+      "ipa": "/ˈprɑflɪɡət/",
+      "antonyms": [
+        "thrifty",
+        "frugal"
+      ]
+    },
+    {
+      "lemma": "abstemious",
+      "pos": "adjective",
+      "meaning": "Not allowing yourself much food, drink or pleasure.",
+      "examples": [
+        "An {abstemious} man, he drank only water at the feast."
+      ],
+      "wrong": [
+        "The abstemious guest ate and drank everything in sight."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "temperate",
+        "self-denying"
+      ],
+      "ipa": "/æbˈstimiəs/",
+      "antonyms": [
+        "indulgent",
+        "gluttonous"
+      ]
+    },
+    {
+      "lemma": "sanctimonious",
+      "pos": "adjective",
+      "meaning": "Acting as if you are morally better than others.",
+      "examples": [
+        "His {sanctimonious} lectures about honesty annoyed the whole office."
+      ],
+      "wrong": [
+        "She was sanctimonious, never judging anyone’s behavior."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "self-righteous",
+        "holier-than-thou"
+      ],
+      "ipa": "/ˌsæŋktɪˈmoʊniəs/"
+    },
+    {
+      "lemma": "pusillanimous",
+      "pos": "adjective",
+      "meaning": "Lacking courage; timid and cowardly.",
+      "examples": [
+        "The {pusillanimous} council backed down at the first protest."
+      ],
+      "wrong": [
+        "The pusillanimous knight charged the dragon alone."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "cowardly",
+        "timid"
+      ],
+      "ipa": "/ˌpjusəˈlænəməs/",
+      "antonyms": [
+        "brave",
+        "courageous"
+      ]
+    },
+    {
+      "lemma": "intrepid",
+      "pos": "adjective",
+      "meaning": "Brave and not afraid of danger.",
+      "examples": [
+        "The {intrepid} explorers crossed the frozen sea on foot."
+      ],
+      "wrong": [
+        "The intrepid traveler refused to leave her hotel room."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "fearless",
+        "dauntless"
+      ],
+      "ipa": "/ɪnˈtrɛpɪd/",
+      "antonyms": [
+        "timid",
+        "fearful"
+      ]
+    },
+    {
+      "lemma": "impudent",
+      "pos": "adjective",
+      "meaning": "Rude and lacking respect, especially toward older people.",
+      "examples": [
+        "The {impudent} student mocked the teacher’s accent."
+      ],
+      "wrong": [
+        "His impudent reply was polite and deeply respectful."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "insolent",
+        "impertinent"
+      ],
+      "ipa": "/ˈɪmpjədənt/",
+      "antonyms": [
+        "respectful",
+        "polite"
+      ]
+    },
+    {
+      "lemma": "urbane",
+      "pos": "adjective",
+      "meaning": "Polished, elegant and confident in social situations.",
+      "examples": [
+        "The {urbane} diplomat charmed every guest at the embassy."
+      ],
+      "wrong": [
+        "The urbane host was clumsy, rude and awkward."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "suave",
+        "sophisticated"
+      ],
+      "ipa": "/ɝˈbeɪn/",
+      "antonyms": [
+        "boorish",
+        "uncouth"
+      ]
+    },
+    {
+      "lemma": "churlish",
+      "pos": "adjective",
+      "meaning": "Rude and mean-spirited in a way that seems ungracious.",
+      "examples": [
+        "It would be {churlish} to refuse such a generous offer."
+      ],
+      "wrong": [
+        "Thanking them warmly was a churlish thing to do."
+      ],
+      "cefr": "C2",
+      "register": "formal",
+      "synonyms": [
+        "boorish",
+        "ungracious"
+      ],
+      "ipa": "/ˈtʃɝlɪʃ/"
+    }
+  ]
+}

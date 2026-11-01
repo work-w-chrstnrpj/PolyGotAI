@@ -1,0 +1,598 @@
+{
+  "schemaVersion": 2,
+  "group": {
+    "id": "a1-body-clothes",
+    "title": "Body and clothes",
+    "level": "A1",
+    "tagline": "What you have and what you wear",
+    "sources": [
+      "Words and CEFR levels chosen by the authors from general knowledge of English; meanings, examples and sentences are original",
+      "Word-list licences checked 2026-10-25: CEFR-J Wordlist 1.5 (Tono Laboratory, TUFS; free with citation, A1-B2) and NGSL/NAWL (CC BY-SA 4.0) were not copied; Oxford 3000 and English Vocabulary Profile terms were not confirmed, so they were not used"
+    ]
+  },
+  "words": [
+    {
+      "lemma": "head",
+      "pos": "noun",
+      "meaning": "The top part of your body, with your eyes, ears and mouth.",
+      "examples": [
+        "She wore a warm hat on her {head}."
+      ],
+      "wrong": [
+        "I put my shoes on my head and walked to school."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɛd/"
+    },
+    {
+      "lemma": "face",
+      "pos": "noun",
+      "meaning": "The front of your head, with your eyes, nose and mouth.",
+      "examples": [
+        "Wash your {face} with cold water."
+      ],
+      "wrong": [
+        "He smiled with his face on the back of his head."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/feɪs/"
+    },
+    {
+      "lemma": "eye",
+      "pos": "noun",
+      "meaning": "The part of your body that you see with.",
+      "examples": [
+        "She has one blue {eye} and one green eye."
+      ],
+      "wrong": [
+        "I closed my eyes so I could see the picture better."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/aɪ/"
+    },
+    {
+      "lemma": "ear",
+      "pos": "noun",
+      "meaning": "The part of your body that you hear with.",
+      "examples": [
+        "He held the phone to his {ear}."
+      ],
+      "wrong": [
+        "I listen to music with my nose, not my ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɪr/"
+    },
+    {
+      "lemma": "nose",
+      "pos": "noun",
+      "meaning": "The part of your face that you smell and breathe with.",
+      "examples": [
+        "The cold air made my {nose} red."
+      ],
+      "wrong": [
+        "I smell the flowers with my ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/noʊz/"
+    },
+    {
+      "lemma": "mouth",
+      "pos": "noun",
+      "meaning": "The part of your face that you eat and speak with.",
+      "examples": [
+        "Don’t talk with food in your {mouth}."
+      ],
+      "wrong": [
+        "She opened her mouth to hear the music."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/maʊθ/"
+    },
+    {
+      "lemma": "tooth",
+      "pos": "noun",
+      "meaning": "One of the hard white things in your mouth that you bite with.",
+      "examples": [
+        "I brush every {tooth} twice a day."
+      ],
+      "wrong": [
+        "He walks to work on his teeth."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tuθ/"
+    },
+    {
+      "lemma": "hair",
+      "pos": "noun",
+      "meaning": "The thin threads that grow on your head.",
+      "examples": [
+        "My sister has long black {hair}."
+      ],
+      "wrong": [
+        "He cut his hair with a spoon, so it was very short."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɛr/"
+    },
+    {
+      "lemma": "hand",
+      "pos": "noun",
+      "meaning": "The part at the end of your arm, with fingers.",
+      "examples": [
+        "Raise your {hand} if you know the answer."
+      ],
+      "wrong": [
+        "She wears her socks on her hands to walk."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hænd/"
+    },
+    {
+      "lemma": "arm",
+      "pos": "noun",
+      "meaning": "The long part of your body between your shoulder and your hand.",
+      "examples": [
+        "He carried the baby in his {arms}."
+      ],
+      "wrong": [
+        "I kick the ball with my arm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɑrm/"
+    },
+    {
+      "lemma": "leg",
+      "pos": "noun",
+      "meaning": "One of the long parts of your body that you walk on.",
+      "examples": [
+        "My {legs} hurt after the long walk."
+      ],
+      "wrong": [
+        "Fish have strong legs for swimming."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/lɛɡ/"
+    },
+    {
+      "lemma": "foot",
+      "pos": "noun",
+      "meaning": "The part at the end of your leg that you stand on.",
+      "examples": [
+        "This shoe is too small for my {foot}."
+      ],
+      "wrong": [
+        "I wear a glove on my foot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/fʊt/"
+    },
+    {
+      "lemma": "finger",
+      "pos": "noun",
+      "meaning": "One of the five long parts at the end of your hand.",
+      "examples": [
+        "She wears a ring on her {finger}."
+      ],
+      "wrong": [
+        "A hand has ten fingers and two thumbs."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈfɪŋɡɚ/"
+    },
+    {
+      "lemma": "back",
+      "pos": "noun",
+      "meaning": "The part of your body behind you, from your neck to your legs.",
+      "examples": [
+        "He carries his bag on his {back}."
+      ],
+      "wrong": [
+        "I can see my own back in front of me."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bæk/"
+    },
+    {
+      "lemma": "neck",
+      "pos": "noun",
+      "meaning": "The part of your body between your head and your shoulders.",
+      "examples": [
+        "She wore a scarf around her {neck}."
+      ],
+      "wrong": [
+        "He put his watch on his neck to check the time."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/nɛk/"
+    },
+    {
+      "lemma": "shoulder",
+      "pos": "noun",
+      "meaning": "The part of your body between your neck and your arm.",
+      "examples": [
+        "The bag hung from her {shoulder}."
+      ],
+      "wrong": [
+        "My shoulders are at the end of my feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈʃoʊldɚ/"
+    },
+    {
+      "lemma": "knee",
+      "pos": "noun",
+      "meaning": "The part in the middle of your leg where it bends.",
+      "examples": [
+        "I fell and hurt my {knee}."
+      ],
+      "wrong": [
+        "She bends her knee to move her fingers."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ni/"
+    },
+    {
+      "lemma": "body",
+      "pos": "noun",
+      "meaning": "All of a person or an animal, from head to feet.",
+      "examples": [
+        "Exercise is good for your {body}."
+      ],
+      "wrong": [
+        "My body is a small room in my house."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbɑdi/"
+    },
+    {
+      "lemma": "heart",
+      "pos": "noun",
+      "meaning": "The part inside your chest that moves blood around your body.",
+      "examples": [
+        "His {heart} beat fast after the race."
+      ],
+      "wrong": [
+        "My heart is in my left shoe."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/hɑrt/"
+    },
+    {
+      "lemma": "skin",
+      "pos": "noun",
+      "meaning": "The outer cover of your body.",
+      "examples": [
+        "Sun cream protects your {skin}."
+      ],
+      "wrong": [
+        "He took off his skin and put on a shirt."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skɪn/"
+    },
+    {
+      "lemma": "shirt",
+      "pos": "noun",
+      "meaning": "A piece of clothing for the top of your body, often with buttons.",
+      "examples": [
+        "He wore a white {shirt} to the meeting."
+      ],
+      "wrong": [
+        "I wear my shirt on my feet."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃɝt/"
+    },
+    {
+      "lemma": "dress",
+      "pos": "noun",
+      "meaning": "A piece of clothing that is a top and a skirt in one.",
+      "examples": [
+        "She wore a red {dress} to the party."
+      ],
+      "wrong": [
+        "He put the dress on the table and ate it."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "gown"
+      ],
+      "ipa": "/drɛs/"
+    },
+    {
+      "lemma": "skirt",
+      "pos": "noun",
+      "meaning": "A piece of clothing that hangs from the waist.",
+      "examples": [
+        "Her {skirt} is long and blue."
+      ],
+      "wrong": [
+        "I wear a skirt on my head to keep warm."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skɝt/"
+    },
+    {
+      "lemma": "trousers",
+      "pos": "noun",
+      "meaning": "A piece of clothing that covers each leg separately.",
+      "examples": [
+        "These {trousers} are too long for me."
+      ],
+      "wrong": [
+        "He wore his trousers on his arms."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "pants"
+      ],
+      "ipa": "/ˈtraʊzɚz/"
+    },
+    {
+      "lemma": "shoe",
+      "pos": "noun",
+      "meaning": "A covering for your foot, often made of leather.",
+      "examples": [
+        "Take off your {shoes} at the door."
+      ],
+      "wrong": [
+        "I put my shoes on my hands to write."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃu/"
+    },
+    {
+      "lemma": "sock",
+      "pos": "noun",
+      "meaning": "A soft covering for your foot that you wear inside a shoe.",
+      "examples": [
+        "I can only find one {sock}."
+      ],
+      "wrong": [
+        "She wears her socks over her shoes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/sɑk/"
+    },
+    {
+      "lemma": "hat",
+      "pos": "noun",
+      "meaning": "A thing you wear on your head.",
+      "examples": [
+        "Wear a {hat} in the sun."
+      ],
+      "wrong": [
+        "He wore his hat on his foot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "cap"
+      ],
+      "ipa": "/hæt/"
+    },
+    {
+      "lemma": "coat",
+      "pos": "noun",
+      "meaning": "A long warm piece of clothing that you wear outside.",
+      "examples": [
+        "Put on your {coat}; it’s snowing."
+      ],
+      "wrong": [
+        "I wear my coat in the hot shower."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/koʊt/"
+    },
+    {
+      "lemma": "sweater",
+      "pos": "noun",
+      "meaning": "A warm piece of clothing for the top of your body, often made of wool.",
+      "examples": [
+        "Grandma made me a {sweater}."
+      ],
+      "wrong": [
+        "I wear a thick sweater when it is very hot."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "jumper",
+        "pullover"
+      ],
+      "ipa": "/ˈswɛtɚ/"
+    },
+    {
+      "lemma": "scarf",
+      "pos": "noun",
+      "meaning": "A long piece of cloth that you wear around your neck.",
+      "examples": [
+        "Wrap a {scarf} around your neck."
+      ],
+      "wrong": [
+        "She wore her scarf on her feet like shoes."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/skɑrf/"
+    },
+    {
+      "lemma": "glove",
+      "pos": "noun",
+      "meaning": "A covering for your hand, with a part for each finger.",
+      "examples": [
+        "I lost a {glove} in the snow."
+      ],
+      "wrong": [
+        "He wears gloves on his ears."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ɡlʌv/"
+    },
+    {
+      "lemma": "belt",
+      "pos": "noun",
+      "meaning": "A long thin band you wear around your waist.",
+      "examples": [
+        "These trousers need a {belt}."
+      ],
+      "wrong": [
+        "I wear a belt on my head to hold my hat."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bɛlt/"
+    },
+    {
+      "lemma": "pocket",
+      "pos": "noun",
+      "meaning": "A small bag sewn into clothes, to keep things in.",
+      "examples": [
+        "My keys are in my {pocket}."
+      ],
+      "wrong": [
+        "I put the car in my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈpɑkɪt/"
+    },
+    {
+      "lemma": "button",
+      "pos": "noun",
+      "meaning": "A small round thing that closes a shirt or coat.",
+      "examples": [
+        "A {button} fell off my coat."
+      ],
+      "wrong": [
+        "I eat a button for lunch."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ˈbʌtən/"
+    },
+    {
+      "lemma": "bag",
+      "pos": "noun",
+      "meaning": "A container made of cloth, paper or plastic, used to carry things.",
+      "examples": [
+        "She put her books in her {bag}."
+      ],
+      "wrong": [
+        "I carry my bag inside my pocket."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/bæɡ/"
+    },
+    {
+      "lemma": "umbrella",
+      "pos": "noun",
+      "meaning": "A thing you hold over your head to stay dry in the rain.",
+      "examples": [
+        "Take an {umbrella}; it’s raining."
+      ],
+      "wrong": [
+        "I use an umbrella to cook rice."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʌmˈbrɛlə/"
+    },
+    {
+      "lemma": "glasses",
+      "pos": "noun",
+      "meaning": "Two pieces of glass in a frame that help you see.",
+      "examples": [
+        "I can’t read without my {glasses}."
+      ],
+      "wrong": [
+        "She wears glasses to hear better."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "synonyms": [
+        "spectacles"
+      ],
+      "ipa": "/ˈɡlæsɪz/"
+    },
+    {
+      "lemma": "wear",
+      "pos": "verb",
+      "meaning": "To have clothes, shoes or glasses on your body.",
+      "examples": [
+        "I {wear} a uniform at work."
+      ],
+      "wrong": [
+        "I wear a sandwich for breakfast."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/wɛr/"
+    },
+    {
+      "lemma": "tall",
+      "pos": "adjective",
+      "meaning": "Higher than most people or things.",
+      "examples": [
+        "My brother is very {tall}."
+      ],
+      "wrong": [
+        "The baby is tall, so she is the smallest in the room."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/tɔl/",
+      "antonyms": [
+        "short"
+      ]
+    },
+    {
+      "lemma": "short",
+      "pos": "adjective",
+      "meaning": "Not tall or not long.",
+      "examples": [
+        "My hair is {short} this summer."
+      ],
+      "wrong": [
+        "The film was short, so it lasted five hours."
+      ],
+      "cefr": "A1",
+      "register": "everyday",
+      "ipa": "/ʃɔrt/",
+      "antonyms": [
+        "tall",
+        "long"
+      ]
+    }
+  ]
+}
