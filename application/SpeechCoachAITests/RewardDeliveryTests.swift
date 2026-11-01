@@ -138,12 +138,12 @@ struct RewardDeliveryTests {
         #expect(RewardReminderScheduler.goalMet(value, now: now, calendar: calendar))
     }
     @Test func adoptedArtMappingsMatchSourceHashesAndRemainDecodableAtNativeSize() throws {
-        // 68 adopted families plus 18 v2 badges (2026-10-30/31).
-        #expect(AwardFamily.catalog.count == 86 && Set(AwardFamily.catalog.map(\.id)).count == 86)
+        // 86 existing families plus eleven coach exam badges (2026-11-01).
+        #expect(AwardFamily.catalog.count == 97 && Set(AwardFamily.catalog.map(\.id)).count == 97)
         #expect(AwardFamily.supports(lessonID: "intro-01", version: "4"))
         #expect(!AwardFamily.supports(lessonID: "intro-01", version: "unadopted-future"))
         for family in AwardFamily.catalog {
-            if family.filename.isEmpty { #expect(family.symbol != nil, "\(family.id) needs art or a symbol"); continue }
+            #expect(!family.filename.isEmpty, "\(family.id) needs its finished badge artwork")
             let url = try #require(Bundle.main.url(forResource: family.filename, withExtension: nil, subdirectory: "masters"))
             let data = try Data(contentsOf: url)
             #expect(SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined() == family.sha256)

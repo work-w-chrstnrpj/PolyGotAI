@@ -3,7 +3,7 @@
 - Hides badges whose feature is gone or that need assessed evidence nothing in the app collects ("hidden").
 - Keeps badges only reachable through the hidden introduction lesson for learners who already hold them ("legacy").
 - Renames AW-P-05 and rewires Talk and course badges to what the app does now (AwardEvaluator.swift).
-- Adds new badges for coaches, Lexicon, Lab videos and timed tests. They use an SF Symbol until artwork exists.
+- Adds new badges for coaches, Lexicon, Lab videos and timed tests, with artwork from the delivery manifest.
 
 Run from the project root: python3 tools/curriculum/update_awards_v2.py
 """
@@ -11,6 +11,8 @@ import json
 from pathlib import Path
 
 PATH = Path("application/SpeechCoachAI/Resources/Rewards/AwardCatalog.json")
+ARTWORK = Path("assets/artwork-v2-2026-11-01/manifest.json")
+COACH_EXAM_ARTWORK = Path("assets/coach-exam-badges-2026-11-01/manifest.json")
 RULE = "aw-personal-2"
 BINDING = "SC-owner-2026-10-30"
 LIVE = "personalUseParticipation"
@@ -58,6 +60,9 @@ def main() -> None:
     text = PATH.read_text(encoding="utf-8")
     rows = json.loads(text)
     by_id = {row["id"]: row for row in rows}
+    generated_art = {asset["id"]: asset for asset in json.loads(ARTWORK.read_text())["assets"]
+                     if asset["kind"] == "badge"}
+    coach_exam_art = json.loads(COACH_EXAM_ARTWORK.read_text())["assets"]
 
     for row in rows:
         # 2026-10-31: no "Title — {placeholder}" badge names; the checkpoint reads as a plain count.
@@ -87,9 +92,24 @@ def main() -> None:
             row["symbol"] = symbol
         if tiers:
             row["tiers"] = tiers
+        if artwork := generated_art.get(fid):
+            row.update(filename=artwork["filename"], sha256=artwork["sha256"], subject=artwork["subject"])
         new_rows.append(row)
 
-    rows = [row for row in rows if row["id"] not in {n[0] for n in NEW}]
+    for artwork in coach_exam_art:
+        row = {key: template[key] for key in template if key not in ("visibility", "tiers", "symbol")}
+        row.update(id=artwork["id"], title=artwork["title"] + " · 80%", classification="Completion badge",
+                   criteria=f"Finish every {artwork['title']} lesson with at least 80% on each lesson's checked exercises. "
+                            "Your best completed attempt for each current lesson counts.",
+                   shell="Completion shield", filename=artwork["filename"], sha256=artwork["sha256"],
+                   subject=artwork["subject"], collectible=True, ruleVersion="aw-coach-exams-1",
+                   availability=LIVE, unavailableReason="", manifestOwner="AwardEvaluator",
+                   ruleTemplate="R-V2-COACH-EXAMS-80", bindingVersion="SC-owner-2026-11-01-coach-80",
+                   finiteSet="Every current lesson in this coach track; each requires a completed exam at 80% or higher.",
+                   contentTargetIDs=[])
+        new_rows.append(row)
+
+    rows = [row for row in rows if row["id"] not in {n["id"] for n in new_rows}]
     at = next(i for i, row in enumerate(rows) if row["id"] == INSERT_AFTER) + 1
     rows[at:at] = new_rows
 

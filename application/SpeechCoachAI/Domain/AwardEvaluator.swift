@@ -37,6 +37,14 @@ enum AwardEvaluator {
     static let timedTiers = [5, 25, 100]
     static let enricherTiers = [1, 10, 50]
     static let perfectTiers = [1, 10, 25]
+    /// Each current lesson needs a completed attempt at this first-try exercise accuracy.
+    static let coachExamPassingAccuracy = 0.8
+    static let coachExamFamilies: [TrackCoach: String] = [
+        .grammarian: "AW-TK-07", .pronunciation: "AW-TK-08", .readingListening: "AW-TK-09",
+        .debater: "AW-TK-10", .negotiator: "AW-TK-11", .publicSpeaker: "AW-TK-12",
+        .journalist: "AW-TK-13", .creativeWriter: "AW-TK-14", .business: "AW-TK-15",
+        .storyteller: "AW-TK-16", .copywriter: "AW-TK-17"
+    ]
     /// Course rank → badge family.
     static let courseFamilies = ["A1": "AW-CR-04", "A2": "AW-CR-05", "B1": "AW-CR-06", "B2": "AW-CR-07", "C1": "AW-CR-08", "C2": "AW-CR-09"]
 
@@ -87,6 +95,9 @@ enum AwardEvaluator {
 
     private static func coaches(_ ledger: inout RewardLedger, _ inputs: AwardInputs, now: Date) {
         let finishedLessons = inputs.finished
+        let examJourneys = Dictionary(grouping: inputs.journeys.filter {
+            $0.completedAt != nil && $0.practiceOrigin == nil && $0.practiceConditions == nil && $0.personalCheck == nil
+        }, by: { $0.lessonID + "@" + $0.contentVersion })
         var finished: [String] = []
         var started = 0
         for track in inputs.tracks where !track.lessons.isEmpty {
@@ -96,10 +107,30 @@ enum AwardEvaluator {
             finished.append(track.id)
             if track.coach == .grammarian { ledger.award("AW-TK-03", now: now, evidence: [track.id]) }
             if track.coach == .pronunciation { ledger.award("AW-TK-04", now: now, evidence: [track.id]) }
+            if let family = coachExamFamilies[track.coach], !ledger.awards.contains(where: { $0.family == family }) {
+                let evidence = track.lessons.compactMap { lesson -> String? in
+                    let key = lesson.id + "@" + lesson.contentVersion
+                    guard let attempt = examJourneys[key]?.first(where: { passesCoachExam(lesson, journey: $0, now: now) }) else { return nil }
+                    return key + "/" + attempt.id.uuidString
+                }
+                if evidence.count == track.lessons.count { ledger.award(family, now: now, evidence: evidence) }
+            }
         }
         if started > 0 { ledger.award("AW-TK-01", now: now, evidence: ["coach"]) }
         tiers("AW-TK-05", coachTiers, count: finished.count, &ledger, now: now, evidence: finished)
         if !inputs.tracks.isEmpty, started == inputs.tracks.count { ledger.award("AW-TK-06", now: now, evidence: inputs.tracks.map(\.id)) }
+    }
+
+    /// Reuses the score shown by the lesson player. Partial results, open-only lessons and a corrected retry within
+    /// the same attempt cannot turn a missing/low exam score into a pass. A separate completed retake can qualify.
+    private static func passesCoachExam(_ lesson: ResolvedLesson, journey: LessonJourney, now: Date) -> Bool {
+        guard var session = try? LessonSession.begin(lesson: lesson, presenter: journey.presenter, now: now, existing: journey) else { return false }
+        let checked = session.activities.filter { $0.exercise != nil && $0.resolvedExercise.isChecked }
+        guard !checked.isEmpty, session.exerciseResults.count == checked.count,
+              checked.allSatisfy({ session.response(for: $0.id)?.kind == $0.kind }),
+              let accuracy = session.exerciseAccuracy, accuracy >= coachExamPassingAccuracy else { return false }
+        session.journey.completedAt = nil
+        return (try? session.finish(now: now)) != nil
     }
 
     private static func lexicon(_ ledger: inout RewardLedger, _ inputs: AwardInputs, now: Date) {

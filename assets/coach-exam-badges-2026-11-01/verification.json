@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-01",
+  "status": "implemented, focused-verified, installed and launched; owner visual acceptance open",
+  "artwork": {
+    "generator": "built-in ImageGen",
+    "newCoachFaceBadges": 11,
+    "manifest": "assets/coach-exam-badges-2026-11-01/manifest.json",
+    "exactPrompts": "assets/coach-exam-badges-2026-11-01/prompts/",
+    "checks": "11 unique PNGs decode; RGBA alpha spans 0\u2013255 and all corner pixels are transparent; all 97 catalog SHA-256 mappings valid"
+  },
+  "catalog": {
+    "families": 97,
+    "previousRowsPreservedExactly": 86,
+    "newFamilies": [
+      "AW-TK-07",
+      "AW-TK-08",
+      "AW-TK-09",
+      "AW-TK-10",
+      "AW-TK-11",
+      "AW-TK-12",
+      "AW-TK-13",
+      "AW-TK-14",
+      "AW-TK-15",
+      "AW-TK-16",
+      "AW-TK-17"
+    ],
+    "generatorIdempotent": true
+  },
+  "automatedTests": {
+    "result": "Passed",
+    "passed": 34,
+    "failed": 0,
+    "unitTests": 32,
+    "uiTests": 2,
+    "suites": [
+      "CoachExamBadgeTests",
+      "AwardEvaluatorTests",
+      "RewardDeliveryTests",
+      "CoachExamBadgeUITests",
+      "BootstrapLaunchTests.testRewardLargeTextDarkPreferencesAndUnavailableLearning"
+    ],
+    "simulator": "iPhone 18 Pro, iOS 27.0",
+    "resultBundle": "application/.build/coach-exam-badges-2026-11-01/tests.xcresult",
+    "summary": "application/.build/coach-exam-badges-2026-11-01/summary.json",
+    "log": "application/.build/coach-exam-badges-2026-11-01/test.log",
+    "warnings": "Existing AVAudioSession main-thread activation warnings in repository tests; audio code unchanged."
+  },
+  "device": {
+    "signedBuild": "passed",
+    "codeSignature": "codesign --verify --deep --strict passed",
+    "bundledCatalogAndArtwork": "97 families, identical to source; all 97 file/hash mappings verified",
+    "displayName": "PolyGotAI",
+    "bundleIdentifier": "com.personal.SpeechCoachAI",
+    "model": "owner iPhone 15 Plus",
+    "installation": "success",
+    "launch": "success",
+    "launchedProcessID": 4916,
+    "buildLog": "application/.build/coach-exam-badges-2026-11-01/device-build.log",
+    "installResult": "application/.build/coach-exam-badges-2026-11-01/device-install.json",
+    "launchResult": "application/.build/coach-exam-badges-2026-11-01/device-launch.json",
+    "dataHandling": "In-place update; no uninstall, reset or migration; no private learner content opened.",
+    "reinstallation": {
+      "confirmedAt": "2026-11-01 20:34 Asia/Manila",
+      "result": "installed and launched",
+      "installResult": "application/.build/coach-exam-badges-2026-11-01/device-reinstall.json",
+      "launchResult": "application/.build/coach-exam-badges-2026-11-01/device-relaunch.json",
+      "buildFreshness": "No app/project/art inputs newer than executable; strict code-sign verification passed."
+    }
+  },
+  "screenshots": [
+    "docs/development-plan/phases/phase-7/evidence/coach-exam-badges-2026-11-01/coach-face-badge-light.png",
+    "docs/development-plan/phases/phase-7/evidence/coach-exam-badges-2026-11-01/rewards-large-dark.png"
+  ],
+  "notVerified": [
+    "full verify.sh suite",
+    "iPad UI",
+    "owner visual acceptance"
+  ],
+  "git": "uncommitted; not pushed"
+}

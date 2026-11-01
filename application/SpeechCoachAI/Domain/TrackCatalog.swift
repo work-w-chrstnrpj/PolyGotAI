@@ -1,7 +1,7 @@
 import Foundation
 
 /// The eleven coach tracks of the Lesson tab (Pronunciation joined in Phase 12). The Teacher hosts the CEFR course and is not one of them.
-/// `artwork` names an asset when final art exists; otherwise `symbol` (an SF Symbol) stands in.
+/// `artwork` names the bundled cut-paper portrait; `symbol` remains a defensive fallback.
 enum TrackCoach: String, Codable, CaseIterable, Identifiable {
     case grammarian, pronunciation, readingListening, debater, negotiator, publicSpeaker
     case journalist, creativeWriter, business, storyteller, copywriter
@@ -41,7 +41,7 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
         }
     }
 
-    /// Asset-catalog image name, or nil while art is pending.
+    /// Asset-catalog image name for each coach's cut-paper portrait.
     var artwork: String? {
         switch self {
         case .grammarian: "CoachGrammarian"
@@ -49,11 +49,16 @@ enum TrackCoach: String, Codable, CaseIterable, Identifiable {
         case .publicSpeaker: "CoachSpeaker"
         case .journalist: "CoachJournalist"
         case .business: "CoachBusiness"
-        case .pronunciation, .debater, .negotiator, .creativeWriter, .storyteller, .copywriter: nil
+        case .pronunciation: "CoachPronunciation"
+        case .debater: "CoachDebater"
+        case .negotiator: "CoachNegotiator"
+        case .creativeWriter: "CoachCreativeWriter"
+        case .storyteller: "CoachStoryteller"
+        case .copywriter: "CoachCopywriter"
         }
     }
 
-    /// Placeholder icon for coaches without final art.
+    /// Fallback icon for each coach.
     var symbol: String {
         switch self {
         case .grammarian: "text.book.closed"

@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-01",
+  "tool": "built-in ImageGen",
+  "assets": {
+    "badges": 17,
+    "coaches": 6,
+    "unique": 23,
+    "png_decoding": "pass",
+    "badge_alpha": "17/17 true transparency, transparent corners"
+  },
+  "catalog": {
+    "families": 86,
+    "file_hash_checks": 86,
+    "artwork_only_updates": 17,
+    "generator_idempotent": true,
+    "rules_ids_tiers_ordering_unchanged": true
+  },
+  "native": {
+    "result": "Passed",
+    "unit_tests": 19,
+    "ui_tests": 3,
+    "failed": 0,
+    "device": "iPhone 18 Pro simulator, iOS 27.0",
+    "result_bundle": "application/.build/artwork-2026-11-01/phone.xcresult",
+    "screenshots": "docs/development-plan/phases/phase-7/evidence/artwork-2026-11-01",
+    "runtime_note": "AVAudioSession main-thread activation warnings occurred in reward repository tests; audio code was not changed."
+  },
+  "not_run": [
+    "Full verify.sh",
+    "iPad simulator",
+    "Owner physical-device visual acceptance"
+  ],
+  "visual_review": "All generated subjects inspected; gallery loaded and badge transparency reviewed on light/dark surfaces.",
+  "device_install": {
+    "date": "2026-11-01",
+    "device": "Owner iPhone 15 Plus",
+    "bundle_id": "com.personal.SpeechCoachAI",
+    "signed_build": "passed",
+    "build_path": "application/.build/CodexArtworkDevice/Build/Products/Debug-iphoneos/SpeechCoachAI.app",
+    "bundled_badge_hashes_verified": 86,
+    "install": "passed",
+    "launch": "passed",
+    "data_check": "Existing nonempty Learner/learner.store remains present with modification time predating installation; older app files remain present. No uninstall or reset. Container UUID changed during upgrade; container-path equality was not used as proof of data retention.",
+    "owner_visual_acceptance": "open"
+  }
+}

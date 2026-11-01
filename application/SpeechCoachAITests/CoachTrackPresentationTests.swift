@@ -1,8 +1,18 @@
 import Foundation
 import Testing
+import UIKit
 @testable import SpeechCoachAI
 
 @MainActor struct CoachTrackPresentationTests {
+    @Test func everyCoachHasItsOwnBundledPortrait() throws {
+        let names = try TrackCoach.allCases.map { coach in
+            let name = try #require(coach.artwork, "\(coach.title) needs a portrait")
+            #expect(UIImage(named: name) != nil, "Missing bundled portrait: \(name)")
+            return name
+        }
+        #expect(Set(names).count == TrackCoach.allCases.count)
+    }
+
     @Test func threeStagesSelectTheirOwnUnitsAndCountOnlyExactVersionCompletions() {
         let stages = ["foundation", "intermediate", "advanced"].map { id in
             let lesson = ResolvedLesson(id: id, level: "A2", title: id, objectiveId: id,
