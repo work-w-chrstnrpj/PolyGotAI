@@ -12,6 +12,7 @@
 - **Exercises:** auto-checked with instant correct/almost/not-quite feedback ([tdd](../tdd/tdd.md#exercise-engine)).
 - **Copy:** never explain what the app can't do. Hide unfinished features; never show "Coming later" or "unavailable". At most one helper line per screen.
 - **Speech:** on-device TTS and recognition (pending owner approval) for model audio and "We heard". No scores.
+- **Premium polish (2026-11-01):** cards use `kitSurface()` (continuous corners, soft shadow in light, hairline edge in dark); Kit buttons and tappable cards spring on press; rows lead with an `IconBadge`; progress uses `KitProgressBar`; right/almost/streak use the `Success`, `Warning` and `Streak` asset colours; lessons hide the iPhone tab bar; course and unit lessons show numbered state nodes under a rank summary card. Review and rationale: [claude-ui-premium-review-2026-11-01](../reviews/claude-ui-premium-review-2026-11-01.md).
 
 ## Experience and launch scope
 

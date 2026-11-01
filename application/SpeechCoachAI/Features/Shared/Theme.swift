@@ -54,6 +54,14 @@ enum Kit {
     static let ink = Color("Ink")
     static let secondary = Color("SecondaryInk")
     static let error = Color("Error")
+    /// Right answers and finished work. Readable on cards in light and dark.
+    static let success = Color("Success")
+    /// "Almost" answers.
+    static let warning = Color("Warning")
+    /// The streak flame.
+    static let streak = Color("Streak")
+    /// Hairline card edges (shown in dark mode, where shadows do not read).
+    static let border = Color("Border")
     static var accent: Color { themed(.accent) }
     static var onAccent: Color { themed(.onAccent) }
     static var surface: Color { themed(.surface) }
@@ -89,6 +97,14 @@ enum Kit {
     enum Radius {
         static let control: CGFloat = 14
         static let card: CGFloat = 18
+        static let hero: CGFloat = 24
+    }
+
+    /// Springs shared by presses, feedback panels and progress fills.
+    enum Motion {
+        static let press = Animation.spring(response: 0.25, dampingFraction: 0.7)
+        static let reveal = Animation.spring(response: 0.42, dampingFraction: 0.82)
+        static let fill = Animation.spring(response: 0.6, dampingFraction: 0.9)
     }
 
     /// Text roles. All scale with Dynamic Type.

@@ -23,7 +23,7 @@ struct ProgressOverview: View {
             } label: {
                 KitCard { KitContentRow(symbol: "clock.arrow.circlepath", title: "Saved practice", detail: "Recordings and notes", showsChevron: true) }
             }
-            .buttonStyle(.plain).accessibilityIdentifier("progress.history")
+            .buttonStyle(.kitCard).accessibilityIdentifier("progress.history")
         }
         .onAppear(perform: reload)
         .onChange(of: storage.repository != nil) { _, _ in reload() }
@@ -54,12 +54,15 @@ private struct LevelCard: View {
         VStack(spacing: Kit.Space.m) {
             NavigationLink { RewardOverview(storage: storage) } label: {
                 KitCard {
-                    HStack(alignment: .firstTextBaseline) {
-                        Text("Level \(level.level)").font(Kit.Fonts.hero).accessibilityIdentifier("progress.level")
-                        Spacer()
-                        Text("\(ledger.xp) XP").font(.headline).foregroundStyle(Kit.secondary)
+                    HStack(alignment: .center, spacing: Kit.Space.l) {
+                        LevelMedallion(level: level.level)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Level \(level.level)").font(Kit.Fonts.hero).accessibilityIdentifier("progress.level")
+                            Text("\(ledger.xp) XP").font(.headline).monospacedDigit().foregroundStyle(Kit.secondary)
+                        }
+                        Spacer(minLength: 0)
                     }
-                    ProgressView(value: level.fraction).tint(Kit.accent).accessibilityHidden(true)
+                    KitProgressBar(value: level.fraction, height: 10).padding(.top, Kit.Space.xs)
                     HStack {
                         Text("\(level.xpToNext) XP to Level \(level.level + 1)").font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
                         Spacer()
@@ -67,7 +70,7 @@ private struct LevelCard: View {
                     }
                 }
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.kitCard)
             .accessibilityElement(children: .combine)
             .accessibilityIdentifier("progress.levelCard")
             ViewThatFits(in: .horizontal) {
@@ -78,8 +81,8 @@ private struct LevelCard: View {
     }
 
     @ViewBuilder private var tiles: some View {
-        StatTile(title: "Day streak", value: "\(ledger.currentStreak(day: RewardPolicy.day(.now)))", symbol: "flame")
-        StatTile(title: "This week", value: UsageFormat.duration(weekSeconds), symbol: "clock")
+        StatTile(title: "Day streak", value: "\(ledger.currentStreak(day: RewardPolicy.day(.now)))", symbol: "flame.fill", tint: Kit.streak)
+        StatTile(title: "This week", value: UsageFormat.duration(weekSeconds), symbol: "clock.fill")
     }
 }
 

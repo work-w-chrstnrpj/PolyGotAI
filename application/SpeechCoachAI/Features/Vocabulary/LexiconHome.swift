@@ -82,7 +82,7 @@ struct LexiconHome: View {
                 KitContentRow(symbol: "bolt.fill", title: "Lexicon in Action",
                               detail: "\(actionCount) \(actionCount == 1 ? "word" : "words") ready", showsChevron: true)
             }
-        }.buttonStyle(.plain).accessibilityIdentifier("lexicon.action")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("lexicon.action")
     }
 
     private var enricherRow: some View {
@@ -90,7 +90,7 @@ struct LexiconHome: View {
             KitCard {
                 KitContentRow(symbol: "sparkles", title: "Vocabulary Enricher", detail: "Any word from your packs", showsChevron: true)
             }
-        }.buttonStyle(.plain).accessibilityIdentifier("lexicon.enricher")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("lexicon.enricher")
     }
 
     // MARK: Packs
@@ -139,14 +139,14 @@ struct LexiconHome: View {
             NavigationLink { LexiconAddWordView(storage: storage, bank: bank) } label: {
                 KitCard { KitContentRow(symbol: "plus.circle", title: "Add a word", detail: "Saved in your “My words” pack", showsChevron: true) }
             }
-            .buttonStyle(.plain).accessibilityIdentifier("lexicon.add")
+            .buttonStyle(.kitCard).accessibilityIdentifier("lexicon.add")
             ForEach(topics) { topic in
                 NavigationLink { CustomTopicEditor(storage: storage, topicID: topic.id) } label: {
                     KitCard {
                         KitContentRow(symbol: "folder", title: topic.title, detail: packDetail(topic), showsChevron: true)
                     }
                 }
-                .buttonStyle(.plain).accessibilityIdentifier("vocabulary.topic.open.\(topic.id.uuidString)")
+                .buttonStyle(.kitCard).accessibilityIdentifier("vocabulary.topic.open.\(topic.id.uuidString)")
             }
         }
     }
@@ -159,7 +159,7 @@ struct LexiconHome: View {
                               detail: saved == 0 ? "Words you keep from lessons" : "\(saved) saved", showsChevron: true)
             }
         }
-        .buttonStyle(.plain).accessibilityIdentifier("lexicon.mywords")
+        .buttonStyle(.kitCard).accessibilityIdentifier("lexicon.mywords")
     }
 
     private func packDetail(_ topic: CustomVocabularyTopic) -> String {

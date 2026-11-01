@@ -18,7 +18,7 @@ struct CoachCatalogView: View {
                     LessonPlayerView(storage: storage, lesson: next.lesson, install: install, onSpeak: onSpeak)
                 } label: {
                     KitCard { KitContentRow(symbol: "play.circle.fill", title: "Continue", detail: next.lesson.title, showsChevron: true) }
-                }.buttonStyle(.plain).accessibilityIdentifier("coach.continue")
+                }.buttonStyle(.kitCard).accessibilityIdentifier("coach.continue")
             }
             LazyVGrid(columns: columns, alignment: .leading, spacing: 12) {
                 ForEach(install.tracks.tracks) { track in
@@ -40,7 +40,7 @@ struct CoachCatalogView: View {
                         }
                         .accessibilityElement(children: .combine)
                         .accessibilityValue(CoachTrackPresentation.progress(track.lessons, journeys: journeys))
-                    }.buttonStyle(.plain).accessibilityIdentifier("coach.card.\(track.id)")
+                    }.buttonStyle(.kitCard).accessibilityIdentifier("coach.card.\(track.id)")
                 }
             }
         }.onAppear { journeys = (try? storage.repository?.allLessonJourneys()) ?? [] }
@@ -51,12 +51,28 @@ struct TrackArtwork: View {
     var coach: TrackCoach
     var body: some View {
         Group {
-            if let artwork = coach.artwork { CoachArtwork(name: artwork) }
-            else {
-                Image(systemName: coach.symbol).resizable().scaledToFit().padding(24)
-                    .foregroundStyle(Kit.accent)
+            if let artwork = coach.artwork {
+                CoachArtwork(name: artwork)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(Kit.soft, in: RoundedRectangle(cornerRadius: 18))
+                    .background(Kit.soft.opacity(0.55), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+            } else {
+                // Coaches without a portrait get a gradient tile in the theme colour with their symbol.
+                GeometryReader { proxy in
+                    let side = min(proxy.size.width, proxy.size.height)
+                    ZStack {
+                        LinearGradient(colors: [Kit.accent, Kit.accent.opacity(0.72)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        Circle().fill(Kit.onAccent.opacity(0.10)).frame(width: side * 1.1)
+                            .offset(x: proxy.size.width * 0.38, y: -proxy.size.height * 0.42)
+                        Circle().fill(Kit.onAccent.opacity(0.07)).frame(width: side * 0.8)
+                            .offset(x: -proxy.size.width * 0.42, y: proxy.size.height * 0.45)
+                        Image(systemName: coach.symbol).resizable().scaledToFit()
+                            .fontWeight(.semibold)
+                            .foregroundStyle(Kit.onAccent)
+                            .frame(width: side * 0.46, height: side * 0.46)
+                    }
+                    .frame(width: proxy.size.width, height: proxy.size.height)
+                    .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+                }
             }
         }.accessibilityHidden(true)
     }
@@ -66,10 +82,13 @@ private struct TrackProgressRing: View {
     var fraction: Double
     var body: some View {
         ZStack {
-            Circle().stroke(Kit.secondary.opacity(0.18), lineWidth: 3)
-            Circle().trim(from: 0, to: fraction).stroke(Kit.accent, style: StrokeStyle(lineWidth: 3, lineCap: .round))
+            Circle().stroke(Kit.accent.opacity(0.16), lineWidth: 3.5)
+            Circle().trim(from: 0, to: fraction).stroke(fraction >= 1 ? Kit.success : Kit.accent, style: StrokeStyle(lineWidth: 3.5, lineCap: .round))
                 .rotationEffect(.degrees(-90))
-        }.frame(width: 24, height: 24).accessibilityHidden(true)
+            if fraction >= 1 {
+                Image(systemName: "checkmark").font(.system(size: 10, weight: .heavy)).foregroundStyle(Kit.success)
+            }
+        }.frame(width: 26, height: 26).accessibilityHidden(true)
     }
 }
 
@@ -101,7 +120,7 @@ struct CoachTrackView: View {
                         NavigationLink {
                             CoachUnitView(storage: storage, install: install, unit: unit, onSpeak: onSpeak)
                         } label: { unitCard(unit) }
-                        .buttonStyle(.plain).accessibilityIdentifier("track.unit.\(unit.id)")
+                        .buttonStyle(.kitCard).accessibilityIdentifier("track.unit.\(unit.id)")
                     }
                 }
             }.padding(20).frame(maxWidth: 700).frame(maxWidth: .infinity)
@@ -135,8 +154,7 @@ struct CoachTrackView: View {
         let completed = unit.lessons.filter { LessonProgress.of($0, journeys: journeys).state == .done }.count
         return KitCard {
             KitContentRow(symbol: "books.vertical", title: unit.title, detail: CoachTrackPresentation.progress(unit.lessons, journeys: journeys), showsChevron: true)
-            ProgressView(value: Double(completed), total: Double(max(1, unit.lessons.count))).tint(Kit.accent)
-                .accessibilityLabel("\(unit.title) progress").accessibilityValue("\(completed) of \(unit.lessons.count) lessons")
+            KitProgressBar(value: Double(completed) / Double(max(1, unit.lessons.count)))
         }
     }
 }
@@ -150,11 +168,11 @@ struct CoachUnitView: View {
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 12) {
-                ForEach(unit.lessons) { lesson in
+                ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { index, lesson in
                     NavigationLink {
                         LessonPlayerView(storage: storage, lesson: lesson, install: install, onSpeak: onSpeak)
-                    } label: { KitCard { CourseLessonRow(lesson: lesson, journeys: journeys) } }
-                    .buttonStyle(.plain).accessibilityIdentifier("track.lesson.\(lesson.id)")
+                    } label: { KitCard { CourseLessonRow(lesson: lesson, journeys: journeys, number: index + 1) } }
+                    .buttonStyle(.kitCard).accessibilityIdentifier("track.lesson.\(lesson.id)")
                 }
             }.padding(20).frame(maxWidth: 700).frame(maxWidth: .infinity)
         }

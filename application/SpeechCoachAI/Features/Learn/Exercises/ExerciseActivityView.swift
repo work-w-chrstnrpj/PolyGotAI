@@ -85,8 +85,8 @@ struct ExerciseActivityView: View {
             Button(action: onBack) { Image(systemName: "arrow.left").frame(minWidth: 44, minHeight: 44) }
                 .accessibilityLabel("Previous activity").accessibilityIdentifier("exercise.back")
                 .opacity(canGoBack ? 1 : 0).disabled(!canGoBack).accessibilityHidden(!canGoBack)
-            ProgressView(value: progress).tint(Kit.accent).accessibilityHidden(true)
-            Text(positionText).font(.subheadline.weight(.semibold)).foregroundStyle(Kit.secondary)
+            KitProgressBar(value: progress, height: 10)
+            Text(positionText).font(.subheadline.weight(.semibold)).monospacedDigit().foregroundStyle(Kit.secondary)
         }
         .padding(.horizontal, 24).padding(.top, 8).frame(maxWidth: 688)
     }
@@ -145,7 +145,7 @@ struct ExerciseActivityView: View {
                         .accessibilityIdentifier("exercise.passage")
                 }
                 .padding(16).frame(maxWidth: .infinity, alignment: .leading)
-                .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
+                .kitSurface(radius: Kit.Radius.control)
             }
             Text(parts.question).font(.title2.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
                 .accessibilityIdentifier("exercise.prompt")
@@ -197,16 +197,17 @@ struct ExerciseActivityView: View {
                 Button { selection = option } label: {
                     Text(option).font(.title3.weight(.medium)).foregroundStyle(Kit.ink)
                         .padding(.horizontal, 18).padding(.vertical, 12).frame(minHeight: 48)
-                        .background(isPicked && !locked ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 12))
-                        .overlay(RoundedRectangle(cornerRadius: 12).stroke(
+                        .background(isPicked && !locked ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(
                             isRight ? Self.rightColor : isWrong ? Kit.error : isPicked ? Kit.accent : Kit.secondary.opacity(0.35),
                             lineWidth: isPicked || isRight ? 2 : 1))
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.kitCard)
                 .accessibilityAddTraits(isPicked ? .isSelected : [])
                 .accessibilityIdentifier("exercise.choice.\(option)")
             }
         }
+        .animation(Kit.Motion.press, value: selection)
     }
 
     private var choiceList: some View {
@@ -224,14 +225,19 @@ struct ExerciseActivityView: View {
                         Spacer(minLength: 0)
                     }
                     .padding(16).frame(minHeight: 54)
-                    .background(isPicked && !locked ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 14))
-                    .overlay(RoundedRectangle(cornerRadius: 14).stroke(outline, lineWidth: isPicked || isRight ? 2 : 1))
+                    .background(isPicked && !locked ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    .background(isRight ? Self.rightColor.opacity(0.10) : isWrong ? Kit.error.opacity(0.08) : .clear,
+                                in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(outline, lineWidth: isPicked || isRight ? 2 : 1))
+                    .scaleEffect(isRight && locked ? 1.015 : 1)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.kitCard)
                 .accessibilityAddTraits(isPicked ? .isSelected : [])
                 .accessibilityIdentifier("exercise.choice.\(option)")
             }
         }
+        .animation(Kit.Motion.press, value: selection)
+        .animation(Kit.Motion.reveal, value: locked)
     }
 
     /// wordBank builds a sentence from tiles; order numbers the items. Both share one answer line and one bank.
@@ -263,8 +269,9 @@ struct ExerciseActivityView: View {
     private func tileLabel(_ text: String, dimmed: Bool = false, highlighted: Bool = false) -> some View {
         Text(text).font(.title3.weight(.medium)).foregroundStyle(Kit.ink)
             .padding(.horizontal, 14).padding(.vertical, 10).frame(minHeight: 44)
-            .background(highlighted ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 12))
-            .overlay(RoundedRectangle(cornerRadius: 12).stroke(highlighted ? Kit.accent : Kit.secondary.opacity(0.35)))
+            .background(highlighted ? Kit.soft : Kit.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(highlighted ? Kit.accent : Kit.secondary.opacity(0.35)))
+            .shadow(color: .black.opacity(dimmed ? 0 : 0.05), radius: 3, y: 2)
             .opacity(dimmed ? 0.25 : 1)
     }
 
@@ -303,8 +310,9 @@ struct ExerciseActivityView: View {
     private var field: some View {
         TextField(spec.kind == .listenType ? "Type what you hear" : "Your answer", text: $typed, axis: .vertical)
             .lineLimit(1...4).padding(16)
-            .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14))
-            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Kit.secondary.opacity(0.35)))
+            .background(Kit.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(typing ? Kit.accent : Kit.secondary.opacity(0.35), lineWidth: typing ? 2 : 1))
+            .animation(Kit.Motion.press, value: typing)
             .textInputAutocapitalization(.never).autocorrectionDisabled()
             .focused($typing)
             .accessibilityIdentifier("exercise.field")
@@ -337,7 +345,7 @@ struct ExerciseActivityView: View {
         typing = false
         _ = onSubmit(spec.storedText(response))
         let checked = spec.evaluate(response) ?? .correct
-        result = checked
+        withAnimation(Kit.Motion.reveal) { result = checked }
         // Chime and haptic per the learner's Sound and haptics settings.
         SoundCenter.shared.answer(correct: checked != .incorrect)
     }
@@ -377,12 +385,13 @@ struct ExerciseActivityView: View {
         }
     }
 
-    private static let rightColor = Color(red: 0.09, green: 0.46, blue: 0.28)
+    /// Asset colours with light and dark variants, so feedback stays readable in Dark Mode.
+    private static let rightColor = Kit.success
 
     private func feedbackBar(_ result: AnswerResult) -> some View {
         let tint: Color = switch result {
         case .correct: Self.rightColor
-        case .almost: Color(red: 0.62, green: 0.36, blue: 0.0)
+        case .almost: Kit.warning
         case .incorrect: Kit.error
         }
         let title: String = switch result {
@@ -391,9 +400,14 @@ struct ExerciseActivityView: View {
         case .incorrect: "Not quite"
         }
         return VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 10) {
-                Image(systemName: result == .incorrect ? "xmark.circle.fill" : "checkmark.circle.fill").foregroundStyle(tint)
-                Text(title).font(.headline).foregroundStyle(tint)
+            HStack(spacing: 12) {
+                Image(systemName: result == .incorrect ? "xmark" : "checkmark")
+                    .font(.headline.weight(.heavy)).foregroundStyle(Kit.surface)
+                    .frame(width: 34, height: 34).background(tint.gradient, in: Circle())
+                    .symbolEffect(.bounce, value: title)
+                    .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+                    .accessibilityHidden(true)
+                Text(title).font(.title3.bold()).foregroundStyle(tint)
             }
             if result != .correct, let answer = answerText {
                 Text("Answer: \(answer)").font(.body.weight(.medium)).foregroundStyle(Kit.ink)
@@ -408,8 +422,16 @@ struct ExerciseActivityView: View {
                 .accessibilityIdentifier("exercise.continue")
         }
         .frame(maxWidth: 640, alignment: .leading)
-        .padding(.horizontal, 24).padding(.vertical, 16).frame(maxWidth: .infinity)
-        .background(tint.opacity(0.12))
+        .padding(.horizontal, 24).padding(.top, 20).padding(.bottom, 12).frame(maxWidth: .infinity)
+        .background {
+            UnevenRoundedRectangle(topLeadingRadius: Kit.Radius.hero, topTrailingRadius: Kit.Radius.hero, style: .continuous)
+                .fill(Kit.surface)
+                .overlay(UnevenRoundedRectangle(topLeadingRadius: Kit.Radius.hero, topTrailingRadius: Kit.Radius.hero, style: .continuous)
+                    .fill(tint.opacity(0.12)))
+                .shadow(color: .black.opacity(0.08), radius: 16, y: -4)
+                .ignoresSafeArea(edges: .bottom)
+        }
+        .transition(.move(edge: .bottom).combined(with: .opacity))
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("exercise.feedback")
     }

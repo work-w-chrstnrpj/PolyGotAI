@@ -1,0 +1,11 @@
+# PolyGotAI app icon
+
+Owner-selected design, 1 November 2026: one cream speech bubble on the app's teal, containing six bars centered at the same vertical position. The waveform represents fluent speaking; six bars suggest A1–C2, with the last bar gold as the learning goal. Heights vary around an overall increase so the mark reads as a voice waveform rather than a phone-signal indicator.
+
+- Editable native document: [`PolyGotAI.icon`](../../../application/SpeechCoachAI/Resources/PolyGotAI.icon/). Open it in Apple's Icon Composer. Three SVG foreground layers separate the bubble, first five bars and final goal bar; the teal background uses the document fill. Source vectors: [`layers/`](layers/).
+- Default palette: teal `#176C60`, cream `#F7F4EC`, gold `#E6B35B`. Dark: deep green bubble, mint bars and warm gold goal. Tinted: light bubble, gray bars and white goal; iOS supplies the system tint/background. System-rendered glass and shape masking remain native.
+- [`home-screen-icon.png`](home-screen-icon.png) is the compiled 60 pt @2x device icon, transcoded from Apple's optimized PNG without redesigning or resizing its pixels. It is a small-size review artifact, not the editable master.
+- `ASSETCATALOG_COMPILER_APPICON_NAME = PolyGotAI` and `CFBundleDisplayName = PolyGotAI` are connected in Debug and Release. User-visible sidebar/resource wording is renamed too. Existing target, scheme, product path, bundle identifier, storage, notifications and keychain identities remain compatible.
+- Simulator/device builds passed and compiled default/dark/tinted 1024 px icon images plus native icon stacks. The signed update was installed and launched on the owner's iPhone 15 Plus; device app metadata reports the name PolyGotAI. Final verification details are in `verification.json`.
+
+Design source: owner-provided reference image and instructions in this chat. Built as vectors and a real Icon Composer document. Apple references: [Icon Composer workflow](https://developer.apple.com/documentation/xcode/creating-your-app-icon-using-icon-composer), [app icon design guidance](https://developer.apple.com/design/human-interface-guidelines/app-icons). Prior concept and project-file backups are under ignored `application/.build/backup/polygotai-branding-2026-11-01/`.

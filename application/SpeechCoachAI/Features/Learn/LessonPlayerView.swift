@@ -306,8 +306,8 @@ struct LessonPlayerView: View {
                 Text("\(session.activities.filter { session.hasAttempt(for: $0.id) }.count) practiced")
                     .font(.caption).foregroundStyle(Kit.secondary)
             }
-            ProgressView(value: Double(position + 1), total: Double(max(1, session.activities.count)))
-                .tint(Kit.accent).accessibilityHidden(true) // Position is already spoken by the text above.
+            // Position is already spoken by the text above.
+            KitProgressBar(value: Double(position + 1) / Double(max(1, session.activities.count)))
         }
     }
 
@@ -409,8 +409,15 @@ struct LessonPlayerView: View {
                 .font(.title3).foregroundStyle(Kit.secondary)
             if let session, let accuracy = session.exerciseAccuracy {
                 KitCard {
-                    Text("\(Int((accuracy * 100).rounded()))% right on the first try").font(.headline)
-                        .accessibilityIdentifier("lesson.accuracy")
+                    HStack(spacing: 16) {
+                        AccuracyRing(fraction: accuracy)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("\(Int((accuracy * 100).rounded()))% right on the first try").font(.headline)
+                                .fixedSize(horizontal: false, vertical: true)
+                                .accessibilityIdentifier("lesson.accuracy")
+                            Text(AccuracyRing.praise(accuracy)).font(.subheadline).foregroundStyle(Kit.secondary)
+                        }
+                    }
                     if !session.missedExercises.isEmpty {
                         Button("Try the \(session.missedExercises.count) you missed") { showMissed = true }
                             .buttonStyle(KitSecondaryButtonStyle()).accessibilityIdentifier("lesson.missed")
@@ -864,5 +871,35 @@ struct LessonPlayerView: View {
         guard choices(for: activity) != nil else { return "Your practice is saved" }
         let answer = response?.assistedText ?? response?.unaidedText
         return answer?.lowercased() == activity.answer?.lowercased() ? "That fits the sentence" : "Let’s look at the pattern"
+    }
+}
+
+/// First-try accuracy as a ring with the percentage inside. Decorative: the line beside it is spoken.
+struct AccuracyRing: View {
+    var fraction: Double
+    @State private var shown = 0.0
+    @ScaledMetric(relativeTo: .headline) private var side = 72.0
+
+    static func praise(_ fraction: Double) -> String {
+        switch fraction {
+        case 0.9...: "Excellent work."
+        case 0.7..<0.9: "Strong lesson."
+        case 0.5..<0.7: "Good effort. Keep going."
+        default: "Every try builds the habit."
+        }
+    }
+
+    var body: some View {
+        let tint = fraction >= 0.7 ? Kit.success : fraction >= 0.5 ? Kit.accent : Kit.warning
+        ZStack {
+            Circle().stroke(tint.opacity(0.16), lineWidth: 8)
+            Circle().trim(from: 0, to: shown).stroke(tint, style: StrokeStyle(lineWidth: 8, lineCap: .round))
+                .rotationEffect(.degrees(-90))
+            Text("\(Int((fraction * 100).rounded()))%").font(.system(.headline, design: .rounded).weight(.heavy))
+                .monospacedDigit().foregroundStyle(Kit.ink).minimumScaleFactor(0.6).lineLimit(1).padding(8)
+        }
+        .frame(width: min(side, 110), height: min(side, 110))
+        .onAppear { withAnimation(Kit.Motion.fill.delay(0.15)) { shown = min(max(fraction, 0), 1) } }
+        .accessibilityHidden(true)
     }
 }

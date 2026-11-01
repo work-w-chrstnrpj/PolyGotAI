@@ -106,7 +106,7 @@ struct AppShell: View {
 
     private var sidebar: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Text("SpeechCoachAI").font(.title2.bold())
+            Text("PolyGotAI").font(.title2.bold())
                 .dynamicTypeSize(...DynamicTypeSize.xxxLarge).lineLimit(1).minimumScaleFactor(0.8)
                 .padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
             ForEach(AppDestination.allCases) { item in
@@ -191,7 +191,8 @@ struct AppShell: View {
             .foregroundStyle(Kit.ink)
             .navigationTitle(item.title)
             .navigationBarTitleDisplayMode(.large)
-            .toolbar(usesCustomChrome ? .hidden : .visible, for: .tabBar)
+            // `.automatic` (not `.visible`) on iPhone, so a pushed lesson can hide the tab bar and own the screen.
+            .toolbar(usesCustomChrome ? .hidden : .automatic, for: .tabBar)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { showSettings = true } label: { Image(systemName: "person.crop.circle") }
@@ -252,22 +253,22 @@ struct SpeechLabContent: View {
             if let client = talkClient { TalkView(storage: storage, client: client) }
         } label: {
             KitCard { KitContentRow(symbol: "bubble.left.and.bubble.right", title: "Talk", detail: "Speak with an AI partner", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.talk")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.talk")
         NavigationLink { LabTimedTestsView(storage: storage) } label: {
             KitCard { KitContentRow(symbol: "timer", title: "Timed tests", detail: "Writing, reading and analogies", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.timedTests")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.timedTests")
         SectionHeader(title: "Watch")
         NavigationLink { LabVideosView(storage: storage) } label: {
             KitCard { KitContentRow(symbol: "play.rectangle", title: "Videos", detail: videosDetail, showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.videos")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.videos")
         SectionHeader(title: "Settings")
         NavigationLink { VoiceSettingsView(storage: storage) } label: {
             KitCard { KitContentRow(symbol: "speaker.wave.2", title: "Voice", detail: "How the app reads aloud", showsChevron: true) }
-        }.buttonStyle(.plain).accessibilityIdentifier("speech.voice")
+        }.buttonStyle(.kitCard).accessibilityIdentifier("speech.voice")
         if feedbackAvailable {
             NavigationLink { LabFeedbackHistoryView(storage: storage) } label: {
                 KitCard { KitContentRow(symbol: "clock.arrow.circlepath", title: "Feedback history", detail: "Your past AI feedback", showsChevron: true) }
-            }.buttonStyle(.plain).accessibilityIdentifier("speech.feedbackHistory")
+            }.buttonStyle(.kitCard).accessibilityIdentifier("speech.feedbackHistory")
         }
         Color.clear.frame(height: 0)
             .onAppear {

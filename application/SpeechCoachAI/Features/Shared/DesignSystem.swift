@@ -6,14 +6,92 @@ import SwiftUI
 struct KitPrimaryButtonStyle: ButtonStyle {
     @Environment(\.kitTheme) private var theme
     @Environment(\.isEnabled) private var enabled
+    @Environment(\.colorScheme) private var scheme
     func makeBody(configuration: Configuration) -> some View {
         configuration.label.font(.headline)
             .multilineTextAlignment(.center).fixedSize(horizontal: false, vertical: true)
             .frame(maxWidth: .infinity, minHeight: 24)
             .padding(.horizontal, 18).padding(.vertical, 15)
             .foregroundStyle(enabled ? theme.onAccent : Kit.secondary)
-            .background(enabled ? theme.accent : theme.soft, in: RoundedRectangle(cornerRadius: 14))
-            .opacity(configuration.isPressed ? 0.8 : 1)
+            .background {
+                // Solid fill plus a light top sheen: depth that never darkens the fill under the label.
+                RoundedRectangle(cornerRadius: Kit.Radius.control, style: .continuous)
+                    .fill(enabled ? theme.accent : theme.soft)
+                    .overlay {
+                        if enabled && scheme == .light {
+                            RoundedRectangle(cornerRadius: Kit.Radius.control, style: .continuous)
+                                .fill(LinearGradient(colors: [.white.opacity(0.14), .clear], startPoint: .top, endPoint: .center))
+                        }
+                    }
+                    // Glow in light mode only: a light accent halo on a dark canvas reads as low contrast.
+                    .shadow(color: enabled && scheme == .light ? theme.accent.opacity(0.28) : .clear, radius: 10, y: 5)
+            }
+            .contentShape(RoundedRectangle(cornerRadius: Kit.Radius.control, style: .continuous))
+            .kitPressEffect(configuration.isPressed)
+    }
+}
+
+extension View {
+    /// The shared pressed state: a small, springy shrink and a slight dim.
+    func kitPressEffect(_ pressed: Bool) -> some View {
+        scaleEffect(pressed ? 0.97 : 1).opacity(pressed ? 0.88 : 1).animation(Kit.Motion.press, value: pressed)
+    }
+
+    /// The card look used across the app: surface fill, continuous corners, a soft shadow in light mode
+    /// and a hairline edge in dark mode (where shadows do not read).
+    func kitSurface(radius: CGFloat = Kit.Radius.card, fill: Color = Kit.surface) -> some View {
+        modifier(KitSurfaceModifier(radius: radius, fill: fill))
+    }
+}
+
+struct KitSurfaceModifier: ViewModifier {
+    @Environment(\.colorScheme) private var scheme
+    var radius: CGFloat
+    var fill: Color
+    func body(content: Content) -> some View {
+        let shape = RoundedRectangle(cornerRadius: radius, style: .continuous)
+        content
+            .background {
+                shape.fill(fill)
+                    .shadow(color: .black.opacity(scheme == .dark ? 0 : 0.05), radius: 14, y: 6)
+                    .shadow(color: .black.opacity(scheme == .dark ? 0 : 0.04), radius: 1.5, y: 1)
+            }
+            .overlay { shape.strokeBorder(scheme == .dark ? Kit.border.opacity(0.45) : Kit.ink.opacity(0.05), lineWidth: 1) }
+    }
+}
+
+/// A symbol on a tinted, rounded square: the leading mark of rows and tiles.
+struct IconBadge: View {
+    var symbol: String
+    var tint: Color = Kit.accent
+    @ScaledMetric(relativeTo: .title3) private var side = 38.0
+    var body: some View {
+        Image(systemName: symbol).font(.system(size: min(side, 52) * 0.47, weight: .semibold))
+            .foregroundStyle(tint)
+            .frame(width: min(side, 52), height: min(side, 52))
+            .background(tint.opacity(0.14), in: RoundedRectangle(cornerRadius: min(side, 52) * 0.3, style: .continuous))
+            .accessibilityHidden(true)
+    }
+}
+
+/// A rounded progress bar with a gradient fill that springs to its value. Hidden from VoiceOver;
+/// callers speak the value in adjacent text or their own label.
+struct KitProgressBar: View {
+    var value: Double
+    var tint: Color = Kit.accent
+    var height: CGFloat = 8
+    private var fraction: Double { value.isFinite ? min(max(value, 0), 1) : 0 }
+    var body: some View {
+        GeometryReader { proxy in
+            ZStack(alignment: .leading) {
+                Capsule().fill(tint.opacity(0.16))
+                Capsule().fill(LinearGradient(colors: [tint.opacity(0.75), tint], startPoint: .leading, endPoint: .trailing))
+                    .frame(width: fraction > 0 ? max(height, proxy.size.width * fraction) : 0)
+            }
+        }
+        .frame(height: height)
+        .animation(Kit.Motion.fill, value: fraction)
+        .accessibilityHidden(true)
     }
 }
 
@@ -25,15 +103,14 @@ struct KitContentRow: View {
     var showsChevron = false
     var body: some View {
         HStack(alignment: .center, spacing: 14) {
-            Image(systemName: symbol).font(.title3).foregroundStyle(Kit.accent)
-                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).frame(width: 30).accessibilityHidden(true)
-            VStack(alignment: .leading, spacing: 5) {
+            IconBadge(symbol: symbol).dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+            VStack(alignment: .leading, spacing: 4) {
                 Text(title).font(.headline).foregroundStyle(Kit.ink)
                 Text(detail).font(.subheadline).foregroundStyle(Kit.secondary)
             }.frame(maxWidth: .infinity, alignment: .leading)
             if showsChevron { Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
                 .dynamicTypeSize(...DynamicTypeSize.xxxLarge).accessibilityHidden(true) }
-        }.padding(.vertical, 12).frame(minHeight: 44)
+        }.padding(.vertical, 6).frame(minHeight: 44)
     }
 }
 
@@ -43,7 +120,7 @@ struct KitCard<Content: View>: View {
         VStack(alignment: .leading, spacing: 8, content: content)
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(16)
-            .background(Kit.surface, in: RoundedRectangle(cornerRadius: 18))
+            .kitSurface()
     }
 }
 
@@ -133,32 +210,50 @@ extension LearnerPreferences.Coach {
 
 // MARK: - Phase 7 components
 
-/// A content container; callers supply native Buttons or NavigationLinks for actions.
+/// The one focal card of a screen: an eyebrow chip, a large title, optional coach artwork and progress,
+/// on a surface with a soft accent glow. Callers supply native Buttons or NavigationLinks for actions.
 struct HeroCard<Content: View>: View {
     @Environment(\.kitTheme) private var theme
+    @Environment(\.dynamicTypeSize) private var textSize
     var eyebrow: String
     var title: String
     var detail: String? = nil
+    /// Coach or illustration asset shown beside the title.
+    var artwork: String? = nil
+    /// 0...1; shows a progress bar under the detail line.
+    var progress: Double? = nil
     @ViewBuilder var content: () -> Content
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text(eyebrow).font(.subheadline.weight(.semibold)).foregroundStyle(theme.accent)
-            Text(title).font(Kit.Fonts.title).foregroundStyle(Kit.ink)
-                .fixedSize(horizontal: false, vertical: true)
-            if let detail {
-                Text(detail).font(.body).foregroundStyle(Kit.secondary)
-                    .fixedSize(horizontal: false, vertical: true)
+            HStack(alignment: .top, spacing: 16) {
+                VStack(alignment: .leading, spacing: 10) {
+                    KitEyebrow(text: eyebrow)
+                    Text(title).font(.title.bold()).foregroundStyle(Kit.ink)
+                        .fixedSize(horizontal: false, vertical: true)
+                    if let detail {
+                        Text(detail).font(.body).foregroundStyle(Kit.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                if let artwork, !textSize.isAccessibilitySize {
+                    CoachArtwork(name: artwork).frame(width: 84, height: 84)
+                        .shadow(color: .black.opacity(0.08), radius: 8, y: 4)
+                }
             }
+            if let progress { KitProgressBar(value: progress) }
             content()
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(20)
-        .background(theme.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card + 4))
-        .overlay(alignment: .leading) {
-            RoundedRectangle(cornerRadius: 2).fill(theme.accent)
-                .frame(width: 4).padding(.vertical, 22).accessibilityHidden(true)
+        .background(alignment: .topTrailing) {
+            // A soft glow in the theme colour gives the card its focus without a hard stripe.
+            RadialGradient(colors: [theme.accent.opacity(0.16), .clear], center: .topTrailing, startRadius: 0, endRadius: 260)
+                .accessibilityHidden(true)
         }
+        .clipShape(RoundedRectangle(cornerRadius: Kit.Radius.hero, style: .continuous))
+        .kitSurface(radius: Kit.Radius.hero)
     }
 }
 
@@ -167,19 +262,19 @@ struct StatTile: View {
     var title: String
     var value: String
     var symbol: String
+    var tint: Color? = nil
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Image(systemName: symbol).font(.title3.weight(.semibold))
-                .foregroundStyle(theme.accent).accessibilityHidden(true)
-            Text(value).font(Kit.Fonts.title).monospacedDigit()
+            IconBadge(symbol: symbol, tint: tint ?? theme.accent).dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+            Text(value).font(Kit.Fonts.stat)
                 .foregroundStyle(Kit.ink).fixedSize(horizontal: false, vertical: true)
             Text(title).font(.subheadline).foregroundStyle(Kit.secondary)
                 .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
-        .background(theme.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card))
+        .kitSurface()
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(title)
         .accessibilityValue(value)
@@ -198,10 +293,13 @@ struct ProgressRing: View {
     var body: some View {
         VStack(spacing: 8) {
             ZStack {
-                Circle().stroke(theme.soft, lineWidth: 9)
+                Circle().stroke(theme.accent.opacity(0.14), lineWidth: 10)
                 Circle().trim(from: 0, to: fraction)
-                    .stroke(theme.accent, style: StrokeStyle(lineWidth: 9, lineCap: .round))
+                    .stroke(AngularGradient(colors: [theme.accent.opacity(0.6), theme.accent], center: .center,
+                                            startAngle: .degrees(0), endAngle: .degrees(360 * max(fraction, 0.01))),
+                            style: StrokeStyle(lineWidth: 10, lineCap: .round))
                     .rotationEffect(.degrees(-90))
+                    .animation(Kit.Motion.fill, value: fraction)
                 Text(title).font(Kit.Fonts.title).foregroundStyle(Kit.ink)
                     .multilineTextAlignment(.center).padding(14)
             }
@@ -236,7 +334,7 @@ struct BadgeTile<Artwork: View>: View {
         .padding(12)
         // Fill the grid row so tiles in one row share a height.
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(theme.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card))
+        .kitSurface()
         .accessibilityElement(children: .combine)
     }
 }
@@ -281,9 +379,9 @@ struct KitSecondaryButtonStyle: ButtonStyle {
             .frame(maxWidth: fills ? .infinity : nil, minHeight: 24)
             .padding(.horizontal, 18).padding(.vertical, 15)
             .foregroundStyle(enabled ? theme.accent : Kit.secondary)
-            .background(theme.soft, in: RoundedRectangle(cornerRadius: Kit.Radius.control))
-            .contentShape(RoundedRectangle(cornerRadius: Kit.Radius.control))
-            .opacity(configuration.isPressed ? 0.8 : 1)
+            .background(theme.soft, in: RoundedRectangle(cornerRadius: Kit.Radius.control, style: .continuous))
+            .contentShape(RoundedRectangle(cornerRadius: Kit.Radius.control, style: .continuous))
+            .kitPressEffect(configuration.isPressed)
     }
 }
 
@@ -297,7 +395,7 @@ struct KitChipStyle: ButtonStyle {
             .background(selected ? Kit.soft : Kit.surface, in: Capsule())
             .overlay(Capsule().stroke(selected ? Kit.accent : .clear))
             .contentShape(Capsule())
-            .opacity(configuration.isPressed ? 0.8 : 1)
+            .kitPressEffect(configuration.isPressed)
     }
 }
 
@@ -402,11 +500,34 @@ struct KitDropdown<Items: View>: View {
             }
             .padding(.horizontal, 16).padding(.vertical, 10)
             .frame(minHeight: 44)
-            .background(Kit.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card, style: .continuous))
+            .kitSurface()
             .contentShape(Rectangle())
         }
         .accessibilityLabel(caption)
         .accessibilityValue(value)
         .accessibilityIdentifier(identifier)
+    }
+}
+
+/// Tappable cards (NavigationLinks whose label is a KitCard): the plain look plus the shared pressed state.
+struct KitCardLinkStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label.kitPressEffect(configuration.isPressed)
+    }
+}
+
+extension ButtonStyle where Self == KitCardLinkStyle {
+    static var kitCard: KitCardLinkStyle { KitCardLinkStyle() }
+}
+
+/// A small uppercase label on a tinted capsule: what a card is about ("Word of the day", "Rank A1 · Course").
+struct KitEyebrow: View {
+    var text: String
+    var tint: Color = Kit.accent
+    var body: some View {
+        Text(text).font(.caption.weight(.bold)).textCase(.uppercase).kerning(0.6)
+            .foregroundStyle(tint)
+            .padding(.horizontal, 10).padding(.vertical, 5)
+            .background(tint.opacity(0.12), in: Capsule())
     }
 }

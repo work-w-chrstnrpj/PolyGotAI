@@ -10,7 +10,7 @@ Help learners improve English grammar, vocabulary, reading, listening, pronuncia
 
 ## Project Overview
 
-SpeechCoachAI is a native iPhone/iPad English learning app, built first for the owner and possibly shared later. **Current direction: v2 (since 2026-10-25).** Read [docs/history-version.md](docs/history-version.md) to see why v2 replaced v1.
+PolyGotAI (previously SpeechCoachAI) is a native iPhone/iPad English learning app, built first for the owner and possibly shared later. The repository folder, Xcode target and bundle identifier retain their existing names for compatibility. **Current direction: v2 (since 2026-10-25).** Read [docs/history-version.md](docs/history-version.md) to see why v2 replaced v1.
 
 - **Tabs, in order:** Today | Lexicon | Lesson | Speech Lab | Progress.
 - **Lesson:** CEFR course A1–C2 (hosted by the Teacher) plus 10 coach tracks: Grammarian; Reading & Listening Comprehension; Debater & Argument; Persuasion & Negotiation; Public Speaking & Rhetoric; Journalist; Creative Writing; Business & Professional; Storytelling; Advertising & Copywriting. See [coach tracks](docs/product-specification/coach-tracks.md).
@@ -43,7 +43,7 @@ Update this map whenever the project structure changes.
 - `application/SpeechCoachAI/Domain/`: pure Swift models and rules (catalog, journeys, vocabulary, FSRS scheduling, rewards, recommendations; v2: answer checking, exercise sessions, voice metrics).
 - `application/SpeechCoachAI/Infrastructure/`: Persistence (SwiftData, `LearnerRepository` split into `+Area` extension files, private files), Curriculum loader, Credentials (Keychain), Providers (gated online clients), Audio; v2: Speech.
 - `application/SpeechCoachAI/Features/`: SwiftUI screens by area (Navigation/AppShell, Learn (shared topic-reading player and `LessonReadingPage`), Vocabulary, Recording, Progress, Rewards, Settings, Resources, SpeechLab (Lab: Talk, Speaking, Spelling, Timed tests, Videos, Voice; Pronunciation is a Lesson coach since Phase 12, with the say-it `SpeakAnswerView` in Learn/Exercises), Talk (AI conversation), Today, Feedback, Shared: `Theme.swift` tokens and `DesignSystem.swift` components).
-- `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog.
+- `application/SpeechCoachAI/Resources/`: curriculum JSON and audio, rewards catalog, asset catalog, and the layered `PolyGotAI.icon` Icon Composer document (source vectors and branding notes: `assets/branding/polygotai/`).
 - `application/SpeechCoachAITests/`, `application/SpeechCoachAIUITests/`: tests. `application/Vendor/swift-fsrs/`: pinned FSRS-6. `application/.build/`: ignored build output and backups.
 - `tools/native/verify.sh`: build and run all tests. `tools/curriculum/`: content authoring and validation scripts. `tools/figma-local-helper/`: Figma plugin for the design kit (not app code).
 - `assets/awards/v1/`: adopted award artwork.

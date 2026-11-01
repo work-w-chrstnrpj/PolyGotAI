@@ -15,8 +15,9 @@ struct TodayView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: Kit.Space.xl) {
-            Text(displayedDate.formatted(.dateTime.weekday(.wide).day().month(.wide)))
+            Text("\(greeting) · \(displayedDate.formatted(.dateTime.weekday(.wide).day().month(.wide)))")
                 .font(.subheadline.weight(.medium)).foregroundStyle(Kit.secondary)
+                .lineLimit(1).minimumScaleFactor(0.8)
                 .padding(.top, -Kit.Space.m)
             if let ledger { PracticeStatsRow(storage: storage, ledger: ledger, thirdTitle: "Today", thirdValue: UsageFormat.duration(minutesToday * 60)) }
             courseCard
@@ -34,7 +35,8 @@ struct TodayView: View {
 
     @ViewBuilder private var courseCard: some View {
         if let course = lessons.course {
-            HeroCard(eyebrow: "Rank \(course.rank ?? course.lesson.level) · Course", title: course.lesson.title, detail: position(of: course.lesson)) {
+            HeroCard(eyebrow: "Rank \(course.rank ?? course.lesson.level) · Course", title: course.lesson.title,
+                     detail: position(of: course.lesson), artwork: "CoachTeacher", progress: rankFraction(of: course.lesson)) {
                 NavigationLink {
                     LessonPlayerView(storage: storage, lesson: course.lesson, install: install, onSpeak: openSpeaking)
                 } label: { Text(course.resuming ? "Continue" : "Start") }
@@ -52,7 +54,7 @@ struct TodayView: View {
                     NavigationLink {
                         LessonPlayerView(storage: storage, lesson: entry.lesson, install: install, onSpeak: openSpeaking)
                     } label: { CoachLessonRow(entry: entry) }
-                        .buttonStyle(.plain)
+                        .buttonStyle(.kitCard)
                         .accessibilityIdentifier("today.coach.\(entry.lesson.id)")
                 }
             }
@@ -66,7 +68,23 @@ struct TodayView: View {
                               detail: "\(lessons.dueWords) due", showsChevron: true)
             }
         }
-        .buttonStyle(.plain).accessibilityIdentifier("today.review-row")
+        .buttonStyle(.kitCard).accessibilityIdentifier("today.review-row")
+    }
+
+    /// "Good morning" and friends, from the hour of `displayedDate`.
+    private var greeting: String {
+        switch Calendar.current.component(.hour, from: displayedDate) {
+        case 5..<12: "Good morning"
+        case 12..<17: "Good afternoon"
+        default: "Good evening"
+        }
+    }
+
+    /// How far into its rank the lesson sits (lesson 1 of 12 → 0), for the hero card's bar.
+    private func rankFraction(of lesson: ResolvedLesson) -> Double? {
+        let rank = install.lessons(at: lesson.level).filter(\.isReady)
+        guard let index = rank.firstIndex(where: { $0.id == lesson.id }), rank.count > 1 else { return nil }
+        return Double(index) / Double(rank.count)
     }
 
     /// "Lesson 3 of 12" within the lesson's rank.
@@ -95,6 +113,7 @@ private struct CoachLessonRow: View {
             HStack(spacing: Kit.Space.l) {
                 if let coach = entry.coach {
                     TrackArtwork(coach: coach).frame(width: 64, height: 64)
+                        .shadow(color: .black.opacity(0.06), radius: 6, y: 3)
                 }
                 VStack(alignment: .leading, spacing: Kit.Space.xs) {
                     Text(entry.coach?.title ?? "Coach").font(Kit.Fonts.caption).foregroundStyle(Kit.accent)
@@ -103,7 +122,9 @@ private struct CoachLessonRow: View {
                     Text(entry.resuming ? "Continue" : "Next lesson").font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(Kit.secondary)
+                Image(systemName: entry.resuming ? "play.fill" : "arrow.right")
+                    .font(.subheadline.weight(.bold)).foregroundStyle(Kit.accent)
+                    .frame(width: 36, height: 36).background(Kit.accent.opacity(0.12), in: Circle())
                     .accessibilityHidden(true)
             }
         }
@@ -124,11 +145,17 @@ struct PracticeStatsRow: View {
         let streak = ledger.currentStreak(day: RewardPolicy.day(.now))
         NavigationLink { RewardOverview(storage: storage) } label: {
             VStack(alignment: .leading, spacing: Kit.Space.m) {
-                ViewThatFits(in: .horizontal) {
-                    HStack(alignment: .firstTextBaseline) { levelTitle(level); Spacer(); toGo(level) }
-                    VStack(alignment: .leading, spacing: Kit.Space.xs) { levelTitle(level); toGo(level) }
+                HStack(spacing: Kit.Space.m) {
+                    LevelMedallion(level: level.level)
+                    VStack(alignment: .leading, spacing: Kit.Space.s) {
+                        ViewThatFits(in: .horizontal) {
+                            HStack(alignment: .firstTextBaseline) { levelTitle(level); Spacer(); toGo(level) }
+                            VStack(alignment: .leading, spacing: Kit.Space.xs) { levelTitle(level); toGo(level) }
+                        }
+                        KitProgressBar(value: level.fraction)
+                    }
                 }
-                ProgressView(value: level.fraction).tint(theme.accent).accessibilityHidden(true)
+                Divider().overlay(Kit.ink.opacity(0.04))
                 ViewThatFits(in: .horizontal) {
                     HStack(spacing: Kit.Space.xl) { stats(streak: streak) }
                     VStack(alignment: .leading, spacing: Kit.Space.s) { stats(streak: streak) }
@@ -136,9 +163,9 @@ struct PracticeStatsRow: View {
             }
             .padding(Kit.Space.l)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(theme.surface, in: RoundedRectangle(cornerRadius: Kit.Radius.card))
+            .kitSurface()
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.kitCard)
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Level \(level.level), \(level.xpToNext) XP to go")
         .accessibilityValue("\(streak) day streak, \(thirdTitle) \(thirdValue)")
@@ -155,13 +182,13 @@ struct PracticeStatsRow: View {
     }
 
     @ViewBuilder private func stats(streak: Int) -> some View {
-        stat(symbol: "flame.fill", value: "\(streak)", title: "day streak")
-        stat(symbol: "clock.fill", value: thirdValue, title: thirdTitle.lowercased())
+        stat(symbol: "flame.fill", value: "\(streak)", title: "day streak", tint: streak > 0 ? Kit.streak : Kit.secondary)
+        stat(symbol: "clock.fill", value: thirdValue, title: thirdTitle.lowercased(), tint: theme.accent)
     }
 
-    private func stat(symbol: String, value: String, title: String) -> some View {
+    private func stat(symbol: String, value: String, title: String, tint: Color) -> some View {
         HStack(spacing: Kit.Space.s) {
-            Image(systemName: symbol).foregroundStyle(theme.accent)
+            Image(systemName: symbol).foregroundStyle(tint).symbolEffect(.bounce, value: value)
             Text(value).font(.headline).monospacedDigit().foregroundStyle(Kit.ink)
             Text(title).font(Kit.Fonts.detail).foregroundStyle(Kit.secondary)
         }
@@ -191,5 +218,22 @@ struct RecentBadges: View {
                 }
             }
         }
+    }
+}
+
+/// The level number on a round, gradient-filled medal.
+struct LevelMedallion: View {
+    @Environment(\.kitTheme) private var theme
+    var level: Int
+    @ScaledMetric(relativeTo: .title2) private var side = 52.0
+    var body: some View {
+        Text("\(level)").font(.system(.title2, design: .rounded).weight(.heavy)).monospacedDigit()
+            .foregroundStyle(theme.onAccent)
+            .minimumScaleFactor(0.6).lineLimit(1)
+            .frame(width: min(side, 72), height: min(side, 72))
+            .background(theme.accent.gradient, in: Circle())
+            .overlay(Circle().strokeBorder(.white.opacity(0.35), lineWidth: 2).padding(3))
+            .shadow(color: theme.accent.opacity(0.3), radius: 8, y: 4)
+            .accessibilityHidden(true)
     }
 }

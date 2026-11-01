@@ -53,7 +53,7 @@ struct ResourceLibraryView: View {
             VStack(alignment: .leading, spacing: 16) {
                 KitCard {
                     Text("A little curiosity. More ways to learn.").font(.title2.bold()).lineLimit(1).minimumScaleFactor(0.6)
-                    Text("Keep useful links and personal notes. Websites open outside SpeechCoachAI after you confirm.")
+                    Text("Keep useful links and personal notes. Websites open outside PolyGotAI after you confirm.")
                         .foregroundStyle(Kit.secondary)
                     Text("Notes work offline. Videos and websites need internet; their availability is not checked here.")
                         .font(.footnote).foregroundStyle(Kit.secondary)
@@ -107,7 +107,7 @@ struct ResourceLibraryView: View {
             Button("Open website") { openPending() }.accessibilityIdentifier("resources.open.confirm")
             Button("Cancel", role: .cancel) { pendingOpen = nil }
         } message: {
-            Text("Destination: \(pendingOpen?.link.canonical ?? "")\n\nThe website or its app may use its own cookies, tracking, sign-in and redirects. Your notes are not sent. SpeechCoachAI has not read or checked this content.")
+            Text("Destination: \(pendingOpen?.link.canonical ?? "")\n\nThe website or its app may use its own cookies, tracking, sign-in and redirects. Your notes are not sent. PolyGotAI has not read or checked this content.")
         }
         .confirmationDialog("Remove bookmark and its notes?", isPresented: Binding(get: { deleting != nil }, set: { if !$0 { deleting = nil } }), titleVisibility: .visible) {
             Button("Remove bookmark", role: .destructive, action: remove)

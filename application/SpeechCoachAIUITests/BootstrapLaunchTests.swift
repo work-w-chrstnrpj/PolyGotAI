@@ -16,7 +16,9 @@ final class BootstrapLaunchTests: XCTestCase {
     @MainActor
     func testLaunchRelaunchAndAllDestinations() {
         continueAfterFailure = false
-        let app = XCUIApplication(); app.launch()
+        let app = XCUIApplication()
+        app.launchEnvironment["SC_SPEAKING_FIXTURE"] = UUID().uuidString
+        app.launch()
         XCTAssertTrue(app.buttons["settings.open"].firstMatch.waitForExistence(timeout: 10))
         screenshot(app, "today")
         for (title, id) in [("Lesson", "learn"), ("Lexicon", "vocabulary"), ("Lab", "speechLab"), ("Progress", "progress"), ("Today", "today")] {

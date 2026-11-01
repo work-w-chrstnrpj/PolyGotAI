@@ -1,4 +1,6 @@
-# SpeechCoachAI
+# PolyGotAI
+
+Previously named SpeechCoachAI. The Xcode project and bundle identifier keep their existing names so upgrades preserve learner data. [App icon and branding](assets/branding/polygotai/README.md).
 
 A native iPhone and iPad app for learning English: short auto-checked lessons, ten specialist coaches, and a Speech Lab for sounds and voice. Offline first, with optional online AI coaching using your own provider key.
 

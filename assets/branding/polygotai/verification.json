@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "name": "PolyGotAI",
+  "editable_document": "application/SpeechCoachAI/Resources/PolyGotAI.icon",
+  "design": "Owner-selected cream speech bubble with six centered waveform bars; final bar gold.",
+  "layers": 3,
+  "bars": 6,
+  "common_bar_center_y": 480,
+  "appearances_reviewed_in_icon_composer": [
+    "default",
+    "dark",
+    "mono/tinted"
+  ],
+  "compiled_1024px_appearances": [
+    "PolyGotAI1024x1024_UIAppearanceAny_5FE98F70-F960-4E4D-BAB2-88A9C9F6B16D-49158-000000CA6C3EB58E.png",
+    "PolyGotAI1024x1024_UIAppearanceDark_AC4FEF7D-09E4-4848-A9D2-1F854A1691A8-49158-000000CA6CAF78CD.png",
+    "PolyGotAI1024x1024_ISAppearanceTintable_8B5DA374-FAC2-433E-8C04-A235E83BC685-49158-000000CA6CFDDAD2.png"
+  ],
+  "native_icon_stacks": 3,
+  "builds": {
+    "simulator": "passed",
+    "signed_iphone": "passed"
+  },
+  "installation": {
+    "device": "Owner iPhone 15 Plus",
+    "install": "passed",
+    "launch": "passed",
+    "device_reported_name": "PolyGotAI",
+    "bundle_identifier_unchanged": true
+  },
+  "smoke_test": {
+    "result": "Passed",
+    "passed": 1,
+    "failed": 0,
+    "scope": "BootstrapLaunchTests/testLaunchRelaunchAndAllDestinations, isolated synthetic learner store",
+    "result_bundle": "application/.build/polygotai-branding-2026-11-01/smoke-isolated.xcresult",
+    "initial_run": "Shared-store run failed to reach screen.learn, then stalled during finalization and was terminated. Test now uses the existing isolated fixture mechanism; the rerun passed."
+  },
+  "not_verified": [
+    "Owner physical Home Screen visual acceptance",
+    "iPad visual review",
+    "Full unit/UI suite"
+  ],
+  "data": "In-place app update; no uninstall, reset or schema/storage/keychain identity changes."
+}
