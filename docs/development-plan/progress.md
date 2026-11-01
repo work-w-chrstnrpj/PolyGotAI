@@ -224,3 +224,7 @@ Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [code
 ## Phase 9 — Lab v3 (2026-10-26)
 
 Owner confirmed Codex's Phase 9 assignment. P9-1 Voice, P9-2 Spelling, P9-3 streamed Talk engine, P9-4 Talk screen and P9-5 Lab shell are implemented and **under verification**, not approved. The optional voice preference field was authorized explicitly by the owner. Hosted tests: 399 passed. Phase 9 iPhone 4/4 and iPad 4/4 passed. Full verification failed: 42/52 UI pass, 10 Today/Lexicon/audit failures handed to Claude (LOG-0069). [Evidence](phases/phase-9/evidence/README.md). Physical audio/recognition, live-provider verification and owner play-test remain open. No commit or push.
+
+## First release — 2026-11-01
+
+Branches are now `development` (work) and `main` (releases). Merging a `development` → `main` pull request publishes a GitHub release with grouped notes ([commands](../commands/commands.md#branches-and-releases)). **v0.1.0** was published from [PR #1](https://github.com/work-w-chrstnrpj/PolyGotAI/pull/1): [release page](https://github.com/work-w-chrstnrpj/PolyGotAI/releases/tag/v0.1.0). Owner visual acceptance, full-suite and iPad checks listed above remain open.

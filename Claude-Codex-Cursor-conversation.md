@@ -938,3 +938,9 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Files:** `.github/workflows/release.yml`, `.github/scripts/next-version.sh`, `.github/scripts/release-notes.sh`; `docs/commands/commands.md` (Branches and releases), `AGENTS.md` (repo map, Git rules).
 **Verification:** `bash -n` on both scripts; workflow YAML parses with the expected triggers and six steps. Dry runs in a scratch clone: no tag → 0.1.0, feat after v0.1.0 → 0.2.0, docs only → 0.2.1, `feat!:` on 0.x → 0.3.0; notes render grouped with commit links.
 **Not verified:** a real run on GitHub (needs `development` pushed and a merged PR); actionlint not installed. Squash merges are not supported for the commit list — use merge commits. No app code touched.
+
+### LOG-0103 · 2026-11-01 20:54 · Claude · CHANGE
+**Phase:** Owner-directed first release · **Status:** RELEASED v0.1.0
+**Summary:** On the owner's request, committed the release workflow on `development` (`0ce42c6`), pushed it, and merged [PR #1](https://github.com/work-w-chrstnrpj/PolyGotAI/pull/1) into `main` with a merge commit (`0132a3c`). This also brought remote `main` up from `38b2927` to all local work. The Release run passed in 14 s and published [PolyGotAI v0.1.0](https://github.com/work-w-chrstnrpj/PolyGotAI/releases/tag/v0.1.0) on `0132a3c`, with hand-written highlights from the PR description followed by every commit grouped by type. `development` was fast-forwarded to `main`. Follow-up: the first release now lists the whole history, a non-conventional subject such as `Lexicon: …` keeps its full text, and `actions/checkout` is now v6 because the run warned that Node 20 is deprecated.
+**Files:** `.github/workflows/release.yml` (checkout v6), this log, `docs/development-plan/progress.md`.
+**Not verified:** the checkout v6 change has not had a release run yet; it will on the next merge. No app code changed and no binary is attached to the release (none is built in CI).
