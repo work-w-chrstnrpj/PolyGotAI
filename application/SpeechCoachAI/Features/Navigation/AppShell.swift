@@ -94,7 +94,7 @@ struct AppShell: View {
         .safeAreaInset(edge: .bottom, spacing: 0) {
             if isPad && openPracticeAreas.isEmpty { FloatingTabBar(selection: $destination) }
         }
-        .onPreferenceChange(PracticeAreaKey.self) { openPracticeAreas = $0 }
+        .onPreferenceChange(PracticeAreaKey.self) { openPracticeAreas = $0; storage.practice.areaChanged($0.first) }
     }
 
     private func navigationContent(_ item: AppDestination) -> some View {
