@@ -228,3 +228,7 @@ Owner confirmed Codex's Phase 9 assignment. P9-1 Voice, P9-2 Spelling, P9-3 stre
 ## First release — 2026-11-01
 
 Branches are now `development` (work) and `main` (releases). Merging a `development` → `main` pull request publishes a GitHub release with grouped notes ([commands](../commands/commands.md#branches-and-releases)). **v0.1.0** was published from [PR #1](https://github.com/work-w-chrstnrpj/PolyGotAI/pull/1): [release page](https://github.com/work-w-chrstnrpj/PolyGotAI/releases/tag/v0.1.0). Owner visual acceptance, full-suite and iPad checks listed above remain open.
+
+## v0.2.0 release candidate — 2026-11-10
+
+Practice time, tab-bar handling and ranked provider fallback are in the release candidate. The iPhone practice UI checks passed. The broader verification recorded five UI failures, and physical-device acceptance remains open. See the [release verification report](../../qa/runs/2026-11-10-v0.2.0-release-report.md) and [release ticket #11](https://github.com/work-w-chrstnrpj/PolyGotAI/issues/11).

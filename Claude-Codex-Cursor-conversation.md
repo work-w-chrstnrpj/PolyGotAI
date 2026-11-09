@@ -1045,3 +1045,10 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Summary:** Ticket #7 got AC6 (the Screen time / Practice time choice is a dropdown) and AC7 (the practice chart is stacked by area, Lesson, Lexicon and Lab as three shades of the theme colour, same shades in the legend and the By area bars). Added `PracticeReport.areaBuckets` (Domain), a stacked chart plus `PracticeArea.shade` and an `AreaBar` in `UsageAnalyticsView.swift`; the dropdown is a menu `Picker` with id `usage.metric`. Updated `ProgressPracticeUITests` for the dropdown and added AC6 and AC7 UI tests, `PracticeTimeScreensTests` an AC7 unit test; UI spec line updated.
 **Verification:** `PracticeTimeScreensTests` 7/7 on iPhone 18 Pro Max; `ProgressPracticeUITests` 6/6 on iPad (A16); screenshot checked (dropdown, three-tone stacked bar). The AC7 unit test was written together with the code, not seen failing first.
 **Not verified:** iPhone UI run of the changed tests, light mode and large text for the new chart, the chart legend on screen (it sits below the fold in the screenshot), full unit and UI suites.
+
+### LOG-0119 · 2026-11-10 06:35 · Codex · CHANGE
+**Phase:** Release candidate #11 · **Status:** Verified for development with release blockers
+**Summary:** Collected the practice, provider, iPad UI and toolbox changes. Updated two Lab transcription fixtures to carry the model used by real requests. Kept the account quota capture in the ignored local backup and published only suggested model IDs and order.
+**Verification:** 17 iPhone practice UI checks passed. The broader run recorded 68 passes and 5 UI failures before result finalization was interrupted. Copy audit, curriculum validation, Figma helper verification, provider installer fixture and toolbox checks passed.
+**Open:** Physical-device QA (#9), provider acceptance (#10), UI failures and a toolbox release gate that cannot read GitHub tickets. No live provider calls.
+**Docs:** Updated the test specification, commands, capability report and progress tracker. [Release verification report](qa/runs/2026-11-10-v0.2.0-release-report.md).
