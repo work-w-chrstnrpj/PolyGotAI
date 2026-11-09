@@ -33,6 +33,13 @@ struct PracticeLog: Codable, Equatable {
         stretches.sort { $0.start < $1.start }
         return true
     }
+
+    /// A copy that also counts the stretch still open, so a screen shows it before it is saved.
+    func including(_ open: PracticeStretch?, now: Date = .now) -> PracticeLog {
+        var copy = self
+        if let open { copy.record(open, now: now) }
+        return copy
+    }
 }
 
 // MARK: Tracking
@@ -118,6 +125,16 @@ struct PracticeTracker: Equatable {
         return finished.map { [$0] } ?? []
     }
 
+    /// The stretch in progress as it stands at `time`, once it has passed a minute (for Progress and Today before it is saved).
+    /// Reads only; the tracker is not changed. Nil while the app is away or the stretch is still under a minute.
+    func openStretch(at time: Date) -> PracticeStretch? {
+        guard let area, isActive else { return nil }
+        var copy = self
+        copy.advance(to: time)
+        let seconds = Int(copy.counted)
+        return seconds >= PracticeLog.minimumSeconds ? PracticeStretch(start: start, seconds: seconds, area: area) : nil
+    }
+
     /// The open stretch as of now, for the recorder to keep on disk after each heartbeat.
     var openSnapshot: PracticeOpenSnapshot? {
         guard let area else { return nil }
@@ -168,6 +185,14 @@ struct PracticeTracker: Equatable {
 
 // MARK: Reading the log
 
+/// One area's slice of a period.
+struct PracticeShare: Equatable, Identifiable {
+    var area: PracticeArea
+    var seconds: Int
+    var fraction: Double
+    var id: PracticeArea { area }
+}
+
 /// Practice totals per day, week, month and year, overall and per area. A stretch belongs to the day it started on.
 struct PracticeReport {
     let calendar: Calendar
@@ -191,6 +216,42 @@ struct PracticeReport {
     /// Every area has an entry, zero when unused.
     func byArea(_ period: UsagePeriod, containing date: Date) -> [PracticeArea: Int] {
         Dictionary(uniqueKeysWithValues: PracticeArea.allCases.map { ($0, seconds($0, in: period, containing: date)) })
+    }
+
+    /// The buckets of a period around `date`: 24 hours, 7 days, the days of the month, or 12 months. Same shape as screen time.
+    func buckets(_ period: UsagePeriod, containing date: Date) -> [UsageBucket] {
+        let starts: [Date]
+        let component: Calendar.Component
+        switch period {
+        case .day:
+            let dayStart = calendar.startOfDay(for: date)
+            starts = (0..<24).compactMap { calendar.date(byAdding: .hour, value: $0, to: dayStart) }; component = .hour
+        case .week:
+            guard let interval = calendar.dateInterval(of: .weekOfYear, for: date) else { return [] }
+            starts = (0..<7).compactMap { calendar.date(byAdding: .day, value: $0, to: interval.start) }; component = .day
+        case .month:
+            guard let interval = calendar.dateInterval(of: .month, for: date),
+                  let count = calendar.range(of: .day, in: .month, for: date)?.count else { return [] }
+            starts = (0..<count).compactMap { calendar.date(byAdding: .day, value: $0, to: interval.start) }; component = .day
+        case .year:
+            guard let interval = calendar.dateInterval(of: .year, for: date) else { return [] }
+            starts = (0..<12).compactMap { calendar.date(byAdding: .month, value: $0, to: interval.start) }; component = .month
+        }
+        return starts.map { start in
+            let end = calendar.date(byAdding: component, value: 1, to: start) ?? start
+            let seconds = stretches.reduce(0) { $1.start >= start && $1.start < end ? $0 + $1.seconds : $0 }
+            return UsageBucket(start: start, seconds: seconds)
+        }
+    }
+
+    /// Lesson, Lexicon and Lab for the period, each with its share of the total (all zero when there is no practice).
+    func shares(_ period: UsagePeriod, containing date: Date) -> [PracticeShare] {
+        let totals = byArea(period, containing: date)
+        let all = totals.values.reduce(0, +)
+        return PracticeArea.allCases.map { area in
+            let seconds = totals[area] ?? 0
+            return PracticeShare(area: area, seconds: seconds, fraction: all == 0 ? 0 : Double(seconds) / Double(all))
+        }
     }
 
     private func interval(_ period: UsagePeriod, containing date: Date) -> DateInterval? {

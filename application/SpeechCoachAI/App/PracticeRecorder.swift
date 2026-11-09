@@ -29,6 +29,9 @@ final class PracticeRecorder {
     /// The area of the practice screen open right now, if any.
     var openArea: PracticeArea? { tracker.area }
 
+    /// The stretch on screen right now, once it has lasted a minute. Shown in Progress and Today before it is saved.
+    func openStretch(now: Date? = nil) -> PracticeStretch? { tracker.openStretch(at: now ?? clock()) }
+
     /// Call once at launch: a stretch left open by a crash or force-quit is closed at its last heartbeat.
     func recoverLeftover() {
         if let data = defaults.data(forKey: Key.open),

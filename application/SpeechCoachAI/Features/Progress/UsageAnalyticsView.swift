@@ -1,28 +1,48 @@
 import Charts
 import SwiftUI
 
-/// Screen time in the app: one day in detail, and totals by week, month and year. Tapping the date picks another one.
+/// What "Time in the app" measures: how long the app was open, or how long the learner practised (ticket #7).
+enum TimeMetric: String, CaseIterable, Identifiable {
+    case screen = "Screen time", practice = "Practice time"
+    var id: String { rawValue }
+}
+
+/// Time in the app: screen time or practice time, one day in detail, and totals by week, month and year.
+/// Practice time adds a Lesson, Lexicon and Lab breakdown. Tapping the date picks another one.
 struct UsageAnalyticsView: View {
     var storage: LearnerStorageController
+    @State private var metric = TimeMetric.screen
     @State private var period = UsagePeriod.day
     @State private var anchor = Date.now
     @State private var choosing = false
     @State private var report: UsageReport?
+    @State private var practice: PracticeReport?
     @Environment(\.scenePhase) private var scene
     private var calendar: Calendar { .current }
 
     var body: some View {
         KitCard {
             Text("Time in the app").font(Kit.Fonts.section)
+            Picker("Measure", selection: $metric) {
+                ForEach(TimeMetric.allCases) { Text($0.rawValue).tag($0) }
+            }.pickerStyle(.segmented).accessibilityIdentifier("usage.metric")
             Picker("Period", selection: $period) {
                 ForEach(UsagePeriod.allCases) { Text($0.title).tag($0) }
             }.pickerStyle(.segmented).accessibilityIdentifier("usage.period")
             header
-            if let report {
+            if metric == .practice, let practice {
+                Text(UsageFormat.duration(practice.total(period, containing: anchor))).font(.system(.largeTitle, design: .rounded).bold())
+                    .accessibilityIdentifier("usage.total")
+                Text(practiceSubtitle(practice)).font(.subheadline).foregroundStyle(Kit.secondary).accessibilityIdentifier("usage.subtitle")
+                let buckets = practice.buckets(period, containing: anchor)
+                if period == .day { hourChart(buckets, dayStart: calendar.startOfDay(for: anchor), label: "Practice by hour") }
+                else { chart(buckets, label: "Practice per") }
+                breakdown(practice)
+            } else if metric == .screen, let report {
                 Text(UsageFormat.duration(report.total(period, containing: anchor))).font(.system(.largeTitle, design: .rounded).bold())
                     .accessibilityIdentifier("usage.total")
                 Text(subtitle(report)).font(.subheadline).foregroundStyle(Kit.secondary).accessibilityIdentifier("usage.subtitle")
-                if period == .day { dayView(report) } else { chart(report) }
+                if period == .day { dayView(report) } else { chart(report.buckets(period, containing: anchor), label: "Time per") }
             } else {
                 Text("One moment.").foregroundStyle(Kit.secondary)
             }
@@ -30,6 +50,7 @@ struct UsageAnalyticsView: View {
         .onAppear(perform: load)
         .onChange(of: scene) { _, phase in if phase == .active { load() } }
         .onReceive(NotificationCenter.default.publisher(for: .usageLogChanged)) { _ in load() }
+        .onReceive(NotificationCenter.default.publisher(for: .practiceLogChanged)) { _ in load() }
         .task {
             while !Task.isCancelled {
                 try? await Task.sleep(for: .seconds(30))
@@ -108,6 +129,39 @@ struct UsageAnalyticsView: View {
         }
     }
 
+    private func practiceSubtitle(_ practice: PracticeReport) -> String {
+        let buckets = practice.buckets(period, containing: anchor)
+        let used = buckets.filter { $0.seconds > 0 }.count
+        if used == 0 { return "No practice yet" }
+        switch period {
+        case .day: return calendar.isDateInToday(anchor) ? "Practised today" : "Practised"
+        case .year: return "\(used) \(used == 1 ? "month" : "months") practised"
+        default: return "\(used) \(used == 1 ? "day" : "days") practised"
+        }
+    }
+
+    /// Lesson, Lexicon and Lab for the chosen period, each with its time and share.
+    private func breakdown(_ practice: PracticeReport) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("By area").font(.headline)
+            ForEach(practice.shares(period, containing: anchor)) { share in
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack {
+                        Text(share.area.title)
+                        Spacer()
+                        Text(UsageFormat.duration(share.seconds)).foregroundStyle(Kit.secondary).monospacedDigit()
+                    }
+                    .font(.subheadline)
+                    KitProgressBar(value: share.fraction, height: 8)
+                }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(share.area.title)
+                .accessibilityValue("\(UsageFormat.duration(share.seconds)), \(Int((share.fraction * 100).rounded())) percent")
+                .accessibilityIdentifier("usage.breakdown.\(share.area.rawValue)")
+            }
+        }
+    }
+
     // MARK: Day: key numbers, time by hour, visits
 
     private func dayView(_ report: UsageReport) -> some View {
@@ -121,7 +175,7 @@ struct UsageAnalyticsView: View {
                 VStack(alignment: .leading, spacing: 10) { dayStats(segments, today: today, average: average) }
             }
             if !segments.isEmpty {
-                hourChart(report.buckets(.day, containing: anchor), dayStart: dayStart, visits: segments.count)
+                hourChart(report.buckets(.day, containing: anchor), dayStart: dayStart, label: "Time by hour")
                 DisclosureGroup {
                     VStack(alignment: .leading, spacing: 8) {
                         ForEach(segments.reversed()) { segment in
@@ -170,7 +224,7 @@ struct UsageAnalyticsView: View {
         return "\(abs(difference)) min \(difference > 0 ? "more" : "less")"
     }
 
-    private func hourChart(_ hours: [UsageBucket], dayStart: Date, visits: Int) -> some View {
+    private func hourChart(_ hours: [UsageBucket], dayStart: Date, label: String) -> some View {
         let dayEnd = calendar.date(byAdding: .day, value: 1, to: dayStart) ?? dayStart
         return Chart(hours) { hour in
             BarMark(x: .value("Hour", hour.start, unit: .hour), y: .value("Minutes", Double(hour.seconds) / 60))
@@ -186,7 +240,7 @@ struct UsageAnalyticsView: View {
         .chartYAxisLabel("minutes")
         .frame(height: 130)
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Time by hour")
+        .accessibilityLabel(label)
         .accessibilityValue(hours.filter { $0.seconds > 0 }.map {
             "\($0.start.formatted(date: .omitted, time: .shortened)): \(UsageFormat.duration($0.seconds))"
         }.joined(separator: ", "))
@@ -195,8 +249,7 @@ struct UsageAnalyticsView: View {
 
     // MARK: Week, month, year: totals
 
-    private func chart(_ report: UsageReport) -> some View {
-        let buckets = report.buckets(period, containing: anchor)
+    private func chart(_ buckets: [UsageBucket], label: String) -> some View {
         let monthly = period == .year
         let unit: Calendar.Component = monthly ? .month : .day
         return Chart(buckets) { bucket in
@@ -212,7 +265,7 @@ struct UsageAnalyticsView: View {
         }
         .chartYAxisLabel("minutes")
         .frame(height: 170)
-        .accessibilityLabel("Time per \(monthly ? "month" : "day")")
+        .accessibilityLabel("\(label) \(monthly ? "month" : "day")")
         .accessibilityValue(buckets.filter { $0.seconds > 0 }.map {
             "\($0.start.formatted(.dateTime.month(.abbreviated).day())): \(UsageFormat.duration($0.seconds))"
         }.joined(separator: ", "))
@@ -223,6 +276,9 @@ struct UsageAnalyticsView: View {
         guard let repository = storage.repository, var log = try? repository.usageLog() else { return }
         if let open = storage.usage.openStretch() { log.record(start: open.start, end: open.end) }
         report = UsageReport(log: log, calendar: calendar)
+        if let practiceLog = try? repository.practiceLog() {
+            practice = PracticeReport(log: practiceLog.including(storage.practice.openStretch()), calendar: calendar)
+        }
     }
 }
 
