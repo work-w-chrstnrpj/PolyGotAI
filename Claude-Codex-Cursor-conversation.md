@@ -1025,3 +1025,10 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Files:** `App/PracticeRecorder.swift`, `App/LearnerStorageController.swift`, `App/SpeechCoachAIApp.swift`, `Features/Navigation/AppShell.swift`, `SpeechCoachAITests/PracticeRecorderTests.swift`.
 **Verification:** full unit suite 468 tests passed on iPhone 18 Pro Max (6 new `#6 AC1..AC6`); app builds for iPad A16.
 **Not verified / open:** AC1 and AC5 on real elapsed time and a real force-quit, and the touch recogniser on a device: fake-clock tests only, covered by QA ticket #9. Erase-all does not clear the recorder's UserDefaults (same as screen time). Docs impact for #7: glossary, ADR, ui-ux-design, data-model note on the recorder.
+
+### LOG-0117 · 2026-11-09 11:20 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #8 automate tab bar on every practice screen · **Status:** BUILT, UI tests green on iPad and iPhone; committed
+**Summary:** `PracticeTabBarUITests` now also opens the jump test, Lexicon practice (via the Vocabulary Enricher row), Lexicon in Action, a Lab timed test (`SC_TIMED_FIXTURE`), Talk (`SC_SPEECHLAB_FIXTURE`, `SC_TALK_FIXTURE`) and the recorder (`SC_A1_V2_FIXTURE` lesson flow). Each list-opened screen checks bar visible on the list, hidden on the screen, visible after Back. Tests are named `testIssue8AC1AC2…` / `testIssue8AC1RecordingHidesBar`.
+**Files:** `application/SpeechCoachAIUITests/PracticeTabBarUITests.swift` only. No app code touched.
+**Verification:** all 11 tests in the class passed on iPad (A16) and iPhone 18 Pro Max (`-derivedDataPath application/.build/Ticket8DerivedData`). One earlier iPhone run failed in the #4 Lab videos test and aborted, while another session's xcodebuild shared that simulator; the re-run was green. No app bug found.
+**Not verified:** the recorder is a sheet, so only "bar hidden while recording" is checked, not the bar after dismissing it (left for QA #9). Full `tools/native/verify.sh` not run.
