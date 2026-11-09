@@ -1,10 +1,5 @@
-# SpeechCoachAI API Map
+# PolyGotAI API Map
 
-Project-owned discovery map, adopted 2026-10-15.
+No backend and no public API exist (ADR-0001). The only network calls are the optional BYOK provider clients, mapped in `service-map.md`.
 
-- `docs/api/api-specification.md`: primary context.
-- `docs/tdd/tdd.md`: related intent.
-
-Online capabilities are draft responsibilities, not implemented routes. No handlers, client calls or contract tests exist.
-
-Read exact files; this map is navigation, not implementation truth. Update with real source paths when code exists.
+- Docs: `docs/api/api-specification.md`

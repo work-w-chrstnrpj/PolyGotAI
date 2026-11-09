@@ -20,11 +20,12 @@ private struct RecordingPresentation: Identifiable {
 struct AppShell: View {
     @Environment(\.scenePhase) private var rewardScene
     @Bindable var storage: LearnerStorageController
-    @Environment(\.horizontalSizeClass) private var sizeClass
     @State private var destination: AppDestination = .today
     @State private var showSettings = false
     @State private var recordingPresentation: RecordingPresentation?
     @State private var practiceContext: PracticeSessionContext?
+    /// Areas of the practice screens that are open; while non-empty the bottom tab bar is hidden.
+    @State private var openPracticeAreas: [PracticeArea] = []
 
     /// Applies music, sound effect and haptic choices (on by default since 2026-10-30; off in UI tests with fixtures).
     private func configureSound() {
@@ -78,89 +79,22 @@ struct AppShell: View {
         .onReceive(NotificationCenter.default.publisher(for: .rewardLedgerChanged)) { _ in configureSound() }
     }
 
-    /// iPhone: the system tab bar. iPad: one bottom bar in portrait and a sidebar in landscape. Both iPad chromes
-    /// wrap the same TabView, so rotating keeps the selected tab and every open screen.
-    private var usesCustomChrome: Bool { UIDevice.current.userInterfaceIdiom == .pad }
+    private var isPad: Bool { UIDevice.current.userInterfaceIdiom == .pad }
 
+    /// iPhone: the system tab bar. iPad: a floating glass bar at the bottom that looks like the iPhone's. Both sit on
+    /// one `TabView`, so rotating keeps the selected tab and every open screen.
     private var adaptiveNavigation: some View {
-        GeometryReader { proxy in
-            let showsSidebar = usesCustomChrome && sizeClass == .regular && proxy.size.width > proxy.size.height
-            HStack(spacing: 0) {
-                if showsSidebar {
-                    sidebar
-                    Divider()
-                }
-                VStack(spacing: 0) {
-                    TabView(selection: $destination) {
-                        ForEach(AppDestination.allCases) { item in
-                            navigationContent(item)
-                                .tabItem { Label(item.title, systemImage: item.symbol) }
-                                .tag(item)
-                        }
-                    }
-                    if usesCustomChrome && !showsSidebar { bottomBar }
-                }
-            }
-        }
-    }
-
-    private var sidebar: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            Text("PolyGotAI").font(.title2.bold())
-                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).lineLimit(1).minimumScaleFactor(0.8)
-                .padding(.horizontal, 20).padding(.top, 24).padding(.bottom, 12)
+        TabView(selection: $destination) {
             ForEach(AppDestination.allCases) { item in
-                Button { destination = item } label: {
-                    Label(item.title, systemImage: item.symbol)
-                        .font(.body)
-                        .dynamicTypeSize(...DynamicTypeSize.accessibility1)
-                        .lineLimit(1).minimumScaleFactor(0.8)
-                        .foregroundStyle(destination == item ? Kit.onAccent : Kit.ink)
-                        .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 4)
-                        .background(
-                            destination == item ? Kit.accent : Color.clear,
-                            in: RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        )
-                }
-                .buttonStyle(.plain)
-                .padding(.horizontal, 8)
-                .accessibilityIdentifier("navigation.\(item.rawValue)")
-                .accessibilityAddTraits(destination == item ? .isSelected : [])
+                navigationContent(item)
+                    .tabItem { Label(item.title, systemImage: item.symbol) }
+                    .tag(item)
             }
-            Spacer()
         }
-        .frame(width: 280)
-        .background(Kit.canvas(storage.preferences.background))
-    }
-
-    private var bottomBar: some View {
-        VStack(spacing: 0) {
-            Divider()
-            HStack(spacing: 0) {
-                ForEach(AppDestination.allCases) { item in
-                    Button { destination = item } label: {
-                        VStack(spacing: 4) {
-                            Image(systemName: item.symbol).font(.title3)
-                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge).frame(height: 26)
-                            Text(item.title).font(.caption2.weight(.medium))
-                                .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
-                                .lineLimit(1).minimumScaleFactor(0.8)
-                        }
-                        .foregroundStyle(destination == item ? Kit.accent : Kit.secondary)
-                        .frame(maxWidth: .infinity, minHeight: 49)
-                        .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-                    .accessibilityLabel(item.title)
-                    .accessibilityIdentifier("navigation.\(item.rawValue)")
-                    .accessibilityAddTraits(destination == item ? [.isButton, .isSelected] : .isButton)
-                }
-            }
-            .padding(.top, 6)
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            if isPad && openPracticeAreas.isEmpty { FloatingTabBar(selection: $destination) }
         }
-        .background(Kit.canvas(storage.preferences.background).ignoresSafeArea(edges: .bottom))
+        .onPreferenceChange(PracticeAreaKey.self) { openPracticeAreas = $0; storage.practice.areaChanged($0.first) }
     }
 
     private func navigationContent(_ item: AppDestination) -> some View {
@@ -182,7 +116,7 @@ struct AppShell: View {
                                 ProgressOverview(storage: storage, install: CurriculumCatalogLoader.bundled)
                             }
                         }
-                        .frame(maxWidth: 700, alignment: .leading)
+                        .frame(maxWidth: 760, alignment: .leading)
                         .padding(20)
                         .frame(maxWidth: .infinity)
                     }
@@ -190,9 +124,8 @@ struct AppShell: View {
             .background(Kit.canvas(storage.preferences.background))
             .foregroundStyle(Kit.ink)
             .navigationTitle(item.title)
-            .navigationBarTitleDisplayMode(.large)
-            // `.automatic` (not `.visible`) on iPhone, so a pushed lesson can hide the tab bar and own the screen.
-            .toolbar(usesCustomChrome ? .hidden : .automatic, for: .tabBar)
+            .navigationBarTitleDisplayMode(isPad ? .inline : .large)
+            .toolbar(isPad || !openPracticeAreas.isEmpty ? .hidden : .automatic, for: .tabBar)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { showSettings = true } label: { Image(systemName: "person.crop.circle") }
@@ -279,4 +212,51 @@ struct SpeechLabContent: View {
     }
 
     private var videosDetail: String { "\(watchedCount) of \(LabVideoCatalog.all.count) watched" }
+}
+
+/// The iPad bottom bar: the iPhone tab bar's look (floating capsule of Liquid Glass, filled symbol, tinted pill on the
+/// selected tab), centred and no wider than a phone-sized bar.
+private struct FloatingTabBar: View {
+    @Binding var selection: AppDestination
+
+    var body: some View {
+        HStack(spacing: 2) {
+            ForEach(AppDestination.allCases) { item in
+                let selected = selection == item
+                Button { selection = item } label: {
+                    VStack(spacing: 3) {
+                        Image(systemName: item.symbol).symbolVariant(selected ? .fill : .none)
+                            .font(.system(size: 22)).frame(height: 26)
+                        Text(item.title).font(.caption2.weight(.medium)).lineLimit(1).minimumScaleFactor(0.8)
+                    }
+                    .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
+                    .foregroundStyle(selected ? Kit.accent : Kit.ink)
+                    .frame(maxWidth: .infinity, minHeight: 56)
+                    .background(selected ? Kit.accent.opacity(0.16) : Color.clear, in: Capsule())
+                    .contentShape(Capsule())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(item.title)
+                .accessibilityIdentifier("navigation.\(item.rawValue)")
+                .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
+            }
+        }
+        .padding(6)
+        .frame(maxWidth: 560)
+        .modifier(GlassCapsule())
+        .padding(.horizontal, 20)
+        .padding(.bottom, 6)
+        .frame(maxWidth: .infinity)
+    }
+}
+
+private struct GlassCapsule: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content.glassEffect(.regular, in: Capsule())
+        } else {
+            content.background(.ultraThinMaterial, in: Capsule())
+                .overlay(Capsule().stroke(Color.primary.opacity(0.08)))
+        }
+    }
 }

@@ -69,6 +69,7 @@ struct RecordingView: View {
             .safeAreaInset(edge: .bottom, spacing: 0) { reviewDecisionBar }
             .background(Kit.canvas(storage.preferences.background)).foregroundStyle(Kit.ink)
             .navigationTitle("Record & review").navigationBarTitleDisplayMode(.inline)
+            .practiceScreen(area: .lab)
             .toolbar { ToolbarItem(placement: .cancellationAction) {
                 Button(recording.phase == .finished ? "Done" : "Close") {
                     if recording.phase == .finished || (recording.candidate == nil && recording.accepted == nil && recording.phase == .ready) { dismiss() }

@@ -33,6 +33,12 @@ final class LearnerStorageController {
         try repository.recordUsage(start: start, end: end)
     }
 
+    /// Saves each stretch of practice time of a minute or more (lesson, Lexicon, Lab).
+    @ObservationIgnored lazy var practice = PracticeRecorder { [weak self] stretch in
+        guard let repository = self?.repository else { throw LearnerStorageError.unavailable }
+        try repository.recordPractice(stretch)
+    }
+
     /// Folder for the store and private files. Nil means Application Support (the app's own data).
     @ObservationIgnored private var customRoot: URL? = nil
 

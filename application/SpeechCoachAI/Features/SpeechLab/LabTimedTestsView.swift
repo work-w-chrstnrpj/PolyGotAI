@@ -155,6 +155,7 @@ struct TimedTestView: View {
             }
             if let message = controller.message { Text(message).foregroundStyle(Kit.error).accessibilityIdentifier("timed.error") }
         }
+        .practiceScreen(area: .lab)
         .aiSetupSheet(isPresented: $setup) {
             if controller.stage == .start, !controller.isAvailable {
                 controller = TimedTestController(kind: kind, service: Self.localService(), seconds: seconds)

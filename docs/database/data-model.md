@@ -37,6 +37,10 @@
 
 The existing lesson-journey JSON gains optional `readingPageIndex: Int?` and `readingCompletedAt: Date?`. Old documents omit both and decode without migration. Reading navigation commits the same journey with its existing responses; reading alone awards no exercise completion. New topic lessons use distinct IDs and content version 2. Retired lesson definitions live in bundled track `archivedLessons`, not in learner storage, and remain resolvable by exact ID/version. No owner data is reset or deleted.
 
+## Practice time (2026-11-09, ticket #5)
+
+New optional learner-document field `practice: PracticeLog?` (decoded with `decodeIfPresent`; absent in older documents, which load with an empty log; no SwiftData migration, owner-approved). `PracticeLog.stretches` is a list of `PracticeStretch` (`start`, `seconds` of active time, `area` = `lesson` | `lexicon` | `lab`); only stretches of a minute or more are kept, and a stretch counts toward the day it started on. It sits beside, and never changes, screen time (`usage: UsageLog`). Erase all data clears it with the rest of the document.
+
 ## Phase 15 — Lab videos and timed tests (2026-10-26)
 
 `SpeechLabState` (the existing optional `speechLab` JSON field) gains an optional `extras: LabExtrasState?`: `watched` (video ID → date marked), `fingerprints` (test kind → short hashes of past items, capped at 400 per kind) and `recentThemes` (test kind → last themes used). Older documents omit it and decode unchanged; no SwiftData migration. Item text is not stored, only hashes. Timed-writing feedback is saved in the existing `labFeedback` list with the new mode `writing`. Erase all data clears it with the rest of the document.

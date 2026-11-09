@@ -938,3 +938,117 @@ Copy this, fill it in, and append it at the bottom. Delete lines that don't appl
 **Files:** `.github/workflows/release.yml`, `.github/scripts/next-version.sh`, `.github/scripts/release-notes.sh`; `docs/commands/commands.md` (Branches and releases), `AGENTS.md` (repo map, Git rules).
 **Verification:** `bash -n` on both scripts; workflow YAML parses with the expected triggers and six steps. Dry runs in a scratch clone: no tag → 0.1.0, feat after v0.1.0 → 0.2.0, docs only → 0.2.1, `feat!:` on 0.x → 0.3.0; notes render grouped with commit links.
 **Not verified:** a real run on GitHub (needs `development` pushed and a merged PR); actionlint not installed. Squash merges are not supported for the commit list — use merge commits. No app code touched.
+
+### LOG-0103 · 2026-11-01 20:54 · Claude · CHANGE
+**Phase:** Owner-directed first release · **Status:** RELEASED v0.1.0
+**Summary:** On the owner's request, committed the release workflow on `development` (`0ce42c6`), pushed it, and merged [PR #1](https://github.com/work-w-chrstnrpj/PolyGotAI/pull/1) into `main` with a merge commit (`0132a3c`). This also brought remote `main` up from `38b2927` to all local work. The Release run passed in 14 s and published [PolyGotAI v0.1.0](https://github.com/work-w-chrstnrpj/PolyGotAI/releases/tag/v0.1.0) on `0132a3c`, with hand-written highlights from the PR description followed by every commit grouped by type. `development` was fast-forwarded to `main`. Follow-up: the first release now lists the whole history, a non-conventional subject such as `Lexicon: …` keeps its full text, and `actions/checkout` is now v6 because the run warned that Node 20 is deprecated.
+**Files:** `.github/workflows/release.yml` (checkout v6), this log, `docs/development-plan/progress.md`.
+**Not verified:** the checkout v6 change has not had a release run yet; it will on the next merge. No app code changed and no binary is attached to the release (none is built in CI).
+
+### LOG-0104 · 2026-11-08 21:00 · Claude · CHANGE
+**Phase:** Owner bug report (iPad A16, landscape) · **Status:** BUILT, simulator-checked; not committed
+**Summary:** Owner could not tap Today/Lexicon/Lesson/Lab/Progress in landscape on iPad. Removed the landscape sidebar from `AppShell.swift`: iPad now uses the same bottom selector bar in portrait and landscape (iPhone keeps the system tab bar). Badges looked tiny and wrapped words ("Conversa-tion"): badge artwork 56 → 80 pt, grid minimum 100 → 140 pt, tile padding trimmed (`ProgressOverview.swift`, `TodayView.swift`, `DesignSystem.swift`).
+**Files:** `Features/Navigation/AppShell.swift`, `Features/Progress/ProgressOverview.swift`, `Features/Today/TodayView.swift`, `Features/Shared/DesignSystem.swift`.
+**Verification:** iPad Air 13 and iPad (A16) simulators, landscape: tapped Lexicon and Progress via the bottom bar and both opened; badge grid reads cleanly. `Round4AccessibilityTests` (taps every tab in landscape) started on the A16 simulator; result below if finished.
+**Not verified:** the old sidebar bug was never reproduced (the old build was not run), so its exact cause is unconfirmed; it went away with the sidebar. Not re-installed on the physical iPad (device was unavailable). Full suite not run. Docs (`ui-ux-design.md` sidebar mention) not updated.
+
+### LOG-0105 · 2026-11-08 21:12 · Claude · CHANGE
+**Phase:** Follow-up to LOG-0104 · **Status:** test result recorded
+**Summary:** `Round4AccessibilityTests.testDarkModeDestinationsAndSpeechLabAccessibility` fails on the iPad (A16) simulator with "Hit area is too small" at the Progress audit (Today, Lexicon, Lesson, Coaches and Lab passed). Re-ran it on the original code (changes stashed): same failure, so it predates LOG-0104. The element is not yet identified, and the landscape part of the test was never reached.
+**Not verified:** which Progress control is too small; landscape tab taps in the XCUITest.
+
+### LOG-0106 · 2026-11-08 21:40 · Claude · CHANGE
+**Phase:** Owner decision: engr-toolbox is the main workflow, roles and skills · **Status:** DONE (docs/AI config only); not committed
+**Summary:** Retired the six roles from the earlier external preset (software-engineer, frontend-ui-ux-developer, backend-database-engineer, system-architect, sqa-engineer, technical-documentation-specialist) and their `.claude/agents` and `.codex/agents` adapters. The five toolbox roles remain (Architect, Builder, QA, SDET, Reviewer). Rewrote `AGENTS.md` (workflow, canonical structure, role and skill guide, verification command), `.ai/maps/agent-map.md` and `docs/guidelines/ai-structure-guidelines.md`. Earlier this session: added `## Skills` sections to the old roles and fixed `grill-with-docs` before they were retired; updated iPad docs (`ui-ux-design.md`, `progress.md`).
+**Verification:** `cli.mjs sync` (0 changes) and `validate` (69 checks, passed). Backup of the old roles: `application/.build/backup/old-roles/`.
+**Not verified:** root `preset.config.json` and the old `.agents/workflows/*-delivery.md` still describe the retired preset and were left in place (validate passes). Nothing committed.
+
+### LOG-0107 · 2026-11-08 21:50 · Claude · CHANGE
+**Phase:** Follow-up to LOG-0106 · **Status:** DONE; not committed
+**Summary:** Removed the remaining old-preset files: root `preset.config.json` and `.agents/workflows/{bugfix,feature,refactor}-delivery.md`. The toolbox CLI uses its own `.ai/cli/preset.config.json`, so it is unaffected. Backup: `application/.build/backup/old-preset/`.
+**Verification:** `cli.mjs sync` and `validate` pass after removal.
+
+### LOG-0108 · 2026-11-08 22:05 · Claude · CHANGE
+**Phase:** Docs and ADRs after toolbox adoption · **Status:** DONE; not committed
+**Summary:** `/adopt-project` had already run earlier today (GitHub issue #2, closed): architecture, glossary and ADRs 0001-0007 exist, so it was not repeated. Added [ADR-0008](docs/adr/0008-engr-toolbox-as-main-workflow.md) (toolbox as main workflow, roles, skills) and [ADR-0009](docs/adr/0009-ipad-bottom-tab-bar-only.md) (iPad bottom bar in both orientations), linked both from `docs/architecture.md`, and recorded the change in `docs/history-version.md`. Ran the `/update-docs` steps.
+**Verification:** `cli.mjs validate` passes (71 checks); sync point marked.
+**Not verified:** no new glossary terms were needed. ADRs 0008/0009 have no ticket ID (owner decisions made in chat).
+
+### LOG-0109 · 2026-11-08 22:20 · Claude · CHANGE
+**Phase:** Owner request: improve iPad UI/UX (HIG) · **Status:** BUILT, simulator-checked; not committed; no ticket (see note)
+**Findings (iPadOS HIG: use the large display, adapt to orientation and size):** the iPad showed the iPhone layout stretched. (1) The large title sat at the screen edge while content was a centered 700 pt column, so they did not line up. (2) One column of full-width cards and rows (a lone badge tile and 12 lesson rows each stretched to ~700 pt). (3) Lab sections left large empty areas. (4) The iPad uses a custom bottom bar, not the system tab bar the iPhone gets.
+**Change:** new `AdaptiveStack` layout and `.inColumns()` in `Features/Shared/DesignSystem.swift`; content width 1140 in `AppShell.swift`; two-column flow on Today, Lexicon, Lab (sections grouped) and Progress; Lesson course list as an adaptive grid; Progress badges 3 × 2 on iPad; Today badge tile capped at 200 pt. iPhone stays one column below about 700 pt.
+**Files:** `AppShell.swift`, `DesignSystem.swift`, `TodayView.swift`, `LexiconHome.swift`, `CourseCatalogView.swift`, `ProgressOverview.swift`; docs: `ui-ux-design.md`.
+**Verification:** iPad (A16) simulator, portrait: Today, Lesson, Lexicon, Lab, Progress; landscape: Today. iPhone 18 Pro Max portrait Today unchanged. Build passes.
+**Not verified:** no automated tests run for this change; `Round4AccessibilityTests` still fails on the Progress hit-area audit (LOG-0105); Coaches tab, pushed screens (lesson player, Talk, Settings) and iPad Air 13 not re-checked; the custom iPad bottom bar was not replaced with the system tab bar. No ticket was opened (it would be a public GitHub issue; ask the owner).
+
+### LOG-0110 · 2026-11-08 22:35 · Claude · CHANGE
+**Phase:** Owner request: use the iPhone's system tab bar on iPad · **Status:** BUILT, simulator-checked; not committed
+**Summary:** `AppShell.swift` now uses one system `TabView` for iPhone and iPad with `.tabBarOnly` on iPadOS 18+ (no sidebar, no custom bar; `bottomBar`, `usesCustomChrome` removed). iPadOS shows this bar at the top of the window. New [ADR-0010](docs/adr/0010-system-tab-bar-on-ipad.md) supersedes ADR-0009; `ui-ux-design.md`, `architecture.md` and `progress.md` updated.
+**Verification:** build passes; iPad (A16) simulator portrait: tab bar renders and tabs switch (Lesson and a lesson opened).
+**Not verified:** landscape tab taps and the UI tests with the new bar (tests find tabs via `app.tabBars.buttons[title]`, then the `navigation.*` identifier); the "still bad" iPad complaint is not yet narrowed to specific screens.
+
+### LOG-0111 · 2026-11-08 22:50 · Claude · CHANGE
+**Phase:** Owner feedback on iPad UI · **Status:** BUILT, simulator-checked; not committed
+**Summary:** Owner rejected the two-column layout and wanted a bottom bar that looks like the iPhone's. Reverted LOG-0109's columns (removed `AdaptiveStack`; Today, Lexicon, Lab, Progress and the Lesson list are single column again, 760 pt max, centered, inline title on iPad). Kept the larger badges. `AppShell.swift` now shows `FloatingTabBar` on iPad: a centered Liquid Glass capsule at the bottom with filled symbols and a tinted pill; the system tab bar is hidden on iPad only. ADR-0011 supersedes ADR-0010 (and ADR-0009).
+**Files:** `AppShell.swift`, `DesignSystem.swift`, `TodayView.swift`, `LexiconHome.swift`, `CourseCatalogView.swift`, `ProgressOverview.swift`; docs `ui-ux-design.md`, `architecture.md`, `progress.md`, ADRs.
+**Verification:** build passes; iPad (A16) simulator: portrait Today shows the bar and single column; landscape: tapping Lab in the bar switched tabs.
+**Not verified:** UI tests (Round4 still fails on the Progress hit-area audit, LOG-0105); the bar on the iPad Air 13 or on iPadOS below 26; VoiceOver on the new bar.
+
+### LOG-0112 · 2026-11-09 09:00 · Claude · CHANGE
+**Phase:** Toolbox upkeep · **Status:** DONE; not committed
+**Summary:** `/adopt-project` was requested again but had already run (issue #2, closed; architecture, glossary and ADRs 0001-0011 exist), so it was not repeated. `validate` had regressed to one error because a session-start sync overwrote the earlier `grill-with-docs` fix. Re-applied it (step 4 now says the user can run `/prototype`) and removed the file's "Generated by engr-toolbox" line so a sync no longer overwrites it; ran `sync`.
+**Verification:** `cli.mjs validate` passes (77 checks); sync point marked.
+
+### LOG-0113 · 2026-11-09 10:00 · Claude · CHANGE
+**Phase:** Planning (grill, spec, test plan, tickets) for "tab bar hides on practice screens" and "practice time" · **Status:** PUBLISHED on GitHub; no code changed
+**Summary:** Owner answered the grilling (1b hide on all answer-giving screens; marker approach; 2-minute idle; listed areas incl. Lab videos; Progress switch plus breakdown; Today shows practice time; additive schema field approved). Spec published as issue #3 (label `spec`, approved by owner). `qa/plans/practice-time-and-tab-bar.md` written. Tickets published and linked as sub-issues of #3: #4 hide rule (dev), #5 tracker/report/storage (dev), #6 record from screens (dev, blocked by #4 #5), #7 show practice time and docs (dev, blocked by #6), #8 UI automation (blocked by #4), #9 QA device pass (blocked by #6 #7). Created labels spec, ready-for-agent, in-progress, in-review, type:dev, type:automation, type:qa.
+**Not done:** no code, GLOSSARY, ADR or UI-spec changes yet (they belong to #7). The qa strategy file is still a stub.
+
+### LOG-0114 · 2026-11-09 10:16 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #5 practice time tracker, report and storage · **Status:** BUILT, tests green in a scratch copy; committed
+**Summary:** Pure Domain code, no UI. `PracticeArea` (lesson, lexicon, lab), `PracticeStretch`, `PracticeLog`, `PracticeTracker` (1 min minimum, 2 min idle pause, 30 s away gap, crash recovery from `openSnapshot`) and `PracticeReport` (day/week/month/year, per area). New optional learner-document field `practice` (decodeIfPresent, no migration) plus `LearnerRepository+Practice.swift`. Screen time code untouched. data-model.md updated.
+**Files:** `Domain/PracticeLog.swift`, `Infrastructure/Persistence/LearnerRepository+Practice.swift`, `LearnerDocument.swift`, `PracticeTimeTests.swift`, `docs/database/data-model.md`.
+**Verification:** full unit suite passed (8 new `#5 AC1..AC7` tests plus XPLevelAndUsageTests) on iPhone 18 Pro Max, run in a scratch copy because of the clash below.
+**Not verified / open:** `Features/Shared/PracticeScreen.swift` (ticket #4) also declares `enum PracticeArea`, so the real checkout does not compile until #4 deletes it and uses the Domain one (message sent to that session). Recorder wiring (UserDefaults snapshot, flush) belongs to #6.
+
+### LOG-0115 · 2026-11-09 10:30 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #4 tab bar hides on practice screens · **Status:** BUILT, UI tests green on iPad and iPhone; committed
+**Summary:** One shared marker `practiceScreen(area:)` (preference key `PracticeAreaKey`, uses Domain `PracticeArea` from #5). AppShell reads it: it hides the iPad `FloatingTabBar` and the iPhone system tab bar while any practice screen is open. The two hard-coded `.toolbar(.hidden, for: .tabBar)` calls in the lesson player and jump test are gone. Marked: lesson player, jump test (Lesson); Lexicon training, practice, action (Lexicon); Lab timed test, Talk, Lab videos, recording (Lab).
+**Files:** `Features/Shared/PracticeScreen.swift` (new), `Features/Navigation/AppShell.swift`, the nine screen files above, `SpeechCoachAIUITests/PracticeTabBarUITests.swift`.
+**Verification:** `PracticeTabBarUITests` (5 tests: lesson, Lexicon training, Lab videos, Progress, rotation) passed on iPad A16 and iPhone 18 Pro Max; `Phase2LessonTests` passed on iPhone.
+**Not verified:** jump test, Lexicon practice/action, timed test, Talk and recording screens are marked but not opened by a UI test (Talk and timed tests need AI setup). AppShell.swift was committed whole because the owner's uncommitted FloatingTabBar rewrite lives in it; it may rely on other uncommitted owner files (DesignSystem.swift). Docs impact for #7: ADR-0011 consequence note, ui-ux-design.md line.
+
+### LOG-0116 · 2026-11-09 11:05 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #6 record practice time from the practice screens · **Status:** BUILT, unit tests green; committed
+**Summary:** New `App/PracticeRecorder.swift` mirrors `UsageRecorder`: injected clock, scene phase (30 s merge gap), heartbeat, UserDefaults snapshot of the open stretch, pending list flushed to `LearnerRepository.recordPractice`, crash recovery. `.practiceScreen(area:)` feeds it through `AppShell`'s `PracticeAreaKey` preference change. Touch idle uses a window-level `UIGestureRecognizer` (`TouchSignal`) that reports only that a touch happened (never cancels or delays touches). Wired in `SpeechCoachAIApp` and `LearnerStorageController.practice`. Times and areas only.
+**Files:** `App/PracticeRecorder.swift`, `App/LearnerStorageController.swift`, `App/SpeechCoachAIApp.swift`, `Features/Navigation/AppShell.swift`, `SpeechCoachAITests/PracticeRecorderTests.swift`.
+**Verification:** full unit suite 468 tests passed on iPhone 18 Pro Max (6 new `#6 AC1..AC6`); app builds for iPad A16.
+**Not verified / open:** AC1 and AC5 on real elapsed time and a real force-quit, and the touch recogniser on a device: fake-clock tests only, covered by QA ticket #9. Erase-all does not clear the recorder's UserDefaults (same as screen time). Docs impact for #7: glossary, ADR, ui-ux-design, data-model note on the recorder.
+
+### LOG-0117 · 2026-11-09 11:20 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #8 automate tab bar on every practice screen · **Status:** BUILT, UI tests green on iPad and iPhone; committed
+**Summary:** `PracticeTabBarUITests` now also opens the jump test, Lexicon practice (via the Vocabulary Enricher row), Lexicon in Action, a Lab timed test (`SC_TIMED_FIXTURE`), Talk (`SC_SPEECHLAB_FIXTURE`, `SC_TALK_FIXTURE`) and the recorder (`SC_A1_V2_FIXTURE` lesson flow). Each list-opened screen checks bar visible on the list, hidden on the screen, visible after Back. Tests are named `testIssue8AC1AC2…` / `testIssue8AC1RecordingHidesBar`.
+**Files:** `application/SpeechCoachAIUITests/PracticeTabBarUITests.swift` only. No app code touched.
+**Verification:** all 11 tests in the class passed on iPad (A16) and iPhone 18 Pro Max (`-derivedDataPath application/.build/Ticket8DerivedData`). One earlier iPhone run failed in the #4 Lab videos test and aborted, while another session's xcodebuild shared that simulator; the re-run was green. No app bug found.
+**Not verified:** the recorder is a sheet, so only "bar hidden while recording" is checked, not the bar after dismissing it (left for QA #9). Full `tools/native/verify.sh` not run.
+
+### LOG-0118 · 2026-11-09 12:10 · Claude [Sonnet] · CHANGE
+**Phase:** Ticket #7 show practice time in Progress and Today · **Status:** BUILT, tests green; committed
+**Summary:** Progress "Time in the app" has a Screen time | Practice time switch (same Day/Week/Month/Year views, open stretch included) and a Lesson/Lexicon/Lab "By area" breakdown; Today's third stat shows practice time. New `PracticeReport.buckets/shares`, `PracticeLog.including(_:)`, `PracticeTracker.openStretch(at:)`, `PracticeRecorder.openStretch()`, debug fixture `SC_PRACTICE_FIXTURE`. Docs: glossary (Screen time, Practice time, Practice screen, Practice area), ADR-0012, ADR-0011 consequence note, ui-ux-design.md.
+**Files:** `Domain/PracticeLog.swift`, `App/PracticeRecorder.swift`, `App/SpeakingEnvironment.swift`, `Features/Progress/UsageAnalyticsView.swift`, `Features/Today/TodayView.swift`, `PracticeTimeScreensTests.swift`, `ProgressPracticeUITests.swift`, `docs/adr/0012-*.md`, `docs/product-specification/ui-ux-design.md`, `qa/evidence/ticket-7/`.
+**Verification:** unit suite plus `ProgressUsageUITests`: 478 passed on iPhone 18 Pro Max; `ProgressPracticeUITests` (4 tests) passed on iPhone and iPad A16; `validate` passed, `drift --mark` done.
+**Not verified / open:** `GLOSSARY.md` and `docs/adr/` are untracked in git, so the glossary terms and the ADR-0011 note are edited on disk but not committed (only ADR-0012 was added). Owner's uncommitted hunks in `TodayView.swift`, `ProgressOverview.swift` and `ui-ux-design.md` were left out of the commit. Code review was done inline, not with subagents. `progress.md` not updated. Real-device practice timing is QA #9.
+
+### LOG-0118 · 2026-11-09 12:30 · Claude · CHANGE
+**Phase:** Requirement change on #7 (owner) · **Status:** BUILT and tested; committed with the files listed
+**Summary:** Ticket #7 got AC6 (the Screen time / Practice time choice is a dropdown) and AC7 (the practice chart is stacked by area, Lesson, Lexicon and Lab as three shades of the theme colour, same shades in the legend and the By area bars). Added `PracticeReport.areaBuckets` (Domain), a stacked chart plus `PracticeArea.shade` and an `AreaBar` in `UsageAnalyticsView.swift`; the dropdown is a menu `Picker` with id `usage.metric`. Updated `ProgressPracticeUITests` for the dropdown and added AC6 and AC7 UI tests, `PracticeTimeScreensTests` an AC7 unit test; UI spec line updated.
+**Verification:** `PracticeTimeScreensTests` 7/7 on iPhone 18 Pro Max; `ProgressPracticeUITests` 6/6 on iPad (A16); screenshot checked (dropdown, three-tone stacked bar). The AC7 unit test was written together with the code, not seen failing first.
+**Not verified:** iPhone UI run of the changed tests, light mode and large text for the new chart, the chart legend on screen (it sits below the fold in the screenshot), full unit and UI suites.
+
+### LOG-0119 · 2026-11-10 06:35 · Codex · CHANGE
+**Phase:** Release candidate #11 · **Status:** Verified for development with release blockers
+**Summary:** Collected the practice, provider, iPad UI and toolbox changes. Updated two Lab transcription fixtures to carry the model used by real requests. Kept the account quota capture in the ignored local backup and published only suggested model IDs and order.
+**Verification:** 17 iPhone practice UI checks passed. The broader run recorded 68 passes and 5 UI failures before result finalization was interrupted. Copy audit, curriculum validation, Figma helper verification, provider installer fixture and toolbox checks passed.
+**Open:** Physical-device QA (#9), provider acceptance (#10), UI failures and a toolbox release gate that cannot read GitHub tickets. No live provider calls.
+**Docs:** Updated the test specification, commands, capability report and progress tracker. [Release verification report](qa/runs/2026-11-10-v0.2.0-release-report.md).

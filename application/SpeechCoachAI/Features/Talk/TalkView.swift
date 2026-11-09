@@ -82,6 +82,7 @@ struct TalkView: View {
                     title: "Talk · \(session.mode.title)", storage: storage)
             }
         }
+        .practiceScreen(area: .lab)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Clear") { session.clear() }.accessibilityIdentifier("talk.clear") } }
         .onReceive(timer) { now in session.tick(now: now) }
         .onChange(of: session.turns.filter { $0.role == .assistant && !$0.text.isEmpty }.count) { _, replies in

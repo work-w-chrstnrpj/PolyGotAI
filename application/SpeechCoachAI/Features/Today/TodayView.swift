@@ -98,9 +98,9 @@ struct TodayView: View {
         displayedDate = .now
         lessons = CurrentLessons(storage: storage, install: install)
         ledger = try? storage.repository?.rewardLedger()
-        if let repository = storage.repository, var log = try? repository.usageLog() {
-            if let open = storage.usage.openStretch() { log.record(start: open.start, end: open.end) }
-            minutesToday = UsageReport(log: log).seconds(on: .now) / 60
+        if let repository = storage.repository, let log = try? repository.practiceLog() {
+            // Practice time, not screen time (ticket #7), with the stretch still open.
+            minutesToday = PracticeReport(log: log.including(storage.practice.openStretch())).total(.day, containing: .now) / 60
         }
     }
 }
@@ -213,7 +213,7 @@ struct RecentBadges: View {
                 }
                 HStack(alignment: .top, spacing: Kit.Space.m) {
                     ForEach(unique.prefix(limit)) { family in
-                        BadgeTile(title: family.title) { RewardArtwork(family: family, size: 56) }
+                        BadgeTile(title: family.title) { RewardArtwork(family: family, size: 80) }.frame(maxWidth: 200)
                     }
                 }
             }

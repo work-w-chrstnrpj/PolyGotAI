@@ -54,10 +54,10 @@ node tools/figma-local-helper/build.mjs
 node tools/figma-local-helper/verify.mjs
 ```
 
-## AI preset (external generator)
+## Engr-toolbox
 
 ```bash
-node /Users/chrixcrusher/Documents/Projects/ai-project-structure-template/bin/create-preset.mjs validate --into /Users/chrixcrusher/Documents/Projects/SpeechCoachAI
+node .ai/cli/bin/cli.mjs validate
 ```
 
-This checks the AI folder structure only, not app behavior. Preview a sync with `sync --target codex --profile fullstack --into <project> --dry-run` before applying it; a sync can overwrite managed `.agents/` files.
+Validation checks the project workflow files, maps and local ticket format. Application checks run separately through the native verifier. Preview adapter generation with `node .ai/cli/bin/cli.mjs sync --dry-run`.

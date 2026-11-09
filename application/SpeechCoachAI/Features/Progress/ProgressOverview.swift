@@ -91,6 +91,7 @@ private struct BadgeGrid: View {
     var storage: LearnerStorageController
     var ledger: RewardLedger
     @Environment(\.dynamicTypeSize) private var textSize
+    @Environment(\.horizontalSizeClass) private var sizeClass
 
     var body: some View {
         let earnedIDs = ledger.awards.sorted { $0.earnedAt > $1.earnedAt }.map(\.family)
@@ -102,12 +103,14 @@ private struct BadgeGrid: View {
             SectionHeader(title: "Badges · \(earned.count) earned") {
                 NavigationLink("See all") { RewardOverview(storage: storage) }.accessibilityIdentifier("progress.badges.all")
             }
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: textSize.isAccessibilitySize ? 160 : 100), spacing: Kit.Space.m)],
+            LazyVGrid(columns: sizeClass == .regular && !textSize.isAccessibilitySize
+                        ? Array(repeating: GridItem(.flexible(), spacing: Kit.Space.m, alignment: .top), count: 3)
+                        : [GridItem(.adaptive(minimum: textSize.isAccessibilitySize ? 180 : 140), spacing: Kit.Space.m)],
                       spacing: Kit.Space.m) {
                 ForEach(shown) { family in
                     let isEarned = earnedIDs.contains(family.id)
                     BadgeTile(title: family.title, detail: isEarned ? nil : "Not earned yet") {
-                        RewardArtwork(family: family, size: 56, status: isEarned ? "Earned" : "Not earned yet")
+                        RewardArtwork(family: family, size: 80, status: isEarned ? "Earned" : "Not earned yet")
                     }
                     .accessibilityIdentifier("progress.badge.\(family.id)")
                 }

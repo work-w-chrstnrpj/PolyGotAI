@@ -65,9 +65,9 @@ extension TimedTest {
     /// Accepts a chat-completions reply only when every key, count, length and index holds, and nothing repeats a past item.
     /// Analogy items seen before are dropped; at least 8 new ones must remain.
     init(response: Data, request: TimedTestRequest, seen: LabExtrasState = LabExtrasState(),
-         using generator: inout some RandomNumberGenerator) throws {
+         model: String = LabFeedbackService.model, using generator: inout some RandomNumberGenerator) throws {
         let content: ProviderCompletionContent
-        do { content = try ProviderCompletionContent(response: response, expectedModel: LabFeedbackService.model, maximumScalars: 12_000) }
+        do { content = try ProviderCompletionContent(response: response, expectedModel: model, maximumScalars: 12_000) }
         catch { throw LabFeedbackError.invalidResponse }
         guard let data = content.text.data(using: .utf8), let raw = try? JSONSerialization.jsonObject(with: data) as? [String: Any]
         else { throw LabFeedbackError.invalidResponse }
@@ -111,9 +111,9 @@ extension TimedTest {
         guard !fingerprints.contains(where: { seen.hasSeen($0, kind: kind) }) else { throw LabFeedbackError.invalidResponse }
     }
 
-    init(response: Data, request: TimedTestRequest, seen: LabExtrasState = LabExtrasState()) throws {
+    init(response: Data, request: TimedTestRequest, seen: LabExtrasState = LabExtrasState(), model: String = LabFeedbackService.model) throws {
         var generator = SystemRandomNumberGenerator()
-        try self.init(response: response, request: request, seen: seen, using: &generator)
+        try self.init(response: response, request: request, seen: seen, model: model, using: &generator)
     }
 
     private static func words(_ text: String) -> Int { SpeechLabDictationChecker.tokens(text, strict: false).count }
@@ -156,8 +156,8 @@ extension LabFeedbackService {
         defer { busy = false }
         var current = request
         for attempt in 0..<2 {
-            let response = try await send(try current.body(), stage: .coaching, timeout: timeout)
-            do { return try TimedTest(response: response, request: current, seen: seen) }
+            let reply = try await send(try current.body(), stage: .coaching, timeout: timeout)
+            do { return try TimedTest(response: reply.data, request: current, seen: seen, model: reply.model) }
             catch LabFeedbackError.invalidResponse where attempt == 0 {
                 try Task.checkCancellation()
                 current.nonce = String(UUID().uuidString.prefix(8))

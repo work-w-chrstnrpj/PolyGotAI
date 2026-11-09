@@ -212,6 +212,10 @@ struct FeedbackContent: View {
             }
             if feedback.improvements.isEmpty { Text("No corrections were suggested for this text.") }
             ForEach(Array(feedback.limitations.enumerated()), id: \.offset) { _, limitation in Text(limitation).font(.footnote) }
+            Text(Self.answeredBy(feedback)).font(.caption).foregroundStyle(Kit.secondary).accessibilityIdentifier("feedback.model")
         }
     }
+
+    /// Which model wrote this feedback (#10).
+    static func answeredBy(_ feedback: FeedbackSnapshot) -> String { "Answered by \(feedback.model)" }
 }

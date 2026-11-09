@@ -35,6 +35,7 @@ struct LabVideosView: View {
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .navigationTitle("Videos").navigationBarTitleDisplayMode(.inline)
+        .practiceScreen(area: .lab)
         .onAppear(perform: load)
         .onChange(of: scenePhase) { _, phase in
             // Back from YouTube: count the video that was opened as watched.

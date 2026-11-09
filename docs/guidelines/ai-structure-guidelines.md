@@ -1,12 +1,12 @@
 # AI structure guidelines
 
-The project uses the Codex/fullstack preset from `ai-project-structure-template` as reusable guidance. Project requirements live in `AGENTS.md` and `docs/`, not in the portable roles and skills.
+The project uses the engr-toolbox (v3.4.0) as its main workflow, roles and skills (owner decision 2026-11-08). Project requirements live in `AGENTS.md` and `docs/`, not in the portable roles and skills.
 
 ## Installed assets
 
-- Six roles in `.agents/roles/`: Software Engineer, System Architect, Frontend UI/UX Developer, Backend & Database Engineer, SQA Engineer, Technical Documentation Specialist. Codex adapters are in `.codex/agents/`.
+- Five roles in `.agents/roles/`: Architect, Builder, QA, SDET, Reviewer. Generated adapters are in `.claude/agents/` and `.codex/agents/`. The six roles from the earlier external preset were retired (backup: `application/.build/backup/old-roles/`).
 - Mentor and Coach style overlays in `.agents/overlays/`; workflows in `.agents/workflows/`; skills in `.agents/skills/`.
-- Edit canonical `.agents/` files, not generated adapters. The generator is external; see [commands](../commands/commands.md#ai-preset-external-generator).
+- Edit canonical `.agents/` files, not generated adapters; then run `node .ai/cli/bin/cli.mjs sync` and `validate`. Tickets live in `tickets/`.
 
 ## Team (v2)
 

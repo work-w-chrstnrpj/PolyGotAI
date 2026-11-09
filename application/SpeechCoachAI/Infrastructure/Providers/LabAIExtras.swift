@@ -37,9 +37,9 @@ struct AIFollowUp: Equatable {
     let text: String
 
     /// Accepts one short question that picks up a word from the learner's answer. Anything else is rejected, and the scripted follow-up is used.
-    init(response: Data, answer: String) throws {
+    init(response: Data, answer: String, model: String = LabFeedbackService.model) throws {
         let content: ProviderCompletionContent
-        do { content = try ProviderCompletionContent(response: response, expectedModel: LabFeedbackService.model, maximumScalars: 2_000) }
+        do { content = try ProviderCompletionContent(response: response, expectedModel: model, maximumScalars: 2_000) }
         catch { throw LabFeedbackError.invalidResponse }
         guard let data = content.text.data(using: .utf8), let raw = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
               Set(raw.keys) == ["followUp", "speechAssessmentStatus"], raw["speechAssessmentStatus"] as? String == "not_assessed",
@@ -95,9 +95,9 @@ struct GeneratedLexicon: Equatable {
     let skipped: [String]
 
     init(response: Data, request: LexiconGenerationRequest, bank: LexiconBank,
-         topics: [CustomVocabularyTopic] = [], enrollments: [VocabularyEnrollment] = []) throws {
+         topics: [CustomVocabularyTopic] = [], enrollments: [VocabularyEnrollment] = [], model: String = LabFeedbackService.model) throws {
         let content: ProviderCompletionContent
-        do { content = try ProviderCompletionContent(response: response, expectedModel: LabFeedbackService.model, maximumScalars: 12_000) }
+        do { content = try ProviderCompletionContent(response: response, expectedModel: model, maximumScalars: 12_000) }
         catch { throw LabFeedbackError.invalidResponse }
         guard let data = content.text.data(using: .utf8), let raw = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
               Set(raw.keys) == ["words"], let items = raw["words"] as? [[String: Any]], !items.isEmpty,
@@ -143,8 +143,8 @@ extension LabFeedbackService {
         guard !busy else { throw LabFeedbackError.busy }
         busy = true
         defer { busy = false }
-        let response = try await send(body, stage: .coaching, timeout: timeout)
-        return try AIFollowUp(response: response, answer: request.answer)
+        let reply = try await send(body, stage: .coaching, timeout: timeout)
+        return try AIFollowUp(response: reply.data, answer: request.answer, model: reply.model)
     }
 
     /// A short list of vocabulary cards for a topic, for the learner to review before saving. Nothing is saved here.
@@ -156,13 +156,13 @@ extension LabFeedbackService {
         guard !busy else { throw LabFeedbackError.busy }
         busy = true
         defer { busy = false }
-        let response = try await send(body, stage: .coaching, timeout: timeout)
-        return try GeneratedLexicon(response: response, request: request, bank: bank, topics: topics, enrollments: enrollments)
+        let reply = try await send(body, stage: .coaching, timeout: timeout)
+        return try GeneratedLexicon(response: reply.data, request: request, bank: bank, topics: topics, enrollments: enrollments, model: reply.model)
     }
 
-    func send(_ body: Data, stage: SpeakingRequestStage, timeout: TimeInterval) async throws -> Data {
+    func send(_ body: Data, stage: SpeakingRequestStage, timeout: TimeInterval) async throws -> ProviderReply {
         var timedOut = false
-        let call = Task { try await provider.send(body: body, scope: scope, stage: stage) }
+        let call = Task { try await provider.sendRouted(body: body, scope: scope, stage: stage, ledger: ledger) }
         let timer = Task {
             try? await Task.sleep(for: .seconds(timeout))
             if !Task.isCancelled { timedOut = true; call.cancel() }

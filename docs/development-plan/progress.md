@@ -117,7 +117,7 @@ Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [code
 | 0.4 | Convert Xcode project to folder-synchronized groups | Claude | ✅ | Builds; bundle has all 57 audio clips, 3 JSON files, asset catalog, award masters; 283/283 unit tests pass. New files under the source folders no longer need registering. Backup: `application/.build/backup/` |
 | 0.5 | Remove disclaimer and "unavailable" copy; hide unfinished features | Claude (Codex has no usage) | ✅ | ~27 disclaimer lines deleted; Word of the Day, Generated practice and topic suggestions removed from navigation (code kept). Verified: 312/312 unit tests; 6 targeted UI tests pass on iPhone 18 Pro Max |
 | 0.6 | Simplify Today to one continue card | Claude | ✅ screenshot-verified | Date, one-line tagline, one "Up next" card, review row when words are due, rewards summary |
-| 0.7 | **iPad navigation:** bottom tab bar in portrait, sidebar in landscape | Claude | ✅ simulator-verified; owner to check on the real iPad | iPad (A16) simulator: portrait bottom bar, landscape sidebar, lesson stays open through two rotations; iPhone unchanged |
+| 0.7 | **iPad navigation:** bottom tab bar in portrait, sidebar in landscape. **Superseded 2026-11-08 (LOG-0104):** sidebar removed, then a floating glass bar matching the iPhone's (ADR-0011); badges enlarged (80 pt art, 140 pt tiles) | Claude | ✅ simulator-verified; owner to check on the real iPad | iPad (A16) simulator: portrait bottom bar, landscape sidebar, lesson stays open through two rotations; iPhone unchanged |
 | 0.8 | Tab order Today \| Lexicon \| Lesson \| Speech Lab \| Progress; rename Vocabulary → Lexicon and Learn → Lesson | Claude | ✅ built; UI tests updated | |
 | 0.9 | Taglines on one line | Claude | ✅ | Today, Speech Lab, lesson, resources, Lexicon headers |
 | 0.10 | Speech Lab keeps Introduction, Conversation, Interview, Communication | Claude | ✅ | Already the case on screen; new modes arrive in Phase 5 |
@@ -224,3 +224,11 @@ Plan: [phases/round-4/README.md](phases/round-4/README.md). Codex handoff: [code
 ## Phase 9 — Lab v3 (2026-10-26)
 
 Owner confirmed Codex's Phase 9 assignment. P9-1 Voice, P9-2 Spelling, P9-3 streamed Talk engine, P9-4 Talk screen and P9-5 Lab shell are implemented and **under verification**, not approved. The optional voice preference field was authorized explicitly by the owner. Hosted tests: 399 passed. Phase 9 iPhone 4/4 and iPad 4/4 passed. Full verification failed: 42/52 UI pass, 10 Today/Lexicon/audit failures handed to Claude (LOG-0069). [Evidence](phases/phase-9/evidence/README.md). Physical audio/recognition, live-provider verification and owner play-test remain open. No commit or push.
+
+## First release — 2026-11-01
+
+Branches are now `development` (work) and `main` (releases). Merging a `development` → `main` pull request publishes a GitHub release with grouped notes ([commands](../commands/commands.md#branches-and-releases)). **v0.1.0** was published from [PR #1](https://github.com/work-w-chrstnrpj/PolyGotAI/pull/1): [release page](https://github.com/work-w-chrstnrpj/PolyGotAI/releases/tag/v0.1.0). Owner visual acceptance, full-suite and iPad checks listed above remain open.
+
+## v0.2.0 release candidate — 2026-11-10
+
+Practice time, tab-bar handling and ranked provider fallback are in the release candidate. The iPhone practice UI checks passed. The broader verification recorded five UI failures, and physical-device acceptance remains open. See the [release verification report](../../qa/runs/2026-11-10-v0.2.0-release-report.md) and [release ticket #11](https://github.com/work-w-chrstnrpj/PolyGotAI/issues/11).

@@ -35,6 +35,13 @@ enum SpeakingEnvironment {
                 try repository.recordUsage(start: finish.addingTimeInterval(-Double(minutes) * 60), end: finish)
             }
         }
+        if fixtureID != nil, ProcessInfo.processInfo.environment["SC_PRACTICE_FIXTURE"] == "1", try repository.practiceLog().stretches.isEmpty {
+            // Synthetic practice today: Lesson 12 min, Lexicon 5 min, Lab 3 min; yesterday Lesson 8 min.
+            let start = Calendar.current.startOfDay(for: .now).addingTimeInterval(3_600)
+            for (offset, minutes, area) in [(0.0, 12, PracticeArea.lesson), (0.1, 5, .lexicon), (0.2, 3, .lab), (-24.0, 8, .lesson)] {
+                try repository.recordPractice(PracticeStretch(start: start.addingTimeInterval(offset * 3_600), seconds: minutes * 60, area: area))
+            }
+        }
         if fixtureID != nil, ProcessInfo.processInfo.environment["SC_REWARD_FIXTURE"] == "1",
            try repository.allLessonJourneys().isEmpty,
            let lesson = CurriculumCatalogLoader.bundled.lesson(id: "intro-01", version: "4") {

@@ -49,3 +49,8 @@ This builds the app and runs all hosted unit tests and UI tests on the iPhone 18
 `TopicLessonTests` verifies all ten coaches have valid teaching/examples and 15–20 activities, exact retired-version recovery, no old-to-new credit transfer, repository checkpoint/answer retention, legacy JSON compatibility and malformed-page rejection. `TrackContentTests` checks every current model answer and syllabus shape. `validate.py` checks reading examples/counts and archived content; the topic builder must produce byte-identical output when repeated.
 
 `Phase13TopicLessonTests`: open Nouns, read/back, relaunch at the saved page, enter exercises, answer, reread and return to the same next exercise; Business topic reading at largest text in dark mode, portrait/landscape. Repeat on iPhone/iPad. Phase 2 coach continuation and the real Grammarian stage test use the new topic IDs/counts. Evidence/results: [Phase 13](../development-plan/phases/phase-13/README.md). Content review, real VoiceOver and owner acceptance remain separate gates.
+
+## Practice time and provider fallback
+
+- `PracticeTimeTests`, `PracticeRecorderTests` and `PracticeTimeScreensTests` cover timing, recovery, persistence and reporting. `PracticeTabBarUITests` and `ProgressPracticeUITests` cover navigation and time displays. [Device QA plan](../../qa/plans/practice-time-and-tab-bar.md)
+- `ProviderModelFallbackTests` uses synthetic replies to check ranked model configuration, quota-only fallback, the daily skip ledger and model identity on feedback. `LabFeedbackTests` exercises transcription and reply validation with a fake transport.

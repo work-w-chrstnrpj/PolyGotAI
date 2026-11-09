@@ -30,6 +30,8 @@ extension LearnerRepository {
         var labFeedback: [StoredLabFeedback]? = nil
         /// v2: screen time (stretches of a minute or more) for the Progress analytics.
         var usage: UsageLog? = nil
+        /// Practice time (stretches of a minute or more in Lesson, Lexicon, Lab). Optional; absent in older documents.
+        var practice: PracticeLog? = nil
 
         init(preferences: LearnerPreferences, lessonJourneys: [LessonJourney] = [],
              vocabularyEnrollments: [VocabularyEnrollment] = [], vocabularyExposures: [VocabularyExposure] = [],
@@ -53,7 +55,7 @@ extension LearnerRepository {
         }
 
         private enum CodingKeys: String, CodingKey {
-            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, rewards, passedJumpTests, lexicon, speechLab, labFeedback, usage
+            case preferences, lessonJourneys, vocabularyEnrollments, vocabularyExposures, customTopics, vocabularyRecalls, reviewCards, senseCredits, openRecall, dailyChoice, confidenceNote, attemptFormats, reviewSettings, practiceGoal, speakingPracticeArchives, learningResources, rewards, passedJumpTests, lexicon, speechLab, labFeedback, usage, practice
         }
 
         init(from decoder: Decoder) throws {
@@ -80,6 +82,7 @@ extension LearnerRepository {
             speechLab = try container.decodeIfPresent(SpeechLabState.self, forKey: .speechLab)
             labFeedback = try container.decodeIfPresent([StoredLabFeedback].self, forKey: .labFeedback)
             usage = try container.decodeIfPresent(UsageLog.self, forKey: .usage)
+            practice = try container.decodeIfPresent(PracticeLog.self, forKey: .practice)
         }
 
         func encode(to encoder: Encoder) throws {
@@ -106,6 +109,7 @@ extension LearnerRepository {
             try container.encodeIfPresent(speechLab, forKey: .speechLab)
             try container.encodeIfPresent(labFeedback, forKey: .labFeedback)
             try container.encodeIfPresent(usage, forKey: .usage)
+            try container.encodeIfPresent(practice, forKey: .practice)
         }
 
         func customLibrary() -> CustomVocabularyLibrary {

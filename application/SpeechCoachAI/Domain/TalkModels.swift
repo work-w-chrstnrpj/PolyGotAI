@@ -53,9 +53,10 @@ struct TalkRequest {
     var mode: TalkMode
     var scenario: String
     var turns: [TalkTurn]
-    var model = "qwen-flash"
+    /// The first-choice model; the client sends the same turns to each ranked model in turn (ADR-0013).
+    var model = LabFeedbackService.model
     func body() throws -> Data {
-        guard model == "qwen-flash", scenario.count <= 1000, !turns.isEmpty,
+        guard ProviderModelID.isValid(model), scenario.count <= 1000, !turns.isEmpty,
               turns.allSatisfy({ !$0.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && $0.text.count <= 6000 }) else { throw TalkError.invalidResponse }
         var messages = [["role": "system", "content": mode.instruction(scenario: scenario)]]
         messages += turns.suffix(8).map { ["role": $0.role.rawValue, "content": $0.text] }
@@ -66,8 +67,11 @@ struct TalkRequest {
 
 enum TalkError: Error, Equatable {
     case unauthorized, quota, rateLimited, offline, interrupted, invalidResponse, setup, recognition
+    /// One model's free quota is used up; the client moves on to the next ranked model.
+    case freeQuota
     var message: String {
         switch self {
+        case .freeQuota: TalkError.quota.message
         case .unauthorized: "Check your provider key in Settings."
         case .quota: "Check your remaining quota in your provider account."
         case .rateLimited: "Wait a moment before trying again."
@@ -77,6 +81,10 @@ enum TalkError: Error, Equatable {
         case .setup: "Check your AI setup in Settings."
         case .recognition: "Allow microphone and speech access, then try again."
         }
+    }
+    /// Like `status(_:)`, but a 403 carrying the free-quota code is `freeQuota`, not a key or account problem.
+    static func from(status: Int, body: Data) -> TalkError? {
+        status == 403 && FreeTierOnlyReply.matches(body) ? .freeQuota : Self.status(status)
     }
     static func status(_ status: Int) -> TalkError? {
         switch status { case 200: nil; case 401: .unauthorized; case 402, 403: .quota; case 429: .rateLimited; default: .interrupted }

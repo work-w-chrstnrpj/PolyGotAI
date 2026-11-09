@@ -1,0 +1,63 @@
+{
+  "version": "0.3.0",
+  "size": "medium",
+  "mode": "existing",
+  "tracker": "github",
+  "tools": [
+    "claude",
+    "codex"
+  ],
+  "scope": "project",
+  "checks": null,
+  "contextRules": {
+    "requiredCore": [
+      {
+        "file": "AGENTS.md",
+        "checks": [
+          {
+            "pattern": "\\[State the project goal here\\.\\]",
+            "invert": true,
+            "message": "Project goal not set in AGENTS.md"
+          },
+          {
+            "pattern": "\\[Runtime or framework\\]",
+            "invert": true,
+            "message": "Tech stack not set in AGENTS.md"
+          }
+        ]
+      },
+      {
+        "file": "GLOSSARY.md",
+        "checks": []
+      },
+      {
+        "file": "docs/architecture.md",
+        "checks": [
+          {
+            "pattern": "> Status: NOT_STARTED",
+            "invert": true,
+            "message": "docs/architecture.md is NOT_STARTED"
+          }
+        ]
+      }
+    ],
+    "conditionalTasks": {
+      "api": {
+        "file": "docs/api/api-specification.md",
+        "name": "API specification"
+      },
+      "database": {
+        "file": "docs/database/data-model.md",
+        "name": "Data model"
+      },
+      "deployment": {
+        "file": "docs/deployment/deployment.md",
+        "name": "Deployment guide"
+      },
+      "testing": {
+        "file": "docs/testing/test-specification.md",
+        "name": "Test specification"
+      }
+    }
+  }
+}
