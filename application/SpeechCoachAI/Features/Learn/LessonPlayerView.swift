@@ -84,7 +84,7 @@ struct LessonPlayerView: View {
         .controlSize(.large)
         .navigationTitle(presentedLesson.title)
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar(.hidden, for: .tabBar)
+        .practiceScreen(area: .lesson)
         .safeAreaInset(edge: .bottom, spacing: 0) { footer }
         .toolbar {
             if presentedLesson.supplement != nil {

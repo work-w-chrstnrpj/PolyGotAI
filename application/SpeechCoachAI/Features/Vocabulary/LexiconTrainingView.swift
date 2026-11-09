@@ -36,6 +36,7 @@ struct LexiconTrainingView: View {
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .navigationTitle("Daily Training").navigationBarTitleDisplayMode(.inline)
+        .practiceScreen(area: .lexicon)
         .onAppear(perform: load)
     }
 

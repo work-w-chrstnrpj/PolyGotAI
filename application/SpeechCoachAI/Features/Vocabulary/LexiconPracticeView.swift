@@ -43,6 +43,7 @@ struct LexiconPracticeView: View {
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .navigationTitle(title).navigationBarTitleDisplayMode(.inline)
+        .practiceScreen(area: .lexicon)
         .onAppear { if !loaded { newRound() } }
     }
 

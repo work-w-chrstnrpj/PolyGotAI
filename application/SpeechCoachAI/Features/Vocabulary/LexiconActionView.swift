@@ -34,6 +34,7 @@ struct LexiconActionView: View {
         .background(Kit.canvas(storage.preferences.background))
         .foregroundStyle(Kit.ink)
         .navigationTitle("Lexicon in Action").navigationBarTitleDisplayMode(.inline)
+        .practiceScreen(area: .lexicon)
         .onAppear(perform: load)
     }
 
