@@ -193,6 +193,14 @@ struct PracticeShare: Equatable, Identifiable {
     var id: PracticeArea { area }
 }
 
+/// Practice time of one area in one bucket of a period (an hour, a day or a month): one piece of a stacked bar.
+struct PracticeAreaBucket: Equatable, Identifiable {
+    var start: Date
+    var area: PracticeArea
+    var seconds: Int
+    var id: String { "\(area.rawValue)-\(start.timeIntervalSince1970)" }
+}
+
 /// Practice totals per day, week, month and year, overall and per area. A stretch belongs to the day it started on.
 struct PracticeReport {
     let calendar: Calendar
@@ -241,6 +249,18 @@ struct PracticeReport {
             let end = calendar.date(byAdding: component, value: 1, to: start) ?? start
             let seconds = stretches.reduce(0) { $1.start >= start && $1.start < end ? $0 + $1.seconds : $0 }
             return UsageBucket(start: start, seconds: seconds)
+        }
+    }
+
+    /// The same buckets as `buckets`, split by area (Lesson, Lexicon, Lab order). Areas with no time in a bucket are left out.
+    func areaBuckets(_ period: UsagePeriod, containing date: Date) -> [PracticeAreaBucket] {
+        let component: Calendar.Component = period == .day ? .hour : period == .year ? .month : .day
+        return buckets(period, containing: date).flatMap { bucket -> [PracticeAreaBucket] in
+            let end = calendar.date(byAdding: component, value: 1, to: bucket.start) ?? bucket.start
+            return PracticeArea.allCases.compactMap { area in
+                let seconds = stretches.reduce(0) { $1.area == area && $1.start >= bucket.start && $1.start < end ? $0 + $1.seconds : $0 }
+                return seconds > 0 ? PracticeAreaBucket(start: bucket.start, area: area, seconds: seconds) : nil
+            }
         }
     }
 

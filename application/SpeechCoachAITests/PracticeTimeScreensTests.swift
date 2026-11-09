@@ -81,6 +81,28 @@ struct PracticeTimeScreensTests {
         #expect(report.shares(.year, containing: date(14)).map(\.seconds) == [1500, 300, 1920])
     }
 
+    @Test("#7 AC7 each bucket splits into its areas, and the areas add up to the bucket")
+    func ac7AreaBuckets() {
+        let report = PracticeReport(log: sampleLog(), calendar: calendar)
+        let day = date(14)
+        for period in UsagePeriod.allCases {
+            let split = report.areaBuckets(period, containing: day)
+            for bucket in report.buckets(period, containing: day) {
+                let parts = split.filter { $0.start == bucket.start }
+                #expect(parts.map(\.seconds).reduce(0, +) == bucket.seconds, "\(period) \(bucket.start)")
+            }
+            #expect(split.allSatisfy { $0.seconds > 0 })
+        }
+        let hour9 = report.areaBuckets(.day, containing: day).filter { $0.start == date(14, 9) }
+        #expect(hour9.map(\.area) == [.lesson])
+        let hour15 = report.areaBuckets(.day, containing: day).filter { $0.start == date(14, 15) }
+        #expect(hour15.map(\.area) == [.lexicon] && hour15.map(\.seconds) == [300])
+        // Two areas in one day bucket of the week view stack in Lesson, Lexicon, Lab order.
+        let wed = report.areaBuckets(.week, containing: day).filter { $0.start == date(14, 0) }
+        #expect(wed.map(\.area) == [.lesson, .lexicon] && wed.map(\.seconds) == [600, 300])
+        #expect(PracticeReport(log: PracticeLog(), calendar: calendar).areaBuckets(.week, containing: day).isEmpty)
+    }
+
     @Test("#7 AC3 Today shows today's practice time, not screen time")
     func ac3Today() throws {
         var usage = UsageLog()

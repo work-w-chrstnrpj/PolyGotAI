@@ -22,10 +22,15 @@ struct UsageAnalyticsView: View {
 
     var body: some View {
         KitCard {
-            Text("Time in the app").font(Kit.Fonts.section)
-            Picker("Measure", selection: $metric) {
-                ForEach(TimeMetric.allCases) { Text($0.rawValue).tag($0) }
-            }.pickerStyle(.segmented).accessibilityIdentifier("usage.metric")
+            HStack {
+                Text("Time in the app").font(Kit.Fonts.section)
+                Spacer(minLength: 8)
+                Picker("Measure", selection: $metric) {
+                    ForEach(TimeMetric.allCases) { Text($0.rawValue).tag($0) }
+                }
+                .pickerStyle(.menu).labelsHidden().tint(Kit.accent)
+                .accessibilityLabel("Measure").accessibilityIdentifier("usage.metric")
+            }
             Picker("Period", selection: $period) {
                 ForEach(UsagePeriod.allCases) { Text($0.title).tag($0) }
             }.pickerStyle(.segmented).accessibilityIdentifier("usage.period")
@@ -34,9 +39,7 @@ struct UsageAnalyticsView: View {
                 Text(UsageFormat.duration(practice.total(period, containing: anchor))).font(.system(.largeTitle, design: .rounded).bold())
                     .accessibilityIdentifier("usage.total")
                 Text(practiceSubtitle(practice)).font(.subheadline).foregroundStyle(Kit.secondary).accessibilityIdentifier("usage.subtitle")
-                let buckets = practice.buckets(period, containing: anchor)
-                if period == .day { hourChart(buckets, dayStart: calendar.startOfDay(for: anchor), label: "Practice by hour") }
-                else { chart(buckets, label: "Practice per") }
+                areaChart(practice)
                 breakdown(practice)
             } else if metric == .screen, let report {
                 Text(UsageFormat.duration(report.total(period, containing: anchor))).font(.system(.largeTitle, design: .rounded).bold())
@@ -147,12 +150,13 @@ struct UsageAnalyticsView: View {
             ForEach(practice.shares(period, containing: anchor)) { share in
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
+                        Circle().fill(share.area.shade).frame(width: 10, height: 10).accessibilityHidden(true)
                         Text(share.area.title)
                         Spacer()
                         Text(UsageFormat.duration(share.seconds)).foregroundStyle(Kit.secondary).monospacedDigit()
                     }
                     .font(.subheadline)
-                    KitProgressBar(value: share.fraction, height: 8)
+                    AreaBar(value: share.fraction, shade: share.area.shade)
                 }
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel(share.area.title)
@@ -247,6 +251,40 @@ struct UsageAnalyticsView: View {
         .accessibilityIdentifier("usage.timeline")
     }
 
+    // MARK: Practice: one stacked bar per hour or day, split by area
+
+    private func areaChart(_ practice: PracticeReport) -> some View {
+        let parts = practice.areaBuckets(period, containing: anchor)
+        let starts = practice.buckets(period, containing: anchor).map(\.start)
+        let unit: Calendar.Component = period == .day ? .hour : period == .year ? .month : .day
+        let first = starts.first ?? anchor
+        let end = calendar.date(byAdding: unit, value: 1, to: starts.last ?? anchor) ?? anchor
+        let label = period == .day ? "Practice by hour" : period == .year ? "Practice per month" : "Practice per day"
+        return Chart(parts) { part in
+            BarMark(x: .value("Date", part.start, unit: unit), y: .value("Minutes", Double(part.seconds) / 60))
+                .foregroundStyle(by: .value("Area", part.area.title))
+        }
+        .chartForegroundStyleScale(domain: PracticeArea.allCases.map(\.title), range: PracticeArea.allCases.map(\.shade))
+        .chartXScale(domain: first...end)
+        .chartXAxis {
+            switch period {
+            case .day: AxisMarks(values: .stride(by: .hour, count: 6)) { _ in AxisGridLine(); AxisValueLabel(format: .dateTime.hour()) }
+            case .week: AxisMarks(values: .stride(by: .day)) { _ in AxisValueLabel(format: .dateTime.weekday(.narrow)) }
+            case .month: AxisMarks(values: .stride(by: .day, count: 7)) { _ in AxisValueLabel(format: .dateTime.day()) }
+            case .year: AxisMarks(values: .stride(by: .month)) { _ in AxisValueLabel(format: .dateTime.month(.narrow)) }
+            }
+        }
+        .chartYAxisLabel("minutes")
+        .chartLegend(position: .bottom, alignment: .leading, spacing: 8)
+        .frame(height: 190)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(label)
+        .accessibilityValue(PracticeArea.allCases.map { area in
+            "\(area.title): \(UsageFormat.duration(parts.filter { $0.area == area }.reduce(0) { $0 + $1.seconds }))"
+        }.joined(separator: ", "))
+        .accessibilityIdentifier(period == .day ? "usage.timeline" : "usage.chart")
+    }
+
     // MARK: Week, month, year: totals
 
     private func chart(_ buckets: [UsageBucket], label: String) -> some View {
@@ -309,5 +347,33 @@ private struct UsageDateSheet: View {
                 Button("Done") { apply(day); dismiss() }.accessibilityIdentifier("usage.pick.done")
             }
         }
+    }
+}
+
+extension PracticeArea {
+    /// Three shades of the theme colour, so the areas stack into one family: Lesson full, Lexicon lighter, Lab lightest.
+    var shade: Color {
+        switch self {
+        case .lesson: Kit.accent
+        case .lexicon: Kit.accent.opacity(0.62)
+        case .lab: Kit.accent.opacity(0.34)
+        }
+    }
+}
+
+/// A bar for one area's share, drawn in that area's shade.
+private struct AreaBar: View {
+    var value: Double
+    var shade: Color
+    private var fraction: Double { value.isFinite ? min(max(value, 0), 1) : 0 }
+    var body: some View {
+        GeometryReader { proxy in
+            ZStack(alignment: .leading) {
+                Capsule().fill(Kit.accent.opacity(0.12))
+                Capsule().fill(shade).frame(width: fraction > 0 ? max(8, proxy.size.width * fraction) : 0)
+            }
+        }
+        .frame(height: 8)
+        .accessibilityHidden(true)
     }
 }

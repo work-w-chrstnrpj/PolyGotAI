@@ -27,6 +27,15 @@ final class ProgressPracticeUITests: XCTestCase {
         XCTAssertTrue(element.exists, element.identifier)
     }
 
+    /// The measure is a dropdown: open it, then pick the option.
+    @MainActor
+    private func choose(_ app: XCUIApplication, _ metric: XCUIElement, _ option: String) {
+        metric.tap()
+        let item = app.buttons[option].firstMatch
+        XCTAssertTrue(item.waitForExistence(timeout: 5), option)
+        item.tap()
+    }
+
     private func attach(_ app: XCUIApplication, _ name: String) {
         let shot = XCTAttachment(screenshot: app.screenshot()); shot.name = name; shot.lifetime = .keepAlways; add(shot)
     }
@@ -35,12 +44,12 @@ final class ProgressPracticeUITests: XCTestCase {
     func testIssue7AC1AC2ProgressSwitchesAndShowsBreakdown() {
         continueAfterFailure = false
         let app = launch(practice: true, tab: "Progress")
-        let metric = app.segmentedControls["usage.metric"]
+        let metric = app.buttons["usage.metric"]
         reach(app, metric)
         // Screen time first: 30 minutes today.
         XCTAssertTrue(app.staticTexts["usage.total"].label.contains("min"), app.staticTexts["usage.total"].label)
         XCTAssertFalse(app.staticTexts["usage.total"].label.contains("20 min"))
-        metric.buttons["Practice time"].tap()
+        choose(app, metric, "Practice time")
         // #7 AC1 Practice time is 20 minutes today (12 + 5 + 3), different from screen time.
         XCTAssertTrue(app.staticTexts["usage.total"].label.contains("20 min"), app.staticTexts["usage.total"].label)
         // #7 AC2 Lesson, Lexicon, Lab breakdown.
@@ -58,8 +67,42 @@ final class ProgressPracticeUITests: XCTestCase {
         }
         // Week holds yesterday's 8 minutes too only when it falls in the same week; month always holds today's 20.
         attach(app, "progress-practice-year")
-        metric.buttons["Screen time"].tap()
+        choose(app, metric, "Screen time")
         XCTAssertTrue(app.staticTexts["usage.total"].exists)
+    }
+
+    @MainActor
+    func testIssue7AC6MeasureIsADropdownNotASegmentedSwitch() {
+        continueAfterFailure = false
+        let app = launch(practice: true, tab: "Progress")
+        let metric = app.buttons["usage.metric"]
+        reach(app, metric)
+        XCTAssertFalse(app.segmentedControls["usage.metric"].exists)
+        metric.tap()
+        XCTAssertTrue(app.buttons["Screen time"].firstMatch.waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["Practice time"].firstMatch.exists)
+        app.buttons["Practice time"].firstMatch.tap()
+        XCTAssertTrue(app.staticTexts["usage.total"].label.contains("20 min"), app.staticTexts["usage.total"].label)
+    }
+
+    @MainActor
+    func testIssue7AC7PracticeChartIsStackedByArea() {
+        continueAfterFailure = false
+        let app = launch(practice: true, tab: "Progress")
+        let metric = app.buttons["usage.metric"]
+        reach(app, metric)
+        choose(app, metric, "Practice time")
+        for period in ["Day", "Week", "Month", "Year"] {
+            app.buttons[period].firstMatch.tap()
+            let chart = app.descendants(matching: .any)[period == "Day" ? "usage.timeline" : "usage.chart"].firstMatch
+            reach(app, chart)
+            let value = chart.value as? String ?? ""
+            // Every area is part of the same chart, in Lesson, Lexicon, Lab order.
+            XCTAssertTrue(value.contains("Lesson:") && value.contains("Lexicon:") && value.contains("Lab:"), "\(period): \(value)")
+            if period == "Day" { XCTAssertTrue(value.contains("Lesson: 12 min") && value.contains("Lexicon: 5 min") && value.contains("Lab: 3 min"), value) }
+        }
+        app.buttons["Day"].firstMatch.tap()
+        attach(app, "progress-practice-stacked")
     }
 
     @MainActor
@@ -77,9 +120,9 @@ final class ProgressPracticeUITests: XCTestCase {
     func testIssue7AC4NoPracticeShowsZeroWithoutCopyAboutIt() {
         continueAfterFailure = false
         let app = launch(practice: false, tab: "Progress")
-        let metric = app.segmentedControls["usage.metric"]
+        let metric = app.buttons["usage.metric"]
         reach(app, metric)
-        metric.buttons["Practice time"].tap()
+        choose(app, metric, "Practice time")
         XCTAssertEqual(app.staticTexts["usage.total"].label, "0 min")
         let lab = app.descendants(matching: .any)["usage.breakdown.lab"].firstMatch
         reach(app, lab)
@@ -102,9 +145,9 @@ final class ProgressPracticeUITests: XCTestCase {
     func testIssue7LargeTextAndDarkStillShowTheBreakdown() {
         continueAfterFailure = false
         let app = launch(practice: true, tab: "Progress", largeText: true, dark: true)
-        let metric = app.segmentedControls["usage.metric"]
+        let metric = app.buttons["usage.metric"]
         reach(app, metric)
-        metric.buttons["Practice time"].tap()
+        choose(app, metric, "Practice time")
         reach(app, app.descendants(matching: .any)["usage.breakdown.lab"].firstMatch)
         attach(app, "progress-practice-large-dark")
     }
