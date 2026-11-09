@@ -331,7 +331,7 @@ struct BadgeTile<Artwork: View>: View {
                     .multilineTextAlignment(.center).fixedSize(horizontal: false, vertical: true)
             }
         }
-        .padding(12)
+        .padding(.horizontal, 8).padding(.vertical, 12)
         // Fill the grid row so tiles in one row share a height.
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .kitSurface()

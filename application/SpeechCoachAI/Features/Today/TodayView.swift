@@ -213,7 +213,7 @@ struct RecentBadges: View {
                 }
                 HStack(alignment: .top, spacing: Kit.Space.m) {
                     ForEach(unique.prefix(limit)) { family in
-                        BadgeTile(title: family.title) { RewardArtwork(family: family, size: 56) }
+                        BadgeTile(title: family.title) { RewardArtwork(family: family, size: 80) }.frame(maxWidth: 200)
                     }
                 }
             }
