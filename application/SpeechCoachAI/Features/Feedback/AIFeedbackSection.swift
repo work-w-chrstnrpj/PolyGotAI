@@ -155,8 +155,14 @@ struct AIFeedbackCard: View {
             }
             Divider()
             Text(feedback.nextStep).fixedSize(horizontal: false, vertical: true)
+            if let line = Self.answeredBy(feedback) {
+                Text(line).font(.caption).foregroundStyle(Kit.secondary).accessibilityIdentifier("ai.model")
+            }
         }
     }
+
+    /// Which model wrote this feedback (#10). Older saved feedback has no model and shows nothing.
+    static func answeredBy(_ feedback: LabFeedback) -> String? { feedback.model.map { "Answered by \($0)" } }
 }
 
 struct AIFeedbackPrivacyView: View {

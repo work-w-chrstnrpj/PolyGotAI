@@ -13,8 +13,10 @@ nonisolated private final class TalkNoRedirects: NSObject, URLSessionTaskDelegat
     let scope: ProviderScope
     let verification: ProviderVerification?
     let credentials: ProviderCredentialStore
-    init(scope: ProviderScope, verification: ProviderVerification? = .bundled, credentials: ProviderCredentialStore = .init()) {
-        self.scope = scope; self.verification = verification; self.credentials = credentials
+    let ledger: FreeQuotaLedger
+    init(scope: ProviderScope, verification: ProviderVerification? = .bundled, credentials: ProviderCredentialStore = .init(),
+         ledger: FreeQuotaLedger = .shared) {
+        self.scope = scope; self.verification = verification; self.credentials = credentials; self.ledger = ledger
     }
     static func local() -> TalkStreamingClient? {
         #if DEBUG
@@ -25,9 +27,20 @@ nonisolated private final class TalkNoRedirects: NSObject, URLSessionTaskDelegat
               verification.permits(scope), (try? credentials.credential(scope: scope)?.isEmpty) == false else { return nil }
         return TalkStreamingClient(scope: scope, verification: verification, credentials: credentials)
     }
+    /// Sends the turns to the first ranked model with free quota left. A free-quota reply, which comes before any text,
+    /// moves the same turns to the next model; any other error stops (ADR-0013).
     func stream(_ request: TalkRequest, receive: @escaping @MainActor (String) -> Void) async throws {
-        guard verification?.permits(scope) == true else { throw TalkError.setup }
+        guard let verification, verification.permits(scope) else { throw TalkError.setup }
         guard let data = try credentials.credential(scope: scope), let key = String(data: data, encoding: .utf8) else { throw TalkError.setup }
+        for model in ledger.available(verification.models(for: .coaching)) {
+            var routed = request; routed.model = model
+            do { return try await stream(routed, key: key, receive: receive) }
+            catch TalkError.freeQuota { ledger.markSpent(model) }
+        }
+        throw TalkError.quota
+    }
+
+    private func stream(_ request: TalkRequest, key: String, receive: @escaping @MainActor (String) -> Void) async throws {
         let body = try request.body()
         try Task.checkCancellation()
         let config = SpeakingProviderClient.configuration(for: .coaching)
@@ -41,7 +54,13 @@ nonisolated private final class TalkNoRedirects: NSObject, URLSessionTaskDelegat
         do {
             let (bytes, response) = try await session.bytes(for: outbound)
             guard let response = response as? HTTPURLResponse, response.url == scope.endpoint else { throw TalkError.invalidResponse }
-            if let error = TalkError.status(response.statusCode) { throw error }
+            if response.statusCode != 200 {
+                var errorBody = Data()
+                if response.statusCode == 403 {
+                    for try await byte in bytes { guard errorBody.count < 16 * 1024 else { break }; errorBody.append(byte) }
+                }
+                throw TalkError.from(status: response.statusCode, body: errorBody) ?? .interrupted
+            }
             guard response.value(forHTTPHeaderField: "Content-Type")?.lowercased().hasPrefix("text/event-stream") == true else { throw TalkError.invalidResponse }
             var parser = TalkSSEParser(), line = Data(), count = 0
             // Byte framing caps even an unterminated line; AsyncBytes.lines has no line-size limit.

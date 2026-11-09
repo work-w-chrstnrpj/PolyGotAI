@@ -1,18 +1,70 @@
 import Foundation
 
-/// Review evidence belongs to this exact workspace/models, and expires. No UI switch can grant it.
+/// Review evidence belongs to this exact workspace and these ranked model lists, and expires. No UI switch can grant it.
+/// ADR-0013: `asrModels` and `coachingModels` are tried in order; the older single `asrModel`/`coachingModel` form still decodes.
 struct ProviderVerification: Codable {
     let workspace: String
-    let asrModel: String
-    let coachingModel: String
+    let asrModels: [String]
+    let coachingModels: [String]
     let validUntil: Date
     let directNativePermissionVerified: Bool
     let quotaProtectionVerified: Bool
     let retentionDisclosure: String
     let evidenceReference: String
 
+    init(workspace: String, asrModels: [String], coachingModels: [String], validUntil: Date,
+         directNativePermissionVerified: Bool, quotaProtectionVerified: Bool, retentionDisclosure: String, evidenceReference: String) {
+        self.workspace = workspace; self.asrModels = asrModels; self.coachingModels = coachingModels; self.validUntil = validUntil
+        self.directNativePermissionVerified = directNativePermissionVerified; self.quotaProtectionVerified = quotaProtectionVerified
+        self.retentionDisclosure = retentionDisclosure; self.evidenceReference = evidenceReference
+    }
+
+    /// One model per job, as fixtures and the first proof used.
+    init(workspace: String, asrModel: String, coachingModel: String, validUntil: Date,
+         directNativePermissionVerified: Bool, quotaProtectionVerified: Bool, retentionDisclosure: String, evidenceReference: String) {
+        self.init(workspace: workspace, asrModels: [asrModel], coachingModels: [coachingModel], validUntil: validUntil,
+                  directNativePermissionVerified: directNativePermissionVerified, quotaProtectionVerified: quotaProtectionVerified,
+                  retentionDisclosure: retentionDisclosure, evidenceReference: evidenceReference)
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case workspace, asrModels, coachingModels, asrModel, coachingModel, validUntil
+        case directNativePermissionVerified, quotaProtectionVerified, retentionDisclosure, evidenceReference
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        func list(_ many: CodingKeys, _ one: CodingKeys) throws -> [String] {
+            if let models = try c.decodeIfPresent([String].self, forKey: many) { return models }
+            return try c.decodeIfPresent(String.self, forKey: one).map { [$0] } ?? []
+        }
+        self.init(workspace: try c.decode(String.self, forKey: .workspace),
+                  asrModels: try list(.asrModels, .asrModel), coachingModels: try list(.coachingModels, .coachingModel),
+                  validUntil: try c.decode(Date.self, forKey: .validUntil),
+                  directNativePermissionVerified: try c.decode(Bool.self, forKey: .directNativePermissionVerified),
+                  quotaProtectionVerified: try c.decode(Bool.self, forKey: .quotaProtectionVerified),
+                  retentionDisclosure: try c.decode(String.self, forKey: .retentionDisclosure),
+                  evidenceReference: try c.decode(String.self, forKey: .evidenceReference))
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var c = encoder.container(keyedBy: CodingKeys.self)
+        try c.encode(workspace, forKey: .workspace)
+        try c.encode(asrModels, forKey: .asrModels); try c.encode(coachingModels, forKey: .coachingModels)
+        try c.encode(validUntil, forKey: .validUntil)
+        try c.encode(directNativePermissionVerified, forKey: .directNativePermissionVerified)
+        try c.encode(quotaProtectionVerified, forKey: .quotaProtectionVerified)
+        try c.encode(retentionDisclosure, forKey: .retentionDisclosure); try c.encode(evidenceReference, forKey: .evidenceReference)
+    }
+
+    /// The ranked models for a job, first choice first.
+    func models(for stage: SpeakingRequestStage) -> [String] { stage == .transcription ? asrModels : coachingModels }
+
     func permits(_ scope: ProviderScope, now: Date = .now) -> Bool {
-        workspace == scope.workspace && asrModel == "qwen3-asr-flash" && coachingModel == "qwen-flash"
+        func valid(_ models: [String]) -> Bool {
+            (1...32).contains(models.count) && Set(models).count == models.count && models.allSatisfy(ProviderModelID.isValid)
+        }
+        return workspace == scope.workspace && valid(asrModels) && valid(coachingModels)
             && validUntil > now && directNativePermissionVerified && quotaProtectionVerified
             && !retentionDisclosure.isEmpty && !evidenceReference.isEmpty
     }
@@ -28,8 +80,25 @@ enum SpeakingRequestStage { case transcription, coaching }
 enum SpeakingProviderError: Error {
     case verificationRequired, credentialMissing, unauthorized, quotaExhausted, rateLimited
     case offline, unknownOutcome, invalidResponse, unavailable, cancelled
+    /// One model's free quota is used up (403 `AllocationQuota.FreeTierOnly`). Routing moves on to the next model;
+    /// it reaches the learner only as `quotaExhausted` once the list is spent.
+    case freeQuotaExhausted
+
+    /// Maps a non-200 status. Only a 403 whose body carries the free-quota code is `freeQuotaExhausted`; a plain 403 is a key problem.
+    static func from(status: Int, body: Data) -> SpeakingProviderError {
+        switch status {
+        case 403 where FreeTierOnlyReply.matches(body): .freeQuotaExhausted
+        case 401, 403: .unauthorized
+        case 402: .quotaExhausted
+        case 429: .rateLimited
+        case 300...399: .invalidResponse
+        default: .unavailable
+        }
+    }
+
     var message: String {
         switch self {
+        case .freeQuotaExhausted: SpeakingProviderError.quotaExhausted.message
         case .verificationRequired: "Online coaching is awaiting account, quota and data-policy verification. You can finish self-review offline."
         case .credentialMissing: "Add your provider key in Settings. Your local take is kept."
         case .unauthorized: "The provider did not authorize this key. Check it in Settings; your practice is kept."
@@ -76,7 +145,7 @@ final class SpeakingProviderClient: SpeakingProvider {
         guard verification?.permits(scope) == true else { throw SpeakingProviderError.verificationRequired }
         guard body.count <= 6 * 1024 * 1024,
               let object = try? JSONSerialization.jsonObject(with: body) as? [String: Any],
-              object["model"] as? String == (stage == .transcription ? "qwen3-asr-flash" : "qwen-flash"),
+              let model = object["model"] as? String, verification?.models(for: stage).contains(model) == true,
               object["stream"] as? Bool == false else { throw SpeakingProviderError.invalidResponse }
         guard let keyData = try credentials.credential(scope: scope), let key = String(data: keyData, encoding: .utf8) else {
             throw SpeakingProviderError.credentialMissing
@@ -92,13 +161,16 @@ final class SpeakingProviderClient: SpeakingProvider {
         do {
             let (stream, response) = try await session.bytes(for: request)
             guard let response = response as? HTTPURLResponse, response.url == scope.endpoint else { throw SpeakingProviderError.invalidResponse }
-            switch response.statusCode {
-            case 200: break
-            case 401, 403: throw SpeakingProviderError.unauthorized
-            case 402: throw SpeakingProviderError.quotaExhausted
-            case 429: throw SpeakingProviderError.rateLimited
-            case 300...399: throw SpeakingProviderError.invalidResponse
-            default: throw SpeakingProviderError.unavailable
+            if response.statusCode != 200 {
+                // Only a 403 body is read, and only far enough to find the free-quota code.
+                var errorBody = Data()
+                if response.statusCode == 403 {
+                    for try await byte in stream {
+                        guard errorBody.count < 16 * 1024 else { break }
+                        errorBody.append(byte)
+                    }
+                }
+                throw SpeakingProviderError.from(status: response.statusCode, body: errorBody)
             }
             guard response.expectedContentLength <= 256 * 1024 else { throw SpeakingProviderError.invalidResponse }
             var data = Data()

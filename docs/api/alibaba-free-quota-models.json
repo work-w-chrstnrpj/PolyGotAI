@@ -1,0 +1,57 @@
+{
+  "source": "https://modelstudio.console.alibabacloud.com/ap-southeast-1/costing-balance/free-quota",
+  "region": "ap-southeast-1 (Singapore); free quota is shared by all Singapore workspaces only",
+  "endpoint": "https://<workspace>.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "capturedAt": "2026-11-09",
+  "exhaustedError": {
+    "httpStatus": 403,
+    "code": "AllocationQuota.FreeTierOnly",
+    "note": "Returned when Stop-on-Exhaust (Free Only) is on and the model's free quota is used up. Not 402."
+  },
+  "priority": {
+    "text-chat-json": [
+      "qwen-flash",
+      "qwen3.5-flash",
+      "qwen3.6-flash",
+      "qwen3.7-flash",
+      "qwen3.8-flash",
+      "qwen-flash-2025-07-28",
+      "qwen-plus",
+      "qwen3.5-plus",
+      "qwen3.6-plus",
+      "qwen3.7-plus",
+      "qwen-plus-latest",
+      "qwen-max",
+      "qwen3.7-max"
+    ],
+    "speech-to-text-short": [
+      "qwen3-asr-flash",
+      "qwen-audio-3.0-asr-flash",
+      "qwen-audio-3.1-asr-flash",
+      "fun-asr-flash-2026-06-15"
+    ],
+    "speech-to-text-realtime": [
+      "qwen3-asr-flash-realtime",
+      "qwen-audio-3.1-asr-flash-streaming",
+      "qwen-audio-3.0-asr-flash-streaming",
+      "fun-asr-realtime"
+    ],
+    "text-to-speech": [
+      "qwen3-tts-flash",
+      "qwen-audio-3.0-tts-flash",
+      "qwen-audio-3.1-tts-flash",
+      "cosyvoice-v3-flash",
+      "cosyvoice-v3-plus"
+    ],
+    "translation": [
+      "qwen-mt-flash",
+      "qwen-mt-lite",
+      "qwen-mt-plus"
+    ],
+    "embedding": [
+      "text-embedding-v4",
+      "text-embedding-v3",
+      "qwen3.7-text-embedding"
+    ]
+  }
+}

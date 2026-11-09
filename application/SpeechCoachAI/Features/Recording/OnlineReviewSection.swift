@@ -61,7 +61,7 @@ struct OnlineReviewSection: View {
                         Text(online.disclosure)
                         Text(stage == .transcription ? "Only the selected voice recording and language option are sent. Your local original stays here." : "Only confirmed text, the frozen task/objective and coaching choices are sent. Your audio and full history are not sent for text coaching.")
                         if stage == .coaching, let text = online.currentConfirmed?.text { Text(text).padding().background(Kit.soft).textSelection(.enabled) }
-                        Text("Your provider account may be charged. Each retry is a new request. A timeout or cancellation can leave the billing outcome unknown. There is no automatic retry or paid fallback.")
+                        Text("Your provider account may be charged. Each retry is a new request. A timeout or cancellation can leave the billing outcome unknown. If a model's free quota runs out, the same request goes to the next free model on your list. There is no paid fallback.")
                         if online.canSubmit {
                             Button(stage == .transcription ? "Send voice for transcription" : "Send text for coaching") {
                                 showSubmission = false; online.submit(stage)

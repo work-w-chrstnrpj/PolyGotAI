@@ -10,14 +10,16 @@ final class OnlinePracticeController {
     var hintsOnly = false
     var expanded = false
     private let provider: any SpeakingProvider
+    private let ledger: FreeQuotaLedger
     private let scopeOverride: ProviderScope?
     private var repository: LearnerRepository?
     private var task: Task<Void, Never>?
     private var generation = UUID()
     private var activeRequest: (UUID, CallbackToken)?
 
-    init(provider: any SpeakingProvider = SpeakingEnvironment.provider, scope: ProviderScope? = SpeakingEnvironment.fixtureScope) {
-        self.provider = provider; scopeOverride = scope
+    init(provider: any SpeakingProvider = SpeakingEnvironment.provider, scope: ProviderScope? = SpeakingEnvironment.fixtureScope,
+         ledger: FreeQuotaLedger = .shared) {
+        self.provider = provider; scopeOverride = scope; self.ledger = ledger
     }
     var scope: ProviderScope? { scopeOverride ?? (try? ProviderCredentialStore().configuredScope()) }
     var canSubmit: Bool {
@@ -65,46 +67,58 @@ final class OnlinePracticeController {
         task = Task { [weak self] in
             guard let self else { return }
             do {
+                // ADR-0013: each ranked model is its own request record. Only a free-quota reply moves on to the next model.
                 let fresh = try repository.attempt(attempt.id)
                 let body: Data
-                let prepared: CallbackToken
+                let confirmed: TranscriptSnapshot?
                 if stage == .transcription {
-                    body = try ASRPreparation(original: repository.recordingURL(fresh.id)).requestBody
-                    prepared = try repository.prepareTranscription(fresh.id, expectedVersion: fresh.version,
-                        model: "qwen3-asr-flash", region: "Singapore")
+                    body = try ASRPreparation(original: repository.recordingURL(fresh.id)).requestBody; confirmed = nil
                 } else {
-                    guard let confirmed = fresh.transcripts.last(where: { $0.kind == .learnerConfirmed }) else {
+                    guard let current = fresh.transcripts.last(where: { $0.kind == .learnerConfirmed }) else {
                         throw LearnerStorageError.invalidReference
                     }
-                    body = try CoachingPreparation(attempt: fresh, confirmed: confirmed, hintsOnly: requestedHints, expanded: requestedExpanded).body
-                    prepared = try repository.prepareCoaching(fresh.id, transcriptID: confirmed.id,
-                        expectedVersion: fresh.version, model: "qwen-flash", region: "Singapore")
+                    body = try CoachingPreparation(attempt: fresh, confirmed: current, hintsOnly: requestedHints, expanded: requestedExpanded).body
+                    confirmed = current
                 }
-                let pending = try repository.attempt(fresh.id)
-                guard let request = pending.requests.last else { throw LearnerStorageError.invalidState }
-                activeRequest = (request.id, prepared)
-                try Task.checkCancellation()
-                let sent = try repository.transitionRequest(request.id, status: .sent, token: prepared)
-                activeRequest = (request.id, sent)
-                let response = try await provider.send(body: body, scope: scope, stage: stage)
-                try Task.checkCancellation()
-                guard generation == run else { return }
-                if stage == .transcription {
-                    let result = try ASRRecognition(response: response, expectedModel: "qwen3-asr-flash")
-                    self.attempt = try repository.completeTranscription(result, requestID: request.id, token: sent)
-                    editedText = original?.text ?? ""
-                    message = "Recognition can miss words. Review and confirm the text before coaching."
-                } else {
-                    guard let transcript = pending.transcripts.last(where: { $0.kind == .learnerConfirmed }) else {
-                        throw LearnerStorageError.invalidReference
+                var answered = false
+                for model in ledger.available(provider.rankedModels(for: stage, body: body)) {
+                    let latest = try repository.attempt(fresh.id)
+                    let prepared = stage == .transcription
+                        ? try repository.prepareTranscription(latest.id, expectedVersion: latest.version, model: model, region: "Singapore")
+                        : try repository.prepareCoaching(latest.id, transcriptID: confirmed!.id, expectedVersion: latest.version, model: model, region: "Singapore")
+                    let pending = try repository.attempt(fresh.id)
+                    guard let request = pending.requests.last else { throw LearnerStorageError.invalidState }
+                    activeRequest = (request.id, prepared)
+                    try Task.checkCancellation()
+                    let sent = try repository.transitionRequest(request.id, status: .sent, token: prepared)
+                    activeRequest = (request.id, sent)
+                    let response: Data
+                    do { response = try await provider.send(body: try ProviderModelID.body(body, model: model), scope: scope, stage: stage) }
+                    catch SpeakingProviderError.freeQuotaExhausted {
+                        ledger.markSpent(model)
+                        _ = try repository.transitionRequest(request.id, status: .failed, token: sent)
+                        activeRequest = nil
+                        continue
                     }
-                    let result = try ProviderCompletionContent(response: response, expectedModel: "qwen-flash", maximumScalars: 60_000)
-                    let validated = try ValidatedCoachingContent(response: Data(result.text.utf8), confirmed: transcript,
-                        expanded: requestedExpanded, hintsOnly: requestedHints)
-                    self.attempt = try repository.completeCoaching(validated, requestID: request.id,
-                        rubricVersion: "recorded-feedback-v1", token: sent)
-                    message = "Text coaching is ready."
+                    try Task.checkCancellation()
+                    guard generation == run else { return }
+                    if stage == .transcription {
+                        let result = try ASRRecognition(response: response, expectedModel: model)
+                        self.attempt = try repository.completeTranscription(result, requestID: request.id, token: sent)
+                        editedText = original?.text ?? ""
+                        message = "Recognition can miss words. Review and confirm the text before coaching."
+                    } else {
+                        let result = try ProviderCompletionContent(response: response, expectedModel: model, maximumScalars: 60_000)
+                        let validated = try ValidatedCoachingContent(response: Data(result.text.utf8), confirmed: confirmed!,
+                            expanded: requestedExpanded, hintsOnly: requestedHints)
+                        self.attempt = try repository.completeCoaching(validated, requestID: request.id,
+                            rubricVersion: "recorded-feedback-v1", token: sent)
+                        message = "Text coaching is ready."
+                    }
+                    answered = true
+                    break
                 }
+                guard answered else { throw SpeakingProviderError.quotaExhausted }
                 activeRequest = nil; isBusy = false; task = nil
             } catch {
                 guard generation == run else { return }

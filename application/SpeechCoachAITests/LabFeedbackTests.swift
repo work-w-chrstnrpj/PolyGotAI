@@ -144,6 +144,8 @@ struct LabFeedbackTests {
 
     // MARK: Transcription and saved results
 
+    private let asrRequestBody = Data(#"{"model":"qwen3-asr-flash","stream":false}"#.utf8)
+
     private func asrEnvelope(_ text: String, model: String = "qwen3-asr-flash") -> Data {
         let object: [String: Any] = ["model": model, "choices": [["index": 0, "finish_reason": "stop", "message": ["role": "assistant", "content": text]]]]
         return try! JSONSerialization.data(withJSONObject: object)
@@ -156,17 +158,17 @@ struct LabFeedbackTests {
     @Test func aRecordingBecomesTextOnlyWithTheRecordingLine() async throws {
         let provider = FakeProvider(reply: asrEnvelope("  Yesterday I go to the market.  "))
         let service = LabFeedbackService(provider: provider, scope: scope)
-        let text = try await service.transcribe(body: Data("{}".utf8), mode: .speaking, consent: audioConsent())
+        let text = try await service.transcribe(body: asrRequestBody, mode: .speaking, consent: audioConsent())
         #expect(text == "Yesterday I go to the market.")
-        await #expect(throws: LabFeedbackError.consentRequired) { try await service.transcribe(body: Data("{}".utf8), mode: .speaking, consent: consent()) }
-        await #expect(throws: LabFeedbackError.consentRequired) { try await service.transcribe(body: Data("{}".utf8), mode: .speaking, consent: nil) }
+        await #expect(throws: LabFeedbackError.consentRequired) { try await service.transcribe(body: asrRequestBody, mode: .speaking, consent: consent()) }
+        await #expect(throws: LabFeedbackError.consentRequired) { try await service.transcribe(body: asrRequestBody, mode: .speaking, consent: nil) }
         #expect(provider.sent.count == 1)
     }
 
     @Test func aBadTranscriptionReplyIsRejected() async {
         for reply in [asrEnvelope("text", model: "other"), asrEnvelope("   "), Data("nope".utf8)] {
             let service = LabFeedbackService(provider: FakeProvider(reply: reply), scope: scope)
-            await #expect(throws: LabFeedbackError.invalidResponse) { try await service.transcribe(body: Data("{}".utf8), mode: .speaking, consent: audioConsent()) }
+            await #expect(throws: LabFeedbackError.invalidResponse) { try await service.transcribe(body: asrRequestBody, mode: .speaking, consent: audioConsent()) }
         }
     }
 

@@ -2,6 +2,8 @@
 
 > **v2 note (2026-10-25):** kept for online AI coaching, which is now Phase 6 in the [development plan](../development-plan/development-plan.md). Sections that mention v1 tickets, Speech Lab trainers or delivery groups are history; see [history-version.md](../history-version.md).
 
+> **Ranked models (2026-11-09):** [ADR-0013](../adr/0013-ranked-free-quota-models-with-fallback.md) supersedes this report's earlier model-switching rule for one case. A verified request can move to the next configured model after the provider returns HTTP 403 with `AllocationQuota.FreeTierOnly`.
+
 > Status: IN_PROGRESS
 > Refreshed 2026-10-21. Candidate selected for later proof; provider calls, account configuration and native-device proof NOT_RUN. This is not evidence of a working integration.
 

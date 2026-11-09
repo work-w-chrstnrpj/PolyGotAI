@@ -88,11 +88,13 @@ struct LabFeedback: Codable, Equatable {
     var strengths: [String]
     var improvements: [Improvement]
     var nextStep: String
+    /// The model that answered (#10). Older saved feedback has none.
+    var model: String?
 
-    /// Accepts a chat-completions response only when the envelope, the exact keys, the limits and the quoted evidence all hold.
-    init(response: Data, transcript: String) throws {
+    /// Accepts a chat-completions response only when the envelope (from `model`), the exact keys, the limits and the quoted evidence all hold.
+    init(response: Data, transcript: String, model: String = LabFeedbackService.model) throws {
         let content: ProviderCompletionContent
-        do { content = try ProviderCompletionContent(response: response, expectedModel: LabFeedbackService.model, maximumScalars: 8_000) }
+        do { content = try ProviderCompletionContent(response: response, expectedModel: model, maximumScalars: 8_000) }
         catch { throw LabFeedbackError.invalidResponse }
         guard let data = content.text.data(using: .utf8), let raw = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
               Set(raw.keys) == ["summary", "strengths", "improvements", "nextStep", "speechAssessmentStatus"],
@@ -113,6 +115,7 @@ struct LabFeedback: Codable, Equatable {
             improvements.append(Improvement(quote: quote, tip: tip, retry: retry))
         }
         self.summary = summary; self.strengths = strengths; self.improvements = improvements; self.nextStep = nextStep
+        self.model = model
     }
 }
 
@@ -146,14 +149,18 @@ struct LabFeedbackConsent: Equatable {
 }
 
 final class LabFeedbackService {
+    /// The first-choice text model, written into request bodies. Routing replaces it with each model on the ranked list (ADR-0013).
     static let model = "qwen-flash"
+    static let asrModel = "qwen3-asr-flash"
     let provider: SpeakingProvider
     let scope: ProviderScope
+    let ledger: FreeQuotaLedger
     var busy = false
 
-    init(provider: SpeakingProvider, scope: ProviderScope) {
+    init(provider: SpeakingProvider, scope: ProviderScope, ledger: FreeQuotaLedger = .shared) {
         self.provider = provider
         self.scope = scope
+        self.ledger = ledger
     }
 
     /// True only with bundled review evidence for this workspace. Without it the feature stays hidden.
@@ -166,7 +173,7 @@ final class LabFeedbackService {
         guard variants.contains(consent.disclosure) else { throw LabFeedbackError.consentRequired }
     }
 
-    /// Turns a recording into text with `qwen3-asr-flash`. The learner reads and may correct the text before asking for feedback.
+    /// Turns a recording into text with the first speech-to-text model that still has free quota. The learner reads and may correct the text before asking for feedback.
     /// Needs a consent made from the recording line. One request, no retry.
     func transcribe(audioAt url: URL, mode: LabFeedbackMode, consent: LabFeedbackConsent?) async throws -> String {
         try Self.requireConsent(consent, mode: mode, audio: true)
@@ -182,19 +189,19 @@ final class LabFeedbackService {
         guard !busy else { throw LabFeedbackError.busy }
         busy = true
         defer { busy = false }
-        let response = try await provider.send(body: body, scope: scope, stage: .transcription)
-        do { return try ASRRecognition(response: response, expectedModel: "qwen3-asr-flash").text.trimmingCharacters(in: .whitespacesAndNewlines) }
+        let reply = try await provider.sendRouted(body: body, scope: scope, stage: .transcription, ledger: ledger)
+        do { return try ASRRecognition(response: reply.data, expectedModel: reply.model).text.trimmingCharacters(in: .whitespacesAndNewlines) }
         catch { throw LabFeedbackError.invalidResponse }
     }
 
-    /// One request, no retry, no fallback. The learner chooses whether to ask again.
+    /// One request. It moves to the next ranked model only when free quota runs out (ADR-0013); no other retry.
     func feedback(for request: LabFeedbackRequest, consent: LabFeedbackConsent?) async throws -> LabFeedback {
         try Self.requireConsent(consent, mode: request.mode)
         let body = try request.body()
         guard !busy else { throw LabFeedbackError.busy }
         busy = true
         defer { busy = false }
-        let response = try await provider.send(body: body, scope: scope, stage: .coaching)
-        return try LabFeedback(response: response, transcript: request.transcript)
+        let reply = try await provider.sendRouted(body: body, scope: scope, stage: .coaching, ledger: ledger)
+        return try LabFeedback(response: reply.data, transcript: request.transcript, model: reply.model)
     }
 }
