@@ -49,7 +49,7 @@ Update this map whenever the project structure changes.
 - `tools/native/verify.sh`: build and run all tests. `tools/curriculum/`: content authoring and validation scripts. `tools/figma-local-helper/`: Figma plugin for the design kit (not app code).
 - `assets/awards/v1/`: adopted award artwork.
 - `docs/`: current docs (index: `docs/README.md`); `docs/history/v1/` holds archived v1 tickets, milestones, evidence and old specs (reference only).
-- `.agents/`, `.ai/`, `.codex/`: reusable AI roles, skills, maps and Codex adapters from the external preset.
+- `.agents/`, `.ai/`, `.claude/`, `.codex/`, `tickets/`: engr-toolbox roles, skills, maps, ticket board and generated adapters.
 
 ## Core Operating Rules
 
@@ -74,7 +74,7 @@ Update this map whenever the project structure changes.
 ## Documentation Rules
 
 - **Append a log entry** to `Claude-Codex-Cursor-conversation.md` after every change set; never edit old entries.
-- Keep `docs/development-plan/development-plan.md` as the single tracker. Update its status table when a phase changes state. Don't create new ticket IDs.
+- **Workflow (owner decision 2026-11-08): the engr-toolbox is the main workflow.** Work is tracked as tickets in `tickets/` (see `tickets/README.md`; skills `/to-tickets`, `/implement`, `/triage`, `/diagnosing-bugs`, `/update-docs`), and every ticket ends with evidence and a docs update (`/update-docs`; check with `node .ai/cli/bin/cli.mjs validate`). Reference the ticket ID in commits. `docs/development-plan/development-plan.md` stays the phase roadmap, and the shared log stays the agent handoff record; keep their status tables current. Existing phase work is not re-ticketed.
 - Update the product spec, coach-tracks, Speech Lab, TDD, data-model and test docs when behavior or architecture changes. Claude owns docs; Codex lists doc impacts in its report.
 - Handoffs and reports stay under one page. Evidence = test summary + a few screenshots in the phase folder.
 - Record each future change of direction in `docs/history-version.md`.
@@ -97,15 +97,14 @@ Update this map whenever the project structure changes.
 
 ## Canonical AI Structure
 
-Canonical reusable AI assets live in `.agents/`:
+The engr-toolbox is the canonical source (owner decision 2026-11-08). Edit `.agents/` first, then run `node .ai/cli/bin/cli.mjs sync` and `node .ai/cli/bin/cli.mjs validate`:
 
-- `.agents/roles/`: 6 role owners selected by the fullstack profile.
-- `.agents/skills/`: reusable workflow skills only.
-- `.agents/overlays/`: Mentor and Coach overlays.
-- `.agents/workflows/`: multi-role workflows.
-- `.agents/tools/`: context, verification, adapter, and tool policies.
+- `.agents/roles/`: 5 roles (Architect, Builder, QA, SDET, Reviewer).
+- `.agents/skills/`: workflow skills (`/to-tickets`, `/implement`, `/diagnosing-bugs`, `/update-docs`, `/code-review` and more). List them with `node .ai/cli/bin/cli.mjs`.
+- `.agents/workflows/`, `.agents/overlays/`: multi-role workflows and Mentor/Coach style.
+- `.ai/`: maps and the toolbox CLI. `tickets/`: the board.
 
-Tool-specific folders are generated adapters, not source of truth. Update canonical files first. The preset generator is maintained in `/Users/chrixcrusher/Documents/Projects/ai-project-structure-template`; its CLI is not installed in this project. Review template updates before synchronizing, because synchronization can refresh managed canonical assets. See `docs/commands/commands.md` for the external generator commands.
+`.claude/` and `.codex/agents/` are generated adapters, not the source. The old external preset generator is no longer used.
 
 ## Overlay Usage
 
@@ -121,22 +120,17 @@ Examples:
 
 ## AI Role Usage Guide
 
-Six installed role prompts live in `.agents/roles/`; current generated adapters live under `.codex/agents/`. Planning, deployment and security responsibilities require coordination with available owners; additional specialist roles are not installed.
+Roles live in `.agents/roles/` (routing table: `.ai/maps/agent-map.md`).
 
-- Software Engineer: general coding, fullstack implementation, end-to-end features, refactoring, and integration.
-- System Architect: architecture, module boundaries, dataflow, and technical risk.
-- Frontend UI/UX Developer: UI, routing, state, accessibility, client behavior, and frontend tests.
-- Backend & Database Engineer: APIs, services, validation, auth, persistence, integrations, jobs, queues, and data ingestion.
-- SQA Engineer: test plans, manual cases, automated tests, regressions, acceptance verification, and bug reports.
-- Technical Documentation Specialist: README, API docs, setup, onboarding, operations, workflow, integration, and changelog docs.
+- Architect: design tickets, boundaries, data model, ADRs.
+- Builder: implements tickets test-first across UI, domain, persistence and docs.
+- QA: manual, acceptance and regression testing; bug reports.
+- SDET: test automation, strategy, flaky tests, CI test stages.
+- Reviewer: read-only review of a diff.
 
 ## Skill Usage Guide
 
-Create or keep a standalone skill only when it defines a reusable workflow with clear inputs, steps, boundaries, and outputs.
-
-Do not create standalone skills for every role capability. Put domain-specific capability guidance inside the owning role file under `Embedded Capability Playbooks` or reference playbooks.
-
-Reusable skills live in `.agents/skills/`. Tool-specific skill copies are generated for Claude, Cursor, GitHub Copilot, OpenCode, and Windsurf; Codex and Antigravity use `.agents/skills/` directly. Choose the smallest skill that matches the task, then read exact source files before editing.
+Skills live in `.agents/skills/`, one reusable workflow each. Choose the smallest skill that matches the task, then read exact source files before editing. Claude, Cursor, Copilot, OpenCode and Windsurf use generated copies; Codex uses `.agents/skills/` directly.
 
 ## Verification Commands
 
@@ -146,10 +140,10 @@ Main check (builds the app and runs all unit and UI tests; see `docs/commands/co
 bash tools/native/verify.sh 7535AD2C-F655-4F05-8C36-FE5E0A614902
 ```
 
-Claude's parallel lane uses the iPhone 18 Pro Max simulator and `application/.build/ClaudeDerivedData`, so the two lanes never share a simulator or DerivedData. External preset validation checks only the AI folder structure:
+Claude's parallel lane uses the iPhone 18 Pro Max simulator and `application/.build/ClaudeDerivedData`, so the two lanes never share a simulator or DerivedData. Toolbox validation checks only the AI folder structure, maps and tickets:
 
 ```sh
-node /Users/chrixcrusher/Documents/Projects/ai-project-structure-template/bin/create-preset.mjs validate --into /Users/chrixcrusher/Documents/Projects/SpeechCoachAI
+node .ai/cli/bin/cli.mjs validate
 ```
 
 Design helper checks (not app behavior):

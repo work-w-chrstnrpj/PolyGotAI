@@ -1,10 +1,10 @@
-# SpeechCoachAI Testing Map
+# PolyGotAI Testing Map
 
-Project-owned discovery map, adopted 2026-10-15.
-
-- `docs/testing/test-specification.md`: primary context.
-- `docs/commands/commands.md`: related intent.
-
-Acceptance scenarios are planned. No app tests or runner exist; preset validation is separate from functional acceptance.
-
-Read exact files; this map is navigation, not implementation truth. Update with real source paths when code exists.
+- Unit and integration (Swift Testing, hosted) → `application/SpeechCoachAITests/`
+- UI (XCUITest) → `application/SpeechCoachAIUITests/`
+- Build and run everything → `tools/native/verify.sh <simulator-uuid>`
+- Screen copy rules → `tools/native/copy-audit.sh`
+- Content validation scripts → `tools/curriculum/`
+- Content tests → `application/SpeechCoachAITests/CourseContentTests.swift`, `TrackContentTests.swift`, `LexiconTests.swift`
+- Manual cases and runs → `qa/`
+- Docs → `docs/testing/test-specification.md`

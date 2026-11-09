@@ -119,3 +119,8 @@ The owner judged the app a flop (poor design, v1 leftovers, a Lab that trains li
 ### 2026-11-01 — PolyGotAI name and speaking icon
 
 The owner renamed the app **PolyGotAI** and selected one cream speech bubble on teal with six centered waveform bars, the last gold (A1–C2). The native `Resources/PolyGotAI.icon` document has separate foreground layers and dark/tinted annotations. The display name and primary icon are connected in Debug/Release; sidebar and resource-screen references use the new name. The existing bundle identifier, Xcode target/scheme, storage and keychain identities stay compatible. This is a branding change; the English-learning scope and existing learner data are retained. [Branding source](../assets/branding/polygotai/README.md).
+
+
+### 2026-11-08 — engr-toolbox is the main workflow; iPad bottom bar only
+
+The owner made the engr-toolbox the main workflow, roles and skills (tickets, evidence, `/update-docs`) and retired the six roles from the earlier external preset. After an untappable landscape sidebar on iPad A16, the owner chose the bottom tab bar in both orientations and larger badges. See [ADR-0008](adr/0008-engr-toolbox-as-main-workflow.md) and [ADR-0009](adr/0009-ipad-bottom-tab-bar-only.md).

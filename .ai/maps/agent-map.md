@@ -1,14 +1,13 @@
 # SpeechCoachAI Agent Map
 
-Project-owned routing for the six installed roles.
+Project-owned routing for the engr-toolbox roles (the main roles since 2026-11-08).
 
 | Task | Owner |
 | --- | --- |
-| Cross-feature implementation and scope coordination | Software Engineer |
-| Architecture, dependencies and risk | System Architect |
-| Presentation, accessibility and client behavior | Frontend UI/UX Developer |
-| Online contracts, providers and persistence | Backend & Database Engineer |
-| Acceptance, tests and regressions | SQA Engineer |
-| Project documentation and onboarding | Technical Documentation Specialist |
+| Design: boundaries, data model, flows, API, ADRs | Architect |
+| Implementation across UI, domain, persistence and docs, test-first | Builder |
+| Manual, exploratory, acceptance and regression testing; bug reports | QA |
+| Automation, test strategy, CI test pipelines, flaky tests | SDET |
+| Read-only review of a diff against standards, spec and ADRs | Reviewer |
 
-Planning/security/deployment responsibilities require coordination; additional specialist role files are not installed. Use the smallest matching skill from `.agents/skills/`; Mentor/Coach overlays change style only. `.codex/agents/` is the current generated adapter. External preset maintenance commands are in `docs/commands/commands.md`; no local sync CLI exists. Product work begins with AGENTS.md, TDD and the matching plan item.
+Use the smallest matching skill from `.agents/skills/`; Mentor/Coach overlays change style only. Work is tracked in `tickets/`. `.claude/` and `.codex/agents/` are generated adapters: edit `.agents/`, then run `node .ai/cli/bin/cli.mjs sync`. Product work begins with AGENTS.md, TDD and the matching ticket or plan item.
